@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layman>
+    <overlay name="perl-gcpan-overlay" quality="experimental" status="unofficial"
+        type="git" src="git://software.struct.it/perl-overlay/">
+        <description>Perl overlay with auto-generated ebuilds by g-cpan</description>
+    </overlay>
+</layman>
