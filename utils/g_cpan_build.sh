@@ -5,6 +5,7 @@ cd $DIR
 
 export GCPAN_CAT="dev-perl"
 
-cat data/modules | while read m; do
-	g-cpan -g $m 2>&1 | tee -a logs/$m.log
+cat data/packages | while read m; do
+	s=`echo $m | sed "s@[/.]*@_@g"`
+	timeout 120s g-cpan -g $m 2>&1 | tee -a logs/$s.log
 done;
