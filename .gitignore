@@ -1,2 +1,3 @@
 *.swp
 utils/logs/
+utils/cpan_mirror/
