@@ -3,11 +3,15 @@
 use File::Find;
 use File::Slurp;
 use Data::Dumper;
-use Gentoo::CPAN;
+use Gentoo;
+use Gentoo::CPAN::Object;
+use YAML::XS qw/DumpFile/;
 
 our $folder = "cpan_mirror";
+our $output = "data/versions";
 
-our $cpan = Gentoo::CPAN->new;
+our $g = Gentoo->new;
+our $db = {};
 
 find({
 	wanted => sub {
@@ -23,6 +27,18 @@ find({
 	},
 	no_chdir => 1,
 }, $folder);
+	
+foreach my $package_name (keys %$db){
+	$db->{$package_name} = [
+		sort {
+			$a->{d} <=> $b->{d} ||
+			$a->{v} cmp $b->{v}
+		}
+		@{ $db->{$package_name} }
+	];
+}
+
+DumpFile($output, $db);
 
 sub process_checksums {
 	my ($checksums) = @_;
@@ -46,30 +62,16 @@ sub process_checksums {
 	}	
 	
 	foreach my $item (@items){
-		my $basename = $item->{name};
-		$basename =~ s/\.(tgz|zip|rar|bz2|gz|tar\.(gz|bz2|xz)|tar)$//g;
-		$basename =~ s/[._-]+$//g;
+		my $co = Gentoo::CPAN::Object->new({
+			parent => $g,
+			_cpan_info => {
+				src_uri => $item->{name},
+			},
+		});
 		
-		$basename =~ s/-undef//g;
-		$basename =~ s/\+d//g;
-		$basename =~ s/[._-]?(gnuplot_required|withoutworldwriteables|no-world-writable|changelog_in_manifest|fixedmanifest)$//;
-		
-		my @r;
-		
-		if(($basename =~ /[a-f0-9]{32,40}/i)){
-			@r = (undef, $item->{mtime});
-		}elsif(($basename !~ /\d/)){
-			@r = ($basename, $item->{mtime});
-		}elsif(($basename =~ /^(metaperl-dbix-dbh|Mica|Spreadsheet-WriteExcel-WebPivot2)/i)){
-			@r = ($1, $item->{mtime})
-		}elsif(
-			(@r = ($basename =~ /(.*)[-_]v?([\d.]+[-_]?[[:alnum:]_]*)$/)) ||
-			(@r = ($basename =~ /(.*)\.([\d.]+)$/))
-		){
-		}
-		my ($package, $version) = @r;
-		my $mtime = $item->{mtime};
-		
-		print "${package}\t${version}\t${mtime}\n";
+		push @{ $db->{$co->package_name} }, {
+			d => $item->{mtime},
+			v => $co->package_version,
+		};
 	}
 }
