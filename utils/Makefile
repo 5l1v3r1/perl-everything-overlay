@@ -20,7 +20,7 @@ $(packages): $(cpan_ls) $(package_authors)
 
 versions=data/versions.yaml
 $(versions): $(packages)
-	./versions.pl $<
+	./versions.pl $< $@
 
 inputs=$(cpan_ls) $(package_details)
 files=$(packages) $(versions)
