@@ -30,9 +30,7 @@ foreach my $line (read_file($input)){
 
 foreach my $package (keys %$db){
 	$db->{$package} = [
-		grep { defined }
-		map { $_->{v} }
-		sort { $a->{d} <=> $b->{d} }
+		sort { $b->{mtime} <=> $a->{mtime} }
 		@{ $db->{$package} }
 	];
 }
