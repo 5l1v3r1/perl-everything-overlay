@@ -4,6 +4,7 @@ use File::Find;
 use File::Slurp;
 use File::Temp;
 use Shell::EnvImporter;
+use YAML qw/DumpFile/;
 
 our @overlays = (
 	"/usr/portage",
@@ -16,24 +17,29 @@ our @categories = (
 );
 
 our $eclass = "/usr/portage/eclass/perl-module.eclass";
+our $ebuilds = {};
 
-foreach my $overlay (@overlays){
-	foreach my $category (@categories){
-		my $path = sprintf("%s/%s", $overlay, $category);
-		
-		find({
-			wanted => sub {
-				my $file = $_;
+sub main {
+	foreach my $overlay (@overlays){
+		foreach my $category (@categories){
+			my $path = sprintf("%s/%s", $overlay, $category);
+			
+			find({
+				wanted => sub {
+					my $file = $_;
 
-				return unless $file =~ /\.ebuild/i;
-				
-				my $ebuild_data = ebuild_read($file);
-				ebuild_process($ebuild_data);
-			},
-			no_chdir => 1,
-		}, $path);
-		
+					return unless $file =~ /\.ebuild/i;
+					
+					my $ebuild_data = ebuild_read($file);
+					ebuild_process($ebuild_data);
+				},
+				no_chdir => 1,
+			}, $path);
+			
+		}
 	}
+	
+	DumpFile($ARGV[0], $ebuilds);
 }
 
 sub ebuild_read {
@@ -76,7 +82,13 @@ sub ebuild_read {
 sub ebuild_process {
 	my ($ebuild) = @_;
 	
-	printf "%s\t%s\n",
-		$ebuild->{PN},
-		$ebuild->{SRC_URI};
+	my $version = substr($ebuild->{P}, length($ebuild->{PN} + 1));
+	
+	push @{ $ebuilds->{$ebuild->{PN}} }, {
+		atom    => $ebuild->{P},
+		version => $version,
+		src_uri => $ebuild->{SRC_URI},
+	};
 }
+
+main;

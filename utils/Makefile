@@ -22,13 +22,12 @@ versions=data/versions.yaml
 $(versions): $(packages)
 	./versions.pl $< $@
 
-official_ebuilds=data/official_ebuilds.txt
+official_ebuilds=data/official_ebuilds.yaml
 $(official_ebuilds):
-	./official_ebuilds.pl > $@.tmp
-	mv $@.tmp $@
+	./official_ebuilds.pl $@
 
 inputs=$(cpan_ls) $(package_details)
-files=$(packages) $(versions)
+files=$(packages) $(versions) $(official_ebuilds)
 all: $(files) 
 clean:
 	rm $(files) 2>&1 >/dev/null || true
