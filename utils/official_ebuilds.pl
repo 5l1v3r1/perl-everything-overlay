@@ -82,7 +82,7 @@ sub ebuild_read {
 sub ebuild_process {
 	my ($ebuild) = @_;
 	
-	my $version = substr($ebuild->{P}, length($ebuild->{PN} + 1));
+	my $version = substr($ebuild->{P}, length($ebuild->{PN}) + 1);
 	
 	push @{ $ebuilds->{$ebuild->{PN}} }, {
 		atom    => $ebuild->{P},
