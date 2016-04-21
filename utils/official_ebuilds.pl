@@ -47,13 +47,14 @@ sub ebuild_read {
 	
 	my $ebuild = {};
 	
-	my ($pn, $p) = ($filepath =~ m@/([^/]+)/([^/]+).ebuild$@i);
+	my ($cat, $pn, $p) = ($filepath =~ m@([^/]+)/([^/]+)/([^/]+).ebuild$@i);
 	
 	my $tmp = File::Temp->new;
 	append_file($tmp->filename, qq!
 		PN="${pn}"
 		P="${p}"
 		PF="${p}"
+		CATEGORY="${cat}"
 	!);
 	append_file($tmp->filename, scalar read_file($filepath));
 	append_file($tmp->filename, scalar read_file($eclass));
@@ -85,9 +86,10 @@ sub ebuild_process {
 	my $version = substr($ebuild->{P}, length($ebuild->{PN}) + 1);
 	
 	push @{ $ebuilds->{$ebuild->{PN}} }, {
-		atom    => $ebuild->{P},
-		version => $version,
-		src_uri => $ebuild->{SRC_URI},
+		atom     => $ebuild->{P},
+		version  => $version,
+		category => $ebuild->{CATEGORY},
+		src_uri  => $ebuild->{SRC_URI},
 	};
 }
 
