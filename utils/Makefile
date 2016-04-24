@@ -10,12 +10,17 @@ $(package_details):
 	wget http://cpan.nctu.edu.tw/modules/02packages.details.txt -O $@ 
 
 package_authors=data/package_authors.yaml
-$(package_authors): data/02packages.details.txt
+$(package_authors): $(package_details)
 	./package_authors.pl $< $@
 
 packages=data/packages
 $(packages): $(cpan_ls) $(package_authors)
 	./packages.pl $< > $@.tmp
+	mv $@.tmp $@
+
+packages_recent=data/packages_recent
+$(packages_recent): $(package_details)
+	./packages_recent.pl $< | sort -u > $@.tmp
 	mv $@.tmp $@
 
 versions=data/versions.yaml
@@ -27,7 +32,7 @@ $(official_ebuilds):
 	./official_ebuilds.pl $@
 
 inputs=$(cpan_ls) $(package_details)
-files=$(packages) $(versions) $(official_ebuilds)
+files=$(packages) $(versions) $(official_ebuilds) $(packages_recent)
 all: $(files) 
 clean:
 	rm $(files) 2>&1 >/dev/null || true
