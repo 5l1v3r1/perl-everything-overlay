@@ -31,8 +31,18 @@ official_ebuilds=data/official_ebuilds.yaml
 $(official_ebuilds):
 	./official_ebuilds.pl $@
 
+g_cpan_ready=data/g_cpan_ready.yaml
+g_cpan_ready:
+	./g_cpan_ready.pl ../ $(g_cpan_ready)
+
+overlay: g_cpan_ready
+	./g_cpan_once_build.sh
+
+overlay-rebuild: g_cpan_ready
+	./g_cpan_once_build.sh --all
+
 inputs=$(cpan_ls) $(package_details)
-files=$(packages) $(versions) $(official_ebuilds) $(packages_recent)
+files=$(packages) $(versions) $(official_ebuilds) $(packages_recent) $(g_cpan_ready)
 all: $(files) 
 clean:
 	rm $(files) 2>&1 >/dev/null || true
