@@ -31,10 +31,10 @@ official_ebuilds=data/official_ebuilds.yaml
 $(official_ebuilds):
 	./official_ebuilds.pl $@
 
-overlay: g_cpan_ready
+overlay:
 	./g_cpan_once_build.sh --skip
 
-overlay-rebuild: g_cpan_ready
+overlay-rebuild:
 	./g_cpan_once_build.sh
 
 inputs=$(cpan_ls) $(package_details)
