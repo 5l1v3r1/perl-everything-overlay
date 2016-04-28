@@ -19,7 +19,7 @@ $(packages): $(cpan_ls) $(package_authors)
 	mv $@.tmp $@
 
 packages_recent=data/packages_recent
-$(packages_recent): $(package_details)
+$(packages_recent): $(package_details) $(packages)
 	./packages_recent.pl $< | sort -u > $@.tmp
 	mv $@.tmp $@
 
