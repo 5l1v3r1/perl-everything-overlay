@@ -20,7 +20,7 @@ $(packages): $(cpan_ls) $(package_authors)
 
 packages_recent=data/packages_recent
 $(packages_recent): $(package_details) $(packages)
-	./packages_recent.pl $< | sort -u > $@.tmp
+	./packages_recent.pl $^ | sort -u > $@.tmp
 	mv $@.tmp $@
 
 versions=data/versions.yaml
