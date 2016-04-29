@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layman>
-    <overlay name="perl-everything-overlay" quality="experimental" status="unofficial"
+    <overlay name="perl-everything" quality="experimental" status="unofficial"
         type="git" src="git://github.com/x86-64/perl-everything-overlay.git">
         <description>Perl overlay with auto-generated ebuilds by g-cpan</description>
     </overlay>
