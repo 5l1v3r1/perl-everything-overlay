@@ -6,4 +6,4 @@ cd $DIR
 cpan_tar=$1
 
 mkdir -p `dirname logs/${cpan_tar}`
-timeout 120s g-cpan-once -o ${DIR}/../ ${cpan_tar} $2 $3 $4 2>&1 | tee -a logs/${cpan_tar}.log
+timeout 80s g-cpan-once -o ${DIR}/../ ${cpan_tar} $2 $3 $4 >logs/${cpan_tar}.log 2>&1
