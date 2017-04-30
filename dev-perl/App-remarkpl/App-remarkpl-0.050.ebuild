@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="TIM"
-DIST_VERSION="0.14"
-DIST_A="Net-Amazon-Signature-V4-0.14.tar.gz"
+DIST_AUTHOR="JHTHORSEN"
+DIST_VERSION="0.05"
+DIST_A="App-remarkpl-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,14 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/DateTime-Format-Strptime
-	dev-perl/File-Slurp
-	dev-perl/HTTP-Message
-	dev-perl/URI
-	virtual/perl-Digest-SHA
-	virtual/perl-Test-Simple
+	>=dev-perl/Mojolicious-6.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "
