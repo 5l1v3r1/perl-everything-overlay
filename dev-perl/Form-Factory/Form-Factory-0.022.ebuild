@@ -22,9 +22,10 @@ RDEPEND="
 	dev-perl/Moose
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Class-Moose
+	virtual/perl-Test-Simple
 "
