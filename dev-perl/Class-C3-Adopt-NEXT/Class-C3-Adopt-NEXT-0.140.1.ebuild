@@ -18,5 +18,6 @@ IUSE="test"
 RDEPEND="
 "
 DEPEND="
+	dev-perl/Module-Build-Tiny
 	${RDEPEND}
 "
