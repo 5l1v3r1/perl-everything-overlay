@@ -16,7 +16,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Catalyst-Runtime-5.800.250
+	dev-perl/Class-Load
+	dev-perl/Moose
+	dev-perl/MooseX-Types
+	>=dev-perl/String-RewritePrefix-0.004
+	dev-perl/namespace-autoclean
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	dev-lang/perl
+	>=dev-perl/Catalyst-Action-REST-0.740
+	dev-perl/lib
+	dev-perl/namespace-clean
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "
