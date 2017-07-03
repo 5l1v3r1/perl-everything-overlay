@@ -32,7 +32,7 @@ $(official_ebuilds):
 	./official_ebuilds.pl $@
 
 overlay:
-	./g_cpan_once_build.sh #--skip
+	./g_cpan_once_build.sh --skip
 
 overlay-rebuild:
 	./g_cpan_once_build.sh
