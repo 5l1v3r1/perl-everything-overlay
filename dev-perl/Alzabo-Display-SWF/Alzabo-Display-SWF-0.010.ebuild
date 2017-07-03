@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Alzabo-0.720
 	>=dev-perl/GraphViz-1.600
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

@@ -17,12 +17,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Bot-BasicBot-Pluggable-0.870
+	dev-perl/Bot-BasicBot-Pluggable
 	dev-perl/POE
+	dev-perl/YAML
 	dev-perl/base
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

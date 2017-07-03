@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Moose-0.540
+	>=dev-perl/Moose-0.630
 	dev-perl/Test-UseAllModules
 	dev-perl/URI
 	dev-perl/libwww-perl

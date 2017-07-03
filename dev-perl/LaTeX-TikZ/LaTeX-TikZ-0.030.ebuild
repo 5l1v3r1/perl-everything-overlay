@@ -16,15 +16,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Mouse-0.800
 	dev-perl/Sub-Name
 	dev-perl/Task-Weaken
 	virtual/perl-Carp
 	virtual/perl-Math-Complex
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

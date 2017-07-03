@@ -26,5 +26,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

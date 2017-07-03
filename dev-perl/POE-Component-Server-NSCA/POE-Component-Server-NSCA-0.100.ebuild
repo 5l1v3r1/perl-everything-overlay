@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Math-Random-0.700
 	>=dev-perl/Net-Netmask-1.901.500
-	dev-perl/POE
+	>=dev-perl/POE-0.380
 	>=dev-perl/POE-Component-Client-NSCA-0.060
 "
 DEPEND="

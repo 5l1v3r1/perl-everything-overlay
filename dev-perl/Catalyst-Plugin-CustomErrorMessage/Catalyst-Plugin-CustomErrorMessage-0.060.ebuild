@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Carp-Clan
+	dev-perl/Class-Accessor
+	virtual/perl-Test-Simple
 "

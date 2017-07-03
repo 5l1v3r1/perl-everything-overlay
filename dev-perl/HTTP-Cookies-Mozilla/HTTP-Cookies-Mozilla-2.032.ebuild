@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -25,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420.300
+	dev-perl/GraphViz2
+	dev-perl/Path-Tiny
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-1.001.002
+	virtual/perl-parent
 "

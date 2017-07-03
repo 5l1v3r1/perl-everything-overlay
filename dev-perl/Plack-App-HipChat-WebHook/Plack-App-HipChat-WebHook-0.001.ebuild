@@ -25,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	dev-perl/HTTP-Message
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

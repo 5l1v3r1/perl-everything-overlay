@@ -18,9 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Net-DNS-0.580
 	>=dev-perl/NetAddr-IP-4.000
-	>=dev-perl/yaml-0.500
+	>=dev-perl/YAML-0.500
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.280.500
 "

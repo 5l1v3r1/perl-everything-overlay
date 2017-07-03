@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Salvation-Method-Signatures-0.020
 	>=dev-perl/Salvation-PluginCore-0.010
 	>=dev-perl/Salvation-TC-0.110
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

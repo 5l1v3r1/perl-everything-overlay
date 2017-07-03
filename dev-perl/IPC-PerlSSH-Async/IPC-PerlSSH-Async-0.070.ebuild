@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Refcount
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

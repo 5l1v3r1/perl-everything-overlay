@@ -24,4 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-InDistDir
+	dev-perl/Test-Most
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

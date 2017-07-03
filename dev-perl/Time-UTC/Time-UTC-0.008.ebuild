@@ -23,11 +23,11 @@ RDEPEND="
 	virtual/perl-Exporter
 	>=virtual/perl-HTTP-Tiny-0.016
 	>=virtual/perl-Math-BigRat-0.130
-	virtual/perl-constant
 	>=virtual/perl-libnet-1.210
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

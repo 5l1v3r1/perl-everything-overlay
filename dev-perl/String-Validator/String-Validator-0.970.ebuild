@@ -18,11 +18,11 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Email-Address-1.893
 	>=dev-perl/Email-Valid-0.185
+	>=dev-perl/Regexp-Common-2011121001.000
 	>=dev-perl/String-Validator-Common-0.970
 	>=dev-perl/String-Validator-Email-0.980
 	>=dev-perl/String-Validator-Password-0.940
 	>=dev-perl/String-Validator-Phone-NANP-0.960
-	>=dev-perl/regexp-common-2011121001.000
 	virtual/perl-Test-Simple
 "
 DEPEND="

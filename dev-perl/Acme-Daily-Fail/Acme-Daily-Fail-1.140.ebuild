@@ -16,13 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Math-Random-0.690
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

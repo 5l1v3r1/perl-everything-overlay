@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/HTML-Tree
 	dev-perl/Test-Pod
 	dev-perl/URI
-	dev-perl/WWW-Search
+	>=dev-perl/WWW-Search-2.271
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple

@@ -24,8 +24,9 @@ DEPEND="
 	${RDEPEND}
 	dev-lang/perl
 	>=dev-perl/Config-AutoConf-0.200
+	>=dev-perl/ExtUtils-PkgConfig-1.120
 	>=dev-perl/Module-Build-0.360
-	>=dev-perl/extutils-pkgconfig-1.120
 	>=virtual/perl-ExtUtils-CBuilder-0.280.205
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Warn
 "

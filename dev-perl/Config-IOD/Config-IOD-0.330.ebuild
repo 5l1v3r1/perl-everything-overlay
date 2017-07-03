@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Exporter
 	>=virtual/perl-Test-Simple-0.980
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

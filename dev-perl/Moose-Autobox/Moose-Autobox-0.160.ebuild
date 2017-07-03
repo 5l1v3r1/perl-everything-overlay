@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/List-MoreUtils-0.070
-	dev-perl/Moose
+	>=dev-perl/Moose-0.420
 	dev-perl/Syntax-Keyword-Junction
 	>=dev-perl/autobox-2.230
 	dev-perl/namespace-autoclean

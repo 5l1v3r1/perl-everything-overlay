@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Sub-Exporter-0.950
+	dev-perl/Sub-Exporter
 	virtual/perl-Carp
 	virtual/perl-Math-BigInt
 	virtual/perl-Math-BigRat

@@ -21,9 +21,13 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/Object-Tiny
 	dev-perl/libwww-perl
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Online
+	dev-perl/Test-WWW-Mechanize
+	virtual/perl-File-Temp
+	>=virtual/perl-Net-Ping-2.330
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -26,4 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-LongString
+	dev-perl/URI
+	virtual/perl-Test-Simple
 "

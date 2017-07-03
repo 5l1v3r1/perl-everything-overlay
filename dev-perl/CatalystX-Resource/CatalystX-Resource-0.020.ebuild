@@ -34,4 +34,18 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Catalyst-Action-RenderView
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Plugin-Session-Store-File
+	dev-perl/Catalyst-View-TT
+	dev-perl/DBD-SQLite
+	dev-perl/HTTP-Message
+	dev-perl/Import-Into
+	>=dev-perl/SQL-Translator-0.110.160
+	dev-perl/Test-Exception
+	dev-perl/Test-Warnings
+	dev-perl/URI
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

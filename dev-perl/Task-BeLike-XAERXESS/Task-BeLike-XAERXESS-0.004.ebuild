@@ -30,10 +30,11 @@ RDEPEND="
 	>=dev-perl/Plack-1.000
 	dev-perl/Smart-Match
 	dev-perl/Try-Tiny
+	dev-perl/YAML
 	dev-perl/experimental
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.030
+	>=virtual/perl-Test-Simple-0.880
 "

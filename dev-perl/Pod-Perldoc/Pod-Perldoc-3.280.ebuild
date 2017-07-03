@@ -25,7 +25,7 @@ RDEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Text-ParseWords
 	virtual/perl-parent
-	>=virtual/perl-podlators-2.180
+	virtual/perl-podlators
 "
 DEPEND="
 	${RDEPEND}

@@ -20,4 +20,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/HTTP-Message
+	dev-perl/JSON-XS
+	dev-perl/Moose
+	dev-perl/MooseX-Types-DateTimeX
+	dev-perl/MooseX-Types-URI
+	dev-perl/Readonly
+	dev-perl/libwww-perl
+	virtual/perl-Carp
+	virtual/perl-Data-Dumper
+	virtual/perl-Module-Load
+	virtual/perl-Test-Simple
 "

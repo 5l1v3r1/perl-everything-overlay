@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Alien-Leptonica
 	dev-perl/ExtUtils-Depends
-	>=dev-perl/Inline-0.450
+	>=dev-perl/Inline-0.670
 	>=dev-perl/Inline-C-0.620
 	dev-perl/Path-Class
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
@@ -27,4 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Module-Load
+	virtual/perl-Test-Simple
 "

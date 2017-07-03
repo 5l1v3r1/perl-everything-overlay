@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-0.610
 	dev-perl/Hook-LexWrap
 	dev-perl/Safe-Isa
 	dev-perl/URI

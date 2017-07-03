@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mojolicious-5.290
+	dev-perl/Mojolicious
 "
 DEPEND="
 	${RDEPEND}

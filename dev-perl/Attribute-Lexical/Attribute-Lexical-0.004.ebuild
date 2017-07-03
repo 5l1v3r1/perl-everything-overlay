@@ -20,10 +20,10 @@ RDEPEND="
 	>=dev-perl/Lexical-SealRequireHints-0.005
 	dev-perl/Params-Classify
 	virtual/perl-Carp
-	virtual/perl-constant
 	virtual/perl-if
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

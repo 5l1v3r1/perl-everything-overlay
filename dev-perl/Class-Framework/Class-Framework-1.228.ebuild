@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Accessor
+	dev-perl/NEXT
 	dev-perl/base
 "
 DEPEND="

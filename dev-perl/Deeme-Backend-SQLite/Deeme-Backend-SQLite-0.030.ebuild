@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
+	dev-perl/Carp-Always
+	virtual/perl-Test-Simple
 "

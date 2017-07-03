@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/NEXT-0.600
+	>=dev-perl/Net-OAuth-0.120
 "

@@ -22,4 +22,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Apache-Test-1.120
 "

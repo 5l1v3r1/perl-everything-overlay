@@ -25,6 +25,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/ExtUtils-PkgConfig
 	dev-perl/Module-Build
-	dev-perl/extutils-pkgconfig
+	virtual/perl-Test-Simple
 "

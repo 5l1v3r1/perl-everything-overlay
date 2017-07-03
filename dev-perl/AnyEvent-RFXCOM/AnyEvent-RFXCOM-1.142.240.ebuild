@@ -17,15 +17,17 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/AnyEvent
-	>=dev-perl/Device-RFXCOM-1.142.010
+	>=dev-perl/AnyEvent-5.271
+	dev-perl/Device-RFXCOM
 	dev-perl/Sub-Name
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/AnyEvent-MockTCPServer
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

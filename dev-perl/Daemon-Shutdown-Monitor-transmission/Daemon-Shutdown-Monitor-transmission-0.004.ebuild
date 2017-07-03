@@ -21,12 +21,14 @@ RDEPEND="
 	dev-perl/Log-Log4perl
 	dev-perl/Params-Validate
 	dev-perl/Readonly
+	dev-perl/Regexp-Common
 	dev-perl/Transmission-Client
 	dev-perl/Try-Tiny
-	dev-perl/regexp-common
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

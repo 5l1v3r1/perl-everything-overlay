@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	dev-perl/Test-HexString
+	>=virtual/perl-Test-Simple-0.470
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Digest-SHA1
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -19,9 +19,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Dump
 	dev-perl/Test-Stream
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.890
 "

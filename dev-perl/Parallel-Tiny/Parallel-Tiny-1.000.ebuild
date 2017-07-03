@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Sys-Prctl
 	virtual/perl-File-Temp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

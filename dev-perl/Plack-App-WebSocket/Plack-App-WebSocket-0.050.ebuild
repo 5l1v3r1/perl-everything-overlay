@@ -29,4 +29,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
+	>=dev-perl/AnyEvent-WebSocket-Client-0.200
+	dev-perl/Protocol-WebSocket
+	dev-perl/Test-Requires
+	dev-perl/Test-TCP
+	virtual/perl-Test-Simple
 "

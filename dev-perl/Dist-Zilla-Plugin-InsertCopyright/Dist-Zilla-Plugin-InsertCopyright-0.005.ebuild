@@ -25,4 +25,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	>=dev-perl/File-pushd-1.000
+	dev-perl/Path-Tiny
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.920
+	virtual/perl-version
 "

@@ -18,8 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/YAML-Syck
+	>=dev-perl/self-0.320
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/JE-0.021
+	dev-perl/Test-Class
+	>=virtual/perl-Test-Simple-0.420
 "

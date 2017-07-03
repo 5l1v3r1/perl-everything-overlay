@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Apache-Test-1.390
+	>=dev-perl/Apache-Test-1.400
 	>=dev-perl/Class-Data-Inheritable-0.080
 	>=dev-perl/IO-stringy-2.111
 	>=dev-perl/ex-override-1.100

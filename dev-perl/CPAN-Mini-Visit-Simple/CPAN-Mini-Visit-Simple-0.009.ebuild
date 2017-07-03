@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/IO-CaptureOutput
+	>=virtual/perl-Test-Simple-0.440
 "

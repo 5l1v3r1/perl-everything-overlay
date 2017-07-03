@@ -18,10 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/IPC-Open3-Callback
 	dev-perl/Path-Tiny
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Test-Warnings
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -24,4 +24,5 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
+	virtual/perl-Test-Simple
 "

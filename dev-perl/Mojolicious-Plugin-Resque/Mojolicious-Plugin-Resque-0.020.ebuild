@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Redis
+	>=dev-perl/Test-RedisServer-0.100
+	virtual/perl-Test-Simple
 "

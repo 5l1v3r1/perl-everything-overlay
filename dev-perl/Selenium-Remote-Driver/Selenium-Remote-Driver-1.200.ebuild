@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/IO-String
 	dev-perl/JSON
-	dev-perl/Moo
+	>=dev-perl/Moo-1.005
 	dev-perl/Sub-Install
 	dev-perl/Test-LongString
 	dev-perl/Try-Tiny
@@ -38,7 +38,7 @@ RDEPEND="
 	virtual/perl-IO
 	>=virtual/perl-IO-Compress-2.030
 	virtual/perl-MIME-Base64
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 	virtual/perl-Test-Simple
 "
 DEPEND="

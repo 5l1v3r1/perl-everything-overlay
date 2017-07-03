@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.980
 "
 DEPEND="
 	${RDEPEND}

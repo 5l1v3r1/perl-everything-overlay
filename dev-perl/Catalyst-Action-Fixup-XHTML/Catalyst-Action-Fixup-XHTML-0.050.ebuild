@@ -19,4 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-View-ContentNegotiation-XHTML-1.100
+	dev-perl/MRO-Compat
+	dev-perl/Moose
+	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Cache-FastMmap-1.290
 	>=dev-perl/Catalyst-Plugin-Session-0.270
-	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/Catalyst-Runtime
 	dev-perl/MRO-Compat
 	dev-perl/MooseX-Emulate-Class-Accessor-Fast
 	dev-perl/Path-Class

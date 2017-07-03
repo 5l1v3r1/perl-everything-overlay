@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Math-Symbolic-0.603
 	>=dev-perl/Math-SymbolicX-ParserExtensionFactory-3.020
 	>=dev-perl/Perl6-Attributes-0.040
-	>=dev-perl/regexp-common-2.120
+	>=dev-perl/Regexp-Common-2.120
 	virtual/perl-Test-Simple
 "
 DEPEND="

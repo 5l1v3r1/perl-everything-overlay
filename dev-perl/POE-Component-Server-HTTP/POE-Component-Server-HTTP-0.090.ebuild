@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/POE-0.300.700
 	dev-perl/POE-API-Peek
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 "
 DEPEND="

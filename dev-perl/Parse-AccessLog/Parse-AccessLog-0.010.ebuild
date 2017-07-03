@@ -21,4 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurp
+	dev-perl/FreezeThaw
+	dev-perl/Text-Diff
+	virtual/perl-File-Temp
 "

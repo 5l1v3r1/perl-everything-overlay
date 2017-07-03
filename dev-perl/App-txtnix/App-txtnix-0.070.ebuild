@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Config-Tiny
 	dev-perl/IO-Interactive
 	dev-perl/IO-Pager
-	>=dev-perl/Mojolicious-6.540
+	dev-perl/Mojolicious
 	dev-perl/OptArgs
 	dev-perl/Path-Tiny
 	dev-perl/String-ShellQuote

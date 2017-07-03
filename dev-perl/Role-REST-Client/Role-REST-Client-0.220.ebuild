@@ -19,10 +19,10 @@ RDEPEND="
 	dev-perl/Data-Serializer
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Thin
-	>=dev-perl/Moo-1.003.000
+	dev-perl/Moo
 	>=dev-perl/MooX-HandlesVia-0.001.004
 	dev-perl/Try-Tiny
-	>=dev-perl/Type-Tiny-0.024
+	dev-perl/Type-Tiny
 	>=dev-perl/URI-Escape-XS-0.110
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

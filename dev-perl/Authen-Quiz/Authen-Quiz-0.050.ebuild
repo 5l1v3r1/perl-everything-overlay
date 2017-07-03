@@ -27,8 +27,8 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	>=dev-perl/UNIVERSAL-require-0.660
+	>=dev-perl/YAML-0.660
 	>=dev-perl/YAML-Syck-1.050
-	>=dev-perl/yaml-0.660
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

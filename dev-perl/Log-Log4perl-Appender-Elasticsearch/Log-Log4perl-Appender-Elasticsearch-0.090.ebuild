@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-6.000
+	>=dev-perl/HTTP-Message-6.050
 	>=dev-perl/JSON-2.610
 	>=dev-perl/Log-Log4perl-1.410
 	>=dev-perl/URI-1.600

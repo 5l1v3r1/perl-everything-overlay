@@ -27,7 +27,6 @@ RDEPEND="
 	virtual/perl-Socket
 	virtual/perl-Test
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

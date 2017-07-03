@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	>=dev-lang/perl-2.000
 	>=dev-perl/Config-Options-0.070
 	>=dev-perl/DateTimeX-Easy-0.088
 	>=dev-perl/Digest-SHA1-2.110
@@ -26,7 +26,7 @@ RDEPEND="
 	>=virtual/perl-Data-Dumper-2.000
 	>=virtual/perl-Encode-2.120
 	>=virtual/perl-File-Spec-3.240
-	>=virtual/perl-IO-1.130
+	>=virtual/perl-IO-1.000
 	>=virtual/perl-Scalar-List-Utils-1.210
 	>=virtual/perl-Test-Simple-0.100
 	>=virtual/perl-Time-Local-1.190.100

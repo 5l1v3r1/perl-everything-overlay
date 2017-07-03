@@ -27,10 +27,10 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/Plack-1.002.900
 	>=dev-perl/Plack-Middleware-MethodOverride-0.150
+	dev-perl/Pod-Perldoc
 	dev-perl/URI
 	dev-perl/YAML-LibYAML
 	>=virtual/perl-File-Path-2.040
-	virtual/perl-Pod-Perldoc
 	virtual/perl-parent
 "
 DEPEND="
@@ -39,5 +39,5 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Test-Fatal
 	virtual/perl-Data-Dumper
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "

@@ -16,15 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/DateTime-Format-Natural
 	>=dev-perl/Dist-Zilla-5.000
 	dev-perl/Dist-Zilla-Plugins-CJM
 	dev-perl/Moose
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 	>=virtual/perl-version-0.770
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

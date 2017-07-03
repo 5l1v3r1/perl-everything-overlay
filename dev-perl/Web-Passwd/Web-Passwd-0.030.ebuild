@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/CGI-Application
+	dev-perl/Config-Tiny
+	virtual/perl-Test-Simple
 "

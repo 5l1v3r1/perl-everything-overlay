@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Archive-Zip
 	dev-perl/Class-Accessor-Chained
 	>=dev-perl/Parse-CPAN-Packages-Fast-0.040
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Archive-Tar
 	virtual/perl-IO-Zlib
 	virtual/perl-Test-Simple

@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.330
+	>=dev-perl/File-Slurp-9999.130
+	>=dev-perl/IO-CaptureOutput-0.110.200
+	>=dev-perl/Test-LongString-0.130
+	>=virtual/perl-Test-Simple-0.880
 "

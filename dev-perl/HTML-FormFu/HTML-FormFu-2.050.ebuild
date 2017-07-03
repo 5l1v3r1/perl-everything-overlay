@@ -33,7 +33,7 @@ RDEPEND="
 	dev-perl/Hash-Flatten
 	dev-perl/List-MoreUtils
 	dev-perl/Module-Pluggable
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	dev-perl/MooseX-Aliases
 	dev-perl/Number-Format
 	dev-perl/Path-Class

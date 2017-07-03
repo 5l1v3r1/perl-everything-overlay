@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Mock-Quick
+	dev-perl/Test-Most
+	virtual/perl-Exporter
 "

@@ -28,13 +28,13 @@ RDEPEND="
 	>=dev-perl/JSON-XS-2.231
 	dev-perl/Module-Pluggable
 	dev-perl/Moose
-	>=dev-perl/MooseX-Clone-0.040
+	dev-perl/MooseX-Clone
 	>=dev-perl/MooseX-Role-Parameterized-0.100
 	>=dev-perl/MooseX-YAML-0.040
 	>=dev-perl/PadWalker-1.900
 	dev-perl/Path-Class
 	dev-perl/Scope-Guard
-	dev-perl/Search-GIN
+	>=dev-perl/Search-GIN-0.030
 	>=dev-perl/Set-Object-1.260
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Exception

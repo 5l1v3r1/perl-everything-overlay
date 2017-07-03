@@ -23,4 +23,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.023
+	dev-perl/HTTP-Message
+	>=dev-perl/Test-CheckDeps-0.006
+	dev-perl/Test-Deep
+	dev-perl/Test-Deep-UnorderedPairs
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warnings
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.940
 "

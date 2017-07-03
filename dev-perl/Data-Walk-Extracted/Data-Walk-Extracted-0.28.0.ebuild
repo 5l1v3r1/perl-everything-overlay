@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Inspector
-	dev-perl/Moose
+	>=dev-perl/Moose-2.180.300
 	dev-perl/MooseX-HasDefaults
 	dev-perl/MooseX-StrictConstructor
 	dev-perl/MooseX-Types

@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Cairo-1.000
 	>=dev-perl/ExtUtils-Depends-0.300
+	>=dev-perl/ExtUtils-PkgConfig-1.030
 	>=dev-perl/Pango-1.140
-	>=dev-perl/extutils-pkgconfig-1.030
 	>=dev-perl/glib-perl-1.220
 "
 DEPEND="

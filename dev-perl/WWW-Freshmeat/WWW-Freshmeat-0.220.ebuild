@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/File-Slurp
+	>=dev-perl/LWP-Online-1.060
+	>=virtual/perl-Test-Simple-0.170
 "

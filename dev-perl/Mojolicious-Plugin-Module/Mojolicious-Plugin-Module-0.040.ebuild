@@ -19,11 +19,12 @@ RDEPEND="
 	dev-perl/File-Copy-Recursive
 	>=dev-perl/Hash-Merge-Simple-0.051
 	>=dev-perl/Mojolicious-4.000
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Module-Load
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	virtual/perl-Test-Simple
 "

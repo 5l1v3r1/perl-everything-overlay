@@ -18,11 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/DBI
-	>=dev-perl/Data-Tabular-Dumper-0.060
+	dev-perl/Data-Tabular-Dumper
 	>=dev-perl/SQL-Script-1.050
 	>=dev-perl/SQL-Statement-1.240
 	dev-perl/Spreadsheet-WriteExcel
-	>=dev-perl/yaml-0.680
+	>=dev-perl/YAML-0.680
 "
 DEPEND="
 	${RDEPEND}

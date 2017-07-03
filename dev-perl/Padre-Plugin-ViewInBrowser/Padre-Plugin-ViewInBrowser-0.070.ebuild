@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Padre-0.260
+	dev-perl/Path-Class
+	virtual/perl-Test-Simple
 "

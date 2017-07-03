@@ -24,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/CHI
+	dev-perl/Class-Load
+	dev-perl/Path-Tiny
+	dev-perl/Test-Mock-Furl
+	dev-perl/Test-Most
 "

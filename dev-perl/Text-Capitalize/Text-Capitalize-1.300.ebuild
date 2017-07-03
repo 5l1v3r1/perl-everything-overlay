@@ -20,4 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	>=dev-lang/perl-1.040
+	>=dev-perl/Env-1.000
+	dev-perl/PerlIO-locale
+	dev-perl/lib
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

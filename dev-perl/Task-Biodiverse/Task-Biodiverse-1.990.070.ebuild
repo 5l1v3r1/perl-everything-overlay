@@ -28,7 +28,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/ExtUtils-Depends
 	dev-perl/ExtUtils-PkgConfig
+	dev-perl/Gtk2
 	dev-perl/Pango
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 "

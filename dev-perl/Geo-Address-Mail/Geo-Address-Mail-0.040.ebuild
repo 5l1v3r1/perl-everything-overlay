@@ -20,9 +20,11 @@ RDEPEND="
 	dev-perl/MooseX-Clone
 	dev-perl/MooseX-Storage
 	dev-perl/MooseX-Types
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

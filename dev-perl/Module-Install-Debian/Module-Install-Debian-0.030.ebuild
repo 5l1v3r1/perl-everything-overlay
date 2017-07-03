@@ -20,4 +20,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/File-Remove
+	dev-perl/File-chdir
+	dev-perl/Test-Perl-Critic
+	>=dev-perl/Test-Pod-1.140
+	>=dev-perl/Test-Pod-Coverage-1.040
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
 "

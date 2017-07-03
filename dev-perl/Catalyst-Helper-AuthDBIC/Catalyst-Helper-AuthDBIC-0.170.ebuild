@@ -31,7 +31,7 @@ RDEPEND="
 	dev-perl/Directory-Scratch
 	dev-perl/PPI
 	dev-perl/Test-Command
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
 DEPEND="

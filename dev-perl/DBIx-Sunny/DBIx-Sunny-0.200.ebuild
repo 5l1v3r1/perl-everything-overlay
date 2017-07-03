@@ -27,4 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	>=dev-perl/DBD-SQLite-1.310
+	dev-perl/Test-Requires
+	dev-perl/Test-TCP
+	dev-perl/Test-mysqld
+	>=virtual/perl-Test-Simple-0.960
 "

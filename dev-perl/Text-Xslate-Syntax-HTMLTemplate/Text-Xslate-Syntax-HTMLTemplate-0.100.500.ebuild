@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/HTML-Template-Parser
 	dev-perl/HTML-Template-Pro
 	dev-perl/Text-Xslate
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

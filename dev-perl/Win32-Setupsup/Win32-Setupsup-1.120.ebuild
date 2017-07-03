@@ -24,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Win32-TieRegistry
+	virtual/perl-Test-Simple
 "

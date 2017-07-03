@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/Template-Toolkit-Simple
+	dev-perl/YAML
 	dev-perl/YAML-LibYAML
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

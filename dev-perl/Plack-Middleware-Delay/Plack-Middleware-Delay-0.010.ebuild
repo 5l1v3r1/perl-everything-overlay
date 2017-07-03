@@ -21,4 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/AnyEvent-HTTP
+	dev-perl/HTTP-Message
+	dev-perl/Test-TCP
+	dev-perl/Twiggy
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

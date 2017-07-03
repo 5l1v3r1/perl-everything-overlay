@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Nitesi-0.009.300
 	>=dev-perl/Nitesi-DBI-0.009.200
 	dev-perl/Test-Database
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

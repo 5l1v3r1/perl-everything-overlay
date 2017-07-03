@@ -24,4 +24,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/PPI
+	dev-perl/Software-License
+	dev-perl/String-Cushion
+	dev-perl/Syntax-Feature-Qi
+	dev-perl/Test-Differences
+	dev-perl/syntax
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

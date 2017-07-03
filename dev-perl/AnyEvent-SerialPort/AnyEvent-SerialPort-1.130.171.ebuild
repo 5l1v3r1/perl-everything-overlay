@@ -21,9 +21,10 @@ RDEPEND="
 	dev-perl/Device-SerialPort
 	dev-perl/base
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

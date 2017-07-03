@@ -20,12 +20,12 @@ RDEPEND="
 	dev-perl/Cache-Cache
 	dev-perl/Log-Log4perl
 	dev-perl/Module-Depends
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
 	virtual/perl-Archive-Tar
 	virtual/perl-CPAN
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
 "
 DEPEND="

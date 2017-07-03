@@ -20,11 +20,12 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Module-Build
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/Test-NoWarnings
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Warnings
 "

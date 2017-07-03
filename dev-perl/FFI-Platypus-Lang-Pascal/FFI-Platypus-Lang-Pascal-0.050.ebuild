@@ -24,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Module-Build-FFI-0.190
 	virtual/perl-ExtUtils-CBuilder
+	dev-perl/FFI-CheckLib
 "

@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/HTML-Tagset
 	dev-perl/Test-MockModule
 	>=dev-perl/URI-1.100
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Digest-MD5
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	>=virtual/perl-IO-Compress-1.100

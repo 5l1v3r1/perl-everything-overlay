@@ -31,7 +31,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-ContributorsFromGit-0.010
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild
 	dev-perl/Dist-Zilla-Plugin-CopyrightYearFromGit
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-2.009
 	dev-perl/Dist-Zilla-Plugin-Git-Describe
 	dev-perl/Dist-Zilla-Plugin-Git-Remote-Check
 	dev-perl/Dist-Zilla-Plugin-GitHub

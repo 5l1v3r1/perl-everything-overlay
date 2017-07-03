@@ -16,7 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Authen-NTLM
+	dev-perl/Authen-SASL
+	virtual/perl-MIME-Base64
+	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

@@ -26,4 +26,5 @@ DEPEND="
 	dev-perl/libwww-perl
 	>=virtual/perl-Archive-Tar-1.000
 	>=virtual/perl-ExtUtils-CBuilder-0.280.205
+	virtual/perl-Test-Simple
 "

@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Modern-Perl
 	dev-perl/Nagios-Plugin-Simple
 	dev-perl/Try-Tiny
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-autodie
 "
 DEPEND="

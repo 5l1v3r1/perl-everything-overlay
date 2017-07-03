@@ -16,7 +16,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/List-AllUtils
+	dev-perl/Mojolicious
+	>=dev-perl/Moo-2.000.002
+	>=dev-perl/Number-RGB-1.410
+	>=dev-perl/PDF-Reuse-0.360
+	>=dev-perl/Tie-RangeHash-1.050
+	>=dev-perl/Tree-Node-0.080
+	dev-perl/Type-Tiny
+	dev-perl/namespace-clean
+	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

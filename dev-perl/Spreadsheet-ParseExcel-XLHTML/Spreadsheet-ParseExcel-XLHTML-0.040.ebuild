@@ -22,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Spreadsheet-WriteExcel
+	virtual/perl-Test-Simple
 "

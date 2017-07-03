@@ -30,4 +30,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	dev-perl/Test-LWP-UserAgent
+	dev-perl/Test-Spec
+	dev-perl/Try-Tiny
+	dev-perl/lib
+	virtual/perl-Net-Ping
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

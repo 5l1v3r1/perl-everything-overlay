@@ -23,4 +23,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Role-0.012
 "

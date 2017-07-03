@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	dev-perl/Test-Deep
 	dev-perl/YAML-LibYAML
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

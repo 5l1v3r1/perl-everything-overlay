@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/Moose
 	dev-perl/MooseX-Getopt
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

@@ -25,8 +25,8 @@ RDEPEND="
 	dev-perl/Text-CSV
 	dev-perl/Text-Table
 	dev-perl/URL-Encode
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Test-Simple

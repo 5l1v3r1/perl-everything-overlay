@@ -17,11 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moo
-	>=dev-perl/Type-Tiny-0.024
+	dev-perl/Type-Tiny
 	virtual/perl-MIME-Base64
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=dev-perl/Role-REST-Client-0.030
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

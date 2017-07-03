@@ -24,8 +24,8 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/XML-LibXML
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec

@@ -21,4 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/DBI
+	>=dev-perl/Test-Exception-0.310
+	dev-perl/Test-PostgreSQL
+	>=virtual/perl-Test-Simple-0.980
 "

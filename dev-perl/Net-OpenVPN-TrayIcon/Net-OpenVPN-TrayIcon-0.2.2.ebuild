@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Section
+	dev-perl/Gtk2
 	dev-perl/Moo
 	dev-perl/Proc-Daemon
-	dev-perl/gtk2-perl
 	dev-perl/gtk2-trayicon
 	virtual/perl-MIME-Base64
 	virtual/perl-Time-HiRes
@@ -28,4 +28,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "

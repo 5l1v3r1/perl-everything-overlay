@@ -33,4 +33,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Module-Pluggable-3.100
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	>=dev-perl/Test-PDL-0.100
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

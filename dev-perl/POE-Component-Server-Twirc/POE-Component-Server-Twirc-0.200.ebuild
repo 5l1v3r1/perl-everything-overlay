@@ -35,9 +35,9 @@ RDEPEND="
 	dev-perl/POE-Loop-AnyEvent
 	dev-perl/Path-Class
 	dev-perl/Proc-Daemon
+	dev-perl/Regexp-Common
 	dev-perl/String-Truncate
 	dev-perl/Try-Tiny
-	dev-perl/regexp-common
 	virtual/perl-Encode
 	virtual/perl-Scalar-List-Utils
 "

@@ -22,4 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-LectroTest
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

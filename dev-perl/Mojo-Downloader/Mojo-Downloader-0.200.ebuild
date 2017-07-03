@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Coro
 	dev-perl/Mojolicious
 	dev-perl/Momo
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

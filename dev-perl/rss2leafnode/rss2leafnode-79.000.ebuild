@@ -34,8 +34,8 @@ RDEPEND="
 	dev-perl/URI-tag
 	>=dev-perl/XML-Twig-3.340
 	dev-perl/constant-defer
-	dev-perl/libintl-perl
-	dev-perl/libwww-perl
+	>=dev-perl/libintl-perl-1.170
+	>=dev-perl/libwww-perl-5.832
 "
 DEPEND="
 	${RDEPEND}

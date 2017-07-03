@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Event-1.000
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 "
 DEPEND="
 	${RDEPEND}

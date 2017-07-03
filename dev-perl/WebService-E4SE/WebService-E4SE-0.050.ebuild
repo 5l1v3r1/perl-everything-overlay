@@ -36,4 +36,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-LWP-UserAgent
+	>=virtual/perl-Test-Simple-0.880
 "

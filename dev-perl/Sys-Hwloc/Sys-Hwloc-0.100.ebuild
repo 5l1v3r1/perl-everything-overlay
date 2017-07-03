@@ -21,4 +21,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-Constant
+	virtual/perl-ExtUtils-MakeMaker
 "

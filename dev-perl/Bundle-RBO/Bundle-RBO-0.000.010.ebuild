@@ -31,10 +31,10 @@ RDEPEND="
 	dev-perl/Template-Provider-FromDATA
 	dev-perl/Template-Toolkit
 	dev-perl/Term-ReadLine-Gnu
+	dev-perl/YAML
 	dev-perl/ack
 	dev-perl/libwww-perl
 	dev-perl/local-lib
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

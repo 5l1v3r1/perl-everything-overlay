@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Path-Class-0.250
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

@@ -20,4 +20,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-lang/perl
+	dev-perl/HTML-Parser
+	>=dev-perl/JSON-XS-2.200
+	dev-perl/XML-Parser
+	dev-perl/XML-Simple
+	virtual/perl-Carp
+	>=virtual/perl-Encode-2.050
+	virtual/perl-MIME-Base64
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

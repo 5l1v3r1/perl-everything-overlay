@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Net-Stream
 	dev-perl/WWW-Mechanize
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Sys-Syslog

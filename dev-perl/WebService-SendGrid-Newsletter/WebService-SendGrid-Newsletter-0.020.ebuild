@@ -26,4 +26,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/DateTime
+	dev-perl/String-Random
+	dev-perl/Test-Class
+	dev-perl/Test-Exception
+	dev-perl/Test-Mock-HTTP-Tiny
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

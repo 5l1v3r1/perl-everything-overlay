@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

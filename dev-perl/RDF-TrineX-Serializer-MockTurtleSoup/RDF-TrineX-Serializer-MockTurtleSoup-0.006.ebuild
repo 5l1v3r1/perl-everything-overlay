@@ -19,8 +19,10 @@ RDEPEND="
 	>=dev-perl/RDF-Prefixes-0.003
 	>=dev-perl/RDF-Trine-1.000
 	dev-perl/Sort-Key
+	dev-perl/match-simple
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	>=dev-perl/JSON-2.000
 "

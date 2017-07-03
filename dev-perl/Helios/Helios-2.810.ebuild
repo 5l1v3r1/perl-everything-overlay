@@ -22,9 +22,9 @@ RDEPEND="
 	>=dev-perl/Error-0.170
 	>=dev-perl/Helios-2.310
 	>=dev-perl/MP3-Info-1.240
+	>=dev-perl/Pod-Usage-0.010
 	>=dev-perl/TheSchwartz-1.040
 	>=dev-perl/XML-Simple-2.140
-	>=virtual/perl-Pod-Usage-0.010
 	>=virtual/perl-Test-Simple-0.720
 "
 DEPEND="

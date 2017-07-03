@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Coro-4.370
+	dev-perl/Coro
 	dev-perl/EV
 	dev-perl/SDL
 "

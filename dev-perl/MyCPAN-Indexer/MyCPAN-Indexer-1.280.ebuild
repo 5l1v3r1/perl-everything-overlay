@@ -31,7 +31,7 @@ RDEPEND="
 	dev-perl/Parallel-ForkManager
 	dev-perl/Probe-Perl
 	>=dev-perl/Test-Output-0.130
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Archive-Tar
 	virtual/perl-Digest-MD5
 	virtual/perl-Test-Simple

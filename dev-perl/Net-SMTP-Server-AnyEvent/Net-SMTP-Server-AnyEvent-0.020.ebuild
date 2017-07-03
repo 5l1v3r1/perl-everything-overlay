@@ -20,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/AnyEvent
+	virtual/perl-Test-Simple
 "

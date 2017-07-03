@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Config-INI-0.014
 	dev-perl/Import-Into
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

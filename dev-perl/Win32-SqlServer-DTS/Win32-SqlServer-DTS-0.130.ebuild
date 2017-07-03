@@ -21,12 +21,11 @@ RDEPEND="
 	>=dev-perl/Class-Publisher-0.200
 	>=dev-perl/DateTime-0.350
 	>=dev-perl/Params-Validate-1.240
-	>=dev-perl/Win32-OLE-0.170.400
+	dev-perl/Win32-OLE
 	>=dev-perl/XML-Simple-2.180
 	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

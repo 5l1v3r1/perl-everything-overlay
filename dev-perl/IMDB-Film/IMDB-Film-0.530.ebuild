@@ -20,10 +20,10 @@ RDEPEND="
 	dev-perl/Digest-SHA1
 	dev-perl/Error
 	dev-perl/HTML-Parser
+	dev-perl/Pod-Checker
 	dev-perl/Text-Unidecode
 	>=dev-perl/libwww-perl-1.410
 	virtual/perl-Carp
-	virtual/perl-Pod-Checker
 "
 DEPEND="
 	${RDEPEND}

@@ -24,4 +24,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Block
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warn
+	dev-perl/Text-Diff
 "

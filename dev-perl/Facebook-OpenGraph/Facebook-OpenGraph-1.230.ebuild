@@ -24,12 +24,16 @@ RDEPEND="
 	dev-perl/Module-Build
 	dev-perl/Sub-Uplevel
 	dev-perl/URI
+	virtual/perl-CPAN-Meta
 	virtual/perl-Digest-SHA
-	virtual/perl-Parse-CPAN-Meta
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-CPAN-Meta
+	dev-perl/Test-Exception
+	dev-perl/Test-Mock-Furl
+	dev-perl/Test-MockObject
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "

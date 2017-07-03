@@ -20,10 +20,10 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
 	dev-perl/Ouch
+	dev-perl/Regexp-Common
 	dev-perl/Test-Mock-LWP-Dispatch
 	dev-perl/URI
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "

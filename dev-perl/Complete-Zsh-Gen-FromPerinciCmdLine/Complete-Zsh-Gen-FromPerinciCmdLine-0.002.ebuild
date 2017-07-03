@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Complete-Zsh-Gen-FromGetoptLong
 	dev-perl/Perinci-Access
-	>=dev-perl/Perinci-CmdLine-Dump-0.060
 	>=dev-perl/Perinci-Sub-GetArgs-Argv-0.750
 	>=dev-perl/Perinci-Sub-To-CLIDocData-0.280
 	dev-perl/String-ShellQuote

@@ -28,4 +28,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Munge
+	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/Safe-Isa
+	dev-perl/Test-Most
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Try-Tiny
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

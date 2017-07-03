@@ -25,4 +25,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

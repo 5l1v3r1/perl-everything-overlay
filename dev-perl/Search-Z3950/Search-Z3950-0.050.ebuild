@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/MARC-Record
 	dev-perl/Net-Z3950
 	dev-perl/Net-Z3950-ZOOM
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

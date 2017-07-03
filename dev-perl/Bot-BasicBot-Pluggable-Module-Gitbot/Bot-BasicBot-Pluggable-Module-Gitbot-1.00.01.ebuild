@@ -28,4 +28,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Directory-Scratch
+	dev-perl/File-Find-Rule
+	dev-perl/File-Find-Rule-Perl
+	dev-perl/Git-Wrapper
+	dev-perl/Test-TempDir
+	virtual/perl-Test-Simple
 "

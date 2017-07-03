@@ -18,14 +18,16 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Zip
+	dev-perl/File-Fetch
 	dev-perl/File-HomeDir
 	dev-perl/Log-Any
 	dev-perl/Text-CSV-XS
 	dev-perl/URI
-	virtual/perl-File-Fetch
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

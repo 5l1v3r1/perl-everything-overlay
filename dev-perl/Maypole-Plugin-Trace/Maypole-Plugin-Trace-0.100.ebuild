@@ -19,6 +19,7 @@ RDEPEND="
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Class-ISA
 	dev-perl/Class-Inspector
+	dev-perl/NEXT
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/dbix-searchbuilder-1.560
+	>=dev-perl/DBIx-SearchBuilder-1.560
 "
 DEPEND="
 	${RDEPEND}

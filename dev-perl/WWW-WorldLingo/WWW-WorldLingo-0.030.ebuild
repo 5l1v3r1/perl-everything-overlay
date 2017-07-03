@@ -16,13 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/HTTP-Message
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.420
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

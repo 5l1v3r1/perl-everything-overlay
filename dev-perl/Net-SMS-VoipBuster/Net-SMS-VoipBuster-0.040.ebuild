@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Crypt-SSLeay
 	dev-perl/IO-Socket-SSL
 	dev-perl/XML-Parser
-	>=dev-perl/XML-XPath-1.130
+	dev-perl/XML-XPath
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "

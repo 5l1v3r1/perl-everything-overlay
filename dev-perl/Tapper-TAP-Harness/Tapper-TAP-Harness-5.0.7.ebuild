@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/YAML-Tiny
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Temp
-	>=virtual/perl-Test-Harness-3.220
+	virtual/perl-Test-Harness
 "
 DEPEND="
 	${RDEPEND}

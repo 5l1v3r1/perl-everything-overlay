@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/POE-1.004
-	>=dev-perl/POE-Component-IRC-0.100
+	>=dev-perl/POE-Component-IRC-5.700
 	>=virtual/perl-Module-CoreList-2.310
 "
 DEPEND="

@@ -20,7 +20,6 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-IO
 	virtual/perl-XSLoader
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

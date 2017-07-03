@@ -19,10 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Carp
 	virtual/perl-Encode
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

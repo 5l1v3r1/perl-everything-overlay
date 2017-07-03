@@ -24,11 +24,15 @@ RDEPEND="
 	dev-perl/Hash-Merge-Simple
 	dev-perl/Try-Tiny
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	dev-perl/Test-LoadAllModules
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "

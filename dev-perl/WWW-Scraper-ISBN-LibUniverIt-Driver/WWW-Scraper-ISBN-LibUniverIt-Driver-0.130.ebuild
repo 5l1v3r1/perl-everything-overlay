@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Parser-1.320
-	>=dev-perl/WWW-Scraper-ISBN-0.150
+	>=dev-perl/WWW-Scraper-ISBN-0.250
 	>=dev-perl/libwww-perl-2.000
 "
 DEPEND="

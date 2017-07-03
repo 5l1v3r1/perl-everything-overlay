@@ -27,4 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/LWP-Protocol-PSGI
+	>=dev-perl/Test-Fatal-0.010
+	>=virtual/perl-Test-Simple-0.980
 "

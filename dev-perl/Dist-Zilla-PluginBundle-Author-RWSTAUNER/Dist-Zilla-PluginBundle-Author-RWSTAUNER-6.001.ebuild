@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-CheckMetaResources
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromRelease
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-2.004
 	dev-perl/Dist-Zilla-Plugin-Git-Contributors
 	dev-perl/Dist-Zilla-Plugin-Git-Describe
 	>=dev-perl/Dist-Zilla-Plugin-GitHubREADME-Badge-0.160
@@ -40,7 +40,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
 	>=dev-perl/Dist-Zilla-Plugin-Prepender-1.112.280
 	>=dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod-0.142.180
-	>=dev-perl/Dist-Zilla-Plugin-Run-0.014
+	dev-perl/Dist-Zilla-Plugin-Run
 	>=dev-perl/Dist-Zilla-Plugin-Test-ReportPrereqs-0.004
 	>=dev-perl/Dist-Zilla-PluginBundle-TestingMania-0.220
 	dev-perl/Dist-Zilla-Role-PluginBundle-PluginRemover

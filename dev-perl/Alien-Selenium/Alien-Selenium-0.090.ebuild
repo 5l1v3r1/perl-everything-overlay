@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Archive-Zip-1.000
+	virtual/perl-Test-Simple
 "

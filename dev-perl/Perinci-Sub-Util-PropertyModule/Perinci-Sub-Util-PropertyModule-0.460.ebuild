@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Perinci-Sub-Normalize-0.180
-	dev-perl/Rinci
+	dev-perl/Sah-Schemas-Rinci
 	virtual/perl-Exporter
 "
 DEPEND="

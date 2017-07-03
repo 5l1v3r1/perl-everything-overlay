@@ -31,4 +31,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-version-0.770
+	virtual/perl-Data-Dumper
+	virtual/perl-Encode
+	>=virtual/perl-Test-Simple-0.880
 "

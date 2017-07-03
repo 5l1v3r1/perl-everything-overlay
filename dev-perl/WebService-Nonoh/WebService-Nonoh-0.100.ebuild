@@ -28,9 +28,10 @@ RDEPEND="
 	virtual/perl-JSON-PP
 	virtual/perl-MIME-Base64
 	virtual/perl-Text-Balanced
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

@@ -25,4 +25,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Capture-Tiny
+	dev-perl/Plack
+	dev-perl/Test-Requires
+	dev-perl/Test-SharedFork
+	>=dev-perl/Test-TCP-2.000
+	dev-perl/libwww-perl
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

@@ -16,7 +16,34 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Import-Into
+	dev-perl/JSON
+	dev-perl/List-SomeUtils
+	dev-perl/Module-Runtime
+	dev-perl/Module-Util
+	dev-perl/Moose
+	dev-perl/MooseX-Getopt
+	>=dev-perl/Package-DeprecationManager-0.160
+	dev-perl/Parallel-ForkManager
+	dev-perl/Sub-Attribute
+	dev-perl/Test-Most
+	dev-perl/Test2-AsyncSubtest
+	dev-perl/Try-Tiny
+	dev-perl/namespace-autoclean
+	virtual/perl-Carp
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Harness-3.290
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Requires
+	dev-perl/Test-Warnings
+	dev-perl/Test2-Suite
+	dev-perl/lib
+	virtual/perl-File-Temp
 "

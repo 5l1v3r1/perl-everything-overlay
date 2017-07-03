@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Class-Inspector
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Encode
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple

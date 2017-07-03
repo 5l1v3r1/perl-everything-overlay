@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.230
 	>=dev-perl/Call-Context-0.020
 	>=dev-perl/Crypt-Format-0.060
 	>=dev-perl/Crypt-Perl-0.010
@@ -26,7 +27,6 @@ RDEPEND="
 	>=virtual/perl-HTTP-Tiny-0.058
 	>=virtual/perl-MIME-Base64-3.110
 	virtual/perl-autodie
-	>=virtual/perl-constant-1.230
 	>=virtual/perl-parent-0.225
 "
 DEPEND="
@@ -36,5 +36,5 @@ DEPEND="
 	>=dev-perl/Test-Class-0.400
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Exception-0.400
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-1.000
 "

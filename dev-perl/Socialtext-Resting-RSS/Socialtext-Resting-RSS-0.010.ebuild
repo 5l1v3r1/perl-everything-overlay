@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Socialtext-Resting-Utils-0.170
 	dev-perl/Text-Diff
 	dev-perl/XML-RSS
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

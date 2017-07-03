@@ -17,9 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Readonly-1.030
-	>=dev-perl/regexp-common-0.030
+	>=dev-perl/Regexp-Common-0.030
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
+	>=virtual/perl-Test-Simple-0.010
 "

@@ -25,7 +25,7 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-IO-Zlib
-	virtual/perl-Test-Harness
+	>=virtual/perl-Test-Harness-3.000
 	virtual/perl-parent
 "
 DEPEND="

@@ -16,7 +16,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Dist-Zilla
+	dev-perl/Moose
+	dev-perl/Path-Tiny
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-if
 "

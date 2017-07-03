@@ -22,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	dev-perl/Test-TempDir
+	dev-perl/Test-WWW-Mechanize
+	virtual/perl-Test-Simple
 "

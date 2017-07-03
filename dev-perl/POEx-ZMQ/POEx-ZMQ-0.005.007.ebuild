@@ -40,4 +40,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/FFI-CheckLib-0.030
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/PAR-1.014
 	>=dev-perl/PAR-Dist-0.220
 	>=virtual/perl-File-Temp-0.050
-	>=virtual/perl-IO-Compress-1.300
+	virtual/perl-IO-Compress
 	virtual/perl-Text-ParseWords
 "
 DEPEND="

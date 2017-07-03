@@ -27,4 +27,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	>=dev-perl/Test-CheckDeps-0.002
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-UseAllModules
+	dev-perl/URI-Encode
+	virtual/perl-Digest-SHA
+	virtual/perl-File-Temp
+	virtual/perl-MIME-Base64
+	>=virtual/perl-Test-Simple-0.940
 "

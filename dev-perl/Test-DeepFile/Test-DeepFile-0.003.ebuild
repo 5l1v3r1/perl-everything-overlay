@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Test-Deep-0.103
 	>=dev-perl/Test-Exception-0.027
-	>=dev-perl/yaml-0.066
+	>=dev-perl/YAML-0.066
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	>=virtual/perl-Test-Simple-0.008
 "

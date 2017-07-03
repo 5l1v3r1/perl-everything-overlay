@@ -24,4 +24,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/HTTP-Message
+	>=dev-perl/Moose-2.000.700
+	>=dev-perl/namespace-autoclean-0.120
+	>=dev-perl/syntax-0.003
+	>=virtual/perl-Test-Simple-0.980
 "

@@ -20,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/FFI-Raw-0.300
+	dev-perl/Test-Fatal
 "

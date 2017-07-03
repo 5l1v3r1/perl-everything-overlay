@@ -17,11 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/yaml-0.380
+	>=dev-perl/YAML-0.380
 	virtual/perl-Carp
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

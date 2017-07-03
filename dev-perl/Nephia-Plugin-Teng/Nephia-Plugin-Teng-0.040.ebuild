@@ -23,4 +23,13 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/DBD-SQLite
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/Nephia-Plugin-Dispatch
+	dev-perl/Nephia-Plugin-JSON
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
 "

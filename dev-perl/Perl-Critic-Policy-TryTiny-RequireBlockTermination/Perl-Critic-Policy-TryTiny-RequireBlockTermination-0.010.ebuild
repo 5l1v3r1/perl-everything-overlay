@@ -23,5 +23,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Try-Tiny-0.190
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "

@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Rex-0.30.0
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

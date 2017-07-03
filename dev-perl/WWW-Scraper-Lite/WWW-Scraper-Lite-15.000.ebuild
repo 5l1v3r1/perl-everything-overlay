@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.060
 	>=dev-perl/HTML-TreeBuilder-XPath-0.120
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/libwww-perl-6.020
@@ -25,4 +25,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=virtual/perl-Test-Simple-0.800
 "

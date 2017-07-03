@@ -19,11 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Exporter-Easy
 	dev-perl/Params-Validate
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Math-Complex
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	virtual/perl-Test-Simple
 "

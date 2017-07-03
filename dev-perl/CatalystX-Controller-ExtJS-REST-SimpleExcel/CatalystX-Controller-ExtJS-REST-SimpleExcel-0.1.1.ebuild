@@ -24,4 +24,19 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-lang/perl
+	dev-perl/Catalyst-Action-REST
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-Runtime
+	dev-perl/Catalyst-View-JSON
+	dev-perl/CatalystX-ExtJS-Direct
+	dev-perl/CatalystX-ExtJS-REST
+	dev-perl/DBIx-Class
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/Path-Class
+	dev-perl/Spreadsheet-ParseExcel
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

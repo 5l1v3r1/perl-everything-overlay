@@ -24,4 +24,5 @@ DEPEND="
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.050
 	dev-perl/Module-CPANfile
+	dev-perl/Test-Kantan
 "

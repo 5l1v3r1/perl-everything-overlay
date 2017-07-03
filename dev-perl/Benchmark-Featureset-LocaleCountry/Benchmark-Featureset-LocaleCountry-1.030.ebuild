@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.120
+	>=dev-lang/perl-1.040
 	>=dev-perl/Config-Tiny-2.130
 	>=dev-perl/Date-Simple-3.030
 	>=dev-perl/File-HomeDir-0.970

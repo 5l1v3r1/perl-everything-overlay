@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
 	dev-perl/Moose
-	dev-perl/Net-Graphite-Reader
 	>=dev-perl/Salvation-AnyNotify-0.010
 	>=dev-perl/Salvation-Method-Signatures-0.020
 	>=dev-perl/Salvation-TC-0.110

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DBI-1.510
 	>=dev-perl/Test-Deep-0.093
-	>=dev-perl/yaml-0.570
+	>=dev-perl/YAML-0.570
 "
 DEPEND="
 	${RDEPEND}

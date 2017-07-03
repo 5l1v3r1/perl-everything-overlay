@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Email-Address
 	dev-perl/Email-Simple
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -17,11 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Test-Output
+	virtual/perl-Test-Simple
 "

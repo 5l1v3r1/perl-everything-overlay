@@ -23,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/DBD-SQLite-1.400
+	>=dev-perl/Fennec-2.013
 "

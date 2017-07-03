@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Authen-Passphrase
 	dev-perl/IO-Prompter
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

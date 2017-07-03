@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTTP-SimpleLinkChecker-1.165
-	>=dev-perl/Mojolicious-6.000
+	dev-perl/Mojolicious
 	virtual/perl-Carp
 "
 DEPEND="

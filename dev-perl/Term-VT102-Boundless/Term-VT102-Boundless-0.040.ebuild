@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Term-VT102-0.910
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.530
 "
 DEPEND="
 	${RDEPEND}

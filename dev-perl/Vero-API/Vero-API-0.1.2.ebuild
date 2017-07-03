@@ -27,4 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=virtual/perl-version-0.770
+	dev-perl/Test-FailWarnings
+	dev-perl/Test-Fatal
+	dev-perl/Test-Most
 "

@@ -19,9 +19,9 @@ RDEPEND="
 	dev-perl/IO-Tty
 	dev-perl/Net-OpenSSH
 	>=dev-perl/Parallel-ForkManager-1.160
+	>=dev-perl/Pod-Usage-1.330
 	dev-perl/String-Glob-Permute
 	dev-perl/TermReadKey
-	>=virtual/perl-Pod-Usage-1.330
 	>=virtual/perl-Scalar-List-Utils-1.450
 "
 DEPEND="

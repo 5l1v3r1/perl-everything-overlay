@@ -18,9 +18,11 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-RPC2-0.4.0
 	dev-perl/JSON-XS
-	>=dev-perl/Mojolicious-5.110
+	dev-perl/Mojolicious
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

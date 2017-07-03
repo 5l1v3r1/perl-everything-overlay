@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Device-I2C
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

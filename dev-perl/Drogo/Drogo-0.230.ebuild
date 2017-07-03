@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/CGI
 	dev-perl/URI
 	dev-perl/XML-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Path
 	virtual/perl-IO
 	virtual/perl-Time-HiRes

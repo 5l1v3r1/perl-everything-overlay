@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	>=dev-perl/Test-File-ShareDir-0.3.0
+	>=virtual/perl-Test-Simple-0.880
 "

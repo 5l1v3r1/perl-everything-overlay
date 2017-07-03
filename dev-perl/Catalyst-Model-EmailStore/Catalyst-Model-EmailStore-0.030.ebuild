@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Catalyst-Runtime-5.550
+	>=dev-perl/Email-Store-0.240
+	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-MethodMaker-1.120
 	>=dev-perl/Test-Exception-0.200
-	>=dev-perl/Win32-OLE-0.170
+	dev-perl/Win32-OLE
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-File-Spec-0.870

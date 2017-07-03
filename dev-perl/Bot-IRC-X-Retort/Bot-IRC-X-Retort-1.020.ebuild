@@ -25,5 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

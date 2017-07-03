@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/List-AllUtils
 	dev-perl/Mojolicious
-	dev-perl/Moo
+	>=dev-perl/Moo-1.004.005
 	dev-perl/MooX-HandlesVia
 	dev-perl/MooX-StrictConstructor
 	dev-perl/Plack

@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Padre-0.430
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

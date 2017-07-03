@@ -17,11 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/SelfLoader
 	virtual/perl-Carp
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
-	virtual/perl-SelfLoader
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

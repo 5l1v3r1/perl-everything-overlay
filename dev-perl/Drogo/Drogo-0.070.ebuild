@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/CGI
 	dev-perl/XML-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Path
 	virtual/perl-Time-HiRes
 "

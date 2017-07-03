@@ -24,9 +24,12 @@ RDEPEND="
 	dev-perl/MouseX-Getopt
 	dev-perl/MouseX-SimpleConfig
 	dev-perl/URI
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Moose
+	dev-perl/Mouse
+	virtual/perl-Test-Simple
 "

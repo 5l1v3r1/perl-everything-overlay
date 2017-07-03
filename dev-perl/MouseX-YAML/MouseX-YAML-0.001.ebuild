@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Mouse-0.400
-	>=dev-perl/yaml-0.700
+	>=dev-perl/YAML-0.700
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.880
 "

@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Inline
 	dev-perl/Ref-Util
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

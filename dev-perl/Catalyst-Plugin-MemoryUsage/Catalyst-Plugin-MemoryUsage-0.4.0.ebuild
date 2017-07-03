@@ -29,4 +29,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Catalyst-Runtime
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-parent
 "

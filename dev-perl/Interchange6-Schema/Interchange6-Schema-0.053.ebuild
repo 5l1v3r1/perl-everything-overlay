@@ -23,13 +23,22 @@ RDEPEND="
 	dev-perl/DBIx-Class-Tree
 	dev-perl/DateTime
 	>=dev-perl/Locale-SubCountry-1.620
-	>=dev-perl/Moo-1.004.006
 	>=dev-perl/MooX-HandlesVia-0.001.005
 	>=dev-perl/MooX-Types-MooseLike-0.250
 	>=dev-perl/SQL-Translator-0.110.160
+	>=dev-perl/Sub-Quote-1.004.006
 	dev-perl/Time-Duration-Parse
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/DBD-SQLite-1.380.100
+	dev-perl/Data-Dumper-Concise
+	dev-perl/File-Slurp
+	>=dev-perl/Test-MockDateTime-0.020
+	>=dev-perl/Test-Most-0.330
+	>=dev-perl/Test-Roo-1.003
+	dev-perl/Test-Warnings
+	dev-perl/Try-Tiny
+	virtual/perl-Test-Simple
 "

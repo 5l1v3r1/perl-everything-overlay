@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IPC-ShareLite-0.060
+	>=dev-perl/IPC-SysV-1.030
 	>=virtual/perl-Data-Dumper-2.101
-	>=virtual/perl-IPC-SysV-1.030
 	>=virtual/perl-Storable-1.006
 "
 DEPEND="

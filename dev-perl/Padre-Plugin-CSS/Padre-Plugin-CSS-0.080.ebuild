@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/CSS-Minifier-XS
+	>=dev-perl/Padre-0.260
+	dev-perl/WebService-Validator-CSS-W3C
+	virtual/perl-Test-Simple
 "

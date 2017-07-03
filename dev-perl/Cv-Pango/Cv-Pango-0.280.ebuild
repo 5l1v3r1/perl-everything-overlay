@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Cv-0.260
+	>=dev-perl/ExtUtils-PkgConfig-1.120
 	>=dev-perl/Pango-1.223
-	>=dev-perl/extutils-pkgconfig-1.120
 	>=virtual/perl-ExtUtils-ParseXS-2.220
 "
 DEPEND="

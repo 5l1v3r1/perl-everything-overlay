@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/POD2-Base-0.043
-	>=virtual/perl-Pod-Perldoc-3.150
+	>=dev-perl/Pod-Perldoc-3.150
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.600
 	>=dev-perl/Class-C3-0.190
-	>=virtual/perl-NEXT-0.600
+	>=dev-perl/NEXT-0.600
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

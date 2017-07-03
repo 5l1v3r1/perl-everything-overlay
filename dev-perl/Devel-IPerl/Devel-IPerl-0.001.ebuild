@@ -34,9 +34,10 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-IO
 	virtual/perl-MIME-Base64
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "

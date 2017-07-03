@@ -20,6 +20,7 @@ RDEPEND="
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/PHP-HTTPBuildQuery
 	dev-perl/Safe-Isa
+	dev-perl/Sub-Quote
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -27,4 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Test-Fatal
+	dev-perl/Test-MockModule
+	virtual/perl-Test-Simple
 "

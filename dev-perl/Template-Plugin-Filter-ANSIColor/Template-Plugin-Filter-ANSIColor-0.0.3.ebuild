@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Magpie
+	dev-perl/Test-Most
 "

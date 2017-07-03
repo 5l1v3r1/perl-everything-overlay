@@ -16,11 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moose
+	>=dev-perl/Moose-2.000.000
 	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Test-Warnings
+	>=virtual/perl-Test-Simple-0.960
 "

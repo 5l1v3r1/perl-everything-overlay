@@ -30,4 +30,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Tapper-Schema
+	dev-perl/Test-Fixture-DBIC-Schema
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

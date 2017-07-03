@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Jifty
 	dev-perl/Text-Greeking
 	dev-perl/UNIVERSAL-dump
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

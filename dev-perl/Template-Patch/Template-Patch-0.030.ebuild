@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Class-Accessor-Ref
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

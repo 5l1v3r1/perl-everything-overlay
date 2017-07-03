@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700
-	virtual/perl-NEXT
+	dev-perl/NEXT
 "
 DEPEND="
 	${RDEPEND}

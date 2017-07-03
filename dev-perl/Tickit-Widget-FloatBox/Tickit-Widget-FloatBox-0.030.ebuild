@@ -20,4 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Identity
+	dev-perl/Tickit
+	>=virtual/perl-Test-Simple-0.880
 "

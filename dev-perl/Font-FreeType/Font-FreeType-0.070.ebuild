@@ -22,4 +22,5 @@ DEPEND="
 	dev-perl/Devel-CheckLib
 	dev-perl/File-Which
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	dev-perl/Test-Warnings
 "

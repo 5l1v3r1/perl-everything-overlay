@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/IPC-SysV
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-IPC-SysV
 	virtual/perl-Test-Simple
 "
 DEPEND="

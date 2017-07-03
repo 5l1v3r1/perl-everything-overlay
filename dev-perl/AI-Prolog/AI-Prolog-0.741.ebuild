@@ -20,11 +20,11 @@ RDEPEND="
 	>=dev-perl/Clone-0.150
 	>=dev-perl/Exporter-Tidy-0.060
 	>=dev-perl/Hash-AsObject-0.050
+	>=dev-perl/Pod-Usage-1.120
+	>=dev-perl/Regexp-Common-2.119
 	>=dev-perl/TermReadKey-2.210
 	>=dev-perl/Text-Quote-0.030
 	>=dev-perl/aliased-0.110
-	>=dev-perl/regexp-common-2.119
-	>=virtual/perl-Pod-Usage-1.120
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Term-ReadLine-1.010
 	>=virtual/perl-Text-Balanced-1.950

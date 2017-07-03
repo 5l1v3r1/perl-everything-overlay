@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Smart-Comments-1.000
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Exporter-5.000
 	virtual/perl-Test-Simple

@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-Remove-1.420
+	>=dev-perl/Test-File-Cleaner-0.030
+	>=virtual/perl-Test-Simple-0.470
 "

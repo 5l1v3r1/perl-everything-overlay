@@ -24,16 +24,19 @@ RDEPEND="
 	>=dev-perl/Log-Dispatchouli-2.000
 	dev-perl/Mozilla-CA
 	dev-perl/Object-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Time-Piece-Month
 	dev-perl/WWW-Mechanize
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-Piece
 	>=virtual/perl-autodie-2.000
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warn
+	>=virtual/perl-Test-Simple-0.880
 "

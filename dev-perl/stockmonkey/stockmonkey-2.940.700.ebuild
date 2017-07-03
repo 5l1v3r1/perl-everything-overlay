@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.050
 	dev-perl/Math-Business-Stochastic
-	>=virtual/perl-constant-1.050
 "
 DEPEND="
 	${RDEPEND}

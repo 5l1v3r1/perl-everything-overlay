@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Env-Path
+	virtual/perl-Test-Simple
 "

@@ -19,9 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Any-Moose-0.120
 	>=dev-perl/Try-Tiny-0.020
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-0.880
 "

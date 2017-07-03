@@ -21,10 +21,12 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Warn
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

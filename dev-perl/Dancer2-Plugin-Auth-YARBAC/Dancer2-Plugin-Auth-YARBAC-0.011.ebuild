@@ -29,4 +29,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/DBD-SQLite
+	dev-perl/Dancer2-Session-Cookie
+	dev-perl/Find-Lib
+	dev-perl/HTTP-Message
+	dev-perl/Plack
+	dev-perl/Template-Toolkit
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

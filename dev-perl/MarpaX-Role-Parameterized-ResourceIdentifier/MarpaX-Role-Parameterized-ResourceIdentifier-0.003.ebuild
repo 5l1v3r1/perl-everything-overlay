@@ -41,9 +41,12 @@ RDEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Unicode-Normalize
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

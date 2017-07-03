@@ -22,4 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Devel-PPPort-3.190
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-LeakTrace-0.080
+	>=virtual/perl-ExtUtils-ParseXS-2.210
+	>=virtual/perl-Test-Simple-0.620
 "

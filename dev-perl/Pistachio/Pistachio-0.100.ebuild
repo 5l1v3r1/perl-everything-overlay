@@ -22,9 +22,9 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Module-Load
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

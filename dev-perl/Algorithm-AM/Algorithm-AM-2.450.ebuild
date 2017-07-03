@@ -29,4 +29,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/File-Slurp
+	dev-perl/Test-Exception
+	dev-perl/Test-LongString
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warn
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

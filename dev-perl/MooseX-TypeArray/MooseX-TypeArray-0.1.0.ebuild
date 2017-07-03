@@ -26,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/MooseX-Attribute-ValidateWithException
+	dev-perl/Test-Fatal
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

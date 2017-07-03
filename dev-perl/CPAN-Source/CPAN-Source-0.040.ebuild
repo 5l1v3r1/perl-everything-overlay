@@ -26,9 +26,9 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	dev-perl/YAML-LibYAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-IO-Compress
 "
 DEPEND="

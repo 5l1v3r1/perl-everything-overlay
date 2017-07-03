@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/HTML-Form
+	dev-perl/WWW-Mechanize
+	virtual/perl-Test-Simple
 "

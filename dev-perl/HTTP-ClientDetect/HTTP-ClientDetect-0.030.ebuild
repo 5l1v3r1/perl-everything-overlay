@@ -21,4 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Geo-IP-PurePerl
+	dev-perl/Moo
+	virtual/perl-Test-Simple
 "

@@ -37,7 +37,6 @@ RDEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -21,4 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	>=dev-perl/Fennec-2.004
+	>=dev-perl/Fennec-Declare-1.001
+	dev-perl/Parallel-Runner
 "

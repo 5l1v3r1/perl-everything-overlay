@@ -25,4 +25,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Carp
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	>=virtual/perl-Test-Simple-0.880
 "

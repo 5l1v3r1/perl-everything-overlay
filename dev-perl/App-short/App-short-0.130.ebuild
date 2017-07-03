@@ -25,7 +25,6 @@ RDEPEND="
 	>=dev-perl/Perinci-Object-0.260
 	dev-perl/experimental
 	virtual/perl-File-Spec
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

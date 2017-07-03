@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/NEXT
 	dev-perl/Sentinel
 "
 DEPEND="

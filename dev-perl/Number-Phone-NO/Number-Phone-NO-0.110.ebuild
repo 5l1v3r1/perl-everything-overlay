@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/DBM-Deep-1.000.700
-	>=dev-perl/Number-Phone-2.200
+	dev-perl/Number-Phone
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -26,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.960
 "

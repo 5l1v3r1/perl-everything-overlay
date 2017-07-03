@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Moo-1.000.007
 	>=dev-perl/Try-Tiny-0.110
 	virtual/perl-Carp
-	virtual/perl-File-Spec
+	>=virtual/perl-File-Spec-3.330
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Socket
 	virtual/perl-parent
@@ -30,4 +30,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Path-Class
+	virtual/perl-Data-Dumper
+	virtual/perl-Digest
+	virtual/perl-Test-Simple
 "

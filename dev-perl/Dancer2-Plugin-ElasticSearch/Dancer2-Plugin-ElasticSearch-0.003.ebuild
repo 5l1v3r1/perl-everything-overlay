@@ -23,4 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/Plack
+	virtual/perl-Test-Simple
 "

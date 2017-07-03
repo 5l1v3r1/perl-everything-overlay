@@ -21,9 +21,11 @@ RDEPEND="
 	>=dev-perl/File-Fu-0.0.1
 	>=dev-perl/Getopt-Helpful-0.040
 	dev-perl/IPC-Run
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.260
+	virtual/perl-Test-Simple
 "

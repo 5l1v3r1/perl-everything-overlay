@@ -22,10 +22,14 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Net-Jenkins-0.030
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/methods
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Read
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

@@ -22,6 +22,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckLib-1.01.0
+	>=dev-perl/Devel-CheckLib-1.1.0
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warnings
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

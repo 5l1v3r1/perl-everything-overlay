@@ -24,4 +24,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-Runtime
+	dev-perl/DBI
+	dev-perl/DBIx-Class
+	dev-perl/HTTP-Message
+	dev-perl/base
+	virtual/perl-Test-Simple
 "

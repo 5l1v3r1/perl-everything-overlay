@@ -17,9 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/POE
-	>=dev-perl/POE-Component-Pluggable-0.030
+	dev-perl/POE-Component-Pluggable
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-POE-Server-TCP
+	>=virtual/perl-Test-Simple-0.470
 "

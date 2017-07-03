@@ -19,6 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-ZOMG
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	dev-perl/Try-Tiny
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -27,4 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

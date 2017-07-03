@@ -23,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/FFI-Platypus-0.040
 	>=dev-perl/Module-Build-0.280
+	>=dev-perl/Module-Build-FFI-0.040
+	>=virtual/perl-Test-Simple-0.940
 "

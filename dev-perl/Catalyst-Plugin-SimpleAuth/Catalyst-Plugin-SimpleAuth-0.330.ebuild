@@ -19,6 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Accessor
 	dev-perl/Digest-SHA1
+	dev-perl/NEXT
 	virtual/perl-Test-Simple
 "
 DEPEND="

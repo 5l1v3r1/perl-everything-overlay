@@ -20,12 +20,12 @@ RDEPEND="
 	>=dev-perl/Email-Sender-1.300.021
 	>=dev-perl/Email-Stuffer-0.012
 	>=dev-perl/Moo-2.000.002
+	dev-perl/Pod-Usage
 	>=dev-perl/TAP-Formatter-HTML-0.110
 	>=dev-perl/Type-Tiny-1.000.005
 	>=dev-perl/namespace-clean-0.260
 	virtual/perl-Carp
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Test-Harness-3.300
 "
 DEPEND="

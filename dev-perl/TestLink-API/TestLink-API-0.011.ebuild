@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-Inspector
+	dev-perl/Prompt-Timeout
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-MIME-Base64
+	virtual/perl-Test-Simple
 "

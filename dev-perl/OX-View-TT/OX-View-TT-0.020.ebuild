@@ -23,4 +23,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/HTTP-Message
+	dev-perl/OX
+	dev-perl/Path-Class
+	dev-perl/Plack
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

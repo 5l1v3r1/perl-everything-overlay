@@ -24,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DateTime
+	>=dev-perl/Test-Most-0.340
 "

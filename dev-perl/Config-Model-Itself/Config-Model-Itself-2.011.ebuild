@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/App-Cme-1.002
-	>=dev-perl/Config-Model-2.103
+	dev-perl/Config-Model
 	dev-perl/Config-Model-TkUI
 	dev-perl/Data-Compare
 	>=dev-perl/Log-Log4perl-1.110

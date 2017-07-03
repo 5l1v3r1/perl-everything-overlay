@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Carp-Always
+	dev-perl/MongoDB
+	virtual/perl-Test-Simple
 "

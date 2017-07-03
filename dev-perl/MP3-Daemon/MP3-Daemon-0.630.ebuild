@@ -19,8 +19,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Audio-Play-MPG123
 	dev-perl/MP3-Info
+	dev-perl/Pod-Usage
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

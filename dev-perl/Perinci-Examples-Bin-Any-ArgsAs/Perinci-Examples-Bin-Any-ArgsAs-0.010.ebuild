@@ -17,10 +17,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Perinci-CmdLine-Any
-	dev-perl/Perinci-Examples
+	>=dev-perl/Perinci-Examples-0.710
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Perl-osnames-0.090
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

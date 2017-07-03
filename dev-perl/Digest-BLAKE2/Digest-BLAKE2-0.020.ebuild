@@ -24,4 +24,8 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.300
 	>=dev-perl/Module-Build-Pluggable-XSUtil-1.020
 	>=virtual/perl-ExtUtils-ParseXS-2.210
+	dev-perl/Test-Exception
+	dev-perl/Test-Requires
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "

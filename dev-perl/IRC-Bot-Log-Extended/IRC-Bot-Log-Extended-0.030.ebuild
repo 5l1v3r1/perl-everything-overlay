@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/IRC-Bot
+	dev-perl/Moose
+	virtual/perl-Test-Simple
 "

@@ -30,4 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.060
+	>=dev-perl/Test-UseAllModules-0.120
+	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.980
 "

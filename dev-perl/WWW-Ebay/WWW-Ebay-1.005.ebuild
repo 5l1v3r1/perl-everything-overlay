@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/URI
-	>=dev-perl/WWW-Search-2.070
+	>=dev-perl/WWW-Search-2.525
 	>=dev-perl/WWW-Search-Ebay-2.267
 	dev-perl/libwww-perl
 	virtual/perl-Carp

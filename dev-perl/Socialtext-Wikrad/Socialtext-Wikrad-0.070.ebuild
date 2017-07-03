@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Curses-UI-0.950
 	dev-perl/JSON
 	>=dev-perl/Socialtext-Resting-0.240
-	>=dev-perl/Socialtext-Resting-Utils-0.040
+	dev-perl/Socialtext-Resting-Utils
 "
 DEPEND="
 	${RDEPEND}

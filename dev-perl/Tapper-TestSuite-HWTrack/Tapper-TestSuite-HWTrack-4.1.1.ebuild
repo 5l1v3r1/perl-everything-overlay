@@ -22,12 +22,13 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Tapper-Base
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	dev-perl/aliased
-	dev-perl/yaml
 	virtual/perl-File-Temp
 	virtual/perl-IO
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

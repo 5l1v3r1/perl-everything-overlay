@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Date-Simple-3.020
-	>=dev-perl/HTTP-Message-1.530
+	>=dev-perl/HTTP-Message-1.400
 	>=dev-perl/URI-1.350
 	>=dev-perl/libwww-perl-2.033
 	>=virtual/perl-Test-Simple-0.440

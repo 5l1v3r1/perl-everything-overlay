@@ -17,11 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	virtual/perl-Data-Dumper
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Test-1.000
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.200
+	virtual/perl-ExtUtils-CBuilder
 "

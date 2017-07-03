@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Crypt-Random-Seed
+	>=dev-perl/Data-Buffer-0.040
 	dev-perl/Math-BigInt-GMP
 	>=dev-perl/Math-Prime-Util-GMP-0.150
 	dev-perl/base
-	>=dev-perl/data-buffer-0.040
 	virtual/perl-Carp
 	>=virtual/perl-Digest-SHA-5.220
 	>=virtual/perl-Exporter-5.562
@@ -30,4 +30,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.450
 "

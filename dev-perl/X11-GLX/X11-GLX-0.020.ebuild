@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Moo
 	dev-perl/OpenGL
-	dev-perl/X11-Xlib
+	>=dev-perl/X11-Xlib-0.110
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-XSLoader

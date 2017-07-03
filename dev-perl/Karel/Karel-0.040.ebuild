@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Clone
 	>=dev-perl/Marpa-R2-2.084
 	dev-perl/Moo
@@ -25,7 +26,6 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Module-Load
 	>=virtual/perl-Scalar-List-Utils-1.330
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

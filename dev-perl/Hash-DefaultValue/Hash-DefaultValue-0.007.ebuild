@@ -18,9 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	virtual/perl-Carp
-	>=virtual/perl-constant-1.060
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	>=virtual/perl-Test-Simple-0.610
 "

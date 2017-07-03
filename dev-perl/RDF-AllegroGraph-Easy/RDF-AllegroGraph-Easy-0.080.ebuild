@@ -20,4 +20,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
+	dev-perl/DateTime
+	dev-perl/JSON
+	dev-perl/Regexp-Common
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod-Coverage
+	dev-perl/URI
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

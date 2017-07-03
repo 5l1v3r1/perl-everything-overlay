@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420.300
+	dev-perl/Git-Wrapper
+	dev-perl/Path-Tiny
+	>=virtual/perl-Test-Simple-1.001.002
 "

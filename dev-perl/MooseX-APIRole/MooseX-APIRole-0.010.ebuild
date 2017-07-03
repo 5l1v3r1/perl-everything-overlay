@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-1.160
 	dev-perl/Sub-Exporter
 	dev-perl/namespace-autoclean
 	dev-perl/true
@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Test-Exception
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

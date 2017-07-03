@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Pod-Perldoc-0.100
 	dev-perl/libwww-perl
-	>=virtual/perl-Pod-Perldoc-0.100
 "
 DEPEND="
 	${RDEPEND}

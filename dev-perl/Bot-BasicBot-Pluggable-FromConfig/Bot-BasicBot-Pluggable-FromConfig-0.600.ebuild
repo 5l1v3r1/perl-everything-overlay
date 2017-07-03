@@ -25,4 +25,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Test-Modern-0.002
 "

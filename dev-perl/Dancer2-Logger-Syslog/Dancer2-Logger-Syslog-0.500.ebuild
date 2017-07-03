@@ -25,7 +25,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
-	>=dev-perl/Plack-1.002.900
+	dev-perl/Plack
 	dev-perl/Test-Deep
 	dev-perl/Test-Warnings
 	virtual/perl-Exporter

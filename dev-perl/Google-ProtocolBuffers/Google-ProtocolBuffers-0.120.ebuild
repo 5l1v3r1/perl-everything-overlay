@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Accessor
 	>=dev-perl/Parse-RecDescent-1.940
 	virtual/perl-Math-BigInt
 	>=virtual/perl-Test-Simple-0.520
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

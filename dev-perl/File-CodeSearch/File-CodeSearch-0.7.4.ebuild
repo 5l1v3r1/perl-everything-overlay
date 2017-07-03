@@ -26,12 +26,12 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	>=dev-perl/Path-Tiny-0.005
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	dev-perl/Term-Size-Any
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-autodie
@@ -40,4 +40,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Warnings-0.016
+	>=virtual/perl-Test-Simple-0.880
 "

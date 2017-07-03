@@ -21,8 +21,8 @@ RDEPEND="
 	dev-perl/Test-MockModule
 	>=dev-perl/Test-Pod-Coverage-1.080
 	dev-perl/XML-Bare
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Test-Simple
 "
 DEPEND="

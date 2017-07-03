@@ -21,4 +21,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckLib
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Dump
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Template-Extract-0.400
 	>=dev-perl/Text-Iconv-1.140
 	>=dev-perl/WWW-Mechanize-1.160
-	>=dev-perl/WWW-Scraper-ISBN-0.180
+	>=dev-perl/WWW-Scraper-ISBN-0.250
 	virtual/perl-Test-Simple
 "
 DEPEND="

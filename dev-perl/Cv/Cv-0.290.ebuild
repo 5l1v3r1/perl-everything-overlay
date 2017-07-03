@@ -16,10 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/extutils-pkgconfig-1.120
+	>=dev-perl/ExtUtils-PkgConfig-1.120
 	>=virtual/perl-ExtUtils-MakeMaker-6.620
 	>=virtual/perl-ExtUtils-ParseXS-2.220
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Exception-0.310
+	>=dev-perl/Test-Number-Delta-1.030
 "

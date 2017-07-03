@@ -40,4 +40,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	dev-lang/perl
+	dev-perl/Capture-Tiny
+	>=dev-perl/Test-CheckDeps-0.006
+	dev-perl/Test-Class
+	>=dev-perl/Test-Fatal-0.010
+	>=dev-perl/Test-Refcount-0.070
+	>=dev-perl/Test-Script-1.050
+	>=virtual/perl-Test-Simple-0.980
 "

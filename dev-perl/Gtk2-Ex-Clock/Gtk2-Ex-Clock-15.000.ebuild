@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Glib-Ex-ObjectBits-2.000
+	>=dev-perl/Gtk2-1.200
 	>=dev-perl/POSIX-Wide-2.000
 	dev-perl/Tie-TZ
 	dev-perl/glib-perl
-	>=dev-perl/gtk2-perl-1.200
 "
 DEPEND="
 	${RDEPEND}

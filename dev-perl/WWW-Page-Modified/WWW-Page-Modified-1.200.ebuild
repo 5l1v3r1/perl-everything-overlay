@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.020
 	>=dev-perl/Date-Manip-5.400
 	>=dev-perl/HTTP-Date-1.430
 	>=dev-perl/HTTP-Message-1.190
@@ -26,7 +27,6 @@ RDEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-Data-Dumper-2.102
 	>=virtual/perl-Test-Simple-0.410
-	>=virtual/perl-constant-1.020
 "
 DEPEND="
 	${RDEPEND}

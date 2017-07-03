@@ -20,6 +20,7 @@ RDEPEND="
 	>=dev-perl/AnyEvent-Open3-Simple-0.860
 	dev-perl/Probe-Perl
 	>=dev-perl/Test2-Suite-0.000.028
+	>=virtual/perl-Test-Simple-0.000.042
 "
 DEPEND="
 	${RDEPEND}

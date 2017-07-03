@@ -21,15 +21,20 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/Moo
 	dev-perl/Readonly
+	dev-perl/Regexp-Common
 	>=dev-perl/Smart-Args-0.080
 	dev-perl/URI
 	dev-perl/Web-Query
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	virtual/perl-Encode
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Data-Section-Simple
+	dev-perl/LWP-Protocol-PSGI
+	dev-perl/Router-Simple
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

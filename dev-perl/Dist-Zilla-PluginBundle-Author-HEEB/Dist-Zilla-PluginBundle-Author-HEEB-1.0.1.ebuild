@@ -25,4 +25,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Dist-Zilla-Plugin-Test-Perl-Critic
 "

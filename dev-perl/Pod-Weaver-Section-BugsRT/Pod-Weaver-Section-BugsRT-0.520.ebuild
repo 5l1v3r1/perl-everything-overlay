@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Module-Signature
+	virtual/perl-Socket
+	virtual/perl-Test-Simple
 "

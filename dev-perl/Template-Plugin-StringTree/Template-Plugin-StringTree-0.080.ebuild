@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Template-Toolkit
 	>=virtual/perl-File-Spec-0.800
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.110
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

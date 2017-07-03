@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Cache-Memcached-Fast
+	dev-perl/IO-Capture
+	virtual/perl-Test-Simple
 "

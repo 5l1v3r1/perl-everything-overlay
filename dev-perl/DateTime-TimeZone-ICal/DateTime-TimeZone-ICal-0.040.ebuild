@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Data-ICal-0.210
 	>=dev-perl/DateTime-0.700
 	>=dev-perl/DateTime-Format-ICal-0.090
-	>=dev-perl/DateTime-Set-0.310
+	dev-perl/DateTime-Set
 	>=dev-perl/DateTime-TimeZone-1.850
 	>=dev-perl/Moo-1.006
 	>=dev-perl/URI-1.600

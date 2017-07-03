@@ -17,10 +17,17 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/regexp-common-2013031301.000
+	>=dev-perl/Regexp-Common-2013031301.000
 	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Pod-0.980
+	dev-perl/Test-Spec
+	dev-perl/YAML
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

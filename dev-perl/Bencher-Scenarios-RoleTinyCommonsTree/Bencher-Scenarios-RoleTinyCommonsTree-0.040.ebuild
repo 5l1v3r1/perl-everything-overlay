@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Random-Tree
-	>=dev-perl/Role-TinyCommons-Tree-0.110
+	dev-perl/Role-TinyCommons-Tree
 	dev-perl/Tree-Object
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils

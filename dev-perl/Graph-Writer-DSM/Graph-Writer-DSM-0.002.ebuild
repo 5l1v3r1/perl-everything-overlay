@@ -30,4 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Graph
+	dev-perl/Test-File
+	dev-perl/Test-Most
 "

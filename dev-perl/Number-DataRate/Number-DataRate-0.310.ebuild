@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Accessor
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Test-Simple
 "
 DEPEND="

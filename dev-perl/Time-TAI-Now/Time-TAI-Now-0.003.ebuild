@@ -22,10 +22,10 @@ RDEPEND="
 	>=dev-perl/Time-UTC-Now-0.007
 	virtual/perl-Exporter
 	>=virtual/perl-Math-BigRat-0.100
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

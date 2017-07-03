@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Genome-0.060
+	dev-perl/Regexp-Common
 	dev-perl/Statistics-Distributions
 	dev-perl/Text-CSV-XS
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

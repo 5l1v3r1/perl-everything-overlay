@@ -22,6 +22,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Moose
 	dev-perl/String-CRC32
+	dev-perl/Sub-Quote
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
@@ -31,4 +32,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/lib
+	virtual/perl-File-Path
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

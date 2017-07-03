@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Carp-Clan
 	dev-perl/Class-Inspector
 	dev-perl/List-MoreUtils
-	dev-perl/Module-Pluggable
+	>=dev-perl/Module-Pluggable-3.800
 	dev-perl/Moose
 	dev-perl/Test-Most
 	>=virtual/perl-ExtUtils-MakeMaker-6.980

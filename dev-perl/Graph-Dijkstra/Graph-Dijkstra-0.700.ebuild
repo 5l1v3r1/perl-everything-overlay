@@ -20,13 +20,14 @@ RDEPEND="
 	>=dev-perl/Array-Heap-ModifiablePriorityQueue-1.100
 	dev-perl/HTML-Parser
 	dev-perl/JSON
+	dev-perl/Regexp-Common
 	dev-perl/Text-CSV-XS
 	dev-perl/XML-LibXML
-	dev-perl/regexp-common
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

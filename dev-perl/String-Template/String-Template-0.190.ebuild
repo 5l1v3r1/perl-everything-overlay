@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Data-Dumper
+	>=virtual/perl-Test-Simple-0.940
+	>=virtual/perl-Time-Piece-1.170
 "

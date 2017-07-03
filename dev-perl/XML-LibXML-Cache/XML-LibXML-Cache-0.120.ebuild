@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/File-Touch
+	dev-perl/Test-Deep
+	>=dev-perl/XML-LibXSLT-1.590
 "

@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/XML-Simple-2.180
+	>=dev-perl/YAML-0.680
 	>=dev-perl/YAML-AppConfig-0.160
-	>=dev-perl/yaml-0.680
 	virtual/perl-Test-Simple
 "
 DEPEND="

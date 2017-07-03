@@ -23,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340
 	dev-perl/Mouse
+	>=dev-perl/Config-Model-Tester-2.042
+	virtual/perl-Test-Simple
 "

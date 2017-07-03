@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Data-OptList
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

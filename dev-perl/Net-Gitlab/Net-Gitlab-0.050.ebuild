@@ -29,13 +29,19 @@ RDEPEND="
 	dev-perl/Pod-Weaver-Section-SourceGitHub
 	dev-perl/Pod-Weaver-Section-Support
 	dev-perl/Pod-Weaver-Section-WarrantyDisclaimer
+	dev-perl/Regexp-Common
 	dev-perl/Regexp-Common-Email-Address
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
-	dev-perl/regexp-common
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	>=dev-perl/Test-CheckDeps-0.010
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-UseAllModules
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

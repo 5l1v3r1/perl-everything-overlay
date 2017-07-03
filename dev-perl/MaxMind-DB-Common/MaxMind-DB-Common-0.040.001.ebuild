@@ -22,15 +22,17 @@ RDEPEND="
 	dev-perl/List-AllUtils
 	dev-perl/Moo
 	dev-perl/MooX-StrictConstructor
+	dev-perl/Sub-Quote
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Math-BigInt
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -20,9 +20,10 @@ RDEPEND="
 	>=dev-perl/Moose-0.920
 	>=dev-perl/Net-Google-Spreadsheets-0.140
 	>=dev-perl/Net-SMTP-TLS-0.120
-	>=dev-perl/yaml-0.670
+	>=dev-perl/YAML-0.670
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Test-Simple
 "

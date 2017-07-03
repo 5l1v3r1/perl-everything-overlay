@@ -25,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-chdir
+	dev-perl/Smart-Comments
+	>=dev-perl/Test-CheckDeps-0.010
+	virtual/perl-File-Spec
+	virtual/perl-IO
 "

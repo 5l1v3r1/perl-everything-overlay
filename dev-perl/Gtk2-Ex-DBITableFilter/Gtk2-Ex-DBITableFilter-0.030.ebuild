@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/DBD-CSV
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Ex-ComboBox
 	dev-perl/Gtk2-Ex-Simple-List
 	dev-perl/Gtk2-Ex-Threads-DBI
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple

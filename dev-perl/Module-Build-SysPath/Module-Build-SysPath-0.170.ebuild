@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.700
+	dev-perl/File-Find-Rule
+	>=dev-perl/Test-Compile-0.080
+	dev-perl/Test-Dirs
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

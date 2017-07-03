@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Net-Amazon-Recommended
 	dev-perl/WebService-Booklog
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

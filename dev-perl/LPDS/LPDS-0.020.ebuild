@@ -18,11 +18,12 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/Goo-Canvas
+	dev-perl/Gtk2
 	dev-perl/Moose
-	dev-perl/gtk2-perl
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "

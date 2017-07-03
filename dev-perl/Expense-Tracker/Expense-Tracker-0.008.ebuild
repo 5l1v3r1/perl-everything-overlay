@@ -29,8 +29,8 @@ RDEPEND="
 	dev-perl/Mojolicious-Plugin-Authentication
 	dev-perl/Mojolicious-Plugin-YamlConfig
 	dev-perl/Test-BDD-Cucumber
+	dev-perl/YAML
 	dev-perl/YAML-LibYAML
-	dev-perl/yaml
 	virtual/perl-Digest-MD5
 "
 DEPEND="

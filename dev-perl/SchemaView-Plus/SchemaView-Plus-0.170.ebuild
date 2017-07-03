@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/DBI-1.120
 	dev-perl/Data-CompactDump
 	dev-perl/Math-Project
-	>=dev-perl/Tk-800.014
+	dev-perl/Tk
 	dev-perl/Tk-FontDialog
 	dev-perl/Tk-MListbox
 	>=dev-perl/XML-Dumper-0.400

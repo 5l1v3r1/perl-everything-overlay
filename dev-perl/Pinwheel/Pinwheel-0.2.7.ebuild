@@ -32,4 +32,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/DBD-SQLite-1.140
+	>=dev-perl/Module-Build-0.280
+	>=dev-perl/Test-Pod-1.200
+	virtual/perl-Test-Harness
+	virtual/perl-Test-Simple
 "

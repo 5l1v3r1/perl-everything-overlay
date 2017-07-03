@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBIx-Class
+	dev-perl/DBIx-Class-Schema-RestrictWithObject
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

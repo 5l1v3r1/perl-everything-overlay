@@ -18,10 +18,17 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Params-Validate
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Pod-Coverage
+	dev-perl/Readonly
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.010
 	dev-perl/libwww-perl
 	>=virtual/perl-Test-Simple-0.440
-	>=virtual/perl-constant-1.010
 "
 DEPEND="
 	${RDEPEND}

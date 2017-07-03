@@ -38,8 +38,8 @@ RDEPEND="
 	dev-perl/Test-Requires
 	dev-perl/UNIVERSAL-require
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Module-CoreList-2.170

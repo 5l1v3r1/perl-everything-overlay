@@ -29,12 +29,13 @@ RDEPEND="
 	dev-perl/Encode-IMAPUTF7
 	dev-perl/Net-SSLeay
 	>=dev-perl/Net-Server-Coro-0.600
+	dev-perl/Regexp-Common
 	dev-perl/UNIVERSAL-require
-	dev-perl/regexp-common
 	>=virtual/perl-MIME-Base64-3.110
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/IO-Socket-SSL
 "

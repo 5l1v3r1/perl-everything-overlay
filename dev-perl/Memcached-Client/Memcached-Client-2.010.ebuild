@@ -27,9 +27,10 @@ RDEPEND="
 	virtual/perl-Module-Load
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/JSON-XS
+	virtual/perl-Test-Simple
 "

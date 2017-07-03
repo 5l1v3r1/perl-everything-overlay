@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Archive-Zip
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

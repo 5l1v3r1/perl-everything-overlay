@@ -20,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Clone
+	>=virtual/perl-Test-Simple-0.960
 "

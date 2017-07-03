@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/CGI-Session
 	>=dev-perl/Catalyst-Runtime-5.300
+	dev-perl/NEXT
 	dev-perl/URI
 	dev-perl/URI-Find
 	virtual/perl-Carp

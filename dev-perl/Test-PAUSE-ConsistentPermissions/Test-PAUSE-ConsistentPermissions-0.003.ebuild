@@ -21,8 +21,8 @@ RDEPEND="
 	dev-perl/PAUSE-Packages
 	dev-perl/PAUSE-Permissions
 	dev-perl/Parse-LocalDistribution
+	dev-perl/Pod-Usage
 	>=dev-perl/strictures-2.000
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

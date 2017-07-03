@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/IPC-System-Options-0.270
 	dev-perl/Markdown-To-POD
 	>=dev-perl/Perinci-Access-Perl-0.870
-	>=dev-perl/Perinci-CmdLine-Dump-0.080
 	>=dev-perl/Perinci-CmdLine-Lite-1.720
 	>=dev-perl/Perinci-Result-Format-Lite-0.220
 	>=dev-perl/Perinci-Sub-To-CLIDocData-0.280

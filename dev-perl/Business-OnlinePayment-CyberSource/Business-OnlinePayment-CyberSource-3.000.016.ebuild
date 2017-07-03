@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Business-CyberSource
+	>=dev-perl/Business-CyberSource-0.009.000
 	>=dev-perl/Business-OnlinePayment-3.000
 	dev-perl/DateTime
 	dev-perl/Exception-Base
@@ -34,4 +34,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Crypt-SSLeay
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "

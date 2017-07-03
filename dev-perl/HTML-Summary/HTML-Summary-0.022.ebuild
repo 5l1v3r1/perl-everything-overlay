@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Jcode
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

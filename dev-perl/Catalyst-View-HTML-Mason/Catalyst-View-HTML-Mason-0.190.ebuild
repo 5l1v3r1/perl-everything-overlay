@@ -31,4 +31,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Capture-Tiny-0.100
+	dev-perl/Catalyst-Action-RenderView
+	>=dev-perl/Catalyst-Devel-1.330
+	dev-perl/Path-Class
+	dev-perl/Test-Exception
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.890
 "

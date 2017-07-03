@@ -22,4 +22,19 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-lang/perl
+	dev-perl/DBICx-TestDatabase
+	dev-perl/DBIx-Class
+	dev-perl/DBIx-Class-InflateColumn-Serializer
+	dev-perl/DBIx-Class-InflateColumn-Serializer-Hstore
+	dev-perl/JSON-MaybeXS
+	dev-perl/Moose
+	dev-perl/MooseX-MarkAsMethods
+	dev-perl/MooseX-NonMoose
+	dev-perl/Pg-hstore
+	dev-perl/Test-Class
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-parent
 "

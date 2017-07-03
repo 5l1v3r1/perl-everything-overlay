@@ -24,4 +24,8 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-File-Spec
+	>=dev-perl/JSON-2.000
+	>=dev-perl/Test-Warnings-0.005
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

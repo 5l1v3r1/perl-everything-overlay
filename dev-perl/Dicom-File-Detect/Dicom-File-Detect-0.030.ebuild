@@ -21,4 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/Error-Pure-0.220
+	>=dev-perl/File-Object-0.050
+	dev-perl/Test-NoWarnings
+	virtual/perl-Test-Simple
 "

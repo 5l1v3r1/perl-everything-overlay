@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTML-Parser-0.010
 	>=dev-perl/Term-VT102-Boundless-0.030
-	>=virtual/perl-Test-Simple-0.110
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

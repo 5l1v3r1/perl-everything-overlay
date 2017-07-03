@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/Class-Std-Utils
 	dev-perl/DBIx-MySperqlOO
 	>=dev-perl/Module-Runtime-0.005
+	>=dev-perl/YAML-0.680
 	>=dev-perl/libwww-perl-1.410
-	>=dev-perl/yaml-0.680
 	>=virtual/perl-Carp-1.030
 	>=virtual/perl-File-Spec-3.250
 	virtual/perl-Test-Simple

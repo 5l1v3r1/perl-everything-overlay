@@ -23,4 +23,5 @@ DEPEND="
 	>=dev-perl/ExtUtils-Depends-0.402
 	dev-perl/PDLA-Core
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

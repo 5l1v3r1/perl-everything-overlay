@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

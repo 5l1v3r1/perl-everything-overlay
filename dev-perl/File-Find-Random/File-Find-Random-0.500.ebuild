@@ -21,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Pod
+	virtual/perl-Test-Simple
 "

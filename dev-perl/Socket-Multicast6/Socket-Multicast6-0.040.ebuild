@@ -22,4 +22,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.200
+	virtual/perl-Devel-PPPort
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-ExtUtils-Constant
 "

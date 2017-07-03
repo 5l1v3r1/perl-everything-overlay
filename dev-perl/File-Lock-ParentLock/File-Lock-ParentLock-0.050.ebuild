@@ -21,7 +21,6 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

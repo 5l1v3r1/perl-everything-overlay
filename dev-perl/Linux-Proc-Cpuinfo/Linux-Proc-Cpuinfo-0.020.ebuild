@@ -21,4 +21,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckLib
+	virtual/perl-ExtUtils-MakeMaker
 "

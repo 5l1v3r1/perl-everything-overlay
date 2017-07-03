@@ -22,4 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

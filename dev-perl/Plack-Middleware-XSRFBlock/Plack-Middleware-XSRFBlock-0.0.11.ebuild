@@ -27,4 +27,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	dev-perl/FindBin-libs
+	dev-perl/HTTP-Cookies
+	dev-perl/Log-Dispatch
+	dev-perl/Plack-Middleware-Session
+	dev-perl/Sub-Exporter
+	dev-perl/Test-UseAllModules
+	dev-perl/Try-Tiny
+	dev-perl/libwww-perl
+	virtual/perl-Carp
+	virtual/perl-Test-Simple
 "

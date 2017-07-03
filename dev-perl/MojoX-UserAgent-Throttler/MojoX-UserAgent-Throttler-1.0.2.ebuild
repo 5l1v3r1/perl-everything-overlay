@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-7.130
 	>=dev-perl/Sub-Throttler-0.2.0
 	>=virtual/perl-Scalar-List-Utils-1.400
 "

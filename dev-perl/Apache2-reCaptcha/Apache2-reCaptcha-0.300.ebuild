@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Captcha-reCAPTCHA-0.920
+	>=dev-perl/Captcha-reCaptcha-0.920
 	>=dev-perl/HTML-Tiny-0.904.0
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple

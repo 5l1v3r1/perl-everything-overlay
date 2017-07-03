@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Message
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

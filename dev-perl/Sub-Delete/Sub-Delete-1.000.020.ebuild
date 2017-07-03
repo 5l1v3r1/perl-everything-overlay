@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=virtual/perl-Exporter-5.570
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Getopt
 	dev-perl/Readonly
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

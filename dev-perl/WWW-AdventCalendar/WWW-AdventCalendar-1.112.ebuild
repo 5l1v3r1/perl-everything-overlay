@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Calendar-Simple
-	dev-perl/Color-Palette
-	>=dev-perl/Config-MVP-2.000
+	>=dev-perl/Color-Palette-0.100.002
+	dev-perl/Config-MVP
 	dev-perl/Config-MVP-Reader-INI
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-W3CDTF
@@ -49,4 +49,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

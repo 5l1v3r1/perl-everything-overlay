@@ -24,4 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/Test-POE-Client-TCP-0.100
+	>=dev-perl/Test-POE-Server-TCP-0.160
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.470
 "

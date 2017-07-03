@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/IO-Prompt-Tiny
 	>=dev-perl/JSON-2.000
 	dev-perl/List-AllUtils
-	>=dev-perl/Moose-2.000
+	dev-perl/Moose
 	dev-perl/MooseX-Role-Parameterized
 	>=dev-perl/MooseX-Types-Path-Class-MoreCoercions-0.002
 	dev-perl/Net-OpenSSH
@@ -42,4 +42,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/File-pushd-1.000
+	>=dev-perl/Test-Deep-0.110
+	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-parent
 "

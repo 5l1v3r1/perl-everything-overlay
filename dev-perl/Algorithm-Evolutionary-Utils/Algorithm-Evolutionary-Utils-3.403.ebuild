@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
 	>=dev-perl/XML-Parser-2.400
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

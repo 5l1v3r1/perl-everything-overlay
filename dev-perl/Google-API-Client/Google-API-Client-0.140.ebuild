@@ -25,4 +25,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.038
+	dev-perl/Test-TCP
 "

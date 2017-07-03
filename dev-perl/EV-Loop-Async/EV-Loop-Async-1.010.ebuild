@@ -16,7 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Async-Interrupt-0.500
+	>=dev-perl/EV-4.000
+	dev-perl/common-sense
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "

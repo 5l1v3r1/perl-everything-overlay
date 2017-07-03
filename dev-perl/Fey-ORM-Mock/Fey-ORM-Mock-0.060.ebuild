@@ -26,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Fey-Test-0.050
+	virtual/perl-Test-Simple
 "

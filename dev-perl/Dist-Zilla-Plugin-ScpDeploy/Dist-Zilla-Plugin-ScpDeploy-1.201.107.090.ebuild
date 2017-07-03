@@ -16,12 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-4.200.007
-	>=dev-perl/Moose-2.000.700
+	dev-lang/perl
+	dev-perl/Dist-Zilla
+	dev-perl/Moose
 	dev-perl/namespace-autoclean
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Test-Fatal-0.006
+	>=virtual/perl-Test-Simple-0.880
 "

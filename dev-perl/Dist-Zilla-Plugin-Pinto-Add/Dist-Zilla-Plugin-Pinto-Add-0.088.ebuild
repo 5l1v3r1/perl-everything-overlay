@@ -26,4 +26,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.500
+	dev-lang/perl
+	dev-perl/Test-Exception
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.960
 "

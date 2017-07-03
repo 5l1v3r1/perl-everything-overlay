@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/IO-All
 	>=dev-perl/Module-Install-1.000
 	>=dev-perl/Pod-Markdown-2.000
-	virtual/perl-podlators
+	>=virtual/perl-podlators-3.130
 "
 DEPEND="
 	${RDEPEND}

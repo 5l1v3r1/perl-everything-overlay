@@ -16,9 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/regexp-common-1.800
+	>=dev-perl/Regexp-Common-1.800
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

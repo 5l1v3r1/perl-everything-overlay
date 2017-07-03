@@ -20,12 +20,12 @@ RDEPEND="
 	dev-perl/Perl-Critic-Deprecated
 	dev-perl/Perl-Critic-Nits
 	dev-perl/Perl-Critic-Policy-Dynamic-NoIndirect
+	dev-perl/Pod-Usage
 	dev-perl/Template-Toolkit
 	dev-perl/Test-Cmd
 	dev-perl/Test-Perl-Critic
 	>=dev-perl/Test-Pod-1.400
 	dev-perl/Test-Pod-Coverage
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

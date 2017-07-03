@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Perldoc
 	>=virtual/perl-ExtUtils-MakeMaker-6.460
-	virtual/perl-Pod-Perldoc
 	virtual/perl-Pod-Simple
 	>=virtual/perl-Test-Simple-0.950
 	virtual/perl-parent

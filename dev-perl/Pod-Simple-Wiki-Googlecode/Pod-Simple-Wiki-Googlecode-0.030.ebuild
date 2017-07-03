@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Pod-Simple-Wiki
+	virtual/perl-Test-Simple
 "

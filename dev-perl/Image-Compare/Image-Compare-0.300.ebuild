@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Imager
+	dev-perl/Regexp-Common
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

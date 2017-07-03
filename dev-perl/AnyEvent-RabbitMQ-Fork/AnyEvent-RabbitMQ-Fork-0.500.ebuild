@@ -28,9 +28,12 @@ RDEPEND="
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	virtual/perl-Data-Dumper
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

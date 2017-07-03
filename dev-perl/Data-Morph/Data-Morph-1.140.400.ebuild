@@ -31,4 +31,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/DBD-SQLite
+	dev-perl/Try-Tiny
+	dev-perl/base
+	virtual/perl-Test-Simple
 "

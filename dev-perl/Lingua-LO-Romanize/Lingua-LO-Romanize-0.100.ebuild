@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-lang/perl
+	dev-perl/Moose
+	dev-perl/MooseX-AttributeHelpers
+	dev-perl/MooseX-Params-Validate
+	virtual/perl-Test-Simple
 "

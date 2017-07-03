@@ -23,4 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/CGI-PSGI-0.150
+	dev-perl/Test-MockTime
+	>=dev-perl/Test-Pod-1.450
+	>=virtual/perl-Test-Simple-0.980
 "

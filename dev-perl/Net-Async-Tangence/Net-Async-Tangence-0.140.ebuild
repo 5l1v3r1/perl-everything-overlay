@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Future
-	>=dev-perl/IO-Async-0.360
-	>=dev-perl/Tangence-0.210
+	dev-perl/IO-Async
+	>=dev-perl/Tangence-0.190
 	dev-perl/URI
 	virtual/perl-Encode
 	>=virtual/perl-Exporter-5.570

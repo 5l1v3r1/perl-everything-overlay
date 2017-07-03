@@ -22,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Number-Delta-1.060
+	>=virtual/perl-Test-Simple-0.880
 "

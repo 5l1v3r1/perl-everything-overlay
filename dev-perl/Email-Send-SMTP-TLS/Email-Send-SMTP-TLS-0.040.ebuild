@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Email-Address
+	dev-perl/Email-Send
+	dev-perl/Net-SMTP-TLS-ButMaintained
+	dev-perl/Return-Value
+	virtual/perl-Test-Simple
 "

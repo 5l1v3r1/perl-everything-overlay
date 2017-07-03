@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Encode-Locale
+	virtual/perl-Encode
+	virtual/perl-Test-Simple
 "

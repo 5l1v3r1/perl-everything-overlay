@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-InsideOut
 	dev-perl/MooX-Traits
-	>=dev-perl/PDL-2.007
+	dev-perl/PDL
 	dev-perl/Test-Deep
 	dev-perl/Text-Table-Tiny
 	dev-perl/Tie-IxHash
@@ -32,9 +32,10 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	virtual/perl-Math-BigInt
 "

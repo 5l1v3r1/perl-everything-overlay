@@ -20,6 +20,7 @@ RDEPEND="
 	dev-perl/List-AllUtils
 	>=dev-perl/Math-Int128-0.060
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	>=dev-perl/namespace-autoclean-0.160
 	virtual/perl-Carp
 	virtual/perl-Exporter

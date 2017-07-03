@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Data-Section-0.200.002
-	>=dev-perl/Dist-Zilla-2.100.950
+	dev-perl/Dist-Zilla
 	dev-perl/File-pushd
-	dev-perl/Moose
+	>=dev-perl/Moose-0.990
 	dev-perl/Sub-Exporter-ForMethods
 	>=dev-perl/namespace-autoclean-0.090
 	>=virtual/perl-autodie-2.000

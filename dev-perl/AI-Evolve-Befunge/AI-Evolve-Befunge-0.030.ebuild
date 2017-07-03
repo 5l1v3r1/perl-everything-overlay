@@ -28,9 +28,9 @@ RDEPEND="
 	dev-perl/Test-MockRandom
 	dev-perl/Test-Output
 	dev-perl/UNIVERSAL-require
+	dev-perl/YAML
 	dev-perl/aliased
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

@@ -24,8 +24,8 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/Parse-LocalDistribution
 	dev-perl/Parse-PMFile
+	>=dev-perl/Pod-Usage-1.330
 	virtual/perl-CPAN-Meta
-	>=virtual/perl-Pod-Usage-1.330
 "
 DEPEND="
 	${RDEPEND}

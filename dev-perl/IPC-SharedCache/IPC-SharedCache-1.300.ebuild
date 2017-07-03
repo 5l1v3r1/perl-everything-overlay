@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IPC-ShareLite-0.060
+	dev-perl/IPC-SysV
 	virtual/perl-Carp
-	virtual/perl-IPC-SysV
 	virtual/perl-Storable
 "
 DEPEND="

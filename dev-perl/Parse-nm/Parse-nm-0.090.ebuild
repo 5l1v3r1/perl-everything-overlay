@@ -22,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-NoWarnings-1.000
+	virtual/perl-File-Spec
+	>=virtual/perl-Locale-Maketext-1.170
+	>=virtual/perl-Test-Simple-0.940
 "

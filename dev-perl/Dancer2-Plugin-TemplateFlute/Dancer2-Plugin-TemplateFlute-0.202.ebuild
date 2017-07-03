@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.200.000
 	>=dev-perl/Dancer2-Template-TemplateFlute-0.201
 	>=dev-perl/Hash-MultiValue-0.120
 	>=dev-perl/Moo-2.000.000

@@ -27,4 +27,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Exception-Class
+	dev-perl/MooseX-Declare
+	dev-perl/Test-Exception
+	dev-perl/Test-LeakTrace
+	dev-perl/Test-Spec
+	dev-perl/Test-Warn
+	dev-perl/base
+	dev-perl/syntax
+	virtual/perl-Test-Simple
 "

@@ -21,4 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/DBD-mysql
+	dev-perl/DBI
+	dev-perl/DBIx-Schema-DSL
+	dev-perl/Test-Requires
+	dev-perl/Test-mysqld
+	>=virtual/perl-Test-Simple-0.980
 "

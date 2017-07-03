@@ -18,8 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Module-Build-0.280.500
 	>=dev-perl/SVN-Notify-2.700
-	>=dev-perl/yaml-0.620
+	>=dev-perl/YAML-0.620
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Deep-0.100
 "

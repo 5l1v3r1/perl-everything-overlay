@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Async-Queue-0.020
-	>=dev-perl/Async-Selector-1.020
+	>=dev-perl/Async-Selector-1.030
 	>=dev-perl/BusyBird-DateTime-Format-0.040
 	>=dev-perl/CPS-0.150
 	>=dev-perl/Cache-Memory-Simple-1.010
@@ -35,6 +35,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/JavaScript-Value-Escape
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	dev-perl/Router-Simple
 	>=dev-perl/SQL-Maker-1.190
 	>=dev-perl/SQL-QueryMaker-0.030
@@ -49,10 +50,9 @@ RDEPEND="
 	virtual/perl-Encode
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Scalar-List-Utils-1.240
 	>=virtual/perl-Storable-2.270
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 	>=virtual/perl-Time-HiRes-1.972.000
 	virtual/perl-parent
 "
@@ -60,4 +60,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
+	>=dev-perl/HTML-Tree-5.000
+	>=dev-perl/HTML-TreeBuilder-XPath-0.120
+	>=dev-perl/HTTP-Message-6.000
+	>=dev-perl/Test-Memory-Cycle-1.040
+	dev-perl/Test-MockObject
+	>=dev-perl/Test-Warn-0.240
+	>=virtual/perl-File-Temp-0.190
 "

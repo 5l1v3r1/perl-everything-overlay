@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/PPI
+	dev-perl/Pod-Usage
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

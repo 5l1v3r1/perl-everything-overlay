@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	>=dev-perl/Test-Deep-0.112
+	>=dev-perl/Test-Mock-Guard-0.100
+	>=dev-perl/Test-UseAllModules-0.150
+	>=virtual/perl-Test-Simple-0.980
 "

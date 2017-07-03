@@ -16,7 +16,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/CGI-FormBuilder-Source-Perl
+	dev-perl/Dancer2
+	dev-perl/HTML-FormHandler
+	dev-perl/MIME-Types
+	dev-perl/Mojolicious
+	dev-perl/Plack
+	dev-perl/Task-Catalyst
+	dev-perl/Template-Toolkit
+	dev-perl/XML-Atom
+	dev-perl/XML-RSS
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Test-Simple
 "

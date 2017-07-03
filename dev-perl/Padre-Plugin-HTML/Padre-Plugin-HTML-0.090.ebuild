@@ -19,4 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/HTML-Lint
+	dev-perl/HTML-Tidy
+	>=dev-perl/Padre-0.260
+	dev-perl/WebService-Validator-HTML-W3C
+	dev-perl/XML-XPath
+	virtual/perl-Test-Simple
 "

@@ -20,6 +20,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/ExtUtils-PkgConfig-1.120
 	>=dev-perl/Module-Build-0.360
-	>=dev-perl/extutils-pkgconfig-1.120
+	dev-perl/Pod-Readme
+	>=dev-perl/Test-Pod-Coverage-1.000
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

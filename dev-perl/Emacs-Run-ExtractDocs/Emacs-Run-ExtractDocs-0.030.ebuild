@@ -19,11 +19,17 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Base
 	dev-perl/Emacs-Run
-	perl-core/Env
+	dev-perl/Env
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Date-Calc
+	dev-perl/Test-Differences
+	dev-perl/lib
+	virtual/perl-File-Path
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
 "

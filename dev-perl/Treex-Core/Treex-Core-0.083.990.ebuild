@@ -56,5 +56,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

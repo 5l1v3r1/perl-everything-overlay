@@ -27,4 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/File-Which
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

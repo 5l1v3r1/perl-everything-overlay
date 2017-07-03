@@ -22,8 +22,8 @@ RDEPEND="
 	dev-perl/XML-LibXML
 	dev-perl/XML-Parser
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

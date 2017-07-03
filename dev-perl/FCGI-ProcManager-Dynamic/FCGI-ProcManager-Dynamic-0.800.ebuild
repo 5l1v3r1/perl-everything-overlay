@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/FCGI-ProcManager-0.180
-	virtual/perl-IPC-SysV
+	dev-perl/IPC-SysV
 	virtual/perl-Time-HiRes
 "
 DEPEND="

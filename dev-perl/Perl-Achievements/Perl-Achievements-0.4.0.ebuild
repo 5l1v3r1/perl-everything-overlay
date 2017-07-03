@@ -34,10 +34,14 @@ RDEPEND="
 	dev-perl/PPI
 	dev-perl/Path-Class
 	dev-perl/Template-Caribou
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-SHA
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

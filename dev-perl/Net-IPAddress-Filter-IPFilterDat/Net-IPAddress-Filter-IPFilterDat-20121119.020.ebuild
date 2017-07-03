@@ -20,9 +20,9 @@ RDEPEND="
 	>=dev-perl/Net-IPAddress-Filter-20121117.000
 	dev-perl/base
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

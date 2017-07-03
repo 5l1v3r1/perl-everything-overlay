@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/Test-Map-Tube-0.070
+	dev-perl/Test-NoWarnings
+	virtual/perl-Test-Simple
 "

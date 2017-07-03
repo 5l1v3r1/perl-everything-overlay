@@ -22,4 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Cache-Memcached-Fast
+	dev-perl/File-Which
+	dev-perl/Proc-Guard
+	dev-perl/Test-Skip-UnlessExistsExecutable
+	dev-perl/Test-TCP
+	virtual/perl-Test-Simple
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	>=dev-perl/Pod-Elemental-0.092.941
+	dev-perl/Pod-Elemental
 	dev-perl/Pod-Weaver
 	>=dev-perl/Pod-WikiDoc-0.180
 	dev-perl/namespace-autoclean

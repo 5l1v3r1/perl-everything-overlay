@@ -16,15 +16,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Value-SemanticAdapter
 	dev-perl/Data-Semantic-Net
 	dev-perl/Error-Hierarchy
 	dev-perl/Test-CompanionClasses
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Error
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
 "

@@ -20,4 +20,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Dancer
+	dev-perl/JSON-XS
+	dev-perl/Test-Most
+	dev-perl/Try-Tiny
+	dev-perl/YAML
+	virtual/perl-Encode
+	virtual/perl-File-Temp
+	virtual/perl-Time-HiRes
 "

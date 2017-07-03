@@ -22,4 +22,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Devel-PPPort
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.880
 "

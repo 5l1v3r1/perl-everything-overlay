@@ -19,10 +19,14 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-NoWarnings
+	virtual/perl-AutoLoader
+	virtual/perl-File-Temp
+	virtual/perl-Test
+	>=virtual/perl-Test-Simple-0.880
 "

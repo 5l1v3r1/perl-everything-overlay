@@ -24,10 +24,13 @@ RDEPEND="
 	>=dev-perl/URI-1.530
 	>=dev-perl/libwww-perl-6.000
 	virtual/perl-Carp
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Body
+	dev-perl/Test-LWP-MockSocket-http
+	virtual/perl-Encode
+	>=virtual/perl-Test-Simple-0.870
 "

@@ -26,4 +26,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Pod-1.140
+	>=dev-perl/Test-Pod-Coverage-1.040
 "

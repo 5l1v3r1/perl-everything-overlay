@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Log-Tree
 	dev-perl/Moose
 	dev-perl/MooseX-App-Cmd
-	dev-perl/Sys-Bprsync
+	>=dev-perl/Sys-Bprsync-0.170
 	dev-perl/Sys-FS
 	dev-perl/Sys-Hostname-FQDN
 	dev-perl/Sys-RotateBackup
@@ -37,4 +37,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-MockObject-Universal
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

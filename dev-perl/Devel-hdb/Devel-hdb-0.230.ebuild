@@ -38,4 +38,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Devel-Callsite
+	dev-perl/HTML-Tree
+	dev-perl/lib
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -20,10 +20,10 @@ RDEPEND="
 	dev-perl/File-PathConvert
 	dev-perl/Getopt-Mixed
 	>=dev-perl/MD5-1.700
+	>=dev-perl/Pod-Usage-1.000
 	dev-perl/autouse
 	>=virtual/perl-Data-Dumper-2.070
 	virtual/perl-IO
-	>=virtual/perl-Pod-Usage-1.000
 "
 DEPEND="
 	${RDEPEND}

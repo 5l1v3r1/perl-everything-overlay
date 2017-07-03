@@ -31,4 +31,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Files-0.130
+	dev-perl/Test-Warn
+	virtual/perl-Test
+	virtual/perl-Test-Simple
 "

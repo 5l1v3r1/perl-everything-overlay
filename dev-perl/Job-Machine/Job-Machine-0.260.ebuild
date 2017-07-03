@@ -23,9 +23,10 @@ RDEPEND="
 	dev-perl/Data-Serializer-Sereal
 	dev-perl/base
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Class
+	virtual/perl-Test-Simple
 "

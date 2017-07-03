@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/DateTime
+	dev-perl/DateTime-Event-Sunrise
+	>=dev-perl/DateTime-Util-Calc-0.130
+	dev-perl/Params-Validate
+	virtual/perl-Test-Simple
 "

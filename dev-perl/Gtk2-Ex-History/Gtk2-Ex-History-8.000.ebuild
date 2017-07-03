@@ -17,12 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Glib-Ex-ConnectProperties-13.000
-	>=dev-perl/Glib-Ex-ObjectBits-1.000
+	>=dev-perl/Glib-Ex-ObjectBits-9.000
+	>=dev-perl/Gtk2-1.220
 	dev-perl/Gtk2-Ex-Dashes
 	dev-perl/Gtk2-Ex-MenuView
 	>=dev-perl/Gtk2-Ex-WidgetBits-17.000
 	dev-perl/glib-perl
-	>=dev-perl/gtk2-perl-1.220
 	>=dev-perl/libintl-perl-1.160
 "
 DEPEND="

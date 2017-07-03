@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Notify
 	dev-perl/Log-Dispatch
 	dev-perl/Moose
 	dev-perl/MooseX-Types
-	dev-perl/gtk2-perl
 	dev-perl/namespace-clean
 "
 DEPEND="

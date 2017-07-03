@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/CGI-Application
+	>=dev-perl/CGI-Application-Plugin-Redirect-1.000
+	>=dev-perl/CGI-Application-Plugin-Session-1.040
+	>=dev-perl/CGI-Application-Plugin-Stream-2.100
+	dev-perl/Test-Pod
+	virtual/perl-Test-Simple
 "

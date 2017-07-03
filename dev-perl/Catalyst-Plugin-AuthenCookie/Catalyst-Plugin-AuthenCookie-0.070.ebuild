@@ -23,4 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Catalyst-Runtime
+	dev-perl/HTTP-Cookies
+	dev-perl/HTTP-Date
+	virtual/perl-Test-Simple
 "

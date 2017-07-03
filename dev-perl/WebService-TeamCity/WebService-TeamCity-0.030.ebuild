@@ -37,4 +37,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Cookies
+	dev-perl/Test-Fatal
+	dev-perl/Test-LWP-UserAgent
+	dev-perl/lib
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-autodie
 "

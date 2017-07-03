@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Class
+	dev-perl/Test-Mock-Redis
+	virtual/perl-Test-Simple
 "

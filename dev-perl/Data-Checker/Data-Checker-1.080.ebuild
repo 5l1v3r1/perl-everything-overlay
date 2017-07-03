@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Date-Manip
 	dev-perl/Net-DNS
 	dev-perl/Net-Ping-External
-	>=dev-perl/NetAddr-IP-4.073
+	dev-perl/NetAddr-IP
 	dev-perl/Parallel-ForkManager
 	virtual/perl-Module-Loaded
 	virtual/perl-Net-Ping

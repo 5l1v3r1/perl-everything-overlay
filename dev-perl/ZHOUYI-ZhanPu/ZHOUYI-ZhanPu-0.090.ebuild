@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/ZHOUYI-0.7.0
+	>=dev-perl/ZHOUYI-0.070
 "
 DEPEND="
 	${RDEPEND}

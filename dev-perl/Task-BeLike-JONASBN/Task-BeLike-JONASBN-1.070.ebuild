@@ -63,10 +63,10 @@ RDEPEND="
 	dev-perl/WWW-Mechanize
 	dev-perl/WWW-Mechanize-Cached
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	dev-perl/YAML-Shell
 	dev-perl/ack
 	dev-perl/local-lib
-	dev-perl/yaml
 	virtual/perl-Data-Dumper
 	>=virtual/perl-ExtUtils-Install-1.470
 	virtual/perl-File-Path

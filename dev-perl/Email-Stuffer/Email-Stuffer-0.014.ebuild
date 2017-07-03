@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Email-MIME-1.920
+	dev-perl/Email-MIME
 	dev-perl/Email-Sender
 	dev-perl/Module-Runtime
 	>=dev-perl/Params-Util-1.050

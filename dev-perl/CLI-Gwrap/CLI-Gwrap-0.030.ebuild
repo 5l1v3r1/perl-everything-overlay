@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dancer
 	dev-perl/IPC-Run
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000
 	dev-perl/Readonly
 	dev-perl/Type-Tiny
 	dev-perl/Wx
@@ -32,4 +32,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

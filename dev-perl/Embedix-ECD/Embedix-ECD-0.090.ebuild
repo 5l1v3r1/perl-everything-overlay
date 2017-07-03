@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Parse-RecDescent
+	dev-perl/Pod-Usage
 	dev-perl/Tie-IxHash
 	virtual/perl-Data-Dumper
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

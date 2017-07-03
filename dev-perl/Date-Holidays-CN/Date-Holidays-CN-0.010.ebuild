@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/DateTime
+	dev-perl/DateTime-Calendar-Chinese
+	virtual/perl-Test-Simple
 "

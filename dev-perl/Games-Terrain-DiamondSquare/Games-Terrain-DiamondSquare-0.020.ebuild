@@ -20,9 +20,9 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Most
 "

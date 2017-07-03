@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Log-Dispatch-1.011
+	>=dev-perl/Log-Dispatch-2.000
 	dev-perl/Tk
 "
 DEPEND="

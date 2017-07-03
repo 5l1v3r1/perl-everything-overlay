@@ -28,4 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Class-Accessor-Chained
+	dev-perl/Proc-Background
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Path-Tiny-0.087
-	>=dev-perl/Specio-0.290
+	dev-perl/Specio
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "

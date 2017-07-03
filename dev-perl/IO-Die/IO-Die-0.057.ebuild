@@ -21,4 +21,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Class-0.410
+	>=dev-perl/Test-Deep-0.114
+	>=dev-perl/Test-NoWarnings-0.010
 "

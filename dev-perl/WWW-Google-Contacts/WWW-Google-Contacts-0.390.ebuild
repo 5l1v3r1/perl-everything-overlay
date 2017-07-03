@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Crypt-SSLeay
 	dev-perl/File-Slurp
-	>=dev-perl/Moose-1.090
+	dev-perl/Moose
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-Types
 	dev-perl/Net-Google-AuthSub

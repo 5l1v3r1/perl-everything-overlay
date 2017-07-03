@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/File-Touch
+	dev-perl/HTTP-Message
+	>=dev-perl/XML-LibXML-Cache-0.120
 "

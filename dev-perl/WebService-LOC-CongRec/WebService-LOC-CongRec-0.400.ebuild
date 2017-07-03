@@ -20,4 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/HTML-Parser-3.570
+	>=dev-perl/Moose-1.130
+	>=dev-perl/MooseX-Log-Log4perl-0.420
+	>=dev-perl/MooseX-Types-DateTime-0.050
+	>=dev-perl/Test-Class-0.360
+	>=dev-perl/WWW-Mechanize-1.640
 "

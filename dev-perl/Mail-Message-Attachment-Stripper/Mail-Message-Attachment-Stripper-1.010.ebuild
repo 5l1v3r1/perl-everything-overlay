@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mail-Box-2.050
+	>=dev-perl/Mail-Message-2.050
 	>=virtual/perl-Test-Simple-0.450
 "
 DEPEND="

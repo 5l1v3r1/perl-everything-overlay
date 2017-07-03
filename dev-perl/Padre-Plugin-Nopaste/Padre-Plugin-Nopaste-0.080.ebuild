@@ -16,15 +16,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.270
 	>=dev-perl/App-Nopaste-0.920
 	>=dev-perl/Moo-1.003.001
 	>=dev-perl/Padre-0.980
 	>=dev-perl/Try-Tiny-0.180
 	>=virtual/perl-Carp-1.320
-	>=virtual/perl-constant-1.270
 	>=virtual/perl-parent-0.228
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Requires-0.070
+	>=virtual/perl-Test-Simple-0.980
 "

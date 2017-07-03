@@ -23,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Env-Path
+	dev-perl/Module-Signature
+	dev-perl/Test-Most
+	virtual/perl-Socket
+	virtual/perl-Test-Simple
 "

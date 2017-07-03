@@ -21,9 +21,11 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-IO
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-Fatal
+	virtual/perl-Storable
+	>=virtual/perl-Test-Simple-0.880
 "

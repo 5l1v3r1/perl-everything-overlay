@@ -21,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Time-Piece-MySQL
+	virtual/perl-Test-Simple
 "

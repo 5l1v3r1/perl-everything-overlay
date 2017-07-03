@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Exception-Class
+	dev-perl/HTTP-Message
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

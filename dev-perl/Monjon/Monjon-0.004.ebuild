@@ -24,4 +24,5 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	virtual/perl-Text-ParseWords
+	>=dev-perl/Test-Modern-0.007
 "

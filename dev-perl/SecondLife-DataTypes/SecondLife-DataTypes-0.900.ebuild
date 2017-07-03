@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Any-Moose
 	dev-perl/Math-Quaternion
+	dev-perl/Regexp-Common
 	dev-perl/Sub-Exporter
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

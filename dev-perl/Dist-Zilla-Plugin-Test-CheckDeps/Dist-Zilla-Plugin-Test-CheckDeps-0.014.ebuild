@@ -23,4 +23,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-lang/perl
+	dev-perl/File-pushd
+	dev-perl/Path-Tiny
+	>=dev-perl/Test-CheckDeps-0.010
+	dev-perl/Test-Deep
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-if
 "

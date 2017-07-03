@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-XSAccessor-1.180
 	dev-perl/FFI-Platypus
-	>=dev-perl/Moo-1.004.005
+	dev-perl/Moo
 	dev-perl/Sub-Exporter
 	dev-perl/Try-Tiny
 	dev-perl/namespace-clean
@@ -32,4 +32,13 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/FFI-CheckLib-0.030
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/AnyEvent
+	dev-perl/EV
+	dev-perl/Sub-Override
+	dev-perl/Sys-SigAction
+	dev-perl/Test-Exception
+	dev-perl/ZMQ-Constants
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

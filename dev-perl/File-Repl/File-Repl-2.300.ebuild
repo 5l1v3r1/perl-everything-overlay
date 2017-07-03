@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.030
+	>=dev-lang/perl-2.600
 	dev-perl/Win32-API
 "
 DEPEND="

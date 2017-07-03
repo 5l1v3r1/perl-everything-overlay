@@ -19,8 +19,8 @@ RDEPEND="
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Class-Date
 	dev-perl/Net-SNMP
+	dev-perl/Regexp-Common
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

@@ -23,7 +23,6 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 	virtual/perl-threads
 "
 DEPEND="

@@ -18,9 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/App-CPANIDX-0.280
 	>=dev-perl/Config-Tiny-2.120
-	dev-perl/HTTP-Server-Simple
+	>=dev-perl/HTTP-Server-Simple-0.430
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=virtual/perl-Test-Simple-0.470
 "

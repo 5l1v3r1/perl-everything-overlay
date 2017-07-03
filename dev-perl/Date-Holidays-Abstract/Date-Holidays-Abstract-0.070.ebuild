@@ -24,4 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.300
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
 "

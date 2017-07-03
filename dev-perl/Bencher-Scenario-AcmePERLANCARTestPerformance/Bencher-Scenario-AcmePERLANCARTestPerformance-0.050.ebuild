@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Acme-PERLANCAR-Test-Performance
 "
 DEPEND="
 	${RDEPEND}

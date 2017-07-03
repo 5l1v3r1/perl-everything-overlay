@@ -21,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/File-Find-Rule
+	virtual/perl-Test-Simple
 "

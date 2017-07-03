@@ -19,13 +19,13 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/B-Hooks-EndOfScope-0.100
 	dev-perl/Context-Preserve
-	>=dev-perl/Devel-Declare-0.005.011
+	dev-perl/Devel-Declare
 	dev-perl/Eval-Closure
 	>=dev-perl/Module-Runtime-0.012
 	dev-perl/Moose
 	>=dev-perl/MooseX-LazyRequire-0.060
 	dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion
-	>=dev-perl/MooseX-Types-0.190
+	>=dev-perl/MooseX-Types-0.350
 	>=dev-perl/MooseX-Types-Structured-0.240
 	dev-perl/Parse-Method-Signatures
 	dev-perl/Sub-Name

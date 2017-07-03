@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.000
 	dev-perl/Dist-Zilla-Config-Slicer
 	dev-perl/Dist-Zilla-Plugin-Bugtracker
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
@@ -37,4 +37,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

@@ -28,4 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=virtual/perl-Carp-1.260
+	>=virtual/perl-Scalar-List-Utils-1.390
+	>=virtual/perl-Test-Simple-1.001.002
 "

@@ -28,4 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Test-Trap-0.2.2
+	>=dev-perl/Test-Warn-0.200
+	>=virtual/perl-Test-Simple-0.880
 "

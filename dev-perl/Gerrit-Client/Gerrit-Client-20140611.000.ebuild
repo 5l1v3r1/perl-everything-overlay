@@ -28,4 +28,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Archive-Zip
+	dev-perl/Dir-Self
+	dev-perl/Env-Path
+	dev-perl/List-MoreUtils
+	dev-perl/Sub-Override
+	dev-perl/Test-Warn
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
 "

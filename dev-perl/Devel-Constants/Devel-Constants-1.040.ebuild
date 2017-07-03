@@ -17,9 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

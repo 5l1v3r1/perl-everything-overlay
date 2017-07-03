@@ -23,4 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.500
 	>=dev-perl/Module-Build-Pluggable-Fortran-0.260
+	dev-perl/List-MoreUtils
+	dev-perl/Path-Class
+	>=virtual/perl-ExtUtils-CBuilder-0.230
+	virtual/perl-IPC-Cmd
+	>=virtual/perl-Test-Simple-0.870
 "

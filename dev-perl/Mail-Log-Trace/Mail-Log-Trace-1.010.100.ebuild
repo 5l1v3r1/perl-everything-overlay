@@ -22,4 +22,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-Time-Local
 "

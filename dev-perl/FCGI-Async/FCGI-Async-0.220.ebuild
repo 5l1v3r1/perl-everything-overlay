@@ -21,4 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-HexString
+	dev-perl/Test-Refcount
+	virtual/perl-Test-Simple
 "

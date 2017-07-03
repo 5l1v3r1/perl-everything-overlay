@@ -26,16 +26,17 @@ RDEPEND="
 	dev-perl/JSON-Any
 	dev-perl/LWP-Protocol-https
 	dev-perl/Moo
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
 	dev-perl/WWW-Mechanize
 	dev-perl/utf8-all
 	virtual/perl-Carp
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

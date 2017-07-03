@@ -17,10 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Getopt-Base-0.0.3
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Pod-Parser
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	virtual/perl-Test-Simple
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Hardware-Vhdl-Lexer-1.000
 	dev-perl/Math-Expression
-	>=dev-perl/yaml-0.620
+	>=dev-perl/YAML-0.620
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Path

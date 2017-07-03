@@ -24,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/DBD-SQLite-1.270
+	>=virtual/perl-CPAN-Meta-1.440.400
 "

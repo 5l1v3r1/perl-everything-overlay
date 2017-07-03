@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTML-Tree-3.130
 	>=dev-perl/HTTP-Cookies-1.380
-	>=dev-perl/URI-1.310
+	>=dev-perl/URI-3.260
 	>=dev-perl/WWW-Search-2.061
 	virtual/perl-Encode
 "

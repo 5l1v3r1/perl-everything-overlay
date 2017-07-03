@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/HTTP-Message-1.260
 	virtual/perl-IO
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

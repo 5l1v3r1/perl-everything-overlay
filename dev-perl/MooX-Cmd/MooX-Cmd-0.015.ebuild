@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Moo-0.009.013
 	>=dev-perl/Package-Stash-0.330
 	>=dev-perl/Params-Util-0.370
-	>=dev-perl/regexp-common-2011121001.000
+	>=dev-perl/Regexp-Common-2011121001.000
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Text-ParseWords
@@ -30,4 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	>=virtual/perl-Test-Simple-0.980
 "

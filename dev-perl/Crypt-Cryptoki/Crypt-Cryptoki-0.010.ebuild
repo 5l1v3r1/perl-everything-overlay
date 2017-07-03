@@ -20,4 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Crypt-OpenSSL-Bignum
+	dev-perl/Crypt-OpenSSL-RSA
+	virtual/perl-Devel-PPPort
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-ExtUtils-Constant
+	virtual/perl-ExtUtils-ParseXS
 "

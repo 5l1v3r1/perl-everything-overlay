@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.110
+	>=dev-lang/perl-1.420
 	>=dev-perl/App-Spec-0.004
 	>=dev-perl/Email-Address-1.908
 	>=dev-perl/Email-MIME-1.940

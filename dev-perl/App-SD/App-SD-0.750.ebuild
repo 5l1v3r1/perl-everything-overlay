@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-Natural
-	>=dev-perl/HTML-Tree-4.100
+	dev-perl/HTML-Tree
 	dev-perl/Prophet
 	>=dev-perl/Test-Script-Run-0.020
 	dev-perl/Time-Progress

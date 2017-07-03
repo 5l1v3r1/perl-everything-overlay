@@ -24,8 +24,8 @@ RDEPEND="
 	dev-perl/TermReadKey
 	dev-perl/Test-MockObject
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	>=virtual/perl-Encode-2.410
 	virtual/perl-Test-Simple
 "

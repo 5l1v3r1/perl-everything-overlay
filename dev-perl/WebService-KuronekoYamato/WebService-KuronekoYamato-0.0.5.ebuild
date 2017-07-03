@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/WWW-Mechanize-1.220
 	dev-perl/Web-Scraper
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 	virtual/perl-version

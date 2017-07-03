@@ -28,4 +28,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Cache-Cache
+	dev-perl/Test-Base
+	dev-perl/Test-HTML-Differences
+	dev-perl/Test-Most
+	virtual/perl-Encode
+	virtual/perl-Test-Simple
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Tk-4.015
+	dev-perl/Tk
 	>=dev-perl/Tk-Image-Calculation-0.040
 "
 DEPEND="

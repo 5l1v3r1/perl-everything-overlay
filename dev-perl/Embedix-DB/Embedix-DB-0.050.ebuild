@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBI
 	dev-perl/Embedix-ECD
-	virtual/perl-Pod-Usage
+	dev-perl/Pod-Usage
 	virtual/perl-Test
 "
 DEPEND="

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.180
+	>=dev-lang/perl-1.500
 	>=dev-perl/Brannigan-0.800
 	>=dev-perl/CGI-3.520
 	>=dev-perl/CGI-Application-4.310
@@ -44,4 +44,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Pod-1.440
+	>=virtual/perl-Test-Simple-0.940
 "

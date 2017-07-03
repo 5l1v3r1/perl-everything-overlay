@@ -29,4 +29,18 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/Badge-Depot-0.010.400
+	dev-perl/Dist-Zilla
+	dev-perl/Dist-Zilla-Plugin-PodWeaver
+	dev-perl/File-pushd
+	dev-perl/PPI
+	>=dev-perl/Path-Tiny-0.072
+	dev-perl/Pod-Elemental
+	>=dev-perl/Syntax-Feature-Qi-0.200.400
+	dev-perl/Test-Differences
+	dev-perl/syntax
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

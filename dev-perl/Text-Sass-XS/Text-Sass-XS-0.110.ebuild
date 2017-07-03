@@ -22,4 +22,7 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Devel-PPPort-3.200
+	>=dev-perl/Test-Name-FromLine-0.100
+	>=virtual/perl-ExtUtils-CBuilder-0.280
+	>=virtual/perl-Test-Simple-0.980
 "

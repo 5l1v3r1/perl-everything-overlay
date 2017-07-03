@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Test-Run-0.011.800
+	dev-perl/Test-Run
 	>=dev-perl/Test-Run-CmdLine-0.011.100
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor

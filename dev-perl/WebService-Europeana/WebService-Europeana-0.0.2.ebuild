@@ -28,4 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Pod-Markdown-3.003
+	dev-perl/Test-Pod
+	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Audio-Gramofile-0.080
 	>=dev-perl/Config-IniFiles-2.000
-	>=dev-perl/gtk2-perl-1.000
+	>=dev-perl/Gtk2-1.000
 "
 DEPEND="
 	${RDEPEND}

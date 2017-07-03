@@ -22,11 +22,11 @@ RDEPEND="
 	>=dev-perl/JSON-2.500
 	>=dev-perl/Locale-MO-File-0.060
 	>=dev-perl/Locale-PO-0.240
-	dev-perl/Locale-TextDomain-OO-Util
+	>=dev-perl/Locale-TextDomain-OO-Util-2.002
 	>=dev-perl/Locale-Utils-PlaceholderBabelFish-0.001
 	>=dev-perl/Locale-Utils-PlaceholderMaketext-1.000
 	>=dev-perl/Locale-Utils-PlaceholderNamed-1.000
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003.001
 	dev-perl/MooX-Singleton
 	dev-perl/MooX-StrictConstructor
 	dev-perl/MooX-Types-MooseLike

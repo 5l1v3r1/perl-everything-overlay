@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/HTML-Mason-1.500
+	dev-perl/HTML-Mason
 	dev-perl/List-AllUtils
 	dev-perl/Log-Any
 	dev-perl/Moose

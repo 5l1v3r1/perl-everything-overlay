@@ -27,5 +27,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

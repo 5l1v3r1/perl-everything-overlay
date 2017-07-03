@@ -32,5 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

@@ -20,4 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/IO-All
+	dev-perl/IO-String
+	dev-perl/MooseX-Types
+	>=dev-perl/Test-Exception-0.270
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

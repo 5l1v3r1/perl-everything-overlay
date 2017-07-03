@@ -38,6 +38,7 @@ RDEPEND="
 	dev-perl/Parse-RecDescent
 	dev-perl/PerlIO-via-gzip
 	dev-perl/Readonly
+	dev-perl/Treex-Core
 	dev-perl/Treex-PML
 	dev-perl/UNIVERSAL-DOES
 	>=dev-perl/YAML-0.720
@@ -65,5 +66,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

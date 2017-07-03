@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Digest-HMAC
 	dev-perl/HTTP-Date
 	dev-perl/JSON
-	>=dev-perl/Moose-0.850
+	dev-perl/Moose
 	>=dev-perl/MooseX-StrictConstructor-0.160
 	dev-perl/URI
 	dev-perl/libwww-perl
@@ -32,4 +32,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-MockTime
+	dev-perl/Test-Spec
+	dev-perl/Test-VCR-LWP
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

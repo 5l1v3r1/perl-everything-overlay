@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Test-Deep-0.106
 	>=virtual/perl-Carp-1.010
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Scalar-List-Utils-1.130
+	>=virtual/perl-Scalar-List-Utils-1.450
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

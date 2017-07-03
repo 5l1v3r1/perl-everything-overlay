@@ -23,4 +23,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-SQLite
+	dev-perl/DBI
+	dev-perl/DBIx-Class
+	dev-perl/Test-Exception
+	dev-perl/Test-Requires
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Module-Load-Conditional
+	virtual/perl-Test-Simple
 "

@@ -20,4 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-CGI-Untaint-1.100
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.470
 "

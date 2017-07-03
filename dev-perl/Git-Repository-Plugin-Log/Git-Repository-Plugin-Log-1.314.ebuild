@@ -24,4 +24,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Pod-Coverage-TrustPod-0.100.003
+	>=dev-perl/Test-CPAN-Meta-0.250
+	>=dev-perl/Test-Pod-1.510
+	>=dev-perl/Test-Pod-Coverage-1.100
+	>=dev-perl/Test-Requires-Git-1.005
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

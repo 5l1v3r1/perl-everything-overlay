@@ -40,11 +40,13 @@ RDEPEND="
 	>=dev-perl/XML-Feed-0.110
 	dev-perl/XML-LibXML
 	>=dev-perl/XML-RSS-LibXML-0.200
+	>=dev-perl/YAML-0.390
 	dev-perl/libwww-perl
-	>=dev-perl/yaml-0.390
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Encode-2.100
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Base-0.520
+	>=virtual/perl-Test-Simple-0.420
 "

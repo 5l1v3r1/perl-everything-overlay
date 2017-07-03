@@ -26,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/MIME-tools
+	dev-perl/Mail-Message
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

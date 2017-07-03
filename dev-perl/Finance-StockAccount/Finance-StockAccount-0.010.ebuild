@@ -23,4 +23,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/File-ShareDir-Install
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-ShareDir
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

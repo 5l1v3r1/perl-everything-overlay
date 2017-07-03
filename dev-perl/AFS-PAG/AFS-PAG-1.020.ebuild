@@ -22,4 +22,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Config-AutoConf
 	>=dev-perl/Module-Build-0.280
+	virtual/perl-ExtUtils-CBuilder
 "

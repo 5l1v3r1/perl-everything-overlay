@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Email-Address-1.886
 	>=dev-perl/Email-MessageID-1.400
-	>=dev-perl/Email-Simple-1.998
+	>=dev-perl/Email-Simple-1.410
 	dev-perl/POE
 	>=dev-perl/POE-Component-Client-DNS-0.990
 	>=dev-perl/POE-Component-Client-DNSBL-0.080

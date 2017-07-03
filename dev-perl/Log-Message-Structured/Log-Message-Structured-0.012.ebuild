@@ -27,11 +27,12 @@ RDEPEND="
 	dev-perl/MooseX-Types-Common
 	>=dev-perl/MooseX-Types-ISO8601-0.020
 	dev-perl/MooseX-Types-Structured
+	dev-perl/YAML
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

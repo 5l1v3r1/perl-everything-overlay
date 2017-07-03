@@ -30,7 +30,6 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Math-Complex
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

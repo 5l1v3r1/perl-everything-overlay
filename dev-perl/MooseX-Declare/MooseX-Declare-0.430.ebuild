@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Devel-Declare
+	>=dev-perl/Devel-Declare-0.005.011
 	dev-perl/Module-Runtime
 	dev-perl/Moose
 	dev-perl/MooseX-Method-Signatures

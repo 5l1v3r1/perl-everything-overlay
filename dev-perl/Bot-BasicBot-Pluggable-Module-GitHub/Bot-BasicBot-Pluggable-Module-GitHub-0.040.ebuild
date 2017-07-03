@@ -19,8 +19,8 @@ RDEPEND="
 	dev-perl/Bot-BasicBot-Pluggable
 	dev-perl/JSON
 	dev-perl/URI-Title
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Test-Simple
 "
 DEPEND="

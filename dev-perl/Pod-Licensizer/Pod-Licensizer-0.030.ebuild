@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Log-Log4perl-1.000
 	>=dev-perl/Pod-Abstract-0.200
-	>=dev-perl/yaml-0.710
+	>=dev-perl/Pod-Usage-1.360
+	>=dev-perl/YAML-0.710
 	>=virtual/perl-Pod-Parser-1.370
-	>=virtual/perl-Pod-Usage-1.360
 "
 DEPEND="
 	${RDEPEND}

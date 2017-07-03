@@ -21,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.029
 	dev-perl/Archive-Extract
 	dev-perl/Module-Build
 	>=dev-perl/Alien-gmake-0.110

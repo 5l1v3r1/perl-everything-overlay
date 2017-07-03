@@ -20,9 +20,9 @@ RDEPEND="
 	>=dev-perl/HTML-Parser-1.180
 	>=dev-perl/HTML-Tagset-3.030
 	>=dev-perl/HTML-Tree-3.080
+	>=dev-perl/Pod-Checker-1.200
 	virtual/perl-File-Path
 	>=virtual/perl-File-Spec-0.800
-	>=virtual/perl-Pod-Checker-1.200
 	>=virtual/perl-Pod-Parser-1.120
 "
 DEPEND="

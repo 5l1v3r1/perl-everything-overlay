@@ -22,9 +22,9 @@ RDEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-Scalar-List-Utils-1.330
 	virtual/perl-XSLoader
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	>=virtual/perl-Test-Simple-0.880
 "

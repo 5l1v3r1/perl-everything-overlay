@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Pluggable
+	dev-perl/Regexp-Common
 	dev-perl/URI
-	dev-perl/regexp-common
 	virtual/perl-CPAN
 	virtual/perl-Carp
 	virtual/perl-File-Temp

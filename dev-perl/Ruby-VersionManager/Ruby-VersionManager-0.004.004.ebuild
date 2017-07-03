@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moo
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-autodie
 "
 DEPEND="

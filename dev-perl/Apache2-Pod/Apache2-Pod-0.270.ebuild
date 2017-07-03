@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/URI
 	virtual/perl-File-Spec
 	>=virtual/perl-Pod-Parser-1.300
-	>=virtual/perl-Pod-Simple-3.010
+	virtual/perl-Pod-Simple
 	virtual/perl-Test-Simple
 "
 DEPEND="

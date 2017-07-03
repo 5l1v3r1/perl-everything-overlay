@@ -20,9 +20,9 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Class-Tiny
 	dev-perl/Getopt-Lucid
+	dev-perl/Pod-Usage
 	virtual/perl-CPAN-Meta
 	virtual/perl-CPAN-Meta-Requirements
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/AnyEvent
+	>=dev-perl/AnyEvent-4.450
 	>=dev-perl/Crypt-NaCl-Sodium-1.0.4
 	dev-perl/Crypt-RC4-XS
 	>=dev-perl/Crypt-Spritz-1.020

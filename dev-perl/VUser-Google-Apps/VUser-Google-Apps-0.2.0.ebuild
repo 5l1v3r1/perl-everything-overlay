@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/VUser-Google-Api-0.220
-	>=dev-perl/vuser-0.3.2
+	>=dev-perl/vuser-0.2.0
 "
 DEPEND="
 	${RDEPEND}

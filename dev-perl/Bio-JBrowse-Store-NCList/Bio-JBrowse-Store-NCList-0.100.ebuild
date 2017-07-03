@@ -27,9 +27,14 @@ RDEPEND="
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Carp-Always
+	dev-perl/File-Next
+	virtual/perl-Data-Dumper
+	virtual/perl-Exporter
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

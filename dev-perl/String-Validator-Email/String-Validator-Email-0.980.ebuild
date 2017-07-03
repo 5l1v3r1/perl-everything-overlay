@@ -20,8 +20,8 @@ RDEPEND="
 	>=dev-perl/Email-Valid-0.190
 	>=dev-perl/Net-DNS-0.680
 	>=dev-perl/Net-Domain-TLD-1.690
+	>=dev-perl/Regexp-Common-2011121001.000
 	>=dev-perl/String-Validator-Common-0.970
-	>=dev-perl/regexp-common-2011121001.000
 	virtual/perl-Test-Simple
 "
 DEPEND="

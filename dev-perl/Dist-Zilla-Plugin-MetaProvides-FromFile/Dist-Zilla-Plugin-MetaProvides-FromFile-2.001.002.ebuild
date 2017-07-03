@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-INI
-	dev-perl/Dist-Zilla-Plugin-MetaProvides
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.110.342.010
 	dev-perl/Module-Runtime
 	dev-perl/Moose
 	dev-perl/namespace-autoclean

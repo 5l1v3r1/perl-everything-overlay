@@ -18,14 +18,17 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/PPI-1.113
+	dev-perl/Pod-Usage
 	>=dev-perl/Readonly-1.030
 	dev-perl/Statistics-Basic
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-IO-1.140
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/Test-Pod-1.000
+	>=dev-perl/Test-Pod-Coverage-1.040
+	virtual/perl-File-Spec
 "

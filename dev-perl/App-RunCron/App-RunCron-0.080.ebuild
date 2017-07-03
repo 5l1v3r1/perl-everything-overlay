@@ -26,4 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Capture-Tiny
+	dev-perl/File-pushd
+	dev-perl/Test-Exit
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "

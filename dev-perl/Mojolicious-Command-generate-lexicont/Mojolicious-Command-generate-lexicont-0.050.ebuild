@@ -25,4 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/JSON
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

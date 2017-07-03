@@ -24,9 +24,9 @@ RDEPEND="
 	dev-perl/Test-Most
 	dev-perl/TimeDate
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	dev-perl/common-sense
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-parent
 "

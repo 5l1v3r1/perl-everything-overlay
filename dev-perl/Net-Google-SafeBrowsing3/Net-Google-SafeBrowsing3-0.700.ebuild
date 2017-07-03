@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Google-ProtocolBuffers
 	dev-perl/IO-Socket-SSL
 	dev-perl/MIME-Base64-URLSafe
@@ -28,7 +29,6 @@ RDEPEND="
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

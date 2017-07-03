@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/SelfLoader
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-SelfLoader
 	virtual/perl-XSLoader
 "
 DEPEND="

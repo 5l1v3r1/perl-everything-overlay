@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Font-TTF-0.340
+	dev-perl/Font-TTF
 	dev-perl/Math-Bezier-Convert
-	>=dev-perl/SWF-File-0.290
+	dev-perl/SWF-File
 	virtual/perl-IO-Compress
 "
 DEPEND="

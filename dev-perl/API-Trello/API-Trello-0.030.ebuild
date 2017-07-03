@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Data-Object-0.050
+	>=dev-perl/Data-Object-0.200
 	>=dev-perl/Import-Into-1.002.004
 	>=dev-perl/Mojolicious-6.080
 "

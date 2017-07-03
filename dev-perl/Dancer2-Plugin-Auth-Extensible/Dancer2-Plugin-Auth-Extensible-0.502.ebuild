@@ -19,9 +19,13 @@ RDEPEND="
 	dev-perl/Crypt-SaltedHash
 	>=dev-perl/Dancer2-0.150
 	dev-perl/Session-Token
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Path-Tiny-0.016
+	dev-perl/Test-Deep
+	virtual/perl-Module-Load-Conditional
+	virtual/perl-Test-Simple
 "

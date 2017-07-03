@@ -17,12 +17,16 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/PadWalker
+	dev-perl/Regexp-Common
 	dev-perl/Sub-Exporter
-	dev-perl/regexp-common
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-lang/perl
+	dev-perl/Test-NoWarnings
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Best
 	dev-perl/Cache-FastMmap
 	dev-perl/Class-Inspector
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

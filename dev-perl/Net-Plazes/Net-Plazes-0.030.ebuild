@@ -27,4 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Trap-0.1.1
+	>=virtual/perl-Test-Simple-0.800
 "

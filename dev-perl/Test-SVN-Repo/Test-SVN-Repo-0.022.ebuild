@@ -30,4 +30,10 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IPC-Cmd
+	dev-perl/Probe-Perl
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

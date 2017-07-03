@@ -20,9 +20,12 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/Object-Tiny
 	dev-perl/libwww-perl
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Online
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

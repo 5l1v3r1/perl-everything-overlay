@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/MooseX-AttributeDocumented-0.100.300
 	dev-perl/Path-Tiny
 	dev-perl/Pod-Elemental
-	>=dev-perl/Stenciller-0.130.200
+	dev-perl/Stenciller
 	>=dev-perl/Type-Tiny-1.000.000
 	dev-perl/Types-Path-Tiny
 	>=dev-perl/namespace-autoclean-0.240
@@ -30,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Test-Differences
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

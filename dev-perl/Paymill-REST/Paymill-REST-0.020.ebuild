@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.014
+	dev-perl/Data-Compare
+	>=virtual/perl-Test-Simple-0.880
 "

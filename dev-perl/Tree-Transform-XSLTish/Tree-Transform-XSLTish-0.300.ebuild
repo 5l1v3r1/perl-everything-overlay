@@ -17,11 +17,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Carp-Clan
-	>=dev-perl/Moose-0.900
+	dev-perl/Moose
 	dev-perl/Params-Validate
 	dev-perl/Sub-Exporter
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	>=dev-perl/Tree-DAG-Node-XPath-0.100
+	dev-perl/Tree-XPathEngine
 "

@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-perl/Ryu-Async-0.003
 	>=dev-perl/Syntax-Keyword-Try-0.040
 	>=dev-perl/Time-Moment-0.410
-	dev-perl/URI
+	>=dev-perl/URI-1.710
 	>=dev-perl/URI-Template-0.220
 	dev-perl/URI-ws
 	>=dev-perl/curry-1.000

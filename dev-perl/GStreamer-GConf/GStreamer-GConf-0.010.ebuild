@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/ExtUtils-Depends-0.205
+	>=dev-perl/ExtUtils-PkgConfig-1.070
 	>=dev-perl/GStreamer-0.020
-	>=dev-perl/extutils-pkgconfig-1.070
 "
 DEPEND="
 	${RDEPEND}

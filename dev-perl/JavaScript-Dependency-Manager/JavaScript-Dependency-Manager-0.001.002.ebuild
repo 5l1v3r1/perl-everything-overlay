@@ -16,7 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moo
+	>=dev-perl/Moo-0.009.010
+	dev-perl/Sub-Quote
 	>=dev-perl/Tie-IxHash-1.220
 	>=virtual/perl-autodie-2.100
 "

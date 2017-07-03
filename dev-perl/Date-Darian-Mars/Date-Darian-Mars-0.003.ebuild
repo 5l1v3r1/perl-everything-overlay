@@ -19,10 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

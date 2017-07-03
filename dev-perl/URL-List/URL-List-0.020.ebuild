@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/Mouse-1.050
+	>=dev-perl/MouseX-NativeTraits-1.090
+	>=dev-perl/URI-1.600
+	>=dev-perl/namespace-autoclean-0.130
+	>=virtual/perl-Test-Simple-0.980
 "

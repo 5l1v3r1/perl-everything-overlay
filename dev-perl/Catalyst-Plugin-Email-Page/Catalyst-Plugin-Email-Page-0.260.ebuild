@@ -16,10 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.660
+	dev-perl/Catalyst-Runtime
 	dev-perl/Readonly
 	>=dev-perl/URI-3.280
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Distribution-1.230
+	>=virtual/perl-Test-Simple-0.620
 "

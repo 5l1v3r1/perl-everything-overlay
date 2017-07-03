@@ -20,11 +20,13 @@ RDEPEND="
 	>=dev-perl/IO-Socket-SSL-1.420
 	dev-perl/Mozilla-CA
 	>=dev-perl/Net-SSLeay-1.490
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-HTTP-Tiny-0.043
 	virtual/perl-JSON-PP
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-lang/perl
+	>=virtual/perl-Test-Simple-0.980
 "

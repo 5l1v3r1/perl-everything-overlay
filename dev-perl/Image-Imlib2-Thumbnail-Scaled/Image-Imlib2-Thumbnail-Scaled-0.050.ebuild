@@ -20,4 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/Image-Imlib2-2.000
+	dev-perl/MIME-Types
+	dev-perl/Object-Tiny-RW-XS
+	dev-perl/Path-Class
+	virtual/perl-Test-Simple
 "

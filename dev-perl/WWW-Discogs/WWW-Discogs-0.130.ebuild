@@ -17,10 +17,17 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/JSON-XS
+	dev-perl/NEXT
 	dev-perl/URI
 	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurp
+	dev-perl/HTTP-Message
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	>=dev-perl/Test-Mock-LWP-Dispatch-0.030
+	virtual/perl-Test-Simple
 "

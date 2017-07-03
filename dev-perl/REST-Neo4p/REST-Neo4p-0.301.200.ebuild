@@ -29,4 +29,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/List-MoreUtils
+	dev-perl/Mock-Quick
+	dev-perl/Mojolicious
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	virtual/perl-Test-Simple
 "

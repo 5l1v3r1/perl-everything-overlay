@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CLASS-1.000
 	>=dev-perl/Catalyst-Controller-ActionRole-0.150
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800.250
 	>=dev-perl/Class-Inspector-1.240
 	>=dev-perl/Data-Dump-1.140
 	>=dev-perl/Data-Pond-0.002

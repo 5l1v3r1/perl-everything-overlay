@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Common
 	>=dev-perl/Net-Stomp-0.510
-	>=dev-perl/Net-Stomp-MooseHelpers-2.600
+	dev-perl/Net-Stomp-MooseHelpers
 	dev-perl/Throwable
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
@@ -31,4 +31,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	dev-perl/JSON-XS
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warn
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

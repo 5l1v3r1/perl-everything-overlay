@@ -27,4 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-Object-0.050
+	dev-perl/IO-CaptureOutput
+	dev-perl/Test-NoWarnings
+	>=dev-perl/Test-Output-1.020
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

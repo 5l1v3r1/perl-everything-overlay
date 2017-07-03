@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Copy-Recursive
+	dev-perl/Test-Compile
+	dev-perl/UNIVERSAL-require
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

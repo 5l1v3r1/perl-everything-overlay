@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	virtual/perl-Pod-Perldoc
+	dev-perl/Pod-Perldoc
 "
 DEPEND="
 	${RDEPEND}

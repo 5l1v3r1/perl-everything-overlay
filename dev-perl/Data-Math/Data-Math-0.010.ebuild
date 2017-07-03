@@ -29,10 +29,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Env
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Trap
-	perl-core/Env
 	virtual/perl-File-Path
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie

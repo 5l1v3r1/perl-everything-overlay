@@ -47,4 +47,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Class-Most
+	dev-perl/Test-WWW-Mechanize-PSGI
 "

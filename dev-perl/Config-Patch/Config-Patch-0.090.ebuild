@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Log-Log4perl
+	dev-perl/Pod-Usage
 	dev-perl/Set-IntSpan
 	virtual/perl-MIME-Base64
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

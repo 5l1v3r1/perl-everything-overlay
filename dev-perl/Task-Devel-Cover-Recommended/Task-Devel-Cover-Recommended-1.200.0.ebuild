@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Moo
 	>=dev-perl/PPI-HTML-1.070
 	dev-perl/Parallel-Iterator
-	>=dev-perl/Pod-Coverage-0.060
+	dev-perl/Pod-Coverage
 	>=dev-perl/Template-Toolkit-2.000
 	dev-perl/namespace-clean
 	virtual/perl-Digest-MD5
@@ -33,4 +33,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

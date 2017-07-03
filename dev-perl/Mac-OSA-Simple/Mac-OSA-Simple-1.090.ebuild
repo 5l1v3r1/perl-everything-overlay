@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Mac-AppleEvents-Simple-1.080
-	>=dev-perl/Mac-Carbon-1.030
+	>=dev-perl/Mac-Carbon-1.020
 	virtual/perl-Test-Simple
 "
 DEPEND="

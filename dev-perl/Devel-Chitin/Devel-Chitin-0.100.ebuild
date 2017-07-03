@@ -26,7 +26,6 @@ RDEPEND="
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

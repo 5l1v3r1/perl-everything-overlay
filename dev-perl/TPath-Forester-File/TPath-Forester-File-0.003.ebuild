@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Encode-Detect
 	dev-perl/Moose
 	dev-perl/MooseX-MethodAttributes
-	dev-perl/TPath
+	>=dev-perl/TPath-1.000
 	dev-perl/namespace-autoclean
 	virtual/perl-Encode
 	virtual/perl-File-Spec
@@ -29,4 +29,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Exporter
+	virtual/perl-File-Path
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-autodie
 "

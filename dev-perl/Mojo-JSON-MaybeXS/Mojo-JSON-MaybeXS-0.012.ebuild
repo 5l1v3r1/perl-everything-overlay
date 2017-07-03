@@ -16,7 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/JSON-MaybeXS-1.001
+	>=dev-perl/Mojolicious-5.660
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
 "

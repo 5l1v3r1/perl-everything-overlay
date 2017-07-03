@@ -19,8 +19,9 @@ RDEPEND="
 	>=dev-perl/File-HomeDir-0.500
 	>=dev-perl/File-Slurp-9999.090
 	dev-perl/List-MoreUtils
-	>=dev-perl/regexp-common-2.120
+	>=dev-perl/Regexp-Common-2.120
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

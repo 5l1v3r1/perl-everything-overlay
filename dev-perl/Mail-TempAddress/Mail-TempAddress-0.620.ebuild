@@ -19,8 +19,11 @@ RDEPEND="
 	>=dev-perl/Class-Roles-0.300
 	dev-perl/Email-Address
 	>=dev-perl/Mail-Action-0.450
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Exception
+	>=dev-perl/Test-MockObject-0.110
+	>=virtual/perl-Test-Simple-0.470
 "

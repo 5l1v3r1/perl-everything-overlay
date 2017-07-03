@@ -21,6 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/extutils-pkgconfig-1.120
+	>=dev-perl/ExtUtils-PkgConfig-1.120
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Test-Class
+	virtual/perl-Test-Simple
 "

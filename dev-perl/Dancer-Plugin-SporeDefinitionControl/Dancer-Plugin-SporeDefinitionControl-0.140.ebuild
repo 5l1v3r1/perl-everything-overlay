@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dancer-1.300.200
+	dev-perl/Dancer
 	>=dev-perl/Dancer-Plugin-REST-0.040
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

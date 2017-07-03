@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Import-Into-1.002.004
+	>=dev-perl/Path-Tiny-0.037
+	dev-perl/Test-Most
+	virtual/perl-MIME-Base64
 "

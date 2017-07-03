@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Path-Class
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

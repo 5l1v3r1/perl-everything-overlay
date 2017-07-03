@@ -24,4 +24,22 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Catalyst-Authentication-Store-DBIx-Class
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-Plugin-Authentication
+	dev-perl/Catalyst-Plugin-Authorization-Roles
+	dev-perl/Catalyst-Plugin-ConfigLoader
+	dev-perl/Catalyst-Plugin-Static-Simple
+	>=dev-perl/Catalyst-Runtime-5.900.800
+	dev-perl/DBIx-Class-PassphraseColumn
+	dev-perl/DBIx-Class-TimeStamp
+	dev-perl/Data-Diver
+	dev-perl/Data-Manager
+	dev-perl/Data-Verifier
+	dev-perl/JSON-MaybeXS
+	dev-perl/MooseX-MarkAsMethods
+	dev-perl/MooseX-NonMoose
+	dev-perl/MooseX-Types-Email
+	dev-perl/namespace-autoclean
+	virtual/perl-Test-Simple
 "

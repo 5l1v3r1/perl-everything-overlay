@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/File-HomeDir
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/Module-Build
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 "
@@ -28,4 +28,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Pod-Readme
 	dev-perl/Software-License
+	virtual/perl-Test-Simple
 "

@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Path-Class
+	virtual/perl-Test-Simple
 "

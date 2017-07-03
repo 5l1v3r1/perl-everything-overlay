@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-5.830
+	>=dev-perl/HTTP-Message-5.827
 	>=dev-perl/POE-1.293
 	>=dev-perl/POE-Declare-0.500
 	>=dev-perl/Params-Util-1.000
@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-NoWarnings-1.000
+	>=dev-perl/Test-POE-Stopping-1.070
+	>=virtual/perl-Test-Simple-0.420
 "

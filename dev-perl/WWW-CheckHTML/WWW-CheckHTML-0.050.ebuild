@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Authen-SASL
-	>=dev-perl/Email-Sender-1.300.006
+	dev-perl/Email-Sender
 	>=dev-perl/Email-Simple-2.201
 	dev-perl/Method-Signatures
 	>=dev-perl/YAML-LibYAML-0.410
@@ -29,4 +29,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

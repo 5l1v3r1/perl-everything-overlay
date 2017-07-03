@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/JSON
 	dev-perl/LWP-UserAgent-Mockable
-	dev-perl/Moose
+	>=dev-perl/Moose-1.090
 	dev-perl/MooseX-Types
 	dev-perl/Perl6-Junction
 	dev-perl/Test-Class

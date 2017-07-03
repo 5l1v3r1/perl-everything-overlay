@@ -23,9 +23,12 @@ DEPEND="
 	${RDEPEND}
 	dev-lang/perl
 	dev-perl/Archive-Extract
+	dev-perl/File-Fetch
 	>=dev-perl/Module-Build-0.360
 	dev-perl/Text-Patch
 	virtual/perl-Digest-SHA
-	virtual/perl-File-Fetch
 	virtual/perl-File-Path
+	dev-perl/Archive-Zip
+	dev-perl/ExtUtils-CppGuess
+	virtual/perl-ExtUtils-MakeMaker
 "

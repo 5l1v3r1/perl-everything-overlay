@@ -20,11 +20,15 @@ RDEPEND="
 	dev-perl/Class-Tiny
 	dev-perl/File-UserConfig
 	dev-perl/JSON
-	>=dev-perl/Path-IsDev-1.000.000
+	dev-perl/Path-IsDev
 	dev-perl/Path-Tiny
 	dev-perl/Role-Tiny
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.700
+	dev-perl/Test-File-ShareDir
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.990
 "

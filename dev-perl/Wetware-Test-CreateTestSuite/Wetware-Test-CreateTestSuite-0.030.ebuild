@@ -25,4 +25,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Compile-0.080
+	virtual/perl-Test-Simple
 "

@@ -50,7 +50,6 @@ RDEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Text-Tabs+Wrap
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 	virtual/perl-version
 "
 DEPEND="

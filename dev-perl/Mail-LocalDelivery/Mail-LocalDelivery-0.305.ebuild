@@ -20,9 +20,12 @@ RDEPEND="
 	dev-perl/Email-Abstract
 	dev-perl/MailTools
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

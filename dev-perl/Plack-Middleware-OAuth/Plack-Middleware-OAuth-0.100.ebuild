@@ -24,8 +24,8 @@ RDEPEND="
 	dev-perl/Plack-Middleware-Session
 	dev-perl/URI
 	dev-perl/URI-Query
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
 "

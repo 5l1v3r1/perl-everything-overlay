@@ -17,14 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/CPANPLUS-0.900.100
-	virtual/perl-File-Fetch
+	dev-perl/File-Fetch
+	virtual/perl-CPAN-Meta
 	virtual/perl-File-Spec
 	virtual/perl-Locale-Maketext-Simple
 	virtual/perl-Module-Load-Conditional
 	virtual/perl-Params-Check
-	virtual/perl-Parse-CPAN-Meta
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	>=virtual/perl-Test-Simple-0.470
 "

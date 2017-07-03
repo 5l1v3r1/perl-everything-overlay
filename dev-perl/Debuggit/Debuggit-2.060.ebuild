@@ -21,4 +21,11 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/YAML-Tiny
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-lang/perl-0.890
+	>=dev-perl/Monkey-Patch-0.030
+	>=dev-perl/Test-Command-0.080
+	>=dev-perl/Test-Exception-0.310
+	>=dev-perl/Test-Output-0.160
+	>=dev-perl/Test-Warn-0.230
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -35,4 +35,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/IO-String
+	dev-perl/Test-TempDir
+	dev-perl/Text-CSV-XS
+	virtual/perl-Test-Simple
 "

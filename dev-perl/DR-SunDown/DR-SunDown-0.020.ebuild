@@ -21,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Devel-PPPort-3.190
+	>=virtual/perl-ExtUtils-ParseXS-2.210
 "

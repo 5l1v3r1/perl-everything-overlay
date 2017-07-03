@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/common-sense-3.100
+	>=virtual/perl-File-Path-2.080
+	virtual/perl-Test-Simple
 "

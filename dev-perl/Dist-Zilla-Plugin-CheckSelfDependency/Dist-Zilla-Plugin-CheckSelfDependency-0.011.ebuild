@@ -16,7 +16,22 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Dist-Zilla
+	dev-perl/Dist-Zilla-Role-ModuleMetadata
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
+	>=virtual/perl-CPAN-Meta-2.132.830
+	virtual/perl-CPAN-Meta-Requirements
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Path-Tiny
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-if
 "

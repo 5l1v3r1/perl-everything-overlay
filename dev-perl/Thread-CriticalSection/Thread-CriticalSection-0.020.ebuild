@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
+	virtual/perl-Thread-Semaphore
 "

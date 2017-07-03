@@ -25,4 +25,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Exception-Class
+	dev-perl/Moose
+	dev-perl/Test-Exception
+	dev-perl/Test-LeakTrace
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Spec
+	dev-perl/Test-Warn
+	dev-perl/Throwable
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Exporter
+	virtual/perl-Test-Simple
 "

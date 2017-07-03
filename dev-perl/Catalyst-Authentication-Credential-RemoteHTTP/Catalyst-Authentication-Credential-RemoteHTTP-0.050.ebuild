@@ -27,4 +27,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Catalyst-Plugin-Authentication
+	dev-perl/HTTP-Server-Simple
+	dev-perl/Test-Exception
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-MIME-Base64
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

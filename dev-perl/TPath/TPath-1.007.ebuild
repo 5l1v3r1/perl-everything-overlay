@@ -33,4 +33,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/List-MoreUtils
+	dev-perl/Test-Exception
+	dev-perl/Test-Trap
+	dev-perl/base
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Log-Any-1.045
 	>=dev-perl/Log-Any-Adapter-MojoLog-0.020
 	>=dev-perl/Mercury-0.010
-	>=dev-perl/Mojolicious-7.240
+	dev-perl/Mojolicious
 	>=dev-perl/Mojolicious-Plugin-OpenAPI-1.130
 "
 DEPEND="

@@ -31,4 +31,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/HTTP-Message
+	dev-perl/Plack
+	dev-perl/Test-Mock-LWP-Conditional
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.140
 	>=dev-perl/DBD-mysql-4.008
 	>=dev-perl/DBI-1.607
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Exporter-5.000
 	virtual/perl-Test-Simple

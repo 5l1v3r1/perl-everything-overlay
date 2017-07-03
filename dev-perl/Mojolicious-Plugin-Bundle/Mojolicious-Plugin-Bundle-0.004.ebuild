@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Bio-Chado-Schema-0.057.030
 	>=dev-perl/Mojolicious-1.210
-	>=dev-perl/regexp-common-2010010201.000
-	>=dev-perl/yaml-0.710
+	>=dev-perl/Regexp-Common-2010010201.000
+	>=dev-perl/YAML-0.710
 "
 DEPEND="
 	${RDEPEND}

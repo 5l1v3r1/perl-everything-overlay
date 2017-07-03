@@ -30,4 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.400
+	dev-perl/Test-Differences
+	dev-perl/Text-Diff
+	>=virtual/perl-Test-Simple-0.870
 "

@@ -29,4 +29,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CGI-Application-Dispatch
+	dev-perl/CGI-Application-Plugin-Redirect
+	dev-perl/Test-Exception
+	dev-perl/Test-HTTP-Server-Simple
+	dev-perl/Test-WWW-Mechanize
+	dev-perl/lib
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -32,4 +32,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	virtual/perl-MIME-Base64
+	>=virtual/perl-Storable-2.180
+	virtual/perl-Test-Simple
 "

@@ -27,9 +27,13 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-IO
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/HTTP-Tiny-SPDY
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

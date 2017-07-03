@@ -33,8 +33,8 @@ RDEPEND="
 	dev-perl/TimeDate
 	>=dev-perl/UNIVERSAL-require-0.100
 	>=dev-perl/URI-Fetch-0.060
+	>=dev-perl/YAML-0.390
 	dev-perl/libwww-perl
-	>=dev-perl/yaml-0.390
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Test-Simple-0.420
 "

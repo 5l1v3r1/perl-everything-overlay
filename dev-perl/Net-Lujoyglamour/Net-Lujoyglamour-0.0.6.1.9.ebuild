@@ -22,9 +22,9 @@ RDEPEND="
 	dev-perl/CGI-Application-Plugin-Redirect
 	dev-perl/DBIx-Class
 	dev-perl/JSON
+	dev-perl/Regexp-Common
 	dev-perl/String-Random
 	dev-perl/Test-WWW-Mechanize-CGIApp
-	dev-perl/regexp-common
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 	virtual/perl-version

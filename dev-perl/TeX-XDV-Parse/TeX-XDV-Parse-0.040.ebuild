@@ -19,9 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/TeX-DVI
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Text-Diff
+	virtual/perl-Test-Simple
 "

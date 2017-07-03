@@ -33,7 +33,7 @@ RDEPEND="
 	dev-perl/Net-IP
 	>=dev-perl/Net-SNMP-6.0.1
 	>=dev-perl/Net-SSLeay-1.650
-	dev-perl/Net-Server
+	>=dev-perl/Net-Server-0.060
 	>=dev-perl/Params-Validate-1.130
 	dev-perl/Test-Class
 	dev-perl/Test-Deep

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.030
 	>=dev-perl/Config-Plugin-Tiny-1.010
 	>=dev-perl/DBD-SQLite-1.350
 	>=dev-perl/DBIx-Admin-CreateTable-2.070
@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Pod-1.440
+	>=virtual/perl-Test-Simple-0.940
 "

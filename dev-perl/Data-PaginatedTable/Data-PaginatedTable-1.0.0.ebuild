@@ -23,9 +23,9 @@ RDEPEND="
 	dev-perl/Types-XSD-Lite
 	dev-perl/XML-Simple
 	dev-perl/XML-Simple-Sugar
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

@@ -25,5 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.860
-	virtual/perl-constant
 "

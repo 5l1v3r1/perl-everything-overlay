@@ -22,6 +22,7 @@ RDEPEND="
 	dev-perl/Dancer2
 	dev-perl/File-Slurp
 	dev-perl/HTTP-Lite
+	dev-perl/IPC-SysV
 	dev-perl/JSON
 	dev-perl/POE
 	dev-perl/Plack
@@ -30,7 +31,6 @@ RDEPEND="
 	dev-perl/Tie-DNS
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
-	virtual/perl-IPC-SysV
 	virtual/perl-MIME-Base64
 	virtual/perl-Storable
 "

@@ -20,12 +20,12 @@ RDEPEND="
 	dev-perl/Data-Validate-Struct
 	dev-perl/File-Slurp
 	dev-perl/List-MoreUtils
+	dev-perl/Regexp-Common
 	dev-perl/Regexp-IPv6
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-Pod
 	dev-perl/Test-Strict
 	dev-perl/YAML-Syck
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

@@ -24,8 +24,8 @@ RDEPEND="
 	dev-perl/Test-Mock-LWP-Dispatch
 	dev-perl/Test-NoWarnings
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Test-Simple
 "
 DEPEND="

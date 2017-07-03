@@ -28,9 +28,11 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-SHA
 	virtual/perl-MIME-Base64
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/JSON
+	>=dev-perl/Test-Pod-1.410
+	virtual/perl-Test-Simple
 "

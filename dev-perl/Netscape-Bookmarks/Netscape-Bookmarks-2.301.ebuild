@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/HTML-Parser
+	>=dev-perl/HTML-Parser-3.260
 	dev-perl/HTTP-SimpleLinkChecker
 	dev-perl/Text-Diff
 	dev-perl/URI
@@ -25,4 +25,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	virtual/perl-File-Spec
+	dev-perl/Test-File
+	>=virtual/perl-Test-Simple-0.950
 "

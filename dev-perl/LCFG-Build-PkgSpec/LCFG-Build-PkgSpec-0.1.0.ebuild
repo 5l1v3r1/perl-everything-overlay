@@ -21,10 +21,13 @@ RDEPEND="
 	dev-perl/Email-Address
 	dev-perl/Email-Valid
 	>=dev-perl/Moose-0.980
+	dev-perl/Pod-Usage
 	>=dev-perl/YAML-Syck-0.980
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

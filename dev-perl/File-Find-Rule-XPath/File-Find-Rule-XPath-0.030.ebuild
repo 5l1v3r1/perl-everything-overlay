@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Find-Rule
-	>=dev-perl/XML-LibXML-2.012.400
+	>=dev-perl/XML-LibXML-2.012.900
 	dev-perl/XML-XPath
 	>=virtual/perl-Test-Simple-0.410
 "

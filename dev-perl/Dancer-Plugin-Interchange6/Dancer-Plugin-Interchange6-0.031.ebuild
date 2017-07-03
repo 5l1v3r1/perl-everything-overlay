@@ -24,9 +24,12 @@ RDEPEND="
 	dev-perl/Dancer-Session-DBIC
 	>=dev-perl/Interchange6-0.030
 	>=dev-perl/Interchange6-Schema-0.030
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBICx-TestDatabase
+	dev-perl/Test-Database
+	dev-perl/Test-Most
 "

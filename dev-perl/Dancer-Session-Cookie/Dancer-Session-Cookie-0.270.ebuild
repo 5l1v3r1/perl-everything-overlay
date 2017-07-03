@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-CBC
 	dev-perl/Crypt-Rijndael
-	>=dev-perl/Dancer-1.311.300
+	dev-perl/Dancer
 	>=dev-perl/Session-Storage-Secure-0.010
 	dev-perl/String-CRC32
 	dev-perl/Time-Duration-Parse
@@ -30,4 +30,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Cookies
+	dev-perl/HTTP-Date
+	dev-perl/HTTP-Message
+	dev-perl/Plack
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

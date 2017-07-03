@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Set-Object-1.100
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 "

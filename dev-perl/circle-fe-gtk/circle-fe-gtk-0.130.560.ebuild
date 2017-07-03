@@ -17,12 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/File-ShareDir-1.000
+	dev-perl/Gtk2
 	>=dev-perl/IO-Async-0.140
 	dev-perl/IO-Async-Loop-Glib
 	>=dev-perl/Net-Async-Tangence-0.080
 	>=dev-perl/Tangence-0.180
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 "
 DEPEND="
 	${RDEPEND}

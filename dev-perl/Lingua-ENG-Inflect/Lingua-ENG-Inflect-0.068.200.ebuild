@@ -17,10 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	perl-core/Env
+	dev-perl/Env
 	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

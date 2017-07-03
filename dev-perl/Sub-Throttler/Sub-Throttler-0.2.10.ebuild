@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/EV
 	dev-perl/Export-Attrs
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 	virtual/perl-parent
 	>=virtual/perl-version-0.770
@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/JSON-XS
+	dev-perl/Test-Exception
+	>=dev-perl/Test-Mock-Time-0.1.5
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -19,4 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Log-Dispatch-Twitter
+	dev-perl/Net-Twitter
+	dev-perl/Twitter-TagGrep
+	dev-perl/WWW-ItsABot
+	virtual/perl-Test-Simple
 "

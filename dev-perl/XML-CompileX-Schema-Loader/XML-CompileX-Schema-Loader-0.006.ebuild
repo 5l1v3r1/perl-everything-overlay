@@ -32,4 +32,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Const-Fast
+	dev-perl/HTTP-Message
+	dev-perl/Path-Tiny
+	dev-perl/Test-LWP-UserAgent
+	dev-perl/Test-Most
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

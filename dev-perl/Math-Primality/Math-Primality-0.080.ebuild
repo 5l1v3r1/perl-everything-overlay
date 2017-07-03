@@ -22,10 +22,12 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
+	virtual/perl-bignum
 "

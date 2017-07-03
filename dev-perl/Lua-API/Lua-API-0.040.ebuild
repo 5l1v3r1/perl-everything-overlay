@@ -20,7 +20,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 	>=virtual/perl-Devel-PPPort-3.190
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Test-Class
+	dev-perl/Test-Compile
+	dev-perl/Test-Most
+	>=virtual/perl-ExtUtils-ParseXS-2.210
 "

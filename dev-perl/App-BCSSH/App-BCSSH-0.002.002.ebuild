@@ -24,12 +24,12 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-ClassAttribute
 	dev-perl/Package-Variant
+	dev-perl/Pod-Perldoc
 	dev-perl/Safe-Isa
 	dev-perl/Try-Tiny
 	>=dev-perl/strictures-1.000
 	>=virtual/perl-File-Temp-0.190
 	virtual/perl-IO
-	virtual/perl-Pod-Perldoc
 	virtual/perl-Pod-Simple
 "
 DEPEND="

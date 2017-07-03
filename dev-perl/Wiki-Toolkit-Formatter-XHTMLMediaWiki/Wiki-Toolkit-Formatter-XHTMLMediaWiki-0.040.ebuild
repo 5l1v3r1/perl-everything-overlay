@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-XML
+	dev-perl/Test-XML-Order
+	virtual/perl-Test-Simple
 "

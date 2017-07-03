@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Catalyst-Runtime-5.500
+	dev-perl/Catalyst-Runtime
 	dev-perl/EVDB-API
+	dev-perl/NEXT
 	virtual/perl-Data-Dumper
-	virtual/perl-NEXT
 	virtual/perl-Test-Simple
 "
 DEPEND="

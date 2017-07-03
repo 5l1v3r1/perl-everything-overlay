@@ -32,9 +32,9 @@ RDEPEND="
 	>=dev-perl/Mouse-0.620
 	>=dev-perl/MouseX-Getopt-0.330
 	>=dev-perl/MouseX-StrictConstructor-0.020
+	>=dev-perl/Regexp-Common-2010010201.000
 	>=dev-perl/Term-Sk-0.060
 	>=dev-perl/namespace-clean-0.180
-	>=dev-perl/regexp-common-2010010201.000
 	virtual/perl-File-Spec
 	virtual/perl-Term-ReadLine
 	virtual/perl-Time-HiRes

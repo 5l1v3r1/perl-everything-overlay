@@ -30,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Class-C3
+	dev-perl/MRO-Compat
+	dev-perl/Tapper-Schema
+	dev-perl/Test-Fixture-DBIC-Schema
+	virtual/perl-Test-Simple
 "

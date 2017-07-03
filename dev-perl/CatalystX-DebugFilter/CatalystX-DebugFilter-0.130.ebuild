@@ -23,4 +23,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-lang/perl
+	dev-perl/Catalyst-Runtime
+	dev-perl/HTTP-Message
+	>=dev-perl/Test-Pod-1.140
+	>=dev-perl/Test-Pod-Coverage-1.040
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

@@ -32,7 +32,7 @@ RDEPEND="
 	>=dev-perl/Test-UseAllModules-0.120
 	>=dev-perl/Test-Warn-0.210
 	>=virtual/perl-Test-Harness-3.210
-	>=virtual/perl-Test-Simple-1.010
+	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="
 	${RDEPEND}

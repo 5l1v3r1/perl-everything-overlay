@@ -21,9 +21,11 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.590
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/File-Slurp
+	virtual/perl-File-Temp
 "

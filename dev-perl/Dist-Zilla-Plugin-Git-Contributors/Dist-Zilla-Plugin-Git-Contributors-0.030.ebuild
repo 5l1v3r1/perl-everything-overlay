@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.300.039
+	dev-perl/Dist-Zilla
 	>=dev-perl/Git-Wrapper-0.035
 	>=dev-perl/List-UtilsBy-0.040
 	dev-perl/Moose

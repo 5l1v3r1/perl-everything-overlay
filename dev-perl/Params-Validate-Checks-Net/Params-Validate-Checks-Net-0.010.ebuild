@@ -19,8 +19,9 @@ RDEPEND="
 	>=dev-perl/Data-Validate-Domain-0.020
 	dev-perl/Data-Validate-IP
 	dev-perl/Params-Validate-Checks
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warn
+	dev-perl/Text-Soundex
 "

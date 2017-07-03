@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700
-	>=dev-perl/Moose-0.800
+	>=dev-perl/Moose-0.730
 	>=dev-perl/MooseX-RelatedClassRoles-0.003
 "
 DEPEND="

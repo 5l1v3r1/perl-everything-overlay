@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/Moose
 	dev-perl/MooseX-RemoteHelper
-	>=dev-perl/MooseX-Types-Common-0.001.003
+	dev-perl/MooseX-Types-Common
 	>=dev-perl/MooseX-Types-CreditCard-0.002
 	dev-perl/MooseX-Types-DateTime
 	dev-perl/MooseX-Types-Email
@@ -39,4 +39,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Method
+	dev-perl/Test-Requires-Env
+	>=virtual/perl-Test-Simple-0.880
 "

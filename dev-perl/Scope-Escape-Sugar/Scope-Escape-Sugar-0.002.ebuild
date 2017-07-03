@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	>=virtual/perl-ExtUtils-CBuilder-0.150
+	virtual/perl-Test-Simple
 "

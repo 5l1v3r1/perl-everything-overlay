@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Locate
+	dev-perl/Test-Unit
+	virtual/perl-Test-Simple
 "

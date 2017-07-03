@@ -21,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Filesys-Virtual-Plain
+	virtual/perl-Test-Simple
 "

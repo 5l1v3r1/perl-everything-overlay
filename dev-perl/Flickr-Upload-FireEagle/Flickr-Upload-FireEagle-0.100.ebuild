@@ -27,4 +27,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-Test-Simple-0.470
 "

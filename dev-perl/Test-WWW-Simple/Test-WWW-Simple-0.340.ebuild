@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTML-Tree
 	dev-perl/Mojolicious
+	dev-perl/Regexp-Common
 	dev-perl/Test-LongString
 	dev-perl/WWW-Mechanize
 	>=dev-perl/WWW-Mechanize-Pluggable-1.070
-	dev-perl/regexp-common
 	virtual/perl-Test-Simple
 "
 DEPEND="

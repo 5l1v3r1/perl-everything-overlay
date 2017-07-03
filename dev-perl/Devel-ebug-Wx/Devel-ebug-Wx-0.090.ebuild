@@ -24,10 +24,12 @@ RDEPEND="
 	>=dev-perl/Devel-ebug-0.470
 	>=dev-perl/File-UserConfig-0.040
 	>=dev-perl/Module-Pluggable-3.100
-	>=dev-perl/Wx-0.610
+	dev-perl/Wx
 	>=dev-perl/Wx-Perl-TreeView-0.020
-	>=dev-perl/yaml-0.600
+	>=dev-perl/YAML-0.600
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Differences
+	dev-perl/Test-UseAllModules
 "

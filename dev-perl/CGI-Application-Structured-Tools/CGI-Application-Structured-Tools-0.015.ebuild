@@ -25,13 +25,13 @@ RDEPEND="
 	dev-perl/Module-Signature
 	>=dev-perl/Module-Starter-1.500
 	>=dev-perl/Pod-Coverage-0.180
+	dev-perl/Pod-Usage
 	dev-perl/Probe-Perl
 	>=dev-perl/Test-Pod-1.220
 	>=dev-perl/Test-Pod-Coverage-1.080
 	dev-perl/Test-WWW-Mechanize-CGIApp
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

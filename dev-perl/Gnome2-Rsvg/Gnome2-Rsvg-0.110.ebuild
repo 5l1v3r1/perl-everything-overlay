@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Cairo-1.000
 	>=dev-perl/ExtUtils-Depends-0.200
-	>=dev-perl/extutils-pkgconfig-1.030
+	>=dev-perl/ExtUtils-PkgConfig-1.030
+	>=dev-perl/Gtk2-1.020
 	>=dev-perl/glib-perl-1.020
-	>=dev-perl/gtk2-perl-1.020
 "
 DEPEND="
 	${RDEPEND}

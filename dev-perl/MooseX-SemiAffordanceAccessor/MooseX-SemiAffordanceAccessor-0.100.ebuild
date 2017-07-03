@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Moose-0.940
+	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}

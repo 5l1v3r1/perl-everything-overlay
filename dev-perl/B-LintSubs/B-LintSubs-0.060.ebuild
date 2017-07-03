@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/IPC-Run
+	virtual/perl-Test-Simple
 "

@@ -20,4 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/HTTP-Message
+	dev-perl/Test-Identity
+	>=virtual/perl-Test-Simple-0.880
 "

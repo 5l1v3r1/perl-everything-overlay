@@ -22,4 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Module-Build-FFI-0.180
+	dev-perl/FFI-CheckLib
+	dev-perl/File-chdir
+	dev-perl/IPC-Run3
+	>=dev-perl/Test-Script-1.090
 "

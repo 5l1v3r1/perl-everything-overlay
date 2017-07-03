@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Archive-Extract
+	virtual/perl-HTTP-Tiny
+	virtual/perl-Test-Simple
 "

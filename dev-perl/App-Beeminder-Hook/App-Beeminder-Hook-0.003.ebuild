@@ -18,11 +18,13 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Dancer
 	dev-perl/JSON-Any
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

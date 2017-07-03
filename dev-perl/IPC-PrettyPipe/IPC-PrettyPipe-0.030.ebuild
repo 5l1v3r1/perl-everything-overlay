@@ -36,4 +36,14 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Devel-FindPerl
+	dev-perl/File-pushd
+	dev-perl/Test-Base
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-File
+	dev-perl/Test-Lib
+	dev-perl/Test-Most
+	dev-perl/Test-Trap
+	virtual/perl-Test-Simple
 "

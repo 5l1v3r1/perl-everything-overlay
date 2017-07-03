@@ -25,4 +25,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Runtime
+	dev-perl/MooseX-Getopt
+	dev-perl/Test-Class-Moose
+	dev-perl/Test-Fatal
+	>=dev-perl/Test-Net-RabbitMQ-0.130
+	dev-perl/Try-Tiny
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Math-BigInt
+	>=virtual/perl-Test-Simple-0.960
 "

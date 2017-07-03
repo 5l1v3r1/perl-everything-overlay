@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Module-Pluggable
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-1.006
+	dev-perl/Moo
 	dev-perl/Type-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp

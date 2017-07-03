@@ -25,4 +25,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-SQLite
+	dev-perl/MooX-Role-Chatty
+	dev-perl/Rose-DB
+	dev-perl/Rose-DBx-CannedQuery
+	dev-perl/Rose-DBx-CannedQuery-Glycosylated
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "

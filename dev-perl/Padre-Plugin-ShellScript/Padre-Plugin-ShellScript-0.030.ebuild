@@ -22,4 +22,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	>=dev-perl/Locale-Msgfmt-0.150
+	virtual/perl-Test-Simple
 "

@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/GDGraph
+	dev-perl/Gtk2
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	virtual/perl-Test-Simple
 "
 DEPEND="

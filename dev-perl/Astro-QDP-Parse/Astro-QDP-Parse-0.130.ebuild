@@ -19,8 +19,8 @@ RDEPEND="
 	dev-perl/Clone
 	dev-perl/List-MoreUtils
 	dev-perl/Params-Validate
+	dev-perl/Regexp-Common
 	dev-perl/Text-Abbrev
-	dev-perl/regexp-common
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple

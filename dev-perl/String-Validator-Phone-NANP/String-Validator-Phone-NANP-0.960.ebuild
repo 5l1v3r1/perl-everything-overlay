@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Number-Phone-1.300
+	>=dev-perl/Number-Phone-2.000
 	>=dev-perl/String-Validator-Common-0.960
 	virtual/perl-Test-Simple
 "

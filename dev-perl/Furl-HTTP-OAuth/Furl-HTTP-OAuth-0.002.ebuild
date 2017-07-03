@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Furl
 	dev-perl/URI
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

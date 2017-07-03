@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Data-JavaScript-Anon
+	virtual/perl-Test-Simple
 "

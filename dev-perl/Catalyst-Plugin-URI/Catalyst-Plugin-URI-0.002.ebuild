@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Catalyst-Runtime-5.900.600
+	dev-perl/HTTP-Message
+	dev-perl/Test-Most
 "

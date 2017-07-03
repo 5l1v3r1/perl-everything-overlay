@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.050
 	>=dev-perl/ex-lib-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple
-	>=virtual/perl-constant-1.050
 "
 DEPEND="
 	${RDEPEND}

@@ -27,4 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
+	dev-lang/perl
+	dev-perl/Test-Identity
+	dev-perl/Test-Memory-Cycle
+	>=dev-perl/Test-MockModule-0.050
+	virtual/perl-Test-Simple
 "

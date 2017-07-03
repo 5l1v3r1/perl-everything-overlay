@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/Fennec-2.010
+	>=dev-perl/Fennec-Declare-1.001
+	>=dev-perl/Mock-Quick-1.106
 "

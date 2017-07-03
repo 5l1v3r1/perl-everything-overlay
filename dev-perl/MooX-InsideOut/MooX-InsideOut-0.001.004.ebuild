@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Hash-Util-FieldHash-Compat-0.030
 	>=dev-perl/Moo-2.002.005
+	>=dev-perl/Sub-Quote-2.002.005
 "
 DEPEND="
 	${RDEPEND}

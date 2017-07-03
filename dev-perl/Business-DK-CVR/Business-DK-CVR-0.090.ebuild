@@ -27,4 +27,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Data-FormValidator
+	dev-perl/Taint-Runtime
+	dev-perl/Test-Exception
+	dev-perl/Test-Kwalitee
+	dev-perl/Test-Perl-Critic
+	dev-perl/Test-Prereq
+	dev-perl/Test-Taint
+	virtual/perl-Test-Simple
 "

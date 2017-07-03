@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Mason-1.100
-	>=dev-perl/Locale-Codes-2.060
+	>=dev-perl/Locale-Codes-2.020
 "
 DEPEND="
 	${RDEPEND}

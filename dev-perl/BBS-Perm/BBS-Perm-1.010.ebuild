@@ -23,9 +23,9 @@ RDEPEND="
 	dev-perl/IO-Stty
 	dev-perl/IO-Tty
 	dev-perl/IP-QQWry
+	dev-perl/Regexp-Common
 	dev-perl/UNIVERSAL-moniker
 	dev-perl/YAML-Syck
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

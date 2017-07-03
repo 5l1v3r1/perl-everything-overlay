@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Devel-Hide
+	virtual/perl-Test-Simple
 "

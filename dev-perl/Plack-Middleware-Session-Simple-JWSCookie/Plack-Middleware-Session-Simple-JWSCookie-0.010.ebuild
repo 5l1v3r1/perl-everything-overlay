@@ -22,4 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	>=dev-perl/Cache-Memory-Simple-1.020
+	>=dev-perl/HTTP-CookieJar-0.005
+	>=dev-perl/HTTP-Message-5.814
+	>=dev-perl/Test-Requires-0.070
+	>=dev-perl/Test-TCP-2.010
+	>=virtual/perl-Test-Simple-0.980
 "

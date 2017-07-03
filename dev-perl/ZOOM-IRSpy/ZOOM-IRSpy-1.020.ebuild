@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Net-Z3950-ZOOM-1.190
 	>=dev-perl/URI-3.280
-	>=dev-perl/XML-LibXML-0.070
+	>=dev-perl/XML-LibXML-1.580
 	>=dev-perl/XML-LibXSLT-1.570
 "
 DEPEND="

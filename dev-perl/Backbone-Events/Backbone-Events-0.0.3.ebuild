@@ -25,4 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/FindBin-libs
+	dev-perl/Test-Fatal
+	dev-perl/Test-LeakTrace
+	dev-perl/Test-Strict
+	virtual/perl-Exporter
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "

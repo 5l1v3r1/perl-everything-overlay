@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/YAML
 	dev-perl/YAML-Syck
-	dev-perl/yaml
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 "
 DEPEND="

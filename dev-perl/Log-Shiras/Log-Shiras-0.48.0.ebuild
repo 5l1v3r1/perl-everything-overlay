@@ -39,7 +39,6 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 	virtual/perl-if
 	>=virtual/perl-version-0.770
 "

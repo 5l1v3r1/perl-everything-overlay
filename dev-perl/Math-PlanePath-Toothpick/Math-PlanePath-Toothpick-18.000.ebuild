@@ -16,10 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Math-PlanePath-116.000
-	>=virtual/perl-constant-1.020
+	>=dev-lang/perl-1.020
+	>=dev-perl/Math-PlanePath-91.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test
 "

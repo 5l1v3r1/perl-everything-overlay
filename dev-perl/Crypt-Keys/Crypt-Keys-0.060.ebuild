@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Convert-PEM-0.050
 	>=dev-perl/Crypt-CBC-2.000
 	dev-perl/Crypt-DES
-	>=dev-perl/convert-pem-0.050
-	dev-perl/data-buffer
+	dev-perl/Data-Buffer
 	virtual/perl-Digest-MD5
 	virtual/perl-MIME-Base64
 "

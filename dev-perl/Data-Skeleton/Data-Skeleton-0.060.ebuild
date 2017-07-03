@@ -24,4 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/CGI
+	dev-perl/Data-Dumper-Concise
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

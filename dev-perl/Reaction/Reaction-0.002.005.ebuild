@@ -36,7 +36,7 @@ RDEPEND="
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/JSON
 	>=dev-perl/Method-Signatures-Simple-0.030
-	>=dev-perl/Moose-0.740
+	>=dev-perl/Moose-0.810
 	>=dev-perl/MooseX-MethodAttributes-0.180
 	>=dev-perl/MooseX-Role-Parameterized-0.240
 	>=dev-perl/MooseX-Types-0.100

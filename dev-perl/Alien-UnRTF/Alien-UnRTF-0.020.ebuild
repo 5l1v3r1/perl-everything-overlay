@@ -21,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Alien-Base-ModuleBuild
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Alien-Autotools
 "

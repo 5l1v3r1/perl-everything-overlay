@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Data-FormValidator
+	virtual/perl-Carp
+	virtual/perl-Test-Simple
 "

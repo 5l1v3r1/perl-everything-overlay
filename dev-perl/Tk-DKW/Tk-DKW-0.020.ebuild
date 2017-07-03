@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Tk-800.005
+	dev-perl/Tk
 	dev-perl/Tk-Contrib
 "
 DEPEND="

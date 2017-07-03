@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-0.060
 	dev-perl/App-Cmd
 	dev-perl/Carp-Assert
 	dev-perl/Carp-Assert-More
@@ -35,10 +35,10 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

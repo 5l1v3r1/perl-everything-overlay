@@ -32,4 +32,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/App-Cmd
+	dev-perl/Const-Fast
+	dev-perl/Test-Most
+	dev-perl/Test-Requires
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

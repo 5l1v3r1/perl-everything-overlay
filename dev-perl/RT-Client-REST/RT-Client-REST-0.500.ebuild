@@ -30,4 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/HTTP-Server-Simple-0.440
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

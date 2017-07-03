@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Capture-Tiny-0.060
+	virtual/perl-File-Path
+	virtual/perl-Test-Simple
 "

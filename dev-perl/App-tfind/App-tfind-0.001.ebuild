@@ -18,11 +18,16 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Getopt-Long-Descriptive
+	dev-perl/Pod-Usage
 	>=dev-perl/TPath-0.020
 	>=dev-perl/TPath-Forester-File-0.002
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/IPC-Run
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

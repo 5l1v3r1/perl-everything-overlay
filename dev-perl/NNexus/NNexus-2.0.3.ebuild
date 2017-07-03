@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/HTML-Parser
 	dev-perl/List-MoreUtils
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.000
 	dev-perl/Text-Unidecode
 "
 DEPEND="

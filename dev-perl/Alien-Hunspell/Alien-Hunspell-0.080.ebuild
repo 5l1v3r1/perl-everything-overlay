@@ -23,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.006
 	>=dev-perl/Test-CChecker-0.070
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.940

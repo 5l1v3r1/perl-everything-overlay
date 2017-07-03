@@ -16,10 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/IO-Async-0.340
-	dev-perl/Protocol-WebSocket
+	>=dev-perl/IO-Async-0.630
+	>=dev-perl/Protocol-WebSocket-0.009.020
 	dev-perl/URI
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-Test-Simple-0.880
 "

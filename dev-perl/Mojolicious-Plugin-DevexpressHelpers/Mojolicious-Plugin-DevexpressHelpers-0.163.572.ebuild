@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/MojoX-AlmostJSON
 	dev-perl/Mojolicious
 	>=dev-perl/Mojolicious-Plugin-AssetPack-1.200
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.640
 	dev-perl/File-Find-Rule
+	dev-perl/NEXT
 	dev-perl/Template-Toolkit
 	dev-perl/Test-MockObject
 	virtual/perl-File-Spec

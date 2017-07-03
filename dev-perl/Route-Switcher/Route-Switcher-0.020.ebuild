@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Amon2
+	dev-perl/Router-Boom
+	>=virtual/perl-Test-Simple-0.980
 "

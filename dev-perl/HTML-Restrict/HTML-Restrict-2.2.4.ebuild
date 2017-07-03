@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/namespace-clean
 	virtual/perl-Carp
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}

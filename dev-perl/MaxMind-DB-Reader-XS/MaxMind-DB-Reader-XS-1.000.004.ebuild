@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Int128
-	dev-perl/MaxMind-DB-Common
+	>=dev-perl/MaxMind-DB-Common-0.040.001
 	dev-perl/MaxMind-DB-Reader
 	dev-perl/Moo
 	dev-perl/namespace-autoclean

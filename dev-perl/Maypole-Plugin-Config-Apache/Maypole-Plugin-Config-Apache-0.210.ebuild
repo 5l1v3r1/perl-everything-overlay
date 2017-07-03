@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/NEXT
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "

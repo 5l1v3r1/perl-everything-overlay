@@ -25,4 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/File-pushd
+	dev-perl/Safe-Isa
+	dev-perl/Test-PAUSE-Permissions
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-if
 "

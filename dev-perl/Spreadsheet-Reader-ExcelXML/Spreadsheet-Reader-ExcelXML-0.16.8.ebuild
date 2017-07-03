@@ -23,12 +23,11 @@ RDEPEND="
 	dev-perl/DateTime-Format-Flexible
 	dev-perl/DateTimeX-Format-Excel
 	>=dev-perl/Modern-Perl-1.201.501.270
-	dev-perl/Moose
+	>=dev-perl/Moose-2.180.100
 	dev-perl/MooseX-HasDefaults
 	>=dev-perl/MooseX-ShortCut-BuildInstance-1.040
 	dev-perl/MooseX-StrictConstructor
-	dev-perl/Spreadsheet-Reader-Format
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-1.000
 	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

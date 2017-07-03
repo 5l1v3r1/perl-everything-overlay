@@ -23,7 +23,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.006
 	dev-perl/Alien-bison
 	dev-perl/Capture-Tiny
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

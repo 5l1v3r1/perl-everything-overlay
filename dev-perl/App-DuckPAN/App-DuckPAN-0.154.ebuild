@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/Crypt-SSLeay-0.580
 	>=dev-perl/Data-Printer-0.300
 	>=dev-perl/Dist-Zilla-4.300.007
-	>=dev-perl/Dist-Zilla-Plugin-UploadToDuckPAN-0.006
 	>=dev-perl/Email-Valid-0.187
 	>=dev-perl/File-ShareDir-ProjectDistDir-0.003.002
 	>=dev-perl/File-Which-1.090
@@ -43,6 +42,7 @@ RDEPEND="
 	>=dev-perl/Parse-CPAN-Packages-Fast-0.040
 	>=dev-perl/Path-Class-0.260
 	>=dev-perl/Plack-1.002.900
+	>=dev-perl/Pod-Usage-1.630
 	dev-perl/Starman
 	>=dev-perl/Term-UI-0.300
 	>=dev-perl/Text-Xslate-3.0.0
@@ -50,7 +50,6 @@ RDEPEND="
 	>=dev-perl/WWW-DuckDuckGo-0.015
 	>=dev-perl/libwww-perl-6.000
 	>=virtual/perl-File-Temp-0.220
-	>=virtual/perl-Pod-Usage-1.630
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-autodie-2.250
 	>=virtual/perl-version-0.960
@@ -59,4 +58,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Dir-Self-0.100
+	>=dev-perl/File-FindLib-0.001.001
+	>=dev-perl/File-HomeDir-1.000
+	>=dev-perl/File-chdir-0.100.800
+	>=dev-perl/Test-LoadAllModules-0.021
+	>=dev-perl/Test-Script-Run-0.050
+	>=virtual/perl-Test-Simple-0.980
 "

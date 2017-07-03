@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Config-Slicer
 	>=dev-perl/Dist-Zilla-Plugin-Authority-1.006
 	>=dev-perl/Dist-Zilla-Plugin-Bugtracker-1.110
-	>=dev-perl/Dist-Zilla-Plugin-BumpVersionAfterRelease-0.003
+	dev-perl/Dist-Zilla-Plugin-BumpVersionAfterRelease
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-CheckExtraTests
 	>=dev-perl/Dist-Zilla-Plugin-CheckMetaResources-0.001
@@ -63,4 +63,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/File-pushd
+	dev-perl/Path-Tiny
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

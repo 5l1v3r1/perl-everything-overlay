@@ -31,4 +31,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Test-Name-FromLine-0.010
+	>=dev-perl/Test-Time-0.040
+	>=virtual/perl-Test-Simple-0.980
 "

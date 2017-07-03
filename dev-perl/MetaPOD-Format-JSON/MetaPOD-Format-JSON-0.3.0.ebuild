@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
 	dev-perl/MetaPOD
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.008
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
 	>=virtual/perl-version-0.770
@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420.200
+	dev-perl/Path-Iterator-Rule
+	dev-perl/Path-Tiny
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-1.001.002
 "

@@ -21,10 +21,10 @@ RDEPEND="
 	>=dev-perl/Data-Integer-0.003
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

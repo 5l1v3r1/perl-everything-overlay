@@ -19,12 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CPAN-DistnameInfo
 	dev-perl/Class-Tiny
+	dev-perl/File-Fetch
 	>=dev-perl/Search-Dict-1.070
 	dev-perl/Tie-Handle-Offset
 	dev-perl/URI
 	virtual/perl-CPAN-Meta-YAML
 	virtual/perl-Carp
-	virtual/perl-File-Fetch
 	virtual/perl-File-Spec
 	>=virtual/perl-File-Temp-0.190
 	virtual/perl-HTTP-Tiny

@@ -20,11 +20,11 @@ RDEPEND="
 	dev-perl/Class-Accessor-Complex
 	dev-perl/Getopt-Attribute
 	dev-perl/PPI
+	dev-perl/Pod-Usage
 	dev-perl/Test-Differences
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent

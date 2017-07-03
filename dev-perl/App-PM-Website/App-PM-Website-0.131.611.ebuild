@@ -29,8 +29,8 @@ RDEPEND="
 	dev-perl/Template-Plugin-String-Compare
 	dev-perl/Template-Toolkit
 	dev-perl/TimeDate
+	dev-perl/YAML
 	dev-perl/base
-	dev-perl/yaml
 	virtual/perl-Data-Dumper
 	>=virtual/perl-File-Path-2.070
 	virtual/perl-File-Spec
@@ -39,4 +39,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Class
+	virtual/perl-Test-Simple
 "

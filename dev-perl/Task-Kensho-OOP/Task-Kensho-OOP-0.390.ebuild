@@ -16,7 +16,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Moo
+	dev-perl/Moose
+	dev-perl/MooseX-Aliases
+	dev-perl/MooseX-Getopt
+	dev-perl/MooseX-NonMoose
+	dev-perl/MooseX-Role-Parameterized
+	dev-perl/MooseX-SimpleConfig
+	dev-perl/MooseX-StrictConstructor
+	dev-perl/Package-Variant
+	dev-perl/Task-Moose
+	dev-perl/Type-Tiny
+	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Test-Simple
 "

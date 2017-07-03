@@ -27,4 +27,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Path-Tiny
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	virtual/perl-Digest-MD5
+	virtual/perl-File-Temp
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

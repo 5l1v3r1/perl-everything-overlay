@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/String-Tagged
-	>=dev-perl/Tickit-0.570
+	>=dev-perl/Tickit-0.430
 	>=dev-perl/Tickit-Widgets-0.350
 "
 DEPEND="

@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/DBD-mysql
 	dev-perl/DBI
 	dev-perl/LEOCHARRE-DEBUG
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "

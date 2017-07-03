@@ -35,4 +35,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/App-Cmd
+	dev-perl/Test-File
+	dev-perl/Test-File-Contents
+	>=virtual/perl-Test-Simple-0.900
 "

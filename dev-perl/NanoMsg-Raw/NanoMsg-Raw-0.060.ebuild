@@ -24,4 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckLib-0.9.0
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	dev-perl/Test-TCP
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.890
+	virtual/perl-Time-HiRes
 "

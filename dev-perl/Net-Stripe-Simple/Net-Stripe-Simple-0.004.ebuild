@@ -26,7 +26,6 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

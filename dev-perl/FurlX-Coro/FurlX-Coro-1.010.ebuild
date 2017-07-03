@@ -25,4 +25,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.020
+	>=dev-perl/Test-Requires-0.060
+	>=virtual/perl-Test-Simple-0.980
 "

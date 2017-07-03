@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-ISO8601
 	dev-perl/DateTime-TimeZone
 	dev-perl/Module-Runtime
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.100
 	>=dev-perl/MooseX-Types-DateTime-0.030
 	dev-perl/MooseX-Types-DateTime-MySQL
 	dev-perl/Safe-Isa

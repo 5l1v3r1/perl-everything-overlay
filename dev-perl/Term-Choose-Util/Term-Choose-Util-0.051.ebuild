@@ -25,9 +25,9 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

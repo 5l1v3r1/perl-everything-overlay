@@ -23,9 +23,11 @@ RDEPEND="
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/Try-Tiny
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBI
+	dev-perl/Data-Printer
+	virtual/perl-Test-Simple
 "

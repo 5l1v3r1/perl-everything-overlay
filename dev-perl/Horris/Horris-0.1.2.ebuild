@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Acme-Letter
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-Feed
@@ -46,9 +47,10 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	virtual/perl-File-Temp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Test-MockObject
+	virtual/perl-Test-Simple
 "

@@ -20,6 +20,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.300
 	dev-perl/Class-Accessor
 	>=dev-perl/Class-Data-Inheritable-0.040
+	dev-perl/NEXT
 	dev-perl/UNIVERSAL-require
 	dev-perl/URI
 	dev-perl/URI-Find

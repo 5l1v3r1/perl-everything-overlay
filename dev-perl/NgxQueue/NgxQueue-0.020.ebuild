@@ -24,4 +24,6 @@ DEPEND="
 	>=virtual/perl-Devel-PPPort-3.200
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-2.210
+	>=dev-perl/Test-LeakTrace-0.140
+	>=virtual/perl-Test-Simple-0.880
 "

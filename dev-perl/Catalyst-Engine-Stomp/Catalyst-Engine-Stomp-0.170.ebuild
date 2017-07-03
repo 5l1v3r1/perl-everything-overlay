@@ -25,9 +25,9 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	>=dev-perl/MooseX-Workers-0.050
 	>=dev-perl/Net-Stomp-0.340
+	dev-perl/YAML
 	>=dev-perl/YAML-LibYAML-0.320
 	>=dev-perl/namespace-autoclean-0.050
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

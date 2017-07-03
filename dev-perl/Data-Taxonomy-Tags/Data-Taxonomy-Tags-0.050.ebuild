@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

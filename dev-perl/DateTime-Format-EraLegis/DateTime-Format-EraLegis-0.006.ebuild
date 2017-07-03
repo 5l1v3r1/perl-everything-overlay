@@ -26,4 +26,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/DBD-SQLite
+	dev-perl/DateTime
+	dev-perl/DateTime-Format-ISO8601
+	virtual/perl-Encode
+	virtual/perl-Test-Simple
 "

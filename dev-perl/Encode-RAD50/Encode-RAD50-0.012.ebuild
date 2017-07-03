@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Encode
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-Test-Simple-0.880
 "

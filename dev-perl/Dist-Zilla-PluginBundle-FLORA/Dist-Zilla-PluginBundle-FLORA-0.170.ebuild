@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-Test-ReportPrereqs-0.019
 	>=dev-perl/Dist-Zilla-Role-PluginBundle-PluginRemover-0.103
 	dev-perl/Method-Signatures-Simple
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Email
 	>=dev-perl/MooseX-Types-Structured-0.200
@@ -39,4 +39,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

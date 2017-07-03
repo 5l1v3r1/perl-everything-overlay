@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-7.310
 	dev-perl/Moo
 	dev-perl/MooX-ChainedAttributes
 	dev-perl/Text-CSV

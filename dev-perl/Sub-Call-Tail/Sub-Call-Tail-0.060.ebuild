@@ -26,4 +26,7 @@ DEPEND="
 	>=dev-perl/B-Hooks-OP-Check-0.180
 	>=dev-perl/ExtUtils-Depends-0.302
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Proc-ProcessTable
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

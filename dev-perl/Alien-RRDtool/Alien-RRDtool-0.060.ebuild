@@ -24,4 +24,7 @@ DEPEND="
 	dev-perl/File-chdir
 	dev-perl/Module-Build
 	dev-perl/libwww-perl
+	>=dev-perl/Test-Requires-0.060
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.880
 "

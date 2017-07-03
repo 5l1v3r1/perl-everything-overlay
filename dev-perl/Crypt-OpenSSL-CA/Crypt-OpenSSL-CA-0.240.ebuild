@@ -29,4 +29,14 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-autodie
+	>=dev-perl/Convert-ASN1-0.200
+	dev-perl/Devel-Leak
+	dev-perl/Devel-Mallinfo
+	dev-perl/File-Slurp
+	dev-perl/IPC-Run
+	>=dev-perl/Net-SSLeay-1.250
+	dev-perl/Test-Group
+	dev-perl/Test-Taint
+	virtual/perl-MIME-Base64
+	virtual/perl-Test-Simple
 "

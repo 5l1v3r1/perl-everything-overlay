@@ -24,9 +24,11 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/Net-Twitter
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

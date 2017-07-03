@@ -25,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/File-Which
+	dev-perl/Proc-Guard
+	dev-perl/Test-Skip-UnlessExistsExecutable
+	dev-perl/Test-TCP
+	virtual/perl-Test-Simple
 "

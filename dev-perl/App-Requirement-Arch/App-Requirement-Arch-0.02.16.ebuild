@@ -33,9 +33,15 @@ RDEPEND="
 	dev-perl/Text-Pluralize
 	dev-perl/Tie-IxHash
 	virtual/perl-File-Spec
-	>=virtual/perl-Scalar-List-Utils-1.190
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Directory-Scratch-Structured
+	dev-perl/Test-Block
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warn
+	dev-perl/Text-Diff
 "

@@ -16,11 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-IUP-0.304
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

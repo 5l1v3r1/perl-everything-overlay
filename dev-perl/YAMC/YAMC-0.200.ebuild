@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/yaml-0.840
+	>=dev-perl/YAML-0.840
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-Install
 	virtual/perl-IO
@@ -24,4 +24,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

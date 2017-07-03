@@ -19,10 +19,11 @@ RDEPEND="
 	dev-perl/File-pushd
 	dev-perl/IPC-Run
 	>=dev-perl/Plack-1.000
+	dev-perl/Pod-Usage
 	virtual/perl-IO-Compress
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	>=virtual/perl-Test-Simple-0.960
 "

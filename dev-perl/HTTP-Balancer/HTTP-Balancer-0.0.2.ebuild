@@ -25,9 +25,13 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Text-Table
 	dev-perl/Text-Xslate
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Proc-ProcessTable
+	dev-perl/Test-Exception
+	dev-perl/local-lib
+	virtual/perl-Test-Simple
 "

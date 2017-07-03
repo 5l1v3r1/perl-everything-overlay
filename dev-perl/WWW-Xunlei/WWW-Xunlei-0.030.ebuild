@@ -27,9 +27,11 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-LWP-UserAgent
+	dev-perl/Test-MockObject
+	virtual/perl-Test-Simple
 "

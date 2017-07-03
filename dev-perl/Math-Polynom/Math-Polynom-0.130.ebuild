@@ -16,12 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Data-Float
 	dev-perl/accessors
 	virtual/perl-Carp
 	>=virtual/perl-Data-Dumper-2.100
 	>=virtual/perl-Scalar-List-Utils-1.140
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

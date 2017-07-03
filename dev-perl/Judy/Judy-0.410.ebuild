@@ -19,10 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Alien-Judy-0.260
 	dev-perl/Sub-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	virtual/perl-File-Spec
+	dev-perl/Test-Deep
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

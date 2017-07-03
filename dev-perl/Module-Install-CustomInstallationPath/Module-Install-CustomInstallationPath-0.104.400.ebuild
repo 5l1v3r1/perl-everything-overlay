@@ -23,4 +23,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/URI
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-Test-Simple
 "

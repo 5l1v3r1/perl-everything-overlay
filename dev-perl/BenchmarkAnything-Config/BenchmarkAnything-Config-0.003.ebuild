@@ -18,9 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/File-HomeDir
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

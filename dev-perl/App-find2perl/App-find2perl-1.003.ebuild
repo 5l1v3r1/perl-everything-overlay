@@ -22,4 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Devel-FindPerl-0.009
+	virtual/perl-File-Path
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Perl-OSType
+	virtual/perl-Test-Simple
 "

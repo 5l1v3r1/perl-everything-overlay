@@ -19,9 +19,9 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/URI
 	virtual/perl-IO
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

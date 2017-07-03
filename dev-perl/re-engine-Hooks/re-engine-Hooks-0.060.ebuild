@@ -24,4 +24,5 @@ DEPEND="
 	dev-perl/ExtUtils-Depends
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

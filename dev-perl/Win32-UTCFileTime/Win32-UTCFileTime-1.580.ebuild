@@ -24,4 +24,5 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-ExtUtils-MakeMaker-6.660
 	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

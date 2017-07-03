@@ -24,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Net-DAAP-Client-0.410
+	virtual/perl-Test-Simple
 "

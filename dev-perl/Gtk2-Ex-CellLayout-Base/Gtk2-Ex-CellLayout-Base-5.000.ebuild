@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Glib-Ex-ObjectBits
+	>=dev-perl/Gtk2-1.180
 	dev-perl/glib-perl
-	>=dev-perl/gtk2-perl-1.180
 "
 DEPEND="
 	${RDEPEND}

@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-C3
+	dev-perl/DBD-SQLite
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Test-Warn
 "

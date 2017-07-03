@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-XSAccessor-1.180
-	>=dev-perl/FFI-Platypus-0.330
+	dev-perl/FFI-Platypus
 	dev-perl/Import-Into
 	dev-perl/Moo
 	dev-perl/Sub-Exporter
@@ -34,4 +34,14 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/FFI-CheckLib-0.110
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/AnyEvent
+	dev-perl/Sub-Override
+	dev-perl/Sys-SigAction
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warnings
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

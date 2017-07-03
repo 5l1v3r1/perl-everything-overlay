@@ -21,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Refcount
+	>=virtual/perl-Test-Simple-0.880
 "

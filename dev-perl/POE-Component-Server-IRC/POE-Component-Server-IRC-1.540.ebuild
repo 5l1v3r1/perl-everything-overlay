@@ -29,4 +29,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/POE-Component-IRC-6.680
+	>=virtual/perl-Test-Simple-0.470
 "

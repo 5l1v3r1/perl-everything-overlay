@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/B-Hooks-EndOfScope
-	dev-perl/Moose
+	>=dev-perl/Moose-0.940
 	>=dev-perl/namespace-autoclean-0.120
 "
 DEPEND="

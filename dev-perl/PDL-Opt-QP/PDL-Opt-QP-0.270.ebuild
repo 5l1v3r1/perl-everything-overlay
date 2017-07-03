@@ -20,10 +20,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckLib-0.04.0
+	>=dev-perl/Devel-CheckLib-0.4.0
 	>=dev-perl/Module-Build-0.400.400
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-Fortran-0.230
 	>=dev-perl/Module-Build-Pluggable-PDL-0.230
 	>=dev-perl/Module-Build-Pluggable-XSUtil-1.020
+	dev-perl/ExtUtils-F77
+	>=virtual/perl-ExtUtils-CBuilder-0.230
 "

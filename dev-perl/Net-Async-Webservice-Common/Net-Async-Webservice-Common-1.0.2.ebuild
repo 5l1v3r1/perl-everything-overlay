@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Config-Any
 	>=dev-perl/Future-0.210
 	dev-perl/HTTP-Message
-	dev-perl/Moo
+	>=dev-perl/Moo-1.001.000
 	dev-perl/Throwable
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
@@ -33,4 +33,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Data-Printer
+	dev-perl/Test-Most
 "

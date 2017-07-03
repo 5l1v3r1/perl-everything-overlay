@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-Static-Simple
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800.140.200
 	dev-perl/Catalyst-View-TT
 	dev-perl/Config-General
 	dev-perl/DateTime

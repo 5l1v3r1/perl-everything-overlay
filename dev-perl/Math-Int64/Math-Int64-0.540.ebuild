@@ -19,9 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Exporter
 	virtual/perl-XSLoader
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Storable
+	>=virtual/perl-Test-Simple-0.960
 "

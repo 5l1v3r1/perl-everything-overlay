@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Perl-Critic
 	dev-perl/Test-Base
 	dev-perl/Test-Deep
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

@@ -23,4 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/File-Slurp
+	dev-perl/HTML-PrettyPrinter
+	dev-perl/lib
+	virtual/perl-Carp
+	virtual/perl-Exporter
+	virtual/perl-Test-Simple
 "

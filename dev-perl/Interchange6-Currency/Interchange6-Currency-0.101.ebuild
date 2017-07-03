@@ -18,8 +18,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/CLDR-Number
 	dev-perl/Class-Load
-	>=dev-perl/Moo-1.004.006
+	>=dev-perl/Moo-2.000
 	dev-perl/Safe-Isa
+	>=dev-perl/Sub-Quote-1.004.006
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	>=virtual/perl-Math-BigInt-1.600
@@ -27,4 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	>=dev-perl/Test-RequiresInternet-0.050
+	dev-perl/Test-Warnings
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

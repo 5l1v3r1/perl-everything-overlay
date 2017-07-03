@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

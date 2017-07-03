@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Cpanel-JSON-XS-3.021.100
+	>=dev-perl/JSON-Parse-0.390
+	>=dev-perl/REST-Client-273.000
 "

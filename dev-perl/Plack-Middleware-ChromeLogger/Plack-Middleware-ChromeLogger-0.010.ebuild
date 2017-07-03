@@ -22,4 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/libwww-perl
+	virtual/perl-MIME-Base64
+	>=virtual/perl-Test-Simple-0.880
 "

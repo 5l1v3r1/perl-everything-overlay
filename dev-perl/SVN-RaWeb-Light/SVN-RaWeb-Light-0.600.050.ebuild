@@ -27,4 +27,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	dev-perl/lib
 	virtual/perl-File-Spec
+	dev-perl/base
+	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CPAN-DistnameInfo
-	>=dev-perl/CPAN-Index-API-0.003
+	dev-perl/CPAN-Index-API
 	dev-perl/CPAN-Inject
 	dev-perl/Class-Load
 	dev-perl/Config-MVP
@@ -34,13 +34,13 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Path-Class-URI
 	dev-perl/Perl-Version
+	dev-perl/Regexp-Common
 	dev-perl/String-RewritePrefix
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
-	dev-perl/regexp-common
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Path
@@ -51,4 +51,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CPAN-Faker-HTTPD
+	dev-perl/Module-Faker
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

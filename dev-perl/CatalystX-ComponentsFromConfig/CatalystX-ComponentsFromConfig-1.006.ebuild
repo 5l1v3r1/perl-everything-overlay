@@ -29,4 +29,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Plugin-ConfigLoader
+	dev-perl/Config-General
+	dev-perl/Path-Class
+	dev-perl/Test-Deep
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

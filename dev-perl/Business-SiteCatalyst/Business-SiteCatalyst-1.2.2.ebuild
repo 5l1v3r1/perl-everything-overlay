@@ -20,4 +20,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	>=dev-perl/Data-Validate-Type-1.1.0
+	dev-perl/DateTime
+	dev-perl/Digest-SHA1
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/Try-Tiny
+	dev-perl/libwww-perl
+	virtual/perl-Carp
+	virtual/perl-Data-Dumper
+	virtual/perl-Digest-MD5
+	virtual/perl-MIME-Base64
+	>=virtual/perl-Test-Simple-0.940
 "

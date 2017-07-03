@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	dev-perl/FindBin-libs
+	dev-perl/Path-Class
+	>=dev-perl/Test-Requires-0.060
+	>=virtual/perl-Test-Simple-0.880
 "

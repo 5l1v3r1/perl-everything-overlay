@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Captcha-reCAPTCHA
+	dev-perl/Captcha-reCaptcha
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Authentication-Store-DBIx-Class
 	dev-perl/Catalyst-Controller-FormBuilder
@@ -35,8 +35,8 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/HTTP-Date
 	dev-perl/MailTools
+	dev-perl/YAML
 	dev-perl/YAML-LibYAML
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

@@ -19,4 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Class-Trait
+	dev-perl/List-MoreUtils
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod-Coverage
+	virtual/perl-Time-HiRes
 "

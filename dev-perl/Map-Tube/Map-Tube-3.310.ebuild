@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-2.840
 	>=dev-perl/File-Share-0.250
 	>=dev-perl/JSON-2.900
 	>=dev-perl/Map-Tube-Exception-3.120

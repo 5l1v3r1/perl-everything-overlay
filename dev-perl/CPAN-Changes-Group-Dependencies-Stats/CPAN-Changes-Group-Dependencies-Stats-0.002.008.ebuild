@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/CPAN-Changes-0.300
+	dev-perl/CPAN-Changes
 	dev-perl/CPAN-Meta-Prereqs-Diff
 	dev-perl/Moo
 	dev-perl/MooX-Lsub

@@ -40,6 +40,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Alien-HDF4
-	>=dev-perl/Devel-CheckLib-1.01.0
+	>=dev-perl/Devel-CheckLib-1.1.0
 	>=dev-perl/ExtUtils-Depends-0.402
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	>=virtual/perl-CPAN-Meta-2.120.900
+	>=virtual/perl-ExtUtils-ParseXS-3.010
 "

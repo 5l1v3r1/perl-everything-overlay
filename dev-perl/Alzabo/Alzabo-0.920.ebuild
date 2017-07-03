@@ -31,4 +31,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-podlators-1.140
 "

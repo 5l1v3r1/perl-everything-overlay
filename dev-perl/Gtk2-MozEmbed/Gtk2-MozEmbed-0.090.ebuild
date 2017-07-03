@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/ExtUtils-Depends-0.200
-	>=dev-perl/extutils-pkgconfig-1.030
-	>=dev-perl/gtk2-perl-1.081
+	>=dev-perl/ExtUtils-PkgConfig-1.030
+	>=dev-perl/Gtk2-1.081
 "
 DEPEND="
 	${RDEPEND}

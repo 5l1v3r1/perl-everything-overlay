@@ -46,7 +46,6 @@ RDEPEND="
 	virtual/perl-Module-Load
 	virtual/perl-Socket
 	virtual/perl-Storable
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

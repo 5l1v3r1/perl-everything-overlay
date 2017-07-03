@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-2.000
 	>=dev-perl/LWP-Protocol-https-6.020
-	>=dev-perl/URI-1.360
+	dev-perl/URI
 	dev-perl/XML-Atom
 	dev-perl/XML-LibXML
 	>=dev-perl/libwww-perl-6.020
@@ -30,4 +30,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.820
 "

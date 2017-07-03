@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Deep
+	>=virtual/perl-Test-Simple-0.980
 "

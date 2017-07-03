@@ -27,8 +27,8 @@ RDEPEND="
 	dev-perl/Test-WWW-Mechanize
 	dev-perl/TimeDate
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libapreq
-	dev-perl/yaml
 	virtual/perl-Locale-Maketext
 	virtual/perl-Scalar-List-Utils
 "

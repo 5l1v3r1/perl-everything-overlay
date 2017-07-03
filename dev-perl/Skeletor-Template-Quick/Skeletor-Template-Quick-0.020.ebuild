@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/App-Skeletor-0.003
-	>=dev-perl/yaml-1.000
+	>=dev-perl/YAML-1.000
 "
 DEPEND="
 	${RDEPEND}

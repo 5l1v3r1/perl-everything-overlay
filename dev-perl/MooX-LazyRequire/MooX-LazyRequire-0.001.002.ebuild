@@ -18,9 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Method-Modifiers
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.940
 "

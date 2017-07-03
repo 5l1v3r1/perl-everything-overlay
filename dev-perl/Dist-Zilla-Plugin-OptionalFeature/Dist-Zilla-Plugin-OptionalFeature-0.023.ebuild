@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.039
 	>=dev-perl/Dist-Zilla-Plugin-DynamicPrereqs-0.016
 	dev-perl/Module-Runtime
 	dev-perl/Moose
@@ -29,4 +29,19 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	>=dev-perl/Config-MVP-Reader-INI-2.101.461
+	dev-perl/JSON-MaybeXS
+	dev-perl/Path-Tiny
+	dev-perl/Test-CPAN-Meta-JSON
+	dev-perl/Test-CPAN-Meta-YAML
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	>=dev-perl/Test-Warnings-0.009
+	dev-perl/YAML-Tiny
+	dev-perl/lib
+	>=virtual/perl-Exporter-5.570
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-if
 "

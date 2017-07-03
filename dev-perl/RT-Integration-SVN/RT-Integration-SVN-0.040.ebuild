@@ -19,4 +19,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Install-RTx-0.080
 "

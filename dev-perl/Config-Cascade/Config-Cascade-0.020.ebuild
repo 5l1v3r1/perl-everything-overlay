@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Test-Simple
 "
 DEPEND="

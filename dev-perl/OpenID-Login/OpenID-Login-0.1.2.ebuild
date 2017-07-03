@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
-	dev-perl/Moose
+	>=dev-perl/Moose-0.510
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CGI
+	dev-perl/Test-Mock-LWP-Dispatch
+	virtual/perl-Test-Simple
 "

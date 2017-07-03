@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

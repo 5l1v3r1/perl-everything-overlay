@@ -25,4 +25,5 @@ DEPEND="
 	dev-perl/File-Slurp
 	dev-perl/URI
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-Test-Simple
 "

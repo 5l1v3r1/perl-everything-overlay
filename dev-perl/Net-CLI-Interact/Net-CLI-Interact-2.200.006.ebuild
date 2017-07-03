@@ -27,6 +27,7 @@ RDEPEND="
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/Net-Telnet
 	dev-perl/Path-Class
+	dev-perl/Sub-Quote
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 "

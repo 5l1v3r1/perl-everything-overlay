@@ -22,4 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/HTTP-Exception
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warnings
+	dev-perl/namespace-autoclean
+	>=virtual/perl-Test-Simple-0.880
 "

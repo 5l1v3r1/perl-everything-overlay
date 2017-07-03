@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Astro-satpass
-	>=dev-perl/Math-MatrixReal-2.02.0
+	>=dev-perl/Math-MatrixReal-2.2.0
 "
 DEPEND="
 	${RDEPEND}

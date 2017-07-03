@@ -17,10 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/DBIx-Class
-	dev-perl/Moo
+	dev-perl/Sub-Quote
 	>=dev-perl/Type-Tiny-0.040
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
+	dev-perl/DBD-SQLite
+	>=dev-perl/SQL-Translator-0.110.180
+	>=virtual/perl-Test-Simple-1.001.010
 "

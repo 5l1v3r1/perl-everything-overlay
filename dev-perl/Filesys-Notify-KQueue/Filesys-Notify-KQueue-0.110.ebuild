@@ -21,4 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Test-SharedFork
+	virtual/perl-File-Path
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "

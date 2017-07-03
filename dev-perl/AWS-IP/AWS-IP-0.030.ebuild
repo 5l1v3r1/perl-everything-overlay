@@ -25,9 +25,10 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-HTTP-Tiny
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurp
+	virtual/perl-Test-Simple
 "

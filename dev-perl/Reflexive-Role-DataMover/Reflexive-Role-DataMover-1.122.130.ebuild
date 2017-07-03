@@ -19,11 +19,16 @@ RDEPEND="
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
-	dev-perl/Reflex
+	>=dev-perl/Reflex-0.098
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/IO-All
+	dev-perl/Moose
+	dev-perl/Text-Lorem
+	virtual/perl-File-Temp
 "

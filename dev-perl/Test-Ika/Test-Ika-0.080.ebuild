@@ -23,11 +23,13 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Module-Load
 	virtual/perl-Term-ANSIColor
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Test-Requires
+	virtual/perl-ExtUtils-CBuilder
 "

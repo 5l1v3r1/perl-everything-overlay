@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/XML-Feed
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
-	>=virtual/perl-Test-Simple-0.440
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

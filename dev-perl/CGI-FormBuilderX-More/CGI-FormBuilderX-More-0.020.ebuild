@@ -22,4 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/CGI
+	dev-perl/Test-Deep
+	virtual/perl-Test-Simple
 "

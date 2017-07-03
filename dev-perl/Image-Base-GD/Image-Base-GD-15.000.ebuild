@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/GD
+	>=dev-perl/GD-2.450
 	>=dev-perl/Image-Base-1.120
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple

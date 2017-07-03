@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.020
+	>=dev-lang/perl-2.600
 	>=dev-perl/CPAN-Checksums-1.050
 	>=dev-perl/File-chmod-0.300
 	>=dev-perl/Params-Util-0.210

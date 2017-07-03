@@ -19,9 +19,9 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Cache-Cache
 	>=dev-perl/Log-Log4perl-1.000
+	>=dev-perl/Pod-Usage-1.140
 	virtual/perl-File-Temp
 	>=virtual/perl-IPC-Cmd-0.240
-	>=virtual/perl-Pod-Usage-1.140
 	virtual/perl-Storable
 "
 DEPEND="

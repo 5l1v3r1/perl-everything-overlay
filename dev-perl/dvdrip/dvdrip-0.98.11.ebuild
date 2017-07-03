@@ -20,8 +20,8 @@ RDEPEND="
 	>=dev-perl/Event-1.060
 	>=dev-perl/Event-ExecFlow-0.640
 	>=dev-perl/Event-RPC-0.890
+	>=dev-perl/Gtk2-1.121
 	>=dev-perl/gtk2-ex-formfactory-0.650
-	>=dev-perl/gtk2-perl-1.121
 	>=dev-perl/libintl-perl-1.160
 "
 DEPEND="

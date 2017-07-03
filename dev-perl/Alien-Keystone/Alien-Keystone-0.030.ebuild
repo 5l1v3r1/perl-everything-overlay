@@ -21,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.029
 	dev-perl/Module-Build
 	>=dev-perl/Alien-CMake-0.070
 	virtual/perl-Test-Simple

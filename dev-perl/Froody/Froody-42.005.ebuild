@@ -25,10 +25,15 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/UNIVERSAL-require
 	dev-perl/XML-LibXML
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/File-Find-Rule
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	dev-perl/Test-XML
+	virtual/perl-Test-Simple
 "

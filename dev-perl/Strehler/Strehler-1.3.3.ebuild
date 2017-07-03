@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-SQLite
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/File-Copy-Recursive
-	>=dev-perl/HTML-FormFu-1.000
+	dev-perl/HTML-FormFu
 	dev-perl/Lingua-EN-Inflect
 	dev-perl/Moo
 	dev-perl/Moose
@@ -43,4 +43,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-TCP
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
 "

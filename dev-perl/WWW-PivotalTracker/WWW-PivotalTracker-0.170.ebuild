@@ -22,6 +22,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Hash-Merge
 	dev-perl/Perl6-Parameters
+	dev-perl/Pod-Usage
 	dev-perl/Sub-Override
 	dev-perl/Test-Class
 	dev-perl/Test-Most
@@ -31,7 +32,6 @@ RDEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

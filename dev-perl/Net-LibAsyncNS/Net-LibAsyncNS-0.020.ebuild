@@ -21,5 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-CChecker-0.050
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
+	dev-perl/Module-Build
+	dev-perl/Test-Identity
+	dev-perl/Test-Refcount
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

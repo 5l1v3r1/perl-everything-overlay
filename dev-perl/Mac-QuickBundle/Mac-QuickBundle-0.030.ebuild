@@ -23,4 +23,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Capture-Tiny
 "

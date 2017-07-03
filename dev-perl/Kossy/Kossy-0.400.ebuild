@@ -30,7 +30,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.000
 	>=dev-perl/Kossy-Validator-0.010
 	dev-perl/Number-Format
-	>=dev-perl/Plack-1.002.900
+	dev-perl/Plack
 	dev-perl/Plack-Middleware-ReverseProxy
 	>=dev-perl/Router-Boom-1.010
 	>=dev-perl/Text-Xslate-3.2.4

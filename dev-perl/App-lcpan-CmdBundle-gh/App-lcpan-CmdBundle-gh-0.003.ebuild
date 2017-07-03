@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/App-lcpan-1.015
+	dev-perl/App-lcpan
 	dev-perl/Browser-Open
 	>=dev-perl/IPC-System-Options-0.270
 	>=dev-perl/Log-Any-IfLOG-0.070

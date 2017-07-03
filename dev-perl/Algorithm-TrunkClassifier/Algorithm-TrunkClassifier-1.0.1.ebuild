@@ -19,4 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	>=dev-perl/Module-Build-0.190
+	virtual/perl-Exporter
+	>=virtual/perl-ExtUtils-CBuilder-0.210
+	virtual/perl-XSLoader
 "

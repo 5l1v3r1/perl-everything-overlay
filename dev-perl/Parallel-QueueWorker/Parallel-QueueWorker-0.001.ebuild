@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-lang/perl-1.160
 	>=dev-perl/Moose-2.040.100
 	dev-perl/Parallel-ForkManager
-	>=dev-perl/yaml-0.770
+	>=dev-perl/YAML-0.770
 	>=virtual/perl-Test-Simple-0.980
 "
 DEPEND="

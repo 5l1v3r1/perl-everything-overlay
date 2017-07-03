@@ -28,9 +28,9 @@ RDEPEND="
 	dev-perl/Data-UUID
 	dev-perl/DateTime
 	>=dev-perl/Locale-SubCountry-1.640
-	>=dev-perl/Moo-1.004.006
 	dev-perl/SQL-Translator
 	>=dev-perl/Session-Token-1.008
+	>=dev-perl/Sub-Quote-1.004.006
 	>=dev-perl/Test-Roo-1.003
 	dev-perl/Time-Duration-Parse
 	dev-perl/Try-Tiny

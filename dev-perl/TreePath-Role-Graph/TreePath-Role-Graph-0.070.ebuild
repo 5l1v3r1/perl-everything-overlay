@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	>=dev-perl/Test-Pod-1.480
+	>=dev-perl/Test-Pod-Coverage-1.100
 "

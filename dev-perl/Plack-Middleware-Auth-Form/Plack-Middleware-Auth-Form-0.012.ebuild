@@ -26,4 +26,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Message
+	dev-perl/Test-WWW-Mechanize-PSGI
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

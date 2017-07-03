@@ -23,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-HTTP-Server
+	virtual/perl-ExtUtils-MakeMaker
 "

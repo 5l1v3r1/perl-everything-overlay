@@ -22,11 +22,13 @@ RDEPEND="
 	dev-perl/MooseX-Log-Log4perl
 	dev-perl/MooseX-Params-Validate
 	dev-perl/Try-Tiny
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Digest-MD5
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

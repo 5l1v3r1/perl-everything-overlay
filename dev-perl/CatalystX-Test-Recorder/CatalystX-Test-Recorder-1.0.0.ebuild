@@ -30,4 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/HTTP-Message
+	virtual/perl-File-Temp
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Gearman-XS-0.08.0
+	>=dev-perl/Gearman-XS-0.8.0
 	dev-perl/Perl-Unsafe-Signals
 	virtual/perl-Test-Simple
 "

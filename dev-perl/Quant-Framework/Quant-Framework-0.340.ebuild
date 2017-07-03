@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/File-Find-Rule
 	dev-perl/File-ShareDir
 	dev-perl/List-MoreUtils
-	dev-perl/Math-Business-BlackScholes-Binaries
+	dev-perl/Math-Business-Blackscholes-Binaries
 	dev-perl/Math-Function-Interpolator
 	dev-perl/Memoize-HashKey-Ignore
 	dev-perl/Moose

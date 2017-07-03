@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Config-Tiny-2.010
 	>=dev-perl/File-HomeDir-0.060
-	>=dev-perl/Log-Dispatch-1.010
+	>=dev-perl/Log-Dispatch-2.100
 	>=dev-perl/Log-Dispatch-Config-1.010
 	>=virtual/perl-File-Spec-0.860
 "

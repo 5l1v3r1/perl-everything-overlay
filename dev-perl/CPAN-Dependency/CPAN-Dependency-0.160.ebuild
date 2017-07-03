@@ -20,11 +20,14 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.000
 	>=dev-perl/DBI-1.000
 	>=dev-perl/File-Slurp-9999.120
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 	virtual/perl-File-Spec
 	>=virtual/perl-Module-CoreList-2.120
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/Test-Deep
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

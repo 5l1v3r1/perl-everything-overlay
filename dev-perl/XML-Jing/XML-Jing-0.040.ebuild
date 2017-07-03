@@ -27,4 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

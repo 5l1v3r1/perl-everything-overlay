@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Test-CPAN-Meta-YAML-0.170
 	>=dev-perl/Test-YAML-Valid-0.030
 	virtual/perl-IO
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.700
 "
 DEPEND="
 	${RDEPEND}

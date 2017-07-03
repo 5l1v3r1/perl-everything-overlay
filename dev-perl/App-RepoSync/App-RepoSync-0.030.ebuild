@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/CLI-Framework
 	dev-perl/JSON
 	dev-perl/Try-Tiny
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 "
 DEPEND="

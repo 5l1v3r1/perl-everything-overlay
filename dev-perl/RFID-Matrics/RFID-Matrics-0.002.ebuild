@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/RFID-EPC-0.002
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

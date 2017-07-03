@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/CGI
+	virtual/perl-File-Path
+	virtual/perl-Test-Simple
 "

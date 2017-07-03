@@ -24,4 +24,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.050
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Differences
+	virtual/perl-Test-Simple
 "

@@ -22,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/LWP-Online-1.070
+	>=virtual/perl-Test-Simple-0.420
 "

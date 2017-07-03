@@ -44,4 +44,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/File-pushd
+	dev-perl/Scope-Guard
+	dev-perl/Test-Mock-Guard
+	dev-perl/Test-Output
+	>=virtual/perl-Test-Simple-0.980
 "

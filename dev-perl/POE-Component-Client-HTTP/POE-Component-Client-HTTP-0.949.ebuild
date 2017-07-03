@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-5.813
+	>=dev-perl/HTTP-Message-5.811
 	>=dev-perl/Net-HTTP-5.812
 	>=dev-perl/POE-1.312
 	>=dev-perl/POE-Component-Client-Keepalive-0.271

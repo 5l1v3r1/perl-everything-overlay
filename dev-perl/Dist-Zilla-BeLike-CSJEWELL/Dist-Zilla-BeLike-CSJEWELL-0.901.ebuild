@@ -46,11 +46,13 @@ RDEPEND="
 	>=dev-perl/Test-Pod-Spelling-CommonMistakes-0.010
 	>=dev-perl/Test-Portability-Files-0.050
 	>=dev-perl/Test-Prereq-1.037
-	>=virtual/perl-Parse-CPAN-Meta-1.400
+	>=virtual/perl-CPAN-Meta-1.400
 	>=virtual/perl-Pod-Simple-3.140
 	>=virtual/perl-autodie-2.100
 	>=virtual/perl-libnet-2.120
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-UseAllModules-0.120
+	>=virtual/perl-Test-Simple-0.880
 "

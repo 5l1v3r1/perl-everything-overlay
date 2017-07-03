@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.013
 	dev-perl/Dist-Zilla-Role-RegisterStash
 	dev-perl/Dist-Zilla-Stash-PodWeaver
 	dev-perl/File-ShareDir
@@ -39,4 +39,13 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-chdir
+	>=dev-perl/Test-CheckDeps-0.010
+	dev-perl/Test-File-ShareDir
+	dev-perl/Test-Moose-More
+	dev-perl/Test-TempDir-Tiny
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.940
 "

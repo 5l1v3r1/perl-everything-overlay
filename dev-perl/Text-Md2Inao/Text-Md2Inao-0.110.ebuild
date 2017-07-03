@@ -23,10 +23,10 @@ RDEPEND="
 	dev-perl/HTML-Tree
 	>=dev-perl/JSON-2.550
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Text-Markdown-Hoedown
 	dev-perl/Tie-IxHash
 	dev-perl/Unicode-EastAsianWidth
-	virtual/perl-Pod-Usage
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="
@@ -34,4 +34,8 @@ DEPEND="
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.050
 	dev-perl/File-ShareDir-Install
 	>=virtual/perl-ExtUtils-MakeMaker-6.740
+	dev-perl/Devel-Cover
+	dev-perl/Test-Base
+	dev-perl/Test-LongString
+	virtual/perl-Test-Simple
 "

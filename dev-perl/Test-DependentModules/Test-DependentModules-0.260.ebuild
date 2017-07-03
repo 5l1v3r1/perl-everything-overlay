@@ -35,4 +35,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Copy-Recursive
+	dev-perl/Module-Build
+	dev-perl/Module-Build-Tiny
 "

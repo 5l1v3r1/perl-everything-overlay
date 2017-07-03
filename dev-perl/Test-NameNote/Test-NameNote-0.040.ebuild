@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/File-Slurp
+	dev-perl/Test-Script-Run
+	virtual/perl-File-Temp
 "

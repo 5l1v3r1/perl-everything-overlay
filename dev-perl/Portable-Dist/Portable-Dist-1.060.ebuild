@@ -28,4 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-Copy-Recursive-0.350
+	>=dev-perl/File-Remove-1.420
+	>=virtual/perl-Test-Simple-0.470
 "

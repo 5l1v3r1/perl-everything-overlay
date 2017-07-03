@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Catalyst-Runtime
+	dev-perl/MRO-Compat
+	virtual/perl-Test-Simple
 "

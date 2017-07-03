@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/Pegex
 	dev-perl/Spiffy
 	>=dev-perl/Stardoc-0.180
-	dev-perl/Test-Base
+	>=dev-perl/Test-Base-0.600
 	>=dev-perl/Test-Common-0.070
 	>=dev-perl/TestML-0.260
 	>=dev-perl/YAML-LibYAML-0.370

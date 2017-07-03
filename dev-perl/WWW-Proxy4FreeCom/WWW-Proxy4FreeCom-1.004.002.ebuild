@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor-Grouped
-	>=dev-perl/Mojolicious-6.080
+	dev-perl/Mojolicious
 	dev-perl/URI
 	dev-perl/base
 	dev-perl/libwww-perl
@@ -27,4 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

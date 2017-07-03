@@ -16,9 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.200.000
 	>=dev-perl/Data-Structure-Util-0.160
 	>=dev-perl/Moo-2.000
+	dev-perl/Sub-Quote
 	dev-perl/URI
 	dev-perl/namespace-clean
 	virtual/perl-Carp

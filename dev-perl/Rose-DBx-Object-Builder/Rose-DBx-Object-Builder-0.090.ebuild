@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBI
 	dev-perl/Lingua-EN-Inflect
+	dev-perl/Regexp-Common
 	dev-perl/Rose-Object
-	dev-perl/regexp-common
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-Test-Simple
 "

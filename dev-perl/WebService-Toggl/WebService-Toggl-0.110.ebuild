@@ -21,6 +21,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Package-Variant
 	dev-perl/Role-REST-Client
+	dev-perl/Sub-Quote
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	dev-perl/namespace-clean
@@ -31,4 +32,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/IO-All
+	dev-perl/JSON-MaybeXS
+	dev-perl/Module-Pluggable
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-0.980
 "

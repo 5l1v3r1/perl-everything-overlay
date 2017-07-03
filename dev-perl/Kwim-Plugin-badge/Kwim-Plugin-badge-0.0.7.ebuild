@@ -16,7 +16,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Kwim-0.0.13
 "
 DEPEND="
 	${RDEPEND}

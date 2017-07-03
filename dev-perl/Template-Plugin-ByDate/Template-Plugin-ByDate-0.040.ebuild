@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/List-MoreUtils-0.190
+	dev-perl/Template-Toolkit
+	>=dev-perl/TimeDate-2.270
+	virtual/perl-Test-Simple
 "

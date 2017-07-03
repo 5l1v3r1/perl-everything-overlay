@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Filter
-	>=dev-perl/Plack-0.090
+	dev-perl/Plack
 	>=dev-perl/Router-Simple-0.070
 	>=dev-perl/Try-Tiny-0.060
 	virtual/perl-Carp

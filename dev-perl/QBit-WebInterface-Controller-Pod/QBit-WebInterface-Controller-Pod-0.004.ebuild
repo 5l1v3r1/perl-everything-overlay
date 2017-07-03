@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Checker
 	dev-perl/QBit-Application
 	dev-perl/QBit-WebInterface
 	dev-perl/base
 	dev-perl/qbit
-	virtual/perl-Pod-Checker
 	virtual/perl-Pod-Simple
 "
 DEPEND="

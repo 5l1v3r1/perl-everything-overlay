@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-Load
+	dev-perl/Test-Most
+	dev-perl/YAML
+	dev-perl/base
+	dev-perl/lib
 "

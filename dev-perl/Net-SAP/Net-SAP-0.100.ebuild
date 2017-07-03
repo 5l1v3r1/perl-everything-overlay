@@ -19,10 +19,11 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/IO-Interface-1.000
 	>=dev-perl/IO-Socket-Multicast6-0.020
+	dev-perl/Pod-Usage
 	>=virtual/perl-IO-Compress-1.140
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.200
 "

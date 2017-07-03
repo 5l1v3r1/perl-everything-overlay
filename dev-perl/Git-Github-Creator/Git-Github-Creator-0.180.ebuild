@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Log-Log4perl
 	>=dev-perl/Net-GitHub-0.480
 	dev-perl/Test-Output
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

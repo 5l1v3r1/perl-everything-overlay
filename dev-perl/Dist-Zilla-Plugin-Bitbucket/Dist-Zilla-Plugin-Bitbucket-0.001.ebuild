@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/File-pushd-1.009
 	>=dev-perl/Git-Wrapper-0.037
 	>=dev-perl/JSON-MaybeXS-1.002.006
-	>=dev-perl/Moose-1.010
+	>=dev-perl/Moose-2.140.000
 	>=dev-perl/Try-Tiny-0.220
 	virtual/perl-Carp
 	>=virtual/perl-HTTP-Tiny-0.050
@@ -33,4 +33,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

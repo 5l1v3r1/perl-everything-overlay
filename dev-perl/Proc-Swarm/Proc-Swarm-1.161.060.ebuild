@@ -17,10 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	virtual/perl-IPC-SysV
+	dev-perl/IPC-SysV
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

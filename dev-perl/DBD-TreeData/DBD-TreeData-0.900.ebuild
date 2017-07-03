@@ -27,4 +27,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-CheckDeps-0.002
+	>=dev-perl/Test-Most-0.010
+	>=dev-perl/Test-UseAllModules-0.100
+	>=virtual/perl-Test-Simple-0.880
 "

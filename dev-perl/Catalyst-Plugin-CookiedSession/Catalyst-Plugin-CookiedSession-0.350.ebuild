@@ -21,6 +21,7 @@ RDEPEND="
 	dev-perl/Crypt-CBC
 	dev-perl/Crypt-Rijndael
 	dev-perl/JSON-XS-VersionOneAndTwo
+	dev-perl/NEXT
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "

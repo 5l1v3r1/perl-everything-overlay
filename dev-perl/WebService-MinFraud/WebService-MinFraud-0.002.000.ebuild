@@ -28,6 +28,7 @@ RDEPEND="
 	dev-perl/JSON-MaybeXS
 	dev-perl/Moo
 	dev-perl/Role-Tiny
+	dev-perl/Sub-Quote
 	dev-perl/Throwable
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
@@ -42,4 +43,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	dev-perl/lib
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

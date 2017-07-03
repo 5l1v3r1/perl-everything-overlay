@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/SPOPS-0.870
-	>=dev-perl/yaml-0.390
+	>=dev-perl/YAML-0.390
 "
 DEPEND="
 	${RDEPEND}

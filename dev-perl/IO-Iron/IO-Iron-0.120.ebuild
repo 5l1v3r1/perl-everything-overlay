@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-0.060
+	dev-lang/perl
 	dev-perl/Carp-Assert
 	dev-perl/Carp-Assert-More
 	dev-perl/Const-Fast

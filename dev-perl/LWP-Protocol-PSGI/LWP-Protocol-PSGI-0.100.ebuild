@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Plack
-	dev-perl/libwww-perl
+	>=dev-perl/libwww-perl-5.000
 	virtual/perl-parent
 "
 DEPEND="

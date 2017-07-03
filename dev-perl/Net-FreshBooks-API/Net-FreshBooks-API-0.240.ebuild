@@ -41,4 +41,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/DateTime
+	dev-perl/File-Slurp
+	dev-perl/Sub-Override
+	dev-perl/Test-Exception
+	dev-perl/Test-WWW-Mechanize
+	dev-perl/Test-XML
+	>=virtual/perl-Test-Simple-0.980
 "

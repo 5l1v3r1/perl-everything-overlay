@@ -63,7 +63,7 @@ RDEPEND="
 	>=dev-perl/Test-Strict-0.140
 	>=dev-perl/Test-Synopsis-0.060
 	>=dev-perl/Test-Vars-0.001
-	>=dev-perl/yaml-0.720
+	>=dev-perl/YAML-0.700
 	>=virtual/perl-CPAN-Meta-Requirements-2.113.640
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Devel-PPPort-3.190
@@ -76,4 +76,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	virtual/perl-File-Temp
+	virtual/perl-IO
 "

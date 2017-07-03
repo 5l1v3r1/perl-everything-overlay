@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/TimeDate
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

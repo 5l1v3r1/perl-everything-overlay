@@ -24,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	>=dev-perl/Map-Tube-London-0.710
+	>=virtual/perl-Test-Simple-0.820
 "

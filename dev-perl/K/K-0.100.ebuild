@@ -24,4 +24,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-Depends
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	dev-lang/perl
+	dev-perl/File-Which
+	dev-perl/Test-Exception
+	dev-perl/Test-TCP
+	virtual/perl-Test-Simple
 "

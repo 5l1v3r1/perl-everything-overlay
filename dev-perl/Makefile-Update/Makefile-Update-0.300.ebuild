@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-LongString
+	dev-perl/Test-Output
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

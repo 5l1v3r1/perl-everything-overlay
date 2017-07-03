@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Kwiki-0.370
+	dev-perl/Kwiki
 	>=dev-perl/Kwiki-UserName-0.130
 	dev-perl/Kwiki-UserPreferences
 	virtual/perl-Test-Simple

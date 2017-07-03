@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTML-TagParser
+	dev-perl/URI-Fetch
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
 "

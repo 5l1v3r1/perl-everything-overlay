@@ -21,11 +21,15 @@ RDEPEND="
 	>=dev-perl/Config-Properties-Simple-0.140
 	dev-perl/Log-Dispatch-FileRotate
 	dev-perl/Log-Log4perl
+	dev-perl/Pod-Usage
 	dev-perl/SNMP
 	virtual/perl-Data-Dumper
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	>=dev-perl/Test-Pod-1.140
+	>=dev-perl/Test-Pod-Coverage-1.040
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

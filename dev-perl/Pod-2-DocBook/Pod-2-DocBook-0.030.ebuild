@@ -26,4 +26,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/XML-LibXML
+	virtual/perl-Test-Simple
 "

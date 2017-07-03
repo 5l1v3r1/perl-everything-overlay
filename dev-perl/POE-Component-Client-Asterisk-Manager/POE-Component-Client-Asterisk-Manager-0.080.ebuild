@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-0.120.300
 	>=virtual/perl-Digest-MD5-2.200
 "
 DEPEND="

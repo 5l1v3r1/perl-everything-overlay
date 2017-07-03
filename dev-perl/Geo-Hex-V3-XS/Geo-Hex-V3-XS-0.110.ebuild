@@ -24,4 +24,5 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.500
 	>=dev-perl/Module-Build-XSUtil-0.030
 	virtual/perl-parent
+	>=virtual/perl-Test-Simple-0.980
 "

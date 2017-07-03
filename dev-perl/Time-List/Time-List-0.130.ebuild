@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Class-Accessor-Lite
+	dev-perl/Data-Util
+	>=virtual/perl-Test-Simple-0.980
+	>=virtual/perl-Time-Piece-1.240
 "

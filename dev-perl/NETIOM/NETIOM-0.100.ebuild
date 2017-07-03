@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/TermReadKey
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

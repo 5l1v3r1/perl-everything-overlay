@@ -23,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.002
 	dev-perl/File-chmod
 	virtual/perl-Test-Simple
 "

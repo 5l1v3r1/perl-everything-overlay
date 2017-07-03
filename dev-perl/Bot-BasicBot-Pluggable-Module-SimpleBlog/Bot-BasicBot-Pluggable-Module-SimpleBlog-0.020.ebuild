@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Bot-BasicBot-Pluggable-0.040
 	dev-perl/DBD-SQLite
+	dev-perl/Regexp-Common
 	dev-perl/Test-DatabaseRow
-	dev-perl/regexp-common
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Piece

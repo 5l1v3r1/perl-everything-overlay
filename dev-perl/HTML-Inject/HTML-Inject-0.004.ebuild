@@ -18,11 +18,13 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTML-HTML5-Parser-0.200
 	>=dev-perl/Moo-1.000.000
-	>=dev-perl/Scalar-Does-0.002
+	dev-perl/Scalar-Does
 	>=dev-perl/XML-LibXML-1.940
 	>=dev-perl/namespace-sweep-0.006
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/XML-LibXML-PrettyPrint
+	>=virtual/perl-Test-Simple-0.610
 "

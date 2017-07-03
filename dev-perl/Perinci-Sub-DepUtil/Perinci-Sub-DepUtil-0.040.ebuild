@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Perinci-Sub-DepChecker-0.070
-	>=dev-perl/Rinci-1.1.80
+	>=dev-perl/Sah-Schemas-Rinci-1.1.80
 	virtual/perl-Exporter
 "
 DEPEND="

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/File-ShareDir
 	>=dev-perl/Text-MeCab-0.200.070
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Encode
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 "

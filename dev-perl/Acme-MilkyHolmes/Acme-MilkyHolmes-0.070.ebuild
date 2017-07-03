@@ -29,4 +29,6 @@ DEPEND="
 	dev-perl/Module-Build
 	>=dev-perl/Module-Build-Tiny-0.035
 	virtual/perl-CPAN-Meta
+	dev-perl/Test-MockTime
+	>=virtual/perl-Test-Simple-0.980
 "

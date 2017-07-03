@@ -21,4 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-ExtUtils-ParseXS
+	>=virtual/perl-Test-Simple-0.980
 "

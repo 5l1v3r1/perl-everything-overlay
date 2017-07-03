@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-YAML-Meta
+	virtual/perl-Test-Simple
 "

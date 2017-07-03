@@ -16,7 +16,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/MRO-Compat
+	dev-perl/NEXT
+	>=virtual/perl-Scalar-List-Utils-1.330
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	>=dev-perl/Test-Exception-0.270
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

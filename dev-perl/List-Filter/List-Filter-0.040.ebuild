@@ -19,13 +19,13 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-Base-0.030
 	>=dev-perl/DBI-1.000
+	dev-perl/Env
 	>=dev-perl/Module-List-0.001
 	>=dev-perl/Module-List-Pluggable-0.010
 	dev-perl/Test-Trap
+	dev-perl/YAML
 	dev-perl/base
 	dev-perl/lib
-	dev-perl/yaml
-	perl-core/Env
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-1.000
 	virtual/perl-File-Path

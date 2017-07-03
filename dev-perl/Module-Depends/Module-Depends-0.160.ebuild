@@ -21,11 +21,12 @@ RDEPEND="
 	dev-perl/File-chdir
 	>=dev-perl/Template-Toolkit-2.000
 	>=dev-perl/TermReadKey-2.140
-	dev-perl/yaml
+	dev-perl/YAML
+	virtual/perl-CPAN-Meta
 	virtual/perl-File-Spec
-	virtual/perl-Parse-CPAN-Meta
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Test-Simple
 "

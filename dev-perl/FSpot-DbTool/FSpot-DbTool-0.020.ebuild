@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-StrictConstructor
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

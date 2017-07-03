@@ -21,10 +21,13 @@ RDEPEND="
 	dev-perl/DBIx-Skinny
 	dev-perl/Filter
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Test-Output
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "

@@ -16,11 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Email-MIME-Kit-2.002
+	dev-perl/Email-MIME-Kit
 	dev-perl/Moose
-	dev-perl/Path-Resolver
+	>=dev-perl/Path-Resolver-3.092.200
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=virtual/perl-Test-Simple-0.960
 "

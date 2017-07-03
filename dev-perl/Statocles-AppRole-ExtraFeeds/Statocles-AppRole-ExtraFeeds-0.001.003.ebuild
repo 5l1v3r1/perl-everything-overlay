@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Statocles
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
-	>=virtual/perl-constant-1.030
 "
 DEPEND="
 	${RDEPEND}

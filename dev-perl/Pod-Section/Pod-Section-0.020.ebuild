@@ -19,8 +19,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/IO-String
 	dev-perl/Pod-Abstract
-	virtual/perl-Pod-Perldoc
-	virtual/perl-Pod-Usage
+	dev-perl/Pod-Perldoc
+	dev-perl/Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

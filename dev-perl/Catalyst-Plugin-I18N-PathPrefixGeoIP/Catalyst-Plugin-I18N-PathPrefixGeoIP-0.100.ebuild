@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-0.350
 	>=dev-perl/Catalyst-Plugin-I18N-0.090
 	>=dev-perl/Catalyst-Runtime-5.800.130
 	dev-perl/Geo-IP

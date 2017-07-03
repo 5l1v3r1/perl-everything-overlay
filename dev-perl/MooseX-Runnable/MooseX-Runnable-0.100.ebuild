@@ -29,4 +29,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/MooseX-Getopt
+	dev-perl/Test-Fatal
+	dev-perl/Test-TableDriven
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

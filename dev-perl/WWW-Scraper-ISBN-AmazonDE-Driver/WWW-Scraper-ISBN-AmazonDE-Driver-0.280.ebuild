@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Test-CheckManifest-1.220
 	>=dev-perl/WWW-Mechanize-1.200
-	>=dev-perl/WWW-Scraper-ISBN-0.170
+	>=dev-perl/WWW-Scraper-ISBN-0.240
 	>=dev-perl/Web-Scraper-0.130
 	virtual/perl-Test-Simple
 "

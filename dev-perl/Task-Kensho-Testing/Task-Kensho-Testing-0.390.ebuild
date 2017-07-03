@@ -16,7 +16,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Devel-Cover
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Memory-Cycle
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Test-Requires
+	dev-perl/Test-Warnings
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
 "

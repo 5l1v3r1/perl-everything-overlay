@@ -31,4 +31,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/POE-Component-Client-HTTP-0.820
+	>=dev-perl/POE-Filter-HTTP-Parser-1.060
+	>=dev-perl/Test-POE-Client-TCP-0.100
+	>=virtual/perl-Test-Simple-0.470
 "

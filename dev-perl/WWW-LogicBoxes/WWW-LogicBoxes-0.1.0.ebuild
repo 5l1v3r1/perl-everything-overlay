@@ -34,4 +34,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Readonly
+	dev-perl/String-Random
+	dev-perl/Test-Exception
+	dev-perl/Test-Most
+	dev-perl/lib
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

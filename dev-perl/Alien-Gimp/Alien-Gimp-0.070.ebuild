@@ -20,8 +20,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-Depends-0.402
+	dev-perl/ExtUtils-PkgConfig
 	dev-perl/IO-All
-	dev-perl/extutils-pkgconfig
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
+	>=dev-perl/Inline-0.780
+	>=dev-perl/Inline-C-0.670
+	>=virtual/perl-Test-Simple-0.880
 "

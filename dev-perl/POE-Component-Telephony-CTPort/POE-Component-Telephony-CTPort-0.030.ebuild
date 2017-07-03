@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/IO-Tty
-	dev-perl/POE
+	>=dev-perl/POE-0.220
 	>=virtual/perl-Test-Simple-0.320
 "
 DEPEND="

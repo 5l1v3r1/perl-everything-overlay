@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Directory-Scratch
+	dev-perl/File-Which
+	dev-perl/Sub-Exporter
+	virtual/perl-Test-Simple
 "

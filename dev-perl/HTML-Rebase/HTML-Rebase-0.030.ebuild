@@ -21,4 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/URI
+	virtual/perl-Carp
+	>=virtual/perl-Exporter-5.000
 "

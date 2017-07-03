@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Glib-Ex-ObjectBits
+	>=dev-perl/Gtk2-1.201
 	>=dev-perl/Gtk2-Ex-WidgetBits-17.000
 	dev-perl/glib-perl
-	>=dev-perl/gtk2-perl-1.201
 	>=virtual/perl-Scalar-List-Utils-1.180
 "
 DEPEND="

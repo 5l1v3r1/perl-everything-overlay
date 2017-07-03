@@ -20,7 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Build-0.410
+	>=dev-perl/Alien-Build-0.400
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	virtual/perl-IPC-Cmd
 	dev-perl/Test-Alien

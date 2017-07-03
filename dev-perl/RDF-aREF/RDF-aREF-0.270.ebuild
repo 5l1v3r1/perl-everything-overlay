@@ -21,4 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/JSON
+	dev-perl/RDF-Trine
+	virtual/perl-Unicode-Normalize
 "

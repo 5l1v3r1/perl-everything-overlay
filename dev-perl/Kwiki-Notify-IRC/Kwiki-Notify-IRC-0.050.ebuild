@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Kwiki-0.320
 	dev-perl/POE-Component-IKC
 	dev-perl/POE-Component-IRC
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="

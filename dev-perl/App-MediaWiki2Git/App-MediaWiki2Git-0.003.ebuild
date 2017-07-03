@@ -22,11 +22,12 @@ RDEPEND="
 	dev-perl/MediaWiki-API
 	dev-perl/Moose
 	dev-perl/Net-DNS
-	dev-perl/yaml
+	dev-perl/Pod-Usage
+	dev-perl/YAML
 	virtual/perl-Carp
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

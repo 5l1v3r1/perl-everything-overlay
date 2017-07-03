@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/File-Tempdir
+	>=dev-perl/Mock-Sub-1.060
 "

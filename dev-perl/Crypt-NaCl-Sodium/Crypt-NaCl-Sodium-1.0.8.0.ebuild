@@ -16,7 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Sub-Exporter
+	virtual/perl-Carp
+	virtual/perl-XSLoader
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Sodium-1.0.8.0
+	dev-perl/File-ShareDir
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-File-Spec
 "

@@ -21,4 +21,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Sereal-Decoder
+	dev-perl/Sereal-Encoder
+	virtual/perl-Data-Dumper
+	>=virtual/perl-ExtUtils-ParseXS-2.210
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
 "

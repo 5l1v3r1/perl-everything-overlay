@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-1.000.100
 	>=dev-perl/POE-API-Peek-0.020
 	dev-perl/TermReadKey
 	dev-perl/Test-Distribution

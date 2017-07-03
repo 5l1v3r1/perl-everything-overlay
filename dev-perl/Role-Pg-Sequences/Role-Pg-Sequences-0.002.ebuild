@@ -24,4 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Test-Class
+	dev-perl/Test-Pod-Coverage
+	dev-perl/base
+	virtual/perl-Test-Simple
 "

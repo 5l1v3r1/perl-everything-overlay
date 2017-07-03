@@ -46,4 +46,13 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/List-MoreUtils
+	>=dev-perl/Test-File-ShareDir-1.000.000
+	dev-perl/Test-Most
+	dev-perl/Test-RequiresInternet
+	dev-perl/XML-Compile
+	dev-perl/XML-Compile-Tester
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.940
 "

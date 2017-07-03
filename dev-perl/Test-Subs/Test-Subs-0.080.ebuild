@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/List-MoreUtils
+	dev-perl/Pod-Checker
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Filter-Simple
-	virtual/perl-Pod-Checker
 "
 DEPEND="
 	${RDEPEND}

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Authen-SASL-2.160
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.200.000
 	dev-perl/Email-Date-Format
 	dev-perl/Email-Sender
 	dev-perl/File-Type
@@ -32,7 +32,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
-	dev-perl/Plack
+	>=dev-perl/Plack-1.002.900
 	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO

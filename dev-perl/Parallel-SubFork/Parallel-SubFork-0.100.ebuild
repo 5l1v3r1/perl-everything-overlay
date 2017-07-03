@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
+	dev-perl/IPC-SysV
 	dev-perl/Test-Pod
 	virtual/perl-Carp
-	virtual/perl-IPC-SysV
 	virtual/perl-Test-Simple
 "
 DEPEND="

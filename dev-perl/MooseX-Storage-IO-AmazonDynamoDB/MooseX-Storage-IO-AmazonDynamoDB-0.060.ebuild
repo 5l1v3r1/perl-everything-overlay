@@ -32,4 +32,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Clone
+	dev-perl/Future
+	dev-perl/Kavorka
+	dev-perl/MooseX-ClassAttribute
+	dev-perl/Test-Most
+	dev-perl/Test-Pod
+	dev-perl/Test-Warnings
 "

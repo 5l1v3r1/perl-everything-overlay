@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-Load-0.200
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	dev-perl/Type-Tiny
 	virtual/perl-Carp
 	>=virtual/perl-version-0.770
@@ -25,4 +26,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
 "

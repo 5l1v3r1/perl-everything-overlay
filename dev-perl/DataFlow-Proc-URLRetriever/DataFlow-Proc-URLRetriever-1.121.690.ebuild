@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/DataFlow
+	>=dev-perl/DataFlow-1.112.100
 	dev-perl/Moose
 	dev-perl/URI
 	dev-perl/libwww-perl
@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

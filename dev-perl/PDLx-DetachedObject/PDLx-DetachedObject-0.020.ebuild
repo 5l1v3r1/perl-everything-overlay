@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Moo
-	>=dev-perl/PDL-2.000
+	dev-perl/PDL
 "
 DEPEND="
 	${RDEPEND}

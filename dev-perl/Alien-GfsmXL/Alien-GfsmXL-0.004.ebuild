@@ -22,6 +22,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.027
 	>=dev-perl/Alien-Gfsm-0.001
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
+	virtual/perl-Text-ParseWords
 "

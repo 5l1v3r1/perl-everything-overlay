@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/DBIx-Class
+	dev-perl/Pod-Usage
 	dev-perl/SQL-Translator
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

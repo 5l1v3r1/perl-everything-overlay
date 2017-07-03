@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Net-Delicious-0.920
-	>=dev-perl/regexp-common-2.120
+	>=dev-perl/Regexp-Common-2.120
 	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="

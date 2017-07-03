@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-lang/perl-1.000
 	>=dev-perl/Log-Log4perl-1.000
 	dev-perl/MailTools
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

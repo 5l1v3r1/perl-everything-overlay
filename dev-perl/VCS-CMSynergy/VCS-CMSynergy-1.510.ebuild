@@ -19,16 +19,17 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/IPC-Run3-0.030
 	dev-perl/Log-Log4perl
+	dev-perl/Pod-Usage
 	dev-perl/Tie-CPHash
 	dev-perl/Type-Tiny
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Scalar-List-Utils-1.090
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-Test-Simple
 "

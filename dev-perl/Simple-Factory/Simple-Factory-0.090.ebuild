@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CHI
+	dev-perl/DateTime
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	dev-perl/Test-Warn
 "

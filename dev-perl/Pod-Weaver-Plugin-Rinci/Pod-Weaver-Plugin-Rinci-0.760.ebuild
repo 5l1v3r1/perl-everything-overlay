@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Perinci-Access-Perl-0.870
-	>=dev-perl/Perinci-CmdLine-Dump-0.080
 	>=dev-perl/Perinci-CmdLine-POD-0.003
 	>=dev-perl/Perinci-CmdLine-Util-0.130
 	>=dev-perl/Perinci-To-Doc-0.810

@@ -20,4 +20,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/CHI
+	dev-perl/Carp-Assert
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-Plugin-Session
+	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/Class-Data-Inheritable
+	dev-perl/MRO-Compat
+	dev-perl/Moose
+	dev-perl/Path-Class
+	dev-perl/namespace-autoclean
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

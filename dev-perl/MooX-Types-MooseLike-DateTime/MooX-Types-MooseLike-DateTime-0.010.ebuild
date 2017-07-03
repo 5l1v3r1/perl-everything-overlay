@@ -25,4 +25,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DateTime
+	dev-perl/DateTime-Format-Strptime
+	dev-perl/Moo
+	dev-perl/Test-Exception
+	dev-perl/aliased
+	virtual/perl-Test-Simple
 "

@@ -26,4 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Exporter-Lite
+	dev-perl/Path-Class
+	dev-perl/Test-Fatal
+	dev-perl/Test-Mock-Guard
+	dev-perl/Test-Mock-LWP-Conditional
+	virtual/perl-Test-Simple
 "

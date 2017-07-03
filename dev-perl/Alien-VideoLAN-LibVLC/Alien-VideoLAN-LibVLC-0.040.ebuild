@@ -16,9 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.200
+	virtual/perl-Test-Simple
 "

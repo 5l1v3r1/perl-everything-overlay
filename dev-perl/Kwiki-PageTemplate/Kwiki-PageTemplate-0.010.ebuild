@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Kwiki
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

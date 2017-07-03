@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Trigger
 	>=dev-perl/HTML-Template-2.700
+	dev-perl/Regexp-Common
 	>=dev-perl/Test-MockObject-1.000
-	dev-perl/regexp-common
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

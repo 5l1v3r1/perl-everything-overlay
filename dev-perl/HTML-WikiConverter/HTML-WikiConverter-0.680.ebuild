@@ -22,10 +22,10 @@ RDEPEND="
 	>=dev-perl/HTML-Tagset-3.040
 	dev-perl/HTML-Tree
 	>=dev-perl/Params-Validate-0.770
+	>=dev-perl/Pod-Usage-1.160
 	>=dev-perl/URI-1.350
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-Pod-Usage-1.160
 	virtual/perl-Test-Simple
 "
 DEPEND="

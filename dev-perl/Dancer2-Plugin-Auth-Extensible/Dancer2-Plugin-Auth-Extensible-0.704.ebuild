@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Crypt-SaltedHash
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.204.000
 	dev-perl/File-Share
 	dev-perl/HTTP-BrowserDetect
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-2.000.000
+	dev-perl/Moo
 	>=dev-perl/Plack-1.002.900
 	dev-perl/Session-Token
 	dev-perl/Try-Tiny

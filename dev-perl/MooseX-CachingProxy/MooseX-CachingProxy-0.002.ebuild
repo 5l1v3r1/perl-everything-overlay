@@ -26,4 +26,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	>=dev-perl/MooseX-Test-Role-0.020
+	dev-perl/Spellunker
+	dev-perl/Test-CPAN-Meta
+	dev-perl/Test-HTTP-Server
+	dev-perl/Test-MinimumVersion-Fast
+	dev-perl/Test-Most
+	dev-perl/Test-PAUSE-Permissions
+	>=dev-perl/Test-Pod-1.140
+	dev-perl/libwww-perl
 "

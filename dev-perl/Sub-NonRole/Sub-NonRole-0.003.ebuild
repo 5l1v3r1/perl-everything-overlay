@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Hook-AfterRuntime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.000
 	>=dev-perl/MooX-ClassAttribute-0.004
 	dev-perl/Sub-Identify
 	dev-perl/Sub-Talisman

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Clean-JSON-0.110
+	dev-perl/Data-Clean-JSON
 	dev-perl/JSON-MaybeXS
 	dev-perl/Log-Any
 	>=dev-perl/Log-Any-Adapter-Callback-0.030
@@ -40,4 +40,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

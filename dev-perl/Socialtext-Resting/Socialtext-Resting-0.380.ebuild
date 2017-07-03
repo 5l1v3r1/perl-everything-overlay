@@ -22,11 +22,11 @@ RDEPEND="
 	dev-perl/IPC-Run
 	>=dev-perl/JSON-XS-2.100
 	dev-perl/Net-SSLeay
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	>=dev-perl/Test-Mock-LWP-0.050
 	>=dev-perl/URI-1.310
 	dev-perl/libwww-perl
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

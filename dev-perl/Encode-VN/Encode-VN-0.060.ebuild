@@ -24,12 +24,13 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Module-Build
 	dev-perl/Module-Install
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-ExtUtils-Manifest
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Socket
 	virtual/perl-libnet
+	virtual/perl-Test-Simple
 "

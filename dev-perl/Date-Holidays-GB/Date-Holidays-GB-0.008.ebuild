@@ -20,11 +20,16 @@ RDEPEND="
 	dev-perl/Date-Holidays-Super
 	dev-perl/base
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Fatal
+	dev-perl/Test-Most
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "

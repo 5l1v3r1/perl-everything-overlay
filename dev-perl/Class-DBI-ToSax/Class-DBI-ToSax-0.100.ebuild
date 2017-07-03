@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Class-Data-Inheritable
+	dev-perl/NEXT
 	dev-perl/XML-SAX-Writer
 	virtual/perl-Test-Simple
 "

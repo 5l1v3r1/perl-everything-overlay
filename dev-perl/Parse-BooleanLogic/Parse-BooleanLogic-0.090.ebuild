@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Regexp-Common
 	dev-perl/Test-Deep
-	dev-perl/regexp-common
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple
 "

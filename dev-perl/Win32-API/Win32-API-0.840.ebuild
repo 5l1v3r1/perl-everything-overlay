@@ -21,4 +21,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Config-Perl-V
+	dev-perl/Encode-compat
+	dev-perl/Math-Int64
+	dev-perl/Win32
+	dev-perl/Win32API-File
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

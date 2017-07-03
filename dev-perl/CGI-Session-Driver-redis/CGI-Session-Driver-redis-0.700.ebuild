@@ -22,4 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-ShareDir-Install
+	dev-perl/Test-Exception
+	dev-perl/Test-NoTabs
+	dev-perl/Test-Pod
+	dev-perl/Test-Strict
+	virtual/perl-Test-Simple
 "

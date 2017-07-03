@@ -33,4 +33,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	dev-perl/lib
+	dev-perl/utf8-all
+	virtual/perl-Exporter
+	virtual/perl-Test-Simple
+	virtual/perl-Unicode-Normalize
 "

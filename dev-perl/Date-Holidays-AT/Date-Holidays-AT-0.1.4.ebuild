@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Date-Calc-5.000
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "

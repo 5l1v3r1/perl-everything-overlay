@@ -16,15 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.030
 	dev-perl/TimeDate
 	>=virtual/perl-Carp-1.010
 	>=virtual/perl-Encode-2.080
 	>=virtual/perl-Exporter-5.570
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.140
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local
-	>=virtual/perl-constant-1.030
 "
 DEPEND="
 	${RDEPEND}

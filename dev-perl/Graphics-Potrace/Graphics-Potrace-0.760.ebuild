@@ -20,6 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckLib-1.01.0
+	>=dev-perl/Devel-CheckLib-1.1.0
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "

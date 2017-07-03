@@ -20,7 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-libtermkey-0.130
+	dev-perl/ExtUtils-PkgConfig
 	dev-perl/Module-Build
-	dev-perl/extutils-pkgconfig
 	>=virtual/perl-Exporter-5.570
+	dev-perl/Test-Refcount
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

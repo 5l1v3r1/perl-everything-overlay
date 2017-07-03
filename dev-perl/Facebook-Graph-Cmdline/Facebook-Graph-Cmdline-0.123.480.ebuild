@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/MouseX-Getopt
 	dev-perl/MouseX-SimpleConfig
 	dev-perl/URI
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

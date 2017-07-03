@@ -23,8 +23,8 @@ RDEPEND="
 	dev-perl/Test-Synopsis
 	dev-perl/XML-NamespaceSupport
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	>=dev-perl/YAML-Syck-0.700
-	dev-perl/yaml
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.980
 "

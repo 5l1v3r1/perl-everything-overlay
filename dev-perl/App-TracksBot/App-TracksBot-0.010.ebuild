@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/AnyEvent-WebService-Tracks-0.020
 	dev-perl/AnyEvent-XMPP
 	dev-perl/List-MoreUtils
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

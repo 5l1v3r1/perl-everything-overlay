@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/IO-String
+	dev-perl/Text-CSV
+	virtual/perl-Test-Simple
 "

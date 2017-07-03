@@ -20,11 +20,12 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
+	dev-perl/Pod-Usage
 	virtual/perl-Encode
-	virtual/perl-Pod-Usage
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

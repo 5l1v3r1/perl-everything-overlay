@@ -24,9 +24,11 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Time-Local
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

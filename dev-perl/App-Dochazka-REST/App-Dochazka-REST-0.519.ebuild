@@ -41,4 +41,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/File-Slurp
+	dev-perl/HTTP-Message
+	dev-perl/Test-Fatal
+	dev-perl/Test-JSON
+	dev-perl/Test-Warnings
 "

@@ -22,9 +22,9 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

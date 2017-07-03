@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Test-Pod
 	dev-perl/WWW-Search
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Exception-Class
 	dev-perl/JSON
 	dev-perl/Moo
@@ -26,9 +27,9 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-Module-Load
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

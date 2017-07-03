@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/MRO-Compat
 	dev-perl/Params-Validate
-	dev-perl/SQL-Abstract
+	>=dev-perl/SQL-Abstract-1.730
 	dev-perl/Test-Exception
 	dev-perl/namespace-clean
 	virtual/perl-Test-Simple

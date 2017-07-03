@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Type-Tiny-1.000.000
+	dev-perl/Type-Tiny
 	dev-perl/Types-Path-Tiny
 	dev-perl/Types-UUID
 	dev-perl/URI
@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Requires
+	>=virtual/perl-Test-Simple-0.960
 "

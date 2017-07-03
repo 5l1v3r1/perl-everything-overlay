@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/GraphViz
 	>=dev-perl/Kwiki-0.370
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 "
 DEPEND="

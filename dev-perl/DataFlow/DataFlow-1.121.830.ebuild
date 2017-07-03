@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/DateTime-0.510
-	>=dev-perl/Moose-1.010
+	dev-perl/Moose
 	dev-perl/Moose-Autobox
 	dev-perl/MooseX-Aliases
 	dev-perl/MooseX-Attribute-Chained
@@ -38,4 +38,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

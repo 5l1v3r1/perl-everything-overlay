@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Moose-0.940
+	dev-perl/Tie-IxHash
+	dev-perl/namespace-autoclean
+	virtual/perl-Carp
+	virtual/perl-Test-Simple
 "

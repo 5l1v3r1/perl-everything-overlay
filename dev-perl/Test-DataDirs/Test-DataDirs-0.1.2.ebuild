@@ -20,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280.800
+	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/Test-Exception
 "

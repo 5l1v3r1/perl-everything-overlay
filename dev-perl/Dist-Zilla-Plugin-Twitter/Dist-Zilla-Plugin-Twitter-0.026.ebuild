@@ -18,11 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-INI
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	>=dev-perl/Moose-0.990
 	>=dev-perl/Net-Twitter-4.000.010
 	dev-perl/Try-Tiny
-	>=dev-perl/WWW-Shorten-3.020
+	dev-perl/WWW-Shorten
 	dev-perl/WWW-Shorten-Simple
 	>=dev-perl/namespace-autoclean-0.090
 	virtual/perl-File-Path

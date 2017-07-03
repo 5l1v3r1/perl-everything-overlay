@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-IniFiles
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Carp
 	virtual/perl-File-Path
 "

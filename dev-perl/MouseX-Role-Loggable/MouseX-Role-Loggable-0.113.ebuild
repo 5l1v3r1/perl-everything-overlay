@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Dispatchouli
-	>=dev-perl/Mouse-1.040
-	dev-perl/MouseX-Types
+	dev-perl/Mouse
+	>=dev-perl/MouseX-Types-0.060
 	dev-perl/Safe-Isa
 	>=dev-perl/namespace-autoclean-0.160
 	virtual/perl-Carp
@@ -28,4 +28,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/AnyEvent
+	>=dev-perl/AnyEvent-5.200
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Scalar-List-Utils

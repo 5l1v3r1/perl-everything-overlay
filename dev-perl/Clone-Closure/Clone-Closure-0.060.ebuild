@@ -21,4 +21,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Taint-Runtime
+	dev-perl/Task-Weaken
+	virtual/perl-Data-Dumper
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-File-Temp-0.160
+	>=virtual/perl-Scalar-List-Utils-1.140
+	>=virtual/perl-Test-Simple-0.880
 "

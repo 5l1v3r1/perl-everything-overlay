@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Filesys-Df-0.680
 	>=dev-perl/Filesys-Statvfs-0.680
 	>=dev-perl/IPC-Shareable-0.600
-	>=virtual/perl-IPC-SysV-1.030
+	>=dev-perl/IPC-SysV-1.030
 "
 DEPEND="
 	${RDEPEND}

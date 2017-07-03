@@ -25,4 +25,7 @@ DEPEND="
 	dev-perl/Module-Build
 	>=dev-perl/Module-Build-Tiny-0.035
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Test-Requires-Git-1.005
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -27,4 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300.200
+	>=dev-perl/Test-Subs-0.070
+	dev-perl/WWW-Mechanize
+	dev-perl/libwww-perl
 "

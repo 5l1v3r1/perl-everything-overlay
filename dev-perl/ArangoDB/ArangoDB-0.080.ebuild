@@ -29,4 +29,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Mock-Guard
+	dev-perl/Test-TCP
+	virtual/perl-File-Temp
+	virtual/perl-Test-Harness
+	>=virtual/perl-Test-Simple-0.980
 "

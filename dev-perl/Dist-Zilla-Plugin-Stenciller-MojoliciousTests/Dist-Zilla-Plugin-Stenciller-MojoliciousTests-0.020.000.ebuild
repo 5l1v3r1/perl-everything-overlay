@@ -28,4 +28,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/Mojolicious-5.000
+	dev-perl/String-Cushion
+	dev-perl/Syntax-Feature-Qi
+	dev-perl/Test-Differences
+	dev-perl/Test-Mojo-Trim
+	dev-perl/syntax
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

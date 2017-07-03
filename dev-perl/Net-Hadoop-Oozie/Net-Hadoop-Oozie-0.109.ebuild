@@ -35,7 +35,6 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

@@ -23,6 +23,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckOS-1.630
+	dev-perl/Devel-CheckOS
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Filter-CommaEquals
+	dev-perl/Path-Tiny
+	dev-perl/Test-Exception
+	dev-perl/Test-MockModule
+	virtual/perl-Test-Simple
 "

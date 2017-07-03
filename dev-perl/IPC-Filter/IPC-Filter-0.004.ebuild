@@ -19,10 +19,11 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/IPC-Signal-1.000
 	virtual/perl-Exporter
-	>=virtual/perl-IO-1.120
+	>=virtual/perl-IO-0.010
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

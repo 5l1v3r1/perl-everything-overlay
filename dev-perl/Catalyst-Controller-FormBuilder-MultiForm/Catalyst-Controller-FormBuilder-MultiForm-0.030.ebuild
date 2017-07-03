@@ -22,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Catalyst-View-TT-0.440
+	>=dev-perl/Class-Inspector-1.160
+	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370
+	>=virtual/perl-Test-Simple-0.440
 "

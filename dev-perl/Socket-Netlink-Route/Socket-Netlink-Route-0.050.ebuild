@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/ExtUtils-CChecker
+	>=dev-perl/ExtUtils-H2PM-0.070
+	virtual/perl-Test-Simple
 "

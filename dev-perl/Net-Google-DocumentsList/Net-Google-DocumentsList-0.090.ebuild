@@ -30,4 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-BOM
+	virtual/perl-Test-Simple
 "

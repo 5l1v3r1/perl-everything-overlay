@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Data-FormValidator-Constraints-Japanese-0.040
 	>=dev-perl/Data-RuledValidator-0.100
-	>=dev-perl/Number-Phone-JP-0.201.604.040
-	>=virtual/perl-Test-Simple-1.001.014
+	>=dev-perl/Number-Phone-JP-0.201.706.010
+	>=virtual/perl-Test-Simple-1.302.086
 "
 DEPEND="
 	${RDEPEND}

@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.620
+	dev-perl/DBD-SQLite
+	dev-perl/Test-Exception
+	>=virtual/perl-Test-Simple-0.980
 "

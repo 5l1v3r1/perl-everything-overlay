@@ -22,11 +22,11 @@ RDEPEND="
 	>=dev-perl/Log-Log4perl-1.000
 	>=dev-perl/Mojolicious-4.130
 	>=dev-perl/OAuth-Cmdline-0.040
+	>=dev-perl/Pod-Usage-1.360
 	>=dev-perl/Sysadm-Install-0.430
 	>=dev-perl/Test-MockObject-1.090
+	>=dev-perl/YAML-0.710
 	>=dev-perl/libwww-perl-6.020
-	>=dev-perl/yaml-0.710
-	>=virtual/perl-Pod-Usage-1.360
 "
 DEPEND="
 	${RDEPEND}

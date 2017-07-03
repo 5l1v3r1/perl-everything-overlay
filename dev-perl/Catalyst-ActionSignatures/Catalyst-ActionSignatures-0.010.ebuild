@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Catalyst-Runtime-5.900.900
+	dev-perl/MooseX-MethodAttributes
+	dev-perl/Test-Most
 "

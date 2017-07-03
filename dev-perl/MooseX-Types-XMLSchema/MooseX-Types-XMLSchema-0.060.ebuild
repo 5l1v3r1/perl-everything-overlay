@@ -21,8 +21,8 @@ RDEPEND="
 	dev-perl/DateTime-TimeZone
 	dev-perl/Moose
 	dev-perl/MooseX-Types
+	dev-perl/Regexp-Common
 	dev-perl/URI
-	dev-perl/regexp-common
 	virtual/perl-Encode
 	virtual/perl-IO
 	virtual/perl-MIME-Base64
@@ -32,4 +32,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Pod-Coverage-Moose
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

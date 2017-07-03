@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-PodLoom-5.001
 	>=dev-perl/Dist-Zilla-Plugin-Repository-0.160
 	>=dev-perl/Dist-Zilla-Plugin-TemplateCJM-4.230
-	>=dev-perl/Dist-Zilla-Plugins-CJM-0.080
+	>=dev-perl/Dist-Zilla-Plugins-CJM-4.060
 	dev-perl/Git-Wrapper
 	>=dev-perl/Moose-0.650
 "

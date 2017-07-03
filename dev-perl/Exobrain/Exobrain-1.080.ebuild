@@ -47,10 +47,14 @@ RDEPEND="
 	virtual/perl-Socket
 	virtual/perl-Storable
 	virtual/perl-autodie
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Deep
+	dev-perl/Test-Most
+	dev-perl/Test-Warn
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

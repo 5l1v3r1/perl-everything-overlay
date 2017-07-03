@@ -21,4 +21,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-lang/perl
+	dev-perl/LWP-Protocol-https
+	dev-perl/Mozilla-CA
+	dev-perl/libwww-perl
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-IO-Compress
+	virtual/perl-Test-Simple
 "

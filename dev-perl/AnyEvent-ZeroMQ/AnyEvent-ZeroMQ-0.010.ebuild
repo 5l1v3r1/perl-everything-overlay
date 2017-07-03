@@ -25,11 +25,11 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Set-Object
 	dev-perl/Params-Util
+	dev-perl/Regexp-Common
 	dev-perl/Try-Tiny
 	dev-perl/ZeroMQ
 	dev-perl/ZeroMQ-Raw
 	dev-perl/namespace-autoclean
-	dev-perl/regexp-common
 	dev-perl/true
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -37,4 +37,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/EV
+	dev-perl/Test-TableDriven
+	virtual/perl-Test-Simple
 "

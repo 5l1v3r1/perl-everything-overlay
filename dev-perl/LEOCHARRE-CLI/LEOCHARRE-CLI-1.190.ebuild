@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/File-chmod
 	dev-perl/LEOCHARRE-DEBUG
 	dev-perl/Linux-usermod
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 "
 DEPEND="

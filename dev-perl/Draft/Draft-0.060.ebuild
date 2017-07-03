@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-Helper
 	dev-perl/Tk
 	dev-perl/Tk-WorldCanvas
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

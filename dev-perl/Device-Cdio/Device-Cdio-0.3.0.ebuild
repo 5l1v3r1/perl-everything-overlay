@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/extutils-pkgconfig-1.030
+	>=dev-perl/ExtUtils-PkgConfig-1.030
 	>=virtual/perl-ExtUtils-CBuilder-0.280
 	virtual/perl-Test-Simple
 	virtual/perl-version

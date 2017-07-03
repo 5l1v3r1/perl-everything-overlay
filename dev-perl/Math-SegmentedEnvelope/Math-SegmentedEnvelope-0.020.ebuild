@@ -16,15 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Clone
 	dev-perl/Exporter-Easy
 	dev-perl/Moo
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

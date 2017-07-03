@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.320
+	>=dev-lang/perl-0.160
 	>=dev-perl/Class-Accessor-0.340
 	>=dev-perl/Filesys-Df-0.920
 	>=dev-perl/Set-Tiny-0.010

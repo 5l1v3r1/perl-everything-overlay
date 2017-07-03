@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/self
 	virtual/perl-Attribute-Handlers
 	virtual/perl-Carp
 	virtual/perl-File-Path

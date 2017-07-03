@@ -20,4 +20,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Apache-Test-1.390
+	>=dev-perl/Apache-Test-1.400
 	>=dev-perl/Sys-Proctitle-0.020
 "
 DEPEND="

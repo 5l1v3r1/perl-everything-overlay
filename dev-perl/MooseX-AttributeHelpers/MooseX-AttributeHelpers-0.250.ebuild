@@ -16,10 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Moose-0.560
+	dev-perl/Moose
 	>=virtual/perl-JSON-PP-2.273.000
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-lang/perl
+	>=dev-perl/Test-Exception-0.210
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

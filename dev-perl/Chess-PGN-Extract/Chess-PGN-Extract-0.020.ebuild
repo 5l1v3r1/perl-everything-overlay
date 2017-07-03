@@ -31,4 +31,7 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.050
+	dev-lang/perl
+	dev-perl/File-Which
+	virtual/perl-Test-Simple
 "

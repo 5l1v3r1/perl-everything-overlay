@@ -19,11 +19,13 @@ RDEPEND="
 	dev-perl/Data-Dumper-Concise
 	dev-perl/JSON
 	dev-perl/Moose
+	dev-perl/Regexp-Common
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

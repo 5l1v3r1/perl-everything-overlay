@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Gtk2
 	dev-perl/Test-Unit
 	dev-perl/gtk2-gladexml
-	dev-perl/gtk2-perl
 	>=dev-perl/libintl-perl-1.160
 "
 DEPEND="

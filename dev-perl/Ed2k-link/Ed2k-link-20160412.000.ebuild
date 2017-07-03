@@ -23,9 +23,9 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA
 	virtual/perl-Encode
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

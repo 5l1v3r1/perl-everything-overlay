@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

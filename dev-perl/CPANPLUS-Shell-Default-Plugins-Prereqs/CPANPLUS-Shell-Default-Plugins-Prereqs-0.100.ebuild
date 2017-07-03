@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/CPANPLUS-Dist-Build
+	>=dev-perl/IO-CaptureOutput-1.110.200
+	virtual/perl-Test-Simple
 "

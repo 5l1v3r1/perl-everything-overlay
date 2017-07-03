@@ -22,9 +22,10 @@ RDEPEND="
 	dev-perl/Email-Valid
 	>=dev-perl/Mojolicious-4.000
 	dev-perl/String-Random
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

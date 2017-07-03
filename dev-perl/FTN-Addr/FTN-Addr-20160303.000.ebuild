@@ -19,9 +19,9 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

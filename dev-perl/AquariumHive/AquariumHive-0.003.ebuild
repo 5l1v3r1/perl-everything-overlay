@@ -19,7 +19,6 @@ RDEPEND="
 	dev-perl/Alien-sispmctl
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-HTTP
-	>=dev-perl/AnyEvent-HiveJSO-0.002
 	dev-perl/AnyEvent-JSONRPC
 	dev-perl/AnyEvent-SerialPort
 	dev-perl/AnyEvent-Timer-Cron
@@ -31,7 +30,6 @@ RDEPEND="
 	dev-perl/File-HomeDir
 	dev-perl/File-ShareDir-ProjectDistDir
 	dev-perl/HTML-Parser
-	>=dev-perl/HiveJSO-0.012
 	dev-perl/JSON-MaybeXS
 	dev-perl/Log-Any
 	dev-perl/Module-Pluggable
@@ -51,4 +49,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.960
 "

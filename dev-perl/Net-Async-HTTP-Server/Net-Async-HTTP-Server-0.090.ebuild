@@ -17,9 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTTP-Message
-	>=dev-perl/IO-Async-0.540
+	>=dev-perl/IO-Async-0.610
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.400
+	dev-perl/Test-Identity
+	dev-perl/Test-Refcount
+	>=virtual/perl-Test-Simple-0.880
 "

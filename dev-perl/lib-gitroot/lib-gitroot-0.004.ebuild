@@ -25,4 +25,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Capture-Tiny
+	dev-perl/Test-Deep
+	>=dev-perl/Test-Pod-1.220
+	dev-perl/Test-Spec
+	virtual/perl-File-Path
+	>=virtual/perl-File-Temp-0.160
+	virtual/perl-Test-Simple
 "

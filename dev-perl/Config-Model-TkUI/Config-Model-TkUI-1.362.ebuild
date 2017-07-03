@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Config-Model-2.095
+	dev-perl/Config-Model
 	>=dev-perl/Log-Log4perl-1.110
 	dev-perl/Path-Tiny
 	dev-perl/Pod-POM

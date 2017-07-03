@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/File-Copy-Recursive
+	dev-perl/Path-Class
+	dev-perl/Test-File
+	dev-perl/Test-Most
+	dev-perl/Test-Trap
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

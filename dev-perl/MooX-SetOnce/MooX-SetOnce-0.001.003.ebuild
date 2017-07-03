@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-0.940
 "

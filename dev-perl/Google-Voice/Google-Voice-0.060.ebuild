@@ -19,9 +19,9 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/IO-Socket-SSL-1.370
 	dev-perl/Mojolicious
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

@@ -18,15 +18,15 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Interpolator
-	>=dev-perl/Time-TT-0.004
+	dev-perl/Time-TT
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	>=virtual/perl-Math-BigRat-0.040
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

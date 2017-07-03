@@ -32,4 +32,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Data-UUID-1.149
+	>=dev-perl/Test-XML-0.080
+	>=virtual/perl-File-Spec-0.800
+	>=virtual/perl-Test-Simple-0.470
 "

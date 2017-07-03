@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Parse-Eyapp-1.060
+	>=dev-perl/Pod-Usage-1.000
 	>=virtual/perl-Data-Dumper-1.000
-	>=virtual/perl-Pod-Usage-1.000
 	>=virtual/perl-Scalar-List-Utils-1.000
 "
 DEPEND="

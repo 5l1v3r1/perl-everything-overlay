@@ -16,12 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.470
-	>=dev-perl/yaml-0.710
+	>=dev-lang/perl-2.740
+	>=dev-perl/YAML-0.710
 	>=virtual/perl-File-Spec-3.270.100
 	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Test-Exception-0.270
 "

@@ -19,9 +19,14 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CGI-1.500
 	>=virtual/perl-Carp-1.100
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.190
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Exception-0.310
+	dev-perl/Test-MockTime
+	>=dev-perl/Test-Pod-1.450
+	>=dev-perl/Test-Warn-0.240
+	>=virtual/perl-Test-Simple-0.980
 "

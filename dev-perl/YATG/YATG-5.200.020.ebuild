@@ -25,12 +25,12 @@ RDEPEND="
 	>=dev-perl/Module-MultiConf-0.030.100
 	dev-perl/Net-Netmask
 	dev-perl/Readonly
+	dev-perl/Regexp-Common
 	dev-perl/SNMP
 	dev-perl/SNMP-Effective
 	dev-perl/Scriptalicious
 	dev-perl/YAML-LibYAML
 	dev-perl/base
-	dev-perl/regexp-common
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -40,4 +40,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

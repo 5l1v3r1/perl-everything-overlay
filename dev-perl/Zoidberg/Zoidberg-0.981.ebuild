@@ -17,16 +17,18 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Env
 	dev-perl/Exporter-Tidy
 	>=dev-perl/File-ShareDir-1.000
-	perl-core/Env
+	dev-perl/Pod-Usage
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	virtual/perl-Test-Simple
+	virtual/perl-podlators
 "

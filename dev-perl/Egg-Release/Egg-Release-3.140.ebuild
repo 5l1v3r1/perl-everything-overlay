@@ -43,8 +43,8 @@ RDEPEND="
 	>=dev-perl/Tie-Hash-Indexed-0.050
 	>=dev-perl/UNIVERSAL-require-0.110
 	>=dev-perl/URI-1.350
+	>=dev-perl/YAML-0.660
 	>=dev-perl/libwww-perl-5.800
-	>=dev-perl/yaml-0.660
 	virtual/perl-Carp
 	>=virtual/perl-Digest-MD5-2.360
 	>=virtual/perl-ExtUtils-MakeMaker-6.980

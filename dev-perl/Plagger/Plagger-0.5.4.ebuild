@@ -26,8 +26,8 @@ RDEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/Text-Tags
 	dev-perl/UNIVERSAL-require
+	>=dev-perl/YAML-0.390
 	dev-perl/libwww-perl
-	>=dev-perl/yaml-0.390
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Test-Simple-0.420
 "

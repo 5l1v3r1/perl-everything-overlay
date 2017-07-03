@@ -27,4 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-NoWarnings-0.084
+	virtual/perl-Test-Simple
 "

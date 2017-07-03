@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/JSON-MaybeXS-1.002.002
 	dev-perl/Log-Any
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003
 	>=dev-perl/Package-Stash-0.340
 	dev-perl/Sub-Exporter
 	dev-perl/Try-Tiny

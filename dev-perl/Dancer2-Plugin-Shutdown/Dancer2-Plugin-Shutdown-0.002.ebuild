@@ -16,18 +16,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Load
 	dev-perl/Dancer2
 	>=dev-perl/Moo-2.000
 	>=dev-perl/strictures-2.000
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
-	dev-lang/perl
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/Import-Into

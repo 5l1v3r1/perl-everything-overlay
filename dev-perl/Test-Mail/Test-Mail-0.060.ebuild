@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/MailTools
+	virtual/perl-Test-Simple
 "

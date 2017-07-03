@@ -22,4 +22,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Devel-PPPort-3.200
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-ExtUtils-ParseXS
+	virtual/perl-Test-Simple
 "

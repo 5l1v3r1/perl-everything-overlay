@@ -17,10 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Locale-Maketext-Lexicon-0.700
+	dev-perl/Regexp-Common
 	>=dev-perl/XML-LibXML-1.610
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Test-Simple
 "

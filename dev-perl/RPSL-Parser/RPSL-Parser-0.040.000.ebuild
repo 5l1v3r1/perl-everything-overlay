@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-Test-Harness-2.620
+	virtual/perl-Test-Simple
 "

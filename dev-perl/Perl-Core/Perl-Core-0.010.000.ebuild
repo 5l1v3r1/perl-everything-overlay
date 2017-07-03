@@ -22,9 +22,12 @@ RDEPEND="
 	dev-perl/Sub-Infix
 	dev-perl/Syntax-Feature-Try
 	dev-perl/match-simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Modern
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

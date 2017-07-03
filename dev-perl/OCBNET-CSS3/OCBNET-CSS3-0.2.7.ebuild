@@ -22,4 +22,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	dev-perl/Software-License
+	virtual/perl-Test-Simple
 "

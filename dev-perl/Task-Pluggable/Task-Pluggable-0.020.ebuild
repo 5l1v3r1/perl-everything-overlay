@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Module-Pluggable-Fast
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "

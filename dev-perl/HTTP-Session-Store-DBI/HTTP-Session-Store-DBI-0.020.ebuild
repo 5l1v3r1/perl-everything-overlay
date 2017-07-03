@@ -19,4 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/DBI
+	>=dev-perl/HTTP-Session-0.260
+	dev-perl/Moose
+	virtual/perl-MIME-Base64
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

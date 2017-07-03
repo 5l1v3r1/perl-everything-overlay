@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Exporter-Tiny-0.026
 	>=dev-perl/Sub-Infix-0.004
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 "
 DEPEND="
 	${RDEPEND}

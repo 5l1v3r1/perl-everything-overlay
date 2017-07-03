@@ -27,4 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Moose-2.140.500
+	>=dev-perl/Test-Exception-0.400
+	>=dev-perl/XML-Compile-WSDL11-3.040
+	virtual/perl-Digest-MD5
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

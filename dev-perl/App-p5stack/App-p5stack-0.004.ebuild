@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Which
 	dev-perl/Path-Tiny
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Archive-Tar
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

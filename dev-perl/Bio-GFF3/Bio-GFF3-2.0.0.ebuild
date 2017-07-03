@@ -19,16 +19,19 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-ReadBackwards
 	dev-perl/List-MoreUtils
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/IO-String
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "

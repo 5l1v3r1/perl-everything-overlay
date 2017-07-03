@@ -29,4 +29,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Serializer
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

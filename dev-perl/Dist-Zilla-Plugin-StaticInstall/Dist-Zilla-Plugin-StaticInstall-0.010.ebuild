@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/autovivification
 	dev-perl/namespace-autoclean
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Term-ANSIColor-3.000
 "
 DEPEND="

@@ -29,6 +29,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/Params-Util
 	dev-perl/Proc-ProcessTable
+	dev-perl/Regexp-Common
 	dev-perl/Sub-Exporter
 	dev-perl/Sys-HostAddr
 	dev-perl/Sys-HostIP
@@ -38,7 +39,6 @@ RDEPEND="
 	dev-perl/YAML-LibYAML
 	dev-perl/indirect
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	virtual/perl-IPC-Cmd
 "
 DEPEND="

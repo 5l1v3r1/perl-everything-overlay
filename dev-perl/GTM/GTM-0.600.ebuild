@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/AnyEvent-5.240
 	>=dev-perl/File-HomeDir-0.890
+	>=dev-perl/Gtk2-1.043
 	>=dev-perl/Gtk2-Ex-PodViewer-0.180
 	>=dev-perl/common-sense-3.000
-	>=dev-perl/gtk2-perl-1.043
 "
 DEPEND="
 	${RDEPEND}

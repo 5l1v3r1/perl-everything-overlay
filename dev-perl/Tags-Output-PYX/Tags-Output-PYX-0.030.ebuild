@@ -18,9 +18,14 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Error-Pure
 	dev-perl/Readonly
-	dev-perl/Tags
+	>=dev-perl/Tags-0.020
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/File-Object-0.050
+	dev-perl/Test-NoWarnings
+	>=dev-perl/Test-Output-1.020
+	virtual/perl-Test-Simple
 "

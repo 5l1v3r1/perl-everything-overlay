@@ -16,10 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Captcha-reCAPTCHA
+	dev-perl/Captcha-reCaptcha
 	>=dev-perl/Dancer-1.311.000
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=virtual/perl-Test-Simple-0.880
 "

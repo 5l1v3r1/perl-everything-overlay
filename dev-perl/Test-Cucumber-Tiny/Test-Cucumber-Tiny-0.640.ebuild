@@ -19,11 +19,12 @@ RDEPEND="
 	dev-perl/Mo
 	dev-perl/Readonly
 	dev-perl/Try-Tiny
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Digest
 "

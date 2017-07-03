@@ -23,4 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-HomeDir-0.910
+	dev-perl/Params-Validate
+	dev-perl/YAML-LibYAML
+	>=virtual/perl-Test-Simple-0.940
 "

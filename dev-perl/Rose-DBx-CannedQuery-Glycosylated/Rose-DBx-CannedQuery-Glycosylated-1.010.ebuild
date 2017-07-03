@@ -29,4 +29,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-SQLite
+	dev-perl/Log-Any-Adapter-Carp
+	dev-perl/Rose-DB
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "

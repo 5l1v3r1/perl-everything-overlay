@@ -19,9 +19,9 @@ RDEPEND="
 	dev-perl/Date-Manip
 	>=dev-perl/HTML-TableExtract-2.070
 	dev-perl/HTTP-Message
+	dev-perl/Regexp-Common
 	dev-perl/Text-CSV
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	virtual/perl-MIME-Base64
 "
 DEPEND="

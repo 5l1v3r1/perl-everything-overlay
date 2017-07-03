@@ -19,6 +19,7 @@ RDEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/DBI
 	dev-perl/Sub-Exporter
+	>=dev-perl/self-0.320
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.880
 "

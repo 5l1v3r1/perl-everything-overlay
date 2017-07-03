@@ -46,4 +46,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Faker
+	dev-perl/Directory-Scratch
+	>=dev-perl/Test-CheckChanges-0.140
+	dev-perl/Test-Mini
+	dev-perl/Test-Mini-Unit
+	dev-perl/Test-TempDir
+	dev-perl/Text-Lorem
+	dev-perl/Text-Outdent
+	virtual/perl-File-Temp
 "

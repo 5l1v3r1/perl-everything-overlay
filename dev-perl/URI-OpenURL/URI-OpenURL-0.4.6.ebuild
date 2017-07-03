@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/URI
+	>=dev-perl/URI-1.190
 "
 DEPEND="
 	${RDEPEND}

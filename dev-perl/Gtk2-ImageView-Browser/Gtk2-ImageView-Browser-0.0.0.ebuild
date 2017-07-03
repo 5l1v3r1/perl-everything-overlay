@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-MimeInfo
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Ex-Simple-List
 	dev-perl/Gtk2-ImageView
 	dev-perl/Image-Size
-	dev-perl/gtk2-perl
 	virtual/perl-Test-Simple
 "
 DEPEND="

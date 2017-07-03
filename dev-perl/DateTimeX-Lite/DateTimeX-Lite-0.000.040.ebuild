@@ -18,11 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/File-ShareDir
 	dev-perl/List-MoreUtils
+	dev-perl/SelfLoader
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-SelfLoader
 	virtual/perl-Time-Local
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.810
 "

@@ -25,4 +25,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.700
+	dev-perl/Data-Dump
+	dev-perl/Path-Tiny
+	dev-perl/Sub-Exporter-Progressive
+	dev-perl/Test-Fatal
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

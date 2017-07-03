@@ -20,7 +20,6 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

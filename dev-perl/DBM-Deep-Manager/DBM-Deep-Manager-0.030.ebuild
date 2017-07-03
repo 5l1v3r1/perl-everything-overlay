@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DBM-Deep-2.000
 	dev-perl/Data-Interactive-Inspect
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

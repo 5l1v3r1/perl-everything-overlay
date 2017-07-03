@@ -20,4 +20,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Moose-0.930
+	>=dev-perl/MooseX-Params-Validate-0.120
+	>=dev-perl/MooseX-Types-XMLSchema-0.020
+	>=dev-perl/Perl6-Junction-1.400.000
+	dev-perl/Test-Differences
+	dev-perl/Test-NoWarnings
+	>=dev-perl/XML-LibXML-1.690
+	virtual/perl-Data-Dumper
+	>=virtual/perl-Scalar-List-Utils-1.210
+	virtual/perl-Test-Simple
 "

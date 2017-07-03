@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/AnyEvent
+	>=dev-perl/AnyEvent-7.000
 	dev-perl/JSON
 	dev-perl/Try-Tiny
 	virtual/perl-Scalar-List-Utils
@@ -25,4 +25,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "

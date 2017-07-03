@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/User-1.050
 	>=dev-perl/WWW-Search-2.280
 	dev-perl/XML-XPath
-	>=dev-perl/libwww-perl-5.480
+	dev-perl/libwww-perl
 	>=virtual/perl-Storable-0.600
 	>=virtual/perl-Text-ParseWords-3.200
 "

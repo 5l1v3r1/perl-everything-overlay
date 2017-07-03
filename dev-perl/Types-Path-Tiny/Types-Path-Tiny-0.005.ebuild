@@ -18,9 +18,14 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Path-Tiny
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.004
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/File-pushd
+	virtual/perl-File-Spec
+	>=virtual/perl-File-Temp-0.180
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -26,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	>=dev-perl/Crypt-OpenSSL-Random-0.040
+	>=dev-perl/Test-MockTime-0.130
+	>=virtual/perl-Test-Simple-0.980
 "

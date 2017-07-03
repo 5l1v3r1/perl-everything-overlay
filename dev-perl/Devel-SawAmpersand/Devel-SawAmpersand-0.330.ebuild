@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	>=virtual/perl-CPAN-Meta-2.110.440
-	>=virtual/perl-Parse-CPAN-Meta-1.441.400
 	virtual/perl-Test-Simple
 "
 DEPEND="

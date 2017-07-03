@@ -43,4 +43,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	dev-perl/Sub-Override
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Most
+	dev-perl/lib
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

@@ -23,15 +23,20 @@ RDEPEND="
 	dev-perl/Hash-Merge
 	dev-perl/Moose
 	dev-perl/Perl6-Parameters
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	dev-perl/XML-Simple
 	dev-perl/aliased
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	virtual/perl-Pod-Usage
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Sub-Override
+	>=dev-perl/Test-CheckChanges-0.140
+	dev-perl/Test-Class
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-0.560
 	>=dev-perl/Algorithm-Permute-0.010
 	dev-perl/Bit-Vector
 	>=dev-perl/Clone-0.310

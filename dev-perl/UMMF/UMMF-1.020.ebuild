@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/XML-DOM-1.430
 	>=dev-perl/XML-Parser-2.290
 	>=dev-perl/XML-RegExp-0.020
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 	>=virtual/perl-Scalar-List-Utils-1.130
 "
 DEPEND="

@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	virtual/perl-Carp
+	virtual/perl-Exporter
+	virtual/perl-Test-Simple
 "

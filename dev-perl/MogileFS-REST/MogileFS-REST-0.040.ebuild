@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/MogileFS-Client
 	dev-perl/Plack
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

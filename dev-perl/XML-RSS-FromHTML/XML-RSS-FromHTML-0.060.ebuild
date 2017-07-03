@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/XML-RSS-1.480
 	dev-perl/libwww-perl
 	virtual/perl-File-Temp
-	>=virtual/perl-Test-Simple-0.440
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

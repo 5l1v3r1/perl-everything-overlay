@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
+	dev-perl/Pod-Usage
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-6.060
 	>=dev-perl/HTTP-Response-Stringable-0.000.200
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/Moo-1.005.000

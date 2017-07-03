@@ -27,4 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-File-Spec-0.800
+	>=virtual/perl-Test-Simple-0.470
 "

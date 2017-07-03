@@ -27,4 +27,8 @@ DEPEND="
 	>=dev-perl/File-Which-1.090
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Probe-Perl-0.030
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warn
+	>=virtual/perl-Test-Simple-0.990
 "

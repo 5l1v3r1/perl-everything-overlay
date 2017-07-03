@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Geo-Constants-0.040
 	>=dev-perl/Geo-Functions-0.030
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Data-Startup-0.020
 	>=dev-perl/Data-Str2Num-0.050
-	>=virtual/perl-Math-BigInt-1.390
+	>=virtual/perl-Math-BigInt-1.500
 "
 DEPEND="
 	${RDEPEND}

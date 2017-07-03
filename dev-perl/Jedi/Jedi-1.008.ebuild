@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/HTTP-Body
 	dev-perl/Import-Into
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003.001
 	>=dev-perl/MooX-Options-4.012
 	dev-perl/Net-IP-XS
 	dev-perl/Plack
@@ -38,4 +38,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/Path-Class
+	dev-perl/Slurp
+	dev-perl/Test-Most
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

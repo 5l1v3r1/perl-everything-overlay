@@ -16,14 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Algorithm-Evolutionary-Utils-3.403
 	>=dev-perl/Math-Random-0.630
 	dev-perl/String-Random
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 	virtual/perl-version
 "
 DEPEND="

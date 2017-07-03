@@ -25,4 +25,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CGI-Application-PSGI
+	dev-perl/CGI-PSGI
+	dev-perl/Plack
+	dev-perl/Test-WWW-Mechanize-PSGI
+	dev-perl/base
+	virtual/perl-Test-Simple
 "

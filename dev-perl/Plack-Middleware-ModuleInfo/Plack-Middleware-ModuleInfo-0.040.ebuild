@@ -20,9 +20,12 @@ RDEPEND="
 	dev-perl/Module-Info
 	dev-perl/Net-CIDR-Lite
 	dev-perl/Plack
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/HTTP-Message
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "

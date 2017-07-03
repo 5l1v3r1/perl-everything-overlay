@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Apachish-Examples-0.010
+	dev-perl/File-ShareDir-Tarball
+	dev-perl/JSON-MaybeXS
+	dev-perl/Test-Exception
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

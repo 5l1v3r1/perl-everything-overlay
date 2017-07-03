@@ -21,4 +21,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	>=virtual/perl-ExtUtils-CBuilder-0.150
+	virtual/perl-ExtUtils-ParseXS
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

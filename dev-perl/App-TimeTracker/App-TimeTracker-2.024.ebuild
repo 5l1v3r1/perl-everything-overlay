@@ -51,4 +51,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/File-Copy-Recursive
+	dev-perl/IO-Capture
+	dev-perl/Module-Pluggable
+	dev-perl/Test-File
+	dev-perl/Test-MockTime
+	dev-perl/Test-Most
+	dev-perl/Test-Trap
+	dev-perl/lib
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

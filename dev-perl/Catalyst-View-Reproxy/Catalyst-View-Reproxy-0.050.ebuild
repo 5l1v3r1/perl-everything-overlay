@@ -26,6 +26,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Server-Simple
 	dev-perl/HTTP-Server-Simple-Static
+	dev-perl/NEXT
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	dev-perl/Test-WWW-Mechanize-Catalyst

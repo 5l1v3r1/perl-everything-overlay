@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Data-Printer
+	dev-perl/FindBin-libs
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/JSON-XS
+	dev-perl/Net-Stomp
+	dev-perl/Test-Most
 "

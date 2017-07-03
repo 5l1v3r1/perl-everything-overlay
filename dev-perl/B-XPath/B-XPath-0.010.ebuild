@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Class-XPath
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

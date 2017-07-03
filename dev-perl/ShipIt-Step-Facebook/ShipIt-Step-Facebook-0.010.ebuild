@@ -18,10 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/ShipIt
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

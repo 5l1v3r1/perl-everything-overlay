@@ -16,9 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Gantry-3.520
+	dev-perl/Gantry
 	dev-perl/Gantry-Plugins-Session
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

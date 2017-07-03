@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-perl/Statistics-Regression-0.150
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Storable-2.040
-	>=virtual/perl-Test-Simple-0.450
+	virtual/perl-Test-Simple
 	>=virtual/perl-Text-Balanced-1.890
 "
 DEPEND="

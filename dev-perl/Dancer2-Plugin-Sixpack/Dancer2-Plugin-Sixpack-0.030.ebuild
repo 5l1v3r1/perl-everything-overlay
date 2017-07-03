@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Plack
+	dev-perl/Test-LWP-UserAgent
+	virtual/perl-Test-Simple
 "

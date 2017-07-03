@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Graph-Easy-0.400
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-Module-CoreList-2.020
 "
 DEPEND="

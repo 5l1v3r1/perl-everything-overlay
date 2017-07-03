@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	>=virtual/perl-Test-Harness-3.040
 	virtual/perl-Test-Simple

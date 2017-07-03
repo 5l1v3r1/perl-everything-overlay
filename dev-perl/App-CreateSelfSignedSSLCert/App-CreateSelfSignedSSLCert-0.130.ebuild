@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/Log-Any-IfLOG-0.070
 	dev-perl/Perinci-CmdLine-Any
 	dev-perl/Perinci-Sub-DepChecker
-	dev-perl/Perinci-Sub-XCompletion
 	dev-perl/Proc-ChildError
 	dev-perl/String-ShellQuote
 "

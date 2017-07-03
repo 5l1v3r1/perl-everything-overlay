@@ -21,4 +21,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-Depends-0.402
 	dev-perl/IO-All
+	>=virtual/perl-Test-Simple-0.880
 "

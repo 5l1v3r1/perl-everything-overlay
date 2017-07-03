@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Env
 	dev-perl/File-Locate-Harder
 	dev-perl/List-Filter
 	dev-perl/Test-File-Contents
 	dev-perl/Test-Trap
-	perl-core/Env
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path

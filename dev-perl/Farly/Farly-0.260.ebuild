@@ -19,6 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Log-Any-0.110
 	>=dev-perl/Parse-RecDescent-1.965.001
+	dev-perl/SelfLoader
 	>=dev-perl/Template-Toolkit-2.220
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -26,11 +27,11 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-SelfLoader
 	virtual/perl-Text-Balanced
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.620
+	virtual/perl-Test-Simple
 "

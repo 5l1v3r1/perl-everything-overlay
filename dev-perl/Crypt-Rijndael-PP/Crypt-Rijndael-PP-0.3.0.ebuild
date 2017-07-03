@@ -27,4 +27,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/MooseX-Params-Validate
+	dev-perl/String-Random
+	dev-perl/Test-Exception
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

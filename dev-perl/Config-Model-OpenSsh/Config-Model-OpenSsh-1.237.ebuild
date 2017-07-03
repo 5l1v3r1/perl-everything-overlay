@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Config-Model
+	>=dev-perl/Config-Model-2.050
 	dev-perl/File-HomeDir
 	>=dev-perl/Log-Log4perl-1.110
 	dev-perl/Mouse
@@ -28,4 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340
+	>=dev-perl/Config-Model-Tester-2.042
+	dev-perl/Test-Differences
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "

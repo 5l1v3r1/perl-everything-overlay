@@ -4,7 +4,7 @@
 
 EAPI=6
 
-DIST_AUTHOR="SYSPETE"
+DIST_AUTHOR="ABEVERLEY"
 DIST_VERSION="0.623"
 DIST_A="Dancer2-Plugin-Auth-Extensible-Provider-DBIC-0.623.tar.gz"
 inherit perl-module

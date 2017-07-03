@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Statistics-TTest
-	>=dev-perl/UMLS-Interface-1.09.0
+	>=dev-perl/UMLS-Interface-1.090
 	>=dev-perl/UMLS-Similarity-1.050
 	dev-perl/XML-Twig
 	>=virtual/perl-File-Path-2.080

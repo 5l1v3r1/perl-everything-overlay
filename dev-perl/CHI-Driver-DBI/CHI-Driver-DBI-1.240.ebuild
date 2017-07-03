@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Test-Class
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

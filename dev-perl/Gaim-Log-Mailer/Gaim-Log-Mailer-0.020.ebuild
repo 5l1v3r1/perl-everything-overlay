@@ -17,15 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-Throttler
-	dev-perl/Gaim-Log-Parser
+	>=dev-perl/Gaim-Log-Parser-0.100
 	>=dev-perl/Log-Log4perl-1.000
 	dev-perl/Mail-DWIM
+	dev-perl/Pod-Usage
 	dev-perl/Text-TermExtract
 	dev-perl/URI
 	dev-perl/URI-Find
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

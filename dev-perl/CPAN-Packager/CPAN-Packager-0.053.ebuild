@@ -36,8 +36,8 @@ RDEPEND="
 	>=dev-perl/Test-LoadAllModules-0.020
 	dev-perl/Test-Requires
 	dev-perl/UNIVERSAL-require
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	>=virtual/perl-Module-CoreList-2.170
 	virtual/perl-Test-Simple

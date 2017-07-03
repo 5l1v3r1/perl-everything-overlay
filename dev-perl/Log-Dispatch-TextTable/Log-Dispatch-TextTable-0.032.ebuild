@@ -17,11 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-Dispatch-2.000
+	dev-perl/Log-Dispatch
 	dev-perl/Text-Table
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Capture-Tiny
+	>=virtual/perl-Test-Simple-0.960
 "

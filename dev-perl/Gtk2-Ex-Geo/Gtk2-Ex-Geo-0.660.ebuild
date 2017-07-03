@@ -18,16 +18,16 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Geo-OGC-Geometry
 	dev-perl/Graphics-ColorUtils
+	dev-perl/Gtk2
 	dev-perl/glib-perl
 	dev-perl/gtk2-gladexml
-	dev-perl/gtk2-perl
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-Depends
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "

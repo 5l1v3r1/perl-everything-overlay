@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Data-Validate-0.060
 	>=dev-perl/Data-Validate-IP-0.180
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}

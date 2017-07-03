@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Object-Dependency
 	dev-perl/Test-Differences
 	dev-perl/URI
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-Module-Load
 	virtual/perl-Scalar-List-Utils
@@ -30,4 +30,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Parse-RecDescent
 "

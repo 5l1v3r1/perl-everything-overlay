@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Class-MethodMaker-1.040
 	>=dev-perl/IPC-Run-0.440
 	>=dev-perl/Log-Info-1.130
-	>=virtual/perl-Pod-Usage-1.120
+	>=dev-perl/Pod-Usage-1.120
 	>=virtual/perl-Scalar-List-Utils-1.060
 "
 DEPEND="

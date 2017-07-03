@@ -21,9 +21,16 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Scalar-List-Utils-1.330
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Path-Tiny
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Requires
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-if
 "

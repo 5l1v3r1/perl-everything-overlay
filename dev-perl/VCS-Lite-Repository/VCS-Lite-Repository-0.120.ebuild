@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Params-Validate
 	>=dev-perl/VCS-Lite-0.050
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.700
 	virtual/perl-Time-Piece

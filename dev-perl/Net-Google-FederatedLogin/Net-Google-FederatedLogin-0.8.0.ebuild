@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moose
+	>=dev-perl/Moose-0.510
 	dev-perl/URI
 	dev-perl/XML-Twig
 	dev-perl/libwww-perl
@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CGI
+	dev-perl/Test-Mock-LWP
+	virtual/perl-Test-Simple
 "

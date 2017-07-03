@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Moose
 	dev-perl/URI
-	dev-perl/XML-Rabbit
+	>=dev-perl/XML-Rabbit-0.1.0
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -27,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

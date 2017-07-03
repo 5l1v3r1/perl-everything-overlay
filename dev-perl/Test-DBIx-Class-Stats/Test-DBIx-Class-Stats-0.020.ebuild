@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-HandlesVia
 	dev-perl/Test-DBIx-Class
-	>=virtual/perl-Test-Simple-0.420
+	>=virtual/perl-Test-Simple-1.001.004.001
 	virtual/perl-Time-HiRes
 "
 DEPEND="

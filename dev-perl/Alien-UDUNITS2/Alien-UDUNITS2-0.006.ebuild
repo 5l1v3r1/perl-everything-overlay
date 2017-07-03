@@ -25,4 +25,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.005
+	>=dev-perl/Inline-0.670
+	>=dev-perl/Inline-C-0.620
+	dev-perl/Test-Number-Delta
+	virtual/perl-Module-Load
+	virtual/perl-Test-Simple
 "

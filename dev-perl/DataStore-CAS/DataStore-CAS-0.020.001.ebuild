@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.007
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
 	>=virtual/perl-Digest-1.160
-	virtual/perl-File-Spec
+	>=virtual/perl-File-Spec-3.330
 	>=virtual/perl-File-Temp-0.220
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
@@ -29,4 +29,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Path-Class
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

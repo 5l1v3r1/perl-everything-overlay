@@ -30,4 +30,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Config-Any
+	dev-perl/DateTime
+	dev-perl/HTTP-Message
+	dev-perl/Plack
+	dev-perl/base
+	virtual/perl-Test-Simple
 "

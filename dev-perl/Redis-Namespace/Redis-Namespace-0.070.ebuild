@@ -21,4 +21,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Furl
+	dev-perl/JSON
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-Fatal
+	dev-perl/Test-Kwalitee
+	dev-perl/Test-Kwalitee-Extra
+	dev-perl/Test-RedisServer
+	dev-perl/Test-TCP
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

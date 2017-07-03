@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/B-Hooks-EndOfScope-0.090
-	dev-perl/Devel-Declare
+	>=dev-perl/Devel-Declare-0.006.007
 	>=dev-perl/Sub-Install-0.925
 	dev-perl/Syntax-Feature-Simple
 	dev-perl/aliased
@@ -28,4 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

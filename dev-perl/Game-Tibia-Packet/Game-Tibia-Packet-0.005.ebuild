@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/File-ShareDir
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

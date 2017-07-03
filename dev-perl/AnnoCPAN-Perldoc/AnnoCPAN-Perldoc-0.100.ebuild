@@ -19,8 +19,8 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.000
 	dev-perl/DBI
 	dev-perl/IO-String
+	>=dev-perl/Pod-Perldoc-3.140
 	virtual/perl-Digest-MD5
-	>=virtual/perl-Pod-Perldoc-3.140
 "
 DEPEND="
 	${RDEPEND}

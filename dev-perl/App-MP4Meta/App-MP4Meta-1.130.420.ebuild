@@ -27,9 +27,14 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Module-Load
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Class
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	dev-perl/base
+	virtual/perl-Net-Ping
+	virtual/perl-Test-Simple
 "

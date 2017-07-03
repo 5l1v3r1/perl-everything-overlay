@@ -27,4 +27,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/DBD-Sys-0.102
+	dev-perl/File-Slurp
+	dev-perl/JSON-Any
+	>=dev-perl/Template-DBI-2.650
+	>=dev-perl/Template-Toolkit-2.000
+	virtual/perl-File-Path
+	>=virtual/perl-Test-Simple-0.900
 "

@@ -16,7 +16,29 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/HTTP-Message
+	dev-perl/JSON-MaybeXS
+	>=virtual/perl-CPAN-Meta-2.120.920
+	virtual/perl-Encode
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-HTTP-Tiny
+	virtual/perl-Module-Metadata
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-parent
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/File-pushd
+	dev-perl/Path-Tiny
+	dev-perl/Test-Deep
+	dev-perl/Test-Warnings
+	dev-perl/lib
+	virtual/perl-Data-Dumper
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-if
 "

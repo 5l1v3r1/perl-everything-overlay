@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/JavaScript-Minifier
 	dev-perl/Module-Build
-	>=dev-perl/Mojolicious-3.880
+	dev-perl/Mojolicious
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
 	>=dev-perl/Test-Pod-Coverage-1.080

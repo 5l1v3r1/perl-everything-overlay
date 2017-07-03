@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/DBD-SQLite
+	virtual/perl-Test-Simple
 "

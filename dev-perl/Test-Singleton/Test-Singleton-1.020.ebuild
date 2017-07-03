@@ -20,4 +20,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Class-Singleton
 "

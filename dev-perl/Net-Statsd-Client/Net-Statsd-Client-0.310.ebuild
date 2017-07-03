@@ -18,9 +18,14 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Etsy-StatsD-1.001
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	virtual/perl-Exporter
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

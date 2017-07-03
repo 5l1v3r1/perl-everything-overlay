@@ -21,9 +21,9 @@ RDEPEND="
 	dev-perl/Mouse
 	dev-perl/String-CamelCase
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

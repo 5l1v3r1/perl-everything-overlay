@@ -26,4 +26,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-CheckDeps
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Requires
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

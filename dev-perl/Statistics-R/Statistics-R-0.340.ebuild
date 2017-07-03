@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IPC-Run-0.100
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	>=virtual/perl-Text-Balanced-1.970
 	virtual/perl-Text-Tabs+Wrap
 	>=virtual/perl-version-0.770
@@ -25,4 +25,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	>=virtual/perl-Test-Simple-0.470
 "

@@ -21,4 +21,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-ExtUtils-CBuilder-0.030
 "

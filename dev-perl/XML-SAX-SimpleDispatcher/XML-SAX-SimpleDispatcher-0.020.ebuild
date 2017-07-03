@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/XML-NamespaceSupport
 	dev-perl/XML-SAX
 	dev-perl/XML-SAX-Base
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple
 "

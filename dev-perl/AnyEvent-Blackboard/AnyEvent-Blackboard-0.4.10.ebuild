@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/BSD-Resource
+	dev-perl/Devel-Leak
+	dev-perl/EV
 "

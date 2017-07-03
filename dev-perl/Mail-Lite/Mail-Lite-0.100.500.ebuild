@@ -23,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/YAML-Syck
+	virtual/perl-Test-Simple
 "

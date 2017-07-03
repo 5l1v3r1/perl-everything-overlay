@@ -27,4 +27,18 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/JSON
+	dev-perl/Path-Tiny
+	dev-perl/Test-Deep
+	dev-perl/Test-Warnings
+	>=virtual/perl-CPAN-Meta-2.120.920
+	virtual/perl-Data-Dumper
+	virtual/perl-Encode
+	virtual/perl-File-Spec
+	virtual/perl-HTTP-Tiny
+	virtual/perl-Module-Metadata
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-if
+	virtual/perl-version
 "

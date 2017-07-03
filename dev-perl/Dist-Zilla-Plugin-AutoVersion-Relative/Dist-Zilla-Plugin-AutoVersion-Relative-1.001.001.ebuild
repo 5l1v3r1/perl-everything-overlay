@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Const-Fast
 	>=dev-perl/DateTime-0.500
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-2.101.310
 	>=dev-perl/Moose-1.090
 	>=dev-perl/MooseX-StrictConstructor-0.100
 	dev-perl/MooseX-Types

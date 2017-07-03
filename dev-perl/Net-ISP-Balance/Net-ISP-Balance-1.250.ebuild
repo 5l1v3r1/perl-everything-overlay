@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Net-Netmask
-	virtual/perl-Pod-Usage
+	dev-perl/Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

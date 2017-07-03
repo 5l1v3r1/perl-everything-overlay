@@ -23,4 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Catalyst-Component-InstancePerContext
+	dev-perl/HTTP-Message
+	>=dev-perl/Test-Most-0.340
 "

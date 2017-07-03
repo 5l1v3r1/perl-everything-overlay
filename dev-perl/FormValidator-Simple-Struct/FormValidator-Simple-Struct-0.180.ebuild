@@ -20,4 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Class-Load
+	dev-perl/Email-Valid
+	dev-perl/Hash-MultiValue
+	dev-perl/Test-Exception
+	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Time-Piece
 "

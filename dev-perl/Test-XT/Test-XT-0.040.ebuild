@@ -20,4 +20,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-Remove-1.420
+	>=dev-perl/Perl-MinimumVersion-1.200
+	>=dev-perl/Test-CPAN-Meta-0.120
+	>=dev-perl/Test-CheckChanges-0.080
+	>=dev-perl/Test-DistManifest-1.003
+	>=dev-perl/Test-MinimumVersion-0.008
+	>=dev-perl/Test-Pod-1.260
+	>=dev-perl/Test-Pod-Coverage-1.080
+	>=virtual/perl-File-Spec-0.800
+	>=virtual/perl-Pod-Simple-3.070
+	>=virtual/perl-Test-Simple-0.420
 "

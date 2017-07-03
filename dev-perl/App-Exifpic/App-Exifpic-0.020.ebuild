@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Imager
 	virtual/perl-Thread-Queue
 	virtual/perl-autodie
-	virtual/perl-constant
 	virtual/perl-threads
 "
 DEPEND="

@@ -19,15 +19,15 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Extract
 	>=dev-perl/CPANPLUS-0.078
+	dev-perl/File-Fetch
 	dev-perl/File-HomeDir
 	dev-perl/Log-Message
 	dev-perl/Object-Accessor
 	dev-perl/Term-UI
 	dev-perl/URI
 	>=dev-perl/Wx-0.740
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
-	virtual/perl-File-Fetch
 	virtual/perl-File-Temp
 	virtual/perl-IPC-Cmd
 	virtual/perl-Locale-Maketext-Simple

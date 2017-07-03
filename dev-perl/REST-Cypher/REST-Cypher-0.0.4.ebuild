@@ -27,4 +27,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Dump
+	dev-perl/FindBin-libs
+	dev-perl/HTTP-Message
+	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/Test-Kwalitee
+	dev-perl/Test-Most
+	dev-perl/Test-NoTabs
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Test-UseAllModules
+	dev-perl/Try-Tiny
 "

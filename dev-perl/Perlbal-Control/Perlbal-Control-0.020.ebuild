@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Moose-0.320
+	>=dev-perl/MooseX-Control-0.020
+	dev-perl/Proc-ProcessTable
+	virtual/perl-Test-Simple
 "

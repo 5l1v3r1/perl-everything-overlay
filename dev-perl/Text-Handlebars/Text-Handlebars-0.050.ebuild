@@ -23,9 +23,15 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Sub-Exporter
+	dev-perl/Test-Fatal
+	dev-perl/Test-Requires
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

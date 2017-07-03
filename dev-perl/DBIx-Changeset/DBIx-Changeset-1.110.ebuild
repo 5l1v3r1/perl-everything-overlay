@@ -39,7 +39,7 @@ RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Output
 	>=dev-perl/Test-Pod-1.140
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-Encode
 	virtual/perl-File-Spec

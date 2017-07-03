@@ -19,6 +19,7 @@ RDEPEND="
 	>=dev-perl/Dancer-1.313.600
 	>=dev-perl/Data-Structure-Util-0.160
 	>=dev-perl/Moo-2.000
+	dev-perl/Sub-Quote
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	dev-perl/namespace-clean
@@ -27,4 +28,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-Load
+	dev-perl/HTTP-Cookies
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	>=dev-perl/Plack-1.003.100
+	dev-perl/Test-Exception
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

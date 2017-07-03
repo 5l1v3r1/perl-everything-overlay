@@ -19,11 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Modern-Perl
 	dev-perl/RPC-XML
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-libnet
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

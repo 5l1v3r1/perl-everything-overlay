@@ -19,10 +19,14 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Exporter-Easy
 	>=dev-perl/File-ShareDir-1.000
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Most
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

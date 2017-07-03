@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.039
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
-	>=virtual/perl-Module-CoreList-5.201.703.290
+	>=virtual/perl-Module-CoreList-5.201.705.040
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

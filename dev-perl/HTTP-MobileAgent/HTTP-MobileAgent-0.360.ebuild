@@ -19,10 +19,11 @@ RDEPEND="
 	dev-perl/Filter
 	>=dev-perl/HTTP-Message-1.430
 	>=dev-perl/WWW-MobileCarrierJP-0.040
-	>=dev-perl/yaml-0.710
+	>=dev-perl/YAML-0.710
 	>=virtual/perl-Scalar-List-Utils-1.140
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.320
 "

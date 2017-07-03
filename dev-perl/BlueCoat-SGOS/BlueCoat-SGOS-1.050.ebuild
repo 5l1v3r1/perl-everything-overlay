@@ -26,4 +26,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-NoWarnings-1.040
+	>=virtual/perl-Test-Harness-3.180
 "

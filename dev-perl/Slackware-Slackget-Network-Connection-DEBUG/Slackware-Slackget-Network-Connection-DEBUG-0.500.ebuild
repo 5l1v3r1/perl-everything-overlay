@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Slackware-Slackget-0.140
+	virtual/perl-Test-Simple
 "

@@ -20,9 +20,12 @@ RDEPEND="
 	dev-perl/Exporter-Tidy
 	dev-perl/Object-Tiny-Lvalue
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Differences
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

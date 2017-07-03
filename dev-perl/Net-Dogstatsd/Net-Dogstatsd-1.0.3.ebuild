@@ -26,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Test-FailWarnings
+	dev-perl/Test-Most
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Storable
 "

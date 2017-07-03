@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Remove
+	dev-perl/Regexp-Common
 	>=dev-perl/Test-Pod-Coverage-1.040
-	dev-perl/regexp-common
 	virtual/perl-Digest-MD5
 "
 DEPEND="

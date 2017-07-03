@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.102.345
 	dev-perl/File-HomeDir
-	>=dev-perl/Moose-1.010
+	>=dev-perl/Moose-1.030
 	>=dev-perl/PPI-1.206
 	virtual/perl-File-Spec
 "

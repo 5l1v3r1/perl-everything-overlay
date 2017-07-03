@@ -22,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Bot-BasicBot-Pluggable
+	virtual/perl-Test-Simple
 "

@@ -16,7 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/base
+	virtual/perl-Exporter
+	virtual/perl-XSLoader
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

@@ -23,7 +23,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Catalyst-Action-RenderView
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800
 	>=dev-perl/Test-WWW-Mechanize-1.460
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/namespace-autoclean

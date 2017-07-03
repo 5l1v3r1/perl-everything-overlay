@@ -34,9 +34,9 @@ RDEPEND="
 	dev-perl/Task-Moose
 	dev-perl/WWW-Mechanize
 	dev-perl/Web-Scraper
+	dev-perl/YAML
 	dev-perl/ack
 	dev-perl/utf8-all
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

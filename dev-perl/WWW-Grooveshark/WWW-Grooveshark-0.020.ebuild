@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/JSON-Any
+	>=dev-perl/NEXT-0.610
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp

@@ -19,14 +19,20 @@ RDEPEND="
 	dev-perl/Archive-Extract
 	dev-perl/Class-Accessor-Lite
 	dev-perl/Data-Section-Simple
+	dev-perl/File-Fetch
 	dev-perl/Plack
 	dev-perl/Plack-Request-WithEncoding
 	dev-perl/URL-Encode
-	virtual/perl-File-Fetch
 	virtual/perl-Module-Load
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Capture-Tiny
+	dev-perl/Test-Exception
+	dev-perl/Test-WWW-Mechanize-PSGI
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
 "

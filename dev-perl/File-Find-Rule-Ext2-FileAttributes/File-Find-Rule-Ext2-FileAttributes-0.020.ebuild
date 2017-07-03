@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/File-Find-Rule
+	dev-perl/Linux-Ext2-FileAttributes
+	virtual/perl-Test-Simple
 "

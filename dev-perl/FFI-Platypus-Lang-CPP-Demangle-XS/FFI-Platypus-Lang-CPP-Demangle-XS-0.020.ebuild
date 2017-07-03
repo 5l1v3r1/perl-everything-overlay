@@ -22,4 +22,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-CppGuess
 	>=dev-perl/Module-Build-0.280
+	>=virtual/perl-Test-Simple-0.940
 "

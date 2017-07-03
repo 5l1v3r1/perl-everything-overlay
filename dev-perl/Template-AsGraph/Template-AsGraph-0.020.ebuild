@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/Graph-Easy
+	>=dev-perl/Template-Toolkit-2.000
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

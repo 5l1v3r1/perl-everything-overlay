@@ -20,6 +20,7 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Moo
 	dev-perl/Package-Variant
+	dev-perl/Sub-Quote
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	dev-perl/namespace-clean
@@ -30,4 +31,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Pluggable
+	>=virtual/perl-Test-Simple-0.980
 "

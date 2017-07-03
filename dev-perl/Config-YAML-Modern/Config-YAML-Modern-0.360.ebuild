@@ -16,14 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.820
+	>=dev-lang/perl-1.120
 	>=dev-perl/Data-Diver-1.010.100
 	>=dev-perl/Hash-Merge-0.120
-	>=dev-perl/yaml-0.720
+	>=dev-perl/YAML-0.720
 	>=virtual/perl-Carp-1.200
 	>=virtual/perl-File-Spec-3.330
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "

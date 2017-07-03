@@ -24,4 +24,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
+	dev-lang/perl
+	dev-perl/Catalyst-Runtime
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/URI
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "

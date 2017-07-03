@@ -22,10 +22,10 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Params-Validate
+	dev-perl/Pod-Usage
 	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

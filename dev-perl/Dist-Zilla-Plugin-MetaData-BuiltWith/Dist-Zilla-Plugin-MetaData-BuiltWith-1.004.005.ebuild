@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Devel-CheckBin
-	>=dev-perl/Dist-Zilla-4.101.540
+	dev-perl/Dist-Zilla
 	dev-perl/JSON-MaybeXS
 	dev-perl/Module-Runtime
 	>=dev-perl/Moose-2.000

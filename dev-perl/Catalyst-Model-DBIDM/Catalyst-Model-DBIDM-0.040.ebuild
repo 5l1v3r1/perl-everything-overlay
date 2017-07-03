@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Catalyst-Runtime
+	dev-perl/DBI
+	>=dev-perl/DBIx-DataModel-1.000
+	virtual/perl-Test-Simple
 "

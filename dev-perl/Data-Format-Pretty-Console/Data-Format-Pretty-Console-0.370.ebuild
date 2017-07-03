@@ -20,12 +20,17 @@ RDEPEND="
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/Log-Any-IfLOG-0.070
 	>=dev-perl/Text-ANSITable-0.080
+	dev-perl/YAML
 	dev-perl/experimental
-	dev-perl/yaml
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Dump-Partial
+	>=dev-perl/Data-Unixish-1.540
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

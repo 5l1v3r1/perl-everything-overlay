@@ -20,10 +20,11 @@ RDEPEND="
 	>=dev-perl/HTTP-Validate-0.450
 	>=dev-perl/JSON-2.000
 	>=dev-perl/Moo-1.000
+	dev-perl/YAML
 	>=dev-perl/namespace-clean-0.160
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	virtual/perl-Test-Simple
 "

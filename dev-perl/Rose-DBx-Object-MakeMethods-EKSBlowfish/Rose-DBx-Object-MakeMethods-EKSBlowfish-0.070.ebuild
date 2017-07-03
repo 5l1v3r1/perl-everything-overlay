@@ -23,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	>=dev-perl/Rose-DBx-TestDB-0.050
+	virtual/perl-Test-Simple
 "

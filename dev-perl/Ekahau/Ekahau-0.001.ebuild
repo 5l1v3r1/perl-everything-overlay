@@ -21,7 +21,6 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-IO
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

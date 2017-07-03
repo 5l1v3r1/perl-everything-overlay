@@ -19,9 +19,12 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Module-Build-Pluggable
 	dev-perl/PDL
-	virtual/perl-Pod-Perldoc
+	dev-perl/Pod-Perldoc
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.500
+	dev-perl/Path-Class
+	virtual/perl-IPC-Cmd
+	>=virtual/perl-Test-Simple-0.870
 "

@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/File-Slurp-Tree
+	virtual/perl-Test-Simple
 "

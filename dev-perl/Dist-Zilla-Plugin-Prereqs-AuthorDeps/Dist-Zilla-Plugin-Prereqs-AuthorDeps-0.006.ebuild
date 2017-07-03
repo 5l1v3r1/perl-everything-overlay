@@ -17,13 +17,18 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Path-Tiny
+	dev-perl/Test-Deep
+	dev-perl/Test-Deep-JSON
+	virtual/perl-CPAN-Meta
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

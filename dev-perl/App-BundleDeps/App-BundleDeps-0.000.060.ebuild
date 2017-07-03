@@ -17,10 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/App-cpanminus-0.991.000
+	dev-perl/YAML
 	dev-perl/local-lib
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

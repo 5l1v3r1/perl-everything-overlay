@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-6.070
 	dev-perl/JSON-MaybeXS
 	dev-perl/libwww-perl
 	virtual/perl-Encode

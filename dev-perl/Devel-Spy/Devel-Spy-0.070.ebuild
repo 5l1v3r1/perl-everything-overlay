@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Test-Warn
 	dev-perl/UNIVERSAL-ref
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

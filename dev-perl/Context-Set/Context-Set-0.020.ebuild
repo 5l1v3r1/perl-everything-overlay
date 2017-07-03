@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/DBD-SQLite-1.350
+	>=dev-perl/DBIx-Class-Schema-Loader-0.070.100
+	virtual/perl-Test-Simple
 "

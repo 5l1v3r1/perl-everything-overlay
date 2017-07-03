@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/IO-Socket-SSL-1.940
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.040
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

@@ -19,16 +19,17 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/Catalyst-Devel
 	>=dev-perl/Catalyst-Runtime-5.800.320
+	dev-perl/Gtk2
+	dev-perl/IPC-SysV
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/Object-Destroyer
 	dev-perl/Try-Tiny
-	dev-perl/gtk2-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-IO
-	virtual/perl-IPC-SysV
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

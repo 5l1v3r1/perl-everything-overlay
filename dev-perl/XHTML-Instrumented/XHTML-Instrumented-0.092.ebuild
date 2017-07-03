@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Warn
+	dev-perl/Test-XML
+	>=dev-perl/Test-XML-Order-0.030
 "

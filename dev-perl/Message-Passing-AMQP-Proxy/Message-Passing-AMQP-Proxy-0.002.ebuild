@@ -30,4 +30,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Pod-Coverage-0.190
+	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/Test-NoTabs
+	>=dev-perl/Test-Pod-1.140
+	>=dev-perl/Test-Pod-Coverage-1.040
+	dev-perl/Test-Spelling
+	>=virtual/perl-Test-Simple-0.880
 "

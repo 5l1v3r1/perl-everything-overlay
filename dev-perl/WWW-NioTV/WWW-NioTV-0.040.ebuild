@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/HTML-SimpleLinkExtor-1.190
+	>=dev-perl/HTML-TableExtract-2.100
+	>=dev-perl/List-MoreUtils-0.220
+	>=dev-perl/Moose-0.540
+	>=dev-perl/WWW-Mechanize-1.340
+	>=virtual/perl-Test-Simple-0.800
+	>=virtual/perl-version-0.760
 "

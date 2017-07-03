@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Gtk2
 	dev-perl/Moose
 	dev-perl/Net-DBus
 	dev-perl/Net-DBus-GLib
-	dev-perl/gtk2-perl
 	virtual/perl-Test-Simple
 "
 DEPEND="

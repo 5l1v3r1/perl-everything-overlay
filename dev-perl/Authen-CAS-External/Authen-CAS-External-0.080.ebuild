@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Message-5.817
 	>=dev-perl/Moose-0.890
 	>=dev-perl/MooseX-StrictConstructor-0.080
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.080
 	dev-perl/MooseX-Types-URI
 	dev-perl/URI
 	>=dev-perl/libwww-perl-5.819
@@ -31,4 +31,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Requires-0.020
+	virtual/perl-Test-Simple
 "

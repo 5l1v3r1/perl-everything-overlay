@@ -20,11 +20,14 @@ RDEPEND="
 	>=dev-perl/PAUSE-Permissions-0.090
 	>=dev-perl/Parse-LocalDistribution-0.080
 	>=dev-perl/Parse-PMFile-0.150
+	virtual/perl-CPAN-Meta
 	virtual/perl-Exporter
-	virtual/perl-Parse-CPAN-Meta
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.070
+	>=dev-perl/Test-UseAllModules-0.100
+	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

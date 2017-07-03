@@ -24,4 +24,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Test-Mock-Guard
+	virtual/perl-ExtUtils-CBuilder
 "

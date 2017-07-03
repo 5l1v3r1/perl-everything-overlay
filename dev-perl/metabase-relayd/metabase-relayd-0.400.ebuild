@@ -21,11 +21,11 @@ RDEPEND="
 	>=dev-perl/POE-Component-Metabase-Relay-Server-0.340
 	>=dev-perl/POE-XS-Loop-EPoll-1.001
 	>=dev-perl/POE-XS-Queue-Array-0.005
+	>=dev-perl/Pod-Usage-1.000
 	dev-perl/unless
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	>=virtual/perl-Module-Load-Conditional-0.380
-	>=virtual/perl-Pod-Usage-1.000
 "
 DEPEND="
 	${RDEPEND}

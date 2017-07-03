@@ -16,11 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/HTML-FormHandler
+	>=dev-perl/HTML-FormHandler-0.010
 	dev-perl/HTML-FormHandlerX-Field-JavaScript
 	dev-perl/JSON
 	>=dev-perl/Method-Signatures-Simple-0.020
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Lib-0.001
+	>=dev-perl/Test-LongString-0.120
+	>=dev-perl/namespace-autoclean-0.010
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

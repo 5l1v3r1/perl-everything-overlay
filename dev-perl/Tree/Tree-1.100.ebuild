@@ -22,7 +22,6 @@ RDEPEND="
 	>=virtual/perl-Data-Dumper-2.161
 	>=virtual/perl-Exporter-5.710
 	>=virtual/perl-Scalar-List-Utils-1.450
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

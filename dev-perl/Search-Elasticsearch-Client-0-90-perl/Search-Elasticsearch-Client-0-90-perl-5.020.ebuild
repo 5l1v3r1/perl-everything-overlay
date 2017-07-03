@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Devel-GlobalDestruction
 	dev-perl/Moo
-	>=dev-perl/Search-Elasticsearch-5.020
+	dev-perl/Search-Elasticsearch
 	dev-perl/Try-Tiny
 	dev-perl/namespace-clean
 "

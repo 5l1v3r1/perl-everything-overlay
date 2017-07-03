@@ -32,4 +32,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-C3
+	dev-perl/File-Slurp
+	dev-perl/MRO-Compat
+	dev-perl/Test-Deep
+	dev-perl/Test-Fixture-DBIC-Schema
+	dev-perl/Test-MockModule
+	virtual/perl-Test-Simple
 "

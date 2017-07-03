@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.000
 	dev-perl/Moose
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-podlators

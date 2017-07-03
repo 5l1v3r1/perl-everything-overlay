@@ -26,5 +26,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-NoWarnings-0.010
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-0.010
 "

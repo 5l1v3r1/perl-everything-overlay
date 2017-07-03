@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-HTTP
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

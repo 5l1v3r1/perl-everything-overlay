@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Sub-Exporter
 	>=dev-perl/Test-Exception-0.310
 	dev-perl/Try-Tiny
-	>=dev-perl/yaml-0.720
+	>=dev-perl/YAML-0.720
 "
 DEPEND="
 	${RDEPEND}

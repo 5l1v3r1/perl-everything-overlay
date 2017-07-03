@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/gtk2-perl-1.247
+	>=dev-perl/Gtk2-1.247
 "
 DEPEND="
 	${RDEPEND}

@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.290
+	>=dev-perl/Catalyst-View-JSON-0.260
+	>=dev-perl/SQL-Translator-0.110.160
+	dev-perl/Test-Deep
+	>=virtual/perl-Test-Simple-0.920
 "

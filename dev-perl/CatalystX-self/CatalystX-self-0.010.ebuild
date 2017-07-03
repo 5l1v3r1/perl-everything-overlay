@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Sub-Exporter
+	dev-perl/self
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple
 	virtual/perl-parent

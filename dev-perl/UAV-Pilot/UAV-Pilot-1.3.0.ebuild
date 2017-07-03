@@ -27,8 +27,8 @@ RDEPEND="
 	dev-perl/MooseX-Event
 	dev-perl/String-CRC32
 	dev-perl/Throwable
+	dev-perl/YAML
 	dev-perl/namespace-autoclean
-	dev-perl/yaml
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Math-Complex
@@ -37,4 +37,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Pod
 "

@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Crypt-SSLeay
+	dev-perl/URI
+	dev-perl/XML-Simple
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
 "

@@ -23,4 +23,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test
 "

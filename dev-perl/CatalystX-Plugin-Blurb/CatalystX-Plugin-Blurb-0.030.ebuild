@@ -22,4 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Plugin-Session-Store-FastMmap
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-Test-Simple
 "

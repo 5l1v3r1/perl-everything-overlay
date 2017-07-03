@@ -24,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Action-RenderView
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-View-TT
+	>=dev-perl/Test-Exception-0.210
+	>=virtual/perl-Test-Simple-0.620
 "

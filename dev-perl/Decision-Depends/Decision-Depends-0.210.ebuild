@@ -19,10 +19,13 @@ RDEPEND="
 	dev-perl/Clone
 	dev-perl/Data-Compare
 	dev-perl/Tie-IxHash
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	>=dev-perl/Test-TempDir-Tiny-0.005
+	virtual/perl-Test-Simple
 "

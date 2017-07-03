@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/DBICx-TestDatabase
+	dev-perl/DBIx-Class-TimeStamp
+	dev-perl/Test-Exception
+	>=virtual/perl-Test-Simple-0.630
 "

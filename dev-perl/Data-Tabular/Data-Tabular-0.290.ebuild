@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Digest-MD5
+	virtual/perl-Test-Simple
 "

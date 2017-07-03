@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.200.006
+	>=dev-perl/Dist-Zilla-5.006
 	>=dev-perl/Moose-1.030
 	>=dev-perl/MooseX-Types-Perl-0.101.340
 	>=dev-perl/Perl-MinimumVersion-1.260

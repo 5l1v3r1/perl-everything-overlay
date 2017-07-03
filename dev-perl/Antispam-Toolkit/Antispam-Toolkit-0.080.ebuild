@@ -35,4 +35,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Dist-CheckConflicts-0.010
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	>=virtual/perl-Test-Simple-0.880
 "

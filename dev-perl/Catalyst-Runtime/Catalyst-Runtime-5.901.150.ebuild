@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Data-OptList
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.220
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-5.813
 	>=dev-perl/HTTP-Request-AsCGI-1.000
 	dev-perl/Hash-MultiValue
 	dev-perl/IO-stringy
@@ -39,7 +39,7 @@ RDEPEND="
 	>=dev-perl/MooseX-MethodAttributes-0.240
 	>=dev-perl/MooseX-Role-WithOverloading-0.090
 	>=dev-perl/Path-Class-0.090
-	>=dev-perl/Plack-0.999.100
+	dev-perl/Plack
 	>=dev-perl/Plack-Middleware-FixMissingBodyInRedirect-0.090
 	>=dev-perl/Plack-Middleware-MethodOverride-0.120
 	>=dev-perl/Plack-Middleware-RemoveRedundantBody-0.030

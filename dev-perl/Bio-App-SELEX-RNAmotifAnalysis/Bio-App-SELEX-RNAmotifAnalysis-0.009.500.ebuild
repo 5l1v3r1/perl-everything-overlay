@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Data-Section
+	dev-perl/File-Slurp
+	dev-perl/Test-LongString
+	>=virtual/perl-Test-Simple-0.960
 "

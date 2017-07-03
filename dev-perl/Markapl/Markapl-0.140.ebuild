@@ -26,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/HTML-Lint-2.060
+	>=virtual/perl-Test-Simple-0.420
 "

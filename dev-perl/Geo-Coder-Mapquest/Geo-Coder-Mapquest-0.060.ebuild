@@ -17,11 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/JSON-2.000
-	>=dev-perl/URI-1.360
+	dev-perl/URI
 	>=dev-perl/libwww-perl-6.020
 	virtual/perl-Encode
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.820
 "

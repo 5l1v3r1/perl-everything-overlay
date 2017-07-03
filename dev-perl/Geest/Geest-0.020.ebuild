@@ -27,6 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
-	>=dev-perl/Module-Build-Pluggable-0.010
+	>=dev-perl/Module-Build-Pluggable-0.050
 	>=dev-perl/Module-Build-Pluggable-ReadmeMarkdownFromPod-0.020
+	dev-perl/Pod-Markdown
 "

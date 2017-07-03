@@ -20,4 +20,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Exception-0.210
+	dev-perl/Test-LongString
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.620
 "

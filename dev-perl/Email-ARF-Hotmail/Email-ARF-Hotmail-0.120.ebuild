@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Email-ARF-0.005
 	>=dev-perl/Email-MIME-1.903
-	>=dev-perl/regexp-common-2.122
+	>=dev-perl/Regexp-Common-2.122
 	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="

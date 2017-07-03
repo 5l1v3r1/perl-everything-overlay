@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Random-0.050
-	>=dev-perl/Template-Toolkit-2.200
+	>=dev-perl/Template-Toolkit-2.700
 "
 DEPEND="
 	${RDEPEND}

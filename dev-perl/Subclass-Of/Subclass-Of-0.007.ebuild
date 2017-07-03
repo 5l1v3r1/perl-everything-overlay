@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Exporter-Tiny
 	dev-perl/Module-Runtime
 	dev-perl/namespace-clean
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}

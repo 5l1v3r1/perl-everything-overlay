@@ -27,4 +27,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	>=dev-perl/File-HomeDir-0.910
 "

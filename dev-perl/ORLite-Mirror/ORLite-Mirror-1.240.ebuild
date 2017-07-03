@@ -30,4 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/URI-1.350
+	>=virtual/perl-Test-Simple-0.470
 "

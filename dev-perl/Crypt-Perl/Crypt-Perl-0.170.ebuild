@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.230
 	>=dev-perl/Bytes-Random-Secure-Tiny-1.008
 	>=dev-perl/Class-Accessor-0.340
 	>=dev-perl/Convert-ASN1-0.270
@@ -27,7 +28,6 @@ RDEPEND="
 	>=virtual/perl-MIME-Base64-3.110
 	>=virtual/perl-Math-BigInt-1.999.805
 	virtual/perl-autodie
-	>=virtual/perl-constant-1.230
 	>=virtual/perl-parent-0.225
 "
 DEPEND="
@@ -39,5 +39,5 @@ DEPEND="
 	>=dev-perl/Test-Class-0.400
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Exception-0.400
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-1.000
 "

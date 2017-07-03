@@ -36,4 +36,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	dev-perl/DateTime-Format-HTTP
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/URI
+	virtual/perl-Digest-MD5
+	>=virtual/perl-Test-Simple-0.880
 "

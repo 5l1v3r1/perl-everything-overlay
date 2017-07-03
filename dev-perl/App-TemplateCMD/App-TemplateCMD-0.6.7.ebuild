@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Path-Tiny
 	dev-perl/Readonly
-	>=dev-perl/Template-Toolkit-2.140
+	>=dev-perl/Template-Toolkit-2.940
 	dev-perl/YAML
 	virtual/perl-version
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Inspector
 	dev-perl/Moose
 	dev-perl/Test-UseAllModules
-	dev-perl/XML-LibXML
+	>=dev-perl/XML-LibXML-1.630
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple
 "

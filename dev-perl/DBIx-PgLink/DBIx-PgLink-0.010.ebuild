@@ -28,4 +28,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/DBD-Pg-1.470
+	>=dev-perl/Test-Deep-0.096
+	>=dev-perl/Test-Exception-0.250
+	dev-perl/YAML
+	>=virtual/perl-Test-Simple-0.700
 "

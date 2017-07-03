@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-UUID
-	>=dev-perl/HTML-Tiny-1.01.0
+	>=dev-perl/HTML-Tiny-1.1.0
 	>=dev-perl/HTTP-Proxy-0.200
 	>=dev-perl/JSON-2.010
 	dev-perl/LockFile-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

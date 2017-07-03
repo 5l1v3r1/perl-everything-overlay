@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-LongString-0.100
+	>=dev-perl/Test-NoWarnings-0.084
+	>=virtual/perl-Test-Simple-0.470
 "

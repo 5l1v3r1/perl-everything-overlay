@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

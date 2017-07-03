@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/App-FatPacker-0.009.006
+	>=dev-perl/Perl-Critic-1.113
+	>=dev-perl/Test-Class-0.360
+	>=dev-perl/Test-Perl-Critic-1.020
 "

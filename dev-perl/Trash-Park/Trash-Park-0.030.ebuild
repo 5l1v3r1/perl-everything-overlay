@@ -21,11 +21,11 @@ RDEPEND="
 	dev-perl/DBD-CSV
 	dev-perl/DBI
 	dev-perl/Log-Log4perl
+	dev-perl/Pod-Usage
 	dev-perl/Stat-lsMode
 	dev-perl/Sysadm-Install
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

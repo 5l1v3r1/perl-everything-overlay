@@ -23,4 +23,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/File-Find-Rule-0.100
+	>=dev-perl/File-Slurp-2002.103.100
+	>=dev-perl/Test-Class-0.030
+	>=virtual/perl-File-Path-1.050
+	>=virtual/perl-Test-Harness-2.300
 "

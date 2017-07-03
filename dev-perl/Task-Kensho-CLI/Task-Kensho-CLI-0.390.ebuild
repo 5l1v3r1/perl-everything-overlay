@@ -16,7 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/App-Nopaste
+	dev-perl/Devel-REPL
+	dev-perl/ack
+	virtual/perl-Module-CoreList
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Test-Simple
 "

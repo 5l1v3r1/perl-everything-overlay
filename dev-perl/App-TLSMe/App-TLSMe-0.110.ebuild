@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/AnyEvent-5.340
 	dev-perl/Net-SSLeay
+	dev-perl/Pod-Usage
 	dev-perl/Proc-Pidfile
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Piece

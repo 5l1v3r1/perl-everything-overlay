@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
 	dev-perl/Module-Runtime
-	dev-perl/MongoDB
+	>=dev-perl/MongoDB-1.000
 	dev-perl/MooX-Role-Logger
 	>=dev-perl/Moose-2.000
 	dev-perl/MooseX-AttributeShortcuts

@@ -29,4 +29,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Perl-osnames-0.090
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

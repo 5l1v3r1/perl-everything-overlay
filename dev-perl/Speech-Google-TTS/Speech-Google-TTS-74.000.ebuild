@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/CGI
+	dev-perl/libwww-perl
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Catalyst-Component-InstancePerContext
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-Runtime
+	dev-perl/DBIx-Class-QueryLog
+	dev-perl/Moose
+	dev-perl/MooseX-Emulate-Class-Accessor-Fast
+	virtual/perl-Test-Simple
 "

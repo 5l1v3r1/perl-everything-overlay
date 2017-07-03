@@ -22,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Plack-Middleware-Session
+	>=virtual/perl-Test-Simple-0.880
 "

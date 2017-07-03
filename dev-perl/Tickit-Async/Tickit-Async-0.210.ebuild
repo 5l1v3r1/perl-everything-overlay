@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/IO-Async-0.470
+	>=dev-perl/IO-Async-0.340
 	>=dev-perl/Tickit-0.580
 "
 DEPEND="

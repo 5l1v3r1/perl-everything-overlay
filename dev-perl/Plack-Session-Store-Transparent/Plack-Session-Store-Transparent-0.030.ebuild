@@ -21,4 +21,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Plack-Middleware-Session-0.200
+	>=dev-perl/Test-Exception-0.320
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "

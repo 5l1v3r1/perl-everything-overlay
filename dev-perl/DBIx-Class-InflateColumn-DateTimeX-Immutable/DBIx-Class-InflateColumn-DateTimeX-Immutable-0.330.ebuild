@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.400
+	dev-perl/DBD-SQLite
+	dev-perl/DateTime-Format-SQLite
+	>=dev-perl/SQL-Translator-0.110.180
+	>=virtual/perl-Test-Simple-0.870
 "

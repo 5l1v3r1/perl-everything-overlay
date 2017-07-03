@@ -19,8 +19,8 @@ RDEPEND="
 	dev-perl/IPC-Run3
 	>=dev-perl/Pandoc-0.6.0
 	>=dev-perl/Pandoc-Elements-0.290
+	dev-perl/Pod-Usage
 	>=virtual/perl-Pod-Simple-3.080
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

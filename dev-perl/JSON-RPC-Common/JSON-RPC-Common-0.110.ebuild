@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-2.110
 	dev-perl/MRO-Compat
-	>=dev-perl/Moose-0.480
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/Try-Tiny
 	dev-perl/URI
@@ -32,4 +32,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Exception
+	virtual/perl-Data-Dumper
+	virtual/perl-Encode
+	virtual/perl-Test-Simple
 "

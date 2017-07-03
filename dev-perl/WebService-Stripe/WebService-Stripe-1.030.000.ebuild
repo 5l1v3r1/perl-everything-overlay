@@ -16,15 +16,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Data-NestedParams
 	dev-perl/HTTP-Message
 	dev-perl/Method-Signatures
 	dev-perl/Moo
 	>=dev-perl/WebService-Client-0.040.000
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/JSON
+	dev-perl/Test-Modern
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

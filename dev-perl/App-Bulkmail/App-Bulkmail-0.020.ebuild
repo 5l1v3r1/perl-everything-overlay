@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Any-Moose
 	dev-perl/File-Slurp
 	dev-perl/Template-Toolkit
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

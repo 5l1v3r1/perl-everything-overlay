@@ -19,4 +19,13 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Class-Accessor-0.250
+	>=dev-perl/Class-Data-Inheritable-0.040
+	>=dev-perl/HTML-Tree-3.210
+	>=dev-perl/Module-Pluggable-3.400
+	>=dev-perl/NEXT-0.600
+	>=dev-perl/UNIVERSAL-require-0.100
+	>=dev-perl/XML-TreeBuilder-3.090
+	virtual/perl-Data-Dumper
+	>=virtual/perl-Test-Simple-0.620
 "

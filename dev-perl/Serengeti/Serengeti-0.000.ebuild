@@ -23,11 +23,11 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/JavaScript-1.160
 	dev-perl/Module-Pluggable
+	dev-perl/Regexp-Common
 	dev-perl/Test-Exception
 	dev-perl/URI
 	>=dev-perl/WWW-Curl-4.120
 	dev-perl/accessors
-	dev-perl/regexp-common
 	virtual/perl-File-Path
 	virtual/perl-Module-Load
 	virtual/perl-Scalar-List-Utils

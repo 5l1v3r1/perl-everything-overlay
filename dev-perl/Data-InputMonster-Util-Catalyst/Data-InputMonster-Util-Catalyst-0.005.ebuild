@@ -17,11 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Data-InputMonster
+	>=dev-perl/Data-InputMonster-0.007
 	dev-perl/Sub-Exporter
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Deep
+	>=virtual/perl-Test-Simple-0.960
 "

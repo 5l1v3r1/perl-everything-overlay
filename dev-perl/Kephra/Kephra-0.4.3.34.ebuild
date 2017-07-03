@@ -29,4 +29,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-CheckManifest-0.900
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Script-0.010
+	>=virtual/perl-Test-Simple-0.470
 "

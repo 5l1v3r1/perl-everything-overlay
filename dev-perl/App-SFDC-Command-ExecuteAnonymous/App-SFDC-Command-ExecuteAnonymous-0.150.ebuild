@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/App-SFDC
+	>=dev-perl/App-SFDC-0.140
 	dev-perl/Log-Log4perl
 	dev-perl/Moo
 	dev-perl/MooX-Options

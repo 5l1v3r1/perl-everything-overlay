@@ -32,4 +32,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	dev-perl/Test-Memory-Cycle
+	virtual/perl-Test-Simple
 "

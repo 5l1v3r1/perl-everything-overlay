@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Config-Tiny
 	>=dev-perl/Outthentic-DSL-0.0.10
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Temp
 	>=virtual/perl-Term-ANSIColor-4.020
 	virtual/perl-Test-Harness

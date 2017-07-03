@@ -26,7 +26,6 @@ RDEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
 	virtual/perl-Time-Local
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

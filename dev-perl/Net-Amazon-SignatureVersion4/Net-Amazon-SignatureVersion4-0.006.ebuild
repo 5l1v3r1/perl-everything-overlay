@@ -26,4 +26,17 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Dist-Zilla-App-Command-cover
+	dev-perl/File-Slurp
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/List-Compare
+	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/TAP-Formatter-JUnit
+	dev-perl/TAP-Harness-JUnit
+	dev-perl/Test-Perl-Critic
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
 "

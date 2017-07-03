@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-Attrib-1.060
+	dev-perl/IPC-SysV
 	virtual/perl-Carp
-	virtual/perl-IPC-SysV
 "
 DEPEND="
 	${RDEPEND}

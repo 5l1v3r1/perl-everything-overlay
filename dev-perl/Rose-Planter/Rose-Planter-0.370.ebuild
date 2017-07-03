@@ -20,4 +20,17 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/DBD-SQLite
+	dev-perl/DBIx-Connector
+	dev-perl/DateTime-Format-Pg
+	dev-perl/JSON
+	dev-perl/JSON-XS
+	dev-perl/Log-Log4perl
+	dev-perl/Module-Build-Database
+	dev-perl/Module-Find
+	dev-perl/Path-Tiny
+	dev-perl/Rose
+	>=dev-perl/Rose-DB-Object-0.789
+	dev-perl/YAML-Syck
+	virtual/perl-Test-Simple
 "

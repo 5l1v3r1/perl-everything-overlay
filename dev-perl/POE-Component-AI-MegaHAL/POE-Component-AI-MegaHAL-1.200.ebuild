@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/AI-MegaHAL-0.070
-	>=dev-perl/POE-0.999.900
+	dev-perl/POE
 "
 DEPEND="
 	${RDEPEND}

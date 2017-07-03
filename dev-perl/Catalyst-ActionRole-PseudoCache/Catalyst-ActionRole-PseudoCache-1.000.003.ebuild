@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Controller-ActionRole-0.120
 	dev-perl/Catalyst-Plugin-Cache
 	dev-perl/Catalyst-Plugin-Static-Simple
-	>=dev-perl/Catalyst-Runtime-5.800.130
+	dev-perl/Catalyst-Runtime
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880

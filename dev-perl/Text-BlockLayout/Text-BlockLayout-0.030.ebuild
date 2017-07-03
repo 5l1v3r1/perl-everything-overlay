@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moo-0.091.011
-	dev-perl/text-wrapper
+	dev-perl/Text-Wrapper
 	virtual/perl-Test-Simple
 "
 DEPEND="

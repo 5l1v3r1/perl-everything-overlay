@@ -41,7 +41,7 @@ RDEPEND="
 	virtual/perl-Digest-SHA
 	virtual/perl-Math-BigInt
 	>=virtual/perl-Module-Load-Conditional-0.380
-	>=virtual/perl-Scalar-List-Utils-1.240
+	>=virtual/perl-Scalar-List-Utils-1.330
 	virtual/perl-Storable
 	virtual/perl-Time-HiRes
 "

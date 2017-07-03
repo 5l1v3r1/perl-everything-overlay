@@ -19,9 +19,10 @@ RDEPEND="
 	>=dev-perl/Net-Flickr-API-1.700
 	>=dev-perl/RDF-Simple-0.220
 	dev-perl/Readonly
-	>=dev-perl/TimeDate-2.220
+	>=dev-perl/TimeDate-2.270
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=virtual/perl-Test-Simple-0.470
 "

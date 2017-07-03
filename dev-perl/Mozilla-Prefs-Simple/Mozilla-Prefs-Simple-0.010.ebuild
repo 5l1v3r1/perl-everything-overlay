@@ -17,11 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Regexp-Common
 	>=dev-perl/Tie-Hash-Sorted-0.100
-	dev-perl/regexp-common
 	virtual/perl-Carp
 	virtual/perl-IO
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

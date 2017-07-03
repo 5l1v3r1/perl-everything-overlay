@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/DBD-mysql-0.010
+	>=virtual/perl-Test-Simple-0.010
 "

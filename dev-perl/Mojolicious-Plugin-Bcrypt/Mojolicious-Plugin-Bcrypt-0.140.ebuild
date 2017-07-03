@@ -18,9 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-Eksblowfish
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-4.000
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Spelling
+	virtual/perl-Encode
+	virtual/perl-Test-Simple
 "

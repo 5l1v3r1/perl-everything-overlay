@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Complete-Util-0.570
 	dev-perl/Data-Dump
 	dev-perl/Data-Dump-Color
-	>=dev-perl/Data-Sah-0.840
+	dev-perl/Data-Sah
 	>=dev-perl/Data-Sah-Coerce-0.011
 	dev-perl/Data-Sah-Format
 	>=dev-perl/Data-Sah-JS-0.470

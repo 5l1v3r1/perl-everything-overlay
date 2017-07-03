@@ -27,9 +27,14 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Encode
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/JSON-XS
+	dev-perl/Test-Most
+	dev-perl/Test-SharedFork
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

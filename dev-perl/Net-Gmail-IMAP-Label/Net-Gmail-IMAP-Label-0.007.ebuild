@@ -21,12 +21,13 @@ RDEPEND="
 	dev-perl/Getopt-Long-Descriptive
 	dev-perl/POE
 	dev-perl/POE-Component-SSLify
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Carp
 	virtual/perl-Encode
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Capture-Tiny-0.120
+	virtual/perl-Test-Simple
 "

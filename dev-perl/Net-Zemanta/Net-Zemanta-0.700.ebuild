@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/JSON-2.000
+	>=dev-perl/Pod-Checker-1.190
 	>=dev-perl/libwww-perl-5.090
 	virtual/perl-Encode
-	>=virtual/perl-Pod-Checker-1.190
 	virtual/perl-Test-Simple
 "
 DEPEND="

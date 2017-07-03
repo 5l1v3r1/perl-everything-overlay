@@ -25,4 +25,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.880
+	>=dev-perl/Test-Collectd-Plugins-0.100.700
+	dev-perl/Test-MockModule
+	virtual/perl-Test-Simple
 "

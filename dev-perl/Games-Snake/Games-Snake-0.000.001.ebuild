@@ -20,8 +20,10 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/SDL
+	dev-perl/Sub-Quote
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

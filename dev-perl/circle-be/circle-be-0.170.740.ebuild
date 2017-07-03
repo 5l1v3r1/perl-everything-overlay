@@ -27,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Net-Async-Tangence-0.120
 	dev-perl/String-Tagged
 	dev-perl/Struct-Dumb
-	>=dev-perl/Tangence-0.200
+	>=dev-perl/Tangence-0.180
 	dev-perl/YAML
 	virtual/perl-File-Path
 "

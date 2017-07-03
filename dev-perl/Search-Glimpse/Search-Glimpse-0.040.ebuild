@@ -22,4 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Config-AutoConf-0.140
 	>=dev-perl/Module-Build-0.360.300
+	>=dev-perl/Test-Pod-1.000
+	>=dev-perl/Test-Pod-Coverage-0.080
+	virtual/perl-Test-Simple
 "

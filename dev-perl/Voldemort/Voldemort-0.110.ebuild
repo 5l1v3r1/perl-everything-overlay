@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Google-ProtocolBuffers-0.080
 	>=dev-perl/Moose-0.540
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="
 	${RDEPEND}

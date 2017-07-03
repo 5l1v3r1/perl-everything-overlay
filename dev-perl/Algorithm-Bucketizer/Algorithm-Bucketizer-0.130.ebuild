@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	>=dev-perl/Sysadm-Install-0.230
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Inline
 	dev-perl/Moose
-	dev-perl/PDL
+	>=dev-perl/PDL-2.006
 	dev-perl/PDL-FFTW3
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils

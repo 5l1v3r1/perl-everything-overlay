@@ -26,7 +26,6 @@ RDEPEND="
 	virtual/perl-IO
 	virtual/perl-MIME-Base64
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

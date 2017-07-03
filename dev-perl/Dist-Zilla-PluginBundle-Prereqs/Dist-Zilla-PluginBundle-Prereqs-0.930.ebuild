@@ -28,4 +28,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-CheckDeps-0.010
+	>=dev-perl/Test-Most-0.010
+	>=dev-perl/YAML-Tiny-1.230
+	>=virtual/perl-Test-Simple-0.940
 "

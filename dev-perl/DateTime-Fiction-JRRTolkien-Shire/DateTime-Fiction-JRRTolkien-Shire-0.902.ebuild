@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/Specio-0.180
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

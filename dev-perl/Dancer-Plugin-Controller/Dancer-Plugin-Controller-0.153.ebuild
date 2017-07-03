@@ -22,4 +22,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Dancer-Template-HtmlTemplate
 "

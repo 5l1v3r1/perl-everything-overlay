@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Moose
+	dev-perl/MooseX-Types-DateTimeX
+	dev-perl/MooseX-Types-URI
+	virtual/perl-Test-Simple
 "

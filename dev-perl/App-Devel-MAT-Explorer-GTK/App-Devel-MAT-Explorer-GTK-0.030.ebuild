@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Devel-MAT-0.230
 	dev-perl/File-ShareDir
+	dev-perl/Gtk2
 	dev-perl/List-UtilsBy
 	dev-perl/Struct-Dumb
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	>=virtual/perl-Scalar-List-Utils-1.290
 "
 DEPEND="

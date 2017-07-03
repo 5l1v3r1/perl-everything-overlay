@@ -16,11 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.010
 	>=dev-perl/Config-Tiny-2.140
 	>=virtual/perl-Carp-1.010
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Pod-1.440
+	>=virtual/perl-Test-Simple-0.940
 "

@@ -25,7 +25,7 @@ RDEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-IO-1.080
 	>=virtual/perl-Storable-2.040
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-0.090
 "
 DEPEND="
 	${RDEPEND}

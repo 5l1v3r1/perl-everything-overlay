@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/CryptX
-	>=dev-perl/Dancer2-0.163.000
+	dev-perl/Dancer2
 	dev-perl/URI
 	virtual/perl-Carp
 	virtual/perl-MIME-Base64
@@ -26,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/HTTP-Message
+	dev-perl/Plack
+	dev-perl/YAML-LibYAML
+	>=virtual/perl-Test-Simple-0.960
 "

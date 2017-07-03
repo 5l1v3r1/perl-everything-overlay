@@ -26,4 +26,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Data-Section-Simple
+	dev-perl/File-Slurp
+	dev-perl/File-Touch
+	dev-perl/Test-Base
+	dev-perl/Test-LongString
+	dev-perl/Test-XML
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-autodie
 "

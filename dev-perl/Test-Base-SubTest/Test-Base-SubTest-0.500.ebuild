@@ -33,4 +33,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-FailWarnings
+	dev-perl/Test-Memory-Cycle
+	dev-perl/Test-Name-FromLine
+	virtual/perl-ExtUtils-CBuilder
 "

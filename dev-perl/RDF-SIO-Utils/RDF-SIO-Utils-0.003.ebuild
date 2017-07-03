@@ -20,9 +20,11 @@ RDEPEND="
 	dev-perl/RDF-Trine
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

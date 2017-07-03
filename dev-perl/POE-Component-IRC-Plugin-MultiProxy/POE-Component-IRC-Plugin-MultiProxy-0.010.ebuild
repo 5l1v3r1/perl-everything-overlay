@@ -17,10 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/POE
-	>=dev-perl/POE-Component-IRC-6.480
+	dev-perl/POE-Component-IRC
 	dev-perl/POE-Filter-IRCD
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Test-Simple
 "

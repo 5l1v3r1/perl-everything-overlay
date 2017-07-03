@@ -28,4 +28,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.300
+	dev-perl/MooseX-InsideOut
 "

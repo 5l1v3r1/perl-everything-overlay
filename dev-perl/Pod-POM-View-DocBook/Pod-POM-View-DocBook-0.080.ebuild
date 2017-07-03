@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Pod-POM
 	dev-perl/Test-XML
 	dev-perl/XML-LibXML
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Text-Tabs+Wrap
 "
 DEPEND="

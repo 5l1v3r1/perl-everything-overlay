@@ -22,7 +22,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckLib-1.01.0
+	>=dev-perl/Devel-CheckLib-1.1.0
+	>=dev-perl/ExtUtils-PkgConfig-1.140
 	>=dev-perl/Module-Build-0.360.100
-	>=dev-perl/extutils-pkgconfig-1.140
+	dev-perl/Test-Kwalitee
+	virtual/perl-Test-Simple
 "

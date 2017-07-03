@@ -26,4 +26,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	dev-perl/Path-Tiny
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

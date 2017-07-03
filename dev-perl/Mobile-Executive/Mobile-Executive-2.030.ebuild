@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Crypt-RSA-1.500
 	>=dev-perl/Devel-Scooby-4.070
 	>=dev-perl/Mobile-Location-4.010
 	virtual/perl-File-Spec
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

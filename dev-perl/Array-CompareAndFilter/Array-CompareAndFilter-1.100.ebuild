@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Devel-Cover
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod-Coverage
+	virtual/perl-Test-Simple
 "

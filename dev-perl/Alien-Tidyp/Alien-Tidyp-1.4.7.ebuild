@@ -22,11 +22,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Archive-Extract
+	dev-perl/File-Fetch
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Digest-SHA
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-MakeMaker
-	virtual/perl-File-Fetch
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

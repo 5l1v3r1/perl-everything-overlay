@@ -39,4 +39,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Module-Pluggable
+	dev-perl/Test-File
+	dev-perl/Test-Most
+	dev-perl/lib
+	virtual/perl-File-Temp
 "

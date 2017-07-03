@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.800.250
+	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Load
 	dev-perl/Moose
 	dev-perl/MooseX-Types

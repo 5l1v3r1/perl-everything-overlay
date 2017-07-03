@@ -19,6 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 	virtual/perl-ExtUtils-MakeMaker
 "

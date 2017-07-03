@@ -23,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Locate
+	virtual/perl-Test-Simple
 "

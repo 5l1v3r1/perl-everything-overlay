@@ -22,11 +22,12 @@ RDEPEND="
 	dev-perl/AnyEvent-Ping
 	dev-perl/Class-Load
 	dev-perl/JSON
-	>=dev-perl/Moo-1.000.001
+	dev-perl/Moo
 	dev-perl/MooX-Types-MooseLike
 	>=dev-perl/MooseX-Role-Loggable-0.008
 	dev-perl/PerlX-Maybe
 	dev-perl/Safe-Isa
+	dev-perl/Sub-Quote
 	dev-perl/System-Command
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
@@ -38,4 +39,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	dev-perl/Test-Fork
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.940
 "

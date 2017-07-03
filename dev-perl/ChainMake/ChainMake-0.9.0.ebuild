@@ -22,4 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/File-Touch
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

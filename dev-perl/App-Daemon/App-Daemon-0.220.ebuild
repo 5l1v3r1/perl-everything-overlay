@@ -19,9 +19,9 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Pid
 	>=dev-perl/Log-Log4perl-1.000
+	dev-perl/Pod-Usage
 	>=dev-perl/Sysadm-Install-0.370
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

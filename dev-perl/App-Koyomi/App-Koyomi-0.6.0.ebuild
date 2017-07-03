@@ -37,4 +37,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-CPANfile-0.901.000
+	>=dev-perl/Test-Base-0.880
+	>=virtual/perl-Test-Harness-3.340
+	>=virtual/perl-Test-Simple-1.001.009
 "

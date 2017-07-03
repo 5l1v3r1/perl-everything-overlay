@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-lang/perl
+	>=dev-perl/Apache-Test-1.120
+	dev-perl/Imager
+	dev-perl/libapreq2
 "

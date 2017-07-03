@@ -23,4 +23,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-RequiresInternet
+	>=virtual/perl-Test-Simple-0.880
 "

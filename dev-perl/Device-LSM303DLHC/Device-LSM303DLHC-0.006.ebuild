@@ -19,9 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Device-SMBus
 	dev-perl/Moose
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

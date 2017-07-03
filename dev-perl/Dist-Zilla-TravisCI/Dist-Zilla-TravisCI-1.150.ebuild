@@ -28,10 +28,15 @@ RDEPEND="
 	>=dev-perl/MooseX-Has-Sugar-0.010.000
 	dev-perl/MooseX-Types
 	>=dev-perl/Net-Travis-API-0.001.000
-	>=dev-perl/TimeDate-2.290
+	dev-perl/TimeDate
 	>=dev-perl/Try-Tiny-0.010
-	>=dev-perl/yaml-0.670
+	>=dev-perl/YAML-0.670
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-CheckDeps-0.010
+	>=dev-perl/Test-Most-0.010
+	>=dev-perl/sanity-0.910
+	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.940
 "

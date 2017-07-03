@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/Rose-DB
 	dev-perl/Test-Deep
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "

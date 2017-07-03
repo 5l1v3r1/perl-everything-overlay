@@ -22,9 +22,9 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Params-Validate
+	dev-perl/Regexp-Common
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
-	dev-perl/regexp-common
 	virtual/perl-Carp
 "
 DEPEND="

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Business-OnlinePayment-3.000
+	dev-perl/Business-OnlinePayment
 	virtual/perl-Test-Simple
 "
 DEPEND="

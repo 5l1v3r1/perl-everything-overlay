@@ -23,4 +23,6 @@ DEPEND="
 	>=virtual/perl-Devel-PPPort-3.190
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-2.210
+	dev-perl/Devel-CheckLib
+	virtual/perl-Test-Simple
 "

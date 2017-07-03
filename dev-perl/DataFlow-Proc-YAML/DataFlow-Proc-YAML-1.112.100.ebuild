@@ -16,12 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/DataFlow-1.112.100
+	dev-perl/DataFlow
 	dev-perl/Moose
+	dev-perl/YAML
 	dev-perl/namespace-autoclean
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

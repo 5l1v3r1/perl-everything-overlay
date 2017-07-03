@@ -17,12 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/DateTime-Event-ICal
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Ex-CalendarButton
 	dev-perl/Gtk2-Ex-ICal-Recur
 	dev-perl/Gtk2-Ex-Simple-List
 	dev-perl/Gtk2-Ex-Simple-Menu
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

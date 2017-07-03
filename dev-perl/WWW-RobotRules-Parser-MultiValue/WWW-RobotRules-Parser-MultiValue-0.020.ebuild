@@ -24,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Data-Section-Simple
+	dev-perl/Test-Base
+	dev-perl/Test-Class
+	dev-perl/Test-Fatal
+	virtual/perl-Test-Simple
 "

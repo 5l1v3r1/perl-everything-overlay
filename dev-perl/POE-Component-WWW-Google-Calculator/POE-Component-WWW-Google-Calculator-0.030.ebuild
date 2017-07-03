@@ -16,11 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-0.999.900
+	>=dev-perl/POE-1.217.900
 	>=dev-perl/WWW-Google-Calculator-0.040
 	>=virtual/perl-Carp-1.040
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

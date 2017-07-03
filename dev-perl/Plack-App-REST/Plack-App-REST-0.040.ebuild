@@ -17,9 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTTP-Exception
-	dev-perl/Plack
+	>=dev-perl/Plack-0.991.000
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/HTTP-Message
+	>=virtual/perl-Test-Simple-0.960
 "

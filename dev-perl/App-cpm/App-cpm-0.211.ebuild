@@ -25,6 +25,7 @@ RDEPEND="
 	>=dev-perl/Module-Build-0.380
 	dev-perl/Module-CPANfile
 	dev-perl/Parallel-Pipes
+	>=dev-perl/Pod-Usage-1.330
 	>=dev-perl/local-lib-2.000.018
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-CPAN-Meta-Requirements-2.130
@@ -36,7 +37,6 @@ RDEPEND="
 	>=virtual/perl-JSON-PP-2.273.000
 	virtual/perl-Module-CoreList
 	virtual/perl-Module-Metadata
-	>=virtual/perl-Pod-Usage-1.330
 	virtual/perl-parent
 	>=virtual/perl-version-0.770
 "

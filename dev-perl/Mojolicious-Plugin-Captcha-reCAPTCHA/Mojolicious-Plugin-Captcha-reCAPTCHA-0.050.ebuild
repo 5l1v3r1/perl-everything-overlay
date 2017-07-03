@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Captcha-reCAPTCHA
+	dev-perl/Captcha-reCaptcha
 	>=dev-perl/Mojolicious-2.000
 "
 DEPEND="

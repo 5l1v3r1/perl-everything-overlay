@@ -24,4 +24,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.370
 	dev-perl/Software-License
+	dev-perl/Test-Fatal
 "

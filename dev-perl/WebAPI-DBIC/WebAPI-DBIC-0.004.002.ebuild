@@ -36,6 +36,7 @@ RDEPEND="
 	dev-perl/Safe-Isa
 	dev-perl/String-CamelCase
 	dev-perl/Sub-Exporter
+	dev-perl/Sub-Quote
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	>=dev-perl/Web-Machine-0.150
@@ -46,4 +47,17 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Cpanel-JSON-XS
+	>=dev-perl/DBIx-Class-Fixtures-1.001.025
+	dev-perl/Data-Printer
+	dev-perl/Module-Pluggable
+	dev-perl/Sort-Key
+	>=dev-perl/Test-Compile-1.1.0
+	>=dev-perl/Test-DBIx-Class-0.430
+	dev-perl/Test-HTTP-Response
+	dev-perl/Test-Most
+	dev-perl/Test-Pod
+	dev-perl/ToolSet
+	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-autodie
 "

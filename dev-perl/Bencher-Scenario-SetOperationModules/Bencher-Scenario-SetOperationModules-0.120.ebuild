@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Array-Set
 	dev-perl/Array-Utils
 	dev-perl/List-Collection
-	>=dev-perl/List-MoreUtils-0.407
+	dev-perl/List-MoreUtils
 	dev-perl/Set-Array
 	dev-perl/Set-Object
 	dev-perl/Set-Scalar

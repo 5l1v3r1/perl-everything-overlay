@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Moose-0.320
+	dev-perl/MooseX-Types-Path-Class
+	virtual/perl-Test-Simple
 "

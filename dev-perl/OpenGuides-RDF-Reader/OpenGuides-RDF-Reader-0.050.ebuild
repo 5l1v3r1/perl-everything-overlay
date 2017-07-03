@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/CGI-Wiki-Plugin-Locator-UTM-0.040
+	dev-perl/Pod-Usage
 	dev-perl/WWW-Mechanize
 	dev-perl/XML-RSS
 	dev-perl/XML-Simple
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="

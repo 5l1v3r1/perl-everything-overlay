@@ -20,4 +20,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Class-AutoClass-1.540
+	dev-perl/HTTP-Message
+	dev-perl/JSON
+	dev-perl/libwww-perl
+	virtual/perl-Carp
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

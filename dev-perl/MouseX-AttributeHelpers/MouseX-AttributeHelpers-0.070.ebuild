@@ -16,9 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mouse
+	>=dev-perl/Mouse-0.400
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Any-Moose-0.100
+	dev-perl/Test-Data
+	dev-perl/Test-Deep
+	dev-perl/Test-UseAllModules
+	virtual/perl-Test-Simple
 "

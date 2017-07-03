@@ -26,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-Test-Simple
 "

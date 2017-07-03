@@ -26,4 +26,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Capture-Tiny
+	dev-perl/Test-Fatal
+	dev-perl/Test-InDistDir
+	dev-perl/URI
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

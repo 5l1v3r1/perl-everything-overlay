@@ -65,7 +65,7 @@ RDEPEND="
 	>=dev-perl/HTML-Template-Expr-0.070
 	>=dev-perl/HTTP-BrowserDetect-1.190
 	dev-perl/HTTP-Exception
-	>=dev-perl/HTTP-Message-1.400
+	>=dev-perl/HTTP-Message-1.610
 	dev-perl/IO-File-WithPath
 	dev-perl/IO-Socket-SSL
 	>=dev-perl/Image-ExifTool-8.000
@@ -85,7 +85,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.930
 	>=dev-perl/MooseX-Getopt-0.250
 	>=dev-perl/MooseX-NonMoose-0.070
-	>=dev-perl/MooseX-Storage-0.270
+	>=dev-perl/MooseX-Storage-0.230
 	>=dev-perl/Net-CIDR-Lite-0.200
 	>=dev-perl/Net-DNS-0.660
 	dev-perl/Net-Server-SS-PreFork

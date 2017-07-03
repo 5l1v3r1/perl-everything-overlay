@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/IO-stringy
 	>=dev-perl/Parse-Yapp-1.050
-	dev-perl/llg
 "
 DEPEND="
 	${RDEPEND}

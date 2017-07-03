@@ -16,7 +16,24 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/CPAN-Uploader
+	dev-perl/Data-Dumper-Concise
+	dev-perl/Data-Printer
+	dev-perl/Devel-Confess
+	dev-perl/Devel-NYTProf
+	dev-perl/Dist-Zilla
+	dev-perl/Modern-Perl
+	dev-perl/Module-Build-Tiny
+	dev-perl/Perl-Critic
+	dev-perl/Perl-Tidy
+	dev-perl/Perl-Version
+	dev-perl/Pod-Readme
+	dev-perl/Software-License
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Test-Simple
 "

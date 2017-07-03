@@ -21,4 +21,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-lang/perl
+	dev-perl/DBD-Mock
+	dev-perl/DBI
+	dev-perl/Test-BDD-Cucumber
+	dev-perl/Test-Exception
+	dev-perl/Test-MockModule
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.270
 	>=dev-perl/CPAN-Changes-0.230
 	>=dev-perl/File-Slurp-9999.190
 	>=dev-perl/File-Which-1.090
@@ -24,10 +25,12 @@ RDEPEND="
 	>=dev-perl/Try-Tiny-0.180
 	>=virtual/perl-Carp-1.320
 	>=virtual/perl-File-Spec-3.400
-	>=virtual/perl-constant-1.270
 	>=virtual/perl-parent-0.227
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Deep-0.110
+	>=dev-perl/Test-Requires-0.070
+	>=virtual/perl-Test-Simple-0.980
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/text-wrapper-0.007
+	>=dev-perl/Text-Wrapper-0.007
 "
 DEPEND="
 	${RDEPEND}

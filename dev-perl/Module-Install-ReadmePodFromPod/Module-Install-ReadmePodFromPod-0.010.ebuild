@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Capture-Tiny-0.050
 	>=dev-perl/Module-Install-0.850
+	dev-perl/Pod-Perldoc
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	virtual/perl-Pod-Perldoc
 	virtual/perl-Test-Simple
 "
 DEPEND="

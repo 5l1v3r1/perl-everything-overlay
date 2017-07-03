@@ -17,13 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Exobrain
+	>=dev-perl/Exobrain-1.080
 	dev-perl/JSON-Any
 	dev-perl/Method-Signatures
 	dev-perl/Moose
 	dev-perl/Try-Tiny
 	dev-perl/WWW-Mechanize
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

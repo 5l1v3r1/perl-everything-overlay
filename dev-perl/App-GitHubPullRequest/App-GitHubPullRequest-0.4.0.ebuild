@@ -22,7 +22,6 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Spec
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

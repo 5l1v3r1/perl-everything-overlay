@@ -23,10 +23,13 @@ RDEPEND="
 	dev-perl/Log-Log4perl
 	dev-perl/Object-Tiny
 	dev-perl/Params-Util
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

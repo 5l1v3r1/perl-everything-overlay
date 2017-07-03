@@ -26,14 +26,22 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Mojolicious
 	dev-perl/Moo
-	dev-perl/Path-Class
+	>=dev-perl/Path-Class-0.260
 	dev-perl/Try-Tiny
 	dev-perl/YAML-LibYAML
 	>=dev-perl/experimental-0.005
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Moose
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	dev-perl/Test-Most
+	dev-perl/Test-Routine
+	dev-perl/lib
+	dev-perl/namespace-autoclean
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

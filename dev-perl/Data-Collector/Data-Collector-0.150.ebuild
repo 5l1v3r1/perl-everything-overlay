@@ -29,10 +29,10 @@ RDEPEND="
 	dev-perl/MooseX-Types-Set-Object
 	dev-perl/Net-OpenSSH
 	dev-perl/Set-Object
+	dev-perl/YAML
 	dev-perl/indirect
 	dev-perl/namespace-autoclean
 	>=dev-perl/strictures-1.000
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
@@ -42,4 +42,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Sub-Override
+	dev-perl/Test-Fatal
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

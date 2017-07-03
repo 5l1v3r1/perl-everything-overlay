@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Graph-Writer-GraphViz-0.070
 	dev-perl/Quantum-Superpositions
 	>=dev-perl/Spiffy-0.210
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

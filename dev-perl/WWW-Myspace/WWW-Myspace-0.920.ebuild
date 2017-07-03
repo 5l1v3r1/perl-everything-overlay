@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Time-ParseDate-100.010.301
 	dev-perl/URI
 	>=dev-perl/WWW-Mechanize-1.200
-	>=dev-perl/yaml-0.390
+	>=dev-perl/YAML-0.390
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

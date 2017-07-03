@@ -22,4 +22,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/File-Slurp
+	dev-perl/PerlIO-Layers
+	dev-perl/Test-Exception
+	virtual/perl-Data-Dumper
+	virtual/perl-Encode
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

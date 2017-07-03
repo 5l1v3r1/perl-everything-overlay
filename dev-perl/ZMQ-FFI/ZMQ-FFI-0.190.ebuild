@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/FFI-Raw-0.260
 	dev-perl/Math-Int64
-	>=dev-perl/Moo-1.003.001
+	dev-perl/Moo
 	dev-perl/Sub-Exporter
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
@@ -31,4 +31,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/FFI-CheckLib-0.030
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/AnyEvent
+	dev-perl/EV
+	dev-perl/Sub-Override
+	dev-perl/Test-Exception
+	virtual/perl-Math-BigInt
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

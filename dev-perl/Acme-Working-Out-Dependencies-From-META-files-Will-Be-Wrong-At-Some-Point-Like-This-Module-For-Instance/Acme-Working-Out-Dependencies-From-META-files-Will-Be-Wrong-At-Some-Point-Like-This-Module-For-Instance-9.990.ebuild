@@ -16,17 +16,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-Plugin-ChangelogFromGit-0.002
-	>=dev-perl/ExtUtils-CChecker-0.070
+	>=dev-perl/CPAN-Testers-Report-1.999.001
+	>=dev-perl/Config-Perl-V-0.120
 	>=dev-perl/File-Find-Rule-0.320
-	>=dev-perl/HTML-Parser-3.680
 	>=dev-perl/List-UtilsBy-0.070
-	>=dev-perl/Module-Extract-VERSION-1.010
-	>=dev-perl/Module-ExtractUse-0.230
+	>=dev-perl/Module-Extract-Use-1.010
+	>=dev-perl/MooseX-Method-Signatures-0.360
+	>=dev-perl/MouseX-AttributeHelpers-0.060
 	>=dev-perl/Net-HTTP-6.010
 	>=dev-perl/Net-OAuth-0.270
-	>=dev-perl/POE-Component-Server-NNTP-1.040
-	>=dev-perl/Test-Spelling-0.140
+	>=dev-perl/Sys-SigAction-0.110
+	>=dev-perl/Test-Pod-Coverage-1.080
 "
 DEPEND="
 	${RDEPEND}

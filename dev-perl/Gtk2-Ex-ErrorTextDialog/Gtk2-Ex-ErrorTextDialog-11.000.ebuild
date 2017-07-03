@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Devel-GlobalDestruction
-	>=dev-perl/Glib-Ex-ObjectBits-12.000
+	dev-perl/Glib-Ex-ObjectBits
+	dev-perl/Gtk2
 	>=dev-perl/Gtk2-Ex-WidgetBits-14.000
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	>=dev-perl/libintl-perl-1.160
 "
 DEPEND="

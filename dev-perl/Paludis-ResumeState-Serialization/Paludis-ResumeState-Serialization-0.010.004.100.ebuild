@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.800
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-IO-Compress
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-1.001.002
 "

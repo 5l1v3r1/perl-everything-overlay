@@ -22,9 +22,14 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-XSLoader
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/Test-Warn
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

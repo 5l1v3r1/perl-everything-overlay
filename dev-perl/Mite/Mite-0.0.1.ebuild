@@ -27,4 +27,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	>=dev-perl/Capture-Tiny-0.220
+	>=dev-perl/Child-0.010
+	>=dev-perl/Devel-Hide-0.000.900
+	>=dev-perl/Fennec-2.016
+	>=dev-perl/File-Copy-Recursive-0.380
+	>=dev-perl/Test-Compile-0.240
+	>=dev-perl/Test-Deep-0.110
+	>=dev-perl/Test-FailWarnings-0.008
+	>=dev-perl/Test-Most-0.310
+	>=dev-perl/Test-Output-1.020
+	>=dev-perl/Test-Sims-20130412.000
 "

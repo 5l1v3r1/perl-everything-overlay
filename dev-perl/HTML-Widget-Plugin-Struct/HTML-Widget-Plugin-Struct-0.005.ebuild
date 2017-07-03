@@ -24,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTML-Tree
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Exporter
+	>=virtual/perl-Test-Simple-0.960
 "

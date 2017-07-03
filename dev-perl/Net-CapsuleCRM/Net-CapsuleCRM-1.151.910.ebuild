@@ -21,10 +21,12 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Method-Signatures
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

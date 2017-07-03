@@ -24,4 +24,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.070
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-ExtUtils-CBuilder
 "

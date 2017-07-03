@@ -26,4 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Modern-Perl
+	dev-perl/Test-Exception
+	dev-perl/YAML
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
+	virtual/perl-autodie
 "

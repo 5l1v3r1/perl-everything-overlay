@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Authen-Htpasswd-0.150
 	>=dev-perl/CGI-3.000
-	>=dev-perl/Email-MIME-1.453
+	>=dev-perl/Email-MIME-1.859
 	>=dev-perl/Email-Send-2.182
 	>=dev-perl/File-Remove-0.370
 	>=dev-perl/IPC-Run3-0.034

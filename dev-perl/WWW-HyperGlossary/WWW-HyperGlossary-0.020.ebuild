@@ -19,8 +19,8 @@ RDEPEND="
 	dev-perl/Class-Std
 	dev-perl/Class-Std-Utils
 	dev-perl/DBIx-MySperql
+	>=dev-perl/YAML-0.680
 	>=dev-perl/libwww-perl-1.410
-	>=dev-perl/yaml-0.680
 	>=virtual/perl-Carp-1.030
 	>=virtual/perl-Digest-MD5-2.360
 	virtual/perl-Test-Simple

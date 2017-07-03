@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Coro-4.370
+	dev-perl/Coro
 	dev-perl/Event
 	>=dev-perl/HTTP-Daemon-1.360
 "

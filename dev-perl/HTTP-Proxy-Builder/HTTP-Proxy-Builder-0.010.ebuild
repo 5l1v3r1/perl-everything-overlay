@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/HTTP-Proxy-0.100
+	virtual/perl-Test-Simple
 "

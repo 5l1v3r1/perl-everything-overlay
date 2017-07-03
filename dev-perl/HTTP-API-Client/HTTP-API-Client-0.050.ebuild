@@ -30,4 +30,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Dancer
+	dev-perl/Dancer-Plugin-Auth-Basic
+	dev-perl/HTML-Parser
+	dev-perl/Test-TCP
+	virtual/perl-IO-Socket-IP
+	virtual/perl-Test-Simple
 "

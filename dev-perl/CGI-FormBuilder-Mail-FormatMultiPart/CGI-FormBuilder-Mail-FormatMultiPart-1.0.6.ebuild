@@ -21,9 +21,9 @@ RDEPEND="
 	dev-perl/MIME-Lite
 	dev-perl/MIME-Types
 	dev-perl/Module-Build
+	dev-perl/Regexp-Common
 	dev-perl/Test-Exception
 	dev-perl/Text-FormatTable
-	dev-perl/regexp-common
 	virtual/perl-Test-Simple
 	>=virtual/perl-version-0.500
 "

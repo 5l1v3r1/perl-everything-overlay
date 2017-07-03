@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Router-Boom-1.010
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Module-Load
 "
 DEPEND="

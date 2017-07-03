@@ -39,10 +39,10 @@ RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.330
+	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-Text-Balanced
 "
 DEPEND="

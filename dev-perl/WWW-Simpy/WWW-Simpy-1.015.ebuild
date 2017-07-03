@@ -23,7 +23,6 @@ RDEPEND="
 	>=virtual/perl-AutoLoader-5.600
 	>=virtual/perl-Data-Dumper-2.121
 	>=virtual/perl-Exporter-5.580
-	>=virtual/perl-constant-1.050
 "
 DEPEND="
 	${RDEPEND}

@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Import-Into
 	dev-perl/JSON-MaybeXS
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-2.000.000
+	dev-perl/Moo
 	>=dev-perl/Plack-1.003.500
 	dev-perl/Plack-Middleware-FixMissingBodyInRedirect
 	dev-perl/Plack-Middleware-RemoveRedundantBody

@@ -27,4 +27,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/DBD-SQLite
+	dev-perl/Test-Differences
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "

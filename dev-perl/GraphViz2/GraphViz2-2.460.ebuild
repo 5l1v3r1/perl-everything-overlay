@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.770
+	dev-lang/perl
 	>=dev-perl/Algorithm-Dependency-1.110
 	>=dev-perl/Capture-Tiny-0.360
 	>=dev-perl/Class-ISA-0.360

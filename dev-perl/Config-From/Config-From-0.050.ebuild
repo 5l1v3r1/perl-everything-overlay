@@ -20,10 +20,13 @@ RDEPEND="
 	>=dev-perl/Hash-Merge-0.200
 	>=dev-perl/Moose-2.140.400
 	>=dev-perl/MooseX-MarkAsMethods-0.150
-	>=dev-perl/yaml-1.150
+	>=dev-perl/YAML-1.150
 	>=virtual/perl-Module-Load-0.320
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	>=dev-perl/Test-Pod-1.480
+	>=dev-perl/Test-Pod-Coverage-1.100
 "

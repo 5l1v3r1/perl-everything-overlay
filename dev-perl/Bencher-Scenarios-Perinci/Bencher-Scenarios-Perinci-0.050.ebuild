@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Perinci-Examples-0.790
+	dev-perl/Perinci-Examples
 	>=dev-perl/Perinci-Sub-Normalize-0.190
 "
 DEPEND="

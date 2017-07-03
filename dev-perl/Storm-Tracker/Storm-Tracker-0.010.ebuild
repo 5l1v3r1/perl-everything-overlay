@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=virtual/perl-File-Path-1.040.100
-	>=virtual/perl-IO-1.030
+	>=virtual/perl-IO-1.080
 	virtual/perl-Time-Local
 "
 DEPEND="

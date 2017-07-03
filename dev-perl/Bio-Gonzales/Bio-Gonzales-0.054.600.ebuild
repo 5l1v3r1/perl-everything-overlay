@@ -51,9 +51,9 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Storable
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-Test-Simple
 "

@@ -22,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/AnyDBM-File-Importer
+	virtual/perl-Test-Simple
 "

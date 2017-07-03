@@ -34,4 +34,8 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-WithXSpp-0.140
 	virtual/perl-File-Temp
+	dev-perl/ExtUtils-Typemaps-Default
+	>=dev-perl/ExtUtils-XSpp-0.180
+	dev-perl/FindBin-libs
+	dev-perl/Test-Most
 "

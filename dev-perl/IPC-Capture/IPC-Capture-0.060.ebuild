@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Base
+	dev-perl/Env
 	dev-perl/List-MoreUtils
 	dev-perl/Test-Differences
 	>=dev-perl/Text-Diff-0.340
-	perl-core/Env
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path

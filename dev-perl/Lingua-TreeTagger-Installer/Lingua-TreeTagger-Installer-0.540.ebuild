@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/Archive-Any
 	dev-perl/Clone
 	>=dev-perl/Module-Build-0.420
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-File-Temp
 	virtual/perl-IO-Compress
 	>=virtual/perl-Test-Simple-0.400

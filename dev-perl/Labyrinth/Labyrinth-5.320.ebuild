@@ -40,13 +40,13 @@ RDEPEND="
 	dev-perl/MIME-Types
 	dev-perl/Module-Pluggable
 	dev-perl/Regexp-Assemble
+	dev-perl/Regexp-Common
 	dev-perl/Session-Token
 	dev-perl/Template-Toolkit
 	dev-perl/URI
 	dev-perl/WWW-Mechanize
 	dev-perl/XML-Atom
 	dev-perl/XML-RSS
-	dev-perl/regexp-common
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter

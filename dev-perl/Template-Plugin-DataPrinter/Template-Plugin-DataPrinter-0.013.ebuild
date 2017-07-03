@@ -26,4 +26,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTML-Parser
+	dev-perl/Test-NoWarnings
+	dev-perl/lib
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Term-ANSIColor
+	virtual/perl-Test-Simple
 "

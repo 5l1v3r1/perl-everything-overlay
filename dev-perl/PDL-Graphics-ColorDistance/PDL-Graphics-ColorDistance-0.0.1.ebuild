@@ -21,4 +21,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/PDL-2.4.4
+	virtual/perl-ExtUtils-MakeMaker
 "

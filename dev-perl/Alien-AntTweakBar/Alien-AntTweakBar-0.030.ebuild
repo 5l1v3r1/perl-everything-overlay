@@ -25,13 +25,14 @@ DEPEND="
 	${RDEPEND}
 	dev-lang/perl
 	dev-perl/Archive-Extract
-	>=dev-perl/Devel-CheckLib-1.01.0
+	>=dev-perl/Devel-CheckLib-1.1.0
+	dev-perl/File-Fetch
 	>=dev-perl/File-chdir-0.100.800
 	dev-perl/Module-Build
 	dev-perl/Text-Patch
 	virtual/perl-Digest-SHA
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-MakeMaker
-	virtual/perl-File-Fetch
 	virtual/perl-File-Path
+	virtual/perl-Test-Simple
 "

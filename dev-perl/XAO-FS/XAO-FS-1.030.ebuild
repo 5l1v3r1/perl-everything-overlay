@@ -19,8 +19,8 @@ RDEPEND="
 	>=dev-perl/DBD-mysql-2.041.400
 	>=dev-perl/DBI-1.130
 	>=dev-perl/Error-0.140
+	>=dev-perl/Pod-Usage-1.120
 	>=dev-perl/Test-Unit-0.140
-	>=virtual/perl-Pod-Usage-1.120
 "
 DEPEND="
 	${RDEPEND}

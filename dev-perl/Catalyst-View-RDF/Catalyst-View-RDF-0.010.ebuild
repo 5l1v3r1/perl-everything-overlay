@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/HTTP-Request-AsCGI
+	dev-perl/MRO-Compat
+	virtual/perl-Encode
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

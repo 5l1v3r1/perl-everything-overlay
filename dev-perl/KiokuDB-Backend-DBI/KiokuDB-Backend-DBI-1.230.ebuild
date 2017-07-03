@@ -23,10 +23,10 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.081.270
 	>=dev-perl/Data-Stream-Bulk-0.070
 	dev-perl/JSON
-	dev-perl/KiokuDB
+	>=dev-perl/KiokuDB-0.460
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.080
 	dev-perl/SQL-Abstract
 	>=dev-perl/Search-GIN-0.070
 	dev-perl/Try-Tiny

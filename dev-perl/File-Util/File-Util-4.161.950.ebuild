@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -24,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/SQL-Translator-0.110.060
+	virtual/perl-Test-Simple
 "

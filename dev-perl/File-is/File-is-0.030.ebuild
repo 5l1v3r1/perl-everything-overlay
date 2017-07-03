@@ -22,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-Exception
+	virtual/perl-File-Path
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

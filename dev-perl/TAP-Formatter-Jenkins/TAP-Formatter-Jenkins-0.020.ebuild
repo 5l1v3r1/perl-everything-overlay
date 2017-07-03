@@ -24,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/File-Slurp
+	dev-perl/Test-MockObject
+	dev-perl/Test-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

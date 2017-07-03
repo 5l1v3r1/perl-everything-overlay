@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-Lsub
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

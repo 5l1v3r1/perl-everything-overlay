@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Data-Dmp
 	dev-perl/Moose
-	dev-perl/Perinci-CmdLine-Dump
 	virtual/perl-File-Temp
 "
 DEPEND="

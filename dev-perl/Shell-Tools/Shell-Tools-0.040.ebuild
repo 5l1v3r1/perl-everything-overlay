@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-lang/perl-1.040
+	dev-perl/Pod-Usage
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -25,10 +26,11 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	dev-perl/Capture-Tiny
+	virtual/perl-Test-Simple
 "

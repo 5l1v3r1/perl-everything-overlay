@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/MIME-tools-5.502
+	>=dev-perl/Test-MockModule-0.050
+	>=dev-perl/Test-MockObject-1.200
+	virtual/perl-Test-Simple
 "

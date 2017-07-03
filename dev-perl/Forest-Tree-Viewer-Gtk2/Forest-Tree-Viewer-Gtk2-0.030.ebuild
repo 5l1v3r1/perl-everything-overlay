@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Gtk2-1.222
 	>=dev-perl/Moose-1.080
-	>=dev-perl/gtk2-perl-1.222
 	>=virtual/perl-Test-Simple-0.020
 "
 DEPEND="

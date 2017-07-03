@@ -27,4 +27,6 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	virtual/perl-libnet
 	virtual/perl-version
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "

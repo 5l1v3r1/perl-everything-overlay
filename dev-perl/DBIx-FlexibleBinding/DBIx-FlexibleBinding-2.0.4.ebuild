@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-CSV
+	dev-perl/DBD-SQLite
+	dev-perl/DBD-mysql
+	dev-perl/Data-Dumper-Concise
+	dev-perl/JSON
 "

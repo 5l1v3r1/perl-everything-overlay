@@ -22,4 +22,5 @@ DEPEND="
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Spec
 	virtual/perl-IO-Zlib
+	virtual/perl-ExtUtils-MakeMaker
 "

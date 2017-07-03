@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/XML-Atom
 	dev-perl/base
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="
 	${RDEPEND}

@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Gtk2-1.040
 	dev-perl/XML-Quote
-	>=dev-perl/gtk2-perl-1.040
 	virtual/perl-Test-Simple
 "
 DEPEND="

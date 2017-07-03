@@ -33,14 +33,14 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.240
 	dev-perl/Module-Util
 	dev-perl/Perl6-Slurp
+	dev-perl/Regexp-Common
 	dev-perl/URI
 	dev-perl/URI-Find
 	dev-perl/WWW-Mechanize
+	dev-perl/YAML
 	dev-perl/constant-defer
 	dev-perl/libintl-perl
 	>=dev-perl/libwww-perl-5.819
-	dev-perl/regexp-common
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

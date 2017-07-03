@@ -24,14 +24,18 @@ RDEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Moose
 	dev-perl/MooseX-Getopt
+	dev-perl/Pod-Usage
 	dev-perl/namespace-clean
 	virtual/perl-Encode
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurp
+	dev-perl/lib
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

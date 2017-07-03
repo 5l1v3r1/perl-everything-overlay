@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/JSON-Any
 	dev-perl/JSON-XS
 	dev-perl/Moose
-	dev-perl/MooseX-Storage
+	>=dev-perl/MooseX-Storage-0.520
 	dev-perl/Try-Tiny
 	virtual/perl-Scalar-List-Utils
 "

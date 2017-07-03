@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Log-Log4perl-1.210
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-0.760
+	dev-perl/Moose
 	>=dev-perl/MooseX-Has-Sugar-0.030.000
 	>=dev-perl/MooseX-Log-Log4perl-0.310
 	dev-perl/MooseX-Params-Validate
@@ -31,4 +31,12 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckBin
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	dev-perl/File-Which
+	dev-perl/Path-Iterator-Rule
+	dev-perl/Path-Tiny
+	dev-perl/YAML-LibYAML
+	dev-perl/lib
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.890
 "

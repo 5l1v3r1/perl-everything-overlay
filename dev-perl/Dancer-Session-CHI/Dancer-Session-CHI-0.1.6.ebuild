@@ -23,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-lang/perl
+	dev-perl/Dancer-Plugin-Cache-CHI
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

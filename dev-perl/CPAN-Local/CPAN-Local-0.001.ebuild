@@ -42,4 +42,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CPAN-Faker-HTTPD
+	dev-perl/Module-Faker
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

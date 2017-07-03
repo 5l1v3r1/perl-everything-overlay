@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/ShipIt
 	dev-perl/Test-Compile
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

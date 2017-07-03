@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Cache-Cache-1.000
+	dev-perl/Cache-Cache
 	dev-perl/Class-Factory
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -25,4 +25,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Test-Simple
 "

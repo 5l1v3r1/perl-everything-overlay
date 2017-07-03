@@ -30,9 +30,9 @@ RDEPEND="
 	dev-perl/Test-NoWarnings
 	dev-perl/TimeDate
 	dev-perl/URI-Encode
+	>=dev-perl/YAML-0.790
 	>=dev-perl/common-sense-3.600
 	dev-perl/libwww-perl
-	>=dev-perl/yaml-0.790
 	virtual/perl-Digest-MD5
 	virtual/perl-Test-Simple
 "

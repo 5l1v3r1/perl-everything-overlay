@@ -25,9 +25,9 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Extract
 	dev-perl/File-Copy-Recursive
+	dev-perl/File-Fetch
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Digest-SHA
-	virtual/perl-File-Fetch
 	>=virtual/perl-File-Path-2.070
 	virtual/perl-Archive-Tar
 "

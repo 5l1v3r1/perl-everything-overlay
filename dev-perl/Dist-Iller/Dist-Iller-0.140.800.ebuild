@@ -45,4 +45,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Syntax-Feature-Qi
+	dev-perl/Syntax-Feature-Qs
+	dev-perl/Test-Differences
+	dev-perl/syntax
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

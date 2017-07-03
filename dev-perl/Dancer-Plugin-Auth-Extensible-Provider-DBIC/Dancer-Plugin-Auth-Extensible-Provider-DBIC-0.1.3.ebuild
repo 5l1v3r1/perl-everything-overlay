@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Crypt-SaltedHash
+	dev-perl/DBIx-Class
+	>=virtual/perl-Test-Simple-0.880
 "

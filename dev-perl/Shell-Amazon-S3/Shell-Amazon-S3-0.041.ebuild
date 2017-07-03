@@ -26,8 +26,8 @@ RDEPEND="
 	dev-perl/Net-Amazon-S3
 	dev-perl/Path-Class
 	dev-perl/Perl6-Say
+	dev-perl/YAML
 	dev-perl/namespace-clean
-	dev-perl/yaml
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor

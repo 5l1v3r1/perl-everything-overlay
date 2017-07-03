@@ -25,4 +25,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/FFI-CheckLib
 	>=dev-perl/Module-Build-0.280
+	>=dev-perl/Module-Build-FFI-0.180
+	>=virtual/perl-Test-Simple-0.940
 "

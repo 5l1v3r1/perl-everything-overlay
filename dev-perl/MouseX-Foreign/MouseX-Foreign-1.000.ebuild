@@ -22,4 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Any-Moose-0.150
+	dev-perl/Test-Exception
+	dev-perl/Test-Requires
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.880
 "

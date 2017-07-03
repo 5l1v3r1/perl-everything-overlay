@@ -38,4 +38,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/CGI-3.310
+	dev-perl/Catalyst-Plugin-Static-Simple
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

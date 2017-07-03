@@ -17,12 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/SelfLoader
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-SelfLoader
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

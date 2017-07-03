@@ -26,4 +26,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Capture-Tiny
+	dev-perl/GTop
+	dev-perl/Image-Size
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Module-Load
+	virtual/perl-Test-Simple
 "

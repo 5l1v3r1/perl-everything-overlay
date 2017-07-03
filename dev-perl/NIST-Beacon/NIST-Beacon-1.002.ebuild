@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-RequiresInternet
+	virtual/perl-Net-Ping
+	virtual/perl-Test-Simple
 "

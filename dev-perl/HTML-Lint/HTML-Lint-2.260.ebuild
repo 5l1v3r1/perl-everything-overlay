@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/HTML-Parser-3.470
+	dev-perl/HTML-Parser
 	>=dev-perl/HTML-Tagset-3.030
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple

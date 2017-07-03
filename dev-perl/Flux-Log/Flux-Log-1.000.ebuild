@@ -26,4 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/IPC-System-Simple
+	dev-perl/Test-Class
+	dev-perl/Test-Fatal
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
+	virtual/perl-parent
 "

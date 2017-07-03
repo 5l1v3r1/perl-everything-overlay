@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/IO-Capture
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Moose-2.000
 	dev-perl/Progress-Any
 	dev-perl/Progress-Any-Output-TermProgressBarColor
-	>=dev-perl/yaml-0.840
+	>=dev-perl/YAML-0.840
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 "
@@ -30,4 +30,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/File-Slurp
+	dev-perl/Test-Compile
+	dev-perl/Test-Most
+	virtual/perl-File-Temp
 "

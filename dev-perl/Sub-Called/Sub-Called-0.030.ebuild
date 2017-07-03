@@ -21,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-lang/perl-1.170
+	>=virtual/perl-Exporter-5.580
 "

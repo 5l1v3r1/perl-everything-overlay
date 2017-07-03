@@ -24,4 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/HTTP-Message
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

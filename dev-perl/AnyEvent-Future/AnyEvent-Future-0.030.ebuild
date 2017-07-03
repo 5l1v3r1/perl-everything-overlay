@@ -21,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Timer
+	>=virtual/perl-Test-Simple-0.880
 "

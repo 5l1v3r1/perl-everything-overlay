@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/MCE
-	virtual/perl-constant
 	virtual/perl-threads
 "
 DEPEND="

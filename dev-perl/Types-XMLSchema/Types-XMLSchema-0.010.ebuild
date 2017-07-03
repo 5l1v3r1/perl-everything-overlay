@@ -19,9 +19,9 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
 	dev-perl/DateTime-TimeZone
+	dev-perl/Regexp-Common
 	dev-perl/Type-Tiny
 	dev-perl/URI
-	dev-perl/regexp-common
 	virtual/perl-Encode
 	virtual/perl-IO
 	virtual/perl-MIME-Base64
@@ -31,4 +31,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Moo
+	dev-perl/Test-Exception
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

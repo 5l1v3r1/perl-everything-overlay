@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Devel-Declare-0.006.000
 	>=dev-perl/Mouse-0.580
-	>=dev-perl/mysubs-1.110
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

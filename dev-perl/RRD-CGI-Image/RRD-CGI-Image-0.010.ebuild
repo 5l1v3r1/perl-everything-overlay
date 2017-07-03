@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/HTML-Parser
+	dev-perl/Spiffy
+	dev-perl/URI
+	virtual/perl-Test-Simple
 "

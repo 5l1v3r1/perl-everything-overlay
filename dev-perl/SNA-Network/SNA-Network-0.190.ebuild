@@ -20,4 +20,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/List-MoreUtils
+	dev-perl/Module-List-Pluggable
+	dev-perl/Object-Tiny-XS
+	dev-perl/Test-Memory-Cycle
+	virtual/perl-Carp
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

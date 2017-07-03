@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Perinci-CmdLine-Gen-0.440
 	>=dev-perl/Perinci-CmdLine-Inline-0.480
 	>=dev-perl/Perinci-CmdLine-Lite-1.720
-	>=dev-perl/Perinci-Examples-0.680
+	>=dev-perl/Perinci-Examples-0.790
 	virtual/perl-File-Temp
 "
 DEPEND="

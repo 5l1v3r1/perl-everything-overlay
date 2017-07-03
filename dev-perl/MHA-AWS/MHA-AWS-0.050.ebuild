@@ -21,12 +21,14 @@ RDEPEND="
 	dev-perl/Log-Minimal
 	dev-perl/Moo
 	dev-perl/Net-SSH
+	dev-perl/Pod-Usage
 	dev-perl/String-CamelCase
-	virtual/perl-Pod-Usage
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "

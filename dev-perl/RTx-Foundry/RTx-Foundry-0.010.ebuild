@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/DBIx-SearchBuilder-0.960
 	dev-perl/Email-Valid
 	dev-perl/HTML-Mason
 	dev-perl/WWW-Mechanize
-	>=dev-perl/dbix-searchbuilder-0.960
 	virtual/perl-MIME-Base64
 "
 DEPEND="

@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Class-Throwable-0.100
 	>=dev-perl/Tree-Simple-1.310
 	>=virtual/perl-Scalar-List-Utils-1.180
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

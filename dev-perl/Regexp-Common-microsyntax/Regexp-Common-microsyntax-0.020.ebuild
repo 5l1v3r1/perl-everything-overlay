@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Regexp-Common
 	dev-perl/Test-Deep
-	dev-perl/regexp-common
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Encode
 "
 DEPEND="

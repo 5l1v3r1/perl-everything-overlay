@@ -16,8 +16,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dancer-Plugin-Browser
-	dev-perl/Dancer-Plugin-DataTransposeValidator
 	dev-perl/Dancer2
 	dev-perl/Dancer2-Logger-Console-Colored
 	dev-perl/Dancer2-Logger-File-RotateLogs
@@ -32,11 +30,13 @@ RDEPEND="
 	dev-perl/Dancer2-Plugin-Auth-HTTP-Basic-DWIW
 	dev-perl/Dancer2-Plugin-Auth-OAuth
 	dev-perl/Dancer2-Plugin-Auth-Tiny
+	dev-perl/Dancer2-Plugin-BrowserDetect
 	dev-perl/Dancer2-Plugin-Cache-CHI
 	dev-perl/Dancer2-Plugin-Captcha
 	dev-perl/Dancer2-Plugin-Chain
 	dev-perl/Dancer2-Plugin-ConditionalCaching
 	dev-perl/Dancer2-Plugin-DBIC
+	dev-perl/Dancer2-Plugin-DataTransposeValidator
 	dev-perl/Dancer2-Plugin-Database
 	dev-perl/Dancer2-Plugin-Deferred
 	dev-perl/Dancer2-Plugin-Email
@@ -84,4 +84,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

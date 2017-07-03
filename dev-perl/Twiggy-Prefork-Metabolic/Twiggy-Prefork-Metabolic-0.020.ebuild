@@ -21,4 +21,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/AnyEvent-HTTP
+	dev-perl/HTTP-Message
+	dev-perl/List-MoreUtils
+	dev-perl/Plack
+	dev-perl/Test-TCP
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
 "

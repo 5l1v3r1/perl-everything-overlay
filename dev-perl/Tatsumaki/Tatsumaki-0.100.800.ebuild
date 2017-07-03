@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/JSON
 	>=dev-perl/Mouse-0.340
-	>=dev-perl/Plack-0.900.600
+	dev-perl/Plack
 	>=dev-perl/Plack-Server-AnyEvent-0.020
 	dev-perl/Test-Requires
 	dev-perl/Text-MicroTemplate

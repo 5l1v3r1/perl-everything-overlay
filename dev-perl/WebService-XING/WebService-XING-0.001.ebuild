@@ -25,8 +25,8 @@ RDEPEND="
 	dev-perl/Term-Encoding
 	dev-perl/Test-Exception
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Test-Simple
 "
 DEPEND="

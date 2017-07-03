@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Git-Repository
+	>=dev-perl/Git-Repository-1.309
 "
 DEPEND="
 	${RDEPEND}

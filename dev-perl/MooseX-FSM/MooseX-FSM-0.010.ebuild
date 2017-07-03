@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Moose-0.720
+	virtual/perl-Test-Simple
 "

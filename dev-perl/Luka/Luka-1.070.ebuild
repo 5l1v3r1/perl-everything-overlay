@@ -32,4 +32,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-libnet
 "

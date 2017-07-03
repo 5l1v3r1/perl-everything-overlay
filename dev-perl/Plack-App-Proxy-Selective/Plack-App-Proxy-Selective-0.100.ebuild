@@ -19,9 +19,11 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Plack
 	dev-perl/Plack-App-Proxy
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Message
+	dev-perl/Log-Dispatch-Array
+	dev-perl/Test-Deep
+	>=virtual/perl-Test-Simple-0.960
 "

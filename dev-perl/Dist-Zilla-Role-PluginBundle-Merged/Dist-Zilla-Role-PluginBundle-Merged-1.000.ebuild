@@ -24,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-CheckDeps-0.006
+	>=virtual/perl-Test-Simple-0.940
 "

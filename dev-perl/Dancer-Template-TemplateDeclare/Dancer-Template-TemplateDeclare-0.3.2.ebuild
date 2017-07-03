@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Plack
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

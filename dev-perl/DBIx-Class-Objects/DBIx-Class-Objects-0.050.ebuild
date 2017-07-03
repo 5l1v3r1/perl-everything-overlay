@@ -28,4 +28,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBIx-Class
+	dev-perl/DBIx-Class-EasyFixture
+	dev-perl/DateTime
+	dev-perl/Test-Most
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

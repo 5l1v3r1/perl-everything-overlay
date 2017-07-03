@@ -18,10 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Chess-Rep
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

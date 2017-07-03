@@ -22,10 +22,12 @@ RDEPEND="
 	>=dev-perl/Class-Accessor-Installer-1.100.880
 	dev-perl/Data-Inherited
 	virtual/perl-Carp
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "

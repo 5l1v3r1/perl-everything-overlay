@@ -27,4 +27,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-Remove-1.420
+	>=dev-perl/File-pushd-1.000
+	>=dev-perl/Test-Pod-1.420
+	>=dev-perl/Test-Pod-Coverage-1.080
+	>=dev-perl/Test-Script-1.070
+	>=dev-perl/Test-XT-0.020
+	>=virtual/perl-Test-Simple-0.470
+	>=virtual/perl-autodie-2.100
 "

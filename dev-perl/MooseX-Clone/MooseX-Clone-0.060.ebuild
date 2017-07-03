@@ -16,7 +16,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Data-Visitor
+	dev-perl/Hash-Util-FieldHash-Compat
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
+	virtual/perl-Carp
+	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	dev-lang/perl
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
 "

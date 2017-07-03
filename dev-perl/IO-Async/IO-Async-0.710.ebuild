@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Future-0.180
+	>=dev-perl/Future-0.330
 	dev-perl/Struct-Dumb
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-IO

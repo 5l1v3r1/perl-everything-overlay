@@ -26,15 +26,17 @@ RDEPEND="
 	dev-perl/Data-UUID
 	dev-perl/Error
 	dev-perl/Test-Exception
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Capture-Tiny
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
 "

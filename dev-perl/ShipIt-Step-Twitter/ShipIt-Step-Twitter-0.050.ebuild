@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Net-Twitter
 	dev-perl/ShipIt
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	>=virtual/perl-Test-Simple-0.700
 "

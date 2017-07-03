@@ -22,4 +22,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/URI
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	dev-perl/IO-CaptureOutput
+	virtual/perl-Test-Simple
 "

@@ -22,4 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Fatal
+	dev-perl/Test-HexString
+	>=virtual/perl-Test-Simple-0.880
 "

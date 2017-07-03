@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Net-LibNIDS-0.040
-	>=virtual/perl-Pod-Usage-1.000
+	>=dev-perl/Pod-Usage-1.000
 "
 DEPEND="
 	${RDEPEND}

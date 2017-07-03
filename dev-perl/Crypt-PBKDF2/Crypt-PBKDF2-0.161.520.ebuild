@@ -37,5 +37,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

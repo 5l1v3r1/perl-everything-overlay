@@ -27,4 +27,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Capture-Tiny-0.010
+	>=dev-perl/Test-CheckDeps-0.006
+	>=dev-perl/Test-Most-0.010
+	>=virtual/perl-Test-Simple-0.940
 "

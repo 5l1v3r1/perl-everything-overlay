@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Log-Log4perl-1.000
 	>=dev-perl/Pithub-0.010.160
 	>=dev-perl/Sysadm-Install-0.370
-	>=dev-perl/yaml-0.710
+	>=dev-perl/YAML-0.710
 	>=virtual/perl-File-Temp-0.220
 "
 DEPEND="

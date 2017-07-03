@@ -22,4 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/CGI-Simple
+	>=dev-perl/Catalyst-Plugin-Session-State-Cookie-0.170
+	>=dev-perl/Catalyst-Plugin-Session-Store-File-0.180
+	>=dev-perl/Catalyst-Runtime-5.800.150
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	>=virtual/perl-Test-Simple-0.880
 "

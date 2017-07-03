@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Net-Netmask-1.901.500
-	>=dev-perl/POE-1.280
+	dev-perl/POE
 	>=dev-perl/POE-Component-Client-DNS-0.990
 	>=dev-perl/POE-Component-Client-Ident-1.030
 "

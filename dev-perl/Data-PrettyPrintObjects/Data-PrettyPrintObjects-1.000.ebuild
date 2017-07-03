@@ -23,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Archive-Zip
+	dev-perl/Date-Manip
+	dev-perl/Test-Inter
+	>=dev-perl/Test-Pod-1.000
+	>=dev-perl/Test-Pod-Coverage-1.000
 "

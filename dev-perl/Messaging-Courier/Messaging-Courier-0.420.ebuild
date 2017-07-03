@@ -21,11 +21,11 @@ RDEPEND="
 	>=dev-perl/Data-UUID-0.010
 	>=dev-perl/DateTime-0.010
 	>=dev-perl/File-HomeDir-0.010
+	>=dev-perl/Regexp-Common-0.010
 	>=dev-perl/Spread-0.010
 	>=dev-perl/TermReadKey-0.010
 	>=dev-perl/Test-Exception-0.010
 	>=dev-perl/XML-LibXML-0.010
-	>=dev-perl/regexp-common-0.010
 "
 DEPEND="
 	${RDEPEND}

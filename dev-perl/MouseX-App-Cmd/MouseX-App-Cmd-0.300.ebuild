@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/App-Cmd-0.321
+	dev-perl/App-Cmd
 	>=dev-perl/Getopt-Long-Descriptive-0.091
 	dev-perl/Mouse
 	dev-perl/MouseX-Getopt
@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Output
+	dev-perl/YAML
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

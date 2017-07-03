@@ -24,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Locale-Msgfmt-0.080
+	virtual/perl-Test-Simple
 "

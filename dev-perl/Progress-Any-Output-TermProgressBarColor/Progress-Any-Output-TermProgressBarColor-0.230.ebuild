@@ -26,7 +26,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
-	>=dev-perl/Progress-Any-0.100
+	dev-perl/Progress-Any
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980

@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-0.960
+	>=dev-lang/perl-1.010
 	>=dev-perl/Class-Inspector-1.170
 	>=dev-perl/File-Slurp-9999.080
 	>=dev-perl/MRO-Compat-0.020
-	>=dev-perl/Tk-4.006
+	>=dev-perl/Tk-8.400
 	>=dev-perl/Tk-GBARR-2.060
 "
 DEPEND="

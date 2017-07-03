@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/IO-Socket-SSL-1.840
 	dev-perl/Mojolicious
 	dev-perl/Moose
-	>=dev-perl/Net-OAuth-0.200
+	dev-perl/Net-OAuth
 	dev-perl/Tie-Hash-LRU
 	virtual/perl-Carp
 	virtual/perl-MIME-Base64

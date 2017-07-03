@@ -19,10 +19,13 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime-Format-Duration
 	dev-perl/DateTime-Format-Strptime
-	>=dev-perl/Moose-1.150
+	dev-perl/Moose
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Fatal
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Perl-Critic-Pulp-90.000
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 	virtual/perl-parent
 	virtual/perl-version
 "

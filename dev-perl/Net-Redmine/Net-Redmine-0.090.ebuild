@@ -24,15 +24,20 @@ RDEPEND="
 	>=dev-perl/IO-All-0.390
 	>=dev-perl/IO-String-1.080
 	>=dev-perl/Params-Validate-0.910
+	>=dev-perl/Regexp-Common-2.122
 	>=dev-perl/Regexp-Common-Email-Address-1.010
 	>=dev-perl/Text-CSV-Slurp-0.500
 	>=dev-perl/URI-3.290
 	>=dev-perl/WWW-Mechanize-1.520
 	>=dev-perl/pQuery-0.070
-	>=dev-perl/regexp-common-2.122
 	>=virtual/perl-Encode-2.310
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Quantum-Superpositions-1.030
+	>=dev-perl/Test-Cukes-0.060
+	>=dev-perl/Test-Memory-Cycle-1.040
+	>=dev-perl/Text-Greeking-0.110
+	>=virtual/perl-Test-Simple-0.860
 "

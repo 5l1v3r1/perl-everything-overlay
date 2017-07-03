@@ -21,10 +21,13 @@ RDEPEND="
 	virtual/perl-Exporter
 	>=virtual/perl-Math-BigRat-0.130
 	virtual/perl-XSLoader
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Data-Dumper
+	>=virtual/perl-ExtUtils-CBuilder-0.150
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Class-XSAccessor-0.120
 	dev-perl/Digest-SHA1
 	dev-perl/File-Slurp
@@ -29,7 +30,6 @@ RDEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

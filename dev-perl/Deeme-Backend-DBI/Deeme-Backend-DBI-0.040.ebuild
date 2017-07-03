@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
+	dev-perl/Carp-Always
+	dev-perl/DBD-SQLite
+	virtual/perl-Test-Simple
 "

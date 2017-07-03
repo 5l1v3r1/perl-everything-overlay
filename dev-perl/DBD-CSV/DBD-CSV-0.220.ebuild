@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/DBI-0.300
+	>=dev-perl/DBI-1.000
 	>=dev-perl/SQL-Statement-0.101.100
 	>=dev-perl/Text-CSV-XS-0.160
 "

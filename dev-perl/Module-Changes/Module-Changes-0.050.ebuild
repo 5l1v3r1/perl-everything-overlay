@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Test-Compile
 	dev-perl/Test-Differences
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

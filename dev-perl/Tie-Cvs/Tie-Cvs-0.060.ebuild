@@ -21,4 +21,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Config-AutoConf-0.160
 	>=dev-perl/Module-Build-0.420
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	virtual/perl-Exporter
+	>=virtual/perl-ExtUtils-CBuilder-0.210
+	virtual/perl-XSLoader
 "

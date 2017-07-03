@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Log-Report-0.180
-	dev-perl/POE
+	>=dev-perl/POE-0.380
 	dev-perl/POE-Component-Pluggable
 	>=dev-perl/POE-Filter-BigBrother-0.120
 	virtual/perl-Carp

@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/JSON-RPC2
+	>=dev-perl/JSON-RPC2-1.0.0
 	dev-perl/JSON-XS
-	>=dev-perl/Mojolicious-7.130
+	dev-perl/Mojolicious
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

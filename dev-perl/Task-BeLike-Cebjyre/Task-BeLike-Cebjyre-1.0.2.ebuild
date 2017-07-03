@@ -50,11 +50,12 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/Versionify-Dispatch
 	dev-perl/XML-Quote
+	dev-perl/YAML
 	dev-perl/ack
 	dev-perl/perl-ldap
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-Test-Simple
 "

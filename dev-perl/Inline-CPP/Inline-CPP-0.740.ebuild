@@ -26,4 +26,6 @@ DEPEND="
 	dev-lang/perl
 	>=dev-perl/ExtUtils-CppGuess-0.110
 	>=virtual/perl-ExtUtils-MakeMaker-7.040
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-1.001.009
 "

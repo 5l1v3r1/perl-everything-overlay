@@ -27,4 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Capture-Tiny
+	>=dev-perl/DBD-SQLite-1.310
+	dev-perl/Test-Requires
+	dev-perl/Test-TCP
+	>=virtual/perl-Test-Simple-0.980
 "

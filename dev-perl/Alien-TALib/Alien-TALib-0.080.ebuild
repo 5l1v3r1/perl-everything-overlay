@@ -27,4 +27,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	virtual/perl-File-Path
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

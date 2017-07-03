@@ -32,7 +32,7 @@ RDEPEND="
 	dev-perl/Tapper-Cmd
 	>=dev-perl/Tapper-Config-5.0.2
 	>=dev-perl/Tapper-Model-5.0.1
-	>=dev-perl/Tapper-Schema-5.0.6
+	dev-perl/Tapper-Schema
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
 	dev-perl/YAML-LibYAML

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Action-RenderView
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800.150
 	dev-perl/Catalyst-View-TT
 	dev-perl/Moose
 	dev-perl/Syntax-Highlight-Engine-Kate
@@ -30,7 +30,7 @@ RDEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Memoize
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

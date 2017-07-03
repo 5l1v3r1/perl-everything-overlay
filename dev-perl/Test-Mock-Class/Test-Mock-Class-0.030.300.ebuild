@@ -18,10 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Exception-Base
 	dev-perl/Fatal-Exception
-	>=dev-perl/Moose-0.930
+	>=dev-perl/Moose-0.900
 	>=dev-perl/Test-Assert-0.050
 	dev-perl/namespace-clean
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Class-Inspector
+	>=dev-perl/Test-Unit-Lite-0.120
 "

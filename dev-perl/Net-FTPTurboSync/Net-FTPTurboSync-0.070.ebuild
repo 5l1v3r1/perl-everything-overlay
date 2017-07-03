@@ -16,13 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.140
+	>=dev-lang/perl-1.040
 	>=dev-perl/DBI-1.611
 	>=dev-perl/Exception-Class-1.320
 	>=dev-perl/Exception-Class-TryCatch-1.120
 	>=dev-perl/base-2.140
 	>=virtual/perl-Test-Simple-0.920
-	>=virtual/perl-libnet-2.120
+	>=virtual/perl-libnet-2.770
 "
 DEPEND="
 	${RDEPEND}

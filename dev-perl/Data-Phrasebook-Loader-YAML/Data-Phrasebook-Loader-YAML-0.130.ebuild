@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Phrasebook-0.240
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 	virtual/perl-Carp
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.700

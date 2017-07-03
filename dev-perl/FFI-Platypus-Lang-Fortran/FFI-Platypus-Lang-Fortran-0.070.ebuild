@@ -18,8 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/FFI-Platypus-0.220
 	dev-perl/File-Which
+	>=dev-perl/Module-Build-FFI-0.220
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/FFI-CheckLib
 "

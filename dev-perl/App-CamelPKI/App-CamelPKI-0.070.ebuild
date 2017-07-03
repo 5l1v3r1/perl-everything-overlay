@@ -35,6 +35,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/IPC-Run
 	>=dev-perl/JSON-1.070
+	dev-perl/NEXT
 	>=dev-perl/SQL-Translator-0.070
 	dev-perl/Test-Group
 	virtual/perl-IO
@@ -43,4 +44,20 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Convert-ASN1-0.200
+	dev-perl/File-Which
+	dev-perl/HTML-Tree
+	dev-perl/HTTP-Message
+	dev-perl/HTTP-Request-Form
+	dev-perl/IO-Socket-SSL
+	dev-perl/Module-Build
+	dev-perl/Module-ScanDeps
+	dev-perl/Test-NoBreakpoints
+	>=dev-perl/Test-Pod-Coverage-1.040
+	dev-perl/URI
+	dev-perl/libwww-perl
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-autodie
 "

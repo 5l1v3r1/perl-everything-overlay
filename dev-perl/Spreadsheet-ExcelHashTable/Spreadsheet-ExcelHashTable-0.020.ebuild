@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Spreadsheet-ParseExcel
+	dev-perl/Spreadsheet-WriteExcel
+	dev-perl/Tie-IxHash
+	virtual/perl-Test-Simple
 "

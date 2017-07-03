@@ -19,13 +19,14 @@ RDEPEND="
 	>=dev-perl/Crypt-Blowfish-2.120
 	>=dev-perl/Crypt-CBC-2.320
 	>=dev-perl/HTTP-Message-6.000
+	>=dev-perl/Regexp-Common-2013031301.000
 	>=dev-perl/XML-Simple-2.200
 	>=dev-perl/libwww-perl-6.050
-	>=dev-perl/regexp-common-2013031301.000
 	>=virtual/perl-Carp-1.260
 	>=virtual/perl-Time-Piece-1.200
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

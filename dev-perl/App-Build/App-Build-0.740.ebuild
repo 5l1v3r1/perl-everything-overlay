@@ -22,4 +22,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Differences-0.470
 "

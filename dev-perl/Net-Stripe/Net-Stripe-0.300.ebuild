@@ -31,4 +31,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DateTime
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

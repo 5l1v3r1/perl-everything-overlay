@@ -31,11 +31,12 @@ RDEPEND="
 	dev-perl/Tickit-Widget-FloatBox
 	dev-perl/Tickit-Widget-ScrollBox
 	dev-perl/Tickit-Widgets
+	dev-perl/YAML
 	dev-perl/curry
-	dev-perl/yaml
 	>=virtual/perl-Scalar-List-Utils-1.330
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.400
+	>=virtual/perl-Test-Simple-0.880
 "

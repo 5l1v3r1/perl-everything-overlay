@@ -29,6 +29,7 @@ RDEPEND="
 	dev-perl/Modern-Perl
 	dev-perl/Module-Pluggable
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -36,4 +37,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/DBICx-TestDatabase
+	dev-perl/Path-Class
+	dev-perl/Test-Most
+	dev-perl/Test-Script
+	dev-perl/base
+	dev-perl/local-lib
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.940
 "

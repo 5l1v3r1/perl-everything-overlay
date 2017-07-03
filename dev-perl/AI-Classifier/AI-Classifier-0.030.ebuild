@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/AI-NaiveBayes-0.010
+	dev-perl/AI-NaiveBayes
 	>=dev-perl/File-Find-Rule-0.320
 	>=dev-perl/Moose-1.150
 	>=dev-perl/MooseX-Storage-0.250
@@ -30,4 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

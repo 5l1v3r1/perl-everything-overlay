@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/JSON
+	dev-perl/libwww-perl
+	virtual/perl-Test-Simple
 "

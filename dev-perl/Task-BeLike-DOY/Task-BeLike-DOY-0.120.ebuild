@@ -74,6 +74,7 @@ RDEPEND="
 	dev-perl/Unicode-Tussle
 	dev-perl/WWW-Mechanize
 	dev-perl/WWW-Wunderground-API
+	dev-perl/YAML
 	dev-perl/circular-require
 	>=dev-perl/cpan-outdated-0.050
 	dev-perl/forkprove
@@ -81,11 +82,13 @@ RDEPEND="
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	dev-perl/ph
-	dev-perl/yaml
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
 "

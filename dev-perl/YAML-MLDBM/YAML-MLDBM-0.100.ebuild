@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/MLDBM-2.010
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 	virtual/perl-Test-Simple
 "
 DEPEND="

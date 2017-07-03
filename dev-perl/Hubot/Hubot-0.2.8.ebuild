@@ -29,6 +29,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/JSON-XS
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/libwww-perl
@@ -36,7 +37,6 @@ RDEPEND="
 	virtual/perl-Encode
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-HiRes
 "
 DEPEND="

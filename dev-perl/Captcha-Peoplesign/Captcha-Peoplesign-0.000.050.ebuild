@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTML-Tiny-1.05.0
+	>=dev-perl/HTML-Tiny-1.5.0
 	>=dev-perl/libwww-perl-5.829
 "
 DEPEND="

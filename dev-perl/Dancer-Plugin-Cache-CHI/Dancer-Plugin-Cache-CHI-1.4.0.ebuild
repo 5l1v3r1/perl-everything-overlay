@@ -18,11 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CHI
-	dev-perl/Dancer
+	>=dev-perl/Dancer-1.190.400
 	dev-perl/Moo
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	>=virtual/perl-Test-Simple-0.880
 "

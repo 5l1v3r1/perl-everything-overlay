@@ -18,12 +18,18 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	dev-perl/Sub-Name
 	dev-perl/YAML-LibYAML
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Pod-Coverage-0.180
+	dev-perl/Test-Exception
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Pod-Coverage-1.080
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

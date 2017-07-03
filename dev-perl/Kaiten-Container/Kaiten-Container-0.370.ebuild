@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/DBI
+	dev-perl/Test-Class
+	dev-perl/Test-Warn
+	dev-perl/lib-abs
+	virtual/perl-Term-ANSIColor
+	virtual/perl-Test-Simple
 "

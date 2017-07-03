@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBD-CSV
 	dev-perl/DBI
+	dev-perl/Gtk2
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	virtual/perl-Carp
 	virtual/perl-Storable
 	virtual/perl-Test-Simple

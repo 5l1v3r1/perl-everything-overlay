@@ -40,4 +40,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Devel-Cycle
+	>=dev-perl/Test-File-ShareDir-1.000
+	>=dev-perl/Test-Roo-1.000
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

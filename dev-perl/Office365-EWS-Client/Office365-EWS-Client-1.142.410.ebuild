@@ -27,4 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/DateTime
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

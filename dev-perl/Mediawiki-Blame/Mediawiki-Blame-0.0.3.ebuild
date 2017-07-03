@@ -22,11 +22,11 @@ RDEPEND="
 	dev-perl/DateTime-Format-ISO8601
 	dev-perl/Params-Validate
 	dev-perl/Readonly
+	dev-perl/Regexp-Common
 	dev-perl/Test-Exception
 	dev-perl/Test-Without-Module
 	dev-perl/XML-Twig
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	virtual/perl-Carp
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-File-Spec

@@ -17,11 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Bit-Vector
+	dev-perl/Pod-Usage
 	dev-perl/Sort-Key
 	dev-perl/Sort-MergeSort
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

@@ -19,9 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Convert-BaseN
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

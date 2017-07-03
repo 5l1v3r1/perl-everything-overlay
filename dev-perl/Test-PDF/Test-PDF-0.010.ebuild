@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

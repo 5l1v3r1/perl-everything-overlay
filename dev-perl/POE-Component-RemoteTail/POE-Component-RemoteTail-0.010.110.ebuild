@@ -16,12 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Inspector
 	dev-perl/Debug-STDERR
 	dev-perl/POE
 	dev-perl/UNIVERSAL-require
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/YAML
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

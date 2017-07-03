@@ -21,4 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/DBIx-Class-0.082.500
+	>=dev-perl/SQL-Translator-0.110.160
+	>=dev-perl/Test-Deep-0.110
+	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-parent
 "

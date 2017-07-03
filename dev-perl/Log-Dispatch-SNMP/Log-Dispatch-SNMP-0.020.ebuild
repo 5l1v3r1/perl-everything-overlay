@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Log-Dispatch
+	dev-perl/Net-SNMP
+	dev-perl/Params-Validate
+	virtual/perl-Carp
+	virtual/perl-Test-Simple
 "

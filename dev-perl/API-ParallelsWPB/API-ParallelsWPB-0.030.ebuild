@@ -25,4 +25,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/HTTP-Message-6.040
+	>=dev-perl/Test-Fatal-0.010
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Warnings-0.010
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

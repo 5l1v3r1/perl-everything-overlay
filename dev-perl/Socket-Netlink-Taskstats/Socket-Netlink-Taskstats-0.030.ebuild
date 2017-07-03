@@ -23,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-CChecker-0.020
 	dev-perl/Module-Build
+	>=dev-perl/ExtUtils-H2PM-0.060
+	virtual/perl-Test-Simple
 "

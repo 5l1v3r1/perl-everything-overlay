@@ -19,10 +19,12 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/File-Slurp
 	dev-perl/SQL-SplitStatement
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.025
+	dev-perl/IO-Capture
+	dev-perl/Path-Tiny
 "

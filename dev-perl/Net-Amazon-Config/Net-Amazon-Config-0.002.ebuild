@@ -22,9 +22,12 @@ RDEPEND="
 	>=dev-perl/Params-Validate-0.910
 	>=dev-perl/Path-Class-0.170
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-version
 "

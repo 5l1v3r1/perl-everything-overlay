@@ -24,7 +24,6 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-IO
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

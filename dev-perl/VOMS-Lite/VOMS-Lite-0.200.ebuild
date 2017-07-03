@@ -20,10 +20,10 @@ RDEPEND="
 	dev-perl/Crypt-CBC
 	dev-perl/Crypt-DES
 	dev-perl/Crypt-DES-EDE3
+	dev-perl/Digest-MD2
 	dev-perl/Digest-SHA1
 	dev-perl/IO-Socket-SSL
 	dev-perl/TermReadKey
-	dev-perl/digest-md2
 	virtual/perl-Digest-MD5
 	virtual/perl-IO
 	virtual/perl-MIME-Base64

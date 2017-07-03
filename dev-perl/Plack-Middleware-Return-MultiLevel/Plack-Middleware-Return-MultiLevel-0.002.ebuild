@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Plack
+	>=dev-perl/Plack-1.003.100
 	>=dev-perl/Return-MultiLevel-0.030
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
@@ -24,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Message
+	dev-perl/Test-Most
 "

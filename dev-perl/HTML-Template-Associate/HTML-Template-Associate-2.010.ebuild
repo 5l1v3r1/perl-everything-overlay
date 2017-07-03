@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/CGI
 	dev-perl/Data-FormValidator
 	dev-perl/HTML-Template
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}

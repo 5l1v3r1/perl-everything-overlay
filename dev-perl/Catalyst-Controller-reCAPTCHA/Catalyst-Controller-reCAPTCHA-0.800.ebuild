@@ -16,9 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Captcha-reCAPTCHA
+	dev-perl/Captcha-reCaptcha
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Runtime
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-Test-Simple
 "

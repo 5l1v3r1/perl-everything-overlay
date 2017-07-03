@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Mojolicious-1.650
+	>=dev-perl/Plack-0.994.400
+	>=dev-perl/Test-Class-0.360
+	>=dev-perl/Test-UseAllModules-0.100
+	>=virtual/perl-Test-Simple-0.470
 "

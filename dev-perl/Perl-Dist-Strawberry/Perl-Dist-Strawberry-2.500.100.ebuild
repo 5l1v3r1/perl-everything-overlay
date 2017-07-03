@@ -23,4 +23,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/File-Remove-1.420
+	>=dev-perl/LWP-Online-1.070
+	>=dev-perl/Test-Perl-Dist-0.300
+	>=dev-perl/URI-4.200
+	>=virtual/perl-File-Path-2.040
+	>=virtual/perl-File-Spec-3.270.100
+	>=virtual/perl-Test-Simple-0.860
 "

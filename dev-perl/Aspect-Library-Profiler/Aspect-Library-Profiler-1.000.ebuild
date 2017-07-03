@@ -22,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/IPC-Run3-0.042
+	>=dev-perl/Test-NoWarnings-0.084
+	>=virtual/perl-File-Spec-0.800
+	>=virtual/perl-Test-Simple-0.420
 "

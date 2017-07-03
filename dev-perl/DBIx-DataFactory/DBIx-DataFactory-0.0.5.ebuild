@@ -30,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Path-Class
+	dev-perl/Test-Class
+	dev-perl/Test-TypeConstraints
+	dev-perl/Test-mysqld
+	virtual/perl-Test-Simple
 "

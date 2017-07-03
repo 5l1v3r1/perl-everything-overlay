@@ -25,8 +25,8 @@ RDEPEND="
 	>=dev-perl/LWP-Online-0.030
 	>=dev-perl/Params-Util-1.000
 	>=dev-perl/URI-ToDisk-1.080
+	>=dev-perl/YAML-0.600
 	>=dev-perl/libwww-perl-1.410
-	>=dev-perl/yaml-0.600
 	>=virtual/perl-Archive-Tar-1.300
 	>=virtual/perl-Digest-MD5-2.330
 	>=virtual/perl-File-Path-1.060
@@ -36,4 +36,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/File-Remove-1.400
+	>=virtual/perl-Test-Simple-0.470
 "

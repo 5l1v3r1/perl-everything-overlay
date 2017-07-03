@@ -26,13 +26,19 @@ RDEPEND="
 	dev-perl/Text-CSV
 	dev-perl/TimeDate
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/base
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/CHI
+	dev-perl/Cache
+	dev-perl/Test-Exception
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

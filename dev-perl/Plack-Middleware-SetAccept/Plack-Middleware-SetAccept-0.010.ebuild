@@ -24,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/HTTP-Message
+	dev-perl/Test-Exception
+	dev-perl/Test-XML
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

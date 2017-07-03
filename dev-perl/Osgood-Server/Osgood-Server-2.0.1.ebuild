@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-DBI
 	dev-perl/JSON-XS
 	>=dev-perl/Osgood-Client-2.0.0
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

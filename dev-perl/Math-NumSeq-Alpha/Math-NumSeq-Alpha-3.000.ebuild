@@ -16,14 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.020
 	dev-perl/Lingua-Any-Numbers
 	dev-perl/Lingua-EN-Numbers
 	dev-perl/Math-NumSeq
 	>=dev-perl/constant-defer-1.000
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-constant-1.020
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Mojolicious
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Time-HiRes
 "
 DEPEND="

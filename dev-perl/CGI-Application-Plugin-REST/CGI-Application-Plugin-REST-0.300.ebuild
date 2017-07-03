@@ -22,4 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/CGI-Application-Plugin-DevPopup
+	dev-perl/Test-LongString
+	dev-perl/Test-WWW-Mechanize-CGIApp
 "

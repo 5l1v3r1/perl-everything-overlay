@@ -31,7 +31,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
-	dev-lang/perl
+	>=dev-lang/perl-1.010
 	dev-perl/Dist-Zilla-Plugin-ModuleBuildTiny
 	dev-perl/Dist-Zilla-Plugin-Test-Compile
 	>=dev-perl/Dist-Zilla-Plugin-Test-EOL-0.140
@@ -39,7 +39,7 @@ DEPEND="
 	dev-perl/IPC-System-Simple
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
-	>=dev-perl/Test-Dist-Zilla-0.4.3
+	dev-perl/Test-Dist-Zilla
 	dev-perl/Test-Routine
 	dev-perl/Try-Tiny
 	dev-perl/lib

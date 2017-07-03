@@ -18,10 +18,14 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Dist-Zilla-3.101.461
-	>=dev-perl/Moose-1.030
+	>=dev-perl/Moose-1.010
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

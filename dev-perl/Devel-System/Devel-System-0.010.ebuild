@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/IO-stringy
+	virtual/perl-Test-Simple
 "

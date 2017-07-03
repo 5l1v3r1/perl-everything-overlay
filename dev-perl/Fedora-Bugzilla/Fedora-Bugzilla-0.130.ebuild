@@ -30,11 +30,11 @@ RDEPEND="
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/MooseX-Types-URI
 	dev-perl/RPC-XML
+	dev-perl/Regexp-Common
 	dev-perl/URI-Fetch
 	dev-perl/URI-Find
 	dev-perl/XML-Twig
 	dev-perl/namespace-clean
-	dev-perl/regexp-common
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple

@@ -32,4 +32,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/FFI-CheckLib-0.110
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Path-Tiny-0.060
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

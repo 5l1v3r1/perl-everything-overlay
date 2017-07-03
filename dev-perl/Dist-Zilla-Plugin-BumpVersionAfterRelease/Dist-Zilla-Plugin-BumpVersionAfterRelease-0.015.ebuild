@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-5.040
+	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	>=dev-perl/Path-Tiny-0.061
 	dev-perl/Version-Next
@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

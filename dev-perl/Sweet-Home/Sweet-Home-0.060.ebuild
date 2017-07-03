@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.050
+	>=dev-lang/perl-2.710
 	>=dev-perl/File-HomeDir-1.000
 	>=dev-perl/File-Remove-1.520
 	>=dev-perl/Moose-2.140.300
@@ -35,4 +35,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Compile-1.2.1
+	>=dev-perl/Test-Pod-1.480
+	>=virtual/perl-File-Temp-0.230.400
+	>=virtual/perl-Test-Simple-1.001.009
 "

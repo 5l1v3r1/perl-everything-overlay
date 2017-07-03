@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/DBIx-Class
+	dev-perl/Test-Exception
+	dev-perl/base
+	dev-perl/lib-abs
+	dev-perl/namespace-autoclean
+	virtual/perl-Test-Simple
 "

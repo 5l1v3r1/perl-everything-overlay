@@ -24,4 +24,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-lang/perl
+	>=dev-perl/Clone-0.300
+	>=dev-perl/DBD-CSV-0.300
+	>=dev-perl/DBD-Sys-0.102
+	>=dev-perl/Template-DBI-2.650
+	dev-perl/Template-Plugin-CSV
+	>=dev-perl/Template-Toolkit-2.000
+	dev-perl/YAML
+	virtual/perl-File-Path
+	>=virtual/perl-Test-Simple-0.900
 "

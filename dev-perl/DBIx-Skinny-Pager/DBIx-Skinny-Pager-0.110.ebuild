@@ -24,4 +24,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Install-ReadmeFromPod
+	dev-perl/Module-Install-Repository
+	dev-perl/Test-Deep
+	dev-perl/Test-Differences
+	dev-perl/Test-Requires
+	dev-perl/Test-UseAllModules
+	virtual/perl-Test-Simple
 "

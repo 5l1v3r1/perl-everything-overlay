@@ -32,4 +32,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Directory
+	>=dev-perl/Test-WriteVariants-0.005
+	>=virtual/perl-Test-Simple-0.900
 "

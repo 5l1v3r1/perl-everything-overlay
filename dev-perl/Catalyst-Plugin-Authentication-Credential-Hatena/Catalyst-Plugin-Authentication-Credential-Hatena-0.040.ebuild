@@ -21,4 +21,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-MockObject-1.060
 "

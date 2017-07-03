@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Message-Passing-0.114
 	>=dev-perl/Moo-1.003.001
+	>=dev-perl/Search-Elasticsearch-Async-5.000
 "
 DEPEND="
 	${RDEPEND}

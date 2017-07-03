@@ -21,9 +21,11 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	dev-perl/Test-Output
+	virtual/perl-Test-Simple
 "

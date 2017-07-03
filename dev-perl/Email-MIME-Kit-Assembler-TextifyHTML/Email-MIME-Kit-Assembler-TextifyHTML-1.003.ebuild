@@ -16,11 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Email-MIME-Kit-3.000.001
+	dev-perl/Email-MIME-Kit
 	dev-perl/HTML-FormatText-WithLinks
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

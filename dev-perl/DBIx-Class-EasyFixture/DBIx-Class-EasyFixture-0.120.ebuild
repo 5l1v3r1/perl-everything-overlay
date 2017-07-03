@@ -28,4 +28,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Capture-Tiny
+	>=dev-perl/Carp-Always-0.130
+	>=dev-perl/DBD-SQLite-1.390
+	dev-perl/DateTime
+	>=dev-perl/DateTime-Format-SQLite-0.110
+	dev-perl/Test-Most
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-Test-Simple
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Business-CreditCard-0.270
-	>=dev-perl/Business-OnlinePayment-0.040
+	>=dev-perl/Business-OnlinePayment-3.000
 "
 DEPEND="
 	${RDEPEND}

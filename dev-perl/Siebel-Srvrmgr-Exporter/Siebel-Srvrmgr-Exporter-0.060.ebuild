@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Moose-2.160.400
-	>=dev-perl/Siebel-Srvrmgr-0.240
+	dev-perl/Siebel-Srvrmgr
 	>=dev-perl/Term-YAP-0.040
 	>=dev-perl/namespace-autoclean-0.130
 	virtual/perl-File-Spec

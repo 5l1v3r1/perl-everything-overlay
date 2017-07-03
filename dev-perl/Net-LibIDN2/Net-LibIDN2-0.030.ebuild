@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-ExtUtils-ParseXS
+	>=virtual/perl-Test-Simple-0.100
 "

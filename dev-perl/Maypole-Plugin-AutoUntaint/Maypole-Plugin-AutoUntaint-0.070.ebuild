@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-DBI-Plugin-AutoUntaint
+	dev-perl/NEXT
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "

@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Catalyst-Runtime
+	dev-perl/IO-Socket-SSL
+	dev-perl/Test-Fake-HTTPD
+	dev-perl/Test-TCP
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/namespace-autoclean
+	virtual/perl-Test-Simple
 "

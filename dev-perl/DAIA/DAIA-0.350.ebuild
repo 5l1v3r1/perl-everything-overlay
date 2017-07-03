@@ -37,4 +37,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Perl-Critic
+	dev-perl/URI
+	dev-perl/XML-LibXML
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

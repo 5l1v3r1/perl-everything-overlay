@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-2.530
 	>=dev-perl/List-MoreUtils-0.330
+	>=dev-perl/Pod-Perldoc-3.210
 	>=dev-perl/URI-1.600
 	>=virtual/perl-Carp-1.260
 	>=virtual/perl-HTTP-Tiny-0.028
-	>=virtual/perl-Pod-Perldoc-3.210
 "
 DEPEND="
 	${RDEPEND}

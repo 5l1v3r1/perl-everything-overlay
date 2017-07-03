@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Flux-File
+	dev-perl/Test-NoWarnings
+	virtual/perl-File-Path
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
 "

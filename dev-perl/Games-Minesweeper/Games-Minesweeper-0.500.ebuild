@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/File-HomeDir
+	>=dev-perl/Gtk2-1.043
 	dev-perl/SDL
-	>=dev-perl/gtk2-perl-1.043
 "
 DEPEND="
 	${RDEPEND}

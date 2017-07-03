@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/Data-Page
 	dev-perl/base
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

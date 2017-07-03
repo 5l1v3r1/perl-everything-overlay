@@ -27,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Net-SMTPS-0.030
 	>=dev-perl/Parallel-Prefork-0.140
 	>=dev-perl/Path-Class-0.240
-	>=dev-perl/Plack-1.002.700
+	dev-perl/Plack
 	>=dev-perl/Router-Simple-0.140
 	>=dev-perl/Server-Starter-0.150
 	>=dev-perl/Try-Tiny-0.160
@@ -38,4 +38,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/HTTP-Message-6.000
+	>=virtual/perl-Test-Simple-0.980
 "

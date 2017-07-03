@@ -20,10 +20,11 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Net-Twitter-4.010.050
 	dev-perl/Try-Tiny
-	>=dev-perl/yaml-0.700
+	>=dev-perl/YAML-0.700
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.940
 "

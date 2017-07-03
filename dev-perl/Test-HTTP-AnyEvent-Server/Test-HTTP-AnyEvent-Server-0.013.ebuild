@@ -23,4 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/AnyEvent-HTTP
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-HTTP-Tiny
 "

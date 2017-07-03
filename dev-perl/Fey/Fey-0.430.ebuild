@@ -36,4 +36,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DateTime
+	dev-perl/DateTime-Format-MySQL
+	>=dev-perl/Fey-Test-0.050
+	dev-perl/Test-Memory-Cycle
+	dev-perl/Test-Requires
+	dev-perl/lib
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

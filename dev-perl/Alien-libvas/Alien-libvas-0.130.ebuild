@@ -21,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Alien-Base-ModuleBuild
 	>=dev-perl/Alien-CMake-0.070
 	dev-perl/Module-Build
 	dev-perl/IO-Socket-SSL

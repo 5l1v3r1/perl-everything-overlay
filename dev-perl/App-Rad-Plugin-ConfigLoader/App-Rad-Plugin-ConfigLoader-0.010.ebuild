@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/App-Rad-1.000
+	dev-perl/Config-Any
+	virtual/perl-Test-Simple
 "

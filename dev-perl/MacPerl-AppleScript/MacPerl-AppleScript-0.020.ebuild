@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Mac-Carbon-1.040
 	>=dev-perl/Parse-RecDescent-1.940
 	>=virtual/perl-Test-Harness-2.420
-	>=virtual/perl-Test-Simple-0.320
+	>=virtual/perl-Test-Simple-1.020
 "
 DEPEND="
 	${RDEPEND}

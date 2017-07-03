@@ -25,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-UUID
+	dev-perl/File-Slurp
+	>=dev-perl/Net-Amazon-S3-0.590
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

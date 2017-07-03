@@ -29,4 +29,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.362.200
 	dev-perl/Software-License
+	>=dev-perl/String-Dump-0.050
+	>=virtual/perl-Test-Simple-0.820
+	>=virtual/perl-podlators-2.040
 "

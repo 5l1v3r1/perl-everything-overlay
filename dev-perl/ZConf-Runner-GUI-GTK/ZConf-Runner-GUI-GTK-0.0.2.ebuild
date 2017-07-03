@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-MimeInfo
+	dev-perl/Gtk2
 	dev-perl/ZConf
 	dev-perl/ZConf-Runner
-	dev-perl/gtk2-perl
 	virtual/perl-Test-Simple
 "
 DEPEND="

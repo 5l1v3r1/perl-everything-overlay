@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Daemon
+	dev-perl/HTTP-Message
+	dev-perl/Test-NoWarnings
+	>=virtual/perl-Test-Simple-0.880
 "

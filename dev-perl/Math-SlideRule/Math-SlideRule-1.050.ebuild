@@ -24,4 +24,10 @@ DEPEND="
 	${RDEPEND}
 	dev-lang/perl
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	>=dev-perl/Pod-Coverage-0.180
+	dev-perl/Test-Exception
+	dev-perl/Test-Most
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Pod-Coverage-1.080
+	dev-perl/lib
 "

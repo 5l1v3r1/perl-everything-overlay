@@ -30,4 +30,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/AnyEvent
+	dev-perl/EV
+	dev-perl/Test-Exception
+	virtual/perl-Math-BigInt
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

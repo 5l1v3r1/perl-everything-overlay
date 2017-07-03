@@ -19,10 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/MIDI-Perl
 	dev-perl/Music-Duration
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

@@ -18,12 +18,12 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-1.040
 	>=dev-perl/File-HomeDir-0.970
+	>=dev-perl/Pod-Usage-1.350
 	>=dev-perl/Text-Diff-1.410
 	>=dev-perl/Text-Patch-1.800
 	>=virtual/perl-Carp-1.170
 	>=virtual/perl-Data-Dumper-2.125
 	>=virtual/perl-Exporter-5.620
-	>=virtual/perl-Pod-Usage-1.350
 "
 DEPEND="
 	${RDEPEND}

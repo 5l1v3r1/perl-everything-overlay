@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Hook-LexWrap-0.010
-	>=dev-perl/MailTools-1.170
+	>=dev-perl/MailTools-1.000
 	>=dev-perl/TermReadKey-2.130
-	>=dev-perl/TimeDate-2.200
+	>=dev-perl/TimeDate-0.010
 	>=dev-perl/enum-1.016
 	>=virtual/perl-Digest-MD5-2.100
 	>=virtual/perl-File-Spec-0.600
@@ -32,4 +32,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	>=virtual/perl-Test-Simple-0.310
 "

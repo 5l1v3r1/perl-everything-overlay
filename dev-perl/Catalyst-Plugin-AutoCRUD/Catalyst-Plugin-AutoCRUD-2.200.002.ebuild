@@ -42,4 +42,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Class-Data-Inheritable
+	dev-perl/DBI
+	dev-perl/JSON-XS
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-File-Temp
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

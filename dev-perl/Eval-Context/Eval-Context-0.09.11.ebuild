@@ -31,4 +31,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Directory-Scratch-Structured
+	dev-perl/Test-Block
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Output
+	dev-perl/Test-Warn
+	dev-perl/Text-Diff
 "

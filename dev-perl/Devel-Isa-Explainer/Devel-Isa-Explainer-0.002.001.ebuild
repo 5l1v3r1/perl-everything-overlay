@@ -24,11 +24,10 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Module-Load
 	>=virtual/perl-Term-ANSIColor-3.000
-	>=virtual/perl-constant-1.030
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.890
 "

@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/JSON-Schema
 	dev-perl/TAP-DOM
 	dev-perl/XML-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Harness
 "
@@ -35,4 +35,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

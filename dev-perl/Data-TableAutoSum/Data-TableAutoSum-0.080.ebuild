@@ -19,15 +19,15 @@ RDEPEND="
 	dev-perl/Data-Compare
 	dev-perl/Math-Random
 	dev-perl/Params-Validate
+	dev-perl/Regexp-Common
 	dev-perl/Set-CrossProduct
 	dev-perl/Set-Scalar
 	dev-perl/Test-Exception
 	>=dev-perl/Tie-CSV-File-0.060
 	dev-perl/Tie-File
-	dev-perl/regexp-common
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.130
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

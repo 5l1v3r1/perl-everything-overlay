@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Parse-AccessLogEntry
 	dev-perl/Text-CSV-XS
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple

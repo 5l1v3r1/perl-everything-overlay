@@ -19,7 +19,6 @@ RDEPEND="
 	>=dev-perl/Clone-0.310
 	>=dev-perl/Hash-Merge-0.120
 	>=dev-perl/URI-1.640
-	>=dev-perl/XBRL-0.030
 "
 DEPEND="
 	${RDEPEND}

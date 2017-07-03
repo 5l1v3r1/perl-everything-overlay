@@ -32,4 +32,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Distribution-1.230
+	>=virtual/perl-Test-Simple-0.620
 "

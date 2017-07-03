@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/LWP-ConsoleLogger
 	dev-perl/LWP-Protocol-https
 	>=dev-perl/Moo-2.001.001
-	>=dev-perl/Type-Tiny-1.000.005
+	dev-perl/Type-Tiny
 	dev-perl/Types-URI
 	>=dev-perl/URI-1.710
 	dev-perl/URI-FromHash

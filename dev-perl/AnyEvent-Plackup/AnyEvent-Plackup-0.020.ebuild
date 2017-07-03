@@ -30,4 +30,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/libwww-perl
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-Test-Simple
 "

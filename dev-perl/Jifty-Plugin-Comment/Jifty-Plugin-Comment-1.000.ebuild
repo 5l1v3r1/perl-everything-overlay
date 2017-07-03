@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/HTML-Scrubber
 	>=dev-perl/Jifty-0.904.090
 	dev-perl/MIME-Base64-URLSafe
+	dev-perl/Regexp-Common
 	dev-perl/Regexp-Common-Email-Address
-	dev-perl/regexp-common
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 "
 DEPEND="

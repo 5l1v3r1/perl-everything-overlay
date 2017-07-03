@@ -22,5 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.005
 	>=dev-perl/Module-Build-0.420
 "

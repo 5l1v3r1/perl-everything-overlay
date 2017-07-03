@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Template-Provider-Encoding
 	dev-perl/XML-LibXML
 	dev-perl/XML-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

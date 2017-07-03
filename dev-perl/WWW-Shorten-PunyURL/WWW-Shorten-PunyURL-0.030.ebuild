@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Mouse
+	dev-perl/Regexp-Common
 	dev-perl/URI
 	dev-perl/WWW-Shorten
 	dev-perl/XML-LibXML
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple
 "

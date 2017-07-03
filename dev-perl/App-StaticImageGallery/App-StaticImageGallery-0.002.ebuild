@@ -22,15 +22,16 @@ RDEPEND="
 	dev-perl/Imager
 	dev-perl/Moose
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/Template-Provider-FromDATA
 	dev-perl/Template-Toolkit
 	virtual/perl-Carp
 	virtual/perl-File-Path
 	virtual/perl-MIME-Base64
-	virtual/perl-Pod-Usage
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Test-Simple
 "

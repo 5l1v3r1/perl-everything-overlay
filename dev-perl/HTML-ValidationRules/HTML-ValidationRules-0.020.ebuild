@@ -23,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Exporter-Lite
+	dev-perl/Test-Differences
+	dev-perl/Test-Name-FromLine
+	dev-perl/Test-Requires
+	>=virtual/perl-Test-Simple-0.960
 "

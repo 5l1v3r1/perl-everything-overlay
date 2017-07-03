@@ -29,11 +29,12 @@ RDEPEND="
 	>=dev-perl/Net-SSH2-0.440
 	>=dev-perl/POE-1.350
 	>=dev-perl/Params-Validate-0.920
+	>=dev-perl/Pod-Usage-1.350
 	>=dev-perl/Set-Light-0.040
 	>=dev-perl/Try-Tiny-Retry-0.003
-	>=virtual/perl-Pod-Usage-1.350
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

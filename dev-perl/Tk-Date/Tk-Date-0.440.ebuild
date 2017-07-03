@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Tk-402.002
-	>=dev-perl/Tk-GBARR-0.050
+	>=dev-perl/Tk-GBARR-1.080
 "
 DEPEND="
 	${RDEPEND}

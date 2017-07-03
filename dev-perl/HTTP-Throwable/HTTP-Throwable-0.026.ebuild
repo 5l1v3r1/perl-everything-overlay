@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Package-Variant-1.002.000
 	>=dev-perl/Plack-0.996.700
 	dev-perl/Sub-Exporter
-	dev-perl/Throwable
+	>=dev-perl/Throwable-0.102.080
 	dev-perl/Type-Tiny
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -32,4 +32,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Message
+	dev-perl/Test-Deep
+	>=dev-perl/Test-Fatal-0.003
+	dev-perl/base
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.960
 "

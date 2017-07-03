@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-0.350
 	>=dev-perl/Catalyst-Plugin-I18N-0.090
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800.130
 	>=dev-perl/HTTP-Message-5.824
 	>=dev-perl/Moose-0.920
 	>=dev-perl/Path-Class-0.160

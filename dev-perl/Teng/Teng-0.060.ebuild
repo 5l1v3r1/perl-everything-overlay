@@ -29,4 +29,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-SharedFork-0.150
+	dev-perl/Test-mysqld
+	>=virtual/perl-Test-Simple-0.960
 "

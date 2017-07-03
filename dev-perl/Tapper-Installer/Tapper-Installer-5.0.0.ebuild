@@ -28,8 +28,8 @@ RDEPEND="
 	dev-perl/Tapper-Base
 	dev-perl/Tapper-Remote
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/common-sense
-	dev-perl/yaml
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
 	virtual/perl-IO
@@ -38,4 +38,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	dev-perl/Test-MockModule
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Path
 "

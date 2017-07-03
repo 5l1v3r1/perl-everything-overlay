@@ -16,7 +16,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	>=dev-perl/Linux-Epoll-0.012
+	>=dev-perl/Mojolicious-5.700
+	virtual/perl-Carp
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Module-Metadata
+	>=virtual/perl-Test-Simple-0.880
 "

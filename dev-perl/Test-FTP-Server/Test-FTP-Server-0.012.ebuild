@@ -21,4 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Copy-Recursive
+	dev-perl/Test-TCP
+	>=virtual/perl-Test-Simple-0.880
 "

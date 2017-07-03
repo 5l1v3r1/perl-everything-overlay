@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Sub-Name
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

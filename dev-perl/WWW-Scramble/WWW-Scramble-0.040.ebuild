@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/MooseX-AttributeHelpers
 	dev-perl/URI
 	dev-perl/WWW-Mechanize
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

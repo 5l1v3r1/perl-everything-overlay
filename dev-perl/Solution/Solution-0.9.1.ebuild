@@ -21,4 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-lang/perl
+	dev-perl/JSON
+	dev-perl/Perl-Tidy
+	virtual/perl-CPAN-Meta
+	>=virtual/perl-Test-Simple-0.940
 "

@@ -34,8 +34,8 @@ RDEPEND="
 	>=dev-perl/Try-Tiny-0.030
 	>=dev-perl/XML-Twig-3.350
 	>=dev-perl/XML-XPath-1.130
+	>=dev-perl/YAML-0.700
 	>=dev-perl/namespace-autoclean-0.110
-	>=dev-perl/yaml-0.700
 	>=virtual/perl-File-Path-2.080
 	>=virtual/perl-HTTP-Tiny-0.029
 	>=virtual/perl-IPC-Cmd-0.580
@@ -43,4 +43,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	>=dev-perl/Class-Unload-0.070
+	>=dev-perl/Test-Exception-0.310
+	>=virtual/perl-Test-Simple-0.108
 "

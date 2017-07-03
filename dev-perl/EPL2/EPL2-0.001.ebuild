@@ -16,12 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/MooseX-Method-Signatures
 	dev-perl/MooseX-Types
 	dev-perl/Text-Wrap-Smart-XS
 	dev-perl/namespace-autoclean
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -22,6 +22,7 @@ RDEPEND="
 	dev-perl/Mknod
 	>=dev-perl/Moose-0.510
 	>=dev-perl/MooseX-GlobRef-0.020.300
+	dev-perl/self
 	virtual/perl-Carp
 	>=virtual/perl-File-Temp-0.210
 	>=virtual/perl-IO-0.310
@@ -29,4 +30,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	>=virtual/perl-Test-Simple-0.420
 "

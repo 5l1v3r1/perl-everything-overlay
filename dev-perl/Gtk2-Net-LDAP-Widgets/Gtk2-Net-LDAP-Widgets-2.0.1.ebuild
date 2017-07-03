@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/ExtUtils-AutoInstall
-	>=dev-perl/gtk2-perl-1.000
+	>=dev-perl/Gtk2-1.000
 	>=dev-perl/perl-ldap-0.200
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-Test-Simple

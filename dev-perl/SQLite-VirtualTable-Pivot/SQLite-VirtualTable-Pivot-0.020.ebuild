@@ -20,4 +20,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Class-Accessor-Contextual
+	>=dev-perl/DBD-SQLite-1.250
+	dev-perl/DBI
+	dev-perl/DBIx-Simple
+	dev-perl/SQLite-VirtualTable
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

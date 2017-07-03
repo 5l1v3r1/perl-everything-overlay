@@ -30,4 +30,17 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Action-RenderView
+	dev-perl/Catalyst-Plugin-Authentication
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/Catalyst-Plugin-Session-State-Auth
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Plugin-Session-State-URI
+	dev-perl/Catalyst-Plugin-Session-Store-FastMmap
+	>=dev-perl/Catalyst-Runtime-5.800.150
+	dev-perl/Catalyst-View-JSON
+	dev-perl/Catalyst-View-TT
+	dev-perl/JSON-Any
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	>=virtual/perl-Test-Simple-0.880
 "

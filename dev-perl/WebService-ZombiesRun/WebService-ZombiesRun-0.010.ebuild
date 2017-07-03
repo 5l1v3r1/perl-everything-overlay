@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/WWW-Mechanize
 	virtual/perl-Data-Dumper
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

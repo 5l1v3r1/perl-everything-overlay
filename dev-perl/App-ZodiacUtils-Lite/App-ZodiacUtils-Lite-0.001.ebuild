@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/App-ZodiacUtils
 	dev-perl/Data-Sah
 	dev-perl/Data-Sah-Coerce
-	dev-perl/Data-Sah-Coerce-perl-date-str-alami
+	dev-perl/Data-Sah-Coerce-perl-date-str-alami-en
 	dev-perl/Perinci-CmdLine-Lite
 "
 DEPEND="

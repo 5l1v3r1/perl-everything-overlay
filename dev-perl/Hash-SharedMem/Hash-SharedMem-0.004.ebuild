@@ -24,4 +24,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Scalar-String
+	virtual/perl-Data-Dumper
+	>=virtual/perl-ExtUtils-CBuilder-0.150
+	>=virtual/perl-File-Temp-0.220
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.030
+	virtual/perl-if
 "

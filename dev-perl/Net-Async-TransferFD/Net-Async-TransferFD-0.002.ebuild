@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Future-0.290
+	>=dev-perl/Future-0.320
 	>=dev-perl/IO-Async-0.600
 	dev-perl/Socket-MsgHdr
 	>=dev-perl/Variable-Disposition-0.004
@@ -27,4 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	dev-lang/perl
+	>=dev-perl/Test-CheckDeps-0.010
+	>=dev-perl/Test-Fatal-0.010
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

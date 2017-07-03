@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Devel-Cycle
+	dev-perl/PadWalker
+	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-Test-Simple
 "

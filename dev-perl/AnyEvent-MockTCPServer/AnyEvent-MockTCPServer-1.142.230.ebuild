@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/Sub-Name
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

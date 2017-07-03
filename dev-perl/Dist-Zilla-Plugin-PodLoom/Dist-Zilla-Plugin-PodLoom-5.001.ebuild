@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-4.200.001
+	dev-perl/Dist-Zilla
 	>=dev-perl/Dist-Zilla-Plugins-CJM-0.080
 	dev-perl/Hash-Merge-Simple
 	>=dev-perl/Moose-0.650
@@ -26,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Encode
+	>=virtual/perl-Test-Simple-0.880
 "

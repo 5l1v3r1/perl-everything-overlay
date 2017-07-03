@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Parse-RecDescent
+	virtual/perl-Test-Simple
 "

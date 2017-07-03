@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/IO-stringy
-	dev-perl/Spreadsheet-WriteExcel
+	>=dev-perl/Spreadsheet-WriteExcel-0.420
 	>=dev-perl/Test-Deep-0.095
 	>=dev-perl/Test-Exception-0.210
 	dev-perl/XML-Parser

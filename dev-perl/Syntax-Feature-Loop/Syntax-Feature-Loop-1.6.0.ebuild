@@ -26,4 +26,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.361.400
 	dev-perl/Software-License
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

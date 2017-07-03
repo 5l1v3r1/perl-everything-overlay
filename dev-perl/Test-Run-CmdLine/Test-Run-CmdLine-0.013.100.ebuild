@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	>=dev-perl/MooseX-Getopt-0.260
+	dev-perl/MooseX-Getopt
 	>=dev-perl/Test-Run-0.012.600
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML-LibYAML
@@ -26,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-Trap
+	virtual/perl-Test-Simple
 "

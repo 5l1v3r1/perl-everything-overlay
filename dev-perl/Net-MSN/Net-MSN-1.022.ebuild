@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.040
+	>=dev-lang/perl-1.050
 	>=dev-perl/Hash-Merge-0.070
 	>=dev-perl/libwww-perl-2.013
 	>=virtual/perl-Digest-MD5-2.300
-	>=virtual/perl-IO-1.150
+	>=virtual/perl-IO-1.270
 "
 DEPEND="
 	${RDEPEND}

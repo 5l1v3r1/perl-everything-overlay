@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

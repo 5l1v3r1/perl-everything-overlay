@@ -23,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckCompiler-0.040
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-TCP-2.010
+	>=virtual/perl-Test-Simple-0.980
 "

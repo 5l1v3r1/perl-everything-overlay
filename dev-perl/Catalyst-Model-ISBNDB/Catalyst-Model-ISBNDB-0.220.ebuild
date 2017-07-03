@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700
+	>=dev-perl/NEXT-0.600
 	>=dev-perl/WebService-ISBNDB-0.310
 	>=virtual/perl-Test-Simple-0.800
 "

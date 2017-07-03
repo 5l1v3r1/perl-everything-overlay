@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Log-Dispatch-Array
+	dev-perl/Test-Exception
+	dev-perl/Try-Tiny
+	virtual/perl-Test-Simple
 "

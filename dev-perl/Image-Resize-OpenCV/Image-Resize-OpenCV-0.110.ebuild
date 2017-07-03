@@ -20,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/ExtUtils-PkgConfig-1.030
+	>=virtual/perl-Test-Simple-0.320
 "

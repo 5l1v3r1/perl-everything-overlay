@@ -24,4 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Cache-Memcached-Fast
+	dev-perl/File-Which
+	dev-perl/Proc-Guard
+	dev-perl/Test-Skip-UnlessExistsExecutable
+	dev-perl/Test-TCP
+	virtual/perl-Test-Simple
 "

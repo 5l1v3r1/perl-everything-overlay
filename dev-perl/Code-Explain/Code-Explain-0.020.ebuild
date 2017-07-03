@@ -17,9 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/PPI-1.213
-	virtual/perl-Pod-Usage
+	dev-perl/Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Deep-0.010
+	>=dev-perl/Test-NoWarnings-0.084
+	>=virtual/perl-Test-Simple-0.880
 "

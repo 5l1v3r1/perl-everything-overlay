@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/GTop-0.150
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 "
 DEPEND="

@@ -24,7 +24,6 @@ RDEPEND="
 	>=virtual/perl-IO-1.260
 	>=virtual/perl-Socket-1.720
 	>=virtual/perl-Test-Simple-0.410
-	>=virtual/perl-constant-1.020
 "
 DEPEND="
 	${RDEPEND}

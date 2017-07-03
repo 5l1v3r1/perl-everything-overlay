@@ -20,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/ExtUtils-H2PM-0.030
+	virtual/perl-ExtUtils-CBuilder
 "

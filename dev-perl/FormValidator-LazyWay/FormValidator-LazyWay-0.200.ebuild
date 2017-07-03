@@ -26,8 +26,8 @@ RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/UNIVERSAL-require
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/YAML-Syck
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

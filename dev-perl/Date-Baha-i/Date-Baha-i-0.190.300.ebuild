@@ -21,10 +21,12 @@ RDEPEND="
 	dev-perl/Lingua-EN-Numbers
 	dev-perl/Lingua-EN-Numbers-Years
 	virtual/perl-Exporter
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

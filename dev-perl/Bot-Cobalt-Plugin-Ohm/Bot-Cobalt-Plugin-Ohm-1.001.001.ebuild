@@ -17,10 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Bot-Cobalt
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	>=dev-perl/strictures-2.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "

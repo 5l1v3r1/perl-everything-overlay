@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Dump
+	dev-perl/Gtk2
 	dev-perl/Gtk2-WebKit
 	dev-perl/Moose
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	virtual/perl-Exporter
 "
 DEPEND="

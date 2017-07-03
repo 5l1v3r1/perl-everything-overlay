@@ -22,8 +22,8 @@ RDEPEND="
 	>=dev-perl/Rubyish-Attribute-1.000
 	>=dev-perl/Sub-Exporter-0.982
 	>=dev-perl/UNIVERSAL-isa-1.010
+	>=dev-perl/YAML-0.680
 	>=dev-perl/autobox-2.550
-	>=dev-perl/yaml-0.680
 	>=virtual/perl-Data-Dumper-2.121
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/IO-Socket-SSL-1.940
-	>=dev-perl/Mojolicious-4.500
+	dev-perl/Mojolicious
 "
 DEPEND="
 	${RDEPEND}

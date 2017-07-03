@@ -16,11 +16,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Class-Load
+	dev-perl/DBD-SQLite
+	dev-perl/DateTime
+	dev-perl/Moose
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

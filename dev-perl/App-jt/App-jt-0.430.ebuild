@@ -21,12 +21,15 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moo
 	dev-perl/MooX-Options
+	dev-perl/Pod-Usage
 	dev-perl/Text-CSV
 	virtual/perl-IO
 	virtual/perl-JSON-PP
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/IO-String
+	virtual/perl-Test-Simple
 "

@@ -24,4 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Capture-Tiny
+	dev-perl/Git-Repository
+	dev-perl/Test-Exception
+	dev-perl/Test-FailWarnings
+	dev-perl/Test-Type
+	>=virtual/perl-Test-Simple-0.940
 "

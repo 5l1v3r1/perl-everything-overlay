@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/HTTP-Daemon
 	dev-perl/List-MoreUtils
 	dev-perl/MIME-Types
-	dev-perl/Pod-POM
+	>=dev-perl/Pod-POM-0.250
 	dev-perl/URI
 	virtual/perl-Encode
 	virtual/perl-Module-CoreList
@@ -32,4 +32,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	virtual/perl-Test-Simple
 "

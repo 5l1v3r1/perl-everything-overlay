@@ -28,9 +28,17 @@ RDEPEND="
 	dev-perl/XML-SAX
 	dev-perl/XML-SAX-Expat
 	dev-perl/XML-Simple
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-Test-Harness-2.640
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/HTML-Parser
+	dev-perl/HTML-Tagset
+	dev-perl/Method-Alias
+	dev-perl/Module-Starter
+	>=dev-perl/Test-TAP-Model-0.066.660
+	dev-perl/URI
+	dev-perl/libwww-perl
+	virtual/perl-IO-Compress
 "

@@ -21,4 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-SharedFork
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
+	virtual/perl-parent
 "

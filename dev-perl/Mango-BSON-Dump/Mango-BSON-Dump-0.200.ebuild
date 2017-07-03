@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/JSON-XS-3.000
-	dev-perl/Mango
+	>=dev-perl/Mango-1.290
 	dev-perl/Mojolicious
 	>=virtual/perl-Exporter-5.570
 "

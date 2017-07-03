@@ -24,4 +24,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	>=dev-perl/PkgConfig-0.077.200
+	>=dev-perl/Test-Class-0.120
+	>=dev-perl/Test-Exception-0.210
+	>=dev-perl/Test-Most-0.310
+	>=dev-perl/Test-Taint-1.060
 "

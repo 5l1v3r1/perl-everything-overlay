@@ -31,4 +31,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Path-Class
+	dev-perl/Test-Fatal
+	dev-perl/Test-Warn
+	dev-perl/UUID-Tiny
+	>=virtual/perl-Test-Simple-0.880
 "

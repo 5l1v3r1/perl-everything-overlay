@@ -26,4 +26,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/HTTP-Cookies
+	dev-perl/HTTP-Server-Simple-PSGI
+	dev-perl/Modern-Perl
+	dev-perl/Test-Memory-Cycle
+	dev-perl/Test-Requires
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

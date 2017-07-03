@@ -26,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Digest-HMAC
+	dev-perl/Test-Number-Delta
+	virtual/perl-MIME-Base64
+	>=virtual/perl-Test-Simple-0.320
 "

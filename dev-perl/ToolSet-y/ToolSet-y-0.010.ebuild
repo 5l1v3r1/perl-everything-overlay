@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Class-Autouse-1.290
+	>=dev-perl/ToolSet-1.000
+	virtual/perl-Test-Simple
 "

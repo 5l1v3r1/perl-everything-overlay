@@ -19,4 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Crypt-OICQ-1.000
+	>=dev-perl/TermReadKey-2.300
+	>=virtual/perl-Digest-MD5-0.100
+	>=virtual/perl-IO-0.100
+	>=virtual/perl-Term-ANSIColor-0.100
+	virtual/perl-Test-Simple
 "

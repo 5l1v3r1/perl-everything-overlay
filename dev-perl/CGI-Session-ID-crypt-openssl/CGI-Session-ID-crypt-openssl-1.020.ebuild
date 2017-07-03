@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
+	>=dev-perl/CGI-Session-4.000
+	dev-perl/Crypt-OpenSSL-Random
+	virtual/perl-Digest-MD5
+	virtual/perl-Test-Simple
 "

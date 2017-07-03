@@ -37,13 +37,13 @@ RDEPEND="
 	dev-perl/MooseX-SemiAffordanceAccessor
 	dev-perl/Path-Class
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/experimental
 	dev-perl/libwww-perl
 	virtual/perl-CPAN-Meta
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 	virtual/perl-version
 "

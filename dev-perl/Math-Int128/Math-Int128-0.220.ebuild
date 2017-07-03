@@ -20,9 +20,12 @@ RDEPEND="
 	>=dev-perl/Math-Int64-0.510
 	virtual/perl-Exporter
 	virtual/perl-XSLoader
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Math-BigInt
+	>=virtual/perl-Test-Simple-0.960
 "

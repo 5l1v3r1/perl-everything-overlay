@@ -42,4 +42,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Devel-SimpleTrace-0.070
+	>=dev-perl/JSONY-0.0.1
+	>=dev-perl/Test-CheckDeps-0.002
+	>=dev-perl/Test-Most-0.010
+	>=dev-perl/Test-UseAllModules-0.100
 "

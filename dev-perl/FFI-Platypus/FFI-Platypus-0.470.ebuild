@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.320
 	dev-perl/FFI-CheckLib
 	dev-perl/File-ShareDir
 	virtual/perl-JSON-PP
-	>=virtual/perl-constant-1.320
 "
 DEPEND="
 	${RDEPEND}

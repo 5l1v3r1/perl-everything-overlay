@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Data-Alias-1.010
 	>=dev-perl/PadWalker-1.000
-	>=dev-perl/yaml-0.620
+	>=dev-perl/YAML-0.620
 	virtual/perl-Test-Simple
 "
 DEPEND="

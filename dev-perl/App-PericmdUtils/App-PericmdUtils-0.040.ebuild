@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Data-Sah
 	dev-perl/Perinci-CmdLine-Any
-	>=dev-perl/Perinci-CmdLine-Dump-0.070
 	>=dev-perl/Perinci-CmdLine-Lite-1.660
 	>=dev-perl/Perinci-CmdLine-POD-0.003
 	>=dev-perl/Perinci-CmdLine-Util-0.130

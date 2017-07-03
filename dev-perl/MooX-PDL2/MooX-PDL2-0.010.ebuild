@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moo
 	dev-perl/MooX-ProtectedAttributes
-	dev-perl/PDL
+	>=dev-perl/PDL-2.000
 	dev-perl/PDLx-DetachedObject
 	dev-perl/namespace-clean
 	virtual/perl-Carp

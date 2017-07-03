@@ -19,8 +19,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
-	dev-perl/Math-Business-BlackScholes-Binaries
 	dev-perl/Math-Business-BlackScholes-Binaries-Greeks
+	dev-perl/Math-Business-Blackscholes-Binaries
 	dev-perl/Math-CDF
 	dev-perl/base
 	virtual/perl-Carp

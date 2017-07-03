@@ -26,4 +26,8 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckLib
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

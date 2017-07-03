@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Date-Calc-5.000
-	>=dev-perl/Glib-Ex-ObjectBits-1.000
+	>=dev-perl/Glib-Ex-ObjectBits-12.000
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Ex-WidgetBits
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	>=dev-perl/libintl-perl-1.160
 "
 DEPEND="

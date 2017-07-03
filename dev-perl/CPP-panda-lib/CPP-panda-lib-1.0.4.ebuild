@@ -23,5 +23,5 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.760
 	dev-perl/Test-Deep
 	>=virtual/perl-ExtUtils-ParseXS-3.240
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "

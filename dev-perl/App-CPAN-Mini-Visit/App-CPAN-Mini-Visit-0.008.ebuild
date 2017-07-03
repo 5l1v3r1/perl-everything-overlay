@@ -23,9 +23,17 @@ RDEPEND="
 	dev-perl/File-pushd
 	>=dev-perl/Getopt-Lucid-0.160
 	dev-perl/Path-Class
-	>=virtual/perl-Pod-Usage-1.350
+	>=dev-perl/Pod-Usage-1.350
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/CPAN-Checksums
+	>=dev-perl/IO-CaptureOutput-1.080.100
+	virtual/perl-File-Spec
+	>=virtual/perl-File-Temp-0.200
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.620
+	virtual/perl-version
 "

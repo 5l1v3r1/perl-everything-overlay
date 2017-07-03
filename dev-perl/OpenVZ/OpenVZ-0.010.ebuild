@@ -21,11 +21,11 @@ RDEPEND="
 	dev-perl/IPC-Run3-Simple
 	dev-perl/List-MoreUtils
 	dev-perl/Params-Validate
+	dev-perl/Regexp-Common
 	dev-perl/Sub-Exporter
 	dev-perl/Sub-Exporter-ForMethods
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-sweep
-	dev-perl/regexp-common
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
@@ -33,4 +33,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-CheckDeps
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Requires
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.940
 "

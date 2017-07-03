@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Digest-MurmurHash
+	dev-perl/MCE
+	virtual/perl-Test-Simple
 "

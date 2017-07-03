@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/URI
+	dev-perl/URI-Find
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Labyrinth-Plugin-Core-5.180
 	>=dev-perl/Labyrinth-Test-Harness-1.050
 	>=dev-perl/Session-Token-1.008
-	>=virtual/perl-Encode-2.490
+	>=virtual/perl-Encode-2.130
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.700
 "

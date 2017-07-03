@@ -19,8 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckLib-0.01.0
+	>=dev-perl/Devel-CheckLib-0.1.0
 	>=dev-perl/ExtUtils-CppGuess-0.070
 	>=dev-perl/Module-Build-0.400
 	>=dev-perl/Module-Build-WithXSpp-0.010
+	>=dev-perl/ExtUtils-Typemaps-Default-0.010
+	>=dev-perl/ExtUtils-XSpp-0.170
 "

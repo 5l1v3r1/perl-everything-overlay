@@ -23,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Text-TestBase-0.090
+	>=virtual/perl-Test-Simple-0.980
 "

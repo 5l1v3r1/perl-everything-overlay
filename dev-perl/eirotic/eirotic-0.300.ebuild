@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Import-Into
 	dev-perl/Path-Tiny
+	dev-perl/YAML
 	dev-perl/curry
 	dev-perl/perlude
-	dev-perl/yaml
 	virtual/perl-autodie
 "
 DEPEND="

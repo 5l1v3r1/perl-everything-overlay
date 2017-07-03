@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.090
+	dev-lang/perl
 	>=dev-perl/Archive-Extract-0.600
 	>=dev-perl/CGI-Session-4.420
 	>=dev-perl/CTKlib-1.160

@@ -32,4 +32,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Class-Data-Inheritable
+	dev-perl/DBI
+	dev-perl/DBIx-Class
+	dev-perl/JSON-XS
+	dev-perl/Lingua-EN-Inflect-Number
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Temp
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

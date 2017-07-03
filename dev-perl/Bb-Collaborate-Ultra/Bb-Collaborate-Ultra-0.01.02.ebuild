@@ -22,10 +22,10 @@ RDEPEND="
 	dev-perl/Data-Compare
 	>=dev-perl/JSON-2.900
 	dev-perl/Mouse
+	>=dev-perl/Pod-Usage-1.330
 	dev-perl/REST-Client
 	dev-perl/TimeDate
 	dev-perl/Try-Tiny
-	>=virtual/perl-Pod-Usage-1.330
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "

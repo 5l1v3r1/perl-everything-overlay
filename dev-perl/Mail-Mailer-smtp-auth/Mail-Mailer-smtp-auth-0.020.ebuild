@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/MailTools
+	dev-perl/Net-SMTP-auth
+	virtual/perl-Test-Simple
 "

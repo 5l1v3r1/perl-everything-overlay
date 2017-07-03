@@ -22,4 +22,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Config-AutoConf
 	>=dev-perl/Module-Build-0.280
+	dev-lang/perl
+	virtual/perl-Test
+	>=virtual/perl-Test-Simple-0.940
 "

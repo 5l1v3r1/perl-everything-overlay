@@ -21,12 +21,13 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Tapper-Config
 	dev-perl/Try-Tiny
+	dev-perl/YAML
 	dev-perl/aliased
-	dev-perl/yaml
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

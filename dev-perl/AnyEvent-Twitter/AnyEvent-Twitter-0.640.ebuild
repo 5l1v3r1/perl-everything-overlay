@@ -23,11 +23,12 @@ RDEPEND="
 	>=dev-perl/JSON-2.530
 	>=dev-perl/Net-OAuth-0.270
 	>=dev-perl/Net-SSLeay-1.350
-	>=dev-perl/URI-3.300
+	>=dev-perl/URI-1.580
 	>=virtual/perl-Digest-SHA-5.620
 	>=virtual/perl-Time-Piece-1.200
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.980
 "

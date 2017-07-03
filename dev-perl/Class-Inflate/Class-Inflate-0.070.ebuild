@@ -20,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/DBD-SQLite
+	dev-perl/Test-Debugger
 "

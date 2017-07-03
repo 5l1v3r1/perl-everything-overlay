@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/yaml-0.300
+	>=dev-perl/YAML-0.300
 "
 DEPEND="
 	${RDEPEND}

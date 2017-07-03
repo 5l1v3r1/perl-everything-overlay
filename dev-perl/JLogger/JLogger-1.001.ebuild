@@ -20,9 +20,10 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/DBI
 	dev-perl/DBIx-Connector
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-SQLite
 "

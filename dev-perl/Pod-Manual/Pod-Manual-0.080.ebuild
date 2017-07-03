@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Object-InsideOut
+	dev-perl/Pod-Usage
 	dev-perl/Pod-XML
 	dev-perl/XML-LibXML
 	>=dev-perl/XML-XPathScript-1.510
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

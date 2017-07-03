@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DBD-mysql-2.900.200
 	dev-perl/DBI
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}

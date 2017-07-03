@@ -24,5 +24,7 @@ DEPEND="
 	dev-perl/ExtUtils-CppGuess
 	dev-perl/File-Which
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Module-Build-FFI-0.180
 	virtual/perl-ExtUtils-CBuilder
+	dev-perl/FFI-CheckLib
 "

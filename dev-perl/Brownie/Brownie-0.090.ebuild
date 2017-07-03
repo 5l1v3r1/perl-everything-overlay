@@ -34,4 +34,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	>=dev-perl/Test-Fake-HTTPD-0.030
+	dev-perl/Test-Mock-Guard
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
 "

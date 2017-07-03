@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/POE-1.003
+	>=dev-perl/POE-Filter-XML-0.350
+	>=dev-perl/Regexp-Common-time-0.040
+	>=virtual/perl-Test-Simple-0.800
 "

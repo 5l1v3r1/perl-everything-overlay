@@ -18,12 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor-Complex
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
 DEPEND="

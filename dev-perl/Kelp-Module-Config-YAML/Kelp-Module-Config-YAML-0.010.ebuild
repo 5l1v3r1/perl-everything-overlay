@@ -17,9 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Kelp
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

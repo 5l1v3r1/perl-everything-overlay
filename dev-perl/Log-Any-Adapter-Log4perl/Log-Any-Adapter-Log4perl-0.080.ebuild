@@ -17,11 +17,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-1.030
 	>=dev-perl/Log-Log4perl-1.320
 	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-File-Spec
+	>=virtual/perl-File-Temp-0.200
+	virtual/perl-Test-Simple
 "

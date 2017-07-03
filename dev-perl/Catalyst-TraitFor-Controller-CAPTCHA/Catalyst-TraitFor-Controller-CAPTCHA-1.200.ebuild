@@ -25,7 +25,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	dev-perl/Catalyst-Plugin-Session
-	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/Catalyst-Runtime
 	dev-perl/GD-SecurityImage
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	virtual/perl-Test-Simple

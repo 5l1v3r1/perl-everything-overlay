@@ -16,7 +16,20 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/App-FatPacker
+	dev-perl/App-cpanminus
+	dev-perl/App-perlbrew
+	dev-perl/CPAN-Mini
+	dev-perl/Carton
+	dev-perl/Pinto
+	dev-perl/local-lib
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Test-Simple
 "

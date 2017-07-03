@@ -18,12 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CHI-0.540
+	dev-perl/IPC-SysV
 	dev-perl/Moose
 	dev-perl/Test-Class
 	dev-perl/Test-Most
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-Warn
-	virtual/perl-IPC-SysV
 	virtual/perl-Storable
 "
 DEPEND="

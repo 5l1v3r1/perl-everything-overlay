@@ -19,5 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckLib-1.03.0
+	>=dev-perl/Devel-CheckLib-1.3.0
+	virtual/perl-ExtUtils-MakeMaker
 "

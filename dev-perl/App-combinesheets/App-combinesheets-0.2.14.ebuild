@@ -22,6 +22,7 @@ RDEPEND="
 	dev-perl/File-BOM
 	dev-perl/File-Which
 	dev-perl/IO-CaptureOutput
+	dev-perl/Pod-Usage
 	dev-perl/Text-CSV-Simple
 	dev-perl/Text-CSV-XS
 	dev-perl/autouse
@@ -30,10 +31,9 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

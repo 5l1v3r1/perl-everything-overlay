@@ -26,4 +26,6 @@ DEPEND="
 	>=dev-perl/ExtUtils-CppGuess-0.070
 	>=dev-perl/Module-Build-0.400
 	>=dev-perl/Module-Build-WithXSpp-0.130
+	>=dev-perl/ExtUtils-Typemaps-Default-0.010
+	>=dev-perl/ExtUtils-XSpp-0.160
 "

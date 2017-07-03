@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Catalyst-Devel
 	dev-perl/Catalyst-Runtime
+	dev-perl/NEXT
 	dev-perl/RPC-XML
 	virtual/perl-Test-Simple
 "

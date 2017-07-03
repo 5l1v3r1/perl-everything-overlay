@@ -26,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/CPAN-Changes
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	virtual/perl-Test-Simple
 "

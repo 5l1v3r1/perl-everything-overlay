@@ -21,8 +21,8 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Attribute-ENV
 	dev-perl/MooseX-Object-Pluggable
+	dev-perl/Pod-Usage
 	dev-perl/Text-CSV
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -20,4 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-NoWarnings
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

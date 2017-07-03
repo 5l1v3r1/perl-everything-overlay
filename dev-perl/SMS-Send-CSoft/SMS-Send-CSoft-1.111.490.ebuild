@@ -23,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-lang/perl
+	dev-perl/LWP-Protocol-PSGI
+	dev-perl/LWP-Protocol-https
+	dev-perl/Plack
+	virtual/perl-Test-Simple
 "

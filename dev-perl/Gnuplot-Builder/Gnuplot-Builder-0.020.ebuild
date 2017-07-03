@@ -25,4 +25,7 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Pluggable-0.090
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.020
+	dev-perl/Test-Identity
+	dev-perl/Test-Memory-Cycle
+	virtual/perl-Test-Simple
 "

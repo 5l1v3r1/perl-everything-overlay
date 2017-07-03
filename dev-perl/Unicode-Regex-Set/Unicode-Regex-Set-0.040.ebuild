@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

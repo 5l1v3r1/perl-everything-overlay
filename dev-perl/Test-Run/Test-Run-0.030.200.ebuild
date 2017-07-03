@@ -25,9 +25,10 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	>=virtual/perl-File-Spec-0.600
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Harness-2.530
+	>=virtual/perl-Test-Harness-3.090
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-Trap
 "

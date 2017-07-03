@@ -17,9 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Catalyst-Plugin-ConfigLoader
+	dev-perl/Catalyst-Plugin-Static-Simple
+	virtual/perl-Test-Simple
 "

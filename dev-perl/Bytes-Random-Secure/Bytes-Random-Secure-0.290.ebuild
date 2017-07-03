@@ -19,10 +19,11 @@ RDEPEND="
 	dev-perl/Crypt-Random-Seed
 	dev-perl/Math-Random-ISAAC
 	virtual/perl-Carp
-	>=virtual/perl-MIME-Base64-3.030
+	virtual/perl-MIME-Base64
 	>=virtual/perl-Scalar-List-Utils-1.210
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	>=virtual/perl-Test-Simple-0.980
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Server-Simple-0.440
 	dev-perl/IO-Socket-INET6
 	dev-perl/Net-SSLeay
-	dev-perl/Net-Server
+	>=dev-perl/Net-Server-2.000
 	dev-perl/Socket6
 "
 DEPEND="

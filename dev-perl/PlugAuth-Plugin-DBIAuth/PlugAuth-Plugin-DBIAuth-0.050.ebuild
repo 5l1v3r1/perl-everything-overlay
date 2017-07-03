@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Clustericious-Cluster-0.250
+	>=virtual/perl-Test-Simple-0.940
 "

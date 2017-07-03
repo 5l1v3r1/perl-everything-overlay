@@ -25,13 +25,13 @@ RDEPEND="
 	dev-perl/Module-Collect
 	dev-perl/Net-Ping-External
 	>=dev-perl/POE-1.003
+	dev-perl/Pod-Usage
 	dev-perl/Test-Class
 	dev-perl/UNIVERSAL-require
 	dev-perl/URI
 	dev-perl/XML-RSS
 	dev-perl/YAML-Syck
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

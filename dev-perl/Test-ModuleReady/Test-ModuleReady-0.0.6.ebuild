@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Pod-Checker-1.450
 	>=dev-perl/Test-Spelling-0.110
 	>=virtual/perl-Carp-1.080
-	>=virtual/perl-Pod-Checker-1.450
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-version
 "

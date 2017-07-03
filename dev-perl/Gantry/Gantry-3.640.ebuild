@@ -37,4 +37,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

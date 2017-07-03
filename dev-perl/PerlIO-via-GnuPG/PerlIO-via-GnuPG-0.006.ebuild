@@ -25,4 +25,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckBin
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-CheckDeps-0.010
+	dev-perl/Test-Skip-UnlessExistsExecutable
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.940
 "

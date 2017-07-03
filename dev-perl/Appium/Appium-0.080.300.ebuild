@@ -21,9 +21,17 @@ RDEPEND="
 	>=dev-perl/MooX-Aliases-0.001.005
 	dev-perl/Selenium-Remote-Driver
 	virtual/perl-Carp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	dev-perl/JSON
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-LWP-UserAgent
+	dev-perl/Test-MockObject
+	virtual/perl-IO
+	virtual/perl-IPC-Cmd
+	virtual/perl-Test-Simple
 "

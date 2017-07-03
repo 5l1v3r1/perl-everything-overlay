@@ -23,7 +23,6 @@ RDEPEND="
 	virtual/perl-Exporter
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

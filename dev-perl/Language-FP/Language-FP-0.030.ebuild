@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Parse-RecDescent-0.010
-	>=dev-perl/regexp-common-0.010
+	>=dev-perl/Regexp-Common-0.010
 "
 DEPEND="
 	${RDEPEND}

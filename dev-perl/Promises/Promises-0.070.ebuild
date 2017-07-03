@@ -24,10 +24,12 @@ RDEPEND="
 	dev-perl/Sub-Exporter
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Fatal
+	dev-perl/lib
+	>=virtual/perl-Test-Simple-0.890
 "

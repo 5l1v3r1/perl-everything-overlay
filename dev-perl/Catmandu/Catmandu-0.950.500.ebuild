@@ -31,9 +31,10 @@ RDEPEND="
 	>=dev-perl/Log-Any-1.030
 	>=dev-perl/Marpa-R2-2.084.000
 	dev-perl/Module-Info
-	dev-perl/Moo
+	>=dev-perl/Moo-1.004.006
 	>=dev-perl/MooX-Aliases-0.001.006
 	>=dev-perl/Sub-Exporter-0.982
+	dev-perl/Sub-Quote
 	>=dev-perl/Text-CSV-1.210
 	>=dev-perl/Throwable-0.200.004
 	>=dev-perl/Try-Tiny-ByClass-0.010
@@ -49,4 +50,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	>=dev-perl/Test-Deep-0.112
+	>=dev-perl/Test-Exception-0.320
+	dev-perl/Test-Pod
+	>=virtual/perl-Test-Simple-0.990
 "

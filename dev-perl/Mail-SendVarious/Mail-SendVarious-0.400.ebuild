@@ -22,4 +22,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurp
+	dev-perl/Net-SMTP-Receive
+	dev-perl/Test-Deep
+	dev-perl/Test-SharedFork
+	dev-perl/YAML
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
+	virtual/perl-autodie
 "

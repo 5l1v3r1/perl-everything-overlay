@@ -17,12 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Path-Tiny-0.044
+	>=dev-perl/Pod-Perldoc-3.230
 	dev-perl/Term-Encoding
 	>=dev-perl/Test-UseAllModules-0.100
 	dev-perl/URI
 	virtual/perl-Encode
 	virtual/perl-HTTP-Tiny
-	>=virtual/perl-Pod-Perldoc-3.230
 	>=virtual/perl-Pod-Simple-3.080
 	>=virtual/perl-Test-Simple-0.470
 	>=virtual/perl-podlators-3.130

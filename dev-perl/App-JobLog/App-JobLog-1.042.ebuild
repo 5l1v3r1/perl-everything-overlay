@@ -35,11 +35,18 @@ RDEPEND="
 	virtual/perl-Exporter
 	>=virtual/perl-File-Path-2.060
 	virtual/perl-Text-Tabs+Wrap
-	virtual/perl-constant
 	virtual/perl-if
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	dev-perl/String-Random
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
 "

@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Array-Utils
 	dev-perl/HTML-Parser
 	dev-perl/IO-Prompter
@@ -30,7 +31,6 @@ RDEPEND="
 	virtual/perl-Module-Load
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

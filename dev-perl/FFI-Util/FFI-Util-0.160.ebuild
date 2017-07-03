@@ -24,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-CChecker
+	>=dev-perl/Module-Build-FFI-0.190
+	>=virtual/perl-Test-Simple-0.940
 "

@@ -21,4 +21,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Clownfish-CFC-0.005.001
 	>=dev-perl/Module-Build-0.280.801
+	>=virtual/perl-Devel-PPPort-3.140
+	>=virtual/perl-ExtUtils-CBuilder-0.210
+	>=virtual/perl-ExtUtils-ParseXS-2.180
 "

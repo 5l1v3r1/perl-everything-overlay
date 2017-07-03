@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/HTML-Encoding-0.600
+	>=dev-perl/HTML-TableExtract-2.100
+	>=dev-perl/Spiffy-0.300
+	>=dev-perl/WWW-Mechanize-1.340
+	>=virtual/perl-Encode-2.020
+	virtual/perl-Test-Simple
+	>=virtual/perl-version-0.760
 "

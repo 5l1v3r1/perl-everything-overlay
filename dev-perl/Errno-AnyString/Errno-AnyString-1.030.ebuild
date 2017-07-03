@@ -22,4 +22,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	dev-perl/File-Slurp
+	dev-perl/Module-Build
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Taint
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

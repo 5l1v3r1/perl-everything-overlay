@@ -22,9 +22,10 @@ RDEPEND="
 	dev-perl/Email-Address
 	dev-perl/HTTP-Message
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

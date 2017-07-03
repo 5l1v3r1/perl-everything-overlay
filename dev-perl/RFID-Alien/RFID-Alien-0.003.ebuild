@@ -22,7 +22,6 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Time-Local
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

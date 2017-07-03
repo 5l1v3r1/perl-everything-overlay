@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Regexp-Common
 	dev-perl/Regexp-Common-WithActions
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

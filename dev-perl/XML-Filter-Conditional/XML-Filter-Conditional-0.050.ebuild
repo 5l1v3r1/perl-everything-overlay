@@ -20,4 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Exception
+	>=dev-perl/XML-SAX-1.000
+	virtual/perl-Test-Simple
 "

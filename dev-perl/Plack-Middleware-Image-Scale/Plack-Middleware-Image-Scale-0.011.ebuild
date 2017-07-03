@@ -28,4 +28,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurp
+	dev-perl/HTTP-Message
+	dev-perl/Imager
+	dev-perl/lib
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

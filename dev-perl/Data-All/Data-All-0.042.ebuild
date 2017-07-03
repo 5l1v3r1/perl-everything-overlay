@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Factory
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 	virtual/perl-Text-ParseWords

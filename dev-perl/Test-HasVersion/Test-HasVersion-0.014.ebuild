@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-1.040
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

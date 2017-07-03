@@ -33,4 +33,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	dev-perl/FindBin-libs
+	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Test-UseAllModules
+	virtual/perl-Test-Simple
 "

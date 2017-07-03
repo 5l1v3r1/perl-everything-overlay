@@ -22,4 +22,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/DateTime
+	dev-perl/Module-Signature
+	>=dev-perl/Pod-Coverage-0.180
+	dev-perl/Pod-Usage
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Pod-Coverage-1.080
+	virtual/perl-Test-Simple
 "

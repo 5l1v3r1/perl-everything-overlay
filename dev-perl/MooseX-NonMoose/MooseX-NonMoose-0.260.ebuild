@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-2.000.000
+	dev-perl/Moose
 	dev-perl/Try-Tiny
 "
 DEPEND="

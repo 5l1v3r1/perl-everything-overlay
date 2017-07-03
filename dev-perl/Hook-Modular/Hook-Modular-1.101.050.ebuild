@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Term-Encoding
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Attribute-Handlers
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -35,10 +35,10 @@ RDEPEND="
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	>=virtual/perl-Test-Simple-0.940
 "

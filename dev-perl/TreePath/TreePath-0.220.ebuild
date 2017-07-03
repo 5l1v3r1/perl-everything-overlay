@@ -23,9 +23,15 @@ RDEPEND="
 	>=dev-perl/MooseX-Object-Pluggable-0.001.400
 	>=dev-perl/Path-Class-0.350
 	>=dev-perl/UNIVERSAL-require-0.170
-	>=dev-perl/yaml-1.130
+	>=dev-perl/YAML-1.130
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/MooseX-MarkAsMethods-0.150
+	>=dev-perl/MooseX-NonMoose-0.260
+	>=dev-perl/SQL-Translator-0.110.200
+	dev-perl/Test-Most
+	>=dev-perl/Test-Pod-1.480
+	>=dev-perl/Test-Pod-Coverage-1.100
 "

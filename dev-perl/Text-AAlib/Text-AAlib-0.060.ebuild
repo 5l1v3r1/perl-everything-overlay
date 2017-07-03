@@ -26,4 +26,5 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=dev-perl/Module-Build-XSUtil-0.020
 	virtual/perl-CPAN-Meta
+	>=virtual/perl-Test-Simple-0.880
 "

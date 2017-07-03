@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	>=dev-perl/TAP-Harness-JUnit-0.410
+	>=virtual/perl-Test-Simple-0.620
 "

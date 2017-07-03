@@ -25,4 +25,6 @@ DEPEND="
 	dev-perl/File-Which
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-File-Spec
+	dev-perl/Test-More-UTF8
+	virtual/perl-Test-Simple
 "

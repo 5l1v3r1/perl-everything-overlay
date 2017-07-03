@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/AppConfig
-	virtual/perl-Pod-Usage
+	dev-perl/Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/DBIx-Simple
 	dev-perl/Moose
+	dev-perl/YAML
 	dev-perl/namespace-autoclean
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-IO

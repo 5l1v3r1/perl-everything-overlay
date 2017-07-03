@@ -16,11 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Convert-Binary-C
 	virtual/perl-IO
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.310
+	dev-perl/Test-Pod-Coverage
+	virtual/perl-Test-Simple
 "

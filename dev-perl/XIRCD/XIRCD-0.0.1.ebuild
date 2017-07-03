@@ -24,6 +24,7 @@ RDEPEND="
 	dev-perl/POE
 	dev-perl/Sub-Exporter
 	dev-perl/UNIVERSAL-require
+	dev-perl/self
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -20,4 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/App-Build
+	dev-perl/Module-Build
+	virtual/perl-File-Spec
 "

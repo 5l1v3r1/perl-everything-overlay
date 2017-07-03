@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Const-Fast
-	>=dev-perl/Dancer2-Plugin-Queue-0.006
+	dev-perl/Dancer2-Plugin-Queue
 	>=dev-perl/IO-Iron-0.120
 	dev-perl/Moose
 "

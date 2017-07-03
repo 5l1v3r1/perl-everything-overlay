@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Term-ReadLine-Perl
 	dev-perl/URI
 	>=dev-perl/XML-Filter-DOMFilter-LibXML-0.030
-	>=dev-perl/XML-LibXML-1.600
+	>=dev-perl/XML-LibXML-0.070
 	dev-perl/XML-LibXML-Iterator
 	>=dev-perl/XML-LibXSLT-1.600
 	>=dev-perl/XML-SAX-Writer-0.440

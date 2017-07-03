@@ -22,13 +22,13 @@ RDEPEND="
 	>=dev-perl/DBI-1.600
 	>=dev-perl/Data-ObjectDriver-0.040
 	>=dev-perl/Error-0.170
+	dev-perl/Pod-Usage
 	>=dev-perl/TheSchwartz-1.040
 	>=dev-perl/XML-NamespaceSupport-1.040
 	dev-perl/XML-Parser
 	dev-perl/XML-SAX
 	>=dev-perl/XML-Simple-2.180
 	dev-perl/libwww-perl
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Test-Simple-0.720
 "
 DEPEND="

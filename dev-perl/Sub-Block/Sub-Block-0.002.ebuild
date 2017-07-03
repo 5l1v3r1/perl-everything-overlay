@@ -19,9 +19,12 @@ RDEPEND="
 	>=dev-perl/Exporter-Tiny-0.026
 	>=dev-perl/Moo-1.000.000
 	dev-perl/PadWalker
+	dev-perl/Sub-Quote
 	dev-perl/namespace-clean
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Warnings
+	>=virtual/perl-Test-Simple-0.960
 "

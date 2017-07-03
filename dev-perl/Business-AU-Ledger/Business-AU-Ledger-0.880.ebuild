@@ -30,11 +30,13 @@ RDEPEND="
 	>=dev-perl/Log-Dispatch-2.260
 	>=dev-perl/Log-Dispatch-DBI-0.020
 	>=dev-perl/Moose-0.980
+	>=dev-perl/Regexp-Common-2010010201.000
 	>=dev-perl/namespace-autoclean-0.090
-	>=dev-perl/regexp-common-2010010201.000
 	>=virtual/perl-Encode-2.390
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Test-Pod-1.410
+	>=virtual/perl-Test-Simple-0.940
 "

@@ -24,4 +24,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/IPC-Run3
+	dev-perl/Path-Class
+	dev-perl/Path-Class-Rule
+	dev-perl/Test-Class-Moose
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.980
 "

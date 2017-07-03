@@ -28,10 +28,11 @@ RDEPEND="
 	>=dev-perl/Net-RabbitFoot-1.030
 	dev-perl/Path-Class
 	dev-perl/Try-Tiny
+	dev-perl/YAML
 	dev-perl/namespace-autoclean
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

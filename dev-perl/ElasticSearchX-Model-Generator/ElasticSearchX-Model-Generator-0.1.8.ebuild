@@ -24,6 +24,7 @@ RDEPEND="
 	dev-perl/MooseX-Has-Sugar
 	dev-perl/Path-Tiny
 	dev-perl/Sub-Exporter
+	dev-perl/Sub-Quote
 	virtual/perl-Carp
 	virtual/perl-HTTP-Tiny
 	virtual/perl-Scalar-List-Utils
@@ -31,4 +32,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420.200
+	>=dev-perl/ElasticSearchX-Model-0.1.5
+	dev-perl/Moose
+	>=virtual/perl-Test-Simple-1.001.002
 "

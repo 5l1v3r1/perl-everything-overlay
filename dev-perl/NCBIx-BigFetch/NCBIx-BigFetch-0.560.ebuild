@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Std
 	dev-perl/Class-Std-Utils
+	>=dev-perl/YAML-0.650
 	>=dev-perl/libwww-perl-1.410
-	>=dev-perl/yaml-0.650
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-HiRes-1.971.500
 	virtual/perl-version

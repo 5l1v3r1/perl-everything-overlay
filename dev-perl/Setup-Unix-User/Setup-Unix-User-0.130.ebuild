@@ -28,4 +28,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Crypt-Password-Util
+	dev-perl/File-Copy-Recursive
+	dev-perl/File-Slurp-Tiny
+	dev-perl/File-chdir
+	dev-perl/Perinci-Tx-Manager
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBIx-Class
+	dev-perl/Kelp-Module-Template-Toolkit
+	virtual/perl-Test-Simple
 "

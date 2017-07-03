@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Catalyst-Plugin-FormValidator-Simple-0.120
 	>=dev-perl/Catalyst-Runtime-5.300
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

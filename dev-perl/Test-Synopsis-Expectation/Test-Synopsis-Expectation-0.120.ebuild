@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/PPI
 	virtual/perl-Pod-Simple
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-parent
 "
 DEPEND="

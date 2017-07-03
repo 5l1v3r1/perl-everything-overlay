@@ -22,8 +22,8 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/Readonly
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

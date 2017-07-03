@@ -36,4 +36,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/IO-Async-SSL
+	dev-perl/String-Random
+	dev-perl/Test-Differences
+	dev-perl/Test-Most
+	dev-perl/lib
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

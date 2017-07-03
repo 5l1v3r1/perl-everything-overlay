@@ -22,9 +22,12 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	>=dev-perl/Moo-0.009.013
 	>=dev-perl/MooX-Types-MooseLike-0.020
+	dev-perl/Sub-Quote
 	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

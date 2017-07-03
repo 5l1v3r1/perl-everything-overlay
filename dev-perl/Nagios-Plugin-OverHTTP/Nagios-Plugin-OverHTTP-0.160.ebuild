@@ -23,22 +23,26 @@ RDEPEND="
 	>=dev-perl/Env-Path-0.040
 	dev-perl/Getopt-Long-Descriptive
 	>=dev-perl/HTML-Strip-1.040
-	>=dev-perl/HTTP-Message-5.817
+	>=dev-perl/HTTP-Message-5.827
 	>=dev-perl/IPC-System-Simple-0.130
 	>=dev-perl/Moose-0.740
 	>=dev-perl/MooseX-Clone-0.050
 	>=dev-perl/MooseX-Getopt-0.430
 	>=dev-perl/MooseX-StrictConstructor-0.080
-	>=dev-perl/MooseX-Types-0.080
+	dev-perl/MooseX-Types
+	>=dev-perl/Regexp-Common-2.119
 	>=dev-perl/Try-Tiny-0.040
 	dev-perl/URI
 	dev-perl/libwww-perl
 	>=dev-perl/namespace-clean-0.040
-	>=dev-perl/regexp-common-2.119
 	virtual/perl-Carp
 	>=virtual/perl-Scalar-List-Utils-1.190
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	dev-perl/Test-Trap
+	>=virtual/perl-Test-Simple-0.940
 "

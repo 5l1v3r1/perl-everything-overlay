@@ -20,4 +20,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/CPAN-Test-Dummy-Perl5-Make
 "

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.020
 	dev-perl/Date-ISO8601
 	>=dev-perl/DateTime-TimeZone-Olson-0.003
 	>=dev-perl/DateTime-TimeZone-SystemV-0.002
@@ -28,4 +28,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

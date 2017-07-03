@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Metabase-1.000
+	dev-perl/Metabase
 	>=dev-perl/Metabase-Backend-SQL-1.000
 	dev-perl/Moose
 	dev-perl/Path-Class
@@ -27,4 +27,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

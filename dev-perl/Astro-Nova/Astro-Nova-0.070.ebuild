@@ -26,4 +26,7 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Module-Build
 	dev-perl/lib
+	>=virtual/perl-ExtUtils-CBuilder-0.150
+	>=virtual/perl-ExtUtils-ParseXS-3.050
+	virtual/perl-Test-Simple
 "

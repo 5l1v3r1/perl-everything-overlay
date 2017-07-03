@@ -30,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/DBD-SQLite-1.290
+	>=dev-perl/DateTime-0.550
+	>=dev-perl/DateTime-Format-SQLite-0.110
+	>=dev-perl/Test-Exception-0.290
+	>=virtual/perl-Test-Simple-0.940
 "

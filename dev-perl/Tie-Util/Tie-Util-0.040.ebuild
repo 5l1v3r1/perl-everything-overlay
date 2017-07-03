@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=virtual/perl-Exporter-5.570
 	>=virtual/perl-Scalar-List-Utils-1.090
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

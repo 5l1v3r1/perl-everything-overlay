@@ -23,8 +23,6 @@ RDEPEND="
 	>=dev-perl/Mojo-Redis-1.010
 	>=dev-perl/Mojolicious-5.300
 	>=dev-perl/Mojolicious-Plugin-AssetPack-0.310
-	>=dev-perl/Mojolicious-Plugin-FontAwesome4-4.200.400
-	>=dev-perl/Mojolicious-Plugin-LinkEmbedder-0.180
 	>=dev-perl/Parse-IRC-1.180
 	>=dev-perl/URI-Find-20111103.000
 	>=dev-perl/Unicode-UTF8-0.580
@@ -33,4 +31,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.900
 "

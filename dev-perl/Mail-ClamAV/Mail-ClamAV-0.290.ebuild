@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Inline-0.440
 "
 DEPEND="
 	${RDEPEND}

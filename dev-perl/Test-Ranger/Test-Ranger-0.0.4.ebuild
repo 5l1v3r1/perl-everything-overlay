@@ -28,4 +28,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Acme-Teddy-1.002.003
 "

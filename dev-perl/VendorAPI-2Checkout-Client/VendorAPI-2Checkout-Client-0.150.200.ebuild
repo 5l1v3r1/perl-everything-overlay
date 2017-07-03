@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/JSON-Any
+	dev-perl/List-MoreUtils
+	dev-perl/XML-Simple
+	>=virtual/perl-Test-Simple-0.870
 "

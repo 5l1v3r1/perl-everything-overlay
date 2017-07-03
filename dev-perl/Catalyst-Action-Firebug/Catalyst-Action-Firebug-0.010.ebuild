@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.600
+	dev-perl/NEXT
 	virtual/perl-File-Spec
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple

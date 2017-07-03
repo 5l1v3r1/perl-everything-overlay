@@ -20,10 +20,10 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	>=virtual/perl-Math-BigRat-0.130
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "

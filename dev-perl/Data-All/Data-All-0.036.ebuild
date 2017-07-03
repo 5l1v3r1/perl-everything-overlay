@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Factory
 	>=dev-perl/IO-All-0.170
+	dev-perl/Regexp-Common
 	>=dev-perl/Spiffy-0.160
-	dev-perl/regexp-common
 	virtual/perl-Data-Dumper
 	virtual/perl-Text-ParseWords
 "

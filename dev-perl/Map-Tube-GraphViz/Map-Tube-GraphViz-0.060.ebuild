@@ -27,4 +27,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/File-Object-0.080
+	dev-perl/Map-Tube-Prague
+	dev-perl/Test-MockObject
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	virtual/perl-Test-Simple
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Test-Exception
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}

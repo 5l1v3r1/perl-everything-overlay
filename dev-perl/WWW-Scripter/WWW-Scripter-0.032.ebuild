@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-DOM
 	>=dev-perl/HTML-DOM-0.057
-	>=dev-perl/HTTP-Message-1.290
+	>=dev-perl/HTTP-Message-1.350
 	dev-perl/URI
 	>=dev-perl/WWW-Mechanize-1.520
 	dev-perl/lib
@@ -27,7 +27,7 @@ RDEPEND="
 	virtual/perl-Encode
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-IO-Compress
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.090
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "

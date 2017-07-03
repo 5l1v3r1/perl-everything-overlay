@@ -57,9 +57,9 @@ RDEPEND="
 	dev-perl/Test-Class
 	dev-perl/Text-CSV
 	dev-perl/Text-CSV-XS
+	dev-perl/Text-Wrapper
 	dev-perl/Try-Tiny
 	dev-perl/UNIVERSAL-require
-	dev-perl/text-wrapper
 	virtual/perl-File-Path
 	virtual/perl-IPC-Cmd
 	virtual/perl-Test-Simple

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/PDL-2.004
+	dev-perl/PDL
 	dev-perl/Test-Deep
 	dev-perl/base
 	virtual/perl-Exporter

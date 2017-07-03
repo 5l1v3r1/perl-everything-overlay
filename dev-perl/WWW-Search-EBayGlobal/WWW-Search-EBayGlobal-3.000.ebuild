@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Tree-2.270
-	>=dev-perl/WWW-Search-2.270
+	>=dev-perl/WWW-Search-2.120
 "
 DEPEND="
 	${RDEPEND}

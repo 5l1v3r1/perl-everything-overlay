@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-perl/Data-Stream-Bulk-0.080
 	dev-perl/File-Slurp
 	>=dev-perl/JSON-2.000
-	>=dev-perl/Metabase-Fact-0.018
+	dev-perl/Metabase-Fact
 	>=dev-perl/Moose-1.000
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Net-Amazon-S3
@@ -44,4 +44,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Test-Exception
+	virtual/perl-File-Path
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

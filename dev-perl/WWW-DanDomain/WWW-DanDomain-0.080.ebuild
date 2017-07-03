@@ -16,13 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Env
 	dev-perl/File-Slurp
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
 	dev-perl/Try-Tiny
 	dev-perl/WWW-Mechanize
 	dev-perl/WWW-Mechanize-Cached
-	perl-core/Env
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
@@ -31,4 +31,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.300
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
 "

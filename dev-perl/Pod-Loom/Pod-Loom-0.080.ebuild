@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moose
+	>=dev-perl/Moose-0.650
 	dev-perl/PPI
 	dev-perl/Pod-Eventual
 	dev-perl/String-RewritePrefix
@@ -27,4 +27,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=virtual/perl-Test-Simple-0.880
 "

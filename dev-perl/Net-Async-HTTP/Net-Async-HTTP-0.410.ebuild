@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Future-0.280
+	>=dev-perl/Future-0.160
 	dev-perl/HTTP-Message
 	dev-perl/IO-Async
 	>=dev-perl/Struct-Dumb-0.070

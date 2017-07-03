@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTML-Tiny-1.01.0
+	>=dev-perl/HTML-Tiny-1.1.0
 	>=dev-perl/Test-Differences-0.470
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

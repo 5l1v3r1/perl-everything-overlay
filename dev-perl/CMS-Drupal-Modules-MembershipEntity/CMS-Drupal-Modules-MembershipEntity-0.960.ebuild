@@ -36,4 +36,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/CMS-Drupal
+	dev-perl/Test-Exception
+	dev-perl/lib
+	virtual/perl-if
 "

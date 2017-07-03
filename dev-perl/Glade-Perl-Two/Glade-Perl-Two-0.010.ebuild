@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Gtk2-0.010
 	>=dev-perl/Unicode-String-2.040
 	>=dev-perl/XML-Parser-2.190
-	>=dev-perl/gtk2-perl-0.010
 "
 DEPEND="
 	${RDEPEND}

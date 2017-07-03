@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Text-CSV-XS
+	virtual/perl-Test-Simple
 "

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=virtual/perl-Scalar-List-Utils-1.100
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

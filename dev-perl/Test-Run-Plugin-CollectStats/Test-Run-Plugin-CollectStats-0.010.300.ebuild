@@ -18,10 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Moose
-	>=dev-perl/Test-Run-0.010.600
+	dev-perl/Test-Run
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-Trap
+	virtual/perl-Test-Simple
 "

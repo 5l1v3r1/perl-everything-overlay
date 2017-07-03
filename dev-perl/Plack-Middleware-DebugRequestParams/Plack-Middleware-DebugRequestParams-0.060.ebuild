@@ -25,4 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Capture-Tiny-0.120
+	dev-perl/HTTP-Message
+	dev-perl/Test-Differences
+	dev-perl/Text-TestBase
+	>=virtual/perl-Test-Simple-0.980
 "

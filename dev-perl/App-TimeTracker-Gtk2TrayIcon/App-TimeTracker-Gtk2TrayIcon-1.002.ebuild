@@ -20,10 +20,12 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/App-TimeTracker
 	>=dev-perl/File-ShareDir-1.000
-	dev-perl/gtk2-perl
+	dev-perl/Gtk2
 	dev-perl/gtk2-trayicon
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
 "

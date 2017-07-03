@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Promises
 	dev-perl/Search-Elasticsearch
 	dev-perl/Search-Elasticsearch-Async
-	>=dev-perl/Search-Elasticsearch-Client-2-0-perl-5.020
+	dev-perl/Search-Elasticsearch-Client-2-0-perl
 	dev-perl/Try-Tiny
 	dev-perl/namespace-clean
 	virtual/perl-Scalar-List-Utils

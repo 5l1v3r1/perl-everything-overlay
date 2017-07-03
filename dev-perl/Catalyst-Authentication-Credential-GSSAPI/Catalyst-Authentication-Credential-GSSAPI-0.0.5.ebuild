@@ -21,4 +21,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckLib
 	>=dev-perl/Module-Build-0.390
+	virtual/perl-ExtUtils-CBuilder
 "

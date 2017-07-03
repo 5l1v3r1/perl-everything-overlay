@@ -27,10 +27,10 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	dev-perl/Pod-Coverage-TrustPod
+	dev-perl/Pod-Usage
 	dev-perl/Test-CheckManifest
 	dev-perl/Test-Net-LDAP
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	dev-perl/Test-Requires
-	virtual/perl-Pod-Usage
 "

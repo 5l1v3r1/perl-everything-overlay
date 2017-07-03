@@ -20,12 +20,12 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/HTML-Parser
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/Scope-Guard
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Archive-Tar
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="

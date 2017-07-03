@@ -25,7 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Archive-Extract
+	dev-perl/File-Fetch
 	virtual/perl-ExtUtils-CBuilder
-	virtual/perl-File-Fetch
 	virtual/perl-Test-Simple
 "

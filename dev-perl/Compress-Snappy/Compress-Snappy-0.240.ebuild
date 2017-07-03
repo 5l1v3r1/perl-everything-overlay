@@ -23,4 +23,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckLib
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	>=virtual/perl-Test-Simple-0.820
 "

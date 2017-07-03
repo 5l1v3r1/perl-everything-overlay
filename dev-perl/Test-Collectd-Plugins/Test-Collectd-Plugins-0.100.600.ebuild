@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Test-File-ShareDir
 	dev-perl/namespace-autoclean
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.900
 "
 DEPEND="
 	${RDEPEND}

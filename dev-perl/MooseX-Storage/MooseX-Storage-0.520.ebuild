@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/IO-stringy
 	>=dev-perl/JSON-MaybeXS-1.001.000
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-0.990
+	dev-perl/Moose
 	dev-perl/String-RewritePrefix
 	dev-perl/YAML
 	dev-perl/namespace-autoclean

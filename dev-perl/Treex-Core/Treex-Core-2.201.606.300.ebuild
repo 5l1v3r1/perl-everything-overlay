@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/File-Which
 	dev-perl/File-chdir
 	dev-perl/IO-Interactive
-	>=dev-perl/Lingua-Interset-2.050
+	dev-perl/Lingua-Interset
 	dev-perl/List-MoreUtils
 	dev-perl/Locale-Codes
 	dev-perl/Module-Reload
@@ -65,5 +65,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Moose-0.550
+	>=dev-perl/Text-ASCIITable-0.180
+	>=virtual/perl-Encode-2.260
+	virtual/perl-Test-Simple
+	>=virtual/perl-version-0.760
 "

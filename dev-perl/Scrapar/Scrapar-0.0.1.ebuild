@@ -28,6 +28,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Locale-Codes
 	dev-perl/Log-Handler
+	dev-perl/Regexp-Common
 	dev-perl/Sys-MemInfo
 	dev-perl/Text-Table
 	dev-perl/TimeDate
@@ -36,7 +37,6 @@ RDEPEND="
 	dev-perl/WWW-Mechanize-Cached
 	dev-perl/XML-RSS
 	dev-perl/XML-XPath
-	dev-perl/regexp-common
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Scalar-List-Utils-1.210
 "

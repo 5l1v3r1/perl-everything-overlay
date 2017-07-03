@@ -31,11 +31,15 @@ RDEPEND="
 	dev-perl/Tk
 	dev-perl/Tk-ToolBar
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -24,7 +24,6 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

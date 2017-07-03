@@ -52,11 +52,13 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-Encode
 	>=virtual/perl-Math-BigRat-0.260.600
-	>=virtual/perl-Scalar-List-Utils-1.410
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ReadLine
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/EV-4.180
+	virtual/perl-ExtUtils-CBuilder
 "

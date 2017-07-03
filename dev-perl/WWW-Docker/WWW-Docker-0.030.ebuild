@@ -16,15 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.160
 	>=dev-perl/HTTP-Message-5.810
 	dev-perl/JSON
 	dev-perl/LWP-Protocol-http-SocketUnixAlt
 	>=dev-perl/Moose-0.340
 	>=dev-perl/libwww-perl-5.810
 	>=dev-perl/namespace-autoclean-0.010
-	>=virtual/perl-constant-1.160
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Spec
 "

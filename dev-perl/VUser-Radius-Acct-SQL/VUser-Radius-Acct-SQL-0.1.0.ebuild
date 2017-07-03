@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/VUser-ExtLib-SQL-0.1.0
 	>=dev-perl/VUser-Radius-Acct-0.1.0
-	>=dev-perl/vuser-0.2.1
+	>=dev-perl/vuser-0.2.0
 "
 DEPEND="
 	${RDEPEND}

@@ -21,4 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/DateTime
+	dev-perl/Test-Requires
+	dev-perl/Tie-IxHash
+	>=virtual/perl-Test-Simple-0.980
 "

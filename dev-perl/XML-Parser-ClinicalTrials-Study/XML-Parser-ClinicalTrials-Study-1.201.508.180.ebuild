@@ -19,9 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime-Format-Natural
 	dev-perl/XML-Rabbit
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurper
+	dev-perl/Test-Most
 "

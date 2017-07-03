@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.200
 	dev-perl/Moose
 	>=dev-perl/MooseX-Traits-0.060
-	>=dev-perl/MooseX-Types-0.170
+	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
 	>=dev-perl/PPI-1.203
 	dev-perl/Test-Differences

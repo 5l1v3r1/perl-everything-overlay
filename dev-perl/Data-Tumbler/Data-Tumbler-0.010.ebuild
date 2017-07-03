@@ -21,4 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Most-0.330
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Time-HiRes
 "

@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Geo-Constants-0.040
 	>=dev-perl/Geo-Ellipsoids-0.090
 	>=dev-perl/Geo-Functions-0.030
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

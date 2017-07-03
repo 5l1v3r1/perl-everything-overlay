@@ -28,4 +28,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	>=dev-perl/DBIx-Class-0.081.270
+	>=dev-perl/DateTime-Format-SQLite-0.110
+	>=dev-perl/Path-Class-0.230
+	>=dev-perl/SQL-Translator-0.110.200
+	>=dev-perl/YAML-Tiny-1.480
+	>=virtual/perl-Test-Simple-0.980
 "

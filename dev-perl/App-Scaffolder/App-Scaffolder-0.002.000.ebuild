@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/File-HomeDir-0.930
 	dev-perl/File-ShareDir
 	dev-perl/MRO-Compat
-	>=dev-perl/Path-Class-0.170
+	dev-perl/Path-Class
 	dev-perl/Template-Toolkit
 	virtual/perl-Carp
 	virtual/perl-File-Spec
@@ -30,4 +30,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Directory-Scratch
+	dev-perl/Test-Class
+	dev-perl/Test-Exception
+	dev-perl/Test-File
+	dev-perl/Test-File-ShareDir
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-parent
 "

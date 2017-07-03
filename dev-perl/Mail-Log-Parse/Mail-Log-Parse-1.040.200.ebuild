@@ -27,4 +27,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Module-Metadata
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
 "

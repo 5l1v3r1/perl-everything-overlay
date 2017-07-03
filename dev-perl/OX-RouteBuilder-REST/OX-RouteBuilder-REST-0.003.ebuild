@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-lang/perl
+	dev-perl/Path-Router
+	dev-perl/Plack
+	virtual/perl-Test-Simple
 "

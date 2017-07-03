@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Path-Class
+	virtual/perl-Test-Simple
 "

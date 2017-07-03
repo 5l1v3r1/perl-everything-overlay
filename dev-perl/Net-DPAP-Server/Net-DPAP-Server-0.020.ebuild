@@ -25,4 +25,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Net-DPAP-Client
+	virtual/perl-Test-Simple
 "

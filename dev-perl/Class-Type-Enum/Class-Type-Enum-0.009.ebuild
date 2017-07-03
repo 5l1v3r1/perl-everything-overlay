@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Function-Parameters-2.000
 	dev-perl/namespace-clean
 	virtual/perl-Carp
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 "
 DEPEND="
 	${RDEPEND}

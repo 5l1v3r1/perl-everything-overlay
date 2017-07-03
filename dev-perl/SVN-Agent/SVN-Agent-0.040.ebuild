@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-Accessor-0.340
 	>=dev-perl/File-Slurp-9999.190
-	>=virtual/perl-Test-Simple-1.001.014
+	>=virtual/perl-Test-Simple-1.302.086
 "
 DEPEND="
 	${RDEPEND}

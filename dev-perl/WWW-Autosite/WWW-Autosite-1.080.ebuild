@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-lang/perl-1.000
 	>=dev-perl/File-PathInfo-1.000
 	dev-perl/HTML-Template
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	>=virtual/perl-File-Path-1.000
 "

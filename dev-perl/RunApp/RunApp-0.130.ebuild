@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/App-Control
 	dev-perl/Template-Toolkit
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

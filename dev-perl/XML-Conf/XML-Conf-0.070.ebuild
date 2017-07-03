@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Tie-Tools
+	>=dev-perl/Tie-Tools-1.050
 	>=dev-perl/XML-Simple-2.200
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -26,4 +26,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.300
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Pod-Coverage-TrustPod
+	>=dev-perl/Test-Kwalitee-1.210
+	>=dev-perl/Test-Pod-1.410
+	>=dev-perl/Test-Pod-Coverage-1.080
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

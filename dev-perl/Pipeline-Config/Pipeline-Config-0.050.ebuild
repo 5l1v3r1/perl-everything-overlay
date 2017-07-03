@@ -18,8 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Error-0.150
 	>=dev-perl/Pipeline-3.040
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.200
+	>=virtual/perl-Test-Simple-0.010
 "

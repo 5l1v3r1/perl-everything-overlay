@@ -16,7 +16,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Data-Stream-Bulk
+	dev-perl/MRO-Compat
+	>=dev-perl/Moose-0.890
+	dev-perl/Scope-Guard
+	dev-perl/Set-Object
+	dev-perl/Test-Deep
+	dev-perl/namespace-autoclean
+	virtual/perl-Carp
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/MooseX-Types-Set-Object
+	dev-perl/Test-TempDir-Tiny
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

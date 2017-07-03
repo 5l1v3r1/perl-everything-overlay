@@ -19,4 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/HTML-Format
+	dev-perl/HTML-Tree
+	dev-perl/Template-Toolkit
+	virtual/perl-Test-Simple
 "

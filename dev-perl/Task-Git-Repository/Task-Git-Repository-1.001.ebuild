@@ -30,4 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

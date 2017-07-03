@@ -35,7 +35,7 @@ RDEPEND="
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	>=dev-perl/Try-Tiny-0.020
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-HiRes-1.971.500

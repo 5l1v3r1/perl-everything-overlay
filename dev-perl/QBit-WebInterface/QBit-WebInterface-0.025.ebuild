@@ -31,7 +31,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/QBit-WebInterface
+	dev-perl/QBit-WebInterface-Routing
 	dev-perl/Test-Deep
 	dev-perl/lib
 	virtual/perl-Test-Simple

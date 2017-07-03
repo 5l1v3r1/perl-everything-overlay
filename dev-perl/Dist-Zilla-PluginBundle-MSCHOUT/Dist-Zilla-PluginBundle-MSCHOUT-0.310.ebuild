@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.102.341
 	dev-perl/Dist-Zilla-Plugin-Bugtracker
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
-	>=dev-perl/Dist-Zilla-Plugin-Git-1.101.230
+	dev-perl/Dist-Zilla-Plugin-Git
 	dev-perl/Dist-Zilla-Plugin-Homepage
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
 	dev-perl/Dist-Zilla-Plugin-Repository

@@ -29,4 +29,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-lang/perl
+	dev-perl/Devel-SimpleTrace
+	dev-perl/Find-Lib
+	dev-perl/HTTP-Message
+	dev-perl/Path-Class
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

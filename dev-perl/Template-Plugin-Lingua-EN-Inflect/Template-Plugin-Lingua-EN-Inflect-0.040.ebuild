@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Lingua-EN-Inflect
-	>=dev-perl/Template-Toolkit-2.070
+	dev-perl/Template-Toolkit
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.700
 "

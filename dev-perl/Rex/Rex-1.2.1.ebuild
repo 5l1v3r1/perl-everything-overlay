@@ -45,7 +45,6 @@ RDEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Text-Tabs+Wrap
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

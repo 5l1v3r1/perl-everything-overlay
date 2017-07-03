@@ -31,8 +31,8 @@ RDEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
 	dev-perl/Test-Perl-Critic
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Math-BigInt
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple

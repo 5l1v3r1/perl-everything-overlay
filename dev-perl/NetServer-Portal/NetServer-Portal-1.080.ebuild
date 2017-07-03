@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Event-0.700
-	>=dev-perl/Event-Stats-0.8.0
+	>=dev-perl/Event-Stats-0.800
 	>=virtual/perl-Scalar-List-Utils-0.100
 	>=virtual/perl-Storable-0.600
 "

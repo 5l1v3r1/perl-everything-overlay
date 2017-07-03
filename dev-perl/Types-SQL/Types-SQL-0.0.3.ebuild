@@ -18,10 +18,13 @@ IUSE="test"
 RDEPEND="
 	dev-perl/PerlX-Maybe
 	dev-perl/Ref-Util
-	>=dev-perl/Type-Tiny-0.440
+	dev-perl/Type-Tiny
 	dev-perl/strictures
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Most
+	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.980
 "

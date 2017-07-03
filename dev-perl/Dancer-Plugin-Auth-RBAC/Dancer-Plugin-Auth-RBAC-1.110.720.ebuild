@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Dancer
 	dev-perl/Dancer-Plugin-Database
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

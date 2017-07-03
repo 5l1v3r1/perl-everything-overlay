@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Verilog-Perl-3.200
-	>=virtual/perl-Pod-Usage-1.340
+	>=dev-perl/Pod-Usage-1.340
+	>=dev-perl/Verilog-Perl-2.211
 "
 DEPEND="
 	${RDEPEND}

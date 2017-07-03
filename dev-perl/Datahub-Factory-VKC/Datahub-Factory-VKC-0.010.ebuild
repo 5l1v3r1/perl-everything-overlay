@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Datahub-Factory
-	dev-perl/Datahub-Factory-PIDS
+	dev-perl/Datahub-Factory-Arthub
 "
 DEPEND="
 	${RDEPEND}

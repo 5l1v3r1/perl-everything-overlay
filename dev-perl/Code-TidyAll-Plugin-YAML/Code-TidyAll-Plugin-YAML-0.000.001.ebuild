@@ -19,10 +19,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Code-TidyAll
 	dev-perl/Moo
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

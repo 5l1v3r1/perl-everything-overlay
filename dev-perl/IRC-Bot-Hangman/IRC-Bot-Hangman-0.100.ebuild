@@ -20,8 +20,10 @@ RDEPEND="
 	dev-perl/Chatbot-Eliza
 	dev-perl/Games-GuessWord
 	dev-perl/Module-Find
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Pod
+	virtual/perl-Test-Simple
 "

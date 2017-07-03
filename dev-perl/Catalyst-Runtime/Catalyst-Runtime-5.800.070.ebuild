@@ -24,11 +24,11 @@ RDEPEND="
 	dev-perl/File-Modified
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.040
-	>=dev-perl/HTTP-Message-1.640
+	dev-perl/HTTP-Message
 	>=dev-perl/HTTP-Request-AsCGI-0.800
 	dev-perl/MRO-Compat
 	>=dev-perl/Module-Pluggable-3.010
-	>=dev-perl/Moose-0.830
+	>=dev-perl/Moose-0.780
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.008.010
 	>=dev-perl/MooseX-MethodAttributes-0.120
 	>=dev-perl/Path-Class-0.090

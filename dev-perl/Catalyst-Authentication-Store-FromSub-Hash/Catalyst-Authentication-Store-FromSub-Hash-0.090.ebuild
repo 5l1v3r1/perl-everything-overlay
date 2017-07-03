@@ -19,4 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Catalyst-Plugin-Authentication-0.100.040
+	dev-perl/Catalyst-Runtime
+	virtual/perl-Test-Simple
 "

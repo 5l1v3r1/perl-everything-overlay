@@ -16,16 +16,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/DateTime
 	dev-perl/DateTime-TimeZone
 	dev-perl/Getopt-Long-Descriptive
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Notify
 	dev-perl/Modern-Perl
-	dev-perl/gtk2-perl
 	virtual/perl-File-Temp
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/Test-Fatal
+	virtual/perl-Test-Simple
 "

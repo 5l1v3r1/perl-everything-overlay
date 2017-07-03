@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/JSON
 	virtual/perl-Exporter
 	virtual/perl-HTTP-Tiny
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

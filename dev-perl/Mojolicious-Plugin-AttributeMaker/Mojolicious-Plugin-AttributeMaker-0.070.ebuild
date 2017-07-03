@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Find
+	>=dev-perl/Mojolicious-3.000
+	virtual/perl-Test-Simple
 "

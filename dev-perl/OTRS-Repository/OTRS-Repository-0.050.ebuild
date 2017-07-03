@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moo-1.003.001
+	>=dev-perl/Regexp-Common-2013031301.000
 	>=dev-perl/XML-LibXML-2.010.600
-	>=dev-perl/regexp-common-2013031301.000
 	>=virtual/perl-HTTP-Tiny-0.036
 	>=virtual/perl-Scalar-List-Utils-1.330
 	>=virtual/perl-Test-Simple-0.990

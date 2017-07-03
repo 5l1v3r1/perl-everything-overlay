@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-perl/CGI
+	dev-perl/HTTP-Cookies
+	dev-perl/HTTP-Date
+	>=virtual/perl-Test-Simple-0.880
 "

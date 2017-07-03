@@ -23,7 +23,6 @@ RDEPEND="
 	virtual/perl-Encode
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

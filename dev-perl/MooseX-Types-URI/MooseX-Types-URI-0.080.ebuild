@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.400
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/URI
 	dev-perl/URI-FromHash
@@ -31,5 +31,5 @@ DEPEND="
 	dev-perl/Moose
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "

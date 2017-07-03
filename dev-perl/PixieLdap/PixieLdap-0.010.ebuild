@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Crypt-PasswdMD5
+	dev-perl/YAML
 	dev-perl/perl-ldap
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

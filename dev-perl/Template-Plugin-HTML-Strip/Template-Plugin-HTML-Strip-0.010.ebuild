@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Strip-1.040
-	>=dev-perl/Template-Toolkit-2.140
+	>=dev-perl/Template-Toolkit-2.700
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="

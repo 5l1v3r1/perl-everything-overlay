@@ -18,11 +18,13 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Best-0.060
 	dev-perl/Module-Pluggable
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Directory-Scratch-0.050
+	virtual/perl-Test-Simple
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/Try-Tiny
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 "

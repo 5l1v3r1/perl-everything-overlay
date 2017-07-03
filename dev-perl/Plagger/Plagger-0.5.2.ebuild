@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/yaml-0.390
+	>=dev-perl/YAML-0.390
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

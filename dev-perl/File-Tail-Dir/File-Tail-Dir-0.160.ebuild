@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-ChangeNotify
 	dev-perl/Moose
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

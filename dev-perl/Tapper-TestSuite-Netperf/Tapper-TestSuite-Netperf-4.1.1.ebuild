@@ -19,10 +19,13 @@ RDEPEND="
 	dev-perl/Log-Log4perl
 	dev-perl/Moose
 	dev-perl/MooseX-Log-Log4perl
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-IO
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

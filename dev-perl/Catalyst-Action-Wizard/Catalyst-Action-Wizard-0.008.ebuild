@@ -24,4 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Test-WWW-Mechanize-Catalyst
+	virtual/perl-Test-Simple
 "

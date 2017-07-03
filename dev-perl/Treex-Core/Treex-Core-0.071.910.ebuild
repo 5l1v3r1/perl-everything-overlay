@@ -35,9 +35,9 @@ RDEPEND="
 	dev-perl/PerlIO-gzip
 	dev-perl/Readonly
 	dev-perl/Treex-PML
+	>=dev-perl/YAML-0.720
 	dev-perl/base
 	dev-perl/libwww-perl
-	>=dev-perl/yaml-0.720
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -52,4 +52,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Output
+	virtual/perl-Test-Simple
 "

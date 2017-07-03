@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.400
+	dev-perl/Test-Deep
+	dev-perl/Test-Number-Delta
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Test-Simple
 "

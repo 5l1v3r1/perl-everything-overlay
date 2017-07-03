@@ -17,12 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTML-FormHandler
+	dev-perl/Regexp-Common
 	dev-perl/URI
 	dev-perl/namespace-autoclean
-	dev-perl/regexp-common
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

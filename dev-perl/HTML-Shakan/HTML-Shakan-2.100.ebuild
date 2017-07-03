@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Hash-MultiValue
 	>=dev-perl/List-MoreUtils-0.220
 	>=dev-perl/Mouse-0.900
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.320
 	virtual/perl-parent
 "
 DEPEND="

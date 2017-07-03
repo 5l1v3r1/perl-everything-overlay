@@ -17,12 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-1.230
 	dev-perl/MooseX-Getopt
+	>=dev-perl/Pod-Usage-1.360
 	dev-perl/TermReadKey
 	>=dev-perl/Try-Tiny-0.090
 	>=virtual/perl-Module-Loaded-0.060
-	>=virtual/perl-Pod-Usage-1.360
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Text-Tabs+Wrap
 	virtual/perl-podlators
@@ -30,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	>=dev-perl/Capture-Tiny-0.080
+	dev-perl/File-Slurp
+	>=dev-perl/Test-Class-0.360
+	>=dev-perl/Test-Differences-0.500
+	virtual/perl-Test-Simple
 "

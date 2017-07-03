@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/JSON
+	dev-perl/Regexp-Common
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod-Coverage
 	dev-perl/URI
 	dev-perl/libwww-perl
-	dev-perl/regexp-common
 	virtual/perl-Test-Simple
 "
 DEPEND="

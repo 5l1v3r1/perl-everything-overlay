@@ -19,7 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Base-0.023
+	>=dev-perl/Alien-Base-ModuleBuild-0.023
 	>=dev-perl/Alien-ProtoBuf-0.010
 	>=dev-perl/ExtUtils-CppGuess-0.110
 	>=dev-perl/Module-Build-0.280

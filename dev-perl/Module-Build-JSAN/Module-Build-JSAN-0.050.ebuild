@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Module-Build-0.270.100
 	>=dev-perl/Pod-Stripper-0.220
 	>=virtual/perl-Pod-Parser-1.300
-	>=virtual/perl-Pod-Simple-3.010
+	>=virtual/perl-Pod-Simple-2.020
 "
 DEPEND="
 	${RDEPEND}

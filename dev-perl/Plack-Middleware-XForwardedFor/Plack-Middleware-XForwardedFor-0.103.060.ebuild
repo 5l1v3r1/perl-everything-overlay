@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Net-Netmask-1.901.500
 	>=dev-perl/Plack-0.991.300
-	>=dev-perl/regexp-common-2010010201.000
+	>=dev-perl/Regexp-Common-2010010201.000
 	>=virtual/perl-parent-0.223
 "
 DEPEND="

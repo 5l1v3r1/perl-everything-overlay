@@ -21,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.021
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-parent
 "

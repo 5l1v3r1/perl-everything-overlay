@@ -39,4 +39,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Warnings
+	dev-perl/Test-XML
+	>=virtual/perl-Test-Simple-0.880
+	>=virtual/perl-parent-0.225
 "

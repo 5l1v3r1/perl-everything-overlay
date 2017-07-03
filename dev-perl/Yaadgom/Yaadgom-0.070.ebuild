@@ -26,4 +26,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/HTTP-Message
+	dev-perl/Test-Pod
+	>=dev-perl/URL-Encode-0.030
+	dev-perl/libwww-perl
+	>=virtual/perl-Test-Simple-0.960
 "

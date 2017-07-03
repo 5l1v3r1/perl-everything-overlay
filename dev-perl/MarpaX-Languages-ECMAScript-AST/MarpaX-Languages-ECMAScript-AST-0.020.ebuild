@@ -41,11 +41,14 @@ RDEPEND="
 	virtual/perl-Math-BigInt
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Unicode-Normalize
-	virtual/perl-constant
 	virtual/perl-parent
 	>=virtual/perl-version-0.770
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Differences
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

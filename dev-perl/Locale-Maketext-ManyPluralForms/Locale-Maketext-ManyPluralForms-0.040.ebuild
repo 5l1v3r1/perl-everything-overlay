@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-File-Spec
 	virtual/perl-Locale-Maketext
-	>=virtual/perl-Test-Simple-0.940
+	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}

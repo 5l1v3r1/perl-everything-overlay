@@ -24,11 +24,12 @@ RDEPEND="
 	dev-perl/TimeDate
 	dev-perl/base
 	virtual/perl-Carp
-	>=virtual/perl-Scalar-List-Utils-1.450
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

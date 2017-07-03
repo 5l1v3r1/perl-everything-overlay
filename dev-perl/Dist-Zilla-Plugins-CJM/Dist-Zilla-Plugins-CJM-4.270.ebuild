@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.009
 	>=dev-perl/File-HomeDir-0.810
 	dev-perl/Moose
 	dev-perl/Path-Class
@@ -34,4 +34,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-pushd
+	dev-perl/Try-Tiny
+	>=virtual/perl-Test-Simple-0.880
 "

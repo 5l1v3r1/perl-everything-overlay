@@ -23,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/HTML-TreeBuilder-XPath
+	dev-perl/HTTP-Message
+	dev-perl/Module-Install-ReadmeFromPod
+	dev-perl/Test-LoadAllModules
+	virtual/perl-Test-Simple
 "

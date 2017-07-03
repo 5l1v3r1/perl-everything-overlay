@@ -26,4 +26,12 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.020
+	>=dev-perl/Capture-Tiny-0.120
+	dev-perl/File-Slurp
+	dev-perl/Test-Exception
+	dev-perl/Test-Requires
+	dev-perl/Test-TCP
+	dev-perl/Try-Tiny
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.980
 "

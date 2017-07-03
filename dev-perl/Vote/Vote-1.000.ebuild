@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Catalyst-Plugin-Static-Simple
 	>=dev-perl/Catalyst-Runtime-5.701.500
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

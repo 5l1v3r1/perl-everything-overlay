@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/NEXT-0.600
 "
 DEPEND="
 	${RDEPEND}

@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTTP-Message
+	dev-perl/Pod-Usage
 	dev-perl/TermReadKey
 	dev-perl/libwww-perl
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Term-ReadLine
 	virtual/perl-Text-ParseWords
 	virtual/perl-Time-Local
@@ -28,4 +28,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

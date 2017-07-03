@@ -19,12 +19,12 @@ RDEPEND="
 	dev-perl/Dir-Watch
 	dev-perl/File-MimeInfo
 	dev-perl/File-Stat-Bits
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Chmod
 	dev-perl/Gtk2-PathButtonBar
 	dev-perl/String-ShellQuote
 	dev-perl/ZConf-Bookmarks
 	dev-perl/ZConf-Runner
-	dev-perl/gtk2-perl
 	virtual/perl-Test-Simple
 "
 DEPEND="

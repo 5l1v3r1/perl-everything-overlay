@@ -18,11 +18,16 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Log-Any-IfLOG-0.070
 	>=dev-perl/Perinci-Access-HTTP-Client-0.180
-	dev-perl/Perinci-Access-Perl
+	>=dev-perl/Perinci-Access-Perl-0.850
 	>=dev-perl/Perinci-Access-Simple-Client-0.130
 	dev-perl/URI
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Perinci-Examples
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

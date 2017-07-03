@@ -22,4 +22,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Moo-0.009.001
+	>=dev-perl/Test-CheckDeps-0.002
+	>=dev-perl/Test-Exception-0.270
+	>=dev-perl/Test-UseAllModules-0.100
 "

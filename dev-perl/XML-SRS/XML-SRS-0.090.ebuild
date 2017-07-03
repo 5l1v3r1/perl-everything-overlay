@@ -21,9 +21,10 @@ RDEPEND="
 	>=dev-perl/MooseX-Params-Validate-0.150
 	>=dev-perl/MooseX-Timestamp-0.060
 	>=dev-perl/PRANG-0.140
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	>=dev-perl/XML-Compare-0.040
 "

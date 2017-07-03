@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
 	dev-perl/Import-Into
-	>=dev-perl/Moose-1.150
+	>=dev-perl/Moose-2.140.000
 	dev-perl/Moose-Autobox
 	>=dev-perl/MooseX-AbstractMethod-0.003
 	>=dev-perl/MooseX-AlwaysCoerce-0.160
@@ -32,7 +32,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Params-Validate-0.016
 	>=dev-perl/MooseX-StrictConstructor-0.190
 	>=dev-perl/MooseX-Traitor-0.002
-	>=dev-perl/MooseX-Types-0.310
+	dev-perl/MooseX-Types
 	>=dev-perl/MooseX-Types-Common-0.001.004
 	>=dev-perl/MooseX-Types-LoadableClass-0.006
 	>=dev-perl/MooseX-Types-Path-Class-0.050

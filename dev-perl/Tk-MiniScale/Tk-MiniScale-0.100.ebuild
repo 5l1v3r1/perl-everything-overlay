@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Tk-800.022
+	>=dev-perl/Tk-1.000
 "
 DEPEND="
 	${RDEPEND}

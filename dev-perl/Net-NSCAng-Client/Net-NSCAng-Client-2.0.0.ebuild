@@ -20,7 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckLib
-	dev-perl/extutils-pkgconfig
+	dev-perl/ExtUtils-PkgConfig
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	>=virtual/perl-version-0.770
 	dev-perl/Test-CheckManifest

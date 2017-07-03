@@ -26,4 +26,7 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
+	>=virtual/perl-ExtUtils-CBuilder-0.150
+	virtual/perl-ExtUtils-ParseXS
+	>=virtual/perl-Test-Simple-0.880
 "

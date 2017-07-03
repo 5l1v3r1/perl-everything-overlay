@@ -21,4 +21,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Tk
 	virtual/perl-File-Spec
+	virtual/perl-ExtUtils-MakeMaker
 "

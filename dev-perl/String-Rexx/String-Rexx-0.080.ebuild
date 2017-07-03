@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Params-Validate-0.990
-	>=dev-perl/regexp-common-2011041701.000
+	>=dev-perl/Regexp-Common-2011041701.000
 "
 DEPEND="
 	${RDEPEND}

@@ -28,4 +28,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Class-Monkey
+	dev-perl/HTTP-Daemon-SSL
+	dev-perl/HTTP-Request-Params
+	>=dev-perl/Path-Class-0.260
+	dev-perl/Test-Deep
+	>=dev-perl/Test-Fake-HTTPD-0.060
+	dev-perl/Test-Fatal
+	dev-perl/Test-File
+	dev-perl/Test-XML
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

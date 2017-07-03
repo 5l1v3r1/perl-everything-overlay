@@ -17,11 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	>=dev-perl/Pod-Elemental-0.101.620
+	dev-perl/Pod-Elemental
 	dev-perl/namespace-autoclean
 	virtual/perl-Data-Dumper
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Test-Simple
 "

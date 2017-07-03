@@ -16,7 +16,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/Class-Accessor
+	dev-perl/Class-C3
+	dev-perl/Params-Validate
+	dev-perl/base
+	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.039
+	virtual/perl-Data-Dumper
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

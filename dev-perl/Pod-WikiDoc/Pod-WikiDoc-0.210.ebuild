@@ -21,11 +21,11 @@ RDEPEND="
 	>=dev-perl/Getopt-Lucid-0.140
 	>=dev-perl/IO-String-1.060
 	>=dev-perl/Parse-RecDescent-1.967.006
+	>=dev-perl/Pod-Usage-1.000
 	virtual/perl-Carp
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	virtual/perl-IO
-	>=virtual/perl-Pod-Usage-1.000
 	>=virtual/perl-Scalar-List-Utils-1.020
 	virtual/perl-Text-Balanced
 "

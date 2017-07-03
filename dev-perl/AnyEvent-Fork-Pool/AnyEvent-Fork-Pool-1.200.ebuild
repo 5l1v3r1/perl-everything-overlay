@@ -26,4 +26,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/AnyEvent-Fork-0.600
 "

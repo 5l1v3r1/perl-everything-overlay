@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types-Structured
 	dev-perl/Net-Stomp
-	dev-perl/Net-Stomp-MooseHelpers
+	>=dev-perl/Net-Stomp-MooseHelpers-2.600
 	dev-perl/Path-Class
 	dev-perl/Plack
 	dev-perl/Sub-Exporter
@@ -35,4 +35,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Alien-ActiveMQ
+	dev-perl/Data-Printer
+	dev-perl/JSON-XS
+	dev-perl/Net-Stomp-Producer
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Most
+	dev-perl/Test-Routine
+	dev-perl/lib
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

@@ -16,12 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Perldoc
 	dev-perl/Template-Toolkit
 	virtual/perl-File-Temp
 	virtual/perl-Module-Load
-	virtual/perl-Pod-Perldoc
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Sub-Override
+	virtual/perl-Test-Simple
 "

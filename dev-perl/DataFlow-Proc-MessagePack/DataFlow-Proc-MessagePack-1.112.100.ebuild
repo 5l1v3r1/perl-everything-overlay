@@ -17,11 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-MessagePack
-	>=dev-perl/DataFlow-1.112.100
+	dev-perl/DataFlow
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Test-UseAllModules
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Gnome2-Vte
+	dev-perl/Gtk2
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 "
 DEPEND="
 	${RDEPEND}

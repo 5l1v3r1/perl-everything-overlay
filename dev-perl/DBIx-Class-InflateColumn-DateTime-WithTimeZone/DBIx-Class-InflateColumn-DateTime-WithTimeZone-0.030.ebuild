@@ -21,4 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	>=dev-perl/DBD-SQLite-1.460
+	>=dev-perl/DateTime-1.180
+	>=dev-perl/DateTime-Format-SQLite-0.110
+	>=dev-perl/SQL-Translator-0.110.180
+	>=dev-perl/Test-Fatal-0.014
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -18,9 +18,11 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-2.040.200
 	>=dev-perl/Padre-0.940
-	>=dev-perl/yaml-0.800
+	>=dev-perl/YAML-0.800
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Locale-Msgfmt-0.150
+	>=virtual/perl-Test-Simple-0.470
 "

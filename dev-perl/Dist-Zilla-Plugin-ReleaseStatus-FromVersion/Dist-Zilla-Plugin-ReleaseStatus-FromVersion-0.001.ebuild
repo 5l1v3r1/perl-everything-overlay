@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dist-Zilla
 	dev-perl/Moose
-	virtual/perl-constant
 	virtual/perl-version
 "
 DEPEND="

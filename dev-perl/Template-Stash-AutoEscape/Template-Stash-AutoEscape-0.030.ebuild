@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Filter
+	dev-perl/Template-Toolkit
 	dev-perl/UNIVERSAL-require
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple

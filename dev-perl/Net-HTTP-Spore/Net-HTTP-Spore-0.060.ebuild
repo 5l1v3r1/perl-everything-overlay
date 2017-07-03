@@ -27,8 +27,8 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/XML-Simple
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA
 	virtual/perl-IO
@@ -39,4 +39,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	dev-perl/base
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

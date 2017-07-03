@@ -19,4 +19,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	dev-perl/Data-Compare
+	dev-perl/HTML-Template
+	dev-perl/JSON
+	dev-perl/Log-Log4perl
+	dev-perl/YAML-Syck
+	dev-perl/libintl-perl
+	virtual/perl-Test-Simple
 "

@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Class-Accessor
+	dev-perl/Template-Toolkit
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "

@@ -26,8 +26,8 @@ RDEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/TimeDate
 	dev-perl/URI
+	dev-perl/YAML
 	dev-perl/base
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Path
@@ -40,4 +40,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-WWW-Mechanize
+	virtual/perl-Test-Simple
 "

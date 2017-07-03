@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-lang/perl-1.050
 	>=dev-perl/LEOCHARRE-CLI-1.190
 	>=dev-perl/Smart-Comments-1.000
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-File-Path-2.070
 	virtual/perl-Test-Simple

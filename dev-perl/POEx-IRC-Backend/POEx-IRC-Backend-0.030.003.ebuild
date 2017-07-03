@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Moo-2.000
 	dev-perl/MooX-TypeTiny
 	>=dev-perl/Net-IP-Minimal-0.040
-	>=dev-perl/POE-1.300
+	dev-perl/POE
 	dev-perl/POE-Filter-IRCv3
 	dev-perl/Try-Tiny
 	>=dev-perl/Type-Tiny-1.000
@@ -32,4 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "

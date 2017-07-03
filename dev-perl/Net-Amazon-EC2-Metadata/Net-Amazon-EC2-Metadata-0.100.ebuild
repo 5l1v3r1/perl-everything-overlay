@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Perl6-Say
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

@@ -18,11 +18,15 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Net-IP-Minimal
 	>=dev-perl/Net-Netmask-1.901.200
-	dev-perl/POE
+	>=dev-perl/POE-1.004
 	virtual/perl-Carp
 	virtual/perl-Socket
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

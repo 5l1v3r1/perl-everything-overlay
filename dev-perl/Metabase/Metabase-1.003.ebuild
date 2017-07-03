@@ -42,4 +42,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Path-Class
+	dev-perl/Test-Exception
+	dev-perl/base
+	dev-perl/lib
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
 "

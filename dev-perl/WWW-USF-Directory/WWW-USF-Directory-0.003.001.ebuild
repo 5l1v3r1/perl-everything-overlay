@@ -33,4 +33,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.310
+	dev-perl/Test-Fatal
+	dev-perl/Test-Override-UserAgent
+	>=dev-perl/Test-Requires-0.020
+	dev-perl/URI
+	>=virtual/perl-Test-Simple-0.940
 "

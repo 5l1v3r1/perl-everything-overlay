@@ -17,12 +17,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moo
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-File-Path
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "

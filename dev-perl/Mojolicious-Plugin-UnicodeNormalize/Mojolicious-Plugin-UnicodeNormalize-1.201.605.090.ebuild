@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mojolicious-6.410
+	dev-perl/Mojolicious
 	virtual/perl-Carp
 	virtual/perl-Unicode-Normalize
 "

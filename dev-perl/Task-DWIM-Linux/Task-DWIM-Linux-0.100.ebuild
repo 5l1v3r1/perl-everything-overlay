@@ -39,8 +39,8 @@ RDEPEND="
 	>=dev-perl/Template-Toolkit-2.250
 	>=dev-perl/Test-WWW-Mechanize-1.440
 	>=dev-perl/Web-Feed-0.020
+	>=dev-perl/YAML-0.900
 	>=dev-perl/libwww-perl-6.000
-	>=dev-perl/yaml-0.900
 	>=virtual/perl-Encode-2.590
 	>=virtual/perl-Storable-2.450
 	>=virtual/perl-Test-Simple-1.001.003
@@ -48,4 +48,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	>=dev-perl/Perl-Version-1.011
 "

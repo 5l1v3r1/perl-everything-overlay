@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-ISA
+	dev-perl/NEXT
 	dev-perl/Test-Exception
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Carp

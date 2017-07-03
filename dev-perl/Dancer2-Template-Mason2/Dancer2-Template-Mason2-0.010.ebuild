@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Dancer2
+	dev-perl/Mason
+	dev-perl/Moo
+	virtual/perl-Carp
+	>=virtual/perl-Test-Simple-0.980
 "

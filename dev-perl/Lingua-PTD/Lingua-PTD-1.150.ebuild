@@ -21,6 +21,7 @@ RDEPEND="
 	dev-perl/DBI
 	>=dev-perl/IO-Compress-Lzma-2.066
 	dev-perl/List-MoreUtils
+	dev-perl/Pod-Usage
 	dev-perl/Term-ReadLine-Gnu
 	dev-perl/Unicode-CaseFold
 	virtual/perl-Encode
@@ -28,7 +29,6 @@ RDEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-IO-Compress-2.066
 	virtual/perl-Module-Load-Conditional
-	virtual/perl-Pod-Usage
 	virtual/perl-Term-ReadLine
 	virtual/perl-Time-HiRes
 	virtual/perl-parent
@@ -36,4 +36,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

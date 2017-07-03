@@ -21,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Alien-Base-ModuleBuild-0.038
 	>=dev-perl/Module-Build-0.380
 	dev-perl/Capture-Tiny
 	>=dev-perl/IO-Socket-SSL-1.560

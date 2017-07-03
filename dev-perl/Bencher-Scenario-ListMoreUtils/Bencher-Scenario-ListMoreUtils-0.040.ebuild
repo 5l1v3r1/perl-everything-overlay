@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
+	dev-perl/List-MoreUtils-XS
 "
 DEPEND="
 	${RDEPEND}

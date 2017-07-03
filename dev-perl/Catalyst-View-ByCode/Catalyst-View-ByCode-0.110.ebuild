@@ -27,15 +27,16 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/Test-Exception-0.270
 	>=dev-perl/UUID-Random-0.040
-	>=dev-perl/yaml-0.680
+	>=dev-perl/YAML-0.680
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	>=virtual/perl-MIME-Base64-3.070
 	>=virtual/perl-Scalar-List-Utils-1.210
 	>=virtual/perl-Test-Harness-3.140
-	>=virtual/perl-Test-Simple-0.860
+	>=virtual/perl-Test-Simple-1.180
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-parent
 "

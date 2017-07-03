@@ -16,12 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/File-Remove-1.420
 	>=dev-perl/File-chmod-0.320
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Syntax-Feature-Qs-0.200.400
+	dev-perl/syntax
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

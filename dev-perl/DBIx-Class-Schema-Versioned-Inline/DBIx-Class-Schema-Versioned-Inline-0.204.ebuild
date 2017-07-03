@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-Load
+	>=dev-perl/DBD-SQLite-1.400
+	>=dev-perl/DBIx-Class-Schema-Loader-0.070.400
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	>=dev-perl/Test-Roo-1.003
+	>=virtual/perl-File-Spec-3.470
 "

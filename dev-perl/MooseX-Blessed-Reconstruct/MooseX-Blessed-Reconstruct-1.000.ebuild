@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Load
 	>=dev-perl/Data-Visitor-0.210
-	>=dev-perl/Moose-1.050
+	>=dev-perl/Moose-0.930
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils

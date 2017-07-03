@@ -16,14 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Ex-Dialogs
 	>=dev-perl/Math-Symbolic-0.163
 	dev-perl/Math-SymbolicX-Error
 	dev-perl/Math-SymbolicX-NoSimplification
 	>=dev-perl/Number-WithError-0.030
 	dev-perl/Spreadsheet-Read
-	dev-perl/gtk2-perl
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

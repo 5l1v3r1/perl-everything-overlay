@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/MooseX-NonMoose
 	dev-perl/MooseX-Storage
 	dev-perl/SQL-Translator
-	dev-perl/Test-DBIC
 	dev-perl/Test-Memory-Cycle
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple

@@ -24,11 +24,11 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	dev-perl/Term-Spinner
 	dev-perl/TryCatch
 	dev-perl/YAML
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-version

@@ -18,9 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Carp-Clan
 	dev-perl/DBI
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-Mock
+	virtual/perl-Test-Simple
 "

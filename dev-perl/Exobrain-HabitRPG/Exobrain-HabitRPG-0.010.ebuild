@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Exobrain-1.080
+	dev-perl/Exobrain
 	dev-perl/Method-Signatures
 	dev-perl/Moose
 	dev-perl/WebService-HabitRPG
@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Most
+	virtual/perl-autodie
 "

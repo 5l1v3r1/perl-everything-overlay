@@ -24,4 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Fake-HTTPD-0.030
+	>=dev-perl/Test-Flatten-0.070
+	>=dev-perl/Test-SharedFork-0.190
+	>=virtual/perl-Test-Simple-0.980
 "

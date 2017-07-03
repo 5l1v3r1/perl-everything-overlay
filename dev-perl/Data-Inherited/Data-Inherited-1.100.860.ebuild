@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	>=dev-perl/NEXT-0.640
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

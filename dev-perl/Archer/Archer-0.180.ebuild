@@ -28,11 +28,13 @@ RDEPEND="
 	dev-perl/String-CamelCase
 	dev-perl/Template-Toolkit
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/IO-stringy
+	>=virtual/perl-Test-Simple-0.980
 "

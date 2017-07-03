@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Fake-HTTPD-0.030
+	>=dev-perl/Test-Flatten-0.090
+	>=dev-perl/Test-SharedFork-0.200
+	>=virtual/perl-Test-Simple-0.980
 "

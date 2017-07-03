@@ -22,4 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	dev-perl/DBI
+	dev-perl/Teng
+	>=dev-perl/Test-Requires-0.060
+	dev-perl/Test-mysqld
+	>=virtual/perl-Test-Simple-0.880
 "

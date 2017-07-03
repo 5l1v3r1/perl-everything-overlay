@@ -29,4 +29,18 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Data-Printer
+	dev-perl/IO-Socket-SSL
+	dev-perl/Pod-Elemental-Transformer-List
+	dev-perl/Pod-Weaver-Plugin-Encoding
+	dev-perl/Pod-Weaver-Section-SeeAlso
+	dev-perl/Test-Compile
+	dev-perl/Test-Exception
+	dev-perl/Test-Kwalitee
+	dev-perl/Test-NoTabs
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

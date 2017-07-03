@@ -20,6 +20,7 @@ RDEPEND="
 	>=dev-perl/Config-Properties-Simple-0.140
 	dev-perl/Log-Dispatch-FileRotate
 	dev-perl/Log-Log4perl
+	dev-perl/Pod-Usage
 	dev-perl/Proc-ProcessTable
 	dev-perl/Statistics-Descriptive
 	>=dev-perl/Test-Pod-1.140
@@ -27,7 +28,6 @@ RDEPEND="
 	>=virtual/perl-File-Path-1.050
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "

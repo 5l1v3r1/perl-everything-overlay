@@ -20,4 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Catalyst-Runtime-5.800.290
+	dev-perl/Moose
+	virtual/perl-Test-Simple
 "

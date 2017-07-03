@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-Number-Delta
 	>=dev-perl/Test-Output-0.120
 	>=virtual/perl-Data-Dumper-2.121
-	>=virtual/perl-Scalar-List-Utils-1.180
+	>=virtual/perl-Scalar-List-Utils-1.190
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-HiRes-1.970.700
 "

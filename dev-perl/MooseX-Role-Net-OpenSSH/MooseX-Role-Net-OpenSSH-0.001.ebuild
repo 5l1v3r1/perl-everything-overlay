@@ -24,4 +24,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Devel-Cover-Report-Clover
+	dev-perl/Dist-Zilla-App-Command-cover
+	dev-perl/Test-Class
+	dev-perl/Test-Class-Most
+	dev-perl/Test-MockObject
+	dev-perl/Test-Most
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "

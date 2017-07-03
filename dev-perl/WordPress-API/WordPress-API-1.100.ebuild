@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/LEOCHARRE-DEBUG-1.000
 	>=dev-perl/Smart-Comments-1.000
 	>=dev-perl/WordPress-XMLRPC-1.170
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Exporter-5.000
 	>=virtual/perl-MIME-Base64-3.000

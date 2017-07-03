@@ -29,9 +29,9 @@ RDEPEND="
 	dev-perl/Data-UUID
 	dev-perl/DateTime
 	>=dev-perl/Locale-SubCountry-1.620
-	>=dev-perl/Moo-1.004.006
 	>=dev-perl/SQL-Translator-0.110.180
 	>=dev-perl/Session-Token-1.008
+	>=dev-perl/Sub-Quote-1.004.006
 	>=dev-perl/Test-Roo-1.003
 	dev-perl/Time-Duration-Parse
 	dev-perl/Try-Tiny
@@ -41,4 +41,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-Load
+	>=dev-perl/DBD-SQLite-1.380.100
+	dev-perl/Data-Dumper-Concise
+	dev-perl/Test-MockTime
+	>=dev-perl/Test-Most-0.330
+	dev-perl/Test-Warnings
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

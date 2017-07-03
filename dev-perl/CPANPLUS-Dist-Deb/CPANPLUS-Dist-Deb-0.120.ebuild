@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/CPANPLUS-Dist-Build-0.030
 	>=dev-perl/Module-Pluggable-2.400
 	>=dev-perl/Object-Accessor-0.020
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-IPC-Cmd-0.230
 	virtual/perl-Locale-Maketext-Simple
 	>=virtual/perl-Module-Load-Conditional-0.060

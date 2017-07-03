@@ -21,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.038
+	dev-perl/Test-Output
+	>=virtual/perl-Test-Simple-0.960
 "

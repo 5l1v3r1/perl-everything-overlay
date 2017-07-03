@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SISYPHUS"
 DIST_VERSION="0.0"
-DIST_A="Math-Random-MicaliSchnorr-0.05.tar.gz"
+DIST_A="Math-Random-MicaliSchnorr-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"

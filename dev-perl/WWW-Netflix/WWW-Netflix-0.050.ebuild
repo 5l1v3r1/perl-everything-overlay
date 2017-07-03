@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Crypt-SSLeay-2.840
 	>=dev-perl/WWW-Mechanize-0.590
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 "
 DEPEND="
 	${RDEPEND}

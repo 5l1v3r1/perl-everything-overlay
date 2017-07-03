@@ -21,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Math-Cartesian-Product-1.006
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Message-1.530
 	>=dev-perl/Iterator-Simple-0.040
 	>=dev-perl/Log-Log4perl-1.150
-	>=dev-perl/Moose-0.530
+	>=dev-perl/Moose-0.400
 	>=dev-perl/MooseX-Types-0.040
 	>=dev-perl/Sub-Exporter-0.978
 	>=dev-perl/Sub-Name-0.030
@@ -30,4 +30,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Path-Class
+	>=virtual/perl-Test-Simple-0.720
 "

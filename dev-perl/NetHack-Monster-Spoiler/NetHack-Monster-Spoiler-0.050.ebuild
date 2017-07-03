@@ -19,9 +19,10 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-ClassAttribute
 	dev-perl/MooseX-Role-Matcher
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

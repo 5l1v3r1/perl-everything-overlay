@@ -16,9 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moose
+	>=dev-perl/Moose-2.110.200
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Fatal
+	>=virtual/perl-Test-Simple-0.960
 "

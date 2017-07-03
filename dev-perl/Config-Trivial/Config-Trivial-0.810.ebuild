@@ -20,4 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/IO-Capture
+	dev-perl/Pod-Coverage
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
 "

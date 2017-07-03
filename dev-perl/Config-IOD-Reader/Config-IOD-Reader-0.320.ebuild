@@ -21,7 +21,6 @@ RDEPEND="
 	virtual/perl-JSON-PP
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.980
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

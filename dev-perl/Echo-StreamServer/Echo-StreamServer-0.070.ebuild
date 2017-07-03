@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-1.400
+	>=dev-perl/HTTP-Message-1.640
 	>=dev-perl/JSON-2.170
-	>=dev-perl/URI-1.350
+	>=dev-perl/URI-3.280
 	>=dev-perl/libwww-perl-2.033
 	>=virtual/perl-Data-Dumper-2.121
 	>=virtual/perl-Storable-2.150

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-MethodMaker-1.000
 	>=dev-perl/RDF-Simple-0.040
-	>=dev-perl/yaml-0.300
+	>=dev-perl/YAML-0.300
 	virtual/perl-Test-Simple
 "
 DEPEND="

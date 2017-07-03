@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Scalar-Defer
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Exporter
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	virtual/perl-IO

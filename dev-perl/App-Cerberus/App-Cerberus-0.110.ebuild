@@ -25,12 +25,12 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/Net-IP-Match-Regexp
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	dev-perl/Time-OlsonTZ-Data
+	dev-perl/YAML
 	dev-perl/lib
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "

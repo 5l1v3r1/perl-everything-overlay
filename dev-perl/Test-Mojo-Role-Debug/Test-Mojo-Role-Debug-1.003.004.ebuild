@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.300
 	dev-perl/Role-Tiny
 	>=dev-perl/Test-Mojo-WithRoles-0.020
 	virtual/perl-Carp
@@ -25,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Test-Most
+	virtual/perl-File-Spec
+	virtual/perl-IO
 "

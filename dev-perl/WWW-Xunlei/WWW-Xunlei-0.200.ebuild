@@ -26,9 +26,12 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-LWP-UserAgent
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

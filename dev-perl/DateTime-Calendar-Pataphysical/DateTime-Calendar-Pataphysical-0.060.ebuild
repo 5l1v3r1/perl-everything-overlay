@@ -20,9 +20,11 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/DateTime-Locale
 	>=dev-perl/Params-Validate-0.520
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-MockTime
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

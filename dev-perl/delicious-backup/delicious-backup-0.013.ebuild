@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Config-Auto-0.110
 	>=dev-perl/Net-Delicious-1.110
 	dev-perl/Netscape-Bookmarks
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

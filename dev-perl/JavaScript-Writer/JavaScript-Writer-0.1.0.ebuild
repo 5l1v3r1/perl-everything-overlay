@@ -19,6 +19,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Test-Class
 	dev-perl/YAML-Syck
+	dev-perl/self
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

@@ -29,7 +29,6 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Storable-2.050
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

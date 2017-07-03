@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-2.760
 	>=dev-perl/Archive-Zip-1.300
 	dev-perl/File-Slurp
 	dev-perl/File-Type

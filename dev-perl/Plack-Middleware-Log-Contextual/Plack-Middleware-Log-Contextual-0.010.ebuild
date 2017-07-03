@@ -18,9 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Log-Contextual
-	dev-perl/Plack
+	>=dev-perl/Plack-0.997
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Requires
+	>=virtual/perl-Test-Simple-0.880
 "

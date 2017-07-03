@@ -21,6 +21,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-ISO8601
 	dev-perl/Error
 	dev-perl/File-Slurp
+	dev-perl/NEXT
 	dev-perl/Params-Validate
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl

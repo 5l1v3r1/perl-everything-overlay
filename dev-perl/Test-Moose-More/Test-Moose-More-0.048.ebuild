@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Syntax-Keyword-Junction
 	virtual/perl-Carp
 	>=virtual/perl-Scalar-List-Utils-1.450
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="
 	${RDEPEND}

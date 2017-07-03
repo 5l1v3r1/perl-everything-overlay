@@ -29,7 +29,6 @@ RDEPEND="
 	virtual/perl-IO
 	virtual/perl-Storable
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="

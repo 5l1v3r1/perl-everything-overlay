@@ -19,8 +19,8 @@ RDEPEND="
 	>=dev-perl/Class-Accessor-Class-0.170
 	dev-perl/HTML-Parser
 	>=dev-perl/HTML-TableParser-0.320
+	dev-perl/Regexp-Common
 	>=dev-perl/WWW-Mechanize-1.220
-	dev-perl/regexp-common
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple
 "

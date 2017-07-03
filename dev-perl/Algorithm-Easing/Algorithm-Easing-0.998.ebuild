@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
 	virtual/perl-Math-Complex
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

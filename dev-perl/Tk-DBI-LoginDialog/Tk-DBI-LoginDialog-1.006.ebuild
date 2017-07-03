@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DBI-1.580
 	dev-perl/Log-Log4perl
-	>=dev-perl/Tk-800.024
+	dev-perl/Tk
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "

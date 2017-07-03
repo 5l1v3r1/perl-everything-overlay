@@ -22,4 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/HTTP-Message
+	dev-perl/YAML
+	>=virtual/perl-Test-Simple-0.440
 "

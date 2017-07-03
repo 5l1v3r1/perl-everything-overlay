@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Cache-Memcached
+	dev-perl/File-Fetch
 	dev-perl/Finance-Google-Sector-Mean
 	dev-perl/Finance-NASDAQ-Markets
 	dev-perl/Finance-Optical-StrongBuy
@@ -33,7 +34,6 @@ RDEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
-	virtual/perl-File-Fetch
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-MIME-Base64

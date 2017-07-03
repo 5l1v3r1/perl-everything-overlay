@@ -35,4 +35,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Email-Address
+	dev-perl/Email-Send
+	dev-perl/File-Slurp
+	dev-perl/HTML-TreeBuilder-XPath
+	dev-perl/MIME-tools
+	dev-perl/common-sense
+	virtual/perl-Encode
+	virtual/perl-Test-Simple
 "

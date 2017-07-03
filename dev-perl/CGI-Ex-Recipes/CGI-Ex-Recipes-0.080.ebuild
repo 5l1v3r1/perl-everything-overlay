@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/DBI
 	dev-perl/SQL-Abstract
-	>=dev-perl/yaml-0.650
+	>=dev-perl/YAML-0.650
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -23,8 +23,8 @@ RDEPEND="
 	dev-perl/MooseX-Params-Validate
 	>=dev-perl/MooseX-WithCache-0.010.070
 	dev-perl/URI-Encode
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
 	virtual/perl-Encode
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
@@ -33,4 +33,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-Test-Simple
 "

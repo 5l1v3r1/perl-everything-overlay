@@ -18,10 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Pod-Coverage
 	dev-perl/RDF-Simple
+	dev-perl/Regexp-Common
 	dev-perl/Test-Deep
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	dev-perl/regexp-common
 	virtual/perl-Data-Dumper
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple

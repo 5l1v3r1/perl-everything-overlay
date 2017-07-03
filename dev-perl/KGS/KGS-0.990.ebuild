@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Audio
 	dev-perl/Convert-Scalar
-	>=dev-perl/gtk2-perl-1.043
+	>=dev-perl/Gtk2-1.043
 	virtual/perl-IO-Compress
 	virtual/perl-Time-HiRes
 "

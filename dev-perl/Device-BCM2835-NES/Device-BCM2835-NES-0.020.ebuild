@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Device-BCM2835-1.300
+	>=dev-perl/Device-BCM2835-1.3.0
 "
 DEPEND="
 	${RDEPEND}

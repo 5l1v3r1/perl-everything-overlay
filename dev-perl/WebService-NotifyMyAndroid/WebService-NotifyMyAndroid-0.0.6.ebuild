@@ -21,13 +21,17 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/Params-Validate
 	dev-perl/Readonly
+	dev-perl/Regexp-Common
 	dev-perl/WebService-Simple
 	dev-perl/base
-	dev-perl/regexp-common
 	>=dev-perl/strictures-1.000
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Test-UseAllModules
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

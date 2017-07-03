@@ -31,4 +31,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Printer
+	>=dev-perl/HTTP-Server-Simple-PSGI-0.016
+	dev-perl/Plack-Test-Agent
+	dev-perl/Test-Fatal
+	dev-perl/Test-Most
 "

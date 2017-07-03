@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mojolicious-6.390
+	dev-perl/Mojolicious
 	dev-perl/Role-Tiny
 	>=dev-perl/Test-Mojo-WithRoles-0.020
 	virtual/perl-Carp

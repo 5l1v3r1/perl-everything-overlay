@@ -20,9 +20,10 @@ RDEPEND="
 	dev-perl/Akamai-Open-Client
 	dev-perl/JSON
 	dev-perl/Moose
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Test-Pod-1.410
+	virtual/perl-Test-Simple
 "

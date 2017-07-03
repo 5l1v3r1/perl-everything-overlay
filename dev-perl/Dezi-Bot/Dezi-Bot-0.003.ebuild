@@ -32,4 +32,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/DBD-SQLite
+	dev-perl/HTTP-Server-Simple
+	dev-perl/Test-HTTP-Server-Simple
 "

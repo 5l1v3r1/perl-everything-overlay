@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Text-SimpleTable
+	virtual/perl-Test-Simple
 "

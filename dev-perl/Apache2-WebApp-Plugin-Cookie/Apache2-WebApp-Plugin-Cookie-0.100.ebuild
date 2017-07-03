@@ -22,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Apache-Test
+	>=dev-perl/Apache2-WebApp-Plugin-CGI-0.010
 "

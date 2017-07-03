@@ -21,9 +21,9 @@ RDEPEND="
 	>=dev-perl/Data-DPath-0.420
 	dev-perl/Sub-Exporter
 	>=dev-perl/TAP-DOM-0.110
+	dev-perl/YAML
 	dev-perl/accessors
 	dev-perl/base
-	dev-perl/yaml
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Harness-3.220
@@ -32,4 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
 "

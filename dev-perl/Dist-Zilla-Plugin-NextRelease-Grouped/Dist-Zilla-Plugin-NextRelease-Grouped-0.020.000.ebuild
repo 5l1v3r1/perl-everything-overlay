@@ -31,4 +31,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Dist-Zilla-Plugin-BumpVersionAfterRelease
+	dev-perl/String-Cushion
+	dev-perl/Syntax-Feature-Qi
+	dev-perl/syntax
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -22,4 +22,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-Depends
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	virtual/perl-ExtUtils-Constant
 "

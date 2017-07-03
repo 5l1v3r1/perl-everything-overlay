@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Cairo
 	dev-perl/ExtUtils-Depends
-	dev-perl/extutils-pkgconfig
-	dev-perl/gtk2-perl
+	dev-perl/ExtUtils-PkgConfig
+	dev-perl/Gtk2
 	virtual/perl-Test-Simple
 "
 DEPEND="

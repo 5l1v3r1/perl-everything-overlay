@@ -22,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Class-Data-Inheritable
+	dev-perl/DBD-SQLite
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

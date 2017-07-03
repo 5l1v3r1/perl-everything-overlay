@@ -20,9 +20,13 @@ RDEPEND="
 	dev-perl/Getopt-Long-Descriptive
 	dev-perl/Tie-File
 	dev-perl/TimeDate
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Encode
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.990
 "
 DEPEND="
 	${RDEPEND}

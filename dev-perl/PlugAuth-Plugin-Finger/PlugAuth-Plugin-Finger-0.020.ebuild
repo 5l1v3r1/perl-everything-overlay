@@ -20,10 +20,13 @@ RDEPEND="
 	>=dev-perl/Clustericious-1.060
 	dev-perl/EV
 	dev-perl/Log-Log4perl
-	>=dev-perl/PlugAuth-0.320
+	dev-perl/PlugAuth
 	dev-perl/Role-Tiny
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/AnyEvent
+	dev-perl/Test-Clustericious-Cluster
+	>=virtual/perl-Test-Simple-0.940
 "

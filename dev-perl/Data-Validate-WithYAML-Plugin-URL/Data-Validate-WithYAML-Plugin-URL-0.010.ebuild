@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Validate-WithYAML-0.080
-	>=dev-perl/regexp-common-2011041701.000
+	>=dev-perl/Regexp-Common-2011041701.000
 "
 DEPEND="
 	${RDEPEND}

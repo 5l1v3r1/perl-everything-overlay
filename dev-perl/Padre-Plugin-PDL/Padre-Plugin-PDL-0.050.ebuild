@@ -23,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Locale-Msgfmt-0.150
+	>=virtual/perl-Test-Simple-0.880
 "

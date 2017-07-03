@@ -20,7 +20,8 @@ RDEPEND="
 	dev-perl/Exception-Class
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Cookies
-	>=dev-perl/HTTP-Message-1.400
+	>=dev-perl/HTTP-Message-1.260
+	dev-perl/Pod-Usage
 	dev-perl/Test-Differences
 	>=dev-perl/URI-1.310
 	dev-perl/VCS-Lite
@@ -28,9 +29,8 @@ RDEPEND="
 	>=dev-perl/libwww-perl-1.110
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
-	>=virtual/perl-Encode-1.750
+	virtual/perl-Encode
 	virtual/perl-File-Spec
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

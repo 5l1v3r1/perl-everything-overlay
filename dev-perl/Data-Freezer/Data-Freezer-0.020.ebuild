@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Class-AutoAccess-0.020
-	>=dev-perl/Pixie-2.060
 	virtual/perl-Test-Simple
 "
 DEPEND="

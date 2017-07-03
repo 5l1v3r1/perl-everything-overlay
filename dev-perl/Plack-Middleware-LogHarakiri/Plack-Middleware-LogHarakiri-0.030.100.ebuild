@@ -22,4 +22,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Capture-Tiny
+	dev-perl/HTTP-Message
+	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.900
 "

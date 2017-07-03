@@ -21,8 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Env
 	>=dev-perl/Module-Build-0.400.400
-	perl-core/Env
 	virtual/perl-Archive-Tar
 	virtual/perl-Carp
 "

@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Digest-SHA1-2.110
 	>=dev-perl/Module-Pluggable-3.600
+	>=dev-perl/Regexp-Common-2.108
 	>=dev-perl/XML-IODEF-0.110
-	>=dev-perl/regexp-common-2.108
 	>=virtual/perl-Digest-MD5-2.360
 "
 DEPEND="

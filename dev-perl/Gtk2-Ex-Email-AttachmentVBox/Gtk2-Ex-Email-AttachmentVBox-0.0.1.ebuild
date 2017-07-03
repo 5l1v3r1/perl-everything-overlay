@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-MimeInfo
-	dev-perl/gtk2-perl
+	dev-perl/Gtk2
 	virtual/perl-Test-Simple
 "
 DEPEND="

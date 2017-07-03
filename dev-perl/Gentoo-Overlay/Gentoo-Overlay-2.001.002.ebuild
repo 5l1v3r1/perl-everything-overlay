@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/Sub-Exporter-Progressive
 	dev-perl/Throwable
 	dev-perl/Try-Tiny
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.008
 	dev-perl/Types-Path-Tiny
 	dev-perl/namespace-clean
 	virtual/perl-Carp

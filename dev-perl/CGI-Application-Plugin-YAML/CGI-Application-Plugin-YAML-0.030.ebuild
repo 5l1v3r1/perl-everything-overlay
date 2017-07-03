@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/CGI-Application
-	>=dev-perl/yaml-0.670
+	>=dev-perl/YAML-0.670
 	virtual/perl-Test-Simple
 "
 DEPEND="

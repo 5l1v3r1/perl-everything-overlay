@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Syntax-Highlight-Perl-Improved
-	>=dev-perl/Tk-800.024
+	dev-perl/Tk
 "
 DEPEND="
 	${RDEPEND}

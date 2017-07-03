@@ -30,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/AnyEvent
+	dev-perl/Hubot
+	dev-perl/Moose
+	dev-perl/namespace-autoclean
+	virtual/perl-Test-Simple
 "

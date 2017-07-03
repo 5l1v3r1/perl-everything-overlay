@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Test-Number-Delta-1.060
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

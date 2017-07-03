@@ -29,9 +29,9 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

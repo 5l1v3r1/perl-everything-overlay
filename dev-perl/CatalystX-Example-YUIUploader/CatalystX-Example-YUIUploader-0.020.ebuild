@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Catalyst-View-TT
 	dev-perl/Data-UUID
 	dev-perl/MIME-Types
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

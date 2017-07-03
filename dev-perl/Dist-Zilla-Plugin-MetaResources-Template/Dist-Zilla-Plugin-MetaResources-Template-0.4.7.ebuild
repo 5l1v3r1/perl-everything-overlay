@@ -25,4 +25,18 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-lang/perl
+	>=dev-perl/Dist-Zilla-Role-ErrorLogger-0.9.0
+	dev-perl/IPC-System-Simple
+	dev-perl/Software-License
+	dev-perl/Test-Deep
+	>=dev-perl/Test-DiagINC-0.002
+	dev-perl/Test-Dist-Zilla
+	dev-perl/Test-Routine
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
+	virtual/perl-if
 "

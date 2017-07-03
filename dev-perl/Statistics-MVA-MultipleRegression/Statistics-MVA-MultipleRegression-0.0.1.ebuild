@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Math-MatrixReal-2.05.0
+	>=dev-perl/Math-MatrixReal-2.5.0
 	>=dev-perl/Statistics-MVA-0.0.1
 	>=virtual/perl-Carp-1.080
 	>=virtual/perl-Scalar-List-Utils-1.190

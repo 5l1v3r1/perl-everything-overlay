@@ -25,4 +25,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Fatal
+	dev-perl/Test-HexString
+	dev-perl/Test-Identity
+	dev-perl/Test-Refcount
+	>=virtual/perl-Test-Simple-0.880
 "

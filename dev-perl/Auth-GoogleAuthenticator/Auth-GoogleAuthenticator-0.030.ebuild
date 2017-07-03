@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Math-Random-MT
 	>=dev-perl/Template-Toolkit-2.000
 	dev-perl/URI
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="

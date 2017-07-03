@@ -34,4 +34,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	dev-perl/Path-Class
+	dev-perl/Test-Fatal
+	dev-perl/URI-FromHash
+	dev-perl/libwww-perl
+	>=virtual/perl-Test-Simple-0.880
 "

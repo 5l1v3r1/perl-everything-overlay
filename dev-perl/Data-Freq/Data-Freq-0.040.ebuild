@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Pod-Usage-1.360
 	>=dev-perl/TimeDate-1.200
-	>=virtual/perl-Pod-Usage-1.360
 	>=virtual/perl-Scalar-List-Utils-1.220
 	>=virtual/perl-Test-Simple-0.940
 "

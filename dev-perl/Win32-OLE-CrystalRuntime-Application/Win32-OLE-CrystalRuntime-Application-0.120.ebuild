@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/Win32-OLE
 	>=virtual/perl-Test-Simple-0.440
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

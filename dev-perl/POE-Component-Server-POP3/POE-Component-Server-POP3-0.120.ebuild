@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-0.380
 	>=dev-perl/POE-Component-Pluggable-0.030
 "
 DEPEND="

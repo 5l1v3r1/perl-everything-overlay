@@ -25,8 +25,8 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
-	>=dev-perl/Plack-1.002.900
-	>=dev-perl/Plack-Middleware-Session-0.230
+	dev-perl/Plack
+	dev-perl/Plack-Middleware-Session
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960

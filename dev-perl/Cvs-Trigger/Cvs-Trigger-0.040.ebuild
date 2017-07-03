@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Cache-Cache
 	>=dev-perl/Sysadm-Install-0.260
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 	>=virtual/perl-File-Path-2.040
 	>=virtual/perl-File-Temp-0.200
 	virtual/perl-Storable

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Math-MatrixReal
 	dev-perl/Math-VectorReal
 	dev-perl/Template-Toolkit
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Math-Complex
 "
 DEPEND="

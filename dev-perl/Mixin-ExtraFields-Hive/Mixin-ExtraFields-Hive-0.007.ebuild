@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Hive-1.006
+	>=dev-perl/Data-Hive-1.001
 	>=dev-perl/Mixin-ExtraFields-0.002
 	dev-perl/Sub-Exporter
 	virtual/perl-parent
@@ -25,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.960
 "

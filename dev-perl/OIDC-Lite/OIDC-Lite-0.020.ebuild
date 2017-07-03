@@ -25,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Crypt-OpenSSL-RSA
+	dev-perl/Test-Mock-LWP-Conditional
+	virtual/perl-Test-Simple
 "

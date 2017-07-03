@@ -30,9 +30,10 @@ RDEPEND="
 	>=virtual/perl-File-Spec-3.400
 	>=virtual/perl-Term-ReadLine-1.110
 	>=virtual/perl-Test-Simple-1.001.013
-	>=virtual/perl-constant-1.240
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Fatal-0.012
+	virtual/perl-IO
 "

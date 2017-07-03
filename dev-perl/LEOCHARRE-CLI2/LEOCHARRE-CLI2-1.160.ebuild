@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/LEOCHARRE-Dir-1.060
 	>=dev-perl/Smart-Comments-1.000
 	>=dev-perl/String-ShellQuote-1.030
-	>=dev-perl/yaml-0.660
+	>=dev-perl/YAML-0.660
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Exporter-5.000
 	virtual/perl-Test-Simple

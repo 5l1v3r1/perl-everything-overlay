@@ -20,8 +20,10 @@ RDEPEND="
 	>=dev-perl/Imager-0.720
 	dev-perl/Object-Tiny
 	dev-perl/common-sense
+	>=dev-perl/self-0.320
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Plack
 	dev-perl/Sort-ByExample
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

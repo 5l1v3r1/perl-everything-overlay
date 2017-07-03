@@ -28,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/File-Copy-Recursive
+	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "

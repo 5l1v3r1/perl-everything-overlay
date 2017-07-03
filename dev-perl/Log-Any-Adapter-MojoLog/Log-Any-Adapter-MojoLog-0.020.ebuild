@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Log-Any-0.070
+	>=dev-perl/Log-Any-0.140
 	>=dev-perl/Mojolicious-2.150
 "
 DEPEND="

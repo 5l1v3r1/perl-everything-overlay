@@ -23,4 +23,23 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-lang/perl
+	dev-perl/DBD-Pg
+	dev-perl/DBIx-Connector
+	dev-perl/File-HomeDir
+	dev-perl/File-Slurp
+	dev-perl/Hash-Merge
+	dev-perl/IO-Prompt
+	dev-perl/IO-stringy
+	dev-perl/JSON-XS
+	dev-perl/List-MoreUtils
+	dev-perl/MojoX-Log-Log4perl
+	>=dev-perl/Mojolicious-3.090
+	dev-perl/Rose
+	>=dev-perl/Rose-Planter-0.040
+	dev-perl/Sub-Exporter
+	dev-perl/Test-Pod-Coverage
+	dev-perl/YAML-LibYAML
+	dev-perl/YAML-Syck
+	virtual/perl-Test-Simple
 "

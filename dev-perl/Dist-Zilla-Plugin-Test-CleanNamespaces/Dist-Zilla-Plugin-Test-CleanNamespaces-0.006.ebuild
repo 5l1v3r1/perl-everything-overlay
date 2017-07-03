@@ -27,4 +27,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-pushd
+	>=dev-perl/Test-CleanNamespaces-0.150
+	dev-perl/Test-Deep
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-if
 "

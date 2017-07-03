@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CPAN-Changes-0.230
 	dev-perl/Devel-CheckBin
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.038
 	dev-perl/Dist-Zilla-Config-Slicer
 	>=dev-perl/Dist-Zilla-Plugin-Authority-1.009
 	dev-perl/Dist-Zilla-Plugin-AutoMetaResources
@@ -38,7 +38,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-Git-Describe-0.004
 	dev-perl/Dist-Zilla-Plugin-Git-PushInitial
 	dev-perl/Dist-Zilla-Plugin-Git-Remote-Check
-	>=dev-perl/Dist-Zilla-Plugin-GitHub-0.350
+	>=dev-perl/Dist-Zilla-Plugin-GitHub-0.400
 	>=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.540
 	>=dev-perl/Dist-Zilla-Plugin-InstallGuide-1.200.005
 	>=dev-perl/Dist-Zilla-Plugin-Keywords-0.004

@@ -26,4 +26,10 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Clone
+	dev-perl/Test-Exception
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.960
 "

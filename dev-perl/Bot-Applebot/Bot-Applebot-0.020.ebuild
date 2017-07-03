@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/MooseX-AttributeHelpers
 	dev-perl/Roman
 	dev-perl/String-IRC
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Scalar-List-Utils
 "

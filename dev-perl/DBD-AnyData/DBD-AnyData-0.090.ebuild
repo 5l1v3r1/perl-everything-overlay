@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/AnyData-0.070
-	>=dev-perl/DBI-1.000
+	>=dev-perl/DBI-0.220
 	>=dev-perl/SQL-Statement-1.000
 "
 DEPEND="

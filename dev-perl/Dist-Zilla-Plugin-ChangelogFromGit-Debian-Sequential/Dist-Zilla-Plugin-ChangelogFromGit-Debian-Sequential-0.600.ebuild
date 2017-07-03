@@ -27,4 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/File-pushd
+	dev-perl/Git-Wrapper
+	>=virtual/perl-Test-Simple-0.880
 "

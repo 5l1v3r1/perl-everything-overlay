@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-4.300
+	dev-perl/Dist-Zilla
 	>=dev-perl/Dist-Zilla-Plugin-Bugtracker-1.102.670
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-CheckExtraTests
@@ -52,4 +52,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Path-Class
+	dev-perl/Path-Tiny
+	>=dev-perl/Test-Command-0.100
+	>=dev-perl/Test-Most-0.250
+	virtual/perl-File-Temp
 "

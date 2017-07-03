@@ -21,11 +21,16 @@ RDEPEND="
 	virtual/perl-Encode
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-File-Spec
-	>=virtual/perl-Scalar-List-Utils-1.280
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
+	dev-perl/Test-Fatal
+	dev-perl/Test-Identity
+	dev-perl/Test-Memory-Cycle
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "

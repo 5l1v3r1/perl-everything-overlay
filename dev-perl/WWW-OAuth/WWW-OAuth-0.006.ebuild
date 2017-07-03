@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Tiny-Chained
 	dev-perl/Module-Runtime
 	>=dev-perl/Role-Tiny-2.000.000
-	>=dev-perl/URI-1.280
+	>=dev-perl/URI-3.260
 	>=dev-perl/WWW-Form-UrlEncoded-0.230
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA

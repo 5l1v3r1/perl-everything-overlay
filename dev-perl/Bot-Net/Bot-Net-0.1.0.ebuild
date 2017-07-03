@@ -26,11 +26,11 @@ RDEPEND="
 	dev-perl/POE
 	dev-perl/POE-Component-IRC
 	dev-perl/POE-Component-Server-IRC
-	>=dev-perl/POE-Declarative-0.007
+	dev-perl/POE-Declarative
 	dev-perl/Readonly
+	dev-perl/Regexp-Common
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML-Syck
-	dev-perl/regexp-common
 "
 DEPEND="
 	${RDEPEND}

@@ -19,6 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Runtime
 	dev-perl/Moo
+	dev-perl/Sub-Quote
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Time-Local
@@ -26,4 +27,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "

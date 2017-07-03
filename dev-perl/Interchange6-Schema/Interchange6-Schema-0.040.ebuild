@@ -31,4 +31,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/DBD-SQLite-1.380.100
+	dev-perl/DBICx-TestDatabase
+	dev-perl/File-Slurp
+	dev-perl/Locale-Codes
+	>=dev-perl/Test-MockTime-0.120
+	>=dev-perl/Test-Most-0.330
+	dev-perl/Test-Warnings
+	dev-perl/Try-Tiny
+	virtual/perl-Test-Simple
 "

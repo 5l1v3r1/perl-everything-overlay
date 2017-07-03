@@ -20,4 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-lang/perl
+	>=dev-perl/Config-Std-0.007
+	>=dev-perl/Tk-800.000
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

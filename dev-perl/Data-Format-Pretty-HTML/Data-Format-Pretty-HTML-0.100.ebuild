@@ -21,9 +21,13 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/Log-Any-IfLOG
 	dev-perl/URI-Find
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.980
 "

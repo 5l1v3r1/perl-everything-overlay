@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/regexp-common-0.010
+	>=dev-perl/Regexp-Common-0.010
 	>=virtual/perl-Filter-Simple-0.770
 "
 DEPEND="

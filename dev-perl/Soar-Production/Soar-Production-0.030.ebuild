@@ -25,4 +25,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Data-Diver
+	dev-perl/Path-Tiny
+	dev-perl/Test-Base
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	dev-perl/Test-LongString
+	dev-perl/Test-Warn
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

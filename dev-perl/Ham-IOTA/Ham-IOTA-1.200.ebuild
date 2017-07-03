@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.050
+	>=dev-lang/perl-1.030
 	>=dev-perl/XML-XPath-1.130
 	>=dev-perl/base-2.070
 	>=dev-perl/libwww-perl-6.000
@@ -25,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	>=dev-perl/TAP-Harness-JUnit-0.410
+	>=virtual/perl-Test-Simple-0.620
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-2.000
 	dev-perl/JSON-Path
-	>=dev-perl/URI-1.300
+	dev-perl/URI
 	dev-perl/libwww-perl
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	>=virtual/perl-Test-Simple-0.610

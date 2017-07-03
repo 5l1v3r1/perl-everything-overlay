@@ -41,4 +41,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Plugin-Session-Store-File
+	dev-perl/Catalyst-View-TT
+	>=dev-perl/JSON-2.170
+	dev-perl/Template-Toolkit
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-WWW-Mechanize-Catalyst
 "

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Params-Validate
 	>=dev-perl/SVN-Log-0.030
 	dev-perl/Test-Exception
-	dev-perl/yaml
+	dev-perl/YAML
 "
 DEPEND="
 	${RDEPEND}

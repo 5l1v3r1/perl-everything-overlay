@@ -16,8 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/yaml-0.350
+	>=dev-perl/YAML-0.350
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Class
+	dev-perl/Test-Exception
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	>=virtual/perl-Test-Simple-0.470
 "

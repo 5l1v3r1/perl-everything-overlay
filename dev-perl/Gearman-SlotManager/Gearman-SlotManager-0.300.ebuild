@@ -31,4 +31,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/AnyEvent-Gearman
+	dev-perl/JSON
+	virtual/perl-Exporter
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "

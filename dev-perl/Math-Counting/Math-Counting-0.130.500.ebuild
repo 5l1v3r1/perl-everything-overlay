@@ -18,10 +18,13 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	virtual/perl-Exporter
-	>=virtual/perl-Math-BigInt-1.780
+	virtual/perl-Math-BigInt
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

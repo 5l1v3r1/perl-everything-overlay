@@ -29,4 +29,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	>=dev-perl/Test-Database-1.070
+	dev-perl/Test-Differences
+	dev-perl/XML-LibXML
+	virtual/perl-Test-Simple
 "

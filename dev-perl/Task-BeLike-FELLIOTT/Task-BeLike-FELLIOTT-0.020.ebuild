@@ -40,4 +40,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Test-EOL
+	dev-perl/Test-NoTabs
+	>=dev-perl/Test-Pod-1.410
+	>=virtual/perl-Test-Simple-0.980
 "

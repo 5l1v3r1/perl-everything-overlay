@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/CSS-DOM-0.070
+	dev-perl/CSS-DOM
 	dev-perl/HTML-Encoding
 	>=dev-perl/HTML-Parser-3.000
 	dev-perl/HTML-Tagset
@@ -28,7 +28,6 @@ RDEPEND="
 	>=virtual/perl-Exporter-5.570
 	>=virtual/perl-Scalar-List-Utils-1.140
 	virtual/perl-Test-Simple
-	>=virtual/perl-constant-1.030
 "
 DEPEND="
 	${RDEPEND}

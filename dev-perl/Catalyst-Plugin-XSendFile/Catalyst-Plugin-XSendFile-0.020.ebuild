@@ -19,6 +19,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.690.200
 	dev-perl/Class-Data-Inheritable
 	dev-perl/MIME-Types
+	dev-perl/NEXT
 	dev-perl/Path-Class
 "
 DEPEND="

@@ -33,13 +33,13 @@ RDEPEND="
 	>=dev-perl/Test-LoadAllModules-0.020
 	>=dev-perl/Test-Requires-0.030
 	>=dev-perl/Try-Tiny-0.040
+	dev-perl/YAML
 	dev-perl/libwww-perl
-	dev-perl/yaml
+	virtual/perl-CPAN-Meta
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-IO
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Module-CoreList-2.170
-	virtual/perl-Parse-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="

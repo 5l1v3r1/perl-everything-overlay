@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/HTML-Parser
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-4.750
 	>=dev-perl/Test-WWW-Mechanize-1.140
 	>=dev-perl/WWW-Mechanize-1.500
 	dev-perl/base

@@ -26,4 +26,5 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckBin
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "

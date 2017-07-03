@@ -21,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Capture-Tiny-0.050
+	>=virtual/perl-Test-Simple-0.470
 "

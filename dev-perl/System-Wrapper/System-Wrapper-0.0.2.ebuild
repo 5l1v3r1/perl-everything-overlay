@@ -21,10 +21,10 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Storable
-	virtual/perl-constant
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.390
+	virtual/perl-Test-Simple
 "

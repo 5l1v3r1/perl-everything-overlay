@@ -16,10 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moose
+	>=dev-perl/Moose-0.940
 	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/MooseX-Traits
+	dev-perl/Test-Fatal
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "

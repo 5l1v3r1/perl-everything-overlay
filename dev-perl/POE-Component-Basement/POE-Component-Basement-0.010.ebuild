@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Data-Inheritable
 	>=dev-perl/Class-Std-0.0.4
+	>=dev-perl/NEXT-0.600
 	>=dev-perl/POE-0.300
 	>=dev-perl/Sub-Installer-0.0.2
 	dev-perl/UNIVERSAL-require

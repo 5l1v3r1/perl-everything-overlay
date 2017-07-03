@@ -43,4 +43,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Fatal
+	dev-perl/Test-Memory-Cycle
+	dev-perl/Test-Warn
+	virtual/perl-MIME-Base64
 "

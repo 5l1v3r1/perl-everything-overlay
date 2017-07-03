@@ -34,4 +34,24 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Catalyst-Controller-ActionRole
+	dev-perl/Catalyst-Model-DBIC-Schema
+	dev-perl/Catalyst-Plugin-Authentication
+	dev-perl/Catalyst-Plugin-ConfigLoader
+	dev-perl/Catalyst-Plugin-Session
+	dev-perl/Catalyst-Plugin-Session-State-Cookie
+	dev-perl/Catalyst-Runtime
+	dev-perl/CatalystX-Test-MockContext
+	dev-perl/HTTP-Message
+	dev-perl/Plack
+	>=dev-perl/SQL-Translator-0.110.060
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	dev-perl/Test-WWW-Mechanize-PSGI
+	dev-perl/lib
+	dev-perl/namespace-autoclean
+	>=dev-perl/strictures-1.000
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

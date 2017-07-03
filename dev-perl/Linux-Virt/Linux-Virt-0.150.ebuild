@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Config-Yak-0.180
+	dev-perl/Config-Yak
 	dev-perl/File-Blarf
 	dev-perl/Log-Tree
 	dev-perl/Moose
@@ -31,4 +31,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

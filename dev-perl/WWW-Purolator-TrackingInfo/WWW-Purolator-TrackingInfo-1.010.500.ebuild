@@ -23,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	>=dev-perl/Test-Deep-0.112
+	dev-perl/Test-GetVolatileData
+	virtual/perl-Test-Simple
 "

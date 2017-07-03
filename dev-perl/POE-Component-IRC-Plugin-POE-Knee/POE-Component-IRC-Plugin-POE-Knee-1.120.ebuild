@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Math-Random-0.690
 	>=dev-perl/POE-1.004
-	>=dev-perl/POE-Component-IRC-5.060
+	dev-perl/POE-Component-IRC
 	virtual/perl-Time-HiRes
 "
 DEPEND="

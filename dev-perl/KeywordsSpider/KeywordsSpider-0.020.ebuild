@@ -28,4 +28,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-MockObject
+	dev-perl/Test-Spec
 "

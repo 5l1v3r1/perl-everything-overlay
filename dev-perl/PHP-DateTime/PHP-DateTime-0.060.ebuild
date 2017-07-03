@@ -16,11 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Time-ParseDate-2006.081.400
+	>=dev-perl/Time-ParseDate-99.111.700
 	>=virtual/perl-Time-HiRes-1.972.100
 	>=virtual/perl-Time-Local-1.200.000
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	>=virtual/perl-Test-Simple-0.960
 "

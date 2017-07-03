@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
-	virtual/perl-Parse-CPAN-Meta
+	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="

@@ -25,8 +25,8 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	>=dev-perl/Web-Simple-0.020
+	dev-perl/YAML
 	dev-perl/warnings-illegalproto
-	dev-perl/yaml
 "
 DEPEND="
 	${RDEPEND}

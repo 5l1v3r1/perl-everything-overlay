@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Gtk2
 	dev-perl/Gtk2-Ex-Simple-List
 	dev-perl/glib-perl
-	dev-perl/gtk2-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple

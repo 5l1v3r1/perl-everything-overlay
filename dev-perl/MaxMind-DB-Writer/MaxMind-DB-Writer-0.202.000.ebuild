@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Digest-SHA1
 	>=dev-perl/Math-Int128-0.210
 	>=dev-perl/Math-Int64-0.510
-	>=dev-perl/MaxMind-DB-Common-0.031.003
+	dev-perl/MaxMind-DB-Common
 	dev-perl/MaxMind-DB-Reader
 	dev-perl/Moose
 	dev-perl/MooseX-Params-Validate
@@ -39,7 +39,6 @@ RDEPEND="
 	virtual/perl-IO
 	virtual/perl-XSLoader
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
@@ -59,5 +58,5 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "

@@ -46,4 +46,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	>=dev-perl/DBD-SQLite-1.200
 "

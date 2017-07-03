@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/MooX-Traits
 	dev-perl/Role-Tiny
-	>=virtual/perl-Scalar-List-Utils-1.290
+	>=virtual/perl-Scalar-List-Utils-1.230
 "
 DEPEND="
 	${RDEPEND}

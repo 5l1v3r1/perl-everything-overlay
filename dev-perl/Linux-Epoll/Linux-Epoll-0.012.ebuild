@@ -23,4 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Socket
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

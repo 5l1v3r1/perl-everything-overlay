@@ -42,4 +42,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Perl-osnames-0.090
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	>=dev-perl/Perinci-Access-Simple-Client-0.190
+	>=dev-perl/Perinci-Examples-0.350
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -42,4 +42,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Requires-0.060
+	>=virtual/perl-Test-Simple-0.960
 "

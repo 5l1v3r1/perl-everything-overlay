@@ -22,9 +22,10 @@ RDEPEND="
 	dev-perl/Data-MessagePack
 	dev-perl/Mojo-Redis
 	dev-perl/Mojolicious
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

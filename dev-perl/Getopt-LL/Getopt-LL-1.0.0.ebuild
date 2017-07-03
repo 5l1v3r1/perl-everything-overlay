@@ -21,4 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/IO-Capture
+	>=dev-perl/Test-Exception-0.250
+	>=virtual/perl-Test-Simple-0.420
 "

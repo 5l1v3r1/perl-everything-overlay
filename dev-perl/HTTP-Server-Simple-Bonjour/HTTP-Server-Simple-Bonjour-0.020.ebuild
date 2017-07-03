@@ -17,6 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTTP-Server-Simple
+	dev-perl/NEXT
 	dev-perl/Net-Rendezvous-Publish
 	virtual/perl-Test-Simple
 "
