@@ -7,6 +7,7 @@ EAPI=6
 DIST_AUTHOR="AMBS"
 DIST_VERSION="0.15"
 DIST_A="Text-Ngram-0.15.tar.gz"
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Text/Text-Ngram-0.15.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
