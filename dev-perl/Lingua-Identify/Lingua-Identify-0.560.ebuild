@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="Lingua"
+DIST_AUTHOR="AMBS"
 DIST_VERSION="0.56"
 DIST_A="Lingua-Identify-0.56.tar.gz"
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Lingua-Identify-0.56.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
