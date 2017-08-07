@@ -4,7 +4,7 @@
 
 EAPI=6
 
-DIST_AUTHOR="Text"
+DIST_AUTHOR="AMBS"
 DIST_VERSION="0.15"
 DIST_A="Text-Ngram-0.15.tar.gz"
 inherit perl-module
