@@ -29,7 +29,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-lang/perl
 	>=dev-perl/Catalyst-Action-REST-0.740
-	dev-perl/lib
 	dev-perl/namespace-clean
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
