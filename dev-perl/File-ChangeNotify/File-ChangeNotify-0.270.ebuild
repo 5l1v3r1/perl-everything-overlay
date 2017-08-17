@@ -33,8 +33,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Requires
 	dev-perl/Test-Without-Module
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-File-Path
