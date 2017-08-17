@@ -17,8 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path

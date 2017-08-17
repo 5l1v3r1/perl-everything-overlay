@@ -30,6 +30,5 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/DBIx-Class
 	dev-perl/HTTP-Message
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

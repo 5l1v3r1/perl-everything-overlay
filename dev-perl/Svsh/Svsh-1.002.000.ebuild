@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Proc-ProcessTable
 	dev-perl/Term-ShellUI
-	dev-perl/lib
 	dev-perl/namespace-clean
 	virtual/perl-Term-ANSIColor
 "

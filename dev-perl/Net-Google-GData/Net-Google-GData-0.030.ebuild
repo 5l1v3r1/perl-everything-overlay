@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Class-ErrorHandler
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "

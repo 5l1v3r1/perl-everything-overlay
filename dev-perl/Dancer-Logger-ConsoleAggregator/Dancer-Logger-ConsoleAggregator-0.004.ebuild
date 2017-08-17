@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/JSON
 	dev-perl/Try-Tiny
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="v0.2.0"
+DIST_VERSION="0.2.0"
 DIST_A="Rex-Augeas-0.2.0.tar.gz"
 inherit perl-module
 

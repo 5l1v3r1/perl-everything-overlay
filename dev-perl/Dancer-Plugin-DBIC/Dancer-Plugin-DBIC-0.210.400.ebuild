@@ -28,8 +28,6 @@ DEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-Requires
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

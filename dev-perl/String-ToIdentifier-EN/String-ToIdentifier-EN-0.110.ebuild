@@ -19,14 +19,12 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Lingua-EN-Inflect-Phrase
 	dev-perl/Text-Unidecode
-	dev-perl/base
 	dev-perl/namespace-clean
 	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

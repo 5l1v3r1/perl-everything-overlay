@@ -26,7 +26,6 @@ RDEPEND="
 	dev-perl/Net-Server
 	dev-perl/Readonly
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-IO
 "

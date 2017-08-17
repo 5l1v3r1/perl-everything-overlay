@@ -23,16 +23,15 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/List-AllUtils
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-0.920
+	dev-perl/Moose
 	dev-perl/MooseX-Getopt
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-Role-Parameterized
 	>=dev-perl/MooseX-SemiAffordanceAccessor-0.050
 	>=dev-perl/MooseX-StrictConstructor-0.080
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.200
 	dev-perl/Tree-Simple
 	dev-perl/Try-Tiny
-	dev-perl/base
 	>=dev-perl/namespace-autoclean-0.090
 	virtual/perl-Encode
 	virtual/perl-Exporter
@@ -46,7 +45,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Tree-Simple-VisitorFactory
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/Package-Stash
 	dev-perl/PadWalker
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-File-Spec

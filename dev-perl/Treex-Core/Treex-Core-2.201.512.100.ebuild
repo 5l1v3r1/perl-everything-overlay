@@ -42,7 +42,6 @@ RDEPEND="
 	dev-perl/Treex-PML
 	dev-perl/UNIVERSAL-DOES
 	>=dev-perl/YAML-0.720
-	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp

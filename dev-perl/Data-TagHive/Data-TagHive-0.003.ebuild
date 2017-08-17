@@ -25,6 +25,5 @@ DEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Fatal
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "

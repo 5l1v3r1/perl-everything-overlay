@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/HTTP-Message-5.817
 	>=dev-perl/Test-Exception-0.290
 	>=dev-perl/Test-NoWarnings-1.040
-	dev-perl/base
 	>=virtual/perl-Scalar-List-Utils-1.220
 	>=virtual/perl-Test-Simple-0.880
 "

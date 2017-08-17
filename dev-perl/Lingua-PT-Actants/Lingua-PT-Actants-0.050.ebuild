@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Path-Tiny
-	dev-perl/lib
 	dev-perl/utf8-all
 	virtual/perl-Storable
 "

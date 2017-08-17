@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.1.10"
+DIST_VERSION="0.1.10"
 DIST_A="HTML-Latemp-News-0.1.10.tar.gz"
 inherit perl-module
 
@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/CGI
 	dev-perl/Class-Accessor
 	dev-perl/XML-RSS
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

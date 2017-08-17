@@ -25,7 +25,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

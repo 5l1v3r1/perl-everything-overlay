@@ -28,7 +28,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	dev-perl/Date-Calc
 	dev-perl/Test-Differences
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 	virtual/perl-autodie

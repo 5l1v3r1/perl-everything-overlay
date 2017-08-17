@@ -26,7 +26,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent-MockTCPServer
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

@@ -39,7 +39,6 @@ DEPEND="
 	dev-perl/HTTP-Date
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
-	dev-perl/base
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

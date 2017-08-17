@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Const-Fast
 	dev-perl/Plack
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-parent
 "

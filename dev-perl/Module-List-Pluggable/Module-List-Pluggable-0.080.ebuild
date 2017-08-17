@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-Base-0.030
 	>=dev-perl/Module-List-0.001
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter

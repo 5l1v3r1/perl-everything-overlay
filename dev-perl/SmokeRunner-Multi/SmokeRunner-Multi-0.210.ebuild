@@ -31,7 +31,6 @@ RDEPEND="
 	dev-perl/MooX-Singleton
 	dev-perl/Params-Validate
 	dev-perl/YAML-Syck
-	dev-perl/base
 	virtual/perl-Archive-Tar
 	virtual/perl-Exporter
 	virtual/perl-File-Path
@@ -42,7 +41,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

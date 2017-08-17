@@ -28,7 +28,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

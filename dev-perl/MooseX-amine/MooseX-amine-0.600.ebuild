@@ -40,6 +40,5 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.410
 	>=dev-perl/Test-Pod-Coverage-1.080
 	dev-perl/Test-Trap
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

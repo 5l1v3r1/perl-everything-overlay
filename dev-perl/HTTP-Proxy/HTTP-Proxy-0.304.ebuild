@@ -33,6 +33,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/HTML-Parser-3.000
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

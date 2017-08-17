@@ -29,7 +29,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/DBD-SQLite
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

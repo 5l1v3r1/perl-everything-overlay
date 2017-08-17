@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTML-TokeParser-Simple
 	dev-perl/WWW-Pastebin-Base-Retrieve
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

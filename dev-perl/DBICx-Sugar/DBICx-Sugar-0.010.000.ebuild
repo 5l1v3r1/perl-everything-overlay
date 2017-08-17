@@ -30,7 +30,6 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/Test-Modern
 	dev-perl/Test-Requires
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

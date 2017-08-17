@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="v0.8.0"
+DIST_VERSION="0.8.0"
 DIST_A="Dancer-Middleware-Rebase-0.8.0.tar.gz"
 inherit perl-module
 

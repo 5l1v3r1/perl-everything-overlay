@@ -16,12 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Chart-Gnuplot
 	dev-perl/Graph-ReadWrite
 	dev-perl/List-MoreUtils
 	dev-perl/Modern-Perl
 	dev-perl/Mojolicious
-	dev-perl/base
 	virtual/perl-File-Temp
 "
 DEPEND="

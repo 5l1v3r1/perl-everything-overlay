@@ -22,7 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	dev-perl/lib-filter
 	virtual/perl-File-Spec
 	virtual/perl-IO

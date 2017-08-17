@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.000
 	>=dev-perl/B-Keywords-1.050
 	>=dev-perl/Config-Tiny-2.000
 	>=dev-perl/Exception-Class-1.230
@@ -29,10 +29,10 @@ RDEPEND="
 	>=dev-perl/PPIx-Regexp-0.027
 	>=dev-perl/PPIx-Utilities-1.001
 	dev-perl/Perl-Tidy
+	dev-perl/Pod-Usage
 	>=dev-perl/Readonly-2.000
 	>=dev-perl/String-Format-1.130
 	dev-perl/Task-Weaken
-	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.630
 	virtual/perl-File-Path
@@ -40,7 +40,6 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Term-ANSIColor-2.020
 	>=virtual/perl-Test-Simple-0.920
@@ -50,4 +49,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.402.400
+	dev-perl/Test-Deep
 "

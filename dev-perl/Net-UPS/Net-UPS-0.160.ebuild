@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-0.580
+	dev-lang/perl
 	dev-perl/IO-Socket-SSL
 	dev-perl/Mozilla-CA
 	dev-perl/Task-Weaken
@@ -37,7 +37,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

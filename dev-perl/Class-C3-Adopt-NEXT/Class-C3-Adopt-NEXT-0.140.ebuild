@@ -25,8 +25,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=dev-perl/Test-Exception-0.270
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

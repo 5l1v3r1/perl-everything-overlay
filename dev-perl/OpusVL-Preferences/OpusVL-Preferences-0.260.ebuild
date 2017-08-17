@@ -30,7 +30,6 @@ DEPEND="
 	>=dev-perl/Test-DBIx-Class-0.490
 	dev-perl/Test-Most
 	dev-perl/Test-Postgresql58
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960

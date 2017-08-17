@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBURKE"
-DIST_VERSION="v0.1.2"
+DIST_VERSION="0.1.2"
 DIST_A="Array-Queue-0.1.2.tar.gz"
 inherit perl-module
 
@@ -24,5 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Test-Spec
-	dev-perl/lib
 "

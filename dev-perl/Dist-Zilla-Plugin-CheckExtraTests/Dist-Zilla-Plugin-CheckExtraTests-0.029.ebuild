@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300
 	dev-perl/File-pushd
 	>=dev-perl/Moose-2.000
 	dev-perl/Path-Iterator-Rule
@@ -34,7 +34,6 @@ DEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Requires
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "

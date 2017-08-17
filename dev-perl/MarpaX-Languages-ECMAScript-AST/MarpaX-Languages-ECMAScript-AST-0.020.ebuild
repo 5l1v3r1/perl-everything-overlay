@@ -32,7 +32,6 @@ RDEPEND="
 	dev-perl/SUPER
 	dev-perl/Scalar-Util-Numeric
 	dev-perl/Sereal
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode

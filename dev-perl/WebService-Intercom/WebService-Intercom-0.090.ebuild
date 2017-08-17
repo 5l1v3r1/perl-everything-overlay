@@ -31,7 +31,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Modern
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

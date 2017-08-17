@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="v0.16.8"
+DIST_VERSION="0.16.8"
 DIST_A="Spreadsheet-Reader-ExcelXML-v0.16.8.tar.gz"
 inherit perl-module
 
@@ -23,12 +23,11 @@ RDEPEND="
 	dev-perl/DateTime-Format-Flexible
 	dev-perl/DateTimeX-Format-Excel
 	>=dev-perl/Modern-Perl-1.201.501.270
-	>=dev-perl/Moose-2.180.100
+	dev-perl/Moose
 	dev-perl/MooseX-HasDefaults
 	>=dev-perl/MooseX-ShortCut-BuildInstance-1.040
 	dev-perl/MooseX-StrictConstructor
-	>=dev-perl/Type-Tiny-1.000
-	dev-perl/lib
+	dev-perl/Type-Tiny
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode

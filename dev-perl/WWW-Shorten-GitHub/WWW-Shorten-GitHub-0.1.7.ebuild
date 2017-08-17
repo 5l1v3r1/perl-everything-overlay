@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAMESR"
-DIST_VERSION="v0.1.7"
+DIST_VERSION="0.1.7"
 DIST_A="WWW-Shorten-GitHub-0.1.7.tar.gz"
 inherit perl-module
 
@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-2.140
 	dev-perl/LWP-Protocol-https
 	>=dev-perl/URI-1.380
 	>=dev-perl/WWW-Shorten-1.920
-	>=dev-perl/base-2.140
 	>=virtual/perl-Carp-1.110
 	>=virtual/perl-Exporter-5.650
 "

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v0.0.2"
+DIST_VERSION="0.0.2"
 DIST_A="Dancer-Plugin-Showterm-0.0.2.tar.gz"
 inherit perl-module
 

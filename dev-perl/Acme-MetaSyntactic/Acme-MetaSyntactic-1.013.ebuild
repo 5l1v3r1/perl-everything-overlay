@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Win32-Locale
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-File-Spec
@@ -28,6 +27,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-IO
 "

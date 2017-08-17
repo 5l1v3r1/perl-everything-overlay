@@ -44,7 +44,6 @@ DEPEND="
 	dev-perl/Test-File-ShareDir
 	dev-perl/Test-Moose-More
 	dev-perl/Test-TempDir-Tiny
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940

@@ -32,6 +32,5 @@ DEPEND="
 	dev-perl/ElasticSearch-SearchBuilder
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.980
 "

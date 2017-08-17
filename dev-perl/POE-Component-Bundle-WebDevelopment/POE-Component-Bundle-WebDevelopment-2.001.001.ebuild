@@ -35,14 +35,12 @@ RDEPEND="
 	dev-perl/WebService-HtmlKitCom-FavIconFromImage
 	dev-perl/WebService-Validator-CSS-W3C
 	dev-perl/WebService-Validator-HTML-W3C
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-IO

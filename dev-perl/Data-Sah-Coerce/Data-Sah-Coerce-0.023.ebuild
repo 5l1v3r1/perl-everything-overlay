@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/IPC-System-Options-0.270
 	dev-perl/JSON
 	>=dev-perl/Log-ger-0.011
 	>=dev-perl/Nodejs-Util-0.006

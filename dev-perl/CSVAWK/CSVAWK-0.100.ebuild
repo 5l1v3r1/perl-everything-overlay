@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Readonly
 	dev-perl/Text-CSV-XS
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-autodie

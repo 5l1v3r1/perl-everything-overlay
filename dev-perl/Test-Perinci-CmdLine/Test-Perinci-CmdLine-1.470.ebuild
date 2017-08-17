@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Capture-Tiny
 	dev-perl/Devel-Confess
 	dev-perl/File-Slurper
-	>=dev-perl/IPC-System-Options-0.270
 	>=dev-perl/Perinci-CmdLine-Gen-0.420
 	>=dev-perl/Perinci-Examples-0.790
 	dev-perl/experimental

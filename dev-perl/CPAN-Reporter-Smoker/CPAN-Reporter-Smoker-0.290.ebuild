@@ -35,7 +35,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/CPAN-Checksums
 	>=dev-perl/IO-CaptureOutput-1.060
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.620

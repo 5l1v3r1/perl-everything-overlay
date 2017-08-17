@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Digest-SHA1
 	dev-perl/Hash-Merge-Simple
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils

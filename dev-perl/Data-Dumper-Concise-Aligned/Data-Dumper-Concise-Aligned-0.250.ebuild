@@ -30,5 +30,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Pod-1.220
 	>=dev-perl/Test-Pod-Coverage-1.080
-	dev-perl/lib
 "

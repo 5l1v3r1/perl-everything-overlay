@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.030
 	dev-perl/Moo
 	dev-perl/Statocles
 	dev-perl/namespace-autoclean
@@ -32,7 +32,6 @@ DEPEND="
 	dev-perl/Package-Stash
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils

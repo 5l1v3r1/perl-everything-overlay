@@ -37,7 +37,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

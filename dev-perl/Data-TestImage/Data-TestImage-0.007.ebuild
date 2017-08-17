@@ -32,6 +32,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Config-INI
-	dev-perl/base
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple
 "

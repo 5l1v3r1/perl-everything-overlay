@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Log-Dispatch-2.260
 	>=dev-perl/Log-Dispatch-Config-1.030
 	>=dev-perl/POE-1.293
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 "

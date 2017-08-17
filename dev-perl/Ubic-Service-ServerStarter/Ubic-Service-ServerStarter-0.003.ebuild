@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Params-Validate
 	>=dev-perl/Server-Starter-0.120
 	dev-perl/Ubic
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

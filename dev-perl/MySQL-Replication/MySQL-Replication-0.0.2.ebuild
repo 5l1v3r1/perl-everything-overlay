@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALFIE"
-DIST_VERSION="v0.0.2"
+DIST_VERSION="0.0.2"
 DIST_A="MySQL-Replication-0.0.2.tar.gz"
 inherit perl-module
 
@@ -20,15 +20,13 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/Class-Accessor
 	dev-perl/DBI
-	dev-perl/base
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Sys-Syslog
 	virtual/perl-Test-Simple
 	virtual/perl-bignum
-	virtual/perl-constant
 	virtual/perl-version
 "
 DEPEND="

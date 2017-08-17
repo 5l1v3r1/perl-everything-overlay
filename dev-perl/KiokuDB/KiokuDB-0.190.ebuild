@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Hash-Util-FieldHash-Compat
 	>=dev-perl/JSON-2.120
 	dev-perl/Module-Pluggable
-	>=dev-perl/Moose-0.630
+	>=dev-perl/Moose-0.730
 	dev-perl/MooseX-App-Cmd
 	dev-perl/MooseX-Getopt
 	dev-perl/MooseX-Types-Path-Class

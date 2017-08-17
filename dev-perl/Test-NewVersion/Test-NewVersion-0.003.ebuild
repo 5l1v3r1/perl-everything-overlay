@@ -37,7 +37,6 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-if

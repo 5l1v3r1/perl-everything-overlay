@@ -18,8 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-Minifier
-	dev-perl/Template-Toolkit
-	dev-perl/base
+	>=dev-perl/Template-Toolkit-2.000
 "
 DEPEND="
 	${RDEPEND}

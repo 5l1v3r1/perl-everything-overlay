@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v1.0.2"
+DIST_VERSION="1.0.2"
 DIST_A="Catalyst-Plugin-Sitemap-1.0.2.tar.gz"
 inherit perl-module
 
@@ -25,7 +25,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Catalyst-Runtime
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

@@ -26,6 +26,5 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

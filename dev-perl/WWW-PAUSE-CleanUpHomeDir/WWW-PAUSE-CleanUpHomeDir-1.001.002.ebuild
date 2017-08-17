@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/Sort-Versions
 	dev-perl/URI
 	dev-perl/WWW-Mechanize
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

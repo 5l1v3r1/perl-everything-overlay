@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/MooX-Types-MooseLike
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "

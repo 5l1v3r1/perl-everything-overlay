@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/LWP-Protocol-https
 	dev-perl/Moo
-	dev-perl/base
 	dev-perl/common-sense
 	dev-perl/libwww-perl
 	virtual/perl-Carp

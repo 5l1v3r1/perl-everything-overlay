@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBIx-Class
 	dev-perl/Try-Tiny
-	dev-perl/base
 	dev-perl/namespace-clean
 "
 DEPEND="
@@ -28,7 +27,6 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	>=dev-perl/SQL-Translator-0.110.180
 	dev-perl/Time-Moment
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

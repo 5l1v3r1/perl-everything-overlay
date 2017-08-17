@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	>=dev-perl/Readonly-1.000
 	>=dev-perl/Test-Class-0.240
-	dev-perl/base
 	>=virtual/perl-Attribute-Handlers-0.780
 	virtual/perl-Carp
 	virtual/perl-File-Spec

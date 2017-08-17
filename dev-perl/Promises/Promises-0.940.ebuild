@@ -28,6 +28,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.890
 "

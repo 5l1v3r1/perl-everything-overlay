@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Capture-Tiny
 	>=dev-perl/ExtUtils-CChecker-0.090
-	dev-perl/base
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

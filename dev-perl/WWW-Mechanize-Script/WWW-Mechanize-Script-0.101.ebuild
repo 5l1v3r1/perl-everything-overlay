@@ -24,22 +24,26 @@ RDEPEND="
 	>=dev-perl/Hash-Merge-0.120
 	>=dev-perl/JSON-2.000
 	>=dev-perl/List-MoreUtils-0.220
-	dev-perl/Module-Pluggable
+	>=dev-perl/Module-Pluggable-4.000
 	>=dev-perl/Params-Util-0.330
+	dev-perl/Pod-Usage
 	>=dev-perl/Template-Toolkit-2.200
 	>=dev-perl/WWW-Mechanize-1.720
 	>=dev-perl/WWW-Mechanize-Timed-0.440
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Text-Balanced
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Daemon
+	dev-perl/HTTP-Message
+	dev-perl/IO-CaptureOutput
+	dev-perl/URI
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "

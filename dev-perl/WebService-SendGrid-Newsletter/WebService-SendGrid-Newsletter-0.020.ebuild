@@ -31,7 +31,6 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-Mock-HTTP-Tiny
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

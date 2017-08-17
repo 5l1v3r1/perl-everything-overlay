@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RORYRJB"
-DIST_VERSION="v0.0.3"
+DIST_VERSION="0.0.3"
 DIST_A="File-DirObject-0.0.3.tar.gz"
 inherit perl-module
 
@@ -21,7 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

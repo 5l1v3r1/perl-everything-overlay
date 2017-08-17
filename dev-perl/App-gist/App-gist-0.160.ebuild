@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Pithub
 	dev-perl/TermReadKey
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

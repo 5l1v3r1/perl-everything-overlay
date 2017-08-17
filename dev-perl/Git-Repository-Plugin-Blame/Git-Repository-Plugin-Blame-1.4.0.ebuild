@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.4.0"
+DIST_VERSION="1.4.0"
 DIST_A="Git-Repository-Plugin-Blame-v1.4.0.tar.gz"
 inherit perl-module
 

@@ -16,14 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Scope-Upper
 	>=dev-perl/Variable-Magic-0.510
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 "

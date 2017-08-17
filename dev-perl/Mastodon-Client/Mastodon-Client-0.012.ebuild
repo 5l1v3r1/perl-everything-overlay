@@ -30,7 +30,7 @@ RDEPEND="
 	>=dev-perl/Moo-2.003.002
 	dev-perl/Path-Tiny
 	>=dev-perl/Try-Tiny-0.280
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-1.000.006
 	>=dev-perl/Types-Path-Tiny-0.005
 	>=dev-perl/URI-1.710
 	>=dev-perl/libwww-perl-6.250
@@ -46,12 +46,11 @@ DEPEND="
 	dev-perl/Config-Tiny
 	dev-perl/HTML-FormatText-WithLinks
 	dev-perl/Lingua-EN-Inflexion
-	>=dev-perl/Plack-1.004.300
+	dev-perl/Plack
 	>=dev-perl/Test-Exception-0.043
 	>=dev-perl/Test-Pod-1.510
 	>=dev-perl/Test-TCP-2.170
 	>=dev-perl/Test-Warnings-0.026
-	dev-perl/lib
 	virtual/perl-Term-ANSIColor
 	>=virtual/perl-Test-Simple-1.302.078
 	virtual/perl-parent

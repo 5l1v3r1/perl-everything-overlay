@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBIx-Class
 	>=dev-perl/SQL-Translator-0.110.060
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

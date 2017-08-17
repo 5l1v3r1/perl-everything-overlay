@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STDWEIRD"
-DIST_VERSION="v0.0.7"
+DIST_VERSION="0.0.7"
 DIST_A="Net-FreeIPA-0.0.7.tar.gz"
 inherit perl-module
 
@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/REST-Client
 	dev-perl/Readonly
 	dev-perl/Types-Serialiser
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Exporter
 	virtual/perl-parent

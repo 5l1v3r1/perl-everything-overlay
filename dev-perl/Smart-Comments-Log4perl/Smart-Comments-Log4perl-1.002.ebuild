@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Log4perl
 	dev-perl/Smart-Comments
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

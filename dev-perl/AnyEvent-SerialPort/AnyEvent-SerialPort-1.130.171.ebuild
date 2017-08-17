@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/AnyEvent
 	dev-perl/Device-SerialPort
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="v0.57.0"
+DIST_VERSION="0.57.0"
 DIST_A="Rex-0.57.0.tar.gz"
 inherit perl-module
 
@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/XML-Simple
 	dev-perl/YAML
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

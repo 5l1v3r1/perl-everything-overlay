@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Catalyst-Model-DBIC-Schema
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.600
 	dev-perl/Moose
 	>=dev-perl/MooseX-MarkAsMethods-0.150
 	dev-perl/namespace-autoclean
@@ -28,7 +28,6 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/DBIx-Class
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

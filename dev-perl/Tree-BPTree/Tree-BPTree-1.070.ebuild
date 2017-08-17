@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="Tree-BPTree"
+DIST_AUTHOR="HANENKAMP"
 DIST_VERSION="1.07"
 DIST_A="Tree-BPTree-1.07.tar.gz"
+SRC_URI="mirror://cpan/authors/id/H/HA/HANENKAMP/Tree-BPTree/Tree-BPTree-1.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"

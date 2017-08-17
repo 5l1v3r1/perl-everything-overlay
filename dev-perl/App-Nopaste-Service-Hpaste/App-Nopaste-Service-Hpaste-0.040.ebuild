@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/App-Nopaste
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

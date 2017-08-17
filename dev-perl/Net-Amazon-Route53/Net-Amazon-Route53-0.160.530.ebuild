@@ -21,14 +21,15 @@ RDEPEND="
 	dev-perl/Digest-HMAC
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Message
+	dev-perl/Pod-Usage
 	dev-perl/XML-Bare
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Getopt-Long
 	virtual/perl-MIME-Base64
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

@@ -29,9 +29,8 @@ RDEPEND="
 	dev-perl/Text-Levenshtein
 	dev-perl/TimeDate
 	dev-perl/Try-Tiny
+	dev-perl/YAML
 	dev-perl/YAML-Syck
-	dev-perl/base
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -41,7 +40,6 @@ RDEPEND="
 	virtual/perl-Term-ReadLine
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

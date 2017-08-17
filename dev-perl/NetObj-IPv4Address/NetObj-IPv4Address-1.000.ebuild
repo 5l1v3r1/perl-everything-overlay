@@ -32,6 +32,5 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -19,12 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/InfluxDB-LineProtocol
 	dev-perl/Module-Runtime
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	dev-perl/Module-Pluggable
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

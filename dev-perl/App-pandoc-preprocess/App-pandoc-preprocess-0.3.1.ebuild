@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="v0.3.1"
+DIST_VERSION="0.3.1"
 DIST_A="App-pandoc-preprocess-0.3.1.tar.gz"
 inherit perl-module
 
@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/MooX-Options
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/Path-Class
-	dev-perl/lib
 	dev-perl/namespace-clean
 "
 DEPEND="

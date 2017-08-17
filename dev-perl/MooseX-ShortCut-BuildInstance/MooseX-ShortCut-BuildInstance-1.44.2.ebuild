@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="v1.44.2"
+DIST_VERSION="1.44.2"
 DIST_A="MooseX-ShortCut-BuildInstance-v1.44.2.tar.gz"
 inherit perl-module
 
@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-version-0.770

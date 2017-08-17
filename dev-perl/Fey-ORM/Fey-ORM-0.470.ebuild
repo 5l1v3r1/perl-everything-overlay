@@ -32,7 +32,6 @@ RDEPEND="
 	dev-perl/Object-ID
 	dev-perl/Sub-Exporter
 	dev-perl/Try-Tiny
-	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Scalar-List-Utils
 "
@@ -41,7 +40,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Fey-Test-0.050
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960

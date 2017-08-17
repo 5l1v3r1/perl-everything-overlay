@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CASAO"
-DIST_VERSION="v1.0.0"
+DIST_VERSION="1.0.0"
 DIST_A="Dancer-Plugin-Queue-SQS-1.0.0.tar.gz"
 inherit perl-module
 

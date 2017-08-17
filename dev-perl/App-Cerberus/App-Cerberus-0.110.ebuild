@@ -28,7 +28,6 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	dev-perl/Time-OlsonTZ-Data
 	dev-perl/YAML
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils

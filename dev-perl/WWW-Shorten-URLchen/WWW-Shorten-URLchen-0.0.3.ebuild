@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DATA"
-DIST_VERSION="v0.0.3"
+DIST_VERSION="0.0.3"
 DIST_A="WWW-Shorten-URLchen-v0.0.3.tar.gz"
 inherit perl-module
 
@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/WWW-Shorten-3.000
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

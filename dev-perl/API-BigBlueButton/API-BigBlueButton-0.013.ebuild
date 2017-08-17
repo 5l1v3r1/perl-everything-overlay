@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Digest-SHA1
 	dev-perl/XML-Fast
-	dev-perl/base
 	>=dev-perl/libwww-perl-6.050
 	virtual/perl-Carp
 "

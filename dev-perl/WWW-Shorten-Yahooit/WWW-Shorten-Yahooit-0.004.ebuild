@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/WWW-Shorten
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

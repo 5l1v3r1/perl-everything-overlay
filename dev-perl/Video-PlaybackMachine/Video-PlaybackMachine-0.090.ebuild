@@ -34,16 +34,17 @@ RDEPEND="
 	dev-perl/Type-Tiny
 	dev-perl/Video-Xine
 	dev-perl/X11-FullScreen
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-MockObject
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "

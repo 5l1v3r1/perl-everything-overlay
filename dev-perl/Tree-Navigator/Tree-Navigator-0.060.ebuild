@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/MooseX-NonMoose
 	dev-perl/MooseX-Params-Validate
 	dev-perl/Params-Validate
-	>=dev-perl/Plack-1.000.400
+	dev-perl/Plack
 	dev-perl/Template-Toolkit
 	dev-perl/URI
 	dev-perl/namespace-autoclean

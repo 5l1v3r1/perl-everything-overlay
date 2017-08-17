@@ -25,7 +25,6 @@ DEPEND="
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Perl-Critic-Progressive
 	dev-perl/Test-PerlTidy
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

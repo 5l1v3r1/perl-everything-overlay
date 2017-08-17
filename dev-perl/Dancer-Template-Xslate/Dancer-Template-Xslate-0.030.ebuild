@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dancer
 	dev-perl/Text-Xslate
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 "

@@ -31,7 +31,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DBD-SQLite
 	dev-perl/File-Slurp
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "

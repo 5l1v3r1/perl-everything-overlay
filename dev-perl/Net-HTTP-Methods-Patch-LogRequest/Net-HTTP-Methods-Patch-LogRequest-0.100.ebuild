@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Log-ger-0.008
 	>=dev-perl/Module-Patch-0.120
 	>=dev-perl/Net-HTTP-6.000
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

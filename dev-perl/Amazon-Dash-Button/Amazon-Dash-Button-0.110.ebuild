@@ -24,7 +24,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-IO

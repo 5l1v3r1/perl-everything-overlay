@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/POE-Component-IRC-Plugin-BaseWrap
 	dev-perl/URI
 	dev-perl/URI-Find
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "

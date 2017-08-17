@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Catalyst-View-TT
 	>=dev-perl/Devel-ebug-0.450
 	dev-perl/HTML-Prototype
-	dev-perl/PPI
+	>=dev-perl/PPI-1.110
 	dev-perl/PPI-HTML
 	dev-perl/Path-Class
 	dev-perl/Template-Toolkit

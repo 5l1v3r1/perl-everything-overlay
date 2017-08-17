@@ -27,11 +27,10 @@ RDEPEND="
 	>=dev-perl/HTML-Entities-Interpolate-1.060
 	>=dev-perl/HTML-Template-2.950
 	>=dev-perl/Moo-2.000.002
+	dev-perl/Pod-Usage
 	>=dev-perl/Try-Tiny-0.240
 	>=dev-perl/Type-Tiny-1.000.005
-	dev-perl/lib
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-version
 "
 DEPEND="

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-GMPz
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter

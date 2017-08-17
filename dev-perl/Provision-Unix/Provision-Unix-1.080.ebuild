@@ -16,15 +16,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	dev-lang/perl
 	>=dev-perl/Apache-Admin-Config-0.950
 	>=dev-perl/Config-Tiny-2.000
 	>=dev-perl/MailTools-1.000
 	>=dev-perl/Params-Validate-0.800
 	dev-perl/TimeDate
 	>=dev-perl/URI-1.000
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-CPAN
 	virtual/perl-Data-Dumper
@@ -38,4 +36,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Dist-Zilla-1.000
+	>=dev-perl/Dist-Zilla-Plugin-MinimumPerl-0.100
+	>=dev-perl/Test-Pod-0.100
+	>=virtual/perl-Test-Simple-0.100
 "

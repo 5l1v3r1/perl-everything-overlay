@@ -25,7 +25,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	dev-perl/namespace-clean
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/Try-Tiny
 	dev-perl/WebService-Slack-WebApi
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

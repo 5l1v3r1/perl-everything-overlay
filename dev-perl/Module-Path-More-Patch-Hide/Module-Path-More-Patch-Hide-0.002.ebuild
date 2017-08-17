@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Module-Patch-0.120
 	dev-perl/Module-Path-More
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

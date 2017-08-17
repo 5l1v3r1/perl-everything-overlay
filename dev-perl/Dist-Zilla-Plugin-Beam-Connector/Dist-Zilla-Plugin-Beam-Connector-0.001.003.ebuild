@@ -28,7 +28,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Beam-Emitter
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple

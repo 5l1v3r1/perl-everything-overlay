@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Encode

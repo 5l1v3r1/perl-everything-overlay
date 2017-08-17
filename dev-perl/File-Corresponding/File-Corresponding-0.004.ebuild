@@ -23,14 +23,17 @@ RDEPEND="
 	dev-perl/Moose-Autobox
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/YAML-Tiny
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-chdir
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

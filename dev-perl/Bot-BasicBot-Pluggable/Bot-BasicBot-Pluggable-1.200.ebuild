@@ -36,8 +36,6 @@ RDEPEND="
 	dev-perl/URI-Find-Simple
 	dev-perl/URI-Title
 	dev-perl/XML-Feed
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

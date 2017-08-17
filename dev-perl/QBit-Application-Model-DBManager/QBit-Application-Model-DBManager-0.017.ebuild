@@ -16,18 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Exceptions
 	dev-perl/Parse-Eyapp
 	dev-perl/QBit-Application
 	dev-perl/QBit-Class
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

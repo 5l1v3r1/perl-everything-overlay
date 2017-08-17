@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/App-MultiModule
 	dev-perl/IPC-Transit
 	dev-perl/Message-SmartMerge
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
@@ -30,6 +29,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
-	dev-perl/lib
 	virtual/perl-File-Temp
 "

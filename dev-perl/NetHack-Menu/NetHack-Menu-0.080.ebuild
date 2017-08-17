@@ -25,7 +25,6 @@ DEPEND="
 	dev-perl/Term-VT102
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent

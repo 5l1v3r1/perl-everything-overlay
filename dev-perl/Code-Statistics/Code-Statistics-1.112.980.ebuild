@@ -46,7 +46,6 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Differences
 	dev-perl/Test-MockObject
-	dev-perl/base
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

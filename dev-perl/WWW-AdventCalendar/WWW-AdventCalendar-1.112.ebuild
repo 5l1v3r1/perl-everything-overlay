@@ -18,8 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Calendar-Simple
-	>=dev-perl/Color-Palette-0.100.002
-	dev-perl/Config-MVP
+	dev-perl/Color-Palette
+	>=dev-perl/Config-MVP-2.000
 	dev-perl/Config-MVP-Reader-INI
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-W3CDTF
@@ -38,7 +38,6 @@ RDEPEND="
 	dev-perl/Pod-Elemental-Transformer-SynHi
 	>=dev-perl/Pod-Elemental-Transformer-VimHTML-0.093.581
 	dev-perl/XML-Atom-SimpleFeed
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Digest-MD5
 	>=virtual/perl-File-Path-2.070

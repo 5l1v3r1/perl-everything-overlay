@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.0.11"
+DIST_VERSION="0.0.11"
 DIST_A="Task-FreecellSolver-Testing-v0.0.11.tar.gz"
 inherit perl-module
 

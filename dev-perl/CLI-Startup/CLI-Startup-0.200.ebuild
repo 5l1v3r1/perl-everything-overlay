@@ -35,6 +35,5 @@ DEPEND="
 	>=dev-perl/Module-Build-0.330
 	dev-perl/Test-Exception
 	dev-perl/Test-Trap
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

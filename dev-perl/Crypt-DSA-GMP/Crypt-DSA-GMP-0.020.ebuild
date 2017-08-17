@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Crypt-Random-Seed
 	>=dev-perl/Data-Buffer-0.040
 	dev-perl/Math-BigInt-GMP
 	>=dev-perl/Math-Prime-Util-GMP-0.150
-	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Digest-SHA-5.220
 	>=virtual/perl-Exporter-5.562

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.0.3"
+DIST_VERSION="0.0.3"
 DIST_A="File-Find-Object-Rule-VCS-v0.0.3.tar.gz"
 inherit perl-module
 
@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Find-Object-Rule
 	dev-perl/Text-Glob
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

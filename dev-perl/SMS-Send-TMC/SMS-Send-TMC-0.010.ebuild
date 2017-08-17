@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/SMS-Send
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "

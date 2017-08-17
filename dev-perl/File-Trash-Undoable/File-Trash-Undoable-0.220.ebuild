@@ -27,7 +27,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurper
 	dev-perl/File-chdir
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

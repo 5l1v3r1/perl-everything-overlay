@@ -28,6 +28,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	dev-perl/HTTP-Throwable
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

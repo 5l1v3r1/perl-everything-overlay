@@ -22,8 +22,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
 	>=dev-perl/Module-Build-0.210
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-ExtUtils-CBuilder-0.150

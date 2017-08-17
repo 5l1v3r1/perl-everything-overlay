@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYMON"
-DIST_VERSION="v1.2.0"
+DIST_VERSION="1.2.0"
 DIST_A="Dancer2-Plugin-Multilang-1.2.0.tar.gz"
 inherit perl-module
 
@@ -23,7 +23,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Test-TCP
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple

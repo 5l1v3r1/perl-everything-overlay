@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Pod-Readme-0.090
 	>=dev-perl/ShipIt-0.530
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

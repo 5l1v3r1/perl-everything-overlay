@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/URI
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="

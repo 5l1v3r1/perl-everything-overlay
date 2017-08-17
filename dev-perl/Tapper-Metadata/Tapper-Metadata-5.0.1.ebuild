@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="v5.0.1"
+DIST_VERSION="5.0.1"
 DIST_A="Tapper-Metadata-5.0.1.tar.gz"
 inherit perl-module
 
@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/Hash-Merge
 	dev-perl/JSON-XS
 	dev-perl/List-MoreUtils
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Module-Load

@@ -34,6 +34,5 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/DBD-SQLite
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

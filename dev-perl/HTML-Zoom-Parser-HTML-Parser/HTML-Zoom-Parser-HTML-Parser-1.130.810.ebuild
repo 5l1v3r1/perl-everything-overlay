@@ -16,15 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/HTML-Parser
 	dev-perl/HTML-Zoom
-	dev-perl/base
 	>=dev-perl/strictures-1.000
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
-	dev-lang/perl
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "

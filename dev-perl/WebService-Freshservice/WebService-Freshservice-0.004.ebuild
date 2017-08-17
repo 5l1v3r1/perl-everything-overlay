@@ -35,7 +35,6 @@ DEPEND="
 	dev-perl/Config-Tiny
 	dev-perl/Test-Most
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

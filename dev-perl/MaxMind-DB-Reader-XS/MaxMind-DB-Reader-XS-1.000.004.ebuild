@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Int128
 	>=dev-perl/MaxMind-DB-Common-0.040.001
-	dev-perl/MaxMind-DB-Reader
+	>=dev-perl/MaxMind-DB-Reader-1.000.012
 	dev-perl/Moo
 	dev-perl/namespace-autoclean
 	virtual/perl-XSLoader
@@ -33,7 +33,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Number-Delta
 	dev-perl/Test-Requires
-	dev-perl/lib
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960

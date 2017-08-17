@@ -32,7 +32,6 @@ RDEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
 	dev-perl/YAML
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

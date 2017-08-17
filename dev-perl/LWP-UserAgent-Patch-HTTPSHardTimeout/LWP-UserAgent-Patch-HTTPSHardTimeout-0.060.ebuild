@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Log-ger-0.011
 	>=dev-perl/Module-Patch-0.120
-	dev-perl/base
 	>=dev-perl/libwww-perl-6.040
 "
 DEPEND="

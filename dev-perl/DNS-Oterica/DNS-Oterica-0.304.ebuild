@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/Net-IP
 	dev-perl/Sub-Install
 	dev-perl/YAML-LibYAML
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 "
 DEPEND="

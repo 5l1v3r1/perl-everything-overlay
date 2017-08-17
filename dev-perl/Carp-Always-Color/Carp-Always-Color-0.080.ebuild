@@ -23,7 +23,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-Pty-Easy
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO

@@ -23,5 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	dev-perl/IO-Tty
 	dev-perl/Test-Most
-	dev-perl/lib
 "

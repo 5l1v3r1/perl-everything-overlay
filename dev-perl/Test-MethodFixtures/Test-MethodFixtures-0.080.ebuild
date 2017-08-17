@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Hook-LexWrap
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-version

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Tree-Simple-1.120
-	dev-perl/base
 	>=virtual/perl-File-Spec-0.600
 	>=virtual/perl-Scalar-List-Utils-1.100
 "

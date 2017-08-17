@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Devel-StackTrace-WithLexicals
 	dev-perl/Reply
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/PPI-1.117
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Exporter

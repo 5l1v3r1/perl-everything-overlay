@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Tie-File
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

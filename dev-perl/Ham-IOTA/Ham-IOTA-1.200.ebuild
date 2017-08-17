@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-1.030
 	>=dev-perl/XML-XPath-1.130
-	>=dev-perl/base-2.070
 	>=dev-perl/libwww-perl-6.000
 	>=virtual/perl-Carp-1.040
 "

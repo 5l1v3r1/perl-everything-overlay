@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="v0.9.7"
+DIST_VERSION="0.9.7"
 DIST_A="Dist-Zilla-Plugin-Manifest-Write-v0.9.7.tar.gz"
 inherit perl-module
 
@@ -31,7 +31,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	dev-perl/Dist-Zilla-Plugin-ModuleBuildTiny
 	dev-perl/Dist-Zilla-Plugin-Test-Compile
 	>=dev-perl/Dist-Zilla-Plugin-Test-EOL-0.140
@@ -39,10 +39,9 @@ DEPEND="
 	dev-perl/IPC-System-Simple
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
-	dev-perl/Test-Dist-Zilla
+	>=dev-perl/Test-Dist-Zilla-0.4.3
 	dev-perl/Test-Routine
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

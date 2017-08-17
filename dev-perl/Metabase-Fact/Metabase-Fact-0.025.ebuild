@@ -21,11 +21,15 @@ RDEPEND="
 	dev-perl/Data-GUID
 	dev-perl/IO-Prompt-Tiny
 	dev-perl/JSON-MaybeXS
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	>=virtual/perl-File-Temp-0.200
+	>=virtual/perl-Test-Simple-0.880
 "

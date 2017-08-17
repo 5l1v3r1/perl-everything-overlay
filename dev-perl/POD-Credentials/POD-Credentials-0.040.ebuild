@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Class-Fields
-	dev-perl/base
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

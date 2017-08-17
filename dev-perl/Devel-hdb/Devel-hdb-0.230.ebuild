@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/Plack
 	dev-perl/Sub-Name
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -40,7 +39,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Devel-Callsite
 	dev-perl/HTML-Tree
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

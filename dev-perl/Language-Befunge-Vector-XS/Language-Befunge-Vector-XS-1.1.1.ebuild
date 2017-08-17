@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="v1.1.1"
+DIST_VERSION="1.1.1"
 DIST_A="Language-Befunge-Vector-XS-1.1.1.tar.gz"
 inherit perl-module
 

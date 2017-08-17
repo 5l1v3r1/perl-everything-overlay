@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Email-Simple-1.920
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

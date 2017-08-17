@@ -19,8 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Slurp
 	dev-perl/String-ShellQuote
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter

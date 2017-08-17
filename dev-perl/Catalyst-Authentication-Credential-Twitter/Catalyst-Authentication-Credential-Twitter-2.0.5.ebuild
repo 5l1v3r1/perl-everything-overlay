@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v2.0.5"
+DIST_VERSION="2.0.5"
 DIST_A="Catalyst-Authentication-Credential-Twitter-2.0.5.tar.gz"
 inherit perl-module
 
@@ -21,13 +21,11 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Accessor
 	>=dev-perl/Net-Twitter-4.000.010
-	dev-perl/base
 	virtual/perl-Data-Dumper
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

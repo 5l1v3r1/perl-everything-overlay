@@ -29,7 +29,6 @@ RDEPEND="
 	dev-perl/Tie-IxHash
 	dev-perl/Try-Tiny
 	dev-perl/XML-TreePP
-	dev-perl/base
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -43,6 +42,5 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/HTTP-Message
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

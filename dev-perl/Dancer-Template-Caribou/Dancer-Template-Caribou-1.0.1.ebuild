@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v1.0.1"
+DIST_VERSION="1.0.1"
 DIST_A="Dancer-Template-Caribou-1.0.1.tar.gz"
 inherit perl-module
 

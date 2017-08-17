@@ -24,7 +24,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Module-Path-More
 	dev-perl/Test-Needs
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

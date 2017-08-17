@@ -23,11 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
 	dev-perl/CGI-Simple
 	dev-perl/Test-Exception
 	dev-perl/Test-MockTime
 	dev-perl/Test-Output
 	>=dev-perl/Test-Pod-1.450
-	dev-perl/base
 	>=virtual/perl-Test-Simple-0.980
 "

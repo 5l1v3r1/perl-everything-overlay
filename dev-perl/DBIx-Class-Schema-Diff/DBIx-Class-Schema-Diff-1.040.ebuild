@@ -35,7 +35,5 @@ DEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Exception
 	dev-perl/aliased
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

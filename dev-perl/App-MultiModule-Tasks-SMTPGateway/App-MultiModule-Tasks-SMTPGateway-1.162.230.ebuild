@@ -31,6 +31,5 @@ DEPEND="
 	dev-perl/File-Slurp
 	dev-perl/IPC-Transit
 	dev-perl/Test-Mock-Net-Server-Mail
-	dev-perl/lib
 	virtual/perl-File-Temp
 "

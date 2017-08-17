@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v1.0.2"
+DIST_VERSION="1.0.2"
 DIST_A="Template-Mustache-1.0.2.tar.gz"
 inherit perl-module
 
@@ -35,7 +35,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Most
 	dev-perl/Test-Requires
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

@@ -16,12 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.038
-	dev-perl/base
+	dev-lang/perl
+	>=dev-perl/Alien-Build-0.038
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Build-0.320
 	dev-perl/Capture-Tiny
 	dev-perl/File-chdir
 	>=virtual/perl-ExtUtils-MakeMaker-6.520

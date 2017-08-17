@@ -29,8 +29,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Output
 	dev-perl/YAML
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec

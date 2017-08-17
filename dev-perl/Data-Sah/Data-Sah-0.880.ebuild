@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Data-Dmp-0.210
 	dev-perl/Data-Dump
-	>=dev-perl/Data-Sah-Coerce-0.014
+	dev-perl/Data-Sah-Coerce
 	>=dev-perl/Data-Sah-Normalize-0.030
 	>=dev-perl/Data-Sah-Resolve-0.003
 	dev-perl/File-ShareDir

@@ -36,6 +36,5 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	dev-perl/Template-Toolkit
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

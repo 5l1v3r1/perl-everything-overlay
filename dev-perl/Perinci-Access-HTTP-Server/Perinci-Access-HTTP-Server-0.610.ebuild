@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Data-Clean-JSON-0.380
 	dev-perl/JSON-MaybeXS
-	>=dev-perl/Log-ger-0.005
+	>=dev-perl/Log-ger-0.011
 	dev-perl/Log-ger-Output-Callback
 	>=dev-perl/Module-Patch-0.120
 	>=dev-perl/Perinci-Access-HTTP-Client-0.140
@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/Plack
 	dev-perl/URI
 	dev-perl/YAML-Syck
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 	virtual/perl-parent

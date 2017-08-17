@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/PPI
 	>=dev-perl/Perl-Critic-1.082
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

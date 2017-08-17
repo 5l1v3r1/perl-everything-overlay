@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Devel-CallChecker-0.003
 	dev-perl/Types-Serialiser
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-XSLoader
 "

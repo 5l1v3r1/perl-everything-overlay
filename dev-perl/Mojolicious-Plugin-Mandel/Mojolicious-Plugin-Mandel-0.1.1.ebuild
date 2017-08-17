@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZITSEN"
-DIST_VERSION="v0.1.1"
+DIST_VERSION="0.1.1"
 DIST_A="Mojolicious-Plugin-Mandel-0.1.1.tar.gz"
 inherit perl-module
 
@@ -26,6 +26,5 @@ DEPEND="
 	dev-perl/Mandel
 	dev-perl/Test-Pod
 	>=dev-perl/Test-Pod-Coverage-1.000
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

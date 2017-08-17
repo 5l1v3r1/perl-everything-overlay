@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="v0.9.0"
+DIST_VERSION="0.9.0"
 DIST_A="Dist-Zilla-Role-ErrorLogger-v0.9.0.tar.gz"
 inherit perl-module
 
@@ -30,7 +30,6 @@ DEPEND="
 	>=dev-perl/Test-DiagINC-0.002
 	dev-perl/Test-Dist-Zilla
 	dev-perl/Test-Routine
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

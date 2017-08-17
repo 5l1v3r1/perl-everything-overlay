@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LZH"
-DIST_VERSION="v0.0.1"
+DIST_VERSION="0.0.1"
 DIST_A="Crypt-HC128-0.0.1.tar.gz"
 inherit perl-module
 

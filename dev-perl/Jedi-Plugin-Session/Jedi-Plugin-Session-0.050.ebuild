@@ -32,7 +32,6 @@ RDEPEND="
 	dev-perl/Redis
 	dev-perl/Sereal
 	dev-perl/Time-Duration-Parse
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

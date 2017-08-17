@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/AnyEvent
 	dev-perl/Tickit
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

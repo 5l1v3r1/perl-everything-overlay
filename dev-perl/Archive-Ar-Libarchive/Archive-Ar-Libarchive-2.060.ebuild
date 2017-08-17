@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Alien-Libarchive
 	>=dev-perl/Math-Int64-0.280
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

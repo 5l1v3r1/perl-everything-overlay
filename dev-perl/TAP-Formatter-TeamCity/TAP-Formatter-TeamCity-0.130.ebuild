@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/TeamCity-Message
-	dev-perl/base
 	virtual/perl-Test-Harness
 "
 DEPEND="
@@ -28,7 +27,6 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Path-Class-Rule
 	dev-perl/Test-Class-Moose
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.980

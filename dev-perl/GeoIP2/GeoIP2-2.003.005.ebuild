@@ -29,7 +29,6 @@ RDEPEND="
 	dev-perl/Throwable
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Data-Dumper
@@ -45,7 +44,6 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-Fatal
 	dev-perl/Test-Number-Delta
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO-Compress
 	>=virtual/perl-Test-Simple-0.960

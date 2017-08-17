@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/File-Which
 	dev-perl/Getopt-Simple
 	dev-perl/Module-Runtime
-	dev-perl/lib
 	virtual/perl-parent
 "
 DEPEND="

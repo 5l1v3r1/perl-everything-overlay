@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Dancer
 	dev-perl/Digest-HMAC
 	dev-perl/Try-Tiny
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

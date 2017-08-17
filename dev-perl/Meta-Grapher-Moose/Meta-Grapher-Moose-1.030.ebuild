@@ -36,7 +36,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Requires
 	dev-perl/Test2-Suite
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Net-IMAP-Simple-SSL
-	dev-perl/base
 	virtual/perl-Text-ParseWords
 "
 DEPEND="

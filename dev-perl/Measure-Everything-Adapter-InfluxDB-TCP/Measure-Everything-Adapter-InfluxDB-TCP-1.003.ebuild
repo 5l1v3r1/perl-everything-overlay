@@ -20,12 +20,10 @@ RDEPEND="
 	dev-perl/InfluxDB-LineProtocol
 	dev-perl/Log-Any
 	dev-perl/Measure-Everything
-	dev-perl/base
 	virtual/perl-IO
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

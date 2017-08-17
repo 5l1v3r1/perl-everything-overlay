@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Swim
 	dev-perl/Text-Table
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Scalar-List-Utils-1.330
@@ -35,7 +34,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IPC-Run
 	dev-perl/Test-Output
-	dev-perl/lib
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

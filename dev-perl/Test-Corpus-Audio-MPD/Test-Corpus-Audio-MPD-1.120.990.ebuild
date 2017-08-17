@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/File-ShareDir-PathClass
 	dev-perl/Path-Class
 	dev-perl/Readonly
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 "

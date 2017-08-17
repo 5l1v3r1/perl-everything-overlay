@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CGI
 	dev-perl/RDF-Trine
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

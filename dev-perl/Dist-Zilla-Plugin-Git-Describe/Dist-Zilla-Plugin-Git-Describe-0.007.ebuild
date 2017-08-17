@@ -31,7 +31,6 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Sort-Versions
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960

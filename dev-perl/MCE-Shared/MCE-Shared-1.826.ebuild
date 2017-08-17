@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/IO-FDPass-1.200
 	>=dev-perl/MCE-1.829
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Socket

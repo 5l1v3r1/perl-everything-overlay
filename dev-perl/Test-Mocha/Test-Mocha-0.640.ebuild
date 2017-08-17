@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Devel-PartialDump-0.170
-	>=dev-perl/Type-Tiny-0.008
+	dev-perl/Type-Tiny
 	dev-perl/UNIVERSAL-ref
 	dev-perl/experimental
 	>=virtual/perl-Carp-1.220
@@ -32,5 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
-	dev-perl/lib
 "

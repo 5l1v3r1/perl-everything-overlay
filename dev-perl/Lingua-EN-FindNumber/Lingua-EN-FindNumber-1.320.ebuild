@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Lingua-EN-Words2Nums
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

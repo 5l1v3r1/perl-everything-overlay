@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="v0.28.0"
+DIST_VERSION="0.28.0"
 DIST_A="Data-Walk-Extracted-v0.28.0.tar.gz"
 inherit perl-module
 
@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/MooseX-HasDefaults
 	dev-perl/MooseX-StrictConstructor
 	dev-perl/MooseX-Types
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-version-0.770

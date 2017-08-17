@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-INI
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.000
 	>=dev-perl/Moose-0.990
 	>=dev-perl/Net-Twitter-4.000.010
 	dev-perl/Try-Tiny
@@ -34,8 +34,6 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Params-Util
 	dev-perl/Sub-Exporter
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880

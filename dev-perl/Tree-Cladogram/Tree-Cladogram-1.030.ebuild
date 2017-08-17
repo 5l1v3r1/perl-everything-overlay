@@ -18,12 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-Slurper-0.008
-	>=dev-perl/Imager-1.004
+	>=dev-perl/Imager-1.012
 	>=dev-perl/Moo-2.000.002
+	>=dev-perl/Pod-Usage-1.670
 	>=dev-perl/Tree-DAG-Node-1.270
 	>=dev-perl/Type-Tiny-1.000
 	virtual/perl-Getopt-Long
-	>=virtual/perl-Pod-Usage-1.670
 	virtual/perl-parent
 "
 DEPEND="

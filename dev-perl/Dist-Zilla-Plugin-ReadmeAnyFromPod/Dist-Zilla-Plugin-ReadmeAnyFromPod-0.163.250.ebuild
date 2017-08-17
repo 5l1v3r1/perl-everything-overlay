@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/Pod-Markdown-Github
 	virtual/perl-Encode
 	>=virtual/perl-Pod-Simple-3.230
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
@@ -36,7 +36,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
 	dev-perl/Test-Requires
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-IO

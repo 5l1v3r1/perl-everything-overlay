@@ -29,6 +29,5 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.140
 	>=dev-perl/Test-Pod-Coverage-1.040
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

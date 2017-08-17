@@ -24,9 +24,9 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Method-Signatures
 	dev-perl/Module-Runtime
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-3.280
 	dev-perl/Moo
-	>=dev-perl/Path-Class-0.260
+	dev-perl/Path-Class
 	dev-perl/Try-Tiny
 	dev-perl/YAML-LibYAML
 	>=dev-perl/experimental-0.005
@@ -40,7 +40,6 @@ DEPEND="
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 	dev-perl/Test-Routine
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

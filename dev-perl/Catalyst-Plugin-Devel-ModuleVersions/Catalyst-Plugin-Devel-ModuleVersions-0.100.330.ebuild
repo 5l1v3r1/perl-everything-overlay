@@ -19,12 +19,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	dev-perl/MRO-Compat
+	dev-perl/Pod-Usage
 	dev-perl/Test-MockObject
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	dev-perl/base
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="

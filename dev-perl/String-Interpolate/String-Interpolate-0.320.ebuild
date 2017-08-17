@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/PadWalker
 	dev-perl/Safe-Hole
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Safe

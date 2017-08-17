@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Devel-TakeHashArgs
 	dev-perl/Socket-Class
 	dev-perl/XML-Simple
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-IO

@@ -28,7 +28,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "

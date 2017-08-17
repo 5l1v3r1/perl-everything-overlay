@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBLEACH"
-DIST_VERSION="v2.1.0"
+DIST_VERSION="2.1.0"
 DIST_A="IO-Pipe-Producer-2.01.tar.gz"
 inherit perl-module
 
@@ -16,8 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.070
-	>=dev-perl/base-2.180
+	>=dev-lang/perl-1.130
 	>=virtual/perl-Carp-1.260
 	>=virtual/perl-IO-1.130
 "

@@ -23,8 +23,6 @@ DEPEND="
 	>=dev-perl/Class-Base-0.030
 	dev-perl/List-MoreUtils
 	dev-perl/Test-Differences
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

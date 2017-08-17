@@ -44,7 +44,6 @@ DEPEND="
 	dev-perl/Monkey-Patch-Action
 	>=dev-perl/Perinci-Examples-0.790
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

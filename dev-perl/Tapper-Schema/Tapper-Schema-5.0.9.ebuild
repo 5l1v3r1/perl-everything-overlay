@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="v5.0.9"
+DIST_VERSION="5.0.9"
 DIST_A="Tapper-Schema-5.0.9.tar.gz"
 inherit perl-module
 
@@ -50,7 +50,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
 	dev-perl/Test-Fixture-DBIC-Schema
-	dev-perl/lib
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
 "

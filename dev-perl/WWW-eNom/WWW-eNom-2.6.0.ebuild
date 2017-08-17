@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="v2.6.0"
+DIST_VERSION="2.6.0"
 DIST_A="WWW-eNom-v2.6.0.tar.gz"
 inherit perl-module
 
@@ -49,7 +49,6 @@ DEPEND="
 	dev-perl/Test-Moose-More
 	dev-perl/Test-Warn
 	dev-perl/XML-Simple
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO

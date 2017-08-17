@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Test-Differences-0.630
 	>=dev-perl/Test-Spec-0.460
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Harness
 "

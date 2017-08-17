@@ -46,6 +46,5 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Strict
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "

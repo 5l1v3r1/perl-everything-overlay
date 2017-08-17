@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
-	dev-perl/base
 	virtual/perl-IPC-Cmd
 	virtual/perl-Test-Simple
 "

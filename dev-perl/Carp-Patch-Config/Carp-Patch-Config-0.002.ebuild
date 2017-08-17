@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Module-Patch-0.240
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

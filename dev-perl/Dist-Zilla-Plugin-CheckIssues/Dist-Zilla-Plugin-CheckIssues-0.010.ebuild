@@ -36,7 +36,6 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if

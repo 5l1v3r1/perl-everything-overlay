@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/App-Nopaste
 	dev-perl/WWW-Pastebin-PastebinCa-Create
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

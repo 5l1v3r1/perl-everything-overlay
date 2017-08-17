@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Perl-Critic
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

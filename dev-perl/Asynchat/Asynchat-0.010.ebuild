@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Asyncore
 	dev-perl/Scalar-Util-Numeric
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

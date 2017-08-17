@@ -18,13 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/QBit-Class
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

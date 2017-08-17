@@ -30,6 +30,5 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.890
 "

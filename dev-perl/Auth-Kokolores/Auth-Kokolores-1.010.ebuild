@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/MooseX-Singleton
 	dev-perl/Net-Server
 	dev-perl/Tie-IxHash
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Getopt-Long

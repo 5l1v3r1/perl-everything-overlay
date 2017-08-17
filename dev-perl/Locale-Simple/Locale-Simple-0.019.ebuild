@@ -23,10 +23,9 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Parser-MGC
 	dev-perl/Try-Tiny
-	dev-perl/base
+	dev-perl/YAML
 	dev-perl/curry
 	dev-perl/libintl-perl
-	dev-perl/yaml
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -36,4 +35,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Capture-Tiny
+	dev-perl/Test-InDistDir
+	dev-perl/Test-Regression
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
 "

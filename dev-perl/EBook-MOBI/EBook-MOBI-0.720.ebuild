@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/Image-BMP
 	dev-perl/Image-Size
 	dev-perl/Text-Trim
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

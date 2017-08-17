@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Config-INI
 	dev-perl/String-RewritePrefix
-	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="

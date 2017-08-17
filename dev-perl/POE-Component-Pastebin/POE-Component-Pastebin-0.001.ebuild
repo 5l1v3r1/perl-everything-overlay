@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/POE
 	dev-perl/POE-Component-NonBlockingWrapper-Base
 	dev-perl/WWW-Pastebin-Sprunge
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -40,7 +40,6 @@ DEPEND="
 	dev-perl/Test-Needs
 	dev-perl/Test-RequiresInternet
 	>=dev-perl/Test-Warnings-0.009
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if

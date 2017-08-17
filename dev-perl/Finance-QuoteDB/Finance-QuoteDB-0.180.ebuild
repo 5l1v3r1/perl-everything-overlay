@@ -23,13 +23,13 @@ RDEPEND="
 	dev-perl/Finance-QuoteHist
 	dev-perl/HTML-TableExtract
 	dev-perl/Log-Log4perl
-	dev-perl/base
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

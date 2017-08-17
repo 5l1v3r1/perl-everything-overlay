@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/RDF-NS
 	dev-perl/RDF-Trine
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

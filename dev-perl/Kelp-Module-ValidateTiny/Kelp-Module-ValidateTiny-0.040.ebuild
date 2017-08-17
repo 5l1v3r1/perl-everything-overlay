@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Load
-	dev-perl/Kelp
+	>=dev-perl/Kelp-0.219.100
 	dev-perl/Module-Build-Tiny
 	dev-perl/Sub-Install
 	dev-perl/Validate-Tiny

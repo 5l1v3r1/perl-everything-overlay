@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v1.2.0"
+DIST_VERSION="1.2.0"
 DIST_A="Catalyst-Plugin-VersionedURI-1.2.0.tar.gz"
 inherit perl-module
 
@@ -27,7 +27,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

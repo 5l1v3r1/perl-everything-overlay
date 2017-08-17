@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/GD
 	dev-perl/GDGraph
 	dev-perl/GDTextUtil
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

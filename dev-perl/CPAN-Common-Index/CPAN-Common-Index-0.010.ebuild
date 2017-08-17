@@ -37,7 +37,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-Exporter
 	>=virtual/perl-Test-Simple-0.960
 "

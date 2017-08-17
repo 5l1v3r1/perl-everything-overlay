@@ -20,12 +20,11 @@ RDEPEND="
 	dev-perl/Config-Tiny
 	dev-perl/Date-Manip
 	dev-perl/Moo
-	dev-perl/base
+	dev-perl/Pod-Usage
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
 	virtual/perl-IO-Compress
 	virtual/perl-IPC-Cmd
-	virtual/perl-Pod-Usage
 	virtual/perl-parent
 "
 DEPEND="
@@ -33,6 +32,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-MockTime
 	dev-perl/Test-Output
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

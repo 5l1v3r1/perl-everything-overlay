@@ -18,11 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Pod-PseudoPod-0.160
-	dev-perl/base
+	dev-perl/Pod-Usage
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

@@ -17,9 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dancer-1.301.200
+	dev-perl/Dancer
 	dev-perl/JSON
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

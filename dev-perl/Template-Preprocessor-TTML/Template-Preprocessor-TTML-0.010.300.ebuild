@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Template-Toolkit
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

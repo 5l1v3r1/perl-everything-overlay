@@ -18,13 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-MVP-Slicer
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

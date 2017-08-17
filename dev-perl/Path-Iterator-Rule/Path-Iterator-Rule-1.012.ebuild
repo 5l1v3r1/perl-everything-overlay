@@ -32,7 +32,6 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Filename-0.030
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.920

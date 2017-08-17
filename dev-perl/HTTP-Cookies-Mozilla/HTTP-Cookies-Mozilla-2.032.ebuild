@@ -20,8 +20,6 @@ RDEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/DBI
 	>=dev-perl/HTTP-Cookies-1.250
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "

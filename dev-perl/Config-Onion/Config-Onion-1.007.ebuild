@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Config-Any
 	dev-perl/Hash-Merge-Simple
 	dev-perl/Moo
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

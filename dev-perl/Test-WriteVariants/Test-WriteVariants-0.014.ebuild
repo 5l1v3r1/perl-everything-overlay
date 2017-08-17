@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Data-Tumbler-0.002
 	>=dev-perl/Module-Pluggable-4.900
 	dev-perl/Module-Runtime
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

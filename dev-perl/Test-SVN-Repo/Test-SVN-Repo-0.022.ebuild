@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/IPC-Run
 	dev-perl/Path-Class
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils

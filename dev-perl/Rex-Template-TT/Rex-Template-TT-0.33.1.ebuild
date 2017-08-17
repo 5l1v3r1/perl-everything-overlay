@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="v0.33.1"
+DIST_VERSION="0.33.1"
 DIST_A="Rex-Template-TT-0.33.1.tar.gz"
 inherit perl-module
 

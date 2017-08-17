@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/AnyEvent
-	dev-perl/Net-MQTT
+	>=dev-perl/Net-MQTT-1.112.320
 	dev-perl/Pod-Usage
 	dev-perl/Sub-Name
 	virtual/perl-Carp
@@ -29,7 +29,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent-MockTCPServer
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

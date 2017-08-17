@@ -49,6 +49,5 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-SharedFork
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.980
 "

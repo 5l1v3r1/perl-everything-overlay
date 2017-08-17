@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BESSARABV"
-DIST_VERSION="v1.3.1"
+DIST_VERSION="1.3.1"
 DIST_A="Moment-1.3.1.tar.gz"
 inherit perl-module
 
@@ -25,6 +25,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

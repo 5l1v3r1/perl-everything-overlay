@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/QBit-Class
-	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-Time-HiRes
 "

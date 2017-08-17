@@ -24,6 +24,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/DateTime
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

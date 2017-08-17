@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/Net-Google-AuthSub
 	dev-perl/URI
 	dev-perl/XML-Atom
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -36,6 +35,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

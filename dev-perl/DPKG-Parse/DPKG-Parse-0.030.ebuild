@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Class-C3
 	dev-perl/Params-Validate
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

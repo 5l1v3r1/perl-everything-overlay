@@ -26,6 +26,5 @@ DEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/Plack
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/InfluxDB-LineProtocol-1.007
 	dev-perl/Measure-Everything
-	dev-perl/base
 	>=virtual/perl-IO-1.180
 "
 DEPEND="

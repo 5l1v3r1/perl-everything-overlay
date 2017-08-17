@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHELWIG"
-DIST_VERSION="v1.00.01"
+DIST_VERSION="1.00.01"
 DIST_A="Bot-BasicBot-Pluggable-Module-Gitbot-1.00.01.tar.gz"
 inherit perl-module
 

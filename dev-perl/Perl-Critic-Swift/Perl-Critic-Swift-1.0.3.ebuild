@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="v1.0.3"
+DIST_VERSION="1.0.3"
 DIST_A="Perl-Critic-Swift-v1.0.3.tar.gz"
 inherit perl-module
 
@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/List-MoreUtils-0.210
 	>=dev-perl/Perl-Critic-1.082
-	dev-perl/base
 	virtual/perl-version
 "
 DEPEND="

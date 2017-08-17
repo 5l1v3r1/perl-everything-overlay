@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TODDR"
-DIST_VERSION="v1.0.13"
+DIST_VERSION="1.0.13"
 DIST_A="Tree-MultiNode-v1.0.13.tar.gz"
 inherit perl-module
 

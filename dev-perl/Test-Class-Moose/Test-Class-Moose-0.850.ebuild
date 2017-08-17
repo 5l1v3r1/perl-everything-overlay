@@ -23,12 +23,12 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Module-Util
 	dev-perl/Moose
-	>=dev-perl/MooseX-Getopt-0.710
+	dev-perl/MooseX-Getopt
 	>=dev-perl/Package-DeprecationManager-0.160
 	dev-perl/Parallel-ForkManager
 	dev-perl/Sub-Attribute
 	dev-perl/Test-Most
-	dev-perl/Test2-AsyncSubtest
+	>=dev-perl/Test2-AsyncSubtest-0.000.018
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -36,7 +36,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Harness-3.290
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-1.302.059
 "
 DEPEND="
 	${RDEPEND}
@@ -44,6 +44,5 @@ DEPEND="
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
 	dev-perl/Test2-Suite
-	dev-perl/lib
 	virtual/perl-File-Temp
 "

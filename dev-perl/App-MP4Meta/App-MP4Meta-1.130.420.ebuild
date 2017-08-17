@@ -34,7 +34,6 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
-	dev-perl/base
 	virtual/perl-Net-Ping
 	virtual/perl-Test-Simple
 "

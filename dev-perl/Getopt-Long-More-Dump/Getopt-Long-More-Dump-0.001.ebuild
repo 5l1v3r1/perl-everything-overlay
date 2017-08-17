@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Getopt-Long-More-Util
 	>=dev-perl/Module-Patch-0.190
 	dev-perl/UUID-Random
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

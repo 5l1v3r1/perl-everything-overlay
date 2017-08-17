@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="v0.14.0"
+DIST_VERSION="0.14.0"
 DIST_A="DateTimeX-Format-Excel-v0.14.0.tar.gz"
 inherit perl-module
 
@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/Smart-Comments
 	>=dev-perl/Test-Exception-0.430
 	dev-perl/Type-Tiny
-	dev-perl/lib
 	virtual/perl-Carp
 	>=virtual/perl-Scalar-List-Utils-1.330
 	>=virtual/perl-version-0.770

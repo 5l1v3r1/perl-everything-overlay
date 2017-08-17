@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IONCACHE"
-DIST_VERSION="v0.6.4"
+DIST_VERSION="0.6.4"
 DIST_A="DBIx-Class-AuditLog-0.6.4.tar.gz"
 inherit perl-module
 
@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-C3-Componentised
 	dev-perl/DBIx-Class
 	dev-perl/DBIx-Class-TimeStamp
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -29,6 +28,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DBICx-TestDatabase
 	dev-perl/DBIx-Class-ResultSet-RecursiveUpdate
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -35,8 +35,6 @@ DEPEND="
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

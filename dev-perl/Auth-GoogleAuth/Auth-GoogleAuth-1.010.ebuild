@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Digest-HMAC
 	dev-perl/Math-Random-MT
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

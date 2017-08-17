@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/TAP-DOM-0.110
 	dev-perl/YAML
 	dev-perl/accessors
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Harness-3.220

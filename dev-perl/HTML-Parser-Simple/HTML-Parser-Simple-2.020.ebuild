@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Moo-1.003.001
 	>=dev-perl/Tree-Simple-1.220
-	dev-perl/lib
 	virtual/perl-File-Spec
 "
 DEPEND="

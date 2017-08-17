@@ -23,15 +23,17 @@ RDEPEND="
 	dev-perl/File-chdir
 	dev-perl/Moose
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/SQL-Abstract
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-Memoize
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

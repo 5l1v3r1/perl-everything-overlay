@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/RDF-Trine
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec

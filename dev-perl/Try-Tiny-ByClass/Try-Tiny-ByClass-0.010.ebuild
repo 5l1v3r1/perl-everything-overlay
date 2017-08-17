@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dispatch-Class
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

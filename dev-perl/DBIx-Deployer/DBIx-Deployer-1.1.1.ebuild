@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAMSPI"
-DIST_VERSION="v1.1.1"
+DIST_VERSION="1.1.1"
 DIST_A="DBIx-Deployer-v1.1.1.tar.gz"
 inherit perl-module
 
@@ -31,7 +31,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

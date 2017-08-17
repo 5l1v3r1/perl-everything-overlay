@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
-	>=virtual/perl-Module-CoreList-5.201.706.080
+	>=virtual/perl-Module-CoreList-5.201.706.190
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -31,7 +31,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-MockTime
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if

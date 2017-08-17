@@ -25,7 +25,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Lives
-	dev-perl/lib
 	virtual/perl-Carp
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent

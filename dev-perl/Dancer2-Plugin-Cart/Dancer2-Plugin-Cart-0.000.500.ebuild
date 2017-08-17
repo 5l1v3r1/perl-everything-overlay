@@ -28,8 +28,6 @@ DEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/Plack
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/Statistics-Descriptive
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Encode

@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/IPC-Run
 	dev-perl/Log-Dispatch-Config
 	dev-perl/Log-Dispatch-Configurator-Any
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
@@ -33,4 +32,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-Test-Simple
 "

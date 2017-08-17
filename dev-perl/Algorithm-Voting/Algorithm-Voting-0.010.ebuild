@@ -29,7 +29,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Module-Build
 	dev-perl/Test-Exception
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

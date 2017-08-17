@@ -37,7 +37,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Roo
 	dev-perl/Test-TempDir-Tiny
-	dev-perl/lib
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Spec
 	virtual/perl-IO

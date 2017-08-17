@@ -29,7 +29,6 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "

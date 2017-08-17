@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	>=dev-perl/Task-Weaken-0.990
 	dev-perl/Tie-IxHash
-	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -41,7 +40,6 @@ DEPEND="
 	>=dev-perl/Fey-Test-0.050
 	dev-perl/Test-Memory-Cycle
 	dev-perl/Test-Requires
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "

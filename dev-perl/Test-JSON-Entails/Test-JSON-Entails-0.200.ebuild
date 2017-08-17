@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON-Any
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple

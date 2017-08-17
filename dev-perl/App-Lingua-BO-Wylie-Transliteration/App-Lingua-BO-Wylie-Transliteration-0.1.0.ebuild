@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="v0.1.0"
+DIST_VERSION="0.1.0"
 DIST_A="App-Lingua-BO-Wylie-Transliteration-0.1.0.tar.gz"
 inherit perl-module
 
@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/MooX-Options
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/autovivification
-	dev-perl/lib
 	dev-perl/methods
 	dev-perl/true
 	dev-perl/utf8-all

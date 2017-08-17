@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="v0.12.0"
+DIST_VERSION="0.12.0"
 DIST_A="Rex-Apache-Deploy-0.12.0.tar.gz"
 inherit perl-module
 

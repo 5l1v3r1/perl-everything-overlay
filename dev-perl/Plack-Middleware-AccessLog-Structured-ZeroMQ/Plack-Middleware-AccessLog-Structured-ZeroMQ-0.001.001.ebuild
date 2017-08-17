@@ -32,7 +32,6 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
 	dev-perl/Test-TCP
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880

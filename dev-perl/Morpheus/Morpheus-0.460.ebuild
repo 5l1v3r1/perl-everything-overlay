@@ -21,16 +21,18 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/JSON
 	dev-perl/Params-Validate
+	dev-perl/Pod-Usage
 	dev-perl/Template-Toolkit
 	dev-perl/XML-Simple
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Class
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "

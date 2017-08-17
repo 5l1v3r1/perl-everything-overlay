@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/DateTime-Locale-0.450
 	dev-perl/File-Which
 	>=dev-perl/HTML-Element-Extended-1.180
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Time-Local
 "

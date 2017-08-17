@@ -41,7 +41,6 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-Most
 	dev-perl/Test-Script
-	dev-perl/base
 	dev-perl/local-lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.940

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v0.1.1"
+DIST_VERSION="0.1.1"
 DIST_A="Dancer-Plugin-Chain-0.1.1.tar.gz"
 inherit perl-module
 

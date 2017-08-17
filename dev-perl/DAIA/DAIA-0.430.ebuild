@@ -23,12 +23,12 @@ RDEPEND="
 	dev-perl/DateTime-Format-Duration
 	dev-perl/IO-stringy
 	dev-perl/JSON
+	dev-perl/Pod-Usage
 	dev-perl/XML-LibXML-Simple
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

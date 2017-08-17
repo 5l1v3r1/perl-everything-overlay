@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Modern-Perl
 	dev-perl/Module-Util
-	dev-perl/Moo
+	>=dev-perl/Moo-2.001.001
 	dev-perl/MooX-HandlesVia
 	dev-perl/MooX-Role-Logger
 	dev-perl/MooX-TypeTiny
@@ -45,7 +45,6 @@ RDEPEND="
 	dev-perl/autovivification
 	dev-perl/failures
 	dev-perl/glib-perl
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-autodie
 "

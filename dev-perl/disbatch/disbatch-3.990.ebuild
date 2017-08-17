@@ -27,6 +27,7 @@ RDEPEND="
 	dev-perl/Limper-SendJSON
 	dev-perl/Log-Log4perl
 	>=dev-perl/MongoDB-1.0.4
+	dev-perl/Pod-Usage
 	dev-perl/Safe-Isa
 	dev-perl/Starman
 	dev-perl/TermReadKey
@@ -37,12 +38,10 @@ RDEPEND="
 	dev-perl/Try-Tiny-Retry
 	dev-perl/URL-Encode
 	>=dev-perl/boolean-0.250
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

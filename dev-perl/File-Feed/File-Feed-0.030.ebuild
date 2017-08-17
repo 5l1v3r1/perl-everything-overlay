@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/String-Expando
 	dev-perl/Text-Glob
 	dev-perl/URI
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-libnet

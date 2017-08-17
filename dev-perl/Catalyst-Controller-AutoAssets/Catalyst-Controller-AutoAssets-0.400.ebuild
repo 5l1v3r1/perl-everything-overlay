@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/CSS-Scopifier
+	>=dev-perl/CSS-Scopifier-0.040
 	dev-perl/Catalyst-Runtime
 	dev-perl/CatalystX-InjectComponent
 	dev-perl/Data-Dumper-Concise
@@ -35,7 +35,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

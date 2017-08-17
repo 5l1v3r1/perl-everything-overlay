@@ -30,7 +30,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	>=dev-perl/MooseX-MethodAttributes-0.150
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

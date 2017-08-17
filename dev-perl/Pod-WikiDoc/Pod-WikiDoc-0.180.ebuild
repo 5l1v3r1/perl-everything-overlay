@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	dev-lang/perl
 	>=dev-perl/File-pushd-0.300
 	>=dev-perl/Getopt-Lucid-0.140
 	>=dev-perl/IO-String-1.060

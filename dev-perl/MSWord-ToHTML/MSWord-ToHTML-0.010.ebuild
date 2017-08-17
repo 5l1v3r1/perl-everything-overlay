@@ -48,5 +48,4 @@ DEPEND="
 	dev-perl/Env-Path
 	dev-perl/Module-Find
 	dev-perl/Test-Most
-	dev-perl/lib
 "

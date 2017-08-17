@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Math-Prime-Util-GMP-0.440
-	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.570
 	>=virtual/perl-Math-BigInt-1.880

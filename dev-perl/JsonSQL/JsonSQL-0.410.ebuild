@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/JSON-Validator
 	dev-perl/SQL-Maker
 	dev-perl/SQL-QueryMaker
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
 "

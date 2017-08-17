@@ -34,6 +34,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Log-Any-Adapter-TAP
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

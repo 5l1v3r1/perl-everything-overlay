@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/base
+	dev-lang/perl
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-XSLoader
 "

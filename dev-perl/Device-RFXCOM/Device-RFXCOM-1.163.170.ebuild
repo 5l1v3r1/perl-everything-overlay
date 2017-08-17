@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Device-SerialPort
 	dev-perl/Module-Pluggable
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-IO
@@ -30,7 +29,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-MockTCPServer
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

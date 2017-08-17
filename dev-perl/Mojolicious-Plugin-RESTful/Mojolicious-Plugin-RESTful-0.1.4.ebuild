@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZITSEN"
-DIST_VERSION="v0.1.4"
+DIST_VERSION="0.1.4"
 DIST_A="Mojolicious-Plugin-RESTful-0.1.4.tar.gz"
 inherit perl-module
 
@@ -23,9 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-lang/perl
 	dev-perl/Modern-Perl
 	dev-perl/Test-Pod
 	>=dev-perl/Test-Pod-Coverage-1.000
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

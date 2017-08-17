@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v0.1.3"
+DIST_VERSION="0.1.3"
 DIST_A="Dancer-Plugin-Auth-Extensible-Provider-DBIC-0.1.3.tar.gz"
 inherit perl-module
 
@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Dancer
 	dev-perl/Dancer-Plugin-Auth-Extensible
 	dev-perl/Dancer-Plugin-DBIC
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

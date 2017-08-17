@@ -40,7 +40,6 @@ DEPEND="
 	dev-perl/Proc-Daemon
 	dev-perl/Test-Most
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

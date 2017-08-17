@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/POE-Component-IRC
 	dev-perl/POE-Component-IRC-Plugin-BaseWrap
 	dev-perl/POE-Component-WWW-DoingItWrongCom-RandImage
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/POSIX-Open3
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode

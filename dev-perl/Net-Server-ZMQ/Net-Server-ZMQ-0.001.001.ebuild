@@ -18,13 +18,13 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Net-Server
+	dev-perl/Pod-Usage
 	dev-perl/ZMQ-FFI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

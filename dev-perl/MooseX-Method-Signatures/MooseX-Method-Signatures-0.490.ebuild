@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/MooseX-LazyRequire-0.060
 	dev-perl/MooseX-Meta-TypeConstraint-ForceCoercion
-	>=dev-perl/MooseX-Types-0.350
+	>=dev-perl/MooseX-Types-0.190
 	>=dev-perl/MooseX-Types-Structured-0.240
 	dev-perl/Parse-Method-Signatures
 	dev-perl/Sub-Name
@@ -42,7 +42,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	>=dev-perl/namespace-clean-0.190
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec

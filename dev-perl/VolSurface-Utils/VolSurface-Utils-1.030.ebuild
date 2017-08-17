@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Math-Business-BlackScholes-Binaries-Greeks
 	dev-perl/Math-Business-Blackscholes-Binaries
 	dev-perl/Math-CDF
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 "

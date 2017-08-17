@@ -53,7 +53,6 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/YAML-LibYAML
-	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Carp

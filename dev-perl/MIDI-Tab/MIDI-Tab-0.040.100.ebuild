@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/MIDI-Perl
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Apache2-ModSSL
 	dev-perl/Plack
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

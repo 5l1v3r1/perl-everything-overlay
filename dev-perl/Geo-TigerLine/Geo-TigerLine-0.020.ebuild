@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Carp-Assert
 	>=dev-perl/Class-Accessor-0.150
 	>=dev-perl/Class-Data-Inheritable-0.020
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.470

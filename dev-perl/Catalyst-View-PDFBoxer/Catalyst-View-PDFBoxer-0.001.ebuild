@@ -27,6 +27,5 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-TT
 	dev-perl/Path-Class
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/HTTP-GHTTP-1.070
 	>=dev-perl/HTTP-Message-6.000
 	>=dev-perl/Try-Tiny-0.240
-	dev-perl/base
 	>=dev-perl/libwww-perl-6.150
 	virtual/perl-Carp
 "

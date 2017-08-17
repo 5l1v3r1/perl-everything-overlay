@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="v1.9.0"
+DIST_VERSION="1.9.0"
 DIST_A="WWW-LogicBoxes-1.9.0.tar.gz"
 inherit perl-module
 
@@ -48,7 +48,6 @@ DEPEND="
 	dev-perl/Test-MockModule
 	>=dev-perl/Test-Moose-More-0.029
 	dev-perl/Test-Warn
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO

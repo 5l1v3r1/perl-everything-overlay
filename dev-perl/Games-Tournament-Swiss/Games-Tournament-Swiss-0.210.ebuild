@@ -20,18 +20,17 @@ RDEPEND="
 	dev-perl/IO-All
 	dev-perl/List-MoreUtils
 	dev-perl/Parse-RecDescent
-	dev-perl/base
-	dev-perl/lib
+	dev-perl/Pod-Usage
+	dev-perl/YAML
 	dev-perl/orz
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Base
+	virtual/perl-Test-Simple
 "

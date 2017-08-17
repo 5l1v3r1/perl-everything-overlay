@@ -35,7 +35,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-SharedFork
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	virtual/perl-JSON-PP

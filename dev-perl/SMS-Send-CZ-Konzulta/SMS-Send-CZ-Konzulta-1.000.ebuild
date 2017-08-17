@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Log-LogLite
 	dev-perl/SMS-Send
 	dev-perl/XML-Simple
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "

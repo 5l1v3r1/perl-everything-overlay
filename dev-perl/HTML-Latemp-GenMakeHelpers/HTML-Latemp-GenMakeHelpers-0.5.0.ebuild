@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.5.0"
+DIST_VERSION="0.5.0"
 DIST_A="HTML-Latemp-GenMakeHelpers-v0.5.0.tar.gz"
 inherit perl-module
 

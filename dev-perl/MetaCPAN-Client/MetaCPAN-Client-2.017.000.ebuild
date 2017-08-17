@@ -35,7 +35,6 @@ DEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Needs-0.002.005
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

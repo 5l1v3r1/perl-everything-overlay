@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Load-In-INIT
 	>=dev-perl/Module-Patch-0.120
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

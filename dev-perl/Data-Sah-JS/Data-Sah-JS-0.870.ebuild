@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/Data-Clean-JSON-0.110
 	dev-perl/Data-Sah
 	>=dev-perl/Data-Sah-Coerce-0.014
-	>=dev-perl/IPC-System-Options-0.270
 	dev-perl/JSON-MaybeXS
 	dev-perl/Mo
 	>=dev-perl/Nodejs-Util-0.006

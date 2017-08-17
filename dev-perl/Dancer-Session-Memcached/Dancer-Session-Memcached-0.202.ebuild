@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Cache-Memcached
 	dev-perl/Dancer
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

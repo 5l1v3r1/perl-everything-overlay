@@ -26,7 +26,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Path-Class
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

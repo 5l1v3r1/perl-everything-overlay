@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Locale-PO
-	dev-perl/base
 	virtual/perl-Test-Simple
 "
 DEPEND="

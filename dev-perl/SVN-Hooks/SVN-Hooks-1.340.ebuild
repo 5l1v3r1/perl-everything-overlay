@@ -31,6 +31,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/URI
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

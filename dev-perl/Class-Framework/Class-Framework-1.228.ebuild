@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/NEXT
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

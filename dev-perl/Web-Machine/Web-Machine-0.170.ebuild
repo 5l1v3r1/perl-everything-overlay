@@ -38,8 +38,6 @@ DEPEND="
 	dev-perl/Net-HTTP
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.960

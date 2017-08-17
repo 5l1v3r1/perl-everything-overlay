@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/MarpaX-Simple
 	dev-perl/Pegex
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

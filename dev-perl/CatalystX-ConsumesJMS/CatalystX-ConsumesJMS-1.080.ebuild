@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-ActionRole-JMS
 	dev-perl/Catalyst-Runtime
 	dev-perl/Module-Runtime
-	dev-perl/Moose
+	>=dev-perl/Moose-2.080.100
 	dev-perl/namespace-autoclean
 "
 DEPEND="
@@ -35,6 +35,5 @@ DEPEND="
 	dev-perl/Plack-Handler-Stomp
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
-	>=dev-perl/Pod-Weaver-3.101.632
+	dev-perl/Pod-Weaver
 	dev-perl/namespace-autoclean
 "
 DEPEND="
@@ -29,7 +29,6 @@ DEPEND="
 	dev-perl/Software-License
 	>=dev-perl/Test-Differences-0.500
 	>=dev-perl/Test-MockObject-1.090
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

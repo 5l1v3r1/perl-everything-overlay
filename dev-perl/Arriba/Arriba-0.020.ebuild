@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/Net-Server
 	dev-perl/Plack
-	dev-perl/base
 	virtual/perl-IO
 	virtual/perl-Socket
 "

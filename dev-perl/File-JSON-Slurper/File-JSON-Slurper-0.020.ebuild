@@ -26,6 +26,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Const-Fast
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.880
 "

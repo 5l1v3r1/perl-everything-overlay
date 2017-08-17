@@ -39,7 +39,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Kwalitee
 	dev-perl/Test-NoTabs
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

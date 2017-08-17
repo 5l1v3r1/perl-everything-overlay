@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/Net-Amazon-S3
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Data-Dumper
 "
 DEPEND="

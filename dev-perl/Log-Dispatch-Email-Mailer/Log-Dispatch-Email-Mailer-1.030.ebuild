@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Email-Mailer-1.070
 	dev-perl/Log-Dispatch
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

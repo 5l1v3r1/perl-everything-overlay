@@ -25,14 +25,13 @@ RDEPEND="
 	dev-perl/HTTP-Body
 	dev-perl/Import-Into
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-1.003.001
+	dev-perl/Moo
 	>=dev-perl/MooX-Options-4.012
 	dev-perl/Net-IP-XS
 	dev-perl/Plack
 	dev-perl/Sys-HostIP
 	dev-perl/YAML-LibYAML
 	dev-perl/autobox
-	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="

@@ -35,7 +35,5 @@ DEPEND="
 	dev-perl/DateTime
 	>=dev-perl/DateTime-Format-SQLite-0.110
 	dev-perl/Test-Most
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -58,7 +58,6 @@ DEPEND="
 	dev-perl/Test-MockTime
 	dev-perl/Test-Most
 	dev-perl/Test-Trap
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

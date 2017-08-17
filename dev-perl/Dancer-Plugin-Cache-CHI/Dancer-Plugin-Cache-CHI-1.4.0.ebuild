@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v1.4.0"
+DIST_VERSION="1.4.0"
 DIST_A="Dancer-Plugin-Cache-CHI-1.4.0.tar.gz"
 inherit perl-module
 
@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CHI
-	>=dev-perl/Dancer-1.190.400
+	dev-perl/Dancer
 	dev-perl/Moo
 	virtual/perl-Carp
 "

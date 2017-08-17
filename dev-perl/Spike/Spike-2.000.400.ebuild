@@ -22,9 +22,8 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Plack
 	dev-perl/TimeDate
-	dev-perl/base
 	virtual/perl-Carp
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.450
 	virtual/perl-Time-HiRes
 "
 DEPEND="

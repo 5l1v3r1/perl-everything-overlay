@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/LWP-Protocol-https
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
 "

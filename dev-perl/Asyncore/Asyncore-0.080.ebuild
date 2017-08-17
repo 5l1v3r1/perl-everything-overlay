@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/IO-Socket-INET6
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-IO
 "

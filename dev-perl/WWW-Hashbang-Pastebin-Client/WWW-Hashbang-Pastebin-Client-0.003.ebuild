@@ -17,13 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-HTTP-Tiny
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.960
 "

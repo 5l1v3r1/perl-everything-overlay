@@ -22,7 +22,6 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.000
 	dev-perl/DBI
 	>=dev-perl/Regexp-Assemble-0.060
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-File-Spec
 	virtual/perl-IO

@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/Parse-RecDescent
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
@@ -33,6 +32,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

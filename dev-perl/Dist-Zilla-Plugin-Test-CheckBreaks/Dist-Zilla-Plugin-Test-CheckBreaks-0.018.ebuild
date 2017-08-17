@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Data-Section-0.004
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.039
 	dev-perl/Dist-Zilla-Role-ModuleMetadata
 	dev-perl/Module-Runtime
 	dev-perl/Moose
@@ -34,7 +34,6 @@ DEPEND="
 	>=dev-perl/CPAN-Meta-Check-0.011
 	dev-perl/File-pushd
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-CPAN-Meta-Requirements
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata

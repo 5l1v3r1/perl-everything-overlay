@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Any
 	dev-perl/Unix-Syslog
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

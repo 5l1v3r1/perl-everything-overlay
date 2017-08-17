@@ -23,8 +23,6 @@ RDEPEND="
 	dev-perl/Readonly
 	dev-perl/UNIVERSAL-require
 	dev-perl/aliased
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -34,7 +32,6 @@ RDEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

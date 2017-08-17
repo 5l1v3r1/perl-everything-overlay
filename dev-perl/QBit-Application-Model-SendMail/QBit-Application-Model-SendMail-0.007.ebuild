@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Exceptions
 	dev-perl/MIME-Lite
 	dev-perl/QBit-Application
 	dev-perl/Template-Toolkit
-	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-MIME-Base64
 "

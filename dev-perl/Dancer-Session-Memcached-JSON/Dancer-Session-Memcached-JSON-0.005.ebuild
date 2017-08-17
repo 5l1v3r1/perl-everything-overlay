@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Dancer
 	dev-perl/Function-Parameters
 	dev-perl/JSON
-	dev-perl/base
 	virtual/perl-Digest-SHA
 	virtual/perl-Encode
 	virtual/perl-Exporter

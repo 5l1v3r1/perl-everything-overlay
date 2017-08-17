@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="v5.0.2"
+DIST_VERSION="5.0.2"
 DIST_A="Tapper-Model-5.0.2.tar.gz"
 inherit perl-module
 
@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Class-C3
 	dev-perl/MRO-Compat
 	dev-perl/Tapper-Config
-	dev-perl/Tapper-Schema
+	>=dev-perl/Tapper-Schema-4.1.0
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Module-Load
@@ -31,7 +31,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Data-DPath
 	dev-perl/Test-Fixture-DBIC-Schema
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/List-UtilsBy
 	dev-perl/Moose
 	dev-perl/Path-Tiny
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-version
 "

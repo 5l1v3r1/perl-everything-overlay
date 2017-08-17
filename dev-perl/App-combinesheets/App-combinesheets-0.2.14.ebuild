@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TULSOFT"
-DIST_VERSION="v0.2.14"
+DIST_VERSION="0.2.14"
 DIST_A="App-combinesheets-0.2.14.tar.gz"
 inherit perl-module
 
@@ -26,7 +26,6 @@ RDEPEND="
 	dev-perl/Text-CSV-Simple
 	dev-perl/Text-CSV-XS
 	dev-perl/autouse
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

@@ -18,9 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor-Grouped
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.080
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "

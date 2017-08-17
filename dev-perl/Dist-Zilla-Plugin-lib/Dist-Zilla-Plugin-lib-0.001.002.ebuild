@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/Path-Tiny
-	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}

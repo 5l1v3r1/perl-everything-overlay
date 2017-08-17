@@ -48,7 +48,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-RequiresInternet
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960

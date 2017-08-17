@@ -22,7 +22,6 @@ RDEPEND="
 	>=dev-perl/Gepok-0.200
 	dev-perl/Net-SSLeay
 	dev-perl/Plack
-	dev-perl/base
 	virtual/perl-MIME-Base64
 "
 DEPEND="

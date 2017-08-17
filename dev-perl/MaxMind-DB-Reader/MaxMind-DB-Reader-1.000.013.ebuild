@@ -22,9 +22,9 @@ RDEPEND="
 	>=dev-perl/Data-Validate-IP-0.250
 	dev-perl/DateTime
 	dev-perl/List-AllUtils
-	>=dev-perl/MaxMind-DB-Common-0.040.001
+	dev-perl/MaxMind-DB-Common
 	dev-perl/Module-Implementation
-	>=dev-perl/Moo-1.003.000
+	dev-perl/Moo
 	dev-perl/MooX-StrictConstructor
 	>=dev-perl/Role-Tiny-1.003.002
 	dev-perl/namespace-autoclean
@@ -34,7 +34,6 @@ RDEPEND="
 	virtual/perl-Math-BigInt
 	>=virtual/perl-Socket-1.870
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
@@ -44,7 +43,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Number-Delta
 	dev-perl/Test-Requires
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	>=virtual/perl-Scalar-List-Utils-1.420

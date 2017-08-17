@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Plack
 	dev-perl/Try-Tiny
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -31,6 +30,5 @@ DEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

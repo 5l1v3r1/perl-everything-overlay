@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/MooX-Options
 	dev-perl/Moose
 	dev-perl/Parallel-ForkManager
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
 	virtual/perl-Exporter

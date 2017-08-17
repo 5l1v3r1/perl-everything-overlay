@@ -18,8 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
-	>=dev-perl/Log-Any-1.000
-	dev-perl/base
+	dev-perl/Log-Any
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter

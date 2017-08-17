@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAITKEN"
-DIST_VERSION="v1.2.1"
+DIST_VERSION="1.2.1"
 DIST_A="Dancer-Session-DBI-1.2.1.tar.gz"
 inherit perl-module
 

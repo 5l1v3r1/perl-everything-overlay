@@ -41,7 +41,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Remove
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

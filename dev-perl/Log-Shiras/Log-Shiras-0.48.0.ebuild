@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="v0.48.0"
+DIST_VERSION="0.48.0"
 DIST_A="Log-Shiras-v0.48.0.tar.gz"
 inherit perl-module
 
@@ -31,7 +31,6 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/Test2-Suite
 	>=dev-perl/Text-CSV-XS-1.250
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

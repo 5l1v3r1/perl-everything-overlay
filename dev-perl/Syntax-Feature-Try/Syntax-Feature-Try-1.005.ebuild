@@ -33,8 +33,6 @@ DEPEND="
 	dev-perl/Test-Spec
 	dev-perl/Test-Warn
 	dev-perl/Throwable
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="v0.2.5"
+DIST_VERSION="0.2.5"
 DIST_A="Data-Beacon-0.2.5.tar.gz"
 inherit perl-module
 
@@ -17,9 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-Validate-URI
+	dev-perl/Pod-Usage
 	>=dev-perl/URI-1.000
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Time-Piece-1.080
 "

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Bit-MorseSignals-0.050
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Time-HiRes
 "

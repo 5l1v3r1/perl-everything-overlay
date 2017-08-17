@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-GMPz
 	dev-perl/Math-Primality
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 "

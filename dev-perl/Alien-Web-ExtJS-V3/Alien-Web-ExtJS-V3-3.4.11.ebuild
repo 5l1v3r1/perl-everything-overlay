@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="v3.4.11"
+DIST_VERSION="3.4.11"
 DIST_A="Alien-Web-ExtJS-V3-3.4.11.tar.gz"
 inherit perl-module
 

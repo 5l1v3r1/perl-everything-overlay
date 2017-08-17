@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/QBit-WebInterface
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="

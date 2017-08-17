@@ -24,10 +24,9 @@ RDEPEND="
 	dev-perl/Hash-Merge-Simple
 	dev-perl/MIME-Types
 	dev-perl/Module-Runtime
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -38,7 +37,6 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

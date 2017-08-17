@@ -39,7 +39,6 @@ DEPEND="
 	>=dev-perl/Log-Any-Adapter-Callback-0.090
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	virtual/perl-JSON-PP

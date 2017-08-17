@@ -31,6 +31,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-File-Spec
 "

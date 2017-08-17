@@ -35,7 +35,6 @@ RDEPEND="
 	dev-perl/Perinci-Sub-Property-timeout
 	dev-perl/Proc-Daemon-Prefork
 	dev-perl/URI
-	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Module-Load
 	virtual/perl-Time-HiRes

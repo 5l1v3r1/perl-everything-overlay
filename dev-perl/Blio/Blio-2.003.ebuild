@@ -42,6 +42,5 @@ DEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Test-File
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-File-Temp
 "

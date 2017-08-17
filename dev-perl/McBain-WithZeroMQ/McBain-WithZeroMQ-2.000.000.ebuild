@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/ZMQ-Constants
 	dev-perl/ZMQ-LibZMQ3
-	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="

@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/MCE
 	dev-perl/Sereal-Decoder
 	dev-perl/Sereal-Encoder
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5

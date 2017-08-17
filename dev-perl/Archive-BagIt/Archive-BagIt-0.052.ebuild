@@ -32,7 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-IO
 	virtual/perl-Test-Simple

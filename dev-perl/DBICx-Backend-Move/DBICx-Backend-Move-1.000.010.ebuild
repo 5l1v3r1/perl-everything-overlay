@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/DBICx-Deploy
 	dev-perl/Moo
-	dev-perl/base
 	virtual/perl-Module-Load
 "
 DEPEND="

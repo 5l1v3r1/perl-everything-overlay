@@ -20,8 +20,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Readonly
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="

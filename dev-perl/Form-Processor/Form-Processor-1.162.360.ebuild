@@ -29,7 +29,6 @@ RDEPEND="
 	dev-perl/Rose-Object
 	dev-perl/Template-Toolkit
 	dev-perl/UNIVERSAL-require
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5

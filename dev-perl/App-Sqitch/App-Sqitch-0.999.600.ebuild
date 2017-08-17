@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/IPC-Run3
 	>=dev-perl/IPC-System-Simple-1.170
 	dev-perl/List-MoreUtils
-	dev-perl/Moo
+	>=dev-perl/Moo-1.002.000
 	>=dev-perl/Path-Class-0.330
 	dev-perl/PerlIO-utf8-strict
 	dev-perl/Pod-Usage
@@ -40,7 +40,7 @@ RDEPEND="
 	>=dev-perl/Template-Tiny-0.110
 	>=dev-perl/Throwable-0.200.009
 	dev-perl/Try-Tiny
-	>=dev-perl/Type-Tiny-0.040
+	dev-perl/Type-Tiny
 	dev-perl/URI
 	>=dev-perl/URI-db-0.150
 	>=dev-perl/libintl-perl-1.200
@@ -71,7 +71,6 @@ DEPEND="
 	>=dev-perl/Test-File-Contents-0.200
 	>=dev-perl/Test-MockModule-0.050
 	>=dev-perl/Test-NoWarnings-0.083
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.940

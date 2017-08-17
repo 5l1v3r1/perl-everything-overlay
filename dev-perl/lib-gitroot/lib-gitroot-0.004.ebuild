@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Modern-Perl
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 "

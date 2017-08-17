@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CPAN-DistnameInfo
 	>=dev-perl/Config-MVP-2.200.004
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.021
 	dev-perl/HTTP-Message
 	dev-perl/Moose
 	dev-perl/Parse-CPAN-Packages-Fast
@@ -46,7 +46,6 @@ DEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-if

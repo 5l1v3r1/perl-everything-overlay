@@ -26,7 +26,6 @@ RDEPEND="
 	>=dev-perl/Moo-2.002.004
 	>=dev-perl/Proc-Fork-0.804
 	>=dev-perl/Try-Tiny-0.270
-	dev-perl/lib
 	>=virtual/perl-Carp-1.200
 	>=virtual/perl-File-Spec-3.400
 	>=virtual/perl-IO-1.150

@@ -20,10 +20,11 @@ RDEPEND="
 	dev-perl/Class-Base
 	dev-perl/Module-Pluggable
 	dev-perl/YAML-Syck
-	dev-perl/base
 	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "

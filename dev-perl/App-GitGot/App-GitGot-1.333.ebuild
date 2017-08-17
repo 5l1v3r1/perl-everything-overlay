@@ -46,7 +46,6 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-File
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

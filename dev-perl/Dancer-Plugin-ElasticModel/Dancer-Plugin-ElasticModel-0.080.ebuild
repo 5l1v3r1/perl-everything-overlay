@@ -26,6 +26,5 @@ DEPEND="
 	dev-perl/Search-Elasticsearch-Compat
 	dev-perl/Test-Exception
 	dev-perl/YAML
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

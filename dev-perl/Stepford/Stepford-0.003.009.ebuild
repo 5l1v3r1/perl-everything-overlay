@@ -48,7 +48,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie

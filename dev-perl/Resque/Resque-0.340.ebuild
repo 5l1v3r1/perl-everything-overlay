@@ -38,8 +38,6 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.290
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-IPC-Cmd

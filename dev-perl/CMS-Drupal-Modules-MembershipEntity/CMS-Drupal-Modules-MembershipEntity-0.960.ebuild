@@ -28,7 +28,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Test-Group
 	dev-perl/Type-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local
@@ -38,6 +37,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/CMS-Drupal
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-if
 "

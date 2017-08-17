@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Email-MIME-Kit
+	>=dev-perl/Email-MIME-Kit-3.000.001
 	dev-perl/HTML-FormatText-WithLinks
 	dev-perl/Moose
 "

@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "

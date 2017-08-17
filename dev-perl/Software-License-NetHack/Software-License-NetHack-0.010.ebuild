@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Software-License
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

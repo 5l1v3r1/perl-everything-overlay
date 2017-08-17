@@ -36,7 +36,6 @@ DEPEND="
 	>=dev-perl/Path-Tiny-0.062
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-XSLoader-0.010
 	virtual/perl-if

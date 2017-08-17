@@ -29,7 +29,5 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	dev-perl/DBI
 	dev-perl/DBIx-Class
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

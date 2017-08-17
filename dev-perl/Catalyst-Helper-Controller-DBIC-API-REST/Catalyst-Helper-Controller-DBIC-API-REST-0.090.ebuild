@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
 	dev-perl/Path-Tiny
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
@@ -38,7 +37,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-File-Path
 	virtual/perl-IO
 	virtual/perl-Test-Simple

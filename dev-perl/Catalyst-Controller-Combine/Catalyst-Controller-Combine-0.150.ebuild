@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.470
-	>=dev-perl/Catalyst-Runtime-5.800
+	dev-lang/perl
+	dev-perl/Catalyst-Runtime
 	>=dev-perl/DateTime-0.720
 	>=dev-perl/Moose-1.000
 	>=dev-perl/Path-Class-0.230
@@ -31,6 +31,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/base
 	virtual/perl-Exporter
 "

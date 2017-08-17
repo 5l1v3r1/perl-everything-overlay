@@ -34,7 +34,6 @@ DEPEND="
 	dev-perl/Find-Lib
 	dev-perl/Test-Fake-HTTPD
 	dev-perl/Test-Requires
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
 	dev-perl/SMS-Send
-	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="

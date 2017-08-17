@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple

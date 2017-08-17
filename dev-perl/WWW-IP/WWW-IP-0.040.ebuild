@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/WWW-canihazip
 	dev-perl/WWW-hmaip
 	dev-perl/WWW-ipinfo
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-HTTP-Tiny
 "

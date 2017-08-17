@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINS"
-DIST_VERSION="v0.1.1"
+DIST_VERSION="0.1.1"
 DIST_A="XML-Rabbit-0.1.1.tar.gz"
 inherit perl-module
 

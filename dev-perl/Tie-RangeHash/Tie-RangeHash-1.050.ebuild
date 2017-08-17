@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Algorithm-SkipList-1.020
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

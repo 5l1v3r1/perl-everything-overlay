@@ -27,7 +27,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	dev-perl/IPC-Transit
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 "

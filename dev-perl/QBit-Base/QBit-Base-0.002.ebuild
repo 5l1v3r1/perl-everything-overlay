@@ -29,7 +29,5 @@ DEPEND="
 	dev-perl/QBit-Application-Model-Multistate-DB
 	dev-perl/QBit-Class
 	dev-perl/Test-Deep
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

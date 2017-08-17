@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/Perinci-CmdLine-Any
 	dev-perl/Regexp-Common
 	dev-perl/Sah-Schemas-Perl
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

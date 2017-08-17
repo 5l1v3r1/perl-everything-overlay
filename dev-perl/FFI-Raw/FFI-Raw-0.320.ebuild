@@ -24,8 +24,6 @@ DEPEND="
 	dev-perl/Devel-CheckLib
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Env
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

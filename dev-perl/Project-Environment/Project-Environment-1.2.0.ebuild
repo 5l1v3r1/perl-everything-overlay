@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROMANF"
-DIST_VERSION="v1.2.0"
+DIST_VERSION="1.2.0"
 DIST_A="Project-Environment-v1.2.0.tar.gz"
 inherit perl-module
 

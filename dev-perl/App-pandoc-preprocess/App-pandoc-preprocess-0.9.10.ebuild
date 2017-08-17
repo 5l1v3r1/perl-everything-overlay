@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="v0.9.10"
+DIST_VERSION="0.9.10"
 DIST_A="App-pandoc-preprocess-v0.9.10.tar.gz"
 inherit perl-module
 

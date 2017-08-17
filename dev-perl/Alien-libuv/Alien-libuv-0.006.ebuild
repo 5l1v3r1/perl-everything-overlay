@@ -17,12 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Alien-Base
-	dev-perl/base
+	dev-perl/Alien-Build
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Build-0.400
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	dev-perl/Alien-MSYS
 	>=dev-perl/Alien-autoconf-0.030

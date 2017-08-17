@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/Text-MicroTemplate
 	dev-perl/Text-MicroTemplate-DataSection
 	dev-perl/UUID-Tiny
-	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
@@ -45,5 +44,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Spec
-	dev-perl/lib
 "

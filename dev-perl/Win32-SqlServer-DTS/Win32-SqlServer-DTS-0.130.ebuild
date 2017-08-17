@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/Params-Validate-1.240
 	dev-perl/Win32-OLE
 	>=dev-perl/XML-Simple-2.180
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 "

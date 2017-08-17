@@ -38,7 +38,6 @@ RDEPEND="
 	dev-perl/Ref-Util
 	dev-perl/Type-Tiny
 	dev-perl/YAML
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes

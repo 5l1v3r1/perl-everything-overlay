@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFWILKUS"
-DIST_VERSION="v0.2.7"
+DIST_VERSION="0.2.7"
 DIST_A="OS-Package-0.2.7.tar.gz"
 inherit perl-module
 
@@ -19,19 +19,19 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Extract
 	dev-perl/DateTime-Format-DateManip
+	dev-perl/Env
 	dev-perl/File-ShareDir
 	dev-perl/Hash-AsObject
 	dev-perl/Log-Dispatch
 	dev-perl/Log-Log4perl
 	dev-perl/Moo
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Role-Tiny
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
-	dev-perl/base
-	dev-perl/yaml
-	perl-core/Env
+	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-Digest-SHA
 	virtual/perl-Exporter
@@ -41,11 +41,11 @@ RDEPEND="
 	virtual/perl-HTTP-Tiny
 	virtual/perl-IPC-Cmd
 	virtual/perl-Module-Load
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-Piece
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

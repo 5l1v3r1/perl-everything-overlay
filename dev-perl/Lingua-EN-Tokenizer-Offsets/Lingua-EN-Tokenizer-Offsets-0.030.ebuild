@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Dump
-	dev-perl/base
 	dev-perl/utf8-all
 	virtual/perl-Exporter
 "

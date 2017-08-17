@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/JavaScript-Minifier-XS
 	dev-perl/Template-Toolkit
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

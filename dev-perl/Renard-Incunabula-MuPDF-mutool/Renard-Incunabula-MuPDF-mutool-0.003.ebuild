@@ -30,5 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Data-DPath
 	dev-perl/Test-Most
-	dev-perl/lib
 "

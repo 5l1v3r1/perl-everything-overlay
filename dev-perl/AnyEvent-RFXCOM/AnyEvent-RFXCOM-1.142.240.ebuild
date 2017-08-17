@@ -17,10 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/AnyEvent-5.271
+	dev-perl/AnyEvent
 	dev-perl/Device-RFXCOM
 	dev-perl/Sub-Name
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

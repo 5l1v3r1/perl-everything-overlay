@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Hook-LexWrap
 	>=dev-perl/Params-Validate-Micro-0.031
 	dev-perl/Sub-Identify
-	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.570
 "

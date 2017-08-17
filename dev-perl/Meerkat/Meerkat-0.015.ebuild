@@ -46,7 +46,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Test-Roo
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/JSON-2.000
 	dev-perl/PerlIO-gzip
 	dev-perl/Sort-External
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Path
 	virtual/perl-File-Spec

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICEPERL"
-DIST_VERSION="v0.2.2"
+DIST_VERSION="0.2.2"
 DIST_A="SQL-Template-0.2.2.tar.gz"
 inherit perl-module
 
@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBI
 	dev-perl/XML-Parser
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

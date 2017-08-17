@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Net-IPAddress-Filter-20121117.000
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

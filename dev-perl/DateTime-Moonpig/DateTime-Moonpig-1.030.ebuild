@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
 	dev-perl/Sub-Install
-	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -29,6 +28,5 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Fatal
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-Any
 	dev-perl/TOML
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

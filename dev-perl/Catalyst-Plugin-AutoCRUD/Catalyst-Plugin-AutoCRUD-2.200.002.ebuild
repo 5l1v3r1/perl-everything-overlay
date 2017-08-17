@@ -34,7 +34,6 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Module-Pluggable
 	dev-perl/SQL-Translator
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils

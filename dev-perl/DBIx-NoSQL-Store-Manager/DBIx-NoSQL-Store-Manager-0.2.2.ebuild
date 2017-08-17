@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v0.2.2"
+DIST_VERSION="0.2.2"
 DIST_A="DBIx-NoSQL-Store-Manager-0.2.2.tar.gz"
 inherit perl-module
 

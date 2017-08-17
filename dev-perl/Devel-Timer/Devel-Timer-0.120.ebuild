@@ -23,6 +23,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Capture-Tiny-0.250
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-1.000
 "

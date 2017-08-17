@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSEFM"
-DIST_VERSION="v1.02.2"
+DIST_VERSION="1.02.2"
 DIST_A="Tree-Numbered-DB-1.02.2.tar.gz"
 inherit perl-module
 

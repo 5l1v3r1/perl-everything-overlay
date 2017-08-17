@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/File-HomeDir
 	dev-perl/Mojolicious
 	dev-perl/Mojolicious-Plugin-InstallablePaths
-	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}

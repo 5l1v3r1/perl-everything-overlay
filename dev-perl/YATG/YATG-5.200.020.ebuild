@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/SNMP-Effective
 	dev-perl/Scriptalicious
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

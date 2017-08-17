@@ -30,6 +30,5 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Sub-Override
 	dev-perl/Test-Class
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

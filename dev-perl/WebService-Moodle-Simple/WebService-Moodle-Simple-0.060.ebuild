@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/Ouch
 	dev-perl/Sys-SigAction
 	dev-perl/URI
-	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Scalar-List-Utils

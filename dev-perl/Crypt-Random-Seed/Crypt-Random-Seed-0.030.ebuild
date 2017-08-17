@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-Random-TESHA2
-	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.562
 "

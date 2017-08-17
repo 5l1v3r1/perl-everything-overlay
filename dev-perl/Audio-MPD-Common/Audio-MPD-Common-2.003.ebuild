@@ -17,12 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Moose-0.920
+	dev-perl/Moose
 	dev-perl/MooseX-Has-Sugar
 	dev-perl/MooseX-Types
 	dev-perl/Readonly
 	dev-perl/String-Formatter
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

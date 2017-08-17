@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-MoreUtil
 	>=dev-perl/File-Trash-Undoable-0.080
-	>=dev-perl/IPC-System-Options-0.270
 	>=dev-perl/Log-ger-0.011
 	dev-perl/Perinci-Sub-DepChecker
 	dev-perl/Proc-ChildError
@@ -31,7 +30,6 @@ DEPEND="
 	dev-perl/File-Which
 	dev-perl/File-chdir
 	>=dev-perl/Perinci-Tx-Manager-0.560
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

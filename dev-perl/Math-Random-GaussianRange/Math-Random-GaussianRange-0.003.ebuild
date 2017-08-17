@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Random
 	dev-perl/Statistics-Basic
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

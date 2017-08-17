@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CBOR-XS
 	dev-perl/Redis
-	dev-perl/base
 	>=dev-perl/strictures-2.000
 	virtual/perl-Carp
 	virtual/perl-Exporter

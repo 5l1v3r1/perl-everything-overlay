@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v0.2.2"
+DIST_VERSION="0.2.2"
 DIST_A="Dancer-Template-Handlebars-0.2.2.tar.gz"
 inherit perl-module
 
@@ -27,7 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

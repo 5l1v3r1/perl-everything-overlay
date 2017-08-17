@@ -31,7 +31,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Net-RabbitMQ-0.130
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Math-BigInt

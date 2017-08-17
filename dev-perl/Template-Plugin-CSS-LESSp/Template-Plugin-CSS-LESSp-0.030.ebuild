@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-LESSp
 	dev-perl/Template-Toolkit
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

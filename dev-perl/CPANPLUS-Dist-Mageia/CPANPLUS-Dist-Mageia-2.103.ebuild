@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Pod-POM
 	dev-perl/Readonly
-	dev-perl/base
 	virtual/perl-IPC-Cmd
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Text-Tabs+Wrap

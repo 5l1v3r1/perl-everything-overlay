@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Test-Deep
 	dev-perl/Want
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
@@ -28,5 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Spec
-	dev-perl/lib
 "

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Limper-0.012
-	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="

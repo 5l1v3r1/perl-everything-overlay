@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Exobrain-1.080
+	dev-perl/Exobrain
 	dev-perl/JSON-Any
 	dev-perl/Method-Signatures
 	dev-perl/Moose

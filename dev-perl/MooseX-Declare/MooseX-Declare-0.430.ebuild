@@ -36,7 +36,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.007
 	dev-perl/MooseX-Types-Structured
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.890

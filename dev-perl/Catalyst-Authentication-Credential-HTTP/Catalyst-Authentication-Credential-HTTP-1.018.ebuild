@@ -17,13 +17,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Catalyst-Plugin-Authentication
+	>=dev-perl/Catalyst-Plugin-Authentication-0.100.050
 	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Accessor
 	>=dev-perl/Data-UUID-0.110
 	dev-perl/String-Escape
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Digest-MD5
 "
 DEPEND="
@@ -33,7 +32,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
 	dev-perl/Test-Needs
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple

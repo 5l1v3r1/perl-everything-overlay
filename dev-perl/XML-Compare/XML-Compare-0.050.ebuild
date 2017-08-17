@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Moo-2.000
 	dev-perl/MooX-Types-MooseLike
 	>=dev-perl/XML-LibXML-1.580
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "

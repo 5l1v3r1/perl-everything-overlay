@@ -31,7 +31,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	dev-perl/Package-Stash
-	dev-perl/lib
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

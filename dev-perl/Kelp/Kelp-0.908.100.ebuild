@@ -40,7 +40,6 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Plack-Middleware-Session
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Harness

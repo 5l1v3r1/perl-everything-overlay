@@ -19,12 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Pod-Coverage
 	dev-perl/Pod-Eventual
-	dev-perl/base
 	virtual/perl-Pod-Parser
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "

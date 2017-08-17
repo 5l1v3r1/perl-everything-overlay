@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Params-Validate
-	dev-perl/base
 	>=virtual/perl-Attribute-Handlers-0.990
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils

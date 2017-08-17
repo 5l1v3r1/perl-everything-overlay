@@ -25,7 +25,6 @@ DEPEND="
 	dev-perl/Class-Method-Modifiers
 	dev-perl/Test-Lib
 	dev-perl/Test2-Suite
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Storable

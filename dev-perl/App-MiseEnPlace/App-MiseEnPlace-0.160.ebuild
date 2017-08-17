@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
 	dev-perl/YAML
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Term-ANSIColor
 	virtual/perl-autodie

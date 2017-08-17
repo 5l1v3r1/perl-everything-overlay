@@ -16,13 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Parse-RecDescent
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
-	dev-lang/perl
 	dev-perl/IO-stringy
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

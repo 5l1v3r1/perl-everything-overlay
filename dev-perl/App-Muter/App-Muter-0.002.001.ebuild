@@ -34,6 +34,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-stringy
 	dev-perl/Perl-Critic
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

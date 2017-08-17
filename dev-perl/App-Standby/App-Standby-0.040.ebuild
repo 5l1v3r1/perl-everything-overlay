@@ -32,7 +32,6 @@ RDEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-Scalar-List-Utils

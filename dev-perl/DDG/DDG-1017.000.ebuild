@@ -36,7 +36,6 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/URI-Encode
 	dev-perl/WWW-DuckDuckGo
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Exporter

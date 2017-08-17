@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PALIK"
-DIST_VERSION="v0.03.2"
+DIST_VERSION="0.03.2"
 DIST_A="POE-Wheel-Spawner-0.03.2.tar.gz"
 inherit perl-module
 
@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/POE
-	dev-perl/base
 	>=virtual/perl-version-0.770
 "
 DEPEND="

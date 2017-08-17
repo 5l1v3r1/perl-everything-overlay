@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBI
 	dev-perl/Data-Page
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

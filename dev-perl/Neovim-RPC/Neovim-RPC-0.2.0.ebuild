@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="v0.2.0"
+DIST_VERSION="0.2.0"
 DIST_A="Neovim-RPC-0.2.0.tar.gz"
 inherit perl-module
 
@@ -33,7 +33,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Class-Moose
 	dev-perl/Test-TCP
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

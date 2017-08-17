@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/Scalar-Classify
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils

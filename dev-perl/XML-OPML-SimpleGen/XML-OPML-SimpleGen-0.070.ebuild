@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/DateTime
 	dev-perl/XML-Simple
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

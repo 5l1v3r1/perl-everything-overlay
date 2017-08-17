@@ -18,11 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Cache-Memcached-Fast
-	dev-perl/Dancer
+	>=dev-perl/Dancer-1.200.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

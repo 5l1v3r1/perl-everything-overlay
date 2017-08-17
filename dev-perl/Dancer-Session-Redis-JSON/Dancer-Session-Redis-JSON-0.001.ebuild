@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Function-Parameters
 	dev-perl/JSON
 	dev-perl/Redis
-	dev-perl/base
 	virtual/perl-Digest-SHA
 	virtual/perl-Exporter
 "

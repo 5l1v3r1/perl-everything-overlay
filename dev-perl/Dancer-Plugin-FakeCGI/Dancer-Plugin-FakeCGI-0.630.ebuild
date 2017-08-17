@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CGI-Compile
 	dev-perl/Capture-Tiny
-	>=dev-perl/Dancer-1.309.800
+	dev-perl/Dancer
 	dev-perl/File-Find-Rule
 	dev-perl/HTTP-Message
 	dev-perl/IO-stringy

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Zip
 	dev-perl/Moo
-	dev-perl/base
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
 	virtual/perl-File-Spec

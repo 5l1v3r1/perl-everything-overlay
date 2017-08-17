@@ -21,11 +21,9 @@ RDEPEND="
 	>=dev-perl/PPIx-QuoteLike-0.005
 	>=dev-perl/Perl-Critic-1.119
 	dev-perl/Readonly
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/lib
 	virtual/perl-Carp
 "

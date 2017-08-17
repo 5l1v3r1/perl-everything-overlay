@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Geo-UK-Postcode-Regex-0.012
 	dev-perl/Moo
 	dev-perl/MooX-Aliases
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -28,7 +27,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960

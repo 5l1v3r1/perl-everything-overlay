@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.570
 	>=virtual/perl-XSLoader-0.010

@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/XML-Parser
 	dev-perl/XML-Simple
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

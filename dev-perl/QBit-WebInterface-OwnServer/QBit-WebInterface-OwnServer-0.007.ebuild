@@ -16,21 +16,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Exceptions
 	dev-perl/MIME-Types
+	dev-perl/Pod-Usage
 	dev-perl/QBit-WebInterface
 	dev-perl/URI
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/qbit
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
 	dev-perl/QBit-Application
 	virtual/perl-Test-Simple
 "

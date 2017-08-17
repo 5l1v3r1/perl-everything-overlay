@@ -29,6 +29,5 @@ DEPEND="
 	dev-perl/CGI-PSGI
 	dev-perl/Plack
 	dev-perl/Test-WWW-Mechanize-PSGI
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

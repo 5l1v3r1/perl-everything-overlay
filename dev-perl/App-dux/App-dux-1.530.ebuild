@@ -26,7 +26,6 @@ RDEPEND="
 	>=dev-perl/Tie-Diamond-0.050
 	dev-perl/Tie-Simple
 	dev-perl/experimental
-	dev-perl/lib
 	virtual/perl-Getopt-Long
 "
 DEPEND="

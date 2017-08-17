@@ -33,7 +33,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/IPC-Run3-0.033
 	>=dev-perl/Probe-Perl-0.010
-	dev-perl/lib
 	>=virtual/perl-File-Spec-3.000
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

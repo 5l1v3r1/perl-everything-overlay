@@ -22,12 +22,11 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/IO-String
 	dev-perl/JSON
-	>=dev-perl/Moo-1.005
+	dev-perl/Moo
 	dev-perl/Sub-Install
 	dev-perl/Test-LongString
 	dev-perl/Try-Tiny
 	dev-perl/XML-Simple
-	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -48,5 +47,4 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Time
 	dev-perl/Test-Warn
-	dev-perl/lib
 "

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/FileHandle-Fmode
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Moo
 	dev-perl/Path-Class
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

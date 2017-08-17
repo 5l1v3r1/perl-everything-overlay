@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter

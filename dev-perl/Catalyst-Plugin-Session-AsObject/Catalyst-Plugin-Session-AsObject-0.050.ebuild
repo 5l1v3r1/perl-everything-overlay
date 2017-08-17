@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Catalyst-Plugin-Session-0.270
 	dev-perl/MRO-Compat
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

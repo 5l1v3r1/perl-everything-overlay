@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.1.2"
+DIST_VERSION="0.1.2"
 DIST_A="Dist-Zilla-Plugin-Git-Remote-Check-0.1.2.tar.gz"
 inherit perl-module
 

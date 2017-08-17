@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Moose
 	dev-perl/MooseX-Getopt
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.480
 	dev-perl/Stepford
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Temp
@@ -35,7 +35,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "

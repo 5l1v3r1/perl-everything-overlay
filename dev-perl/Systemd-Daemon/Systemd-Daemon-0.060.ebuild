@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	>=virtual/perl-Exporter-5.570
 "
 DEPEND="
@@ -25,7 +24,6 @@ DEPEND="
 	dev-perl/IPC-System-Simple
 	dev-perl/Inline-Module
 	dev-perl/Path-Class
-	dev-perl/lib
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	virtual/perl-ExtUtils-Manifest

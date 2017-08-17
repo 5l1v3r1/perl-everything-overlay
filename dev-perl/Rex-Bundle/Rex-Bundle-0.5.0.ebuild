@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="v0.5.0"
+DIST_VERSION="0.5.0"
 DIST_A="Rex-Bundle-0.5.0.tar.gz"
 inherit perl-module
 

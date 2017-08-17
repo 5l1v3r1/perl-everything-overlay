@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Email-MIME-Kit
 	dev-perl/Moose
-	>=dev-perl/Path-Resolver-3.092.200
+	dev-perl/Path-Resolver
 "
 DEPEND="
 	${RDEPEND}

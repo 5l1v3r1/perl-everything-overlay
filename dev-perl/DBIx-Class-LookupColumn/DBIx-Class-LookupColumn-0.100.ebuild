@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Hash-Merge-Simple
 	dev-perl/Moose
 	dev-perl/Smart-Comments
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "

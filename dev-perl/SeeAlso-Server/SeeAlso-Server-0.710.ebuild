@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/TimeDate
 	dev-perl/URI
 	dev-perl/YAML
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Exporter

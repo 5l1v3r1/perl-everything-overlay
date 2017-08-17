@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/LWP-Protocol-https
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="

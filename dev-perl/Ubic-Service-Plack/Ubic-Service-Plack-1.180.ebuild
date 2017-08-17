@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/Plack
 	dev-perl/Ubic
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

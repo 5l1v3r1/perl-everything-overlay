@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor-Grouped
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="

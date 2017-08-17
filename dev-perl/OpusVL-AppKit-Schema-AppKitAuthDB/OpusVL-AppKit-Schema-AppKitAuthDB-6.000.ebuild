@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/DBIx-Class-TimeStamp
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
-	dev-perl/base
 	dev-perl/namespace-autoclean
 "
 DEPEND="

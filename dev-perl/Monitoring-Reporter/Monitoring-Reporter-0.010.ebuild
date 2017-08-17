@@ -29,7 +29,6 @@ RDEPEND="
 	dev-perl/Plack
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Data-Dumper
 	virtual/perl-IO

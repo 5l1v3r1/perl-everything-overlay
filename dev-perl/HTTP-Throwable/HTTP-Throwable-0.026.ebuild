@@ -19,10 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/List-AllUtils
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.004.003
 	dev-perl/MooX-StrictConstructor
 	>=dev-perl/Package-Variant-1.002.000
-	>=dev-perl/Plack-0.996.700
+	dev-perl/Plack
 	dev-perl/Sub-Exporter
 	>=dev-perl/Throwable-0.102.080
 	dev-perl/Type-Tiny
@@ -35,7 +35,6 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Fatal-0.003
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960

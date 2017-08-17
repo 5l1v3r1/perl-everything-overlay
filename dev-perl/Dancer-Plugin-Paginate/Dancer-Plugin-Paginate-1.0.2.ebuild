@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CASAO"
-DIST_VERSION="v1.0.2"
+DIST_VERSION="1.0.2"
 DIST_A="Dancer-Plugin-Paginate-1.0.2.tar.gz"
 inherit perl-module
 

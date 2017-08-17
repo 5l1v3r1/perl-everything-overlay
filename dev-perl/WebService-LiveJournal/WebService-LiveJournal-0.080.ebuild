@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Cookies
 	dev-perl/RPC-XML
-	dev-perl/base
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
 "

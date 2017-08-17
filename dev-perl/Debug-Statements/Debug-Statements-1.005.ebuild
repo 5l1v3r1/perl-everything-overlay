@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/PadWalker
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Dumpvalue
@@ -30,4 +29,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	dev-perl/Test-Output
+	virtual/perl-Getopt-Long
+	virtual/perl-Test-Simple
 "

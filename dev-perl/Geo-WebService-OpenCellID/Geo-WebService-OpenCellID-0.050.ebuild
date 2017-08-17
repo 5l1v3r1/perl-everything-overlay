@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/URI
 	dev-perl/XML-Simple
-	dev-perl/base
 	dev-perl/libwww-perl
 	>=virtual/perl-Test-Simple-0.440
 "

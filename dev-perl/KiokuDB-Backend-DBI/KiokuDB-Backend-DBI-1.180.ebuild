@@ -23,16 +23,16 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/KiokuDB
 	dev-perl/Moose
-	>=dev-perl/MooseX-Types-0.080
+	dev-perl/MooseX-Types
 	dev-perl/SQL-Abstract
-	dev-perl/Search-GIN
+	>=dev-perl/Search-GIN-0.070
 	dev-perl/Test-TempDir
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="
 	${RDEPEND}

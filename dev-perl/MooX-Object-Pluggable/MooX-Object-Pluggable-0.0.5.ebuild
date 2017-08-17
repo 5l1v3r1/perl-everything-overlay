@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZITSEN"
-DIST_VERSION="v0.0.5"
+DIST_VERSION="0.0.5"
 DIST_A="MooX-Object-Pluggable-0.0.5.tar.gz"
 inherit perl-module
 
@@ -25,10 +25,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-lang/perl
 	dev-perl/Module-Find
 	dev-perl/MooX
 	dev-perl/Role-Tiny
 	dev-perl/Test-Pod
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

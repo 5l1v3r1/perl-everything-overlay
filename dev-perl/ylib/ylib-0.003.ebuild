@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-HomeDir-0.860
 	>=dev-perl/Path-Tiny-0.052
-	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}

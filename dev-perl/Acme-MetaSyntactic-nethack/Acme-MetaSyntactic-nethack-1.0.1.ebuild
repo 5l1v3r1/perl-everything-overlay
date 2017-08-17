@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="v1.0.1"
+DIST_VERSION="1.0.1"
 DIST_A="Acme-MetaSyntactic-nethack-v1.0.1.tar.gz"
 inherit perl-module
 

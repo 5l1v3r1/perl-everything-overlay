@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/DBICx-Sugar
-	>=dev-perl/Dancer2-0.153.002
+	dev-perl/Dancer2
 "
 DEPEND="
 	${RDEPEND}
@@ -30,8 +30,6 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	dev-perl/Test-Exception
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

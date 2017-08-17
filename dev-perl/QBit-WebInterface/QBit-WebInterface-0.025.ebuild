@@ -21,8 +21,7 @@ RDEPEND="
 	dev-perl/Exceptions
 	dev-perl/QBit-Application
 	dev-perl/QBit-Class
-	dev-perl/Template-Toolkit
-	dev-perl/base
+	>=dev-perl/Template-Toolkit-2.200
 	dev-perl/libwww-perl
 	dev-perl/qbit
 	virtual/perl-Digest-MD5
@@ -33,6 +32,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/QBit-WebInterface-Routing
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

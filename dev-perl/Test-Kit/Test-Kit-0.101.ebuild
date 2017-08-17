@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/base-2.110
+	>=dev-lang/perl-2.110
 	>=dev-perl/namespace-clean-0.080
 	virtual/perl-Test-Simple
 "

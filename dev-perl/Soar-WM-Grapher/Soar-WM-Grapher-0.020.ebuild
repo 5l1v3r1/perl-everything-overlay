@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/GraphViz
 	dev-perl/Soar-WM
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

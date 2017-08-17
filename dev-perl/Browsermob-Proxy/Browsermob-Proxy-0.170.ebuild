@@ -34,7 +34,6 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Spec
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-Net-Ping
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple

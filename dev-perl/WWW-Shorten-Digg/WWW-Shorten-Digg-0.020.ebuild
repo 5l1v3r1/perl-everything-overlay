@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/WWW-Shorten-3.090
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

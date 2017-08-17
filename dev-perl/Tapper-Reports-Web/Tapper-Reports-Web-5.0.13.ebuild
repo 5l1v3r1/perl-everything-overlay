@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="v5.0.13"
+DIST_VERSION="5.0.13"
 DIST_A="Tapper-Reports-Web-5.0.13.tar.gz"
 inherit perl-module
 
@@ -52,6 +52,7 @@ RDEPEND="
 	>=dev-perl/Module-Find-0.110
 	dev-perl/Moose
 	dev-perl/Perl6-Junction
+	dev-perl/Pod-Usage
 	dev-perl/Readonly-XS
 	dev-perl/Set-Intersection
 	dev-perl/TAP-Formatter-HTML
@@ -65,14 +66,11 @@ RDEPEND="
 	dev-perl/XML-Feed
 	dev-perl/YAML
 	dev-perl/YAML-Syck
-	dev-perl/base
 	dev-perl/common-sense
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "

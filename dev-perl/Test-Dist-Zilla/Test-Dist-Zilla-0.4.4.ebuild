@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="v0.4.4"
+DIST_VERSION="0.4.4"
 DIST_A="Test-Dist-Zilla-v0.4.4.tar.gz"
 inherit perl-module
 
@@ -35,7 +35,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Test-DiagINC-0.002
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-if

@@ -33,7 +33,6 @@ DEPEND="
 	dev-perl/Pod-Elemental
 	>=dev-perl/Test-CheckDeps-0.010
 	dev-perl/Test-Differences
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940

@@ -52,11 +52,10 @@ DEPEND="
 	dev-perl/Test-HexDifferences
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.960
 "

@@ -35,14 +35,13 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	>=dev-perl/Perl-Critic-1.105
 	dev-perl/Perl-Tidy
+	dev-perl/Pod-Usage
 	dev-perl/Spiffy
 	dev-perl/Sub-Exporter
 	dev-perl/Text-Table
 	dev-perl/Tree-Parser
 	dev-perl/YAML-Tiny
 	dev-perl/ack
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-SHA
@@ -50,7 +49,6 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
 	virtual/perl-Time-HiRes

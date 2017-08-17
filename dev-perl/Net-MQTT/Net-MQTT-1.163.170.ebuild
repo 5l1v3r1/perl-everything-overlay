@@ -18,11 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Pluggable
-	dev-perl/base
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-HiRes
 "
 DEPEND="

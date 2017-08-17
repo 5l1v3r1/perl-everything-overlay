@@ -24,7 +24,6 @@ RDEPEND="
 	>=dev-perl/XML-Grammar-Fortune-0.050.600
 	>=dev-perl/XML-RSS-1.460
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
@@ -33,4 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
 "

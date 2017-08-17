@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Pod-Checker
 	dev-perl/QBit-Application
 	dev-perl/QBit-WebInterface
-	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-Pod-Simple
 "

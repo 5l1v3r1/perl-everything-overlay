@@ -26,8 +26,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DBIx-Class
 	dev-perl/Dir-Self
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

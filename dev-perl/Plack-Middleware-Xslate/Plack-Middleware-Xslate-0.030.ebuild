@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Plack
 	dev-perl/Text-Xslate
-	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="

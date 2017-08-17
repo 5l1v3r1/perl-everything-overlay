@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVU"
-DIST_VERSION="v0.0.6"
+DIST_VERSION="0.0.6"
 DIST_A="Growl-Tiny-0.0.6.tar.gz"
 inherit perl-module
 
@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

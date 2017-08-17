@@ -18,9 +18,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Authen-Htpasswd-0.130
-	>=dev-perl/Catalyst-Plugin-Authentication-0.100.060
+	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Class-Accessor
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -30,7 +29,6 @@ DEPEND="
 	dev-perl/Crypt-PasswdMD5
 	dev-perl/Pod-Usage
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long

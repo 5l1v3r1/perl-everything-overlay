@@ -18,15 +18,15 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON-MaybeXS
+	dev-perl/Pod-Usage
 	dev-perl/Role-Tiny
 	dev-perl/Text-SpanningTable
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

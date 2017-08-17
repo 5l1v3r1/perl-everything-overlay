@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Perl-Destruct-Level
 	dev-perl/XML-Twig
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-ExtUtils-MakeMaker
@@ -35,6 +34,5 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/lib
 	virtual/perl-Socket
 "

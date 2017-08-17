@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="v1.2.1"
+DIST_VERSION="1.2.1"
 DIST_A="Rex-Repositorio-1.2.1.tar.gz"
 inherit perl-module
 
@@ -29,9 +29,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/XML-LibXML
 	dev-perl/XML-Simple
-	dev-perl/base
 	dev-perl/common-sense
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

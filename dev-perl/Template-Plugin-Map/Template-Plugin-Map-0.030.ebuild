@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Template-Plugin-VMethods
 	>=dev-perl/Template-Toolkit-2.000
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

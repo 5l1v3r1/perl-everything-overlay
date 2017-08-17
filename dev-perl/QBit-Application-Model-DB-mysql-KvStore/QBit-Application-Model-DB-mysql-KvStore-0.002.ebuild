@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/QBit-Application-Model-DB-mysql
 	dev-perl/QBit-Application-Model-KvStore
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="

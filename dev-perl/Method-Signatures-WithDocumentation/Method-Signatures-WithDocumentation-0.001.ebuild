@@ -35,6 +35,5 @@ DEPEND="
 	dev-perl/App-podweaver
 	dev-perl/File-Slurp
 	dev-perl/Test-Most
-	dev-perl/base
 	virtual/perl-Exporter
 "

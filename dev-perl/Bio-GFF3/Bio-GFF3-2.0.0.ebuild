@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBUELS"
-DIST_VERSION="v2.0.0"
+DIST_VERSION="2.0.0"
 DIST_A="Bio-GFF3-2.0.tar.gz"
 inherit perl-module
 
@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Pod-Usage
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Temp

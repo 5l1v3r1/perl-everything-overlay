@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="v0.1.1"
+DIST_VERSION="0.1.1"
 DIST_A="Perl-PrereqScanner-Scanner-Hint-v0.1.1.tar.gz"
 inherit perl-module
 
@@ -32,7 +32,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Routine
 	dev-perl/Test-Warn
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

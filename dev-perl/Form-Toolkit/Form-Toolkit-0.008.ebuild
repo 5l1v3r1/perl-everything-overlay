@@ -35,7 +35,6 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/DBIx-Class-Schema-Loader
 	dev-perl/Test-Exception
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

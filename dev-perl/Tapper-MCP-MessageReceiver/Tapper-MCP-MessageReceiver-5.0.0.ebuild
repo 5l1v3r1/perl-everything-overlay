@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="v5.0.0"
+DIST_VERSION="5.0.0"
 DIST_A="Tapper-MCP-MessageReceiver-5.0.0.tar.gz"
 inherit perl-module
 

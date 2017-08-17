@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Accessor-Grouped
 	dev-perl/HTML-Parser
 	dev-perl/HTML-TokeParser-Simple
-	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="

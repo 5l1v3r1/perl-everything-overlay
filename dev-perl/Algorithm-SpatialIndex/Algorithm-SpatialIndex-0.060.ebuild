@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/Class-XSAccessor-1.050
 	dev-perl/Module-Pluggable
-	dev-perl/lib
 	virtual/perl-parent
 "
 DEPEND="

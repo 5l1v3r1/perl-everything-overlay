@@ -28,6 +28,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/AnyEvent
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAITKEN"
-DIST_VERSION="v2.0.1"
+DIST_VERSION="2.0.1"
 DIST_A="Dancer-Plugin-Passphrase-2.0.1.tar.gz"
 inherit perl-module
 

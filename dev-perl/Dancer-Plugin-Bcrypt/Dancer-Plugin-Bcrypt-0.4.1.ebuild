@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAITKEN"
-DIST_VERSION="v0.4.1"
+DIST_VERSION="0.4.1"
 DIST_A="Dancer-Plugin-Bcrypt-0.4.1.tar.gz"
 inherit perl-module
 

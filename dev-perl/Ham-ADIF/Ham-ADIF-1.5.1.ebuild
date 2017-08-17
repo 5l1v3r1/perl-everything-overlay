@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="v1.5.1"
+DIST_VERSION="1.5.1"
 DIST_A="Ham-ADIF-v1.5.1.tar.gz"
 inherit perl-module
 
@@ -16,9 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.020
 	>=dev-perl/XML-LibXML-2.010.700
-	>=dev-perl/base-2.070
 	>=dev-perl/libwww-perl-6.000
 	>=virtual/perl-Carp-1.040
 "

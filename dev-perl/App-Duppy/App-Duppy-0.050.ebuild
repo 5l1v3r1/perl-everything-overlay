@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-Options
 	dev-perl/Try-Tiny
-	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="

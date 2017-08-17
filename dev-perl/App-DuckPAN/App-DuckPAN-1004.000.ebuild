@@ -20,6 +20,7 @@ RDEPEND="
 	dev-perl/Algorithm-Combinatorics
 	dev-perl/Class-Load
 	dev-perl/Config-INI
+	dev-perl/DDG
 	dev-perl/Data-Printer
 	dev-perl/Dist-Zilla
 	dev-perl/Email-Valid
@@ -44,6 +45,7 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Perl-Version
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	dev-perl/Starman
 	dev-perl/Term-ProgressBar
 	dev-perl/Term-UI
@@ -51,7 +53,6 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/YAML-LibYAML
-	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -59,7 +60,6 @@ RDEPEND="
 	virtual/perl-Encode
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Term-ReadLine

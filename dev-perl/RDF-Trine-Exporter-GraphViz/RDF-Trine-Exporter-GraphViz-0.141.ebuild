@@ -18,15 +18,15 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/GraphViz
+	dev-perl/Pod-Usage
 	dev-perl/RDF-NS
 	dev-perl/RDF-Trine
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "

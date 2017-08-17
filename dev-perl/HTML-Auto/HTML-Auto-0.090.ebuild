@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Template-Toolkit
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

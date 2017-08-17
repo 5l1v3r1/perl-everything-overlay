@@ -37,7 +37,6 @@ RDEPEND="
 	dev-perl/Time-Duration-Parse
 	dev-perl/TimeDate
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-SHA
 	virtual/perl-Exporter
@@ -53,7 +52,6 @@ DEPEND="
 	dev-perl/Test-Class-Most
 	dev-perl/Test-Differences
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-Encode
 	virtual/perl-autodie
 "

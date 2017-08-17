@@ -18,13 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "

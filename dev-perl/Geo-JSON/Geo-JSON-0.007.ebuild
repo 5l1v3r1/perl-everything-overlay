@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/JSON
 	>=dev-perl/Moo-1.004.003
 	dev-perl/Type-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
@@ -33,7 +32,6 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

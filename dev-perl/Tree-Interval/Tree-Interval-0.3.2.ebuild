@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNB"
-DIST_VERSION="v0.3.2"
+DIST_VERSION="0.3.2"
 DIST_A="Tree-Interval-0.3.2.tar.gz"
 inherit perl-module
 

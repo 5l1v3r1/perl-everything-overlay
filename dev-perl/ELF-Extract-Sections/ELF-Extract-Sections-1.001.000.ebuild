@@ -36,7 +36,6 @@ DEPEND="
 	dev-perl/Path-Iterator-Rule
 	dev-perl/Path-Tiny
 	dev-perl/YAML-LibYAML
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.890
 "

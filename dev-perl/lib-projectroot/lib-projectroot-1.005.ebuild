@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/lib
 	dev-perl/local-lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec

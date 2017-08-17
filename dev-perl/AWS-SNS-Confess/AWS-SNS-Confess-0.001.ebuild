@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Amazon-SNS
 	dev-perl/Devel-StackTrace
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

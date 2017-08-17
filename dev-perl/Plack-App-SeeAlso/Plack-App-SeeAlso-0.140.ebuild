@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Plack
 	>=dev-perl/Plack-App-unAPI-0.410
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode

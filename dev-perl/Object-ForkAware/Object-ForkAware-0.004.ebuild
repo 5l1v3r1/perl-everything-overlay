@@ -24,7 +24,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Warnings-0.009
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if

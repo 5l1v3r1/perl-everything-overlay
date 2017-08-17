@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAVINC"
-DIST_VERSION="v1.0.1"
+DIST_VERSION="1.0.1"
 DIST_A="DBIx-Delta-1.0.1.tar.gz"
 inherit perl-module
 
@@ -27,7 +27,6 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/Test-Deep
 	dev-perl/YAML
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

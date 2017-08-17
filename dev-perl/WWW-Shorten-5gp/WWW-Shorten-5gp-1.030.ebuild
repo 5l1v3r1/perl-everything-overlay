@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/URI-1.580
 	>=dev-perl/WWW-Shorten-3.090
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Ref-Explicit
 	dev-perl/Template-Toolkit
-	dev-perl/base
 	virtual/perl-File-Path
 "
 DEPEND="

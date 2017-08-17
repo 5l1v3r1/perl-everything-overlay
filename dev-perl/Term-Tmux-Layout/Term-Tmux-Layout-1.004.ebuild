@@ -26,7 +26,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Time-Out
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO-Socket-IP
 	virtual/perl-Test-Simple

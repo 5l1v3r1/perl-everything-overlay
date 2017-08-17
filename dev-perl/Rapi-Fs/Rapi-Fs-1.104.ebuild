@@ -27,14 +27,13 @@ RDEPEND="
 	dev-perl/Number-Bytes-Human
 	dev-perl/Path-Class
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	dev-perl/RapidApp
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	dev-perl/experimental
-	dev-perl/lib
 	virtual/perl-Encode
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-if
 "
@@ -42,4 +41,5 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "

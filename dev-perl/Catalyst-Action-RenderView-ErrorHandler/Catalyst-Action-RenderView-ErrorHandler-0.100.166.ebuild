@@ -30,8 +30,6 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/HTTP-Request-AsCGI
 	dev-perl/Text-Diff
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "

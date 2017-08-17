@@ -40,8 +40,6 @@ RDEPEND="
 	dev-perl/WWW-Google-PageRank
 	dev-perl/WWW-Google-Time
 	dev-perl/WebService-Validator-HTML-W3C
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

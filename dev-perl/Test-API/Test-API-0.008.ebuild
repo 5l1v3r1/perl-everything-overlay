@@ -22,7 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec

@@ -18,14 +18,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Git-Version-Compare-1.003
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 "

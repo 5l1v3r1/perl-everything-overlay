@@ -20,15 +20,18 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-SerialPort
 	dev-perl/Device-Onkyo
+	dev-perl/Pod-Usage
 	dev-perl/Sub-Name
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Requires
+	dev-perl/Test-SharedFork
+	virtual/perl-IO
+	virtual/perl-Socket
+	virtual/perl-Test-Simple
 "

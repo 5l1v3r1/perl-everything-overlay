@@ -21,14 +21,12 @@ RDEPEND="
 	dev-perl/HTML-FromANSI-Tiny
 	dev-perl/Hash-Merge-Simple
 	dev-perl/Template-Toolkit
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTML-Parser
 	dev-perl/Test-NoWarnings
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

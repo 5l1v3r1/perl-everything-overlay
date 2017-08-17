@@ -24,8 +24,8 @@ RDEPEND="
 	dev-perl/File-Slurp
 	>=dev-perl/JSON-2.000
 	dev-perl/List-AllUtils
-	>=dev-perl/Metabase-Fact-0.018
-	>=dev-perl/Moose-1.000
+	dev-perl/Metabase-Fact
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/MooseX-Types-Structured
@@ -44,8 +44,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

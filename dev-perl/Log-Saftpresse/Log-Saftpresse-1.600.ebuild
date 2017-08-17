@@ -25,19 +25,18 @@ RDEPEND="
 	dev-perl/Log-Log4perl
 	dev-perl/Moose
 	dev-perl/Net-Lumberjack
+	dev-perl/Pod-Usage
 	dev-perl/Redis
 	dev-perl/Search-Elasticsearch
 	dev-perl/Template-Toolkit
 	dev-perl/Tie-IxHash
 	dev-perl/URI
 	dev-perl/UUID
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-HiRes
 	virtual/perl-Time-Piece
 "

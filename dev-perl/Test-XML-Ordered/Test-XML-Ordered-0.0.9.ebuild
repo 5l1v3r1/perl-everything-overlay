@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.0.9"
+DIST_VERSION="0.0.9"
 DIST_A="Test-XML-Ordered-0.0.9.tar.gz"
 inherit perl-module
 
@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/XML-LibXML-2.001.400
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "

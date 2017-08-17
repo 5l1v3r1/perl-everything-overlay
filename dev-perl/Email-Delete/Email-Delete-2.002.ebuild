@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Email-FolderType
 	dev-perl/Email-LocalDelivery
 	dev-perl/Email-Simple
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-IO
 "

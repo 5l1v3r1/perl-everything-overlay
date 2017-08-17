@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/File-ShareDir
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

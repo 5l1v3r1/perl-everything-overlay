@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/Proc-Daemon
 	>=dev-perl/Telegram-Bot-0.010
 	>=dev-perl/Time-Duration-Parse-0.130
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec

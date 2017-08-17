@@ -19,10 +19,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Capture-Tiny
 	>=dev-perl/Data-Dmp-0.210
-	>=dev-perl/Getopt-Long-Util-0.790
 	>=dev-perl/Module-Patch-0.190
 	dev-perl/UUID-Random
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/NetAddr-IP
 	dev-perl/Template-Toolkit
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/Perinci-CmdLine-Lite-1.750
 	>=dev-perl/Perinci-CmdLine-Util-0.130
 	dev-perl/UUID-Random
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "

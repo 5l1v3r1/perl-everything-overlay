@@ -36,7 +36,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-Locale-Country
 	dev-perl/MooseX-Types-Locale-Currency
 	dev-perl/MooseX-Types-NetAddr-IP
-	>=dev-perl/Type-Tiny-0.040
+	dev-perl/Type-Tiny
 	dev-perl/XML-Compile-SOAP
 	dev-perl/XML-Compile-WSDL11
 	>=dev-perl/XML-Compile-WSS-1.040
@@ -52,7 +52,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Method
 	dev-perl/Test-Requires
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

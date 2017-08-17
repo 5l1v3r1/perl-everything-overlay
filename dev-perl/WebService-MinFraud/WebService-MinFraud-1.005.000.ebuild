@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Data-Validate-IP
 	dev-perl/Data-Validate-URI
 	dev-perl/DateTime-Format-RFC3339
-	>=dev-perl/GeoIP2-2.003.003
+	dev-perl/GeoIP2
 	dev-perl/HTTP-Message
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/Moo-1.004.005
@@ -49,7 +49,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Warnings
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "

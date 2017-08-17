@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Function-Parameters
 	dev-perl/Google-ProtocolBuffers-Dynamic
 	dev-perl/Path-Tiny
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	virtual/perl-Exporter

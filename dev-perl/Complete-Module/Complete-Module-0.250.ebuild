@@ -29,7 +29,6 @@ DEPEND="
 	dev-perl/File-Slurper
 	dev-perl/File-chdir
 	dev-perl/Filesys-Cap
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

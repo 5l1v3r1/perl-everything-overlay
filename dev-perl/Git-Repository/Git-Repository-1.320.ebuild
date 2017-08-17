@@ -32,6 +32,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Requires-Git-1.005
-	dev-perl/lib
 	virtual/perl-File-Path
 "

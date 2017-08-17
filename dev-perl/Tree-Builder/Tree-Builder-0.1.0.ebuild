@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVELOX"
-DIST_VERSION="v0.1.0"
+DIST_VERSION="0.1.0"
 DIST_A="Tree-Builder-0.1.0.tar.gz"
 inherit perl-module
 

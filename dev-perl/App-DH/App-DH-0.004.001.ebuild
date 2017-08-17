@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/MooseX-Getopt-0.480
 	dev-perl/PerlX-Maybe
-	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="
@@ -32,7 +31,6 @@ DEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Requires
 	dev-perl/Test-TempDir-Tiny
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

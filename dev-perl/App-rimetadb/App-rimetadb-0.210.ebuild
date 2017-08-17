@@ -35,7 +35,6 @@ RDEPEND="
 	dev-perl/Sah-Schemas-Path
 	dev-perl/Sah-Schemas-Perl
 	dev-perl/experimental
-	dev-perl/lib
 	virtual/perl-Module-Load
 "
 DEPEND="

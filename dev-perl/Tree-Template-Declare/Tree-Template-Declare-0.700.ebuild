@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Devel-Caller
 	dev-perl/Sub-Exporter
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

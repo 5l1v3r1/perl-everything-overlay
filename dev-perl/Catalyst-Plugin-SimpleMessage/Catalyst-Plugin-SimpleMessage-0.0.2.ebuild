@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEOJS"
-DIST_VERSION="v0.0.2"
+DIST_VERSION="0.0.2"
 DIST_A="Catalyst-Plugin-SimpleMessage-0.0.2.tar.gz"
 inherit perl-module
 
@@ -24,7 +24,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	dev-perl/Moose
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "

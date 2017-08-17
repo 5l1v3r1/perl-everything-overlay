@@ -26,7 +26,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	>=dev-perl/Exception-Class-TryCatch-1.100
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.620

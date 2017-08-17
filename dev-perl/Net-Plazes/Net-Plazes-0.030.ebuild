@@ -16,12 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.040
+	>=dev-lang/perl-2.130
 	>=dev-perl/Class-Accessor-0.310
 	>=dev-perl/HTTP-Message-5.814
 	>=dev-perl/Lingua-EN-Inflect-1.890
 	>=dev-perl/XML-LibXML-1.660
-	>=dev-perl/base-2.130
 	>=dev-perl/libwww-perl-5.814
 	>=virtual/perl-Carp-1.020
 "

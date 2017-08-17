@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Exceptions
 	dev-perl/QBit-Application
 	dev-perl/QBit-Class
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TODDR"
-DIST_VERSION="v2.1.5"
+DIST_VERSION="2.1.5"
 DIST_A="Net-Jabber-Bot-2.1.5.tar.gz"
 inherit perl-module
 
@@ -22,7 +22,6 @@ RDEPEND="
 	>=dev-perl/MooseX-Types-0.120
 	>=dev-perl/Net-Jabber-2.000
 	dev-perl/Test-NoWarnings
-	dev-perl/lib
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 	virtual/perl-version

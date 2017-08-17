@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.740
+	>=dev-lang/perl-1.050
 	>=dev-perl/CGI-3.150
 	>=dev-perl/Gnome2-GConf-1.043
 	>=dev-perl/Gtk2-1.161
@@ -24,7 +24,6 @@ RDEPEND="
 	>=dev-perl/Tie-SaveLater-0.030
 	>=dev-perl/Unicode-MapUTF8-1.110
 	>=dev-perl/Unicode-UTF8simple-1.060
-	>=dev-perl/base-2.070
 	>=dev-perl/enum-1.016
 	>=dev-perl/glib-perl-1.161
 	>=dev-perl/gnome2-perl-1.040

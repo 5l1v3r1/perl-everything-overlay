@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Digest-HMAC
 	dev-perl/MRO-Compat
 	dev-perl/Tie-IxHash
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

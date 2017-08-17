@@ -35,7 +35,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
-	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

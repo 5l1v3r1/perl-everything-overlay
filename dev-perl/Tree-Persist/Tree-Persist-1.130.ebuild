@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Module-Runtime-0.013
 	>=dev-perl/XML-Parser-2.410
-	dev-perl/base
 	>=virtual/perl-Scalar-List-Utils-1.100
 "
 DEPEND="

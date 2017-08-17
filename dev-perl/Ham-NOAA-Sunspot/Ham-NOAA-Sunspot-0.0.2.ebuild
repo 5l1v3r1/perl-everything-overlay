@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="v0.0.2"
+DIST_VERSION="0.0.2"
 DIST_A="Ham-NOAA-Sunspot-v0.0.2.tar.gz"
 inherit perl-module
 
@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-lang/perl-1.050
-	>=dev-perl/base-2.070
 	>=dev-perl/libwww-perl-6.000
 	>=virtual/perl-Carp-1.040
 "

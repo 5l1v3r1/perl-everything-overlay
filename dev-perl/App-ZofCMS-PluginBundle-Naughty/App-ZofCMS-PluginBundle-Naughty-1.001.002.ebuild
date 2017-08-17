@@ -26,7 +26,6 @@ RDEPEND="
 	dev-perl/Image-Resize
 	dev-perl/Image-Size
 	dev-perl/Search-Indexer
-	dev-perl/base
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
 "

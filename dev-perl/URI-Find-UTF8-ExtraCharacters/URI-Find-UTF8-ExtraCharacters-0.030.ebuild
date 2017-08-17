@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/URI-Find-20140709.000
 	dev-perl/URI-Find-UTF8
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

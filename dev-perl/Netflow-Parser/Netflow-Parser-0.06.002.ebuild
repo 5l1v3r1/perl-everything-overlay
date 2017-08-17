@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PALIK"
-DIST_VERSION="v0.06.002"
+DIST_VERSION="0.06.002"
 DIST_A="Netflow-Parser-0.06.002.tar.gz"
 inherit perl-module
 
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/base
+	dev-lang/perl
 	virtual/perl-Carp
 "
 DEPEND="

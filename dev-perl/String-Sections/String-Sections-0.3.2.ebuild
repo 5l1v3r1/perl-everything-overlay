@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.3.2"
+DIST_VERSION="0.3.2"
 DIST_A="String-Sections-0.3.2.tar.gz"
 inherit perl-module
 
@@ -29,7 +29,6 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Sub-Exporter-Progressive
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980

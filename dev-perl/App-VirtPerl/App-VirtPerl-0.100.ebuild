@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/App-cpanminus
 	dev-perl/JSON
-	dev-perl/lib
 	>=virtual/perl-File-Path-2.000
 "
 DEPEND="

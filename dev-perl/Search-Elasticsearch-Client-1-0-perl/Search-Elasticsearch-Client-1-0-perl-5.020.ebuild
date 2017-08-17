@@ -32,7 +32,6 @@ DEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.980
 "

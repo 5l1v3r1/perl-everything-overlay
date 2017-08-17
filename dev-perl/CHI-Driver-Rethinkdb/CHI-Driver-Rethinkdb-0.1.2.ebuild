@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBURKE"
-DIST_VERSION="v0.1.2"
+DIST_VERSION="0.1.2"
 DIST_A="CHI-Driver-Rethinkdb-0.1.2.tar.gz"
 inherit perl-module
 
@@ -20,12 +20,10 @@ RDEPEND="
 	dev-perl/CHI
 	dev-perl/Moose
 	dev-perl/Rethinkdb
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

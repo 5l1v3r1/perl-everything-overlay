@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Data-Validate-URI
 	dev-perl/Syntax-Keyword-Junction
 	dev-perl/Taint-Util
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

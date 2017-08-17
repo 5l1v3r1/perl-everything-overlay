@@ -19,13 +19,13 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CPAN-Mini
 	dev-perl/File-Find-Rule
-	dev-perl/base
+	dev-perl/Pod-Usage
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-Test-Simple
 "

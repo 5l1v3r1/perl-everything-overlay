@@ -27,14 +27,12 @@ RDEPEND="
 	>=dev-perl/Path-Class-URI-0.050
 	dev-perl/Path-Iterator-Rule
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-File-Temp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
-	dev-perl/lib
 	dev-perl/utf8-all
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple

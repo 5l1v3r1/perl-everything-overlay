@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	>=virtual/perl-CPAN-Meta-YAML-0.002
 	virtual/perl-Module-Metadata
 	virtual/perl-parent

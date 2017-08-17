@@ -25,5 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Test-Spec
-	dev-perl/lib
 "

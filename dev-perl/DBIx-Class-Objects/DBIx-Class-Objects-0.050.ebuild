@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Moose
 	dev-perl/MooseX-Role-Parameterized
-	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -32,6 +31,5 @@ DEPEND="
 	dev-perl/DBIx-Class-EasyFixture
 	dev-perl/DateTime
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

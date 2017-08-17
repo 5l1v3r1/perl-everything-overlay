@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Template-Toolkit
 	dev-perl/UNIVERSAL-require
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-parent
 "

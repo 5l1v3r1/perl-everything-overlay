@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Data-Rmap
 	dev-perl/QBit-Application-Model-DB
 	dev-perl/QBit-Application-Model-DBManager
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="

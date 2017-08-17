@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/Config-GitLike-1.050
 	>=dev-perl/JSON-2.000
 	dev-perl/String-RewritePrefix
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-autodie
 "

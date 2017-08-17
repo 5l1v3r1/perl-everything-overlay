@@ -20,14 +20,17 @@ RDEPEND="
 	dev-perl/Config-Tiny
 	dev-perl/DBIx-Connector
 	dev-perl/Moo
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
-	dev-perl/base
 	dev-perl/namespace-clean
 	virtual/perl-Getopt-Long
 	virtual/perl-Module-Load
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

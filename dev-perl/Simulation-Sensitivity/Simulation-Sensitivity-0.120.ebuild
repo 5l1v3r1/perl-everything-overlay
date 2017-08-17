@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Params-Validate
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

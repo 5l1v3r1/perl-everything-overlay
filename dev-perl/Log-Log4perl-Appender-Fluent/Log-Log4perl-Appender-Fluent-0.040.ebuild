@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Fluent-Logger
 	dev-perl/Log-Log4perl
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

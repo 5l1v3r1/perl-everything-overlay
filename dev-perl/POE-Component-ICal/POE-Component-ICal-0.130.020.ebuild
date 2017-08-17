@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/DateTime-Event-ICal
 	dev-perl/POE
 	dev-perl/POE-Component-Schedule
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	>=dev-perl/JSON-2.000
 	dev-perl/Metabase-Fact
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Net-Amazon-S3
 	dev-perl/Path-Class

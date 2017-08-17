@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/QBit-Class
 	dev-perl/QBit-WebInterface
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-File-Path
 "

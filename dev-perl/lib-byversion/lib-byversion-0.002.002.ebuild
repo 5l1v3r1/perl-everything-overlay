@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/String-Formatter
-	dev-perl/lib
 	>=virtual/perl-version-0.770
 "
 DEPEND="

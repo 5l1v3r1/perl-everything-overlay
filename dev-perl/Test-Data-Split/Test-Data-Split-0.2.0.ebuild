@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.2.0"
+DIST_VERSION="0.2.0"
 DIST_A="Test-Data-Split-0.2.0.tar.gz"
 inherit perl-module
 
@@ -29,7 +29,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	dev-perl/Test-Differences
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

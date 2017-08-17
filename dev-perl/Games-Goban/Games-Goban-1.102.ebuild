@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Games-Board
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-parent
 "

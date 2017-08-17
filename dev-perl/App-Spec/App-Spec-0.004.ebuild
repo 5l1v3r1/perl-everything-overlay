@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Ref-Util
 	dev-perl/Text-Table
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Scalar-List-Utils-1.330
@@ -34,9 +33,7 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
-	virtual/perl-constant
 "

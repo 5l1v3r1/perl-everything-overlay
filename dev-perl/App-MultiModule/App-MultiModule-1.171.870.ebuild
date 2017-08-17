@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/PadWalker
 	dev-perl/Sereal-Decoder
 	dev-perl/Sereal-Encoder
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5

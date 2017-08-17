@@ -19,15 +19,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Device-SerialPort
 	dev-perl/Moo
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "

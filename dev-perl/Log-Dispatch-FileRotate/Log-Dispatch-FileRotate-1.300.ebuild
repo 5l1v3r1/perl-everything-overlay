@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Date-Manip
 	dev-perl/Log-Dispatch
 	dev-perl/Params-Validate
-	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-version
 "

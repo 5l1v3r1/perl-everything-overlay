@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Exporter-Tiny
 	dev-perl/Moo
 	dev-perl/Type-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

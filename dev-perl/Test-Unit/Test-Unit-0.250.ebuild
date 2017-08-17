@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-lang/perl-1.000
 	dev-perl/Class-Inner
 	dev-perl/Devel-Symdump
 	dev-perl/Error
-	>=dev-perl/base-1.000
 "
 DEPEND="
 	${RDEPEND}

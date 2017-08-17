@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-Find-Rule-0.320
 	>=dev-perl/ShipIt-0.530
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

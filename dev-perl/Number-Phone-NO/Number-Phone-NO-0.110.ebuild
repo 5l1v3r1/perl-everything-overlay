@@ -18,8 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/DBM-Deep-1.000.700
-	dev-perl/Number-Phone
-	dev-perl/base
+	>=dev-perl/Number-Phone-2.200
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

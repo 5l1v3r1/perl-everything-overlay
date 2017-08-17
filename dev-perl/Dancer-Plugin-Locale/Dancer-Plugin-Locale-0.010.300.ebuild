@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Dancer-1.305.000
-	dev-perl/libintl-perl
+	>=dev-perl/libintl-perl-1.230
 "
 DEPEND="
 	${RDEPEND}

@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/Image-Size
 	dev-perl/MP3-Info
 	>=dev-perl/Module-Pluggable-1.200
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Encode
@@ -33,7 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="v5.0.0"
+DIST_VERSION="5.0.0"
 DIST_A="Tapper-Benchmark-5.0.0.tar.gz"
 inherit perl-module
 
@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Sereal-Decoder
 	dev-perl/Sereal-Encoder
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Module-Load

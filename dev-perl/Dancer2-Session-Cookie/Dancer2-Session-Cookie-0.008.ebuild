@@ -29,7 +29,6 @@ DEPEND="
 	dev-perl/Plack
 	dev-perl/Test-MockObject
 	dev-perl/YAML
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960

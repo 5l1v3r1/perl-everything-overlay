@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Carp-Assert
-	>=dev-perl/base-2.000
 	virtual/perl-Carp
 	>=virtual/perl-Test-Simple-0.470
 "

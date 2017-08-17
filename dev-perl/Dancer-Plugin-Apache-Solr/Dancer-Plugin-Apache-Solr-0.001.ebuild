@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Apache-Solr
-	>=dev-perl/Dancer-1.309.800
+	dev-perl/Dancer
 "
 DEPEND="
 	${RDEPEND}

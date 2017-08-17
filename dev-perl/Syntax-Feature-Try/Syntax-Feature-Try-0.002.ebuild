@@ -33,7 +33,6 @@ DEPEND="
 	dev-perl/Test-LeakTrace
 	dev-perl/Test-Spec
 	dev-perl/Test-Warn
-	dev-perl/base
 	dev-perl/syntax
 	virtual/perl-Test-Simple
 "

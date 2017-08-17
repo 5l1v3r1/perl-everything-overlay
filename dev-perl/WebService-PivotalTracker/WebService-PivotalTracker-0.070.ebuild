@@ -38,7 +38,6 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test2-Plugin-NoWarnings
 	dev-perl/Test2-Suite
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-1.302.015
 "

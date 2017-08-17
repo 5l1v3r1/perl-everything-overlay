@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Moose
 	dev-perl/MooseX-Types
-	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 "

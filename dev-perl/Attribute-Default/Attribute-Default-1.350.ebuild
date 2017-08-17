@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	>=virtual/perl-Attribute-Handlers-0.790
 	virtual/perl-Carp
 	virtual/perl-Exporter

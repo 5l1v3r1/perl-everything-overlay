@@ -16,6 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/HTTP-Message
 	dev-perl/SMS-Send
@@ -23,7 +24,6 @@ RDEPEND="
 	dev-perl/Test-MockObject
 	dev-perl/Test-NoWarnings
 	dev-perl/Try-Tiny
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple

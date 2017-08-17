@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/TimeDate
 	dev-perl/XML-LibXML
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-IO-Compress

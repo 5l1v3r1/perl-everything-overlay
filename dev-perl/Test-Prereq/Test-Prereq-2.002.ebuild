@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Module-Build
 	dev-perl/Module-Extract-Use
 	dev-perl/Module-Info
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Module-CoreList
 	virtual/perl-Test-Simple

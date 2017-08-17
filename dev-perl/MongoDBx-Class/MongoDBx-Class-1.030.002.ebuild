@@ -31,7 +31,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	dev-perl/DateTime
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-GUID
-	>=dev-perl/Data-Stream-Bulk-0.080
+	dev-perl/Data-Stream-Bulk
 	>=dev-perl/JSON-2.000
 	dev-perl/List-AllUtils
 	>=dev-perl/Metabase-1.000

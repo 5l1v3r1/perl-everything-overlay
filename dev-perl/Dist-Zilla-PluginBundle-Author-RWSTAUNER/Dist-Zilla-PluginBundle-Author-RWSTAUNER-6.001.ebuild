@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-CheckMetaResources
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromRelease
-	>=dev-perl/Dist-Zilla-Plugin-Git-2.004
+	dev-perl/Dist-Zilla-Plugin-Git
 	dev-perl/Dist-Zilla-Plugin-Git-Contributors
 	dev-perl/Dist-Zilla-Plugin-Git-Describe
 	>=dev-perl/Dist-Zilla-Plugin-GitHubREADME-Badge-0.160
@@ -65,7 +65,6 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Test-Fatal
 	dev-perl/Test-File-ShareDir
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

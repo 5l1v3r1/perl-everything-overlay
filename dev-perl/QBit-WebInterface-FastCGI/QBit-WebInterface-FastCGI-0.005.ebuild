@@ -16,16 +16,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/FCGI
 	dev-perl/FCGI-ProcManager
+	dev-perl/Pod-Usage
 	dev-perl/Proc-Daemon
 	dev-perl/QBit-WebInterface
 	dev-perl/URI
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/qbit
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}

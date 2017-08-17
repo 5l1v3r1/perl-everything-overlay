@@ -21,18 +21,16 @@ RDEPEND="
 	dev-perl/Net-SMTP-auth
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-Test-Simple-1.020
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Net-Server-Mail
+	>=dev-perl/Net-Server-Mail-0.130
 	dev-perl/Net-Server-Mail-ESMTP-AUTH
 	>=dev-perl/Test-Exception-0.210
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-IO
 "

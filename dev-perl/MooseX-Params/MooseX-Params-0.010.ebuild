@@ -38,7 +38,6 @@ DEPEND="
 	dev-perl/Carp-Always
 	dev-perl/IO-String
 	dev-perl/Test-Most
-	dev-perl/base
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

@@ -20,7 +20,6 @@ RDEPEND="
 	>=dev-perl/HTTP-Date-5.831
 	>=dev-perl/HTTP-Message-5.820
 	>=dev-perl/Plack-0.980
-	>=dev-perl/base-2.100
 	>=virtual/perl-Test-Simple-0.980
 "
 DEPEND="

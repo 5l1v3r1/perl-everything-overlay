@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/App-Addex
 	dev-perl/Mac-Glue
-	dev-perl/base
 	virtual/perl-Encode
 "
 DEPEND="

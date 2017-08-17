@@ -40,7 +40,6 @@ DEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/Test-Fatal
 	dev-perl/Test-LWP-UserAgent
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils

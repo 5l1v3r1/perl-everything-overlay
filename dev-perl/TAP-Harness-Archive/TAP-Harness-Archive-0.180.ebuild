@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/YAML-Tiny
-	>=dev-perl/base-2.180
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Path
 	virtual/perl-File-Spec

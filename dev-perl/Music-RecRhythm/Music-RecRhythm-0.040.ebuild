@@ -22,11 +22,10 @@ RDEPEND="
 	dev-perl/MooX-BuildArgs
 	dev-perl/namespace-clean
 	>=virtual/perl-Math-BigInt-1.820
-	>=virtual/perl-Scalar-List-Utils-1.260
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	dev-perl/Test-Most
-	dev-perl/lib
 "

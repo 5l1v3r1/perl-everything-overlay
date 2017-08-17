@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Marpa-R2
 	>=dev-perl/Sereal-Decoder-3.015
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Time-HiRes

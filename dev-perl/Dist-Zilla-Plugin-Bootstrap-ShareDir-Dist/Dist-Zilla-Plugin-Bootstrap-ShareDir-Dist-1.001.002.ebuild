@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Role-Bootstrap
 	dev-perl/Moose
 	dev-perl/Test-File-ShareDir
-	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}

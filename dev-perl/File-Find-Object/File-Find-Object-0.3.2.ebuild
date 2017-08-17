@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.3.2"
+DIST_VERSION="0.3.2"
 DIST_A="File-Find-Object-v0.3.2.tar.gz"
 inherit perl-module
 
@@ -27,7 +27,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
 	virtual/perl-IO

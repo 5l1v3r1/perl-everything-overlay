@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRBURTON"
-DIST_VERSION="v1.0.10"
+DIST_VERSION="1.0.10"
 DIST_A="Tree-MultiNode-1.0.10.tar.gz"
 inherit perl-module
 

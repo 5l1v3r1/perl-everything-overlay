@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/DateTime
 	dev-perl/Template-Toolkit
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

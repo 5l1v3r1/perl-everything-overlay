@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/JSON-MaybeXS
 	dev-perl/List-MoreUtils
 	dev-perl/WWW-Telegram-BotAPI
-	dev-perl/base
 	dev-perl/common-sense
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode

@@ -36,7 +36,6 @@ RDEPEND="
 	dev-perl/Readonly
 	dev-perl/Treex-PML
 	>=dev-perl/YAML-0.720
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

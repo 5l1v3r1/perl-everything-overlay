@@ -19,14 +19,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBI
 	dev-perl/Danga-Socket
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
 	virtual/perl-Socket
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}

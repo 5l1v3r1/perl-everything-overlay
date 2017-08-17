@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Server-Simple
 	>=dev-perl/HTTP-Server-Simple-Static-0.020
-	dev-perl/base
 	>=virtual/perl-Carp-0.010
 	>=virtual/perl-Scalar-List-Utils-1.180
 "
@@ -34,7 +33,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-HTTP-Server-Simple
 	dev-perl/Test-WWW-Mechanize
-	dev-perl/lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "

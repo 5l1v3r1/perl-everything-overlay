@@ -29,7 +29,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Spreadsheet-ParseXLSX
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880

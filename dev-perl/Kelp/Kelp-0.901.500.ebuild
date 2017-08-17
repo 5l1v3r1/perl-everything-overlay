@@ -36,4 +36,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/HTTP-Message
+	dev-perl/Plack-Middleware-Session
+	dev-perl/Test-Exception
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Harness
 "

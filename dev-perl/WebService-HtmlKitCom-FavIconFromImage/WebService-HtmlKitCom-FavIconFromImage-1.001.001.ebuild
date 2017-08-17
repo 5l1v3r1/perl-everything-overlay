@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Accessor-Grouped
 	dev-perl/Devel-TakeHashArgs
 	dev-perl/WWW-Mechanize
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Devel-StackTrace
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "

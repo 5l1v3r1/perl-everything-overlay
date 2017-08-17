@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
-	dev-perl/Moose
+	>=dev-perl/Moose-2.000.000
 	dev-perl/Parallel-ForkManager
 	dev-perl/Test-Most
 	dev-perl/Try-Tiny
@@ -33,6 +33,5 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Carp-Always
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 "

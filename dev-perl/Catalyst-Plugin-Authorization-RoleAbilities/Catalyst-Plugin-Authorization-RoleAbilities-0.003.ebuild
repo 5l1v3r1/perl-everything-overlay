@@ -28,6 +28,5 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Test-Exception
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

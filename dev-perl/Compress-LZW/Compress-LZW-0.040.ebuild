@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Moo-1.001.000
 	dev-perl/Type-Tiny
-	dev-perl/base
 	dev-perl/namespace-clean
 	dev-perl/strictures
 	virtual/perl-Exporter

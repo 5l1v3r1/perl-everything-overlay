@@ -39,7 +39,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Test-RequiresInternet
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

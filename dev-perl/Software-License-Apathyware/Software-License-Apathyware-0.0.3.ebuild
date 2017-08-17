@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKANDEL"
-DIST_VERSION="v0.0.3"
+DIST_VERSION="0.0.3"
 DIST_A="Software-License-Apathyware-0.0.3.tar.gz"
 inherit perl-module
 
@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Software-License
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Tie-RefHash
@@ -25,7 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.1.3"
+DIST_VERSION="0.1.3"
 DIST_A="Data-Rx-Tools-ShareDirValidator-0.1.3.tar.gz"
 inherit perl-module
 

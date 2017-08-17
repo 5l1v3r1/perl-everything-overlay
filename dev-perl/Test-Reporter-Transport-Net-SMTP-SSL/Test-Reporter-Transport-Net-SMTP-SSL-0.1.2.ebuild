@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TRCJR"
-DIST_VERSION="v0.1.2"
+DIST_VERSION="0.1.2"
 DIST_A="Test-Reporter-Transport-Net-SMTP-SSL-0.1.2.tar.gz"
 inherit perl-module
 

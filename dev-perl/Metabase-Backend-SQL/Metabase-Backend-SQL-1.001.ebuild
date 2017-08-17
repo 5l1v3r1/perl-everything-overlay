@@ -46,7 +46,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Routine
-	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.920
 "

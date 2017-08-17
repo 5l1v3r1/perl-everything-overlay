@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/URI
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

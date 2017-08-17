@@ -33,7 +33,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
 	>=dev-perl/Plack-1.002.900
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils

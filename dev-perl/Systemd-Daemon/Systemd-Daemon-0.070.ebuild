@@ -27,4 +27,17 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckLib-0.9.0
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Devel-Symdump
+	dev-perl/File-Which
+	dev-perl/IPC-Run3
+	dev-perl/IPC-System-Simple
+	dev-perl/Path-Tiny
+	>=dev-perl/Test-DiagINC-0.002
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Getopt-Long
+	virtual/perl-IO
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
+	virtual/perl-if
 "

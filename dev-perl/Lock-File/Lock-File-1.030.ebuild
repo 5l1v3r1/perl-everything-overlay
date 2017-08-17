@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Any
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

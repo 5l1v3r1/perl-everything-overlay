@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Class-MethodMaker
 	dev-perl/DBI
 	dev-perl/Tie-IxHash
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

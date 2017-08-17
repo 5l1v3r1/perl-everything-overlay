@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="v0.2.7"
+DIST_VERSION="0.2.7"
 DIST_A="Data-Beacon-0.2.7.tar.gz"
 inherit perl-module
 

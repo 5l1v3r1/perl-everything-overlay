@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Encode-Locale
-	dev-perl/base
 	virtual/perl-Encode
 	virtual/perl-Exporter
 	>=virtual/perl-Math-BigInt-1.600
@@ -28,5 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-More-UTF8
-	dev-perl/lib
 "

@@ -27,7 +27,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=dev-perl/Test-Pod-1.140
 	>=dev-perl/Test-Pod-Coverage-1.040
-	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "

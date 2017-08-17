@@ -27,6 +27,5 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
 	dev-perl/McBain
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -23,7 +23,6 @@ RDEPEND="
 	>=dev-perl/Session-Storage-Secure-0.010
 	dev-perl/String-CRC32
 	dev-perl/Time-Duration-Parse
-	dev-perl/base
 	virtual/perl-MIME-Base64
 	virtual/perl-Storable
 "

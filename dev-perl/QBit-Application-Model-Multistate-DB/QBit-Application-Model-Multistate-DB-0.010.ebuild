@@ -16,8 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/QBit-Application-Model-Multistate
-	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="

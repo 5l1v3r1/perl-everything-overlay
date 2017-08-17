@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.000
 	dev-perl/Dist-Zilla-Util-ConfigDumper
 	>=dev-perl/Git-Wrapper-Plus-0.003.100
 	dev-perl/Moose

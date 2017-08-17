@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Class-Data-Accessor
 	dev-perl/HTTP-Message
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Encode

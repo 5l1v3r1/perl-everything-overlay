@@ -17,11 +17,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Email-MIME
+	>=dev-perl/Email-MIME-1.930
 	>=dev-perl/Email-MessageID-1.400
 	>=dev-perl/JSON-2.000
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-0.650
+	dev-perl/Moose
 	dev-perl/String-RewritePrefix
 	dev-perl/YAML-LibYAML
 	virtual/perl-Encode
@@ -31,6 +31,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
-	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "

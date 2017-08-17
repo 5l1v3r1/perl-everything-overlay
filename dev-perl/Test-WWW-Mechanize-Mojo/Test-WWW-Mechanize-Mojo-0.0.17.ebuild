@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.0.17"
+DIST_VERSION="0.0.17"
 DIST_A="Test-WWW-Mechanize-Mojo-v0.0.17.tar.gz"
 inherit perl-module
 
@@ -18,10 +18,9 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/HTML-Parser
-	>=dev-perl/Mojolicious-4.750
+	dev-perl/Mojolicious
 	>=dev-perl/Test-WWW-Mechanize-1.140
 	>=dev-perl/WWW-Mechanize-1.500
-	dev-perl/base
 	>=dev-perl/libwww-perl-5.816
 	virtual/perl-Carp
 	virtual/perl-Encode

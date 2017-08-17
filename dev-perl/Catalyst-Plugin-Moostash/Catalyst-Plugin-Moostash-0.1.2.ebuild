@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROMANF"
-DIST_VERSION="v0.1.2"
+DIST_VERSION="0.1.2"
 DIST_A="Catalyst-Plugin-Moostash-v0.1.2.tar.gz"
 inherit perl-module
 

@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/Pod-Elemental
-	dev-perl/base
 	>=virtual/perl-Pod-Simple-3.130
 "
 DEPEND="

@@ -28,11 +28,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-lang/perl
 	dev-perl/HTTP-Message
 	dev-perl/Import-Into
 	dev-perl/Plack
 	dev-perl/Test-Most
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 "

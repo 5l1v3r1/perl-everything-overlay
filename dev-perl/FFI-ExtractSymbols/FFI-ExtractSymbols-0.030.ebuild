@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=dev-perl/FFI-Platypus-0.180
 	dev-perl/File-Which
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

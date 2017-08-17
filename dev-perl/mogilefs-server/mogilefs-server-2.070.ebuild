@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Net-Netmask
 	>=dev-perl/Perlbal-1.520
 	>=dev-perl/Sys-Syscall-0.220
-	dev-perl/base
 	virtual/perl-Getopt-Long
 	virtual/perl-Sys-Syslog
 "

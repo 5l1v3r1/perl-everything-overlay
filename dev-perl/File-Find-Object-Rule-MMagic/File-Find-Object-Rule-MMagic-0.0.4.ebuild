@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.0.4"
+DIST_VERSION="0.0.4"
 DIST_A="File-Find-Object-Rule-MMagic-v0.0.4.tar.gz"
 inherit perl-module
 

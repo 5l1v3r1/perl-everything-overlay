@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/JSON-Validator
 	dev-perl/Moo
 	dev-perl/YAML-LibYAML
-	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
 	>=virtual/perl-Scalar-List-Utils-1.330

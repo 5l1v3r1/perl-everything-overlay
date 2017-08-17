@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/AnyEvent-1.000
 	dev-perl/Sys-Syscall
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

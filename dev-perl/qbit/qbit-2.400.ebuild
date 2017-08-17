@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/Net-LibIDN
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libintl-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -33,7 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

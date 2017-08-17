@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Log-LogLite
 	dev-perl/SMS-Send
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

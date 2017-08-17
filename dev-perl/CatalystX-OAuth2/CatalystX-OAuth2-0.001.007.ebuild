@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/MooseX-Types-Common
 	dev-perl/Try-Tiny
 	dev-perl/URI
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
@@ -48,7 +47,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
 	dev-perl/Test-WWW-Mechanize-PSGI
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	>=dev-perl/strictures-1.000
 	virtual/perl-File-Spec

@@ -27,7 +27,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Perl-Critic-Progressive
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

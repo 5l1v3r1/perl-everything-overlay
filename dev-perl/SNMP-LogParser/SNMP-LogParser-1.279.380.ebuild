@@ -20,19 +20,22 @@ RDEPEND="
 	>=dev-perl/Config-Properties-Simple-0.140
 	dev-perl/Log-Dispatch-FileRotate
 	dev-perl/Log-Log4perl
+	dev-perl/Pod-Usage
 	dev-perl/Proc-ProcessTable
 	dev-perl/Statistics-Descriptive
-	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/IPC-Run3
+	>=dev-perl/Test-Pod-1.140
+	>=dev-perl/Test-Pod-Coverage-1.040
+	dev-perl/Test-SharedFork
+	virtual/perl-Test-Simple
 "

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="v0.4.0"
+DIST_VERSION="0.4.0"
 DIST_A="File-Dir-Dumper-v0.4.0.tar.gz"
 inherit perl-module
 
@@ -21,12 +21,12 @@ RDEPEND="
 	dev-perl/Devel-CheckOS
 	>=dev-perl/File-Find-Object-0.1.2
 	dev-perl/JSON-MaybeXS
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Digest
 	>=virtual/perl-File-Path-2.000
 	virtual/perl-File-Spec
 	>=virtual/perl-Getopt-Long-2.360
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
 	virtual/perl-parent
@@ -36,7 +36,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-String
-	dev-perl/lib
 	virtual/perl-Digest-MD5
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Temp

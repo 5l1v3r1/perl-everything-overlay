@@ -24,8 +24,6 @@ RDEPEND="
 	>=dev-perl/Module-List-Pluggable-0.010
 	dev-perl/Test-Trap
 	dev-perl/YAML
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-1.000
 	virtual/perl-File-Path

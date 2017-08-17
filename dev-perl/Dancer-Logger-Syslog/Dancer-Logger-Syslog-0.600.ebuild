@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Dancer
-	dev-perl/base
 	virtual/perl-Sys-Syslog
 "
 DEPEND="

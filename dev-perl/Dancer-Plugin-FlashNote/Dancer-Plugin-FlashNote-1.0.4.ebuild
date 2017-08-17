@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="v1.0.4"
+DIST_VERSION="1.0.4"
 DIST_A="Dancer-Plugin-FlashNote-1.0.4.tar.gz"
 inherit perl-module
 

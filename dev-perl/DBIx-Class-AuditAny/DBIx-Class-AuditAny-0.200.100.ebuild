@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/JSON
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-2.000.000
+	dev-perl/Moo
 	>=dev-perl/MooX-Types-MooseLike-0.190
 	dev-perl/Moose
 	>=dev-perl/Path-Class-0.350
@@ -47,8 +47,6 @@ DEPEND="
 	>=dev-perl/Module-Install-1.080
 	dev-perl/String-Random
 	dev-perl/Test-Routine
-	dev-perl/base
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Test-Simple-1.001.002
 "

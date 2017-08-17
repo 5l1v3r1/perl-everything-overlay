@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/base
+	dev-lang/perl
 	virtual/perl-Carp
 	>=virtual/perl-Digest-SHA-5.220
 	>=virtual/perl-Exporter-5.562

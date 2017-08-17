@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/App-Addex
 	dev-perl/Config-INI
 	dev-perl/File-HomeDir
-	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="

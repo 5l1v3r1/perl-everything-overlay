@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/autovivification
 	dev-perl/namespace-autoclean
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 	>=virtual/perl-Term-ANSIColor-3.000
 "
 DEPEND="
@@ -32,7 +32,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Needs
-	dev-perl/lib
 	>=virtual/perl-CPAN-Meta-2.143.240
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata

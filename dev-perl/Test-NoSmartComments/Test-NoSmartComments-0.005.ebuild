@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-ScanDeps
-	dev-perl/base
 	virtual/perl-ExtUtils-Manifest
 	virtual/perl-Test-Simple
 "

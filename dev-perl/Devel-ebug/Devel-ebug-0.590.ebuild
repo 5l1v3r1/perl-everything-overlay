@@ -24,8 +24,6 @@ RDEPEND="
 	dev-perl/Proc-Background
 	dev-perl/String-Koremutake
 	dev-perl/YAML
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec

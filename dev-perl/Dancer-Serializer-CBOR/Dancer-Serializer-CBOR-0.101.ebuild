@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CBOR-XS
 	dev-perl/Dancer
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dancer
+	>=dev-perl/Dancer-1.301.200
 	dev-perl/KiokuDB
 	virtual/perl-Carp
 "

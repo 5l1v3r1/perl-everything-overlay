@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/Mojolicious
 	dev-perl/WWW-Mechanize
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

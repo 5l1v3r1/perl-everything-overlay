@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-Common
 	dev-perl/MooseX-Types-Structured
 	dev-perl/Net-Stomp
-	>=dev-perl/Net-Stomp-MooseHelpers-2.600
+	dev-perl/Net-Stomp-MooseHelpers
 	dev-perl/Path-Class
 	dev-perl/Plack
 	dev-perl/Sub-Exporter
@@ -43,7 +43,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
 	dev-perl/Test-Routine
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

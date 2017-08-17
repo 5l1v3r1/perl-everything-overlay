@@ -17,8 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/base
-	dev-perl/lib
 	>=virtual/perl-Data-Dumper-2.161
 	>=virtual/perl-Exporter-5.710
 	>=virtual/perl-Scalar-List-Utils-1.450

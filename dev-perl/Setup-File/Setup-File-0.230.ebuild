@@ -31,7 +31,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-chdir
 	>=dev-perl/Perinci-Tx-Manager-0.560
-	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

@@ -30,7 +30,6 @@ DEPEND="
 	dev-perl/Test-Fake-HTTPD
 	dev-perl/Test-TCP
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "

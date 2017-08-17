@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAITKEN"
-DIST_VERSION="v1.0.0"
+DIST_VERSION="1.0.0"
 DIST_A="Dancer-Template-MicroTemplate-1.0.0.tar.gz"
 inherit perl-module
 
@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dancer
 	dev-perl/Text-MicroTemplate
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

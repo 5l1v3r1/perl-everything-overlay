@@ -27,7 +27,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-lang/perl
 	>=dev-perl/Capture-Tiny-0.120
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 "

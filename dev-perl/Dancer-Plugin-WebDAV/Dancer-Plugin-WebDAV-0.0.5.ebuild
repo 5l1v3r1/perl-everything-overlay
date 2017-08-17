@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHELLING"
-DIST_VERSION="v0.0.5"
+DIST_VERSION="0.0.5"
 DIST_A="Dancer-Plugin-WebDAV-0.0.5.tar.gz"
 inherit perl-module
 

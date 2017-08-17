@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/URI-ParseSearchString
 	dev-perl/WWW-Mechanize-Cached
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

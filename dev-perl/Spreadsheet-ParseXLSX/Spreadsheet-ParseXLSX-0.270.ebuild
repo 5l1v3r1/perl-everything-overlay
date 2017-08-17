@@ -23,7 +23,6 @@ RDEPEND="
 	dev-perl/OLE-StorageLite
 	>=dev-perl/Spreadsheet-ParseExcel-0.610
 	dev-perl/XML-Twig
-	dev-perl/base
 	virtual/perl-Digest-SHA
 	virtual/perl-Encode
 	virtual/perl-File-Temp

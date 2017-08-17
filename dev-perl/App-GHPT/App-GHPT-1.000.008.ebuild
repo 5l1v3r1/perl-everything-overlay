@@ -37,7 +37,6 @@ RDEPEND="
 	>=dev-perl/WebService-PivotalTracker-0.040
 	dev-perl/experimental
 	dev-perl/indirect
-	dev-perl/lib
 	dev-perl/multidimensional
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Scalar-List-Utils-1.440
@@ -50,7 +49,7 @@ DEPEND="
 	dev-perl/File-Which
 	dev-perl/File-pushd
 	dev-perl/Hash-Objectify
-	dev-perl/Test-Class-Moose
+	>=dev-perl/Test-Class-Moose-0.820
 	dev-perl/Test-Differences
 	dev-perl/Test-Output
 	dev-perl/Try-Tiny

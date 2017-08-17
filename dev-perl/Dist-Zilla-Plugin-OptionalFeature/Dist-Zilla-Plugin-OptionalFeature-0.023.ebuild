@@ -38,7 +38,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Warnings-0.009
 	dev-perl/YAML-Tiny
-	dev-perl/lib
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata

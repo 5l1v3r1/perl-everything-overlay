@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Path-Class
 	dev-perl/Tie-IxHash
-	dev-perl/base
 	>=dev-perl/namespace-autoclean-0.120
 "
 DEPEND="

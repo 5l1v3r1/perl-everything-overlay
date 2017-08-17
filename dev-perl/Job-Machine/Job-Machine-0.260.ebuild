@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/Data-Serializer
 	dev-perl/Data-Serializer-Sereal
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

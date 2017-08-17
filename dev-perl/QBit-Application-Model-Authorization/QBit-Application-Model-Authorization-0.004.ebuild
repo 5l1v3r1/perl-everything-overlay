@@ -16,11 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Crypt-CBC
 	dev-perl/Exceptions
 	dev-perl/QBit-Application
 	dev-perl/QBit-Application-Model-DB
-	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-Digest-SHA
 "

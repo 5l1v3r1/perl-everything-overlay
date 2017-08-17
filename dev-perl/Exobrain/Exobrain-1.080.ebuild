@@ -40,7 +40,6 @@ RDEPEND="
 	>=dev-perl/WebService-RTMAgent-0.600
 	dev-perl/ZMQ
 	dev-perl/ZMQ-Constants
-	dev-perl/lib
 	dev-perl/utf8-all
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

@@ -33,8 +33,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/DBD-SQLite
 	dev-perl/DBIx-Class
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

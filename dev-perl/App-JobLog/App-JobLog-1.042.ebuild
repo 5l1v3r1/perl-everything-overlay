@@ -30,7 +30,6 @@ RDEPEND="
 	>=dev-perl/TermReadKey-2.300
 	dev-perl/Text-WrapI18N
 	dev-perl/autouse
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	>=virtual/perl-File-Path-2.060

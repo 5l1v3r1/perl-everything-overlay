@@ -28,7 +28,6 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/SQL-Translator-0.110.160
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA
 "

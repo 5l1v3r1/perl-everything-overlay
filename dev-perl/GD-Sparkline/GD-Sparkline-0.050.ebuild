@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-perl/GD-2.410
 	>=dev-perl/Math-Bezier-0.010
 	>=dev-perl/Readonly-1.030
-	>=dev-perl/base-2.130
 	>=virtual/perl-Carp-1.080
 "
 DEPEND="

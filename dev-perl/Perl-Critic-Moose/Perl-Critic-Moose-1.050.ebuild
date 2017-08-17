@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Perl-Critic
 	dev-perl/Readonly
-	dev-perl/base
 	dev-perl/namespace-autoclean
 "
 DEPEND="

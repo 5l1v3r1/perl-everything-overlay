@@ -73,7 +73,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-File-ShareDir-0.3.0
 	dev-perl/Test-Output
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple

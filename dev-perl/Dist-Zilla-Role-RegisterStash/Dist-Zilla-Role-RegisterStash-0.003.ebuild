@@ -28,7 +28,6 @@ DEPEND="
 	>=dev-perl/Test-CheckDeps-0.010
 	dev-perl/aliased
 	>=dev-perl/autobox-Core-1.240
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

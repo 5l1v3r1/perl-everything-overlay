@@ -28,7 +28,6 @@ RDEPEND="
 	>=dev-perl/Rose-Object-0.854
 	>=dev-perl/Rose-URI-0.021
 	dev-perl/URI
-	>=dev-perl/base-2.180
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Path

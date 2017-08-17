@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Math-Combinatorics
 	dev-perl/Test-Deep
-	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="

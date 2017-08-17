@@ -37,7 +37,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Needs
-	dev-perl/lib
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata

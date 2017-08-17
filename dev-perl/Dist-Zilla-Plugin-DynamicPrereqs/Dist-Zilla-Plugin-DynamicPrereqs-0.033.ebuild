@@ -42,7 +42,6 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-File-ShareDir
 	dev-perl/Test-Needs
-	dev-perl/lib
 	virtual/perl-CPAN
 	virtual/perl-File-Spec
 	>=virtual/perl-Module-CoreList-3.060

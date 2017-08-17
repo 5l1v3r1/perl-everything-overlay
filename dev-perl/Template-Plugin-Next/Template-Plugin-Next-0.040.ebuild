@@ -18,13 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Template-Toolkit
-	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Simple

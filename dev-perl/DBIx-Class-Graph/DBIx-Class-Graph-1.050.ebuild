@@ -22,7 +22,6 @@ RDEPEND="
 	>=dev-perl/Graph-0.940
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
-	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

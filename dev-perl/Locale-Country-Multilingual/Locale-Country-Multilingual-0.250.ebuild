@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Data-Inheritable
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 "

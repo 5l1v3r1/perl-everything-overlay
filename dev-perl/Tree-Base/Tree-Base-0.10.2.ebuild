@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.10.2"
+DIST_VERSION="0.10.2"
 DIST_A="Tree-Base-v0.10.2.tar.gz"
 inherit perl-module
 

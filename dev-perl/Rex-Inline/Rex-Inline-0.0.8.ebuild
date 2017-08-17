@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XIAOCANG"
-DIST_VERSION="v0.0.8"
+DIST_VERSION="0.0.8"
 DIST_A="Rex-Inline-0.0.8.tar.gz"
 inherit perl-module
 

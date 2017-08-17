@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/Plack
 	dev-perl/Test-WWW-Mechanize
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="

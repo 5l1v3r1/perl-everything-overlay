@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEKINGSAM"
-DIST_VERSION="v0.0.12"
+DIST_VERSION="0.0.12"
 DIST_A="BioX-Map-0.0.12.tar.gz"
 inherit perl-module
 
@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/MooX-Options
 	dev-perl/Parallel-ForkManager
 	dev-perl/Type-Tiny
-	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="

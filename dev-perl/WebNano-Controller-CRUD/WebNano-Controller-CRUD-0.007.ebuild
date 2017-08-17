@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/HTML-FormHandler-Model-DBIC
 	dev-perl/Moose
 	dev-perl/MooseX-NonMoose
-	dev-perl/WebNano
+	>=dev-perl/WebNano-0.007
 	dev-perl/WebNano-Renderer-TT
 	virtual/perl-File-Spec
 "
@@ -35,6 +35,5 @@ DEPEND="
 	dev-perl/DateTime
 	dev-perl/HTTP-Message
 	dev-perl/Plack
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

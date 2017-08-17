@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Moo
 	dev-perl/autobox-Core
-	dev-perl/base
 	dev-perl/true
 	virtual/perl-Carp
 	virtual/perl-Storable

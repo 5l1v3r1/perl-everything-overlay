@@ -20,7 +20,6 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/Try-Tiny-0.240
 	>=dev-perl/WWW-Shorten-3.090
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "

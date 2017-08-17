@@ -30,7 +30,6 @@ RDEPEND="
 	dev-perl/WWW-Mechanize
 	dev-perl/XML-LibXML
 	dev-perl/XML-Simple
-	dev-perl/base
 	dev-perl/libwww-perl
 	>=dev-perl/namespace-autoclean-0.110
 	virtual/perl-Carp
@@ -47,5 +46,5 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-WWW-Mechanize
 	dev-perl/Test-XML
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "

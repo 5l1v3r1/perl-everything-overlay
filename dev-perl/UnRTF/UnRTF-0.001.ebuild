@@ -16,10 +16,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Modern-Perl
 	dev-perl/Moose
 	dev-perl/Test-Class
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

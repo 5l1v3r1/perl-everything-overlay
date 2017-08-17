@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.039
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
@@ -28,7 +28,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Needs
-	dev-perl/lib
 	virtual/perl-CPAN-Meta
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata

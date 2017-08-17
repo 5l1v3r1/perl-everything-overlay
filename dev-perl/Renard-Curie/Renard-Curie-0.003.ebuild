@@ -41,7 +41,6 @@ RDEPEND="
 	dev-perl/Test-Deep
 	dev-perl/URI
 	dev-perl/glib-perl
-	dev-perl/lib
 	virtual/perl-File-Spec
 "
 DEPEND="

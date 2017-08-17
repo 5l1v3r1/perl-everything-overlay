@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSIMOES"
-DIST_VERSION="v0.1.6"
+DIST_VERSION="0.1.6"
 DIST_A="Dancer-Session-CHI-v0.1.6.tar.gz"
 inherit perl-module
 
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/CHI
-	>=dev-perl/Dancer-1.311.100
+	dev-perl/Dancer
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

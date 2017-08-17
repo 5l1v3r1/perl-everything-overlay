@@ -17,10 +17,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Bot-BasicBot-Pluggable
+	>=dev-perl/Bot-BasicBot-Pluggable-0.870
 	dev-perl/POE
 	dev-perl/YAML
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

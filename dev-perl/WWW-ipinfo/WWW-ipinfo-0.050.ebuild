@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
-	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-HTTP-Tiny
 "

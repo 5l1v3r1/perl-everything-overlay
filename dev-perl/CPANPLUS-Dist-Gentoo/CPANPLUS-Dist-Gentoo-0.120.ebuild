@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CPANPLUS
-	dev-perl/base
 	virtual/perl-CPAN-Meta
 	virtual/perl-Carp
 	virtual/perl-File-Path

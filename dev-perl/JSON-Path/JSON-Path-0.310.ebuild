@@ -24,7 +24,6 @@ RDEPEND="
 	dev-perl/LV
 	dev-perl/Readonly
 	dev-perl/Try-Tiny
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Safe

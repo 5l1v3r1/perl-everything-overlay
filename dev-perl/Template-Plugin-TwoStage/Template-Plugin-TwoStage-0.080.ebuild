@@ -22,7 +22,6 @@ RDEPEND="
 	dev-perl/Template-Toolkit
 	dev-perl/URI
 	dev-perl/URI-Escape-XS
-	dev-perl/base
 	virtual/perl-Encode
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
@@ -31,7 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

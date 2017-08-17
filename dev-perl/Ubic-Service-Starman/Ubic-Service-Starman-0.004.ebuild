@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Starman
 	dev-perl/Ubic-Service-Plack
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

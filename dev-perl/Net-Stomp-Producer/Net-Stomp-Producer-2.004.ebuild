@@ -36,6 +36,5 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Warn
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINS"
-DIST_VERSION="v0.4.0"
+DIST_VERSION="0.4.0"
 DIST_A="App-GitHubPullRequest-0.4.0.tar.gz"
 inherit perl-module
 
@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
-	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Spec

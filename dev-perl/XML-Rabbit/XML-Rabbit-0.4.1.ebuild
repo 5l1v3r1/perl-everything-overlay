@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINS"
-DIST_VERSION="v0.4.1"
+DIST_VERSION="0.4.1"
 DIST_A="XML-Rabbit-0.4.1.tar.gz"
 inherit perl-module
 
@@ -31,6 +31,5 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Exception
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

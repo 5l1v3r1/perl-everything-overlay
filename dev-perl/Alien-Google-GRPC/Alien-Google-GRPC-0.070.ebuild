@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Alien-Build
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

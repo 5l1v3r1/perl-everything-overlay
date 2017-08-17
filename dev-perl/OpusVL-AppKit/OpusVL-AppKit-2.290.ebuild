@@ -32,7 +32,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 	>=dev-perl/Catalyst-Plugin-Static-Simple-0.300
-	>=dev-perl/Catalyst-Runtime-5.900.510
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-Download
 	dev-perl/Catalyst-View-Email
 	dev-perl/Catalyst-View-Excel-Template-Plus

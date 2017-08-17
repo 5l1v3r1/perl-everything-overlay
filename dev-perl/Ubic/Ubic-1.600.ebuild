@@ -24,6 +24,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
 	dev-perl/Params-Validate
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -32,7 +33,6 @@ RDEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Getopt-Long-2.330
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
 	virtual/perl-Term-ANSIColor
@@ -44,6 +44,5 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Class
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

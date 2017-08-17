@@ -36,9 +36,18 @@ RDEPEND="
 	virtual/perl-Math-BigInt
 	>=virtual/perl-Socket-1.870
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Math-Int128
+	>=dev-perl/Net-Works-0.210
+	dev-perl/Path-Class
+	dev-perl/Test-Bits
+	dev-perl/Test-Fatal
+	dev-perl/Test-Number-Delta
+	virtual/perl-Exporter
+	virtual/perl-File-Spec
+	>=virtual/perl-Scalar-List-Utils-1.420
+	>=virtual/perl-Test-Simple-0.960
 "

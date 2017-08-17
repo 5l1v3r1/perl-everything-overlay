@@ -25,10 +25,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
+	dev-lang/perl
 	>=dev-perl/Test-Exception-0.310
 	>=dev-perl/Test-MockObject-1.201.203.010
 	>=dev-perl/Try-Tiny-0.160
-	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.980

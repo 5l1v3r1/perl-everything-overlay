@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/HTTP-Message-6.050
 	>=dev-perl/Module-Patch-0.120
-	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}

@@ -34,7 +34,6 @@ RDEPEND="
 	dev-perl/Text-Padding
 	dev-perl/Text-Trim
 	dev-perl/URI
-	dev-perl/lib
 	dev-perl/libintl-perl
 	dev-perl/libwww-perl
 	virtual/perl-Encode

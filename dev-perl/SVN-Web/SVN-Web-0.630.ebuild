@@ -27,7 +27,6 @@ RDEPEND="
 	dev-perl/TimeDate
 	dev-perl/URI
 	dev-perl/YAML
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Path

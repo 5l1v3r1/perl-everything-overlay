@@ -36,8 +36,6 @@ DEPEND="
 	>=dev-perl/Catalyst-Devel-1.330
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
-	dev-perl/base
-	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.890

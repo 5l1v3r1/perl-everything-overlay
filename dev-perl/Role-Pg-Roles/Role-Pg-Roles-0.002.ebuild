@@ -28,6 +28,5 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Class
 	dev-perl/Test-Pod-Coverage
-	dev-perl/base
 	virtual/perl-Test-Simple
 "

@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/File-Which
 	dev-perl/File-chdir
 	dev-perl/IO-Interactive
-	dev-perl/Lingua-Interset
+	>=dev-perl/Lingua-Interset-2.050
 	dev-perl/List-MoreUtils
 	dev-perl/Locale-Codes
 	dev-perl/Module-Reload
@@ -41,7 +41,6 @@ RDEPEND="
 	dev-perl/Treex-PML
 	dev-perl/UNIVERSAL-DOES
 	>=dev-perl/YAML-0.720
-	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp

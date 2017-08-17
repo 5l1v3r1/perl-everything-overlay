@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/DBM-Deep
 	dev-perl/Sub-Exporter
 	dev-perl/YAML-Syck
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

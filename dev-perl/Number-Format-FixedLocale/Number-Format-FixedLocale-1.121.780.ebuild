@@ -16,15 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Number-Format
-	dev-perl/base
 	dev-perl/strictures
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-lang/perl
 	dev-perl/Test-InDistDir
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

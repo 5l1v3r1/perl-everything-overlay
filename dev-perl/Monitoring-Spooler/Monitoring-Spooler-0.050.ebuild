@@ -34,7 +34,6 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/XMLRPC-Lite
-	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Temp

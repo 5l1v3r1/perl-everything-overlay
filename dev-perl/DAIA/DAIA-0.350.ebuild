@@ -25,7 +25,6 @@ RDEPEND="
 	dev-perl/IO-stringy
 	dev-perl/JSON
 	dev-perl/XML-Simple
-	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

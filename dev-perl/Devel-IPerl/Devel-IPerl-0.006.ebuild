@@ -20,6 +20,7 @@ RDEPEND="
 	dev-perl/Capture-Tiny
 	dev-perl/Chart-Clicker
 	dev-perl/Devel-REPL
+	dev-perl/Env
 	dev-perl/File-Copy-Recursive
 	dev-perl/File-ShareDir-ProjectDistDir
 	dev-perl/HTML-FromANSI
@@ -40,10 +41,8 @@ RDEPEND="
 	dev-perl/UUID-Tiny
 	dev-perl/ZMQ-Constants
 	dev-perl/ZMQ-LibZMQ3
-	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
-	perl-core/Env
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -52,10 +51,12 @@ RDEPEND="
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "

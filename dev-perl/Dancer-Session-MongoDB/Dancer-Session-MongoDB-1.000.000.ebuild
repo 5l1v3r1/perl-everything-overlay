@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dancer
 	dev-perl/MongoDB
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-version
 "

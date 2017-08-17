@@ -19,7 +19,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
 	dev-perl/Math-Geometry-Planar-GPC-PolygonXS
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils

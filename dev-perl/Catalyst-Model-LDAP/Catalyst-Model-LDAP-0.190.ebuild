@@ -17,11 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Catalyst-Runtime-5.620
+	dev-perl/Catalyst-Runtime
 	dev-perl/Class-Accessor
 	dev-perl/Data-Page
 	dev-perl/MRO-Compat
-	dev-perl/base
 	dev-perl/perl-ldap
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -29,6 +28,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/lib
 	virtual/perl-Test-Simple
 "

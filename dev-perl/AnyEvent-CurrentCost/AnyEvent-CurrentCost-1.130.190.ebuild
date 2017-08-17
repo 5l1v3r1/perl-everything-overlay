@@ -19,16 +19,19 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/AnyEvent
 	>=dev-perl/AnyEvent-SerialPort-1.130.171
-	>=dev-perl/Device-CurrentCost-1.130.190
+	dev-perl/Device-CurrentCost
+	dev-perl/Pod-Usage
 	dev-perl/Sub-Name
-	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Requires
+	dev-perl/Test-SharedFork
+	dev-perl/Test-Warn
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "
