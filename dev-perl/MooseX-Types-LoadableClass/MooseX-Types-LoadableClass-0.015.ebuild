@@ -28,7 +28,6 @@ DEPEND="
 	dev-perl/Class-Load
 	dev-perl/Moose
 	dev-perl/Test-Fatal
-	dev-perl/lib
 	>=dev-perl/namespace-clean-0.190
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
