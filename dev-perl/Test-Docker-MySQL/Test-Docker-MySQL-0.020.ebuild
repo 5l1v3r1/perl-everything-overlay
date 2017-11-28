@@ -1,0 +1,29 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+EAPI=6
+
+DIST_AUTHOR="PUNYTAN"
+DIST_VERSION="0.02"
+DIST_A="Test-Docker-MySQL-0.02.tar.gz"
+inherit perl-module
+
+DESCRIPTION="No description available"
+
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE="test"
+
+RDEPEND="
+	>=dev-perl/DBD-mysql-4.027
+	>=dev-perl/DBI-1.631
+	>=dev-perl/IPC-Run-0.920
+	>=virtual/perl-Time-HiRes-1.972.600
+"
+DEPEND="
+	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.036
+	>=dev-perl/Test-SharedFork-0.240
+	>=virtual/perl-Test-Simple-1.001.002
+"

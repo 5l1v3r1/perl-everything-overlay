@@ -1,0 +1,32 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+EAPI=6
+
+DIST_AUTHOR="ILMARI"
+DIST_VERSION="0.1506"
+DIST_A="Catalyst-Authentication-Store-DBIx-Class-0.1506.tar.gz"
+inherit perl-module
+
+DESCRIPTION="No description available"
+
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE="test"
+
+RDEPEND="
+	>=dev-perl/Catalyst-Model-DBIC-Schema-0.180
+	>=dev-perl/Catalyst-Plugin-Authentication-0.100.080
+	>=dev-perl/Catalyst-Runtime-5.800
+	>=dev-perl/DBIx-Class-0.080
+	dev-perl/List-MoreUtils
+	dev-perl/Moose
+	dev-perl/Try-Tiny
+	dev-perl/namespace-autoclean
+	virtual/perl-Test-Simple
+"
+DEPEND="
+	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+"
