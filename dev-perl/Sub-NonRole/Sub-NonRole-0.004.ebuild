@@ -24,6 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.000
 	dev-perl/Test-Requires
 "

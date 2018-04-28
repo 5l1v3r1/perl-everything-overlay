@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Authen-SASL-2.160
-	>=dev-perl/Dancer2-0.200.000
+	dev-perl/Dancer2
 	dev-perl/Email-Date-Format
 	dev-perl/Email-Sender
 	dev-perl/File-Type

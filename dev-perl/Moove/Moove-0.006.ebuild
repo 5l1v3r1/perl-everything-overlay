@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Function-Parameters-1.070.300
 	>=dev-perl/Import-Into-1.002.004
 	>=dev-perl/Syntax-Feature-Try-1.003
-	>=dev-perl/Type-Tiny-1.000.006
+	dev-perl/Type-Tiny
 	>=dev-perl/strictures-2.000
 	dev-perl/syntax
 	virtual/perl-Carp

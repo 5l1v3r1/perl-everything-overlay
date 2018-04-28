@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DataFlow-1.112.100
 	dev-perl/HTML-TreeBuilder-XPath
-	dev-perl/Moose
+	>=dev-perl/Moose-1.010
 	dev-perl/MooseX-Aliases
 	dev-perl/namespace-autoclean
 "

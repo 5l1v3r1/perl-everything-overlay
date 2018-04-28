@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/IO-Async-0.240
+	>=dev-perl/IO-Async-0.200
 	>=dev-perl/IO-Ppoll-0.050
 "
 DEPEND="

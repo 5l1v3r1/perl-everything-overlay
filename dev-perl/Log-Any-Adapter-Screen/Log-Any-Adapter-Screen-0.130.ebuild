@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-0.110
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Time-HiRes
 	virtual/perl-parent

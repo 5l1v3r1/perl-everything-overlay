@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Authen-SASL
 	>=dev-perl/Email-Sender-1.300.006
-	>=dev-perl/Email-Simple-2.201
+	dev-perl/Email-Simple
 	dev-perl/Method-Signatures
 	>=dev-perl/YAML-LibYAML-0.410
 	>=virtual/perl-Carp-1.260

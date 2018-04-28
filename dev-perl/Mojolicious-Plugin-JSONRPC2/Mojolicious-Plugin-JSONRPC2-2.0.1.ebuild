@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-RPC2-0.4.0
 	dev-perl/JSON-XS
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-5.110
 "
 DEPEND="
 	${RDEPEND}

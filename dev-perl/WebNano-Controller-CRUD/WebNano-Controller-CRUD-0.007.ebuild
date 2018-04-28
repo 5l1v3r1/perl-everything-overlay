@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/HTML-FormHandler-Model-DBIC
 	dev-perl/Moose
 	dev-perl/MooseX-NonMoose
-	>=dev-perl/WebNano-0.007
+	dev-perl/WebNano
 	dev-perl/WebNano-Renderer-TT
 	virtual/perl-File-Spec
 "

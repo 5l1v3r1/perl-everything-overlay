@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	>=dev-perl/Moose-Autobox-0.080
-	>=dev-perl/Pod-Elemental-0.092.930
+	dev-perl/Pod-Elemental
 	dev-perl/Pod-Elemental-PerlMunger
 	dev-perl/namespace-autoclean
 "

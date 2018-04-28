@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/DateTime-TimeZone-SystemV-0.009
 	dev-perl/Params-Classify
 	virtual/perl-Carp
-	>=virtual/perl-IO-1.130
+	>=virtual/perl-IO-1.080
 "
 DEPEND="
 	${RDEPEND}

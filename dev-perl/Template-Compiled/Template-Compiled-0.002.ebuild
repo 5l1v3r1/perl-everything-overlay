@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Exporter-Tiny
 	dev-perl/HTML-Parser
 	>=dev-perl/Moo-2.000.000
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-1.002.000
 	dev-perl/namespace-autoclean
 "
 DEPEND="

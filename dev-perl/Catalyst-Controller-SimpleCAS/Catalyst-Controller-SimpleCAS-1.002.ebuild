@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/CatalystX-InjectComponent
 	dev-perl/Digest-SHA1
 	>=dev-perl/Email-MIME-1.929
-	>=dev-perl/Email-MIME-CreateHTML-1.042
+	dev-perl/Email-MIME-CreateHTML
 	>=dev-perl/Email-Simple-2.206
 	dev-perl/File-MimeInfo
 	dev-perl/HTML-Encoding

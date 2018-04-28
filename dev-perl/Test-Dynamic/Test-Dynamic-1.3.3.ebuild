@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=virtual/perl-Test-Harness-2.030
-	>=virtual/perl-Test-Simple-0.610
+	>=virtual/perl-Test-Simple-0.300
 "
 DEPEND="
 	${RDEPEND}

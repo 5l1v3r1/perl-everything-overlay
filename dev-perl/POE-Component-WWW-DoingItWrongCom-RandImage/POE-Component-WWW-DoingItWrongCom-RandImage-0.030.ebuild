@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-1.192
+	>=dev-perl/POE-0.999.900
 	>=dev-perl/WWW-DoingItWrongCom-RandImage-0.010
 	>=virtual/perl-Carp-1.040
 "

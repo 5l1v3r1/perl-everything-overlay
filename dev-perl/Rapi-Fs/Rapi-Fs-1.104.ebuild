@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Plack
 	dev-perl/Pod-Usage
-	>=dev-perl/RapidApp-1.040
+	dev-perl/RapidApp
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	dev-perl/experimental

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Dancer
 	dev-perl/IPC-Run
-	>=dev-perl/Moo-1.000
+	dev-perl/Moo
 	dev-perl/Readonly
 	dev-perl/Type-Tiny
 	dev-perl/Wx

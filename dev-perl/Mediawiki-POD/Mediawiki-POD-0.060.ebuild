@@ -18,7 +18,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Graph-Easy-0.550
-	>=virtual/perl-Pod-Simple-3.040
+	>=virtual/perl-Pod-Simple-3.030
 	>=virtual/perl-Scalar-List-Utils-1.130
 "
 DEPEND="

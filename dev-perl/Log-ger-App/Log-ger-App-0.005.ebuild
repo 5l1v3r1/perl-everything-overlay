@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-ger-0.023
+	>=dev-perl/Log-ger-0.005
 	dev-perl/Log-ger-Layout-Pattern
 	>=dev-perl/Log-ger-Output-Composite-0.005
 	>=dev-perl/Log-ger-Output-File-0.002

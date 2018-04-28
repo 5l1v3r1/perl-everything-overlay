@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Data-InputMonster
+	>=dev-perl/Data-InputMonster-0.007
 	dev-perl/Sub-Exporter
 	virtual/perl-Carp
 "

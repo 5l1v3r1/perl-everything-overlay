@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Log-Dispatchouli
 	dev-perl/Moose
 	dev-perl/Pod-Elemental
-	>=dev-perl/Pod-Weaver-4.000
+	dev-perl/Pod-Weaver
 	dev-perl/namespace-autoclean
 	virtual/perl-Pod-Parser
 "

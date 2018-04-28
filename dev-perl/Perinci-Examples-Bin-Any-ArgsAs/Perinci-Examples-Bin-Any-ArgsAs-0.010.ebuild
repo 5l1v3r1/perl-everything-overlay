@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Perinci-CmdLine-Any
-	dev-perl/Perinci-Examples
+	>=dev-perl/Perinci-Examples-0.710
 "
 DEPEND="
 	${RDEPEND}

@@ -19,9 +19,8 @@ RDEPEND="
 	>=dev-perl/Class-Accessor-0.300
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Exporter-5.000
-	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.420
 "

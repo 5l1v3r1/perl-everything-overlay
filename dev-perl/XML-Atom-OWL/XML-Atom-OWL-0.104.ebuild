@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DateTime
 	>=dev-perl/HTTP-Link-Parser-0.100
 	>=dev-perl/RDF-Trine-0.135
-	dev-perl/URI
+	>=dev-perl/URI-1.300
 	>=dev-perl/XML-LibXML-1.700
 	dev-perl/common-sense
 	dev-perl/libwww-perl

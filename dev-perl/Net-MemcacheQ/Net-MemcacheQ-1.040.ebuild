@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.05.01
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/base-2.130
 	>=virtual/perl-Carp-1.080

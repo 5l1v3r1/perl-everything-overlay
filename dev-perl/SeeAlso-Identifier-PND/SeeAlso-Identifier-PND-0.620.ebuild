@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/SeeAlso-Server-0.540
+	>=dev-perl/SeeAlso-Server-0.460
 "
 DEPEND="
 	${RDEPEND}

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Bricklayer-Templater-0.9.4
-	>=dev-perl/Catalyst-Runtime-5.700
+	dev-perl/Catalyst-Runtime
 	dev-perl/NEXT
 	>=dev-perl/Test-MockObject-1.080
 	virtual/perl-Carp

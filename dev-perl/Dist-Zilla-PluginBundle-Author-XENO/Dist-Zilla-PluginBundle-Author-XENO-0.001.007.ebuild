@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-5.000
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-AutoMetaResources
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-CheckExtraTests

@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Net-Async-Tangence-0.130
 	dev-perl/String-Tagged
 	>=dev-perl/Tangence-0.20.001
-	>=dev-perl/Tickit-0.420
+	>=dev-perl/Tickit-0.580
 	>=dev-perl/Tickit-Async-0.210
 	>=dev-perl/Tickit-Widget-Scroller-0.150
 	>=dev-perl/Tickit-Widget-Tabbed-0.019

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/List-AllUtils
-	>=dev-perl/Mojolicious-6.210
+	dev-perl/Mojolicious
 	>=dev-perl/Moo-2.000.002
 	>=dev-perl/Number-RGB-1.410
 	>=dev-perl/PDF-Reuse-0.360
@@ -30,7 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

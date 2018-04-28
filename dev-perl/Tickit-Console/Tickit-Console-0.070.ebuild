@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/String-Tagged-0.100
-	dev-perl/Tickit
+	>=dev-perl/Tickit-0.450
 	>=dev-perl/Tickit-Widget-Scroller-0.040
 	>=dev-perl/Tickit-Widget-Tabbed-0.015
 	dev-perl/Tickit-Widgets

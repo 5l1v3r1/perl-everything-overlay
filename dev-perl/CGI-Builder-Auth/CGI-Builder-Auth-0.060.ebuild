@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CGI-Builder-1.110
-	>=dev-perl/OOTools-1.750
+	>=dev-perl/OOTools-1.700
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Scalar-List-Utils

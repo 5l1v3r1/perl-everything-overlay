@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Build-1.000
+	>=dev-perl/Alien-Build-1.210
 	dev-perl/ExtUtils-CppGuess
 	>=dev-perl/Test2-Suite-0.000.060
 	virtual/perl-ExtUtils-CBuilder

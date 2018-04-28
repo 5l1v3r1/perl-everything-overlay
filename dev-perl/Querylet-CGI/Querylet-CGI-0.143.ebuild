@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CGI
-	dev-perl/Querylet
+	>=dev-perl/Querylet-0.280
 	virtual/perl-parent
 "
 DEPEND="

@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/XML-LibXML-1.900
+	dev-perl/XML-LibXML
 "
 DEPEND="
 	${RDEPEND}

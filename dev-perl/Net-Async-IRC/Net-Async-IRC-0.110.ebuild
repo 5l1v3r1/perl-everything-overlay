@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/IO-Async-0.540
+	>=dev-perl/IO-Async-0.590
 	>=dev-perl/Protocol-IRC-0.120
 	virtual/perl-Time-HiRes
 "

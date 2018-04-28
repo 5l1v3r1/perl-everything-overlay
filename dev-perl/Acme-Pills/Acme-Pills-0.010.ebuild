@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-IO-1.250
+	>=virtual/perl-IO-1.390
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

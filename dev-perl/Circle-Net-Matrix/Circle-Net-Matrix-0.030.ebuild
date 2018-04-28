@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Net-Async-Matrix-0.180.030
 	dev-perl/String-Tagged
-	>=dev-perl/circle-be-0.142.470
+	dev-perl/circle-be
 "
 DEPEND="
 	${RDEPEND}

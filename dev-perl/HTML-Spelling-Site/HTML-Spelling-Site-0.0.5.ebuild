@@ -33,5 +33,5 @@ DEPEND="
 	dev-perl/Text-Hunspell
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "

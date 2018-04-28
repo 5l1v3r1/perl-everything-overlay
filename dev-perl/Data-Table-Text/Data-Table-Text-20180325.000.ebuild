@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.170
+	dev-lang/perl
 	dev-perl/Data-Dump
 	dev-perl/JSON
 	dev-perl/String-Numeric

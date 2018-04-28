@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Encode-Base58
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-1.560
 	dev-perl/JSON
 	dev-perl/LWP-Online
 	dev-perl/LWP-Protocol-https

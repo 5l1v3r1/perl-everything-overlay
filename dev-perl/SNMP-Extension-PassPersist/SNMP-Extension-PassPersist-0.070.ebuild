@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.210
 	virtual/perl-Carp
 	>=virtual/perl-Getopt-Long-2.040
-	>=virtual/perl-IO-1.120
+	>=virtual/perl-IO-1.100
 	virtual/perl-Sys-Syslog
 	>=virtual/perl-parent-0.221
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/AnyData2-0.002
-	>=dev-perl/DBI-1.633
+	>=dev-perl/DBI-0.440
 	dev-perl/Module-Runtime
 	>=dev-perl/SQL-Statement-1.405
 	virtual/perl-Carp

@@ -16,13 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Class-Accessor-0.310
-	>=dev-perl/HTML-LinkExtractor-0.130
-	>=dev-perl/HTML-Tree-3.230
-	>=dev-perl/Text-CSV-XS-0.290
-	>=dev-perl/WWW-Mechanize-1.520
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
 "

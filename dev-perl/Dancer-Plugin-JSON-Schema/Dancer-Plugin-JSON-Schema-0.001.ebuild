@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dancer
+	>=dev-perl/Dancer-1.309.800
 	dev-perl/JSON
 	dev-perl/JSON-Hyper
 	dev-perl/JSON-Schema

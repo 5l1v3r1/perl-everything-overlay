@@ -65,7 +65,7 @@ RDEPEND="
 	>=dev-perl/HTML-Template-Expr-0.070
 	>=dev-perl/HTTP-BrowserDetect-1.190
 	dev-perl/HTTP-Exception
-	>=dev-perl/HTTP-Message-1.610
+	>=dev-perl/HTTP-Message-1.400
 	dev-perl/IO-File-WithPath
 	dev-perl/IO-Socket-SSL
 	>=dev-perl/Image-ExifTool-8.000
@@ -95,7 +95,7 @@ RDEPEND="
 	>=dev-perl/POE-Component-Client-DNS-1.051
 	>=dev-perl/POE-Component-Client-HTTP-0.880
 	>=dev-perl/POE-Component-Client-Keepalive-0.262
-	>=dev-perl/POE-Component-IKC-0.200.200
+	>=dev-perl/POE-Component-IKC-0.200.100
 	dev-perl/Package-Stash
 	>=dev-perl/Params-Validate-0.910
 	>=dev-perl/Path-Class-0.160
@@ -151,7 +151,7 @@ RDEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	>=virtual/perl-Text-Balanced-2.000
 	>=virtual/perl-Time-HiRes-1.971.900
-	>=virtual/perl-libnet-2.310
+	>=virtual/perl-libnet-2.290
 "
 DEPEND="
 	${RDEPEND}

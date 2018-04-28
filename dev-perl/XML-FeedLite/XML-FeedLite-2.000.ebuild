@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Parser-1.350
-	>=dev-perl/HTTP-Message-1.400
+	>=dev-perl/HTTP-Message-1.640
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/WWW-Curl-Simple-0.100.181
 	>=virtual/perl-MIME-Base64-3.07.01

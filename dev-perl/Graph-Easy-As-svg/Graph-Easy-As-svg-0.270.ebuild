@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Graph-Easy-0.630
+	dev-perl/Graph-Easy
 	>=dev-perl/Image-Info-1.280
 	>=virtual/perl-Test-Simple-0.880
 "

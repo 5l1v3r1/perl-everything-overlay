@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Module-Path-0.090
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-4.070
 	>=dev-perl/Pod-Cpandoc-0.150
 	virtual/perl-File-Path
 	virtual/perl-File-Spec

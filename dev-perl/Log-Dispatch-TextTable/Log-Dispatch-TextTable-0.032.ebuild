@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-Dispatch-2.000
+	dev-perl/Log-Dispatch
 	dev-perl/Text-Table
 	virtual/perl-parent
 "

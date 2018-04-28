@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Interpolator
-	>=dev-perl/Time-TT-0.004
+	dev-perl/Time-TT
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Exporter

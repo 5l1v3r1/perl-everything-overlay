@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-2.000
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
 	dev-perl/Moose
 	dev-perl/Pod-Elemental

@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Test-Version-1.002.003
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	virtual/perl-Pod-Simple
+	>=virtual/perl-Pod-Simple-3.010
 	>=virtual/perl-Test-Simple-1.001.014
 "
 DEPEND="

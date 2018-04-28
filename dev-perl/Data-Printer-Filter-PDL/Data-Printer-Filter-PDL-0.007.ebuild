@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Printer-0.360
+	dev-perl/Data-Printer
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="

@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
 	>=dev-perl/Modern-Perl-1.030
-	dev-perl/Moose
+	>=dev-perl/Moose-0.930
 	dev-perl/Set-Scalar
 	dev-perl/Text-CSV-XS
 	dev-perl/URI

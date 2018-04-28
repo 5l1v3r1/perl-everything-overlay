@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTML-Tree
-	>=dev-perl/WWW-Search-2.565
+	>=dev-perl/WWW-Search-2.287
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

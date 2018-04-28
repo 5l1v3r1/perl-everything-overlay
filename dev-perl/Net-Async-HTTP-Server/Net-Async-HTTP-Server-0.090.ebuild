@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTTP-Message
-	>=dev-perl/IO-Async-0.540
+	>=dev-perl/IO-Async-0.610
 "
 DEPEND="
 	${RDEPEND}

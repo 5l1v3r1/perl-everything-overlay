@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Template-Declare-0.420
 	dev-perl/YAML-LibYAML
 	virtual/perl-Data-Dumper
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="

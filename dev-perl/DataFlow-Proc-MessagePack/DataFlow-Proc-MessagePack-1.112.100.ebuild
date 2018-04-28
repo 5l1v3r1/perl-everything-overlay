@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-MessagePack
-	dev-perl/DataFlow
+	>=dev-perl/DataFlow-1.112.100
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
