@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-1.400
+	>=dev-perl/HTTP-Message-1.530
 	>=dev-perl/Test-Exception-0.240
 	>=dev-perl/URI-1.350
 	>=dev-perl/libwww-perl-2.033

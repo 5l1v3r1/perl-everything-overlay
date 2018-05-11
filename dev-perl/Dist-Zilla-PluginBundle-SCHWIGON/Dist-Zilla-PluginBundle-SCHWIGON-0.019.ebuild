@@ -32,7 +32,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-Test-Pod-Coverage-Configurable
 	dev-perl/Dist-Zilla-PluginBundle-Git-CheckFor
 	dev-perl/Method-Signatures-Simple
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Email
 	>=dev-perl/MooseX-Types-Structured-0.200

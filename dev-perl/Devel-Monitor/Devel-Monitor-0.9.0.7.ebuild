@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	>=dev-lang/perl-1.010
 	>=dev-perl/Error-0.150
 "
 DEPEND="

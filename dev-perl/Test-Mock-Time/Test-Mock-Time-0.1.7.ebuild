@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Export-Attrs
 	dev-perl/Test-MockModule
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-bignum
 "
 DEPEND="

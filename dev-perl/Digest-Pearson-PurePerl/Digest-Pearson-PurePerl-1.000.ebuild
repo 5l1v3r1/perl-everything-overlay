@@ -19,5 +19,4 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
 "

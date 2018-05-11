@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Dispatchouli
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.001
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/Safe-Isa
 	dev-perl/Sub-Quote

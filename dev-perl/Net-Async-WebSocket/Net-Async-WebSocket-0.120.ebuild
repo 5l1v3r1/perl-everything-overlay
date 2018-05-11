@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IO-Async-0.630
-	dev-perl/Protocol-WebSocket
+	>=dev-perl/Protocol-WebSocket-0.220
 	dev-perl/URI
 	>=virtual/perl-Scalar-List-Utils-1.400
 "

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Rx-0.004
+	dev-perl/Data-Rx
 	>=dev-perl/re-engine-PCRE-0.150
 	virtual/perl-Carp
 	virtual/perl-parent

@@ -18,11 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-XSAccessor
-	>=dev-perl/Data-Clean-JSON-0.110
+	>=dev-perl/Data-Clean-JSON-0.380
 	dev-perl/File-HomeDir
 	dev-perl/IO-Handle-Record
 	dev-perl/JSON-MaybeXS
-	>=dev-perl/Log-ger-0.023
+	>=dev-perl/Log-ger-0.005
 	dev-perl/Log-ger-Level-FromEnv
 	>=dev-perl/Log-ger-Output-Screen-0.007
 	dev-perl/Module-List

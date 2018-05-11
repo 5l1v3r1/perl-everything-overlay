@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-CBC
 	dev-perl/Crypt-Rijndael
-	>=dev-perl/Dancer-1.311.300
+	dev-perl/Dancer
 	dev-perl/PerlX-Maybe
 	>=dev-perl/Session-Storage-Secure-0.010
 	dev-perl/String-CRC32

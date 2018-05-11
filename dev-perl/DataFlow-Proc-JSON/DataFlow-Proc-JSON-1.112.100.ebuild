@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/DataFlow
+	>=dev-perl/DataFlow-1.112.100
 	dev-perl/JSON
 	dev-perl/Moose
 	dev-perl/namespace-autoclean

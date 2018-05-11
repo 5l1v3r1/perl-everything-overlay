@@ -19,8 +19,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Term-ReadLine-Gnu
 	dev-perl/TermReadKey
-	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "

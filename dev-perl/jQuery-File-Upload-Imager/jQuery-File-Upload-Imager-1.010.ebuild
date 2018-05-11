@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/CGI-3.630
 	>=dev-perl/Imager-0.960
 	>=dev-perl/JSON-XS-2.340
-	dev-perl/Net-SSH2
+	>=dev-perl/Net-SSH2-0.480
 	>=dev-perl/URI-1.600
 	>=virtual/perl-Digest-MD5-2.520
 "

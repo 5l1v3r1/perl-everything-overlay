@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Error-Pure
 	dev-perl/Readonly
-	dev-perl/Tags
+	>=dev-perl/Tags-0.020
 "
 DEPEND="
 	${RDEPEND}

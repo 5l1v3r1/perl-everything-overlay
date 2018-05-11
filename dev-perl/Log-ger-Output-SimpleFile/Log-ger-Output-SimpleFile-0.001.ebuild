@@ -21,7 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-perl/Log-ger-0.005
+	>=dev-perl/Log-ger-0.015
 	dev-perl/Test-Exception
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

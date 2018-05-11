@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Log4perl
 	>=dev-perl/Module-Find-0.110
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-4.630
 	dev-perl/Tapper-Config
 	dev-perl/Tapper-Model
 	virtual/perl-File-Spec

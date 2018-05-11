@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.020
+	>=dev-lang/perl-1.110
 	>=virtual/perl-Carp-1.330.100
 	>=virtual/perl-Data-Dumper-2.151
 "

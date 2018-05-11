@@ -23,7 +23,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurper
-	>=dev-perl/Log-ger-0.008
+	>=dev-perl/Log-ger-0.021
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO

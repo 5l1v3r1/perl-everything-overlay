@@ -17,15 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/CGI-3.400
+	dev-perl/CGI
 	>=dev-perl/Config-General-2.320
 	dev-perl/Encode-HanExtra
 	dev-perl/Encode-JIS2K
 	>=dev-perl/HTML-Encoding-0.520
-	>=dev-perl/HTML-Parser-3.240
+	>=dev-perl/HTML-Parser-3.600
 	>=dev-perl/HTML-Template-2.600
 	dev-perl/HTML-Tidy
-	>=dev-perl/HTTP-Message-1.520
+	dev-perl/HTTP-Message
 	dev-perl/HTTP-Negotiate
 	>=dev-perl/JSON-2.000
 	dev-perl/Net-IP

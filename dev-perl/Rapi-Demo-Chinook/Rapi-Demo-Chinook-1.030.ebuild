@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/MooseX-MarkAsMethods
 	dev-perl/MooseX-NonMoose
 	dev-perl/Path-Class
-	dev-perl/RapidApp
+	>=dev-perl/RapidApp-1.030.300
 	dev-perl/Type-Tiny
 "
 DEPEND="

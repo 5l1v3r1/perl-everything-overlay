@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.000
 	dev-perl/Pod-Weaver-Plugin-AppendPrepend
 	dev-perl/Pod-Weaver-Plugin-EnsureUniqueSections
 	dev-perl/Pod-Weaver-Plugin-PERLANCAR-SortSections

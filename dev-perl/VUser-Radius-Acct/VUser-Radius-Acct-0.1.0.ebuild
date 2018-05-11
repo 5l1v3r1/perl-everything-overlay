@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/vuser-0.2.0
+	>=dev-perl/vuser-0.2.1
 "
 DEPEND="
 	${RDEPEND}

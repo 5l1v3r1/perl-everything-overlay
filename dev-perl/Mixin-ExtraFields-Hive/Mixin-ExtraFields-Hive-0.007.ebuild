@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Hive-1.006
+	>=dev-perl/Data-Hive-1.001
 	>=dev-perl/Mixin-ExtraFields-0.002
 	dev-perl/Sub-Exporter
 	virtual/perl-parent

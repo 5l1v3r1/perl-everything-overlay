@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/MooseX-MarkAsMethods
 	dev-perl/MooseX-NonMoose
 	dev-perl/Path-Class
-	>=dev-perl/RapidApp-1.060.000
+	dev-perl/RapidApp
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
 	virtual/perl-Scalar-List-Utils

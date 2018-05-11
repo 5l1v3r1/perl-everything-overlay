@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Future-0.330
-	>=dev-perl/IO-Async-0.590
+	>=dev-perl/IO-Async-0.290
 	>=dev-perl/IO-Socket-SSL-1.968
 "
 DEPEND="
