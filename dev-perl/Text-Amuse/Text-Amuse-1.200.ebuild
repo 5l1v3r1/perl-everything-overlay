@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DOHERTY"
-DIST_VERSION="1.200007"
-DIST_A="Dist-Zilla-Plugin-InstallGuide-1.200007.tar.gz"
+DIST_AUTHOR="MELMOTHX"
+DIST_VERSION="1.20"
+DIST_A="Text-Amuse-1.20.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,18 +16,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
-	dev-perl/Dist-Zilla
-	dev-perl/Moose
-	virtual/perl-Scalar-List-Utils
+	virtual/perl-File-Temp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Path-Tiny
-	dev-perl/Test-Fatal
+	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
-	virtual/perl-IO
 	virtual/perl-Test-Simple
-	virtual/perl-if
 "

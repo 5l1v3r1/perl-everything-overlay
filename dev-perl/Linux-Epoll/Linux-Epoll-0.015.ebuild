@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DOHERTY"
-DIST_VERSION="1.200006"
-DIST_A="Dist-Zilla-Plugin-InstallGuide-1.200006.tar.gz"
+DIST_AUTHOR="LEONT"
+DIST_VERSION="0.015"
+DIST_A="Linux-Epoll-0.015.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
-	dev-perl/Moose
-	virtual/perl-Scalar-List-Utils
+	virtual/perl-IO
+	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Socket
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "

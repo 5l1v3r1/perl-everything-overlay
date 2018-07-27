@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DOHERTY"
-DIST_VERSION="1.200009"
-DIST_A="Dist-Zilla-Plugin-InstallGuide-1.200009.tar.gz"
+DIST_AUTHOR="ATHREEF"
+DIST_VERSION="0.022"
+DIST_A="Graphics-Raylib-0.022.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,18 +16,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
-	dev-perl/Dist-Zilla
-	dev-perl/Moose
-	virtual/perl-Scalar-List-Utils
+	>=dev-perl/Alien-raylib-0.020
+	dev-perl/Convert-Color
+	dev-perl/Import-Into
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Path-Tiny
-	dev-perl/Test-Fatal
+	dev-lang/perl
+	dev-perl/Test-Needs
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
-	virtual/perl-if
 "

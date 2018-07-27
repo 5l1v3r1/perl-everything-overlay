@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="AAKD"
-DIST_VERSION="0.03"
-DIST_A="XML-Simple-Tree-0.03.tar.gz"
+DIST_AUTHOR="VKON"
+DIST_VERSION="1.25"
+DIST_A="Tcl-Tk-1.25.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Class-MethodMaker
-	dev-perl/XML-Simple
-	virtual/perl-Storable
+	>=dev-perl/Tcl-1.110
 "
 DEPEND="
 	${RDEPEND}

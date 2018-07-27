@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DWHEELER"
-DIST_VERSION="v0.6.0"
-DIST_A="SemVer-v0.6.0.tar.gz"
+DIST_AUTHOR="MBARBON"
+DIST_VERSION="0.07"
+DIST_A="Alien-ProtoBuf-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +16,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-version-0.820
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.300
-	>=virtual/perl-Test-Simple-0.880
+	>=dev-perl/Alien-Base-ModuleBuild-0.023
+	dev-perl/Alien-Build
+	>=dev-perl/ExtUtils-CppGuess-0.110
+	>=dev-perl/Module-Build-0.280
 "
