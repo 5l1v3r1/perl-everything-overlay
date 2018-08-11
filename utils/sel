@@ -1,0 +1,47 @@
+-rw-r--r--      1,411,491 2012/02/28 22:08:33 authors/id/A/AI/AIVATURI/Selenium-Remote-Driver-0.13_01.tar.gz
+-rw-r--r--          2,261 2011/09/26 21:23:48 authors/id/A/AI/AIVATURI/Selenium-Remote-Driver-0.14.readme
+-rw-r--r--      1,412,188 2012/03/01 23:55:35 authors/id/A/AI/AIVATURI/Selenium-Remote-Driver-0.14.tar.gz
+-rw-r--r--          2,366 2012/03/07 02:35:46 authors/id/A/AI/AIVATURI/Selenium-Remote-Driver-0.15.readme
+-rw-r--r--      1,452,240 2012/03/12 23:02:06 authors/id/A/AI/AIVATURI/Selenium-Remote-Driver-0.15.tar.gz
+-rw-rw-r--          1,414 2013/04/11 17:33:52 authors/id/C/CH/CHOWES/Selenium-Remote-Driver-0.16.meta
+-rw-rw-r--          2,366 2013/04/11 17:33:52 authors/id/C/CH/CHOWES/Selenium-Remote-Driver-0.16.readme
+-rw-rw-r--      1,431,272 2013/04/11 17:39:09 authors/id/C/CH/CHOWES/Selenium-Remote-Driver-0.16.tar.gz
+-rw-rw-r--          1,460 2013/07/13 08:35:04 authors/id/C/CH/CHOWES/Selenium-Remote-Driver-0.17.meta
+-rw-rw-r--          2,365 2013/07/13 08:35:04 authors/id/C/CH/CHOWES/Selenium-Remote-Driver-0.17.readme
+-rw-rw-r--      2,110,431 2013/07/13 08:36:15 authors/id/C/CH/CHOWES/Selenium-Remote-Driver-0.17.tar.gz
+-rw-r--r--          1,370 2011/08/08 17:42:19 authors/id/G/GC/GCHILD/Selenium-Remote-Driver-0.11.readme
+-rw-r--r--         94,232 2011/08/16 17:20:02 authors/id/G/GC/GCHILD/Selenium-Remote-Driver-0.11.tar.gz
+-rw-r--r--          2,261 2011/08/29 22:11:54 authors/id/G/GC/GCHILD/Selenium-Remote-Driver-0.12.readme
+-rw-r--r--        809,930 2011/09/20 22:17:55 authors/id/G/GC/GCHILD/Selenium-Remote-Driver-0.12.tar.gz
+-rw-rw-r--          4,772 2017/05/25 20:03:16 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.meta
+-rw-rw-r--         10,189 2017/05/25 20:03:16 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.readme
+-rw-rw-r--      4,216,110 2017/05/25 20:06:36 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.tar.gz
+-rw-rw-r--          1,715 2014/07/25 17:20:26 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-UserAgent-0.03.meta
+-rw-rw-r--         13,119 2014/07/25 17:21:53 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-UserAgent-0.03.tar.gz
+-rw-rw-r--          1,695 2014/11/23 16:18:48 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-UserAgent-0.0301.meta
+-rw-rw-r--         13,206 2014/11/23 16:19:46 authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-UserAgent-0.0301.tar.gz
+-rw-rw-r--          9,588 2018/02/19 15:46:46 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.meta
+-rw-rw-r--            340 2018/02/19 15:46:46 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.readme
+-rw-rw-r--      4,188,786 2018/02/19 15:47:50 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.tar.gz
+-rw-rw-r--          9,630 2018/03/25 18:20:46 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.meta
+-rw-rw-r--            340 2018/03/25 18:20:46 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.readme
+-rw-rw-r--      4,214,285 2018/03/25 18:23:07 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.tar.gz
+-rw-rw-r--          9,630 2018/06/06 00:20:26 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.meta
+-rw-rw-r--            340 2018/06/06 00:20:26 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.readme
+-rw-rw-r--      4,214,769 2018/06/06 00:41:45 authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.tar.gz
+lrwxrwxrwx             71 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.20.readme -> ../../../../authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.readme
+lrwxrwxrwx             71 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.20.tar.gz -> ../../../../authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.tar.gz
+lrwxrwxrwx             72 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.26.readme -> ../../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.readme
+lrwxrwxrwx             72 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.26.tar.gz -> ../../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.tar.gz
+lrwxrwxrwx             72 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.27.readme -> ../../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.readme
+lrwxrwxrwx             72 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.27.tar.gz -> ../../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.tar.gz
+lrwxrwxrwx             72 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.28.readme -> ../../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.readme
+lrwxrwxrwx             72 2018/07/29 19:24:29 modules/by-category/03_Development_Support/Test/Selenium-Remote-Driver-1.28.tar.gz -> ../../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.tar.gz
+lrwxrwxrwx             68 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.20.readme -> ../../../authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.readme
+lrwxrwxrwx             68 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.20.tar.gz -> ../../../authors/id/G/GE/GEMPESAW/Selenium-Remote-Driver-1.20.tar.gz
+lrwxrwxrwx             69 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.26.readme -> ../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.readme
+lrwxrwxrwx             69 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.26.tar.gz -> ../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.26.tar.gz
+lrwxrwxrwx             69 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.27.readme -> ../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.readme
+lrwxrwxrwx             69 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.27.tar.gz -> ../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.27.tar.gz
+lrwxrwxrwx             69 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.28.readme -> ../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.readme
+lrwxrwxrwx             69 2018/07/29 19:25:02 modules/by-module/Test/Selenium-Remote-Driver-1.28.tar.gz -> ../../../authors/id/T/TE/TEODESIAN/Selenium-Remote-Driver-1.28.tar.gz
