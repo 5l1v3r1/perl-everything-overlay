@@ -1,0 +1,30 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+EAPI=6
+
+DIST_AUTHOR="OALDERS"
+DIST_VERSION="0.000011"
+DIST_A="Open-This-0.000011.tar.gz"
+inherit perl-module
+
+DESCRIPTION="No description available"
+
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE="test"
+
+RDEPEND="
+	dev-lang/perl
+	dev-perl/Module-Runtime
+	dev-perl/Path-Tiny
+	dev-perl/Try-Tiny
+"
+DEPEND="
+	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Differences
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
+"
