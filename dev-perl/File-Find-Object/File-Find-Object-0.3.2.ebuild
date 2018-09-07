@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.3.2"
-DIST_A="File-Find-Object-v0.3.2.tar.gz"
+DIST_VERSION="0.3.2" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/File-Find-Object-v0.3.2.tar.gz -> File-Find-Object-0.3.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Find-Object-v0.3.2 ${WORKDIR}/File-Find-Object-0.3.2
+}
+
