@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GEEWIZ"
-DIST_VERSION="v1.0.0"
-DIST_A="SIOC-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/G/GE/GEEWIZ/SIOC-v1.0.0.tar.gz -> SIOC-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SIOC-v1.0.0 ${WORKDIR}/SIOC-1.0.0
+}
+

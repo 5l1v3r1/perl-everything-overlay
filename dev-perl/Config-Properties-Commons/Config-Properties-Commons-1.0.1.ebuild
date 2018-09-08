@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MITHUN"
-DIST_VERSION="v1.0.1"
-DIST_A="Config-Properties-Commons-v1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MITHUN/Config-Properties-Commons-v1.0.1.tar.gz -> Config-Properties-Commons-1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-Properties-Commons-v1.0.1 ${WORKDIR}/Config-Properties-Commons-1.0.1
+}
+

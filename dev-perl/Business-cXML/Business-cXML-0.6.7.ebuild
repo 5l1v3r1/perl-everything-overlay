@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LIS"
-DIST_VERSION="0.6.7"
-DIST_A="Business-cXML-v0.6.7.tar.gz"
+DIST_VERSION="0.6.7" 
+SRC_URI="mirror://cpan/authors/id/L/LI/LIS/Business-cXML-v0.6.7.tar.gz -> Business-cXML-0.6.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +33,12 @@ DEPEND="
 	dev-perl/File-Slurp
 	dev-perl/Pod-Coverage
 	dev-perl/Test-Deep
-	dev-perl/Test-MockModule
 	dev-perl/Test-Trap
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Business-cXML-v0.6.7 ${WORKDIR}/Business-cXML-0.6.7
+}
+

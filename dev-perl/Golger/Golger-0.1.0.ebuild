@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="FAXMODEM"
-DIST_VERSION="v0.1.0"
-DIST_A="Golger-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/F/FA/FAXMODEM/Golger-v0.1.0.tar.gz -> Golger-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Pod-Markdown
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Golger-v0.1.0 ${WORKDIR}/Golger-0.1.0
+}
+

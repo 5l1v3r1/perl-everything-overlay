@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KETHGEN"
-DIST_VERSION="2.0.0"
-DIST_A="Image-MetaData-GQview-v2.0.0.tar.gz"
+DIST_VERSION="2.0.0" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KETHGEN/Image-MetaData-GQview-v2.0.0.tar.gz -> Image-MetaData-GQview-2.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Image-MetaData-GQview-v2.0.0 ${WORKDIR}/Image-MetaData-GQview-2.0.0
+}
+

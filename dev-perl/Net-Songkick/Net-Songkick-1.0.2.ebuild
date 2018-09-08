@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAVECROSS"
-DIST_VERSION="v1.0.2"
-DIST_A="Net-Songkick-v1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVECROSS/Net-Songkick-v1.0.2.tar.gz -> Net-Songkick-1.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Songkick-v1.0.2 ${WORKDIR}/Net-Songkick-1.0.2
+}
+

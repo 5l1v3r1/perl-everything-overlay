@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DCLARKE"
-DIST_VERSION="v1.0.7"
-DIST_A="Excel-Template-XLSX-v1.0.7.tar.gz"
+DIST_VERSION="1.0.7" 
+SRC_URI="mirror://cpan/authors/id/D/DC/DCLARKE/Excel-Template-XLSX-v1.0.7.tar.gz -> Excel-Template-XLSX-1.0.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Excel-Template-XLSX-v1.0.7 ${WORKDIR}/Excel-Template-XLSX-1.0.7
+}
+

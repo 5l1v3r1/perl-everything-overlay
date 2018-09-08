@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.1"
-DIST_A="Plack-Middleware-BlockHeaderInjection-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Plack-Middleware-BlockHeaderInjection-v0.1.1.tar.gz -> Plack-Middleware-BlockHeaderInjection-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plack-Middleware-BlockHeaderInjection-v0.1.1 ${WORKDIR}/Plack-Middleware-BlockHeaderInjection-0.1.1
+}
+

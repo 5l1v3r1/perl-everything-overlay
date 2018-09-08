@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SEBNOW"
-DIST_VERSION="0.2.0"
-DIST_A="SQL-Stash-v0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
+SRC_URI="mirror://cpan/authors/id/S/SE/SEBNOW/SQL-Stash-v0.2.0.tar.gz -> SQL-Stash-0.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +26,12 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/Test-BDD-Cucumber
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SQL-Stash-v0.2.0 ${WORKDIR}/SQL-Stash-0.2.0
+}
+

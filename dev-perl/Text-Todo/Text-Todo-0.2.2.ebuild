@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREW"
-DIST_VERSION="v0.2.2"
-DIST_A="Text-Todo-v0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDREW/Text-Todo-v0.2.2.tar.gz -> Text-Todo-0.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=virtual/perl-Test-Simple-0.820
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Todo-v0.2.2 ${WORKDIR}/Text-Todo-0.2.2
+}
+

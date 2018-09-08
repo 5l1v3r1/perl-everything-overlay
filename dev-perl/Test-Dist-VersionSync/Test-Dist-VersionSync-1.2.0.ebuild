@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="1.2.0"
-DIST_A="Test-Dist-VersionSync-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Test-Dist-VersionSync-v1.2.0.tar.gz -> Test-Dist-VersionSync-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	dev-perl/Test-FailWarnings
 	virtual/perl-Carp
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Dist-VersionSync-v1.2.0 ${WORKDIR}/Test-Dist-VersionSync-1.2.0
+}
+

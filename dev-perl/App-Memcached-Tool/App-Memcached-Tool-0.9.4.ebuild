@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KEYAMB"
-DIST_VERSION="v0.9.4"
-DIST_A="App-Memcached-Tool-v0.9.4.tar.gz"
+DIST_VERSION="0.9.4" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KEYAMB/App-Memcached-Tool-v0.9.4.tar.gz -> App-Memcached-Tool-0.9.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +20,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Pod-Markdown-Github-0.010
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Memcached-Tool-v0.9.4 ${WORKDIR}/App-Memcached-Tool-0.9.4
+}
+

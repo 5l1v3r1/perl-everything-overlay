@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.2"
-DIST_A="Time-Mock-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Time-Mock-v0.0.2.tar.gz -> Time-Mock-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.100
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Time-Mock-v0.0.2 ${WORKDIR}/Time-Mock-0.0.2
+}
+

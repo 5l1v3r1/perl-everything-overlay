@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WOLVERIAN"
-DIST_VERSION="0.0.4"
-DIST_A="Perlbal-Plugin-Extredirector-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/W/WO/WOLVERIAN/Perlbal-Plugin-Extredirector-v0.0.4.tar.gz -> Perlbal-Plugin-Extredirector-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perlbal-Plugin-Extredirector-v0.0.4 ${WORKDIR}/Perlbal-Plugin-Extredirector-0.0.4
+}
+

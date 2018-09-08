@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="OCBNET"
-DIST_VERSION="v0.2.7"
-DIST_A="OCBNET-CSS3-v0.2.7.tar.gz"
+DIST_VERSION="0.2.7" 
+SRC_URI="mirror://cpan/authors/id/O/OC/OCBNET/OCBNET-CSS3-v0.2.7.tar.gz -> OCBNET-CSS3-0.2.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Software-License
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/OCBNET-CSS3-v0.2.7 ${WORKDIR}/OCBNET-CSS3-0.2.7
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KILNA"
-DIST_VERSION="v1.0.4"
-DIST_A="Quote-Reference-v1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KILNA/Quote-Reference-v1.0.4.tar.gz -> Quote-Reference-1.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Quote-Reference-v1.0.4 ${WORKDIR}/Quote-Reference-1.0.4
+}
+

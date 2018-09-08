@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.1.3"
-DIST_A="App-GitHooks-Plugin-ForceBranchNamePattern-v1.1.3.tar.gz"
+DIST_VERSION="1.1.3" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/App-GitHooks-Plugin-ForceBranchNamePattern-v1.1.3.tar.gz -> App-GitHooks-Plugin-ForceBranchNamePattern-1.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	>=dev-perl/Test-Requires-Git-1.005
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-GitHooks-Plugin-ForceBranchNamePattern-v1.1.3 ${WORKDIR}/App-GitHooks-Plugin-ForceBranchNamePattern-1.1.3
+}
+

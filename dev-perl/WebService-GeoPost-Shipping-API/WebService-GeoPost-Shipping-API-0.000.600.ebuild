@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RNEWSHAM"
-DIST_VERSION="0.0006"
-DIST_A="WebService-GeoPost-Shipping-API-v0.0006.tar.gz"
+DIST_VERSION="0.0006" 
+SRC_URI="mirror://cpan/authors/id/R/RN/RNEWSHAM/WebService-GeoPost-Shipping-API-v0.0006.tar.gz -> WebService-GeoPost-Shipping-API-0.0006.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-GeoPost-Shipping-API-v0.0006 ${WORKDIR}/WebService-GeoPost-Shipping-API-0.0006
+}
+

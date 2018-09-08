@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PRUIKLW"
-DIST_VERSION="1.0.4"
-DIST_A="Brocade-BSC-v1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
+SRC_URI="mirror://cpan/authors/id/P/PR/PRUIKLW/Brocade-BSC-v1.0.4.tar.gz -> Brocade-BSC-1.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,9 @@ DEPEND="
 	>=virtual/perl-version-0.770
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Brocade-BSC-v1.0.4 ${WORKDIR}/Brocade-BSC-1.0.4
+}
+

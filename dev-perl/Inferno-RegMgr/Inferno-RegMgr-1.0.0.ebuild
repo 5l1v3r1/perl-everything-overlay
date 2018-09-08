@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="1.0.0"
-DIST_A="Inferno-RegMgr-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/Inferno-RegMgr-v1.0.0.tar.gz -> Inferno-RegMgr-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +25,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Perl-Critic
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Inferno-RegMgr-v1.0.0 ${WORKDIR}/Inferno-RegMgr-1.0.0
+}
+

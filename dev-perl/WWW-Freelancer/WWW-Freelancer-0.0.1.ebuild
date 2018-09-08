@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HAGGAI"
-DIST_VERSION="v0.0.1"
-DIST_A="WWW-Freelancer-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/H/HA/HAGGAI/WWW-Freelancer-v0.0.1.tar.gz -> WWW-Freelancer-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Freelancer-v0.0.1 ${WORKDIR}/WWW-Freelancer-0.0.1
+}
+

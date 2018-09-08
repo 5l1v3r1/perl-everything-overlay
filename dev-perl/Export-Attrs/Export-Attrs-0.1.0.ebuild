@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="0.1.0"
-DIST_A="Export-Attrs-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/Export-Attrs-v0.1.0.tar.gz -> Export-Attrs-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +21,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Export-Attrs-v0.1.0 ${WORKDIR}/Export-Attrs-0.1.0
+}
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="XIONG"
-DIST_VERSION="1.0.2"
-DIST_A="Error-Base-v1.0.2.tar.gz"
-SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Error-Base-v1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
+SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Error-Base-v1.0.2.tar.gz -> Error-Base-1.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Error-Base-v1.0.2 ${WORKDIR}/Error-Base-1.0.2
+}
+

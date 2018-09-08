@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.2"
-DIST_A="App-DBI-Loader-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/App-DBI-Loader-v0.0.2.tar.gz -> App-DBI-Loader-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-DBI-Loader-v0.0.2 ${WORKDIR}/App-DBI-Loader-0.0.2
+}
+

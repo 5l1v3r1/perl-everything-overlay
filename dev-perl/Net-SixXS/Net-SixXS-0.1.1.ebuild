@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROAM"
-DIST_VERSION="0.1.1"
-DIST_A="Net-SixXS-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROAM/Net-SixXS-v0.1.1.tar.gz -> Net-SixXS-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +21,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-SixXS-v0.1.1 ${WORKDIR}/Net-SixXS-0.1.1
+}
+

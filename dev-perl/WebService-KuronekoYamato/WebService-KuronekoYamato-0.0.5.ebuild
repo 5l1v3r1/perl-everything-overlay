@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CLCL"
-DIST_VERSION="v0.0.5"
-DIST_A="WebService-KuronekoYamato-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/C/CL/CLCL/WebService-KuronekoYamato-v0.0.5.tar.gz -> WebService-KuronekoYamato-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-KuronekoYamato-v0.0.5 ${WORKDIR}/WebService-KuronekoYamato-0.0.5
+}
+

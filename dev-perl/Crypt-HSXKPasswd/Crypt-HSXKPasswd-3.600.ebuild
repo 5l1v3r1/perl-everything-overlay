@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BARTB"
-DIST_VERSION="3.6"
-DIST_A="Crypt-HSXKPasswd-v3.6.tar.gz"
+DIST_VERSION="3.6" 
+SRC_URI="mirror://cpan/authors/id/B/BA/BARTB/Crypt-HSXKPasswd-v3.6.tar.gz -> Crypt-HSXKPasswd-3.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +24,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
 	dev-perl/Math-Round
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	dev-perl/Text-Unidecode
 	dev-perl/Type-Tiny
@@ -32,11 +33,19 @@ RDEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-Math-BigInt
 	virtual/perl-Module-Load
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/File-Share
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Crypt-HSXKPasswd-v3.6 ${WORKDIR}/Crypt-HSXKPasswd-3.6
+}
+

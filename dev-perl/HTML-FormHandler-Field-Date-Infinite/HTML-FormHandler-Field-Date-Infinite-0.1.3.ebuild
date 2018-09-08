@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="0.1.3"
-DIST_A="HTML-FormHandler-Field-Date-Infinite-v0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TORBJORN/HTML-FormHandler-Field-Date-Infinite-v0.1.3.tar.gz -> HTML-FormHandler-Field-Date-Infinite-0.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-FormHandler-Field-Date-Infinite-v0.1.3 ${WORKDIR}/HTML-FormHandler-Field-Date-Infinite-0.1.3
+}
+

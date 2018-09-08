@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DADERUS"
-DIST_VERSION="1.100"
-DIST_A="Array-CompareAndFilter-v1.100.tar.gz"
+DIST_VERSION="1.100" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DADERUS/Array-CompareAndFilter-v1.100.tar.gz -> Array-CompareAndFilter-1.100.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Array-CompareAndFilter-v1.100 ${WORKDIR}/Array-CompareAndFilter-1.100
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MHCRNL"
-DIST_VERSION="0.02"
-DIST_A="Indexuri-Apartament-v0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/M/MH/MHCRNL/Indexuri-Apartament-v0.02.tar.gz -> Indexuri-Apartament-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Indexuri-Apartament-v0.02 ${WORKDIR}/Indexuri-Apartament-0.02
+}
+

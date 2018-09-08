@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.13.0"
-DIST_A="Pcore-API-Majestic-v0.13.0.tar.gz"
+DIST_VERSION="0.13.0" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-API-Majestic-v0.13.0.tar.gz -> Pcore-API-Majestic-0.13.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-API-Majestic-v0.13.0 ${WORKDIR}/Pcore-API-Majestic-0.13.0
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PLATO"
-DIST_VERSION="0.9.4"
-DIST_A="Params-Clean-v0.9.4.tar.gz"
+DIST_VERSION="0.9.4" 
+SRC_URI="mirror://cpan/authors/id/P/PL/PLATO/Params-Clean-v0.9.4.tar.gz -> Params-Clean-0.9.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +22,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Params-Clean-v0.9.4 ${WORKDIR}/Params-Clean-0.9.4
+}
+

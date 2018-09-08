@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SIDD"
-DIST_VERSION="4.1.1"
-DIST_A="Test-Chado-v4.1.1.tar.gz"
+DIST_VERSION="4.1.1" 
+SRC_URI="mirror://cpan/authors/id/S/SI/SIDD/Test-Chado-v4.1.1.tar.gz -> Test-Chado-4.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +47,9 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.310
 	>=virtual/perl-Test-Simple-0.108
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Chado-v4.1.1 ${WORKDIR}/Test-Chado-4.1.1
+}
+

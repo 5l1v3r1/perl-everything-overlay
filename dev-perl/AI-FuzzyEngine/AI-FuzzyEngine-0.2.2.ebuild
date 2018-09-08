@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JMUECK"
-DIST_VERSION="v0.2.2"
-DIST_A="AI-FuzzyEngine-v0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMUECK/AI-FuzzyEngine-v0.2.2.tar.gz -> AI-FuzzyEngine-0.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AI-FuzzyEngine-v0.2.2 ${WORKDIR}/AI-FuzzyEngine-0.2.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.4.0"
-DIST_A="Test-Kwalitee-Extra-v0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Test-Kwalitee-Extra-v0.4.0.tar.gz -> Test-Kwalitee-Extra-0.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Kwalitee-Extra-v0.4.0 ${WORKDIR}/Test-Kwalitee-Extra-0.4.0
+}
+

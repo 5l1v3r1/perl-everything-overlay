@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SIMCOP"
-DIST_VERSION="0.9"
-DIST_A="Device-Chip-PCA9685-v0.9.tar.gz"
+DIST_VERSION="0.9" 
+SRC_URI="mirror://cpan/authors/id/S/SI/SIMCOP/Device-Chip-PCA9685-v0.9.tar.gz -> Device-Chip-PCA9685-0.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Device-Chip-PCA9685-v0.9 ${WORKDIR}/Device-Chip-PCA9685-0.9
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CMS"
-DIST_VERSION="1.3.1"
-DIST_A="Magrathea-API-v1.3.1.tar.gz"
+DIST_VERSION="1.3.1" 
+SRC_URI="mirror://cpan/authors/id/C/CM/CMS/Magrathea-API-v1.3.1.tar.gz -> Magrathea-API-1.3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Text-Autoformat
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Magrathea-API-v1.3.1 ${WORKDIR}/Magrathea-API-1.3.1
+}
+

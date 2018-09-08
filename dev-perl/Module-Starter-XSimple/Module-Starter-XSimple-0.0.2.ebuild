@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JPEACOCK"
-DIST_VERSION="v0.0.2"
-DIST_A="Module-Starter-XSimple-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/J/JP/JPEACOCK/Module-Starter-XSimple-v0.0.2.tar.gz -> Module-Starter-XSimple-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Module-Starter-XSimple-v0.0.2 ${WORKDIR}/Module-Starter-XSimple-0.0.2
+}
+

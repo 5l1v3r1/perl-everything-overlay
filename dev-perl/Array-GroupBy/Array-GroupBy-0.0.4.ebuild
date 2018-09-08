@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAMB"
-DIST_VERSION="0.0.4"
-DIST_A="Array-GroupBy-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAMB/Array-GroupBy-v0.0.4.tar.gz -> Array-GroupBy-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Array-GroupBy-v0.0.4 ${WORKDIR}/Array-GroupBy-0.0.4
+}
+

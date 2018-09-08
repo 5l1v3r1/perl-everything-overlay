@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.72.4"
-DIST_A="Pcore-v0.72.4.tar.gz"
+DIST_VERSION="0.72.4" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-v0.72.4.tar.gz -> Pcore-0.72.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-v0.72.4 ${WORKDIR}/Pcore-0.72.4
+}
+

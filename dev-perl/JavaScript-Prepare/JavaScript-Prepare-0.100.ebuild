@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MNF"
-DIST_VERSION="0.1"
-DIST_A="JavaScript-Prepare-v0.1.tar.gz"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/M/MN/MNF/JavaScript-Prepare-v0.1.tar.gz -> JavaScript-Prepare-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/JavaScript-Prepare-v0.1 ${WORKDIR}/JavaScript-Prepare-0.1
+}
+

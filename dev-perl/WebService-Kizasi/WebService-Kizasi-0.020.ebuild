@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAIBA"
-DIST_VERSION="0.02"
-DIST_A="WebService-Kizasi-v0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAIBA/WebService-Kizasi-v0.02.tar.gz -> WebService-Kizasi-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Kizasi-v0.02 ${WORKDIR}/WebService-Kizasi-0.02
+}
+

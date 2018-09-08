@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JPFRICKER"
-DIST_VERSION="1.00"
-DIST_A="Parse-GEDA-Gschem-v1.00.tar.gz"
+DIST_VERSION="1.00" 
+SRC_URI="mirror://cpan/authors/id/J/JP/JPFRICKER/Parse-GEDA-Gschem-v1.00.tar.gz -> Parse-GEDA-Gschem-1.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +25,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Parse-GEDA-Gschem-v1.00 ${WORKDIR}/Parse-GEDA-Gschem-1.00
+}
+

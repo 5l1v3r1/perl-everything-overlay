@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VRURG"
-DIST_VERSION="0.2.5"
-DIST_A="Dist-Zilla-Plugin-LocalHTML-v0.2.5.tar.gz"
+DIST_VERSION="0.2.5" 
+SRC_URI="mirror://cpan/authors/id/V/VR/VRURG/Dist-Zilla-Plugin-LocalHTML-v0.2.5.tar.gz -> Dist-Zilla-Plugin-LocalHTML-0.2.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +38,9 @@ DEPEND="
 	dev-perl/local-lib
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-LocalHTML-v0.2.5 ${WORKDIR}/Dist-Zilla-Plugin-LocalHTML-0.2.5
+}
+

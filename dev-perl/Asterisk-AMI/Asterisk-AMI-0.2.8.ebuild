@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GREENBEAN"
-DIST_VERSION="v0.2.8"
-DIST_A="Asterisk-AMI-v0.2.8.tar.gz"
+DIST_VERSION="0.2.8" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GREENBEAN/Asterisk-AMI-v0.2.8.tar.gz -> Asterisk-AMI-0.2.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Asterisk-AMI-v0.2.8 ${WORKDIR}/Asterisk-AMI-0.2.8
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMESSINA"
-DIST_VERSION="v0.0.2"
-DIST_A="AlignAid-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMESSINA/AlignAid-v0.0.2.tar.gz -> AlignAid-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BioPerl
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AlignAid-v0.0.2 ${WORKDIR}/AlignAid-0.0.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.4.7"
-DIST_A="Dist-Zilla-Plugin-MetaResources-Template-v0.4.7.tar.gz"
+DIST_VERSION="0.4.7" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Dist-Zilla-Plugin-MetaResources-Template-v0.4.7.tar.gz -> Dist-Zilla-Plugin-MetaResources-Template-0.4.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +28,7 @@ DEPEND="
 	dev-lang/perl
 	>=dev-perl/Dist-Zilla-Role-ErrorLogger-0.9.0
 	dev-perl/IPC-System-Simple
+	dev-perl/Module-Build
 	dev-perl/Software-License
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
@@ -40,3 +41,9 @@ DEPEND="
 	virtual/perl-autodie
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-MetaResources-Template-v0.4.7 ${WORKDIR}/Dist-Zilla-Plugin-MetaResources-Template-0.4.7
+}
+

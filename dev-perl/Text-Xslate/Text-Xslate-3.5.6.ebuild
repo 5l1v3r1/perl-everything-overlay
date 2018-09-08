@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="3.5.6"
-DIST_A="Text-Xslate-v3.5.6.tar.gz"
+DIST_VERSION="3.5.6" 
+SRC_URI="mirror://cpan/authors/id/S/SK/SKAJI/Text-Xslate-v3.5.6.tar.gz -> Text-Xslate-3.5.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	>=virtual/perl-File-Path-2.070
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Xslate-v3.5.6 ${WORKDIR}/Text-Xslate-3.5.6
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MITHUN"
-DIST_VERSION="v0.1.1"
-DIST_A="CASCM-CLI-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MITHUN/CASCM-CLI-v0.1.1.tar.gz -> CASCM-CLI-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +30,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
+	dev-perl/Test-Deep
+	>=dev-perl/Test-Pod-1.000
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CASCM-CLI-v0.1.1 ${WORKDIR}/CASCM-CLI-0.1.1
+}
+

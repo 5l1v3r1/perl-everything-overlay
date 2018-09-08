@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MORITZ"
-DIST_VERSION="v0.0.5"
-DIST_A="Perl6-Str-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/M/MO/MORITZ/Perl6-Str-v0.0.5.tar.gz -> Perl6-Str-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl6-Str-v0.0.5 ${WORKDIR}/Perl6-Str-0.0.5
+}
+

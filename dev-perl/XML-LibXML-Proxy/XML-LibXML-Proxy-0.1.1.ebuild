@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LIS"
-DIST_VERSION="0.1.1"
-DIST_A="XML-LibXML-Proxy-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/L/LI/LIS/XML-LibXML-Proxy-v0.1.1.tar.gz -> XML-LibXML-Proxy-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-LibXML-Proxy-v0.1.1 ${WORKDIR}/XML-LibXML-Proxy-0.1.1
+}
+

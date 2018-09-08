@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHOHEIK"
-DIST_VERSION="0.0.5"
-DIST_A="Graph-Similarity-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHOHEIK/Graph-Similarity-v0.0.5.tar.gz -> Graph-Similarity-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-Similarity-v0.0.5 ${WORKDIR}/Graph-Similarity-0.0.5
+}
+

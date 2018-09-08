@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JJUDD"
-DIST_VERSION="v1.0.1"
-DIST_A="DBIx-Class-TimeStamp-HiRes-v1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
+SRC_URI="mirror://cpan/authors/id/J/JJ/JJUDD/DBIx-Class-TimeStamp-HiRes-v1.0.1.tar.gz -> DBIx-Class-TimeStamp-HiRes-1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Test-Perl-Critic-1.020
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-Class-TimeStamp-HiRes-v1.0.1 ${WORKDIR}/DBIx-Class-TimeStamp-HiRes-1.0.1
+}
+

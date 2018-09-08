@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="UNLEARNED"
-DIST_VERSION="0.0.3"
-DIST_A="Term-SimpleColor-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/U/UN/UNLEARNED/Term-SimpleColor-v0.0.3.tar.gz -> Term-SimpleColor-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Term-SimpleColor-v0.0.3 ${WORKDIR}/Term-SimpleColor-0.0.3
+}
+

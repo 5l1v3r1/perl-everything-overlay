@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="v0.4.10"
-DIST_A="forkprove-v0.4.10.tar.gz"
+DIST_VERSION="0.4.10" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/forkprove-v0.4.10.tar.gz -> forkprove-0.4.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/forkprove-v0.4.10 ${WORKDIR}/forkprove-0.4.10
+}
+

@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="MBETHKE"
-DIST_VERSION="v2.0.0"
-DIST_A="Net-NSCAng-Client-v2.0.0.tar.bz2"
+DIST_VERSION="2.0.0"
+DIST_A_EXT="tar.bz2" 
+SRC_URI="mirror://cpan/authors/id/M/MB/MBETHKE/Net-NSCAng-Client-v2.0.0.tar.bz2 -> Net-NSCAng-Client-2.0.0.tar.bz2"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +29,9 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-NSCAng-Client-v2.0.0 ${WORKDIR}/Net-NSCAng-Client-2.0.0
+}
+

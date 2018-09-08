@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KGALINSKY"
-DIST_VERSION="v0.6.1"
-DIST_A="Bio-Translator-v0.6.1.tar.gz"
+DIST_VERSION="0.6.1" 
+SRC_URI="mirror://cpan/authors/id/K/KG/KGALINSKY/Bio-Translator-v0.6.1.tar.gz -> Bio-Translator-0.6.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/List-Compare
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-Translator-v0.6.1 ${WORKDIR}/Bio-Translator-0.6.1
+}
+

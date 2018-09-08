@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="1.14.0"
-DIST_A="LWP-Protocol-Coro-http-v1.14.0.tar.gz"
+DIST_VERSION="1.14.0" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/LWP-Protocol-Coro-http-v1.14.0.tar.gz -> LWP-Protocol-Coro-http-1.14.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +38,9 @@ DEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LWP-Protocol-Coro-http-v1.14.0 ${WORKDIR}/LWP-Protocol-Coro-http-1.14.0
+}
+

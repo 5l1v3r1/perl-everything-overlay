@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.1"
-DIST_A="Devel-NoGlobalSig-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Devel-NoGlobalSig-v0.0.1.tar.gz -> Devel-NoGlobalSig-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +19,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.260
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-NoGlobalSig-v0.0.1 ${WORKDIR}/Devel-NoGlobalSig-0.0.1
+}
+

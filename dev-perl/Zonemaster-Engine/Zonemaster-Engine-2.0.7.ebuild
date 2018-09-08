@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZNMSTR"
-DIST_VERSION="2.0.7"
-DIST_A="Zonemaster-Engine-v2.0.7.tar.gz"
+DIST_VERSION="2.0.7" 
+SRC_URI="mirror://cpan/authors/id/Z/ZN/ZNMSTR/Zonemaster-Engine-v2.0.7.tar.gz -> Zonemaster-Engine-2.0.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Zonemaster-Engine-v2.0.7 ${WORKDIR}/Zonemaster-Engine-2.0.7
+}
+

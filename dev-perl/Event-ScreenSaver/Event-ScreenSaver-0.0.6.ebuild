@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.0.6"
-DIST_A="Event-ScreenSaver-v0.0.6.tar.gz"
+DIST_VERSION="0.0.6" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Event-ScreenSaver-v0.0.6.tar.gz -> Event-ScreenSaver-0.0.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Test-Warnings
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Event-ScreenSaver-v0.0.6 ${WORKDIR}/Event-ScreenSaver-0.0.6
+}
+

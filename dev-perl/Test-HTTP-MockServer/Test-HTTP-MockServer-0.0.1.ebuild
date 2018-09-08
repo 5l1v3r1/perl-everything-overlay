@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DRUOSO"
-DIST_VERSION="v0.0.1"
-DIST_A="Test-HTTP-MockServer-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/D/DR/DRUOSO/Test-HTTP-MockServer-v0.0.1.tar.gz -> Test-HTTP-MockServer-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.390
 	dev-perl/libwww-perl
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-HTTP-MockServer-v0.0.1 ${WORKDIR}/Test-HTTP-MockServer-0.0.1
+}
+

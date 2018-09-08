@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.4.8"
-DIST_A="Getopt-Alt-v0.4.8.tar.gz"
+DIST_VERSION="0.4.8" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Getopt-Alt-v0.4.8.tar.gz -> Getopt-Alt-0.4.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-Alt-v0.4.8 ${WORKDIR}/Getopt-Alt-0.4.8
+}
+

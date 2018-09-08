@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.3.3"
-DIST_A="MooX-Failover-v0.3.3.tar.gz"
+DIST_VERSION="0.3.3" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/MooX-Failover-v0.3.3.tar.gz -> MooX-Failover-0.3.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MooX-Failover-v0.3.3 ${WORKDIR}/MooX-Failover-0.3.3
+}
+

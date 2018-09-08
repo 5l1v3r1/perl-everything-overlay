@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="v0.0.4"
-DIST_A="File-fgets-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/M/MS/MSCHWERN/File-fgets-v0.0.4.tar.gz -> File-fgets-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-fgets-v0.0.4 ${WORKDIR}/File-fgets-0.0.4
+}
+

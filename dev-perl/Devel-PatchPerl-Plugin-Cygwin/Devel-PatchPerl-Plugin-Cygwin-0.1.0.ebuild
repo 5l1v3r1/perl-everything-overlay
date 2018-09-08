@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.1.0"
-DIST_A="Devel-PatchPerl-Plugin-Cygwin-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Devel-PatchPerl-Plugin-Cygwin-v0.1.0.tar.gz -> Devel-PatchPerl-Plugin-Cygwin-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-PatchPerl-Plugin-Cygwin-v0.1.0 ${WORKDIR}/Devel-PatchPerl-Plugin-Cygwin-0.1.0
+}
+

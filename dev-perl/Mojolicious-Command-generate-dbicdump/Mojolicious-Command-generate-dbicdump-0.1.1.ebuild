@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WESAL"
-DIST_VERSION="0.1.1"
-DIST_A="Mojolicious-Command-generate-dbicdump-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/W/WE/WESAL/Mojolicious-Command-generate-dbicdump-v0.1.1.tar.gz -> Mojolicious-Command-generate-dbicdump-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mojolicious-Command-generate-dbicdump-v0.1.1 ${WORKDIR}/Mojolicious-Command-generate-dbicdump-0.1.1
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JONASS"
-DIST_VERSION="3.0.36"
-DIST_A="App-Licensecheck-v3.0.36.tar.gz"
+DIST_VERSION="3.0.36" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JONASS/App-Licensecheck-v3.0.36.tar.gz -> App-Licensecheck-3.0.36.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,5 +41,11 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=dev-perl/Test-Script-1.090
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Licensecheck-v3.0.36 ${WORKDIR}/App-Licensecheck-3.0.36
+}
+

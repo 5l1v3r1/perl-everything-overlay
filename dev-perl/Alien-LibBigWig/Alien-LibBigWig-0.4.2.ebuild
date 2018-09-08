@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AYATES"
-DIST_VERSION="0.4.2"
-DIST_A="Alien-LibBigWig-v0.4.2.tar.gz"
+DIST_VERSION="0.4.2" 
+SRC_URI="mirror://cpan/authors/id/A/AY/AYATES/Alien-LibBigWig-v0.4.2.tar.gz -> Alien-LibBigWig-0.4.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/IO-Socket-SSL-1.560
 	>=dev-perl/Net-SSLeay-1.490
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-LibBigWig-v0.4.2 ${WORKDIR}/Alien-LibBigWig-0.4.2
+}
+

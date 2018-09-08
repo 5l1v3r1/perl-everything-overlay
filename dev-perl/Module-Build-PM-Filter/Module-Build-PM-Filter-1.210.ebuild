@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VMORAL"
-DIST_VERSION="1.21"
-DIST_A="Module-Build-PM_Filter-v1.21.tar.gz"
+DIST_VERSION="1.21" 
+SRC_URI="mirror://cpan/authors/id/V/VM/VMORAL/Module-Build-PM_Filter-v1.21.tar.gz -> Module-Build-PM_Filter-1.21.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Module-Build-PM_Filter-v1.21 ${WORKDIR}/Module-Build-PM_Filter-1.21
+}
+

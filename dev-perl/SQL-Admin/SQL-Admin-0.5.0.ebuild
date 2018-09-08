@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BARNEY"
-DIST_VERSION="v0.5.0"
-DIST_A="SQL-Admin-v0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
+SRC_URI="mirror://cpan/authors/id/B/BA/BARNEY/SQL-Admin-v0.5.0.tar.gz -> SQL-Admin-0.5.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,12 +19,20 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/Data-Compare
 	dev-perl/Parse-RecDescent
+	dev-perl/Pod-Usage
 	dev-perl/SQL-Abstract
 	virtual/perl-Getopt-Long
 	virtual/perl-Module-Load
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Attribute-Handlers
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SQL-Admin-v0.5.0 ${WORKDIR}/SQL-Admin-0.5.0
+}
+

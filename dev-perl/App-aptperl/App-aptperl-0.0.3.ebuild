@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.0.3"
-DIST_A="App-aptperl-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/App-aptperl-v0.0.3.tar.gz -> App-aptperl-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	dev-perl/Test-Warnings
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-aptperl-v0.0.3 ${WORKDIR}/App-aptperl-0.0.3
+}
+

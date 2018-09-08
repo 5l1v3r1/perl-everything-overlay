@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="0.48.0"
-DIST_A="Log-Shiras-v0.48.0.tar.gz"
+DIST_VERSION="0.48.0" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JANDREW/Log-Shiras-v0.48.0.tar.gz -> Log-Shiras-0.48.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,6 +31,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/Test2-Suite
 	>=dev-perl/Text-CSV-XS-1.250
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -49,3 +50,9 @@ DEPEND="
 	dev-perl/Modern-Perl
 	dev-perl/Test-File
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-Shiras-v0.48.0 ${WORKDIR}/Log-Shiras-0.48.0
+}
+

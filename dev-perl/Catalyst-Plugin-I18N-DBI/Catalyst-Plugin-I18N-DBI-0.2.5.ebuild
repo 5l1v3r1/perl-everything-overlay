@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MDIETRICH"
-DIST_VERSION="v0.2.5"
-DIST_A="Catalyst-Plugin-I18N-DBI-v0.2.5.tar.gz"
+DIST_VERSION="0.2.5" 
+SRC_URI="mirror://cpan/authors/id/M/MD/MDIETRICH/Catalyst-Plugin-I18N-DBI-v0.2.5.tar.gz -> Catalyst-Plugin-I18N-DBI-0.2.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Catalyst-Plugin-I18N-DBI-v0.2.5 ${WORKDIR}/Catalyst-Plugin-I18N-DBI-0.2.5
+}
+

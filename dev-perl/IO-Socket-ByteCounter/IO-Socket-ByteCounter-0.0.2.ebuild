@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v0.0.2"
-DIST_A="IO-Socket-ByteCounter-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/IO-Socket-ByteCounter-v0.0.2.tar.gz -> IO-Socket-ByteCounter-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/IO-Socket-ByteCounter-v0.0.2 ${WORKDIR}/IO-Socket-ByteCounter-0.0.2
+}
+

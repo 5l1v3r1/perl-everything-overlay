@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ALFIE"
-DIST_VERSION="v1.0.2"
-DIST_A="Data-PathSimple-v1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
+SRC_URI="mirror://cpan/authors/id/A/AL/ALFIE/Data-PathSimple-v1.0.2.tar.gz -> Data-PathSimple-1.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-PathSimple-v1.0.2 ${WORKDIR}/Data-PathSimple-1.0.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CAMSPI"
-DIST_VERSION="1.2.3"
-DIST_A="DBIx-Deployer-v1.2.3.tar.gz"
+DIST_VERSION="1.2.3" 
+SRC_URI="mirror://cpan/authors/id/C/CA/CAMSPI/DBIx-Deployer-v1.2.3.tar.gz -> DBIx-Deployer-1.2.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +36,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-Deployer-v1.2.3 ${WORKDIR}/DBIx-Deployer-1.2.3
+}
+

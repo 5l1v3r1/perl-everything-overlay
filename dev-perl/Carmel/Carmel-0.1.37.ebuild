@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.1.37"
-DIST_A="Carmel-v0.1.37.tar.gz"
+DIST_VERSION="0.1.37" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/Carmel-v0.1.37.tar.gz -> Carmel-0.1.37.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Carmel-v0.1.37 ${WORKDIR}/Carmel-0.1.37
+}
+

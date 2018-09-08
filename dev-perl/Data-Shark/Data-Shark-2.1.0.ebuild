@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BILLWALZ"
-DIST_VERSION="v2.1.0"
-DIST_A="Data-Shark-v2.1.0.tar.gz"
+DIST_VERSION="2.1.0" 
+SRC_URI="mirror://cpan/authors/id/B/BI/BILLWALZ/Data-Shark-v2.1.0.tar.gz -> Data-Shark-2.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +22,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Shark-v2.1.0 ${WORKDIR}/Data-Shark-2.1.0
+}
+

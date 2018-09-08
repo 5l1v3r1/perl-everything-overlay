@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.2.1"
-DIST_A="List-oo-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/List-oo-v0.2.1.tar.gz -> List-oo-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +21,13 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.260
+	dev-perl/Module-Build
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/List-oo-v0.2.1 ${WORKDIR}/List-oo-0.2.1
+}
+

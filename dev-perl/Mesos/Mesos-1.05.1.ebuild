@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MAF"
-DIST_VERSION="v1.05.1"
-DIST_A="Mesos-v1.5.1.tar.gz"
+DIST_VERSION="1.05.1" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MAF/Mesos-v1.5.1.tar.gz -> Mesos-1.05.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	dev-perl/FindBin-libs
 	dev-perl/Test-Most
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mesos-v1.5.1 ${WORKDIR}/Mesos-1.05.1
+}
+

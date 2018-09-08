@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.0.8"
-DIST_A="App-devmode-v0.0.8.tar.gz"
+DIST_VERSION="0.0.8" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/App-devmode-v0.0.8.tar.gz -> App-devmode-0.0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-devmode-v0.0.8 ${WORKDIR}/App-devmode-0.0.8
+}
+

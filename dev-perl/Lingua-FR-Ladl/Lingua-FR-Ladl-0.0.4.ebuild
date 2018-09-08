@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INGRIF"
-DIST_VERSION="v0.0.4"
-DIST_A="Lingua-FR-Ladl-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INGRIF/Lingua-FR-Ladl-v0.0.4.tar.gz -> Lingua-FR-Ladl-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +29,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-FR-Ladl-v0.0.4 ${WORKDIR}/Lingua-FR-Ladl-0.0.4
+}
+

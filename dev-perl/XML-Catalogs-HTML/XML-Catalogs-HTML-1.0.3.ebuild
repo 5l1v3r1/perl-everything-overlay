@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="v1.0.3"
-DIST_A="XML-Catalogs-HTML-v1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/XML-Catalogs-HTML-v1.0.3.tar.gz -> XML-Catalogs-HTML-1.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-Catalogs-HTML-v1.0.3 ${WORKDIR}/XML-Catalogs-HTML-1.0.3
+}
+

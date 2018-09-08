@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.10.2"
-DIST_A="Pcore-XMPP-v0.10.2.tar.gz"
+DIST_VERSION="0.10.2" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-XMPP-v0.10.2.tar.gz -> Pcore-XMPP-0.10.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-XMPP-v0.10.2 ${WORKDIR}/Pcore-XMPP-0.10.2
+}
+

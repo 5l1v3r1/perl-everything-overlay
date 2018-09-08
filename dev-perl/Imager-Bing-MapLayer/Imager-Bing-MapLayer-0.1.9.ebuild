@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.9"
-DIST_A="Imager-Bing-MapLayer-v0.1.9.tar.gz"
+DIST_VERSION="0.1.9" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Imager-Bing-MapLayer-v0.1.9.tar.gz -> Imager-Bing-MapLayer-0.1.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +45,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Imager-Bing-MapLayer-v0.1.9 ${WORKDIR}/Imager-Bing-MapLayer-0.1.9
+}
+

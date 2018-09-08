@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LSTROUS"
-DIST_VERSION="1.2.1"
-DIST_A="IO-ReadHandle-Chain-v1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
+SRC_URI="mirror://cpan/authors/id/L/LS/LSTROUS/IO-ReadHandle-Chain-v1.2.1.tar.gz -> IO-ReadHandle-Chain-1.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/IO-ReadHandle-Chain-v1.2.1 ${WORKDIR}/IO-ReadHandle-Chain-1.2.1
+}
+

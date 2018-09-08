@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MDIETRICH"
-DIST_VERSION="v0.2.1"
-DIST_A="Locale-Maketext-Lexicon-DBI-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/M/MD/MDIETRICH/Locale-Maketext-Lexicon-DBI-v0.2.1.tar.gz -> Locale-Maketext-Lexicon-DBI-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Locale-Maketext-Lexicon-DBI-v0.2.1 ${WORKDIR}/Locale-Maketext-Lexicon-DBI-0.2.1
+}
+

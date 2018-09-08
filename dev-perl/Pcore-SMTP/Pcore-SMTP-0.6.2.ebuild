@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.6.2"
-DIST_A="Pcore-SMTP-v0.6.2.tar.gz"
+DIST_VERSION="0.6.2" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-SMTP-v0.6.2.tar.gz -> Pcore-SMTP-0.6.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-SMTP-v0.6.2 ${WORKDIR}/Pcore-SMTP-0.6.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.6.1"
-DIST_A="HTML-Latemp-GenMakeHelpers-v0.6.1.tar.gz"
+DIST_VERSION="0.6.1" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/HTML-Latemp-GenMakeHelpers-v0.6.1.tar.gz -> HTML-Latemp-GenMakeHelpers-0.6.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Latemp-GenMakeHelpers-v0.6.1 ${WORKDIR}/HTML-Latemp-GenMakeHelpers-0.6.1
+}
+

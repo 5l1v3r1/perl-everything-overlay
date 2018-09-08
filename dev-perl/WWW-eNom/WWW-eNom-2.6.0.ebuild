@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="2.6.0"
-DIST_A="WWW-eNom-v2.6.0.tar.gz"
+DIST_VERSION="2.6.0" 
+SRC_URI="mirror://cpan/authors/id/D/DR/DRZIGMAN/WWW-eNom-v2.6.0.tar.gz -> WWW-eNom-2.6.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,10 +45,10 @@ DEPEND="
 	dev-perl/String-Random
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-Moose-More
 	dev-perl/Test-Warn
 	dev-perl/XML-Simple
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO
@@ -56,3 +56,9 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-eNom-v2.6.0 ${WORKDIR}/WWW-eNom-2.6.0
+}
+

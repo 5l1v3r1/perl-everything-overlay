@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.1.0"
-DIST_A="App-GitWorkspaceScanner-v1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/App-GitWorkspaceScanner-v1.1.0.tar.gz -> App-GitWorkspaceScanner-1.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Git-Repository
 	dev-perl/Log-Any
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
@@ -25,7 +26,6 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
@@ -33,3 +33,9 @@ DEPEND="
 	dev-perl/Test-FailWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-GitWorkspaceScanner-v1.1.0 ${WORKDIR}/App-GitWorkspaceScanner-1.1.0
+}
+

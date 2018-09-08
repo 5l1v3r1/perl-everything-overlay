@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.2.1"
-DIST_A="Dist-Zilla-Plugin-Test-Kwalitee-Extra-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Dist-Zilla-Plugin-Test-Kwalitee-Extra-v0.2.1.tar.gz -> Dist-Zilla-Plugin-Test-Kwalitee-Extra-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-version-0.770
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-Test-Kwalitee-Extra-v0.2.1 ${WORKDIR}/Dist-Zilla-Plugin-Test-Kwalitee-Extra-0.2.1
+}
+

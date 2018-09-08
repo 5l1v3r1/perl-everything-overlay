@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MAMAWE"
-DIST_VERSION="v0.3.1"
-DIST_A="App-MakeEPUB-v0.3.1.tar.gz"
+DIST_VERSION="0.3.1" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MAMAWE/App-MakeEPUB-v0.3.1.tar.gz -> App-MakeEPUB-0.3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	dev-perl/Probe-Perl
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-MakeEPUB-v0.3.1 ${WORKDIR}/App-MakeEPUB-0.3.1
+}
+

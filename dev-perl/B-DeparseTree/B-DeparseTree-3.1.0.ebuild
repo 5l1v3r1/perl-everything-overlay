@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROCKY"
-DIST_VERSION="3.1.0"
-DIST_A="B-DeparseTree-v3.1.0.tar.gz"
+DIST_VERSION="3.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROCKY/B-DeparseTree-v3.1.0.tar.gz -> B-DeparseTree-3.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Text-Diff
 	>=virtual/perl-Test-Simple-0.810
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/B-DeparseTree-v3.1.0 ${WORKDIR}/B-DeparseTree-3.1.0
+}
+

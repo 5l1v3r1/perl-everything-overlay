@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MORITZ"
-DIST_VERSION="v0.8.0"
-DIST_A="App-Mowyw-v0.8.0.tar.gz"
+DIST_VERSION="0.8.0" 
+SRC_URI="mirror://cpan/authors/id/M/MO/MORITZ/App-Mowyw-v0.8.0.tar.gz -> App-Mowyw-0.8.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Mowyw-v0.8.0 ${WORKDIR}/App-Mowyw-0.8.0
+}
+

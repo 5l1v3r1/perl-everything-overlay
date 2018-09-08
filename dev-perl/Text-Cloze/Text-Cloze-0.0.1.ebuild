@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="UNOBE"
-DIST_VERSION="0.0.1"
-DIST_A="Text-Cloze-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/U/UN/UNOBE/Text-Cloze-v0.0.1.tar.gz -> Text-Cloze-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Cloze-v0.0.1 ${WORKDIR}/Text-Cloze-0.0.1
+}
+

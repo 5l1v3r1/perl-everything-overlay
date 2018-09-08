@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOFTX"
-DIST_VERSION="0.1.2"
-DIST_A="MooX-Role-Reconstruct-v0.1.2.tar.gz"
-SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/MooX/MooX-Role-Reconstruct-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/MooX/MooX-Role-Reconstruct-v0.1.2.tar.gz -> MooX-Role-Reconstruct-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MooX-Role-Reconstruct-v0.1.2 ${WORKDIR}/MooX-Role-Reconstruct-0.1.2
+}
+

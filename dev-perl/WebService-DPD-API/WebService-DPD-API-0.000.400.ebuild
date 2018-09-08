@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RNEWSHAM"
-DIST_VERSION="0.0004"
-DIST_A="WebService-DPD-API-v0.0004.tar.gz"
+DIST_VERSION="0.0004" 
+SRC_URI="mirror://cpan/authors/id/R/RN/RNEWSHAM/WebService-DPD-API-v0.0004.tar.gz -> WebService-DPD-API-0.0004.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-DPD-API-v0.0004 ${WORKDIR}/WebService-DPD-API-0.0004
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.2.0"
-DIST_A="DBIx-ScopedTransaction-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/DBIx-ScopedTransaction-v1.2.0.tar.gz -> DBIx-ScopedTransaction-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-ScopedTransaction-v1.2.0 ${WORKDIR}/DBIx-ScopedTransaction-1.2.0
+}
+

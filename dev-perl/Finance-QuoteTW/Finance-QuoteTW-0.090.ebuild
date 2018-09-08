@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ALEC"
-DIST_VERSION="0.09"
-DIST_A="Finance-QuoteTW-v0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/A/AL/ALEC/Finance-QuoteTW-v0.09.tar.gz -> Finance-QuoteTW-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-version-0.760
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Finance-QuoteTW-v0.09 ${WORKDIR}/Finance-QuoteTW-0.09
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="2.0.2"
-DIST_A="Mojolicious-Plugin-SecureCORS-v2.0.2.tar.gz"
+DIST_VERSION="2.0.2" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/Mojolicious-Plugin-SecureCORS-v2.0.2.tar.gz -> Mojolicious-Plugin-SecureCORS-2.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +22,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mojolicious-Plugin-SecureCORS-v2.0.2 ${WORKDIR}/Mojolicious-Plugin-SecureCORS-2.0.2
+}
+

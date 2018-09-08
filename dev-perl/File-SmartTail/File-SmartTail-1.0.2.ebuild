@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MPREWITT"
-DIST_VERSION="v1.0.2"
-DIST_A="File-SmartTail-v1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
+SRC_URI="mirror://cpan/authors/id/M/MP/MPREWITT/File-SmartTail-v1.0.2.tar.gz -> File-SmartTail-1.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-SmartTail-v1.0.2 ${WORKDIR}/File-SmartTail-1.0.2
+}
+

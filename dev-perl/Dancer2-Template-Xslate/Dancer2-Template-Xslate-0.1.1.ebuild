@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSIMOES"
-DIST_VERSION="0.1.1"
-DIST_A="Dancer2-Template-Xslate-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSIMOES/Dancer2-Template-Xslate-v0.1.1.tar.gz -> Dancer2-Template-Xslate-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,10 +23,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dancer2-Template-Xslate-v0.1.1 ${WORKDIR}/Dancer2-Template-Xslate-0.1.1
+}
+

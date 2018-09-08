@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="1.0.1"
-DIST_A="Acme-MetaSyntactic-nethack-v1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
+SRC_URI="mirror://cpan/authors/id/E/EL/ELLIOTJS/Acme-MetaSyntactic-nethack-v1.0.1.tar.gz -> Acme-MetaSyntactic-nethack-1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +22,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-Find-Rule
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-MetaSyntactic-nethack-v1.0.1 ${WORKDIR}/Acme-MetaSyntactic-nethack-1.0.1
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.4"
-DIST_A="Readonly-Enum-v0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Readonly-Enum-v0.1.4.tar.gz -> Readonly-Enum-0.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Readonly-Enum-v0.1.4 ${WORKDIR}/Readonly-Enum-0.1.4
+}
+

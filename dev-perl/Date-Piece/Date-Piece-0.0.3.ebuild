@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.3"
-DIST_A="Date-Piece-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Date-Piece-v0.0.3.tar.gz -> Date-Piece-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.330.300
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Date-Piece-v0.0.3 ${WORKDIR}/Date-Piece-0.0.3
+}
+

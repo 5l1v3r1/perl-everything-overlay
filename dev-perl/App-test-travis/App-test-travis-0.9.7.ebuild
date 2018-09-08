@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="v0.9.7"
-DIST_A="App-test-travis-v0.9.7.tar.gz"
+DIST_VERSION="0.9.7" 
+SRC_URI="mirror://cpan/authors/id/G/GF/GFUJI/App-test-travis-v0.9.7.tar.gz -> App-test-travis-0.9.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,15 +16,23 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/yaml
+	dev-perl/Pod-Usage
+	dev-perl/YAML
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	>=virtual/perl-version-0.770
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-test-travis-v0.9.7 ${WORKDIR}/App-test-travis-0.9.7
+}
+

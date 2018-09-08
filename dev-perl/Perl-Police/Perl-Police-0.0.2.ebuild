@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAINT"
-DIST_VERSION="0.0.2"
-DIST_A="Perl-Police-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAINT/Perl-Police-v0.0.2.tar.gz -> Perl-Police-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl-Police-v0.0.2 ${WORKDIR}/Perl-Police-0.0.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MELEZHIK"
-DIST_VERSION="v0.0.3"
-DIST_A="CPANPLUS-Shell-Default-Plugins-Repo-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/M/ME/MELEZHIK/CPANPLUS-Shell-Default-Plugins-Repo-v0.0.3.tar.gz -> CPANPLUS-Shell-Default-Plugins-Repo-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CPANPLUS-Shell-Default-Plugins-Repo-v0.0.3 ${WORKDIR}/CPANPLUS-Shell-Default-Plugins-Repo-0.0.3
+}
+

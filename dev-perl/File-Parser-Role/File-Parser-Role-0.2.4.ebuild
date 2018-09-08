@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="0.2.4"
-DIST_A="File-Parser-Role-v0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TORBJORN/File-Parser-Role-v0.2.4.tar.gz -> File-Parser-Role-0.2.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Parser-Role-v0.2.4 ${WORKDIR}/File-Parser-Role-0.2.4
+}
+

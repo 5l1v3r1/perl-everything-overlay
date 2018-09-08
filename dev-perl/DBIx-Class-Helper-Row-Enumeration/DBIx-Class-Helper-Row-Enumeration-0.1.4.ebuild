@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.4"
-DIST_A="DBIx-Class-Helper-Row-Enumeration-v0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/DBIx-Class-Helper-Row-Enumeration-v0.1.4.tar.gz -> DBIx-Class-Helper-Row-Enumeration-0.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-Class-Helper-Row-Enumeration-v0.1.4 ${WORKDIR}/DBIx-Class-Helper-Row-Enumeration-0.1.4
+}
+

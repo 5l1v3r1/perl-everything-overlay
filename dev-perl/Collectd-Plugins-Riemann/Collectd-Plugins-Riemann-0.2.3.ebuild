@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="FAXMODEM"
-DIST_VERSION="v0.2.3"
-DIST_A="Collectd-Plugins-Riemann-v0.2.3.tar.gz"
+DIST_VERSION="0.2.3" 
+SRC_URI="mirror://cpan/authors/id/F/FA/FAXMODEM/Collectd-Plugins-Riemann-v0.2.3.tar.gz -> Collectd-Plugins-Riemann-0.2.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +26,11 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.880
 	>=dev-perl/Test-Collectd-Plugins-0.100.700
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Collectd-Plugins-Riemann-v0.2.3 ${WORKDIR}/Collectd-Plugins-Riemann-0.2.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EINHVERFR"
-DIST_VERSION="0.01"
-DIST_A="PGObject-Util-Replication-Master-v0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/E/EI/EINHVERFR/PGObject-Util-Replication-Master-v0.01.tar.gz -> PGObject-Util-Replication-Master-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PGObject-Util-Replication-Master-v0.01 ${WORKDIR}/PGObject-Util-Replication-Master-0.01
+}
+

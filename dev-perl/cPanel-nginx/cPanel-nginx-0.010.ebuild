@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IDIVISION"
-DIST_VERSION="0.01"
-DIST_A="cPanel-nginx-v0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/I/ID/IDIVISION/cPanel-nginx-v0.01.tar.gz -> cPanel-nginx-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/cPanel-nginx-v0.01 ${WORKDIR}/cPanel-nginx-0.01
+}
+

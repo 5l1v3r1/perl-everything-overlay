@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ALEC"
-DIST_VERSION="0.04"
-DIST_A="WWW-NioTV-v0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/A/AL/ALEC/WWW-NioTV-v0.04.tar.gz -> WWW-NioTV-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.800
 	>=virtual/perl-version-0.760
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-NioTV-v0.04 ${WORKDIR}/WWW-NioTV-0.04
+}
+

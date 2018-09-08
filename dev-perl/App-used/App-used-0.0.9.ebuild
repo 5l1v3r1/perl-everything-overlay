@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.0.9"
-DIST_A="App-used-v0.0.9.tar.gz"
+DIST_VERSION="0.0.9" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/App-used-v0.0.9.tar.gz -> App-used-0.0.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-used-v0.0.9 ${WORKDIR}/App-used-0.0.9
+}
+

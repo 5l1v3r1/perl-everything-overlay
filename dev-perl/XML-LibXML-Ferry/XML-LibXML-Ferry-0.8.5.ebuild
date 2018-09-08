@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LIS"
-DIST_VERSION="0.8.5"
-DIST_A="XML-LibXML-Ferry-v0.8.5.tar.gz"
+DIST_VERSION="0.8.5" 
+SRC_URI="mirror://cpan/authors/id/L/LI/LIS/XML-LibXML-Ferry-v0.8.5.tar.gz -> XML-LibXML-Ferry-0.8.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-LibXML-Ferry-v0.8.5 ${WORKDIR}/XML-LibXML-Ferry-0.8.5
+}
+

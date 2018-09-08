@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.6.4"
-DIST_A="Dist-Zilla-Tester-DieHard-v0.6.4.tar.gz"
+DIST_VERSION="0.6.4" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Dist-Zilla-Tester-DieHard-v0.6.4.tar.gz -> Dist-Zilla-Tester-DieHard-0.6.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/IPC-System-Simple
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.059
 	dev-perl/Software-License-OrLaterPack
 	dev-perl/Test-Deep
@@ -42,3 +43,9 @@ DEPEND="
 	virtual/perl-if
 	>=virtual/perl-version-0.770
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Tester-DieHard-v0.6.4 ${WORKDIR}/Dist-Zilla-Tester-DieHard-0.6.4
+}
+

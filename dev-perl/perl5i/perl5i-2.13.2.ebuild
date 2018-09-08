@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="v2.13.2"
-DIST_A="perl5i-v2.13.2.tar.gz"
+DIST_VERSION="2.13.2" 
+SRC_URI="mirror://cpan/authors/id/M/MS/MSCHWERN/perl5i-v2.13.2.tar.gz -> perl5i-2.13.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,7 +41,6 @@ RDEPEND="
 	>=dev-perl/Try-Tiny-0.020
 	>=dev-perl/Want-0.180
 	>=dev-perl/YAML-0.700
-	>=dev-perl/autobox-2.800
 	>=dev-perl/autobox-Core-1.000
 	>=dev-perl/autobox-List-Util-20090629.000
 	>=dev-perl/autobox-dump-20090426.000
@@ -67,3 +66,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.260
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/perl5i-v2.13.2 ${WORKDIR}/perl5i-2.13.2
+}
+

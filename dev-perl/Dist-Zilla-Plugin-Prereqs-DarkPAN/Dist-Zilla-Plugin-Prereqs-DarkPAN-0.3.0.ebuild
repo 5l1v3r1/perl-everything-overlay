@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.3.0"
-DIST_A="Dist-Zilla-Plugin-Prereqs-DarkPAN-v0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KENTNL/Dist-Zilla-Plugin-Prereqs-DarkPAN-v0.3.0.tar.gz -> Dist-Zilla-Plugin-Prereqs-DarkPAN-0.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-Prereqs-DarkPAN-v0.3.0 ${WORKDIR}/Dist-Zilla-Plugin-Prereqs-DarkPAN-0.3.0
+}
+

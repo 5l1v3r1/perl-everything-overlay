@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROCKY"
-DIST_VERSION="2.0.0"
-DIST_A="Device-Cdio-v2.0.0.tar.gz"
+DIST_VERSION="2.0.0" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROCKY/Device-Cdio-v2.0.0.tar.gz -> Device-Cdio-2.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Device-Cdio-v2.0.0 ${WORKDIR}/Device-Cdio-2.0.0
+}
+

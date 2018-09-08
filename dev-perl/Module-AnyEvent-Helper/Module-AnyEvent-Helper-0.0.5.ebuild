@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.5"
-DIST_A="Module-AnyEvent-Helper-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Module-AnyEvent-Helper-v0.0.5.tar.gz -> Module-AnyEvent-Helper-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Exception
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Module-AnyEvent-Helper-v0.0.5 ${WORKDIR}/Module-AnyEvent-Helper-0.0.5
+}
+

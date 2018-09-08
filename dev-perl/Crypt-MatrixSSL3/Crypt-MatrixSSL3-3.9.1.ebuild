@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="3.9.1"
-DIST_A="Crypt-MatrixSSL3-v3.9.1.tar.gz"
+DIST_VERSION="3.9.1" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/Crypt-MatrixSSL3-v3.9.1.tar.gz -> Crypt-MatrixSSL3-3.9.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,9 @@ DEPEND="
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Crypt-MatrixSSL3-v3.9.1 ${WORKDIR}/Crypt-MatrixSSL3-3.9.1
+}
+

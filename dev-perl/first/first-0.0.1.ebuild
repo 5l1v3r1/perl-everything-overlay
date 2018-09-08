@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v0.0.1"
-DIST_A="first-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/first-v0.0.1.tar.gz -> first-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/first-v0.0.1 ${WORKDIR}/first-0.0.1
+}
+

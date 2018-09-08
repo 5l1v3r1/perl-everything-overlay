@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.9.8"
-DIST_A="Riji-v0.9.8.tar.gz"
+DIST_VERSION="0.9.8" 
+SRC_URI="mirror://cpan/authors/id/S/SO/SONGMU/Riji-v0.9.8.tar.gz -> Riji-0.9.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,8 +45,15 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Scope-Guard
 	dev-perl/Test-Mock-Guard
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Riji-v0.9.8 ${WORKDIR}/Riji-0.9.8
+}
+

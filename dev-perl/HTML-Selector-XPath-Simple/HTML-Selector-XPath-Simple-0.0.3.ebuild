@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAKERU"
-DIST_VERSION="0.0.3"
-DIST_A="HTML-Selector-XPath-Simple-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAKERU/HTML-Selector-XPath-Simple-v0.0.3.tar.gz -> HTML-Selector-XPath-Simple-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Selector-XPath-Simple-v0.0.3 ${WORKDIR}/HTML-Selector-XPath-Simple-0.0.3
+}
+

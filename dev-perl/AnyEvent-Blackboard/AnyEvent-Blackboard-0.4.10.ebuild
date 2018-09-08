@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAG"
-DIST_VERSION="0.4.10"
-DIST_A="AnyEvent-Blackboard-v0.4.10.tar.gz"
+DIST_VERSION="0.4.10" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAG/AnyEvent-Blackboard-v0.4.10.tar.gz -> AnyEvent-Blackboard-0.4.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-perl/Devel-Leak
 	dev-perl/EV
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AnyEvent-Blackboard-v0.4.10 ${WORKDIR}/AnyEvent-Blackboard-0.4.10
+}
+

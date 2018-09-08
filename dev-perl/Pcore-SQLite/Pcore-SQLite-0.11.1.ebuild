@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.11.1"
-DIST_A="Pcore-SQLite-v0.11.1.tar.gz"
+DIST_VERSION="0.11.1" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-SQLite-v0.11.1.tar.gz -> Pcore-SQLite-0.11.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-SQLite-v0.11.1 ${WORKDIR}/Pcore-SQLite-0.11.1
+}
+

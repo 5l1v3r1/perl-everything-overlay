@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZEROLIU"
-DIST_VERSION="0.1.50"
-DIST_A="Bio-KEGGI-v0.1.50.tar.gz"
+DIST_VERSION="0.1.50" 
+SRC_URI="mirror://cpan/authors/id/Z/ZE/ZEROLIU/Bio-KEGGI-v0.1.50.tar.gz -> Bio-KEGGI-0.1.50.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-KEGGI-v0.1.50 ${WORKDIR}/Bio-KEGGI-0.1.50
+}
+

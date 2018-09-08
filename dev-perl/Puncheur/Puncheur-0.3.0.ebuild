@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.3.0"
-DIST_A="Puncheur-v0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
+SRC_URI="mirror://cpan/authors/id/S/SO/SONGMU/Puncheur-v0.3.0.tar.gz -> Puncheur-0.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +36,9 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Puncheur-v0.3.0 ${WORKDIR}/Puncheur-0.3.0
+}
+

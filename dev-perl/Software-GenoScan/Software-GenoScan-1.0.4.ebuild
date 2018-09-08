@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WOLFTOWER"
-DIST_VERSION="1.0.4"
-DIST_A="Software-GenoScan-v1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
+SRC_URI="mirror://cpan/authors/id/W/WO/WOLFTOWER/Software-GenoScan-v1.0.4.tar.gz -> Software-GenoScan-1.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.210
 	virtual/perl-XSLoader
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Software-GenoScan-v1.0.4 ${WORKDIR}/Software-GenoScan-1.0.4
+}
+

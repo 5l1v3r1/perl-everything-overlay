@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.9.1"
-DIST_A="Class-Accessor-Classy-v0.9.1.tar.gz"
+DIST_VERSION="0.9.1" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Class-Accessor-Classy-v0.9.1.tar.gz -> Class-Accessor-Classy-0.9.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Class-Accessor-Classy-v0.9.1 ${WORKDIR}/Class-Accessor-Classy-0.9.1
+}
+

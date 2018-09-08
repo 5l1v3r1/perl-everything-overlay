@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.4.0"
-DIST_A="Test-Roo-DataDriven-v0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Test-Roo-DataDriven-v0.4.0.tar.gz -> Test-Roo-DataDriven-0.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-Piece-1.160
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Roo-DataDriven-v0.4.0 ${WORKDIR}/Test-Roo-DataDriven-0.4.0
+}
+

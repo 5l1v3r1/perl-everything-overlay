@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="STIG"
-DIST_VERSION="0.4.7"
-DIST_A="Games-AlphaBeta-v0.4.7.tar.gz"
+DIST_VERSION="0.4.7" 
+SRC_URI="mirror://cpan/authors/id/S/ST/STIG/Games-AlphaBeta-v0.4.7.tar.gz -> Games-AlphaBeta-0.4.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-AlphaBeta-v0.4.7 ${WORKDIR}/Games-AlphaBeta-0.4.7
+}
+

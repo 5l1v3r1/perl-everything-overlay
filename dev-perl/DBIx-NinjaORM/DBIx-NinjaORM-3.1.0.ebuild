@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v3.1.0"
-DIST_A="DBIx-NinjaORM-v3.1.0.tar.gz"
+DIST_VERSION="3.1.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/DBIx-NinjaORM-v3.1.0.tar.gz -> DBIx-NinjaORM-3.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-NinjaORM-v3.1.0 ${WORKDIR}/DBIx-NinjaORM-3.1.0
+}
+

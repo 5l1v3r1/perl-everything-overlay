@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="COVINGTON"
-DIST_VERSION="v0.6.2"
-DIST_A="Perl-PrereqInstaller-v0.6.2.tar.gz"
+DIST_VERSION="0.6.2" 
+SRC_URI="mirror://cpan/authors/id/C/CO/COVINGTON/Perl-PrereqInstaller-v0.6.2.tar.gz -> Perl-PrereqInstaller-0.6.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +26,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Capture-Tiny
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl-PrereqInstaller-v0.6.2 ${WORKDIR}/Perl-PrereqInstaller-0.6.2
+}
+

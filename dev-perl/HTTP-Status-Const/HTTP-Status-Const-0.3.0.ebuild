@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.3.0"
-DIST_A="HTTP-Status-Const-v0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/HTTP-Status-Const-v0.3.0.tar.gz -> HTTP-Status-Const-0.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTTP-Status-Const-v0.3.0 ${WORKDIR}/HTTP-Status-Const-0.3.0
+}
+

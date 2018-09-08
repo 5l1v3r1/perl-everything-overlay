@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.6.0"
-DIST_A="Data-Validate-Type-v1.6.0.tar.gz"
+DIST_VERSION="1.6.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Data-Validate-Type-v1.6.0.tar.gz -> Data-Validate-Type-1.6.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/Test-FailWarnings
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Validate-Type-v1.6.0 ${WORKDIR}/Data-Validate-Type-1.6.0
+}
+

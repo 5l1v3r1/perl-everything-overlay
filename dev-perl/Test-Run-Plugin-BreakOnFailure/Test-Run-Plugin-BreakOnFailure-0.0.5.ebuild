@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.5"
-DIST_A="Test-Run-Plugin-BreakOnFailure-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Test-Run-Plugin-BreakOnFailure-v0.0.5.tar.gz -> Test-Run-Plugin-BreakOnFailure-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/YAML-LibYAML
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Run-Plugin-BreakOnFailure-v0.0.5 ${WORKDIR}/Test-Run-Plugin-BreakOnFailure-0.0.5
+}
+

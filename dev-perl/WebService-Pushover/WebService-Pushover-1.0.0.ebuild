@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHUFF"
-DIST_VERSION="1.0.0"
-DIST_A="WebService-Pushover-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHUFF/WebService-Pushover-v1.0.0.tar.gz -> WebService-Pushover-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +38,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Pushover-v1.0.0 ${WORKDIR}/WebService-Pushover-1.0.0
+}
+

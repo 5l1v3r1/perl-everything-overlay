@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="1.0.34"
-DIST_A="Carton-v1.0.34.tar.gz"
+DIST_VERSION="1.0.34" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/Carton-v1.0.34.tar.gz -> Carton-1.0.34.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.770
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Carton-v1.0.34 ${WORKDIR}/Carton-1.0.34
+}
+

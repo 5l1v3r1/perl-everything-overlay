@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.3"
-DIST_A="Types-SQL-v0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Types-SQL-v0.1.3.tar.gz -> Types-SQL-0.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,6 +31,12 @@ DEPEND="
 	>=virtual/perl-JSON-PP-2.000
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
-	>=virtual/perl-Time-Piece-1.160
+	virtual/perl-Time-Piece
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Types-SQL-v0.1.3 ${WORKDIR}/Types-SQL-0.1.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.2.1"
-DIST_A="common-header-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/common-header-v0.2.1.tar.gz -> common-header-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/common-header-v0.2.1 ${WORKDIR}/common-header-0.2.1
+}
+

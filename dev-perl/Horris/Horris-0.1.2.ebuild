@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AANOAA"
-DIST_VERSION="0.1.2"
-DIST_A="Horris-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/A/AA/AANOAA/Horris-v0.1.2.tar.gz -> Horris-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -54,3 +54,9 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Horris-v0.1.2 ${WORKDIR}/Horris-0.1.2
+}
+

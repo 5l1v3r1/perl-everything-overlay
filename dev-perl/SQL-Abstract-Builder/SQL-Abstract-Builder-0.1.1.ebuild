@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TRON"
-DIST_VERSION="0.1.1"
-DIST_A="SQL-Abstract-Builder-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/T/TR/TRON/SQL-Abstract-Builder-v0.1.1.tar.gz -> SQL-Abstract-Builder-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SQL-Abstract-Builder-v0.1.1 ${WORKDIR}/SQL-Abstract-Builder-0.1.1
+}
+

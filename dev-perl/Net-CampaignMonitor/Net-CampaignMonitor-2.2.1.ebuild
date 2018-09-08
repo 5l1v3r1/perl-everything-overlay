@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JDENNES"
-DIST_VERSION="v2.2.1"
-DIST_A="Net-CampaignMonitor-v2.2.1.tar.gz"
+DIST_VERSION="2.2.1" 
+SRC_URI="mirror://cpan/authors/id/J/JD/JDENNES/Net-CampaignMonitor-v2.2.1.tar.gz -> Net-CampaignMonitor-2.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-CampaignMonitor-v2.2.1 ${WORKDIR}/Net-CampaignMonitor-2.2.1
+}
+

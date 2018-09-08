@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.4.1"
-DIST_A="Class-NonOO-v0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Class-NonOO-v0.4.1.tar.gz -> Class-NonOO-0.4.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Class-NonOO-v0.4.1 ${WORKDIR}/Class-NonOO-0.4.1
+}
+

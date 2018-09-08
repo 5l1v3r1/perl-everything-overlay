@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSIMOES"
-DIST_VERSION="0.1.6"
-DIST_A="Dancer-Session-CHI-v0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSIMOES/Dancer-Session-CHI-v0.1.6.tar.gz -> Dancer-Session-CHI-0.1.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dancer-Session-CHI-v0.1.6 ${WORKDIR}/Dancer-Session-CHI-0.1.6
+}
+

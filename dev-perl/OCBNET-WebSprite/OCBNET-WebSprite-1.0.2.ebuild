@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="OCBNET"
-DIST_VERSION="v1.0.2"
-DIST_A="OCBNET-WebSprite-v1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
+SRC_URI="mirror://cpan/authors/id/O/OC/OCBNET/OCBNET-WebSprite-v1.0.2.tar.gz -> OCBNET-WebSprite-1.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-perl/File-Which
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/OCBNET-WebSprite-v1.0.2 ${WORKDIR}/OCBNET-WebSprite-1.0.2
+}
+

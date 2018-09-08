@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KMX"
-DIST_VERSION="v1.4.7"
-DIST_A="Alien-Tidyp-v1.4.7.tar.gz"
+DIST_VERSION="1.4.7" 
+SRC_URI="mirror://cpan/authors/id/K/KM/KMX/Alien-Tidyp-v1.4.7.tar.gz -> Alien-Tidyp-1.4.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-Tidyp-v1.4.7 ${WORKDIR}/Alien-Tidyp-1.4.7
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="2018.3.31"
-DIST_A="Ham-ADIF-v2018.3.31.tar.gz"
+DIST_VERSION="2018.3.31" 
+SRC_URI="mirror://cpan/authors/id/R/RP/RPETTETT/Ham-ADIF-v2018.3.31.tar.gz -> Ham-ADIF-2018.3.31.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.050
 	>=dev-perl/XML-LibXML-2.010.700
 	>=dev-perl/base-2.070
 	>=dev-perl/libwww-perl-6.000
@@ -28,3 +28,9 @@ DEPEND="
 	>=dev-perl/TAP-Harness-JUnit-0.410
 	>=virtual/perl-Test-Simple-0.620
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Ham-ADIF-v2018.3.31 ${WORKDIR}/Ham-ADIF-2018.3.31
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="v0.3.3"
-DIST_A="Devel-SharedLibs-v0.3.3.tar.gz"
+DIST_VERSION="0.3.3" 
+SRC_URI="mirror://cpan/authors/id/L/LE/LEMBARK/Devel-SharedLibs-v0.3.3.tar.gz -> Devel-SharedLibs-0.3.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-SharedLibs-v0.3.3 ${WORKDIR}/Devel-SharedLibs-0.3.3
+}
+

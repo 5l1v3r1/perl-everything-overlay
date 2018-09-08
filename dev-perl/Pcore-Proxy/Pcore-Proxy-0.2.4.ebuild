@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.2.4"
-DIST_A="Pcore-Proxy-v0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-Proxy-v0.2.4.tar.gz -> Pcore-Proxy-0.2.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-Proxy-v0.2.4 ${WORKDIR}/Pcore-Proxy-0.2.4
+}
+

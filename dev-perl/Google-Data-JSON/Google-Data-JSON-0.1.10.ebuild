@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAKERU"
-DIST_VERSION="0.1.10"
-DIST_A="Google-Data-JSON-v0.1.10.tar.gz"
+DIST_VERSION="0.1.10" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAKERU/Google-Data-JSON-v0.1.10.tar.gz -> Google-Data-JSON-0.1.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Google-Data-JSON-v0.1.10 ${WORKDIR}/Google-Data-JSON-0.1.10
+}
+

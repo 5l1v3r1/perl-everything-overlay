@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.9.0"
-DIST_A="App-GitHooks-v1.9.0.tar.gz"
+DIST_VERSION="1.9.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/App-GitHooks-v1.9.0.tar.gz -> App-GitHooks-1.9.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +26,7 @@ RDEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Parallel-ForkManager
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	dev-perl/Term-Encoding
 	dev-perl/TermReadKey
@@ -37,7 +38,6 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
@@ -53,3 +53,9 @@ DEPEND="
 	>=dev-perl/Test-Type-1.002
 	virtual/perl-Scalar-List-Utils
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-GitHooks-v1.9.0 ${WORKDIR}/App-GitHooks-1.9.0
+}
+

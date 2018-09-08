@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.6.2"
-DIST_A="Hash-Match-v0.6.2.tar.gz"
+DIST_VERSION="0.6.2" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Hash-Match-v0.6.2.tar.gz -> Hash-Match-0.6.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.302.015
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Hash-Match-v0.6.2 ${WORKDIR}/Hash-Match-0.6.2
+}
+

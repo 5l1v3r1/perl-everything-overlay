@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.2.0"
-DIST_A="Dist-Zilla-PluginBundle-Author-YAKEX-v0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Dist-Zilla-PluginBundle-Author-YAKEX-v0.2.0.tar.gz -> Dist-Zilla-PluginBundle-Author-YAKEX-0.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,3 +50,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-PluginBundle-Author-YAKEX-v0.2.0 ${WORKDIR}/Dist-Zilla-PluginBundle-Author-YAKEX-0.2.0
+}
+

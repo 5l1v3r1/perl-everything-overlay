@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.3"
-DIST_A="JSON-ON-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/JSON-ON-v0.0.3.tar.gz -> JSON-ON-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/JSON-ON-v0.0.3 ${WORKDIR}/JSON-ON-0.0.3
+}
+

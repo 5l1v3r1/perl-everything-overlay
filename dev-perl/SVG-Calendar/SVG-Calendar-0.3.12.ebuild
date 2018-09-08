@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.3.12"
-DIST_A="SVG-Calendar-v0.3.12.tar.gz"
+DIST_VERSION="0.3.12" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/SVG-Calendar-v0.3.12.tar.gz -> SVG-Calendar-0.3.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SVG-Calendar-v0.3.12 ${WORKDIR}/SVG-Calendar-0.3.12
+}
+

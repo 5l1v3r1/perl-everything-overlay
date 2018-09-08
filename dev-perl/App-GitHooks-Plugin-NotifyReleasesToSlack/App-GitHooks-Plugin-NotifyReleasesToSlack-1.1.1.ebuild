@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.1.1"
-DIST_A="App-GitHooks-Plugin-NotifyReleasesToSlack-v1.1.1.tar.gz"
+DIST_VERSION="1.1.1" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/App-GitHooks-Plugin-NotifyReleasesToSlack-v1.1.1.tar.gz -> App-GitHooks-Plugin-NotifyReleasesToSlack-1.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	>=dev-perl/Test-Requires-Git-1.005
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-GitHooks-Plugin-NotifyReleasesToSlack-v1.1.1 ${WORKDIR}/App-GitHooks-Plugin-NotifyReleasesToSlack-1.1.1
+}
+

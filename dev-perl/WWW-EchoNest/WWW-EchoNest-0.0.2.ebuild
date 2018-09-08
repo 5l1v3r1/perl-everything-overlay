@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BSORAHAN"
-DIST_VERSION="v0.0.2"
-DIST_A="WWW-EchoNest-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/B/BS/BSORAHAN/WWW-EchoNest-v0.0.2.tar.gz -> WWW-EchoNest-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-EchoNest-v0.0.2 ${WORKDIR}/WWW-EchoNest-0.0.2
+}
+

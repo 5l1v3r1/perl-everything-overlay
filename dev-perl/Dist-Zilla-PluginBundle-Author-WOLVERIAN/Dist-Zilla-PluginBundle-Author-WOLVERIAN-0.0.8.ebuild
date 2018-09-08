@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WOLVERIAN"
-DIST_VERSION="0.0.8"
-DIST_A="Dist-Zilla-PluginBundle-Author-WOLVERIAN-v0.0.8.tar.gz"
+DIST_VERSION="0.0.8" 
+SRC_URI="mirror://cpan/authors/id/W/WO/WOLVERIAN/Dist-Zilla-PluginBundle-Author-WOLVERIAN-v0.0.8.tar.gz -> Dist-Zilla-PluginBundle-Author-WOLVERIAN-0.0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +35,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-PluginBundle-Author-WOLVERIAN-v0.0.8 ${WORKDIR}/Dist-Zilla-PluginBundle-Author-WOLVERIAN-0.0.8
+}
+

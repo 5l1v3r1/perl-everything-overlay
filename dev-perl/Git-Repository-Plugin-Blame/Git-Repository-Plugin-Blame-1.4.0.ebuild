@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="1.4.0"
-DIST_A="Git-Repository-Plugin-Blame-v1.4.0.tar.gz"
+DIST_VERSION="1.4.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Git-Repository-Plugin-Blame-v1.4.0.tar.gz -> Git-Repository-Plugin-Blame-1.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Git-Repository-Plugin-Blame-v1.4.0 ${WORKDIR}/Git-Repository-Plugin-Blame-1.4.0
+}
+

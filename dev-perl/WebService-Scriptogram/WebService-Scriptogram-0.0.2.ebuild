@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHUFF"
-DIST_VERSION="0.0.2"
-DIST_A="WebService-Scriptogram-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHUFF/WebService-Scriptogram-v0.0.2.tar.gz -> WebService-Scriptogram-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Scriptogram-v0.0.2 ${WORKDIR}/WebService-Scriptogram-0.0.2
+}
+

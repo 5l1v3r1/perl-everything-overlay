@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="v1.15.5.6.1"
-DIST_A="Debian-Dpkg-Version-v1.15.5.6.1.tar.gz"
+DIST_VERSION="1.15.5.6.1" 
+SRC_URI="mirror://cpan/authors/id/J/JK/JKUTEJ/Debian-Dpkg-Version-v1.15.5.6.1.tar.gz -> Debian-Dpkg-Version-1.15.5.6.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Debian-Dpkg-Version-v1.15.5.6.1 ${WORKDIR}/Debian-Dpkg-Version-1.15.5.6.1
+}
+

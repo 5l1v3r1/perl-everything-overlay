@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KILNA"
-DIST_VERSION="v1.0.3"
-DIST_A="Config-INIPlus-v1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KILNA/Config-INIPlus-v1.0.3.tar.gz -> Config-INIPlus-1.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-INIPlus-v1.0.3 ${WORKDIR}/Config-INIPlus-1.0.3
+}
+

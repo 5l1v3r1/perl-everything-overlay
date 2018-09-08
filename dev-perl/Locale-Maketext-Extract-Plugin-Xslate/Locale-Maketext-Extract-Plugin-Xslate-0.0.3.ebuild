@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAPPO"
-DIST_VERSION="0.0.3"
-DIST_A="Locale-Maketext-Extract-Plugin-Xslate-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAPPO/Locale-Maketext-Extract-Plugin-Xslate-v0.0.3.tar.gz -> Locale-Maketext-Extract-Plugin-Xslate-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Locale-Maketext-Extract-Plugin-Xslate-v0.0.3 ${WORKDIR}/Locale-Maketext-Extract-Plugin-Xslate-0.0.3
+}
+

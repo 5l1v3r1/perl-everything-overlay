@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v0.0.1"
-DIST_A="UNIVERSAL-cant-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/UNIVERSAL-cant-v0.0.1.tar.gz -> UNIVERSAL-cant-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/UNIVERSAL-cant-v0.0.1 ${WORKDIR}/UNIVERSAL-cant-0.0.1
+}
+

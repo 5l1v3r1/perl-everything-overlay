@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="1.3.1"
-DIST_A="Perl-Critic-Git-v1.3.1.tar.gz"
+DIST_VERSION="1.3.1" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Perl-Critic-Git-v1.3.1.tar.gz -> Perl-Critic-Git-1.3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl-Critic-Git-v1.3.1 ${WORKDIR}/Perl-Critic-Git-1.3.1
+}
+

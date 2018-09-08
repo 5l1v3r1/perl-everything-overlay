@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROMANF"
-DIST_VERSION="0.2.0"
-DIST_A="Test-Gearman-v0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROMANF/Test-Gearman-v0.2.0.tar.gz -> Test-Gearman-0.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Gearman-v0.2.0 ${WORKDIR}/Test-Gearman-0.2.0
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.1.5"
-DIST_A="Module-Finder-v0.1.5.tar.gz"
+DIST_VERSION="0.1.5" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Module-Finder-v0.1.5.tar.gz -> Module-Finder-0.1.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Module-Finder-v0.1.5 ${WORKDIR}/Module-Finder-0.1.5
+}
+

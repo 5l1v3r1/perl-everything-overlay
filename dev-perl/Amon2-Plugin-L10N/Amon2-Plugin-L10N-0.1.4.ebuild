@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAPPO"
-DIST_VERSION="0.1.4"
-DIST_A="Amon2-Plugin-L10N-v0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAPPO/Amon2-Plugin-L10N-v0.1.4.tar.gz -> Amon2-Plugin-L10N-0.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +25,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.017
+	dev-perl/Module-Build
 	dev-perl/Test-WWW-Mechanize-PSGI
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Amon2-Plugin-L10N-v0.1.4 ${WORKDIR}/Amon2-Plugin-L10N-0.1.4
+}
+

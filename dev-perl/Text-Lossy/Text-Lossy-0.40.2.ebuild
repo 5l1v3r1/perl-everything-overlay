@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BDEUTSCH"
-DIST_VERSION="v0.40.2"
-DIST_A="Text-Lossy-v0.40.2.tar.gz"
+DIST_VERSION="0.40.2" 
+SRC_URI="mirror://cpan/authors/id/B/BD/BDEUTSCH/Text-Lossy-v0.40.2.tar.gz -> Text-Lossy-0.40.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Lossy-v0.40.2 ${WORKDIR}/Text-Lossy-0.40.2
+}
+

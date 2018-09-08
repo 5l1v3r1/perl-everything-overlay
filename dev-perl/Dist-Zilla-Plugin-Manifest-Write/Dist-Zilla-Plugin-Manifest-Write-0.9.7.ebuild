@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.9.7"
-DIST_A="Dist-Zilla-Plugin-Manifest-Write-v0.9.7.tar.gz"
+DIST_VERSION="0.9.7" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Dist-Zilla-Plugin-Manifest-Write-v0.9.7.tar.gz -> Dist-Zilla-Plugin-Manifest-Write-0.9.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.023
 	>=dev-perl/Dist-Zilla-Role-ErrorLogger-0.9.0
 	dev-perl/Module-Util
 	dev-perl/Moose
@@ -31,15 +31,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	dev-perl/Dist-Zilla-Plugin-ModuleBuildTiny
 	dev-perl/Dist-Zilla-Plugin-Test-Compile
 	>=dev-perl/Dist-Zilla-Plugin-Test-EOL-0.140
 	>=dev-perl/Dist-Zilla-Plugin-Test-NoTabs-0.090
 	dev-perl/IPC-System-Simple
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
-	>=dev-perl/Test-Dist-Zilla-0.4.3
+	dev-perl/Test-Dist-Zilla
 	dev-perl/Test-Routine
 	dev-perl/Try-Tiny
 	dev-perl/lib
@@ -52,3 +53,9 @@ DEPEND="
 	virtual/perl-if
 	>=virtual/perl-version-0.770
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-Manifest-Write-v0.9.7 ${WORKDIR}/Dist-Zilla-Plugin-Manifest-Write-0.9.7
+}
+

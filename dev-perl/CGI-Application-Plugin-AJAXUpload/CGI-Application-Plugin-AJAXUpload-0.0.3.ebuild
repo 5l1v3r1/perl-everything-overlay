@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SILASMONK"
-DIST_VERSION="0.0.3"
-DIST_A="CGI-Application-Plugin-AJAXUpload-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/S/SI/SILASMONK/CGI-Application-Plugin-AJAXUpload-v0.0.3.tar.gz -> CGI-Application-Plugin-AJAXUpload-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CGI-Application-Plugin-AJAXUpload-v0.0.3 ${WORKDIR}/CGI-Application-Plugin-AJAXUpload-0.0.3
+}
+

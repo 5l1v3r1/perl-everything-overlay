@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAPPO"
-DIST_VERSION="0.2.1"
-DIST_A="Exception-Tiny-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAPPO/Exception-Tiny-v0.2.1.tar.gz -> Exception-Tiny-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Exception-Tiny-v0.2.1 ${WORKDIR}/Exception-Tiny-0.2.1
+}
+

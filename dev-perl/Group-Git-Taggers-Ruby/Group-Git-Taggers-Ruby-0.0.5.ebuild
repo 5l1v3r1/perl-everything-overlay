@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.0.5"
-DIST_A="Group-Git-Taggers-Ruby-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Group-Git-Taggers-Ruby-v0.0.5.tar.gz -> Group-Git-Taggers-Ruby-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Group-Git-Taggers-Ruby-v0.0.5 ${WORKDIR}/Group-Git-Taggers-Ruby-0.0.5
+}
+

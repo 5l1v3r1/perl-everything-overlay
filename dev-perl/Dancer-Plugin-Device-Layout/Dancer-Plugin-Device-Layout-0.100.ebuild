@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BURNERSK"
-DIST_VERSION="0.1"
-DIST_A="Dancer-Plugin-Device-Layout-v0.1.tar.gz"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/B/BU/BURNERSK/Dancer-Plugin-Device-Layout-v0.1.tar.gz -> Dancer-Plugin-Device-Layout-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dancer-Plugin-Device-Layout-v0.1 ${WORKDIR}/Dancer-Plugin-Device-Layout-0.1
+}
+

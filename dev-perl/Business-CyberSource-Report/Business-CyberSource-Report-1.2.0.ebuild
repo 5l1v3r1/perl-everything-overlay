@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="1.2.0"
-DIST_A="Business-CyberSource-Report-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Business-CyberSource-Report-v1.2.0.tar.gz -> Business-CyberSource-Report-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Business-CyberSource-Report-v1.2.0 ${WORKDIR}/Business-CyberSource-Report-1.2.0
+}
+

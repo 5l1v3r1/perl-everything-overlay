@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="FROGGS"
-DIST_VERSION="v1.4.1"
-DIST_A="Games-PangZero-v1.4.1.tar.gz"
+DIST_VERSION="1.4.1" 
+SRC_URI="mirror://cpan/authors/id/F/FR/FROGGS/Games-PangZero-v1.4.1.tar.gz -> Games-PangZero-1.4.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-PangZero-v1.4.1 ${WORKDIR}/Games-PangZero-1.4.1
+}
+

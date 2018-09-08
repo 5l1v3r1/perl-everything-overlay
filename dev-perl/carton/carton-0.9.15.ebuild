@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="v0.9.15"
-DIST_A="carton-v0.9.15.tar.gz"
+DIST_VERSION="0.9.15" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/carton-v0.9.15.tar.gz -> carton-0.9.15.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-version-0.770
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/carton-v0.9.15 ${WORKDIR}/carton-0.9.15
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GAM"
-DIST_VERSION="v0.0.2"
-DIST_A="XML-ED-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/G/GA/GAM/XML-ED-v0.0.2.tar.gz -> XML-ED-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-ExtUtils-CBuilder
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-ED-v0.0.2 ${WORKDIR}/XML-ED-0.0.2
+}
+

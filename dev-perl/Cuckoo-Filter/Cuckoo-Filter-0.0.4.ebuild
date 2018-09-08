@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KEND"
-DIST_VERSION="0.0.4"
-DIST_A="Cuckoo-Filter-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KEND/Cuckoo-Filter-v0.0.4.tar.gz -> Cuckoo-Filter-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Cuckoo-Filter-v0.0.4 ${WORKDIR}/Cuckoo-Filter-0.0.4
+}
+

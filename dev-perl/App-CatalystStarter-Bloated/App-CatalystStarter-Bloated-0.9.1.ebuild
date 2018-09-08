@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="0.9.1"
-DIST_A="App-CatalystStarter-Bloated-v0.9.1.tar.gz"
+DIST_VERSION="0.9.1" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TORBJORN/App-CatalystStarter-Bloated-v0.9.1.tar.gz -> App-CatalystStarter-Bloated-0.9.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +46,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-CatalystStarter-Bloated-v0.9.1 ${WORKDIR}/App-CatalystStarter-Bloated-0.9.1
+}
+

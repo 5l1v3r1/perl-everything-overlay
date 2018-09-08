@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CMS"
-DIST_VERSION="v1.0.8"
-DIST_A="Attribute-Boolean-v1.0.8.tar.gz"
+DIST_VERSION="1.0.8" 
+SRC_URI="mirror://cpan/authors/id/C/CM/CMS/Attribute-Boolean-v1.0.8.tar.gz -> Attribute-Boolean-1.0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Attribute-Boolean-v1.0.8 ${WORKDIR}/Attribute-Boolean-1.0.8
+}
+

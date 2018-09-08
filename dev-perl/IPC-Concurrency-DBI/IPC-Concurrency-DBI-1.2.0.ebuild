@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.2.0"
-DIST_A="IPC-Concurrency-DBI-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/IPC-Concurrency-DBI-v1.2.0.tar.gz -> IPC-Concurrency-DBI-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	dev-perl/Test-FailWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/IPC-Concurrency-DBI-v1.2.0 ${WORKDIR}/IPC-Concurrency-DBI-1.2.0
+}
+

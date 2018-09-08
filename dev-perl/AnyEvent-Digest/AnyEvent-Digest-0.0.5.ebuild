@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.5"
-DIST_A="AnyEvent-Digest-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/AnyEvent-Digest-v0.0.5.tar.gz -> AnyEvent-Digest-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AnyEvent-Digest-v0.0.5 ${WORKDIR}/AnyEvent-Digest-0.0.5
+}
+

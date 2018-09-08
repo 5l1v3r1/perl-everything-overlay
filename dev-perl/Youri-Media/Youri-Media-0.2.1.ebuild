@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GROUSSE"
-DIST_VERSION="0.2.1"
-DIST_A="Youri-Media-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GROUSSE/Youri-Media-v0.2.1.tar.gz -> Youri-Media-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Youri-Media-v0.2.1 ${WORKDIR}/Youri-Media-0.2.1
+}
+

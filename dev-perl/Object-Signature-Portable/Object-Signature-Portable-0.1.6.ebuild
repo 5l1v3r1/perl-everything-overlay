@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.6"
-DIST_A="Object-Signature-Portable-v0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Object-Signature-Portable-v0.1.6.tar.gz -> Object-Signature-Portable-0.1.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Object-Signature-Portable-v0.1.6 ${WORKDIR}/Object-Signature-Portable-0.1.6
+}
+

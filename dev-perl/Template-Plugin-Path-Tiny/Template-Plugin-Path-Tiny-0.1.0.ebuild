@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.0"
-DIST_A="Template-Plugin-Path-Tiny-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Template-Plugin-Path-Tiny-v0.1.0.tar.gz -> Template-Plugin-Path-Tiny-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Template-Plugin-Path-Tiny-v0.1.0 ${WORKDIR}/Template-Plugin-Path-Tiny-0.1.0
+}
+

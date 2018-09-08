@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AKIHITO"
-DIST_VERSION="v0.0.3"
-DIST_A="WebService-Kaolabo-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/A/AK/AKIHITO/WebService-Kaolabo-v0.0.3.tar.gz -> WebService-Kaolabo-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Kaolabo-v0.0.3 ${WORKDIR}/WebService-Kaolabo-0.0.3
+}
+

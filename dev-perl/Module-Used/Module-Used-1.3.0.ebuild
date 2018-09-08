@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="v1.3.0"
-DIST_A="Module-Used-v1.3.0.tar.gz"
+DIST_VERSION="1.3.0" 
+SRC_URI="mirror://cpan/authors/id/E/EL/ELLIOTJS/Module-Used-v1.3.0.tar.gz -> Module-Used-1.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	>=dev-perl/Test-Deep-0.098
 	>=virtual/perl-Test-Simple-0.720
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Module-Used-v1.3.0 ${WORKDIR}/Module-Used-1.3.0
+}
+

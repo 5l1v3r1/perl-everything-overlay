@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.2"
-DIST_A="Getopt-AsDocumented-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Getopt-AsDocumented-v0.0.2.tar.gz -> Getopt-AsDocumented-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-AsDocumented-v0.0.2 ${WORKDIR}/Getopt-AsDocumented-0.0.2
+}
+

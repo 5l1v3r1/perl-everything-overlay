@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="1.0.3"
-DIST_A="Perl-Critic-Swift-v1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
+SRC_URI="mirror://cpan/authors/id/E/EL/ELLIOTJS/Perl-Critic-Swift-v1.0.3.tar.gz -> Perl-Critic-Swift-1.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/List-MoreUtils-0.210
 	>=dev-perl/Perl-Critic-1.082
+	dev-perl/base
 	virtual/perl-version
 "
 DEPEND="
@@ -28,3 +29,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl-Critic-Swift-v1.0.3 ${WORKDIR}/Perl-Critic-Swift-1.0.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAKERU"
-DIST_VERSION="0.1.2"
-DIST_A="Algorithm-VectorClocks-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAKERU/Algorithm-VectorClocks-v0.1.2.tar.gz -> Algorithm-VectorClocks-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Algorithm-VectorClocks-v0.1.2 ${WORKDIR}/Algorithm-VectorClocks-0.1.2
+}
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="courier-filter"
-DIST_VERSION="0.200"
-DIST_A="Courier-Filter-v0.200.tar.gz"
+DIST_AUTHOR="JMEHNLE"
+DIST_VERSION="0.200" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMEHNLE/courier-filter/Courier-Filter-v0.200.tar.gz -> Courier-Filter-0.200.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Courier-Filter-v0.200 ${WORKDIR}/Courier-Filter-0.200
+}
+

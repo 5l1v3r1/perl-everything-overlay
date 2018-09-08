@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CTHOR"
-DIST_VERSION="v0.3.7"
-DIST_A="WWW-Fimfiction-v0.3.7.tar.gz"
+DIST_VERSION="0.3.7" 
+SRC_URI="mirror://cpan/authors/id/C/CT/CTHOR/WWW-Fimfiction-v0.3.7.tar.gz -> WWW-Fimfiction-0.3.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Fimfiction-v0.3.7 ${WORKDIR}/WWW-Fimfiction-0.3.7
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="v0.999.3"
-DIST_A="TeamCity-BuildMessages-v0.999.3.tar.gz"
+DIST_VERSION="0.999.3" 
+SRC_URI="mirror://cpan/authors/id/E/EL/ELLIOTJS/TeamCity-BuildMessages-v0.999.3.tar.gz -> TeamCity-BuildMessages-0.999.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.720
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TeamCity-BuildMessages-v0.999.3 ${WORKDIR}/TeamCity-BuildMessages-0.999.3
+}
+

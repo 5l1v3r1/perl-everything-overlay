@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CLAUDIOFS"
-DIST_VERSION="0.87"
-DIST_A="Algorithm-Bertsekas-v0.87.tar.gz"
+DIST_VERSION="0.87" 
+SRC_URI="mirror://cpan/authors/id/C/CL/CLAUDIOFS/Algorithm-Bertsekas-v0.87.tar.gz -> Algorithm-Bertsekas-0.87.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +20,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Algorithm-Bertsekas-v0.87 ${WORKDIR}/Algorithm-Bertsekas-0.87
+}
+

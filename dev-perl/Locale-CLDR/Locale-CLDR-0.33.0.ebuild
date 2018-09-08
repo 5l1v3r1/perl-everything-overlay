@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JGNI"
-DIST_VERSION="0.33.0"
-DIST_A="Locale-CLDR-v0.33.0.tar.gz"
+DIST_VERSION="0.33.0" 
+SRC_URI="mirror://cpan/authors/id/J/JG/JGNI/Locale-CLDR-v0.33.0.tar.gz -> Locale-CLDR-0.33.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Locale-CLDR-v0.33.0 ${WORKDIR}/Locale-CLDR-0.33.0
+}
+

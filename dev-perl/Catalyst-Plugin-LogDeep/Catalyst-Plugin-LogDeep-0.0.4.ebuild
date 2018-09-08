@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.0.4"
-DIST_A="Catalyst-Plugin-LogDeep-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Catalyst-Plugin-LogDeep-v0.0.4.tar.gz -> Catalyst-Plugin-LogDeep-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Catalyst-Plugin-LogDeep-v0.0.4 ${WORKDIR}/Catalyst-Plugin-LogDeep-0.0.4
+}
+

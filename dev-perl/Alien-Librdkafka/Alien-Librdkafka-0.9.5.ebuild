@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZWON"
-DIST_VERSION="0.9.5"
-DIST_A="Alien-Librdkafka-v0.9.5.tar.gz"
+DIST_VERSION="0.9.5" 
+SRC_URI="mirror://cpan/authors/id/Z/ZW/ZWON/Alien-Librdkafka-v0.9.5.tar.gz -> Alien-Librdkafka-0.9.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	dev-perl/IO-Socket-SSL
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-Librdkafka-v0.9.5 ${WORKDIR}/Alien-Librdkafka-0.9.5
+}
+

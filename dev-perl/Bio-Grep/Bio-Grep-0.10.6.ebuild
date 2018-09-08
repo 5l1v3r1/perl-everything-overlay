@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LIMAONE"
-DIST_VERSION="v0.10.6"
-DIST_A="Bio-Grep-v0.10.6.tar.gz"
+DIST_VERSION="0.10.6" 
+SRC_URI="mirror://cpan/authors/id/L/LI/LIMAONE/Bio-Grep-v0.10.6.tar.gz -> Bio-Grep-0.10.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,20 +17,27 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/BioPerl
 	dev-perl/BioPerl-Run
 	dev-perl/Carp-Assert
 	>=dev-perl/Class-MethodMaker-2.020
 	>=dev-perl/IO-String-1.000
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	>=dev-perl/ToolSet-0.130
 	>=dev-perl/UNIVERSAL-require-0.110
 	>=virtual/perl-Getopt-Long-2.320
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Test-NoWarnings
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-Grep-v0.10.6 ${WORKDIR}/Bio-Grep-0.10.6
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.1"
-DIST_A="WebService-Booklog-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/WebService-Booklog-v0.0.1.tar.gz -> WebService-Booklog-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Booklog-v0.0.1 ${WORKDIR}/WebService-Booklog-0.0.1
+}
+

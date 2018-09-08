@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.0"
-DIST_A="Plack-Middleware-TimeOverHTTP-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Plack-Middleware-TimeOverHTTP-v0.1.0.tar.gz -> Plack-Middleware-TimeOverHTTP-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +31,11 @@ DEPEND="
 	>=virtual/perl-JSON-PP-2.000
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
-	>=virtual/perl-Time-Piece-1.160
+	virtual/perl-Time-Piece
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plack-Middleware-TimeOverHTTP-v0.1.0 ${WORKDIR}/Plack-Middleware-TimeOverHTTP-0.1.0
+}
+

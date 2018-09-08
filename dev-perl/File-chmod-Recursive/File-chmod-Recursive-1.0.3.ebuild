@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MITHUN"
-DIST_VERSION="v1.0.3"
-DIST_A="File-chmod-Recursive-v1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MITHUN/File-chmod-Recursive-v1.0.3.tar.gz -> File-chmod-Recursive-1.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-chmod-Recursive-v1.0.3 ${WORKDIR}/File-chmod-Recursive-1.0.3
+}
+

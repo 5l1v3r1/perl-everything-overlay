@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.3"
-DIST_A="App-installdeps-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/App-installdeps-v0.0.3.tar.gz -> App-installdeps-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-installdeps-v0.0.3 ${WORKDIR}/App-installdeps-0.0.3
+}
+

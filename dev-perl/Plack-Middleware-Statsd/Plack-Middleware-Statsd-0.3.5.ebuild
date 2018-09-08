@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.3.5"
-DIST_A="Plack-Middleware-Statsd-v0.3.5.tar.gz"
+DIST_VERSION="0.3.5" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Plack-Middleware-Statsd-v0.3.5.tar.gz -> Plack-Middleware-Statsd-0.3.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.400
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plack-Middleware-Statsd-v0.3.5 ${WORKDIR}/Plack-Middleware-Statsd-0.3.5
+}
+

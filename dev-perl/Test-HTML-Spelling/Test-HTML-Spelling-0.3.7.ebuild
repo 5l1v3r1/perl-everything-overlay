@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.3.7"
-DIST_A="Test-HTML-Spelling-v0.3.7.tar.gz"
+DIST_VERSION="0.3.7" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Test-HTML-Spelling-v0.3.7.tar.gz -> Test-HTML-Spelling-0.3.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +35,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-HTML-Spelling-v0.3.7 ${WORKDIR}/Test-HTML-Spelling-0.3.7
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="2.0.2"
-DIST_A="IO-Stream-MatrixSSL-v2.0.2.tar.gz"
+DIST_VERSION="2.0.2" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/IO-Stream-MatrixSSL-v2.0.2.tar.gz -> IO-Stream-MatrixSSL-2.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +25,15 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/EV
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-File-Temp
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/IO-Stream-MatrixSSL-v2.0.2 ${WORKDIR}/IO-Stream-MatrixSSL-2.0.2
+}
+

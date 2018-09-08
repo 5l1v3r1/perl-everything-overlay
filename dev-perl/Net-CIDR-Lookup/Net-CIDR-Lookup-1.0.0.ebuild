@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="MBETHKE"
 DIST_VERSION="1.0.0"
-DIST_A="Net-CIDR-Lookup-v1.0.0.tar.bz2"
+DIST_A_EXT="tar.bz2" 
+SRC_URI="mirror://cpan/authors/id/M/MB/MBETHKE/Net-CIDR-Lookup-v1.0.0.tar.bz2 -> Net-CIDR-Lookup-1.0.0.tar.bz2"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +29,9 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-CIDR-Lookup-v1.0.0 ${WORKDIR}/Net-CIDR-Lookup-1.0.0
+}
+

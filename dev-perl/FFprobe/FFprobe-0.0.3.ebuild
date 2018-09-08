@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KOVENSKY"
-DIST_VERSION="v0.0.3"
-DIST_A="FFprobe-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/K/KO/KOVENSKY/FFprobe-v0.0.3.tar.gz -> FFprobe-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/FFprobe-v0.0.3 ${WORKDIR}/FFprobe-0.0.3
+}
+

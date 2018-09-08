@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JRCOUNTS"
-DIST_VERSION="v0.0.5"
-DIST_A="Test-Approvals-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/J/JR/JRCOUNTS/Test-Approvals-v0.0.5.tar.gz -> Test-Approvals-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +43,9 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Path-Class
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Approvals-v0.0.5 ${WORKDIR}/Test-Approvals-0.0.5
+}
+

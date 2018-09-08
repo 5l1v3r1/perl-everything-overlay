@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.11"
-DIST_A="Task-FreecellSolver-Testing-v0.0.11.tar.gz"
+DIST_VERSION="0.0.11" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Task-FreecellSolver-Testing-v0.0.11.tar.gz -> Task-FreecellSolver-Testing-0.0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +51,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-IO
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Task-FreecellSolver-Testing-v0.0.11 ${WORKDIR}/Task-FreecellSolver-Testing-0.0.11
+}
+

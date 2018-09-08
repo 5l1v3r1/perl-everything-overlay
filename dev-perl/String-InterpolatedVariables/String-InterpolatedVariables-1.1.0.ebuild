@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.1.0"
-DIST_A="String-InterpolatedVariables-v1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/String-InterpolatedVariables-v1.1.0.tar.gz -> String-InterpolatedVariables-1.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	dev-perl/Test-FailWarnings
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/String-InterpolatedVariables-v1.1.0 ${WORKDIR}/String-InterpolatedVariables-1.1.0
+}
+

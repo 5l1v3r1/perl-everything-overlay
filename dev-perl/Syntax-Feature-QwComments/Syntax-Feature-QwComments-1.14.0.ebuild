@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="1.14.0"
-DIST_A="Syntax-Feature-QwComments-v1.14.0.tar.gz"
+DIST_VERSION="1.14.0" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/Syntax-Feature-QwComments-v1.14.0.tar.gz -> Syntax-Feature-QwComments-1.14.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Syntax-Feature-QwComments-v1.14.0 ${WORKDIR}/Syntax-Feature-QwComments-1.14.0
+}
+

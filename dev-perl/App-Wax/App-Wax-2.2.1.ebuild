@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CHOCOLATE"
-DIST_VERSION="2.2.1"
-DIST_A="App-Wax-v2.2.1.tar.gz"
+DIST_VERSION="2.2.1" 
+SRC_URI="mirror://cpan/authors/id/C/CH/CHOCOLATE/App-Wax-v2.2.1.tar.gz -> App-Wax-2.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +35,9 @@ DEPEND="
 	>=dev-perl/Test-Differences-0.640
 	>=dev-perl/Test-TinyMocker-0.030
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Wax-v2.2.1 ${WORKDIR}/App-Wax-2.2.1
+}
+

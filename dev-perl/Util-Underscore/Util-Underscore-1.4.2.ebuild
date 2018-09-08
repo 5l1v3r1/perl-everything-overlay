@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AMON"
-DIST_VERSION="v1.4.2"
-DIST_A="Util-Underscore-v1.4.2.tar.gz"
+DIST_VERSION="1.4.2" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMON/Util-Underscore-v1.4.2.tar.gz -> Util-Underscore-1.4.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/Try-Tiny-0.030
 	virtual/perl-Carp
-	>=virtual/perl-Scalar-List-Utils-1.350
+	>=virtual/perl-Scalar-List-Utils-1.360
 	>=virtual/perl-version-0.770
 "
 DEPEND="
@@ -34,3 +34,9 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Util-Underscore-v1.4.2 ${WORKDIR}/Util-Underscore-1.4.2
+}
+

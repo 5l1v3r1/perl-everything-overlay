@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MCOX"
-DIST_VERSION="v0.0.4"
-DIST_A="WebService-Amazon-Support-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/M/MC/MCOX/WebService-Amazon-Support-v0.0.4.tar.gz -> WebService-Amazon-Support-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Amazon-Support-v0.0.4 ${WORKDIR}/WebService-Amazon-Support-0.0.4
+}
+

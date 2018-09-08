@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MAMAWE"
-DIST_VERSION="0.0.7"
-DIST_A="File-PCAP-v0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MAMAWE/File-PCAP-v0.0.7.tar.gz -> File-PCAP-0.0.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-PCAP-v0.0.7 ${WORKDIR}/File-PCAP-0.0.7
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SKJM"
-DIST_VERSION="0.0.4"
-DIST_A="Hash-Squash-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/S/SK/SKJM/Hash-Squash-v0.0.4.tar.gz -> Hash-Squash-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Hash-Squash-v0.0.4 ${WORKDIR}/Hash-Squash-0.0.4
+}
+

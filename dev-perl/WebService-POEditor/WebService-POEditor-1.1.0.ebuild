@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROMANF"
-DIST_VERSION="1.1.0"
-DIST_A="WebService-POEditor-v1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROMANF/WebService-POEditor-v1.1.0.tar.gz -> WebService-POEditor-1.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Most
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-POEditor-v1.1.0 ${WORKDIR}/WebService-POEditor-1.1.0
+}
+

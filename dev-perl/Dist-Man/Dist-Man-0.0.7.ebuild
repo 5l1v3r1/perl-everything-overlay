@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.7"
-DIST_A="Dist-Man-v0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Dist-Man-v0.0.7.tar.gz -> Dist-Man-0.0.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Man-v0.0.7 ${WORKDIR}/Dist-Man-0.0.7
+}
+

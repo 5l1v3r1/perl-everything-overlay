@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.4.0"
-DIST_A="Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection-v1.4.0.tar.gz"
+DIST_VERSION="1.4.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection-v1.4.0.tar.gz -> Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection-1.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	dev-perl/Test-FailWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection-v1.4.0 ${WORKDIR}/Perl-Critic-Policy-ValuesAndExpressions-PreventSQLInjection-1.4.0
+}
+

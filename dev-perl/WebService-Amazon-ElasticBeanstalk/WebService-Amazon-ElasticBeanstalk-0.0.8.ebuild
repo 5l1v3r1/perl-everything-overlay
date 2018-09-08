@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MCOX"
-DIST_VERSION="v0.0.8"
-DIST_A="WebService-Amazon-ElasticBeanstalk-v0.0.8.tar.gz"
+DIST_VERSION="0.0.8" 
+SRC_URI="mirror://cpan/authors/id/M/MC/MCOX/WebService-Amazon-ElasticBeanstalk-v0.0.8.tar.gz -> WebService-Amazon-ElasticBeanstalk-0.0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Amazon-ElasticBeanstalk-v0.0.8 ${WORKDIR}/WebService-Amazon-ElasticBeanstalk-0.0.8
+}
+

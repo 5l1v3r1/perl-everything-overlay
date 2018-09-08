@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.05.1.06"
-DIST_A="AnyEvent-HTTP-LWP-UserAgent-Determined-v0.05.1.06.tar.gz"
+DIST_VERSION="0.05.1.06" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/AnyEvent-HTTP-LWP-UserAgent-Determined-v0.05.1.06.tar.gz -> AnyEvent-HTTP-LWP-UserAgent-Determined-0.05.1.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/HTTP-Server-Simple
 	dev-perl/Test-TCP
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AnyEvent-HTTP-LWP-UserAgent-Determined-v0.05.1.06 ${WORKDIR}/AnyEvent-HTTP-LWP-UserAgent-Determined-0.05.1.06
+}
+

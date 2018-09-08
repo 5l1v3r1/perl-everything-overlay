@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KGALINSKY"
-DIST_VERSION="v0.2.1"
-DIST_A="Bio-Util-DNA-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/K/KG/KGALINSKY/Bio-Util-DNA-v0.2.1.tar.gz -> Bio-Util-DNA-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-Util-DNA-v0.2.1 ${WORKDIR}/Bio-Util-DNA-0.2.1
+}
+

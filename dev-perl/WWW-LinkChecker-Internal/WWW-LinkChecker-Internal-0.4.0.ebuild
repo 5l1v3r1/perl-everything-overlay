@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.4.0"
-DIST_A="WWW-LinkChecker-Internal-v0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/WWW-LinkChecker-Internal-v0.4.0.tar.gz -> WWW-LinkChecker-Internal-0.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-LinkChecker-Internal-v0.4.0 ${WORKDIR}/WWW-LinkChecker-Internal-0.4.0
+}
+

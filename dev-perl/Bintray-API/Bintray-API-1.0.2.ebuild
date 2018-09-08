@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MITHUN"
-DIST_VERSION="v1.0.2"
-DIST_A="Bintray-API-v1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MITHUN/Bintray-API-v1.0.2.tar.gz -> Bintray-API-1.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bintray-API-v1.0.2 ${WORKDIR}/Bintray-API-1.0.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.1"
-DIST_A="App-booklog2amazon-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/App-booklog2amazon-v0.0.1.tar.gz -> App-booklog2amazon-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-booklog2amazon-v0.0.1 ${WORKDIR}/App-booklog2amazon-0.0.1
+}
+

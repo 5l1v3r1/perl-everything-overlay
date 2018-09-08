@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="1.2.0"
-DIST_A="Syntax-Feature-Void-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/Syntax-Feature-Void-v1.2.0.tar.gz -> Syntax-Feature-Void-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Syntax-Feature-Void-v1.2.0 ${WORKDIR}/Syntax-Feature-Void-1.2.0
+}
+

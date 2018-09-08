@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.0.1"
-DIST_A="Version-Dotted-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Version-Dotted-v0.0.1.tar.gz -> Version-Dotted-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-DiagINC-0.002
 	dev-perl/Test-Warn
 	dev-perl/lib
@@ -33,3 +34,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Version-Dotted-v0.0.1 ${WORKDIR}/Version-Dotted-0.0.1
+}
+

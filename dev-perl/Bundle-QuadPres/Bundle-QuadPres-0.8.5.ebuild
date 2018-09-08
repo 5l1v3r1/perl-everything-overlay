@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.8.5"
-DIST_A="Bundle-QuadPres-v0.8.5.tar.gz"
+DIST_VERSION="0.8.5" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Bundle-QuadPres-v0.8.5.tar.gz -> Bundle-QuadPres-0.8.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bundle-QuadPres-v0.8.5 ${WORKDIR}/Bundle-QuadPres-0.8.5
+}
+

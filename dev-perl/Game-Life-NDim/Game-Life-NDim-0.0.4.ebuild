@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.0.4"
-DIST_A="Game-Life-NDim-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Game-Life-NDim-v0.0.4.tar.gz -> Game-Life-NDim-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Game-Life-NDim-v0.0.4 ${WORKDIR}/Game-Life-NDim-0.0.4
+}
+

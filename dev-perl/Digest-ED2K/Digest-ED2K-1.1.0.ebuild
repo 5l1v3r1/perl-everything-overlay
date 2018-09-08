@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BHERWEYER"
-DIST_VERSION="v1.1.0"
-DIST_A="Digest-ED2K-v1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
+SRC_URI="mirror://cpan/authors/id/B/BH/BHERWEYER/Digest-ED2K-v1.1.0.tar.gz -> Digest-ED2K-1.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=virtual/perl-version-0.770
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Digest-ED2K-v1.1.0 ${WORKDIR}/Digest-ED2K-1.1.0
+}
+

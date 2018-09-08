@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v0.0.5"
-DIST_A="XML-Atom-App-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/XML-Atom-App-v0.0.5.tar.gz -> XML-Atom-App-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-Atom-App-v0.0.5 ${WORKDIR}/XML-Atom-App-0.0.5
+}
+

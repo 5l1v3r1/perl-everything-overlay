@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="XIONG"
-DIST_VERSION="0.0.4"
-DIST_A="Test-Ranger-v0.0.4.tar.gz"
-SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Test-Ranger-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Test-Ranger-v0.0.4.tar.gz -> Test-Ranger-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=dev-perl/Acme-Teddy-1.002.003
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Ranger-v0.0.4 ${WORKDIR}/Test-Ranger-0.0.4
+}
+

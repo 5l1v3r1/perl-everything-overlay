@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCOTT"
-DIST_VERSION="0.0.1"
-DIST_A="Apache-Auth-Subrequest-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCOTT/Apache-Auth-Subrequest-v0.0.1.tar.gz -> Apache-Auth-Subrequest-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Apache-Auth-Subrequest-v0.0.1 ${WORKDIR}/Apache-Auth-Subrequest-0.0.1
+}
+

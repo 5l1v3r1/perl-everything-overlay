@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WITTROCK"
-DIST_VERSION="0.1.0"
-DIST_A="Games-Sudoku-Preset-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/W/WI/WITTROCK/Games-Sudoku-Preset-v0.1.0.tar.gz -> Games-Sudoku-Preset-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-Sudoku-Preset-v0.1.0 ${WORKDIR}/Games-Sudoku-Preset-0.1.0
+}
+

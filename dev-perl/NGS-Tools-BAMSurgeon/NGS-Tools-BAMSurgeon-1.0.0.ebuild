@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOUTROSLB"
-DIST_VERSION="1.0.0"
-DIST_A="NGS-Tools-BAMSurgeon-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOUTROSLB/NGS-Tools-BAMSurgeon-v1.0.0.tar.gz -> NGS-Tools-BAMSurgeon-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/NGS-Tools-BAMSurgeon-v1.0.0 ${WORKDIR}/NGS-Tools-BAMSurgeon-1.0.0
+}
+

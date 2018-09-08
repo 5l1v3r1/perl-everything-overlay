@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PSILVA"
-DIST_VERSION="0.0.2"
-DIST_A="System-Wrapper-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/P/PS/PSILVA/System-Wrapper-v0.0.2.tar.gz -> System-Wrapper-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.390
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/System-Wrapper-v0.0.2 ${WORKDIR}/System-Wrapper-0.0.2
+}
+

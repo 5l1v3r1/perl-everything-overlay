@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v0.0.3"
-DIST_A="SMS-Send-US-TMobile-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/SMS-Send-US-TMobile-v0.0.3.tar.gz -> SMS-Send-US-TMobile-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +24,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SMS-Send-US-TMobile-v0.0.3 ${WORKDIR}/SMS-Send-US-TMobile-0.0.3
+}
+

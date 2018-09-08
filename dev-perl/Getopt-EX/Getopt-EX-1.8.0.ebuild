@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="UTASHIRO"
-DIST_VERSION="1.8.0"
-DIST_A="Getopt-EX-v1.8.0.tar.gz"
+DIST_VERSION="1.8.0" 
+SRC_URI="mirror://cpan/authors/id/U/UT/UTASHIRO/Getopt-EX-v1.8.0.tar.gz -> Getopt-EX-1.8.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +21,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-EX-v1.8.0 ${WORKDIR}/Getopt-EX-1.8.0
+}
+

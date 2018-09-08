@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="1.0.20"
-DIST_A="Dist-Milla-v1.0.20.tar.gz"
+DIST_VERSION="1.0.20" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MIYAGAWA/Dist-Milla-v1.0.20.tar.gz -> Dist-Milla-1.0.20.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +43,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Milla-v1.0.20 ${WORKDIR}/Dist-Milla-1.0.20
+}
+

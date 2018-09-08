@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SKNPP"
-DIST_VERSION="0.22.1"
-DIST_A="Package-Subroutine-v0.22.1.tar.gz"
+DIST_VERSION="0.22.1" 
+SRC_URI="mirror://cpan/authors/id/S/SK/SKNPP/Package-Subroutine-v0.22.1.tar.gz -> Package-Subroutine-0.22.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Package-Subroutine-v0.22.1 ${WORKDIR}/Package-Subroutine-0.22.1
+}
+

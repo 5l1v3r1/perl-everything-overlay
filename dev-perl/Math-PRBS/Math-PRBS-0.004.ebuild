@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PETERCJ"
-DIST_VERSION="0.004"
-DIST_A="Math-PRBS-v0.004.tar.gz"
+DIST_VERSION="0.004" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PETERCJ/Math-PRBS-v0.004.tar.gz -> Math-PRBS-0.004.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.860
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-PRBS-v0.004 ${WORKDIR}/Math-PRBS-0.004
+}
+

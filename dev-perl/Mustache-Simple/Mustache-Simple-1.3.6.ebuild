@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CMS"
-DIST_VERSION="1.3.6"
-DIST_A="Mustache-Simple-v1.3.6.tar.gz"
+DIST_VERSION="1.3.6" 
+SRC_URI="mirror://cpan/authors/id/C/CM/CMS/Mustache-Simple-v1.3.6.tar.gz -> Mustache-Simple-1.3.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mustache-Simple-v1.3.6 ${WORKDIR}/Mustache-Simple-1.3.6
+}
+

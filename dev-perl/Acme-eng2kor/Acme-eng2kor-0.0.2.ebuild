@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AANOAA"
-DIST_VERSION="0.0.2"
-DIST_A="Acme-eng2kor-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/A/AA/AANOAA/Acme-eng2kor-v0.0.2.tar.gz -> Acme-eng2kor-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-eng2kor-v0.0.2 ${WORKDIR}/Acme-eng2kor-0.0.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAG"
-DIST_VERSION="0.3.14"
-DIST_A="Async-Blackboard-v0.3.14.tar.gz"
+DIST_VERSION="0.3.14" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAG/Async-Blackboard-v0.3.14.tar.gz -> Async-Blackboard-0.3.14.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Devel-Leak
 	dev-perl/EV
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Async-Blackboard-v0.3.14 ${WORKDIR}/Async-Blackboard-0.3.14
+}
+

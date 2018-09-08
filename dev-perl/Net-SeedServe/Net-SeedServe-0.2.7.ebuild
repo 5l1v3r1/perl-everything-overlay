@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.2.7"
-DIST_A="Net-SeedServe-v0.2.7.tar.gz"
+DIST_VERSION="0.2.7" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Net-SeedServe-v0.2.7.tar.gz -> Net-SeedServe-0.2.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.390
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-SeedServe-v0.2.7 ${WORKDIR}/Net-SeedServe-0.2.7
+}
+

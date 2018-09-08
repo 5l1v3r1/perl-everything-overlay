@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MUGENKEN"
-DIST_VERSION="v0.2.2"
-DIST_A="Net-OpenVPN-TrayIcon-v0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUGENKEN/Net-OpenVPN-TrayIcon-v0.2.2.tar.gz -> Net-OpenVPN-TrayIcon-0.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-OpenVPN-TrayIcon-v0.2.2 ${WORKDIR}/Net-OpenVPN-TrayIcon-0.2.2
+}
+

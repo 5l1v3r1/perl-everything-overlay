@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ADUITSIS"
-DIST_VERSION="0.2"
-DIST_A="FreeBSD-Jails-v0.2.tar.gz"
+DIST_VERSION="0.2" 
+SRC_URI="mirror://cpan/authors/id/A/AD/ADUITSIS/FreeBSD-Jails-v0.2.tar.gz -> FreeBSD-Jails-0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/FreeBSD-Jails-v0.2 ${WORKDIR}/FreeBSD-Jails-0.2
+}
+

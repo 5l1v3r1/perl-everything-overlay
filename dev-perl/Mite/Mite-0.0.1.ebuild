@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="v0.0.1"
-DIST_A="Mite-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/M/MS/MSCHWERN/Mite-v0.0.1.tar.gz -> Mite-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	>=dev-perl/Test-Output-1.020
 	>=dev-perl/Test-Sims-20130412.000
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mite-v0.0.1 ${WORKDIR}/Mite-0.0.1
+}
+

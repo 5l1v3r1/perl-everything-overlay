@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MDIETRICH"
-DIST_VERSION="v0.1.4"
-DIST_A="Date-Holidays-AT-v0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
+SRC_URI="mirror://cpan/authors/id/M/MD/MDIETRICH/Date-Holidays-AT-v0.1.4.tar.gz -> Date-Holidays-AT-0.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Date-Holidays-AT-v0.1.4 ${WORKDIR}/Date-Holidays-AT-0.1.4
+}
+

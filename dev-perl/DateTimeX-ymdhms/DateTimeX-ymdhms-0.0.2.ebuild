@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="0.0.2"
-DIST_A="DateTimeX-ymdhms-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TORBJORN/DateTimeX-ymdhms-v0.0.2.tar.gz -> DateTimeX-ymdhms-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTimeX-ymdhms-v0.0.2 ${WORKDIR}/DateTimeX-ymdhms-0.0.2
+}
+

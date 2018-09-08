@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="0.28.0"
-DIST_A="Data-Walk-Extracted-v0.28.0.tar.gz"
+DIST_VERSION="0.28.0" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JANDREW/Data-Walk-Extracted-v0.28.0.tar.gz -> Data-Walk-Extracted-0.28.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Inspector
-	>=dev-perl/Moose-2.180.300
+	dev-perl/Moose
 	dev-perl/MooseX-HasDefaults
 	dev-perl/MooseX-StrictConstructor
 	dev-perl/MooseX-Types
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-version-0.770
@@ -34,3 +35,9 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/YAML
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Walk-Extracted-v0.28.0 ${WORKDIR}/Data-Walk-Extracted-0.28.0
+}
+

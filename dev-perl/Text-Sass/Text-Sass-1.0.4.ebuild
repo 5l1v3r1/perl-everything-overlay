@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="1.0.4"
-DIST_A="Text-Sass-v1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
+SRC_URI="mirror://cpan/authors/id/R/RP/RPETTETT/Text-Sass-v1.0.4.tar.gz -> Text-Sass-1.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.090
+	>=dev-lang/perl-1.030
 	>=dev-perl/Convert-Color-0.050
 	>=dev-perl/Readonly-1.030
 	>=virtual/perl-Carp-1.040
@@ -27,3 +27,9 @@ DEPEND="
 	>=dev-perl/Try-Tiny-0.060
 	>=virtual/perl-Test-Simple-0.800
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Sass-v1.0.4 ${WORKDIR}/Text-Sass-1.0.4
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v42.0.2"
-DIST_A="AltaVista-BabelFish-v42.0.2.tar.gz"
+DIST_VERSION="42.0.2" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/AltaVista-BabelFish-v42.0.2.tar.gz -> AltaVista-BabelFish-42.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AltaVista-BabelFish-v42.0.2 ${WORKDIR}/AltaVista-BabelFish-42.0.2
+}
+

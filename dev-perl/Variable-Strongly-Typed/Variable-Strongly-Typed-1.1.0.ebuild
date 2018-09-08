@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="METZZO"
-DIST_VERSION="v1.1.0"
-DIST_A="Variable-Strongly-Typed-v1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
+SRC_URI="mirror://cpan/authors/id/M/ME/METZZO/Variable-Strongly-Typed-v1.1.0.tar.gz -> Variable-Strongly-Typed-1.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +25,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Variable-Strongly-Typed-v1.1.0 ${WORKDIR}/Variable-Strongly-Typed-1.1.0
+}
+

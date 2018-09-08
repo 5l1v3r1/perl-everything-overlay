@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HOPFROG"
-DIST_VERSION="0.7.0"
-DIST_A="SemVer-v0.7.0.tar.gz"
+DIST_VERSION="0.7.0" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOPFROG/SemVer-v0.7.0.tar.gz -> SemVer-0.7.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.300
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SemVer-v0.7.0 ${WORKDIR}/SemVer-0.7.0
+}
+

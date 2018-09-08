@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="v0.1.1"
-DIST_A="Keyword-TreeFold-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/L/LE/LEMBARK/Keyword-TreeFold-v0.1.1.tar.gz -> Keyword-TreeFold-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Keyword-TreeFold-v0.1.1 ${WORKDIR}/Keyword-TreeFold-0.1.1
+}
+

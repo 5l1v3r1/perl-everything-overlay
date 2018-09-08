@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DSTH"
-DIST_VERSION="v0.0.2"
-DIST_A="Algorithm-BaumWelch-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/D/DS/DSTH/Algorithm-BaumWelch-v0.0.2.tar.gz -> Algorithm-BaumWelch-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Algorithm-BaumWelch-v0.0.2 ${WORKDIR}/Algorithm-BaumWelch-0.0.2
+}
+

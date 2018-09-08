@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="0.4.3"
-DIST_A="Pcore-Chrome-v0.4.3.tar.gz"
+DIST_VERSION="0.4.3" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-Chrome-v0.4.3.tar.gz -> Pcore-Chrome-0.4.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-Chrome-v0.4.3 ${WORKDIR}/Pcore-Chrome-0.4.3
+}
+

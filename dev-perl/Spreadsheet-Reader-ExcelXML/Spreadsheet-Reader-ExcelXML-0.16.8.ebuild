@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="0.16.8"
-DIST_A="Spreadsheet-Reader-ExcelXML-v0.16.8.tar.gz"
+DIST_VERSION="0.16.8" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JANDREW/Spreadsheet-Reader-ExcelXML-v0.16.8.tar.gz -> Spreadsheet-Reader-ExcelXML-0.16.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +27,8 @@ RDEPEND="
 	dev-perl/MooseX-HasDefaults
 	>=dev-perl/MooseX-ShortCut-BuildInstance-1.040
 	dev-perl/MooseX-StrictConstructor
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-1.000
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
@@ -43,3 +44,9 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-File-Temp
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Spreadsheet-Reader-ExcelXML-v0.16.8 ${WORKDIR}/Spreadsheet-Reader-ExcelXML-0.16.8
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.0.3"
-DIST_A="Group-Git-Cmd-Todo-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Group-Git-Cmd-Todo-v0.0.3.tar.gz -> Group-Git-Cmd-Todo-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Group-Git-Cmd-Todo-v0.0.3 ${WORKDIR}/Group-Git-Cmd-Todo-0.0.3
+}
+

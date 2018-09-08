@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="0.9.3"
-DIST_A="DBIx-ParseDSN-v0.9.3.tar.gz"
+DIST_VERSION="0.9.3" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TORBJORN/DBIx-ParseDSN-v0.9.3.tar.gz -> DBIx-ParseDSN-0.9.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-ParseDSN-v0.9.3 ${WORKDIR}/DBIx-ParseDSN-0.9.3
+}
+

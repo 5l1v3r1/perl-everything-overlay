@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KOYACHI"
-DIST_VERSION="v0.0.4"
-DIST_A="WebService-Wedata-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/K/KO/KOYACHI/WebService-Wedata-v0.0.4.tar.gz -> WebService-Wedata-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Wedata-v0.0.4 ${WORKDIR}/WebService-Wedata-0.0.4
+}
+

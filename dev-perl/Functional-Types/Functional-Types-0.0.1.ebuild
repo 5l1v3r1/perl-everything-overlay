@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDARA"
-DIST_VERSION="v0.0.1"
-DIST_A="Functional-Types-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDARA/Functional-Types-v0.0.1.tar.gz -> Functional-Types-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Functional-Types-v0.0.1 ${WORKDIR}/Functional-Types-0.0.1
+}
+

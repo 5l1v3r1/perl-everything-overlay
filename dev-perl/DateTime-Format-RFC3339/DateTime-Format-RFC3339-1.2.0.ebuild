@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="v1.2.0"
-DIST_A="DateTime-Format-RFC3339-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/DateTime-Format-RFC3339-v1.2.0.tar.gz -> DateTime-Format-RFC3339-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTime-Format-RFC3339-v1.2.0 ${WORKDIR}/DateTime-Format-RFC3339-1.2.0
+}
+

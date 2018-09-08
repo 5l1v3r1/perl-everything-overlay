@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SILASMONK"
-DIST_VERSION="0.0.3"
-DIST_A="HTML-Acid-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/S/SI/SILASMONK/HTML-Acid-v0.0.3.tar.gz -> HTML-Acid-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Acid-v0.0.3 ${WORKDIR}/HTML-Acid-0.0.3
+}
+

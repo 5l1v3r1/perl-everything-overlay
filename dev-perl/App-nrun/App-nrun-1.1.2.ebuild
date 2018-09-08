@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TBENK"
-DIST_VERSION="1.1.2"
-DIST_A="App-nrun-v1.1.2.tar.gz"
+DIST_VERSION="1.1.2" 
+SRC_URI="mirror://cpan/authors/id/T/TB/TBENK/App-nrun-v1.1.2.tar.gz -> App-nrun-1.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-nrun-v1.1.2 ${WORKDIR}/App-nrun-1.1.2
+}
+

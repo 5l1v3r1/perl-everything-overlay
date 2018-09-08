@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.1.0"
-DIST_A="Games-ABC_Path-Generator-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Games-ABC_Path-Generator-v0.1.0.tar.gz -> Games-ABC_Path-Generator-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	dev-perl/Test-Differences
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-ABC_Path-Generator-v0.1.0 ${WORKDIR}/Games-ABC_Path-Generator-0.1.0
+}
+

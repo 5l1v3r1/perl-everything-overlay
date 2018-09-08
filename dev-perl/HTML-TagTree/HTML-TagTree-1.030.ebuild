@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DDEBRITO"
-DIST_VERSION="1.03"
-DIST_A="HTML-TagTree-v1.03.tar.gz"
+DIST_VERSION="1.03" 
+SRC_URI="mirror://cpan/authors/id/D/DD/DDEBRITO/HTML-TagTree-v1.03.tar.gz -> HTML-TagTree-1.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-TagTree-v1.03 ${WORKDIR}/HTML-TagTree-1.03
+}
+

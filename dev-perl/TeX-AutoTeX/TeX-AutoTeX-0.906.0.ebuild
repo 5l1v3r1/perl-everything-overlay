@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TSCHWAND"
-DIST_VERSION="0.906.0"
-DIST_A="TeX-AutoTeX-v0.906.0.tar.gz"
+DIST_VERSION="0.906.0" 
+SRC_URI="mirror://cpan/authors/id/T/TS/TSCHWAND/TeX-AutoTeX-v0.906.0.tar.gz -> TeX-AutoTeX-0.906.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +26,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TeX-AutoTeX-v0.906.0 ${WORKDIR}/TeX-AutoTeX-0.906.0
+}
+

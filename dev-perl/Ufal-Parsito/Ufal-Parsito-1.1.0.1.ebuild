@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="STRAKA"
-DIST_VERSION="1.1.0.1"
-DIST_A="Ufal-Parsito-v1.1.0.1.tar.gz"
+DIST_VERSION="1.1.0.1" 
+SRC_URI="mirror://cpan/authors/id/S/ST/STRAKA/Ufal-Parsito-v1.1.0.1.tar.gz -> Ufal-Parsito-1.1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Ufal-Parsito-v1.1.0.1 ${WORKDIR}/Ufal-Parsito-1.1.0.1
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HAGGAI"
-DIST_VERSION="v0.0.3"
-DIST_A="Path-Trim-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/H/HA/HAGGAI/Path-Trim-v0.0.3.tar.gz -> Path-Trim-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Path-Trim-v0.0.3 ${WORKDIR}/Path-Trim-0.0.3
+}
+

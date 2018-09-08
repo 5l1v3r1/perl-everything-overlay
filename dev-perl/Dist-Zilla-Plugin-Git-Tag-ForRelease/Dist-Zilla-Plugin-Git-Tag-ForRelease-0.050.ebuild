@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SWESTRUP"
-DIST_VERSION="0.05"
-DIST_A="Dist-Zilla-Plugin-Git-Tag-ForRelease-v0.05.tar.gz"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/S/SW/SWESTRUP/Dist-Zilla-Plugin-Git-Tag-ForRelease-v0.05.tar.gz -> Dist-Zilla-Plugin-Git-Tag-ForRelease-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-Git-Tag-ForRelease-v0.05 ${WORKDIR}/Dist-Zilla-Plugin-Git-Tag-ForRelease-0.05
+}
+

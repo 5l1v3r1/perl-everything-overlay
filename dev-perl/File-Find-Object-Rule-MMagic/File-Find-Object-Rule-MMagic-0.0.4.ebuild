@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.4"
-DIST_A="File-Find-Object-Rule-MMagic-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/File-Find-Object-Rule-MMagic-v0.0.4.tar.gz -> File-Find-Object-Rule-MMagic-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Find-Object-Rule-MMagic-v0.0.4 ${WORKDIR}/File-Find-Object-Rule-MMagic-0.0.4
+}
+

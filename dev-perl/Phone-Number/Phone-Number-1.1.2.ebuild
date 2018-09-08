@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CMS"
-DIST_VERSION="1.1.2"
-DIST_A="Phone-Number-v1.1.2.tar.gz"
+DIST_VERSION="1.1.2" 
+SRC_URI="mirror://cpan/authors/id/C/CM/CMS/Phone-Number-v1.1.2.tar.gz -> Phone-Number-1.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Phone-Number-v1.1.2 ${WORKDIR}/Phone-Number-1.1.2
+}
+

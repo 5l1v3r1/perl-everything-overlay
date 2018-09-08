@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CAMSPI"
-DIST_VERSION="v0.1.5"
-DIST_A="Dancer2-Plugin-ParamKeywords-v0.1.5.tar.gz"
+DIST_VERSION="0.1.5" 
+SRC_URI="mirror://cpan/authors/id/C/CA/CAMSPI/Dancer2-Plugin-ParamKeywords-v0.1.5.tar.gz -> Dancer2-Plugin-ParamKeywords-0.1.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dancer2-Plugin-ParamKeywords-v0.1.5 ${WORKDIR}/Dancer2-Plugin-ParamKeywords-0.1.5
+}
+

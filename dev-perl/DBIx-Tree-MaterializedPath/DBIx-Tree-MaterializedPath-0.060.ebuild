@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LARRYL"
-DIST_VERSION="0.06"
-DIST_A="DBIx-Tree-MaterializedPath-v0.06.tar.gz"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/L/LA/LARRYL/DBIx-Tree-MaterializedPath-v0.06.tar.gz -> DBIx-Tree-MaterializedPath-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +25,13 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-Tree-MaterializedPath-v0.06 ${WORKDIR}/DBIx-Tree-MaterializedPath-0.06
+}
+

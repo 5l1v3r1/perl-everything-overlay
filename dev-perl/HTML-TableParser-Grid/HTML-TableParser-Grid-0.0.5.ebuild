@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TAKERU"
-DIST_VERSION="0.0.5"
-DIST_A="HTML-TableParser-Grid-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/T/TA/TAKERU/HTML-TableParser-Grid-v0.0.5.tar.gz -> HTML-TableParser-Grid-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-TableParser-Grid-v0.0.5 ${WORKDIR}/HTML-TableParser-Grid-0.0.5
+}
+

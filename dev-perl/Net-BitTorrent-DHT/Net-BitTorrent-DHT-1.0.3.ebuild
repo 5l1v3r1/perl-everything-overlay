@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="1.0.3"
-DIST_A="Net-BitTorrent-DHT-v1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SANKO/Net-BitTorrent-DHT-v1.0.3.tar.gz -> Net-BitTorrent-DHT-1.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +29,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-BitTorrent-DHT-v1.0.3 ${WORKDIR}/Net-BitTorrent-DHT-1.0.3
+}
+

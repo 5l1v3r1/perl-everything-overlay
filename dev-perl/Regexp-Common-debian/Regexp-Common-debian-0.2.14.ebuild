@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WHYNOT"
-DIST_VERSION="0.2.14"
-DIST_A="Regexp-Common-debian-v0.2.14.tar.gz"
+DIST_VERSION="0.2.14" 
+SRC_URI="mirror://cpan/authors/id/W/WH/WHYNOT/Regexp-Common-debian-v0.2.14.tar.gz -> Regexp-Common-debian-0.2.14.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Regexp-Common-debian-v0.2.14 ${WORKDIR}/Regexp-Common-debian-0.2.14
+}
+

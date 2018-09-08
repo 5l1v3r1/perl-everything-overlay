@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="0.9.1"
-DIST_A="Solution-v0.9.1.tar.gz"
+DIST_VERSION="0.9.1" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SANKO/Solution-v0.9.1.tar.gz -> Solution-0.9.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Solution-v0.9.1 ${WORKDIR}/Solution-0.9.1
+}
+

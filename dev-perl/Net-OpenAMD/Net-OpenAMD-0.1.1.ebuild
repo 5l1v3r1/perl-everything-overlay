@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREW"
-DIST_VERSION="v0.1.1"
-DIST_A="Net-OpenAMD-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDREW/Net-OpenAMD-v0.1.1.tar.gz -> Net-OpenAMD-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-OpenAMD-v0.1.1 ${WORKDIR}/Net-OpenAMD-0.1.1
+}
+

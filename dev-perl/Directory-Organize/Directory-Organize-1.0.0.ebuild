@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MAMAWE"
-DIST_VERSION="1.0.0"
-DIST_A="Directory-Organize-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MAMAWE/Directory-Organize-v1.0.0.tar.gz -> Directory-Organize-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Directory-Organize-v1.0.0 ${WORKDIR}/Directory-Organize-1.0.0
+}
+

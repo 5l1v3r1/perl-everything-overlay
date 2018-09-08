@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TEQUETER"
-DIST_VERSION="0.02"
-DIST_A="Net-Route-v0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TEQUETER/Net-Route-v0.02.tar.gz -> Net-Route-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +24,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Route-v0.02 ${WORKDIR}/Net-Route-0.02
+}
+

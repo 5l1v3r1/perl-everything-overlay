@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.0.1"
-DIST_A="SemanticWeb-Schema-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/SemanticWeb-Schema-v0.0.1.tar.gz -> SemanticWeb-Schema-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SemanticWeb-Schema-v0.0.1 ${WORKDIR}/SemanticWeb-Schema-0.0.1
+}
+

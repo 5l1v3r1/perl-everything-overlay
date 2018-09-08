@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCS"
-DIST_VERSION="v0.0.6"
-DIST_A="Test-NoPlan-v0.0.6.tar.gz"
+DIST_VERSION="0.0.6" 
+SRC_URI="mirror://cpan/authors/id/D/DU/DUNCS/Test-NoPlan-v0.0.6.tar.gz -> Test-NoPlan-0.0.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-NoPlan-v0.0.6 ${WORKDIR}/Test-NoPlan-0.0.6
+}
+

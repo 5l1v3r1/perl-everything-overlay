@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.2.2"
-DIST_A="Bundle-Zavitan-v0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/Bundle-Zavitan-v0.2.2.tar.gz -> Bundle-Zavitan-0.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bundle-Zavitan-v0.2.2 ${WORKDIR}/Bundle-Zavitan-0.2.2
+}
+

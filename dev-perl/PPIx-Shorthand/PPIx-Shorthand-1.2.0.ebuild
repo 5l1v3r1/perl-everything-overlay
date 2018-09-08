@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTJS"
-DIST_VERSION="v1.2.0"
-DIST_A="PPIx-Shorthand-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/E/EL/ELLIOTJS/PPIx-Shorthand-v1.2.0.tar.gz -> PPIx-Shorthand-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PPIx-Shorthand-v1.2.0 ${WORKDIR}/PPIx-Shorthand-1.2.0
+}
+

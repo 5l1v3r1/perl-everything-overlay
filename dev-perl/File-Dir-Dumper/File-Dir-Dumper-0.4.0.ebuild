@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.4.0"
-DIST_A="File-Dir-Dumper-v0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHLOMIF/File-Dir-Dumper-v0.4.0.tar.gz -> File-Dir-Dumper-0.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +43,9 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Dir-Dumper-v0.4.0 ${WORKDIR}/File-Dir-Dumper-0.4.0
+}
+

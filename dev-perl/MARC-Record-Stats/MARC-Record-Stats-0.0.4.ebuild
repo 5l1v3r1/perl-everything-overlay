@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CRUSOE"
-DIST_VERSION="v0.0.4"
-DIST_A="MARC-Record-Stats-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/C/CR/CRUSOE/MARC-Record-Stats-v0.0.4.tar.gz -> MARC-Record-Stats-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MARC-Record-Stats-v0.0.4 ${WORKDIR}/MARC-Record-Stats-0.0.4
+}
+

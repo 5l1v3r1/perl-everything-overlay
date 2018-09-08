@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GLORYBOX"
-DIST_VERSION="v1.0.5"
-DIST_A="File-Lockfile-v1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
+SRC_URI="mirror://cpan/authors/id/G/GL/GLORYBOX/File-Lockfile-v1.0.5.tar.gz -> File-Lockfile-1.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Lockfile-v1.0.5 ${WORKDIR}/File-Lockfile-1.0.5
+}
+

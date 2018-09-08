@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOUTROSLB"
-DIST_VERSION="0.5.4"
-DIST_A="BoutrosLab-TSVStream-v0.5.4.tar.gz"
+DIST_VERSION="0.5.4" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOUTROSLB/BoutrosLab-TSVStream-v0.5.4.tar.gz -> BoutrosLab-TSVStream-0.5.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Test-Simple-0.100
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/BoutrosLab-TSVStream-v0.5.4 ${WORKDIR}/BoutrosLab-TSVStream-0.5.4
+}
+

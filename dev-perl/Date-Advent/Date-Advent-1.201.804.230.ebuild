@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MARMANOLD"
-DIST_VERSION="1.20180423"
-DIST_A="Date-Advent-v1.20180423.tar.gz"
+DIST_VERSION="1.20180423" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MARMANOLD/Date-Advent-v1.20180423.tar.gz -> Date-Advent-1.20180423.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Date-Lectionary-Time-1.20180422.1
 	>=dev-perl/Moose-2.180.400
 	>=dev-perl/MooseX-StrictConstructor-0.210
 	>=dev-perl/namespace-autoclean-0.280
@@ -38,3 +37,9 @@ DEPEND="
 	>=dev-perl/Test-Version-2.070
 	>=virtual/perl-Test-Simple-1.302.040
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Date-Advent-v1.20180423 ${WORKDIR}/Date-Advent-1.20180423
+}
+

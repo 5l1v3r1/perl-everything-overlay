@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="NYET"
-DIST_VERSION="v0.0.1"
-DIST_A="Bio-HTS-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/N/NY/NYET/Bio-HTS-v0.0.1.tar.gz -> Bio-HTS-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-HTS-v0.0.1 ${WORKDIR}/Bio-HTS-0.0.1
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ACID"
-DIST_VERSION="0.0.1"
-DIST_A="CatalystX-PathContext-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/A/AC/ACID/CatalystX-PathContext-v0.0.1.tar.gz -> CatalystX-PathContext-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	dev-lang/perl
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CatalystX-PathContext-v0.0.1 ${WORKDIR}/CatalystX-PathContext-0.0.1
+}
+

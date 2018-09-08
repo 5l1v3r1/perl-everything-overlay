@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JANDREW"
-DIST_VERSION="1.44.2"
-DIST_A="MooseX-ShortCut-BuildInstance-v1.44.2.tar.gz"
+DIST_VERSION="1.44.2" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JANDREW/MooseX-ShortCut-BuildInstance-v1.44.2.tar.gz -> MooseX-ShortCut-BuildInstance-1.44.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +18,10 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Clone
-	dev-perl/Moose
+	>=dev-perl/Moose-2.121.300
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-version-0.770
@@ -37,3 +38,9 @@ DEPEND="
 	>=dev-perl/Type-Tiny-1.000
 	>=virtual/perl-Scalar-List-Utils-1.330
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MooseX-ShortCut-BuildInstance-v1.44.2 ${WORKDIR}/MooseX-ShortCut-BuildInstance-1.44.2
+}
+

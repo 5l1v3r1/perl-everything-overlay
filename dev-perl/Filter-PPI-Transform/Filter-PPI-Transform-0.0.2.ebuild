@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.2"
-DIST_A="Filter-PPI-Transform-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Filter-PPI-Transform-v0.0.2.tar.gz -> Filter-PPI-Transform-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Filter-PPI-Transform-v0.0.2 ${WORKDIR}/Filter-PPI-Transform-0.0.2
+}
+

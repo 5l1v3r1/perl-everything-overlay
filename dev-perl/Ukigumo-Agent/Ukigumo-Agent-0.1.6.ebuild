@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="v0.1.6"
-DIST_A="Ukigumo-Agent-v0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
+SRC_URI="mirror://cpan/authors/id/M/MO/MOZNION/Ukigumo-Agent-v0.1.6.tar.gz -> Ukigumo-Agent-0.1.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,12 +24,12 @@ RDEPEND="
 	dev-perl/Log-Minimal
 	dev-perl/Mouse
 	>=dev-perl/Plack-0.994.900
+	dev-perl/Pod-Usage
 	dev-perl/Text-Xslate
 	dev-perl/Time-Duration
 	dev-perl/Twiggy
 	>=dev-perl/Ukigumo-Client-0.310
 	>=virtual/perl-Getopt-Long-2.420
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
 	virtual/perl-parent
@@ -38,4 +38,16 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
+	dev-perl/Test-TCP
+	dev-perl/libwww-perl
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Ukigumo-Agent-v0.1.6 ${WORKDIR}/Ukigumo-Agent-0.1.6
+}
+

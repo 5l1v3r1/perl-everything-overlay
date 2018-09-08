@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.4.4"
-DIST_A="Test-Dist-Zilla-v0.4.4.tar.gz"
+DIST_VERSION="0.4.4" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Test-Dist-Zilla-v0.4.4.tar.gz -> Test-Dist-Zilla-0.4.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,6 +33,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-DiagINC-0.002
 	dev-perl/Test-Fatal
 	dev-perl/lib
@@ -40,3 +41,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Dist-Zilla-v0.4.4 ${WORKDIR}/Test-Dist-Zilla-0.4.4
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.4.0"
-DIST_A="MooseX-Attribute-ValidateWithException-v0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KENTNL/MooseX-Attribute-ValidateWithException-v0.4.0.tar.gz -> MooseX-Attribute-ValidateWithException-0.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Moose-2.120.000
+	dev-perl/Moose
 	dev-perl/Throwable
 "
 DEPEND="
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MooseX-Attribute-ValidateWithException-v0.4.0 ${WORKDIR}/MooseX-Attribute-ValidateWithException-0.4.0
+}
+

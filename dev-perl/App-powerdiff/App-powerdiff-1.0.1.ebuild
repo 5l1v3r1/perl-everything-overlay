@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="1.0.1"
-DIST_A="App-powerdiff-v1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/App-powerdiff-v1.0.1.tar.gz -> App-powerdiff-1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +21,14 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckOS-1.630
+	dev-perl/Devel-CheckOS
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-powerdiff-v1.0.1 ${WORKDIR}/App-powerdiff-1.0.1
+}
+

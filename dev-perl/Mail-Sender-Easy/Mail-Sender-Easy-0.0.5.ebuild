@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="v0.0.5"
-DIST_A="Mail-Sender-Easy-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMUEY/Mail-Sender-Easy-v0.0.5.tar.gz -> Mail-Sender-Easy-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mail-Sender-Easy-v0.0.5 ${WORKDIR}/Mail-Sender-Easy-0.0.5
+}
+

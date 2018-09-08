@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.31.0"
-DIST_A="Media-Type-Simple-v0.31.0.tar.gz"
+DIST_VERSION="0.31.0" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Media-Type-Simple-v0.31.0.tar.gz -> Media-Type-Simple-0.31.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Media-Type-Simple-v0.31.0 ${WORKDIR}/Media-Type-Simple-0.31.0
+}
+

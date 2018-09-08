@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.9.0"
-DIST_A="Dist-Zilla-Role-ErrorLogger-v0.9.0.tar.gz"
+DIST_VERSION="0.9.0" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Dist-Zilla-Role-ErrorLogger-v0.9.0.tar.gz -> Dist-Zilla-Role-ErrorLogger-0.9.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/Dist-Zilla
 	dev-perl/IPC-System-Simple
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
 	dev-perl/Test-Dist-Zilla
@@ -38,3 +39,9 @@ DEPEND="
 	virtual/perl-autodie
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Role-ErrorLogger-v0.9.0 ${WORKDIR}/Dist-Zilla-Role-ErrorLogger-0.9.0
+}
+

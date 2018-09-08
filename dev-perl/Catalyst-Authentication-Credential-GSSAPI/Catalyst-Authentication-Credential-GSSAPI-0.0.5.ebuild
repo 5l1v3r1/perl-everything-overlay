@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DRUOSO"
-DIST_VERSION="v0.0.5"
-DIST_A="Catalyst-Authentication-Credential-GSSAPI-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/D/DR/DRUOSO/Catalyst-Authentication-Credential-GSSAPI-v0.0.5.tar.gz -> Catalyst-Authentication-Credential-GSSAPI-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.390
 	virtual/perl-ExtUtils-CBuilder
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Catalyst-Authentication-Credential-GSSAPI-v0.0.5 ${WORKDIR}/Catalyst-Authentication-Credential-GSSAPI-0.0.5
+}
+

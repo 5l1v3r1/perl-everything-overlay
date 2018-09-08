@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="3.1.2"
-DIST_A="Minilla-v3.1.2.tar.gz"
+DIST_VERSION="3.1.2" 
+SRC_URI="mirror://cpan/authors/id/S/SK/SKAJI/Minilla-v3.1.2.tar.gz -> Minilla-3.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,8 +45,15 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/File-Copy-Recursive
 	dev-perl/JSON
+	dev-perl/Module-Build
 	dev-perl/Test-Output
 	dev-perl/Test-Requires
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Minilla-v3.1.2 ${WORKDIR}/Minilla-3.1.2
+}
+

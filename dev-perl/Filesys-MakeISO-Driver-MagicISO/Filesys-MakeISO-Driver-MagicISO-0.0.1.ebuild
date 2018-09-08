@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="UVOELKER"
-DIST_VERSION="0.0.1"
-DIST_A="Filesys-MakeISO-Driver-MagicISO-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/U/UV/UVOELKER/Filesys-MakeISO-Driver-MagicISO-v0.0.1.tar.gz -> Filesys-MakeISO-Driver-MagicISO-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Filesys-MakeISO-Driver-MagicISO-v0.0.1 ${WORKDIR}/Filesys-MakeISO-Driver-MagicISO-0.0.1
+}
+

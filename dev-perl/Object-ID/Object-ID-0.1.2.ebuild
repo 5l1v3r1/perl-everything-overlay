@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="v0.1.2"
-DIST_A="Object-ID-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/M/MS/MSCHWERN/Object-ID-v0.1.2.tar.gz -> Object-ID-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-version-0.770
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Object-ID-v0.1.2 ${WORKDIR}/Object-ID-0.1.2
+}
+

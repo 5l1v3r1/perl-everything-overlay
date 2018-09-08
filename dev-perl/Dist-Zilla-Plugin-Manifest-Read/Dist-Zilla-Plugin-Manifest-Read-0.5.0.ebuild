@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.5.0"
-DIST_A="Dist-Zilla-Plugin-Manifest-Read-v0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Dist-Zilla-Plugin-Manifest-Read-v0.5.0.tar.gz -> Dist-Zilla-Plugin-Manifest-Read-0.5.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +30,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
 	>=dev-perl/Test-Dist-Zilla-0.3.3
@@ -40,3 +41,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-Manifest-Read-v0.5.0 ${WORKDIR}/Dist-Zilla-Plugin-Manifest-Read-0.5.0
+}
+

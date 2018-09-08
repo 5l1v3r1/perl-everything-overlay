@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INTERINFO"
-DIST_VERSION="v0.1.3"
-DIST_A="Catalyst-Plugin-Cache-HTTP-Preempt-v0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INTERINFO/Catalyst-Plugin-Cache-HTTP-Preempt-v0.1.3.tar.gz -> Catalyst-Plugin-Cache-HTTP-Preempt-0.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,10 +35,16 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DateTime-Format-HTTP
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/URI
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Catalyst-Plugin-Cache-HTTP-Preempt-v0.1.3 ${WORKDIR}/Catalyst-Plugin-Cache-HTTP-Preempt-0.1.3
+}
+

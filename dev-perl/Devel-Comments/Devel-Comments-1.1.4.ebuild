@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="XIONG"
-DIST_VERSION="1.1.4"
-DIST_A="Devel-Comments-v1.1.4.tar.gz"
-SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Devel-Comments-v1.1.4.tar.gz"
+DIST_VERSION="1.1.4" 
+SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Devel-Comments-v1.1.4.tar.gz -> Devel-Comments-1.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-Comments-v1.1.4 ${WORKDIR}/Devel-Comments-1.1.4
+}
+

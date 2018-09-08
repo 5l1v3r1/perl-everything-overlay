@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CEBJYRE"
-DIST_VERSION="v0.2.4"
-DIST_A="Versionify-Dispatch-v0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
+SRC_URI="mirror://cpan/authors/id/C/CE/CEBJYRE/Versionify-Dispatch-v0.2.4.tar.gz -> Versionify-Dispatch-0.2.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Versionify-Dispatch-v0.2.4 ${WORKDIR}/Versionify-Dispatch-0.2.4
+}
+

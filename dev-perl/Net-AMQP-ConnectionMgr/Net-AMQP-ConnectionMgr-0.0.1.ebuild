@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DRUOSO"
-DIST_VERSION="v0.0.1"
-DIST_A="Net-AMQP-ConnectionMgr-v0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
+SRC_URI="mirror://cpan/authors/id/D/DR/DRUOSO/Net-AMQP-ConnectionMgr-v0.0.1.tar.gz -> Net-AMQP-ConnectionMgr-0.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.390
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-AMQP-ConnectionMgr-v0.0.1 ${WORKDIR}/Net-AMQP-ConnectionMgr-0.0.1
+}
+

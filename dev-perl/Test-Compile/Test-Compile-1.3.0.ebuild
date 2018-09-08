@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EGILES"
-DIST_VERSION="v1.3.0"
-DIST_A="Test-Compile-v1.3.0.tar.gz"
+DIST_VERSION="1.3.0" 
+SRC_URI="mirror://cpan/authors/id/E/EG/EGILES/Test-Compile-v1.3.0.tar.gz -> Test-Compile-1.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Compile-v1.3.0 ${WORKDIR}/Test-Compile-1.3.0
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="UINTAHORN"
-DIST_VERSION="1.00.1"
-DIST_A="Acme-Machi-v1.00.1.tar.gz"
+DIST_VERSION="1.00.1" 
+SRC_URI="mirror://cpan/authors/id/U/UI/UINTAHORN/Acme-Machi-v1.00.1.tar.gz -> Acme-Machi-1.00.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.620
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-Machi-v1.00.1 ${WORKDIR}/Acme-Machi-1.00.1
+}
+

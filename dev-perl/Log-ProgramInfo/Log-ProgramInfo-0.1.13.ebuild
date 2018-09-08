@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOUTROSLB"
-DIST_VERSION="0.1.13"
-DIST_A="Log-ProgramInfo-v0.1.13.tar.gz"
+DIST_VERSION="0.1.13" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOUTROSLB/Log-ProgramInfo-v0.1.13.tar.gz -> Log-ProgramInfo-0.1.13.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-File-Path
 	>=virtual/perl-Test-Simple-0.100
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-ProgramInfo-v0.1.13 ${WORKDIR}/Log-ProgramInfo-0.1.13
+}
+

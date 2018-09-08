@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDARA"
-DIST_VERSION="v0.2.1"
-DIST_A="Call-Haskell-v0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDARA/Call-Haskell-v0.2.1.tar.gz -> Call-Haskell-0.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Call-Haskell-v0.2.1 ${WORKDIR}/Call-Haskell-0.2.1
+}
+

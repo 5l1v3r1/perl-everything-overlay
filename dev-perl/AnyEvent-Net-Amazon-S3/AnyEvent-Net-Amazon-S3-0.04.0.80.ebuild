@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.04.0.80"
-DIST_A="AnyEvent-Net-Amazon-S3-v0.04.0.80.tar.gz"
+DIST_VERSION="0.04.0.80" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/AnyEvent-Net-Amazon-S3-v0.04.0.80.tar.gz -> AnyEvent-Net-Amazon-S3-0.04.0.80.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AnyEvent-Net-Amazon-S3-v0.04.0.80 ${WORKDIR}/AnyEvent-Net-Amazon-S3-0.04.0.80
+}
+

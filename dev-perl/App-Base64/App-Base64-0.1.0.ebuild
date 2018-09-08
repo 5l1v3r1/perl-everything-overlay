@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CEBJYRE"
-DIST_VERSION="v0.1.0"
-DIST_A="App-Base64-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/C/CE/CEBJYRE/App-Base64-v0.1.0.tar.gz -> App-Base64-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-Cmd
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Base64-v0.1.0 ${WORKDIR}/App-Base64-0.1.0
+}
+

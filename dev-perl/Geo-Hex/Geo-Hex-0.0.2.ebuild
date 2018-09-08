@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KOKOGIKO"
-DIST_VERSION="v0.0.2"
-DIST_A="Geo-Hex-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/K/KO/KOKOGIKO/Geo-Hex-v0.0.2.tar.gz -> Geo-Hex-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Geo-Hex-v0.0.2 ${WORKDIR}/Geo-Hex-0.0.2
+}
+

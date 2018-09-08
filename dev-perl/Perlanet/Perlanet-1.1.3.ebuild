@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAVECROSS"
-DIST_VERSION="1.1.3"
-DIST_A="Perlanet-v1.1.3.tar.gz"
+DIST_VERSION="1.1.3" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVECROSS/Perlanet-v1.1.3.tar.gz -> Perlanet-1.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +38,9 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perlanet-v1.1.3 ${WORKDIR}/Perlanet-1.1.3
+}
+

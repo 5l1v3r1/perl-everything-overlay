@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JMERELO"
-DIST_VERSION="3.102"
-DIST_A="Algorithm-Evolutionary-Fitness-v3.102.tar.gz"
+DIST_VERSION="3.102" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMERELO/Algorithm-Evolutionary-Fitness-v3.102.tar.gz -> Algorithm-Evolutionary-Fitness-3.102.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +17,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Algorithm-Evolutionary-Utils-3.403
 	>=dev-perl/Math-Random-0.630
 	dev-perl/String-Random
 	dev-perl/Test-Exception
@@ -30,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Algorithm-Evolutionary-Fitness-v3.102 ${WORKDIR}/Algorithm-Evolutionary-Fitness-3.102
+}
+

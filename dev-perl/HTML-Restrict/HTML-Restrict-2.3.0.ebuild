@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="2.3.0"
-DIST_A="HTML-Restrict-v2.3.0.tar.gz"
+DIST_VERSION="2.3.0" 
+SRC_URI="mirror://cpan/authors/id/O/OA/OALDERS/HTML-Restrict-v2.3.0.tar.gz -> HTML-Restrict-2.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +35,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Restrict-v2.3.0 ${WORKDIR}/HTML-Restrict-2.3.0
+}
+

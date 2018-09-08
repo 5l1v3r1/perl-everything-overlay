@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.0.5"
-DIST_A="App-GitHooks-Plugin-ForceRegularUpdate-v1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/App-GitHooks-Plugin-ForceRegularUpdate-v1.0.5.tar.gz -> App-GitHooks-Plugin-ForceRegularUpdate-1.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	>=dev-perl/Test-Requires-Git-1.005
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-GitHooks-Plugin-ForceRegularUpdate-v1.0.5 ${WORKDIR}/App-GitHooks-Plugin-ForceRegularUpdate-1.0.5
+}
+

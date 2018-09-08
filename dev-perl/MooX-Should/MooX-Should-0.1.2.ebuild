@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.1.2"
-DIST_A="MooX-Should-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/MooX-Should-v0.1.2.tar.gz -> MooX-Should-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MooX-Should-v0.1.2 ${WORKDIR}/MooX-Should-0.1.2
+}
+

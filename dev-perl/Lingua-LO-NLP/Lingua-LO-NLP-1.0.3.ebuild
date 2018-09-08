@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="MBETHKE"
 DIST_VERSION="1.0.3"
-DIST_A="Lingua-LO-NLP-v1.0.3.tar.bz2"
+DIST_A_EXT="tar.bz2" 
+SRC_URI="mirror://cpan/authors/id/M/MB/MBETHKE/Lingua-LO-NLP-v1.0.3.tar.bz2 -> Lingua-LO-NLP-1.0.3.tar.bz2"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +31,9 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-LO-NLP-v1.0.3 ${WORKDIR}/Lingua-LO-NLP-1.0.3
+}
+

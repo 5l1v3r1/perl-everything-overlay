@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.6.10"
-DIST_A="Group-Git-v0.6.10.tar.gz"
+DIST_VERSION="0.6.10" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/Group-Git-v0.6.10.tar.gz -> Group-Git-0.6.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Group-Git-v0.6.10 ${WORKDIR}/Group-Git-0.6.10
+}
+

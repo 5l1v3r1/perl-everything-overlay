@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.5.0"
-DIST_A="MetaPOD-Spec-v0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KENTNL/MetaPOD-Spec-v0.5.0.tar.gz -> MetaPOD-Spec-0.5.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MetaPOD-Spec-v0.5.0 ${WORKDIR}/MetaPOD-Spec-0.5.0
+}
+

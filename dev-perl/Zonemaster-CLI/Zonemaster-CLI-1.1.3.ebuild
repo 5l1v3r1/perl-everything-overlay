@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZNMSTR"
-DIST_VERSION="1.1.3"
-DIST_A="Zonemaster-CLI-v1.1.3.tar.gz"
+DIST_VERSION="1.1.3" 
+SRC_URI="mirror://cpan/authors/id/Z/ZN/ZNMSTR/Zonemaster-CLI-v1.1.3.tar.gz -> Zonemaster-CLI-1.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Zonemaster-CLI-v1.1.3 ${WORKDIR}/Zonemaster-CLI-1.1.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="COVINGTON"
-DIST_VERSION="v0.6.1"
-DIST_A="Number-RangeTracker-v0.6.1.tar.gz"
+DIST_VERSION="0.6.1" 
+SRC_URI="mirror://cpan/authors/id/C/CO/COVINGTON/Number-RangeTracker-v0.6.1.tar.gz -> Number-RangeTracker-0.6.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +25,11 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	virtual/perl-Getopt-Long
+	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Number-RangeTracker-v0.6.1 ${WORKDIR}/Number-RangeTracker-0.6.1
+}
+

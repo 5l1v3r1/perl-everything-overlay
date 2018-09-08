@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ASPIERS"
-DIST_VERSION="v2.2.2"
-DIST_A="Stow-v2.2.2.tar.gz"
+DIST_VERSION="2.2.2" 
+SRC_URI="mirror://cpan/authors/id/A/AS/ASPIERS/Stow-v2.2.2.tar.gz -> Stow-2.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Stow-v2.2.2 ${WORKDIR}/Stow-2.2.2
+}
+

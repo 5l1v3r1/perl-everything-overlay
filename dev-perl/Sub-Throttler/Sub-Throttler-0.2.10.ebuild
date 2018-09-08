@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="0.2.10"
-DIST_A="Sub-Throttler-v0.2.10.tar.gz"
+DIST_VERSION="0.2.10" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/Sub-Throttler-v0.2.10.tar.gz -> Sub-Throttler-0.2.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +28,14 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/JSON-XS
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Mock-Time-0.1.5
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Sub-Throttler-v0.2.10 ${WORKDIR}/Sub-Throttler-0.2.10
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="0.2.6"
-DIST_A="App-migrate-v0.2.6.tar.gz"
+DIST_VERSION="0.2.6" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/App-migrate-v0.2.6.tar.gz -> App-migrate-0.2.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +24,15 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckOS-1.630
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.060
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Output-1.020
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-migrate-v0.2.6 ${WORKDIR}/App-migrate-0.2.6
+}
+

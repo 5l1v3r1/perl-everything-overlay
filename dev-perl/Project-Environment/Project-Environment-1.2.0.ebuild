@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROMANF"
-DIST_VERSION="1.2.0"
-DIST_A="Project-Environment-v1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROMANF/Project-Environment-v1.2.0.tar.gz -> Project-Environment-1.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/lib-abs
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Project-Environment-v1.2.0 ${WORKDIR}/Project-Environment-1.2.0
+}
+

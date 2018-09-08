@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MORITZ"
-DIST_VERSION="v0.3.2"
-DIST_A="Math-Expression-Evaluator-v0.3.2.tar.gz"
+DIST_VERSION="0.3.2" 
+SRC_URI="mirror://cpan/authors/id/M/MO/MORITZ/Math-Expression-Evaluator-v0.3.2.tar.gz -> Math-Expression-Evaluator-0.3.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-Expression-Evaluator-v0.3.2 ${WORKDIR}/Math-Expression-Evaluator-0.3.2
+}
+

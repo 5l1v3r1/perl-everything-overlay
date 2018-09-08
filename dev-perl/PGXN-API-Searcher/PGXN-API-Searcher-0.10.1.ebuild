@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="v0.10.1"
-DIST_A="PGXN-API-Searcher-v0.10.1.tar.gz"
+DIST_VERSION="0.10.1" 
+SRC_URI="mirror://cpan/authors/id/D/DW/DWHEELER/PGXN-API-Searcher-v0.10.1.tar.gz -> PGXN-API-Searcher-0.10.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=virtual/perl-File-Path-2.080
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PGXN-API-Searcher-v0.10.1 ${WORKDIR}/PGXN-API-Searcher-0.10.1
+}
+

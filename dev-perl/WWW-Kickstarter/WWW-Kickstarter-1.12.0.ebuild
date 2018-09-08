@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="1.12.0"
-DIST_A="WWW-Kickstarter-v1.12.0.tar.gz"
+DIST_VERSION="1.12.0" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/WWW-Kickstarter-v1.12.0.tar.gz -> WWW-Kickstarter-1.12.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Kickstarter-v1.12.0 ${WORKDIR}/WWW-Kickstarter-1.12.0
+}
+

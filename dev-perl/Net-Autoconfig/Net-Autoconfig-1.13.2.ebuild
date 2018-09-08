@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Net-Autoconfig"
-DIST_VERSION="v1.13.2"
-DIST_A="Net-Autoconfig-v1.13.2.tar.gz"
+DIST_AUTHOR="KEVIN"
+DIST_VERSION="1.13.2" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KEVIN/Net-Autoconfig/Net-Autoconfig-v1.13.2.tar.gz -> Net-Autoconfig-1.13.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Autoconfig-v1.13.2 ${WORKDIR}/Net-Autoconfig-1.13.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DJCURTIS"
-DIST_VERSION="1.00"
-DIST_A="Summerset-IsbnConverter-v1.00.tar.gz"
+DIST_VERSION="1.00" 
+SRC_URI="mirror://cpan/authors/id/D/DJ/DJCURTIS/Summerset-IsbnConverter-v1.00.tar.gz -> Summerset-IsbnConverter-1.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Summerset-IsbnConverter-v1.00 ${WORKDIR}/Summerset-IsbnConverter-1.00
+}
+

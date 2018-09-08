@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MITHUN"
-DIST_VERSION="1.2.1"
-DIST_A="TMDB-v1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MITHUN/TMDB-v1.2.1.tar.gz -> TMDB-1.2.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +18,6 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/IO-Socket-SSL-1.560
 	dev-perl/JSON-MaybeXS
-	>=dev-perl/Locale-Codes-3.200
 	>=dev-perl/Net-SSLeay-1.490
 	>=dev-perl/Object-Tiny-1.030
 	>=dev-perl/Params-Validate-1.030
@@ -32,3 +31,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TMDB-v1.2.1 ${WORKDIR}/TMDB-1.2.1
+}
+

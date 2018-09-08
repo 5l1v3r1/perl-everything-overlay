@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYA"
-DIST_VERSION="v0.0.2"
-DIST_A="Sort-Rank-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDYA/Sort-Rank-v0.0.2.tar.gz -> Sort-Rank-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Sort-Rank-v0.0.2 ${WORKDIR}/Sort-Rank-0.0.2
+}
+

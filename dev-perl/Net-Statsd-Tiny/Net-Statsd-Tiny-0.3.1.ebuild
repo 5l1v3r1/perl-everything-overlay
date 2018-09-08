@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.3.1"
-DIST_A="Net-Statsd-Tiny-v0.3.1.tar.gz"
+DIST_VERSION="0.3.1" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Net-Statsd-Tiny-v0.3.1.tar.gz -> Net-Statsd-Tiny-0.3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Statsd-Tiny-v0.3.1 ${WORKDIR}/Net-Statsd-Tiny-0.3.1
+}
+

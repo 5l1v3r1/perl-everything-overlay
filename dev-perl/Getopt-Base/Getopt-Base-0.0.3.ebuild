@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.3"
-DIST_A="Getopt-Base-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Getopt-Base-v0.0.3.tar.gz -> Getopt-Base-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.310
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-Base-v0.0.3 ${WORKDIR}/Getopt-Base-0.0.3
+}
+

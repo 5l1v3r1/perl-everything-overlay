@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYA"
-DIST_VERSION="v0.0.4"
-DIST_A="Image-ExifTool-Location-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDYA/Image-ExifTool-Location-v0.0.4.tar.gz -> Image-ExifTool-Location-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Image-ExifTool-Location-v0.0.4 ${WORKDIR}/Image-ExifTool-Location-0.0.4
+}
+

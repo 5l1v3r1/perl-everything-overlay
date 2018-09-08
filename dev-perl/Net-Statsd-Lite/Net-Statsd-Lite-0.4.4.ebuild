@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.4.4"
-DIST_A="Net-Statsd-Lite-v0.4.4.tar.gz"
+DIST_VERSION="0.4.4" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Net-Statsd-Lite-v0.4.4.tar.gz -> Net-Statsd-Lite-0.4.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Statsd-Lite-v0.4.4 ${WORKDIR}/Net-Statsd-Lite-0.4.4
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VDB"
-DIST_VERSION="0.10.2"
-DIST_A="Software-License-OrLaterPack-v0.10.2.tar.gz"
+DIST_VERSION="0.10.2" 
+SRC_URI="mirror://cpan/authors/id/V/VD/VDB/Software-License-OrLaterPack-v0.10.2.tar.gz -> Software-License-OrLaterPack-0.10.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-DiagINC-0.002
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -33,3 +34,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Software-License-OrLaterPack-v0.10.2 ${WORKDIR}/Software-License-OrLaterPack-0.10.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DEMMY"
-DIST_VERSION="v0.1.4"
-DIST_A="Minecraft-RCON-v0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
+SRC_URI="mirror://cpan/authors/id/D/DE/DEMMY/Minecraft-RCON-v0.1.4.tar.gz -> Minecraft-RCON-0.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Minecraft-RCON-v0.1.4 ${WORKDIR}/Minecraft-RCON-0.1.4
+}
+

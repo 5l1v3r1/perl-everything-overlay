@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PROGRHYME"
-DIST_VERSION="0.6.1"
-DIST_A="App-Koyomi-v0.6.1.tar.gz"
+DIST_VERSION="0.6.1" 
+SRC_URI="mirror://cpan/authors/id/P/PR/PROGRHYME/App-Koyomi-v0.6.1.tar.gz -> App-Koyomi-0.6.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +41,9 @@ DEPEND="
 	>=virtual/perl-Test-Harness-3.340
 	>=virtual/perl-Test-Simple-1.001.009
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Koyomi-v0.6.1 ${WORKDIR}/App-Koyomi-0.6.1
+}
+

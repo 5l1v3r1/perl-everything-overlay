@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MITHUN"
-DIST_VERSION="v1.0.1"
-DIST_A="String-Range-Expand-v1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
+SRC_URI="mirror://cpan/authors/id/M/MI/MITHUN/String-Range-Expand-v1.0.1.tar.gz -> String-Range-Expand-1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/String-Range-Expand-v1.0.1 ${WORKDIR}/String-Range-Expand-1.0.1
+}
+

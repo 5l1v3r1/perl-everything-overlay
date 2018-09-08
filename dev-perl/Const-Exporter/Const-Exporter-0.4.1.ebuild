@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.4.1"
-DIST_A="Const-Exporter-v0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Const-Exporter-v0.4.1.tar.gz -> Const-Exporter-0.4.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Const-Exporter-v0.4.1 ${WORKDIR}/Const-Exporter-0.4.1
+}
+

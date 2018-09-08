@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="1.7.1"
-DIST_A="Pcore-Nginx-v1.7.1.tar.gz"
+DIST_VERSION="1.7.1" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-Nginx-v1.7.1.tar.gz -> Pcore-Nginx-1.7.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-Nginx-v1.7.1 ${WORKDIR}/Pcore-Nginx-1.7.1
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXD"
-DIST_VERSION="v0.1.1"
-DIST_A="WWW-BigDoor-v0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
+SRC_URI="mirror://cpan/authors/id/A/AL/ALEXD/WWW-BigDoor-v0.1.1.tar.gz -> WWW-BigDoor-0.1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +21,6 @@ RDEPEND="
 	dev-perl/Hook-LexWrap
 	dev-perl/JSON
 	dev-perl/REST-Client
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 	dev-perl/Test-NoWarnings
@@ -34,3 +33,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-BigDoor-v0.1.1 ${WORKDIR}/WWW-BigDoor-0.1.1
+}
+

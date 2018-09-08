@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BRDUCH"
-DIST_VERSION="0.1.3"
-DIST_A="Ithumb-XS-v0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
+SRC_URI="mirror://cpan/authors/id/B/BR/BRDUCH/Ithumb-XS-v0.1.3.tar.gz -> Ithumb-XS-0.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Ithumb-XS-v0.1.3 ${WORKDIR}/Ithumb-XS-0.1.3
+}
+

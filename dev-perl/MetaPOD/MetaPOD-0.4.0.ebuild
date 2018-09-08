@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.4.0"
-DIST_A="MetaPOD-v0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KENTNL/MetaPOD-v0.4.0.tar.gz -> MetaPOD-0.4.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/List-AllUtils
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-1.000.008
+	dev-perl/Moo
 	dev-perl/Pod-Eventual
 	dev-perl/Throwable
 	virtual/perl-Carp
@@ -36,3 +36,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MetaPOD-v0.4.0 ${WORKDIR}/MetaPOD-0.4.0
+}
+

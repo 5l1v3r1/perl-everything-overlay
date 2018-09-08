@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MELEZHIK"
-DIST_VERSION="v0.0.30"
-DIST_A="Bundler-v0.0.30.tar.gz"
+DIST_VERSION="0.0.30" 
+SRC_URI="mirror://cpan/authors/id/M/ME/MELEZHIK/Bundler-v0.0.30.tar.gz -> Bundler-0.0.30.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bundler-v0.0.30 ${WORKDIR}/Bundler-0.0.30
+}
+

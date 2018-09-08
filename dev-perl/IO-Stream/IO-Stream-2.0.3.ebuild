@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="2.0.3"
-DIST_A="IO-Stream-v2.0.3.tar.gz"
+DIST_VERSION="2.0.3" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/IO-Stream-v2.0.3.tar.gz -> IO-Stream-2.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +24,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/IO-Stream-v2.0.3 ${WORKDIR}/IO-Stream-2.0.3
+}
+

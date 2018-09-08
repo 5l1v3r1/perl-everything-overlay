@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="NIKOLAS"
-DIST_VERSION="v1.1.8"
-DIST_A="LWP-Protocol-UWSGI-v1.1.8.tar.gz"
+DIST_VERSION="1.1.8" 
+SRC_URI="mirror://cpan/authors/id/N/NI/NIKOLAS/LWP-Protocol-UWSGI-v1.1.8.tar.gz -> LWP-Protocol-UWSGI-1.1.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LWP-Protocol-UWSGI-v1.1.8 ${WORKDIR}/LWP-Protocol-UWSGI-1.1.8
+}
+

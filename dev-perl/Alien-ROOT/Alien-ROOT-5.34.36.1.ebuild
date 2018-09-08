@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="5.34.36.1"
-DIST_A="Alien-ROOT-v5.34.36.1.tar.gz"
+DIST_VERSION="5.34.36.1" 
+SRC_URI="mirror://cpan/authors/id/S/SM/SMUELLER/Alien-ROOT-v5.34.36.1.tar.gz -> Alien-ROOT-5.34.36.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-ROOT-v5.34.36.1 ${WORKDIR}/Alien-ROOT-5.34.36.1
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="NPW"
-DIST_VERSION="0.2"
-DIST_A="LWP-UserAgent-Snapshot-v0.2.tar.gz"
+DIST_VERSION="0.2" 
+SRC_URI="mirror://cpan/authors/id/N/NP/NPW/LWP-UserAgent-Snapshot-v0.2.tar.gz -> LWP-UserAgent-Snapshot-0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +24,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.280
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LWP-UserAgent-Snapshot-v0.2 ${WORKDIR}/LWP-UserAgent-Snapshot-0.2
+}
+

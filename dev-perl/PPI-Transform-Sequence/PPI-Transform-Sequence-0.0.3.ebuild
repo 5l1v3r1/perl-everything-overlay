@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.3"
-DIST_A="PPI-Transform-Sequence-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/PPI-Transform-Sequence-v0.0.3.tar.gz -> PPI-Transform-Sequence-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Exception
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PPI-Transform-Sequence-v0.0.3 ${WORKDIR}/PPI-Transform-Sequence-0.0.3
+}
+

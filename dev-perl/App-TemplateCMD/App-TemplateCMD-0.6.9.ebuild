@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.6.9"
-DIST_A="App-TemplateCMD-v0.6.9.tar.gz"
+DIST_VERSION="0.6.9" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/App-TemplateCMD-v0.6.9.tar.gz -> App-TemplateCMD-0.6.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-TemplateCMD-v0.6.9 ${WORKDIR}/App-TemplateCMD-0.6.9
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GLASSCOCK"
-DIST_VERSION="v0.0.4"
-DIST_A="FASTAid-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/G/GL/GLASSCOCK/FASTAid-v0.0.4.tar.gz -> FASTAid-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/FASTAid-v0.0.4 ${WORKDIR}/FASTAid-0.0.4
+}
+

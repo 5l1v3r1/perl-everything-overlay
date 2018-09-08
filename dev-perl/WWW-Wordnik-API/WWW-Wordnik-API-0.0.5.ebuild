@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PSILVA"
-DIST_VERSION="0.0.5"
-DIST_A="WWW-Wordnik-API-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/P/PS/PSILVA/WWW-Wordnik-API-v0.0.5.tar.gz -> WWW-Wordnik-API-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Wordnik-API-v0.0.5 ${WORKDIR}/WWW-Wordnik-API-0.0.5
+}
+

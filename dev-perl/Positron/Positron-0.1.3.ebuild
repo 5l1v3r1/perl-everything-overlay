@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BDEUTSCH"
-DIST_VERSION="v0.1.3"
-DIST_A="Positron-v0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
+SRC_URI="mirror://cpan/authors/id/B/BD/BDEUTSCH/Positron-v0.1.3.tar.gz -> Positron-0.1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Positron-v0.1.3 ${WORKDIR}/Positron-0.1.3
+}
+

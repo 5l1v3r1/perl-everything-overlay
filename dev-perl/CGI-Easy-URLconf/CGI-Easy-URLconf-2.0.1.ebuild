@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="2.0.1"
-DIST_A="CGI-Easy-URLconf-v2.0.1.tar.gz"
+DIST_VERSION="2.0.1" 
+SRC_URI="mirror://cpan/authors/id/P/PO/POWERMAN/CGI-Easy-URLconf-v2.0.1.tar.gz -> CGI-Easy-URLconf-2.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +22,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CGI-Easy-URLconf-v2.0.1 ${WORKDIR}/CGI-Easy-URLconf-2.0.1
+}
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="apache-auth-userdb"
-DIST_VERSION="0.120"
-DIST_A="Apache-Auth-UserDB-v0.120.tar.gz"
+DIST_AUTHOR="JMEHNLE"
+DIST_VERSION="0.120" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMEHNLE/apache-auth-userdb/Apache-Auth-UserDB-v0.120.tar.gz -> Apache-Auth-UserDB-0.120.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Apache-Auth-UserDB-v0.120 ${WORKDIR}/Apache-Auth-UserDB-0.120
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAKOHT"
-DIST_VERSION="0.08"
-DIST_A="RMI-v0.08.tar.gz"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAKOHT/RMI-v0.08.tar.gz -> RMI-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-IO
 	virtual/perl-Test-Harness
 	>=virtual/perl-Test-Simple-0.860
@@ -26,3 +26,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RMI-v0.08 ${WORKDIR}/RMI-0.08
+}
+

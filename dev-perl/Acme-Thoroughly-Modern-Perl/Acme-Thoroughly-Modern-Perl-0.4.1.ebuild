@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOFTX"
-DIST_VERSION="0.4.1"
-DIST_A="Acme-Thoroughly-Modern-Perl-v0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/Acme-Thoroughly-Modern-Perl-v0.4.1.tar.gz -> Acme-Thoroughly-Modern-Perl-0.4.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-Thoroughly-Modern-Perl-v0.4.1 ${WORKDIR}/Acme-Thoroughly-Modern-Perl-0.4.1
+}
+

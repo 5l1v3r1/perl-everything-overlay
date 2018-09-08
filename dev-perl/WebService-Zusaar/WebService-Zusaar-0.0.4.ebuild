@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MUGIFLY"
-DIST_VERSION="v0.0.4"
-DIST_A="WebService-Zusaar-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUGIFLY/WebService-Zusaar-v0.0.4.tar.gz -> WebService-Zusaar-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +38,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Zusaar-v0.0.4 ${WORKDIR}/WebService-Zusaar-0.0.4
+}
+

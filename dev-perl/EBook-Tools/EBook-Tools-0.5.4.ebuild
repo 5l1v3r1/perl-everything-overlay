@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AZED"
-DIST_VERSION="v0.5.4"
-DIST_A="EBook-Tools-v0.5.4.tar.gz"
+DIST_VERSION="0.5.4" 
+SRC_URI="mirror://cpan/authors/id/A/AZ/AZED/EBook-Tools-v0.5.4.tar.gz -> EBook-Tools-0.5.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,3 +48,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/DBD-SQLite-1.200
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/EBook-Tools-v0.5.4 ${WORKDIR}/EBook-Tools-0.5.4
+}
+

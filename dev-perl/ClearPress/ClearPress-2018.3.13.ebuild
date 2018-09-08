@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="2018.3.13"
-DIST_A="ClearPress-v2018.3.13.tar.gz"
+DIST_VERSION="2018.3.13" 
+SRC_URI="mirror://cpan/authors/id/R/RP/RPETTETT/ClearPress-v2018.3.13.tar.gz -> ClearPress-2018.3.13.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.050
 	>=dev-perl/CGI-3.200
 	>=dev-perl/Class-Accessor-0.310
 	>=dev-perl/Config-IniFiles-2.380
@@ -59,3 +59,9 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.220
 	>=virtual/perl-Test-Simple-0.800
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ClearPress-v2018.3.13 ${WORKDIR}/ClearPress-2018.3.13
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PVANDE"
-DIST_VERSION="1.0.3"
-DIST_A="Test-Mini-Unit-v1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
+SRC_URI="mirror://cpan/authors/id/P/PV/PVANDE/Test-Mini-Unit-v1.0.3.tar.gz -> Test-Mini-Unit-1.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	>=virtual/perl-ExtUtils-Manifest-1.560
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Mini-Unit-v1.0.3 ${WORKDIR}/Test-Mini-Unit-1.0.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSIMOES"
-DIST_VERSION="0.0.5"
-DIST_A="VM-Virtuozzo-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSIMOES/VM-Virtuozzo-v0.0.5.tar.gz -> VM-Virtuozzo-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VM-Virtuozzo-v0.0.5 ${WORKDIR}/VM-Virtuozzo-0.0.5
+}
+

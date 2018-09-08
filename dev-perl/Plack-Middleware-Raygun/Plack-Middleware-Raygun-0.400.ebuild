@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HEYTRAV"
-DIST_VERSION="0.4"
-DIST_A="Plack-Middleware-Raygun-v0.4.tar.gz"
+DIST_VERSION="0.4" 
+SRC_URI="mirror://cpan/authors/id/H/HE/HEYTRAV/Plack-Middleware-Raygun-v0.4.tar.gz -> Plack-Middleware-Raygun-0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +29,12 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plack-Middleware-Raygun-v0.4 ${WORKDIR}/Plack-Middleware-Raygun-0.4
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SYAGI"
-DIST_VERSION="0.3.5"
-DIST_A="RPM-Packager-v0.3.5.tar.gz"
+DIST_VERSION="0.3.5" 
+SRC_URI="mirror://cpan/authors/id/S/SY/SYAGI/RPM-Packager-v0.3.5.tar.gz -> RPM-Packager-0.3.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RPM-Packager-v0.3.5 ${WORKDIR}/RPM-Packager-0.3.5
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.3.2"
-DIST_A="Class-Method-Cache-FastMmap-v0.3.2.tar.gz"
+DIST_VERSION="0.3.2" 
+SRC_URI="mirror://cpan/authors/id/R/RR/RRWO/Class-Method-Cache-FastMmap-v0.3.2.tar.gz -> Class-Method-Cache-FastMmap-0.3.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Class-Method-Cache-FastMmap-v0.3.2 ${WORKDIR}/Class-Method-Cache-FastMmap-0.3.2
+}
+

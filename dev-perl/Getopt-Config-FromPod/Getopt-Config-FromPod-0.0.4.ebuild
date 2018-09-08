@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.4"
-DIST_A="Getopt-Config-FromPod-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/Getopt-Config-FromPod-v0.0.4.tar.gz -> Getopt-Config-FromPod-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-Config-FromPod-v0.0.4 ${WORKDIR}/Getopt-Config-FromPod-0.0.4
+}
+

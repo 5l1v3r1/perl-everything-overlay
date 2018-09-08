@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="STRAKA"
-DIST_VERSION="1.2.0.1"
-DIST_A="Ufal-UDPipe-v1.2.0.1.tar.gz"
+DIST_VERSION="1.2.0.1" 
+SRC_URI="mirror://cpan/authors/id/S/ST/STRAKA/Ufal-UDPipe-v1.2.0.1.tar.gz -> Ufal-UDPipe-1.2.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Ufal-UDPipe-v1.2.0.1 ${WORKDIR}/Ufal-UDPipe-1.2.0.1
+}
+

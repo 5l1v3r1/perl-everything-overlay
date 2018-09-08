@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RVOSA"
-DIST_VERSION="0.1.0"
-DIST_A="Bio-PhyloXS-v0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RV/RVOSA/Bio-PhyloXS-v0.1.0.tar.gz -> Bio-PhyloXS-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-PhyloXS-v0.1.0 ${WORKDIR}/Bio-PhyloXS-0.1.0
+}
+

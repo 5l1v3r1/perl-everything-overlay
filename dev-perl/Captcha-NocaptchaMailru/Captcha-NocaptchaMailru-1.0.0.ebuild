@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MAILRU"
-DIST_VERSION="v1.0.0"
-DIST_A="Captcha-NocaptchaMailru-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MAILRU/Captcha-NocaptchaMailru-v1.0.0.tar.gz -> Captcha-NocaptchaMailru-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Captcha-NocaptchaMailru-v1.0.0 ${WORKDIR}/Captcha-NocaptchaMailru-1.0.0
+}
+

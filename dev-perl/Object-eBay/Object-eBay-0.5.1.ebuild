@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MNDRIX"
-DIST_VERSION="v0.5.1"
-DIST_A="Object-eBay-v0.5.1.tar.gz"
+DIST_VERSION="0.5.1" 
+SRC_URI="mirror://cpan/authors/id/M/MN/MNDRIX/Object-eBay-v0.5.1.tar.gz -> Object-eBay-0.5.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Object-eBay-v0.5.1 ${WORKDIR}/Object-eBay-0.5.1
+}
+

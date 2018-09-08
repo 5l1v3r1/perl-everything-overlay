@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MUGIFLY"
-DIST_VERSION="v0.0.3"
-DIST_A="CSS-LESS-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUGIFLY/CSS-LESS-v0.0.3.tar.gz -> CSS-LESS-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CSS-LESS-v0.0.3 ${WORKDIR}/CSS-LESS-0.0.3
+}
+

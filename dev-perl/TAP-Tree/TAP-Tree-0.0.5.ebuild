@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MAGNOLIA"
-DIST_VERSION="v0.0.5"
-DIST_A="TAP-Tree-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MAGNOLIA/TAP-Tree-v0.0.5.tar.gz -> TAP-Tree-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.980
 	dev-perl/Test-Exception
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TAP-Tree-v0.0.5 ${WORKDIR}/TAP-Tree-0.0.5
+}
+

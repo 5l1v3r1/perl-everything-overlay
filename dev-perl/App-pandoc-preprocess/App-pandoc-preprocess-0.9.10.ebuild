@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="0.9.10"
-DIST_A="App-pandoc-preprocess-v0.9.10.tar.gz"
+DIST_VERSION="0.9.10" 
+SRC_URI="mirror://cpan/authors/id/D/DB/DBR/App-pandoc-preprocess-v0.9.10.tar.gz -> App-pandoc-preprocess-0.9.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-pandoc-preprocess-v0.9.10 ${WORKDIR}/App-pandoc-preprocess-0.9.10
+}
+

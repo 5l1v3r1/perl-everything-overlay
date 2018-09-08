@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAVECROSS"
-DIST_VERSION="3.0.2"
-DIST_A="Symbol-Approx-Sub-v3.0.2.tar.gz"
+DIST_VERSION="3.0.2" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVECROSS/Symbol-Approx-Sub-v3.0.2.tar.gz -> Symbol-Approx-Sub-3.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	dev-perl/Text-Soundex
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Symbol-Approx-Sub-v3.0.2 ${WORKDIR}/Symbol-Approx-Sub-3.0.2
+}
+

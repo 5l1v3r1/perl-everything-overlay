@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZDM"
-DIST_VERSION="1.2.7"
-DIST_A="Pcore-GeoIP-v1.2.7.tar.gz"
+DIST_VERSION="1.2.7" 
+SRC_URI="mirror://cpan/authors/id/Z/ZD/ZDM/Pcore-GeoIP-v1.2.7.tar.gz -> Pcore-GeoIP-1.2.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Pcore-GeoIP-v1.2.7 ${WORKDIR}/Pcore-GeoIP-1.2.7
+}
+

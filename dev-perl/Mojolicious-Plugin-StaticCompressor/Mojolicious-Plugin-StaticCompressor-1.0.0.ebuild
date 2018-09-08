@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MUGIFLY"
-DIST_VERSION="v1.0.0"
-DIST_A="Mojolicious-Plugin-StaticCompressor-v1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUGIFLY/Mojolicious-Plugin-StaticCompressor-v1.0.0.tar.gz -> Mojolicious-Plugin-StaticCompressor-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/JavaScript-Minifier
 	dev-perl/Module-Build
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-3.880
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
 	>=dev-perl/Test-Pod-Coverage-1.080
@@ -32,3 +32,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mojolicious-Plugin-StaticCompressor-v1.0.0 ${WORKDIR}/Mojolicious-Plugin-StaticCompressor-1.0.0
+}
+

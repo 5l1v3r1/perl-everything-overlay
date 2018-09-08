@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.6.4"
-DIST_A="VCS-Which-v0.6.4.tar.gz"
+DIST_VERSION="0.6.4" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/VCS-Which-v0.6.4.tar.gz -> VCS-Which-0.6.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	dev-perl/Test-Warnings
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VCS-Which-v0.6.4 ${WORKDIR}/VCS-Which-0.6.4
+}
+

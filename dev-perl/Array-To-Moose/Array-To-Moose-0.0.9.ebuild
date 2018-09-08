@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAMB"
-DIST_VERSION="0.0.9"
-DIST_A="Array-To-Moose-v0.0.9.tar.gz"
+DIST_VERSION="0.0.9" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAMB/Array-To-Moose-v0.0.9.tar.gz -> Array-To-Moose-0.0.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Array-To-Moose-v0.0.9 ${WORKDIR}/Array-To-Moose-0.0.9
+}
+

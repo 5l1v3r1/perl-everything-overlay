@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CARLOS"
-DIST_VERSION="v0.1.2"
-DIST_A="Vero-API-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/C/CA/CARLOS/Vero-API-v0.1.2.tar.gz -> Vero-API-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +27,14 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=virtual/perl-version-0.770
+	dev-perl/Module-Build
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Vero-API-v0.1.2 ${WORKDIR}/Vero-API-0.1.2
+}
+

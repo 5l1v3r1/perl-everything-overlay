@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DACAV"
-DIST_VERSION="1.2.2"
-DIST_A="App-PFT-v1.2.2.tar.gz"
+DIST_VERSION="1.2.2" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DACAV/App-PFT-v1.2.2.tar.gz -> App-PFT-1.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-PFT-v1.2.2 ${WORKDIR}/App-PFT-1.2.2
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IKEGAMI"
-DIST_VERSION="v1.6.0"
-DIST_A="DateTimeX-Start-v1.6.0.tar.gz"
+DIST_VERSION="1.6.0" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKEGAMI/DateTimeX-Start-v1.6.0.tar.gz -> DateTimeX-Start-1.6.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTimeX-Start-v1.6.0 ${WORKDIR}/DateTimeX-Start-1.6.0
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YAKEX"
-DIST_VERSION="0.0.3"
-DIST_A="String-Unescape-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/Y/YA/YAKEX/String-Unescape-v0.0.3.tar.gz -> String-Unescape-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/String-Unescape-v0.0.3 ${WORKDIR}/String-Unescape-0.0.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CEBJYRE"
-DIST_VERSION="v0.3.0"
-DIST_A="Test-ConsistentVersion-v0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
+SRC_URI="mirror://cpan/authors/id/C/CE/CEBJYRE/Test-ConsistentVersion-v0.3.0.tar.gz -> Test-ConsistentVersion-0.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-ConsistentVersion-v0.3.0 ${WORKDIR}/Test-ConsistentVersion-0.3.0
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYA"
-DIST_VERSION="v0.0.3"
-DIST_A="Closure-Loop-v0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDYA/Closure-Loop-v0.0.3.tar.gz -> Closure-Loop-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Closure-Loop-v0.0.3 ${WORKDIR}/Closure-Loop-0.0.3
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DATA"
-DIST_VERSION="v0.4.1"
-DIST_A="Nagios-Passive-v0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DATA/Nagios-Passive-v0.4.1.tar.gz -> Nagios-Passive-0.4.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	dev-perl/Test-TempDir-Tiny
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Nagios-Passive-v0.4.1 ${WORKDIR}/Nagios-Passive-0.4.1
+}
+

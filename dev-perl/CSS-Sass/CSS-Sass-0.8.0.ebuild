@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAVID"
-DIST_VERSION="v0.8.0"
-DIST_A="CSS-Sass-v0.8.0.tar.gz"
+DIST_VERSION="0.8.0" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVID/CSS-Sass-v0.8.0.tar.gz -> CSS-Sass-0.8.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CSS-Sass-v0.8.0 ${WORKDIR}/CSS-Sass-0.8.0
+}
+

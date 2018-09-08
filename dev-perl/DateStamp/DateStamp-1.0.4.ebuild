@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TWYLIE"
-DIST_VERSION="1.0.4"
-DIST_A="DateStamp-v1.0.4.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TW/TWYLIE/modules/DateStamp-v1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
+SRC_URI="mirror://cpan/authors/id/T/TW/TWYLIE/modules/DateStamp-v1.0.4.tar.gz -> DateStamp-1.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateStamp-v1.0.4 ${WORKDIR}/DateStamp-1.0.4
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="v0.12.4"
-DIST_A="WWW-PGXN-v0.12.4.tar.gz"
+DIST_VERSION="0.12.4" 
+SRC_URI="mirror://cpan/authors/id/D/DW/DWHEELER/WWW-PGXN-v0.12.4.tar.gz -> WWW-PGXN-0.12.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.300
-	>=dev-perl/Test-MockModule-0.050
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-PGXN-v0.12.4 ${WORKDIR}/WWW-PGXN-0.12.4
+}
+

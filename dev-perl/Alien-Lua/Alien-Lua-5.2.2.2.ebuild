@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="5.2.2.2"
-DIST_A="Alien-Lua-v5.2.2.2.tar.gz"
+DIST_VERSION="5.2.2.2" 
+SRC_URI="mirror://cpan/authors/id/S/SM/SMUELLER/Alien-Lua-v5.2.2.2.tar.gz -> Alien-Lua-5.2.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Getopt-Long
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-Lua-v5.2.2.2 ${WORKDIR}/Alien-Lua-5.2.2.2
+}
+

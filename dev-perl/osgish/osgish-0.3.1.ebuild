@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROLAND"
-DIST_VERSION="0.3.1"
-DIST_A="osgish-v0.3.1.tar.gz"
+DIST_VERSION="0.3.1" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROLAND/osgish-v0.3.1.tar.gz -> osgish-0.3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +35,9 @@ DEPEND="
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/osgish-v0.3.1 ${WORKDIR}/osgish-0.3.1
+}
+

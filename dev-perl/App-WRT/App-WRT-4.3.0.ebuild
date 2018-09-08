@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BRENNEN"
-DIST_VERSION="4.3.0"
-DIST_A="App-WRT-v4.3.0.tar.gz"
+DIST_VERSION="4.3.0" 
+SRC_URI="mirror://cpan/authors/id/B/BR/BRENNEN/App-WRT-v4.3.0.tar.gz -> App-WRT-4.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-WRT-v4.3.0 ${WORKDIR}/App-WRT-4.3.0
+}
+

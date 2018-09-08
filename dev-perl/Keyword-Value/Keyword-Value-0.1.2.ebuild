@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="0.1.2"
-DIST_A="Keyword-Value-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/L/LE/LEMBARK/Keyword-Value-v0.1.2.tar.gz -> Keyword-Value-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Keyword-Value-v0.1.2 ${WORKDIR}/Keyword-Value-0.1.2
+}
+

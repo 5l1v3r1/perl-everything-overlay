@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="v0.16.5"
-DIST_A="PGXN-API-v0.16.5.tar.gz"
+DIST_VERSION="0.16.5" 
+SRC_URI="mirror://cpan/authors/id/D/DW/DWHEELER/PGXN-API-v0.16.5.tar.gz -> PGXN-API-0.16.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +29,7 @@ RDEPEND="
 	>=dev-perl/Moose-1.150
 	>=dev-perl/MooseX-Singleton-0.250
 	>=dev-perl/PGXN-API-Searcher-0.9.4
-	dev-perl/Plack
+	>=dev-perl/Plack-0.997.700
 	>=dev-perl/Text-Markup-0.150
 	>=dev-perl/URI-Template-0.160
 	>=dev-perl/XML-LibXML-1.700
@@ -45,7 +45,12 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.310
 	>=dev-perl/Test-File-1.290
 	>=dev-perl/Test-File-Contents-0.200
-	>=dev-perl/Test-MockModule-0.050
 	>=dev-perl/Test-Output-0.160
 	>=virtual/perl-Test-Simple-0.700
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PGXN-API-v0.16.5 ${WORKDIR}/PGXN-API-0.16.5
+}
+

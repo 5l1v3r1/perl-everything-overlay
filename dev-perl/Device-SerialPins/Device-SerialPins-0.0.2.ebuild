@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.2"
-DIST_A="Device-SerialPins-v0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Device-SerialPins-v0.0.2.tar.gz -> Device-SerialPins-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +19,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.260
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Device-SerialPins-v0.0.2 ${WORKDIR}/Device-SerialPins-0.0.2
+}
+

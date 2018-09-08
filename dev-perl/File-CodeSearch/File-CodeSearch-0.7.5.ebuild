@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.7.5"
-DIST_A="File-CodeSearch-v0.7.5.tar.gz"
+DIST_VERSION="0.7.5" 
+SRC_URI="mirror://cpan/authors/id/I/IV/IVANWILLS/File-CodeSearch-v0.7.5.tar.gz -> File-CodeSearch-0.7.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +43,9 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.026
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-CodeSearch-v0.7.5 ${WORKDIR}/File-CodeSearch-0.7.5
+}
+

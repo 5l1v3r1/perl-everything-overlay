@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GORTAN"
-DIST_VERSION="v0.1.2"
-DIST_A="XML-NewsML_G2-v0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
+SRC_URI="mirror://cpan/authors/id/G/GO/GORTAN/XML-NewsML_G2-v0.1.2.tar.gz -> XML-NewsML_G2-0.1.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-NewsML_G2-v0.1.2 ${WORKDIR}/XML-NewsML_G2-0.1.2
+}
+

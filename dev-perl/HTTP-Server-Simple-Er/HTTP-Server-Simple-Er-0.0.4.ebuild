@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.4"
-DIST_A="HTTP-Server-Simple-Er-v0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/HTTP-Server-Simple-Er-v0.0.4.tar.gz -> HTTP-Server-Simple-Er-0.0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.100
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTTP-Server-Simple-Er-v0.0.4 ${WORKDIR}/HTTP-Server-Simple-Er-0.0.4
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="v0.0.8"
-DIST_A="File-Fu-v0.0.8.tar.gz"
+DIST_VERSION="0.0.8" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/File-Fu-v0.0.8.tar.gz -> File-Fu-0.0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Fu-v0.0.8 ${WORKDIR}/File-Fu-0.0.8
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MELEZHIK"
-DIST_VERSION="v0.0.5"
-DIST_A="CPAN-Repo-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/M/ME/MELEZHIK/CPAN-Repo-v0.0.5.tar.gz -> CPAN-Repo-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CPAN-Repo-v0.0.5 ${WORKDIR}/CPAN-Repo-0.0.5
+}
+

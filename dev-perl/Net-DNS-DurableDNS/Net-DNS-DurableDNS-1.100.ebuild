@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RBUSH"
-DIST_VERSION="1.1"
-DIST_A="Net-DNS-DurableDNS-v1.1.tar.gz"
+DIST_VERSION="1.1" 
+SRC_URI="mirror://cpan/authors/id/R/RB/RBUSH/Net-DNS-DurableDNS-v1.1.tar.gz -> Net-DNS-DurableDNS-1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-DNS-DurableDNS-v1.1 ${WORKDIR}/Net-DNS-DurableDNS-1.1
+}
+

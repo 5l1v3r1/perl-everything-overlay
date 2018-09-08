@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SYAGI"
-DIST_VERSION="0.0.5"
-DIST_A="RPM-NEVRA-v0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
+SRC_URI="mirror://cpan/authors/id/S/SY/SYAGI/RPM-NEVRA-v0.0.5.tar.gz -> RPM-NEVRA-0.0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RPM-NEVRA-v0.0.5 ${WORKDIR}/RPM-NEVRA-0.0.5
+}
+
