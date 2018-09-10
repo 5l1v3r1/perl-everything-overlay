@@ -1,0 +1,149 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+EAPI=6
+
+DIST_AUTHOR="BDFOY"
+DIST_VERSION="1.005"
+DIST_A="Task-MasteringPerl-1.005.tar.gz"
+inherit perl-module
+
+DESCRIPTION="No description available"
+
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE="test"
+
+RDEPEND="
+	dev-lang/perl
+	dev-perl/Apache-Perldoc
+	dev-perl/Apache-Pod
+	dev-perl/App-Smbxfer
+	dev-perl/B-Deobfuscate
+	dev-perl/Benchmark-Forking
+	dev-perl/BerkeleyDB
+	dev-perl/Bit-Vector
+	dev-perl/Bundle-BioPerl
+	dev-perl/Business-ISBN
+	dev-perl/CGI
+	dev-perl/Carp-Always
+	dev-perl/Clone-Any
+	dev-perl/Code-Splice
+	dev-perl/Config-IniFiles
+	dev-perl/Config-JSON
+	dev-perl/Config-Scoped
+	dev-perl/ConfigReader-Simple
+	dev-perl/Const-Fast
+	dev-perl/DBD-CSV
+	dev-perl/DBI
+	dev-perl/DBM-Deep
+	dev-perl/Data-Constraint
+	dev-perl/Data-Dump
+	dev-perl/Data-MessagePack
+	dev-perl/Data-Printer
+	dev-perl/Devel-Cover
+	dev-perl/Devel-DProf
+	dev-perl/Devel-Declare
+	dev-perl/Devel-NYTProf
+	dev-perl/Devel-Size
+	dev-perl/Devel-SmallProf
+	dev-perl/Devel-Trace
+	dev-perl/Devel-ebug
+	dev-perl/Devel-hdb
+	dev-perl/Devel-ptkdb
+	dev-perl/Dumbbench
+	dev-perl/Email-Send
+	dev-perl/Email-Stuff
+	dev-perl/Error
+	dev-perl/File-Find-Closures
+	dev-perl/Getopt-Attribute
+	dev-perl/Getopt-Declare
+	dev-perl/Getopt-Easy
+	dev-perl/Getopt-Lucid
+	dev-perl/Git-CPAN-Patch
+	dev-perl/Git-Github-Creator
+	dev-perl/HTML-Parser
+	dev-perl/HTTP-Date
+	dev-perl/HTTP-Size
+	dev-perl/Hash-AsObject
+	dev-perl/Hook-LexWrap
+	dev-perl/IO-Interactive
+	dev-perl/Image-Info
+	dev-perl/JSON
+	dev-perl/Log-Log4perl
+	dev-perl/Mac-PropertyList
+	dev-perl/Module-Build
+	dev-perl/Module-Release
+	dev-perl/Modulino-Demo
+	dev-perl/Net-MAC-Vendor
+	dev-perl/Netscape-Bookmarks
+	dev-perl/Object-Iterate
+	dev-perl/PPI
+	dev-perl/Package-Stash
+	dev-perl/Perl-Critic
+	dev-perl/Perl-Critic-Lax
+	dev-perl/Perl-Tidy
+	dev-perl/Pod-Checker
+	dev-perl/Pod-Coverage
+	dev-perl/Pod-Perldoc
+	dev-perl/Pod-Perldoc-ToToc
+	dev-perl/Pod-PseudoPod
+	dev-perl/Pod-Webserver
+	dev-perl/Regexp-Debugger
+	dev-perl/ReturnValue
+	dev-perl/Sereal
+	dev-perl/Sereal-Decoder
+	dev-perl/Surveyor-App
+	dev-perl/Taint-Util
+	dev-perl/Template-Toolkit
+	dev-perl/Test-Inline
+	dev-perl/Test-Manifest
+	dev-perl/Test-Output
+	dev-perl/Test-Perl-Critic
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Test-Taint
+	dev-perl/Text-Template-Simple
+	dev-perl/Tie-Array-PackedC
+	dev-perl/Tie-BoundedInteger
+	dev-perl/Tie-Cycle
+	dev-perl/Tie-Cycle-Sinewave
+	dev-perl/Tie-Timely
+	dev-perl/Tk
+	dev-perl/Try-Tiny
+	dev-perl/TryCatch
+	dev-perl/Win32
+	dev-perl/Win32-Registry
+	dev-perl/YAML
+	dev-perl/YAML-LibYAML
+	dev-perl/YAML-Syck
+	dev-perl/YAML-Tiny
+	dev-perl/criticism
+	virtual/perl-AutoLoader
+	virtual/perl-CPAN
+	virtual/perl-Carp
+	virtual/perl-Data-Dumper
+	virtual/perl-Exporter
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Getopt-Long
+	virtual/perl-IO
+	virtual/perl-JSON-PP
+	virtual/perl-Memoize
+	virtual/perl-Pod-Parser
+	virtual/perl-Pod-Simple
+	virtual/perl-Safe
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Storable
+	virtual/perl-Sys-Syslog
+	virtual/perl-Test-Harness
+	virtual/perl-Test-Simple
+	virtual/perl-autodie
+	virtual/perl-bignum
+	virtual/perl-libnet
+	virtual/perl-parent
+"
+DEPEND="
+	${RDEPEND}
+"

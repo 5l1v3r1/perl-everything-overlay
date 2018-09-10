@@ -1,0 +1,156 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Id$
+
+EAPI=6
+
+DIST_AUTHOR="RJRAY"
+DIST_VERSION="0.009" 
+inherit perl-module
+
+DESCRIPTION="No description available"
+
+SLOT="0"
+KEYWORDS="~amd64 ~x86"
+IUSE="test"
+
+RDEPEND="
+	dev-perl/App-Changelog2x
+	dev-perl/App-Uni
+	dev-perl/App-cpanminus
+	dev-perl/App-gh
+	dev-perl/Archive-Tar-Wrapper
+	dev-perl/Archive-Zip
+	dev-perl/CPAN-SQLite
+	dev-perl/CPAN-Uploader
+	dev-perl/Capture-Tiny
+	dev-perl/Code-TidyAll
+	dev-perl/Config-Any
+	dev-perl/Config-General
+	dev-perl/Config-GitLike
+	dev-perl/Config-Tiny
+	dev-perl/Const-Fast
+	dev-perl/Crypt-OpenPGP
+	dev-perl/DBD-SQLite
+	dev-perl/DBI
+	dev-perl/Daemon-Control
+	dev-perl/Daemon-Daemonize
+	dev-perl/Data-Dump
+	dev-perl/Data-Dump-XML
+	dev-perl/DateTime-Format-ISO8601
+	dev-perl/DateTime-Format-Strptime
+	dev-perl/Devel-Cover
+	dev-perl/Devel-Cycle
+	dev-perl/Devel-Leak
+	dev-perl/Devel-Modlist
+	dev-perl/Devel-NYTProf
+	dev-perl/Devel-StackTrace
+	dev-perl/Devel-StackTrace-AsHTML
+	dev-perl/Devel-Symdump
+	dev-perl/EV
+	dev-perl/Email-MIME
+	dev-perl/Email-Sender
+	dev-perl/Email-Simple
+	dev-perl/File-Find-Rule
+	dev-perl/File-Find-Rule-Perl
+	dev-perl/File-Slurp
+	dev-perl/File-pushd
+	dev-perl/Getopt-Lucid
+	dev-perl/Git-PurePerl
+	dev-perl/Git-Wrapper
+	dev-perl/HTTP-CookieJar
+	dev-perl/IO-Socket-SSL
+	dev-perl/IPC-Run3
+	dev-perl/IPC-System-Simple
+	dev-perl/Image-Size
+	dev-perl/JSON
+	dev-perl/JSON-XS
+	dev-perl/LWP-Protocol-https
+	dev-perl/List-MoreUtils
+	dev-perl/MCE
+	dev-perl/Math-Random-MT
+	dev-perl/Module-CPANTS-Analyse
+	dev-perl/Mojolicious
+	dev-perl/Moo
+	dev-perl/Moose
+	dev-perl/MooseX-Aliases
+	dev-perl/MooseX-Types
+	dev-perl/MooseX-Types-Common
+	dev-perl/MooseX-Types-Perl
+	dev-perl/Mozilla-CA
+	dev-perl/Net-Daemon
+	dev-perl/Net-GitHub
+	dev-perl/Net-HTTP
+	dev-perl/Net-OAuth
+	dev-perl/Net-SSLeay
+	dev-perl/Net-Server
+	dev-perl/Net-Twitter
+	dev-perl/Net-Twitter-Lite
+	dev-perl/PPI
+	dev-perl/PPI-HTML
+	dev-perl/PPI-Prettify
+	dev-perl/PPI-XS
+	dev-perl/PPIx-Regexp
+	dev-perl/PadWalker
+	dev-perl/Params-Validate
+	dev-perl/Path-Class
+	dev-perl/Path-Class-Rule
+	dev-perl/Path-Iterator-Rule
+	dev-perl/Path-Tiny
+	dev-perl/Perl-Critic
+	dev-perl/Perl-Critic-Bangs
+	dev-perl/Perl-Tidy
+	dev-perl/Perl-Version
+	dev-perl/Pod-Checker
+	dev-perl/Pod-Coverage
+	dev-perl/Pod-S5
+	dev-perl/Pod-Usage
+	dev-perl/RPC-XML
+	dev-perl/Readonly
+	dev-perl/Readonly-XS
+	dev-perl/Regexp-Common
+	dev-perl/Task-Weaken
+	dev-perl/Template-Mustache
+	dev-perl/Template-Toolkit
+	dev-perl/Test-AgainstSchema
+	dev-perl/Test-CPAN-Meta
+	dev-perl/Test-Deep
+	dev-perl/Test-Differences
+	dev-perl/Test-Fatal
+	dev-perl/Test-MinimumVersion
+	dev-perl/Test-Output
+	dev-perl/Test-Perl-Critic
+	dev-perl/Test-Pod
+	dev-perl/Test-Pod-Coverage
+	dev-perl/Text-Textile
+	dev-perl/Text-Textile-Plaintext
+	dev-perl/Throwable
+	dev-perl/Try-Tiny
+	dev-perl/URI
+	dev-perl/Unicode-UTF8
+	dev-perl/Vi-QuickFix
+	dev-perl/WWW-Mechanize
+	dev-perl/XML-LibXML
+	dev-perl/XML-LibXSLT
+	dev-perl/XML-Parser
+	dev-perl/XML-RSS
+	dev-perl/XML-Simple
+	dev-perl/XXX
+	dev-perl/YAML
+	dev-perl/YAML-LibYAML
+	dev-perl/ack
+	dev-perl/libwww-perl
+	dev-perl/namespace-autoclean
+	dev-perl/superclass
+	virtual/perl-Archive-Tar
+	virtual/perl-HTTP-Tiny
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
+	virtual/perl-autodie
+	virtual/perl-version
+"
+DEPEND="
+	${RDEPEND}
+	>=dev-perl/Module-Build-0.420
+"
+

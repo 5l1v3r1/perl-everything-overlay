@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.01"
-DIST_A="jQuery-File-Upload-Imager-1.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/CGI-3.630
 	>=dev-perl/Imager-0.960
 	>=dev-perl/JSON-XS-2.340
-	>=dev-perl/Net-SSH2-0.480
+	dev-perl/Net-SSH2
 	>=dev-perl/URI-1.600
 	>=virtual/perl-Digest-MD5-2.520
 "
@@ -29,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.960
 "
+
