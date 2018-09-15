@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKXLIX"
-DIST_VERSION="v0.2.16"
-DIST_A="Haineko-0.2.16.tar.gz"
+DIST_VERSION="0.2.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	>=dev-perl/Net-SMTPS-0.030
 	>=dev-perl/Parallel-Prefork-0.140
 	>=dev-perl/Path-Class-0.240
-	dev-perl/Plack
+	>=dev-perl/Plack-1.002.700
 	>=dev-perl/Router-Simple-0.140
 	>=dev-perl/Server-Starter-0.150
 	>=dev-perl/Try-Tiny-0.160
@@ -41,3 +40,4 @@ DEPEND="
 	>=dev-perl/HTTP-Message-6.000
 	>=virtual/perl-Test-Simple-0.980
 "
+

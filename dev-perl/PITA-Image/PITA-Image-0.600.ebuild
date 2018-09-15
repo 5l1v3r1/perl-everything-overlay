@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.60"
-DIST_A="PITA-Image-0.60.tar.gz"
+DIST_VERSION="0.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

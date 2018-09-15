@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.0004"
-DIST_A="Business-YQL-0.0004.tar.gz"
+DIST_VERSION="0.0004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
-	>=dev-perl/Log-Any-0.110
+	>=dev-perl/Log-Any-0.150
 	>=dev-perl/Moo-1.004.002
 	dev-perl/Try-Tiny
 	dev-perl/URI
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

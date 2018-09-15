@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABALAMA"
-DIST_VERSION="3.03"
-DIST_A="TemplateM-3.03.tar.gz"
+DIST_VERSION="3.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

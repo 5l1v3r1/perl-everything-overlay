@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADUITSIS"
-DIST_VERSION="0.107"
-DIST_A="FreeBSD-FsStat-0.107.tar.gz"
+DIST_VERSION="0.107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

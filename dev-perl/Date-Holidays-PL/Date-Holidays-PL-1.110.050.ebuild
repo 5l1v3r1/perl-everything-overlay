@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.110050"
-DIST_A="Date-Holidays-PL-1.110050.tar.gz"
+DIST_VERSION="1.110050" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

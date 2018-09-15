@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="0.03"
-DIST_A="App-livehttperf-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,4 +32,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

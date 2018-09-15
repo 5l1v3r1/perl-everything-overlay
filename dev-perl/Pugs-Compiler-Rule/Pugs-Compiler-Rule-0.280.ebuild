@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGENT"
-DIST_VERSION="0.28"
-DIST_A="Pugs-Compiler-Rule-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

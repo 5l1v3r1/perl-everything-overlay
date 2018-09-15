@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="1.160490"
-DIST_A="Bio_AssemblyImprovement-1.160490.tar.gz"
+DIST_VERSION="1.160490" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/BioPerl
 	dev-perl/File-Which
 	dev-perl/Moose
 	dev-perl/Statistics-Lite
@@ -32,4 +30,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Env-Path
+	dev-perl/File-Slurp
+	dev-perl/Test-File-Contents
+	dev-perl/Test-Most
 "
+

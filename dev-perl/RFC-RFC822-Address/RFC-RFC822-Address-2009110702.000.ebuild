@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABIGAIL"
-DIST_VERSION="2009110702.0"
-DIST_A="RFC-RFC822-Address-2009110702.tar.gz"
+DIST_VERSION="2009110702" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

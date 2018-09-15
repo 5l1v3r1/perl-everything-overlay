@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGENT"
-DIST_VERSION="0.216"
-DIST_A="Makefile-Parser-0.216.tar.gz"
+DIST_VERSION="0.216" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

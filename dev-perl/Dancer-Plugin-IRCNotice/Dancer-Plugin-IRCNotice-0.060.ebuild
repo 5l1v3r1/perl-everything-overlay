@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABERNDT"
-DIST_VERSION="0.06"
-DIST_A="Dancer-Plugin-IRCNotice-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

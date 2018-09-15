@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFLOTT"
-DIST_VERSION="0.600"
-DIST_A="Hobocamp-0.600.tar.gz"
+DIST_VERSION="0.600" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

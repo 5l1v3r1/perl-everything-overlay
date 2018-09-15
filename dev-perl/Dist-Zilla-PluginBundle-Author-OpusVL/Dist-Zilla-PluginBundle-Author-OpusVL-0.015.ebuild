@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALTREUS"
-DIST_VERSION="0.015"
-DIST_A="Dist-Zilla-PluginBundle-Author-OpusVL-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

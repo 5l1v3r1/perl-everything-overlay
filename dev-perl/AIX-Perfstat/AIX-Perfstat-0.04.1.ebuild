@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACIDDEATH"
-DIST_VERSION="0.04.1"
-DIST_A="AIX-Perfstat-0.04.1.tar.gz"
+DIST_VERSION="0.04.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALIAN"
-DIST_VERSION="v1.16.0"
-DIST_A="Test-Smoke-Database-1.16.tar.gz"
+DIST_VERSION="1.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

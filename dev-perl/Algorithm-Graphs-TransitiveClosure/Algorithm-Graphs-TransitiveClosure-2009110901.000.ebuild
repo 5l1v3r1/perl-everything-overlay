@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABIGAIL"
-DIST_VERSION="2009110901.0"
-DIST_A="Algorithm-Graphs-TransitiveClosure-2009110901.tar.gz"
+DIST_VERSION="2009110901" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

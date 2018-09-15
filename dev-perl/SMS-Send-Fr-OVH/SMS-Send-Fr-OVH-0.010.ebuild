@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXARN"
-DIST_VERSION="0.01"
-DIST_A="SMS-Send-Fr-OVH-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
 	dev-perl/SMS-Send
+	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

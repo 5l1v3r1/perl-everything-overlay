@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGENT"
-DIST_VERSION="0.008"
-DIST_A="Makefile-DOM-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

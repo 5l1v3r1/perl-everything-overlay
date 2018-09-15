@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADUITSIS"
-DIST_VERSION="0.003"
-DIST_A="OmniDisco-Prometheus-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-Test-Simple
 "
+

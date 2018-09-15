@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.12"
-DIST_A="ORDB-CPANMeta-Generator-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Object-Tiny-1.060
 	>=dev-perl/Params-Util-1.000
 	>=dev-perl/Xtract-0.120
-	>=virtual/perl-CPAN-Meta-1.420.000
+	>=virtual/perl-CPAN-Meta-2.112.621
 	>=virtual/perl-File-Path-2.070
 	>=virtual/perl-File-Spec-3.290
 	>=virtual/perl-Getopt-Long-2.340
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
+

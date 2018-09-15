@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.21"
-DIST_A="Process-Backgroundable-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/File-Remove-1.420
 	>=dev-perl/IPC-Run3-0.034
 	>=dev-perl/Process-0.200
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-File-Spec-0.800
 	virtual/perl-File-Temp
 	>=virtual/perl-Storable-2.140
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

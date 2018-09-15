@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.96"
-DIST_A="Aspect-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-0.084
 	>=virtual/perl-Test-Simple-0.700
 "
+

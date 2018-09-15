@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AAR"
-DIST_VERSION="2.030102"
-DIST_A="Net-RabbitMQ-Java-2.030102.tar.gz"
+DIST_VERSION="2.030102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Inline-Java-0.530
 	>=virtual/perl-Test-Simple-0.960
 "
+

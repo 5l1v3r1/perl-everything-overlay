@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.59"
-DIST_A="POE-Declare-0.59.tar.gz"
+DIST_VERSION="0.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-POE-Stopping-1.090
 	>=virtual/perl-Test-Simple-0.800
 "
+

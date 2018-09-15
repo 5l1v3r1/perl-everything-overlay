@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXK"
-DIST_VERSION="0.04"
-DIST_A="Template-Plugin-Next-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,12 +17,15 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Template-Toolkit
+	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

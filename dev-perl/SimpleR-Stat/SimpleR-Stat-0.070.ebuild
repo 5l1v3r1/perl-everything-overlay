@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABBYPAN"
-DIST_VERSION="0.07"
-DIST_A="SimpleR-Stat-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

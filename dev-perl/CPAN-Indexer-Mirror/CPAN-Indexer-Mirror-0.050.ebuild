@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.05"
-DIST_A="CPAN-Indexer-Mirror-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,10 +21,11 @@ RDEPEND="
 	>=dev-perl/Parse-CPAN-MirroredBy-0.010
 	>=dev-perl/URI-1.340
 	>=dev-perl/YAML-Tiny-1.320
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

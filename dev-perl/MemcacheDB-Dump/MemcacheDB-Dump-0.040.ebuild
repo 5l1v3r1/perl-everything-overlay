@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJIYOSHI"
-DIST_VERSION="0.04"
-DIST_A="MemcacheDB-Dump-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.980
 "
+

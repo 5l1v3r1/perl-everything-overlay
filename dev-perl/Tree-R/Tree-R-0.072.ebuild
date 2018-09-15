@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJOLMA"
-DIST_VERSION="0.072"
-DIST_A="Tree-R-0.072.tar.gz"
+DIST_VERSION="0.072" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

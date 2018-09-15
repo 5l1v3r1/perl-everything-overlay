@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMJS"
-DIST_VERSION="2.002"
-DIST_A="Juju-2.002.tar.gz"
+DIST_VERSION="2.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

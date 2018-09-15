@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMJS"
-DIST_VERSION="0.004"
-DIST_A="Mojolicious-Plugin-Leafletjs-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.026
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

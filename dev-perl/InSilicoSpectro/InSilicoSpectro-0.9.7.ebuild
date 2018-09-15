@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="bioinfo"
-DIST_VERSION="v0.9.7"
-DIST_A="InSilicoSpectro-0.9.7.tar.gz"
+DIST_AUTHOR="ALEXMASS"
+DIST_VERSION="0.9.7" 
+SRC_URI="mirror://cpan/authors/id/A/AL/ALEXMASS/bioinfo/InSilicoSpectro-0.9.7.tar.gz -> InSilicoSpectro-0.9.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/InSilicoSpectro-0.9.7 ${WORKDIR}/InSilicoSpectro-0.9.7
+}
+

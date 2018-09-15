@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABIGAIL"
-DIST_VERSION="2010011301.0"
-DIST_A="Digest-Trivial-2010011301.tar.gz"
+DIST_VERSION="2010011301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

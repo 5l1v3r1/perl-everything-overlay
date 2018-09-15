@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKALINUX"
-DIST_VERSION="1.005"
-DIST_A="Net-AppDynamics-REST-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.680
-	dev-perl/AnyEvent
+	>=dev-lang/perl-1.280
+	>=dev-perl/AnyEvent-7.140
 	>=dev-perl/AnyEvent-HTTP-Message-0.302
 	>=dev-perl/Data-Queue-1.000.100
 	>=dev-perl/Data-Result-1.000.100
@@ -45,3 +44,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

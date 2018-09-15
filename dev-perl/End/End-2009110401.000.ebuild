@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABIGAIL"
-DIST_VERSION="2009110401.0"
-DIST_A="End-2009110401.tar.gz"
+DIST_VERSION="2009110401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

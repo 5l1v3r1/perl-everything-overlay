@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALFILLE"
-DIST_VERSION="v1.8.0"
-DIST_A="OWNet-1.8.tar.gz"
+DIST_VERSION="1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

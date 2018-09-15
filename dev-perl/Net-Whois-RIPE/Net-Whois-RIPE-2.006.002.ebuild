@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AASSAD"
-DIST_VERSION="2.006002"
-DIST_A="Net-Whois-RIPE-2.006002.tar.gz"
+DIST_VERSION="2.006002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

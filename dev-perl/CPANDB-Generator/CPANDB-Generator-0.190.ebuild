@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.19"
-DIST_A="CPANDB-Generator-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,7 +33,7 @@ RDEPEND="
 	>=dev-perl/Probe-Perl-0.010
 	>=dev-perl/Process-0.260
 	>=dev-perl/Time-Elapsed-0.260
-	>=dev-perl/URI-4.200
+	>=dev-perl/URI-1.370
 	>=dev-perl/Xtract-0.100
 	>=dev-perl/libwww-perl-5.819
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
@@ -46,3 +45,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

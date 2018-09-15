@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACID"
-DIST_VERSION="0.07"
-DIST_A="Hyper-Developer-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,6 +37,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Pod-1.000
@@ -45,3 +45,4 @@ DEPEND="
 	dev-perl/Test-Prereq
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEC"
-DIST_VERSION="0.08"
-DIST_A="Finance-QuoteTW-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

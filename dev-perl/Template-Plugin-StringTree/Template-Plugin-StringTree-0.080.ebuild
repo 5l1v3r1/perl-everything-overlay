@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.08"
-DIST_A="Template-Plugin-StringTree-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Template-Toolkit
 	>=virtual/perl-File-Spec-0.800
-	>=virtual/perl-Scalar-List-Utils-1.110
+	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

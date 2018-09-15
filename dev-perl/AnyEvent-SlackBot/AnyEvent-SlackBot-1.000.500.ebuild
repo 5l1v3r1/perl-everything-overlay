@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKALINUX"
-DIST_VERSION="1.0005"
-DIST_A="AnyEvent-SlackBot-1.0005.tar.gz"
+DIST_VERSION="1.0005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.280
+	>=dev-lang/perl-1.680
 	>=dev-perl/AnyEvent-WebSocket-Client-0.390
 	>=dev-perl/Data-Result-1.000
 	>=dev-perl/HTTP-Message-6.130
@@ -46,3 +45,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

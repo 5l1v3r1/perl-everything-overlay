@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJOLMA"
-DIST_VERSION="0.07"
-DIST_A="Geo-OGC-Service-WMTS-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/XML-LibXML
 	dev-perl/XML-SemanticDiff
 "
+

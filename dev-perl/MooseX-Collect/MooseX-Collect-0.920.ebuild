@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AAR"
-DIST_VERSION="0.92"
-DIST_A="MooseX-Collect-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	>=virtual/perl-Test-Simple-0.960
 "
+

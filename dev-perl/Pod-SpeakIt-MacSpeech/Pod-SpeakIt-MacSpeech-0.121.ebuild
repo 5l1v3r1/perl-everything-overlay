@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADOPTME"
-DIST_VERSION="0.121"
-DIST_A="Pod-SpeakIt-MacSpeech-0.121.tar.gz"
+DIST_VERSION="0.121" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.940
 "
+

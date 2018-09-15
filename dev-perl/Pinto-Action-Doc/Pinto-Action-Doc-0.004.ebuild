@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGORMAN"
-DIST_VERSION="0.004"
-DIST_A="Pinto-Action-Doc-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

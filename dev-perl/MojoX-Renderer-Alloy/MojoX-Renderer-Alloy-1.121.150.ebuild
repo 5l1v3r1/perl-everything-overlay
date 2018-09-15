@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.121150"
-DIST_A="MojoX-Renderer-Alloy-1.121150.tar.gz"
+DIST_VERSION="1.121150" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

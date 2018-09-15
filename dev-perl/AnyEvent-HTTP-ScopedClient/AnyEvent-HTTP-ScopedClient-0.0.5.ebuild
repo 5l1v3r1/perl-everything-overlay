@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANOAA"
-DIST_VERSION="0.0.5"
-DIST_A="AnyEvent-HTTP-ScopedClient-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/AnyEvent
 	virtual/perl-Test-Simple
 "
+

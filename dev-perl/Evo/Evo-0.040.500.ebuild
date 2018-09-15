@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXBYK"
-DIST_VERSION="0.0405"
-DIST_A="Evo-0.0405.tar.gz"
+DIST_VERSION="0.0405" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Test-Simple-0.880
 "
+

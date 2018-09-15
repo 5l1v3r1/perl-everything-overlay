@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDT"
-DIST_VERSION="0.007"
-DIST_A="Log-Any-Plugin-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
-	>=dev-perl/Log-Any-1.000
+	dev-perl/Log-Any
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

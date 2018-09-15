@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.05"
-DIST_A="POE-Declare-HTTP-Server-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-5.827
+	>=dev-perl/HTTP-Message-5.830
 	>=dev-perl/POE-1.293
 	>=dev-perl/POE-Declare-0.500
 	>=dev-perl/Params-Util-1.000
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-POE-Stopping-1.070
 	>=virtual/perl-Test-Simple-0.420
 "
+

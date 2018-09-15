@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKALINUX"
-DIST_VERSION="4.030"
-DIST_A="Data-Range-Compare-Stream-4.030.tar.gz"
+DIST_VERSION="4.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

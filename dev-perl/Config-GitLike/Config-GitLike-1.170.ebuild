@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMV"
-DIST_VERSION="1.17"
-DIST_A="Config-GitLike-1.17.tar.gz"
+DIST_VERSION="1.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

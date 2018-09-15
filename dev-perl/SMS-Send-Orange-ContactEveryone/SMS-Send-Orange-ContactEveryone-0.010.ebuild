@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXARN"
-DIST_VERSION="0.01"
-DIST_A="SMS-Send-Orange-ContactEveryone-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Message-6.000
 	dev-perl/SMS-Send
 	>=dev-perl/XML-Simple-2.200
+	dev-perl/base
 	>=dev-perl/libwww-perl-6.060
 	>=virtual/perl-Carp-1.200
 "
@@ -27,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

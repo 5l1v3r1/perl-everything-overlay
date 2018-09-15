@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.006004"
-DIST_A="Task-CVSMonitor-0.006004.tar.gz"
+DIST_VERSION="0.006004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,3 +52,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

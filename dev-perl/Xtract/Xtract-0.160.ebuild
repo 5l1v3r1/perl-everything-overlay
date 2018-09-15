@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.16"
-DIST_A="Xtract-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,4 +31,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Database-1.090
+	>=dev-perl/Test-NoWarnings-0.084
+	>=dev-perl/Test-Script-1.030
+	>=virtual/perl-File-Spec-0.800
+	>=virtual/perl-Test-Simple-0.420
 "
+

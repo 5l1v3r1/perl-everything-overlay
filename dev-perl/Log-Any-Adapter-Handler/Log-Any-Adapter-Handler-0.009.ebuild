@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GVL"
-DIST_VERSION="0.009"
-DIST_A="Log-Any-Adapter-Handler-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.980
 "
+

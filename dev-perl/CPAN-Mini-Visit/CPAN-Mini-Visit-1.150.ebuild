@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="1.15"
-DIST_A="CPAN-Mini-Visit-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-0.084
 	>=virtual/perl-Test-Simple-0.860
 "
+

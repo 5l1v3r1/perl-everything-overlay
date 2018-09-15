@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMASS"
-DIST_VERSION="v0.9.3"
-DIST_A="Parallel-Mpich-MPD-0.9.3.tar.gz"
+DIST_VERSION="0.9.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,19 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	dev-perl/CGI
+	dev-perl/IO-All
+	dev-perl/Mail-Sendmail
+	dev-perl/Module-Build
+	dev-perl/Object-InsideOut
+	dev-perl/Proc-ProcessTable
+	virtual/perl-Carp
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Getopt-Long
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "
+

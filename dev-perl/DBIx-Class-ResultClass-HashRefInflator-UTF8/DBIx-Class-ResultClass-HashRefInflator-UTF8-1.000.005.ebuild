@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKZHAN"
-DIST_VERSION="1.000005"
-DIST_A="DBIx-Class-ResultClass-HashRefInflator-UTF8-1.000005.tar.gz"
+DIST_VERSION="1.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

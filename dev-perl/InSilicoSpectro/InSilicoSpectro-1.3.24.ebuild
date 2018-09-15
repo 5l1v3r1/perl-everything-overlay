@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMASS"
-DIST_VERSION="v1.3.24"
-DIST_A="InSilicoSpectro-1.3.24.tar.gz"
+DIST_VERSION="1.3.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	dev-perl/GDTextUtil
 	dev-perl/XML-Parser
 	dev-perl/XML-SemanticDiff
-	dev-perl/XML-Twig
+	>=dev-perl/XML-Twig-3.140
 	virtual/perl-Archive-Tar
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Temp
@@ -35,4 +34,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

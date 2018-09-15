@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.0200"
-DIST_A="Test-Core-0.0200.tar.gz"
+DIST_VERSION="0.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Dump
 	dev-perl/Import-Into
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Modern
 	virtual/perl-Module-Load
@@ -32,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

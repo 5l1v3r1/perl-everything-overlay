@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXP"
-DIST_VERSION="0.19"
-DIST_A="Catalyst-Model-DBI-SQL-Library-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=dev-perl/Test-Pod-1.140
 	>=dev-perl/Test-Pod-Coverage-1.040
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

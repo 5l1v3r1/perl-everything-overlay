@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.110960"
-DIST_A="String-Bash-1.110960.tar.gz"
+DIST_VERSION="1.110960" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

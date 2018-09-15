@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NERDVANA"
-DIST_VERSION="0.003003"
-DIST_A="Log-Any-Adapter-TAP-0.003003.tar.gz"
+DIST_VERSION="0.003003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

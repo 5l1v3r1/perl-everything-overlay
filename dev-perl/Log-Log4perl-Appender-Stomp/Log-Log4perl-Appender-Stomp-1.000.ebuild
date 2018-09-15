@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFLOTT"
-DIST_VERSION="1.000"
-DIST_A="Log-Log4perl-Appender-Stomp-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANOAA"
-DIST_VERSION="0.2.8"
-DIST_A="Hubot-0.2.8.tar.gz"
+DIST_VERSION="0.2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

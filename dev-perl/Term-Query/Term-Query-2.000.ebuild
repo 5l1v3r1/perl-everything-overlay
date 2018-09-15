@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKSTE"
-DIST_VERSION="2.0"
-DIST_A="Term-Query-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

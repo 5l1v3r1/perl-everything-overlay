@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AERO"
-DIST_VERSION="0.014"
-DIST_A="WebService-KoreanSpeller-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

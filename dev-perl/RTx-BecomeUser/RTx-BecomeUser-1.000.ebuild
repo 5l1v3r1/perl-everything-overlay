@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABCDEFGH"
-DIST_VERSION="1.0"
-DIST_A="RTx-BecomeUser-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

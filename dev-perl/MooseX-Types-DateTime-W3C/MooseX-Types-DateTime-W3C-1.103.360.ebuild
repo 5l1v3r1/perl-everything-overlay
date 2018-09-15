@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.103360"
-DIST_A="MooseX-Types-DateTime-W3C-1.103360.tar.gz"
+DIST_VERSION="1.103360" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRAXXA"
-DIST_VERSION="0.011"
-DIST_A="Message-Passing-Syslog-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

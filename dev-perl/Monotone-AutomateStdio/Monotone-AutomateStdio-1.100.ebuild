@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="monotone"
-DIST_VERSION="1.10"
-DIST_A="Monotone-AutomateStdio-1.10.tar.gz"
+DIST_AUTHOR="AECOOPER"
+DIST_VERSION="1.10" 
+SRC_URI="mirror://cpan/authors/id/A/AE/AECOOPER/monotone/Monotone-AutomateStdio-1.10.tar.gz -> Monotone-AutomateStdio-1.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Monotone-AutomateStdio-1.10 ${WORKDIR}/Monotone-AutomateStdio-1.10
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADDUTKO"
-DIST_VERSION="2014.0623"
-DIST_A="Linux-Kernel-Build-2014.0623.tar.gz"
+DIST_VERSION="2014.0623" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

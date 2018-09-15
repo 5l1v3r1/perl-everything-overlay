@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRAXXA"
-DIST_VERSION="0.200001"
-DIST_A="Log-Log4perl-Appender-RabbitMQ-0.200001.tar.gz"
+DIST_VERSION="0.200001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

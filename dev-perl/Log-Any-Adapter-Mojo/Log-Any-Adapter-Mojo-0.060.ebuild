@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HENRYYKT"
-DIST_VERSION="0.06"
-DIST_A="Log-Any-Adapter-Mojo-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Log-Any-0.140
+	>=dev-perl/Log-Any-0.070
 	>=dev-perl/Mojolicious-1.130
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

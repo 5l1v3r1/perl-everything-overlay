@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="2.1.1706216"
-DIST_A="Bio-MLST-Check-2.1.1706216.tar.gz"
+DIST_VERSION="2.1.1706216" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

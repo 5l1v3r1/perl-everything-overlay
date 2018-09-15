@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMOWSKI"
-DIST_VERSION="v2.0.1"
-DIST_A="Gtk2-Net-LDAP-Widgets-2.0.1.tar.gz"
+DIST_VERSION="2.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-perl/ExtUtils-AutoInstall
 	>=dev-perl/Gtk2-1.000
 	>=dev-perl/perl-ldap-0.200
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

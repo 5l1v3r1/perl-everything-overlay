@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKALINUX"
-DIST_VERSION="1.005"
-DIST_A="Log-LogMethods-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.280
+	>=dev-lang/perl-1.680
 	>=dev-perl/Data-Result-1.000
 	>=dev-perl/IO-stringy-2.111
 	>=dev-perl/Log-Dispatch-2.650
@@ -37,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

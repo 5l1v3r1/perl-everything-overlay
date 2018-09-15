@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJOLMA"
-DIST_VERSION="0.66"
-DIST_A="Gtk2-Ex-Geo-0.66.tar.gz"
+DIST_VERSION="0.66" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

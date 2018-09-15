@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFISER"
-DIST_VERSION="0.07"
-DIST_A="SmotifCS-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

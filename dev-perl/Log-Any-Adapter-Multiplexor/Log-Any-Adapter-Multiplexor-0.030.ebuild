@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VRAG"
-DIST_VERSION="0.03"
-DIST_A="Log-Any-Adapter-Multiplexor-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/V/VR/VRAG/Log-Any-Adapter-Multiplexor-003/Log-Any-Adapter-Multiplexor-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/V/VR/VRAG/Log-Any-Adapter-Multiplexor-003/Log-Any-Adapter-Multiplexor-0.03.tar.gz -> Log-Any-Adapter-Multiplexor-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-Any-Adapter-Multiplexor-0.03 ${WORKDIR}/Log-Any-Adapter-Multiplexor-0.03
+}
+

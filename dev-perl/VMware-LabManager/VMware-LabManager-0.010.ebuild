@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AIVATURI"
-DIST_VERSION="0.01"
-DIST_A="VMware-LabManager-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

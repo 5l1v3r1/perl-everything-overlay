@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKALINUX"
-DIST_VERSION="1.0002"
-DIST_A="Data-Queue-1.0002.tar.gz"
+DIST_VERSION="1.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

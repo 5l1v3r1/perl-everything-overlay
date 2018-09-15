@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKZHAN"
-DIST_VERSION="0.05"
-DIST_A="Plack-Session-Store-RedisFast-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/JSON-2.000
+	dev-perl/Module-Build
 	>=dev-perl/Redis-Fast-0.200
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.960
 "
+

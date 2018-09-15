@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABERNDT"
-DIST_VERSION="1.1"
-DIST_A="Net-Snarl-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

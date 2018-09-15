@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKHUETTEL"
-DIST_VERSION="1.000"
-DIST_A="Lab-Measurement-DocWriter-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Pod-LaTeX
 	dev-perl/Pod-Usage
+	dev-perl/Syntax-Highlight-Engine-Simple-Perl
 	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
@@ -30,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.0100"
-DIST_A="Perl-Core-0.0100.tar.gz"
+DIST_VERSION="0.0100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moops
+	dev-perl/PerlX-Define
 	dev-perl/PerlX-Maybe
 	dev-perl/Sub-Infix
 	dev-perl/Syntax-Feature-Try
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

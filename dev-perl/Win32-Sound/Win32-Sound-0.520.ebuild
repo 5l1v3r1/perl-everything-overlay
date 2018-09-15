@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACALPINI"
-DIST_VERSION="0.52"
-DIST_A="Win32-Sound-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

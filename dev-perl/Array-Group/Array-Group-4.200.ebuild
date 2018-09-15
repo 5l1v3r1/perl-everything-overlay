@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACCARDO"
-DIST_VERSION="4.2"
-DIST_A="Array-Group-4.2.tar.gz"
+DIST_VERSION="4.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

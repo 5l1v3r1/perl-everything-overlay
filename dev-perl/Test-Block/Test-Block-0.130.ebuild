@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADIE"
-DIST_VERSION="0.13"
-DIST_A="Test-Block-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Test-Exception-0.150
-	>=virtual/perl-Test-Simple-1.010
+	>=virtual/perl-Test-Simple-0.170
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.103360"
-DIST_A="Apache2-Layer-1.103360.tar.gz"
+DIST_VERSION="1.103360" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Httpd-Apache2-0.080
 	dev-perl/Test-NoWarnings
 "
+

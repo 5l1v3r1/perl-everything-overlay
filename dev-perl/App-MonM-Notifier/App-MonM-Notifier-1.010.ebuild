@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABALAMA"
-DIST_VERSION="1.01"
-DIST_A="App-MonM-Notifier-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.150
+	>=dev-lang/perl-2.180
 	>=dev-perl/CTKlib-1.180
 	>=dev-perl/Class-C3-Adopt-NEXT-0.130
 	>=dev-perl/DBD-SQLite-1.400
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
+

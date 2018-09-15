@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALAMBIKE"
-DIST_VERSION="1.510"
-DIST_A="Eixo-Base-1.510.tar.gz"
+DIST_VERSION="1.510" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

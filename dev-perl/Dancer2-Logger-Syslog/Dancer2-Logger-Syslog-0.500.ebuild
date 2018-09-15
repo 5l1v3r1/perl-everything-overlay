@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABEVERLEY"
-DIST_VERSION="0.5"
-DIST_A="Dancer2-Logger-Syslog-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

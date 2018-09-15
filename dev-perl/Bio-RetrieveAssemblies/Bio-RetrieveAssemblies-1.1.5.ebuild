@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="v1.1.5"
-DIST_A="Bio-RetrieveAssemblies-1.1.5.tar.gz"
+DIST_VERSION="1.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/BioPerl
 	dev-perl/Data-Validate-URI
 	dev-perl/Exception-Class
 	dev-perl/File-Slurp-Tiny
@@ -30,4 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Env-Path
+	dev-perl/Test-Most
+	virtual/perl-Data-Dumper
 "
+

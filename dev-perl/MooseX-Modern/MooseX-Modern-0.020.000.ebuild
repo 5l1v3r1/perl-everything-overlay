@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.0200"
-DIST_A="MooseX-Modern-0.0200.tar.gz"
+DIST_VERSION="0.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Module-Loaded
 	virtual/perl-Test-Simple
 "
+

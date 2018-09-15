@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ES"
-DIST_VERSION="0.08"
-DIST_A="Math-ES-0.08.tar.gz"
+DIST_AUTHOR="AHCHORN"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/A/AH/AHCHORN/Math/ES/Math-ES-0.08.tar.gz -> Math-ES-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-ES-0.08 ${WORKDIR}/Math-ES-0.08
+}
+

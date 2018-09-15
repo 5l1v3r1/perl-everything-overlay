@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASH"
-DIST_VERSION="1.20000"
-DIST_A="WWW-Mechanize-TreeBuilder-1.20000.tar.gz"
+DIST_VERSION="1.20000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize
 	virtual/perl-Test-Simple
 "
+

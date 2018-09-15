@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABAYLISS"
-DIST_VERSION="0.0.2"
-DIST_A="PHP-ParseStr-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

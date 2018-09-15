@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRAXXA"
-DIST_VERSION="2.007002"
-DIST_A="Catalyst-Controller-DBIC-API-2.007002.tar.gz"
+DIST_VERSION="2.007002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370
 	>=virtual/perl-Test-Simple-0.880
 "
+

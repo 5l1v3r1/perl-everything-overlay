@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKARGER"
-DIST_VERSION="1.44"
-DIST_A="Language-Basic-1.44.tar.gz"
+DIST_VERSION="1.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

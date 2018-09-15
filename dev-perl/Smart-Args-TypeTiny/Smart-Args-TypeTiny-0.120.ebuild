@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKIYM"
-DIST_VERSION="0.12"
-DIST_A="Smart-Args-TypeTiny-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Moo
 	dev-perl/Mouse
 	>=dev-perl/Test2-Suite-0.000.077
 "
+

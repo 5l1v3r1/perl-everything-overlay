@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRETT"
-DIST_VERSION="0.25"
-DIST_A="WWW-SFDC-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-MIME-Base64
 	virtual/perl-Module-Loaded
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.290
 "
 DEPEND="
 	${RDEPEND}
@@ -40,3 +39,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

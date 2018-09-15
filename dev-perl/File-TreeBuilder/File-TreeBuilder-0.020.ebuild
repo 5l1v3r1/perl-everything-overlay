@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUCS"
-DIST_VERSION="0.02"
-DIST_A="File-TreeBuilder-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Usage
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="3.12.0"
-DIST_A="Bio-Roary-3.12.0.tar.gz"
+DIST_VERSION="3.12.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

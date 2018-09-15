@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXBIO"
-DIST_VERSION="0.16"
-DIST_A="App-gist-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Pithub
 	dev-perl/TermReadKey
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

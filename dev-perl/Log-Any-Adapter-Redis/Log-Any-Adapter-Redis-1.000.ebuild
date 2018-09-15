@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MILA"
-DIST_VERSION="1.000"
-DIST_A="Log-Any-Adapter-Redis-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-1.010
 	dev-perl/RedisDB
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

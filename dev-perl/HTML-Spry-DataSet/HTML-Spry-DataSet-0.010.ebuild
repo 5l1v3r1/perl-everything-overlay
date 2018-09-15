@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.01"
-DIST_A="HTML-Spry-DataSet-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	>=dev-perl/File-Remove-1.420
 	>=dev-perl/Params-Util-0.320
 	>=dev-perl/Test-LongString-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-IO-1.230
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

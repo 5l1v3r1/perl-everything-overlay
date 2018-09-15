@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABALAMA"
-DIST_VERSION="1.05"
-DIST_A="WWW-MLite-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.090
+	dev-lang/perl
 	>=dev-perl/Archive-Extract-0.600
 	>=dev-perl/CGI-Session-4.420
 	>=dev-perl/CTKlib-1.160
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.121160"
-DIST_A="Template-Plugin-ScalarUtil-1.121160.tar.gz"
+DIST_VERSION="1.121160" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Template-Toolkit-2.220
+	dev-perl/Template-Toolkit
+	dev-perl/base
 	>=virtual/perl-Scalar-List-Utils-1.220
 "
 DEPEND="
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AAYARS"
-DIST_VERSION="0.105"
-DIST_A="Math-Fractal-Noisemaker-0.105.tar.gz"
+DIST_VERSION="0.105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

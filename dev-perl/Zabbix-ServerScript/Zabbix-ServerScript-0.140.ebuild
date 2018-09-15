@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKINT"
-DIST_VERSION="0.14"
-DIST_A="Zabbix-ServerScript-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,9 +32,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.500
 	dev-perl/Capture-Tiny
 	dev-perl/Test-Fatal
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Output
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

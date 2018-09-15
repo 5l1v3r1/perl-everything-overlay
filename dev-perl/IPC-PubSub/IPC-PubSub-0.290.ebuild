@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMV"
-DIST_VERSION="0.29"
-DIST_A="IPC-PubSub-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/DBM-Deep-1.000
 	dev-perl/Data-UUID
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Storable
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 "
+

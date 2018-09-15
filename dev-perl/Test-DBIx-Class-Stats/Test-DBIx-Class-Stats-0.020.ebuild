@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRAXXA"
-DIST_VERSION="0.02"
-DIST_A="Test-DBIx-Class-Stats-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-HandlesVia
 	dev-perl/Test-DBIx-Class
-	>=virtual/perl-Test-Simple-0.420
+	>=virtual/perl-Test-Simple-1.001.004.001
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

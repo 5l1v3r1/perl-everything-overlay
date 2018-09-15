@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AELFAKIH"
-DIST_VERSION="1.3.1"
-DIST_A="Apache-Centipaid-1.3.1.tar.gz"
+DIST_VERSION="1.3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

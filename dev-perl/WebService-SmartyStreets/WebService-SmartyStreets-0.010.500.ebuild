@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.0105"
-DIST_A="WebService-SmartyStreets-0.0105.tar.gz"
+DIST_VERSION="0.0105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

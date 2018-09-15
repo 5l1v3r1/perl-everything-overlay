@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGJ"
-DIST_VERSION="0.0802"
-DIST_A="Csistck-0.0802.tar.gz"
+DIST_VERSION="0.0802" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AASSAD"
-DIST_VERSION="1.008"
-DIST_A="Devel-StealthDebug-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

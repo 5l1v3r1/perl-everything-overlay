@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="1.4.0"
-DIST_A="Bio-Tradis-1.4.0.tar.gz"
+DIST_VERSION="1.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

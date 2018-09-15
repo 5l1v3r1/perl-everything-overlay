@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMV"
-DIST_VERSION="1.10"
-DIST_A="TAP-Harness-Remote-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Harness-3.040
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

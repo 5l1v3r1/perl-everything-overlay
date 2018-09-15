@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFF"
-DIST_VERSION="0.30"
-DIST_A="Parse-Dia-SQL-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-CPAN-Meta
 "
+

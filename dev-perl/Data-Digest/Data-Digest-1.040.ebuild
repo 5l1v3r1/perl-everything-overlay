@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="1.04"
-DIST_A="Data-Digest-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=virtual/perl-Digest-1.060
 	>=virtual/perl-Digest-MD5-2.330
 	>=virtual/perl-Digest-SHA-5.340
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-File-Spec-0.800
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABERGMAN"
-DIST_VERSION="0.29"
-DIST_A="SVL-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,4 +32,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

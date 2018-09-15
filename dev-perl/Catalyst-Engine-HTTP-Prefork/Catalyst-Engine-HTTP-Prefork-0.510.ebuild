@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGRUNDMA"
-DIST_VERSION="0.51"
-DIST_A="Catalyst-Engine-HTTP-Prefork-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

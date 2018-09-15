@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="1.19"
-DIST_A="pip-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.020
 	>=virtual/perl-Test-Simple-0.420
 "
+

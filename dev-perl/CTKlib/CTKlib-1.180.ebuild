@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABALAMA"
-DIST_VERSION="1.18"
-DIST_A="CTKlib-1.18.tar.gz"
+DIST_VERSION="1.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.000
+	>=dev-lang/perl-1.000
 	>=dev-perl/Archive-Extract-0.580
 	>=dev-perl/Archive-Zip-1.300
 	>=dev-perl/Class-C3-Adopt-NEXT-0.130
@@ -52,3 +51,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

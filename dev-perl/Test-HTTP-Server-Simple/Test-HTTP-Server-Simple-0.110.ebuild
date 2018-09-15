@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMV"
-DIST_VERSION="0.11"
-DIST_A="Test-HTTP-Server-Simple-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Server-Simple
 	dev-perl/NEXT
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-1.040
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

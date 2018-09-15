@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFLOTT"
-DIST_VERSION="0.501"
-DIST_A="Algorithm-IRCSRP2-0.501.tar.gz"
+DIST_VERSION="0.501" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

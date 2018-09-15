@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABERNDT"
-DIST_VERSION="0.5"
-DIST_A="App-Sybil-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+

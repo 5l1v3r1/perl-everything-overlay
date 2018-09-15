@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFAN"
-DIST_VERSION="1.302"
-DIST_A="Config-Neat-1.302.tar.gz"
+DIST_VERSION="1.302" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.940
 "
+

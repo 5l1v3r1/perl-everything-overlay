@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AASSAD"
-DIST_VERSION="0.04"
-DIST_A="WebService-Face-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

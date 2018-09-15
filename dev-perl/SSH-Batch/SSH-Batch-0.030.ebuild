@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGENT"
-DIST_VERSION="0.030"
-DIST_A="SSH-Batch-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

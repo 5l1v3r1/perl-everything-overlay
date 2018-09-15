@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="AGENT"
 DIST_VERSION="0.02"
-DIST_A="Template-Ast-0.02.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

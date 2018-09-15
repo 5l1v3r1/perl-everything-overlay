@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFEARN"
-DIST_VERSION="5.4"
-DIST_A="XML-TreeBuilder-5.4.tar.gz"
+DIST_VERSION="5.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

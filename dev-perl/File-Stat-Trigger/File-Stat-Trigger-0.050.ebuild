@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKIHITO"
-DIST_VERSION="0.05"
-DIST_A="File-Stat-Trigger-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,10 @@ RDEPEND="
 	dev-perl/File-Stat-OO
 	dev-perl/Module-Install-AuthorTests
 	dev-perl/Moose
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

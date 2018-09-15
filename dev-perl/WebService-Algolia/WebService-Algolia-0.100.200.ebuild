@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.1002"
-DIST_A="WebService-Algolia-0.1002.tar.gz"
+DIST_VERSION="0.1002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-Memoize
 	virtual/perl-Test-Simple
 "
+

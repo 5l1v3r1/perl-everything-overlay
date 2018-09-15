@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRAXXA"
-DIST_VERSION="0.001"
-DIST_A="SMS-Send-Retarus-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.430
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

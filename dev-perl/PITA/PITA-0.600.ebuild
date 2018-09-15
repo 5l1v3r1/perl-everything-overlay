@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.60"
-DIST_A="PITA-0.60.tar.gz"
+DIST_VERSION="0.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.020
 	>=virtual/perl-Test-Simple-0.470
 "
+

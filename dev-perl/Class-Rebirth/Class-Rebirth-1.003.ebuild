@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AHERNIT"
-DIST_VERSION="1.003"
-DIST_A="Class-Rebirth-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

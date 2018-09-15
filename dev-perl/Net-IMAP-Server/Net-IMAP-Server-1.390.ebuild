@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMV"
-DIST_VERSION="1.39"
-DIST_A="Net-IMAP-Server-1.39.tar.gz"
+DIST_VERSION="1.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-Socket-SSL
 "
+

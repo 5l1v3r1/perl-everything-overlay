@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADROFFNER"
-DIST_VERSION="0.07"
-DIST_A="Echo-StreamServer-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTTP-Message-1.640
 	>=dev-perl/JSON-2.170
-	>=dev-perl/URI-3.280
+	>=dev-perl/URI-1.350
 	>=dev-perl/libwww-perl-2.033
 	>=virtual/perl-Data-Dumper-2.121
 	>=virtual/perl-Storable-2.150
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

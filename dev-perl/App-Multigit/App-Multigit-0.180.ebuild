@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALTREUS"
-DIST_VERSION="0.18"
-DIST_A="App-Multigit-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,13 +25,14 @@ RDEPEND="
 	>=dev-perl/List-UtilsBy-0.090
 	>=dev-perl/Moo-2.000.001
 	>=dev-perl/Path-Class-0.350
+	dev-perl/Pod-Usage
 	>=dev-perl/Try-Tiny-0.220
 	>=dev-perl/curry-1.000
 	>=virtual/perl-Getopt-Long-2.420
 	virtual/perl-HTTP-Tiny
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

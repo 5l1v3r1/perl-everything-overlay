@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKIMOV"
-DIST_VERSION="v0.85.1"
-DIST_A="ORM-0.85.1.tar.gz"
+DIST_VERSION="0.85.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

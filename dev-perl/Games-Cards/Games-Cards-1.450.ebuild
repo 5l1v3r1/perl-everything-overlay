@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKARGER"
-DIST_VERSION="1.45"
-DIST_A="Games-Cards-1.45.tar.gz"
+DIST_VERSION="1.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

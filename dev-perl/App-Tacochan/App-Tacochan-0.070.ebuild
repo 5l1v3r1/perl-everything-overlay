@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKIYM"
-DIST_VERSION="0.07"
-DIST_A="App-Tacochan-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	>=virtual/perl-Test-Simple-0.980
 "
+

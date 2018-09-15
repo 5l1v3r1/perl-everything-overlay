@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AAMEND"
-DIST_VERSION="2.30"
-DIST_A="RADIUS-XMLParser-2.30.tar.gz"
-SRC_URI="mirror://cpan/authors/id/A/AA/AAMEND/RADIUS/RADIUS-XMLParser-2.30.tar.gz"
+DIST_VERSION="2.30" 
+SRC_URI="mirror://cpan/authors/id/A/AA/AAMEND/RADIUS/RADIUS-XMLParser-2.30.tar.gz -> RADIUS-XMLParser-2.30.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	dev-perl/Test-Files
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RADIUS-XMLParser-2.30 ${WORKDIR}/RADIUS-XMLParser-2.30
+}
+

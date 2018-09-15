@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANARI"
-DIST_VERSION="0.0107"
-DIST_A="WebService-NationBuilder-0.0107.tar.gz"
+DIST_VERSION="0.0107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Message
 	dev-perl/JSON
-	>=dev-perl/Log-Any-0.110
-	dev-perl/Moo
+	>=dev-perl/Log-Any-0.150
+	>=dev-perl/Moo-1.004.002
 	dev-perl/Try-Tiny
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Log-Dispatch
 	dev-perl/Test-Most
 "
+

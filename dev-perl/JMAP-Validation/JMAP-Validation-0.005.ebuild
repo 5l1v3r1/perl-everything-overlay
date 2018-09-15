@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALFIE"
-DIST_VERSION="0.005"
-DIST_A="JMAP-Validation-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 "
+

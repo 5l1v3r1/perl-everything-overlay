@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFF"
-DIST_VERSION="v1.0.2"
-DIST_A="PHP-Interpreter-1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

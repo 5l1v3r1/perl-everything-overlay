@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMJS"
-DIST_VERSION="2.07"
-DIST_A="App-CharmKit-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,6 @@ RDEPEND="
 	>=dev-perl/Set-Tiny-0.030
 	>=dev-perl/Smart-Comments-1.060
 	>=dev-perl/YAML-Tiny-1.690
-	dev-perl/autobox
 	dev-perl/autobox-Core
 	>=dev-perl/boolean-0.450
 	dev-perl/true
@@ -40,3 +38,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

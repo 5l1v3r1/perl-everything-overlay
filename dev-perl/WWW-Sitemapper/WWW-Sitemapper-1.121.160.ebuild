@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="1.121160"
-DIST_A="WWW-Sitemapper-1.121160.tar.gz"
+DIST_VERSION="1.121160" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,6 +38,8 @@ DEPEND="
 	dev-perl/HTTP-Date
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
+	dev-perl/base
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

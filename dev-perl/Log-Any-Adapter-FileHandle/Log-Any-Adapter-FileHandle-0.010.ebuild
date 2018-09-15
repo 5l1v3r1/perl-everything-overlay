@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASONJAYR"
-DIST_VERSION="0.010"
-DIST_A="Log-Any-Adapter-FileHandle-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Log-Any-0.110
+	>=dev-perl/Log-Any-0.020
 	>=virtual/perl-IO-1.220
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-String
 "
+

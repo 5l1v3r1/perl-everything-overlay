@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFF"
-DIST_VERSION="0.70"
-DIST_A="Test-MockDBI-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-CPAN-Meta
 "
+

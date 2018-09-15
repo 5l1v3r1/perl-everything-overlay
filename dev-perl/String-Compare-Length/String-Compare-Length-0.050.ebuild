@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACCARDO"
-DIST_VERSION="0.05"
-DIST_A="String-Compare-Length-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

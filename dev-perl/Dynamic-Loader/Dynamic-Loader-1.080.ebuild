@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMASS"
-DIST_VERSION="1.08"
-DIST_A="Dynamic-Loader-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Env-Path
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

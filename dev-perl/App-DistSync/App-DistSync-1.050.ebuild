@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABALAMA"
-DIST_VERSION="1.05"
-DIST_A="App-DistSync-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.000
+	>=dev-lang/perl-1.000
 	>=dev-perl/HTTP-Message-6.060
 	>=dev-perl/URI-1.640
 	>=dev-perl/YAML-Tiny-1.000
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
+

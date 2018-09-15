@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABH"
-DIST_VERSION="0.50"
-DIST_A="Geo-Coder-Yahoo-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

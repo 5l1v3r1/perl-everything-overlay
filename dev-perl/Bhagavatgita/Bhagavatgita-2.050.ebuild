@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AHORA"
-DIST_VERSION="2.05"
-DIST_A="Bhagavatgita-2.05.tar.gz"
+DIST_VERSION="2.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

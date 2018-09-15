@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="1.133090"
-DIST_A="Bio-VertRes-Config-1.133090.tar.gz"
+DIST_VERSION="1.133090" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Most
+	virtual/perl-File-Temp
 "
+

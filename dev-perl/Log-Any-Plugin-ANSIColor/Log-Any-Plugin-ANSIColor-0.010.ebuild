@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDT"
-DIST_VERSION="0.01"
-DIST_A="Log-Any-Plugin-ANSIColor-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Log-Any
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

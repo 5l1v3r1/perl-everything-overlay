@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABRETT"
-DIST_VERSION="0.13"
-DIST_A="App-SFDC-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

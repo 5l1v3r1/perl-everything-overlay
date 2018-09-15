@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AHERNIT"
-DIST_VERSION="1.215"
-DIST_A="Pod-Autopod-1.215.tar.gz"
+DIST_VERSION="1.215" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

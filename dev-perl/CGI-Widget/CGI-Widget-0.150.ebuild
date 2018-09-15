@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALLENDAY"
-DIST_VERSION="0.15"
-DIST_A="CGI-Widget-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

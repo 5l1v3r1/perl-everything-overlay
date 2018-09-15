@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALIAN"
-DIST_VERSION="1.18"
-DIST_A="Search-Circa-1.18.tar.gz"
+DIST_VERSION="1.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

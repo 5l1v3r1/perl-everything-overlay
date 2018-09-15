@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXMASS"
-DIST_VERSION="v0.0.43"
-DIST_A="InSilicoSpectro-Databanks-0.0.43.tar.gz"
+DIST_VERSION="0.0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

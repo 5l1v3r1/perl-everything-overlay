@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALLENDAY"
-DIST_VERSION="0.023"
-DIST_A="Package-Tools-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

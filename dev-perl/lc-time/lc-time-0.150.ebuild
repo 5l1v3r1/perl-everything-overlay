@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABELTJE"
-DIST_VERSION="0.15"
-DIST_A="lc_time-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	>=virtual/perl-Test-Simple-0.960
 "
+

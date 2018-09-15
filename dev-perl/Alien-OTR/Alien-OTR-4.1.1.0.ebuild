@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="v4.1.1.0"
-DIST_A="Alien-OTR-4.1.1.0.tar.gz"
+DIST_VERSION="4.1.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Alien-Base-0.002
+	>=dev-perl/Alien-Build-0.002
 	dev-perl/Alien-GCrypt
 	dev-perl/Alien-GPG-Error
 	>=dev-perl/File-ShareDir-1.030
@@ -26,7 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.002
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ALBERS"
 DIST_VERSION="0.34"
-DIST_A="Config-LotusNotes-0.34.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=dev-perl/Test-Pod-Coverage-1.040
 "
+

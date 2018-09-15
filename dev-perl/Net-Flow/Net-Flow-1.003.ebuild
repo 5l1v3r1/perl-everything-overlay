@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACFEREN"
-DIST_VERSION="1.003"
-DIST_A="Net-Flow-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

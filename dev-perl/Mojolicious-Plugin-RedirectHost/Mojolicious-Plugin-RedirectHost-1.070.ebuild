@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXBYK"
-DIST_VERSION="1.07"
-DIST_A="Mojolicious-Plugin-RedirectHost-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

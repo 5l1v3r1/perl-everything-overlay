@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXK"
-DIST_VERSION="0.08"
-DIST_A="Template-Plugin-TwoStage-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Digest-SHA1
-	dev-perl/Template-Toolkit
+	>=dev-perl/Template-Toolkit-2.010
 	dev-perl/URI
 	dev-perl/URI-Escape-XS
+	dev-perl/base
 	virtual/perl-Encode
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
@@ -30,6 +30,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

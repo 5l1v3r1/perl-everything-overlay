@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABERNDT"
-DIST_VERSION="1.32.4"
-DIST_A="WWW-Jawbone-Up-1.32.4.tar.gz"
+DIST_VERSION="1.32.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Approx
 	>=virtual/perl-Test-Simple-0.880
 "
+

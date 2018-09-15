@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AHICOX"
-DIST_VERSION="2.5"
-DIST_A="Config-Framework-2.5.tar.gz"
+DIST_VERSION="2.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

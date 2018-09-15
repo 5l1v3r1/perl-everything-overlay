@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="v1.21.0"
-DIST_A="Alien-GPG-Error-1.21.0.tar.gz"
+DIST_VERSION="1.21.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,14 +16,16 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Alien-Base-0.002
+	>=dev-perl/Alien-Build-0.002
 	>=dev-perl/File-ShareDir-1.030
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.002
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

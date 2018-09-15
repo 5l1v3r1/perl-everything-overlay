@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKSTE"
-DIST_VERSION="2.6"
-DIST_A="Array-PrintCols-2.6.tar.gz"
+DIST_VERSION="2.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-ExtUtils-MakeMaker
 "
+

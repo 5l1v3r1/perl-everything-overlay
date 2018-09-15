@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGENT"
-DIST_VERSION="0.09"
-DIST_A="XUL-App-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/Locale-Maketext-Lexicon
 	>=dev-perl/Object-Declare-0.220
-	dev-perl/Template-Declare
+	>=dev-perl/Template-Declare-0.280
 	dev-perl/Text-Diff
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 	virtual/perl-Locale-Maketext
@@ -32,3 +31,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

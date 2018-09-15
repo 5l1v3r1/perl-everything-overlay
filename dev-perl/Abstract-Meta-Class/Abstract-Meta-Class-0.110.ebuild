@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADRIANWIT"
-DIST_VERSION="0.11"
-DIST_A="Abstract-Meta-Class-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

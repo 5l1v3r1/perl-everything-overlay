@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AANOAA"
-DIST_VERSION="0.1.1"
-DIST_A="Hubot-Scripts-Bundle-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

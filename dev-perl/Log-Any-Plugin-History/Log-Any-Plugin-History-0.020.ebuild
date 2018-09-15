@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.02"
-DIST_A="Log-Any-Plugin-History-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Method-Modifiers
-	>=dev-perl/Log-Any-1.042
+	dev-perl/Log-Any
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Path-Tiny
 	virtual/perl-Test-Simple
 "
+

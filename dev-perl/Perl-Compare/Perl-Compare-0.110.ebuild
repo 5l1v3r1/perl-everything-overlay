@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.11"
-DIST_A="Perl-Compare-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,10 +20,11 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.080
 	>=dev-perl/Params-Util-0.100
 	>=dev-perl/Perl-Signature-0.040
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+

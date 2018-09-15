@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJPAGE"
-DIST_VERSION="1.133090"
-DIST_A="Bio-AutomatedAnnotation-1.133090.tar.gz"
+DIST_VERSION="1.133090" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/BioPerl
 	dev-perl/Exception-Class
 	dev-perl/Moose
 	dev-perl/Text-CSV
@@ -30,4 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Env-Path
+	dev-perl/File-Slurp
+	dev-perl/Test-Most
+	virtual/perl-Data-Dumper
 "
+

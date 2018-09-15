@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIROD"
-DIST_VERSION="0.14"
-DIST_A="HTML-TreeBuilder-XPath-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

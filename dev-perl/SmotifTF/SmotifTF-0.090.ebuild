@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFISER"
-DIST_VERSION="0.09"
-DIST_A="SmotifTF-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-2.040
 	virtual/perl-Test-Simple
 "
+

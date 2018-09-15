@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALLENDAY"
-DIST_VERSION="0.02"
-DIST_A="MP3-Icecast-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-lang/perl-2.710
-	>=dev-perl/MP3-Info-1.020
 	dev-perl/URI
 	>=virtual/perl-File-Spec-0.860
 	>=virtual/perl-IO-1.090
@@ -26,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABERNDT"
-DIST_VERSION="1.09"
-DIST_A="App-MPDJ-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

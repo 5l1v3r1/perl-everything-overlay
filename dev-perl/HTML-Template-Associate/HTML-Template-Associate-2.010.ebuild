@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXP"
-DIST_VERSION="2.01"
-DIST_A="HTML-Template-Associate-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-perl/CGI
 	dev-perl/Data-FormValidator
 	dev-perl/HTML-Template
-	>=virtual/perl-Test-Simple-0.440
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

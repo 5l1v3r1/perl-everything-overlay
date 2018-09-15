@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKSTE"
-DIST_VERSION="2.3"
-DIST_A="Array-Lookup-2.3.tar.gz"
+DIST_VERSION="2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

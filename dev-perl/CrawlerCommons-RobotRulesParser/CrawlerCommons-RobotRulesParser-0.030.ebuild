@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKROBINSN"
-DIST_VERSION="0.03"
-DIST_A="CrawlerCommons-RobotRulesParser-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Log-Log4perl-0.470
 	>=dev-perl/Try-Tiny-0.240
 	>=dev-perl/Type-Tiny-1.000.005
-	>=dev-perl/URI-3.310
+	>=dev-perl/URI-1.710
 	>=dev-perl/namespace-autoclean-0.280
 	>=virtual/perl-Encode-2.800
 "
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.340
 	virtual/perl-Test-Simple
 "
+

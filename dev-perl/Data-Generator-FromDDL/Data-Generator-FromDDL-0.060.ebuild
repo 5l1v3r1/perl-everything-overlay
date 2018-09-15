@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADDSICT"
-DIST_VERSION="0.06"
-DIST_A="Data-Generator-FromDDL-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,4 +30,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-Test-Simple-0.980
 "
+

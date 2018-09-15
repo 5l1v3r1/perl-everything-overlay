@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADDSICT"
-DIST_VERSION="0.02"
-DIST_A="Test-Deep-JWT-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
+

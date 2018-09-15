@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACCARDO"
-DIST_VERSION="3.04"
-DIST_A="Locale-US-3.04.tar.gz"
+DIST_VERSION="3.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

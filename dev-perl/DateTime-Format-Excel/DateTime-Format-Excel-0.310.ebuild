@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABURS"
-DIST_VERSION="0.31"
-DIST_A="DateTime-Format-Excel-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

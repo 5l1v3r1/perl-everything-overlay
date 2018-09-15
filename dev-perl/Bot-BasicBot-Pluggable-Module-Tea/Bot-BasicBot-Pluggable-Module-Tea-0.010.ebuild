@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJCT"
-DIST_VERSION="0.01"
-DIST_A="Bot-BasicBot-Pluggable-Module-Tea-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

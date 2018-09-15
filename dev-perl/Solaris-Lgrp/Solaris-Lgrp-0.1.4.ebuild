@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Solaris"
-DIST_VERSION="v0.1.4"
-DIST_A="Solaris-Lgrp-0.1.4.tar.gz"
+DIST_AUTHOR="AKOLB"
+DIST_VERSION="0.1.4" 
+SRC_URI="mirror://cpan/authors/id/A/AK/AKOLB/Solaris/Solaris-Lgrp-0.1.4.tar.gz -> Solaris-Lgrp-0.1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Solaris-Lgrp-0.1.4 ${WORKDIR}/Solaris-Lgrp-0.1.4
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.41"
-DIST_A="PITA-POE-SupportServer-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,10 +25,11 @@ RDEPEND="
 	>=dev-perl/URI-1.350
 	>=dev-perl/libwww-perl-2.033
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+

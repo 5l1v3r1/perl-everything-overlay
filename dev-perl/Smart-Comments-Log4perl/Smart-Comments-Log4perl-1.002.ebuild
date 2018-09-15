@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKBAR"
-DIST_VERSION="1.002"
-DIST_A="Smart-Comments-Log4perl-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Log4perl
 	dev-perl/Smart-Comments
+	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

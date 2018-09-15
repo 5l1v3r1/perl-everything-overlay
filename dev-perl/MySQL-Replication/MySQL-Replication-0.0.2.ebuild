@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALFIE"
-DIST_VERSION="0.0.2"
-DIST_A="MySQL-Replication-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/DBI
 	dev-perl/Pod-Usage
+	dev-perl/base
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
@@ -33,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

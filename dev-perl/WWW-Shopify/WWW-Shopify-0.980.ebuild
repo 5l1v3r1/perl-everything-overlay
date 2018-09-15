@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMDH"
-DIST_VERSION="0.98"
-DIST_A="WWW-Shopify-0.98.tar.gz"
+DIST_VERSION="0.98" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

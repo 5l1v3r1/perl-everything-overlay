@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="1.04"
-DIST_A="SMS-Send-AU-MyVodafone-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	>=dev-perl/WWW-Mechanize-1.060
 	>=dev-perl/libwww-perl-5.690
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+

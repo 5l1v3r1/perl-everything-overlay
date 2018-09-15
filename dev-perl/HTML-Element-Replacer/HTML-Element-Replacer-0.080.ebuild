@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ACCARDO"
-DIST_VERSION="0.08"
-DIST_A="HTML-Element-Replacer-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

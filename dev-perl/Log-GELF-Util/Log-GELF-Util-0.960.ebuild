@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMC"
-DIST_VERSION="0.96"
-DIST_A="Log-GELF-Util-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Warnings-0.005
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMJS"
-DIST_VERSION="1.005"
-DIST_A="Mojolicious-Plugin-GoogleAnalytics-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-NoTabs
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABBYPAN"
-DIST_VERSION="0.20"
-DIST_A="Novel-Robot-Packer-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Data-MessagePack
 	dev-perl/Encode-Locale
 	dev-perl/File-Slurp
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/HTML-Tree
 	dev-perl/Template-Toolkit
 "
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

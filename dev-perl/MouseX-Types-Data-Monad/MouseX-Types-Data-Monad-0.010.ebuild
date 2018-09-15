@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AEREAL"
-DIST_VERSION="0.01"
-DIST_A="MouseX-Types-Data-Monad-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Devel-Cover
 	dev-perl/Devel-Cover-Report-Coveralls
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

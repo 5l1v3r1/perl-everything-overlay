@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBAIL"
-DIST_VERSION="1.03"
-DIST_A="Log-Any-Adapter-Carp-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Carp-Clan
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-1.000
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

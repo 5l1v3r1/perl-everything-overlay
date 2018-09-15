@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMJS"
-DIST_VERSION="1.004"
-DIST_A="Mojolicious-Plugin-Disqus-Tiny-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

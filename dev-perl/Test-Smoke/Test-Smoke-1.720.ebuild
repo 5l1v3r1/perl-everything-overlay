@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ABELTJE"
-DIST_VERSION="1.72"
-DIST_A="Test-Smoke-1.72.tar.gz"
+DIST_VERSION="1.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	>=virtual/perl-Test-Simple-0.880
 "
+

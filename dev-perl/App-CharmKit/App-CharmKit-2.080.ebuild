@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMJS"
-DIST_VERSION="2.08"
-DIST_A="App-CharmKit-2.08.tar.gz"
+DIST_VERSION="2.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,6 @@ RDEPEND="
 	>=dev-perl/Import-Into-1.002.005
 	>=dev-perl/Path-Tiny-0.076
 	>=dev-perl/Rex-1.3.3
-	dev-perl/autobox
 	dev-perl/autobox-Core
 	>=dev-perl/boolean-0.450
 	dev-perl/true
@@ -30,5 +28,7 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

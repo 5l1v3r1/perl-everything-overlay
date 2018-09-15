@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFRIKA"
-DIST_VERSION="2.5"
-DIST_A="DBIx-FileSystem-2.5.tar.gz"
+DIST_VERSION="2.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

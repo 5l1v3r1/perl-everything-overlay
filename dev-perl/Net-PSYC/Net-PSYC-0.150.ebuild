@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AGOE"
-DIST_VERSION="0.15"
-DIST_A="Net-PSYC-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

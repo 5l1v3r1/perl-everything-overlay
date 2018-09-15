@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXM"
-DIST_VERSION="1.000001"
-DIST_A="Pod-POM-View-Restructured-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMK"
-DIST_VERSION="0.07"
-DIST_A="Module-CGI-Install-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-1.410
 	virtual/perl-Carp
 	virtual/perl-ExtUtils-Install
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Path
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Scalar-List-Utils-1.170
@@ -39,3 +38,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

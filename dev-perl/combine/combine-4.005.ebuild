@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AARDO"
-DIST_VERSION="4.005"
-DIST_A="combine_4.005.tar.gz"
+DIST_VERSION="4.005" 
+SRC_URI="mirror://cpan/authors/id/A/AA/AARDO/combine_4.005.tar.gz -> combine-4.005.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +45,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/combine_4.005 ${WORKDIR}/combine-4.005
+}
+

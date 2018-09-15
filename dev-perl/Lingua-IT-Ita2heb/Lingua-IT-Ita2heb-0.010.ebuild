@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AHARONI"
-DIST_VERSION="0.01"
-DIST_A="Lingua-IT-Ita2heb-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/Readonly
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="
@@ -27,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

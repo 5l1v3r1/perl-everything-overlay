@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKIYM"
-DIST_VERSION="1.37"
-DIST_A="APISchema-1.37.tar.gz"
+DIST_VERSION="1.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,9 +38,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
 	dev-perl/Test-Deep-JSON
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.980
 "
+

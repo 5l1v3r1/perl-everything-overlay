@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AEPAGE"
-DIST_VERSION="1.1091"
-DIST_A="Devel-ptkdb-1.1091.tar.gz"
+DIST_VERSION="1.1091" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

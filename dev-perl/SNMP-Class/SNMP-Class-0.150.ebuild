@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADUITSIS"
-DIST_VERSION="0.15"
-DIST_A="SNMP-Class-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

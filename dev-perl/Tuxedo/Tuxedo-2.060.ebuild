@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AFRYER"
-DIST_VERSION="2.06"
-DIST_A="Tuxedo-2.06.tar.gz"
+DIST_VERSION="2.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

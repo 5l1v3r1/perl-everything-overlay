@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="v1.0.8.0"
-DIST_A="Crypt-NaCl-Sodium-1.0.8.0.tar.gz"
+DIST_VERSION="1.0.8.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-File-Spec
 "
+

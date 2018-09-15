@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AJGB"
-DIST_VERSION="v1.0.8.0"
-DIST_A="Alien-Sodium-1.0.8.0.tar.gz"
+DIST_VERSION="1.0.8.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Alien-Base-0.021
+	>=dev-perl/Alien-Build-0.021
 	>=dev-perl/File-ShareDir-1.030
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

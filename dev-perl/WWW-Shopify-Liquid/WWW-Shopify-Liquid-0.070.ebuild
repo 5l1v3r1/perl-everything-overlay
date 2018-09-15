@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADAMDH"
-DIST_VERSION="0.07"
-DIST_A="WWW-Shopify-Liquid-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+

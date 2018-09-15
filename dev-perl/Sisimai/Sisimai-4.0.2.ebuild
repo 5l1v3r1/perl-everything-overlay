@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKXLIX"
-DIST_VERSION="v4.0.2"
-DIST_A="Sisimai-4.0.2.tar.gz"
+DIST_VERSION="4.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.980
 "
+

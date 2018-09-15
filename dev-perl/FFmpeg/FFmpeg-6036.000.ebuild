@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALLENDAY"
-DIST_VERSION="6036.0"
-DIST_A="FFmpeg-6036.tar.gz"
+DIST_VERSION="6036" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

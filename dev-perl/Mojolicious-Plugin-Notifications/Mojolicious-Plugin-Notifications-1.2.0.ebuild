@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKRON"
-DIST_VERSION="1.2.0"
-DIST_A="Mojolicious-Plugin-Notifications-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Mojo-Session-1.040
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ADOPTME"
-DIST_VERSION="1.132"
-DIST_A="HTTP-Cookies-iCab-1.132.tar.gz"
+DIST_VERSION="1.132" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.940
 "
+
