@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="webservicejamendo"
-DIST_VERSION="2.0"
-DIST_A="WebService-Jamendo_2.tar.gz"
+DIST_AUTHOR="CGLASS"
+DIST_VERSION="2" 
+SRC_URI="mirror://cpan/authors/id/C/CG/CGLASS/webservicejamendo/WebService-Jamendo_2.tar.gz -> WebService-Jamendo-2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-Jamendo_2 ${WORKDIR}/WebService-Jamendo-2
+}
+

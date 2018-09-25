@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKELLIS"
-DIST_VERSION="0.03"
-DIST_A="X11-Xlib-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Devel-CheckLib-1.3.0
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MPG"
 DIST_VERSION="0.04"
-DIST_A="POD-Credentials-0.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Class-Fields
+	dev-perl/base
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
@@ -26,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

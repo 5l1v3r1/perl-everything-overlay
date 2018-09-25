@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHIECHEO"
-DIST_VERSION="0.2.6"
-DIST_A="SQL-QueryBuilder-OO-0.2.6.tar.gz"
+DIST_VERSION="0.2.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

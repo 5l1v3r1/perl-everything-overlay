@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RFOLEY"
-DIST_VERSION="1.46"
-DIST_A="Oracle-Debug-1.46.tar.gz"
+DIST_VERSION="1.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

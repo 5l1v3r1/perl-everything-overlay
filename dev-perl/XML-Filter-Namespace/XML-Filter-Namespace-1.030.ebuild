@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SEMANTICO"
-DIST_VERSION="1.03"
-DIST_A="XML-Filter-Namespace-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

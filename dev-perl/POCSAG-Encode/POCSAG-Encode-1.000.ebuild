@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="POCSAG"
-DIST_VERSION="1.00"
-DIST_A="POCSAG-Encode-1.00.tar.gz"
+DIST_AUTHOR="HESSU"
+DIST_VERSION="1.00" 
+SRC_URI="mirror://cpan/authors/id/H/HE/HESSU/POCSAG/POCSAG-Encode-1.00.tar.gz -> POCSAG-Encode-1.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POCSAG-Encode-1.00 ${WORKDIR}/POCSAG-Encode-1.00
+}
+

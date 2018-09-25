@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDRP"
-DIST_VERSION="0.3.0"
-DIST_A="Test-Module-Runnable-0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
 DEPEND="
@@ -29,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Output
 "
+

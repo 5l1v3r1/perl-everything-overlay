@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UGEXE"
-DIST_VERSION="0.41"
-DIST_A="Text-Levenshtein-Damerau-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

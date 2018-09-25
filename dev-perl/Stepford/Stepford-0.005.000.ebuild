@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.005000"
-DIST_A="Stepford-0.005000.tar.gz"
+DIST_VERSION="0.005000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -52,3 +51,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie
 "
+

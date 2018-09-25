@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMAR"
-DIST_VERSION="0.1004"
-DIST_A="Wizard-LDAP-0.1004.tar.gz"
+DIST_VERSION="0.1004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

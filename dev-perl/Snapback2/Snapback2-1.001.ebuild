@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKEH"
-DIST_VERSION="1.001"
-DIST_A="Snapback2-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

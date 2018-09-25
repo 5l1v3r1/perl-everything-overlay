@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIMOTO"
-DIST_VERSION="0.0105"
-DIST_A="Rstats-0.0105.tar.gz"
+DIST_VERSION="0.0105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

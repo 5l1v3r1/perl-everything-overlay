@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REECE"
-DIST_VERSION="0.92"
-DIST_A="Prospect-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Carp-Assert-0.170
+	>=dev-perl/Error-0.150
+	>=dev-perl/IO-String-1.020
+	>=dev-perl/IO-stringy-2.102
+	>=dev-perl/URI-3.210
+	>=dev-perl/XML-Simple-2.090
+	>=virtual/perl-Data-Dumper-2.121
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

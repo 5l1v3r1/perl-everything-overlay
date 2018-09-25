@@ -41,5 +41,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.019
+	dev-perl/Module-Build
 "
 

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NCLEATON"
-DIST_VERSION="0.02"
-DIST_A="Sort-Bucket-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-Time-HiRes
 "
+

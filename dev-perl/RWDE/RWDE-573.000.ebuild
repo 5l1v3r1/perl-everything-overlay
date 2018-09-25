@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMJANP"
-DIST_VERSION="573.0"
-DIST_A="RWDE-573.tar.gz"
+DIST_VERSION="573" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

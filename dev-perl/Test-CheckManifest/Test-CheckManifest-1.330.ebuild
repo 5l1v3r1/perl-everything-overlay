@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENEEB"
-DIST_VERSION="1.33"
-DIST_A="Test-CheckManifest-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-CPAN-Meta-YAML
 "
+

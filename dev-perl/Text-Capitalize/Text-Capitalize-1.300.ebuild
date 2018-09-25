@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="1.3"
-DIST_A="Text-Capitalize-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ DEPEND="
 	>=dev-lang/perl-1.040
 	>=dev-perl/Env-1.000
 	dev-perl/PerlIO-locale
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAUKE"
-DIST_VERSION="0.02"
-DIST_A="Scope-OnExit-Wrap-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -24,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.560
 	virtual/perl-Test-Simple
 "
+

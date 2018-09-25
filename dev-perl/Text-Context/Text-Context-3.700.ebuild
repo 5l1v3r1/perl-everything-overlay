@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMTM"
-DIST_VERSION="3.7"
-DIST_A="Text-Context-3.7.tar.gz"
+DIST_VERSION="3.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

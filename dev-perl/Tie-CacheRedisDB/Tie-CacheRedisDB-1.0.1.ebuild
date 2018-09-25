@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INSPIRE"
-DIST_VERSION="v1.0.1"
-DIST_A="Tie-CacheRedisDB-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-FailWarnings-0.008
 	>=dev-perl/Test-Most-0.340
 "
+

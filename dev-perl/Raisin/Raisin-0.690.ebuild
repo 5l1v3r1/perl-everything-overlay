@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTKH"
-DIST_VERSION="0.69"
-DIST_A="Raisin-0.69.tar.gz"
+DIST_VERSION="0.69" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	>=virtual/perl-Test-Simple-0.880
 "
+

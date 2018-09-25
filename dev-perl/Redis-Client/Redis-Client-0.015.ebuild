@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRIEDO"
-DIST_VERSION="0.015"
-DIST_A="Redis-Client-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

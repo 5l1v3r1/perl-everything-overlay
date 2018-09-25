@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKF"
-DIST_VERSION="1.07"
-DIST_A="Template-Plugin-XML-LibXML-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

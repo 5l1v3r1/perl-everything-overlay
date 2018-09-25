@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DERF"
-DIST_VERSION="2.17"
-DIST_A="Travel-Routing-DE-VRR-2.17.tar.gz"
+DIST_VERSION="2.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAUKEX"
-DIST_VERSION="0.04"
-DIST_A="Shell-Tools-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Pod-Usage
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -33,3 +33,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	virtual/perl-Test-Simple
 "
+

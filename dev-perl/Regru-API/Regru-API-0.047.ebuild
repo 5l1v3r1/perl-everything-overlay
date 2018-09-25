@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMAGO"
-DIST_VERSION="0.047"
-DIST_A="Regru-API-0.047.tar.gz"
+DIST_VERSION="0.047" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	>=virtual/perl-Net-Ping-2.380
 	>=virtual/perl-Test-Simple-0.980
 "
+

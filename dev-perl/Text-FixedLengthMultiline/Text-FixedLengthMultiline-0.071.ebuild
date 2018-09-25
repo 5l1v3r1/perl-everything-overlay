@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="0.071"
-DIST_A="Text-FixedLengthMultiline-0.071.tar.gz"
+DIST_VERSION="0.071" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-1.010
 	virtual/perl-Test-Simple
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WYCHUNG"
-DIST_VERSION="0.01"
-DIST_A="pamlyn-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/W/WY/WYCHUNG/wychung/pamlyn-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/W/WY/WYCHUNG/wychung/pamlyn-0.01.tar.gz -> pamlyn-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/pamlyn-0.01 ${WORKDIR}/pamlyn-0.01
+}
+

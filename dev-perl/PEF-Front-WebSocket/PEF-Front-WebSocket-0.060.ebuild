@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANTONPETR"
-DIST_VERSION="0.06"
-DIST_A="PEF-Front-WebSocket-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Guard
 	virtual/perl-Test-Simple
 "
+

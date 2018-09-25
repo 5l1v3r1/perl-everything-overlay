@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWYN"
-DIST_VERSION="0.0902"
-DIST_A="POEx-HTTP-Server-0.0902.tar.gz"
+DIST_VERSION="0.0902" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

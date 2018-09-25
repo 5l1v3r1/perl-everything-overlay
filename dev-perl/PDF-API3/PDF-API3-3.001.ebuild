@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OTTO"
-DIST_VERSION="3.001"
-DIST_A="PDF-API3-3.001.tar.gz"
+DIST_VERSION="3.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="1.000008"
-DIST_A="WWW-Offliberty-1.000008.tar.gz"
+DIST_VERSION="1.000008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-RequiresInternet
 "
+

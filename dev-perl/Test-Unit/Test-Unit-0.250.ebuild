@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCAST"
-DIST_VERSION="0.25"
-DIST_A="Test-Unit-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,12 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
 	dev-perl/Class-Inner
 	dev-perl/Devel-Symdump
 	dev-perl/Error
+	>=dev-perl/base-1.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

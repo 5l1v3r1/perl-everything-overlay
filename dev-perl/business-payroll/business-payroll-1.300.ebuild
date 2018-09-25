@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="payroll"
-DIST_VERSION="1.3"
-DIST_A="business-payroll-1.3.tar.gz"
+DIST_AUTHOR="JAMESP"
+DIST_VERSION="1.3" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JAMESP/payroll/business-payroll-1.3.tar.gz -> business-payroll-1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/business-payroll-1.3 ${WORKDIR}/business-payroll-1.3
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCAPUTO"
-DIST_VERSION="0.053"
-DIST_A="Text-Conversation-0.053.tar.gz"
+DIST_VERSION="0.053" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.290
 	>=virtual/perl-Test-Simple-0.980
 "
+

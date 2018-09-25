@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THORGIS"
-DIST_VERSION="2.003003"
-DIST_A="Text-NumericData-2.003003.tar.gz"
+DIST_VERSION="2.003003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

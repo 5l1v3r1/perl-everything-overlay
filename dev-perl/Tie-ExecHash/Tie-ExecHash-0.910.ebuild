@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WINTER"
-DIST_VERSION="0.91"
-DIST_A="Tie-ExecHash-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

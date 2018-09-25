@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEPHEN"
-DIST_VERSION="0.994"
-DIST_A="X11-FullScreen-0.994.tar.gz"
+DIST_VERSION="0.994" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Kwalitee
 	virtual/perl-Test-Simple
 "
+

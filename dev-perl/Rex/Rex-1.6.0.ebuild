@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="1.6.0"
-DIST_A="Rex-1.6.0.tar.gz"
+DIST_VERSION="1.6.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -62,3 +61,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	virtual/perl-File-Temp
 "
+

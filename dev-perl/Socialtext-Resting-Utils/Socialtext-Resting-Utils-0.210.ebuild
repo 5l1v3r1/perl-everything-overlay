@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUKEC"
-DIST_VERSION="0.21"
-DIST_A="Socialtext-Resting-Utils-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=dev-perl/JSON-XS-2.010
 	>=dev-perl/Socialtext-Resting-0.270
 	dev-perl/Test-Mock-LWP
-	dev-perl/yaml
+	dev-perl/YAML
 	>=virtual/perl-Getopt-Long-2.360
 	virtual/perl-Test-Simple
 "
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

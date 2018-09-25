@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="0.27"
-DIST_A="PDL-Opt-QP-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/ExtUtils-F77
 	>=virtual/perl-ExtUtils-CBuilder-0.230
 "
+

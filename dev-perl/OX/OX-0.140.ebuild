@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.14"
-DIST_A="OX-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/Plack
 	>=dev-perl/Plack-App-Path-Router-0.050
 	dev-perl/Try-Tiny
-	>=dev-perl/Web-Request-0.050
+	dev-perl/Web-Request
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -37,7 +36,9 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

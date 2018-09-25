@@ -38,7 +38,7 @@ RDEPEND="
 	dev-perl/String-Truncate
 	dev-perl/Sub-Exporter
 	>=dev-perl/Template-Plugin-Class-0.120
-	dev-perl/Template-Toolkit
+	>=dev-perl/Template-Toolkit-2.000
 	dev-perl/YAML-LibYAML
 	dev-perl/base
 	dev-perl/libwww-perl
@@ -56,7 +56,7 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/DBD-SQLite-1.080
-	>=dev-perl/HTTP-Server-Simple-0.080
+	dev-perl/HTTP-Server-Simple
 	dev-perl/Test-File-ShareDir
 	>=dev-perl/Test-HTTP-Server-Simple-0.020
 	>=dev-perl/Test-WWW-Mechanize-1.040

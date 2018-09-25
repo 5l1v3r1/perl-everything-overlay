@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKINYON"
-DIST_VERSION="0.06"
-DIST_A="PDF-Writer-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.470
 "
+

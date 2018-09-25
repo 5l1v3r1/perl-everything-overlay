@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BANB"
-DIST_VERSION="0.81"
-DIST_A="UUID-Object-0.81.tar.gz"
+DIST_VERSION="0.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

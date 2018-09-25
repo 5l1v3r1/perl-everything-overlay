@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="1.0.3"
-DIST_A="Sietima-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.360
+	>=dev-lang/perl-1.420
 	>=dev-perl/Email-Address-1.908
 	>=dev-perl/Email-MIME-1.940
 	>=dev-perl/Email-Sender-1.300.031
@@ -43,3 +42,4 @@ DEPEND="
 	>=dev-perl/lib-0.630
 	>=virtual/perl-Test-Simple-1.302.086
 "
+

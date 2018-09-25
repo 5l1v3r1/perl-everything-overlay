@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCC"
-DIST_VERSION="0.0"
-DIST_A="Sympatic-0.0.tar.gz"
+DIST_VERSION="0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Kwalitee-1.270
 	>=virtual/perl-Test-Simple-1.302.120
 "
+

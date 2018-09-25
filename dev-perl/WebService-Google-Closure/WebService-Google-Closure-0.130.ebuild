@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MERIXZON"
-DIST_VERSION="0.13"
-DIST_A="WebService-Google-Closure-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/JSON
 	dev-perl/LWP-UserAgent-Mockable
-	dev-perl/Moose
+	>=dev-perl/Moose-1.090
 	dev-perl/MooseX-Types
 	dev-perl/Perl6-Junction
 	dev-perl/Test-Class
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

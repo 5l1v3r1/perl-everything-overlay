@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SSQQ"
-DIST_VERSION="2.03"
-DIST_A="Spp-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VYF"
-DIST_VERSION="0.13"
-DIST_A="Ouroboros-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/FFI-Platypus
 	dev-perl/FFI-Raw
 "
+

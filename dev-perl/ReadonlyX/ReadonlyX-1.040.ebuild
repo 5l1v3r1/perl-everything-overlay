@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="1.04"
-DIST_A="ReadonlyX-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

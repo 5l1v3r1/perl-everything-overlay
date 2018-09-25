@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PIOTO"
-DIST_VERSION="0.4000"
-DIST_A="Unix-Uptime-0.4000.tar.gz"
+DIST_VERSION="0.4000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-CBuilder
 "
+

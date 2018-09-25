@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FFAUTEUX"
-DIST_VERSION="0.01"
-DIST_A="Seeder-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Algorithm-Loops
-	dev-perl/BioPerl
 	dev-perl/List-MoreUtils
 	dev-perl/Math-Spline
 	virtual/perl-Carp
@@ -28,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

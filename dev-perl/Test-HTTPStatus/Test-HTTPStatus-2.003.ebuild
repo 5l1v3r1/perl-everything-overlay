@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="2.003"
-DIST_A="Test-HTTPStatus-2.003.tar.gz"
+DIST_VERSION="2.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTTP-SimpleLinkChecker-1.165
-	>=dev-perl/Mojolicious-6.000
+	dev-perl/Mojolicious
 	virtual/perl-Carp
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

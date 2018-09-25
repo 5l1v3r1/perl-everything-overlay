@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THARSCH"
-DIST_VERSION="0.81"
-DIST_A="Schedule-DRMAAc-0.81.tar.gz"
+DIST_VERSION="0.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

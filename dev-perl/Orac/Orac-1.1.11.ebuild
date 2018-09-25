@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYDUNC"
-DIST_VERSION="v1.1.11"
-DIST_A="Orac-1.1.11.tar.gz"
+DIST_VERSION="1.1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

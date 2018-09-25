@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUBINA"
-DIST_VERSION="0.51"
-DIST_A="Text-Categorize-Textrank-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

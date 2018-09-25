@@ -15,18 +15,18 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.140
+	>=dev-lang/perl-1.020
 	dev-perl/Clone-PP
 	dev-perl/File-HomeDir
 	>=dev-perl/Geometry-AffineTransform-1.300
 	>=dev-perl/Glib-Ex-ConnectProperties-14.000
-	dev-perl/Glib-Ex-ObjectBits
-	>=dev-perl/Gtk2-1.220
-	>=dev-perl/Gtk2-Ex-ComboBoxBits-5.000
+	>=dev-perl/Glib-Ex-ObjectBits-2.000
+	dev-perl/Gtk2
+	>=dev-perl/Gtk2-Ex-ComboBoxBits-31.000
 	>=dev-perl/Gtk2-Ex-Dragger-2.000
 	>=dev-perl/Gtk2-Ex-NumAxis-2.000
 	>=dev-perl/Gtk2-Ex-Splash-1.000
-	>=dev-perl/Gtk2-Ex-WidgetBits-10.000
+	>=dev-perl/Gtk2-Ex-WidgetBits-12.000
 	>=dev-perl/Gtk2-Ex-WidgetCursor-15.000
 	>=dev-perl/Image-Base-1.160
 	>=dev-perl/Image-Base-Gtk2-2.000
@@ -34,7 +34,7 @@ RDEPEND="
 	dev-perl/List-Pairwise
 	dev-perl/Math-Libm
 	>=dev-perl/Math-NumSeq-1.000
-	>=dev-perl/Math-PlanePath-83.000
+	dev-perl/Math-PlanePath
 	>=dev-perl/Math-Prime-XS-0.230
 	dev-perl/Module-Util
 	dev-perl/Number-Format

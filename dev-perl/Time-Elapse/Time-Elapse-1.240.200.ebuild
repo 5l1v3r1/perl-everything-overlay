@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGODIN"
-DIST_VERSION="1.2402"
-DIST_A="Time-Elapse-1.2402.tar.gz"
+DIST_VERSION="1.2402" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

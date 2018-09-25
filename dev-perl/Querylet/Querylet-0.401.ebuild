@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.401"
-DIST_A="Querylet-0.401.tar.gz"
+DIST_VERSION="0.401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/DBI
 	>=virtual/perl-Test-Simple-0.960
 "
+

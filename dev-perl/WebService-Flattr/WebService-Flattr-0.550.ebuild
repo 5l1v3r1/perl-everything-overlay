@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMHUKINS"
-DIST_VERSION="0.55"
-DIST_A="WebService-Flattr-0.55.tar.gz"
+DIST_VERSION="0.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

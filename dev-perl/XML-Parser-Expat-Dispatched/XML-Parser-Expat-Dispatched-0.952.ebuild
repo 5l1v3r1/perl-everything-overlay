@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATPATPAT"
-DIST_VERSION="0.952"
-DIST_A="XML-Parser-Expat-Dispatched-0.952.tar.gz"
+DIST_VERSION="0.952" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

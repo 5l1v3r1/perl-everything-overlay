@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WINKO"
-DIST_VERSION="1.13"
-DIST_A="String-BitCount-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

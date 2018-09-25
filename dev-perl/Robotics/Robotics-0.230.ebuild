@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="Robotics-023"
+DIST_AUTHOR="JCLINE"
 DIST_VERSION="0.23"
-DIST_A="Robotics-0.23.tar.bz2"
+DIST_A_EXT="tar.bz2" 
+SRC_URI="mirror://cpan/authors/id/J/JC/JCLINE/Robotics-023/Robotics-0.23.tar.bz2 -> Robotics-0.23.tar.bz2"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Robotics-0.23 ${WORKDIR}/Robotics-0.23
+}
+

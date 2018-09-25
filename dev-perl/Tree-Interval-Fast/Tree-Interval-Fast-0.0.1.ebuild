@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVULLO"
-DIST_VERSION="0.0.1"
-DIST_A="Tree-Interval-Fast-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-LeakTrace
 	virtual/perl-Test-Simple
 "
+

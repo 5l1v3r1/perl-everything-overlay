@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIWIROY"
-DIST_VERSION="0.06"
-DIST_A="Test-Applify-0.06.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Test-Applify-0.06.tar.gz"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Test-Applify-0.06.tar.gz -> Test-Applify-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,9 @@ DEPEND="
 	>=dev-perl/Test-Synopsis-0.150
 	>=virtual/perl-Test-Simple-0.900
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Applify-0.06 ${WORKDIR}/Test-Applify-0.06
+}
+

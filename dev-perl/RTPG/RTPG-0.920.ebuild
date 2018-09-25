@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNERA"
-DIST_VERSION="0.92"
-DIST_A="RTPG-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

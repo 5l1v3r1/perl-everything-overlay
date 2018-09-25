@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Teamspeak"
-DIST_VERSION="0.6"
-DIST_A="Teamspeak-0.6.tar.gz"
+DIST_AUTHOR="MALETIN"
+DIST_VERSION="0.6" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALETIN/Teamspeak/Teamspeak-0.6.tar.gz -> Teamspeak-0.6.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Teamspeak-0.6 ${WORKDIR}/Teamspeak-0.6
+}
+

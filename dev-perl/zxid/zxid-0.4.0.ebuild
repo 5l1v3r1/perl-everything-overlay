@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAMPO"
-DIST_VERSION="0.4.0"
-DIST_A="zxid-0.4.tgz"
+DIST_VERSION="0.4"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

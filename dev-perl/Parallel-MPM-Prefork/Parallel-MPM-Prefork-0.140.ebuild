@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CGPAN"
-DIST_VERSION="0.14"
-DIST_A="Parallel-MPM-Prefork-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+

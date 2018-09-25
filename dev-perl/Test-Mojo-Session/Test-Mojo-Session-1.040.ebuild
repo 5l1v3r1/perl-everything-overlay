@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVKHOZOV"
-DIST_VERSION="1.04"
-DIST_A="Test-Mojo-Session-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+

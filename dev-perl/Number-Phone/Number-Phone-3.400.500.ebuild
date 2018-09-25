@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="3.4005"
-DIST_A="Number-Phone-3.4005.tar.gz"
+DIST_VERSION="3.4005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	virtual/perl-ExtUtils-Manifest
 "
+

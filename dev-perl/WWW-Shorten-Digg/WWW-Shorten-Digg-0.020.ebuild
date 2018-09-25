@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="0.020"
-DIST_A="WWW-Shorten-Digg-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/WWW-Shorten-3.090
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -25,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

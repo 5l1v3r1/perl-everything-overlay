@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="PHOENIXL"
 DIST_VERSION="1.13"
-DIST_A="extensible_report_generator_1.13.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/P/PH/PHOENIXL/extensible_report_generator_1.13.zip -> extensible_report_generator-1.13.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/extensible_report_generator_1.13 ${WORKDIR}/extensible_report_generator-1.13
+}
+

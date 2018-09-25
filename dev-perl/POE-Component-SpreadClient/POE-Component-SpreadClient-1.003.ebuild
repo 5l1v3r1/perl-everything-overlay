@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="1.003"
-DIST_A="POE-Component-SpreadClient-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

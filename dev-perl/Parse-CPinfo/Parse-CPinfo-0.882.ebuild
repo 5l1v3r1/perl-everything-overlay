@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMLANGE"
-DIST_VERSION="0.882"
-DIST_A="Parse-CPinfo-0.882.tar.gz"
+DIST_VERSION="0.882" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.29"
-DIST_A="Tickit-Widgets-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Parser-MGC
 	dev-perl/Struct-Dumb
-	>=dev-perl/Tickit-0.630
+	dev-perl/Tickit
 	>=virtual/perl-Scalar-List-Utils-1.330
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.400
 	>=virtual/perl-Test-Simple-0.880
 "
+

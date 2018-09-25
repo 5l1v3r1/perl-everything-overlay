@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.21"
-DIST_A="Text-Trie-0.21.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="0.21" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/Text-Trie-0.21.tar.gz -> Text-Trie-0.21.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Trie-0.21 ${WORKDIR}/Text-Trie-0.21
+}
+

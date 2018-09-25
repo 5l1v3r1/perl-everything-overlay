@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RIZEN"
-DIST_VERSION="0.0500"
-DIST_A="Ouch-0.0500.tar.gz"
+DIST_VERSION="0.0500" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

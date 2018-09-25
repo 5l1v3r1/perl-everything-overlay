@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISTOTLE"
-DIST_VERSION="1.021"
-DIST_A="Sub-ArgShortcut-1.021.tar.gz"
+DIST_VERSION="1.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

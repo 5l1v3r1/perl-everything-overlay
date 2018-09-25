@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.03"
-DIST_A="Tree-Cladogram-1.03.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-Slurper-0.008
-	>=dev-perl/Imager-1.012
+	>=dev-perl/Imager-1.004
 	>=dev-perl/Moo-2.000.002
 	>=dev-perl/Pod-Usage-1.670
 	>=dev-perl/Tree-DAG-Node-1.270
@@ -34,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-1.302.052
 "
+

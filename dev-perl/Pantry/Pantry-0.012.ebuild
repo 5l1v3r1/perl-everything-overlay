@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.012"
-DIST_A="Pantry-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/IO-Prompt-Tiny
 	>=dev-perl/JSON-2.000
 	dev-perl/List-AllUtils
-	dev-perl/Moose
+	>=dev-perl/Moose-2.000
 	dev-perl/MooseX-Role-Parameterized
 	>=dev-perl/MooseX-Types-Path-Class-MoreCoercions-0.002
 	dev-perl/Net-OpenSSH
@@ -47,3 +46,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-parent
 "
+

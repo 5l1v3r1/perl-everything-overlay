@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVANYCH"
-DIST_VERSION="0.41"
-DIST_A="Test-BDD-Cucumber-Definitions-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,8 +36,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Compile
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-PerlTidy
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCAPUTO"
-DIST_VERSION="0.099"
-DIST_A="Reflex-0.099.tar.gz"
+DIST_VERSION="0.099" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

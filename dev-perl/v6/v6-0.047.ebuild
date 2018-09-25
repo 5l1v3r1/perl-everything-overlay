@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FGLOCK"
-DIST_VERSION="0.047"
-DIST_A="v6-0.047.tar.gz"
+DIST_VERSION="0.047" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

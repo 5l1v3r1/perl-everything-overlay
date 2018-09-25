@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOREAU"
-DIST_VERSION="0.39"
-DIST_A="URL-Normalize-0.39.tar.gz"
+DIST_VERSION="0.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.302.136
 "
+

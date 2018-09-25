@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ICHI"
-DIST_VERSION="v0.0.2"
-DIST_A="TRD-Uranai-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

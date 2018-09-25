@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="1.1.10"
-DIST_A="PkgForge-Server-1.1.10.tar.gz"
+DIST_VERSION="1.1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	>=virtual/perl-Test-Simple-0.870
 "
+

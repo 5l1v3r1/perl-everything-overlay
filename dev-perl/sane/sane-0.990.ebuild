@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PUNYTAN"
-DIST_VERSION="0.99"
-DIST_A="sane-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

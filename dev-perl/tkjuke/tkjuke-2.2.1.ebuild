@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUSOL"
-DIST_VERSION="v2.2.1"
-DIST_A="tkjuke-2.2.1.tar.gz"
+DIST_VERSION="2.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

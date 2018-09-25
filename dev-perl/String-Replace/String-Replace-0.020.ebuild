@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="String-Replace"
-DIST_VERSION="0.02"
-DIST_A="String-Replace-0.02.tar.gz"
+DIST_AUTHOR="MATHIAS"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MATHIAS/String-Replace/String-Replace-0.02.tar.gz -> String-Replace-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Subs
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/String-Replace-0.02 ${WORKDIR}/String-Replace-0.02
+}
+

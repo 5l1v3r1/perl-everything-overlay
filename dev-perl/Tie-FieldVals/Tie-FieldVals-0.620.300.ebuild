@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUBYKAT"
-DIST_VERSION="0.6203"
-DIST_A="Tie-FieldVals-0.6203.tar.gz"
+DIST_VERSION="0.6203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

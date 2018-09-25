@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIGELM"
-DIST_VERSION="0.05"
-DIST_A="Test-MTA-Exim4-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
+	dev-perl/base
 	virtual/perl-IPC-Cmd
 	virtual/perl-Test-Simple
 "
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 "
+

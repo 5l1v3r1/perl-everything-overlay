@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCMERTENS"
-DIST_VERSION="0.17"
-DIST_A="PDL-Graphics-Prima-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 "
+

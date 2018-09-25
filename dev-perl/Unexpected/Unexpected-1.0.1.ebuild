@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="1.0.1"
-DIST_A="Unexpected-1.0.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/unexpected/Unexpected-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/unexpected/Unexpected-1.0.1.tar.gz -> Unexpected-1.0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Unexpected-1.0.1 ${WORKDIR}/Unexpected-1.0.1
+}
+

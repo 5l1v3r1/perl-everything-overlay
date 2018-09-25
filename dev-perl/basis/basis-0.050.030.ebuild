@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SKNPP"
-DIST_VERSION="0.05003"
-DIST_A="basis-0.05003.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SK/SKNPP/basis/basis-0.05003.tar.gz"
+DIST_VERSION="0.05003" 
+SRC_URI="mirror://cpan/authors/id/S/SK/SKNPP/basis/basis-0.05003.tar.gz -> basis-0.05003.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/basis-0.05003 ${WORKDIR}/basis-0.05003
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IAN"
-DIST_VERSION="1.11"
-DIST_A="Text-KwikiFormatish-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

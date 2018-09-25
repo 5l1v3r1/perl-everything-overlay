@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRJONES"
-DIST_VERSION="0.34"
-DIST_A="TAP3-Tap3edit-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

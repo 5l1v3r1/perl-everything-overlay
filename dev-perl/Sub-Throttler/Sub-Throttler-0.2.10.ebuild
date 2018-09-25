@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/EV
 	dev-perl/Export-Attrs
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 	virtual/perl-Time-HiRes
 	virtual/perl-parent
 	>=virtual/perl-version-0.770

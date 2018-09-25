@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="v0.0.4"
-DIST_A="REST-Cypher-0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	dev-perl/Try-Tiny
 "
+

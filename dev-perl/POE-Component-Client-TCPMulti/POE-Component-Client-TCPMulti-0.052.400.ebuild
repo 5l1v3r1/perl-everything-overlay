@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAG"
-DIST_VERSION="0.0524"
-DIST_A="POE-Component-Client-TCPMulti-0.0524.tar.gz"
+DIST_VERSION="0.0524" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

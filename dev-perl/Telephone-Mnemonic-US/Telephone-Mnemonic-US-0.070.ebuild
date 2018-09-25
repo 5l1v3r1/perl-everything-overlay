@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANNIS"
-DIST_VERSION="0.07"
-DIST_A="Telephone-Mnemonic-US-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=dev-perl/Test-Spelling-0.150
 	>=dev-perl/Test-Strict-0.140
 "
+

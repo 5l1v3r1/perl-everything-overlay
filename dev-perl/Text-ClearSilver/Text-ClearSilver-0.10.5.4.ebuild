@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRAFTWORK"
-DIST_VERSION="v0.10.5.4"
-DIST_A="Text-ClearSilver-0.10.5.4.tar.gz"
+DIST_VERSION="0.10.5.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Devel-PPPort-3.190
-	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	dev-perl/Test-Requires
 	>=virtual/perl-ExtUtils-ParseXS-2.210
 	>=virtual/perl-Test-Simple-0.880
 "
+

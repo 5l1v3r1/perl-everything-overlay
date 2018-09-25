@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NWELLNHOF"
-DIST_VERSION="0.30"
-DIST_A="Plack-Middleware-XSLT-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/XML-LibXML-Cache-0.120
 "
+

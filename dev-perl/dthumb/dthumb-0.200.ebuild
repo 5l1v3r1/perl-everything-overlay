@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DERF"
-DIST_VERSION="0.2"
-DIST_A="dthumb-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
+	dev-perl/Test-Compile
+	dev-perl/Test-Pod
+	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SRVANCE"
 DIST_VERSION="0.11.1"
-DIST_A="P4-Server-0.11.1.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +23,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Module-Locate
 	virtual/perl-Test-Simple
 "
+

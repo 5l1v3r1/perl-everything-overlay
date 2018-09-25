@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INSPIRE"
-DIST_VERSION="v2.1.1"
-DIST_A="Suggest-PrePop-2.1.1.tar.gz"
+DIST_VERSION="2.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Most-0.340
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRODWITH"
-DIST_VERSION="0.02"
-DIST_A="XML-FeedPP-MediaRSS-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Tie-IxHash
 	virtual/perl-Test-Simple
 "
+

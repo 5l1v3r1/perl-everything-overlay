@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEKOKAK"
-DIST_VERSION="0.0203"
-DIST_A="Qudo-0.0203.tar.gz"
+DIST_VERSION="0.0203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

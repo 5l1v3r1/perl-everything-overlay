@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUUKI"
-DIST_VERSION="0.040"
-DIST_A="RRDTool-Rawish-0.040.tar.gz"
+DIST_VERSION="0.040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Mock-ExternalCommand
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+

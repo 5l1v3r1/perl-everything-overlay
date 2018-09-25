@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDICK"
-DIST_VERSION="0.12"
-DIST_A="Time-Zone-Olson-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local
 "
+

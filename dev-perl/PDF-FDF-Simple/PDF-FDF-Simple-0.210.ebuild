@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.21"
-DIST_A="PDF-FDF-Simple-0.21.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/pdf-fdf-simple/PDF-FDF-Simple-0.21.tar.gz"
+DIST_VERSION="0.21" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/pdf-fdf-simple/PDF-FDF-Simple-0.21.tar.gz -> PDF-FDF-Simple-0.21.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PDF-FDF-Simple-0.21 ${WORKDIR}/PDF-FDF-Simple-0.21
+}
+

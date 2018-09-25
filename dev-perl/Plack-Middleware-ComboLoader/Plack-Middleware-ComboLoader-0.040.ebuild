@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSHIRLEY"
-DIST_VERSION="0.04"
-DIST_A="Plack-Middleware-ComboLoader-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

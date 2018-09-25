@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ObjectivePerl"
-DIST_VERSION="0.04"
-DIST_A="ObjectivePerl-0.04.tar.gz"
+DIST_AUTHOR="KYLED"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/K/KY/KYLED/ObjectivePerl/ObjectivePerl-0.04.tar.gz -> ObjectivePerl-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ObjectivePerl-0.04 ${WORKDIR}/ObjectivePerl-0.04
+}
+

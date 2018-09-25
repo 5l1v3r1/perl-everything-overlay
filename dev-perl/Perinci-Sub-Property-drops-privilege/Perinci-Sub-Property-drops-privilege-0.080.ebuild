@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.08"
-DIST_A="Perinci-Sub-Property-drops_privilege-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-perl/Perinci-Sub-Wrapper-0.510
+	dev-perl/Perinci-Sub-Wrapper
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTP"
-DIST_VERSION="1.114400"
-DIST_A="Plack-Middleware-Pjax-1.114400.tar.gz"
+DIST_VERSION="1.114400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

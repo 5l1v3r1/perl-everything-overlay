@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIME"
-DIST_VERSION="1.0"
-DIST_A="Template-Plugin-Roman-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

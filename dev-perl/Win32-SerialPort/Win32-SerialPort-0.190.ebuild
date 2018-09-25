@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBIRTH"
-DIST_VERSION="0.19"
-DIST_A="Win32-SerialPort-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

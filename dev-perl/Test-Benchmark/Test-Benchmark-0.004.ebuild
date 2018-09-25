@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FDALY"
-DIST_VERSION="0.004"
-DIST_A="Test-Benchmark-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-1.000
 	dev-perl/Test-NoWarnings
-	>=virtual/perl-Test-Simple-0.103
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

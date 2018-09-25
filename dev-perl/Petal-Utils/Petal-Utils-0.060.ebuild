@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WMCKEE"
-DIST_VERSION="0.06"
-DIST_A="Petal-Utils-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.200
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

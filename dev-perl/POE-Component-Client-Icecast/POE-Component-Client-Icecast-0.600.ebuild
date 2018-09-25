@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARIFULN"
-DIST_VERSION="0.6"
-DIST_A="POE-Component-Client-Icecast-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

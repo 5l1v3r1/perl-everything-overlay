@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.08"
-DIST_A="Padre-Plugin-CSS-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/CSS-Minifier-XS
+	dev-perl/Module-Build
 	>=dev-perl/Padre-0.260
 	dev-perl/WebService-Validator-CSS-W3C
 	virtual/perl-Test-Simple
 "
+

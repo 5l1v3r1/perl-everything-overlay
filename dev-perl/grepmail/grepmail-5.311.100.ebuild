@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOPPIT"
-DIST_VERSION="5.3111"
-DIST_A="grepmail-5.3111.tar.gz"
+DIST_VERSION="5.3111" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "
+

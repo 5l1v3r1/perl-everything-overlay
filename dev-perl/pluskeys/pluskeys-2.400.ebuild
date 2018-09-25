@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMC"
-DIST_VERSION="2.4"
-DIST_A="pluskeys-2.4.tar.gz"
+DIST_VERSION="2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

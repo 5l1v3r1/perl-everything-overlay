@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.178"
-DIST_A="RDF-Flow-0.178.tar.gz"
+DIST_VERSION="0.178" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-RDF
 	>=virtual/perl-Test-Simple-0.880
 "
+

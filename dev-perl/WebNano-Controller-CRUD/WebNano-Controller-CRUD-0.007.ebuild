@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZBY"
-DIST_VERSION="0.007"
-DIST_A="WebNano-Controller-CRUD-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/HTML-FormHandler-Model-DBIC
 	dev-perl/Moose
 	dev-perl/MooseX-NonMoose
-	dev-perl/WebNano
+	>=dev-perl/WebNano-0.007
 	dev-perl/WebNano-Renderer-TT
 	virtual/perl-File-Spec
 "
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

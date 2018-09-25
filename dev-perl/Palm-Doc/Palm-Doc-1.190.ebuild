@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPB"
-DIST_VERSION="1.19"
-DIST_A="Palm-Doc-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/HTML-Parser
 	dev-perl/HTML-Tree
 	>=dev-perl/Palm-PDB-1.000
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="0.25"
-DIST_A="Test-CPAN-Meta-YAML-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Digest-SHA1-1.000
-	>=dev-perl/Test-YAML-Valid-0.030
+	dev-perl/Test-YAML-Valid
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-File-Temp-0.120
 	>=virtual/perl-Getopt-Long-2.240
-	virtual/perl-IO
+	>=virtual/perl-IO-1.000
 	>=virtual/perl-Pod-Simple-3.020
 	>=virtual/perl-Storable-1.000
 	>=virtual/perl-Test-Harness-1.250
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

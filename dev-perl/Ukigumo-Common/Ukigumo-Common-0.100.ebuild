@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.10"
-DIST_A="Ukigumo-Common-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

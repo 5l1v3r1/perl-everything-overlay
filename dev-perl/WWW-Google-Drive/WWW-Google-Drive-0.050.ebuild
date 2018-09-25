@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DINESHD"
-DIST_VERSION="0.05"
-DIST_A="WWW-Google-Drive-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Crypt-OpenSSL-RSA-0.200
 	>=dev-perl/File-MimeInfo-0.250
 	>=dev-perl/HTML-Parser-3.690
-	>=dev-perl/HTTP-Message-6.050
+	>=dev-perl/HTTP-Message-6.040
 	>=dev-perl/JSON-2.900
 	>=dev-perl/JSON-WebToken-0.100
 	>=dev-perl/Log-Log4perl-1.470
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

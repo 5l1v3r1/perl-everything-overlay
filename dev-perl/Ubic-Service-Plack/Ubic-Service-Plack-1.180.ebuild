@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.18"
-DIST_A="Ubic-Service-Plack-1.18.tar.gz"
+DIST_VERSION="1.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/Plack
 	dev-perl/Ubic
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

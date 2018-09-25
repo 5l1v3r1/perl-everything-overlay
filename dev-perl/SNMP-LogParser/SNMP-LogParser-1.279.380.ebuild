@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NITO"
-DIST_VERSION="1.27938"
-DIST_A="SNMP-LogParser-1.27938.tar.gz"
+DIST_VERSION="1.27938" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	dev-perl/Proc-ProcessTable
 	dev-perl/Statistics-Descriptive
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -39,3 +39,4 @@ DEPEND="
 	dev-perl/Test-SharedFork
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMALTSEV"
-DIST_VERSION="1.03"
-DIST_A="Spreadsheet-Write-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Unit-Lite-0.120.200
 	>=virtual/perl-Encode-2.900
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BRENTDAX"
 DIST_VERSION="0.03"
-DIST_A="Perl6-Interpolators-0.03.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUDDLEGG"
-DIST_VERSION="0.09"
-DIST_A="WebService-Cmis-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Signature
 	dev-perl/XML-SemanticDiff
 "
+

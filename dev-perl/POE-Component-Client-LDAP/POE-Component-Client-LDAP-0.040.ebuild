@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HACHI"
-DIST_VERSION="0.04"
-DIST_A="POE-Component-Client-LDAP-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,10 @@ RDEPEND="
 	dev-perl/Convert-ASN1
 	dev-perl/POE
 	dev-perl/POE-Wheel-Null
-	>=dev-perl/perl-ldap-0.310
+	dev-perl/perl-ldap
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

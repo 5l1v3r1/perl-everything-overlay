@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICKL"
-DIST_VERSION="0.007"
-DIST_A="WebService-EchoNest-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	virtual/perl-Test-Simple
 "
+

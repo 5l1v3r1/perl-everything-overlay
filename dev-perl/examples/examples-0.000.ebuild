@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SRIRAM"
-DIST_VERSION="0.0"
-DIST_A="examples.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/S/SR/SRIRAM/examples.tar.gz -> examples-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/examples ${WORKDIR}/examples-
+}
+

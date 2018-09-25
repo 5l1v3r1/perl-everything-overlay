@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHEDIN"
-DIST_VERSION="0.02"
-DIST_A="namespace-local-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.000
 	>=virtual/perl-Test-Simple-0.980
 "
+

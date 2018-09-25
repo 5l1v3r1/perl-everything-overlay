@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VTI"
-DIST_VERSION="0.990118"
-DIST_A="Text-Haml-0.990118.tar.gz"
+DIST_VERSION="0.990118" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 "
+

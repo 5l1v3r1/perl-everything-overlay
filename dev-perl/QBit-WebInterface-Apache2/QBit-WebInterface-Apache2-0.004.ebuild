@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.004"
-DIST_A="QBit-WebInterface-Apache2-0.004.tar.gz"
-b=M/MA/MADSKILL/QBit-WebInterface-Apache2-0.004.tar.gz
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

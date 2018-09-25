@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRAKRJACK"
-DIST_VERSION="0.04"
-DIST_A="Schema-RDBMS-AUS-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.27.03
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.200
 "
+

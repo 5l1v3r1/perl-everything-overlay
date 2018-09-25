@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPRIT"
-DIST_VERSION="1.59"
-DIST_A="ObjStore-1.59.tar.gz"
+DIST_VERSION="1.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

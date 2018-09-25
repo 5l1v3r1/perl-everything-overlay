@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.0601"
-DIST_A="WebService-Client-0.0601.tar.gz"
+DIST_VERSION="0.0601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-6.060
+	dev-perl/HTTP-Message
 	>=dev-perl/HTTP-Response-Stringable-0.000.200
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/Moo-1.005.000
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

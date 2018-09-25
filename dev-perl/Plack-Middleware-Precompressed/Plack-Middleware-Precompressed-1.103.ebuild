@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISTOTLE"
-DIST_VERSION="1.103"
-DIST_A="Plack-Middleware-Precompressed-1.103.tar.gz"
+DIST_VERSION="1.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Array-RefElem
-	dev-perl/Plack
+	>=dev-perl/Plack-0.994.200
 	virtual/perl-parent
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

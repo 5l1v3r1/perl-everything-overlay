@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUTRIJUS"
-DIST_VERSION="0.02"
-DIST_A="XML-RSS-Aggregate-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

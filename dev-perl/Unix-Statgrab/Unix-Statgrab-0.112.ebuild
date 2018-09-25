@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="0.112"
-DIST_A="Unix-Statgrab-0.112.tar.gz"
+DIST_VERSION="0.112" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-parent
 	>=virtual/perl-Test-Simple-0.900
 "
+

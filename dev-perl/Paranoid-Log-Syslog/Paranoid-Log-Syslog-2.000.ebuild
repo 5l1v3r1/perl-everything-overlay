@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Paranoid-Log-Syslog"
-DIST_VERSION="2.00"
-DIST_A="Paranoid-Log-Syslog-2.00.tar.gz"
+DIST_AUTHOR="CORLISS"
+DIST_VERSION="2.00" 
+SRC_URI="mirror://cpan/authors/id/C/CO/CORLISS/Paranoid-Log-Syslog/Paranoid-Log-Syslog-2.00.tar.gz -> Paranoid-Log-Syslog-2.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Paranoid-Log-Syslog-2.00 ${WORKDIR}/Paranoid-Log-Syslog-2.00
+}
+

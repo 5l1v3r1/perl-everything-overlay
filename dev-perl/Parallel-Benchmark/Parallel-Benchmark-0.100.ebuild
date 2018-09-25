@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FUJIWARA"
-DIST_VERSION="0.10"
-DIST_A="Parallel-Benchmark-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

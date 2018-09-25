@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVINCHI"
-DIST_VERSION="0.187"
-DIST_A="POE-Component-Client-Whois-Smart-0.187.tar.gz"
+DIST_VERSION="0.187" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PETERGAL"
-DIST_VERSION="1.3"
-DIST_A="PGForth1.3.tar.gz"
+DIST_VERSION="1.3" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PETERGAL/PGForth1.3.tar.gz -> PGForth-1.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PGForth1.3 ${WORKDIR}/PGForth-1.3
+}
+

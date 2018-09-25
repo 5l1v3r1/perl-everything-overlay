@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TINITA"
-DIST_VERSION="1.52"
-DIST_A="Tk-ColourChooser-1.52.tar.gz"
+DIST_VERSION="1.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

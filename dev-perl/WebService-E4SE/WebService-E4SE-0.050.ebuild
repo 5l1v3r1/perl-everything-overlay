@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="0.050"
-DIST_A="WebService-E4SE-0.050.tar.gz"
+DIST_VERSION="0.050" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	>=virtual/perl-Test-Simple-0.880
 "
+

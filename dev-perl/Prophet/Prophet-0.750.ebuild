@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPANG"
-DIST_VERSION="0.750"
-DIST_A="Prophet-0.750.tar.gz"
+DIST_VERSION="0.750" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,3 +54,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWOODYATT"
-DIST_VERSION="1.004"
-DIST_A="conjury-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

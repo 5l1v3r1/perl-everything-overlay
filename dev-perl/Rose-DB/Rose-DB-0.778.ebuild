@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIRACUSA"
-DIST_VERSION="0.778"
-DIST_A="Rose-DB-0.778.tar.gz"
+DIST_VERSION="0.778" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.57"
-DIST_A="WWW-Mechanize-Shell-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-HTTP-LocalServer-0.630
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.12"
-DIST_A="POE-Component-Client-DNS-Recursive-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Net-DNS-0.690
+	dev-perl/Net-DNS
 	dev-perl/Net-IP-Minimal
 	>=dev-perl/POE-1.004
 	>=virtual/perl-IO-Socket-IP-0.290
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

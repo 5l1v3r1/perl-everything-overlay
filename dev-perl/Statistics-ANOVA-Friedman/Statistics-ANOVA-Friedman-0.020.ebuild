@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGARTON"
-DIST_VERSION="0.02"
-DIST_A="Statistics-ANOVA-Friedman-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.421
 	>=virtual/perl-Test-Simple-0.980
 "
+

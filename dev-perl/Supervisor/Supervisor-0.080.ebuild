@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KESTEB"
-DIST_VERSION="0.08"
-DIST_A="Supervisor-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Set-Light-0.040
 	virtual/perl-Test-Simple
 "
+

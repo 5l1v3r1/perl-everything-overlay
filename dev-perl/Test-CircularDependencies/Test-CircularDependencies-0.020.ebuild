@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZABGAB"
-DIST_VERSION="0.02"
-DIST_A="Test-CircularDependencies-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	>=virtual/perl-File-Temp-0.010
 "
+

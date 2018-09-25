@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTH"
-DIST_VERSION="v0.0.1"
-DIST_A="Statistics-MVA-MultipleRegression-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Math-MatrixReal-2.5.0
+	>=dev-perl/Math-MatrixReal-2.050
 	>=dev-perl/Statistics-MVA-0.0.1
 	>=virtual/perl-Carp-1.080
 	>=virtual/perl-Scalar-List-Utils-1.190
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

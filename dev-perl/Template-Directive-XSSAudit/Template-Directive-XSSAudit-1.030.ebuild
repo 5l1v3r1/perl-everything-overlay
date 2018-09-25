@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBARTLE"
-DIST_VERSION="1.03"
-DIST_A="Template-Directive-XSSAudit-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	dev-perl/Template-Toolkit
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "
+

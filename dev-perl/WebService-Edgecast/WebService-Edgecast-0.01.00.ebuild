@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCONERLY"
-DIST_VERSION="v0.01.00"
-DIST_A="WebService-Edgecast-0.01.00.tar.gz"
+DIST_VERSION="0.01.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

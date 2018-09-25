@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Search"
-DIST_VERSION="0.04"
-DIST_A="Search-Glimpse-0.04.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Search/Search-Glimpse-0.04.tar.gz -> Search-Glimpse-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-0.080
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Search-Glimpse-0.04 ${WORKDIR}/Search-Glimpse-0.04
+}
+

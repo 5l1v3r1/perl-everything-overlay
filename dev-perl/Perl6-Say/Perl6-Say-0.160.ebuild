@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHORNY"
-DIST_VERSION="0.16"
-DIST_A="Perl6-Say-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

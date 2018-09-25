@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Test-Subs"
-DIST_VERSION="0.08"
-DIST_A="Test-Subs-0.08.tar.gz"
+DIST_AUTHOR="MATHIAS"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MATHIAS/Test-Subs/Test-Subs-0.08.tar.gz -> Test-Subs-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300.200
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Subs-0.08 ${WORKDIR}/Test-Subs-0.08
+}
+

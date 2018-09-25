@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="handy_tied_functions"
-DIST_VERSION="0.02"
-DIST_A="Tie-Hash-Cache-MRU-0.02.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/handy_tied_functions/Tie-Hash-Cache-MRU-0.02.tar.gz -> Tie-Hash-Cache-MRU-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tie-Hash-Cache-MRU-0.02 ${WORKDIR}/Tie-Hash-Cache-MRU-0.02
+}
+

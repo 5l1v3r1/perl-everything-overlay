@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANIEL"
-DIST_VERSION="0.9"
-DIST_A="Ogg-Vorbis-Decoder-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

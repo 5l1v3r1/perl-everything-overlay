@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLOYD"
-DIST_VERSION="0.0001"
-DIST_A="Python-Version-0.0001.tar.gz"
+DIST_VERSION="0.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test2-Suite
 "
+

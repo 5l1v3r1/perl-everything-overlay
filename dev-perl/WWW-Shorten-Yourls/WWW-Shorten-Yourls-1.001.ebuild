@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="1.001"
-DIST_A="WWW-Shorten-Yourls-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	>=dev-perl/URI-1.580
 	>=dev-perl/WWW-Shorten-3.090
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -34,3 +34,4 @@ DEPEND="
 	>=dev-perl/Try-Tiny-0.240
 	>=virtual/perl-Test-Simple-0.880
 "
+

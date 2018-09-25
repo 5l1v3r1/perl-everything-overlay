@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.14"
-DIST_A="POE-Component-Metabase-Client-Submit-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-5.824
+	>=dev-perl/HTTP-Message-5.814
 	>=dev-perl/JSON-2.170
 	>=dev-perl/Metabase-Fact-0.003
 	>=dev-perl/POE-1.299
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

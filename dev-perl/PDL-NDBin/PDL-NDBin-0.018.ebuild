@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EBAUDREZ"
-DIST_VERSION="0.018"
-DIST_A="PDL-NDBin-0.018.tar.gz"
+DIST_VERSION="0.018" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="2.13"
-DIST_A="Shell-Cmd-2.13.tar.gz"
+DIST_VERSION="2.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Inter
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKEEFER"
-DIST_VERSION="0.29"
-DIST_A="eBay-API-Simple-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

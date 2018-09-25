@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCAPUTO"
-DIST_VERSION="0.949"
-DIST_A="POE-Component-Client-HTTP-0.949.tar.gz"
+DIST_VERSION="0.949" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-5.810
+	>=dev-perl/HTTP-Message-5.811
 	>=dev-perl/Net-HTTP-5.812
 	>=dev-perl/POE-1.312
 	>=dev-perl/POE-Component-Client-Keepalive-0.271
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

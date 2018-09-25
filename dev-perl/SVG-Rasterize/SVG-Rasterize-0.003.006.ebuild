@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LGEHLEN"
-DIST_VERSION="0.003006"
-DIST_A="SVG-Rasterize-0.003006.tar.gz"
+DIST_VERSION="0.003006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.080
 	>=virtual/perl-Test-Simple-0.800
 "
+

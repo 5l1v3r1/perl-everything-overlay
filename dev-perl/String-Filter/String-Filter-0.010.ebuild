@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZUHO"
-DIST_VERSION="0.01"
-DIST_A="String-Filter-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/URI
 	>=virtual/perl-Test-Simple-0.880
 "
+

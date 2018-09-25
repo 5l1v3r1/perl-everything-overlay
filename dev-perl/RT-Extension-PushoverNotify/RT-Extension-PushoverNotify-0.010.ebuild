@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RINGERC"
-DIST_VERSION="0.01"
-DIST_A="RT-Extension-PushoverNotify-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RI/RINGERC/RT/Extension/PushoverNotify/RT-Extension-PushoverNotify-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/R/RI/RINGERC/RT/Extension/PushoverNotify/RT-Extension-PushoverNotify-0.01.tar.gz -> RT-Extension-PushoverNotify-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RT-Extension-PushoverNotify-0.01 ${WORKDIR}/RT-Extension-PushoverNotify-0.01
+}
+

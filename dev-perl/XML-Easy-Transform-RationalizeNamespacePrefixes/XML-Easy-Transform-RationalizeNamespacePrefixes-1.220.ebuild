@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKF"
-DIST_VERSION="1.22"
-DIST_A="XML-Easy-Transform-RationalizeNamespacePrefixes-1.22.tar.gz"
+DIST_VERSION="1.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-XML-Easy
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UGEXE"
-DIST_VERSION="3.2"
-DIST_A="Text-Levenshtein-Damerau-XS-3.2.tar.gz"
+DIST_VERSION="3.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-CPAN-Meta-Requirements-2.120.920
 	virtual/perl-Test-Simple
 "
+

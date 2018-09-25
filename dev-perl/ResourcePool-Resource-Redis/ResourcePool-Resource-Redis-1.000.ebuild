@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SEBNOW"
-DIST_VERSION="1.0"
-DIST_A="ResourcePool-Resource-Redis-1.tar.gz"
+DIST_VERSION="1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.011
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

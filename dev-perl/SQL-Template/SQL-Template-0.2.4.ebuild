@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICEPERL"
-DIST_VERSION="0.2.4"
-DIST_A="SQL-Template-0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/DBD-SQLite-1.250
 	>=virtual/perl-Test-Simple-0.880
 "
+

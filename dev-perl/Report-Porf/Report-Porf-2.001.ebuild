@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPR"
-DIST_VERSION="2.001"
-DIST_A="Report-Porf-2.001.tar.gz"
+DIST_VERSION="2.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

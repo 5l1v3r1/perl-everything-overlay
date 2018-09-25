@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="0.0106"
-DIST_A="POE-Component-IRC-Plugin-WWW-CPANRatings-RSS-0.0106.tar.gz"
+DIST_VERSION="0.0106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

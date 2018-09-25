@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="RT-Extension-MenubarUserTickets"
-DIST_VERSION="1.1"
-DIST_A="RT-Extension-MenubarUserTickets-1.1.tar.gz"
+DIST_AUTHOR="DUMB"
+DIST_VERSION="1.1" 
+SRC_URI="mirror://cpan/authors/id/D/DU/DUMB/RT-Extension-MenubarUserTickets/RT-Extension-MenubarUserTickets-1.1.tar.gz -> RT-Extension-MenubarUserTickets-1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RT-Extension-MenubarUserTickets-1.1 ${WORKDIR}/RT-Extension-MenubarUserTickets-1.1
+}
+

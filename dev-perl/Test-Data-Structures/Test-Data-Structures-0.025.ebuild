@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SETITESUK"
-DIST_VERSION="0.025"
-DIST_A="Test-Data-Structures-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.300
 	dev-perl/Test-Exception
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZENTOOO"
-DIST_VERSION="0.10"
-DIST_A="Plack-App-Proxy-Selective-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Most
 	>=virtual/perl-Test-Simple-0.960
 "
+

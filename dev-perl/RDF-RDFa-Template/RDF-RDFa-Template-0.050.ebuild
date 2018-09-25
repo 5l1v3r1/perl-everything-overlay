@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.05"
-DIST_A="RDF-RDFa-Template-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	>=dev-perl/RDF-RDFa-Parser-1.000
 	>=dev-perl/RDF-Trine-0.114
 	dev-perl/RDF-Trine-Node-Literal-XML
-	>=dev-perl/XML-LibXML-1.590
+	dev-perl/XML-LibXML
 	dev-perl/XML-SAX-Base
 "
 DEPEND="
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-XML
 	>=virtual/perl-Test-Simple-0.880
 "
+

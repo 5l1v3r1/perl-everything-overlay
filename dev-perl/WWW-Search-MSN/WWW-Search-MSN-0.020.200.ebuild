@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0202"
-DIST_A="WWW-Search-MSN-0.0202.tar.gz"
+DIST_VERSION="0.0202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTML-Tree
-	>=dev-perl/WWW-Search-2.523
+	>=dev-perl/WWW-Search-2.265
 	virtual/perl-Encode
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

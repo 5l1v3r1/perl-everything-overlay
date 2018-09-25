@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDONELAN"
-DIST_VERSION="v0.7.2.20090730"
-DIST_A="PSPP-Perl-0.7.2.20090730.tar.gz"
+DIST_VERSION="0.7.2.20090730" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

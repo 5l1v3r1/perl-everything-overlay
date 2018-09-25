@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TODDR"
-DIST_VERSION="2.84"
-DIST_A="Razor2-Client-Agent-2.84.tar.gz"
+DIST_VERSION="2.84" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

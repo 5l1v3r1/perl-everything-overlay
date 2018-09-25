@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAXJAZMAN"
-DIST_VERSION="0.08"
-DIST_A="RT-IODEF-0.08.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/RT/RT-IODEF-0.08.tar.gz"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/RT/RT-IODEF-0.08.tar.gz -> RT-IODEF-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RT-IODEF-0.08 ${WORKDIR}/RT-IODEF-0.08
+}
+

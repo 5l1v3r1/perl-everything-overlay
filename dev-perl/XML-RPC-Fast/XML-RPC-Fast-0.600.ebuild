@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MONS"
-DIST_VERSION="0.6"
-DIST_A="XML-RPC-Fast-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

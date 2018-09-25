@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Text"
-DIST_VERSION="0.25"
-DIST_A="Text-RewriteRules-0.25.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.25" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Text/Text-RewriteRules-0.25.tar.gz -> Text-RewriteRules-0.25.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-RewriteRules-0.25 ${WORKDIR}/Text-RewriteRules-0.25
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="0.0.16"
-DIST_A="Plack-Middleware-XSRFBlock-0.0.16.tar.gz"
+DIST_VERSION="0.0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

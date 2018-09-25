@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARMAND"
-DIST_VERSION="0.03"
-DIST_A="Pod-Weaver-Section-SQL-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/Pod-Elemental
-	>=dev-perl/Pod-Weaver-4.002
+	dev-perl/Pod-Weaver
 	dev-perl/SQL-Abstract
 	dev-perl/SQL-Statement
 	virtual/perl-Carp
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Differences
 	virtual/perl-Test-Simple
 "
+

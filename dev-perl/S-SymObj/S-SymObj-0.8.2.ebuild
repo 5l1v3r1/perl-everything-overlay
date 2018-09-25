@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDAODEN"
-DIST_VERSION="0.8.2"
-DIST_A="S-SymObj-0.8.2.tar.gz"
+DIST_VERSION="0.8.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

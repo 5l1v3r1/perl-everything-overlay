@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PETERSHAW"
-DIST_VERSION="0.001"
-DIST_A="Told-Client-0.001.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PE/PETERSHAW/Told-Client/Told-Client-0.001.tar.gz"
+DIST_VERSION="0.001" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PETERSHAW/Told-Client/Told-Client-0.001.tar.gz -> Told-Client-0.001.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,9 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Told-Client-0.001 ${WORKDIR}/Told-Client-0.001
+}
+

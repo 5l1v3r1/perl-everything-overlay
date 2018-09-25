@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CVICENTE"
-DIST_VERSION="1.0"
-DIST_A="Text-DHCPLeases-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

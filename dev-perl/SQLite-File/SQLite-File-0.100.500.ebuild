@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJENSEN"
-DIST_VERSION="0.1005"
-DIST_A="SQLite_File-0.1005.tar.gz"
+DIST_VERSION="0.1005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Harness
 "
+

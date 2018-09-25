@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.99"
-DIST_A="Test-Alien-CPP-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Build-1.210
+	>=dev-perl/Alien-Build-1.000
 	dev-perl/ExtUtils-CppGuess
 	>=dev-perl/Test2-Suite-0.000.060
 	virtual/perl-ExtUtils-CBuilder
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

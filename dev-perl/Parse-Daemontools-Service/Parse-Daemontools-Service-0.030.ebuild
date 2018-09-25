@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="0.03"
-DIST_A="Parse-Daemontools-Service-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.030
 	dev-perl/Devel-Cover
+	dev-perl/Module-Build
 	>=dev-perl/Test-Time-0.040
 	>=virtual/perl-Test-Simple-0.880
 "
+

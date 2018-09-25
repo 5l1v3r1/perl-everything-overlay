@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRUX"
-DIST_VERSION="0.04"
-DIST_A="Protocol-TLS-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=dev-perl/AnyEvent-7.000
+	dev-perl/Module-Build
 	>=dev-perl/Test-TCP-2.060
 	>=virtual/perl-Test-Simple-0.980
 "
+

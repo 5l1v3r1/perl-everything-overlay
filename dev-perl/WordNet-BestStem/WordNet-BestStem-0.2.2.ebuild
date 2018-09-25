@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAGGIEXYZ"
-DIST_VERSION="v0.2.2"
-DIST_A="WordNet-BestStem-0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

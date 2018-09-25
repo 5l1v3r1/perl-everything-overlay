@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GSEAMAN"
-DIST_VERSION="0.0"
-DIST_A="XML-DB.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/G/GS/GSEAMAN/XML-DB.tar.gz -> XML-DB-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-DB ${WORKDIR}/XML-DB-
+}
+

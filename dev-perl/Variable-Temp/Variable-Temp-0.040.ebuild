@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPIT"
-DIST_VERSION="0.04"
-DIST_A="Variable-Temp-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.39"
-DIST_A="Task-Kensho-WebCrawling-0.39.tar.gz"
+DIST_VERSION="0.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
+	dev-perl/HTTP-Thin
+	dev-perl/WWW-Mechanize
+	dev-perl/WWW-Mechanize-TreeBuilder
+	dev-perl/libwww-perl
+	virtual/perl-HTTP-Tiny
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
+	virtual/perl-File-Spec
+	virtual/perl-Module-Metadata
+	virtual/perl-Test-Simple
 "
+

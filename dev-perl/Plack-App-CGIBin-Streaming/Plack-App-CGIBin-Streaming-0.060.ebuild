@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OPI"
-DIST_VERSION="0.06"
-DIST_A="Plack-App-CGIBin-Streaming-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

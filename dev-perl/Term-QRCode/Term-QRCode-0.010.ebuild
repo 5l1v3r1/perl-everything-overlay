@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YAPPO"
-DIST_VERSION="0.01"
-DIST_A="Term-QRCode-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Text-QRCode
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

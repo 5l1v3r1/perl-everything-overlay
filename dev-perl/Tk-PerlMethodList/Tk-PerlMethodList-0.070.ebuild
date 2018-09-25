@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAMPRECHT"
-DIST_VERSION="0.07"
-DIST_A="Tk-PerlMethodList-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,14 +15,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-0.960
 	>=dev-perl/Class-Inspector-1.170
 	>=dev-perl/File-Slurp-9999.080
 	>=dev-perl/MRO-Compat-0.020
-	>=dev-perl/Tk-8.400
+	>=dev-perl/Tk-4.006
 	>=dev-perl/Tk-GBARR-2.060
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="0.0.21"
-DIST_A="Zucchini-0.0.21.tar.gz"
+DIST_VERSION="0.0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Pod-Usage
 	dev-perl/Template-Toolkit
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -42,5 +42,7 @@ DEPEND="
 	dev-perl/Test-File-Contents
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-UseAllModules
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

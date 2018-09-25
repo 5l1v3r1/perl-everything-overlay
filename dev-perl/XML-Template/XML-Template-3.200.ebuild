@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EMRYS"
-DIST_VERSION="3.20"
-DIST_A="XML-Template-3.20.tar.gz"
+DIST_VERSION="3.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

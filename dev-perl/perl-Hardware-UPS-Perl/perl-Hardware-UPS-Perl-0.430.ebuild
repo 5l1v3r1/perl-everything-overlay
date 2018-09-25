@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="UPS"
-DIST_VERSION="0.43"
-DIST_A="perl-Hardware-UPS-Perl-0.43.tar.gz"
+DIST_AUTHOR="DRULENSOT"
+DIST_VERSION="0.43" 
+SRC_URI="mirror://cpan/authors/id/D/DR/DRULENSOT/UPS/perl-Hardware-UPS-Perl-0.43.tar.gz -> perl-Hardware-UPS-Perl-0.43.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Env
 	dev-perl/IO-Stty
 	dev-perl/MailTools
 	dev-perl/TimeDate
-	perl-core/Env
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
@@ -29,10 +29,15 @@ RDEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Tie-RefHash
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 	virtual/perl-libnet
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/perl-Hardware-UPS-Perl-0.43 ${WORKDIR}/perl-Hardware-UPS-Perl-0.43
+}
+

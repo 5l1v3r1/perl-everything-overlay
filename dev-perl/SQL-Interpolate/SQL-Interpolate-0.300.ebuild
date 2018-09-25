@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMANURA"
-DIST_VERSION="0.30"
-DIST_A="SQL-Interpolate-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

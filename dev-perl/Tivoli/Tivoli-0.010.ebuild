@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RHASE"
-DIST_VERSION="0.01"
-DIST_A="Tivoli_0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/R/RH/RHASE/Tivoli_0.01.tar.gz -> Tivoli-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tivoli_0.01 ${WORKDIR}/Tivoli-0.01
+}
+

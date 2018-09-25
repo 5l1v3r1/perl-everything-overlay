@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRUX"
-DIST_VERSION="1.09"
-DIST_A="Protocol-HTTP2-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/AnyEvent
+	dev-perl/Module-Build
 	dev-perl/Test-LeakTrace
 	dev-perl/Test-TCP
 	>=virtual/perl-Test-Simple-0.980
 "
+

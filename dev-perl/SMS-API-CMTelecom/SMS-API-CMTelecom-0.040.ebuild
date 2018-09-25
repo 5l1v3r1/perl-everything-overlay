@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSONNTAG"
-DIST_VERSION="0.04"
-DIST_A="SMS-API-CMTelecom-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

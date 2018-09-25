@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.22"
-DIST_A="Test-JsonAPI-Autodoc-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Plack
 	dev-perl/Test-Mock-LWP-Conditional
 "
+

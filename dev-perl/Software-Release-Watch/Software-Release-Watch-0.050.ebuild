@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.05"
-DIST_A="Software-Release-Watch-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,6 @@ RDEPEND="
 	>=dev-perl/Perinci-Sub-Gen-AccessTable-0.550
 	dev-perl/Perinci-Sub-Property-result-table
 	>=dev-perl/SemVer-0.3.0
-	>=dev-perl/Software-Catalog-0.030
 	dev-perl/WWW-Mechanize
 	dev-perl/experimental
 	virtual/perl-Exporter
@@ -38,3 +36,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SRSHAH"
-DIST_VERSION="0.11"
-DIST_A="Probe-MachineInfo-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

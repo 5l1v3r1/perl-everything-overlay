@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GROMMIER"
-DIST_VERSION="0.49"
-DIST_A="Text-Editor-Easy-0.49.tar.gz"
+DIST_VERSION="0.49" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test
 "
+

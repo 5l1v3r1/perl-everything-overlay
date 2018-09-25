@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="1.4"
-DIST_A="POE-Component-Client-eris-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KABLAMO"
-DIST_VERSION="0.34"
-DIST_A="Term-Vspark-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	dev-perl/Test-Most
 "
+

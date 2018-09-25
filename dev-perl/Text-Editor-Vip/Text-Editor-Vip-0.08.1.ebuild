@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="0.08.1"
-DIST_A="Text-Editor-Vip-0.08.1.tar.gz"
+DIST_VERSION="0.08.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Block
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-Warn
 "
+

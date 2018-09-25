@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.050"
-DIST_A="Test-Moose-More-0.050.tar.gz"
+DIST_VERSION="0.050" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,8 @@ RDEPEND="
 	dev-perl/Sub-Exporter-Progressive
 	dev-perl/Syntax-Keyword-Junction
 	virtual/perl-Carp
-	virtual/perl-Scalar-List-Utils
-	virtual/perl-Test-Simple
+	>=virtual/perl-Scalar-List-Utils-1.450
+	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="
 	${RDEPEND}
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

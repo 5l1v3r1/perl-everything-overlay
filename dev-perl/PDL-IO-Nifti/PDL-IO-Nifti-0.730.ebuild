@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="PDL-IO-Nifti"
-DIST_VERSION="0.73"
-DIST_A="PDL-IO-Nifti-0.73.tar.gz"
+DIST_AUTHOR="FANTASMA"
+DIST_VERSION="0.73" 
+SRC_URI="mirror://cpan/authors/id/F/FA/FANTASMA/PDL-IO-Nifti/PDL-IO-Nifti-0.73.tar.gz -> PDL-IO-Nifti-0.73.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PDL-IO-Nifti-0.73 ${WORKDIR}/PDL-IO-Nifti-0.73
+}
+

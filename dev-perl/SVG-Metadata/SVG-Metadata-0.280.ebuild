@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRYCE"
-DIST_VERSION="0.28"
-DIST_A="SVG-Metadata-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-lang/perl-2.600
+	>=dev-perl/Pod-Usage-1.140
 	>=dev-perl/XML-Twig-3.150
 	>=virtual/perl-File-Path-1.040.400
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-Getopt-Long-2.250
-	>=virtual/perl-Pod-Usage-1.140
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

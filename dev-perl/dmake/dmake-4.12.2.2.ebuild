@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SHAY"
 DIST_VERSION="4.12.2.2"
-DIST_A="dmake-4.12.2.2.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

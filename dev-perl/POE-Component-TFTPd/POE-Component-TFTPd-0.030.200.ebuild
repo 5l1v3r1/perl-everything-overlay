@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEVO"
-DIST_VERSION="0.0302"
-DIST_A="POE-Component-TFTPd-0.0302.tar.gz"
+DIST_VERSION="0.0302" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

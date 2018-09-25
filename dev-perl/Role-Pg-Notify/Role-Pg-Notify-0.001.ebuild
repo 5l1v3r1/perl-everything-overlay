@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAARE"
-DIST_VERSION="0.001"
-DIST_A="Role-Pg-Notify-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Class
 	dev-perl/Test-Pod-Coverage
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

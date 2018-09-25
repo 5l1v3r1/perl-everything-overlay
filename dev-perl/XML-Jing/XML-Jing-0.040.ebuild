@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BYUTRG"
-DIST_VERSION="0.04"
-DIST_A="XML-Jing-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Env-Path
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/Inline
+	dev-perl/Inline-Java
 	dev-perl/Path-Tiny
 	virtual/perl-Carp
 "
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

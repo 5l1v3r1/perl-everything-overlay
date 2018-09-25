@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGDUDE"
-DIST_VERSION="0.003001"
-DIST_A="WWW-USF-Directory-0.003001.tar.gz"
+DIST_VERSION="0.003001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/URI
 	>=virtual/perl-Test-Simple-0.940
 "
+

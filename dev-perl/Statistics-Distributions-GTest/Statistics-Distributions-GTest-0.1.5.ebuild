@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTH"
-DIST_VERSION="v0.1.5"
-DIST_A="Statistics-Distributions-GTest-0.1.5.tar.gz"
+DIST_VERSION="0.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELLIOTT"
-DIST_VERSION="0.02"
-DIST_A="Task-BeLike-FELLIOTT-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,8 +39,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-EOL
 	dev-perl/Test-NoTabs
 	>=dev-perl/Test-Pod-1.410
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EINHVERFR"
-DIST_VERSION="2.0"
-DIST_A="PGObject-Util-PseudoCSV-2.tar.gz"
+DIST_VERSION="2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

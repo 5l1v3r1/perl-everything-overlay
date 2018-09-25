@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAG"
-DIST_VERSION="0.014"
-DIST_A="POE-Component-Pool-DBI-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

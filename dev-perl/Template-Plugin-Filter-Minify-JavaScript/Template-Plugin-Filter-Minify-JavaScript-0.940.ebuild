@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.94"
-DIST_A="Template-Plugin-Filter-Minify-JavaScript-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JavaScript-Minifier
-	>=dev-perl/Template-Toolkit-2.000
+	dev-perl/Template-Toolkit
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+

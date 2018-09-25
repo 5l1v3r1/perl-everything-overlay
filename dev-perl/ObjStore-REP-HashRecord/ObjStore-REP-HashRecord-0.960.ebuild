@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPRIT"
-DIST_VERSION="0.96"
-DIST_A="ObjStore-REP-HashRecord-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

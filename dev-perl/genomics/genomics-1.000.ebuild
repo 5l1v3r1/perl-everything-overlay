@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="test"
-DIST_VERSION="01.0"
-DIST_A="genomics.01.tar.gz"
+DIST_AUTHOR="LTBOOTS"
+DIST_VERSION="01" 
+SRC_URI="mirror://cpan/authors/id/L/LT/LTBOOTS/test/genomics.01.tar.gz -> genomics-01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/genomics.01 ${WORKDIR}/genomics-01
+}
+

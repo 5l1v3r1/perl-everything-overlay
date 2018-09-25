@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POWERMAN"
-DIST_VERSION="0.1.1"
-DIST_A="Sub-Throttler-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

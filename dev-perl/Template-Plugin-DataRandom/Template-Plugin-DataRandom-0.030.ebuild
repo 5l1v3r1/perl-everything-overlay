@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TUCO"
-DIST_VERSION="0.03"
-DIST_A="Template-Plugin-DataRandom-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Random-0.050
-	>=dev-perl/Template-Toolkit-2.700
+	>=dev-perl/Template-Toolkit-2.200
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

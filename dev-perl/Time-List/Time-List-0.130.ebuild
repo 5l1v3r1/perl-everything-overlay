@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOSIN"
-DIST_VERSION="0.13"
-DIST_A="Time-List-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.980
 	>=virtual/perl-Time-Piece-1.240
 "
+

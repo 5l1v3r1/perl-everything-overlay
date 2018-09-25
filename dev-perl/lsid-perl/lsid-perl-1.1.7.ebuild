@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EKAWAS"
-DIST_VERSION="1.1.7"
-DIST_A="lsid-perl-1.1.7.tar.gz"
+DIST_VERSION="1.1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

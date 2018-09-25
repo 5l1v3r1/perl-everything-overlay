@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EDSTER"
-DIST_VERSION="0.05"
-DIST_A="Roku-LCD-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

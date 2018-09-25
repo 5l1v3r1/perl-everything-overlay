@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLLOYD"
-DIST_VERSION="1.03"
-DIST_A="WebService-SendGrid-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.960
 "
+

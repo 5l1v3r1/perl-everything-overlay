@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LKUNDRAK"
-DIST_VERSION="0.92"
-DIST_A="WL-0.92.tar.gz"
-b=L/LK/LKUNDRAK/WL-0.92tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LK/LKUNDRAK/WL-0.92.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

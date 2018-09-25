@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MONS"
-DIST_VERSION="0.0603"
-DIST_A="XML-Hash-LX-0.0603.tar.gz"
+DIST_VERSION="0.0603" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

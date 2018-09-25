@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.001"
-DIST_A="Noose-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Acme-Damn
 	dev-perl/Sub-Name
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
@@ -25,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.960
 "
+

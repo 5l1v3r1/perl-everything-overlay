@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.09"
-DIST_A="PkgConfig-LibPkgConf-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Alien-pkgconf-0.120
 	>=virtual/perl-Test-Simple-0.940
 "
+

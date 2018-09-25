@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISTOTLE"
-DIST_VERSION="1.001"
-DIST_A="Pod-Readme-Brief-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="tie-proxy-changes"
-DIST_VERSION="0.2"
-DIST_A="Tie-Proxy-Changes-0.2.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="0.2" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/tie-proxy-changes/Tie-Proxy-Changes-0.2.tar.gz -> Tie-Proxy-Changes-0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +24,11 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-NoWarnings
-	dev-perl/Test-YAML-Meta
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tie-Proxy-Changes-0.2 ${WORKDIR}/Tie-Proxy-Changes-0.2
+}
+

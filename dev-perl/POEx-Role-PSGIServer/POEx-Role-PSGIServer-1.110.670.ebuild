@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRODWITH"
-DIST_VERSION="1.110670"
-DIST_A="POEx-Role-PSGIServer-1.110670.tar.gz"
+DIST_VERSION="1.110670" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

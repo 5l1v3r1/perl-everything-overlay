@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="0.02"
-DIST_A="autobox-Bless-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,6 @@ RDEPEND="
 	>=dev-lang/perl-1.040
 	>=dev-perl/Devel-Caller-2.050
 	>=dev-perl/Devel-Gladiator-0.010
-	>=dev-perl/autobox-2.700
 	>=virtual/perl-Data-Dumper-0.001
 	>=virtual/perl-Scalar-List-Utils-0.001
 "
@@ -27,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.460
 "
+

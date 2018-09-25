@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.72"
-DIST_A="POE-Filter-LZO-1.72.tar.gz"
+DIST_VERSION="1.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Compress-LZO-1.080
-	>=dev-perl/POE-0.380
+	dev-perl/POE
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDB"
-DIST_VERSION="0.58"
-DIST_A="Win32-Clipboard-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

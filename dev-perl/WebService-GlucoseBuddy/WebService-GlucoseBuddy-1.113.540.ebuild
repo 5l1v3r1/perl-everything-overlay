@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CUBABIT"
-DIST_VERSION="1.113540"
-DIST_A="WebService-GlucoseBuddy-1.113540.tar.gz"
+DIST_VERSION="1.113540" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,4 +32,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=dev-perl/Test-MockObject-1.201.106.120
+	>=dev-perl/URI-1.590
+	>=virtual/perl-Test-Simple-0.980
 "
+

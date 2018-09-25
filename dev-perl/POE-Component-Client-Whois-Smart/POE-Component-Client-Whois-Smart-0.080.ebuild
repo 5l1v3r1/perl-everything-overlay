@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAYKOT"
-DIST_VERSION="0.08"
-DIST_A="POE-Component-Client-Whois-Smart-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

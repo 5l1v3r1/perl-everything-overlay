@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSCUST"
-DIST_VERSION="2.21"
-DIST_A="ParseLex-2.21.tar.gz"
+DIST_VERSION="2.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

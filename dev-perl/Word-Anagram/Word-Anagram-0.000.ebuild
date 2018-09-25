@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MANFREDI"
-DIST_VERSION="0.0"
-DIST_A="Word-Anagram.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MANFREDI/Word-Anagram.tar.gz -> Word-Anagram-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Word-Anagram ${WORKDIR}/Word-Anagram-
+}
+

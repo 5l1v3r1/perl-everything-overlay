@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JIMI"
-DIST_VERSION="0.04"
-DIST_A="Tk-MIMEApp-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,10 @@ RDEPEND="
 	>=dev-perl/MIME-Multipart-Parse-Ordered-0.030
 	>=dev-perl/Tk-5.000
 	>=dev-perl/Tk-MarkdownTk-0.070
-	>=dev-perl/YAML-Perl-0.020
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

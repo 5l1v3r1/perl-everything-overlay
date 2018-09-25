@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WATERKIP"
-DIST_VERSION="0.3"
-DIST_A="Text-Continuation-Parser-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-autodie
 	virtual/perl-if
 "
+

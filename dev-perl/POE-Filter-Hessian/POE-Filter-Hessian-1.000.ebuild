@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEYTRAV"
-DIST_VERSION="1.00"
-DIST_A="POE-Filter-Hessian-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MPGHF"
-DIST_VERSION="2.87"
-DIST_A="SVN-Notify-2.87.tar.gz"
+DIST_VERSION="2.87" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.170
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.103"
-DIST_A="XML-LibXML-Debugging-0.103.tar.gz"
+DIST_VERSION="0.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	>=virtual/perl-Test-Simple-0.610
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDERRICK"
-DIST_VERSION="1.11"
-DIST_A="Orze-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.201
 	virtual/perl-Test-Simple
 "
+

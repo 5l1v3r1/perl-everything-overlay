@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NCLEATON"
-DIST_VERSION="0.04"
-DIST_A="Test-NameNote-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Script-Run
 	virtual/perl-File-Temp
 "
+

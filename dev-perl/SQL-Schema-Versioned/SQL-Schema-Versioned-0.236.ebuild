@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.236"
-DIST_A="SQL-Schema-Versioned-0.236.tar.gz"
+DIST_VERSION="0.236" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-IO
 "
+

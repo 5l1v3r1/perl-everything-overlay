@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHENGANG"
-DIST_VERSION="0.12"
-DIST_A="Redis-Term-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

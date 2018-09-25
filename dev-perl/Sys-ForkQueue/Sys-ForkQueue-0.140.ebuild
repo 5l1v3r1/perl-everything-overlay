@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEX"
-DIST_VERSION="0.14"
-DIST_A="Sys-ForkQueue-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

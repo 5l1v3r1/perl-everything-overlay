@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.05"
-DIST_A="XML-Chain-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Aliases
 	dev-perl/Try-Tiny
-	>=dev-perl/XML-LibXML-2.010.000
+	>=dev-perl/XML-LibXML-2.010
 "
 DEPEND="
 	${RDEPEND}
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Pod-Simple
 "
+

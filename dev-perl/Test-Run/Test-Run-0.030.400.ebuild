@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0304"
-DIST_A="Test-Run-0.0304.tar.gz"
+DIST_VERSION="0.0304" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,10 +24,11 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	>=virtual/perl-File-Spec-0.600
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Harness-2.530
+	>=virtual/perl-Test-Harness-3.090
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 	dev-perl/Test-Trap
 "
+

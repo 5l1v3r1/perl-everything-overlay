@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MAXSCHUBE"
 DIST_VERSION="1.0"
-DIST_A="Schedule-Week-1.0.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

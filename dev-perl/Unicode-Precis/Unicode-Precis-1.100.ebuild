@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEZUMI"
-DIST_VERSION="1.100"
-DIST_A="Unicode-Precis-1.100.tar.gz"
+DIST_VERSION="1.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.450
 	dev-lang/perl
 "
+

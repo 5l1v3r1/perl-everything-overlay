@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKOV"
-DIST_VERSION="0.94"
-DIST_A="XML-Compile-C14N-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

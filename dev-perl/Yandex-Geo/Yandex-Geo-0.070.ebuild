@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAVELSR"
-DIST_VERSION="0.07"
-DIST_A="Yandex-Geo-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PNU"
-DIST_VERSION="0.102"
-DIST_A="Plack-Middleware-Cache-CHI-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAWALSH"
-DIST_VERSION="v0.1.2"
-DIST_A="Xporter-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/mem-0.4.5
 	>=virtual/perl-Test-Simple-0.440
 "
+

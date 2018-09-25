@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICHIELB"
-DIST_VERSION="0.23"
-DIST_A="SMS-Send-Nexmo-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

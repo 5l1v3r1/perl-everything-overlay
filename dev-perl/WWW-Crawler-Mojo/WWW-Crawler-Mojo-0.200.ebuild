@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAMADAM"
-DIST_VERSION="0.20"
-DIST_A="WWW-Crawler-Mojo-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-UseAllModules-0.100
 	>=virtual/perl-Test-Simple-0.980
 "
+

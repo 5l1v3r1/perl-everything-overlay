@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDORMAN"
-DIST_VERSION="0.001"
-DIST_A="Plack-Middleware-LogAny-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

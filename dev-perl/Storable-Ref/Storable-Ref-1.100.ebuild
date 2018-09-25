@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="VANY"
 DIST_VERSION="1.1"
-DIST_A="Storable-Ref-1.1.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

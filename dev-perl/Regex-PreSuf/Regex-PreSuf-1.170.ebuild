@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHI"
-DIST_VERSION="1.17"
-DIST_A="Regex-PreSuf-1.17.tar.gz"
+DIST_VERSION="1.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

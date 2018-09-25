@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUPUISARN"
-DIST_VERSION="0.5"
-DIST_A="Slackware-Slackget-Network-Connection-DEBUG-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Slackware-Slackget-0.140
 	virtual/perl-Test-Simple
 "
+

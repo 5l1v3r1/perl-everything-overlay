@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEPPU"
-DIST_VERSION="0.000059"
-DIST_A="Tie-Array-Pointer-0.000059.tar.gz"
+DIST_VERSION="0.000059" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

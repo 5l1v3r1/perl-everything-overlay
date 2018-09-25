@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.65"
-DIST_A="Tickit-0.65.tar.gz"
+DIST_VERSION="0.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,6 @@ DEPEND="
 	dev-perl/Test-Identity
 	dev-perl/Test-Refcount
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
+

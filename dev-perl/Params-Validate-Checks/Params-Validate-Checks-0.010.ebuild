@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMYLERS"
-DIST_VERSION="0.01"
-DIST_A="Params-Validate-Checks-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RADIUSCZ"
-DIST_VERSION="1.001"
-DIST_A="SMS-Send-CZ-Bulkgate-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

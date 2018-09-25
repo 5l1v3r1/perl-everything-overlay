@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0131"
-DIST_A="Test-Run-CmdLine-0.0131.tar.gz"
+DIST_VERSION="0.0131" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	dev-perl/MooseX-Getopt
+	>=dev-perl/MooseX-Getopt-0.260
 	>=dev-perl/Test-Run-0.012.600
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML-LibYAML
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Trap
 	virtual/perl-Test-Simple
 "
+

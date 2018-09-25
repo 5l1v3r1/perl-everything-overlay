@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROZARY"
-DIST_VERSION="0.016"
-DIST_A="Time-Piece-Over24-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Time-Piece-MySQL
 	virtual/perl-Test-Simple
 "
+

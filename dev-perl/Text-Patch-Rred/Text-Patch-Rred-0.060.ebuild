@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBOHM"
-DIST_VERSION="0.06"
-DIST_A="Text-Patch-Rred-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.000
 	>=dev-perl/Test-Pod-Coverage-1.000
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

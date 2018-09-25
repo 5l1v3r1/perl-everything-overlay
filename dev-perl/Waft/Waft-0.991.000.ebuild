@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAMASHIRO"
-DIST_VERSION="0.9910"
-DIST_A="Waft-0.9910.tar.gz"
+DIST_VERSION="0.9910" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

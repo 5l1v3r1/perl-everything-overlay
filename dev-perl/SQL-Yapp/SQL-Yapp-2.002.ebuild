@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THEILING"
-DIST_VERSION="2.002"
-DIST_A="SQL-Yapp-2.002.tar.gz"
+DIST_VERSION="2.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

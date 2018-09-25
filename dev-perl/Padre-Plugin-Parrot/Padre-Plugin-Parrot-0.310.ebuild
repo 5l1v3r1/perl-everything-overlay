@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AZAWAWI"
-DIST_VERSION="0.31"
-DIST_A="Padre-Plugin-Parrot-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Locale-Msgfmt-0.150
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVENL"
-DIST_VERSION="0.64"
-DIST_A="Test-Mocha-0.64.tar.gz"
+DIST_VERSION="0.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Devel-PartialDump-0.170
-	>=dev-perl/Type-Tiny-0.008
+	dev-perl/Type-Tiny
 	dev-perl/UNIVERSAL-ref
 	dev-perl/experimental
 	>=virtual/perl-Carp-1.220
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	dev-perl/lib
 "
+

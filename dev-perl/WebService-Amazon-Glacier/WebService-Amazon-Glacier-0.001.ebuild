@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWIMMER"
-DIST_VERSION="0.001"
-DIST_A="WebService-Amazon-Glacier-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

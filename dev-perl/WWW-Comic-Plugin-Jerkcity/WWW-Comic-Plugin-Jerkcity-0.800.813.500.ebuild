@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTP"
-DIST_VERSION="0.8008135"
-DIST_A="WWW-Comic-Plugin-Jerkcity-0.8008135.tar.gz"
+DIST_VERSION="0.8008135" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GHARPER"
-DIST_VERSION="0.03"
-DIST_A="Test-DBIx-Class-Factory-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.330
 	>=dev-perl/Test-Pod-Coverage-1.080
 "
+

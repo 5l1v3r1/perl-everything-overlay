@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SNOWHARE"
-DIST_VERSION="1.05"
-DIST_A="Tie-FileLRUCache-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

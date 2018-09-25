@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Lingua"
-DIST_VERSION="0.02"
-DIST_A="Task-Lingua-PT-0.02.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Task-Lingua-PT-0.02.tar.gz -> Task-Lingua-PT-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Task-Lingua-PT-0.02 ${WORKDIR}/Task-Lingua-PT-0.02
+}
+

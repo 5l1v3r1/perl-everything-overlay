@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENEEB"
-DIST_VERSION="1.4"
-DIST_A="OTRS-OPM-Maker-Command-sopm-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

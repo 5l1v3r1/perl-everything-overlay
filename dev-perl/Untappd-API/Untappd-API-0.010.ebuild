@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RLOPES"
-DIST_VERSION="0.01"
-DIST_A="Untappd-API-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

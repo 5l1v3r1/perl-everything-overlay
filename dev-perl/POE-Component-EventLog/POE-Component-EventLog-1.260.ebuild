@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.26"
-DIST_A="POE-Component-Win32-EventLog-1.26.tar.gz"
+DIST_VERSION="1.26" 
+SRC_URI="mirror://cpan/authors/id/B/BI/BINGOS/POE-Component-Win32-EventLog-1.26.tar.gz -> POE-Component-EventLog-1.26.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-1.005
 	dev-perl/Win32
 	dev-perl/Win32-EventLog
 "
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POE-Component-Win32-EventLog-1.26 ${WORKDIR}/POE-Component-EventLog-1.26
+}
+

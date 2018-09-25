@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEKK"
-DIST_VERSION="0.2405"
-DIST_A="Passwd-Keyring-Memory-0.2405.tar.gz"
+DIST_VERSION="0.2405" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Pod-Readme
 	virtual/perl-Test-Simple
 "
+

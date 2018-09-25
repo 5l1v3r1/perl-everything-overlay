@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESUS"
-DIST_VERSION="v3.17.4.4"
-DIST_A="Spread-3.17.4.4.tar.gz"
+DIST_VERSION="3.17.4.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

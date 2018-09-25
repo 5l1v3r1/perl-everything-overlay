@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.02"
-DIST_A="Perlbal-Control-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Moose-0.320
 	>=dev-perl/MooseX-Control-0.020
 	dev-perl/Proc-ProcessTable
 	virtual/perl-Test-Simple
 "
+

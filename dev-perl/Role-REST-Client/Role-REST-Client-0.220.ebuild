@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAARE"
-DIST_VERSION="0.22"
-DIST_A="Role-REST-Client-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,10 @@ RDEPEND="
 	dev-perl/Data-Serializer
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Thin
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003.000
 	>=dev-perl/MooX-HandlesVia-0.001.004
 	dev-perl/Try-Tiny
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.024
 	>=dev-perl/URI-Escape-XS-0.110
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -46,3 +45,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
+

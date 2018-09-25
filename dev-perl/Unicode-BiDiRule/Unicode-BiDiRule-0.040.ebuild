@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEZUMI"
-DIST_VERSION="0.04"
-DIST_A="Unicode-BiDiRule-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.260
 	>=virtual/perl-Test-Simple-0.450
 "
+

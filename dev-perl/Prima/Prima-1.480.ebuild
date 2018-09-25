@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARASIK"
-DIST_VERSION="1.48"
-DIST_A="Prima-1.48.tar.gz"
+DIST_VERSION="1.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

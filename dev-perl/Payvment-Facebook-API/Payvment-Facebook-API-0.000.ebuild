@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GOYALI"
-DIST_VERSION="0.0"
-DIST_A="Payvment-Facebook-API.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/G/GO/GOYALI/Payvment-Facebook-API.tar.gz -> Payvment-Facebook-API-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Payvment-Facebook-API ${WORKDIR}/Payvment-Facebook-API-
+}
+

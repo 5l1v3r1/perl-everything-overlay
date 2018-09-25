@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISILLITOE"
-DIST_VERSION="0.11"
-DIST_A="WebService-Cath-FuncNet-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.640
 	>=dev-perl/MooseX-Types-0.080
 	>=dev-perl/Readonly-1.030
-	>=dev-perl/URI-4.180
+	>=dev-perl/URI-1.370
 	>=dev-perl/XML-Compile-1.050
 	>=dev-perl/XML-Compile-SOAP-2.040
 	>=dev-perl/XML-Compile-WSDL11-2.040
@@ -31,4 +30,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

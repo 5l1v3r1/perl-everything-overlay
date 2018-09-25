@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDAWSON"
-DIST_VERSION="0.898"
-DIST_A="Smil-0.898.tar.gz"
+DIST_VERSION="0.898" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

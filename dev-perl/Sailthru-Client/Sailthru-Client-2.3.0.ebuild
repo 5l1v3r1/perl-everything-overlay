@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WZHANG"
-DIST_VERSION="2.3.0"
-DIST_A="Sailthru-Client-2.3.0.tar.gz"
+DIST_VERSION="2.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/Readonly
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
@@ -30,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

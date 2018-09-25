@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLENNWOOD"
-DIST_VERSION="3.05"
-DIST_A="Scraper-3.05.tar.gz"
+DIST_VERSION="3.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ RDEPEND="
 	>=dev-perl/User-1.050
 	>=dev-perl/WWW-Search-2.350
 	dev-perl/XML-XPath
-	>=dev-perl/libwww-perl-5.480
+	dev-perl/libwww-perl
 	>=virtual/perl-Storable-0.600
 	>=virtual/perl-Text-ParseWords-3.200
 "
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

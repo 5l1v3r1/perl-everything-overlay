@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.02"
-DIST_A="Perl6ish-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,10 +27,11 @@ RDEPEND="
 	>=dev-perl/Perl6-Slurp-0.030
 	>=dev-perl/Perl6-Take-0.040
 	>=dev-perl/Readonly-1.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Scalar-List-Utils-1.190
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

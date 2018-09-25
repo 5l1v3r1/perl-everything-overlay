@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="1.012"
-DIST_A="POE-Component-SSLify-1.012.tar.gz"
+DIST_VERSION="1.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,9 +28,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	dev-perl/Test-FailWarnings
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Socket
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

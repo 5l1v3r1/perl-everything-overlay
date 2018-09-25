@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.15"
-DIST_A="Path-Router-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.240
 	>=dev-perl/Clone-PP-1.040
 	>=dev-perl/Eval-Closure-0.130
 	>=dev-perl/Moo-2.000.001
@@ -37,3 +36,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.012
 	virtual/perl-IO
 "
+

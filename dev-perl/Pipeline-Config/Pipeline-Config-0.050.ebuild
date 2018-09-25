@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPURKIS"
-DIST_VERSION="0.05"
-DIST_A="Pipeline-Config-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.200
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

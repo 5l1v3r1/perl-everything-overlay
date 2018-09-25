@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDO"
-DIST_VERSION="1.012"
-DIST_A="Set-Bag-1.012.tar.gz"
+DIST_VERSION="1.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.560
 	>=virtual/perl-Test-Simple-0.980
 "
+

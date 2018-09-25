@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLIVE"
-DIST_VERSION="1.04"
-DIST_A="Win32-StreamNames-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

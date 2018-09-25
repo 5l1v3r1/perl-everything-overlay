@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPINNE"
-DIST_VERSION="0.04"
-DIST_A="meon-Web-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -68,3 +67,4 @@ DEPEND="
 	>=dev-perl/Module-Build-SysPath-0.130
 	dev-perl/Test-Most
 "
+

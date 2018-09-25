@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.001"
-DIST_A="Pod-Elemental-Transformer-List-Converter-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Moose
 	dev-perl/Moose-Autobox
-	>=dev-perl/Pod-Elemental-0.102.361
+	dev-perl/Pod-Elemental
 	dev-perl/namespace-autoclean
 "
 DEPEND="
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOUTER"
-DIST_VERSION="0.3.1"
-DIST_A="SReview-0.3.1.tar.gz"
+DIST_VERSION="0.3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

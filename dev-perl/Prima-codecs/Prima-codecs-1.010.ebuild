@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KARASIK"
-DIST_VERSION="1.01"
-DIST_A="Prima-codecs-win32-1.01.tar.gz"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/K/KA/KARASIK/Prima-codecs-win32-1.01.tar.gz -> Prima-codecs-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Prima-codecs-win32-1.01 ${WORKDIR}/Prima-codecs-1.01
+}
+

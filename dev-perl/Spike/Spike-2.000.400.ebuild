@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SILENCER"
-DIST_VERSION="2.0004"
-DIST_A="Spike-2.0004.tar.gz"
+DIST_VERSION="2.0004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	dev-perl/TimeDate
 	dev-perl/base
 	virtual/perl-Carp
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.450
 	virtual/perl-Time-HiRes
 "
 DEPEND="
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

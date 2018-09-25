@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.09"
-DIST_A="Padre-Plugin-HTML-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/HTML-Lint
 	dev-perl/HTML-Tidy
+	dev-perl/Module-Build
 	>=dev-perl/Padre-0.260
 	dev-perl/WebService-Validator-HTML-W3C
 	dev-perl/XML-XPath
 	virtual/perl-Test-Simple
 "
+

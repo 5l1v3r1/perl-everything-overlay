@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOLILA"
-DIST_VERSION="0.0.5"
-DIST_A="Plack-Middleware-Auth-BrowserID-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Compile
 	>=virtual/perl-Test-Simple-0.980
 "
+

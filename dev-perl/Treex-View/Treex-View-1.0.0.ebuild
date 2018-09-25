@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICHALS"
-DIST_VERSION="v1.0.0"
-DIST_A="Treex-View-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

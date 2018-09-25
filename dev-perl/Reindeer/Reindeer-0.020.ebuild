@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.020"
-DIST_A="Reindeer-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
 	dev-perl/Import-Into
-	>=dev-perl/Moose-2.140.000
+	>=dev-perl/Moose-1.150
 	dev-perl/Moose-Autobox
 	>=dev-perl/MooseX-AbstractMethod-0.003
 	>=dev-perl/MooseX-AlwaysCoerce-0.160
@@ -53,5 +52,6 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EBAUDREZ"
-DIST_VERSION="0.13"
-DIST_A="Test-PDL-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/PDL-2.004
+	dev-perl/PDL
 	dev-perl/Test-Deep
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="0.004"
-DIST_A="Parallel-Pipes-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

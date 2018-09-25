@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BSUGARS"
-DIST_VERSION="0.24"
-DIST_A="nsapi_perl-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

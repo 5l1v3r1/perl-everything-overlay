@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SERVAL"
-DIST_VERSION="0.7.8"
-DIST_A="Sort-Naturally-ICU-0.7.8.tar.gz"
+DIST_VERSION="0.7.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.010"
-DIST_A="QBit-Application-Model-Multistate-DB-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/QBit-Application-Model-Multistate
+	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

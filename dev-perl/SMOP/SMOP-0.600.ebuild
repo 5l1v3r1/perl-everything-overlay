@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMURIAS"
-DIST_VERSION="0.6"
-DIST_A="SMOP-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.270
 	>=virtual/perl-File-Path-2.080
 "
+

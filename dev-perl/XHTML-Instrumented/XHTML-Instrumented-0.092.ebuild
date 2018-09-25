@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAM"
-DIST_VERSION="0.092"
-DIST_A="XHTML-Instrumented-0.092.tar.gz"
+DIST_VERSION="0.092" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Warn
 	dev-perl/Test-XML
 	>=dev-perl/Test-XML-Order-0.030
 "
+

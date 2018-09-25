@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SBALA"
-DIST_VERSION="1.0"
-DIST_A="jp_beta_1.tar.gz"
+DIST_VERSION="1" 
+SRC_URI="mirror://cpan/authors/id/S/SB/SBALA/jp_beta_1.tar.gz -> jp_beta-1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/jp_beta_1 ${WORKDIR}/jp_beta-1
+}
+

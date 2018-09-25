@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.005"
-DIST_A="Task-MasteringPerl-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -147,3 +146,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

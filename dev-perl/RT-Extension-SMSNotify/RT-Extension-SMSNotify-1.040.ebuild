@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RINGERC"
-DIST_VERSION="1.04"
-DIST_A="RT-Extension-SMSNotify-1.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RI/RINGERC/RT/Extension/SMSNotify/RT-Extension-SMSNotify-1.04.tar.gz"
+DIST_VERSION="1.04" 
+SRC_URI="mirror://cpan/authors/id/R/RI/RINGERC/RT/Extension/SMSNotify/RT-Extension-SMSNotify-1.04.tar.gz -> RT-Extension-SMSNotify-1.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ DEPEND="
 	>=dev-perl/Module-Install-ReadmeFromPod-0.200
 	>=virtual/perl-Test-Simple-0.470
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RT-Extension-SMSNotify-1.04 ${WORKDIR}/RT-Extension-SMSNotify-1.04
+}
+

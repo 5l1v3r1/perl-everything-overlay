@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UGEXE"
-DIST_VERSION="0.503"
-DIST_A="Text-Levenshtein-XS-0.503.tar.gz"
+DIST_VERSION="0.503" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

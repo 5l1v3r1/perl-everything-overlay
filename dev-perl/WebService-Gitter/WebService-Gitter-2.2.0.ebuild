@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FARACO"
-DIST_VERSION="2.2.0"
-DIST_A="WebService-Gitter-2.2.0.tar.gz"
+DIST_VERSION="2.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

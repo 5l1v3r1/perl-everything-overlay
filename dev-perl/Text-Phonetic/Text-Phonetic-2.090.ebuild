@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="2.09"
-DIST_A="Text-Phonetic-2.09.tar.gz"
+DIST_VERSION="2.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-NoWarnings
 "
+

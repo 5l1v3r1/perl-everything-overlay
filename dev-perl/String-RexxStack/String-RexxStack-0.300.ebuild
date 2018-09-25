@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANNIS"
-DIST_VERSION="0.3"
-DIST_A="String-RexxStack-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

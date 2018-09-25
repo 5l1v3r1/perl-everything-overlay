@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEKK"
-DIST_VERSION="0.2703"
-DIST_A="Passwd-Keyring-Auto-0.2703.tar.gz"
+DIST_VERSION="0.2703" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Pod-Readme
 	virtual/perl-Test-Simple
 "
+

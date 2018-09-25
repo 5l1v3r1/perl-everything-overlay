@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.004"
-DIST_A="Renard-Curie-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Modern-Perl
 	dev-perl/Module-Util
-	dev-perl/Moo
+	>=dev-perl/Moo-2.001.001
 	dev-perl/MooX-BuildArgs
 	dev-perl/MooX-HandlesVia
 	dev-perl/MooX-Lsub
@@ -37,7 +36,7 @@ RDEPEND="
 	dev-perl/MooX-Struct
 	dev-perl/Moose
 	dev-perl/Renard-Incunabula
-	>=dev-perl/Renard-Incunabula-Document-0.004
+	dev-perl/Renard-Incunabula-Document
 	dev-perl/Renard-Incunabula-Format-Cairo
 	dev-perl/Renard-Incunabula-Format-PDF
 	dev-perl/Renard-Incunabula-Frontend-Gtk3
@@ -53,10 +52,10 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Exception-0.430
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 	dev-perl/Test-Trap
 	virtual/perl-File-Temp
 	>=virtual/perl-version-0.770
 "
+

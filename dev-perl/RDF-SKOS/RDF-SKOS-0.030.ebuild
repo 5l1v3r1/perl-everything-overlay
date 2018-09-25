@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRRHO"
-DIST_VERSION="0.03"
-DIST_A="RDF-SKOS-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Redland
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	dev-perl/Text-CSV-XS
 	virtual/perl-Test-Simple
 "
+

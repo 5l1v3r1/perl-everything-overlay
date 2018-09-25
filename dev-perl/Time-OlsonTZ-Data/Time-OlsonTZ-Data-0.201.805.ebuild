@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.201805"
-DIST_A="Time-OlsonTZ-Data-0.201805.tar.gz"
+DIST_VERSION="0.201805" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.260
 	>=virtual/perl-Test-Simple-0.410
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMASH"
-DIST_VERSION="0.008"
-DIST_A="PLN-PT-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

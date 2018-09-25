@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEKK"
-DIST_VERSION="0.60"
-DIST_A="Passwd-Keyring-KDEWallet-0.60.tar.gz"
+DIST_VERSION="0.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.000
 	virtual/perl-Test-Simple
 "
+

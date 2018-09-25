@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COFFEE"
-DIST_VERSION="0.024"
-DIST_A="Time-C-0.024.tar.gz"
+DIST_VERSION="0.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 "
+

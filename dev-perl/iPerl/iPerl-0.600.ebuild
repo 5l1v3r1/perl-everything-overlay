@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFEIFFER"
-DIST_VERSION="0.6"
-DIST_A="iPerl-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

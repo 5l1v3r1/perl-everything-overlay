@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMQ"
-DIST_VERSION="0.20"
-DIST_A="Test-Group-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.590
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	virtual/perl-File-Temp
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOUSTON"
-DIST_VERSION="1.150880"
-DIST_A="Pod-Weaver-Section-ClassMopper-1.150880.tar.gz"
+DIST_VERSION="1.150880" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-lang/perl
 	dev-perl/PPI
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

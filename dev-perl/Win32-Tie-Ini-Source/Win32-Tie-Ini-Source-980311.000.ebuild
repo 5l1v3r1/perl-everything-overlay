@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEROTH"
-DIST_VERSION="980311.0"
-DIST_A="Win32_Tie_Ini_Source_980311.zip"
+DIST_VERSION="980311"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVEROTH/Win32_Tie_Ini_Source_980311.zip -> Win32_Tie_Ini_Source-980311.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32_Tie_Ini_Source_980311 ${WORKDIR}/Win32_Tie_Ini_Source-980311
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LARRYL"
-DIST_VERSION="20130104.0"
-DIST_A="Test-PerlTidy-20130104.tar.gz"
+DIST_VERSION="20130104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

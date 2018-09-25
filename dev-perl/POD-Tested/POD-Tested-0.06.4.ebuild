@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.06.4"
-DIST_A="POD-Tested-0.06.4.tar.gz"
+DIST_VERSION="0.06.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,9 +26,11 @@ DEPEND="
 	>=dev-perl/Data-TreeDumper-0.350
 	dev-perl/Directory-Scratch
 	dev-perl/File-Slurp
+	dev-perl/Module-Build
 	dev-perl/Test-Block
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

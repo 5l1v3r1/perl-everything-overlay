@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SEN"
 DIST_VERSION="1.0"
-DIST_A="Tk-Updown-1.0.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

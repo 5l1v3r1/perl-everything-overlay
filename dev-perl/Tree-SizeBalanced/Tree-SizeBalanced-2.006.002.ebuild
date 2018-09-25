@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CINDY"
-DIST_VERSION="2.006002"
-DIST_A="Tree-SizeBalanced-2.006002.tar.gz"
+DIST_VERSION="2.006002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

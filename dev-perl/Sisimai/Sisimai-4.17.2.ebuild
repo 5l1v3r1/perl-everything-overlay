@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AKXLIX"
-DIST_VERSION="v4.17.2"
-DIST_A="Sisimai-4.17.2.tar.gz"
+DIST_VERSION="4.17.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

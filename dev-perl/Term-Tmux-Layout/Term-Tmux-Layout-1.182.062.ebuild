@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASLAK"
-DIST_VERSION="1.182062"
-DIST_A="Term-Tmux-Layout-1.182062.tar.gz"
+DIST_VERSION="1.182062" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO-Socket-IP
 	virtual/perl-Test-Simple
 "
+

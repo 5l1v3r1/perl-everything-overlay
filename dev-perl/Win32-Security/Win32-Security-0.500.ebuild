@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEVERETT"
-DIST_VERSION="0.50"
-DIST_A="Win32-Security-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

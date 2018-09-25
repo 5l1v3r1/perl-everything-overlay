@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.004"
-DIST_A="QBit-WebInterface-Controller-Multistate-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/QBit-WebInterface
+	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SRSHAH"
-DIST_VERSION="1.06"
-DIST_A="Template-Plugin-EnvHash-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-Distribution-1.290
 "
+

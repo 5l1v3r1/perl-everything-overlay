@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="1.001001"
-DIST_A="Object-ArrayType-New-1.001001.tar.gz"
+DIST_VERSION="1.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-version-0.770
 "
+

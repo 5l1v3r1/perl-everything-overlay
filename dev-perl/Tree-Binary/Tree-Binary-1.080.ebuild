@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.08"
-DIST_A="Tree-Binary-1.08.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.100
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

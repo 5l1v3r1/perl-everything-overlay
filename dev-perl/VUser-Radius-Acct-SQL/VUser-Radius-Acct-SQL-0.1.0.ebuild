@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSMITH"
-DIST_VERSION="0.1.0"
-DIST_A="VUser-Radius-Acct-SQL-0.1.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Radius-Acct-SQL-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Radius-Acct-SQL-0.1.0.tar.gz -> VUser-Radius-Acct-SQL-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VUser-Radius-Acct-SQL-0.1.0 ${WORKDIR}/VUser-Radius-Acct-SQL-0.1.0
+}
+

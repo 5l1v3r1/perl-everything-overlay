@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FKALTER"
-DIST_VERSION="0.007"
-DIST_A="WWW-Scraper-F1-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/URI
 	virtual/perl-Test-Simple
 "
+

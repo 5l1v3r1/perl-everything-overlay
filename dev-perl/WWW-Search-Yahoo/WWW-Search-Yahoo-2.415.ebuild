@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="2.415"
-DIST_A="WWW-Search-Yahoo-2.415.tar.gz"
+DIST_VERSION="2.415" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/HTML-Tree
 	dev-perl/I18N-Charset
 	dev-perl/URI
-	>=dev-perl/WWW-Search-2.557
+	>=dev-perl/WWW-Search-2.265
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

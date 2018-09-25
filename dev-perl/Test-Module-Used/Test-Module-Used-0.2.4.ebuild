@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUCCHI"
-DIST_VERSION="0.2.4"
-DIST_A="Test-Module-Used-0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

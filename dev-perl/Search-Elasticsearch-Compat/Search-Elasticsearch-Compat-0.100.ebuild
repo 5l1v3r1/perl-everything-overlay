@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="0.10"
-DIST_A="Search-Elasticsearch-Compat-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,5 +31,7 @@ DEPEND="
 	dev-perl/ElasticSearch-SearchBuilder
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.980
 "
+

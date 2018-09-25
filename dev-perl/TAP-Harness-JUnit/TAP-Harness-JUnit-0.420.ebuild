@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLAVALLEE"
-DIST_VERSION="0.42"
-DIST_A="TAP-Harness-JUnit-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	virtual/perl-Encode
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Harness-3.050
+	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Test-Deep
 "
+

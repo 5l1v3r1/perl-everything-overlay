@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOUKE"
-DIST_VERSION="0.08"
-DIST_A="Win32-SAPI4-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Locale-Codes
 	dev-perl/Win32-Locale
 	dev-perl/Win32-OLE
 "
 DEPEND="
 	${RDEPEND}
 "
+

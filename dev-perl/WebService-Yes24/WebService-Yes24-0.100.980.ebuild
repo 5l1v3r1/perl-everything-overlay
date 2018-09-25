@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEDI"
-DIST_VERSION="0.100980"
-DIST_A="WebService-Yes24-0.100980.tar.gz"
+DIST_VERSION="0.100980" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAWALSH"
-DIST_VERSION="0.4.7"
-DIST_A="mem-0.4.7.tar.gz"
+DIST_VERSION="0.4.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.440
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFABER"
-DIST_VERSION="1.6"
-DIST_A="Proc-Fork-Control-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

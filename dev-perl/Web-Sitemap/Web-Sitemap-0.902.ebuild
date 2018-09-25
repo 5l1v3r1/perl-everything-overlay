@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBOGDANOV"
-DIST_VERSION="0.902"
-DIST_A="Web-Sitemap-0.902.tar.gz"
+DIST_VERSION="0.902" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKIHOSHI"
-DIST_VERSION="0.07"
-DIST_A="opts-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/Test-Exception
+	dev-perl/Test-Module-Used
+	dev-perl/Test-Perl-Critic
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

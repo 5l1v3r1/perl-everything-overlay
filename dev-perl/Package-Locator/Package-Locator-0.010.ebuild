@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THALJEF"
-DIST_VERSION="0.010"
-DIST_A="Package-Locator-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

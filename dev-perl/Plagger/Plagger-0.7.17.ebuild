@@ -56,7 +56,7 @@ RDEPEND="
 	>=dev-perl/XML-Liberal-0.140
 	>=dev-perl/XML-RSS-LibXML-0.230
 	dev-perl/XML-RSS-Liberal
-	dev-perl/YAML
+	>=dev-perl/YAML-0.390
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Encode-2.100

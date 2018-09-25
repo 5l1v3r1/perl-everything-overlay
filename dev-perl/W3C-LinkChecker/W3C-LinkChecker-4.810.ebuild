@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCOP"
-DIST_VERSION="4.81"
-DIST_A="W3C-LinkChecker-4.81.tar.gz"
+DIST_VERSION="4.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,14 +20,14 @@ RDEPEND="
 	dev-perl/CSS-DOM
 	>=dev-perl/Config-General-2.060
 	dev-perl/Encode-Locale
-	>=dev-perl/HTML-Parser-3.400
+	dev-perl/HTML-Parser
 	dev-perl/HTTP-Cookies
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-5.827
 	dev-perl/Locale-Codes
 	>=dev-perl/Net-HTTP-5.833
 	dev-perl/Net-IP
 	>=dev-perl/TermReadKey-2.000
-	dev-perl/URI
+	>=dev-perl/URI-1.530
 	dev-perl/libwww-perl
 	virtual/perl-Encode
 	virtual/perl-File-Spec
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

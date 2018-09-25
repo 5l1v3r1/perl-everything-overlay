@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TBR"
-DIST_VERSION="0.11"
-DIST_A="POE-Component-IRC-Plugin-Trac-RSS-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	>=dev-perl/POE-Component-Client-HTTP-0.730
 	>=dev-perl/POE-Component-IRC-5.070
 	>=dev-perl/XML-RSS-1.100
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+

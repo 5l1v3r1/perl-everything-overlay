@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEYTRAV"
-DIST_VERSION="0.030"
-DIST_A="WebService-Raygun-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

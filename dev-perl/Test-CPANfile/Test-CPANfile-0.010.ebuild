@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISHIGAKI"
-DIST_VERSION="0.01"
-DIST_A="Test-CPANfile-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Module-CPANfile
-	>=dev-perl/Perl-PrereqScanner-NotQuiteLite-0.910
+	dev-perl/Perl-PrereqScanner-NotQuiteLite
 	>=virtual/perl-Exporter-5.570
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

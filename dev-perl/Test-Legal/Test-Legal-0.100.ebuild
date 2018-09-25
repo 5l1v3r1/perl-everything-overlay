@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANNIS"
-DIST_VERSION="0.10"
-DIST_A="Test-Legal-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/File-Find-Rule-0.330
-	>=dev-perl/File-Slurp-9999.180
+	dev-perl/File-Slurp
 	>=dev-perl/Getopt-Compact-0.040
 	>=dev-perl/IO-Prompter-0.001.001
 	>=dev-perl/List-Compare-0.370
@@ -49,3 +48,4 @@ DEPEND="
 	>=dev-perl/Test-t-0.003.100
 	>=dev-perl/namespace-clean-0.210
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTK"
-DIST_VERSION="0.06"
-DIST_A="Number-Object-Plugin-Tax-AU-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

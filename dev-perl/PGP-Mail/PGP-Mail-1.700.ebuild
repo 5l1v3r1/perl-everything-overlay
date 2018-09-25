@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTBM"
-DIST_VERSION="1.7"
-DIST_A="PGP-Mail-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

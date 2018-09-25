@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOSU"
-DIST_VERSION="0.04"
-DIST_A="SVN-Agent-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-Accessor-0.510
 	>=dev-perl/File-Slurp-9999.190
-	>=virtual/perl-Test-Simple-1.302.120
+	>=virtual/perl-Test-Simple-1.302.140
 "
 DEPEND="
 	${RDEPEND}
 "
+

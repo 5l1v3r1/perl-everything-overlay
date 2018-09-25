@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TRIZOR"
-DIST_VERSION="0.02"
-DIST_A="Test-Smart-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TR/TRIZOR/dists/Test-Smart-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/T/TR/TRIZOR/dists/Test-Smart-0.02.tar.gz -> Test-Smart-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Smart-0.02 ${WORKDIR}/Test-Smart-0.02
+}
+

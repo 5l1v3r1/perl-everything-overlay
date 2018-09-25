@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EARTHTONE"
-DIST_VERSION="1.281"
-DIST_A="Reddit-Client-1.281.tar.gz"
+DIST_VERSION="1.281" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-Capture
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASB"
-DIST_VERSION="0.11"
-DIST_A="Tk-Text-SuperText-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Tk-804.030
+	dev-perl/Tk
 "
 DEPEND="
 	${RDEPEND}
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	>=virtual/perl-Test-Simple-0.980
 "
+

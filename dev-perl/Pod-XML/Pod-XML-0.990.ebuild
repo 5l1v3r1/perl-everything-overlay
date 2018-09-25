@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MWILSON"
-DIST_VERSION="0.99"
-DIST_A="Pod-XML-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

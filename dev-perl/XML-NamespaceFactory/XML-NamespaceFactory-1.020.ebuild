@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="1.02"
-DIST_A="XML-NamespaceFactory-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	virtual/perl-Test
 "
+

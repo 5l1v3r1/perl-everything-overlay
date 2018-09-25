@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.006"
-DIST_A="Types-Path-Tiny-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Path-Tiny
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.008
 "
 DEPEND="
 	${RDEPEND}
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.180
 	>=virtual/perl-Test-Simple-0.960
 "
+

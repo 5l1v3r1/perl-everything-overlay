@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDB"
-DIST_VERSION="0.057"
-DIST_A="Win32-NetResource-0.057.tar.gz"
+DIST_VERSION="0.057" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

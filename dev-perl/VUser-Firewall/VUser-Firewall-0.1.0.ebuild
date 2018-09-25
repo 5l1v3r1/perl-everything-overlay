@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSMITH"
-DIST_VERSION="0.1.0"
-DIST_A="VUser-Firewall-0.1.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Firewall-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Firewall-0.1.0.tar.gz -> VUser-Firewall-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,16 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/vuser-0.2.1
+	>=dev-perl/vuser-0.2.0
 	virtual/perl-File-Temp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VUser-Firewall-0.1.0 ${WORKDIR}/VUser-Firewall-0.1.0
+}
+

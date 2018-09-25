@@ -15,9 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.030
 	dev-perl/Bundle-LWP5-837-perl
-	dev-perl/HTML-DOM
+	>=dev-perl/HTML-DOM-0.013
 	>=dev-perl/HTTP-Cookies-5.833
 	dev-perl/HTTP-Daemon
 	dev-perl/HTTP-Message

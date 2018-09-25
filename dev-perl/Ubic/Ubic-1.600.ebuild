@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.60"
-DIST_A="Ubic-1.60.tar.gz"
+DIST_VERSION="1.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,5 +43,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Class
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

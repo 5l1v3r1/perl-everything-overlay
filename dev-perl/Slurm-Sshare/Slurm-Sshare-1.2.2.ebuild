@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAYERLE"
-DIST_VERSION="1.2.2"
-DIST_A="Slurm-Sshare-1.2.2.tar.gz"
+DIST_VERSION="1.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.98.05
 "
+

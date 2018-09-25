@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="WWW"
-DIST_VERSION="0.01"
-DIST_A="WWW-BitTorrent-0.01.tar.gz"
+DIST_AUTHOR="AMITSIDES"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMITSIDES/WWW/WWW-BitTorrent-0.01.tar.gz -> WWW-BitTorrent-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-BitTorrent-0.01 ${WORKDIR}/WWW-BitTorrent-0.01
+}
+

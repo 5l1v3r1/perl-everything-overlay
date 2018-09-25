@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDUGGAN"
-DIST_VERSION="0.37"
-DIST_A="Rose-Planter-0.37.tar.gz"
+DIST_VERSION="0.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/YAML-Syck
 	virtual/perl-Test-Simple
 "
+

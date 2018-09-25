@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.02"
-DIST_A="SQL-Translator-Parser-OpenAPI-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-Validator-2.010
 	dev-perl/Lingua-EN-Inflect-Number
-	dev-perl/SQL-Translator
+	>=dev-perl/SQL-Translator-0.110.240
 	dev-perl/String-CamelCase
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Snapshot-0.020
 	>=virtual/perl-Test-Simple-0.980
 "
+

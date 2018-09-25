@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXUSSUM"
-DIST_VERSION="0.11"
-DIST_A="Voldemort-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Google-ProtocolBuffers-0.080
 	>=dev-perl/Moose-0.540
-	>=virtual/perl-Test-Simple-0.880
+	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

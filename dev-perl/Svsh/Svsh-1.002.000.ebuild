@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="1.002000"
-DIST_A="Svsh-1.002000.tar.gz"
+DIST_VERSION="1.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Proc-ProcessTable
 	dev-perl/Term-ShellUI
+	dev-perl/lib
 	dev-perl/namespace-clean
 	virtual/perl-Term-ANSIColor
 "
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

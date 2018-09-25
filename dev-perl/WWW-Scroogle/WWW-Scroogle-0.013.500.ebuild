@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHLUMPF"
-DIST_VERSION="0.0135"
-DIST_A="WWW-Scroogle-0.0135.tar.gz"
+DIST_VERSION="0.0135" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

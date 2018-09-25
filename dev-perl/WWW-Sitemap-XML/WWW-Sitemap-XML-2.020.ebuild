@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-2.110.100
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-DateTime-W3C
 	dev-perl/MooseX-Types-URI

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RAIGAD"
 DIST_VERSION="0.05"
-DIST_A="mojolicious-plugin-geocoder-0.05.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

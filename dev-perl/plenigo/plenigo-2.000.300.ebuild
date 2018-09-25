@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLENIGO"
-DIST_VERSION="2.0003"
-DIST_A="plenigo-2.0003.tar.gz"
+DIST_VERSION="2.0003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

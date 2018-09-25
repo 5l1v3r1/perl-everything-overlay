@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDICK"
-DIST_VERSION="0.30"
-DIST_A="WebService-SSLLabs-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

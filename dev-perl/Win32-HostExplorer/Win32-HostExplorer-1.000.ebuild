@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GEOKEVHAT"
-DIST_VERSION="01.0"
-DIST_A="Win32-HostExplorer-01.zip"
+DIST_VERSION="01"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

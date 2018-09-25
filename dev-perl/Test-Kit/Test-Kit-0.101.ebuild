@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="0.101"
-DIST_A="Test-Kit-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.110
+	>=dev-perl/base-2.110
 	>=dev-perl/namespace-clean-0.080
 	virtual/perl-Test-Simple
 "
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Differences-0.480
 	>=dev-perl/Test-Most-0.210
 "
+

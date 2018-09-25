@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUCCHI"
-DIST_VERSION="0.03"
-DIST_A="Teng-Plugin-RowObjectCreationSwitcher-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

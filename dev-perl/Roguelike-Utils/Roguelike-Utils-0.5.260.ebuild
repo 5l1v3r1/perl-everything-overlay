@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EARONESTY"
-DIST_VERSION="v0.5.260"
-DIST_A="Roguelike-Utils-0.5.260.tar.gz"
+DIST_VERSION="0.5.260" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSMITH"
-DIST_VERSION="0.3.2"
-DIST_A="VUser-Email-0.3.2.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Email-0.3.2.tar.gz"
+DIST_VERSION="0.3.2" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Email-0.3.2.tar.gz -> VUser-Email-0.3.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VUser-Email-0.3.2 ${WORKDIR}/VUser-Email-0.3.2
+}
+

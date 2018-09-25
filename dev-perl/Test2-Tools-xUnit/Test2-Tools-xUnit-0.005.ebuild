@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CVLIBRARY"
-DIST_VERSION="0.005"
-DIST_A="Test2-Tools-xUnit-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	virtual/perl-Attribute-Handlers
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

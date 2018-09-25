@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISILLITOE"
-DIST_VERSION="0.11"
-DIST_A="WebService-FuncNet-Predictor-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,4 +31,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	dev-perl/Module-Build
 "
+

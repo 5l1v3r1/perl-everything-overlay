@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BJAKUBSKI"
-DIST_VERSION="1.002009"
-DIST_A="WebService-Rollbar-Notifier-1.002009.tar.gz"
+DIST_VERSION="1.002009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-RequiresInternet
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBRADSHAW"
-DIST_VERSION="1.20180106"
-DIST_A="Parallel-PreForkManager-1.20180106.tar.gz"
+DIST_VERSION="1.20180106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.450
 	virtual/perl-Test-Simple
 "
+

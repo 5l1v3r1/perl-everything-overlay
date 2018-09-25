@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKORIKOV"
-DIST_VERSION="0.04"
-DIST_A="String-Blender-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

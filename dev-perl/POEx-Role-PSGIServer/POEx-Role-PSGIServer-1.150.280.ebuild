@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="1.150280"
-DIST_A="POEx-Role-PSGIServer-1.150280.tar.gz"
+DIST_VERSION="1.150280" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,5 +31,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Requires
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

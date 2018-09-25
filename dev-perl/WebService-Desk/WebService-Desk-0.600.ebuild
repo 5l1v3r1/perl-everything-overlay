@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEV"
-DIST_VERSION="0.6"
-DIST_A="WebService-Desk-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Mouse
-	dev-perl/Web-API
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHORNY"
-DIST_VERSION="0.30"
-DIST_A="Win32-TieRegistry-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
+

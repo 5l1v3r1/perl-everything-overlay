@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEVINR"
-DIST_VERSION="0.7"
-DIST_A="RT-Extension-QueueWizard-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

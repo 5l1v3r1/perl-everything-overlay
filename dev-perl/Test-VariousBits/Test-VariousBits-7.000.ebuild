@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="7.0"
-DIST_A="Test-VariousBits-7.tar.gz"
+DIST_VERSION="7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test
 "
+

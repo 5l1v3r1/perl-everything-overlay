@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NCLEATON"
-DIST_VERSION="0.05"
-DIST_A="Test-ParallelSubtest-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

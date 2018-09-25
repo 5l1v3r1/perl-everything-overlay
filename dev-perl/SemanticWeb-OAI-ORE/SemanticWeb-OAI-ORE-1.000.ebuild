@@ -20,8 +20,8 @@ RDEPEND="
 	>=dev-perl/Data-UUID-1.200
 	>=dev-perl/DateTime-0.500
 	>=dev-perl/RDF-Core-0.510
-	>=dev-perl/RDF-Notation3-0.910
-	>=dev-perl/XML-Atom-Syndication-0.942
+	dev-perl/RDF-Notation3
+	dev-perl/XML-Atom-Syndication
 	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="

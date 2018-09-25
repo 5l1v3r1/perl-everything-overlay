@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="CHI"
-DIST_VERSION="0.0"
-DIST_A="link_NCBI.zip"
+DIST_VERSION=""
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/C/CH/CHI/link_NCBI.zip -> link_NCBI-.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/link_NCBI ${WORKDIR}/link_NCBI-
+}
+

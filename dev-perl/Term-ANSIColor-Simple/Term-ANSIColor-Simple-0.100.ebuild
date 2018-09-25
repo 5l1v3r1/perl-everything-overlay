@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZENTOOO"
-DIST_VERSION="0.10"
-DIST_A="Term-ANSIColor-Simple-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/autobox
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAG"
-DIST_VERSION="0.70"
-DIST_A="OpenOffice-OOSheets-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

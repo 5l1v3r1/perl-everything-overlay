@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOKUTIN"
-DIST_VERSION="0.01"
-DIST_A="WWW-Hashdb-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/WWW-Mechanize
 	dev-perl/Web-Scraper
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

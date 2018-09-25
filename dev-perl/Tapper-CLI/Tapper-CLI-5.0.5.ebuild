@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.5"
-DIST_A="Tapper-CLI-5.0.5.tar.gz"
+DIST_VERSION="5.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/Moose
 	dev-perl/Perl6-Junction
-	dev-perl/Tapper-Cmd
+	>=dev-perl/Tapper-Cmd-5.0.8
 	>=dev-perl/Tapper-Config-5.0.2
 	>=dev-perl/Tapper-Model-5.0.1
 	dev-perl/Tapper-Schema
@@ -53,3 +52,4 @@ DEPEND="
 	dev-perl/Test-Fixture-DBIC-Schema
 	virtual/perl-Test-Simple
 "
+

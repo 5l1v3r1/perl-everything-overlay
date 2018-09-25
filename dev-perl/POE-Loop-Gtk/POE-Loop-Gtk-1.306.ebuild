@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCAPUTO"
-DIST_VERSION="1.306"
-DIST_A="POE-Loop-Gtk-1.306.tar.gz"
+DIST_VERSION="1.306" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/POE-Test-Loops-1.352
 	virtual/perl-ExtUtils-MakeMaker
 "
+

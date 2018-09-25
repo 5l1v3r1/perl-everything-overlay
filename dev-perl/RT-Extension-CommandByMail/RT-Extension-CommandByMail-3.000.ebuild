@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPS"
-DIST_VERSION="3.00"
-DIST_A="RT-Extension-CommandByMail-3.00.tar.gz"
+DIST_VERSION="3.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

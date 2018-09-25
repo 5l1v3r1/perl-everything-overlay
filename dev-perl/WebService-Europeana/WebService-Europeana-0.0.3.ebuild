@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMAYR"
-DIST_VERSION="0.0.3"
-DIST_A="WebService-Europeana-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

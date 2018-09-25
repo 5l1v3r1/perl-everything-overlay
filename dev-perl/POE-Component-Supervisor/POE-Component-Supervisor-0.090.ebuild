@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.09"
-DIST_A="POE-Component-Supervisor-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/Hash-Util-FieldHash-Compat
 	dev-perl/Moose
 	dev-perl/MooseX-LogDispatch
-	>=dev-perl/MooseX-POE-0.210
+	dev-perl/MooseX-POE
 	dev-perl/POE
 	>=dev-perl/POE-API-Peek-2.130
 	dev-perl/Set-Object
@@ -33,7 +32,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/Log-Dispatch-Config-TestLog
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

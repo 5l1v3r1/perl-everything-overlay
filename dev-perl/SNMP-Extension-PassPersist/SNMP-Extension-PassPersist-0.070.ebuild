@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAPER"
-DIST_VERSION="0.07"
-DIST_A="SNMP-Extension-PassPersist-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.140
 	>=virtual/perl-Test-Simple-0.450
 "
+

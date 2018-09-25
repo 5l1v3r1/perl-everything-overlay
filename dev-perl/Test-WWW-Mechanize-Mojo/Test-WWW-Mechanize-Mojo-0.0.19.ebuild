@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.19"
-DIST_A="Test-WWW-Mechanize-Mojo-0.0.19.tar.gz"
+DIST_VERSION="0.0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.880
 "
+

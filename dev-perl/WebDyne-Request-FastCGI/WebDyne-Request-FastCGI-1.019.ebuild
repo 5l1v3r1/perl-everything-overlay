@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPEER"
-DIST_VERSION="1.019"
-DIST_A="WebDyne-Request-FastCGI-1.019.tar.gz"
+DIST_VERSION="1.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

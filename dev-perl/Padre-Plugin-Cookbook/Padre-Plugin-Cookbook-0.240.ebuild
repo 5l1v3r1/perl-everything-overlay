@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOWTIE"
-DIST_VERSION="0.24"
-DIST_A="Padre-Plugin-Cookbook-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

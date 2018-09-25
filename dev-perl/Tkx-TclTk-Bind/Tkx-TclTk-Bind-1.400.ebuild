@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JVBSOFT"
-DIST_VERSION="1.400"
-DIST_A="Tkx-TclTk-Bind-1.400.tar.gz"
+DIST_VERSION="1.400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-Test-Simple
 "
+

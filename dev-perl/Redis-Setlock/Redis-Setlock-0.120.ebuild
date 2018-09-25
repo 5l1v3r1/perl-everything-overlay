@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FUJIWARA"
-DIST_VERSION="0.12"
-DIST_A="Redis-Setlock-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,8 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-RedisServer
 	dev-perl/Test-SharedFork
 	>=dev-perl/Test-TCP-2.000
 	>=virtual/perl-Test-Simple-0.980
 "
+

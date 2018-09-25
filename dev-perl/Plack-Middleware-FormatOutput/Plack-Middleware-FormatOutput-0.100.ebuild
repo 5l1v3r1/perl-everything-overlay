@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VASEKD"
-DIST_VERSION="0.10"
-DIST_A="Plack-Middleware-FormatOutput-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

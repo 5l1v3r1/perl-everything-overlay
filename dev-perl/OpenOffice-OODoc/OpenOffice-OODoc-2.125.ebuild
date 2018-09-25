@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMGDOC"
-DIST_VERSION="2.125"
-DIST_A="OpenOffice-OODoc-2.125.tar.gz"
+DIST_VERSION="2.125" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

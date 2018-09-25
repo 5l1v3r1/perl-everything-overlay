@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.29"
-DIST_A="Silki-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-Store-DBI
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-SubRequest
-	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-Mason
 	dev-perl/CatalystX-RoleApplicator
 	dev-perl/Config-INI
@@ -117,3 +116,4 @@ DEPEND="
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWILLIAMS"
-DIST_VERSION="1.004"
-DIST_A="WWW-Search-PubMed-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.610
 "
+

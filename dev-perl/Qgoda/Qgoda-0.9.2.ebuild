@@ -42,7 +42,7 @@ RDEPEND="
 	dev-perl/YAML
 	dev-perl/YAML-LibYAML
 	dev-perl/base
-	>=dev-perl/libintl-perl-1.280
+	dev-perl/libintl-perl
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -54,7 +54,7 @@ RDEPEND="
 	>=virtual/perl-Getopt-Long-2.360
 	virtual/perl-IO
 	virtual/perl-MIME-Base64
-	>=virtual/perl-Scalar-List-Utils-1.450
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Time-HiRes

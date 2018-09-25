@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJIBEL"
-DIST_VERSION="1.06"
-DIST_A="Tk-Canvas-GradientColor-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Tk-800.000
 	virtual/perl-Test-Simple
 "
+

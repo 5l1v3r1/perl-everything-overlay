@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCOTTW"
-DIST_VERSION="2.73"
-DIST_A="Term-Twiddle-2.73.tar.gz"
+DIST_VERSION="2.73" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

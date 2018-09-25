@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKIHOSHI"
-DIST_VERSION="0.061"
-DIST_A="Smart-Options-0.061.tar.gz"
+DIST_VERSION="0.061" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=dev-perl/Capture-Tiny-0.120
 	dev-perl/Devel-Cover
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Requires
 	dev-perl/Test-TCP
@@ -34,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.980
 "
+

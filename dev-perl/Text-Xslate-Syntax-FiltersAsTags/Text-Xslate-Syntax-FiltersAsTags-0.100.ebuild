@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANEI"
-DIST_VERSION="0.1"
-DIST_A="Text-Xslate-Syntax-FiltersAsTags-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Text-Xslate
 	virtual/perl-Test-Simple
 "
+

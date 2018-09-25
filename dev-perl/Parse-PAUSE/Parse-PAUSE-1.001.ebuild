@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATOM"
-DIST_VERSION="1.001"
-DIST_A="Parse-PAUSE-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="POSIX-SchedYield"
-DIST_VERSION="v0.0.2"
-DIST_A="POSIX-SchedYield-0.0.2.tar.gz"
+DIST_AUTHOR="MARCB"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MARCB/POSIX-SchedYield/POSIX-SchedYield-0.0.2.tar.gz -> POSIX-SchedYield-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +21,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POSIX-SchedYield-0.0.2 ${WORKDIR}/POSIX-SchedYield-0.0.2
+}
+

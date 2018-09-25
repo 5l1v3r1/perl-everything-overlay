@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RLOPES"
-DIST_VERSION="0.10"
-DIST_A="WWW-Correios-SRO-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

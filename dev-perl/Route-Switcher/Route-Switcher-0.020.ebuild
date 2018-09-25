@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKUBASS"
-DIST_VERSION="0.02"
-DIST_A="Route-Switcher-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Amon2
+	dev-perl/Module-Build
 	dev-perl/Router-Boom
 	>=virtual/perl-Test-Simple-0.980
 "
+

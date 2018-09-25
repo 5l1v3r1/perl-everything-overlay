@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLLEROY"
-DIST_VERSION="2.04"
-DIST_A="Tangram-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

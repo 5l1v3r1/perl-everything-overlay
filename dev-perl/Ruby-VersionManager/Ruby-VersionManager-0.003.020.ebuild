@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKRULL"
-DIST_VERSION="0.003020"
-DIST_A="Ruby-VersionManager-0.003020.tar.gz"
+DIST_VERSION="0.003020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

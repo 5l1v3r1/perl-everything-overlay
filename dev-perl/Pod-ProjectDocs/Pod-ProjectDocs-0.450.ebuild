@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRUNER"
-DIST_VERSION="0.45"
-DIST_A="Pod-ProjectDocs-0.45.tar.gz"
+DIST_VERSION="0.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,10 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-MIME-Base64
-	virtual/perl-Pod-Parser
+	>=virtual/perl-Pod-Parser-1.320
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

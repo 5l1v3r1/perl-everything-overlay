@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="STRYTOAST"
-DIST_VERSION="0.0"
-DIST_A="log.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/S/ST/STRYTOAST/log.tar.gz -> log-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/log ${WORKDIR}/log-
+}
+

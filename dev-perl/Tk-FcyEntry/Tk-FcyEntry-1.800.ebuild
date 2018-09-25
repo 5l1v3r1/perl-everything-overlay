@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASB"
-DIST_VERSION="1.8"
-DIST_A="Tk-FcyEntry-1.8.tar.gz"
+DIST_VERSION="1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICOLAW"
-DIST_VERSION="1.19"
-DIST_A="WWW-Dilbert-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

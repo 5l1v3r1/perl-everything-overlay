@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.03"
-DIST_A="Test2-Tools-HTTP-UA-Mojo-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test2-Suite-0.000.060
 	dev-perl/Test2-Tools-JSON-Pointer
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERRAD"
-DIST_VERSION="2.07"
-DIST_A="WAP-SAXDriver-wbxml-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

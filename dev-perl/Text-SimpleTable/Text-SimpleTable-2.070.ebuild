@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRAMBERG"
-DIST_VERSION="2.07"
-DIST_A="Text-SimpleTable-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

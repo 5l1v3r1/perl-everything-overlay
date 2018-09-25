@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.000003"
-DIST_A="Path-ScanINC-1.000003.tar.gz"
+DIST_VERSION="1.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,8 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHORNY"
-DIST_VERSION="0.22"
-DIST_A="WWW-Freshmeat-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/LWP-Online-1.060
 	>=virtual/perl-Test-Simple-0.170
 "
+

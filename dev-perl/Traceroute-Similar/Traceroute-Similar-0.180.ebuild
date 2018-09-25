@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIERLEIN"
-DIST_VERSION="0.18"
-DIST_A="Traceroute-Similar-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

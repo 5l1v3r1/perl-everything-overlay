@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKW"
-DIST_VERSION="0.003"
-DIST_A="RDF-SIO-Utils-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

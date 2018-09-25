@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LLAP"
-DIST_VERSION="2.8"
-DIST_A="SOAP-XML-Client-2.8.tar.gz"
-b=L/LL/LLAP/SOAP-XML-Client-2.8tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LL/LLAP/SOAP-XML-Client-2.8.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Memory-Cycle
 	virtual/perl-Test-Simple
 "
+

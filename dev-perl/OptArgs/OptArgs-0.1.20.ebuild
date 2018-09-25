@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLAWREN"
-DIST_VERSION="v0.1.20"
-DIST_A="OptArgs-0.1.20.tar.gz"
+DIST_VERSION="0.1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/IO-Capture
+	dev-perl/Test-Fatal
+	dev-perl/Test-Output
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

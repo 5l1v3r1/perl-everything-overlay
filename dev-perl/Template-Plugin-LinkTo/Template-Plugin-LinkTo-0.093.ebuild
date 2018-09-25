@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIRAFOO"
-DIST_VERSION="0.093"
-DIST_A="Template-Plugin-LinkTo-0.093.tar.gz"
+DIST_VERSION="0.093" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

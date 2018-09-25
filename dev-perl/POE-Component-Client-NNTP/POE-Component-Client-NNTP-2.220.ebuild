@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="2.22"
-DIST_A="POE-Component-Client-NNTP-2.22.tar.gz"
+DIST_VERSION="2.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-POE-Server-TCP
 	>=virtual/perl-Test-Simple-0.470
 "
+

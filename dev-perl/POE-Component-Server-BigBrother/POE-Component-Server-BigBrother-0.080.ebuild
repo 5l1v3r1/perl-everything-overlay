@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YBLUSSEAU"
-DIST_VERSION="0.08"
-DIST_A="POE-Component-Server-BigBrother-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Log-Report-0.180
-	>=dev-perl/POE-1.222.000
+	dev-perl/POE
 	dev-perl/POE-Component-Pluggable
 	>=dev-perl/POE-Filter-BigBrother-0.120
 	virtual/perl-Carp
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

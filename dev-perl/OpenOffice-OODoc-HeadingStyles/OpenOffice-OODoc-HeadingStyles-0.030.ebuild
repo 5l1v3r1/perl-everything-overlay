@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANHOESEL"
-DIST_VERSION="0.03"
-DIST_A="OpenOffice-OODoc-HeadingStyles-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 "
+

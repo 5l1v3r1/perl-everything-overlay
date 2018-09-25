@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HOREA"
-DIST_VERSION="0.016"
-DIST_A="RPi-PIGPIO-0.016.tar.gz"
-SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/RPi-PIGPIO/RPi-PIGPIO-0.016.tar.gz"
+DIST_VERSION="0.016" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/RPi-PIGPIO/RPi-PIGPIO-0.016.tar.gz -> RPi-PIGPIO-0.016.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RPi-PIGPIO-0.016 ${WORKDIR}/RPi-PIGPIO-0.016
+}
+

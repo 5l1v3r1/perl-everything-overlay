@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGDUDE"
-DIST_VERSION="0.004001"
-DIST_A="Test-Override-UserAgent-0.004001.tar.gz"
+DIST_VERSION="0.004001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Clone
 	dev-perl/HTTP-Date
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-5.817
 	>=dev-perl/Sub-Install-0.900
 	dev-perl/Sub-Override
 	dev-perl/Try-Tiny
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

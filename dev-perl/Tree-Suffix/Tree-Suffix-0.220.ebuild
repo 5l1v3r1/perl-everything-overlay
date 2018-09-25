@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAY"
-DIST_VERSION="0.22"
-DIST_A="Tree-Suffix-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Devel-CheckLib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLLMERS"
-DIST_VERSION="0.013"
-DIST_A="Taxon-Parse-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.036
+	dev-perl/Module-Build
 	dev-perl/Test-More-UTF8
 	>=virtual/perl-Test-Simple-0.880
 "
+

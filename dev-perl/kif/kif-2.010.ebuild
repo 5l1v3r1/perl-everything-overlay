@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="kif"
-DIST_VERSION="2.01"
-DIST_A="kif-2.01.tar.gz"
+DIST_AUTHOR="MUNROER"
+DIST_VERSION="2.01" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUNROER/kif/kif-2.01.tar.gz -> kif-2.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/kif-2.01 ${WORKDIR}/kif-2.01
+}
+

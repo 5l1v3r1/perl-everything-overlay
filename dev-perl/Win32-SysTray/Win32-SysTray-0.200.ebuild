@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAHNKONG"
-DIST_VERSION="0.20"
-DIST_A="Win32-SysTray-0.20.tar.gz"
-b=M/MA/MAHNKONG/Win32-SysTray-0.20.tar.gz
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

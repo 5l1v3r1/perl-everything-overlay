@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.0042"
-DIST_A="Template-Flute-PDF-0.0042.tar.gz"
+DIST_VERSION="0.0042" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/CAM-PDF
 	virtual/perl-Test-Simple
 "
+

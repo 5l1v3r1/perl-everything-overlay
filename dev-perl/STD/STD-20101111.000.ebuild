@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOREAR"
-DIST_VERSION="20101111.0"
-DIST_A="STD-20101111.tar.gz"
+DIST_VERSION="20101111" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

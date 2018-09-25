@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CDENT"
-DIST_VERSION="0.94"
-DIST_A="PurpleWiki-0.94.tar.gz"
-SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/PurpleWiki/PurpleWiki-0.94.tar.gz"
+DIST_VERSION="0.94" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/PurpleWiki/PurpleWiki-0.94.tar.gz -> PurpleWiki-0.94.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PurpleWiki-0.94 ${WORKDIR}/PurpleWiki-0.94
+}
+

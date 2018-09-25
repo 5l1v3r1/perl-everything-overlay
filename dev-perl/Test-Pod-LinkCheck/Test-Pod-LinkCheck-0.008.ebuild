@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="0.008"
-DIST_A="Test-Pod-LinkCheck-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Capture-Tiny
 	>=dev-perl/Moose-1.010
 	>=dev-perl/Test-Pod-1.440
-	dev-perl/podlinkcheck
+	>=dev-perl/podlinkcheck-4.000
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Pod-Parser
@@ -31,6 +30,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	virtual/perl-File-Temp
 	virtual/perl-IO
 "
+

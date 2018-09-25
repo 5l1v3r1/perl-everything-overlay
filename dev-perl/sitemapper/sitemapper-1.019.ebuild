@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWRIGLEY"
-DIST_VERSION="1.019"
-DIST_A="sitemapper-1.019.tar.gz"
+DIST_VERSION="1.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTML-Summary
+	dev-perl/Pod-Usage
 	dev-perl/TermReadKey
 	dev-perl/TimeDate
 	dev-perl/Tk
@@ -27,9 +27,9 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

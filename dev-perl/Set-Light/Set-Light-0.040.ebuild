@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.04"
-DIST_A="Set-Light-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/set/Set-Light-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/set/Set-Light-0.04.tar.gz -> Set-Light-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Array-RefElem
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
-	>=virtual/perl-Test-Simple-0.620
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Set-Light-0.04 ${WORKDIR}/Set-Light-0.04
+}
+

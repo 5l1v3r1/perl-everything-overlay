@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJZORT"
-DIST_VERSION="0.52"
-DIST_A="RT-Client-REST-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LLAP"
-DIST_VERSION="3.09"
-DIST_A="Text-vCard-3.09.tar.gz"
-b=L/LL/LLAP/Text-vCard-3.09tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LL/LLAP/Text-vCard-3.09.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="3.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +36,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

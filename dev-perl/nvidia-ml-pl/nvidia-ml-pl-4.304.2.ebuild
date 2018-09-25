@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NVBINDING"
-DIST_VERSION="v4.304.2"
-DIST_A="nvidia-ml-pl-4.304.2.tar.gz"
+DIST_VERSION="4.304.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

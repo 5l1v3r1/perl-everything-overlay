@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NORBU"
-DIST_VERSION="0.5"
-DIST_A="TheEye-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

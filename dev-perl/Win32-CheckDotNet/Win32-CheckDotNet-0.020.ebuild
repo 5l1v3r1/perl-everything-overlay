@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASB"
-DIST_VERSION="0.02"
-DIST_A="Win32-CheckDotNet-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	>=virtual/perl-Test-Simple-0.980
 "
+

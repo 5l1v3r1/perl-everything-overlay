@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIANMENG"
-DIST_VERSION="0.09"
-DIST_A="WebService-Pokemon-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,9 +32,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/Dist-Zilla-App-Command-cover
-	>=dev-perl/Module-Build-0.280
+	dev-perl/Module-Build
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

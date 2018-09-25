@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SUNILS"
-DIST_VERSION="0.08"
-DIST_A="PDF-Xtract-0.08.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SU/SUNILS/PDF/Xtract/008/PDF-Xtract-0.08.tar.gz"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/S/SU/SUNILS/PDF/Xtract/008/PDF-Xtract-0.08.tar.gz -> PDF-Xtract-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PDF-Xtract-0.08 ${WORKDIR}/PDF-Xtract-0.08
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KBAUCOM"
-DIST_VERSION="2.6"
-DIST_A="Term-Animation-2.6.tar.gz"
+DIST_VERSION="2.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

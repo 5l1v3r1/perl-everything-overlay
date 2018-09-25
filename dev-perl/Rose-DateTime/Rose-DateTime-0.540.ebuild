@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIRACUSA"
-DIST_VERSION="0.540"
-DIST_A="Rose-DateTime-0.540.tar.gz"
+DIST_VERSION="0.540" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRRHO"
-DIST_VERSION="0.03"
-DIST_A="WWW-Agent-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Algorithm-Diff-1.110
 	>=dev-perl/HTML-Tree-3.130
-	>=dev-perl/HTTP-Message-1.400
+	>=dev-perl/HTTP-Message-1.520
 	>=dev-perl/Log-Log4perl-0.510
 	>=dev-perl/POE-0.290
 	>=dev-perl/Parse-RecDescent-1.940
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

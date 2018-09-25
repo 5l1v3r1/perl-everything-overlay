@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEBARDY"
-DIST_VERSION="0.01"
-DIST_A="chi-driver-elasticache-memcache-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/CHI
+	dev-perl/Module-Build
 	dev-perl/Sub-Override
 	dev-perl/Test-MockObject
 	dev-perl/test-routini
 	>=virtual/perl-Test-Simple-0.960
 "
+

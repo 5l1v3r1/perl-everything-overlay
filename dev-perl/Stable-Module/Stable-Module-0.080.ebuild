@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="0.08"
-DIST_A="Stable-Module-0.08.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/Stable/Module/Stable-Module-0.08.tar.gz"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Stable/Module/Stable-Module-0.08.tar.gz -> Stable-Module-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-2.020
 	>=virtual/perl-Archive-Tar-0.072
 	>=virtual/perl-ExtUtils-MakeMaker-5.430.200
 	>=virtual/perl-File-Path-1.040.100
@@ -28,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Stable-Module-0.08 ${WORKDIR}/Stable-Module-0.08
+}
+

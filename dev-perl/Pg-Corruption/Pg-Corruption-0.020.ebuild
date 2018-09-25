@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANNIS"
-DIST_VERSION="0.02"
-DIST_A="Pg-Corruption-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.000
 	>=dev-perl/Test-Spelling-0.150
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAXMODEM"
-DIST_VERSION="0.1006"
-DIST_A="Test-Collectd-Plugins-0.1006.tar.gz"
+DIST_VERSION="0.1006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

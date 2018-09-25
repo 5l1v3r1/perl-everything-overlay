@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="EDB"
 DIST_VERSION="1.3"
-DIST_A="fwlog-1.3.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

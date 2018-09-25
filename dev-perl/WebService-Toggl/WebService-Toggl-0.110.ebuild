@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELLIOTT"
-DIST_VERSION="0.11"
-DIST_A="WebService-Toggl-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,7 +33,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/IO-All
 	dev-perl/JSON-MaybeXS
+	dev-perl/Module-Build
 	dev-perl/Module-Pluggable
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NINJA"
-DIST_VERSION="3.00"
-DIST_A="WWW-Search-EBayGlobal-3.00.tar.gz"
+DIST_VERSION="3.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

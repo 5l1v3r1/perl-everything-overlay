@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWRIGLEY"
-DIST_VERSION="0.007"
-DIST_A="WWW-AdManager-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

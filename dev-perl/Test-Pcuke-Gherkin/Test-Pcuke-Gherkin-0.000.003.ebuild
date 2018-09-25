@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRUSOE"
-DIST_VERSION="0.000003"
-DIST_A="Test-Pcuke-Gherkin-0.000003.tar.gz"
+DIST_VERSION="0.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Exporter
 "
+

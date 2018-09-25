@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEODESIAN"
-DIST_VERSION="1.29"
-DIST_A="Selenium-Remote-Driver-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/IO-String
 	dev-perl/JSON
-	>=dev-perl/Moo-1.005
+	dev-perl/Moo
 	dev-perl/Sub-Install
 	dev-perl/Test-LongString
 	dev-perl/Try-Tiny
@@ -39,7 +38,7 @@ RDEPEND="
 	virtual/perl-IO
 	>=virtual/perl-IO-Compress-2.030
 	virtual/perl-MIME-Base64
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
@@ -53,3 +52,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	dev-perl/lib
 "
+

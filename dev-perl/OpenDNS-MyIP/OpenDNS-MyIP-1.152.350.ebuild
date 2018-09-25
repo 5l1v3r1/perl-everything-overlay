@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEK"
-DIST_VERSION="1.152350"
-DIST_A="OpenDNS-MyIP-1.152350.tar.gz"
+DIST_VERSION="1.152350" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="0.5"
-DIST_A="autobox-Core-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/autobox-0.110
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSOBRIER"
-DIST_VERSION="1.22"
-DIST_A="WWW-Shorten-Safe-1.22.tar.gz"
+DIST_VERSION="1.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

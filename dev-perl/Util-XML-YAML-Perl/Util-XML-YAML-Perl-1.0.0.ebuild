@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCHANDRAM"
-DIST_VERSION="1.0.0"
-DIST_A="Util-XML_YAML_Perl-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.10"
-DIST_A="WWW-Desk-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=dev-perl/IO-Socket-SSL-1.840
 	dev-perl/Mojolicious
 	dev-perl/Moose
-	dev-perl/Net-OAuth
+	>=dev-perl/Net-OAuth-0.200
 	dev-perl/Tie-Hash-LRU
 	virtual/perl-Carp
 	virtual/perl-MIME-Base64
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

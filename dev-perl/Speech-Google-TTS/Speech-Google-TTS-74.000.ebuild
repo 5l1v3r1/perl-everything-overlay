@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="NIELSD"
-DIST_VERSION="074.0"
-DIST_A="Speech-Google-TTS-074.tgz"
+DIST_VERSION="074"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/CGI
+	dev-perl/Module-Build
 	dev-perl/libwww-perl
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

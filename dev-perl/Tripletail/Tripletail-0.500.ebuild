@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIO"
-DIST_VERSION="0.50"
-DIST_A="Tripletail-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIRACUSA"
-DIST_VERSION="0.623"
-DIST_A="Rose-HTML-Objects-0.623.tar.gz"
+DIST_VERSION="0.623" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,7 @@ RDEPEND="
 	>=dev-perl/Rose-Object-0.854
 	>=dev-perl/Rose-URI-0.021
 	dev-perl/URI
+	>=dev-perl/base-2.180
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Path
@@ -38,3 +38,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

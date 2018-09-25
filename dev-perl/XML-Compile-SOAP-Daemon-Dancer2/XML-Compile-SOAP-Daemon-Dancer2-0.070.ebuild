@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PVIGIER"
-DIST_VERSION="0.07"
-DIST_A="XML-Compile-SOAP-Daemon-Dancer2-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	dev-perl/Plack
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.08"
-DIST_A="Plack-App-Path-Router-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.900
 	>=dev-perl/MooseX-NonMoose-0.070
 	>=dev-perl/Path-Router-0.080
-	dev-perl/Plack
+	>=dev-perl/Plack-0.080
 	dev-perl/Try-Tiny
 "
 DEPEND="
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
 "
+

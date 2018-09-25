@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MISHIN"
-DIST_VERSION="5.18.0.1.84"
-DIST_A="POD2-RU-5.18.0.1.84.tar.gz"
+DIST_VERSION="5.18.0.1.84" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.001.006
 "
+

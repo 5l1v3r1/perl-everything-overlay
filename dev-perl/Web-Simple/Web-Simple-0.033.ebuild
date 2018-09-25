@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.033"
-DIST_A="Web-Simple-0.033.tar.gz"
+DIST_VERSION="0.033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Data-Dumper-Concise-2.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

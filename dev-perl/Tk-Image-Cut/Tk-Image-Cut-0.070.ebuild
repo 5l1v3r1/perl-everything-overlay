@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KNORR"
-DIST_VERSION="0.07"
-DIST_A="Tk-Image-Cut-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Tk
+	>=dev-perl/Tk-4.003
 	>=dev-perl/Tk-Image-Calculation-0.040
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

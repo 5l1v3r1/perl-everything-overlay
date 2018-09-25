@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="2.0001"
-DIST_A="Task-WebGUI8-2.0001.tar.gz"
+DIST_VERSION="2.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -85,7 +84,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.930
 	>=dev-perl/MooseX-Getopt-0.250
 	>=dev-perl/MooseX-NonMoose-0.070
-	>=dev-perl/MooseX-Storage-0.230
+	>=dev-perl/MooseX-Storage-0.270
 	>=dev-perl/Net-CIDR-Lite-0.200
 	>=dev-perl/Net-DNS-0.660
 	dev-perl/Net-Server-SS-PreFork
@@ -95,7 +94,7 @@ RDEPEND="
 	>=dev-perl/POE-Component-Client-DNS-1.051
 	>=dev-perl/POE-Component-Client-HTTP-0.880
 	>=dev-perl/POE-Component-Client-Keepalive-0.262
-	>=dev-perl/POE-Component-IKC-0.200.100
+	>=dev-perl/POE-Component-IKC-0.200.200
 	dev-perl/Package-Stash
 	>=dev-perl/Params-Validate-0.910
 	>=dev-perl/Path-Class-0.160
@@ -157,3 +156,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

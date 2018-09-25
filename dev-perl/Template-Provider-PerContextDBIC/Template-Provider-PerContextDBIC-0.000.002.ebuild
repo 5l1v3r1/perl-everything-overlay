@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNG"
-DIST_VERSION="0.000002"
-DIST_A="Template-Provider-PerContextDBIC-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DBIx-Class
 	dev-perl/DBIx-Class-Schema-RestrictWithObject
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

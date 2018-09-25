@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="0.15"
-DIST_A="Tree-Simple-VisitorFactory-0.15.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Tree-Simple-1.220
+	>=dev-perl/Tree-Simple-1.120
 	dev-perl/base
 	>=virtual/perl-File-Spec-0.600
 	>=virtual/perl-Scalar-List-Utils-1.100
@@ -28,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.150
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

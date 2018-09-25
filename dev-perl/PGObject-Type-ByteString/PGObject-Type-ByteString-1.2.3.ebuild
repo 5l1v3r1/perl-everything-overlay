@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EHUELS"
-DIST_VERSION="1.2.3"
-DIST_A="PGObject-Type-ByteString-1.2.3.tar.gz"
+DIST_VERSION="1.2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	virtual/perl-Test-Simple
 "
+

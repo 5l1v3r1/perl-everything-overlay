@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHANSEN"
-DIST_VERSION="0.9"
-DIST_A="String-Numeric-XS-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APEIRON"
-DIST_VERSION="0.000000"
-DIST_A="Test-WWW-Mechanize-Declare-0.000000.tar.gz"
+DIST_VERSION="0.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.01000010"
-DIST_A="Test-StructuredObject-0.01000010.tar.gz"
+DIST_VERSION="0.01000010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.300
 	virtual/perl-File-Temp
 "
+

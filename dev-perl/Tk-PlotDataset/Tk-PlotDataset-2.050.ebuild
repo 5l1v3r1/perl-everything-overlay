@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Tk-PlotDataset"
-DIST_VERSION="2.05"
-DIST_A="Tk-PlotDataset-2.05.tar.gz"
+DIST_AUTHOR="ITDEV"
+DIST_VERSION="2.05" 
+SRC_URI="mirror://cpan/authors/id/I/IT/ITDEV/Tk-PlotDataset/Tk-PlotDataset-2.05.tar.gz -> Tk-PlotDataset-2.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tk-PlotDataset-2.05 ${WORKDIR}/Tk-PlotDataset-2.05
+}
+

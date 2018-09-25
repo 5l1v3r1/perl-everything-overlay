@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="RPC-Object"
-DIST_VERSION="0.04"
-DIST_A="RPC-Object-0.04.tar.gz"
+DIST_AUTHOR="JWU"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/J/JW/JWU/RPC-Object/RPC-Object-0.04.tar.gz -> RPC-Object-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RPC-Object-0.04 ${WORKDIR}/RPC-Object-0.04
+}
+

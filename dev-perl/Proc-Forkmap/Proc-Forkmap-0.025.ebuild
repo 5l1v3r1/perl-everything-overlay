@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TRSKI"
-DIST_VERSION="0.025"
-DIST_A="Proc-Forkmap-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

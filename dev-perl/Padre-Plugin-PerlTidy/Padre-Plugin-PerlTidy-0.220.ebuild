@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AZAWAWI"
-DIST_VERSION="0.22"
-DIST_A="Padre-Plugin-PerlTidy-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
+

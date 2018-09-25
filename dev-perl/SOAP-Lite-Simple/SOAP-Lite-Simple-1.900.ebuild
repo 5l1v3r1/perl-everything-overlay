@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LLAP"
-DIST_VERSION="1.9"
-DIST_A="SOAP-Lite-Simple-1.9.tar.gz"
+DIST_VERSION="1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

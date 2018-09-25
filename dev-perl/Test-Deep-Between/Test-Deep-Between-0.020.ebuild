@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MACOPY"
-DIST_VERSION="0.02"
-DIST_A="Test-Deep-Between-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.108
 	virtual/perl-Time-Piece
 "
+

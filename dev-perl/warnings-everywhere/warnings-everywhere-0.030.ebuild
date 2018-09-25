@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKINGTON"
-DIST_VERSION="0.030"
-DIST_A="warnings-everywhere-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

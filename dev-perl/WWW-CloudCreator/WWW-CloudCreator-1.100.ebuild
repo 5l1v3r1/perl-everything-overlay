@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOCK"
-DIST_VERSION="1.1"
-DIST_A="WWW-CloudCreator-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	virtual/perl-Test-Simple
 "
+

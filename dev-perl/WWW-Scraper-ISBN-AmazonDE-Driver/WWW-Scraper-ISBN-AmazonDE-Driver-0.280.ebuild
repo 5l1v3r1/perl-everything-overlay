@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENEEB"
-DIST_VERSION="0.28"
-DIST_A="WWW-Scraper-ISBN-AmazonDE_Driver-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Test-CheckManifest-1.220
 	>=dev-perl/WWW-Mechanize-1.200
-	>=dev-perl/WWW-Scraper-ISBN-0.240
+	>=dev-perl/WWW-Scraper-ISBN-0.170
 	>=dev-perl/Web-Scraper-0.130
 	virtual/perl-Test-Simple
 "
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

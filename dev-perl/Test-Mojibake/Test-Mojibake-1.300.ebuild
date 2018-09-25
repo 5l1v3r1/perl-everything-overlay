@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYP"
-DIST_VERSION="1.3"
-DIST_A="Test-Mojibake-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-IO
 "
+

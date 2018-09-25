@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Thread-Pool-Simple"
-DIST_VERSION="0.25"
-DIST_A="Thread-Pool-Simple-0.25.tar.gz"
+DIST_AUTHOR="JWU"
+DIST_VERSION="0.25" 
+SRC_URI="mirror://cpan/authors/id/J/JW/JWU/Thread-Pool-Simple/Thread-Pool-Simple-0.25.tar.gz -> Thread-Pool-Simple-0.25.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Thread-Pool-Simple-0.25 ${WORKDIR}/Thread-Pool-Simple-0.25
+}
+

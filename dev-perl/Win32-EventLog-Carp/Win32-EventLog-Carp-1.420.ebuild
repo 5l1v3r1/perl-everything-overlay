@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLAND"
-DIST_VERSION="1.42"
-DIST_A="Win32-EventLog-Carp-1.42.tar.gz"
+DIST_VERSION="1.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

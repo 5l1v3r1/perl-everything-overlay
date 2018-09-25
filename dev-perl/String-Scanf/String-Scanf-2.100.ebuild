@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHI"
-DIST_VERSION="2.1"
-DIST_A="String-Scanf-2.1.tar.gz"
+DIST_VERSION="2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

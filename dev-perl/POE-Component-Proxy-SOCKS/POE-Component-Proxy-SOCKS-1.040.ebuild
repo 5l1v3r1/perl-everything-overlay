@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.04"
-DIST_A="POE-Component-Proxy-SOCKS-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Net-Netmask-1.901.500
-	dev-perl/POE
+	>=dev-perl/POE-1.280
 	>=dev-perl/POE-Component-Client-DNS-0.990
 	>=dev-perl/POE-Component-Client-Ident-1.030
 "
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

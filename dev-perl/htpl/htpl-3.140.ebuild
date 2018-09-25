@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHOP"
-DIST_VERSION="3.14"
-DIST_A="htpl-3.14.tar.gz"
+DIST_VERSION="3.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONFLK"
-DIST_VERSION="1.13"
-DIST_A="Wx-Perl-TreeChecker-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

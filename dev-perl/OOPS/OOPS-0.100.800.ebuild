@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.1008"
-DIST_A="OOPS-0.1008.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.1008" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/OOPS-0.1008.tar.gz -> OOPS-0.1008.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/OOPS-0.1008 ${WORKDIR}/OOPS-0.1008
+}
+

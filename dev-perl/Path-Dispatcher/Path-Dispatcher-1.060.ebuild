@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SARTAK"
-DIST_VERSION="1.06"
-DIST_A="Path-Dispatcher-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.880
 "
+

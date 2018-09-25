@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOGIE"
-DIST_VERSION="0.004"
-DIST_A="PrankCall-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Resub
 	virtual/perl-Test-Simple
 "
+

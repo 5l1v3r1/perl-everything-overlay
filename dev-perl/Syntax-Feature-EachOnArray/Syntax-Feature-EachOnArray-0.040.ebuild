@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARYANTO"
-DIST_VERSION="0.04"
-DIST_A="Syntax-Feature-EachOnArray-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

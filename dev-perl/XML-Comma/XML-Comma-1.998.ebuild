@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIANSKI"
-DIST_VERSION="1.998"
-DIST_A="XML-Comma-1.998.tar.gz"
+DIST_VERSION="1.998" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

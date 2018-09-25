@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ANTRO"
-DIST_VERSION="111.0"
-DIST_A="PDF-111.tgz"
+DIST_VERSION="111"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

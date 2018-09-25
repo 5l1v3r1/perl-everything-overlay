@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANAMBURG"
-DIST_VERSION="0.010"
-DIST_A="VANAMBURG-SEMPROG-SimpleGraph-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
 	>=dev-perl/Modern-Perl-1.030
-	>=dev-perl/Moose-0.930
+	dev-perl/Moose
 	dev-perl/Set-Scalar
 	dev-perl/Text-CSV-XS
 	dev-perl/URI
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

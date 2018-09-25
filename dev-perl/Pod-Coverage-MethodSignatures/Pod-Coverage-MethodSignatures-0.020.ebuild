@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAPATRICK"
-DIST_VERSION="0.02"
-DIST_A="Pod-Coverage-MethodSignatures-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Output-0.160
 	>=virtual/perl-Test-Simple-0.920
 "
+

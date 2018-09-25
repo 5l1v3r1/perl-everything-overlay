@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOLLINS"
-DIST_VERSION="v1.5.2"
-DIST_A="Perlwikipedia-1.5.2.tar.gz"
+DIST_VERSION="1.5.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

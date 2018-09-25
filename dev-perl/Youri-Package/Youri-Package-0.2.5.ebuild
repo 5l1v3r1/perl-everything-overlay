@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GROUSSE"
-DIST_VERSION="0.2.5"
-DIST_A="Youri-Package-0.2.5.tar.gz"
+DIST_VERSION="0.2.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

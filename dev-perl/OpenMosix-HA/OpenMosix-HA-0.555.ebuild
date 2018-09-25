@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEGT"
-DIST_VERSION="0.555"
-DIST_A="OpenMosix-HA-0.555.tar.gz"
+DIST_VERSION="0.555" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

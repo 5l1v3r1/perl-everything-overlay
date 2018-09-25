@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUCCHI"
-DIST_VERSION="0.17"
-DIST_A="SQL-Executor-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/DBD-SQLite-1.270
 	virtual/perl-Test-Simple
 "
+

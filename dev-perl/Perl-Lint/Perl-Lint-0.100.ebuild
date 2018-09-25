@@ -33,6 +33,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Text-TestBase
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980

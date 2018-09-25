@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROCKY"
-DIST_VERSION="1.08"
-DIST_A="Term-ReadLine-Perl5-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/rlib-0.020
 	>=virtual/perl-Test-Simple-0.810
 "
+

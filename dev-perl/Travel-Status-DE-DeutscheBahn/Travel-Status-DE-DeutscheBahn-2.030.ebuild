@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DERF"
-DIST_VERSION="2.03"
-DIST_A="Travel-Status-DE-DeutscheBahn-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

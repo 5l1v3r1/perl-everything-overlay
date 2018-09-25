@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Parse-PlainConfig"
-DIST_VERSION="3.05"
-DIST_A="Parse-PlainConfig-3.05.tar.gz"
+DIST_AUTHOR="CORLISS"
+DIST_VERSION="3.05" 
+SRC_URI="mirror://cpan/authors/id/C/CO/CORLISS/Parse-PlainConfig/Parse-PlainConfig-3.05.tar.gz -> Parse-PlainConfig-3.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Parse-PlainConfig-3.05 ${WORKDIR}/Parse-PlainConfig-3.05
+}
+

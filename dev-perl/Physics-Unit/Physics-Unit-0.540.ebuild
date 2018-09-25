@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="0.54"
-DIST_A="Physics-Unit-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	virtual/perl-Test-Simple
 "
+

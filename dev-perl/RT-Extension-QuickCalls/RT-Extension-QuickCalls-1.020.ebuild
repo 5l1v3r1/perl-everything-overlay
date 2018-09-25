@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPS"
-DIST_VERSION="1.02"
-DIST_A="RT-Extension-QuickCalls-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+

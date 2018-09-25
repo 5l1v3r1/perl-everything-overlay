@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.10"
-DIST_A="POE-Component-IRC-Plugin-URI-Find-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/POE-1.004
-	dev-perl/POE-Component-IRC
+	>=dev-perl/POE-Component-IRC-5.070
 	>=dev-perl/URI-Find-0.160
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

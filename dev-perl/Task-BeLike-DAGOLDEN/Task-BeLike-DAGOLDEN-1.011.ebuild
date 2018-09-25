@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="1.011"
-DIST_A="Task-BeLike-DAGOLDEN-1.011.tar.gz"
+DIST_VERSION="1.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -118,3 +117,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	virtual/perl-File-Spec
 "
+

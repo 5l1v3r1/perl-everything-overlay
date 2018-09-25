@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEKK"
-DIST_VERSION="0.3002"
-DIST_A="Passwd-Keyring-OSXKeychain-0.3002.tar.gz"
+DIST_VERSION="0.3002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.000
 	virtual/perl-Test-Simple
 "
+

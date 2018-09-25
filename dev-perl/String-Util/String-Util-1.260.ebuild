@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKO"
-DIST_VERSION="1.26"
-DIST_A="String-Util-1.26.tar.gz"
+DIST_VERSION="1.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

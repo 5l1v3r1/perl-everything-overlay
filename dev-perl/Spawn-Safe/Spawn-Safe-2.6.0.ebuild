@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEAGLE"
-DIST_VERSION="v2.6.0"
-DIST_A="Spawn-Safe-2.006.tar.gz"
+DIST_VERSION="2.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

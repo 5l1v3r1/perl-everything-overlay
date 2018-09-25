@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRUNER"
-DIST_VERSION="0.52"
-DIST_A="Pod-ProjectDocs-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

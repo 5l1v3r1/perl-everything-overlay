@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FALCONE"
-DIST_VERSION="0.08"
-DIST_A="RTx-Shredder-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/DBIx-SearchBuilder-1.310
 	>=dev-perl/Exception-Class-1.230
-	>=dev-perl/dbix-searchbuilder-1.310
 	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	dev-lang/perl
+	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
+	dev-perl/Test-Deep
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

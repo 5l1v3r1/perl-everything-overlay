@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAVI"
-DIST_VERSION="0.04"
-DIST_A="Win32-EmailSend-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Win32-OLE
 	virtual/perl-Test-Simple
 "
+

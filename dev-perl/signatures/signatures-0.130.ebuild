@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.13"
-DIST_A="signatures-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-Depends-0.302
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

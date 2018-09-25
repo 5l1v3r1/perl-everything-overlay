@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TARAO"
-DIST_VERSION="0.03"
-DIST_A="Plack-Middleware-StackTrace-RethrowFriendly-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="0.007"
-DIST_A="W3C-SOAP-WADL-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,8 +31,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-5.000
 	dev-perl/Test-Warnings
 	dev-perl/WWW-Mechanize
 	>=virtual/perl-Test-Simple-0.880
 "
+

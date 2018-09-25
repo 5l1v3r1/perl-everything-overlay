@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYMON"
-DIST_VERSION="v1.3.3"
-DIST_A="Strehler-1.3.3.tar.gz"
+DIST_VERSION="1.3.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

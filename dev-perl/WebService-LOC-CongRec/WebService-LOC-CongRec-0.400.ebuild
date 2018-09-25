@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DINOMITE"
-DIST_VERSION="0.4"
-DIST_A="WebService-LOC-CongRec-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Class-0.360
 	>=dev-perl/WWW-Mechanize-1.640
 "
+

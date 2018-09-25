@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDRW"
-DIST_VERSION="0.24"
-DIST_A="Pod-Advent-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-Test-Harness-2.030
 	virtual/perl-Test-Simple
 "
+

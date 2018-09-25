@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEYW"
-DIST_VERSION="3.990"
-DIST_A="disbatch-3.990.tar.gz"
+DIST_VERSION="3.990" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,6 +37,7 @@ RDEPEND="
 	dev-perl/Try-Tiny-Retry
 	dev-perl/URL-Encode
 	>=dev-perl/boolean-0.250
+	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
@@ -50,3 +50,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

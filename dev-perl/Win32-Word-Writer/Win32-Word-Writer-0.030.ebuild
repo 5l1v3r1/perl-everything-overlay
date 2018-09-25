@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANL"
-DIST_VERSION="0.03"
-DIST_A="Win32-Word-Writer-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-MethodMaker-1.120
 	>=dev-perl/Test-Exception-0.200
-	dev-perl/Win32-OLE
+	>=dev-perl/Win32-OLE-0.170
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-File-Spec-0.870
@@ -27,4 +26,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUZ"
-DIST_VERSION="0.07"
-DIST_A="RTx-Shredder-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,18 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Bundle-RT-3.400
+	>=dev-perl/DBIx-SearchBuilder-1.310
 	>=dev-perl/Exception-Class-1.230
-	>=dev-perl/dbix-searchbuilder-1.310
 	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
+	dev-lang/perl
+	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
+	dev-perl/Test-Deep
+	virtual/perl-File-Path
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

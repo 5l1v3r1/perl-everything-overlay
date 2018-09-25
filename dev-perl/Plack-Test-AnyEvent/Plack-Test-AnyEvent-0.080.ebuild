@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHOELZ"
-DIST_VERSION="0.08"
-DIST_A="Plack-Test-AnyEvent-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

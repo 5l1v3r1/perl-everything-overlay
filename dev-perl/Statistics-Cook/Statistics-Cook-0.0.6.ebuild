@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEKINGSAM"
-DIST_VERSION="v0.0.6"
-DIST_A="Statistics-Cook-0.0.6.tar.gz"
+DIST_VERSION="0.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.000
 	virtual/perl-Test-Simple
 "
+

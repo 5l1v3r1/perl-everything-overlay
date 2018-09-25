@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJRAY"
-DIST_VERSION="0.10"
-DIST_A="Test-Without-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	>=virtual/perl-Test-Simple-0.800
 "
+

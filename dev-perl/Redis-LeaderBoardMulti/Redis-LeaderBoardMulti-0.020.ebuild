@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHOGO"
-DIST_VERSION="0.02"
-DIST_A="Redis-LeaderBoardMulti-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Redis
 	dev-perl/Test-RedisServer
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGENICO"
-DIST_VERSION="1.9"
-DIST_A="NpsSDK-Nps-1.9.tar.gz"
+DIST_VERSION="1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

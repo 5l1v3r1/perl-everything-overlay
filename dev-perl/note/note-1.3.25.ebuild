@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TLINDEN"
-DIST_VERSION="1.3.25"
-DIST_A="note-1.3.25.tar.gz"
+DIST_VERSION="1.3.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

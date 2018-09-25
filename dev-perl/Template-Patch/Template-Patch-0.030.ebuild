@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAAL"
-DIST_VERSION="0.03"
-DIST_A="Template-Patch-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Class-Accessor-Ref
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

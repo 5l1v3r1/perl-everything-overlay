@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EMILLER"
-DIST_VERSION="3.61"
-DIST_A="SNMP-Info-3.61.tar.gz"
+DIST_VERSION="3.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.880
 "
+

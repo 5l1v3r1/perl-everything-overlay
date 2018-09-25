@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TILDEDAVE"
-DIST_VERSION="0.001"
-DIST_A="Tilt-Email-BlueHornet-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

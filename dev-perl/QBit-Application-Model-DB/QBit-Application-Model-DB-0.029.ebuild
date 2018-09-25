@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.029"
-DIST_A="QBit-Application-Model-DB-0.029.tar.gz"
+DIST_VERSION="0.029" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/lib-abs
 	virtual/perl-Test-Simple
 "
+

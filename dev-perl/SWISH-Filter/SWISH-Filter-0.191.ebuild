@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARMAN"
-DIST_VERSION="0.191"
-DIST_A="SWISH-Filter-0.191.tar.gz"
+DIST_VERSION="0.191" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Pod-Usage
+	dev-perl/URI
+	virtual/perl-Getopt-Long
+	virtual/perl-Test-Simple
 "
+

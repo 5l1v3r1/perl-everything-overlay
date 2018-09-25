@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.5.0"
-DIST_A="Pod-Pandoc-0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.960
 "
+

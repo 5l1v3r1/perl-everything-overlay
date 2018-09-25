@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BALAJIRAM"
-DIST_VERSION="0.204"
-DIST_A="TextFileParser-0.204.tar.gz"
+DIST_VERSION="0.204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

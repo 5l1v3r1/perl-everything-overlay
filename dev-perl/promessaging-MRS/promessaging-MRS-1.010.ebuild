@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ETWOECMA"
-DIST_VERSION="1.01"
-DIST_A="promessaging-MRS-1.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/E/ET/ETWOECMA/MRS/promessaging-MRS-1.01.tar.gz"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/E/ET/ETWOECMA/MRS/promessaging-MRS-1.01.tar.gz -> promessaging-MRS-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/promessaging-MRS-1.01 ${WORKDIR}/promessaging-MRS-1.01
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FILIN"
-DIST_VERSION="0.782"
-DIST_A="Rose-DBx-Object-Metadata-Column-Xml-0.782.tar.gz"
+DIST_VERSION="0.782" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Rose-DB-Object
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

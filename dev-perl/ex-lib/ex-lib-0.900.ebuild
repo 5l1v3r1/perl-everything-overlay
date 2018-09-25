@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MONS"
-DIST_VERSION="0.90"
-DIST_A="ex-lib-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

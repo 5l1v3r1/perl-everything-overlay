@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.01"
-DIST_A="Queue-Gearman-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/File-Which
+	dev-perl/Module-Build
 	dev-perl/Test-SharedFork
 	dev-perl/Test-TCP
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
+

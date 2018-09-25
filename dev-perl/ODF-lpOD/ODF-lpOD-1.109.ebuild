@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMGDOC"
-DIST_VERSION="1.109"
-DIST_A="ODF-lpOD-1.109.tar.gz"
+DIST_VERSION="1.109" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-2.760
 	>=dev-perl/Archive-Zip-1.300
 	>=dev-perl/XML-Twig-3.340
 	>=virtual/perl-File-Temp-0.120
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

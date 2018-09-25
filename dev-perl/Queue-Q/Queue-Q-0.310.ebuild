@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTK"
-DIST_VERSION="0.31"
-DIST_A="Queue-Q-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

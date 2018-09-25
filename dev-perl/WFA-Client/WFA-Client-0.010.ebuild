@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="QRRY"
-DIST_VERSION="0.01"
-DIST_A="WFA-Client-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Perl-Critic
 	>=virtual/perl-Test-Simple-0.880
 "
+

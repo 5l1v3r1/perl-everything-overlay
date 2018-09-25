@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCARDWELL"
-DIST_VERSION="0.02"
-DIST_A="Template-Provider-DBIC-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/DBD-SQLite-1.110
 	dev-perl/DBIx-Class
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

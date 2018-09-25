@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="4.4"
-DIST_A="Parse-Syslog-Line-4.4.tar.gz"
+DIST_VERSION="4.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-bignum
 "
+

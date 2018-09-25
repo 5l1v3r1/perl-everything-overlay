@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJVENS"
-DIST_VERSION="0.27"
-DIST_A="Photography-Website-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

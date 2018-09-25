@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIKC"
-DIST_VERSION="0.53"
-DIST_A="SVN-Web-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,4 +33,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

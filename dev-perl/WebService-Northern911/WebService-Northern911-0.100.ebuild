@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MWELLS"
-DIST_VERSION="0.1"
-DIST_A="WebService-Northern911-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/File-ShareDir-Install
 	virtual/perl-Test-Simple
 "
+

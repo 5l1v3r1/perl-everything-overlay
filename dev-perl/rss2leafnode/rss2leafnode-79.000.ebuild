@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="79.0"
-DIST_A="rss2leafnode-79.tar.gz"
+DIST_VERSION="79" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Encode-Locale-0.060
 	dev-perl/File-HomeDir
 	dev-perl/HTML-Entities-Interpolate
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Message
 	>=dev-perl/List-MoreUtils-0.240
@@ -35,9 +34,10 @@ RDEPEND="
 	>=dev-perl/XML-Twig-3.340
 	dev-perl/constant-defer
 	>=dev-perl/libintl-perl-1.170
-	>=dev-perl/libwww-perl-5.832
+	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

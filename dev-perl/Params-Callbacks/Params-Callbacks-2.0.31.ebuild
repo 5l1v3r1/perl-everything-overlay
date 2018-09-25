@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANIC"
-DIST_VERSION="v2.0.31"
-DIST_A="Params-Callbacks-2.0.31.tar.gz"
+DIST_VERSION="2.0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SELCOMB"
-DIST_VERSION="3.03"
-DIST_A="SAL-3.03.tar.gz"
+DIST_VERSION="3.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

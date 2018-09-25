@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPROUT"
-DIST_VERSION="0.032"
-DIST_A="WWW-Scripter-0.032.tar.gz"
+DIST_VERSION="0.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,12 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-DOM
-	>=dev-perl/HTML-DOM-0.057
-	dev-perl/HTTP-Message
+	>=dev-perl/HTML-DOM-0.019
+	>=dev-perl/HTTP-Message-1.340
 	dev-perl/URI
 	dev-perl/WWW-Mechanize
 	dev-perl/lib
-	>=dev-perl/libwww-perl-5.000
+	dev-perl/libwww-perl
 	virtual/perl-Encode
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-IO-Compress
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

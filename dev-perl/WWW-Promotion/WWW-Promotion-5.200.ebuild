@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SNEMAROV"
-DIST_VERSION="5.20"
-DIST_A="WWW-Promotion-5.20.tar.gz"
+DIST_VERSION="5.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

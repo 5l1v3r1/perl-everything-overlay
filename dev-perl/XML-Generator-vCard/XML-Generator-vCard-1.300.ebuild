@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASCOPE"
-DIST_VERSION="1.3"
-DIST_A="XML-Generator-vCard-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.470
 "
+

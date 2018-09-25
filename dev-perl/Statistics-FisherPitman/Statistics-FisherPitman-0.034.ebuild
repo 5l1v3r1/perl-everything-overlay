@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGARTON"
-DIST_VERSION="0.034"
-DIST_A="Statistics-FisherPitman-0.034.tar.gz"
+DIST_VERSION="0.034" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.180
 	virtual/perl-Test-Simple
 "
+

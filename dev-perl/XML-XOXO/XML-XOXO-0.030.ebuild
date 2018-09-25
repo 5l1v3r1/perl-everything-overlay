@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="XMLXOXO"
-DIST_VERSION="0.03"
-DIST_A="XML-XOXO-0.03.tar.gz"
+DIST_AUTHOR="IKALLEN"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/I/IK/IKALLEN/XMLXOXO/XML-XOXO-0.03.tar.gz -> XML-XOXO-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-XOXO-0.03 ${WORKDIR}/XML-XOXO-0.03
+}
+

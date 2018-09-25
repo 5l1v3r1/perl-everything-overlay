@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="2.3604"
-DIST_A="RPi-DigiPot-MCP4XXXX-2.3604.tar.gz"
+DIST_VERSION="2.3604" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Mock-Sub-1.070
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFH"
-DIST_VERSION="0.003"
-DIST_A="TPath-Forester-File-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.020
 	dev-perl/Encode-Detect
 	dev-perl/Moose
 	dev-perl/MooseX-MethodAttributes
@@ -29,6 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
@@ -36,3 +37,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-autodie
 "
+

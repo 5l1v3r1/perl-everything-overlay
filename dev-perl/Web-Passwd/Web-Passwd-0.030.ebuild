@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EVANK"
-DIST_VERSION="0.03"
-DIST_A="Web-Passwd-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/CGI-Application
 	dev-perl/Config-Tiny
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="NANDINIG"
-DIST_VERSION="0.0"
-DIST_A="theshopbizstore.zip"
+DIST_VERSION=""
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/N/NA/NANDINIG/theshopbizstore.zip -> theshopbizstore-.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/theshopbizstore ${WORKDIR}/theshopbizstore-
+}
+

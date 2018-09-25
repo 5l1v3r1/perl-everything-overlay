@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OERIS"
-DIST_VERSION="0.031"
-DIST_A="RT-Extension-HideWidgets-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

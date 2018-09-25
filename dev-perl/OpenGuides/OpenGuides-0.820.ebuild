@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOB"
-DIST_VERSION="0.82"
-DIST_A="OpenGuides-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,3 +52,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.260
 	virtual/perl-File-Path
 "
+

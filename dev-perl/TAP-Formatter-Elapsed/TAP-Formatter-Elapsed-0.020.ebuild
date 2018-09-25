@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CGRAU"
-DIST_VERSION="0.02"
-DIST_A="TAP-Formatter-Elapsed-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Test-Harness
 	virtual/perl-Time-HiRes
 "
@@ -25,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.880
 "
+

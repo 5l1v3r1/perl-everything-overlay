@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUCAS"
-DIST_VERSION="0.04"
-DIST_A="iRedAdmin-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="THALJEF"
-DIST_VERSION="1.02"
-DIST_A="criticism-1.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TH/THALJEF/criticism/criticism-1.02.tar.gz"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/T/TH/THALJEF/criticism/criticism-1.02.tar.gz -> criticism-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/IO-String
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/criticism-1.02 ${WORKDIR}/criticism-1.02
+}
+

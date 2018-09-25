@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRIEUX"
-DIST_VERSION="0.06"
-DIST_A="Wetware-CLI-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	dev-perl/Test-Perl-Critic
+	>=dev-perl/Wetware-Test-0.040
+	virtual/perl-Test-Simple
 "
+

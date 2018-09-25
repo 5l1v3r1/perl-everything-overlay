@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="96.0"
-DIST_A="Perl-Critic-Pulp-96.tar.gz"
+DIST_VERSION="96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/IO-String-1.020
 	>=dev-perl/List-MoreUtils-0.240
 	dev-perl/PPI
-	dev-perl/Perl-Critic
+	>=dev-perl/Perl-Critic-1.100
 	>=dev-perl/Pod-MinimumVersion-50.000
 	virtual/perl-Pod-Escapes
 	virtual/perl-Pod-Parser
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

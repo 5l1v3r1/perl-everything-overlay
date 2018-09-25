@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWEST"
-DIST_VERSION="0.20030407"
-DIST_A="poest-0.20030407.tar.gz"
+DIST_VERSION="0.20030407" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

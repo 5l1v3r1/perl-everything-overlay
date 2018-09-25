@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.5"
-DIST_A="Tapper-Reports-API-5.0.5.tar.gz"
+DIST_VERSION="5.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,6 +36,6 @@ DEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Test-Deep
 	dev-perl/Test-Fixture-DBIC-Schema
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

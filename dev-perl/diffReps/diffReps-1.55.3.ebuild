@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PROFSHEN"
-DIST_VERSION="1.55.3"
-DIST_A="diffReps-1.55.3.tar.gz"
+DIST_VERSION="1.55.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EDWARDSON"
-DIST_VERSION="v0.0.7"
-DIST_A="Schedule-Pluggable-0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=dev-perl/Test-Pod-1.140
 	>=dev-perl/Test-Pod-Coverage-1.040
 "
+

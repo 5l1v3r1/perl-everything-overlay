@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYBER"
-DIST_VERSION="1.1.5"
-DIST_A="Panda-URI-1.1.5.tar.gz"
+DIST_VERSION="1.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.760
 	dev-perl/Test-Deep
 	>=virtual/perl-ExtUtils-ParseXS-3.240
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.960
 "
+

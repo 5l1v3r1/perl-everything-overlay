@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Paranoid-BerkeleyDB"
-DIST_VERSION="2.02"
-DIST_A="Paranoid-BerkeleyDB-2.02.tar.gz"
+DIST_AUTHOR="CORLISS"
+DIST_VERSION="2.02" 
+SRC_URI="mirror://cpan/authors/id/C/CO/CORLISS/Paranoid-BerkeleyDB/Paranoid-BerkeleyDB-2.02.tar.gz -> Paranoid-BerkeleyDB-2.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Paranoid-BerkeleyDB-2.02 ${WORKDIR}/Paranoid-BerkeleyDB-2.02
+}
+

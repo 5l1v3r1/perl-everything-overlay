@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSE"
-DIST_VERSION="2.2.13"
-DIST_A="eperl-2.2.13.tar.gz"
+DIST_VERSION="2.2.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

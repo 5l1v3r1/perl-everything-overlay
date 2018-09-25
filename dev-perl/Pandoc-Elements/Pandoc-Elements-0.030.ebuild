@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.03"
-DIST_A="Pandoc-Elements-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.038
+	dev-perl/Module-Build
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TLBDK"
-DIST_VERSION="1.05"
-DIST_A="RPC-Async-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

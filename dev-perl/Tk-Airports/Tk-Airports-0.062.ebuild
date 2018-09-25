@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENEEB"
-DIST_VERSION="0.062"
-DIST_A="Tk-Airports-0.062.tar.gz"
+DIST_VERSION="0.062" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

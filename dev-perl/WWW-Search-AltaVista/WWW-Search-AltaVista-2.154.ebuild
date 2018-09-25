@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="2.154"
-DIST_A="WWW-Search-AltaVista-2.154.tar.gz"
+DIST_VERSION="2.154" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=dev-perl/WWW-Search-2.284
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=dev-perl/WWW-Search-2.561
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

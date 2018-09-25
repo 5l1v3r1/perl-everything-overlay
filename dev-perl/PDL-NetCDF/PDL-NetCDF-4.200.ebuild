@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHUNT"
-DIST_VERSION="4.20"
-DIST_A="PDL-NetCDF-4.20.tar.gz"
+DIST_VERSION="4.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

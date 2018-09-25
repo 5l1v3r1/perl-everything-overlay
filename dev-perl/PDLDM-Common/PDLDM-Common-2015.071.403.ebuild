@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBTLFDO"
-DIST_VERSION="2015.071403"
-DIST_A="PDLDM-Common-2015.071403.tar.gz"
+DIST_VERSION="2015.071403" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

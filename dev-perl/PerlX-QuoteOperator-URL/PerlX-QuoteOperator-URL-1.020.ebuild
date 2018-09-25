@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRAEGTUN"
-DIST_VERSION="1.02"
-DIST_A="PerlX-QuoteOperator-URL-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/URI
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

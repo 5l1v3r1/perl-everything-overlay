@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ULTRADM"
-DIST_VERSION="0.22"
-DIST_A="POE-Component-Client-SMTP-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

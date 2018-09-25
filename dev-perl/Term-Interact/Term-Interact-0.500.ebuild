@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRL"
-DIST_VERSION="0.50"
-DIST_A="Term-Interact-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

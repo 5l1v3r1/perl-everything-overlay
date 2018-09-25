@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIOSHA"
-DIST_VERSION="0.02"
-DIST_A="Perl-Critic-Policy-BuiltinFunctions-ProhibitDeleteOnArrays-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,10 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Perl-Critic
 	dev-perl/Readonly
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

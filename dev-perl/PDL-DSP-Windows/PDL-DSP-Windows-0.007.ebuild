@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLAPEYRE"
-DIST_VERSION="0.007"
-DIST_A="PDL-DSP-Windows-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

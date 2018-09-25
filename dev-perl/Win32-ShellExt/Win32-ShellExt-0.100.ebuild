@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JBNIVOIT"
 DIST_VERSION="0.1"
-DIST_A="Win32-ShellExt-0.1.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSHEROH"
-DIST_VERSION="0.005"
-DIST_A="Ormlette-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSIDE"
-DIST_VERSION="0.11"
-DIST_A="UNIVERSAL-source_location_for-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.880
 "
+

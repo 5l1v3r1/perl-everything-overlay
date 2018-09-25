@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZINCDEV"
-DIST_VERSION="3.303"
-DIST_A="tk-zinc-3.303.tar.gz"
+DIST_VERSION="3.303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOLKENING"
-DIST_VERSION="1.0101"
-DIST_A="Poppler-1.0101.tar.gz"
+DIST_VERSION="1.0101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

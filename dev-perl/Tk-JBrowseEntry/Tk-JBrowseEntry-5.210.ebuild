@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TURNERJW"
-DIST_VERSION="5.21"
-DIST_A="Tk-JBrowseEntry-5.21.tar.gz"
+DIST_VERSION="5.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

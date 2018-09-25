@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="sofu"
-DIST_VERSION="0.3"
-DIST_A="Sofu-0.3.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="0.3" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/sofu/Sofu-0.3.tar.gz -> Sofu-0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Sofu-0.3 ${WORKDIR}/Sofu-0.3
+}
+

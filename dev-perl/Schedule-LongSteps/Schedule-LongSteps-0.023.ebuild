@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.023"
-DIST_A="Schedule-LongSteps-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,6 +30,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 	dev-perl/Test-MockDateTime
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

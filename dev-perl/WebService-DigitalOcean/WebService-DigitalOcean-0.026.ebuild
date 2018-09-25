@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDRE"
-DIST_VERSION="0.026"
-DIST_A="WebService-DigitalOcean-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 "
+

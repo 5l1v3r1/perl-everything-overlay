@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.027"
-DIST_A="Test-Routine-0.027.tar.gz"
+DIST_VERSION="0.027" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-1.302.045
+	>=virtual/perl-Test-Simple-0.960
 "
 DEPEND="
 	${RDEPEND}
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Math-Complex
 "
+

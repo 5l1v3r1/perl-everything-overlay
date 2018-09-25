@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.10"
-DIST_A="Text-TOC-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Path-Class
 	dev-perl/Tie-IxHash
+	dev-perl/base
 	>=dev-perl/namespace-autoclean-0.120
 "
 DEPEND="
@@ -38,3 +38,4 @@ DEPEND="
 	dev-perl/Test-Most
 	>=virtual/perl-Test-Simple-0.880
 "
+

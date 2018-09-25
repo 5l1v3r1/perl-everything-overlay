@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATCH"
-DIST_VERSION="0.01"
-DIST_A="Test-BSON-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BSON
 	>=dev-perl/Test-Differences-0.470
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=virtual/perl-Test-Simple-0.820
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVECROSS"
-DIST_VERSION="1.05"
-DIST_A="Template-Plugin-AudioFile-Info-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/AudioFile-Info
 	dev-perl/Template-Toolkit
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

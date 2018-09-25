@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLDRICH"
-DIST_VERSION="0.128"
-DIST_A="Xorg-XLFD-0.128.tar.gz"
+DIST_VERSION="0.128" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

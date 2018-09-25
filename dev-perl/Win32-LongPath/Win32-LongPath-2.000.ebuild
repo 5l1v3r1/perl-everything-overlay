@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBOISVERT"
-DIST_VERSION="2.0"
-DIST_A="Win32-LongPath-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Devel-Refcount
 	virtual/perl-Test-Simple
 "
+

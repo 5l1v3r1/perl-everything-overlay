@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="0.003"
-DIST_A="WebService-TDWTF-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Accessor
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/JSON-MaybeXS
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-RequiresInternet
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDCAWLEY"
-DIST_VERSION="0.002"
-DIST_A="Test-Routine-AutoClear-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

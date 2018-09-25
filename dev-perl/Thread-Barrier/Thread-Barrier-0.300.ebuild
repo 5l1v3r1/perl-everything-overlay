@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MROGASKI"
-DIST_VERSION="0.300"
-DIST_A="Thread-Barrier-0.300.tar.gz"
+DIST_VERSION="0.300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGILFIX"
-DIST_VERSION="v0.0.1"
-DIST_A="Notify-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Mail-Box-1.300
-	dev-perl/Mail-Sender
+	>=dev-perl/Mail-Sender-0.7.10
 	>=dev-perl/Tie-Persistent-0.900
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

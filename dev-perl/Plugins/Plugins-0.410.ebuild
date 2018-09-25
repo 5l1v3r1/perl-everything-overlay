@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.41"
-DIST_A="Plugins-0.41.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.41" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Plugins-0.41.tar.gz -> Plugins-0.41.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plugins-0.41 ${WORKDIR}/Plugins-0.41
+}
+

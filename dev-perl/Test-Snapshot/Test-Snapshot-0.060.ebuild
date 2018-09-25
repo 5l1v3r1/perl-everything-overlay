@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.06"
-DIST_A="Test-Snapshot-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Text-Diff
 	>=virtual/perl-Exporter-5.570
 	>=virtual/perl-File-Path-2.070
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	virtual/perl-Test-Harness
 "
+

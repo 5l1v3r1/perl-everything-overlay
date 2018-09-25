@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.28"
-DIST_A="Quant-Framework-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,8 +48,8 @@ DEPEND="
 	dev-perl/Format-Util
 	>=dev-perl/Test-CheckManifest-1.290
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

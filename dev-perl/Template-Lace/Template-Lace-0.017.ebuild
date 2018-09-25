@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.017"
-DIST_A="Template-Lace-0.017.tar.gz"
+DIST_VERSION="0.017" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/DateTime
 	dev-perl/Test-Most
 "
+

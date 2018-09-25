@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TRON"
-DIST_VERSION="0.2.0"
-DIST_A="Redis-Handle-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

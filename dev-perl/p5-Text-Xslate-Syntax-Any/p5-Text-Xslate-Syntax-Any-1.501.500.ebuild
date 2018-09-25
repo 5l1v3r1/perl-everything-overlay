@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHMORIMO"
-DIST_VERSION="1.5015"
-DIST_A="p5-Text-Xslate-Syntax-Any-1.5015.tar.gz"
+DIST_VERSION="1.5015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

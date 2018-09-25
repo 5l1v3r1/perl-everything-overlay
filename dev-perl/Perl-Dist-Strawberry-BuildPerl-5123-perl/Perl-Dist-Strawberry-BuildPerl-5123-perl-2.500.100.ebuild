@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="2.5001"
-DIST_A="Perl-Dist-Strawberry-BuildPerl-5123-2.5001.tar.gz"
+DIST_VERSION="2.5001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.330
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAZZ"
-DIST_VERSION="0.046"
-DIST_A="Regexp-Fields-0.046.tar.gz"
+DIST_VERSION="0.046" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

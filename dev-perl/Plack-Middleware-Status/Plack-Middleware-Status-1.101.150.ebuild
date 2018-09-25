@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDONELAN"
-DIST_VERSION="1.101150"
-DIST_A="Plack-Middleware-Status-1.101150.tar.gz"
+DIST_VERSION="1.101150" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RMUHLE"
-DIST_VERSION="0.944"
-DIST_A="classes-0.944.tar.gz"
+DIST_VERSION="0.944" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

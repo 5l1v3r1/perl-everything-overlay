@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WREIS"
-DIST_VERSION="0.05"
-DIST_A="Plack-Middleware-RequestHeaders-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

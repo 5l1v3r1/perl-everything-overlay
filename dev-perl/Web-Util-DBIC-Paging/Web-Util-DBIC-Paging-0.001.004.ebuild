@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WESM"
-DIST_VERSION="0.001004"
-DIST_A="Web-Util-DBIC-Paging-0.001004.tar.gz"
+DIST_VERSION="0.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-parent
 "
+

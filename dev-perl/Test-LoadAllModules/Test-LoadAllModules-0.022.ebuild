@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITANO"
-DIST_VERSION="0.022"
-DIST_A="Test-LoadAllModules-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-Install-AuthorTests
 	virtual/perl-File-Spec
 "
+

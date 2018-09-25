@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.04"
-DIST_A="Xen-Control-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,14 @@ RDEPEND="
 	dev-perl/Carp-Clan
 	dev-perl/Class-Accessor
 	dev-perl/List-MoreUtils
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	dev-perl/Test-Differences
+	dev-perl/Test-Environment
+	virtual/perl-Test-Simple
 "
+

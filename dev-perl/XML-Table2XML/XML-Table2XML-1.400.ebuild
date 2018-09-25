@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKAPL"
-DIST_VERSION="1.4"
-DIST_A="XML-Table2XML-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

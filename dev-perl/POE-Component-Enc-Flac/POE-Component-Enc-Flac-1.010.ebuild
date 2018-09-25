@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STE"
-DIST_VERSION="1.01"
-DIST_A="POE-Component-Enc-Flac-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

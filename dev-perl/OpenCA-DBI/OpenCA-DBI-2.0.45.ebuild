@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADWOLF"
-DIST_VERSION="v2.0.45"
-DIST_A="OpenCA-DBI-2.0.45.tar.gz"
+DIST_VERSION="2.0.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

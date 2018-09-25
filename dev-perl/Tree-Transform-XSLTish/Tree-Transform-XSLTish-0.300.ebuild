@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="0.3"
-DIST_A="Tree-Transform-XSLTish-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Carp-Clan
-	dev-perl/Moose
+	>=dev-perl/Moose-0.900
 	dev-perl/Params-Validate
 	dev-perl/Sub-Exporter
 "
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Tree-DAG-Node-XPath-0.100
 	dev-perl/Tree-XPathEngine
 "
+

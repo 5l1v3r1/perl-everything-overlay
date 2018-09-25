@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZBY"
-DIST_VERSION="0.006"
-DIST_A="WebNano-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

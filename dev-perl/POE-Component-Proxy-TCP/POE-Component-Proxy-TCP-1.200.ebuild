@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ANDYPUR"
 DIST_VERSION="1.2"
-DIST_A="POE-Component-Proxy-TCP-1.2.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

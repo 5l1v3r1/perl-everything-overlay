@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CODYP"
 DIST_VERSION="0.1"
-DIST_A="WWW-PDAScraper-0.1.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAMENSKY"
-DIST_VERSION="2.12"
-DIST_A="Text-Bidi-2.12.tar.gz"
+DIST_VERSION="2.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Exporter
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-version-0.770
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEWELLC"
-DIST_VERSION="0.52"
-DIST_A="Test-DBIx-Class-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 "
+

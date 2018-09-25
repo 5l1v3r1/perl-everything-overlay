@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARICH"
-DIST_VERSION="1.13"
-DIST_A="Win32-DirSize-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

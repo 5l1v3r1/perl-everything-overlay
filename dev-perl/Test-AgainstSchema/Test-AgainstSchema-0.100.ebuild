@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJRAY"
-DIST_VERSION="0.100"
-DIST_A="Test-AgainstSchema-0.100.tar.gz"
+DIST_VERSION="0.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.800
 "
+

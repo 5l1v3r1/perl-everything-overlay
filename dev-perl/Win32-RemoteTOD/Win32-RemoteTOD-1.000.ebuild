@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARICH"
-DIST_VERSION="1.00"
-DIST_A="Win32-RemoteTOD-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

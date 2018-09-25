@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMB"
-DIST_VERSION="0.004002"
-DIST_A="WebAPI-DBIC-0.004002.tar.gz"
+DIST_VERSION="0.004002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,7 +46,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Cpanel-JSON-XS
 	>=dev-perl/DBIx-Class-Fixtures-1.001.025
 	dev-perl/Data-Printer
 	dev-perl/Module-Pluggable
@@ -61,3 +59,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-autodie
 "
+

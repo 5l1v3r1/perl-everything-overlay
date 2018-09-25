@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILUX"
-DIST_VERSION="0.102000"
-DIST_A="Udev-FFI-0.102000.tar.gz"
+DIST_VERSION="0.102000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.500
 	>=virtual/perl-Test-Simple-0.980
 "
+

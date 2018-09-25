@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JENDA"
-DIST_VERSION="v0.16.02"
-DIST_A="Win32-FileOp-0.16.02.tar.gz"
+DIST_VERSION="0.16.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

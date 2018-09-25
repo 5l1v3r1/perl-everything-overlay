@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNOBE"
-DIST_VERSION="0.4.18"
-DIST_A="WWW-Facebook-API-0.4.18.tar.gz"
+DIST_VERSION="0.4.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJRAY"
-DIST_VERSION="0.101"
-DIST_A="Text-Textile-Plaintext-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTML-Format-2.040
+	>=dev-perl/HTML-Formatter-2.040
 	>=dev-perl/HTML-Tree-3.230
 	>=dev-perl/Text-Textile-2.120
 "
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.201
 	>=virtual/perl-Test-Simple-0.800
 "
+

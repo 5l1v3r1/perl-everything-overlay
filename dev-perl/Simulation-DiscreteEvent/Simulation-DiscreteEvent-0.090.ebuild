@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZWON"
-DIST_VERSION="0.09"
-DIST_A="Simulation-DiscreteEvent-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Most
 	>=virtual/perl-Test-Simple-0.630
 "
+

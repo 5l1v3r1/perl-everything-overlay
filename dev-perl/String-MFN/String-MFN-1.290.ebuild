@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDXI"
-DIST_VERSION="1.29"
-DIST_A="String-MFN-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAMV"
-DIST_VERSION="0.0"
-DIST_A="Parse-SVNDiff-0.03.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAMV/Parse-SVNDiff-0.03.tar.gz -> Parse-SVNDiff-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Parse-SVNDiff-0.03 ${WORKDIR}/Parse-SVNDiff-
+}
+

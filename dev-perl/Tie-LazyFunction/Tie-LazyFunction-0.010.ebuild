@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="handy_tied_functions"
-DIST_VERSION="0.01"
-DIST_A="Tie-LazyFunction-0.01.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/handy_tied_functions/Tie-LazyFunction-0.01.tar.gz -> Tie-LazyFunction-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tie-LazyFunction-0.01 ${WORKDIR}/Tie-LazyFunction-0.01
+}
+

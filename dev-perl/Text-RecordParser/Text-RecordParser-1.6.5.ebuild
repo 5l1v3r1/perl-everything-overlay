@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KCLARK"
-DIST_VERSION="v1.6.5"
-DIST_A="Text-RecordParser-1.6.5.tar.gz"
+DIST_VERSION="1.6.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

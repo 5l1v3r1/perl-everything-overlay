@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJZORT"
-DIST_VERSION="0.63"
-DIST_A="SVN-Web-0.63.tar.gz"
+DIST_VERSION="0.63" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ RDEPEND="
 	dev-perl/TimeDate
 	dev-perl/URI
 	dev-perl/YAML
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-File-Path
@@ -42,3 +42,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize
 	virtual/perl-Test-Simple
 "
+

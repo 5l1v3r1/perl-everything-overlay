@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCCLENN"
-DIST_VERSION="0.254"
-DIST_A="Web-DataService-0.254.tar.gz"
+DIST_VERSION="0.254" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

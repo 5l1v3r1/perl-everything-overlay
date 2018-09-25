@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKIES"
-DIST_VERSION="0.99"
-DIST_A="onsearch-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

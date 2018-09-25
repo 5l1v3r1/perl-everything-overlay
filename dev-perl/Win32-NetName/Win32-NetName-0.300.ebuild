@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSOUTHERN"
-DIST_VERSION="0.3"
-DIST_A="Win32-NetName-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

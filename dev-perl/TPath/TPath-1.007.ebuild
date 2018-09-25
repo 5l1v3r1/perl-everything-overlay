@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFH"
-DIST_VERSION="1.007"
-DIST_A="TPath-1.007.tar.gz"
+DIST_VERSION="1.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,8 +35,10 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Test-Exception
 	dev-perl/Test-Trap
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

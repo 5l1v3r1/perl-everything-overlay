@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZNMSTR"
-DIST_VERSION="1.1.0"
-DIST_A="Zonemaster-LDNS-1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-JSON-PP
 "
+

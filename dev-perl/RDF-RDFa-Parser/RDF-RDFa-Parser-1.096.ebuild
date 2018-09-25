@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="1.096"
-DIST_A="RDF-RDFa-Parser-1.096.tar.gz"
+DIST_VERSION="1.096" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

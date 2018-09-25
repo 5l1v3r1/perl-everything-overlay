@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="3.000"
-DIST_A="WWW-DaysOfWonder-Memoir44-3.000.tar.gz"
+DIST_VERSION="3.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,6 +33,7 @@ RDEPEND="
 	dev-perl/Text-Padding
 	dev-perl/Text-Trim
 	dev-perl/URI
+	dev-perl/lib
 	dev-perl/libintl-perl
 	dev-perl/libwww-perl
 	virtual/perl-Encode
@@ -47,3 +47,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

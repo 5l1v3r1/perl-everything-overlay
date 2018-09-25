@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEVINJ"
-DIST_VERSION="0.38"
-DIST_A="Socialtext-Resting-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

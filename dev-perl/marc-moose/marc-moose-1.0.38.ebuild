@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREDERICD"
-DIST_VERSION="1.0.38"
-DIST_A="marc-moose-1.0.38.tar.gz"
+DIST_VERSION="1.0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAWALSH"
-DIST_VERSION="v0.1.8"
-DIST_A="Types-Core-0.1.8.tar.gz"
+DIST_VERSION="0.1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

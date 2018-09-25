@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DRSTEVE"
 DIST_VERSION="0.63"
-DIST_A="net-lastfmapi-0.63.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

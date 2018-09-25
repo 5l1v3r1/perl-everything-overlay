@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCANEZ"
-DIST_VERSION="0.300004"
-DIST_A="POE-Component-DirWatch-0.300004.tar.gz"
+DIST_VERSION="0.300004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

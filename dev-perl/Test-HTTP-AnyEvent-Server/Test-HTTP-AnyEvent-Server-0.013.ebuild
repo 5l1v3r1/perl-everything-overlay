@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYP"
-DIST_VERSION="0.013"
-DIST_A="Test-HTTP-AnyEvent-Server-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/AnyEvent
+	>=dev-perl/AnyEvent-7.000
 	dev-perl/HTTP-Message
 	dev-perl/Moo
 	dev-perl/MooX-Types-MooseLike
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-HTTP-Tiny
 "
+

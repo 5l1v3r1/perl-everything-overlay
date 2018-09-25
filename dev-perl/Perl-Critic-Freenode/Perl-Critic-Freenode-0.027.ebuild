@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="0.027"
-DIST_A="Perl-Critic-Freenode-0.027.tar.gz"
+DIST_VERSION="0.027" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,14 +21,16 @@ RDEPEND="
 	>=dev-perl/Perl-Critic-Pulp-90.000
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.330
 	virtual/perl-parent
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+

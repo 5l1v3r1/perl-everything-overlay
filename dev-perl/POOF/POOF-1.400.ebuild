@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMILLARES"
-DIST_VERSION="1.4"
-DIST_A="POOF-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

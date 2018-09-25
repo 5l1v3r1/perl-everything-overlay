@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.91"
-DIST_A="TOML-Parser-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Deep-Fuzzy
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Storable-2.380
 	>=virtual/perl-Test-Simple-0.980
 "
+

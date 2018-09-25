@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MALLEN"
 DIST_VERSION="0.01"
-DIST_A="RPM-Search-0.01.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

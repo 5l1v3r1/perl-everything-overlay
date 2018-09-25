@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.30"
-DIST_A="Plack-Middleware-Session-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/HTTP-Cookies
+	dev-perl/Module-Build
 	>=dev-perl/Test-Fatal-0.006
 	dev-perl/Test-Requires
 	dev-perl/libwww-perl
 	>=virtual/perl-Test-Simple-0.880
 "
+

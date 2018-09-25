@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLAWREN"
-DIST_VERSION="v0.85.4"
-DIST_A="Sys-Cmd-0.85.4.tar.gz"
+DIST_VERSION="0.85.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

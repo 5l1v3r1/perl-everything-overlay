@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANKOGAI"
-DIST_VERSION="0.23"
-DIST_A="Regexp-Optimizer-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

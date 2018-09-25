@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEGOK"
-DIST_VERSION="0.36"
-DIST_A="Resque-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CLADI"
-DIST_VERSION="10.0"
-DIST_A="SmarTalk_v10.tar.gz"
+DIST_VERSION="10" 
+SRC_URI="mirror://cpan/authors/id/C/CL/CLADI/SmarTalk_v10.tar.gz -> SmarTalk-10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SmarTalk_v10 ${WORKDIR}/SmarTalk-10
+}
+

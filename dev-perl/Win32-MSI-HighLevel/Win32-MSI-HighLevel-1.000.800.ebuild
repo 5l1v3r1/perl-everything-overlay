@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Win32-MSI-HighLevel"
-DIST_VERSION="1.0008"
-DIST_A="Win32-MSI-HighLevel-1.0008.tar.gz"
+DIST_AUTHOR="GRANDPA"
+DIST_VERSION="1.0008" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRANDPA/Win32-MSI-HighLevel/Win32-MSI-HighLevel-1.0008.tar.gz -> Win32-MSI-HighLevel-1.0008.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32-MSI-HighLevel-1.0008 ${WORKDIR}/Win32-MSI-HighLevel-1.0008
+}
+

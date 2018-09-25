@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDUTTON"
-DIST_VERSION="0.202"
-DIST_A="Parse-RandGen-0.202.tar.gz"
+DIST_VERSION="0.202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

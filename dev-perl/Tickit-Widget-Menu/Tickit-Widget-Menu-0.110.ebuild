@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.11"
-DIST_A="Tickit-Widget-Menu-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Tickit
+	>=dev-perl/Tickit-0.430
 	>=dev-perl/Tickit-Widgets-0.360
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

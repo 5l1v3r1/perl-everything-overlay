@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.10"
-DIST_A="POE-Filter-LOLCAT-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Acme-LOLCAT-0.0.5
-	>=dev-perl/POE-1.004
+	dev-perl/POE
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+

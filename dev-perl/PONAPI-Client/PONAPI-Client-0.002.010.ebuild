@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICKEY"
-DIST_VERSION="0.002010"
-DIST_A="PONAPI-Client-0.002010.tar.gz"
+DIST_VERSION="0.002010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASG"
-DIST_VERSION="0.20"
-DIST_A="Perl6-Feeds-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+

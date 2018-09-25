@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="1.33"
-DIST_A="autobox-Core-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Want-0.260
-	>=dev-perl/autobox-2.710
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.460
 "
+

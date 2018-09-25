@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="mewsoft"
-DIST_VERSION="2.01"
-DIST_A="Religion-Islam-Quran-2.01.tar.gz"
+DIST_AUTHOR="MEWSOFT"
+DIST_VERSION="2.01" 
+SRC_URI="mirror://cpan/authors/id/M/ME/MEWSOFT/mewsoft/Religion-Islam-Quran-2.01.tar.gz -> Religion-Islam-Quran-2.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Religion-Islam-Quran-2.01 ${WORKDIR}/Religion-Islam-Quran-2.01
+}
+

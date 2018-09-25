@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOWTIE"
-DIST_VERSION="1.33"
-DIST_A="Padre-Plugin-SpellCheck-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.070
 	>=virtual/perl-Test-Simple-0.980
 "
+

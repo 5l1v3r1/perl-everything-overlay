@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VTFRVL"
-DIST_VERSION="0.0304"
-DIST_A="Plack-Middleware-DNSBL-0.0304.tar.gz"
-SRC_URI="mirror://cpan/authors/id/V/VT/VTFRVL/Plack-Middleware-DNSBL/Plack-Middleware-DNSBL-0.0304.tar.gz"
+DIST_VERSION="0.0304" 
+SRC_URI="mirror://cpan/authors/id/V/VT/VTFRVL/Plack-Middleware-DNSBL/Plack-Middleware-DNSBL-0.0304.tar.gz -> Plack-Middleware-DNSBL-0.0304.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plack-Middleware-DNSBL-0.0304 ${WORKDIR}/Plack-Middleware-DNSBL-0.0304
+}
+

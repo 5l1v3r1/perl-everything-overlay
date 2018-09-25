@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="1.011"
-DIST_A="WWW-Search-Ask-1.011.tar.gz"
+DIST_VERSION="1.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,11 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=dev-perl/WWW-Search-2.287
+	dev-perl/WWW-Search
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

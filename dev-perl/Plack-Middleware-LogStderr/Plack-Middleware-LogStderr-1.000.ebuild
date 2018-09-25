@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMALEK"
-DIST_VERSION="1.000"
-DIST_A="Plack-Middleware-LogStderr-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-if
 "
+

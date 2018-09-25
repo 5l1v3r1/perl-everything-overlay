@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BJOERN"
-DIST_VERSION="0.3"
-DIST_A="WebService-Validator-CSS-W3C-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

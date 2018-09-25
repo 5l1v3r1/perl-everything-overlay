@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HINRIK"
-DIST_VERSION="1.29"
-DIST_A="Object-Pluggable-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-Pod-Parser-1.360
 	virtual/perl-Test-Simple
 "
+

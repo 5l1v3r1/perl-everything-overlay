@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.27"
-DIST_A="Spreadsheet-ParseXLSX-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/OLE-StorageLite
 	>=dev-perl/Spreadsheet-ParseExcel-0.610
 	dev-perl/XML-Twig
+	dev-perl/base
 	virtual/perl-Digest-SHA
 	virtual/perl-Encode
 	virtual/perl-File-Temp
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

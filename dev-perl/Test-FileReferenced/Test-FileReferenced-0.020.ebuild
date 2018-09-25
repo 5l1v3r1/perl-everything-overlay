@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NATANAEL"
-DIST_VERSION="0.02"
-DIST_A="Test-FileReferenced-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.740
+	>=dev-lang/perl-1.470
 	>=dev-perl/YAML-0.710
 	>=virtual/perl-File-Spec-3.270.100
 	>=virtual/perl-Test-Simple-0.940
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=dev-perl/Test-Exception-0.270
 "
+

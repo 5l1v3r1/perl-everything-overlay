@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIVILAHTI"
-DIST_VERSION="0.08"
-DIST_A="Pootle-Client-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Exception-0.380
-	>=dev-perl/Test-MockModule-0.110
 "
+

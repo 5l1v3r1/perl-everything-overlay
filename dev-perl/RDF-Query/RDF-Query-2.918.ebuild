@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWILLIAMS"
-DIST_VERSION="2.918"
-DIST_A="RDF-Query-2.918.tar.gz"
+DIST_VERSION="2.918" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/YAML
 	>=virtual/perl-Test-Simple-0.880
 "
+

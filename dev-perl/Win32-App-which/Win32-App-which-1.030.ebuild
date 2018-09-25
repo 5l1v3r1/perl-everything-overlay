@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="1.030"
-DIST_A="Win32-App-which-1.030.tar.gz"
+DIST_VERSION="1.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380.000
 	virtual/perl-Test-Simple
 "
+

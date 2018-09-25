@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002002"
-DIST_A="lib-byversion-0.002002.tar.gz"
+DIST_VERSION="0.002002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/String-Formatter
+	dev-perl/lib
 	>=virtual/perl-version-0.770
 "
 DEPEND="
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

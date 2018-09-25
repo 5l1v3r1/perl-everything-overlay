@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.01"
-DIST_A="YAML-LoadURI-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,12 +17,11 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTML-Parser-3.330
 	dev-perl/HTML-Tagset
-	dev-perl/Test-MockModule
 	>=dev-perl/URI-1.100
 	dev-perl/YAML
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-IO-Compress-1.100
 	>=virtual/perl-MIME-Base64-2.100
 	virtual/perl-Test-Simple
@@ -32,3 +30,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -31,7 +31,7 @@ DEPEND="
 	>=virtual/perl-JSON-PP-2.000
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
-	virtual/perl-Time-Piece
+	>=virtual/perl-Time-Piece-1.160
 "
 
 src_unpack(){

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRYPTOGRA"
-DIST_VERSION="v0.2.3"
-DIST_A="cexio-0.2.3.tar.gz"
+DIST_VERSION="0.2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

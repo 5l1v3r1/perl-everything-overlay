@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCL"
-DIST_VERSION="0.04"
-DIST_A="WWW-EFA-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

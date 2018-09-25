@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.36"
-DIST_A="Ukigumo-Client-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-2.000
 	dev-perl/Mouse
+	dev-perl/Pod-Usage
 	dev-perl/Scope-Guard
 	dev-perl/String-CamelCase
 	dev-perl/String-IRC
@@ -32,10 +32,15 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
 	>=virtual/perl-Getopt-Long-2.420
-	virtual/perl-Pod-Usage
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Data-Section-Simple
+	dev-perl/File-pushd
+	dev-perl/Module-Build
+	dev-perl/Test-Requires
+	>=virtual/perl-Test-Simple-0.980
 "
+

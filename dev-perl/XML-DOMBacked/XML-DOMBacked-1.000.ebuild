@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDUNCAN"
-DIST_VERSION="1.00"
-DIST_A="XML-DOMBacked-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

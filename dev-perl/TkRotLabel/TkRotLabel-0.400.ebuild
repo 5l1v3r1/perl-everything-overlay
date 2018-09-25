@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AQUMSIEH"
-DIST_VERSION="0.4"
-DIST_A="Tk-Win32RotLabel-0.4.tar.gz"
+DIST_VERSION="0.4" 
+SRC_URI="mirror://cpan/authors/id/A/AQ/AQUMSIEH/Tk-Win32RotLabel-0.4.tar.gz -> TkRotLabel-0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tk-Win32RotLabel-0.4 ${WORKDIR}/TkRotLabel-0.4
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="1.0.10"
-DIST_A="Template-Liquid-1.0.10.tar.gz"
+DIST_VERSION="1.0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

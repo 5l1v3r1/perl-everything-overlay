@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESSKAR"
-DIST_VERSION="0.11"
-DIST_A="Win32-Security-EFS-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAKOBE"
-DIST_VERSION="0.02"
-DIST_A="WebService-SyoboiCalendar-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

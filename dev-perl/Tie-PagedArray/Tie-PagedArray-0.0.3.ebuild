@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dataware"
-DIST_VERSION="v0.0.3"
-DIST_A="Tie-PagedArray-0.0.3.tar.gz"
+DIST_AUTHOR="KARB"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/K/KA/KARB/dataware/Tie-PagedArray-0.0.3.tar.gz -> Tie-PagedArray-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tie-PagedArray-0.0.3 ${WORKDIR}/Tie-PagedArray-0.0.3
+}
+

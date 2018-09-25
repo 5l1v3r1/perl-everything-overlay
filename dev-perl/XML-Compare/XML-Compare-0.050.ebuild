@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.05"
-DIST_A="XML-Compare-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	>=dev-perl/Moo-2.000
 	dev-perl/MooX-Types-MooseLike
 	>=dev-perl/XML-LibXML-1.580
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

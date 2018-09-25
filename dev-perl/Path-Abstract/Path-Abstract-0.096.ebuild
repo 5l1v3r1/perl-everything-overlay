@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.096"
-DIST_A="Path-Abstract-0.096.tar.gz"
+DIST_VERSION="0.096" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

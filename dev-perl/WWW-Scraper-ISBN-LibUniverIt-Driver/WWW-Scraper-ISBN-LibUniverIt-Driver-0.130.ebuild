@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCOG"
-DIST_VERSION="0.13"
-DIST_A="WWW-Scraper-ISBN-LibUniverIt_Driver-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Parser-1.320
-	>=dev-perl/WWW-Scraper-ISBN-0.250
+	>=dev-perl/WWW-Scraper-ISBN-0.150
 	>=dev-perl/libwww-perl-2.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

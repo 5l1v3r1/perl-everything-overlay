@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYSIDE"
-DIST_VERSION="0.57"
-DIST_A="Salesforce-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

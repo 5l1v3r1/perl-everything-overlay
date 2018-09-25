@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.003"
-DIST_A="ylib-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-HomeDir-0.860
 	>=dev-perl/Path-Tiny-0.052
+	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

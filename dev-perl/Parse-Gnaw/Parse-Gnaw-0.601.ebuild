@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSLONDON"
-DIST_VERSION="0.601"
-DIST_A="Parse-Gnaw-0.601.tar.gz"
+DIST_VERSION="0.601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

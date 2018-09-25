@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HKOBA"
-DIST_VERSION="v0.0.10"
-DIST_A="YATT-0.0.10.tar.gz"
+DIST_VERSION="0.0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

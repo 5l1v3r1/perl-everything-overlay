@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEHODG"
-DIST_VERSION="1.3"
-DIST_A="WebService-Yummly-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

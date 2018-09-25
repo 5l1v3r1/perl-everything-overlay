@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CURTIS"
-DIST_VERSION="1.1"
-DIST_A="WWW-KrispyKreme-HotLight-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-RequiresInternet-0.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

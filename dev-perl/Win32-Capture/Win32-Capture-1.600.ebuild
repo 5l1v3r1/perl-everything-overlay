@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="KENWU"
 DIST_VERSION="1.6"
-DIST_A="Win32-Capture-1.6.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

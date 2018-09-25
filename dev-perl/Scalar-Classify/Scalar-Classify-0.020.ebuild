@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="0.02"
-DIST_A="Scalar-Classify-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "
+

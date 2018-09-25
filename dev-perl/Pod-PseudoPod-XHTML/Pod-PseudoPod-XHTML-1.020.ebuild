@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AYOUNG"
-DIST_VERSION="1.02"
-DIST_A="Pod-PseudoPod-XHTML-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Pod-PseudoPod
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

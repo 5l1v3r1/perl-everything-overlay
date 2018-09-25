@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CODECHILD"
-DIST_VERSION="0.53"
-DIST_A="XML-Bare-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRIEDO"
-DIST_VERSION="0.009"
-DIST_A="Pod-Weaver-Section-Extends-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

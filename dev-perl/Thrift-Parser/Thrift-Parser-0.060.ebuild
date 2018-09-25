@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWATERS"
-DIST_VERSION="0.06"
-DIST_A="Thrift-Parser-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,12 @@ RDEPEND="
 	dev-perl/JSON-XS
 	dev-perl/Params-Validate
 	dev-perl/Parse-RecDescent
-	dev-perl/Thrift
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/Test-Class
+	dev-perl/Test-Deep
+	virtual/perl-Test-Simple
 "
+

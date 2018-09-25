@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MRDVT"
 DIST_VERSION="0.12"
-DIST_A="Win32-OLE-CrystalRuntime-Application-0.12.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

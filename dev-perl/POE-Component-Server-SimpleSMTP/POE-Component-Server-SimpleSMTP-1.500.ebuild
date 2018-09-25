@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.50"
-DIST_A="POE-Component-Server-SimpleSMTP-1.50.tar.gz"
+DIST_VERSION="1.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Email-Address-1.886
 	>=dev-perl/Email-MessageID-1.400
-	>=dev-perl/Email-Simple-1.410
+	>=dev-perl/Email-Simple-1.998
 	dev-perl/POE
 	>=dev-perl/POE-Component-Client-DNS-0.990
 	>=dev-perl/POE-Component-Client-DNSBL-0.080
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTOCK"
-DIST_VERSION="0.001001"
-DIST_A="Plack-Middleware-AccessLog-Structured-ZeroMQ-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,7 +31,9 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
 	dev-perl/Test-TCP
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

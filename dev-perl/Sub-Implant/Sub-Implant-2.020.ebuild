@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANNO"
-DIST_VERSION="2.02"
-DIST_A="Sub-Implant-2.02.tar.gz"
+DIST_VERSION="2.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

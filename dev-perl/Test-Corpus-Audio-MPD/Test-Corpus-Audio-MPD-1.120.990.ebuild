@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="1.120990"
-DIST_A="Test-Corpus-Audio-MPD-1.120990.tar.gz"
+DIST_VERSION="1.120990" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/File-ShareDir-PathClass
 	dev-perl/Path-Class
 	dev-perl/Readonly
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 "
@@ -29,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-Test-Simple-0.880
 "
+

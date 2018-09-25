@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COWDAWG"
-DIST_VERSION="1.020"
-DIST_A="RPG-Traveller-Person-1.020.tar.gz"
+DIST_VERSION="1.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,10 +23,10 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Test-Simple-0.880
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

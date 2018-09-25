@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.113350"
-DIST_A="Test-Subroutines-1.113350.tar.gz"
+DIST_VERSION="1.113350" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Getopt-Long
+	virtual/perl-Test-Simple
 "
+

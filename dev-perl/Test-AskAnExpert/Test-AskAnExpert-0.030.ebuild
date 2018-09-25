@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TRIZOR"
-DIST_VERSION="0.03"
-DIST_A="Test-AskAnExpert-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TR/TRIZOR/dists/Test-AskAnExpert-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/T/TR/TRIZOR/dists/Test-AskAnExpert-0.03.tar.gz -> Test-AskAnExpert-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-AskAnExpert-0.03 ${WORKDIR}/Test-AskAnExpert-0.03
+}
+

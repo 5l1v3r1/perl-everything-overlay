@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KGRENNAN"
-DIST_VERSION="0.03"
-DIST_A="Test-Rest-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.090
 	>=virtual/perl-Test-Simple-0.940
 "
+

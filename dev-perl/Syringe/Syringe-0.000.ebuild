@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HITAPEX"
-DIST_VERSION="0.0"
-DIST_A="Syringe.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/H/HI/HITAPEX/Syringe.tar.gz -> Syringe-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Syringe ${WORKDIR}/Syringe-
+}
+

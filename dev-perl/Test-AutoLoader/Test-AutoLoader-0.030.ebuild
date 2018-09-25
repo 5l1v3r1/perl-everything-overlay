@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="NRGN"
-DIST_VERSION="0.03"
-DIST_A="Test-AutoLoader-0.03.tar.gz"
+DIST_AUTHOR="BWARFIELD"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/B/BW/BWARFIELD/NRGN/Test-AutoLoader-0.03.tar.gz -> Test-AutoLoader-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Pod-0.950
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-AutoLoader-0.03 ${WORKDIR}/Test-AutoLoader-0.03
+}
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="www-restaurant-menu"
-DIST_VERSION="0.11"
-DIST_A="WWW-Restaurant-Menu-0.11.tar.gz"
+DIST_AUTHOR="JMEHNLE"
+DIST_VERSION="0.11" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMEHNLE/www-restaurant-menu/WWW-Restaurant-Menu-0.11.tar.gz -> WWW-Restaurant-Menu-0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Restaurant-Menu-0.11 ${WORKDIR}/WWW-Restaurant-Menu-0.11
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAF"
-DIST_VERSION="v0.1.10"
-DIST_A="ZooKeeper-0.1.10.tar.gz"
+DIST_VERSION="0.1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

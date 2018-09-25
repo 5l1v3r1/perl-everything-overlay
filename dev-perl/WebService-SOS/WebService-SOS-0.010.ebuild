@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDAVIS"
-DIST_VERSION="0.01"
-DIST_A="WebService-SOS-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Moose
 	dev-perl/URI
-	>=dev-perl/XML-Rabbit-0.1.0
+	dev-perl/XML-Rabbit
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -30,3 +29,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

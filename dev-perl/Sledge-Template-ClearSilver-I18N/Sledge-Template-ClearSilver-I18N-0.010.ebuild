@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATSUMOTO"
-DIST_VERSION="0.01"
-DIST_A="Sledge-Template-ClearSilver-I18N-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

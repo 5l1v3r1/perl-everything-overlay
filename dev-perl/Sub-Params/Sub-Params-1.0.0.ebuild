@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARNEY"
-DIST_VERSION="1.0.0"
-DIST_A="Sub-Params-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

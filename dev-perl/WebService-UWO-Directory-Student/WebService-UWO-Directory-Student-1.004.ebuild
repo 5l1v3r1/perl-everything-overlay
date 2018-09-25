@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAWNSY"
-DIST_VERSION="1.004"
-DIST_A="WebService-UWO-Directory-Student-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	>=dev-perl/Test-NoWarnings-0.084
 "
+

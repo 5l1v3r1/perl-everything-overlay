@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.54"
-DIST_A="Org-Parser-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-Module-Loaded
 	>=virtual/perl-Test-Simple-0.980
 "
+

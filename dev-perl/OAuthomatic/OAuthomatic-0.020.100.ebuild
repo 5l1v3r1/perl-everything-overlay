@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEKK"
-DIST_VERSION="0.0201"
-DIST_A="OAuthomatic-0.0201.tar.gz"
+DIST_VERSION="0.0201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -65,3 +64,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

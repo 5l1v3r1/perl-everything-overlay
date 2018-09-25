@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JNBEK"
-DIST_VERSION="0.22"
-DIST_A="WWW-AUR-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.87.01
 "
+

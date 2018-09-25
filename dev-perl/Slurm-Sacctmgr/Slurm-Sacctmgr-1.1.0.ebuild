@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAYERLE"
-DIST_VERSION="1.1.0"
-DIST_A="Slurm-Sacctmgr-1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-version
 "
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SORBS"
-DIST_VERSION="1.0.3165"
-DIST_A="WebService-VirusTotal-1.0.3165.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SO/SORBS/WebService/WebService-VirusTotal-1.0.3165.tar.gz"
+DIST_VERSION="1.0.3165" 
+SRC_URI="mirror://cpan/authors/id/S/SO/SORBS/WebService/WebService-VirusTotal-1.0.3165.tar.gz -> WebService-VirusTotal-1.0.3165.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WebService-VirusTotal-1.0.3165 ${WORKDIR}/WebService-VirusTotal-1.0.3165
+}
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="RT"
-DIST_VERSION="v1.2.2"
-DIST_A="RT-Authen-Federation-1.2.2.tar.gz"
+DIST_AUTHOR="CARLOSFB"
+DIST_VERSION="1.2.2" 
+SRC_URI="mirror://cpan/authors/id/C/CA/CARLOSFB/RT/RT-Authen-Federation-1.2.2.tar.gz -> RT-Authen-Federation-1.2.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/RT-Authen-Federation-1.2.2 ${WORKDIR}/RT-Authen-Federation-1.2.2
+}
+

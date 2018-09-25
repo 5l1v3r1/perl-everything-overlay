@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRIBUSER"
-DIST_VERSION="1.2"
-DIST_A="TurboXSLT-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

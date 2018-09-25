@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBR"
-DIST_VERSION="1.16"
-DIST_A="Petal-Tiny-1.16.tar.gz"
+DIST_VERSION="1.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

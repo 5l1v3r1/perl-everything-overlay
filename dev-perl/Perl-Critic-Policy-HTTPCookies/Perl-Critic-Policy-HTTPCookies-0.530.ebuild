@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMHUKINS"
-DIST_VERSION="0.53"
-DIST_A="Perl-Critic-Policy-HTTPCookies-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

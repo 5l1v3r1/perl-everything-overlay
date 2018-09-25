@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.20"
-DIST_A="POE-Component-Client-NRPE-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-POE-Server-TCP-0.160
 	>=virtual/perl-Test-Simple-0.470
 "
+

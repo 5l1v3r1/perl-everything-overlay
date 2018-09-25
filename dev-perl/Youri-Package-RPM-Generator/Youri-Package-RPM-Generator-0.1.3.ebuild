@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GROUSSE"
-DIST_VERSION="0.1.3"
-DIST_A="Youri-Package-RPM-Generator-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

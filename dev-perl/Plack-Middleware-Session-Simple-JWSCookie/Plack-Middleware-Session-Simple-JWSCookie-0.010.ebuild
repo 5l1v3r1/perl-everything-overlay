@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RITOU"
-DIST_VERSION="0.01"
-DIST_A="Plack-Middleware-Session-Simple-JWSCookie-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ DEPEND="
 	>=dev-perl/Cache-Memory-Simple-1.020
 	>=dev-perl/HTTP-CookieJar-0.005
 	>=dev-perl/HTTP-Message-5.814
+	dev-perl/Module-Build
 	>=dev-perl/Test-Requires-0.070
 	>=dev-perl/Test-TCP-2.010
 	>=virtual/perl-Test-Simple-0.980
 "
+

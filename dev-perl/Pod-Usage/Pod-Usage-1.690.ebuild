@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAREKR"
-DIST_VERSION="1.69"
-DIST_A="Pod-Usage-1.69.tar.gz"
+DIST_VERSION="1.69" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="3.11"
-DIST_A="Pod-Webserver-3.11.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Test-Version-1.002.003
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Pod-Simple-3.010
+	virtual/perl-Pod-Simple
 	>=virtual/perl-Test-Simple-1.001.014
 "
 DEPEND="
@@ -30,3 +30,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.421.100
 	virtual/perl-ExtUtils-MakeMaker
 "
+

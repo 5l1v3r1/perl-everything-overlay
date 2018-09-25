@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWYN"
-DIST_VERSION="0.0601"
-DIST_A="POE-XUL-0.0601.tar.gz"
+DIST_VERSION="0.0601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

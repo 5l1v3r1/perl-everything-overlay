@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPS"
-DIST_VERSION="1.04"
-DIST_A="RT-Extension-REST2-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-PSGI
 	dev-perl/Try-Tiny
 "
+

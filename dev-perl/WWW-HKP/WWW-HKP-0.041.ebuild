@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZURBORG"
-DIST_VERSION="0.041"
-DIST_A="WWW-HKP-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/AnyEvent-HTTP
 	dev-perl/Email-Address
 	dev-perl/List-MoreUtils
-	>=dev-perl/URI-3.310
+	>=dev-perl/URI-1.600
 	dev-perl/URL-Encode
 	virtual/perl-Carp
 "
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

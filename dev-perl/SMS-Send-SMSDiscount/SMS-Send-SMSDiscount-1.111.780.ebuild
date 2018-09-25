@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.111780"
-DIST_A="SMS-Send-SMSDiscount-1.111780.tar.gz"
+DIST_VERSION="1.111780" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

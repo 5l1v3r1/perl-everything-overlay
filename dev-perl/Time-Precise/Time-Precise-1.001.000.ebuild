@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZARABOZO"
-DIST_VERSION="1.0010"
-DIST_A="Time-Precise-1.0010.tar.gz"
+DIST_VERSION="1.0010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

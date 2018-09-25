@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MWS"
-DIST_VERSION="1.0002"
-DIST_A="ResourcePool-Resource-Net-LDAP-1.0002.tar.gz"
+DIST_VERSION="1.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

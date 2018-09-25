@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Text"
-DIST_VERSION="1.16"
-DIST_A="Text-Stripper-1.16.tar.gz"
+DIST_AUTHOR="BERA"
+DIST_VERSION="1.16" 
+SRC_URI="mirror://cpan/authors/id/B/BE/BERA/Text/Text-Stripper-1.16.tar.gz -> Text-Stripper-1.16.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Stripper-1.16 ${WORKDIR}/Text-Stripper-1.16
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COSIMO"
-DIST_VERSION="2.14"
-DIST_A="Text-Hunspell-2.14.tar.gz"
+DIST_VERSION="2.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Alien-Hunspell-0.040
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

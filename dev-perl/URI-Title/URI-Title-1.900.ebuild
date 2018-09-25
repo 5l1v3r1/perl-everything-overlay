@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.900"
-DIST_A="URI-Title-1.900.tar.gz"
+DIST_VERSION="1.900" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Message
 	dev-perl/Image-Size
-	dev-perl/MP3-Info
 	>=dev-perl/Module-Pluggable-1.200
 	dev-perl/base
 	dev-perl/libwww-perl
@@ -37,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

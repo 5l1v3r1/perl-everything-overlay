@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="6.00"
-DIST_A="Search-Elasticsearch-Cxn-NetCurl-6.00.tar.gz"
+DIST_VERSION="6.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-JSON-PP
 	>=virtual/perl-Test-Simple-0.980
 "
+

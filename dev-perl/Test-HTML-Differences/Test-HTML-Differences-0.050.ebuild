@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOH"
-DIST_VERSION="0.05"
-DIST_A="Test-HTML-Differences-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Base
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANL"
-DIST_VERSION="1.002"
-DIST_A="Time-Progress-Stored-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

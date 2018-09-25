@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPENBURG"
-DIST_VERSION="0.103"
-DIST_A="TeX-Hyphen-Pattern-0.103.tar.gz"
+DIST_VERSION="0.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAERXESS"
-DIST_VERSION="0.19"
-DIST_A="YAML-AppConfig-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YSAS"
-DIST_VERSION="0.16"
-DIST_A="SWF-Builder-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/SWF-File-0.410
+	dev-perl/SWF-File
 	virtual/perl-IO-Compress
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

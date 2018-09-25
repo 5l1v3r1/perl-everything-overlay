@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.033"
-DIST_A="Test-LWP-UserAgent-0.033.tar.gz"
+DIST_VERSION="0.033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Safe-Isa
 	dev-perl/Try-Tiny
-	dev-perl/URI
+	>=dev-perl/URI-1.620
 	dev-perl/libwww-perl
 	>=dev-perl/namespace-clean-0.190
 	virtual/perl-Carp
@@ -40,7 +39,9 @@ DEPEND="
 	dev-perl/Test-Needs
 	dev-perl/Test-RequiresInternet
 	>=dev-perl/Test-Warnings-0.009
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

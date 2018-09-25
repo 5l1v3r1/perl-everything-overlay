@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAFF"
-DIST_VERSION="1.00"
-DIST_A="POE-Component-DirWatch-WithCaller-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

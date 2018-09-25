@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFISCHER"
-DIST_VERSION="0.17"
-DIST_A="Test-System-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

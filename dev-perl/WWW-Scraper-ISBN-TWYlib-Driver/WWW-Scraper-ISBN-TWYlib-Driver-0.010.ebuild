@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IJLIAO"
-DIST_VERSION="0.01"
-DIST_A="WWW-Scraper-ISBN-TWYlib_Driver-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,11 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Template-Extract-0.400
 	>=dev-perl/WWW-Mechanize-1.160
-	>=dev-perl/WWW-Scraper-ISBN-0.250
+	>=dev-perl/WWW-Scraper-ISBN-0.180
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

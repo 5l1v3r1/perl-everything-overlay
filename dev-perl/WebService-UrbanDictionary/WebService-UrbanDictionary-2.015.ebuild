@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOODRUFFW"
-DIST_VERSION="2.015"
-DIST_A="WebService-UrbanDictionary-2.015.tar.gz"
+DIST_VERSION="2.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-RequiresInternet
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.3"
-DIST_A="Tapper-Reports-Receiver-Level2-BenchmarkAnything-5.0.3.tar.gz"
+DIST_VERSION="5.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

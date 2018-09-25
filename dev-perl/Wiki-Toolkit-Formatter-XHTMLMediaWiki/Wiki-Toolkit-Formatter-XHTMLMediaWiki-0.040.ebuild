@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAM"
-DIST_VERSION="0.04"
-DIST_A="Wiki-Toolkit-Formatter-XHTMLMediaWiki-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-XML
 	dev-perl/Test-XML-Order
 	virtual/perl-Test-Simple
 "
+

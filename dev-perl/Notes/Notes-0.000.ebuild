@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="Notes"
-DIST_VERSION="0.0"
-DIST_A="Notes.zip"
+DIST_AUTHOR="CCLOUTIER"
+DIST_VERSION=""
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/C/CC/CCLOUTIER/Notes/Notes.zip -> Notes-.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Notes ${WORKDIR}/Notes-
+}
+

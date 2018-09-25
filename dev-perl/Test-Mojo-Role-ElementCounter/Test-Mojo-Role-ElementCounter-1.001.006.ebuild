@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.001006"
-DIST_A="Test-Mojo-Role-ElementCounter-1.001006.tar.gz"
+DIST_VERSION="1.001006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.180
 	dev-perl/Role-Tiny
 	>=dev-perl/Test-Mojo-WithRoles-0.020
 	virtual/perl-Carp
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELIZABETH"
-DIST_VERSION="0.14"
-DIST_A="Thread-Conveyor-Monitored-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

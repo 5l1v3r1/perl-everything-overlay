@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XYF"
-DIST_VERSION="0.59"
-DIST_A="Win32-ExcelSimple-0.59.tar.gz"
+DIST_VERSION="0.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
+

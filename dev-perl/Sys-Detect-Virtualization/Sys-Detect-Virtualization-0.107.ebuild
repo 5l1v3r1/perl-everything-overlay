@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSKOLL"
-DIST_VERSION="0.107"
-DIST_A="Sys-Detect-Virtualization-0.107.tar.gz"
+DIST_VERSION="0.107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.820
 "
+

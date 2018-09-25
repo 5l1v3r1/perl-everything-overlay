@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLIPLAND"
-DIST_VERSION="2.15"
-DIST_A="Wrangler-2.15.tar.gz"
+DIST_VERSION="2.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.440
 "
+

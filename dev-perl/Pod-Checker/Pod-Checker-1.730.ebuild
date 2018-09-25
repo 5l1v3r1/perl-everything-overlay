@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAREKR"
-DIST_VERSION="1.73"
-DIST_A="Pod-Checker-1.73.tar.gz"
+DIST_VERSION="1.73" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOCG"
-DIST_VERSION="0.52"
-DIST_A="Toolbox-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

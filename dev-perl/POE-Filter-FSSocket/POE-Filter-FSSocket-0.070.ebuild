@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PTINSLEY"
-DIST_VERSION="0.07"
-DIST_A="POE-Filter-FSSocket-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-0.310.100
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

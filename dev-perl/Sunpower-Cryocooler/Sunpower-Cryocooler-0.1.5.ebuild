@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KERR"
-DIST_VERSION="v0.1.5"
-DIST_A="Sunpower-Cryocooler-0.1.5.tar.gz"
+DIST_VERSION="0.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

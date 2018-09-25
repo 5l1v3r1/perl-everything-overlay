@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SKUPSY"
-DIST_VERSION="0.04"
-DIST_A="VisionDB-Read-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SK/SKUPSY/VisionDB/VisionDB-Read-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/S/SK/SKUPSY/VisionDB/VisionDB-Read-0.04.tar.gz -> VisionDB-Read-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VisionDB-Read-0.04 ${WORKDIR}/VisionDB-Read-0.04
+}
+

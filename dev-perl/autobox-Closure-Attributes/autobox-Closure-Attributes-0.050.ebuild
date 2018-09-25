@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SARTAK"
-DIST_VERSION="0.05"
-DIST_A="autobox-Closure-Attributes-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/PadWalker
-	>=dev-perl/autobox-2.400
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

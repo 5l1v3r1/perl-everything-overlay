@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREMAR"
-DIST_VERSION="0.11"
-DIST_A="Number-Phone-NO-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/DBM-Deep-1.000.700
 	>=dev-perl/Number-Phone-2.200
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

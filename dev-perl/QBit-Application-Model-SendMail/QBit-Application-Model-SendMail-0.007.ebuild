@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.007"
-DIST_A="QBit-Application-Model-SendMail-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Exceptions
 	dev-perl/MIME-Lite
 	dev-perl/QBit-Application
 	dev-perl/Template-Toolkit
+	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-MIME-Base64
 "
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

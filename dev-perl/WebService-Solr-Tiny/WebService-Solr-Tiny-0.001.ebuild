@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAZ"
-DIST_VERSION="0.001"
-DIST_A="WebService-Solr-Tiny-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-MockObject
 "
+

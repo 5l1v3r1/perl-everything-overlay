@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHAMES"
-DIST_VERSION="0.10"
-DIST_A="WWW-Codeguard-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-7.300
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

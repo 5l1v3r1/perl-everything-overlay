@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEGOK"
-DIST_VERSION="0.07"
-DIST_A="WWW-EZTV-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mojolicious-4.630
+	dev-perl/Mojolicious
 	dev-perl/Moose
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.960
 "
+

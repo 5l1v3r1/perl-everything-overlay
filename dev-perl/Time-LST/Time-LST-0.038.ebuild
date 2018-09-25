@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGARTON"
-DIST_VERSION="0.038"
-DIST_A="Time-LST-0.038.tar.gz"
+DIST_VERSION="0.038" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

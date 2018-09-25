@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VSESPB"
-DIST_VERSION="0.016"
-DIST_A="WebService-CEPH-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

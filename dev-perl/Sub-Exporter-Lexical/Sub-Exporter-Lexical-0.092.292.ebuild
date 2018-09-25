@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.092292"
-DIST_A="Sub-Exporter-Lexical-0.092292.tar.gz"
+DIST_VERSION="0.092292" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "
+

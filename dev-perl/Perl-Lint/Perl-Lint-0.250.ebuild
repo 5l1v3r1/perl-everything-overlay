@@ -28,13 +28,14 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Module-Load
 	>=virtual/perl-Scalar-List-Utils-1.410
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Text-TestBase
 	virtual/perl-File-Temp
 "

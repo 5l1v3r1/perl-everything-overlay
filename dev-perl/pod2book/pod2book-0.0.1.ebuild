@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUTETIUS"
-DIST_VERSION="v0.0.1"
-DIST_A="pod2book-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,11 +19,14 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/Perl6-Slurp
 	>=dev-perl/Pod-LaTeX-0.580
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	>=virtual/perl-Pod-Parser-1.340
-	virtual/perl-Pod-Usage
+	>=virtual/perl-Pod-Parser-1.330
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "
+

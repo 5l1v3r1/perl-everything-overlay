@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="0.027006"
-DIST_A="POEx-IRC-Backend-0.027006.tar.gz"
+DIST_VERSION="0.027006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/IRC-Toolkit-0.091
 	>=dev-perl/Moo-2.000
 	>=dev-perl/Net-IP-Minimal-0.040
-	dev-perl/POE
+	>=dev-perl/POE-1.300
 	dev-perl/POE-Filter-IRCv3
 	dev-perl/Try-Tiny
 	>=dev-perl/Type-Tiny-1.000
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

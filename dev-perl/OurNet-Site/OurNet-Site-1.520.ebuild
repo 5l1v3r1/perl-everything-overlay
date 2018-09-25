@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUTRIJUS"
-DIST_VERSION="1.52"
-DIST_A="OurNet-Site-1.52.tar.gz"
+DIST_VERSION="1.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

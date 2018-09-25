@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEGOK"
-DIST_VERSION="v1.123431.0"
-DIST_A="Supers-Search-1.123431.tar.gz"
+DIST_VERSION="1.123431" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

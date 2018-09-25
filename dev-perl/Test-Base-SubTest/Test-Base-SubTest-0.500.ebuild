@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSIDE"
-DIST_VERSION="0.5"
-DIST_A="Test-Base-SubTest-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Name-FromLine
 	virtual/perl-ExtUtils-CBuilder
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLANNING"
-DIST_VERSION="0.01"
-DIST_A="PerlIO-via-csv-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,9 @@ RDEPEND="
 	>=dev-perl/Spreadsheet-ParseExcel-0.490
 	>=dev-perl/Spreadsheet-Read-0.340
 	>=dev-perl/Text-CSV-1.100
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

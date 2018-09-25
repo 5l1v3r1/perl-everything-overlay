@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOOTSON"
-DIST_VERSION="0.27"
-DIST_A="Wx-Perl-Packager-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

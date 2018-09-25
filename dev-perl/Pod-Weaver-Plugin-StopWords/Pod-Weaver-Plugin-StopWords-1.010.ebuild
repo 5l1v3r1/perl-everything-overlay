@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="1.010"
-DIST_A="Pod-Weaver-Plugin-StopWords-1.010.tar.gz"
+DIST_VERSION="1.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,14 +17,14 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-3.101.632
 	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/PPI
-	dev-perl/Pod-Elemental
+	>=dev-perl/Pod-Elemental-0.102.360
 	dev-perl/Software-License
 	>=dev-perl/Test-Differences-0.500
 	>=dev-perl/Test-MockObject-1.090
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

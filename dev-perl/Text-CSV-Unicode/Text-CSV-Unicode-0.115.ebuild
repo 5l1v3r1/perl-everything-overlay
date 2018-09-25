@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RMBARKER"
-DIST_VERSION="0.115"
-DIST_A="Text-CSV-Unicode-0.115.tar.gz"
+DIST_VERSION="0.115" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRIEDO"
-DIST_VERSION="0.006"
-DIST_A="namespace-sweep-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Sub-Name
 	virtual/perl-Test-Simple
 "
+

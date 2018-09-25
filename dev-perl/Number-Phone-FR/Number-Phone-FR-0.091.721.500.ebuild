@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="0.0917215"
-DIST_A="Number-Phone-FR-0.0917215.tar.gz"
+DIST_VERSION="0.0917215" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-1.020
 	>=virtual/perl-Test-Simple-0.940
 "
+

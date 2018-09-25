@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHUNDT"
-DIST_VERSION="1.2"
-DIST_A="Peco-Container-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

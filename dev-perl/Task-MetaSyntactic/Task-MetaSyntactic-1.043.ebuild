@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.043"
-DIST_A="Task-MetaSyntactic-1.043.tar.gz"
+DIST_VERSION="1.043" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -59,3 +58,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

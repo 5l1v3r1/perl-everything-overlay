@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MNAGUIB"
-DIST_VERSION="3.03"
-DIST_A="Weather-Underground-3.03.tar.gz"
+DIST_VERSION="3.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

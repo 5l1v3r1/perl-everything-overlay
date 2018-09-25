@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPHILLIPS"
-DIST_VERSION="0.006"
-DIST_A="WebService-Shutterstock-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
-	>=dev-perl/Moo-1.000
+	dev-perl/Moo
 	dev-perl/REST-Client
 	dev-perl/Sub-Exporter
 	dev-perl/libwww-perl
@@ -29,7 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/Test-MockModule
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

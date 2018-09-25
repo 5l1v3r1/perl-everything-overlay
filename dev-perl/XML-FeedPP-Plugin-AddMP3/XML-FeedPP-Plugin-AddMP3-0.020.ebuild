@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUKAMOTO"
-DIST_VERSION="0.02"
-DIST_A="XML-FeedPP-Plugin-AddMP3-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/MP3-Info-1.220
 	>=dev-perl/Path-Class-0.150
 	>=dev-perl/XML-FeedPP-0.210
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

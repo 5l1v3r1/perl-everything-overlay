@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OSFAMERON"
-DIST_VERSION="0.0201"
-DIST_A="Test-Shadow-0.0201.tar.gz"
+DIST_VERSION="0.0201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
+

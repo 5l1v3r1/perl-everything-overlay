@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INTERMINE"
-DIST_VERSION="0.9800"
-DIST_A="Webservice-InterMine-Simple-0.9800.tar.gz"
+DIST_VERSION="0.9800" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=virtual/perl-Test-Simple-0.900
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHARRER"
-DIST_VERSION="v0.13.107"
-DIST_A="SVN-Dumpfile-0.13.107.tar.gz"
+DIST_VERSION="0.13.107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	>=virtual/perl-Data-Dumper-2.121
 	>=virtual/perl-Digest-MD5-2.360
 	>=virtual/perl-File-Temp-0.200
-	>=virtual/perl-IO-1.130
+	>=virtual/perl-IO-1.250
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

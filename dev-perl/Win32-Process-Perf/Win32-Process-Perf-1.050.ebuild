@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPAGITSCH"
-DIST_VERSION="1.05"
-DIST_A="Win32-Process-Perf-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

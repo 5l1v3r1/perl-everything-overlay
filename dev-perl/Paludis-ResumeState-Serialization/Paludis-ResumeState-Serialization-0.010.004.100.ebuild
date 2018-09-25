@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.01000410"
-DIST_A="Paludis-ResumeState-Serialization-0.01000410.tar.gz"
+DIST_VERSION="0.01000410" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIMOTO"
-DIST_VERSION="3.19"
-DIST_A="Object-Simple-3.19.tar.gz"
+DIST_VERSION="3.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

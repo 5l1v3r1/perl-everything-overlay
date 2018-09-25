@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THB"
-DIST_VERSION="0.5704"
-DIST_A="SeeAlso-Identifier-ISSN-0.5704.tar.gz"
+DIST_VERSION="0.5704" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

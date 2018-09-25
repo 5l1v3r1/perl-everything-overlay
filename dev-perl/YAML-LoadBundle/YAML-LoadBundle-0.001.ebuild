@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSG"
-DIST_VERSION="0.001"
-DIST_A="YAML-LoadBundle-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Digest-SHA1
 	dev-perl/Hash-Merge-Simple
 	dev-perl/YAML-LibYAML
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

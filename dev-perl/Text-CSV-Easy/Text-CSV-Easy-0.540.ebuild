@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WETERS"
-DIST_VERSION="0.54"
-DIST_A="Text-CSV-Easy-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	>=virtual/perl-Test-Simple-0.960
 "
+

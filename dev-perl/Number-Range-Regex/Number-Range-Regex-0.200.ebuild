@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BRIANSKI"
 DIST_VERSION="0.20"
-DIST_A="Number-Range-Regex-0.20.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

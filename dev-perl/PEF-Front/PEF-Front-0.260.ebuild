@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANTONPETR"
-DIST_VERSION="0.26"
-DIST_A="PEF-Front-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

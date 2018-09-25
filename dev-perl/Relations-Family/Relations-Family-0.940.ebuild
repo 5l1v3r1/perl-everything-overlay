@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAFFER"
-DIST_VERSION="0.94"
-DIST_A="Relations-Family-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

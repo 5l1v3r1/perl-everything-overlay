@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RITOU"
-DIST_VERSION="0.11"
-DIST_A="OAuth-Lite2-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,6 +34,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	virtual/perl-Test-Simple
 "
+

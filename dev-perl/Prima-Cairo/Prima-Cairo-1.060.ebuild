@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARASIK"
-DIST_VERSION="1.06"
-DIST_A="Prima-Cairo-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-PkgConfig-1.000
 	virtual/perl-ExtUtils-MakeMaker
 "
+

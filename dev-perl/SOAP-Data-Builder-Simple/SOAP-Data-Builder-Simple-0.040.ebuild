@@ -23,6 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/SOAP-Data-Builder
 	virtual/perl-Test-Simple
 "

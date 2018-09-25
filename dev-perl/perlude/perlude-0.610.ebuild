@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCC"
-DIST_VERSION="0.61"
-DIST_A="perlude-0.61.tar.gz"
+DIST_VERSION="0.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

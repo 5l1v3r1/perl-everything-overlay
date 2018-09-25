@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISTOTLE"
-DIST_VERSION="1.002"
-DIST_A="Object-Properties-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Lives
+	dev-perl/lib
 	virtual/perl-Carp
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
+

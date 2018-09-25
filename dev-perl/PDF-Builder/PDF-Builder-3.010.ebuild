@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMPERRY"
-DIST_VERSION="3.010"
-DIST_A="PDF-Builder-3.010.tar.gz"
+DIST_VERSION="3.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Memory-Cycle-1.000
 "
+

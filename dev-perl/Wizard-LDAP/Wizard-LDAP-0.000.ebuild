@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AMAR"
-DIST_VERSION="0.0"
-DIST_A="Wizard-LDAP-0.1006.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMAR/Wizard-LDAP-0.1006.tar.gz -> Wizard-LDAP-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Wizard-LDAP-0.1006 ${WORKDIR}/Wizard-LDAP-
+}
+

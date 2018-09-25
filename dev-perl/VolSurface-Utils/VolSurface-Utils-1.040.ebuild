@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="1.04"
-DIST_A="VolSurface-Utils-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,10 +29,10 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	>=dev-perl/Test-CheckDeps-0.010
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockTime
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-Perl-Critic
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

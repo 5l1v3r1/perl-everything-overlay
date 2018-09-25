@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHS"
-DIST_VERSION="0.200"
-DIST_A="Parse-Token-Lite-0.200.tar.gz"
+DIST_VERSION="0.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	dev-perl/Data-Printer
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

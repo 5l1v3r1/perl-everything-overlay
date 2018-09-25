@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="SQL-Exec"
-DIST_VERSION="0.09"
-DIST_A="SQL-Exec-0.09.tar.gz"
+DIST_AUTHOR="MATHIAS"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MATHIAS/SQL-Exec/SQL-Exec-0.09.tar.gz -> SQL-Exec-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	dev-perl/String-Replace
 	dev-perl/Test-Subs
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SQL-Exec-0.09 ${WORKDIR}/SQL-Exec-0.09
+}
+

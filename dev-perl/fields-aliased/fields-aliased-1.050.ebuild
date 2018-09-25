@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KVAIL"
-DIST_VERSION="1.05"
-DIST_A="fields-aliased-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

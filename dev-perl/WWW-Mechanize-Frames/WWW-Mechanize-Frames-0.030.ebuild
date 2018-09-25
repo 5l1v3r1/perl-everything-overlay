@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="frames"
-DIST_VERSION="0.03"
-DIST_A="WWW-Mechanize-Frames-0.03.tar.gz"
+DIST_AUTHOR="CPANPERL"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/C/CP/CPANPERL/frames/WWW-Mechanize-Frames-0.03.tar.gz -> WWW-Mechanize-Frames-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Mechanize-Frames-0.03 ${WORKDIR}/WWW-Mechanize-Frames-0.03
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWYN"
-DIST_VERSION="0.0307"
-DIST_A="POE-Component-Server-HTTP-KeepAlive-0.0307.tar.gz"
+DIST_VERSION="0.0307" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

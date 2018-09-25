@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SILLYMOOS"
-DIST_VERSION="0.05"
-DIST_A="WWW-ipinfo-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-RequiresInternet-0.030
 	virtual/perl-Test-Simple
 "
+

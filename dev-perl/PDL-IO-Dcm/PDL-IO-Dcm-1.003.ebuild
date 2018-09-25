@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="PDL-IO-Dcm"
-DIST_VERSION="1.003"
-DIST_A="PDL-IO-Dcm-1.003.tar.gz"
+DIST_AUTHOR="FANTASMA"
+DIST_VERSION="1.003" 
+SRC_URI="mirror://cpan/authors/id/F/FA/FANTASMA/PDL-IO-Dcm/PDL-IO-Dcm-1.003.tar.gz -> PDL-IO-Dcm-1.003.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PDL-IO-Dcm-1.003 ${WORKDIR}/PDL-IO-Dcm-1.003
+}
+

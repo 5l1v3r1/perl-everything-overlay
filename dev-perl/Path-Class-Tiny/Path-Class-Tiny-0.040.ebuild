@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAREFOOT"
-DIST_VERSION="0.04"
-DIST_A="Path-Class-Tiny-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRADH"
-DIST_VERSION="0.001"
-DIST_A="Pulp-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Kelp-Module-Template-Toolkit
 	virtual/perl-Test-Simple
 "
+

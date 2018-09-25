@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.24"
-DIST_A="POE-Component-Win32-ChangeNotify-1.24.tar.gz"
+DIST_VERSION="1.24" 
+SRC_URI="mirror://cpan/authors/id/B/BI/BINGOS/POE-Component-Win32-ChangeNotify-1.24.tar.gz -> POE-Component-ChangeNotify-1.24.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POE-Component-Win32-ChangeNotify-1.24 ${WORKDIR}/POE-Component-ChangeNotify-1.24
+}
+

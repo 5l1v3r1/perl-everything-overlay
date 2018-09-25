@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DENDORY"
 DIST_VERSION="1.00"
-DIST_A="UserDB-1.00.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

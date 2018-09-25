@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDCAWLEY"
-DIST_VERSION="0.0400"
-DIST_A="Test-Class-Sugar-0.0400.tar.gz"
+DIST_VERSION="0.0400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

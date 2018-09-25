@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.94"
-DIST_A="Test-Class-Moose-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-perl/Parallel-ForkManager
 	dev-perl/Sub-Attribute
 	dev-perl/Test-Most
-	dev-perl/Test2-Suite
+	>=dev-perl/Test2-Suite-0.000.018
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -36,7 +35,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Harness-3.290
-	>=virtual/perl-Test-Simple-1.130.211.800
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
@@ -46,3 +45,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

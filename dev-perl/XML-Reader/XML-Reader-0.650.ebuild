@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEICHNER"
-DIST_VERSION="0.65"
-DIST_A="XML-Reader-0.65.tar.gz"
+DIST_VERSION="0.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

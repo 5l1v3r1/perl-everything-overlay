@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="0.04"
-DIST_A="Template-Plugin-Lingua-EN-Inflect-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Lingua-EN-Inflect
-	dev-perl/Template-Toolkit
+	>=dev-perl/Template-Toolkit-2.070
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.700
 "
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="PDL-Dims"
-DIST_VERSION="0.013"
-DIST_A="PDL-Dims-0.013.tar.gz"
+DIST_AUTHOR="FANTASMA"
+DIST_VERSION="0.013" 
+SRC_URI="mirror://cpan/authors/id/F/FA/FANTASMA/PDL-Dims/PDL-Dims-0.013.tar.gz -> PDL-Dims-0.013.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PDL-Dims-0.013 ${WORKDIR}/PDL-Dims-0.013
+}
+

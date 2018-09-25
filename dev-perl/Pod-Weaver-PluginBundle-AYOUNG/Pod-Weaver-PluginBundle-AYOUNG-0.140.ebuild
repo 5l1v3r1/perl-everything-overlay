@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AYOUNG"
-DIST_VERSION="0.14"
-DIST_A="Pod-Weaver-PluginBundle-AYOUNG-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

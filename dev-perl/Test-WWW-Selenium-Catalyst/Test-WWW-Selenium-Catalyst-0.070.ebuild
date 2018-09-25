@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.07"
-DIST_A="Test-WWW-Selenium-Catalyst-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Alien-SeleniumRC
-	>=dev-perl/Catalyst-Runtime-5.900
+	dev-perl/Catalyst-Runtime
 	virtual/perl-Test-Simple
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-IPC-Cmd-0.420
 "
+

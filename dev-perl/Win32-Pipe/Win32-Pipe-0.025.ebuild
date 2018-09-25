@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDB"
-DIST_VERSION="0.025"
-DIST_A="Win32-Pipe-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

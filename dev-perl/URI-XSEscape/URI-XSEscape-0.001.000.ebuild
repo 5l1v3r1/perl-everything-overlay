@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GONZUS"
-DIST_VERSION="0.001000"
-DIST_A="URI-XSEscape-0.001000.tar.gz"
+DIST_VERSION="0.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYMON"
-DIST_VERSION="v1.6.8"
-DIST_A="Strehler-1.6.8.tar.gz"
+DIST_VERSION="1.6.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-SQLite
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/File-Copy-Recursive
-	>=dev-perl/HTML-FormFu-1.000
+	dev-perl/HTML-FormFu
 	dev-perl/IO-Prompt
 	dev-perl/Lingua-EN-Inflect
 	dev-perl/Moo
@@ -52,3 +51,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

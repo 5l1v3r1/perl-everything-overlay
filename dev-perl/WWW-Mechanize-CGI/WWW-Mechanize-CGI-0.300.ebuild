@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRAMBERG"
-DIST_VERSION="0.3"
-DIST_A="WWW-Mechanize-CGI-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

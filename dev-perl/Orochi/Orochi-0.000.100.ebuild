@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00010"
-DIST_A="Orochi-0.00010.tar.gz"
+DIST_VERSION="0.00010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/UNIVERSAL-isa
 	>=virtual/perl-Test-Simple-0.880
 "
+

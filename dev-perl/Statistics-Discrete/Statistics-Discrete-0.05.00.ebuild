@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHIARA"
-DIST_VERSION="v0.05.00"
-DIST_A="Statistics-Discrete-0.05.00.tar.gz"
+DIST_VERSION="0.05.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

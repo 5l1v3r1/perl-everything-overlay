@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="0.003001"
-DIST_A="Plack-Middleware-Auth-Complex-0.003001.tar.gz"
+DIST_VERSION="0.003001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/HTTP-Message
 "
+

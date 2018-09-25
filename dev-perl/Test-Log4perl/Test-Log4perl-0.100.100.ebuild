@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOTANGO"
-DIST_VERSION="0.1001"
-DIST_A="Test-Log4perl-0.1001.tar.gz"
+DIST_VERSION="0.1001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 "
+

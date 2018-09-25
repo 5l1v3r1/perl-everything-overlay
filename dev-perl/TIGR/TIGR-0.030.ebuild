@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JORVIS"
-DIST_VERSION="0.03"
-DIST_A="TIGR-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/J/JO/JORVIS/TIGR/TIGR-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JORVIS/TIGR/TIGR-0.03.tar.gz -> TIGR-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-1.000
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TIGR-0.03 ${WORKDIR}/TIGR-0.03
+}
+

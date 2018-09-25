@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUTRIJUS"
-DIST_VERSION="1.56"
-DIST_A="OurNet-Query-1.56.tar.gz"
+DIST_VERSION="1.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

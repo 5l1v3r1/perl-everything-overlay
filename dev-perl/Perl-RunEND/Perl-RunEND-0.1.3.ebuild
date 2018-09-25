@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DVWRIGHT"
-DIST_VERSION="v0.1.3"
-DIST_A="Perl-RunEND-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-lang/perl
+	dev-perl/Pod-Usage
+	virtual/perl-Carp
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Getopt-Long
+	virtual/perl-Test-Simple
 "
+

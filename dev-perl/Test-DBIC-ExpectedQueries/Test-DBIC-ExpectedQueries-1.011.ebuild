@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANL"
-DIST_VERSION="1.011"
-DIST_A="Test-DBIC-ExpectedQueries-1.011.tar.gz"
+DIST_VERSION="1.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/lib
 "
+

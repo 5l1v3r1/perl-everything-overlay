@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRYPHON"
-DIST_VERSION="1.03"
-DIST_A="Util-CommandLine-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	dev-perl/Proc-PID-File
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

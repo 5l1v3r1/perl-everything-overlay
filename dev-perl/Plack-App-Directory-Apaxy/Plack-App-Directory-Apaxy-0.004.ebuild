@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEDI"
-DIST_VERSION="0.004"
-DIST_A="Plack-App-Directory-Apaxy-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

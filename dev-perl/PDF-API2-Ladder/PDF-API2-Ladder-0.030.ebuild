@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LJR"
-DIST_VERSION="0.03"
-DIST_A="PDF-API2-Ladder-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.027
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

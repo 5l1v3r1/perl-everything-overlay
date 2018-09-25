@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAM"
-DIST_VERSION="0.003"
-DIST_A="Test-DeepFile-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	>=dev-perl/Test-Deep-0.103
 	>=dev-perl/Test-Exception-0.027
 	>=dev-perl/YAML-0.066
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.008
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EJORDAN"
-DIST_VERSION="v0.2.5"
-DIST_A="Parse-STDF-0.2.5.tar.gz"
+DIST_VERSION="0.2.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

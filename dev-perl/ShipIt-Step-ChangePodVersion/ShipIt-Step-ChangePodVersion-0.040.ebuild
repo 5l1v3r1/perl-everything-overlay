@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMUELLER"
-DIST_VERSION="0.04"
-DIST_A="ShipIt-Step-ChangePodVersion-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.290
 	>=virtual/perl-Test-Simple-0.880
 "
+

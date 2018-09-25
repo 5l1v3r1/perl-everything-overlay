@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.36"
-DIST_A="Plack-Middleware-ServerStatus-Lite-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,9 @@ RDEPEND="
 	dev-perl/Net-CIDR-Lite
 	>=dev-perl/Parallel-Scoreboard-0.030
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	>=dev-perl/Try-Tiny-0.090
 	>=virtual/perl-Getopt-Long-2.380
-	virtual/perl-Pod-Usage
 	virtual/perl-parent
 "
 DEPEND="
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

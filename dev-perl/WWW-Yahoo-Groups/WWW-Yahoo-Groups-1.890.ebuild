@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPOON"
-DIST_VERSION="1.89"
-DIST_A="WWW-Yahoo-Groups-1.89.tar.gz"
+DIST_VERSION="1.89" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMS"
-DIST_VERSION="1.96"
-DIST_A="Riak-Client-1.96.tar.gz"
+DIST_VERSION="1.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,9 +29,11 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

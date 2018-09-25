@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="6.90"
-DIST_A="POE-Component-IRC-6.90.tar.gz"
+DIST_VERSION="6.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Differences-0.610
 	>=virtual/perl-Test-Simple-0.470
 "
+

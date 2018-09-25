@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAYSAKURA"
-DIST_VERSION="1.05"
-DIST_A="Search-Fulltext-Tokenizer-MeCab-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

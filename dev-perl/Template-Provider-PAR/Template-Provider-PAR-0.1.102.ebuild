@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPW"
-DIST_VERSION="v0.1.102"
-DIST_A="Template-Provider-PAR-0.1.102.tar.gz"
+DIST_VERSION="0.1.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

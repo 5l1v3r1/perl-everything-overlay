@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKX"
-DIST_VERSION="0.3"
-DIST_A="Redis-SQLite-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

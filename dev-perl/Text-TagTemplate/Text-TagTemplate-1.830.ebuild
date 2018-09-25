@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATISSE"
-DIST_VERSION="1.83"
-DIST_A="Text-TagTemplate-1.83.tar.gz"
+DIST_VERSION="1.83" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

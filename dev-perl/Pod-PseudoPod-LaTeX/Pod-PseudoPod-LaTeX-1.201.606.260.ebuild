@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MORITZ"
-DIST_VERSION="1.20160626"
-DIST_A="Pod-PseudoPod-LaTeX-1.20160626.tar.gz"
+DIST_VERSION="1.20160626" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Pod-PseudoPod-0.160
 	dev-perl/Pod-Usage
+	dev-perl/base
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/IO-String
 	>=virtual/perl-Test-Simple-0.600
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XENO"
-DIST_VERSION="0.001002"
-DIST_A="Test-Method-0.001002.tar.gz"
+DIST_VERSION="0.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

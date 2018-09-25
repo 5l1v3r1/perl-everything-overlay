@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KXJ"
-DIST_VERSION="0.02"
-DIST_A="Win32-SystemInfo-CpuUsage-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

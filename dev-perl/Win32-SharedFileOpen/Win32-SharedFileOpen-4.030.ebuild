@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHAY"
-DIST_VERSION="4.03"
-DIST_A="Win32-SharedFileOpen-4.03.tar.gz"
+DIST_VERSION="4.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

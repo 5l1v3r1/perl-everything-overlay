@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.201"
-DIST_A="Valence-0.201.tar.gz"
+DIST_VERSION="0.201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/File-ShareDir-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

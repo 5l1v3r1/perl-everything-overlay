@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAPIX"
-DIST_VERSION="0.05"
-DIST_A="WebService-Mackerel-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Plack-1.004.200
 	>=dev-perl/Test-Double-0.050
 	>=dev-perl/Test-Fatal-0.013
 	>=dev-perl/Test-TCP-2.170
 	>=virtual/perl-Test-Simple-0.980
 "
+

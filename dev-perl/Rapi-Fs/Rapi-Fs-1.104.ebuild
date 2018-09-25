@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="1.104"
-DIST_A="Rapi-Fs-1.104.tar.gz"
+DIST_VERSION="1.104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Plack
 	dev-perl/Pod-Usage
-	dev-perl/RapidApp
+	>=dev-perl/RapidApp-1.040
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	dev-perl/experimental
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

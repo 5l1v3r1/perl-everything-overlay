@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VIPUL"
-DIST_VERSION="3.00700001"
-DIST_A="WWW-Spinn3r-3.00700001.tar.gz"
+DIST_VERSION="3.00700001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	dev-perl/Test-Memory-Cycle
 	dev-perl/XML-Twig
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 "
+

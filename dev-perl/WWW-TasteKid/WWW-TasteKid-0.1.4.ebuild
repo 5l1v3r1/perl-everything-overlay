@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DVWRIGHT"
-DIST_VERSION="v0.1.4"
-DIST_A="WWW-TasteKid-0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Class-InsideOut-1.090
 	>=dev-perl/HTML-Parser-1.350
 	>=dev-perl/Readonly-1.030
-	>=dev-perl/URI-1.370
+	>=dev-perl/URI-3.280
 	>=dev-perl/XML-LibXML-1.660
 	>=dev-perl/XML-Simple-2.180
 	>=dev-perl/libwww-perl-5.810
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

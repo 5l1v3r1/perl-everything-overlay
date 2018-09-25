@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="POSIX"
-DIST_VERSION="0.01"
-DIST_A="POSIX-Open3-0.01.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/POSIX/POSIX-Open3-0.01.tar.gz -> POSIX-Open3-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POSIX-Open3-0.01 ${WORKDIR}/POSIX-Open3-0.01
+}
+

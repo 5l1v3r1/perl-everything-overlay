@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUDDLEGG"
-DIST_VERSION="0.08"
-DIST_A="WebService-Cmis-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	dev-perl/Test-Signature
 "
+

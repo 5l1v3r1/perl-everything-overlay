@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="0.43"
-DIST_A="Test-Class-Moose-0.43.tar.gz"
+DIST_VERSION="0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
-	>=dev-perl/Moose-2.000.000
+	dev-perl/Moose
 	dev-perl/Parallel-ForkManager
 	dev-perl/Test-Most
 	dev-perl/Try-Tiny
@@ -33,5 +32,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Carp-Always
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 "
+

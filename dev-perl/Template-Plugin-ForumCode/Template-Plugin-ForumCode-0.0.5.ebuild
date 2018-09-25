@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="v0.0.5"
-DIST_A="Template-Plugin-ForumCode-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Template-Toolkit-2.700
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=dev-perl/Template-Toolkit-2.620
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.720
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 "
+

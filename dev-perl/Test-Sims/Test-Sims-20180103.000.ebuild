@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="20180103.0"
-DIST_A="Test-Sims-20180103.tar.gz"
+DIST_VERSION="20180103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.320
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARFREITAS"
-DIST_VERSION="0.13"
-DIST_A="Win32-SqlServer-DTS-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	>=dev-perl/Params-Validate-1.240
 	dev-perl/Win32-OLE
 	>=dev-perl/XML-Simple-2.180
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 "
@@ -32,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.430
 	virtual/perl-Test-Simple
 "
+

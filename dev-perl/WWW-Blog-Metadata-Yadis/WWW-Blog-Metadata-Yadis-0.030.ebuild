@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOKOGIKO"
-DIST_VERSION="0.03"
-DIST_A="WWW-Blog-Metadata-Yadis-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

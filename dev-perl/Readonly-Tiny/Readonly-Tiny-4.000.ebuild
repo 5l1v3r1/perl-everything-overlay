@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMORROW"
-DIST_VERSION="4.0"
-DIST_A="Readonly-Tiny-4.tar.gz"
+DIST_VERSION="4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Exports
 	>=virtual/perl-Test-Simple-0.960
 "
+

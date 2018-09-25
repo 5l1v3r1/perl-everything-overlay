@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIRBY"
-DIST_VERSION="1.01"
-DIST_A="WWW-Challonge-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-LWP-UserAgent-0.029
 	virtual/perl-Test-Simple
 "
+

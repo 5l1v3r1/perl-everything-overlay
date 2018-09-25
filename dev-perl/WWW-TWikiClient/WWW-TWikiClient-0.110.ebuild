@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.11"
-DIST_A="WWW-TWikiClient-0.11.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/twikiclient/WWW-TWikiClient-0.11.tar.gz"
+DIST_VERSION="0.11" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/twikiclient/WWW-TWikiClient-0.11.tar.gz -> WWW-TWikiClient-0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-TWikiClient-0.11 ${WORKDIR}/WWW-TWikiClient-0.11
+}
+

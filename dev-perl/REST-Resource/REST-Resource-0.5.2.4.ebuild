@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FROTZ"
-DIST_VERSION="0.5.2.4"
-DIST_A="REST-Resource-0.5.2.4.tar.gz"
+DIST_VERSION="0.5.2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

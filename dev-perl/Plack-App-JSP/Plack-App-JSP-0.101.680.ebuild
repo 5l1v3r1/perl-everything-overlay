@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDONELAN"
-DIST_VERSION="0.101680"
-DIST_A="Plack-App-JSP-0.101680.tar.gz"
+DIST_VERSION="0.101680" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

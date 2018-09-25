@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.033"
-DIST_A="Template-Pure-0.033.tar.gz"
+DIST_VERSION="0.033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/DateTime
 	>=dev-perl/Test-Most-0.340
 "
+

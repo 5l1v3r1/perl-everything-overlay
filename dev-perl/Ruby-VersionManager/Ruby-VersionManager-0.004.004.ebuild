@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKRULL"
-DIST_VERSION="0.004004"
-DIST_A="Ruby-VersionManager-0.004004.tar.gz"
+DIST_VERSION="0.004004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

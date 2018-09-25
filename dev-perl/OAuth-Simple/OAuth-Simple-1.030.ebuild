@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOXCOOL"
-DIST_VERSION="1.03"
-DIST_A="OAuth-Simple-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

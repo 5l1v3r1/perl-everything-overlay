@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHIM"
-DIST_VERSION="0.15"
-DIST_A="Task-BeLike-CHIM-Cabinet-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.220
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.05.2"
-DIST_A="Test-Cookbook-0.05.2.tar.gz"
+DIST_VERSION="0.05.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Block
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

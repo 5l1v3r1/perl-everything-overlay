@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KTAT"
-DIST_VERSION="0.16"
-DIST_A="Text-Parts-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATTILA"
-DIST_VERSION="v0.2.5"
-DIST_A="flail-0.2.5.tar.gz"
+DIST_VERSION="0.2.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

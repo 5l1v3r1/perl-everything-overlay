@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.001"
-DIST_A="Variable-OnDestruct-Scoped-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.036
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	virtual/perl-Test-Simple
 "
+

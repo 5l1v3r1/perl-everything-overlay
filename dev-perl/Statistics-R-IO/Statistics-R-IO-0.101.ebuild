@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Statistics-R-IO"
-DIST_VERSION="0.101"
-DIST_A="Statistics-R-IO-0.101.tar.gz"
+DIST_AUTHOR="DAVOR"
+DIST_VERSION="0.101" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVOR/Statistics-R-IO/Statistics-R-IO-0.101.tar.gz -> Statistics-R-IO-0.101.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.960
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Statistics-R-IO-0.101 ${WORKDIR}/Statistics-R-IO-0.101
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CMANLEY"
-DIST_VERSION="1.07"
-DIST_A="PHP-Functions-Password-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

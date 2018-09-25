@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="0.005"
-DIST_A="WWW-Crawler-Lite-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,10 +20,11 @@ RDEPEND="
 	dev-perl/URI
 	>=dev-perl/libwww-perl-5.834
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 "
+

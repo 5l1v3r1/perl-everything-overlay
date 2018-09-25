@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.20150818"
-DIST_A="XML-Parser-ClinicalTrials-Study-1.20150818.tar.gz"
+DIST_VERSION="1.20150818" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/File-Slurper
 	dev-perl/Test-Most
 "
+

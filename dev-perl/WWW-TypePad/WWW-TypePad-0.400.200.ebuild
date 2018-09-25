@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAYMEDIA"
-DIST_VERSION="0.4002"
-DIST_A="WWW-TypePad-0.4002.tar.gz"
+DIST_VERSION="0.4002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

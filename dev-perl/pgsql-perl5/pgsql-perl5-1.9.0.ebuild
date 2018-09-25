@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MERGL"
-DIST_VERSION="v1.9.0"
-DIST_A="pgsql_perl5-1.9.0.tar.gz"
+DIST_VERSION="1.9.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

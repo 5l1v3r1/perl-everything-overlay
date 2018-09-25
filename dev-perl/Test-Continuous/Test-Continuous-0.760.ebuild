@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.76"
-DIST_A="Test-Continuous-0.76.tar.gz"
+DIST_VERSION="0.76" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Module-ExtractUse-0.230
 	>=virtual/perl-File-Spec-3.290
 	>=virtual/perl-File-Temp-0.210
-	>=virtual/perl-Test-Harness-3.160
+	>=virtual/perl-Test-Harness-3.230
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.400
 	>=dev-perl/YAML-0.770
 "
+

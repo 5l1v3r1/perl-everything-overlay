@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Usergrid"
-DIST_VERSION="0.11"
-DIST_A="Usergrid-Client-0.11.tar.gz"
+DIST_AUTHOR="ANURADHA"
+DIST_VERSION="0.11" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANURADHA/Usergrid/Usergrid-Client-0.11.tar.gz -> Usergrid-Client-0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Usergrid-Client-0.11 ${WORKDIR}/Usergrid-Client-0.11
+}
+

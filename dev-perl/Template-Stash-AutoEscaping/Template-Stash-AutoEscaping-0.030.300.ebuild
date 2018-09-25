@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0303"
-DIST_A="Template-Stash-AutoEscaping-0.0303.tar.gz"
+DIST_VERSION="0.0303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/URI
 	virtual/perl-Test-Simple
 "
+

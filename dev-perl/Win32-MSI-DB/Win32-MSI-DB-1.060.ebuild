@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PMAREK"
-DIST_VERSION="1.06"
-DIST_A="Win32-MSI-DB-1.06.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PM/PMAREK/Win32/MSI/Win32-MSI-DB-1.06.tar.gz"
+DIST_VERSION="1.06" 
+SRC_URI="mirror://cpan/authors/id/P/PM/PMAREK/Win32/MSI/Win32-MSI-DB-1.06.tar.gz -> Win32-MSI-DB-1.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32-MSI-DB-1.06 ${WORKDIR}/Win32-MSI-DB-1.06
+}
+

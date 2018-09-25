@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMA"
-DIST_VERSION="0.091"
-DIST_A="XML-Atom-Syndication-0.091.tar.gz"
+DIST_VERSION="0.091" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

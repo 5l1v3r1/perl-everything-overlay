@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="2.001003"
-DIST_A="POE-Component-IRC-PluginBundle-WebDevelopment-2.001003.tar.gz"
+DIST_VERSION="2.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

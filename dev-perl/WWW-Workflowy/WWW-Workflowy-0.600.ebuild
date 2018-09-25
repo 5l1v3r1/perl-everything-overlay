@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="0.6"
-DIST_A="WWW-Workflowy-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/LWP-Protocol-https-0.010
 	>=dev-perl/PadWalker-0.010
-	>=dev-perl/autobox-0.010
 	>=dev-perl/libwww-perl-0.010
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUPUISARN"
-DIST_VERSION="0.17"
-DIST_A="Slackware-Slackget-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-lang/perl-2.080
 	>=dev-perl/HTTP-Message-1.400
+	dev-perl/Module-Build
 	>=dev-perl/POE-0.999.900
 	>=dev-perl/POE-Component-Logger-1.000
 	dev-perl/Proc-Daemon
@@ -33,3 +33,4 @@ DEPEND="
 	>=virtual/perl-Time-HiRes-1.660
 	>=virtual/perl-libnet-2.750
 "
+

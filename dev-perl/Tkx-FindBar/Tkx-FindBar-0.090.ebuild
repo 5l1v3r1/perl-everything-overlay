@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJCARMAN"
-DIST_VERSION="0.09"
-DIST_A="Tkx-FindBar-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SILENCER"
-DIST_VERSION="1.031"
-DIST_A="WoW-Armory-API-1.031.tar.gz"
+DIST_VERSION="1.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

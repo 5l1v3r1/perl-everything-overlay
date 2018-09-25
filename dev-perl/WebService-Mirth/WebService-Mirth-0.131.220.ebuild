@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSTANTON"
-DIST_VERSION="0.131220"
-DIST_A="WebService-Mirth-0.131220.tar.gz"
+DIST_VERSION="0.131220" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/IO-Socket-SSL-1.750
 	>=dev-perl/Log-Minimal-0.130
 	>=dev-perl/Mojolicious-1.970
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	dev-perl/MooseX-Params-Validate
 	>=dev-perl/MooseX-Types-Path-Class-MoreCoercions-0.002
 	dev-perl/aliased
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

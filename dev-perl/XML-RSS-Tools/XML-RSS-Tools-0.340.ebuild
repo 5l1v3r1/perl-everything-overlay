@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATRICKETT"
-DIST_VERSION="0.34"
-DIST_A="XML-RSS-Tools-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.090
 	>=dev-perl/YAML-0.600
 "
+

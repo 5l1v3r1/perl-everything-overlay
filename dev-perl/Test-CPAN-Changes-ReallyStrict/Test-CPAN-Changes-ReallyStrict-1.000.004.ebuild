@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.000004"
-DIST_A="Test-CPAN-Changes-ReallyStrict-1.000004.tar.gz"
+DIST_VERSION="1.000004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Text-Tabs+Wrap
 "
+

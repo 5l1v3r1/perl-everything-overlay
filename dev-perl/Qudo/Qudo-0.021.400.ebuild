@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.0214"
-DIST_A="Qudo-0.0214.tar.gz"
+DIST_VERSION="0.0214" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,13 +17,18 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBI
 	dev-perl/DBIx-Skinny
+	dev-perl/Pod-Usage
 	dev-perl/UNIVERSAL-require
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
+	dev-perl/Test-Output
+	dev-perl/Test-Requires
+	virtual/perl-Test-Simple
 "
+

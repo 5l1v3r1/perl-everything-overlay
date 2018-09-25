@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELIZABETH"
-DIST_VERSION="0.07"
-DIST_A="Thread-Rand-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHORWITZ"
-DIST_VERSION="2.51"
-DIST_A="extproc_perl-2.51.tar.gz"
+DIST_VERSION="2.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

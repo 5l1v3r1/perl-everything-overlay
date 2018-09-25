@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAKOHT"
-DIST_VERSION="0.10"
-DIST_A="RMI-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-IO
 	virtual/perl-Test-Harness
 	>=virtual/perl-Test-Simple-0.860
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

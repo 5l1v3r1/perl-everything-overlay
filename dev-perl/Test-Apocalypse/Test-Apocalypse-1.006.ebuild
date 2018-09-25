@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="1.006"
-DIST_A="Test-Apocalypse-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -79,3 +78,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-IO
 "
+

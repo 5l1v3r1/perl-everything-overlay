@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SIMON"
-DIST_VERSION="0.0"
-DIST_A="Text-Context-3.5.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/S/SI/SIMON/Text-Context-3.5.tar.gz -> Text-Context-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Context-3.5 ${WORKDIR}/Text-Context-
+}
+

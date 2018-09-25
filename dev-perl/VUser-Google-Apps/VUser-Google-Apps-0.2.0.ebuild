@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSMITH"
-DIST_VERSION="0.2.0"
-DIST_A="VUser-Google-Apps-0.2.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Google-Apps-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/VUser-Google-Apps-0.2.0.tar.gz -> VUser-Google-Apps-0.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,15 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/VUser-Google-Api-0.220
-	>=dev-perl/vuser-0.2.1
+	>=dev-perl/vuser-0.2.0
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/VUser-Google-Apps-0.2.0 ${WORKDIR}/VUser-Google-Apps-0.2.0
+}
+

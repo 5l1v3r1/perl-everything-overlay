@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KROMG"
-DIST_VERSION="v2.04.03"
-DIST_A="Tie-Syslog-2.04.03.tar.gz"
+DIST_VERSION="2.04.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

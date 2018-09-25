@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKR"
-DIST_VERSION="0.07191"
-DIST_A="Treex-Core-0.07191.tar.gz"
+DIST_VERSION="0.07191" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,3 +54,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

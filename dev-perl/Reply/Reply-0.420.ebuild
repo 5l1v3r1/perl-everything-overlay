@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.42"
-DIST_A="Reply-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ RDEPEND="
 	dev-perl/Package-Stash
 	dev-perl/PadWalker
 	dev-perl/Try-Tiny
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -40,3 +40,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNDEF"
-DIST_VERSION="0.0019"
-DIST_A="Twiggy-TLS-0.0019.tar.gz"
+DIST_VERSION="0.0019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/libwww-perl-6.000
 	>=virtual/perl-Test-Simple-0.880
 "
+

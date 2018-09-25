@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEITHBRO"
-DIST_VERSION="0.54"
-DIST_A="WWW-Mailgun-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Differences
-	dev-perl/Test-MockModule
 "
+

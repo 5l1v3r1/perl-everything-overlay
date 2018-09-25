@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YTURTLE"
-DIST_VERSION="0.03"
-DIST_A="WWW-256locksMaker-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.980
 "
+

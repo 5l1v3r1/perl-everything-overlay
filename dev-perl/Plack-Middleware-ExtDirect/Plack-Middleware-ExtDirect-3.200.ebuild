@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKAREV"
-DIST_VERSION="3.20"
-DIST_A="Plack-Middleware-ExtDirect-3.20.tar.gz"
+DIST_VERSION="3.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.820
 "
+

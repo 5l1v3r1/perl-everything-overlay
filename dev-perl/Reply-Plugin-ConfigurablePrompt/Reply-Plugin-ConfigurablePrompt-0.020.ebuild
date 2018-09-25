@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUCCHI"
-DIST_VERSION="0.02"
-DIST_A="Reply-Plugin-ConfigurablePrompt-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	virtual/perl-Test-Simple
 "
+

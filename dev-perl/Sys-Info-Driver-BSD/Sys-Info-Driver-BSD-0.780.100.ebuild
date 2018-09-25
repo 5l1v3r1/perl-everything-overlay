@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="0.7801"
-DIST_A="Sys-Info-Driver-BSD-0.7801.tar.gz"
+DIST_VERSION="0.7801" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Sys-Info-0.200
 	>=virtual/perl-Test-Simple-0.400
 "
+

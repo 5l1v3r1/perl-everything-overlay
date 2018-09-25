@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VASEKD"
-DIST_VERSION="0.09"
-DIST_A="Plack-Middleware-ParseContent-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

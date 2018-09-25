@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISHIGAKI"
-DIST_VERSION="0.19"
-DIST_A="Pod-PerldocJp-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.070
 	virtual/perl-ExtUtils-MakeMaker
 "
+

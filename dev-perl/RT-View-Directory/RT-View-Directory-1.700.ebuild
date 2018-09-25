@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESSE"
-DIST_VERSION="1.7"
-DIST_A="RT-View-Directory-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

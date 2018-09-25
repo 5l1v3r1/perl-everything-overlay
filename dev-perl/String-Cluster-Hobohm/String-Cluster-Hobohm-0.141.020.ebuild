@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRUNOV"
-DIST_VERSION="0.141020"
-DIST_A="String-Cluster-Hobohm-0.141020.tar.gz"
+DIST_VERSION="0.141020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

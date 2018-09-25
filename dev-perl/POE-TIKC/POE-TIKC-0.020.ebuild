@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XANTUS"
-DIST_VERSION="0.02"
-DIST_A="POE-TIKC-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-0.200
+	dev-perl/POE
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

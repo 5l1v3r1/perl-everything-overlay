@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLOF"
-DIST_VERSION="0.24"
-DIST_A="Text-FileTree-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Perl-Critic
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAURICE"
-DIST_VERSION="6.02"
-DIST_A="Text-Forge-6.02.tar.gz"
+DIST_VERSION="6.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 "
+

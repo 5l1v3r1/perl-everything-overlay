@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARTL"
-DIST_VERSION="0.400"
-DIST_A="XML-Parser-GlobEvents-0.400.tar.gz"
+DIST_VERSION="0.400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

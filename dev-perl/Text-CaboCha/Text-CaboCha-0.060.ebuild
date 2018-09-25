@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CODEHEX"
-DIST_VERSION="0.06"
-DIST_A="Text-CaboCha-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-parent
 	>=virtual/perl-Test-Simple-0.980
 "
+

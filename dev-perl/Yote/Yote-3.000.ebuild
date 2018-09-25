@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CANID"
-DIST_VERSION="3.0"
-DIST_A="Yote-3.0.tar.gz"
+DIST_VERSION="3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

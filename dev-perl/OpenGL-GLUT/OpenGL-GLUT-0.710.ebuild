@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHM"
-DIST_VERSION="0.71"
-DIST_A="OpenGL-GLUT-0.71.tar.gz"
+DIST_VERSION="0.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

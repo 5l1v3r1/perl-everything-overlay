@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEWP"
-DIST_VERSION="2.19"
-DIST_A="sybperl-2.19.tar.gz"
+DIST_VERSION="2.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

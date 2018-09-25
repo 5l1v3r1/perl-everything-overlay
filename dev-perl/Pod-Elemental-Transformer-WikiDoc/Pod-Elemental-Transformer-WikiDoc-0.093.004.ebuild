@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.093004"
-DIST_A="Pod-Elemental-Transformer-WikiDoc-0.093004.tar.gz"
+DIST_VERSION="0.093004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	dev-perl/Pod-Elemental
+	>=dev-perl/Pod-Elemental-0.092.941
 	dev-perl/Pod-Weaver
 	>=dev-perl/Pod-WikiDoc-0.180
 	dev-perl/namespace-autoclean
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

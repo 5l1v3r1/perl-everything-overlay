@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFWILKUS"
-DIST_VERSION="0.1.3"
-DIST_A="Tiny-OpenSSL-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Type-Tiny
 	dev-perl/YAML-Tiny
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
@@ -33,3 +33,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

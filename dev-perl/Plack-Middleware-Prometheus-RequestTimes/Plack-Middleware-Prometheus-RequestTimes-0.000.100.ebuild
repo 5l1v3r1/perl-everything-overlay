@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEWELLC"
-DIST_VERSION="0.0001"
-DIST_A="Plack-Middleware-Prometheus-RequestTimes-0.0001.tar.gz"
+DIST_VERSION="0.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

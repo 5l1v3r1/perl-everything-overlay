@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EJS"
-DIST_VERSION="v1.0.8"
-DIST_A="REST-Google-1.0.8.tar.gz"
+DIST_VERSION="1.0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

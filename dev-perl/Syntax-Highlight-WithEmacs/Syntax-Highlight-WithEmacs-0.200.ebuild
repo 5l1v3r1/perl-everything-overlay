@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANEI"
-DIST_VERSION="0.2"
-DIST_A="Syntax-Highlight-WithEmacs-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

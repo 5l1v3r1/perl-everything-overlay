@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMELTZER"
-DIST_VERSION="0.01"
-DIST_A="ToolSet-y-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Class-Autouse-1.290
+	dev-perl/Module-Build
 	>=dev-perl/ToolSet-1.000
 	virtual/perl-Test-Simple
 "
+

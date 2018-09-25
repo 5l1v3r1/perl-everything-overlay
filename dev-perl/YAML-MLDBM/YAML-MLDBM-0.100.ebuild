@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="0.10"
-DIST_A="YAML-MLDBM-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/MLDBM-2.010
-	>=dev-perl/YAML-0.350
-	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLUEFEET"
-DIST_VERSION="0.03"
-DIST_A="SQL-Abstract-Query-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Try-Tiny-0.110
 	>=virtual/perl-Test-Simple-0.980
 "
+

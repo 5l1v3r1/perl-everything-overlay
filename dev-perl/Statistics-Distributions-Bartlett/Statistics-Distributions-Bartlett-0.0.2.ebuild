@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTH"
-DIST_VERSION="v0.0.2"
-DIST_A="Statistics-Distributions-Bartlett-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Perl6-Form-0.040
 	>=dev-perl/Statistics-Distributions-1.020
 	>=virtual/perl-Carp-1.080
 	>=virtual/perl-Scalar-List-Utils-1.190
@@ -25,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

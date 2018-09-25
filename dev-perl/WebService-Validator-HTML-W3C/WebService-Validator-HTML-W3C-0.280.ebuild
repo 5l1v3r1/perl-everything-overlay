@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STRUAN"
-DIST_VERSION="0.28"
-DIST_A="WebService-Validator-HTML-W3C-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

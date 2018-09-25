@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.003004"
-DIST_A="Test-Mojo-Role-Debug-1.003004.tar.gz"
+DIST_VERSION="1.003004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
+	>=dev-lang/perl-1.010
 	dev-perl/Test-Most
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

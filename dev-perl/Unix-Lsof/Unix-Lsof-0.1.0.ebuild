@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Unix-Lsof"
-DIST_VERSION="v0.1.0"
-DIST_A="Unix-Lsof-0.1.0.tar.gz"
+DIST_AUTHOR="MARCB"
+DIST_VERSION="0.1.0" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MARCB/Unix-Lsof/Unix-Lsof-0.1.0.tar.gz -> Unix-Lsof-0.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Unix-Lsof-0.1.0 ${WORKDIR}/Unix-Lsof-0.1.0
+}
+

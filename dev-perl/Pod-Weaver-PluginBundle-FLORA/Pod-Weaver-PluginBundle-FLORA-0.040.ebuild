@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.04"
-DIST_A="Pod-Weaver-PluginBundle-FLORA-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Pod-Elemental-Transformer-List
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.000
 	dev-perl/namespace-clean
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

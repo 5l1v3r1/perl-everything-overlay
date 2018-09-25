@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GHARPER"
-DIST_VERSION="v0.3.1"
-DIST_A="xml-binddata-0.3.1.tar.gz"
+DIST_VERSION="0.3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Mock-Simple
 	virtual/perl-Test-Simple
 "
+

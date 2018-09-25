@@ -6,8 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="SNEVINE"
 DIST_VERSION="0.92"
-DIST_A="WWW-Bleep-0.92.tgz"
-SRC_URI="mirror://cpan/authors/id/S/SN/SNEVINE/WWW-Bleep-092/WWW-Bleep-0.92.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/S/SN/SNEVINE/WWW-Bleep-092/WWW-Bleep-0.92.tgz -> WWW-Bleep-0.92.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Bleep-0.92 ${WORKDIR}/WWW-Bleep-0.92
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEX"
-DIST_VERSION="0.27"
-DIST_A="Sys-RevoBackup-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ RDEPEND="
 	dev-perl/Log-Tree
 	dev-perl/Moose
 	dev-perl/MooseX-App-Cmd
-	>=dev-perl/Sys-Bprsync-0.170
+	dev-perl/Sys-Bprsync
 	dev-perl/Sys-FS
 	dev-perl/Sys-Hostname-FQDN
 	dev-perl/Sys-RotateBackup
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

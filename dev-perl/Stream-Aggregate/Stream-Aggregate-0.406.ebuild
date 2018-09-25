@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.406"
-DIST_A="Stream-Aggregate-0.406.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.406" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Stream-Aggregate-0.406.tar.gz -> Stream-Aggregate-0.406.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/YAML
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Stream-Aggregate-0.406 ${WORKDIR}/Stream-Aggregate-0.406
+}
+

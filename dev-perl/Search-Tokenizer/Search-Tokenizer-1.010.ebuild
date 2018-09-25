@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMI"
-DIST_VERSION="1.01"
-DIST_A="Search-Tokenizer-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,6 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Text-Transliterator
 	dev-perl/Unicode-CaseFold
 "
 DEPEND="
@@ -23,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+

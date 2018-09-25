@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COFFEE"
-DIST_VERSION="0.003002"
-DIST_A="Warnings-Version-0.003002.tar.gz"
+DIST_VERSION="0.003002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+

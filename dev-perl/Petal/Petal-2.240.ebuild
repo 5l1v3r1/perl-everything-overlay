@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NINE"
-DIST_VERSION="2.24"
-DIST_A="Petal-2.24.tar.gz"
+DIST_VERSION="2.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

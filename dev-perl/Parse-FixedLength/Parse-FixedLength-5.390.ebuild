@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGW"
-DIST_VERSION="5.39"
-DIST_A="Parse-FixedLength-5.39.tar.gz"
+DIST_VERSION="5.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MZIESCHA"
-DIST_VERSION="0.0.7"
-DIST_A="Perl-Critic-Policy-Variables-RequireHungarianNotation-0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Perl-Critic
 	virtual/perl-Test-Simple
 "
+

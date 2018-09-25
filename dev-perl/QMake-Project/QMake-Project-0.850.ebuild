@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROHANPM"
-DIST_VERSION="0.85"
-DIST_A="QMake-Project-0.85.tar.gz"
+DIST_VERSION="0.85" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

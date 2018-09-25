@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJC"
-DIST_VERSION="1.26"
-DIST_A="Test-PostgreSQL-1.26.tar.gz"
+DIST_VERSION="1.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-SharedFork-0.060
 "
+

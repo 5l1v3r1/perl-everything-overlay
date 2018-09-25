@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JONIONS"
-DIST_VERSION="0.17"
-DIST_A="PANT-0.17.tar.gz"
-SRC_URI="mirror://cpan/authors/id/J/JO/JONIONS/PANT/PANT-0.17.tar.gz"
+DIST_VERSION="0.17" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JONIONS/PANT/PANT-0.17.tar.gz -> PANT-0.17.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PANT-0.17 ${WORKDIR}/PANT-0.17
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.123630"
-DIST_A="RPC-Serialized-1.123630.tar.gz"
+DIST_VERSION="1.123630" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 	dev-perl/Net-Server
 	dev-perl/Readonly
 	dev-perl/URI
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-IO
 "
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

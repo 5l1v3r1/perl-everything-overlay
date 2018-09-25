@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.3.0"
-DIST_A="Text-Yeti-Table-0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-7.000
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.330
 	>=virtual/perl-Test-Simple-0.960
 "
+

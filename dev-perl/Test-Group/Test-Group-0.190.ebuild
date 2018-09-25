@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NCLEATON"
-DIST_VERSION="0.19"
-DIST_A="Test-Group-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.590
 "
 DEPEND="
 	${RDEPEND}
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	virtual/perl-File-Temp
 "
+

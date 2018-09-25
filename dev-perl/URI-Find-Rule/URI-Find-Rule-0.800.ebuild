@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJP"
-DIST_VERSION="0.8"
-DIST_A="URI-Find-Rule-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PCHRISTE"
-DIST_VERSION="v1.5.2"
-DIST_A="Options-1.5.2.tgz"
+DIST_VERSION="1.5.2"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

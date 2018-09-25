@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWINED"
-DIST_VERSION="0.71"
-DIST_A="WWW-Bugzilla3-0.71.tar.gz"
+DIST_VERSION="0.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

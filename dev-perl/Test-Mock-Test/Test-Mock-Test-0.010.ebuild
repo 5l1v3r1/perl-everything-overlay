@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.01"
-DIST_A="Test-Mock-Test-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/test/Test-Mock-Test-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/test/Test-Mock-Test-0.01.tar.gz -> Test-Mock-Test-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Mock-Test-0.01 ${WORKDIR}/Test-Mock-Test-0.01
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFARRELL"
-DIST_VERSION="0.04"
-DIST_A="WWW-IP-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/WWW-canihazip
 	dev-perl/WWW-hmaip
 	dev-perl/WWW-ipinfo
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-HTTP-Tiny
 "
@@ -29,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-RequiresInternet-0.030
 	virtual/perl-Test-Simple
 "
+

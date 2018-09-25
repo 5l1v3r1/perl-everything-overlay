@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYMON"
-DIST_VERSION="v1.1.2"
-DIST_A="Strehler-RSS-1.1.2.tar.gz"
+DIST_VERSION="1.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	>=dev-perl/Dancer2-0.160.000
 	dev-perl/Moo
-	dev-perl/Strehler
+	>=dev-perl/Strehler-1.6.4
 	dev-perl/XML-Feed
 "
 DEPEND="
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

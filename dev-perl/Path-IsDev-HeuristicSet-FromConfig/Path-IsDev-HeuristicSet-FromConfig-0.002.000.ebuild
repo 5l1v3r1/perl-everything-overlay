@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002000"
-DIST_A="Path-IsDev-HeuristicSet-FromConfig-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Tiny
 	dev-perl/File-UserConfig
 	dev-perl/JSON
-	dev-perl/Path-IsDev
+	>=dev-perl/Path-IsDev-1.000.000
 	dev-perl/Path-Tiny
 	dev-perl/Role-Tiny
 "
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.990
 "
+

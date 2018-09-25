@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="1.940"
-DIST_A="RDF-LinkedData-1.940.tar.gz"
+DIST_VERSION="1.940" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,3 +49,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-PSGI
 	>=virtual/perl-Test-Simple-0.880
 "
+

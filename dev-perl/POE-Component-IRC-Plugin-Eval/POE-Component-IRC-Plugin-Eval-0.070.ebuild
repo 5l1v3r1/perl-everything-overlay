@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HINRIK"
-DIST_VERSION="0.07"
-DIST_A="POE-Component-IRC-Plugin-Eval-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/POE
-	dev-perl/POE-Component-IRC
+	>=dev-perl/POE-Component-IRC-6.360
 	dev-perl/POE-Filter-JSON
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

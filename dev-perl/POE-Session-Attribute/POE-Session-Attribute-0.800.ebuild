@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSN"
-DIST_VERSION="0.80"
-DIST_A="POE-Session-Attribute-0.80.tar.gz"
+DIST_VERSION="0.80" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

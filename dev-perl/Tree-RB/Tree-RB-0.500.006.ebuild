@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARUNBEAR"
-DIST_VERSION="0.500006"
-DIST_A="Tree-RB-0.500006.tar.gz"
+DIST_VERSION="0.500006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	>=virtual/perl-Test-Simple-0.420
 "
+

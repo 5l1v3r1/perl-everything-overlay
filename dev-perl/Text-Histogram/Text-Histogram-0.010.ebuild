@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="text-histogram"
-DIST_VERSION="0.01"
-DIST_A="Text-Histogram-0.01.tar.gz"
+DIST_AUTHOR="NEVES"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/N/NE/NEVES/text-histogram/Text-Histogram-0.01.tar.gz -> Text-Histogram-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Histogram-0.01 ${WORKDIR}/Text-Histogram-0.01
+}
+

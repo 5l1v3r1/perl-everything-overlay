@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUBINA"
-DIST_VERSION="0.22"
-DIST_A="Text-Corpus-Summaries-Wikipedia-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,10 +24,11 @@ RDEPEND="
 	>=dev-perl/Statistics-Descriptive-2.600
 	>=dev-perl/XML-Code-0.400
 	>=dev-perl/XML-Simple-2.180
-	>=dev-perl/libwww-perl-5.834
+	>=dev-perl/libwww-perl-5.827
 	>=virtual/perl-File-Path-2.080
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

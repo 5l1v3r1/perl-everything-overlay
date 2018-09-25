@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="2.517"
-DIST_A="WWW-Search-2.517.tar.gz"
+DIST_VERSION="2.517" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	>=dev-perl/HTML-Parser-2.230
 	dev-perl/HTML-Tree
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	dev-perl/User
 	>=dev-perl/libwww-perl-2.000
@@ -30,7 +30,6 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	>=virtual/perl-Getopt-Long-2.240
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-libnet
 "
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-File
 	virtual/perl-File-Temp
 "
+

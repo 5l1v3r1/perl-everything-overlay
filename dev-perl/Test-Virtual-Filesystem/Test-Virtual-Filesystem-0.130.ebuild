@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDOLAN"
-DIST_VERSION="0.13"
-DIST_A="Test-Virtual-Filesystem-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	>=dev-perl/Readonly-1.000
 	>=dev-perl/Test-Class-0.240
+	dev-perl/base
 	>=virtual/perl-Attribute-Handlers-0.780
 	virtual/perl-Carp
 	virtual/perl-File-Spec
@@ -27,4 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

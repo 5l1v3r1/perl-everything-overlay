@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FXZUZ"
-DIST_VERSION="0.9906"
-DIST_A="WWW-Foursquare-0.9906.tar.gz"
+DIST_VERSION="0.9906" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

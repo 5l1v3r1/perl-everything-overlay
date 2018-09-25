@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MNUNBERG"
-DIST_VERSION="0.05"
-DIST_A="Proc-Terminator-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

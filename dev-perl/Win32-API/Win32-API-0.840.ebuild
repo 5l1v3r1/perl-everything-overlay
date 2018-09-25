@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Win32"
-DIST_VERSION="0.84"
-DIST_A="Win32-API-0.84.tar.gz"
+DIST_AUTHOR="BULKDD"
+DIST_VERSION="0.84" 
+SRC_URI="mirror://cpan/authors/id/B/BU/BULKDD/Win32/Win32-API-0.84.tar.gz -> Win32-API-0.84.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32-API-0.84 ${WORKDIR}/Win32-API-0.84
+}
+

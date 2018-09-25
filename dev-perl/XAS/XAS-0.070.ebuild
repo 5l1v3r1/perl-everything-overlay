@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KESTEB"
-DIST_VERSION="0.07"
-DIST_A="XAS-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

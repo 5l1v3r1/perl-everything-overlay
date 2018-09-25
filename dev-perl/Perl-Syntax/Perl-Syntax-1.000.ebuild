@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROCKY"
-DIST_VERSION="1.00"
-DIST_A="Perl-Syntax-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.320
 	>=virtual/perl-Test-Simple-0.810
 "
+

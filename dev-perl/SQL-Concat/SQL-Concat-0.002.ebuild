@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HKOBA"
-DIST_VERSION="0.002"
-DIST_A="SQL-Concat-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-CPANfile
 	>=dev-perl/Test-Kantan-0.400
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOCK"
-DIST_VERSION="0.3"
-DIST_A="WWW-Search-ISBNDB-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Group
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

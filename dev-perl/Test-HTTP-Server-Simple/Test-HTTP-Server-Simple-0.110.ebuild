@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Server-Simple
 	dev-perl/NEXT
-	>=virtual/perl-Test-Simple-1.040
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.15"
-DIST_A="Text-Ngram-0.15.tar.gz"
-SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Text/Text-Ngram-0.15.tar.gz"
+DIST_VERSION="0.15" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Text/Text-Ngram-0.15.tar.gz -> Text-Ngram-0.15.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Ngram-0.15 ${WORKDIR}/Text-Ngram-0.15
+}
+

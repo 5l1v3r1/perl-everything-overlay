@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.0006"
-DIST_A="Template-Process-0.0006.tar.gz"
+DIST_VERSION="0.0006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Template-Toolkit
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

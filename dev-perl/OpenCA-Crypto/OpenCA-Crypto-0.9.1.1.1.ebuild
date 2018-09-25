@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADWOLF"
-DIST_VERSION="v0.9.1.1.1"
-DIST_A="OpenCA-Crypto-0.9.1.1.1.tar.gz"
+DIST_VERSION="0.9.1.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

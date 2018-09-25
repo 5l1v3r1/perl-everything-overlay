@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.112"
-DIST_A="WWW-AdventCalendar-1.112.tar.gz"
+DIST_VERSION="1.112" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Calendar-Simple
 	>=dev-perl/Color-Palette-0.100.002
-	>=dev-perl/Config-MVP-2.000
+	dev-perl/Config-MVP
 	dev-perl/Config-MVP-Reader-INI
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-W3CDTF
@@ -52,3 +51,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

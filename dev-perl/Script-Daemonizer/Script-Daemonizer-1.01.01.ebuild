@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KROMG"
-DIST_VERSION="v1.01.01"
-DIST_A="Script-Daemonizer-1.01.01.tar.gz"
+DIST_VERSION="1.01.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

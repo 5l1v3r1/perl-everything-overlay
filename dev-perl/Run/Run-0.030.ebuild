@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.03"
-DIST_A="Run-0.03.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/Run-0.03.tar.gz -> Run-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Run-0.03 ${WORKDIR}/Run-0.03
+}
+

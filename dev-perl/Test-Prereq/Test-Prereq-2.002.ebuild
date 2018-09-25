@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="2.002"
-DIST_A="Test-Prereq-2.002.tar.gz"
+DIST_VERSION="2.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Module-Build
 	dev-perl/Module-Extract-Use
 	dev-perl/Module-Info
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Module-CoreList
 	virtual/perl-Test-Simple
@@ -30,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	virtual/perl-File-Spec
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MURRAY"
-DIST_VERSION="v2.1.3"
-DIST_A="PPM-2.1.3.tar.gz"
+DIST_VERSION="2.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

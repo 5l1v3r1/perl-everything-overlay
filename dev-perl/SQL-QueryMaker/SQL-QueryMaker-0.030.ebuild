@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZUHO"
-DIST_VERSION="0.03"
-DIST_A="SQL-QueryMaker-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DateTime
 	dev-perl/Test-Requires
 	dev-perl/Tie-IxHash
 	>=virtual/perl-Test-Simple-0.980
 "
+

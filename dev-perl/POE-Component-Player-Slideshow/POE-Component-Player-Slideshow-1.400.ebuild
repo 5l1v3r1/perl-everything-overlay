@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ECALDER"
-DIST_VERSION="1.4"
-DIST_A="POE-Component-Player-Slideshow-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

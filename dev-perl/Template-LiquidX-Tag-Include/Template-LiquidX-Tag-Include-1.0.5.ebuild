@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="1.0.5"
-DIST_A="Template-LiquidX-Tag-Include-1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

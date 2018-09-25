@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLSUNG"
-DIST_VERSION="0.04"
-DIST_A="WWW-Scramble-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Find-Rule
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/HTML-Tree
 	dev-perl/HTML-TreeBuilder-XPath
 	dev-perl/Moose
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

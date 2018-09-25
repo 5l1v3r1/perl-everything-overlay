@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBJK"
-DIST_VERSION="1.0001"
-DIST_A="Postscript-HTML-Map-1.0001.tar.gz"
+DIST_VERSION="1.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

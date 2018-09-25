@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMORROW"
-DIST_VERSION="3.0"
-DIST_A="String-Defer-3.tar.gz"
+DIST_VERSION="3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Exports-1.000
 	>=virtual/perl-Test-Simple-0.650
 "
+

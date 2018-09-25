@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHOELZ"
-DIST_VERSION="0.01"
-DIST_A="Term-Drawille-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

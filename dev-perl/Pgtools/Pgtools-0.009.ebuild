@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMBO"
-DIST_VERSION="0.009"
-DIST_A="Pgtools-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,8 +28,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/DBD-Mock
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
 	dev-perl/Test-Perl-Critic
 	>=virtual/perl-Test-Simple-0.980
 "
+

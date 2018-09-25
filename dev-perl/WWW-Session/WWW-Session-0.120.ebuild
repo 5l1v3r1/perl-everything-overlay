@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="WWW-Session"
-DIST_VERSION="0.12"
-DIST_A="WWW-Session-0.12.tar.gz"
+DIST_AUTHOR="HOREA"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/WWW-Session/WWW-Session-0.12.tar.gz -> WWW-Session-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-Session-0.12 ${WORKDIR}/WWW-Session-0.12
+}
+

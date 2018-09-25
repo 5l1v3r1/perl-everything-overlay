@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MERU"
-DIST_VERSION="0.03"
-DIST_A="Resque-Plugin-Delay-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Redis
 	dev-perl/Test-MockTime
 	dev-perl/Test-RedisServer
 	dev-perl/Time-Strptime
 	>=virtual/perl-Test-Simple-0.980
 "
+

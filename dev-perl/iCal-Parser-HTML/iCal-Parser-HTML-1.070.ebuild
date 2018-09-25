@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RFRANKEL"
-DIST_VERSION="1.07"
-DIST_A="iCal-Parser-HTML-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.470
 "
+

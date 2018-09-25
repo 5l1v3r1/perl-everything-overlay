@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTINELL"
-DIST_VERSION="0.02"
-DIST_A="Template-Plugin-WikiCreole-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Template-Toolkit
+	>=dev-perl/Template-Toolkit-2.000
 	>=dev-perl/Text-WikiCreole-0.070
 	>=virtual/perl-Test-Simple-0.440
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

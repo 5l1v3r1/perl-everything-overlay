@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.11"
-DIST_A="Search-GIN-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Stream-Bulk
 	dev-perl/MRO-Compat
-	>=dev-perl/Moose-0.890
+	dev-perl/Moose
 	dev-perl/Scope-Guard
 	dev-perl/Set-Object
 	dev-perl/Test-Deep
@@ -30,9 +29,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/MooseX-Types-Set-Object
 	dev-perl/Test-TempDir-Tiny
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

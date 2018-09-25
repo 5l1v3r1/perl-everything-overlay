@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="0.038"
-DIST_A="POE-Loop-Glib-0.038.tar.gz"
+DIST_VERSION="0.038" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=dev-perl/POE-Test-Loops-1.034
 "
+

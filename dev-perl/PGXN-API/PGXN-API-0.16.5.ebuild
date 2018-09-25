@@ -29,7 +29,7 @@ RDEPEND="
 	>=dev-perl/Moose-1.150
 	>=dev-perl/MooseX-Singleton-0.250
 	>=dev-perl/PGXN-API-Searcher-0.9.4
-	>=dev-perl/Plack-0.997.700
+	dev-perl/Plack
 	>=dev-perl/Text-Markup-0.150
 	>=dev-perl/URI-Template-0.160
 	>=dev-perl/XML-LibXML-1.700

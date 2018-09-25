@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHOROBA"
-DIST_VERSION="2.1.27"
-DIST_A="XML-XSH2-2.1.27.tar.gz"
+DIST_VERSION="2.1.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/Term-ReadLine-Perl
 	dev-perl/URI
 	>=dev-perl/XML-Filter-DOMFilter-LibXML-0.030
-	>=dev-perl/XML-LibXML-0.070
+	>=dev-perl/XML-LibXML-1.600
 	dev-perl/XML-LibXML-Iterator
 	>=dev-perl/XML-LibXSLT-1.600
 	>=dev-perl/XML-SAX-Writer-0.440
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

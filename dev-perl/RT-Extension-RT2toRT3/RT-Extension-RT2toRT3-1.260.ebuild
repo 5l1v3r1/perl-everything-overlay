@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FALCONE"
-DIST_VERSION="1.26"
-DIST_A="RT-Extension-RT2toRT3-1.26.tar.gz"
+DIST_VERSION="1.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

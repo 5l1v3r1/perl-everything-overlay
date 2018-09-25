@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMTM"
-DIST_VERSION="0.90"
-DIST_A="Template-Plugin-Pagination-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

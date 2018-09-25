@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="2.1.10"
-DIST_A="Panda-XS-2.1.10.tar.gz"
+DIST_VERSION="2.1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.760
 	dev-perl/Test-Deep
 	>=virtual/perl-ExtUtils-ParseXS-3.240
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CROMEDOME"
-DIST_VERSION="0.06"
-DIST_A="Task-Dancer2-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,7 +50,6 @@ RDEPEND="
 	dev-perl/Dancer2-Plugin-Negotiate
 	dev-perl/Dancer2-Plugin-ParamKeywords
 	dev-perl/Dancer2-Plugin-Passphrase
-	dev-perl/Dancer2-Plugin-Path-Class
 	dev-perl/Dancer2-Plugin-ProgressStatus
 	dev-perl/Dancer2-Plugin-Queue
 	dev-perl/Dancer2-Plugin-Queue-MongoDB
@@ -86,3 +84,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

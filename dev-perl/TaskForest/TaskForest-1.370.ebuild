@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="TaskForest"
-DIST_VERSION="1.37"
-DIST_A="TaskForest-1.37.tar.gz"
+DIST_AUTHOR="ENOOR"
+DIST_VERSION="1.37" 
+SRC_URI="mirror://cpan/authors/id/E/EN/ENOOR/TaskForest/TaskForest-1.37.tar.gz -> TaskForest-1.37.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TaskForest-1.37 ${WORKDIR}/TaskForest-1.37
+}
+

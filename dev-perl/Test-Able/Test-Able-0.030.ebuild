@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDV"
-DIST_VERSION="0.03"
-DIST_A="Test-Able-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.610
 	>=dev-perl/Sub-Identify-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

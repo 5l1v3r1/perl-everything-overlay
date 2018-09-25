@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.242"
-DIST_A="Test-Data-1.242.tar.gz"
+DIST_VERSION="1.242" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	virtual/perl-Test-Simple
 "
+

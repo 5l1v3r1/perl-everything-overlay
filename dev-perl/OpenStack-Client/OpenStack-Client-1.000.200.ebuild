@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAN"
-DIST_VERSION="1.0002"
-DIST_A="OpenStack-Client-1.0002.tar.gz"
+DIST_VERSION="1.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

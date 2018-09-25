@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IGELHAUS"
-DIST_VERSION="0.06"
-DIST_A="WebService-Redmine-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

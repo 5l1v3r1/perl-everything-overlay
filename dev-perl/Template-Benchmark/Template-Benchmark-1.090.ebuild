@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGRAHAM"
-DIST_VERSION="1.09"
-DIST_A="Template-Benchmark-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

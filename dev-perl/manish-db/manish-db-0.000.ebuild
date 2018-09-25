@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HUGHES"
-DIST_VERSION="0.0"
-DIST_A="manish-db.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/H/HU/HUGHES/manish-db.tar.gz -> manish-db-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/manish-db ${WORKDIR}/manish-db-
+}
+

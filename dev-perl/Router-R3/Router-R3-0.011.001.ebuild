@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CINDY"
-DIST_VERSION="0.011001"
-DIST_A="Router-R3-0.011001.tar.gz"
+DIST_VERSION="0.011001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/ExtUtils-PkgConfig
 	virtual/perl-ExtUtils-MakeMaker
 "
+

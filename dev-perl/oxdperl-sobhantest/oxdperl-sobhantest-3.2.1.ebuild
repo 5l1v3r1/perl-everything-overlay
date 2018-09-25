@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOBHAN"
-DIST_VERSION="3.2.1"
-DIST_A="oxdperl_sobhantest-3.2.1.tar.gz"
+DIST_VERSION="3.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

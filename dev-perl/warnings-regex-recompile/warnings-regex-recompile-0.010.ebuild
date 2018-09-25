@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="KPAWAR"
 DIST_VERSION="0.01"
-DIST_A="warnings-regex-recompile-0.01.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

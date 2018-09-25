@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.8"
-DIST_A="Tapper-Cmd-5.0.8.tar.gz"
+DIST_VERSION="5.0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	dev-perl/Test-Fixture-DBIC-Schema
 	virtual/perl-Test-Simple
 "
+

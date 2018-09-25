@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IKRUGLOV"
-DIST_VERSION="0.035"
-DIST_A="YAHC-0.035.tar.gz"
+DIST_VERSION="0.035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=virtual/perl-Net-Ping-2.410
 	>=virtual/perl-Test-Simple-0.880
 "
+

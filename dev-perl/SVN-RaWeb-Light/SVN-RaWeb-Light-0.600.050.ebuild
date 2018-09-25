@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.60005"
-DIST_A="SVN-RaWeb-Light-0.60005.tar.gz"
+DIST_VERSION="0.60005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

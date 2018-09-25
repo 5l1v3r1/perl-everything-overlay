@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAYBUFF"
-DIST_VERSION="v0.1.2"
-DIST_A="perl_WebService_ReviewBoard-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

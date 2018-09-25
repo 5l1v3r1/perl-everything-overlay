@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COLINK"
-DIST_VERSION="1.0107"
-DIST_A="SVG-Estimate-1.0107.tar.gz"
+DIST_VERSION="1.0107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

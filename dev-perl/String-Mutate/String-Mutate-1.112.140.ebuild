@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TBONE"
-DIST_VERSION="1.112140"
-DIST_A="String-Mutate-1.112140.tar.gz"
+DIST_VERSION="1.112140" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

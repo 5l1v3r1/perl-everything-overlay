@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMQ"
-DIST_VERSION="0.14"
-DIST_A="Pod-Snippets-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

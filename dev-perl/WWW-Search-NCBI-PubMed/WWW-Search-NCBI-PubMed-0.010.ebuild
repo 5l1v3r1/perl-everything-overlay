@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUENALAN"
-DIST_VERSION="0.01"
-DIST_A="WWW-Search-NCBI-PubMed-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	>=dev-perl/IO-Extended-0.080
 	>=dev-perl/Path-Class-0.060
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	dev-perl/WWW-Search
 	dev-perl/XML-LibXML
@@ -27,9 +27,9 @@ RDEPEND="
 	dev-perl/XML-XPath
 	dev-perl/libwww-perl
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

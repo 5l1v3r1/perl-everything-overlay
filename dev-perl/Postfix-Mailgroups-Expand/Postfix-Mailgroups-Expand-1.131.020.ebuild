@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEK"
-DIST_VERSION="1.131020"
-DIST_A="Postfix-Mailgroups-Expand-1.131020.tar.gz"
+DIST_VERSION="1.131020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

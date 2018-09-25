@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHOGO"
-DIST_VERSION="0.08"
-DIST_A="Redis-Namespace-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Furl
 	dev-perl/JSON
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Fatal
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="OAuth-Consumer"
-DIST_VERSION="0.03"
-DIST_A="OAuth-Consumer-0.03.tar.gz"
+DIST_AUTHOR="MATHIAS"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MATHIAS/OAuth-Consumer/OAuth-Consumer-0.03.tar.gz -> OAuth-Consumer-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	dev-perl/WWW-Mechanize
 	dev-perl/libwww-perl
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/OAuth-Consumer-0.03 ${WORKDIR}/OAuth-Consumer-0.03
+}
+

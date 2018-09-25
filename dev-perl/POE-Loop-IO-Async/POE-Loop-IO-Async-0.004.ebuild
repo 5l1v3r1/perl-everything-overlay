@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.004"
-DIST_A="POE-Loop-IO_Async-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/POE-Test-Loops-1.035
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

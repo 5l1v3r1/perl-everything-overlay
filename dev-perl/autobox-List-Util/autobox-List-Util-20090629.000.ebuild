@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COWENS"
-DIST_VERSION="20090629.0"
-DIST_A="autobox-List-Util-20090629.tar.gz"
+DIST_VERSION="20090629" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/autobox
+	dev-perl/Module-Build
 	virtual/perl-Module-Load
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

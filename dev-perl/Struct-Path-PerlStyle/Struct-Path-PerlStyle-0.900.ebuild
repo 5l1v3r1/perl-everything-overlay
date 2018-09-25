@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIXAS"
-DIST_VERSION="0.90"
-DIST_A="Struct-Path-PerlStyle-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Clone
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMALTSEV"
-DIST_VERSION="1.71"
-DIST_A="XAO-Web-1.71.tar.gz"
+DIST_VERSION="1.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

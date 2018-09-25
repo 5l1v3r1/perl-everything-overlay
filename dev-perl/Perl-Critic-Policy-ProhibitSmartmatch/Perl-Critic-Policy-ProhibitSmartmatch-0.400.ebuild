@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLCAPEK"
-DIST_VERSION="0.4"
-DIST_A="Perl-Critic-Policy-ProhibitSmartmatch-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

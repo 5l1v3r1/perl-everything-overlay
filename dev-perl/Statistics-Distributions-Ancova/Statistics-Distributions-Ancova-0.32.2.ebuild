@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTH"
-DIST_VERSION="v0.32.2"
-DIST_A="Statistics-Distributions-Ancova-0.32.2.tar.gz"
+DIST_VERSION="0.32.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Contextual-Return-0.2.1
+	>=dev-perl/Math-Cephes-0.470
+	dev-perl/Module-Build
+	>=dev-perl/Statistics-Distributions-1.020
+	>=virtual/perl-Carp-1.080
+	>=virtual/perl-Scalar-List-Utils-1.190
+	virtual/perl-Test-Simple
 "
+

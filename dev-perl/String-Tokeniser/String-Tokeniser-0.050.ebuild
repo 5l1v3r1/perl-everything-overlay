@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="String"
-DIST_VERSION="0.05"
-DIST_A="String-Tokeniser-0.05.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/String/String-Tokeniser-0.05.tar.gz -> String-Tokeniser-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/String-Tokeniser-0.05 ${WORKDIR}/String-Tokeniser-0.05
+}
+

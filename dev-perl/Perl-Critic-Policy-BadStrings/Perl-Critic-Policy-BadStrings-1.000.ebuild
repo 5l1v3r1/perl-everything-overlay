@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASLAK"
-DIST_VERSION="1.000"
-DIST_A="Perl-Critic-Policy-BadStrings-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Perl6-Slurp
 	>=dev-perl/Test2-Suite-0.000.058
 "
+

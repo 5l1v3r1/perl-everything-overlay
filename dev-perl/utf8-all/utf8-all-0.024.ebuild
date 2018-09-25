@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAYOBAAN"
-DIST_VERSION="0.024"
-DIST_A="utf8-all-0.024.tar.gz"
+DIST_VERSION="0.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-threads-shared
 	>=virtual/perl-version-0.770
 "
+

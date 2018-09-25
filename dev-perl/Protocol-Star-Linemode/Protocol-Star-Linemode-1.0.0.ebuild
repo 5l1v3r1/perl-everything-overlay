@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STUIFZAND"
-DIST_VERSION="1.0.0"
-DIST_A="Protocol-Star-Linemode-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.030
 	dev-perl/File-Slurp
 	dev-perl/Marpa-R2
+	dev-perl/Module-Build
 "
+

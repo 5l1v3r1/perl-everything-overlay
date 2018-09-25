@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLANNING"
-DIST_VERSION="0.02"
-DIST_A="PerlIO-via-json-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/XML-XML2JSON-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

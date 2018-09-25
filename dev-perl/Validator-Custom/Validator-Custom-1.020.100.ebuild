@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIMOTO"
-DIST_VERSION="1.0201"
-DIST_A="Validator-Custom-1.0201.tar.gz"
+DIST_VERSION="1.0201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EINHVERFR"
-DIST_VERSION="1.000000"
-DIST_A="PGObject-Util-Replication-SMO-1.000000.tar.gz"
+DIST_VERSION="1.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

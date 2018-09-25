@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.090
 	>=dev-perl/Convert-Color-0.050
 	>=dev-perl/Readonly-1.030
 	>=virtual/perl-Carp-1.040

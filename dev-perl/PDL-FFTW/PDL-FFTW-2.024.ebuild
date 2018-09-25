@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHM"
-DIST_VERSION="2.024"
-DIST_A="PDL-FFTW-2.024.tar.gz"
+DIST_VERSION="2.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

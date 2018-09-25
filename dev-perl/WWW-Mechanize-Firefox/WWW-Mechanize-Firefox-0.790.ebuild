@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.79"
-DIST_A="WWW-Mechanize-Firefox-0.79.tar.gz"
+DIST_VERSION="0.79" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Task-Weaken
 "
+

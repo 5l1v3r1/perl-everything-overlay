@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VKON"
-DIST_VERSION="0.90"
-DIST_A="Tcl-Tk-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

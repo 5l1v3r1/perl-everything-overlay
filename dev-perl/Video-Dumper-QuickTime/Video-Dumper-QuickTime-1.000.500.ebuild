@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Video-Dumper-QuickTime"
-DIST_VERSION="1.0005"
-DIST_A="Video-Dumper-QuickTime-1.0005.tar.gz"
+DIST_AUTHOR="GRANDPA"
+DIST_VERSION="1.0005" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRANDPA/Video-Dumper-QuickTime/Video-Dumper-QuickTime-1.0005.tar.gz -> Video-Dumper-QuickTime-1.0005.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Video-Dumper-QuickTime-1.0005 ${WORKDIR}/Video-Dumper-QuickTime-1.0005
+}
+

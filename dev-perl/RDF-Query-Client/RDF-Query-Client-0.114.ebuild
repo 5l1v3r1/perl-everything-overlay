@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.114"
-DIST_A="RDF-Query-Client-0.114.tar.gz"
+DIST_VERSION="0.114" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-RequiresInternet
 	>=virtual/perl-Test-Simple-0.610
 "
+

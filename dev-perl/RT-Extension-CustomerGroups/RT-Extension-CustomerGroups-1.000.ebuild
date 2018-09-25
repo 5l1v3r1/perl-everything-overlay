@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RINGERC"
-DIST_VERSION="1.00"
-DIST_A="RT-Extension-CustomerGroups-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Install-ReadmeFromPod-0.200
 	>=virtual/perl-Test-Simple-0.470
 "
+

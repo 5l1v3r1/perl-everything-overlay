@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RJB"
-DIST_VERSION="0.02"
-DIST_A="SANtricity-SMcli-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RJ/RJB/SMcli/SANtricity-SMcli-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/R/RJ/RJB/SMcli/SANtricity-SMcli-0.02.tar.gz -> SANtricity-SMcli-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SANtricity-SMcli-0.02 ${WORKDIR}/SANtricity-SMcli-0.02
+}
+

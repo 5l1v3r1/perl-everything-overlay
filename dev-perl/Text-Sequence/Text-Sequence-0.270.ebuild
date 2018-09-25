@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKINGTON"
-DIST_VERSION="0.27"
-DIST_A="Text-Sequence-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

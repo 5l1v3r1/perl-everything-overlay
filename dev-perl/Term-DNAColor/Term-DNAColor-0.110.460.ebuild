@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTHOMPSON"
-DIST_VERSION="0.110460"
-DIST_A="Term-DNAColor-0.110460.tar.gz"
+DIST_VERSION="0.110460" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=virtual/perl-Term-ANSIColor-2.010
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="0.20"
-DIST_A="Server-Control-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,16 +25,25 @@ RDEPEND="
 	>=dev-perl/Log-Any-Adapter-Dispatch-0.050
 	>=dev-perl/Moose-0.660
 	>=dev-perl/MooseX-StrictConstructor-0.080
+	dev-perl/Pod-Usage
 	>=dev-perl/Proc-ProcessTable-0.390
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	>=dev-perl/Guard-0.500
+	>=dev-perl/HTTP-Server-Simple-0.280
+	dev-perl/Net-Server
+	dev-perl/Test-Class
+	dev-perl/Test-Log-Dispatch
+	dev-perl/Test-Most
+	virtual/perl-File-Path
 "
+

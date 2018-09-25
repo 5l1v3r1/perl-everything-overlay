@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCSEEGE"
-DIST_VERSION="1.14"
-DIST_A="Tk-JComboBox-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Tk
+	>=dev-perl/Tk-800.024
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

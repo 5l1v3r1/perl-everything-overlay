@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VIDUL"
-DIST_VERSION="0.0"
-DIST_A="swd.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/V/VI/VIDUL/swd.tar.gz -> swd-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/swd ${WORKDIR}/swd-
+}
+

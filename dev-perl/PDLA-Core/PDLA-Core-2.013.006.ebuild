@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="2.013006"
-DIST_A="PDLA-Core-2.013006.tar.gz"
+DIST_VERSION="2.013006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	>=virtual/perl-CPAN-Meta-2.120.900
 	>=virtual/perl-ExtUtils-ParseXS-3.010
 "
+

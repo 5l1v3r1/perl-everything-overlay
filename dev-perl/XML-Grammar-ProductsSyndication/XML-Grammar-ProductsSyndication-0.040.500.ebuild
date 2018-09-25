@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0405"
-DIST_A="XML-Grammar-ProductsSyndication-0.0405.tar.gz"
+DIST_VERSION="0.0405" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-XML
 	virtual/perl-Test-Simple
 "
+

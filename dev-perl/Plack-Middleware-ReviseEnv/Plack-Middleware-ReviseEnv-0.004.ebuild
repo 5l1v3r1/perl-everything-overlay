@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="0.004"
-DIST_A="Plack-Middleware-ReviseEnv-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.096
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.880
 "
+

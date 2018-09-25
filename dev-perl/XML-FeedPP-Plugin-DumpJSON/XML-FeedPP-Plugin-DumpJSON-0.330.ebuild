@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAWASAKI"
-DIST_VERSION="0.33"
-DIST_A="XML-FeedPP-Plugin-DumpJSON-0.33.tar.gz"
+DIST_VERSION="0.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

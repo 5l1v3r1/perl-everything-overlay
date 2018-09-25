@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAXJAZMAN"
-DIST_VERSION="0.01"
-DIST_A="XML-IODEF-PhraudReport-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/iodef/XML-IODEF-PhraudReport-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/iodef/XML-IODEF-PhraudReport-0.01.tar.gz -> XML-IODEF-PhraudReport-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-IODEF-PhraudReport-0.01 ${WORKDIR}/XML-IODEF-PhraudReport-0.01
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAVI"
-DIST_VERSION="0.02"
-DIST_A="Spreadsheet-PrintExcelSheet-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Win32-OLE
 	virtual/perl-Test-Simple
 "
+

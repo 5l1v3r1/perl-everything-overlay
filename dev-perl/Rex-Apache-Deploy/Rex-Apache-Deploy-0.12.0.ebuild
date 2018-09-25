@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="0.12.0"
-DIST_A="Rex-Apache-Deploy-0.12.0.tar.gz"
+DIST_VERSION="0.12.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJGARDNER"
-DIST_VERSION="0.020"
-DIST_A="WebService-Avalara-AvaTax-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/LWPx-UserAgent-Cached
 	dev-perl/Log-Report
-	dev-perl/Moo
+	>=dev-perl/Moo-1.006.000
 	dev-perl/Mozilla-CA
 	dev-perl/Package-Stash
 	>=dev-perl/Path-Tiny-0.018
@@ -56,3 +55,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

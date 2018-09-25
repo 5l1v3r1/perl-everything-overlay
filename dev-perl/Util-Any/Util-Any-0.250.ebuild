@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KTAT"
-DIST_VERSION="0.25"
-DIST_A="Util-Any-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+

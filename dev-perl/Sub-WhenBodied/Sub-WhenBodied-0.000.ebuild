@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.000"
-DIST_A="Sub-WhenBodied-0.000.tar.gz"
+DIST_VERSION="0.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.150
 	virtual/perl-Test-Simple
 "
+

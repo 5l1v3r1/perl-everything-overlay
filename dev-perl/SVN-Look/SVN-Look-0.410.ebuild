@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNUSTAVO"
-DIST_VERSION="0.41"
-DIST_A="SVN-Look-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,8 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/URI
+	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

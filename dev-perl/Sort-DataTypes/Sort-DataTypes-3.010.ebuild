@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="3.01"
-DIST_A="Sort-DataTypes-3.01.tar.gz"
+DIST_VERSION="3.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	dev-perl/Test-Inter
 "
+

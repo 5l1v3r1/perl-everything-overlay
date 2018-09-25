@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUNE"
-DIST_VERSION="1.033"
-DIST_A="OSS-LDAPops-1.033.tar.gz"
+DIST_VERSION="1.033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

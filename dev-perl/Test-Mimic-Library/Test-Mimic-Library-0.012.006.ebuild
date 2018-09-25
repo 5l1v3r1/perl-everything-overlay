@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRENDAN"
-DIST_VERSION="0.012006"
-DIST_A="Test-Mimic-Library-0.012006.tar.gz"
+DIST_VERSION="0.012006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

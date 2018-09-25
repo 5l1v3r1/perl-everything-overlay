@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.401"
-DIST_A="Plack-Middleware-Mirror-0.401.tar.gz"
+DIST_VERSION="0.401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-Time-Local
 "
+

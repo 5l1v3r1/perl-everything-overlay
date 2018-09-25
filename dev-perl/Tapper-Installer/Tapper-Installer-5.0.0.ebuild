@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.0"
-DIST_A="Tapper-Installer-5.0.0.tar.gz"
+DIST_VERSION="5.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,7 +38,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
-	dev-perl/Test-MockModule
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

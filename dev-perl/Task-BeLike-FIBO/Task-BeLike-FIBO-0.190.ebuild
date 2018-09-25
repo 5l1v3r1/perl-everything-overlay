@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FIBO"
-DIST_VERSION="0.19"
-DIST_A="Task-BeLike-FIBO-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/CPAN-Uploader-0.103.007
-	>=dev-perl/Devel-Cover-1.180
 	>=dev-perl/PPI-HTML-1.080
 	>=dev-perl/Perl-Tidy-20140711.000
 	>=dev-perl/Term-ReadLine-Perl-1.030.300
@@ -34,3 +32,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOLYA"
-DIST_VERSION="v0.0.5"
-DIST_A="Plack-Middleware-Timed-Logger-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGTHUG"
-DIST_VERSION="0.3"
-DIST_A="Tk-Help-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LECSTOR"
-DIST_VERSION="0.004"
-DIST_A="PDF-Boxer-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKR"
-DIST_VERSION="0.08170"
-DIST_A="Treex-Unilang-0.08170.tar.gz"
+DIST_VERSION="0.08170" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Slurp
 	dev-perl/Moose
-	dev-perl/Treex-Core
+	>=dev-perl/Treex-Core-0.081.570
 	dev-perl/Treex-Parser-MSTperl
 "
 DEPEND="
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

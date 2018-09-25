@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBRUS"
-DIST_VERSION="1.004"
-DIST_A="Object-Import-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-Math-BigInt-1.590
 	>=virtual/perl-Test-Simple-0.470
 "
+

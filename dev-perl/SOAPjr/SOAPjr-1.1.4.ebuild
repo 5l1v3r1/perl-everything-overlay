@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBMAN"
-DIST_VERSION="1.1.4"
-DIST_A="SOAPjr-1.1.4.tar.gz"
+DIST_VERSION="1.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

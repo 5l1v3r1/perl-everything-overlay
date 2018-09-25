@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="PBWOLF"
 DIST_VERSION="1.0"
-DIST_A="Win32-ActAcc-1.0.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

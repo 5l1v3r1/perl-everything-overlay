@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLKAO"
-DIST_VERSION="0.32"
-DIST_A="Test-Log-Log4perl-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

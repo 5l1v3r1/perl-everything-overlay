@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PHAYLON"
-DIST_VERSION="0.001000"
-DIST_A="Syntax-Feature-Ql-0.001000.tar.gz"
+DIST_VERSION="0.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/B-Hooks-EndOfScope-0.090
-	>=dev-perl/Devel-Declare-0.006.007
+	dev-perl/Devel-Declare
 	>=dev-perl/Sub-Install-0.925
 	dev-perl/Syntax-Feature-Simple
 	dev-perl/aliased
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

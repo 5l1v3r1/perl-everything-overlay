@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCONOVER"
-DIST_VERSION="0.13"
-DIST_A="VM-EC2-Instance-Located-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUCCHI"
-DIST_VERSION="0.1.0"
-DIST_A="Test-DataLoader-MySQL-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

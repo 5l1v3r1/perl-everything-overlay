@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="GURUPERL"
 DIST_VERSION="1.11"
-DIST_A="WWW-Alexa-TrafficRank-1.11.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

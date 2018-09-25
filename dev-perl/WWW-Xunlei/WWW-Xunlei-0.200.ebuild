@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZSHENGLI"
-DIST_VERSION="0.2"
-DIST_A="WWW-Xunlei-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

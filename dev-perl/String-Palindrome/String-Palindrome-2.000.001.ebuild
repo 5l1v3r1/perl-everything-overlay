@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LESPEA"
-DIST_VERSION="2.000001"
-DIST_A="String-Palindrome-2.000001.tar.gz"
+DIST_VERSION="2.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

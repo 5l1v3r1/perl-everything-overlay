@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIM"
-DIST_VERSION="0.021"
-DIST_A="PomBase-Chobo-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

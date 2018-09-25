@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KMX"
-DIST_VERSION="4.016"
-DIST_A="Perl-Dist-Strawberry-4.016.tar.gz"
+DIST_VERSION="4.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,3 +49,4 @@ DEPEND="
 	virtual/perl-Storable
 	>=virtual/perl-Test-Simple-0.860
 "
+

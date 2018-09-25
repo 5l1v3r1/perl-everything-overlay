@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMERELO"
-DIST_VERSION="0.5.0"
-DIST_A="Test-Text-0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

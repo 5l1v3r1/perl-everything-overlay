@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIXAPART"
-DIST_VERSION="0.1000"
-DIST_A="WWW-TypePad-0.1000.tar.gz"
+DIST_VERSION="0.1000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

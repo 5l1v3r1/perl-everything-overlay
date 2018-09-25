@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCOP"
-DIST_VERSION="0.063"
-DIST_A="Pod-WSDL-0.063.tar.gz"
+DIST_VERSION="0.063" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

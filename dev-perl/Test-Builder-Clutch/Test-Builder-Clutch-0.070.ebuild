@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRASE"
-DIST_VERSION="0.07"
-DIST_A="Test-Builder-Clutch-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

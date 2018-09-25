@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALLEN"
-DIST_VERSION="3.28"
-DIST_A="Pod-Perldoc-3.28.tar.gz"
+DIST_VERSION="3.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

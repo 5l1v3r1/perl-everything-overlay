@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="0.16"
-DIST_A="Poet-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,3 +49,4 @@ DEPEND="
 	dev-perl/Test-Class-Most
 	dev-perl/Test-WWW-Mechanize-PSGI
 "
+

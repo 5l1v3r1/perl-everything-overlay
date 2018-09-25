@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AUBERTG"
-DIST_VERSION="v1.3.0"
-DIST_A="Test-Type-v1.3.0.tar.gz"
+DIST_VERSION="1.3.0" 
+SRC_URI="mirror://cpan/authors/id/A/AU/AUBERTG/Test-Type-v1.3.0.tar.gz -> Test-Type-1.3.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Test-FailWarnings
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Type-v1.3.0 ${WORKDIR}/Test-Type-1.3.0
+}
+

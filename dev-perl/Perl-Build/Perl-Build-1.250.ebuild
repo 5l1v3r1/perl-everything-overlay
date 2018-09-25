@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="1.25"
-DIST_A="Perl-Build-1.25.tar.gz"
+DIST_VERSION="1.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.500
 	>=virtual/perl-Test-Simple-0.980
 "
+

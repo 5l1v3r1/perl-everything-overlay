@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KCOWGILL"
-DIST_VERSION="v0.9.6"
-DIST_A="Test-StubGenerator-0.9.6.tar.gz"
+DIST_VERSION="0.9.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

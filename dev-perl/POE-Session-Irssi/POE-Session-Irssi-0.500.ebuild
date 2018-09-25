@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTIJN"
-DIST_VERSION="0.50"
-DIST_A="POE-Session-Irssi-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	>=dev-perl/POE-1.003
 	>=dev-perl/POE-Loop-Glib-0.003.600
 	>=virtual/perl-Carp-1.080
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

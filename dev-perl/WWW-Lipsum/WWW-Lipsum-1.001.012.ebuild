@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.001012"
-DIST_A="WWW-Lipsum-1.001012.tar.gz"
+DIST_VERSION="1.001012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.010
 	>=dev-perl/Moo-2.000
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYING"
-DIST_VERSION="0.18"
-DIST_A="Sendmail-Milter-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

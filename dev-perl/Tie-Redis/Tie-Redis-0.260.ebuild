@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGL"
-DIST_VERSION="0.26"
-DIST_A="Tie-Redis-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

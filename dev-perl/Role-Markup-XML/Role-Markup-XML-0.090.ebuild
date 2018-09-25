@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORIAN"
-DIST_VERSION="0.09"
-DIST_A="Role-Markup-XML-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

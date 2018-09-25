@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFWILKUS"
-DIST_VERSION="0.2.7"
-DIST_A="OS-Package-0.2.7.tar.gz"
+DIST_VERSION="0.2.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,6 +31,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
 	dev-perl/YAML
+	dev-perl/base
 	virtual/perl-Digest-MD5
 	virtual/perl-Digest-SHA
 	virtual/perl-Exporter
@@ -49,3 +49,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

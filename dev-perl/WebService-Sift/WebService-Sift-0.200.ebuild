@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEV"
-DIST_VERSION="0.2"
-DIST_A="WebService-Sift-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Modern-Perl
 	dev-perl/Mouse
-	dev-perl/Web-API
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

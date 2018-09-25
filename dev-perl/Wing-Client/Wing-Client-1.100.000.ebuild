@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COLINK"
-DIST_VERSION="1.1000"
-DIST_A="Wing-Client-1.1000.tar.gz"
+DIST_VERSION="1.1000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

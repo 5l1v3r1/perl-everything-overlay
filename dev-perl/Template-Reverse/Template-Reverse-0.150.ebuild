@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHS"
-DIST_VERSION="0.150"
-DIST_A="Template-Reverse-0.150.tar.gz"
+DIST_VERSION="0.150" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

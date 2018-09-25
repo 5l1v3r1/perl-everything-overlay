@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDEN"
-DIST_VERSION="0.1"
-DIST_A="WebService-Tagzania-API-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

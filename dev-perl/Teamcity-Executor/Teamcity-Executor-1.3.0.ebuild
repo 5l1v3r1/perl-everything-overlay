@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OHOSAK"
-DIST_VERSION="1.3.0"
-DIST_A="Teamcity-Executor-1.3.0.tar.gz"
+DIST_VERSION="1.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

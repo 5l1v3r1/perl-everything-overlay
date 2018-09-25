@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCANEZ"
-DIST_VERSION="0.002005"
-DIST_A="Reaction-0.002005.tar.gz"
+DIST_VERSION="0.002005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,7 +35,7 @@ RDEPEND="
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/JSON
 	>=dev-perl/Method-Signatures-Simple-0.030
-	>=dev-perl/Moose-0.810
+	>=dev-perl/Moose-0.740
 	>=dev-perl/MooseX-MethodAttributes-0.180
 	>=dev-perl/MooseX-Role-Parameterized-0.240
 	>=dev-perl/MooseX-Types-0.100
@@ -63,3 +62,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

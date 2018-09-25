@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="0.14"
-DIST_A="Syntax-Highlight-Engine-Kate-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Term-ANSIColor
 	>=virtual/perl-Test-Simple-1.000
 "
+

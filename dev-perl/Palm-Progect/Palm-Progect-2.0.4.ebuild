@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRAHAM"
-DIST_VERSION="v2.0.4"
-DIST_A="Palm-Progect-2.0.4.tar.gz"
+DIST_VERSION="2.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,11 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Class-Constructor
 	>=dev-perl/Palm-1.000
-	>=dev-perl/Palm-PDB-1.008
+	>=dev-perl/Palm-PDB-1.000
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

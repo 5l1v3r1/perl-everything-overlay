@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKR"
-DIST_VERSION="0.08055"
-DIST_A="Treex-Parser-MSTperl-0.08055.tar.gz"
+DIST_VERSION="0.08055" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRAINBUZ"
-DIST_VERSION="2.05"
-DIST_A="Sort-Hash-2.05.tar.gz"
+DIST_VERSION="2.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGARTON"
-DIST_VERSION="0.12"
-DIST_A="Statistics-Sequences-Pot-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Statistics-Zed-0.072
 	virtual/perl-Test-Simple
 "
+

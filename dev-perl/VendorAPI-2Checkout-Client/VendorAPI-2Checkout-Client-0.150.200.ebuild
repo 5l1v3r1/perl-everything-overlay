@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LENJAFFE"
-DIST_VERSION="0.1502"
-DIST_A="VendorAPI-2Checkout-Client-0.1502.tar.gz"
+DIST_VERSION="0.1502" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/XML-Simple
 	>=virtual/perl-Test-Simple-0.870
 "
+

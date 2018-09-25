@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DGRAHAM"
-DIST_VERSION="3.1.0"
-DIST_A="simplexmlparse_v3.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/D/DG/DGRAHAM/simpleXMLParse/simplexmlparse_v3.1.tar.gz"
+DIST_VERSION="3.1" 
+SRC_URI="mirror://cpan/authors/id/D/DG/DGRAHAM/simpleXMLParse/simplexmlparse_v3.1.tar.gz -> simplexmlparse-3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/simplexmlparse_v3.1 ${WORKDIR}/simplexmlparse-3.1
+}
+

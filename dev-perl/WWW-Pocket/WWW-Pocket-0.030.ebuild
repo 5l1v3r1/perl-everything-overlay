@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.03"
-DIST_A="WWW-Pocket-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,12 +19,12 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/Moose
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-HTTP-Tiny
 	virtual/perl-JSON-PP
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

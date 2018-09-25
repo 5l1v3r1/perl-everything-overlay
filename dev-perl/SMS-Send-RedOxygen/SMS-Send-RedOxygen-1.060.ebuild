@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RINGERC"
-DIST_VERSION="1.06"
-DIST_A="SMS-Send-RedOxygen-1.06.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RI/RINGERC/SMS/Send/RedOxygen/SMS-Send-RedOxygen-1.06.tar.gz"
+DIST_VERSION="1.06" 
+SRC_URI="mirror://cpan/authors/id/R/RI/RINGERC/SMS/Send/RedOxygen/SMS-Send-RedOxygen-1.06.tar.gz -> SMS-Send-RedOxygen-1.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SMS-Send-RedOxygen-1.06 ${WORKDIR}/SMS-Send-RedOxygen-1.06
+}
+

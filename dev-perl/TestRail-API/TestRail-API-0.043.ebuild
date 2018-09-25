@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEODESIAN"
-DIST_VERSION="0.043"
-DIST_A="TestRail-API-0.043.tar.gz"
+DIST_VERSION="0.043" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,3 +52,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

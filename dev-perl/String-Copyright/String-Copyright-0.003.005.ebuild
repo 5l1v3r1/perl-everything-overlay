@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASS"
-DIST_VERSION="0.003005"
-DIST_A="String-Copyright-0.003005.tar.gz"
+DIST_VERSION="0.003005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Number-Range-0.040
 	virtual/perl-Test-Simple
 "
+

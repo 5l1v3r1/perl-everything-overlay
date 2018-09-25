@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.05"
-DIST_A="PerlX-MethodCallWithBlock-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,6 @@ RDEPEND="
 	>=dev-perl/B-OPCheck-0.280
 	>=dev-perl/Devel-Declare-0.005.011
 	>=dev-perl/PPI-1.203
-	>=dev-perl/autobox-2.550
 	>=dev-perl/autobox-Core-0.600
 "
 DEPEND="
@@ -31,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Spelling-0.110
 	>=virtual/perl-Test-Simple-0.920
 "
+

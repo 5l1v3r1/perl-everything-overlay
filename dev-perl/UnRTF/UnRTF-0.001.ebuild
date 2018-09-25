@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOENIO"
-DIST_VERSION="0.001"
-DIST_A="UnRTF-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,13 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Modern-Perl
 	dev-perl/Moose
 	dev-perl/Test-Class
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Most
 "
+

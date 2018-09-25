@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.02"
-DIST_A="Test-Daily-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/JSON-Util
 	dev-perl/Moose
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/TAP-Formatter-HTML
 	dev-perl/Template-Toolkit
 	dev-perl/XML-LibXML
@@ -30,11 +30,14 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Harness
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 	>=dev-perl/Module-Build-SysPath-0.080
+	dev-perl/Test-Differences
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFOUTS"
-DIST_VERSION="0.014"
-DIST_A="Text-SuDocs-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

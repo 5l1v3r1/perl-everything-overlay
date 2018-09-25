@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROODE"
-DIST_VERSION="0.09"
-DIST_A="Time-Normalize-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	>=virtual/perl-Test-Simple-0.400
 "
+

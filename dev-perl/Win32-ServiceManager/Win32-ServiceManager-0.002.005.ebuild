@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WESM"
-DIST_VERSION="0.002005"
-DIST_A="Win32-ServiceManager-0.002005.tar.gz"
+DIST_VERSION="0.002005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Deep-0.110
 "
+

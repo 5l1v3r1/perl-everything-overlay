@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDRAUG"
-DIST_VERSION="1.23"
-DIST_A="Pod-Weaver-Section-Legal-Complicated-1.23.tar.gz"
+DIST_VERSION="1.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

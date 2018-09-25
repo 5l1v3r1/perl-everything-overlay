@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SABECK"
-DIST_VERSION="0.0001"
-DIST_A="Tie-MooseObject-0.0001.tar.gz"
+DIST_VERSION="0.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

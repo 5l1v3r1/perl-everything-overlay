@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLAIR"
-DIST_VERSION="0.12"
-DIST_A="ruby-collections-perl-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Output-1.010
 	>=virtual/perl-Test-Simple-0.980
 "
+

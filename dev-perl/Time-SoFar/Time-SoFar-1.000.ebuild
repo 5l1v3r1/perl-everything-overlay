@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ELIJAH"
 DIST_VERSION="1.00"
-DIST_A="Time-SoFar-1.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENH"
-DIST_VERSION="0.04"
-DIST_A="Test-Wait-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-Test-Simple
 "
+

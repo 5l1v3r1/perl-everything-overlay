@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANNI"
-DIST_VERSION="0.03"
-DIST_A="Plack-Middleware-CookieMonster-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Most
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

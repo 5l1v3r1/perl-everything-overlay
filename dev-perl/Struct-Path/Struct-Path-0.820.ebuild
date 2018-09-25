@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIXAS"
-DIST_VERSION="0.82"
-DIST_A="Struct-Path-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-Storable-2.010
 	virtual/perl-Test-Simple
 "
+

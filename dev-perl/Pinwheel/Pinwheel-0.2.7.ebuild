@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBC"
-DIST_VERSION="v0.2.7"
-DIST_A="Pinwheel-0.2.7.tar.gz"
+DIST_VERSION="0.2.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,8 +32,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/DBD-SQLite-1.140
-	>=dev-perl/Module-Build-0.280
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.200
 	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
+

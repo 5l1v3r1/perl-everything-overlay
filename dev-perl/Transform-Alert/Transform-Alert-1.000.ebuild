@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBYRD"
-DIST_VERSION="1.00"
-DIST_A="Transform-Alert-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,3 +47,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.010
 	>=dev-perl/Test-UseAllModules-0.100
 "
+

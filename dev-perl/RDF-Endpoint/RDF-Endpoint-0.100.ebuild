@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWILLIAMS"
-DIST_VERSION="0.10"
-DIST_A="RDF-Endpoint-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	dev-perl/HTTP-Negotiate
 	dev-perl/Hash-Merge-Simple
 	dev-perl/JSON
-	dev-perl/Plack
+	>=dev-perl/Plack-0.990
 	>=dev-perl/RDF-Query-2.905
 	>=dev-perl/RDF-RDFa-Generator-0.200
 	>=dev-perl/RDF-Trine-0.134
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-PSGI
 	>=virtual/perl-Test-Simple-0.610
 "
+

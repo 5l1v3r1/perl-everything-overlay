@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAG"
-DIST_VERSION="0.9"
-DIST_A="Pod-ToDocBook-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

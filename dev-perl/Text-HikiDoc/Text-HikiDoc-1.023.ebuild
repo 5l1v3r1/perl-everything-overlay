@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAWABATA"
-DIST_VERSION="1.023"
-DIST_A="Text-HikiDoc-1.023.tar.gz"
+DIST_VERSION="1.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Base
 	>=virtual/perl-Test-Simple-0.980
 "
+

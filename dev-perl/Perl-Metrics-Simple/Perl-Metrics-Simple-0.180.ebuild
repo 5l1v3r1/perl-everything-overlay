@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATISSE"
-DIST_VERSION="0.18"
-DIST_A="Perl-Metrics-Simple-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.010
 	>=dev-perl/PPI-1.113
 	dev-perl/Pod-Usage
 	>=dev-perl/Readonly-1.030
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-File-Spec
 "
+

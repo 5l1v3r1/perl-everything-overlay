@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SILLYMOOS"
-DIST_VERSION="0.05"
-DIST_A="WWW-CheckHTML-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Authen-SASL
 	>=dev-perl/Email-Sender-1.300.006
-	dev-perl/Email-Simple
+	>=dev-perl/Email-Simple-2.201
 	dev-perl/Method-Signatures
 	>=dev-perl/YAML-LibYAML-0.410
 	>=virtual/perl-Carp-1.260
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

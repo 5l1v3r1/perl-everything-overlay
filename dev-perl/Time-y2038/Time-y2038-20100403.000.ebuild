@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="20100403.0"
-DIST_A="Time-y2038-20100403.tar.gz"
+DIST_VERSION="20100403" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.240
 	>=virtual/perl-Test-Simple-0.820
 "
+

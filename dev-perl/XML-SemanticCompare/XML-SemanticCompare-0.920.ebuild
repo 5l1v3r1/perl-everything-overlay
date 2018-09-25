@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EKAWAS"
-DIST_VERSION="0.92"
-DIST_A="XML-SemanticCompare-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/XML-LibXML
 	>=dev-perl/XML-Simple-2.180
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

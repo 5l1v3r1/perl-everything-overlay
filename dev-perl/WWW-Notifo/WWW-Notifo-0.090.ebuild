@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYA"
-DIST_VERSION="0.09"
-DIST_A="WWW-Notifo-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

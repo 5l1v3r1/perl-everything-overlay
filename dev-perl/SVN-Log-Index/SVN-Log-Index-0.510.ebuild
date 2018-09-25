@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIKC"
-DIST_VERSION="0.51"
-DIST_A="SVN-Log-Index-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

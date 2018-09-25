@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EBAY"
-DIST_VERSION="0.22"
-DIST_A="eBay-API-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,12 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.050
+	>=dev-lang/perl-1.020
 	>=dev-perl/Crypt-SSLeay-0.510
 	>=dev-perl/Devel-StackTrace-1.030
 	>=dev-perl/Error-0.150
 	>=dev-perl/Exception-Class-1.140
-	>=dev-perl/HTTP-Message-1.340
+	>=dev-perl/HTTP-Message-1.470
 	>=dev-perl/Params-Validate-0.740
 	>=dev-perl/XML-Simple-2.090
 	>=dev-perl/libwww-perl-2.023
@@ -39,3 +38,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

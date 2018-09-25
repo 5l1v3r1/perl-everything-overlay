@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMCOP"
-DIST_VERSION="0.016"
-DIST_A="Sys-Linux-Namespace-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEPESZ"
-DIST_VERSION="0.77"
-DIST_A="Pg-Explain-0.77.tar.gz"
+DIST_VERSION="0.77" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

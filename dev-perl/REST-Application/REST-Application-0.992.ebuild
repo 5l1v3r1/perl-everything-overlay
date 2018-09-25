@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOCONNOR"
-DIST_VERSION="0.992"
-DIST_A="REST-Application-0.992.tar.gz"
+DIST_VERSION="0.992" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

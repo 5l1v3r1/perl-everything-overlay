@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NGLENN"
-DIST_VERSION="0.02"
-DIST_A="Soar-WM-Grapher-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/GraphViz
 	dev-perl/Soar-WM
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

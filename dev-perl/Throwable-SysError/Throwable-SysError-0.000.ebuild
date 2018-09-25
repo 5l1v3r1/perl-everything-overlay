@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRAVUS"
-DIST_VERSION="0.00"
-DIST_A="Throwable-SysError-0.00.tar.gz"
+DIST_VERSION="0.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLAVALLEE"
-DIST_VERSION="0.07"
-DIST_A="Test-XML-Deep-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-NoWarnings
 	>=virtual/perl-Test-Simple-0.860
 "
+

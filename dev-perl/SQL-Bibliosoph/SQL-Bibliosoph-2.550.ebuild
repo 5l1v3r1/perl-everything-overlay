@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATIU"
-DIST_VERSION="2.55"
-DIST_A="SQL-Bibliosoph-2.55.tar.gz"
+DIST_VERSION="2.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,11 +22,11 @@ RDEPEND="
 	>=dev-perl/Exception-Class-1.300
 	>=dev-perl/Log-Contextual-0.005.003
 	>=dev-perl/Moose-0.820
+	>=dev-perl/Package-Constants-0.020
 	>=dev-perl/Tie-Array-Random-1.000
 	>=dev-perl/Tie-Hash-Random-1.000
 	>=virtual/perl-Carp-1.250
 	>=virtual/perl-Digest-MD5-2.390
-	>=virtual/perl-Package-Constants-0.020
 	>=virtual/perl-Storable-2.300
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-Time-HiRes-1.970
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

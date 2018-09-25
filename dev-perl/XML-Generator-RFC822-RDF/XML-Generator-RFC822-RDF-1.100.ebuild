@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASCOPE"
-DIST_VERSION="1.1"
-DIST_A="XML-Generator-RFC822-RDF-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,12 +20,14 @@ RDEPEND="
 	>=dev-perl/Email-MIME-1.820
 	>=dev-perl/Email-Simple-1.920
 	>=dev-perl/MIME-tools-3.030
-	>=dev-perl/TimeDate-2.270
+	>=dev-perl/TimeDate-2.200
 	>=dev-perl/XML-SAX-Base-1.040
 	>=virtual/perl-Encode-1.090
 	virtual/perl-Memoize
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.470
 "
+

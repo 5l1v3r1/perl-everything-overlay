@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="2.1"
-DIST_A="PApp-2.1.tar.gz"
+DIST_VERSION="2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Compress-LZF-1.000
-	>=dev-perl/Convert-Scalar-1.020
+	>=dev-perl/Convert-Scalar-0.060
 	>=dev-perl/Crypt-Twofish2-0.010
 	>=dev-perl/DBD-mysql-2.040
 	>=dev-perl/DBI-1.300
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

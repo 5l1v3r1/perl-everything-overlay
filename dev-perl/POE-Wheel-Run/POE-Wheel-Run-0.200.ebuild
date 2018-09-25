@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.20"
-DIST_A="POE-Wheel-Run-Win32-0.20.tar.gz"
+DIST_VERSION="0.20" 
+SRC_URI="mirror://cpan/authors/id/B/BI/BINGOS/POE-Wheel-Run-Win32-0.20.tar.gz -> POE-Wheel-Run-0.20.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POE-Wheel-Run-Win32-0.20 ${WORKDIR}/POE-Wheel-Run-0.20
+}
+

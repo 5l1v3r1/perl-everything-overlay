@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONALLEN"
-DIST_VERSION="0.42"
-DIST_A="pod2pdf-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

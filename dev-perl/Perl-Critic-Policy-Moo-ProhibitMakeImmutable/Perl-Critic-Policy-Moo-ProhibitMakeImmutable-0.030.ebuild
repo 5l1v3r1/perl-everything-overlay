@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLUEFEET"
-DIST_VERSION="0.03"
-DIST_A="Perl-Critic-Policy-Moo-ProhibitMakeImmutable-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Try-Tiny-0.190
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
+

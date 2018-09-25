@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.13"
-DIST_A="Tapper-Reports-Web-5.0.13.tar.gz"
+DIST_VERSION="5.0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -56,7 +55,7 @@ RDEPEND="
 	dev-perl/Readonly-XS
 	dev-perl/Set-Intersection
 	dev-perl/TAP-Formatter-HTML
-	dev-perl/Tapper-Cmd
+	>=dev-perl/Tapper-Cmd-5.0.4
 	>=dev-perl/Tapper-Config-5.0.2
 	>=dev-perl/Tapper-Model-5.0.1
 	>=dev-perl/Tapper-Schema-5.0.6
@@ -84,3 +83,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	virtual/perl-Test-Simple
 "
+

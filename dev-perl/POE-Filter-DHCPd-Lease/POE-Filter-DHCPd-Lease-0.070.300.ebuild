@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDRAKE"
-DIST_VERSION="0.0703"
-DIST_A="POE-Filter-DHCPd-Lease-0.0703.tar.gz"
+DIST_VERSION="0.0703" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

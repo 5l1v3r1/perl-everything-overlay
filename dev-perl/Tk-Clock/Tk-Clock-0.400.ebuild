@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HMBRAND"
 DIST_VERSION="0.40"
-DIST_A="Tk-Clock-0.40.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

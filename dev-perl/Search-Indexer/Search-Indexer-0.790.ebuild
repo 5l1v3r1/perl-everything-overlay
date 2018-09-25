@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJDEVOPS"
-DIST_VERSION="0.79"
-DIST_A="Search-Indexer-0.79.tar.gz"
+DIST_VERSION="0.79" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

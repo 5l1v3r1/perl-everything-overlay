@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINDHACK"
-DIST_VERSION="v0.1.0"
-DIST_A="WWW-FreshBooks-API-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/Iterator-Simple
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

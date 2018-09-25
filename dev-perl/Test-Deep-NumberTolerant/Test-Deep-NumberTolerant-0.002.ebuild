@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.002"
-DIST_A="Test-Deep-NumberTolerant-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.108
+	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

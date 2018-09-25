@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWWAIID"
-DIST_VERSION="0.02"
-DIST_A="Plack-Middleware-Scrutiny-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="1.005"
-DIST_A="WWW-Ebay-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/URI
-	>=dev-perl/WWW-Search-2.525
+	>=dev-perl/WWW-Search-2.070
 	>=dev-perl/WWW-Search-Ebay-2.267
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/IO-Capture
 	virtual/perl-Test-Simple
 "
+

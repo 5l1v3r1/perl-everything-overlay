@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EHUELS"
-DIST_VERSION="v0.050.2"
-DIST_A="PGObject-Util-DBChange-0.050.2.tar.gz"
+DIST_VERSION="0.050.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

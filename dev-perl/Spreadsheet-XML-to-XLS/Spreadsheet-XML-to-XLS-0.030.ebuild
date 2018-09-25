@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="USMANOV"
-DIST_VERSION="0.03"
-DIST_A="Spreadsheet-XML_to_XLS-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

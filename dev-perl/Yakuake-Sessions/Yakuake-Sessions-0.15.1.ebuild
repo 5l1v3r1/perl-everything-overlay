@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.15.1"
-DIST_A="Yakuake-Sessions-0.15.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/yakuake-sessions/Yakuake-Sessions-0.15.1.tar.gz"
+DIST_VERSION="0.15.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/yakuake-sessions/Yakuake-Sessions-0.15.1.tar.gz -> Yakuake-Sessions-0.15.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,9 @@ DEPEND="
 	>=virtual/perl-version-0.880
 	>=dev-perl/Test-Requires-0.060
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Yakuake-Sessions-0.15.1 ${WORKDIR}/Yakuake-Sessions-0.15.1
+}
+

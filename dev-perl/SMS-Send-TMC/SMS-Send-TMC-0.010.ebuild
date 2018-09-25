@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIGELM"
-DIST_VERSION="0.01"
-DIST_A="SMS-Send-TMC-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/SMS-Send
 	dev-perl/URI
+	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CLADI"
-DIST_VERSION="1.7"
-DIST_A="ios_get_interfaces_1.7.tar.gz"
+DIST_VERSION="1.7" 
+SRC_URI="mirror://cpan/authors/id/C/CL/CLADI/ios_get_interfaces_1.7.tar.gz -> ios_get_interfaces-1.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ios_get_interfaces_1.7 ${WORKDIR}/ios_get_interfaces-1.7
+}
+

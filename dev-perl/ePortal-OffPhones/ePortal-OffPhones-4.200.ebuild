@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSAKOV"
-DIST_VERSION="4.2"
-DIST_A="ePortal-OffPhones-4.2.tar.gz"
+DIST_VERSION="4.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

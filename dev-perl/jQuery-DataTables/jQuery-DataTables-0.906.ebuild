@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKAR"
-DIST_VERSION="0.906"
-DIST_A="jQuery-DataTables-0.906.tar.gz"
+DIST_VERSION="0.906" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

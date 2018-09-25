@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.06.22"
-DIST_A="Search-Indexer-Incremental-MD5-0.06.22.tar.gz"
+DIST_VERSION="0.06.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,15 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Directory-Scratch-Structured
+	dev-perl/File-Find-Rule
+	dev-perl/Module-Build
+	dev-perl/Test-Block
+	dev-perl/Test-Command
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Script-Run
+	dev-perl/Test-Warn
+	dev-perl/Text-Diff
 "
+

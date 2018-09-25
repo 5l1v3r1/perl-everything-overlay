@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICOLAW"
-DIST_VERSION="1.21"
-DIST_A="Util-SelfDestruct-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

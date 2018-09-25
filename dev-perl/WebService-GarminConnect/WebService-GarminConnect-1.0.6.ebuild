@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLOUDER"
-DIST_VERSION="1.0.6"
-DIST_A="WebService-GarminConnect-1.0.6.tar.gz"
+DIST_VERSION="1.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

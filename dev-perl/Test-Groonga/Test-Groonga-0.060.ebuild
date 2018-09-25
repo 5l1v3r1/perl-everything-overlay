@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OKAMUUU"
-DIST_VERSION="0.06"
-DIST_A="Test-Groonga-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

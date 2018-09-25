@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KGRENNAN"
-DIST_VERSION="0.04"
-DIST_A="Text-Microformat-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ DEPEND="
 	>=dev-perl/Class-Accessor-0.250
 	>=dev-perl/Class-Data-Inheritable-0.040
 	>=dev-perl/HTML-Tree-3.210
+	dev-perl/Module-Build
 	>=dev-perl/Module-Pluggable-3.400
 	>=dev-perl/NEXT-0.600
 	>=dev-perl/UNIVERSAL-require-0.100
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.620
 "
+

@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="UNICOLET"
 DIST_VERSION="2.0.3"
-DIST_A="Win32-TaskScheduler2.0.3.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/U/UN/UNICOLET/Win32-TaskScheduler2.0.3.zip -> Win32-TaskScheduler-2.0.3.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32-TaskScheduler2.0.3 ${WORKDIR}/Win32-TaskScheduler-2.0.3
+}
+

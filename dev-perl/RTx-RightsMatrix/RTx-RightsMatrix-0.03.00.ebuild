@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HTCHAPMAN"
-DIST_VERSION="v0.03.00"
-DIST_A="RTx-RightsMatrix-0.03.00.tgz"
+DIST_VERSION="0.03.00"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

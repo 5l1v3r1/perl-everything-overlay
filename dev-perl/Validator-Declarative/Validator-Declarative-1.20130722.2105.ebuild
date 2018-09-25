@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CUB"
-DIST_VERSION="1.20130722.2105"
-DIST_A="Validator-Declarative-1.20130722.2105.tar.gz"
+DIST_VERSION="1.20130722.2105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/base
 	virtual/perl-File-Temp
 "
+

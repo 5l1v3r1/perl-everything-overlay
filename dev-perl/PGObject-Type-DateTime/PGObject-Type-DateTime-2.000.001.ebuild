@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EHUELS"
-DIST_VERSION="2.000001"
-DIST_A="PGObject-Type-DateTime-2.000001.tar.gz"
+DIST_VERSION="2.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

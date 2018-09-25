@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.164"
-DIST_A="Pod-WordML-0.164.tar.gz"
+DIST_VERSION="0.164" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-LongString
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="0.04"
-DIST_A="Palm-SMS-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Palm-PDB
+	dev-perl/Pod-Usage
 	dev-perl/TimeDate
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-Text-Tabs+Wrap
 "
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

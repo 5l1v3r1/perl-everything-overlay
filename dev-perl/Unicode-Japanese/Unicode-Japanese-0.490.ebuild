@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIO"
-DIST_VERSION="0.49"
-DIST_A="Unicode-Japanese-0.49.tar.gz"
+DIST_VERSION="0.49" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

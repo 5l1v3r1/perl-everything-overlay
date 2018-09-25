@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TTKCIAR"
-DIST_VERSION="1.03"
-DIST_A="Physics-Ballistics-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Differences-0.600
 	>=dev-perl/Test-Most-0.200
 "
+

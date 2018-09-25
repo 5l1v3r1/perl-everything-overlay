@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHM"
-DIST_VERSION="0.73"
-DIST_A="PDL-IO-HDF5-0.73.tar.gz"
+DIST_VERSION="0.73" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

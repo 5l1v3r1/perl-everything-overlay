@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEVES"
-DIST_VERSION="v0.9.4"
-DIST_A="Parallel-Dragons-0.9.4.tar.gz"
+DIST_VERSION="0.9.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

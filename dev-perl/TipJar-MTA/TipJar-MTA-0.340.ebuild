@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="SMTP"
-DIST_VERSION="0.34"
-DIST_A="TipJar-MTA-0.34.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.34" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/SMTP/TipJar-MTA-0.34.tar.gz -> TipJar-MTA-0.34.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/TipJar-MTA-0.34 ${WORKDIR}/TipJar-MTA-0.34
+}
+

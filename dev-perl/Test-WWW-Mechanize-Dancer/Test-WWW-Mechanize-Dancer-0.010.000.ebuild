@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WWOLF"
-DIST_VERSION="0.0100"
-DIST_A="Test-WWW-Mechanize-Dancer-0.0100.tar.gz"
+DIST_VERSION="0.0100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

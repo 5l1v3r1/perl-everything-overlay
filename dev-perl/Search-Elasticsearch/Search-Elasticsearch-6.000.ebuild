@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="6.00"
-DIST_A="Search-Elasticsearch-6.00.tar.gz"
+DIST_VERSION="6.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,9 @@ RDEPEND="
 	dev-perl/Devel-GlobalDestruction
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-MaybeXS-1.002.002
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-1.020
 	dev-perl/Module-Runtime
-	>=dev-perl/Moo-2.001.000
+	dev-perl/Moo
 	>=dev-perl/Package-Stash-0.340
 	dev-perl/Sub-Exporter
 	dev-perl/Try-Tiny
@@ -52,3 +51,4 @@ DEPEND="
 	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.980
 "
+

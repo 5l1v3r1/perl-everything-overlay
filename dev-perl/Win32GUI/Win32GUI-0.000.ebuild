@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JOHNSCA"
-DIST_VERSION="0.0"
-DIST_A="Win32GUICarp-1.01.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JOHNSCA/Win32GUICarp-1.01.tar.gz -> Win32GUI-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32GUICarp-1.01 ${WORKDIR}/Win32GUI-
+}
+

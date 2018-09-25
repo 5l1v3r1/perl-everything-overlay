@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0306"
-DIST_A="Starlight-0.0306.tar.gz"
+DIST_VERSION="0.0306" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-TCP-0.150
 	virtual/perl-HTTP-Tiny
 	>=virtual/perl-Test-Simple-0.880
 "
+

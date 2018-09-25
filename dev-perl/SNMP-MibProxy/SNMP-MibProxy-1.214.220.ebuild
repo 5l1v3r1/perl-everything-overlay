@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPORRES"
-DIST_VERSION="1.21422"
-DIST_A="SNMP-MibProxy-1.21422.tar.gz"
+DIST_VERSION="1.21422" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

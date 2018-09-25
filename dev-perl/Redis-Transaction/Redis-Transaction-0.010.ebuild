@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHOGO"
-DIST_VERSION="0.01"
-DIST_A="Redis-Transaction-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Redis
 	dev-perl/Sub-Retry
 	dev-perl/Test-RedisServer
 	dev-perl/Test-TCP
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Term-RouterCLI"
-DIST_VERSION="1.00"
-DIST_A="Term-RouterCLI-1.00.tar.gz"
+DIST_AUTHOR="JORDAN"
+DIST_VERSION="1.00" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JORDAN/Term-RouterCLI/Term-RouterCLI-1.00.tar.gz -> Term-RouterCLI-1.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Term-RouterCLI-1.00 ${WORKDIR}/Term-RouterCLI-1.00
+}
+

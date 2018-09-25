@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/MooseX-HasDefaults
 	>=dev-perl/MooseX-ShortCut-BuildInstance-1.040
 	dev-perl/MooseX-StrictConstructor
-	>=dev-perl/Type-Tiny-1.000
+	dev-perl/Type-Tiny
 	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper

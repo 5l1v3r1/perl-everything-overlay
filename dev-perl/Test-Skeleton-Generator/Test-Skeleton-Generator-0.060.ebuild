@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANNI"
-DIST_VERSION="0.06"
-DIST_A="Test-Skeleton-Generator-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,13 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Inspector
 	dev-perl/HTML-Template
+	dev-perl/Pod-Usage
 	dev-perl/Sub-Information
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
+	dev-perl/Test-Most
 "
+

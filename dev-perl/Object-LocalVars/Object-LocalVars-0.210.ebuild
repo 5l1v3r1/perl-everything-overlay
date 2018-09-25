@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.21"
-DIST_A="Object-LocalVars-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-perl/Test-Exception
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAHERO"
-DIST_VERSION="1.173530"
-DIST_A="Task-BeLike-JAHERO-1.173530.tar.gz"
+DIST_VERSION="1.173530" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

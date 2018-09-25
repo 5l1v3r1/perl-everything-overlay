@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAXJAZMAN"
-DIST_VERSION="0.02"
-DIST_A="XML-IODEF-Simple-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/iodef/XML-IODEF-Simple-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/iodef/XML-IODEF-Simple-0.02.tar.gz -> XML-IODEF-Simple-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-IODEF-Simple-0.02 ${WORKDIR}/XML-IODEF-Simple-0.02
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERFSONAR"
-DIST_VERSION="0.092"
-DIST_A="perfSONAR_PS-Base-0.092.tar.gz"
+DIST_VERSION="0.092" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

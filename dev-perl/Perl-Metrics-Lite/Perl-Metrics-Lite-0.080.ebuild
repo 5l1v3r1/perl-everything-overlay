@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITANO"
-DIST_VERSION="0.08"
-DIST_A="Perl-Metrics-Lite-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,18 +15,21 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	dev-perl/Module-Pluggable
 	>=dev-perl/PPI-1.205
+	dev-perl/Pod-Usage
 	>=dev-perl/Readonly-1.030
 	dev-perl/Text-ASCIITable
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	>=virtual/perl-IO-1.140
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-LoadAllModules-0.021
+	>=virtual/perl-Test-Simple-0.940
 "
+

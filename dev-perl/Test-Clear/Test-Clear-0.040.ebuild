@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIXI"
-DIST_VERSION="0.04"
-DIST_A="Test-Clear-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Mock-Guard
 	virtual/perl-ExtUtils-CBuilder
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWIEGLEY"
-DIST_VERSION="0.71"
-DIST_A="libparse-0.71.tar.gz"
+DIST_VERSION="0.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

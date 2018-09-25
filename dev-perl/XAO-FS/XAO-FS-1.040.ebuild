@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAOINC"
-DIST_VERSION="1.04"
-DIST_A="XAO-FS-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ RDEPEND="
 	>=dev-perl/Error-0.140
 	>=dev-perl/Pod-Usage-1.120
 	>=dev-perl/Test-Unit-0.140
+	>=dev-perl/XAO-Base-1.040
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

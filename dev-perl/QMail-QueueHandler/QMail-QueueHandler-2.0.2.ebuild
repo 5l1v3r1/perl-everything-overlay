@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVECROSS"
-DIST_VERSION="v2.0.2"
-DIST_A="QMail-QueueHandler-2.0.2.tar.gz"
+DIST_VERSION="2.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.902"
-DIST_A="POE-Component-FeedAggregator-0.902.tar.gz"
+DIST_VERSION="0.902" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Slurp
 	>=virtual/perl-Test-Simple-0.960
 "
+

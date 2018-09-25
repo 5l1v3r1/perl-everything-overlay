@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMAC"
-DIST_VERSION="0.5"
-DIST_A="Web-Microformats2-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Path-Class
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

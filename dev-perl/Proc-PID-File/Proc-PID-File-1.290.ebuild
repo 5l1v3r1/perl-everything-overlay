@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMITRI"
-DIST_VERSION="1.29"
-DIST_A="Proc-PID-File-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

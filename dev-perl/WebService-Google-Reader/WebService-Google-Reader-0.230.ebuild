@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAY"
-DIST_VERSION="0.23"
-DIST_A="WebService-Google-Reader-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.820
 "
+

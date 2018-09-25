@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BRACETA"
-DIST_VERSION="0.95"
-DIST_A="XML-Hash-0.95.tar.gz"
-SRC_URI="mirror://cpan/authors/id/B/BR/BRACETA/XML-Hash/XML-Hash-0.95.tar.gz"
+DIST_VERSION="0.95" 
+SRC_URI="mirror://cpan/authors/id/B/BR/BRACETA/XML-Hash/XML-Hash-0.95.tar.gz -> XML-Hash-0.95.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-Hash-0.95 ${WORKDIR}/XML-Hash-0.95
+}
+

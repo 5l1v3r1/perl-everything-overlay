@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DARREN"
-DIST_VERSION="1.02"
-DIST_A="Template-Plugin-MP3-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/MP3-Info-1.010
 	>=dev-perl/Template-Toolkit-2.080
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

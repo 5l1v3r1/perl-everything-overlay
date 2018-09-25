@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEICHNER"
-DIST_VERSION="0.18"
-DIST_A="Term-Sk-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TBUSCH"
-DIST_VERSION="3.1"
-DIST_A="WebService-Careerjet-3.1.tar.gz"
+DIST_VERSION="3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

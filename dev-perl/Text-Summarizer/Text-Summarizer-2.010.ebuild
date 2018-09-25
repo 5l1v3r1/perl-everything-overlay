@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAELIN"
-DIST_VERSION="2.01"
-DIST_A="Text-Summarizer-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-2.010
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSC"
-DIST_VERSION="0.01"
-DIST_A="Str-Filter-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.630
 	virtual/perl-Test-Simple
 "
+

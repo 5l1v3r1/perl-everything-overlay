@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDURDEN"
-DIST_VERSION="1.07"
-DIST_A="Tk-FormUI-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGRAHAM"
-DIST_VERSION="1.00"
-DIST_A="Pod-Weaver-Role-SectionReplacer-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

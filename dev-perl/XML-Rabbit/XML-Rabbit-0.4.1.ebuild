@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINS"
-DIST_VERSION="0.4.1"
-DIST_A="XML-Rabbit-0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
-	dev-perl/Moose
+	>=dev-perl/Moose-0.890
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/Perl6-Junction
 	>=dev-perl/XML-LibXML-1.700
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

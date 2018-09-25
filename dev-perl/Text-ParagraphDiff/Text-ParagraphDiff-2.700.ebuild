@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JRYAN"
-DIST_VERSION="2.70"
-DIST_A="Text-ParagraphDiff-2.70.tar.gz"
+DIST_VERSION="2.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

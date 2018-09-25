@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THALJEF"
-DIST_VERSION="1.008"
-DIST_A="Task-Perl-Critic-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BITMAN"
-DIST_VERSION="v0.1.3"
-DIST_A="Twitter-Daily-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COLINK"
-DIST_VERSION="0.002"
-DIST_A="Plack-Middleware-LightProfile-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

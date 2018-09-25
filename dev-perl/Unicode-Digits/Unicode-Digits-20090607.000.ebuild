@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COWENS"
-DIST_VERSION="20090607.0"
-DIST_A="Unicode-Digits-20090607.tar.gz"
+DIST_VERSION="20090607" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
+	dev-perl/Module-Build
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

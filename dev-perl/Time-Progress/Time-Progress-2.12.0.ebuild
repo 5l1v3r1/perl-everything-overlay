@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CADE"
-DIST_VERSION="v2.12.0"
-DIST_A="Time-Progress-2.12.tar.gz"
+DIST_VERSION="2.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

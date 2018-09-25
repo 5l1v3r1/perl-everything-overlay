@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GREEN"
-DIST_VERSION="0.01"
-DIST_A="constant-our-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
+	dev-perl/Module-Build
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

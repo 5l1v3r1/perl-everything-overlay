@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="0.56"
-DIST_A="Pod-Site-0.56.tar.gz"
+DIST_VERSION="0.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,15 +18,19 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/HTML-Parser
 	dev-perl/Object-Tiny
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	>=virtual/perl-File-Path-2.070
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Module-Metadata-1.000.000
 	>=virtual/perl-Pod-Simple-3.120
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/Test-File
+	>=dev-perl/Test-XPath-0.120
+	>=virtual/perl-Test-Simple-0.880
 "
+

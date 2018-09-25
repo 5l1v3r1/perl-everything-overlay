@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHIM"
-DIST_VERSION="0.18"
-DIST_A="Template-Plugin-Octets-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.220
 	>=virtual/perl-Test-Simple-0.980
 "
+

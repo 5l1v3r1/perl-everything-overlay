@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPS"
-DIST_VERSION="4.4.3"
-DIST_A="RT-Client-CLI-4.4.3.tar.gz"
+DIST_VERSION="4.4.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

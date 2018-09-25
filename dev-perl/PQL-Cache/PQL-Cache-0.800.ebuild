@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPR"
-DIST_VERSION="0.800"
-DIST_A="PQL-Cache-0.800.tar.gz"
+DIST_VERSION="0.800" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

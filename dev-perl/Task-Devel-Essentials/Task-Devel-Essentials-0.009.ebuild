@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MHASCH"
-DIST_VERSION="0.009"
-DIST_A="Task-Devel-Essentials-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,7 +54,6 @@ RDEPEND="
 	>=dev-perl/Test-Differences-0.640
 	>=dev-perl/Test-Exception-0.430
 	>=dev-perl/Test-Fatal-0.014
-	>=dev-perl/Test-MockModule-0.150
 	>=dev-perl/Test-NoWarnings-1.040
 	>=dev-perl/Test-Output-1.031
 	>=dev-perl/Test-Pod-1.520
@@ -98,3 +96,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

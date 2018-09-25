@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOREAU"
-DIST_VERSION="0.38"
-DIST_A="Weather-YR-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.001"
-DIST_A="Yeb-Plugin-DBIC-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-LoadAllModules-0.021
 	>=virtual/perl-Test-Simple-0.960
 "
+

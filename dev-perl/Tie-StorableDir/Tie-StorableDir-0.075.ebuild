@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDONLAN"
-DIST_VERSION="0.075"
-DIST_A="Tie-StorableDir-0.075.tar.gz"
+DIST_VERSION="0.075" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEYTRAV"
-DIST_VERSION="2.427"
-DIST_A="ParseUtil-Domain-2.427.tar.gz"
+DIST_VERSION="2.427" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	dev-perl/Modern-Perl
 	dev-perl/Net-IDN-Encode
 	dev-perl/Net-IDN-Nameprep
-	dev-perl/autobox
 	dev-perl/autobox-Core
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -42,3 +40,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

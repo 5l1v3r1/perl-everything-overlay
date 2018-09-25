@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="1.122130"
-DIST_A="Reflexive-Role-DataMover-1.122130.tar.gz"
+DIST_VERSION="1.122130" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
-	>=dev-perl/Reflex-0.098
+	dev-perl/Reflex
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Test-Simple-0.920
 "
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Text-Lorem
 	virtual/perl-File-Temp
 "
+

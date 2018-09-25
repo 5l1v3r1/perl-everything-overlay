@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.01"
-DIST_A="Plack-Middleware-Log-Contextual-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Log-Contextual
-	>=dev-perl/Plack-0.997
+	dev-perl/Plack
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.880
 "
+

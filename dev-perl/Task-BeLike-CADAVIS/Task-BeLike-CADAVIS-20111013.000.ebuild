@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CADAVIS"
-DIST_VERSION="20111013.0"
-DIST_A="Task-BeLike-CADAVIS-20111013.tar.gz"
+DIST_VERSION="20111013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

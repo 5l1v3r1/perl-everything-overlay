@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EDD"
-DIST_VERSION="v0.8.10"
-DIST_A="beancounter_0.8.10.tar.gz"
+DIST_VERSION="0.8.10" 
+SRC_URI="mirror://cpan/authors/id/E/ED/EDD/beancounter_0.8.10.tar.gz -> beancounter-0.8.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/beancounter_0.8.10 ${WORKDIR}/beancounter-0.8.10
+}
+

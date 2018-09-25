@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WULEE"
-DIST_VERSION="0.1.2"
-DIST_A="Test-DataDirs-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	dev-perl/Test-Exception
 "
+

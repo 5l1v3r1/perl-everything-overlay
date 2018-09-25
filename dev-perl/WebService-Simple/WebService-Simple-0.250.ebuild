@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUSUKEBE"
-DIST_VERSION="0.25"
-DIST_A="WebService-Simple-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,6 +32,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	>=virtual/perl-Test-Simple-0.940
 "
+

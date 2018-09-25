@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="0.30"
-DIST_A="Set-Array-0.30.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.030
 	>=dev-perl/Try-Tiny-0.110
 	dev-perl/Want
 	virtual/perl-Carp
@@ -27,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Deep-0.108
 	>=virtual/perl-Test-Simple-0.470
 "
+

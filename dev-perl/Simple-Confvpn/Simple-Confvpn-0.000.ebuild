@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KAAVANNAN"
-DIST_VERSION="0.0"
-DIST_A="Simple-Confvpn.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/K/KA/KAAVANNAN/Simple-Confvpn.tar.gz -> Simple-Confvpn-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Simple-Confvpn ${WORKDIR}/Simple-Confvpn-
+}
+

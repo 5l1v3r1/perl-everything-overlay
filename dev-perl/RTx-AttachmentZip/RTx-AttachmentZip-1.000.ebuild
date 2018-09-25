@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHARMAN"
-DIST_VERSION="1.0"
-DIST_A="RTx-AttachmentZip-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "
+

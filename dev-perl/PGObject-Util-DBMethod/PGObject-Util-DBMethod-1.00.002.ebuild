@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EHUELS"
-DIST_VERSION="v1.00.002"
-DIST_A="PGObject-Util-DBMethod-1.00.002.tar.gz"
+DIST_VERSION="1.00.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

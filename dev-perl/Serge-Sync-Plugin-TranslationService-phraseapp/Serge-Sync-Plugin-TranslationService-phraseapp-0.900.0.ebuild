@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRAGOSV"
-DIST_VERSION="0.900.0"
-DIST_A="Serge-Sync-Plugin-TranslationService-phraseapp-0.900.0.tar.gz"
+DIST_VERSION="0.900.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

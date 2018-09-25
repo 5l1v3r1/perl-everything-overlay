@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AZAWAWI"
-DIST_VERSION="0.09"
-DIST_A="Padre-Plugin-HTMLExport-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Locale-Msgfmt-0.150
 	virtual/perl-Test-Simple
 "
+

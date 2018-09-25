@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOSYME"
-DIST_VERSION="0.130020"
-DIST_A="POE-Component-ICal-0.130020.tar.gz"
+DIST_VERSION="0.130020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/DateTime-Event-ICal
 	dev-perl/POE
 	dev-perl/POE-Component-Schedule
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASSA"
-DIST_VERSION="v0.92.0"
-DIST_A="scriptname-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

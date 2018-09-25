@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJIBEL"
-DIST_VERSION="1.14"
-DIST_A="Tk-ForDummies-Graph-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-ExtUtils-MakeMaker
 "
+

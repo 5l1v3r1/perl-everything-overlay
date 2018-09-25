@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPS"
-DIST_VERSION="1.01"
-DIST_A="RTx-Calendar-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 "
+

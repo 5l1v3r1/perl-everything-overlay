@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EINHVERFR"
-DIST_VERSION="3.000002"
-DIST_A="PGObject-Simple-3.000002.tar.gz"
+DIST_VERSION="3.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

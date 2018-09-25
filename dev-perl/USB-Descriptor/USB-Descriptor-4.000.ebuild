@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BFOZ"
-DIST_VERSION="4.0"
-DIST_A="USB-Descriptor-4.tar.gz"
+DIST_VERSION="4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

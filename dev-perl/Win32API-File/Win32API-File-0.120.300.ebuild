@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHORNY"
-DIST_VERSION="0.1203"
-DIST_A="Win32API-File-0.1203.tar.gz"
+DIST_VERSION="0.1203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

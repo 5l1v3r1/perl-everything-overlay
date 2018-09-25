@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Parse-Plain"
-DIST_VERSION="3.03"
-DIST_A="Parse-Plain-3.03.tar.gz"
+DIST_AUTHOR="ANDREWN"
+DIST_VERSION="3.03" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANDREWN/Parse-Plain/Parse-Plain-3.03.tar.gz -> Parse-Plain-3.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Parse-Plain-3.03 ${WORKDIR}/Parse-Plain-3.03
+}
+

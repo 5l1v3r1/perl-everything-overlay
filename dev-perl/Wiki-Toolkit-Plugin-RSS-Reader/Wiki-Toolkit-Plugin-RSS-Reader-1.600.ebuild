@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOM"
-DIST_VERSION="1.6"
-DIST_A="Wiki-Toolkit-Plugin-RSS-Reader-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

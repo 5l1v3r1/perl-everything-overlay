@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CURTIS"
-DIST_VERSION="0.14"
-DIST_A="POE-Component-IRC-Plugin-WWW-Vim-Tips-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.030
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

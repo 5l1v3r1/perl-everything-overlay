@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOCOW"
-DIST_VERSION="1.23.12"
-DIST_A="PDL-CCS-1.23.12.tar.gz"
+DIST_VERSION="1.23.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 "
+

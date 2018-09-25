@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRUMLEVE"
-DIST_VERSION="v1.3.1"
-DIST_A="ddb-1.3.1.tar.gz"
+DIST_VERSION="1.3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

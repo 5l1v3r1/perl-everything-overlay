@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUTRIJUS"
-DIST_VERSION="v6.2.8"
-DIST_A="Perl6-Pugs-6.2.8.tar.gz"
+DIST_VERSION="6.2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

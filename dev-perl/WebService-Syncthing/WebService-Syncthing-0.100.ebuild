@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHRISJH"
-DIST_VERSION="0.10"
-DIST_A="WebService-Syncthing-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,12 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Printer
 	dev-perl/Moo
+	dev-perl/Pod-Usage
 	dev-perl/WebService-Client
 	virtual/perl-Encode
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "
+

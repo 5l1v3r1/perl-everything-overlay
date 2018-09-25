@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="1.500001"
-DIST_A="Perl-Dist-WiX-BuildPerl-5123-1.500001.tar.gz"
+DIST_VERSION="1.500001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Perl-Dist-0.300
 	>=virtual/perl-Test-Simple-0.880
 "
+

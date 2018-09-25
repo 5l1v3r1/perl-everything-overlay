@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DINOMITE"
-DIST_VERSION="0.4"
-DIST_A="Shell-Verbose-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=dev-perl/Capture-Tiny-0.060
 "
+

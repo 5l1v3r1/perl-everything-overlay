@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNIGHS"
-DIST_VERSION="0.39"
-DIST_A="PDF-Reuse-0.39.tar.gz"
+DIST_VERSION="0.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

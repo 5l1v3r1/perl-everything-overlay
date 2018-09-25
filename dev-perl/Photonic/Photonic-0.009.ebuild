@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WLMB"
-DIST_VERSION="0.009"
-DIST_A="Photonic-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	virtual/perl-Test-Simple
 "
+

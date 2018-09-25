@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSIDE"
-DIST_VERSION="0.05"
-DIST_A="Sub-Inspector-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.880
 "
+

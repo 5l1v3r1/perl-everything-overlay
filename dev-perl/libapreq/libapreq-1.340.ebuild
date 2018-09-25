@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISAAC"
-DIST_VERSION="1.34"
-DIST_A="libapreq-1.34.tar.gz"
+DIST_VERSION="1.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

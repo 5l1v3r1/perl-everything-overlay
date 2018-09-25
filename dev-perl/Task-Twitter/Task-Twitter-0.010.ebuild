@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LETO"
-DIST_VERSION="0.01"
-DIST_A="Task-Twitter-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Log-Dispatch-Twitter
+	dev-perl/Module-Build
 	dev-perl/Net-Twitter
 	dev-perl/Twitter-TagGrep
 	dev-perl/WWW-ItsABot
 	virtual/perl-Test-Simple
 "
+

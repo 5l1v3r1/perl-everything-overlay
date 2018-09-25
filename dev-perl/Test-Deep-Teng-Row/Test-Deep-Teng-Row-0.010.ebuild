@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOH"
-DIST_VERSION="0.01"
-DIST_A="Test-Deep-Teng-Row-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,6 @@ DEPEND="
 	dev-perl/Teng
 	>=dev-perl/Test-Requires-0.060
 	dev-perl/Test-mysqld
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
+

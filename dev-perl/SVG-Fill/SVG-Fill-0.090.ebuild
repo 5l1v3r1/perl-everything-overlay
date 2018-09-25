@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEGADE"
-DIST_VERSION="0.09"
-DIST_A="SVG-Fill-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Data-Printer
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

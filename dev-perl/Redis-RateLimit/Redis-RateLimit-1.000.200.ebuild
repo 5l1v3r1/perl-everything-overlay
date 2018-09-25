@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMIMS"
-DIST_VERSION="1.0002"
-DIST_A="Redis-RateLimit-1.0002.tar.gz"
+DIST_VERSION="1.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Mock-Time
 	dev-perl/Test-Spec
 "
+

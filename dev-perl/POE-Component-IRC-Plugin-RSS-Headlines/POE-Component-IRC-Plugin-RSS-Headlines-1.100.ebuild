@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.10"
-DIST_A="POE-Component-IRC-Plugin-RSS-Headlines-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/POE-1.004
 	>=dev-perl/POE-Component-Client-HTTP-0.730
-	>=dev-perl/POE-Component-IRC-5.070
+	dev-perl/POE-Component-IRC
 	>=dev-perl/XML-RSS-1.100
 "
 DEPEND="
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

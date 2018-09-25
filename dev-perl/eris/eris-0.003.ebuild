@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="0.003"
-DIST_A="eris-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,6 +37,7 @@ RDEPEND="
 	dev-perl/Ref-Util
 	dev-perl/Type-Tiny
 	dev-perl/YAML
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
@@ -52,3 +52,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

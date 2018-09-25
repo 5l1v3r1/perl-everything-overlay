@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEDI"
-DIST_VERSION="0.100830"
-DIST_A="Pod-Weaver-Section-Encoding-0.100830.tar.gz"
+DIST_VERSION="0.100830" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 "
+

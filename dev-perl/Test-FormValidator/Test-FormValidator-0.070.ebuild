@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRAHAM"
-DIST_VERSION="0.07"
-DIST_A="Test-FormValidator-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/Data-FormValidator-4.000
 	>=dev-perl/HTML-TokeParser-Simple-1.100
 	>=virtual/perl-Data-Dumper-2.030
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

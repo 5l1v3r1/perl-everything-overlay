@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCCLENN"
-DIST_VERSION="0.83"
-DIST_A="Test-Conditions-0.83.tar.gz"
+DIST_VERSION="0.83" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

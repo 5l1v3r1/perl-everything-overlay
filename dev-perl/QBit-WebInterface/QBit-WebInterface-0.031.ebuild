@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.031"
-DIST_A="QBit-WebInterface-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/Exceptions
 	dev-perl/QBit-Application
 	dev-perl/QBit-Class
-	>=dev-perl/Template-Toolkit-2.200
+	dev-perl/Template-Toolkit
 	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/qbit
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

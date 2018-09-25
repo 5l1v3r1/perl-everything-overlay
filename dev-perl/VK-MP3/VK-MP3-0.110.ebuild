@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EAX"
-DIST_VERSION="0.11"
-DIST_A="VK-MP3-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,6 @@ RDEPEND="
 	>=dev-perl/HTML-Parser-3.690
 	>=dev-perl/JSON-XS-2.320
 	>=dev-perl/LWP-Protocol-https-6.030
-	>=dev-perl/MP3-Info-1.240
 	>=dev-perl/Test-Mock-LWP-0.060
 	>=dev-perl/Text-Unidecode-0.040
 	>=dev-perl/URI-3.310
@@ -30,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

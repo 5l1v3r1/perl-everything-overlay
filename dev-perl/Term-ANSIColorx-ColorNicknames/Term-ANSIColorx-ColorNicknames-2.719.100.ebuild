@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="2.7191"
-DIST_A="Term-ANSIColorx-ColorNicknames-2.7191.tar.gz"
+DIST_VERSION="2.7191" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/IPC-Run
 	dev-perl/Path-Tiny
 "
+

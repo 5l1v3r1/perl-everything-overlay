@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Capture-Tiny
 	dev-perl/Class-XSAccessor
 	>=dev-perl/Devel-Cover-1.290
-	dev-perl/HTML-Parser
+	>=dev-perl/HTML-Parser-3.690
 	>=dev-perl/JSON-MaybeXS-1.003.003
 	dev-perl/Moo
 	>=dev-perl/PPI-HTML-1.070

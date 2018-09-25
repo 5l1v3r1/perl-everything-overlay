@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MILSO"
-DIST_VERSION="0.03"
-DIST_A="Pod-Weaver-Section-Requires-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
 "
+

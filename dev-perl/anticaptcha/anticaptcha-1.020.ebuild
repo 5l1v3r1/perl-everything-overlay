@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SKULL"
 DIST_VERSION="1.02"
-DIST_A="anticaptcha-1.02.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

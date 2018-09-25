@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.32"
-DIST_A="Rubyish-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,10 +22,10 @@ RDEPEND="
 	>=dev-perl/Sub-Exporter-0.982
 	>=dev-perl/UNIVERSAL-isa-1.010
 	>=dev-perl/YAML-0.680
-	>=dev-perl/autobox-2.550
 	>=virtual/perl-Data-Dumper-2.121
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

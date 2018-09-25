@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="2.10"
-DIST_A="POE-Component-Server-SimpleHTTP-PreFork-2.10.tar.gz"
+DIST_VERSION="2.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-POE-Client-TCP-0.100
 	>=virtual/perl-Test-Simple-0.470
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DKWILSON"
-DIST_VERSION="0.02"
-DIST_A="Tk-DKW-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Tk
+	>=dev-perl/Tk-800.005
 	dev-perl/Tk-Contrib
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AURUM"
-DIST_VERSION="2.0.4"
-DIST_A="Text-Tradition-Analysis-2.0.4.tar.gz"
+DIST_VERSION="2.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	dev-perl/Text-Tradition-Directory
 "
+

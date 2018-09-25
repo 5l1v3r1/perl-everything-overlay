@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOODFARM"
-DIST_VERSION="0.4.7"
-DIST_A="WebColors-0.4.7.tar.gz"
+DIST_VERSION="0.4.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

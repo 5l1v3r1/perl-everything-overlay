@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Perinci-Sub-ConvertArgs-Array
 	>=dev-perl/Perinci-Sub-GetArgs-Argv-0.830
 	>=dev-perl/Perinci-Sub-Normalize-0.190
-	dev-perl/Perinci-Sub-Util
+	>=dev-perl/Perinci-Sub-Util-0.460
 	dev-perl/Sort-ByExample
 	dev-perl/experimental
 	virtual/perl-File-Temp

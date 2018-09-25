@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RICHARDJ"
-DIST_VERSION="0.25"
-DIST_A="pod2lyx-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

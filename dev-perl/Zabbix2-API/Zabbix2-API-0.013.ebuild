@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FGA"
-DIST_VERSION="0.013"
-DIST_A="Zabbix2-API-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

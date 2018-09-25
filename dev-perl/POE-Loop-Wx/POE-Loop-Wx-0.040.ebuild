@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKE"
-DIST_VERSION="0.04"
-DIST_A="POE-Loop-Wx-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

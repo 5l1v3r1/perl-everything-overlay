@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.06"
-DIST_A="WebService-ReutersConnect-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	>=dev-perl/DateTime-Format-ISO8601-0.070
 	>=dev-perl/Devel-REPL-1.003.012
 	>=dev-perl/File-ShareDir-1.000
-	>=dev-perl/HTTP-Message-6.010
+	>=dev-perl/HTTP-Message-6.000
 	>=dev-perl/Log-Log4perl-1.290
 	>=dev-perl/Moose-2.040.100
 	>=dev-perl/TermReadKey-2.300
@@ -34,4 +33,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Fatal-0.008
+	virtual/perl-Test-Simple
 "
+

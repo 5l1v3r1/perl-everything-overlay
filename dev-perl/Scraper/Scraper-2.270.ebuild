@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLENNWOOD"
-DIST_VERSION="2.27"
-DIST_A="Scraper-2.27.tar.gz"
+DIST_VERSION="2.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

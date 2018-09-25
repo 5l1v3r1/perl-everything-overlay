@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMITHFARM"
-DIST_VERSION="0.283"
-DIST_A="Web-MREST-CLI-0.283.tar.gz"
+DIST_VERSION="0.283" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-lang/perl
 "
+

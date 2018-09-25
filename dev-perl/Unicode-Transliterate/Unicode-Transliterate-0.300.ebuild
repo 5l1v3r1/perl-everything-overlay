@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="JHIVER"
 DIST_VERSION="0.3"
-DIST_A="Unicode-Transliterate.0.3.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/J/JH/JHIVER/Unicode-Transliterate.0.3.tgz -> Unicode-Transliterate-0.3.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Unicode-Transliterate.0.3 ${WORKDIR}/Unicode-Transliterate-0.3
+}
+

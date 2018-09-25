@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.002"
-DIST_A="Plack-Middleware-ServerStatus-Tiny-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.023
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	>=dev-perl/Test-CheckDeps-0.006
 	dev-perl/Test-Deep
 	dev-perl/Test-Deep-UnorderedPairs
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Win32-PEFile"
-DIST_VERSION="0.7007"
-DIST_A="Win32-PEFile-0.7007.tar.gz"
+DIST_AUTHOR="GRANDPA"
+DIST_VERSION="0.7007" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRANDPA/Win32-PEFile/Win32-PEFile-0.7007.tar.gz -> Win32-PEFile-0.7007.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Win32-PEFile-0.7007 ${WORKDIR}/Win32-PEFile-0.7007
+}
+

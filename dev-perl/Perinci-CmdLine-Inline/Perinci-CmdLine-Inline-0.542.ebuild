@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Data-Check-Structure-0.030
 	>=dev-perl/Data-Clean-JSON-0.380
 	>=dev-perl/Data-Dmp-0.210
-	dev-perl/Data-Sah
+	>=dev-perl/Data-Sah-0.840
 	dev-perl/Data-Sah-Normalize
 	>=dev-perl/Data-Sah-Util-Type-0.450
 	>=dev-perl/Getopt-Long-EvenLess-0.111
@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-perl/Module-DataPack-0.210
 	>=dev-perl/Module-Path-More-0.320
 	>=dev-perl/Perinci-CmdLine-Help-0.150
-	>=dev-perl/Perinci-CmdLine-Lite-1.800
+	>=dev-perl/Perinci-CmdLine-Lite-1.811
 	>=dev-perl/Perinci-CmdLine-POD-0.003
 	>=dev-perl/Perinci-CmdLine-Util-Config-1.721
 	>=dev-perl/Perinci-Result-Format-Lite-0.271

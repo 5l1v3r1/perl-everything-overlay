@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="1.02"
-DIST_A="Test-Locale-PO-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Locale-PO
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

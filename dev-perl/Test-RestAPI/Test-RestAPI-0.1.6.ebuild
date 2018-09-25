@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASEI"
-DIST_VERSION="v0.1.6"
-DIST_A="Test-RestAPI-0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.980
 "
+

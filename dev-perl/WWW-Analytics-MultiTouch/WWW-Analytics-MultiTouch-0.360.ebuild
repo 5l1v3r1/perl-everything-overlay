@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJSCHUTZ"
-DIST_VERSION="0.36"
-DIST_A="WWW-Analytics-MultiTouch-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	>=dev-perl/Net-Google-Analytics-3.000
 	dev-perl/Params-Validate
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	>=dev-perl/Spreadsheet-WriteExcel-2.370
 	dev-perl/Test-Deep
 	>=dev-perl/Text-CSV-XS-0.730
@@ -33,7 +33,6 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONAS"
-DIST_VERSION="0.9"
-DIST_A="Template-PopupTreeSelect-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

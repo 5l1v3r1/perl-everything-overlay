@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PELLE"
-DIST_VERSION="0.03"
-DIST_A="Template-Plugin-IPAddr-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/NetAddr-IP
 	dev-perl/Template-Toolkit
+	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

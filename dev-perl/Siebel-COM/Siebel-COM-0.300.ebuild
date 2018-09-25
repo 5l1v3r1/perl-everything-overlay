@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARFREITAS"
-DIST_VERSION="0.3"
-DIST_A="Siebel-COM-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-2.160.400
 	>=dev-perl/MooseX-FollowPBP-0.050
-	>=dev-perl/Win32-OLE-0.170
+	dev-perl/Win32-OLE
 	>=dev-perl/namespace-autoclean-0.250
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ARTICLE"
 DIST_VERSION="0.01"
-DIST_A="XML-Generator-RSS10-ipsv-0.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

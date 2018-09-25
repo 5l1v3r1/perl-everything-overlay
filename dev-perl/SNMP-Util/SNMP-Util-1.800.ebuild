@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WMARQ"
-DIST_VERSION="1.8"
-DIST_A="SNMP-Util-1.8.tar.gz"
+DIST_VERSION="1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

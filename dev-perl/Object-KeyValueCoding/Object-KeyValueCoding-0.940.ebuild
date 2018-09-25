@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KYLED"
-DIST_VERSION="0.94"
-DIST_A="Object-KeyValueCoding-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	>=virtual/perl-Test-Simple-0.420
 "
+

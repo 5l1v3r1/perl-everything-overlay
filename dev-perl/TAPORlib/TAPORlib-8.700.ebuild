@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SNEMAROV"
-DIST_VERSION="8.70"
-DIST_A="TAPORlib-8.70.tar.gz"
+DIST_VERSION="8.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

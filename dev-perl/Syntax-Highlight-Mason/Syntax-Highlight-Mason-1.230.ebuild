@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="LAXEN"
 DIST_VERSION="1.23"
-DIST_A="Syntax-Highlight-Mason-1.23.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

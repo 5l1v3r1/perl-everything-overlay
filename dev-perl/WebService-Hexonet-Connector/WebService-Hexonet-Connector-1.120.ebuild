@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEXONET"
-DIST_VERSION="1.12"
-DIST_A="WebService-Hexonet-Connector-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

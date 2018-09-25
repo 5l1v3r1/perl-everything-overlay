@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COLINK"
-DIST_VERSION="2.0000"
-DIST_A="Task-WebGUI-2.0000.tar.gz"
+DIST_VERSION="2.0000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -63,7 +62,7 @@ RDEPEND="
 	>=dev-perl/HTML-Template-Expr-0.070
 	>=dev-perl/HTTP-BrowserDetect-1.190
 	dev-perl/HTTP-Exception
-	>=dev-perl/HTTP-Message-1.610
+	>=dev-perl/HTTP-Message-1.400
 	dev-perl/IO-File-WithPath
 	dev-perl/IO-Socket-SSL
 	>=dev-perl/Image-ExifTool-8.000
@@ -148,9 +147,10 @@ RDEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-Text-Balanced-2.000
 	>=virtual/perl-Time-HiRes-1.971.900
-	>=virtual/perl-libnet-2.290
+	>=virtual/perl-libnet-2.310
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWYN"
-DIST_VERSION="0.0206"
-DIST_A="PostScript-PPD-0.0206.tar.gz"
+DIST_VERSION="0.0206" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

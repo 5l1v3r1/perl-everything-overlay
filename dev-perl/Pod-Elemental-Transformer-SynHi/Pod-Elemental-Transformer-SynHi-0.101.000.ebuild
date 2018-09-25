@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.101000"
-DIST_A="Pod-Elemental-Transformer-SynHi-0.101000.tar.gz"
+DIST_VERSION="0.101000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.960
 "
+

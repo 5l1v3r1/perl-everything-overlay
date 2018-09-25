@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHANTANU"
-DIST_VERSION="1.006"
-DIST_A="Printer-ESCPOS-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

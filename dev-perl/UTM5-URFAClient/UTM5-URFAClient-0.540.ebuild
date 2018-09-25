@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VEROLOM"
-DIST_VERSION="0.54"
-DIST_A="UTM5-URFAClient-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Strict
 	virtual/perl-File-Spec
 "
+

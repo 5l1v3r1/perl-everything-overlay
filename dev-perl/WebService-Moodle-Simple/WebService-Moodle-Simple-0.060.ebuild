@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILLY"
-DIST_VERSION="0.06"
-DIST_A="WebService-Moodle-Simple-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ RDEPEND="
 	dev-perl/Ouch
 	dev-perl/Sys-SigAction
 	dev-perl/URI
+	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Scalar-List-Utils
@@ -34,3 +34,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

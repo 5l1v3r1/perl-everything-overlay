@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SARTAK"
-DIST_VERSION="0.41"
-DIST_A="Template-Declare-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	dev-perl/Class-ISA
 	>=dev-perl/String-BufferStack-1.100
 	>=dev-perl/Test-Warn-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

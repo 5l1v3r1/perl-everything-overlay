@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.46"
-DIST_A="OrePAN2-0.46.tar.gz"
+DIST_VERSION="0.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,7 @@ RDEPEND="
 	>=dev-perl/Parse-LocalDistribution-0.140
 	>=dev-perl/Parse-PMFile-0.290
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Ref-Util
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
@@ -44,7 +44,6 @@ RDEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-IO-Zlib
 	virtual/perl-JSON-PP
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 	virtual/perl-parent
 	>=virtual/perl-version-0.991.200
@@ -54,7 +53,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/File-Touch
 	dev-perl/File-Which
+	dev-perl/Module-Build
 	dev-perl/PAUSE-Packages
 	>=dev-perl/Test-RequiresInternet-0.020
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAORU"
-DIST_VERSION="0.10"
-DIST_A="Number-Format-SouthAsian-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+

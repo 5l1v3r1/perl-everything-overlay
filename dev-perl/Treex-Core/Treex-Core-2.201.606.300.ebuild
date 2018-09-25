@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POPEL"
-DIST_VERSION="2.20160630"
-DIST_A="Treex-Core-2.20160630.tar.gz"
+DIST_VERSION="2.20160630" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -66,3 +65,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

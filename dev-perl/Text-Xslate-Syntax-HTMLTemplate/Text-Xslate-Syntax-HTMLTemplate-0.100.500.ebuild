@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHMORIMO"
-DIST_VERSION="0.1005"
-DIST_A="Text-Xslate-Syntax-HTMLTemplate-0.1005.tar.gz"
+DIST_VERSION="0.1005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

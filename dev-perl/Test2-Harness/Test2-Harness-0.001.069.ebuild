@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.001069"
-DIST_A="Test2-Harness-0.001069.tar.gz"
+DIST_VERSION="0.001069" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,7 +35,7 @@ RDEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-IPC-Cmd
 	virtual/perl-JSON-PP
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-1.302.133
 	virtual/perl-Time-HiRes
 	virtual/perl-parent
@@ -45,3 +44,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

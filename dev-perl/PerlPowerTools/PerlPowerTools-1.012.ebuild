@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.012"
-DIST_A="PerlPowerTools-1.012.tar.gz"
+DIST_VERSION="1.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Trap-0.3.2
 	>=virtual/perl-Test-Simple-0.940
 "
+

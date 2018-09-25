@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRPERSON"
-DIST_VERSION="1.32"
-DIST_A="POE-Component-Player-Musicus-1.32.tar.gz"
+DIST_VERSION="1.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

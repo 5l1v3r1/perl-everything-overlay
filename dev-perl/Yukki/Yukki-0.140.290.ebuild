@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.140290"
-DIST_A="Yukki-0.140290.tar.gz"
+DIST_VERSION="0.140290" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -68,3 +67,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

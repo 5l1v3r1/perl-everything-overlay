@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKITOVER"
-DIST_VERSION="0.202"
-DIST_A="POE-Session-YieldCC-0.202.tar.gz"
+DIST_VERSION="0.202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

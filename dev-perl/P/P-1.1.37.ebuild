@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAWALSH"
-DIST_VERSION="v1.1.37"
-DIST_A="P-1.1.37.tar.gz"
+DIST_VERSION="1.1.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.820
 	>=virtual/perl-Test-Simple-0.440
 "
+

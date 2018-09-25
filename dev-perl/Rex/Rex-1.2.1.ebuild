@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="1.2.1"
-DIST_A="Rex-1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,6 +30,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/XML-Simple
 	dev-perl/YAML
+	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -51,3 +51,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-File-Temp
 "
+

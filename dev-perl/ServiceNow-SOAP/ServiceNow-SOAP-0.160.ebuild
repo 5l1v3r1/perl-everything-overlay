@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFLEWIS"
-DIST_VERSION="0.16"
-DIST_A="ServiceNow-SOAP-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

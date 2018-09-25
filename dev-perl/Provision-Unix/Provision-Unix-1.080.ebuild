@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSIMERSON"
-DIST_VERSION="1.08"
-DIST_A="Provision-Unix-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 	>=dev-perl/Params-Validate-0.800
 	dev-perl/TimeDate
 	>=dev-perl/URI-1.000
+	dev-perl/base
+	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-CPAN
 	virtual/perl-Data-Dumper
@@ -41,3 +42,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-0.100
 	>=virtual/perl-Test-Simple-0.100
 "
+

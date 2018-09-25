@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.003"
-DIST_A="Test-NewVersion-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,10 +33,13 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Warnings
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-if
 "
+

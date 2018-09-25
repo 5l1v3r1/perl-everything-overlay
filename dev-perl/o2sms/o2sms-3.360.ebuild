@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MACKERS"
-DIST_VERSION="3.36"
-DIST_A="o2sms-3.36.tar.gz"
+DIST_VERSION="3.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

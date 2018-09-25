@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="1.0000"
-DIST_A="Syntax-Feature-Qs-1.0000.tar.gz"
+DIST_VERSION="1.0000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/B-Hooks-EndOfScope-0.090
-	>=dev-perl/Devel-Declare-0.006.007
+	dev-perl/Devel-Declare
 	>=dev-perl/Sub-Install-0.925
 	dev-perl/namespace-clean
 	>=dev-perl/syntax-0.004
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

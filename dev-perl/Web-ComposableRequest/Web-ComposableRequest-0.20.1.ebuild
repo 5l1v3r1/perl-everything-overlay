@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.20.1"
-DIST_A="Web-ComposableRequest-0.20.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/web-composablerequest/Web-ComposableRequest-0.20.1.tar.gz"
+DIST_VERSION="0.20.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/web-composablerequest/Web-ComposableRequest-0.20.1.tar.gz -> Web-ComposableRequest-0.20.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Web-ComposableRequest-0.20.1 ${WORKDIR}/Web-ComposableRequest-0.20.1
+}
+

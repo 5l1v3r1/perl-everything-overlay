@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="5.20002"
-DIST_A="YATG-5.20002.tar.gz"
+DIST_VERSION="5.20002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	dev-perl/SNMP-Effective
 	dev-perl/Scriptalicious
 	dev-perl/YAML-LibYAML
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -41,3 +41,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

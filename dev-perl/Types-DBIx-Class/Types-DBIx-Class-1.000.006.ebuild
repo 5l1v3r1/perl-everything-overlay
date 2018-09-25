@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YARY"
-DIST_VERSION="1.000006"
-DIST_A="Types-DBIx-Class-1.000006.tar.gz"
+DIST_VERSION="1.000006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
 	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
 	>=dev-perl/SQL-Translator-0.110.180
 	>=virtual/perl-Test-Simple-1.001.010
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="2018.03"
-DIST_A="Strict-Perl-2018.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/Strict/Perl/Strict-Perl-2018.03.tar.gz"
+DIST_VERSION="2018.03" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Strict/Perl/Strict-Perl-2018.03.tar.gz -> Strict-Perl-2018.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.010
 	>=virtual/perl-Archive-Tar-0.072
 	>=virtual/perl-ExtUtils-MakeMaker-5.430.200
 	>=virtual/perl-File-Path-1.040.100
@@ -28,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Strict-Perl-2018.03 ${WORKDIR}/Strict-Perl-2018.03
+}
+

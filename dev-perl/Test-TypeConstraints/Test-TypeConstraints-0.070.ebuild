@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSHIMI"
-DIST_VERSION="0.07"
-DIST_A="Test-TypeConstraints-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Mouse
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 "
+

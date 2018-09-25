@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="0.7"
-DIST_A="Tree-Template-Declare-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Devel-Caller
 	dev-perl/Sub-Exporter
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Tree-DAG-Node
 "
+

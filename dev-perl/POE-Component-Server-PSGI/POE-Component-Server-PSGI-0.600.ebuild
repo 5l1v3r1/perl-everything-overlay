@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRODWITH"
-DIST_VERSION="0.6"
-DIST_A="POE-Component-Server-PSGI-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

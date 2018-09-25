@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Plack-App-WebMySQL"
-DIST_VERSION="3.02"
-DIST_A="Plack-App-WebMySQL-3.02.tar.gz"
+DIST_AUTHOR="DUMB"
+DIST_VERSION="3.02" 
+SRC_URI="mirror://cpan/authors/id/D/DU/DUMB/Plack-App-WebMySQL/Plack-App-WebMySQL-3.02.tar.gz -> Plack-App-WebMySQL-3.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +35,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Plack-App-WebMySQL-3.02 ${WORKDIR}/Plack-App-WebMySQL-3.02
+}
+

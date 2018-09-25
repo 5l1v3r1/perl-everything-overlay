@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MYKL"
-DIST_VERSION="1.10"
-DIST_A="Text-EP3-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	perl-core/Env
+	dev-perl/Env
 	virtual/perl-AutoLoader
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

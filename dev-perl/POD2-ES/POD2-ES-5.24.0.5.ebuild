@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ENELL"
-DIST_VERSION="v5.24.0.5"
-DIST_A="POD2-ES-5.24.0.5.tar.gz"
+DIST_VERSION="5.24.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

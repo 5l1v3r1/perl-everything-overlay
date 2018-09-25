@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HALLORAN"
 DIST_VERSION="1.3.0.1"
-DIST_A="PrimerView-1.3.0.1.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

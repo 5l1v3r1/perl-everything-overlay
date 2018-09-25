@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="WWW-ClickSource"
-DIST_VERSION="0.8"
-DIST_A="WWW-ClickSource-0.8.tar.gz"
+DIST_AUTHOR="HOREA"
+DIST_VERSION="0.8" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/WWW-ClickSource/WWW-ClickSource-0.8.tar.gz -> WWW-ClickSource-0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-ClickSource-0.8 ${WORKDIR}/WWW-ClickSource-0.8
+}
+

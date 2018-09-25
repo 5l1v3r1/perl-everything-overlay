@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.4014"
-DIST_A="Starman-0.4014.tar.gz"
+DIST_VERSION="0.4014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

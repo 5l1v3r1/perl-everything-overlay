@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NJH"
-DIST_VERSION="0.03"
-DIST_A="WebSphere-MQTT-Client-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.200
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 "
+

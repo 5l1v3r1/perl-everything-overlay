@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="STRO"
 DIST_VERSION="1.07"
-DIST_A="WWW-DreamHost-API-1.07.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

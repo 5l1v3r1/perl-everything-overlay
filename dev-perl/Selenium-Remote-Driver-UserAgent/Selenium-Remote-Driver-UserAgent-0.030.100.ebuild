@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEMPESAW"
-DIST_VERSION="0.0301"
-DIST_A="Selenium-Remote-Driver-UserAgent-0.0301.tar.gz"
+DIST_VERSION="0.0301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

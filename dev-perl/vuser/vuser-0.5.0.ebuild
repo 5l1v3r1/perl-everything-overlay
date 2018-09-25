@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RSMITH"
-DIST_VERSION="0.5.0"
-DIST_A="vuser-0.5.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/vuser-0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RSMITH/vuser/vuser-0.5.0.tar.gz -> vuser-0.5.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/vuser-0.5.0 ${WORKDIR}/vuser-0.5.0
+}
+

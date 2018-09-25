@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MILSO"
-DIST_VERSION="0.17"
-DIST_A="SchemaView-Plus-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/DBI-1.120
 	dev-perl/Data-CompactDump
 	dev-perl/Math-Project
-	dev-perl/Tk
+	>=dev-perl/Tk-800.014
 	dev-perl/Tk-FontDialog
 	dev-perl/Tk-MListbox
 	>=dev-perl/XML-Dumper-0.400
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

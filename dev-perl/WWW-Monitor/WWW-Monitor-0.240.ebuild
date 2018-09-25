@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YARON"
-DIST_VERSION="0.24"
-DIST_A="WWW-Monitor-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Cache-2.040
 	>=dev-perl/File-HomeDir-0.630
-	>=dev-perl/HTML-Format-2.040
+	>=dev-perl/HTML-Formatter-2.040
 	>=dev-perl/HTML-Tree-3.230
 	>=dev-perl/Schedule-Cron-0.970
 	>=dev-perl/Text-WordDiff-0.020
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

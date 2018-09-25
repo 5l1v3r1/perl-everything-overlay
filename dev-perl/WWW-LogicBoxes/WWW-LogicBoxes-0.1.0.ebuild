@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="0.1.0"
-DIST_A="WWW-LogicBoxes-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,9 +37,11 @@ DEPEND="
 	dev-perl/String-Random
 	dev-perl/Test-Exception
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

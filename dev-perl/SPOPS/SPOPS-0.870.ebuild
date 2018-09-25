@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWINTERS"
-DIST_VERSION="0.87"
-DIST_A="SPOPS-0.87.tar.gz"
+DIST_VERSION="0.87" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

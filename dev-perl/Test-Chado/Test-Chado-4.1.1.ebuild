@@ -45,7 +45,7 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=dev-perl/Class-Unload-0.070
 	>=dev-perl/Test-Exception-0.310
-	>=virtual/perl-Test-Simple-0.108
+	>=virtual/perl-Test-Simple-0.940
 "
 
 src_unpack(){

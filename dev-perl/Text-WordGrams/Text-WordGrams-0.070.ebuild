@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.07"
-DIST_A="Text-WordGrams-0.07.tar.gz"
-SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Text/Text-WordGrams-0.07.tar.gz"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Text/Text-WordGrams-0.07.tar.gz -> Text-WordGrams-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-WordGrams-0.07 ${WORKDIR}/Text-WordGrams-0.07
+}
+

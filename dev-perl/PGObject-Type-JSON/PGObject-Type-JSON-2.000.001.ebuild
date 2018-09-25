@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EINHVERFR"
-DIST_VERSION="2.000001"
-DIST_A="PGObject-Type-JSON-2.000001.tar.gz"
+DIST_VERSION="2.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Carp-Always
 	virtual/perl-Test-Simple
 "
+

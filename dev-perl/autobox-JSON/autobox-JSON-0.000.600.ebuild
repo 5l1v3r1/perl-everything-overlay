@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.0006"
-DIST_A="autobox-JSON-0.0006.tar.gz"
+DIST_VERSION="0.0006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/JSON-2.500
-	>=dev-perl/autobox-2.720
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.940
 "
+

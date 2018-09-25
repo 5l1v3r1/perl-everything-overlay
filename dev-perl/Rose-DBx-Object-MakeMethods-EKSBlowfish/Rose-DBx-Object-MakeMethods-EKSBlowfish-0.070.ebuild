@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HRUPP"
-DIST_VERSION="0.07"
-DIST_A="Rose-DBx-Object-MakeMethods-EKSBlowfish-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Rose-DBx-TestDB-0.050
 	virtual/perl-Test-Simple
 "
+

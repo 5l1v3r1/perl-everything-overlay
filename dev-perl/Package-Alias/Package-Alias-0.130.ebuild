@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOSHUA"
-DIST_VERSION="0.13"
-DIST_A="Package-Alias-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

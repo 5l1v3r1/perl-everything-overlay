@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="0.04"
-DIST_A="POE-Filter-XML-RPC-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/POE-1.003
 	>=dev-perl/POE-Filter-XML-0.350
 	>=dev-perl/Regexp-Common-time-0.040
 	>=virtual/perl-Test-Simple-0.800
 "
+

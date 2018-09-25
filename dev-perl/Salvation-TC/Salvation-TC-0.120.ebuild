@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFILATOV"
-DIST_VERSION="0.12"
-DIST_A="Salvation-TC-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

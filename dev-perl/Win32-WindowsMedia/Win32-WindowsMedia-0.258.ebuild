@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHAMROCK"
-DIST_VERSION="0.258"
-DIST_A="Win32-WindowsMedia-0.258.tar.gz"
+DIST_VERSION="0.258" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

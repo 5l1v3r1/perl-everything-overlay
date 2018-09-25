@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTLAW"
-DIST_VERSION="0.04"
-DIST_A="URI-Builder-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

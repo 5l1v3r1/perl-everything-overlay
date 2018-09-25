@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THHAMON"
-DIST_VERSION="0.1"
-DIST_A="RDF-NLP-SPARQLQuery-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

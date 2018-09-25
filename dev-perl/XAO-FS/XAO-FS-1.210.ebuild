@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMALTSEV"
-DIST_VERSION="1.21"
-DIST_A="XAO-FS-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Pod-Usage-1.120
 "
+

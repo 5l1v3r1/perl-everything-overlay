@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAVELH"
-DIST_VERSION="0.97"
-DIST_A="XML-Sablotron-0.97.tar.gz"
+DIST_VERSION="0.97" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

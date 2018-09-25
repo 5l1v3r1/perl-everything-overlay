@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEVERETT"
-DIST_VERSION="0.51"
-DIST_A="Win32-PingICMP-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

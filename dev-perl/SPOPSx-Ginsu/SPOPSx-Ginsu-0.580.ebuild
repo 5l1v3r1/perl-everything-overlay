@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMAN"
-DIST_VERSION="0.58"
-DIST_A="SPOPSx-Ginsu-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

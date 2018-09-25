@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DRAGOS"
 DIST_VERSION="0.01"
-DIST_A="PDL-RungeKutta-0.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

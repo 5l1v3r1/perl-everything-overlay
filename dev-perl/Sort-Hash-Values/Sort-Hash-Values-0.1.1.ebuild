@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLITCHMR"
-DIST_VERSION="v0.1.1"
-DIST_A="Sort-Hash-Values-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

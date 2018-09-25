@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEDDY"
-DIST_VERSION="0.05"
-DIST_A="Template-Plugin-ListCompare-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

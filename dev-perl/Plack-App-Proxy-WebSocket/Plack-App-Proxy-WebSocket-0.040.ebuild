@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CCM"
-DIST_VERSION="0.04"
-DIST_A="Plack-App-Proxy-WebSocket-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKAREV"
-DIST_VERSION="2.15"
-DIST_A="RPC-ExtDirect-2.15.tar.gz"
+DIST_VERSION="2.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=virtual/perl-Test-Simple-0.480
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIRMESS"
-DIST_VERSION="0.002"
-DIST_A="Test-RequiredMinimumDependencyVersion-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
-	dev-perl/Test-MockModule
 	>=dev-perl/Test-TempDir-Tiny-0.017
 	dev-perl/lib
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOM"
-DIST_VERSION="2.11"
-DIST_A="Oxford-Calendar-2.11.tar.gz"
+DIST_VERSION="2.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

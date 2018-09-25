@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JOEPHAYES"
 DIST_VERSION="0.04"
-DIST_A="win32-guidgen-0.04.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

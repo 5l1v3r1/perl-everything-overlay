@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PVHP"
-DIST_VERSION="0.008"
-DIST_A="OS390-Stdio-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

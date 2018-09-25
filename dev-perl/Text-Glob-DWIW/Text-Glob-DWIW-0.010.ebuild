@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JOSEF"
 DIST_VERSION="0.01"
-DIST_A="Text-Glob-DWIW-0.01.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.920
 	>=virtual/perl-if-0.050
 "
+

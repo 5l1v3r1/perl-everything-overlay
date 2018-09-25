@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="2.000"
-DIST_A="XML-FeedLite-2.000.tar.gz"
+DIST_VERSION="2.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Parser-1.350
-	>=dev-perl/HTTP-Message-1.640
+	>=dev-perl/HTTP-Message-1.400
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/WWW-Curl-Simple-0.100.181
 	>=virtual/perl-MIME-Base64-3.07.01
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Perl-Critic
 	>=virtual/perl-Test-Simple-0.800
 "
+

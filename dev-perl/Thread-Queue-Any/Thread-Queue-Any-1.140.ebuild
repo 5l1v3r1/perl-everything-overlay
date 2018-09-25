@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELIZABETH"
-DIST_VERSION="1.14"
-DIST_A="Thread-Queue-Any-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

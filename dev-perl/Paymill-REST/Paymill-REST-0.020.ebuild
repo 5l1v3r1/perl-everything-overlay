@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDIETRICH"
-DIST_VERSION="0.02"
-DIST_A="Paymill-REST-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.014
 	dev-perl/Data-Compare
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

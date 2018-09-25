@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJCARMAN"
-DIST_VERSION="1.12"
-DIST_A="Tk-DirSelect-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRUSOE"
-DIST_VERSION="v0.0.3"
-DIST_A="Template-Plugin-Filter-ANSIColor-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Magpie
 	dev-perl/Test-Most
 "
+

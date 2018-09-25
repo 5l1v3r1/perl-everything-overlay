@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASKADNA"
-DIST_VERSION="2.07"
-DIST_A="WebService-Dropbox-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=virtual/perl-Test-Simple-1.302.085
 "
+

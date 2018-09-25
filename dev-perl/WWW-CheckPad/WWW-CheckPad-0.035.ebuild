@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAKESHIGE"
-DIST_VERSION="0.035"
-DIST_A="WWW-CheckPad-0.035.tar.gz"
+DIST_VERSION="0.035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

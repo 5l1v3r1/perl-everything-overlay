@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WONKO"
-DIST_VERSION="0.4"
-DIST_A="helm-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

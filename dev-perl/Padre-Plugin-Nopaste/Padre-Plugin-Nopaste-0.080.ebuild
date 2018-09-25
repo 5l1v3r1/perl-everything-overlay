@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOWTIE"
-DIST_VERSION="0.08"
-DIST_A="Padre-Plugin-Nopaste-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.070
 	>=virtual/perl-Test-Simple-0.980
 "
+

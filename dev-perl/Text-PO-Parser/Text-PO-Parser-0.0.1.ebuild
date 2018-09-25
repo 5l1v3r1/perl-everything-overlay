@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CYPLP"
-DIST_VERSION="v0.0.1"
-DIST_A="Text-PO-Parser-0.0.1.tar.bz2"
+DIST_VERSION="0.0.1"
+DIST_A_EXT="tar.bz2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

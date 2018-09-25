@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMALPASS"
-DIST_VERSION="0.4"
-DIST_A="WebService-Etsy-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

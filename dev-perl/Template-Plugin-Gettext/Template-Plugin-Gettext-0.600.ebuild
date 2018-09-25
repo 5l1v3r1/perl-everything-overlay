@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUIDO"
-DIST_VERSION="0.6"
-DIST_A="Template-Plugin-Gettext-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

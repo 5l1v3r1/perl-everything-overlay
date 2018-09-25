@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0305"
-DIST_A="POSIX-strftime-GNU-0.0305.tar.gz"
+DIST_VERSION="0.0305" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-CChecker
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

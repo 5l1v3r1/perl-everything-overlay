@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="2.3603"
-DIST_A="RPi-LCD-2.3603.tar.gz"
+DIST_VERSION="2.3603" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.720
 	virtual/perl-Test-Simple
 "
+

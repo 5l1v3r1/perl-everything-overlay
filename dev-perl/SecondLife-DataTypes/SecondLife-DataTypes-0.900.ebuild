@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WINTER"
-DIST_VERSION="0.900"
-DIST_A="SecondLife-DataTypes-0.900.tar.gz"
+DIST_VERSION="0.900" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

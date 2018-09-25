@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WSNYDER"
-DIST_VERSION="1.066"
-DIST_A="SVN-S4-1.066.tar.gz"
+DIST_VERSION="1.066" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

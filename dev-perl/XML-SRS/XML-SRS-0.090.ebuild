@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUTANT"
-DIST_VERSION="0.09"
-DIST_A="XML-SRS-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	>=dev-perl/XML-Compare-0.040
 "
+

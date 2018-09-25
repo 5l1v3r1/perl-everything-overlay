@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEV"
-DIST_VERSION="0.3"
-DIST_A="WebService-CloudProvider-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Mouse
-	dev-perl/Web-API
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

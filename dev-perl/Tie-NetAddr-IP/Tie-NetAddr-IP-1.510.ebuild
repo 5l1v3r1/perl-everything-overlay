@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUISMUNOZ"
-DIST_VERSION="1.51"
-DIST_A="Tie-NetAddr-IP-1.51.tar.gz"
+DIST_VERSION="1.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAG"
-DIST_VERSION="2.26"
-DIST_A="WebDAO-2.26.tar.gz"
+DIST_VERSION="2.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

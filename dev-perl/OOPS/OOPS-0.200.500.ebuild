@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.2005"
-DIST_A="OOPS-0.2005.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.2005" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/OOPS-0.2005.tar.gz -> OOPS-0.2005.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Deep
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/OOPS-0.2005 ${WORKDIR}/OOPS-0.2005
+}
+

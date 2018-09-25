@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUZUKI"
-DIST_VERSION="0.04"
-DIST_A="POEIKC-Plugin-GlobalQueue-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	dev-perl/POE-Component-IKC
 	dev-perl/POE-Sugar-Args
 	dev-perl/POEIKC
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

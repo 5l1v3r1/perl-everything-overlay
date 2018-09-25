@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANASETO"
-DIST_VERSION="2.16"
-DIST_A="Text-Frundis-2.16.tar.gz"
+DIST_VERSION="2.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Text-Diff
 	virtual/perl-File-Path
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPEER"
-DIST_VERSION="1.009"
-DIST_A="WebDyne-Install-Lighttpd-1.009.tar.gz"
+DIST_VERSION="1.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

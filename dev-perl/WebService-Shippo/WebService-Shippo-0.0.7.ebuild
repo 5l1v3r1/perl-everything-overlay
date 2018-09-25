@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANIC"
-DIST_VERSION="v0.0.7"
-DIST_A="WebService-Shippo-0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Data-Dumper-Concise
 "
+

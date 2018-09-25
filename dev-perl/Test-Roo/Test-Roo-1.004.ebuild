@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="1.004"
-DIST_A="Test-Roo-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-lang/perl
 	>=dev-perl/Capture-Tiny-0.120
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 "
+

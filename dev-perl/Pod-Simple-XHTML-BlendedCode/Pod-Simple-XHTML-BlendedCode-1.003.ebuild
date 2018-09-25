@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="1.003"
-DIST_A="Pod-Simple-XHTML-BlendedCode-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-LongString-0.130
 	>=virtual/perl-Test-Simple-0.880
 "
+

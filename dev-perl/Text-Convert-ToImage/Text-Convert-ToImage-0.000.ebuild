@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="HARRY"
-DIST_VERSION="0.0"
-DIST_A="Text-Convert-ToImage.tgz"
+DIST_VERSION=""
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/H/HA/HARRY/Text-Convert-ToImage.tgz -> Text-Convert-ToImage-.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Convert-ToImage ${WORKDIR}/Text-Convert-ToImage-
+}
+

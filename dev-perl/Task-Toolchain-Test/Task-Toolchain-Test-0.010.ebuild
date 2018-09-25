@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="0.01"
-DIST_A="Task-Toolchain-Test-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,9 +31,10 @@ RDEPEND="
 	>=dev-perl/Test-UseAllModules-0.120
 	>=dev-perl/Test-Warn-0.210
 	>=virtual/perl-Test-Harness-3.210
-	>=virtual/perl-Test-Simple-0.940
+	>=virtual/perl-Test-Simple-1.010
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

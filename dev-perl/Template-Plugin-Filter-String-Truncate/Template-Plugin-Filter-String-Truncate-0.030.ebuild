@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.03"
-DIST_A="Template-Plugin-Filter-String-Truncate-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/String-Truncate
 	dev-perl/Template-Toolkit
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+

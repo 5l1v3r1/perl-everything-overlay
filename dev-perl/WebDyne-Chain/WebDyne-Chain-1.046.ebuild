@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPEER"
-DIST_VERSION="1.046"
-DIST_A="WebDyne-Chain-1.046.tar.gz"
+DIST_VERSION="1.046" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

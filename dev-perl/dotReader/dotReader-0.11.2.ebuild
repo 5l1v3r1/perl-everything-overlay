@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="0.11.2"
-DIST_A="dotReader-v0.11.2.tar.gz"
+DIST_VERSION="0.11.2" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/dotReader-v0.11.2.tar.gz -> dotReader-0.11.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,6 +39,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.280.700
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.620
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/dotReader-v0.11.2 ${WORKDIR}/dotReader-0.11.2
+}
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="96.042201"
-DIST_A="Proc-Forkfunc-96.042201.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="96.042201" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Proc-Forkfunc-96.042201.tar.gz -> Proc-Forkfunc-96.042201.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Proc-Forkfunc-96.042201 ${WORKDIR}/Proc-Forkfunc-96.042201
+}
+

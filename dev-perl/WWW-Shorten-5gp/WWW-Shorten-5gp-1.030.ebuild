@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="1.030"
-DIST_A="WWW-Shorten-5gp-1.030.tar.gz"
+DIST_VERSION="1.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/JSON-MaybeXS
 	>=dev-perl/URI-1.580
 	>=dev-perl/WWW-Shorten-3.090
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

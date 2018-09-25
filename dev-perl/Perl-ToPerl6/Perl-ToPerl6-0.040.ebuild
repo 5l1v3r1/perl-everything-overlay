@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGOFF"
-DIST_VERSION="0.040"
-DIST_A="Perl-ToPerl6-0.040.tar.gz"
+DIST_VERSION="0.040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,6 +32,7 @@ RDEPEND="
 	>=dev-perl/Readonly-2.000
 	>=dev-perl/String-Format-1.130
 	dev-perl/Task-Weaken
+	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.630
 	virtual/perl-File-Path
@@ -50,4 +50,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.402.400
 	dev-perl/Test-Deep
+	dev-perl/lib
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWOLF"
-DIST_VERSION="1.45"
-DIST_A="User-Simple-1.45.tar.gz"
+DIST_VERSION="1.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/Test-Pod
 "
+

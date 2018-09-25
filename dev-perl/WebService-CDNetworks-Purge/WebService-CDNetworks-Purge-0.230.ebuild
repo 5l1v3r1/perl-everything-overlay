@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPDUCA"
-DIST_VERSION="0.23"
-DIST_A="WebService-CDNetworks-Purge-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-1.040
 	virtual/perl-Test-Simple
 "
+

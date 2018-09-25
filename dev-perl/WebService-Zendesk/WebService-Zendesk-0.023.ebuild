@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCL"
-DIST_VERSION="0.023"
-DIST_A="WebService-Zendesk-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPEACOCK"
-DIST_VERSION="0.040"
-DIST_A="SVN-Notify-Mirror-0.040.tar.gz"
+DIST_VERSION="0.040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

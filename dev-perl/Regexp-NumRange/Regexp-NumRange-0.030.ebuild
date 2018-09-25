@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JRIDEOUT"
-DIST_VERSION="0.03"
-DIST_A="Regexp-NumRange-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Math-Cartesian-Product-1.006
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CDENT"
-DIST_VERSION="1.4"
-DIST_A="Purple-1.4.tar.gz"
-SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Purple/Purple-1.4.tar.gz"
+DIST_VERSION="1.4" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Purple/Purple-1.4.tar.gz -> Purple-1.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Purple-1.4 ${WORKDIR}/Purple-1.4
+}
+

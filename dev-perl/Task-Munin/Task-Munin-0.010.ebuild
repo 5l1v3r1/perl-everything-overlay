@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZABGAB"
-DIST_VERSION="0.01"
-DIST_A="Task-Munin-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,13 +32,12 @@ RDEPEND="
 	dev-perl/Net-IP
 	>=dev-perl/Net-SNMP-6.0.1
 	>=dev-perl/Net-SSLeay-1.650
-	>=dev-perl/Net-Server-0.060
+	dev-perl/Net-Server
 	>=dev-perl/Params-Validate-1.130
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Differences-0.620
 	dev-perl/Test-LongString
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Perl-Critic
 	>=dev-perl/URI-1.640
@@ -53,3 +51,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

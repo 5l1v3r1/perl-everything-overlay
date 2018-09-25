@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BTMCINNES"
-DIST_VERSION="1.47"
-DIST_A="UMLS-Similarity-1.47.tar.gz"
+DIST_VERSION="1.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

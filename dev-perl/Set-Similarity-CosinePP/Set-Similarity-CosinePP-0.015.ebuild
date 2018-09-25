@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLLMERS"
-DIST_VERSION="0.015"
-DIST_A="Set-Similarity-CosinePP-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

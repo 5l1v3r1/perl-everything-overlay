@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLSCOTT"
-DIST_VERSION="v0.0.03"
-DIST_A="WWW-Bebo-API-0.0.03.tar.gz"
+DIST_VERSION="0.0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

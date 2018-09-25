@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="1.2.16"
-DIST_A="Panda-Install-1.2.16.tar.gz"
+DIST_VERSION="1.2.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	dev-perl/Test-Deep
 "
+

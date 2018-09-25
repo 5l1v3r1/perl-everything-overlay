@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEDI"
-DIST_VERSION="0.003"
-DIST_A="SMS-Send-KR-APIStore-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

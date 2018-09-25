@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="WordPress-Plugin"
-DIST_VERSION="v0.0.3"
-DIST_A="WordPress-Plugin-WallFlower-0.0.3.tar.gz"
+DIST_AUTHOR="CJCOLLIER"
+DIST_VERSION="0.0.3" 
+SRC_URI="mirror://cpan/authors/id/C/CJ/CJCOLLIER/WordPress-Plugin/WordPress-Plugin-WallFlower-0.0.3.tar.gz -> WordPress-Plugin-WallFlower-0.0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WordPress-Plugin-WallFlower-0.0.3 ${WORKDIR}/WordPress-Plugin-WallFlower-0.0.3
+}
+

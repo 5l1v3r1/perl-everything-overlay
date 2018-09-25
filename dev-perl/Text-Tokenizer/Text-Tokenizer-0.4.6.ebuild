@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAMSK"
-DIST_VERSION="0.4.6"
-DIST_A="Text-Tokenizer-0.4.6.tar.gz"
+DIST_VERSION="0.4.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

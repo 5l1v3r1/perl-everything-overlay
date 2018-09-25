@@ -56,7 +56,7 @@ RDEPEND="
 	dev-perl/XML-Amazon
 	dev-perl/XML-Feed
 	>=dev-perl/XML-Grammar-Fiction-0.7.0
-	dev-perl/XML-Grammar-Fortune
+	>=dev-perl/XML-Grammar-Fortune-0.010.700
 	dev-perl/XML-Grammar-Fortune-Synd
 	>=dev-perl/XML-Grammar-ProductsSyndication-0.030.200
 	dev-perl/XML-Grammar-Vered

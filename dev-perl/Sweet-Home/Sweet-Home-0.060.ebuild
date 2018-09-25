@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FIBO"
-DIST_VERSION="0.06"
-DIST_A="Sweet-Home-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.710
+	>=dev-lang/perl-2.050
 	>=dev-perl/File-HomeDir-1.000
 	>=dev-perl/File-Remove-1.520
 	>=dev-perl/Moose-2.140.300
@@ -40,3 +39,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.230.400
 	>=virtual/perl-Test-Simple-1.001.009
 "
+

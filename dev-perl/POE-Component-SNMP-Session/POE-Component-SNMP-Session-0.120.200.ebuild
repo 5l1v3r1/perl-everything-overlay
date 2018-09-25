@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDB"
-DIST_VERSION="0.1202"
-DIST_A="POE-Component-SNMP-Session-0.1202.tar.gz"
+DIST_VERSION="0.1202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

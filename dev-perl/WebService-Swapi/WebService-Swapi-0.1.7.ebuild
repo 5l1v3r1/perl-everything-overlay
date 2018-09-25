@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIANMENG"
-DIST_VERSION="0.1.7"
-DIST_A="WebService-Swapi-0.1.7.tar.gz"
+DIST_VERSION="0.1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,9 +29,11 @@ DEPEND="
 	dev-perl/Devel-Cover
 	dev-perl/Devel-Cover-Report-Codecov
 	dev-perl/Devel-Cover-Report-Coveralls
+	dev-perl/Module-Build
 	dev-perl/Pod-Coverage-TrustPod
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLOF"
-DIST_VERSION="0.0805"
-DIST_A="Transmission-Client-0.0805.tar.gz"
+DIST_VERSION="0.0805" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

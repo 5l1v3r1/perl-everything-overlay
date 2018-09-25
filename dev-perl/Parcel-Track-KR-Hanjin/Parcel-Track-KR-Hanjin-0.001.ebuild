@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEDI"
-DIST_VERSION="0.001"
-DIST_A="Parcel-Track-KR-Hanjin-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Mozilla-CA
 	dev-perl/Net-SSLeay
-	>=dev-perl/Parcel-Track-0.001
+	dev-perl/Parcel-Track
 	virtual/perl-Encode
 	virtual/perl-HTTP-Tiny
 "
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

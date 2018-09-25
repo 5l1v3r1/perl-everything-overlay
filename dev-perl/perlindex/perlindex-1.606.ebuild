@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ULPFR"
-DIST_VERSION="1.606"
-DIST_A="perlindex-1.606.tar.gz"
+DIST_VERSION="1.606" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

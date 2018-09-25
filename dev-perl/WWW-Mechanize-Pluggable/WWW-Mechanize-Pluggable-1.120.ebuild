@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCMAHON"
-DIST_VERSION="1.12"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +23,9 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Module-Pluggable
 	>=dev-perl/Test-Exception-0.200
-	>=dev-perl/URI-1.250
+	dev-perl/URI
 	>=dev-perl/WWW-Mechanize-1.660
-	>=dev-perl/libwww-perl-6.000
+	>=dev-perl/libwww-perl-2.024
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.340

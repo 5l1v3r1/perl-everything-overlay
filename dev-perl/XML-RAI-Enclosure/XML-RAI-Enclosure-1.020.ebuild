@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="xml_rai_enclosure"
-DIST_VERSION="1.02"
-DIST_A="XML-RAI-Enclosure-1.02.tar.gz"
+DIST_AUTHOR="JMCADA"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMCADA/xml_rai_enclosure/XML-RAI-Enclosure-1.02.tar.gz -> XML-RAI-Enclosure-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XML-RAI-Enclosure-1.02 ${WORKDIR}/XML-RAI-Enclosure-1.02
+}
+

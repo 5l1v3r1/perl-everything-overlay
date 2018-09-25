@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLAVALLEE"
-DIST_VERSION="0.20"
-DIST_A="Test-Mock-Redis-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.880
 "
+

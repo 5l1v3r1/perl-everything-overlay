@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0305"
-DIST_A="Thrall-0.0305.tar.gz"
+DIST_VERSION="0.0305" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-TCP-0.150
 	virtual/perl-HTTP-Tiny
 	>=virtual/perl-Test-Simple-0.880
 "
+

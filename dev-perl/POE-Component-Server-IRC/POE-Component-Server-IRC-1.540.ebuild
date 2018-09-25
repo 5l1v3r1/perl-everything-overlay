@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HINRIK"
-DIST_VERSION="1.54"
-DIST_A="POE-Component-Server-IRC-1.54.tar.gz"
+DIST_VERSION="1.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/POE-Component-IRC-6.680
 	>=virtual/perl-Test-Simple-0.470
 "
+

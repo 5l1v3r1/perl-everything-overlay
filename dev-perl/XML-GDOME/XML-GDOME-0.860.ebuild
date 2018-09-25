@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJMATHER"
-DIST_VERSION="0.86"
-DIST_A="XML-GDOME-0.86.tar.gz"
+DIST_VERSION="0.86" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

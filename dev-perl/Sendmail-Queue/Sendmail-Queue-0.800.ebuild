@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSKOLL"
-DIST_VERSION="0.800"
-DIST_A="Sendmail-Queue-0.800.tar.gz"
+DIST_VERSION="0.800" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Most
 "
+

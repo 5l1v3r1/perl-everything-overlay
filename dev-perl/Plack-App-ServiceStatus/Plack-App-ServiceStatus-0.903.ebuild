@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="0.903"
-DIST_A="Plack-App-ServiceStatus-0.903.tar.gz"
+DIST_VERSION="0.903" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,8 +28,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	dev-perl/Module-Pluggable
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSTEBENS"
-DIST_VERSION="1.035"
-DIST_A="Whisper-1.035.tar.gz"
+DIST_VERSION="1.035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -25,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

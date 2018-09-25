@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Paranoid"
-DIST_VERSION="0.36"
-DIST_A="Paranoid-0.36.tar.gz"
+DIST_AUTHOR="CORLISS"
+DIST_VERSION="0.36" 
+SRC_URI="mirror://cpan/authors/id/C/CO/CORLISS/Paranoid/Paranoid-0.36.tar.gz -> Paranoid-0.36.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Paranoid-0.36 ${WORKDIR}/Paranoid-0.36
+}
+

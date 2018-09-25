@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EHUELS"
-DIST_VERSION="0.130.1"
-DIST_A="PGObject-Util-DBAdmin-0.130.1.tar.gz"
+DIST_VERSION="0.130.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

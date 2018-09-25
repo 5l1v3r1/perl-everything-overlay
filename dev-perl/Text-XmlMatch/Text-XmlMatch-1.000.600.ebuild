@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJA"
-DIST_VERSION="1.0006"
-DIST_A="Text-XmlMatch-1.0006.tar.gz"
+DIST_VERSION="1.0006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

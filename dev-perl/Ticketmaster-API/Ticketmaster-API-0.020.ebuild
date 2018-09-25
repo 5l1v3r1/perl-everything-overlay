@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TANK"
-DIST_VERSION="0.02"
-DIST_A="Ticketmaster-API-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Mock-Simple-0.090
 	virtual/perl-Test-Simple
 "
+

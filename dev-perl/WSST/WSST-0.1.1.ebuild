@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAWASAKI"
-DIST_VERSION="v0.1.1"
-DIST_A="WSST-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,11 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
+	dev-perl/Pod-Usage
 	dev-perl/Template-Toolkit
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

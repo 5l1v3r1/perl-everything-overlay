@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JSPICAK"
 DIST_VERSION="3.17"
-DIST_A="deltax-modules-3.17.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

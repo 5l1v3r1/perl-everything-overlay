@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MWS"
-DIST_VERSION="1.0107"
-DIST_A="ResourcePool-1.0107.tar.gz"
+DIST_VERSION="1.0107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

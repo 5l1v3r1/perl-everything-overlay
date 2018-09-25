@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICOLAW"
-DIST_VERSION="1.06"
-DIST_A="WWW-Comic-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

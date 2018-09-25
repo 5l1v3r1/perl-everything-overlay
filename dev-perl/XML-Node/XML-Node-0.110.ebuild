@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHANG-LIU"
-DIST_VERSION="0.11"
-DIST_A="XML-Node-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFAERBER"
-DIST_VERSION="0.220"
-DIST_A="Number-Phone-Normalize-0.220.tar.gz"
+DIST_VERSION="0.220" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+

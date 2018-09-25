@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WLMB"
-DIST_VERSION="0.001"
-DIST_A="Tk-MTDial-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	virtual/perl-Test-Simple
 "
+

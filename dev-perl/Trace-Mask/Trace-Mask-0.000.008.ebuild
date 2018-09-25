@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.000008"
-DIST_A="Trace-Mask-0.000008.tar.gz"
+DIST_VERSION="0.000008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-perl/Test2-Suite-0.000.030
-	>=dev-perl/Test2-Workflow-0.000.009
+	>=dev-perl/Test2-Suite-0.000.009
 	>=virtual/perl-Test-Simple-1.302.026
 "
+

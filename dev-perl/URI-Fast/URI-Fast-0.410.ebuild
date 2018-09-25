@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEFFOBER"
-DIST_VERSION="0.41"
-DIST_A="URI-Fast-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Unicode-LineBreak
 	>=virtual/perl-Test-Simple-1.302.125
 "
+

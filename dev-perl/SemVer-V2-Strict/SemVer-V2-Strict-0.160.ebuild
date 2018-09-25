@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PINE"
-DIST_VERSION="0.16"
-DIST_A="SemVer-V2-Strict-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=dev-perl/Devel-Cover-1.200
 	dev-perl/Devel-Cover-Report-Codecov
+	dev-perl/Module-Build
 	>=dev-perl/Perl-Critic-1.125
 	>=dev-perl/Test-Deep-0.117
 	>=dev-perl/Test-Deep-Matcher-0.010
@@ -31,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Perl-Critic-1.030
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

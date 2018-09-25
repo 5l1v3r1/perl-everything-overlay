@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YSASAKI"
-DIST_VERSION="0.11"
-DIST_A="Text-Sass-XS-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.280
 	>=virtual/perl-Test-Simple-0.980
 "
+

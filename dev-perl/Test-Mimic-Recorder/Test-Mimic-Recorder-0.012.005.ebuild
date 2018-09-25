@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRENDAN"
-DIST_VERSION="0.012005"
-DIST_A="Test-Mimic-Recorder-0.012005.tar.gz"
+DIST_VERSION="0.012005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

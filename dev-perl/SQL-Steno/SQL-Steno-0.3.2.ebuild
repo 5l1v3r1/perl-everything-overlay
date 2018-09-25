@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="PFEIFFER"
 DIST_VERSION="0.3.2"
-DIST_A="SQL-Steno-0.3.2.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

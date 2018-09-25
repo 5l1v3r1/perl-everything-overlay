@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BULKDD"
-DIST_VERSION="6.27"
-DIST_A="XSConfig-6.27.tar.gz"
+DIST_VERSION="6.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-MIME-Base64
 "
+

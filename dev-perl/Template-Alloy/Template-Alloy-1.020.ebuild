@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHANDOM"
-DIST_VERSION="1.020"
-DIST_A="Template-Alloy-1.020.tar.gz"
+DIST_VERSION="1.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

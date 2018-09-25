@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLOM"
-DIST_VERSION="0.04"
-DIST_A="WWW-Sixpack-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.038
+	dev-perl/Module-Build
 	dev-perl/Plack
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.960
 "
+

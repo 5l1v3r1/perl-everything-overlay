@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.003"
-DIST_A="Time-TAI-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Interpolator
-	dev-perl/Time-TT
-	dev-perl/libwww-perl
+	>=dev-perl/Time-TT-0.004
+	>=dev-perl/libwww-perl-5.539.400
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	>=virtual/perl-Math-BigRat-0.040
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.13"
-DIST_A="Tree-Persist-1.13.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +37,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.010
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

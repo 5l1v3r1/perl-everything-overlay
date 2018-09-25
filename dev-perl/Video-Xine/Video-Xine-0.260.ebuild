@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEPHEN"
-DIST_VERSION="0.26"
-DIST_A="Video-Xine-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Kwalitee
 	virtual/perl-Test-Simple
 "
+

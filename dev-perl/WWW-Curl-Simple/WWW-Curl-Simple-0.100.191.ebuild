@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREMAR"
-DIST_VERSION="0.100191"
-DIST_A="WWW-Curl-Simple-0.100191.tar.gz"
+DIST_VERSION="0.100191" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	dev-perl/Test-Exception
+	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

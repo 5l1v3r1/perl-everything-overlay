@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="CAFFIEND"
-DIST_VERSION="v0.1.0"
-DIST_A="font_ft2_0.1.0.tgz"
+DIST_VERSION="0.1.0"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/C/CA/CAFFIEND/font_ft2_0.1.0.tgz -> font_ft2-0.1.0.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/font_ft2_0.1.0 ${WORKDIR}/font_ft2-0.1.0
+}
+

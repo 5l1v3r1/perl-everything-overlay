@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.081"
-DIST_A="RDF-Lazy-0.081.tar.gz"
+DIST_VERSION="0.081" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Template-Toolkit
 	virtual/perl-Test-Simple
 "
+

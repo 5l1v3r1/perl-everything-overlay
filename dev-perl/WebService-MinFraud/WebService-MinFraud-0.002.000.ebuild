@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.002000"
-DIST_A="WebService-MinFraud-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/GeoIP2
 	dev-perl/HTTP-Message
 	dev-perl/JSON-MaybeXS
-	dev-perl/Moo
+	>=dev-perl/Moo-1.004.005
 	dev-perl/Role-Tiny
 	dev-perl/Sub-Quote
 	dev-perl/Throwable
@@ -44,6 +43,8 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

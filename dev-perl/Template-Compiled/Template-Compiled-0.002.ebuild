@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.002"
-DIST_A="Template-Compiled-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Exporter-Tiny
 	dev-perl/HTML-Parser
 	>=dev-perl/Moo-2.000.000
-	>=dev-perl/Type-Tiny-1.002.000
+	dev-perl/Type-Tiny
 	dev-perl/namespace-autoclean
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.960
 "
+

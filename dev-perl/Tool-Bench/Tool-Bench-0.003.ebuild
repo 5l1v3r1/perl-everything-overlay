@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOTBENH"
-DIST_VERSION="0.003"
-DIST_A="Tool-Bench-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.250
 	>=virtual/perl-Test-Simple-0.980
 "
+

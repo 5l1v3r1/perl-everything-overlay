@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINBANK"
-DIST_VERSION="0.0"
-DIST_A="UDPServersAndClients.zip"
+DIST_VERSION=""
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROBINBANK/UDPServersAndClients.zip -> UDPServersAndClients-.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/UDPServersAndClients ${WORKDIR}/UDPServersAndClients-
+}
+

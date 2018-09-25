@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HARDAKER"
-DIST_VERSION="3.15"
-DIST_A="QWizard-3.15.tar.gz"
+DIST_VERSION="3.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

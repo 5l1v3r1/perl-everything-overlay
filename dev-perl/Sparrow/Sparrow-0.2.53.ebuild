@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELEZHIK"
-DIST_VERSION="0.2.53"
-DIST_A="Sparrow-0.2.53.tar.gz"
+DIST_VERSION="0.2.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

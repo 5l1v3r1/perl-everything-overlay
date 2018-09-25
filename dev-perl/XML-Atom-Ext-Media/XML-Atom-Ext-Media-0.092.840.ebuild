@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREMAR"
-DIST_VERSION="0.092840"
-DIST_A="XML-Atom-Ext-Media-0.092840.tar.gz"
+DIST_VERSION="0.092840" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/XML-Atom
-	virtual/perl-Test-Simple
+	dev-perl/base
+	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

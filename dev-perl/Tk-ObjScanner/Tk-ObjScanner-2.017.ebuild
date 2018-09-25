@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="2.017"
-DIST_A="Tk-ObjScanner-2.017.tar.gz"
+DIST_VERSION="2.017" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Math-BigInt
 	virtual/perl-Test-Simple
 "
+

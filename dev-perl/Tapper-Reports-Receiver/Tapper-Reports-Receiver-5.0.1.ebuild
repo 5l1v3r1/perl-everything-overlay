@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.1"
-DIST_A="Tapper-Reports-Receiver-5.0.1.tar.gz"
+DIST_VERSION="5.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -54,3 +53,4 @@ DEPEND="
 	dev-perl/Test-Fixture-DBIC-Schema
 	virtual/perl-Test-Simple
 "
+

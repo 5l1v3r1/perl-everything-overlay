@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JENKINSON"
-DIST_VERSION="v1.0.1"
-DIST_A="WWW-Live-Contacts-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNIE"
-DIST_VERSION="2.11"
-DIST_A="VMware-API-LabManager-2.11.tar.gz"
+DIST_VERSION="2.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

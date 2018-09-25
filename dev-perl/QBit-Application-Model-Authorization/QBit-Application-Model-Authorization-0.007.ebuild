@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.007"
-DIST_A="QBit-Application-Model-Authorization-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,12 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Crypt-Blowfish
 	dev-perl/Crypt-CBC
 	dev-perl/Exceptions
 	dev-perl/QBit-Application
 	dev-perl/QBit-Application-Model-DB
+	dev-perl/base
 	dev-perl/qbit
 	virtual/perl-Digest-SHA
 "
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/lib-abs
 	virtual/perl-Test-Simple
 "
+

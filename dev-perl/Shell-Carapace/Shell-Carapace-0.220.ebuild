@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KABLAMO"
-DIST_VERSION="0.22"
-DIST_A="Shell-Carapace-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-MinimumVersion-Fast
 	dev-perl/Test-Most
 	dev-perl/Test-Pod
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.40"
-DIST_A="POE-Component-Server-IRC-1.40.tar.gz"
+DIST_VERSION="1.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

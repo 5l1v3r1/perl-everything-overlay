@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
+DIST_AUTHOR="ILYAZ"
 DIST_VERSION="0.0601"
-DIST_A="SOM-0.0601.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/SOM-0.0601.zip -> SOM-0.0601.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/SOM-0.0601 ${WORKDIR}/SOM-0.0601
+}
+

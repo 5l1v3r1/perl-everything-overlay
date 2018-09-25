@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALTREUS"
-DIST_VERSION="6.0"
-DIST_A="OpusVL-AppKit-Schema-AppKitAuthDB-6.tar.gz"
+DIST_VERSION="6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/DBIx-Class-TimeStamp
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
+	dev-perl/base
 	dev-perl/namespace-autoclean
 "
 DEPEND="
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

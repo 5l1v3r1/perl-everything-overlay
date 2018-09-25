@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVAR"
-DIST_VERSION="0.16"
-DIST_A="re-engine-Plan9-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

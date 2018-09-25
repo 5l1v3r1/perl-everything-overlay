@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGOEHRIG"
-DIST_VERSION="v2.1.2"
-DIST_A="SDL_Perl-2.1.2.tar.gz"
+DIST_VERSION="2.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.470
 "
+

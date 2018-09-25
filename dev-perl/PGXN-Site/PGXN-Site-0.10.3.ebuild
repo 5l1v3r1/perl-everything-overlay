@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Gravatar-URL-1.020
 	>=dev-perl/HTML-TagCloud-0.340
 	>=dev-perl/List-MoreUtils-0.280
-	dev-perl/Plack
+	>=dev-perl/Plack-0.995.600
 	>=dev-perl/Router-Resource-0.110
 	>=dev-perl/SemVer-0.2.0
 	>=dev-perl/Software-License-0.102.340

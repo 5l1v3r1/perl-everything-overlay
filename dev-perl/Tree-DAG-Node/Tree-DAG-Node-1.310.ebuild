@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.31"
-DIST_A="Tree-DAG_Node-1.31.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.190
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

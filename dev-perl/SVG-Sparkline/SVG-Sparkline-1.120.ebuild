@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWADEJ"
-DIST_VERSION="1.12"
-DIST_A="SVG-Sparkline-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AYANOKOUZ"
-DIST_VERSION="0.11"
-DIST_A="WebService-Simple-Yahoo-JP-API-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEFCON"
-DIST_VERSION="0.3"
-DIST_A="WebService-FileCloud-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

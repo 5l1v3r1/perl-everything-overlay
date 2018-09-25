@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWIMMER"
-DIST_VERSION="0.004"
-DIST_A="WWW-Shorten-Yahooit-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/WWW-Shorten
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

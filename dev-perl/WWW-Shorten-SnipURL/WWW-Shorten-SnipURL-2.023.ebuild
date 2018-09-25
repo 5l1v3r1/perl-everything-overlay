@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="2.023"
-DIST_A="WWW-Shorten-SnipURL-2.023.tar.gz"
+DIST_VERSION="2.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/Try-Tiny-0.240
 	>=dev-perl/WWW-Shorten-3.090
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

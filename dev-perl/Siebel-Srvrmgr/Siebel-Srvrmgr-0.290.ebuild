@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARFREITAS"
-DIST_VERSION="0.29"
-DIST_A="Siebel-Srvrmgr-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	>=dev-perl/FSA-Rules-0.340
 	>=dev-perl/File-BOM-0.140
 	>=dev-perl/Log-Log4perl-1.410
-	>=dev-perl/Moose-2.180.600
+	>=dev-perl/Moose-2.040.100
 	>=dev-perl/MooseX-AbstractFactory-0.004.000
 	>=dev-perl/MooseX-FollowPBP-0.050
 	>=dev-perl/MooseX-Singleton-0.290
@@ -49,7 +48,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-File-Temp-0.230.400
 	virtual/perl-IO
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.420
 	>=virtual/perl-Storable-2.510
 "
 DEPEND="
@@ -63,3 +62,4 @@ DEPEND="
 	>=dev-perl/Test-Perl-Critic-1.030
 	virtual/perl-Test-Simple
 "
+

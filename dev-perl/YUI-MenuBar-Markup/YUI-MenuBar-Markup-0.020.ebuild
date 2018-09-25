@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFISCHER"
-DIST_VERSION="0.02"
-DIST_A="YUI-MenuBar-Markup-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Mouse-0.270
 	>=dev-perl/YAML-Syck-1.070
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

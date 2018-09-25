@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRUXA"
-DIST_VERSION="1.00"
-DIST_A="Test-Deep-This-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

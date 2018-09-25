@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACQUESG"
-DIST_VERSION="0.26"
-DIST_A="ZMQ-Raw-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-threads
 "
+

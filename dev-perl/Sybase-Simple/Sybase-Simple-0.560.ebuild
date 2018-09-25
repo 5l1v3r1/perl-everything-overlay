@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEWP"
-DIST_VERSION="0.56"
-DIST_A="Sybase-Simple-0.56.tar.gz"
+DIST_VERSION="0.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

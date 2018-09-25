@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLKAO"
-DIST_VERSION="0.40"
-DIST_A="Web-Hippie-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

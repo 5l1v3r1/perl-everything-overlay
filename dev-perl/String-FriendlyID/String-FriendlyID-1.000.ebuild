@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATANATION"
-DIST_VERSION="1.000"
-DIST_A="String-FriendlyID-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

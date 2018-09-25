@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BJOERN"
-DIST_VERSION="0.994"
-DIST_A="SGML-Parser-OpenSP-0.994.tar.gz"
+DIST_VERSION="0.994" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

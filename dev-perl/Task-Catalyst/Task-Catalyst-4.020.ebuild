@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="4.02"
-DIST_A="Task-Catalyst-4.02.tar.gz"
+DIST_VERSION="4.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,7 +34,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-Store-File
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-Static-Simple
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800
 	dev-perl/Catalyst-View-Email
 	dev-perl/Catalyst-View-TT
 	dev-perl/CatalystX-Component-Traits
@@ -53,3 +52,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

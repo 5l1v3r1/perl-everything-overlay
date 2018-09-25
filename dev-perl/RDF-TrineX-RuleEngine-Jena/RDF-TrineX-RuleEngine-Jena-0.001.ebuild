@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KBA"
-DIST_VERSION="0.001"
-DIST_A="RDF-TrineX-RuleEngine-Jena-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	>=dev-perl/libwww-perl-6.030
 	>=virtual/perl-Pod-Parser-1.360
 "
+

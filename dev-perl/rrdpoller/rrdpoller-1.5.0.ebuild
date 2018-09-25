@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSOLIV"
-DIST_VERSION="1.5.0"
-DIST_A="rrdpoller-1.5.0.tar.gz"
+DIST_VERSION="1.5.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

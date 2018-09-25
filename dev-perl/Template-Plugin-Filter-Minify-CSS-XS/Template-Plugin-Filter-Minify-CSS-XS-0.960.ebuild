@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.96"
-DIST_A="Template-Plugin-Filter-Minify-CSS-XS-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-Minifier-XS
 	>=dev-perl/Template-Toolkit-2.000
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+

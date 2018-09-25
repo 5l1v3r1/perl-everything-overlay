@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.0008"
-DIST_A="WebService-BaseClientRole-0.0008.tar.gz"
+DIST_VERSION="0.0008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Response-Stringable
 	dev-perl/JSON
-	>=dev-perl/Moo-1.005.000
+	dev-perl/Moo
 	dev-perl/libwww-perl
 "
 DEPEND="
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

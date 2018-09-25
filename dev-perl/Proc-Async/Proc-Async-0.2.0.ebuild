@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TULSOFT"
-DIST_VERSION="0.2.0"
-DIST_A="Proc-Async-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
 "
+

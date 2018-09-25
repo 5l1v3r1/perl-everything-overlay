@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HERNAN"
-DIST_VERSION="0.09"
-DIST_A="WWW-YouTube-Download-Channel-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/Moose
 	dev-perl/Mozilla-CA
-	dev-perl/Perl6-Form
 	dev-perl/WWW-Mechanize
 	dev-perl/WWW-YouTube-Download
 	dev-perl/XML-XPath
@@ -31,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

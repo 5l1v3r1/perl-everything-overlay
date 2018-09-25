@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.17"
-DIST_A="Web-Machine-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,7 +37,10 @@ DEPEND="
 	dev-perl/Net-HTTP
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.960
 "
+

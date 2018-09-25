@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMAY"
-DIST_VERSION="0.4"
-DIST_A="Spread-Session-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Spread
+	>=dev-perl/Spread-3.150
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

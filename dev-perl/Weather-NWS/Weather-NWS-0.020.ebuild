@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="weather"
-DIST_VERSION="0.02"
-DIST_A="Weather-NWS-0.02.tar.gz"
+DIST_AUTHOR="JMCADA"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMCADA/weather/Weather-NWS-0.02.tar.gz -> Weather-NWS-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Weather-NWS-0.02 ${WORKDIR}/Weather-NWS-0.02
+}
+

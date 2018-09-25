@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRRHO"
-DIST_VERSION="1.45"
-DIST_A="TM-1.45.tar.gz"
+DIST_VERSION="1.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Pod-Usage-1.160
 	>=dev-perl/Test-Deep-0.093
 	>=dev-perl/Test-Pod-1.000
-	>=dev-perl/URI-3.220
+	>=dev-perl/URI-4.140
 	>=dev-perl/XML-LibXML-1.580
 	>=dev-perl/XML-Simple-2.130
 	>=dev-perl/libwww-perl-1.410
@@ -39,3 +38,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

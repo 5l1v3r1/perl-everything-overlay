@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERYQ"
-DIST_VERSION="1.106"
-DIST_A="Text-Refer-1.106.tar.gz"
+DIST_VERSION="1.106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOMAROV"
-DIST_VERSION="1.16"
-DIST_A="switchman-1.16.tar.gz"
+DIST_VERSION="1.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,11 +25,10 @@ RDEPEND="
 	>=dev-perl/Net-ZooKeeper-Lock-0.030
 	dev-perl/Net-ZooKeeper-Semaphore
 	dev-perl/Parse-Crontab
-	dev-perl/Sys-CPU
+	dev-perl/Pod-Usage
 	>=dev-perl/Sys-SigAction-0.200
 	virtual/perl-Getopt-Long
 	virtual/perl-Net-Ping
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Text-ParseWords
 	>=virtual/perl-libnet-2.200
@@ -42,3 +40,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

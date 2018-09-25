@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRIAN"
-DIST_VERSION="0.24"
-DIST_A="Real-Handy-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

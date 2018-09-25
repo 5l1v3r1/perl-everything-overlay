@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHOELZ"
-DIST_VERSION="0.01"
-DIST_A="Plack-Middleware-Acme-YadaYada-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

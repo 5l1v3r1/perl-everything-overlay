@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.20170315.1614"
-DIST_A="Plack-Middleware-BotDetector-1.20170315.1614.tar.gz"
+DIST_VERSION="1.20170315.1614" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,8 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

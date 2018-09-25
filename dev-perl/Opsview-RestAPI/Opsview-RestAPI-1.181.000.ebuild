@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCS"
-DIST_VERSION="1.181000"
-DIST_A="Opsview-RestAPI-1.181000.tar.gz"
+DIST_VERSION="1.181000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

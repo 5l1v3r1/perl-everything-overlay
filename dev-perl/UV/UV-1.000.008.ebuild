@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="1.000008"
-DIST_A="UV-1.000008.tar.gz"
+DIST_VERSION="1.000008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Socket
 	>=virtual/perl-Test-Simple-0.880
 "
+

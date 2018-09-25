@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="1.0.12"
-DIST_A="Test-DBIx-Class-Schema-1.0.12.tar.gz"
+DIST_VERSION="1.0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,10 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-NoTabs
 	dev-perl/Test-Pod
+	dev-perl/base
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-parent
 "
+

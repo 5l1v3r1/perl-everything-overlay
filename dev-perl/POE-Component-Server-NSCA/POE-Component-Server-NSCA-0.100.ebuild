@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.10"
-DIST_A="POE-Component-Server-NSCA-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Math-Random-0.700
 	>=dev-perl/Net-Netmask-1.901.500
-	>=dev-perl/POE-0.380
+	dev-perl/POE
 	>=dev-perl/POE-Component-Client-NSCA-0.060
 "
 DEPEND="
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

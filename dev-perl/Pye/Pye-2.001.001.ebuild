@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="2.001001"
-DIST_A="Pye-2.001001.tar.gz"
+DIST_VERSION="2.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	dev-perl/Role-Tiny
 	dev-perl/Text-SpanningTable
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-Term-ANSIColor
@@ -30,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

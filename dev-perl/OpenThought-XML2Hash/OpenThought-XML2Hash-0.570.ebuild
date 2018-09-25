@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERIC"
-DIST_VERSION="0.57"
-DIST_A="OpenThought-XML2Hash-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

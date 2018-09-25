@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMAURICE"
-DIST_VERSION="0.012"
-DIST_A="Plugin-Tiny-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,8 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Try-Tiny
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

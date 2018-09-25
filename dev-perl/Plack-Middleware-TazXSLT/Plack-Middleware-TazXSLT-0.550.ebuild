@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOM"
-DIST_VERSION="0.55"
-DIST_A="Plack-Middleware-TazXSLT-0.55.tar.gz"
+DIST_VERSION="0.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
+

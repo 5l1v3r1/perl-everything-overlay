@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OKKO"
-DIST_VERSION="0.002"
-DIST_A="Plack-Middleware-TrailingSlash-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/HTTP-Message
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

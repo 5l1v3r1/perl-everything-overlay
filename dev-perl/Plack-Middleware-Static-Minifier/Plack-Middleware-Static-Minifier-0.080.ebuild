@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.08"
-DIST_A="Plack-Middleware-Static-Minifier-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/CSS-Minifier-XS-0.090
 	dev-perl/JavaScript-Minifier-XS
-	>=dev-perl/Plack-0.995.800
+	dev-perl/Plack
 	virtual/perl-Digest-MD5
 	virtual/perl-parent
 "
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	>=virtual/perl-Test-Simple-0.880
 "
+

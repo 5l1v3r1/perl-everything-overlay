@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHOROBA"
-DIST_VERSION="1.007"
-DIST_A="Syntax-Construct-1.007.tar.gz"
+DIST_VERSION="1.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

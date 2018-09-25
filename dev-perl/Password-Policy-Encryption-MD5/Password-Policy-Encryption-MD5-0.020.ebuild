@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANELSON"
-DIST_VERSION="0.02"
-DIST_A="Password-Policy-Encryption-MD5-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

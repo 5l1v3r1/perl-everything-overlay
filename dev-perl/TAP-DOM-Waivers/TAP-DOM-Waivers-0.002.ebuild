@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.002"
-DIST_A="TAP-DOM-Waivers-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
-	>=virtual/perl-Test-Harness-3.220
+	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
 DEPEND="
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPEACOCK"
-DIST_VERSION="0.0911"
-DIST_A="SVN-Notify-Config-0.0911.tar.gz"
+DIST_VERSION="0.0911" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Test-Deep-0.100
 "
+

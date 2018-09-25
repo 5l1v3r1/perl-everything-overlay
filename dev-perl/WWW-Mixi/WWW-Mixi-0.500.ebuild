@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSUKAMOTO"
-DIST_VERSION="0.50"
-DIST_A="WWW-Mixi-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

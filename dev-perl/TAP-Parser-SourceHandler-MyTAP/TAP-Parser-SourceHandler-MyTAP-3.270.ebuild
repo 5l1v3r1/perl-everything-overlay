@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="3.27"
-DIST_A="TAP-Parser-SourceHandler-MyTAP-3.27.tar.gz"
+DIST_VERSION="3.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.300
 	>=virtual/perl-Test-Simple-0.880
 "
+

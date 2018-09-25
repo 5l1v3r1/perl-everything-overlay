@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEMPESAW"
-DIST_VERSION="0.0201"
-DIST_A="WWW-Saucelabs-0.0201.tar.gz"
+DIST_VERSION="0.0201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Spec
 "
+

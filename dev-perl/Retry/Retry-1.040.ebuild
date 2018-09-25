@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJC"
-DIST_VERSION="1.04"
-DIST_A="Retry-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMPERRY"
-DIST_VERSION="3.005"
-DIST_A="PDF-Builder-3.005.tar.gz"
+DIST_VERSION="3.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPIDER"
-DIST_VERSION="0.011"
-DIST_A="Win32API-Const-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

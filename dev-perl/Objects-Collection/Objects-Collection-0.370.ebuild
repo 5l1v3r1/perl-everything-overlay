@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAG"
-DIST_VERSION="0.37"
-DIST_A="Objects-Collection-0.37.tar.gz"
+DIST_VERSION="0.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

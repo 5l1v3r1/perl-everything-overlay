@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHARD"
-DIST_VERSION="0.7"
-DIST_A="Statistics-Descriptive-Weighted-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Statistics-Descriptive-2.600
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

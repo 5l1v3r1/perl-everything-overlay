@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="1.07"
-DIST_A="Object-Tiny-RW-1.07.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/object-tiny-rw/Object-Tiny-RW-1.07.tar.gz"
+DIST_VERSION="1.07" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/object-tiny-rw/Object-Tiny-RW-1.07.tar.gz -> Object-Tiny-RW-1.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Object-Tiny-RW-1.07 ${WORKDIR}/Object-Tiny-RW-1.07
+}
+

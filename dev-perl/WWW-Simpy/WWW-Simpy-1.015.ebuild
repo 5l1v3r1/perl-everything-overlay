@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEADSLAND"
-DIST_VERSION="1.015"
-DIST_A="WWW-Simpy-1.015.tar.gz"
+DIST_VERSION="1.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.030
+	>=dev-lang/perl-1.050
 	>=dev-perl/URI-1.350
 	>=dev-perl/XML-Parser-2.340
 	>=dev-perl/libwww-perl-2.033
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

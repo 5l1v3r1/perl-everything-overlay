@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIWIROY"
-DIST_VERSION="0.02"
-DIST_A="Test-Applify-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Test-Applify-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Test-Applify-0.02.tar.gz -> Test-Applify-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.900
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Test-Applify-0.02 ${WORKDIR}/Test-Applify-0.02
+}
+

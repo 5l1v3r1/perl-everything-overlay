@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANIRVAN"
-DIST_VERSION="0.503"
-DIST_A="WebService-LibraryThing-ThingISBN-0.503.tar.gz"
+DIST_VERSION="0.503" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340
 	virtual/perl-Test-Simple
 "
+

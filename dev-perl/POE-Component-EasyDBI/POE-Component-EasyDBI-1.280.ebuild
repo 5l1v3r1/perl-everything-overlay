@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GVL"
-DIST_VERSION="1.28"
-DIST_A="POE-Component-EasyDBI-1.28.tar.gz"
+DIST_VERSION="1.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.080
 	virtual/perl-Test-Simple
 "
+

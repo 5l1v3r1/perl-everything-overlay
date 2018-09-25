@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="NIDS"
 DIST_VERSION="0.03"
-DIST_A="Text-Shingle-0.03.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Unicode-Normalize
+	dev-perl/Module-Build
 "
+

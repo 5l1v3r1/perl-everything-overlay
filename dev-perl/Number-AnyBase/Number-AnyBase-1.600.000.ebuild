@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EMAZEP"
-DIST_VERSION="1.60000"
-DIST_A="Number-AnyBase-1.60000.tar.gz"
+DIST_VERSION="1.60000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAORU"
-DIST_VERSION="2.15"
-DIST_A="Test-Kit-2.15.tar.gz"
+DIST_VERSION="2.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Warn
 "
+

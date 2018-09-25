@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHELWIG"
-DIST_VERSION="0.02"
-DIST_A="WWW-StaticBlog-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -56,3 +55,4 @@ DEPEND="
 	dev-perl/Text-Outdent
 	virtual/perl-File-Temp
 "
+

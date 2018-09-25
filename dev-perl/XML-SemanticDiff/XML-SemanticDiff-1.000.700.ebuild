@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="1.0007"
-DIST_A="XML-SemanticDiff-1.0007.tar.gz"
+DIST_VERSION="1.0007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Test
 	>=virtual/perl-Test-Simple-0.880
 "
+

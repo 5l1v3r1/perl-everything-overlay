@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MINEK"
 DIST_VERSION="1.01"
-DIST_A="SMS-Matrix-1.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

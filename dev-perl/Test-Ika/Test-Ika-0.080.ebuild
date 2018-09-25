@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKI"
-DIST_VERSION="0.08"
-DIST_A="Test-Ika-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Module-Load
 	virtual/perl-Term-ANSIColor
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-ExtUtils-CBuilder
 "
+

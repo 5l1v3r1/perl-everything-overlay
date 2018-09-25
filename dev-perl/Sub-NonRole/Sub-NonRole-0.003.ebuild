@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.003"
-DIST_A="Sub-NonRole-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Hook-AfterRuntime
-	>=dev-perl/Moo-1.000.000
+	dev-perl/Moo
 	>=dev-perl/MooX-ClassAttribute-0.004
 	dev-perl/Sub-Identify
 	dev-perl/Sub-Talisman
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

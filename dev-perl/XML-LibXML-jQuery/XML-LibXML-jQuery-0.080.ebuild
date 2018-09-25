@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAFEGRATZ"
-DIST_VERSION="0.08"
-DIST_A="XML-LibXML-jQuery-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.980
 "
+

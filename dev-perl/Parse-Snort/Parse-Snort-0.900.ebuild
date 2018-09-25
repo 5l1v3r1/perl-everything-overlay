@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHARMAN"
-DIST_VERSION="0.9"
-DIST_A="Parse-Snort-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

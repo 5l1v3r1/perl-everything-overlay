@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.100"
-DIST_A="RDF-Trine-Serializer-RDFa-0.100.tar.gz"
+DIST_VERSION="0.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Module-Load-Conditional
 	>=virtual/perl-Test-Simple-0.960
 "
+

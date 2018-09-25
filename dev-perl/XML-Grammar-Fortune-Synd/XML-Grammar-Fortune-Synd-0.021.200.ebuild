@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0212"
-DIST_A="XML-Grammar-Fortune-Synd-0.0212.tar.gz"
+DIST_VERSION="0.0212" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="4.1.1"
-DIST_A="Tapper-SimNow-4.1.1.tar.gz"
+DIST_VERSION="4.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

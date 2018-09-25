@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBMOLESTA"
-DIST_VERSION="0.0013"
-DIST_A="SharePoint-SOAPHandler-0.0013.tar.gz"
+DIST_VERSION="0.0013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

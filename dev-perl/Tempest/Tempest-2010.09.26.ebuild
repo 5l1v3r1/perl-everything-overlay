@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EVANK"
-DIST_VERSION="v2010.09.26"
-DIST_A="Tempest-2010.09.26.tar.gz"
+DIST_VERSION="2010.09.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

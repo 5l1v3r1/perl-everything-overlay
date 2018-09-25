@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHILTS"
-DIST_VERSION="0.21"
-DIST_A="SRS-EPP-Proxy-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,8 +29,9 @@ RDEPEND="
 	>=dev-perl/PRANG-0.110
 	>=dev-perl/XML-Assert-0.020
 	>=dev-perl/XML-SRS-0.060
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

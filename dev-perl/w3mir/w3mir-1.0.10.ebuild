@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANL"
-DIST_VERSION="v1.0.10"
-DIST_A="w3mir-1.0.10.tar.gz"
+DIST_VERSION="1.0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

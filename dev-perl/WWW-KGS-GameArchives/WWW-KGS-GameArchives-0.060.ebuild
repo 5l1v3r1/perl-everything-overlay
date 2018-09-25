@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANAZAWA"
-DIST_VERSION="0.06"
-DIST_A="WWW-KGS-GameArchives-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Path-Class-0.220
 	>=virtual/perl-Test-Simple-0.980
 "
+

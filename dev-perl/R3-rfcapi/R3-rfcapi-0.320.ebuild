@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHOEN"
-DIST_VERSION="0.32"
-DIST_A="R3-rfcapi-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

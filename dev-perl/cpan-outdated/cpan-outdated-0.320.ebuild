@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="0.32"
-DIST_A="cpan-outdated-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/CPAN-DistnameInfo-0.100
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	>=dev-perl/local-lib-1.006.008
 	virtual/perl-ExtUtils-Install
@@ -26,10 +26,11 @@ RDEPEND="
 	virtual/perl-IO-Zlib
 	virtual/perl-Module-CoreList
 	>=virtual/perl-Module-Metadata-1.000.007
-	virtual/perl-Pod-Usage
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 "
+

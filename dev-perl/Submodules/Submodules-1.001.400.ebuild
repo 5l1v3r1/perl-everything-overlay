@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZARABOZO"
-DIST_VERSION="1.0014"
-DIST_A="Submodules-1.0014.tar.gz"
+DIST_VERSION="1.0014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

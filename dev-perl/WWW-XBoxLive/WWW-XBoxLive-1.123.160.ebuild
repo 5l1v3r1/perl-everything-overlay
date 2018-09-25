@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJONES"
-DIST_VERSION="1.123160"
-DIST_A="WWW-XBoxLive-1.123160.tar.gz"
+DIST_VERSION="1.123160" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Net-Ping-2.330
 	>=virtual/perl-Test-Simple-0.880
 "
+

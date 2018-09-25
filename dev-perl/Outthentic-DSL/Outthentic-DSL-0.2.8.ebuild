@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELEZHIK"
-DIST_VERSION="v0.2.8"
-DIST_A="Outthentic-DSL-0.2.8.tar.gz"
+DIST_VERSION="0.2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

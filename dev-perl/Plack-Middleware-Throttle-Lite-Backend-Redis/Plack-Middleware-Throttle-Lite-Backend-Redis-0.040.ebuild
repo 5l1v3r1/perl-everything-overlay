@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHIM"
-DIST_VERSION="0.04"
-DIST_A="Plack-Middleware-Throttle-Lite-Backend-Redis-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.220
 	>=virtual/perl-Test-Simple-0.980
 "
+

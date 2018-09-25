@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARJALA"
-DIST_VERSION="0.3005"
-DIST_A="Ubic-Service-Hypnotoad-0.3005.tar.gz"
+DIST_VERSION="0.3005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

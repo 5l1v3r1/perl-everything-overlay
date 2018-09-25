@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAS"
-DIST_VERSION="0.14"
-DIST_A="TVGuide-NL-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURNES"
-DIST_VERSION="0.08"
-DIST_A="Plack-App-URLMux-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

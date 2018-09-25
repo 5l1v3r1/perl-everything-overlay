@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEWSOFT"
-DIST_VERSION="4.0"
-DIST_A="Religion-Islam-Qibla-4.0.tar.gz"
+DIST_VERSION="4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

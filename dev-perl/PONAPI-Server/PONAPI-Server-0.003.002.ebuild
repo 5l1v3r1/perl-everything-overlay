@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICKEY"
-DIST_VERSION="0.003002"
-DIST_A="PONAPI-Server-0.003002.tar.gz"
+DIST_VERSION="0.003002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

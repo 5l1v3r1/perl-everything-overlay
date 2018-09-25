@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMON"
-DIST_VERSION="0.03"
-DIST_A="Text-KnuthPlass-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Class-Accessor
+	dev-perl/Module-Build
 "
+

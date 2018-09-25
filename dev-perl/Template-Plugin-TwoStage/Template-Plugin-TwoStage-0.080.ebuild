@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Data-Inheritable
 	dev-perl/Digest-SHA1
-	>=dev-perl/Template-Toolkit-2.010
+	dev-perl/Template-Toolkit
 	dev-perl/URI
 	dev-perl/URI-Escape-XS
 	dev-perl/base

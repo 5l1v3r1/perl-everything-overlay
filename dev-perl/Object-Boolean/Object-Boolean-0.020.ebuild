@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDUGGAN"
-DIST_VERSION="0.02"
-DIST_A="Object-Boolean-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

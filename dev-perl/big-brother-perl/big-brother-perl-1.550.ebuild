@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GREPBOY"
-DIST_VERSION="1.55"
-DIST_A="big-brother_perl-1.55.tar.gz"
+DIST_VERSION="1.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

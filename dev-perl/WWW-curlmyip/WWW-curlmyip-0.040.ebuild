@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFARRELL"
-DIST_VERSION="0.04"
-DIST_A="WWW-curlmyip-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-HTTP-Tiny
 "
@@ -26,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-RequiresInternet-0.030
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOTTC"
-DIST_VERSION="v3.0.2.124"
-DIST_A="OSDial-3.0.2.124.tar.gz"
+DIST_VERSION="3.0.2.124" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

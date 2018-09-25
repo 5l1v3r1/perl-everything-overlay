@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GDEY"
-DIST_VERSION="0.009"
-DIST_A="Template-Provider-Amazon-S3-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/Net-Amazon-S3
 	dev-perl/Template-Toolkit
 	dev-perl/Try-Tiny
+	dev-perl/base
 	virtual/perl-Data-Dumper
 "
 DEPEND="
@@ -33,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

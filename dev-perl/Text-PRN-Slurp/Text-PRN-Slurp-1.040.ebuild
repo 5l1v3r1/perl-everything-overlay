@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARDIWAL"
-DIST_VERSION="1.04"
-DIST_A="Text-PRN-Slurp-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHMAEDA"
-DIST_VERSION="1.05"
-DIST_A="Slack-RTM-Bot-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.980
 "
+

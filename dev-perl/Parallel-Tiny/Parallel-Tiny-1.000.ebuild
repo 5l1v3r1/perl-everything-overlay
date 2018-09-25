@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUTT"
-DIST_VERSION="1.00"
-DIST_A="Parallel-Tiny-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Spec-0.510
 "
+

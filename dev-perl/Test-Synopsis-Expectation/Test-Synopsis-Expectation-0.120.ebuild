@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.12"
-DIST_A="Test-Synopsis-Expectation-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/PPI
 	virtual/perl-Pod-Simple
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
 "
+

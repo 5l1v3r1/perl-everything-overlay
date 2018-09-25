@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="0.7903"
-DIST_A="Sys-Info-Driver-Linux-0.7903.tar.gz"
+DIST_VERSION="0.7903" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Sys-Info-0.200
 	>=virtual/perl-Test-Simple-0.400
 "
+

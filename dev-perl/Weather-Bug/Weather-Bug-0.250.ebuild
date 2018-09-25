@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWADEJ"
-DIST_VERSION="0.25"
-DIST_A="Weather-Bug-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

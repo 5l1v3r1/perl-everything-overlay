@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="2112.1001001"
-DIST_A="YYZ-2112.1001001.tar.gz"
+DIST_VERSION="2112.1001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280.800
 	>=virtual/perl-Test-Simple-0.880
 "
+

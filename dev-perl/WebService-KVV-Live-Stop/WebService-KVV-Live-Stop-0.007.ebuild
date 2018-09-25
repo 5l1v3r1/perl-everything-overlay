@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHREEF"
-DIST_VERSION="0.007"
-DIST_A="WebService-KVV-Live-Stop-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/File-ShareDir
-	>=dev-perl/Net-HTTP-Spore-0.080
+	dev-perl/Net-HTTP-Spore
 	dev-perl/Net-HTTP-Spore-Middleware-DefaultParams
 	virtual/perl-Carp
 "
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HKOBA"
-DIST_VERSION="0.101"
-DIST_A="YATT-Lite-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -54,3 +53,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCAND"
-DIST_VERSION="v0.13.1"
-DIST_A="Set-Relation-0.13.1.tar.gz"
+DIST_VERSION="0.13.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/Test-Deep-0.106
 	>=virtual/perl-Carp-1.010
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Scalar-List-Utils-1.450
+	>=virtual/perl-Scalar-List-Utils-1.130
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 "
+

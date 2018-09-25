@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="1.67"
-DIST_A="OurNet-BBS-1.67.tar.gz"
+DIST_VERSION="1.67" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Hook-LexWrap-0.010
 	>=dev-perl/MailTools-1.000
 	>=dev-perl/TermReadKey-2.130
-	>=dev-perl/TimeDate-0.010
+	>=dev-perl/TimeDate-2.200
 	>=dev-perl/enum-1.016
 	>=virtual/perl-Digest-MD5-2.100
 	>=virtual/perl-File-Spec-0.600
@@ -34,3 +33,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.310
 "
+

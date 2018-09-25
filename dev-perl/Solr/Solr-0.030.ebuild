@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Solr"
-DIST_VERSION="0.03"
-DIST_A="Solr-0.03.tar.gz"
+DIST_AUTHOR="GARAFOLA"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/G/GA/GARAFOLA/Solr/Solr-0.03.tar.gz -> Solr-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Solr-0.03 ${WORKDIR}/Solr-0.03
+}
+

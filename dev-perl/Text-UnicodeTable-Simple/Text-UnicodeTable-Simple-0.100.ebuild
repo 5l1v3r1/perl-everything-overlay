@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYOHEX"
-DIST_VERSION="0.10"
-DIST_A="Text-UnicodeTable-Simple-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	>=virtual/perl-Test-Simple-0.880
 "
+

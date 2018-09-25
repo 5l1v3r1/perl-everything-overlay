@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VROOM"
-DIST_VERSION="0.020"
-DIST_A="WebService-JotForm-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

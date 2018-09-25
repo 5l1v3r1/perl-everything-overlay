@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RFRANKEL"
-DIST_VERSION="1.09"
-DIST_A="iCal-Parser-SAX-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-XML-0.060
 	>=virtual/perl-Test-Simple-0.470
 "
+

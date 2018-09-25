@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIRK"
-DIST_VERSION="1.02"
-DIST_A="ZOOM-IRSpy-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

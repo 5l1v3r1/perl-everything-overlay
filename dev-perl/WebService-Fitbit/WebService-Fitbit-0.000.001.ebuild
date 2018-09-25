@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000001"
-DIST_A="WebService-Fitbit-0.000001.tar.gz"
+DIST_VERSION="0.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-RequiresInternet
 	dev-perl/Test2-Suite
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.001000"
-DIST_A="Pod-Weaver-PluginBundle-SHLOMIF-0.001000.tar.gz"
+DIST_VERSION="0.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Pod-Elemental-PerlMunger-0.200.001
 	>=dev-perl/Pod-Elemental-Transformer-List-0.102.000
 	dev-perl/Pod-Elemental-Transformer-WikiDoc
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.000
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.008
 	>=dev-perl/Pod-Weaver-Section-Support-1.001
 "
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

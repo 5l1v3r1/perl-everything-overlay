@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZJT"
-DIST_VERSION="1.142410"
-DIST_A="Office365-EWS-Client-1.142410.tar.gz"
+DIST_VERSION="1.142410" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

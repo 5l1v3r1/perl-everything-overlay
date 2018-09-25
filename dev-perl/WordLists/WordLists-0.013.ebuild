@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERRETTDL"
-DIST_VERSION="0.013"
-DIST_A="WordLists-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

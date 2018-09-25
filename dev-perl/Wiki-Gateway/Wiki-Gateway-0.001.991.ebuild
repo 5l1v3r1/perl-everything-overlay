@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BSHANKS"
-DIST_VERSION="0.001991"
-DIST_A="Wiki-Gateway-0.001991.tar.gz"
+DIST_VERSION="0.001991" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Test-Unit
 "
+

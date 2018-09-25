@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZABA"
-DIST_VERSION="0.08399"
-DIST_A="Treex-Core-0.08399.tar.gz"
+DIST_VERSION="0.08399" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -57,3 +56,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

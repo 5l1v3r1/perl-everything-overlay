@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FDULAU"
-DIST_VERSION="1.21"
-DIST_A="Tie-Hash-RegexKeys-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Tie-Hash-Regex-1.020
+	>=dev-perl/Tie-Hash-Regex-1.120
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

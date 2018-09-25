@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBARBON"
-DIST_VERSION="0.13"
-DIST_A="Plack-Middleware-DBGp-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/HTTP-CookieJar
 	>=dev-perl/Test-DBGp-0.070
 "
+

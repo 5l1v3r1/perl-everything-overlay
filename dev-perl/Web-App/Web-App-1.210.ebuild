@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APLA"
-DIST_VERSION="1.21"
-DIST_A="Web-App-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

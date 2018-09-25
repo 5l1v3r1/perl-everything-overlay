@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANPAZ"
-DIST_VERSION="2.004"
-DIST_A="RayApp-2.004.tar.gz"
+DIST_VERSION="2.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

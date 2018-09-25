@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASEI"
-DIST_VERSION="v0.1.1"
-DIST_A="RabbitMQ-Consumer-Batcher-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Mock-Quick
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

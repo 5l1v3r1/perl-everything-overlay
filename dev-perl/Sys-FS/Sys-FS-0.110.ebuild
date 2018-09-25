@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEX"
-DIST_VERSION="0.11"
-DIST_A="Sys-FS-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

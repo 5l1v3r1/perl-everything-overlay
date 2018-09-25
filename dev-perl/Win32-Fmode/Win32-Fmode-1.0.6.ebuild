@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BROWSERUK"
-DIST_VERSION="v1.0.6"
-DIST_A="Win32-Fmode-1.0.6.tar.gz"
+DIST_VERSION="1.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

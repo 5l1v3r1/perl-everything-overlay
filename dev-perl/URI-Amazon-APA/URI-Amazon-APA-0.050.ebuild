@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANKOGAI"
-DIST_VERSION="0.05"
-DIST_A="URI-Amazon-APA-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/URI
+	>=dev-perl/URI-1.360
 	virtual/perl-Digest-SHA
 	>=virtual/perl-Encode-2.000
 	virtual/perl-Test-Simple
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

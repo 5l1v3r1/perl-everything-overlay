@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RLANG"
-DIST_VERSION="0.042"
-DIST_A="Web-AssetLib-OutputEngine-S3-0.042.tar.gz"
+DIST_VERSION="0.042" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Compile
 	>=virtual/perl-Test-Simple-0.980
 "
+

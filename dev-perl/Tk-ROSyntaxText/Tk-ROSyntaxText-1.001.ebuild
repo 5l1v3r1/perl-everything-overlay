@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KCOTT"
-DIST_VERSION="1.001"
-DIST_A="Tk-ROSyntaxText-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.009"
-DIST_A="QBit-Application-Model-DB-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Exceptions
 	dev-perl/QBit-Application
 	dev-perl/QBit-Class
+	dev-perl/base
 	dev-perl/qbit
 "
 DEPEND="
@@ -31,3 +31,4 @@ DEPEND="
 	dev-perl/lib-abs
 	virtual/perl-Test-Simple
 "
+

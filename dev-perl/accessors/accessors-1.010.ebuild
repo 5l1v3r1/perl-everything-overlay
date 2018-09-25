@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPURKIS"
-DIST_VERSION="1.01"
-DIST_A="accessors-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.200
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

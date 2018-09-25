@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.31"
-DIST_A="Sort-MergeSort-0.31.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.31" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Sort-MergeSort-0.31.tar.gz -> Sort-MergeSort-0.31.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Sort-MergeSort-0.31 ${WORKDIR}/Sort-MergeSort-0.31
+}
+

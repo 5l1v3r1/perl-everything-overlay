@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GTERMARS"
-DIST_VERSION="0.11"
-DIST_A="TAP-Formatter-JUnit-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-XML
 	virtual/perl-Test-Simple
 "
+

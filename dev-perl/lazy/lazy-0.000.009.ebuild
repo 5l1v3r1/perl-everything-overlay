@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000009"
-DIST_A="lazy-0.000009.tar.gz"
+DIST_VERSION="0.000009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/App-cpm-0.975
+	dev-perl/App-cpm
 	dev-perl/Try-Tiny
 	>=dev-perl/local-lib-2.000.024
 	virtual/perl-Carp
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ARTICLE"
 DIST_VERSION="0.02"
-DIST_A="XML-Generator-RSS10-lgcl-0.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

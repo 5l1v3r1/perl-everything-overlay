@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBURKE"
-DIST_VERSION="4.05"
-DIST_A="Pod-HTML2Pod-4.05.tar.gz"
+DIST_VERSION="4.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

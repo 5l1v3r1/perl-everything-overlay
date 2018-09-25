@@ -6,8 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="JAE"
 DIST_VERSION="0.02"
-DIST_A="Perlipse-0.02.zip"
-SRC_URI="mirror://cpan/authors/id/J/JA/JAE/perlipse/Perlipse-0.02.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JAE/perlipse/Perlipse-0.02.zip -> Perlipse-0.02.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perlipse-0.02 ${WORKDIR}/Perlipse-0.02
+}
+

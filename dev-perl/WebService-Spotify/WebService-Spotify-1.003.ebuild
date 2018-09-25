@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICKL"
-DIST_VERSION="1.003"
-DIST_A="WebService-Spotify-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+

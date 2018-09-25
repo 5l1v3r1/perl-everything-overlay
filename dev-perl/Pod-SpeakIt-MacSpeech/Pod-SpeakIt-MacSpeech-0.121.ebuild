@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mac-Carbon-0.770
+	dev-perl/Mac-Carbon
 	dev-perl/Pod-PseudoPod
 "
 DEPEND="

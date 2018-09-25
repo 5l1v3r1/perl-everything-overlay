@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IWATA"
-DIST_VERSION="0.04"
-DIST_A="Test-Docker-Image-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.112
 	>=dev-perl/Test-Mock-Guard-0.100
 	>=dev-perl/Test-UseAllModules-0.150
 	>=virtual/perl-Test-Simple-0.980
 "
+

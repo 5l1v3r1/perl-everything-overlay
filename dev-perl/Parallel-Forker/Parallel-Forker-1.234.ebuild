@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WSNYDER"
-DIST_VERSION="1.234"
-DIST_A="Parallel-Forker-1.234.tar.gz"
+DIST_VERSION="1.234" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAJAI"
-DIST_VERSION="2.00"
-DIST_A="Yahoo-Weather-Api-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/XML-Validate
 	virtual/perl-Test-Simple
 "
+

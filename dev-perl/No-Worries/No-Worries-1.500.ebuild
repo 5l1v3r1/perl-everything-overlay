@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LCONS"
-DIST_VERSION="1.5"
-DIST_A="No-Worries-1.5.tar.gz"
+DIST_VERSION="1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
 "
+

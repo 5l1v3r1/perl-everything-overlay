@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DARREN"
-DIST_VERSION="1.38"
-DIST_A="Text-TabularDisplay-1.38.tar.gz"
+DIST_VERSION="1.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

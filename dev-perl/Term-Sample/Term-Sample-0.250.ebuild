@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JBRYAN"
 DIST_VERSION="0.25"
-DIST_A="Term-Sample-0.25.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

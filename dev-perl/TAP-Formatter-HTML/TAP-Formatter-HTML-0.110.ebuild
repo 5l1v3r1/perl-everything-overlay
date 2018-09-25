@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPURKIS"
-DIST_VERSION="0.11"
-DIST_A="TAP-Formatter-HTML-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	>=dev-perl/URI-1.350
 	>=dev-perl/accessors-0.020
 	>=virtual/perl-File-Temp-0.170
-	>=virtual/perl-Test-Harness-3.100
+	>=virtual/perl-Test-Harness-3.170
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.010
 "
+

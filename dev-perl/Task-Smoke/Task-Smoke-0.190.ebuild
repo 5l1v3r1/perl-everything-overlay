@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAAL"
-DIST_VERSION="0.19"
-DIST_A="Task-Smoke-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 	>=dev-perl/Test-TAP-Model-0.080
 	dev-perl/Time-Out
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

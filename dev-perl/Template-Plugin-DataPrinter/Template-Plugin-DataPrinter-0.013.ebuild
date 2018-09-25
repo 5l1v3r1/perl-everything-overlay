@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDT"
-DIST_VERSION="0.013"
-DIST_A="Template-Plugin-DataPrinter-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "
+

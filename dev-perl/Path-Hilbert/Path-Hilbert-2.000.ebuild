@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PWBENNETT"
-DIST_VERSION="2.000"
-DIST_A="Path-Hilbert-2.000.tar.gz"
+DIST_VERSION="2.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.03"
-DIST_A="PlugAuth-Plugin-Finger-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Clustericious-1.060
 	dev-perl/EV
 	dev-perl/Log-Log4perl
-	>=dev-perl/PlugAuth-0.320
+	dev-perl/PlugAuth
 	dev-perl/Role-Tiny
 "
 DEPEND="
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Clustericious-Cluster-0.310
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOVKASM"
-DIST_VERSION="0.004"
-DIST_A="Panda-NSS-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

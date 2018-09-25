@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GMATHEWS"
-DIST_VERSION="0.009"
-DIST_A="String-Markov-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Storable
 "
+

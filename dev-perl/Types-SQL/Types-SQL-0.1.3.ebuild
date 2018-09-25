@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/PerlX-Maybe
 	dev-perl/Ref-Util
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.440
 	virtual/perl-Exporter
 "
 DEPEND="

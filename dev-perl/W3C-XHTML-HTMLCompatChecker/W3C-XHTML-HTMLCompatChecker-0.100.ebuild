@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="XHTML"
-DIST_VERSION="0.10"
-DIST_A="W3C-XHTML-HTMLCompatChecker-0.10.tar.gz"
+DIST_AUTHOR="OLIVIERT"
+DIST_VERSION="0.10" 
+SRC_URI="mirror://cpan/authors/id/O/OL/OLIVIERT/XHTML/W3C-XHTML-HTMLCompatChecker-0.10.tar.gz -> W3C-XHTML-HTMLCompatChecker-0.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/W3C-XHTML-HTMLCompatChecker-0.10 ${WORKDIR}/W3C-XHTML-HTMLCompatChecker-0.10
+}
+

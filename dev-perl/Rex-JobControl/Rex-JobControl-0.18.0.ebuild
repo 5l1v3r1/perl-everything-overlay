@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRIED"
-DIST_VERSION="0.18.0"
-DIST_A="Rex-JobControl-0.18.0.tar.gz"
+DIST_VERSION="0.18.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ RDEPEND="
 	dev-perl/Mojolicious-Plugin-Authentication
 	dev-perl/Rex
 	dev-perl/YAML
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -37,3 +37,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="0.007"
-DIST_A="Perl6-Export-0.07.tar.gz"
+DIST_VERSION="0.007" 
+SRC_URI="mirror://cpan/authors/id/D/DC/DCONWAY/Perl6-Export-0.07.tar.gz -> Perl6-Export-0.007.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perl6-Export-0.07 ${WORKDIR}/Perl6-Export-0.007
+}
+

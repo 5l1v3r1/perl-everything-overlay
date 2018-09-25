@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANBOO"
-DIST_VERSION="0.15"
-DIST_A="Tie-Handle-CSV-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Text-CSV-XS
 	virtual/perl-Test-Simple
 "
+

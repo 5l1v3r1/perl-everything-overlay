@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTH"
-DIST_VERSION="v0.0.2"
-DIST_A="Statistics-MVA-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Math-MatrixReal-2.5.0
+	>=dev-perl/Math-MatrixReal-2.050
 	>=virtual/perl-Carp-1.080
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

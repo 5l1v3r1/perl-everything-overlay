@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBAIL"
-DIST_VERSION="1.00"
-DIST_A="Rose-DBx-Role-QueryCannery-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

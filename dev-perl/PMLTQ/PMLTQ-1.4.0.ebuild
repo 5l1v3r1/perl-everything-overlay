@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATY"
-DIST_VERSION="1.4.0"
-DIST_A="PMLTQ-1.4.0.tar.gz"
+DIST_VERSION="1.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +50,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

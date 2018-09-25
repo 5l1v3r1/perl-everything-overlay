@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PHAYLON"
-DIST_VERSION="0.001"
-DIST_A="Syntax-Feature-Method-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARODLAND"
-DIST_VERSION="0.03"
-DIST_A="Syntax-Keyword-RawQuote-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.036
+	dev-perl/Module-Build
 "
+

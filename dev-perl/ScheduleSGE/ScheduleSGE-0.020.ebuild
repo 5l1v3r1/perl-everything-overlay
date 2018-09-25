@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="SGE"
+DIST_AUTHOR="LINSALROB"
 DIST_VERSION="0.02"
-DIST_A="ScheduleSGE-0.02.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/L/LI/LINSALROB/SGE/ScheduleSGE-0.02.tgz -> ScheduleSGE-0.02.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ScheduleSGE-0.02 ${WORKDIR}/ScheduleSGE-0.02
+}
+

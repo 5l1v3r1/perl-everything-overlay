@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PTHAYER"
-DIST_VERSION="0.0"
-DIST_A="Spirit-Of-PallThayer.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/P/PT/PTHAYER/Spirit-Of-PallThayer.tar.gz -> Spirit-Of-PallThayer-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Spirit-Of-PallThayer ${WORKDIR}/Spirit-Of-PallThayer-
+}
+

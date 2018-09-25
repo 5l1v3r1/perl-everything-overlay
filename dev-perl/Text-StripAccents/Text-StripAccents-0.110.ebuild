@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Text-StripAccents"
-DIST_VERSION="0.11"
-DIST_A="Text-StripAccents-0.11.tar.gz"
+DIST_AUTHOR="CCOLBOURN"
+DIST_VERSION="0.11" 
+SRC_URI="mirror://cpan/authors/id/C/CC/CCOLBOURN/Text-StripAccents/Text-StripAccents-0.11.tar.gz -> Text-StripAccents-0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-StripAccents-0.11 ${WORKDIR}/Text-StripAccents-0.11
+}
+

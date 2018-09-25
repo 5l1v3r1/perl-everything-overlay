@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FIBO"
-DIST_VERSION="0.04"
-DIST_A="Perl-Box-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,18 +27,22 @@ RDEPEND="
 	>=dev-perl/Mojolicious-6.120
 	>=dev-perl/Moo-2.000
 	>=dev-perl/Moose-2.140.500
+	>=dev-perl/Regexp-Common-2013031301.000
 	>=dev-perl/Task-BeLike-FIBO-0.190
 	>=dev-perl/Template-Toolkit-2.260
 	>=dev-perl/Test-Class-0.480
 	>=dev-perl/Test-Exception-0.400
 	>=dev-perl/Test-Most-0.340
+	>=dev-perl/YAML-1.150
 	>=dev-perl/libwww-perl-6.130
-	>=dev-perl/regexp-common-2013031301.000
-	>=dev-perl/yaml-1.150
 	>=virtual/perl-Digest-MD5-2.540
 	>=virtual/perl-Scalar-List-Utils-1.410
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Test-Compile-1.2.1
+	>=dev-perl/Test-Pod-1.480
+	>=virtual/perl-Test-Simple-1.001.009
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="2.20"
-DIST_A="Test-BrewBuild-2.20.tar.gz"
+DIST_VERSION="2.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Archive-Zip
 	>=dev-perl/Mock-Sub-1.070
 "
+

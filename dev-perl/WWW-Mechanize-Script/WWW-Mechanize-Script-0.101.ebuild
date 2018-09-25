@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="0.101"
-DIST_A="WWW-Mechanize-Script-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Hash-Merge-0.120
 	>=dev-perl/JSON-2.000
 	>=dev-perl/List-MoreUtils-0.220
-	dev-perl/Module-Pluggable
+	>=dev-perl/Module-Pluggable-4.000
 	>=dev-perl/Params-Util-0.330
 	dev-perl/Pod-Usage
 	>=dev-perl/Template-Toolkit-2.200
@@ -48,3 +47,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

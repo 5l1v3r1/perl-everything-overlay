@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSCHUPP"
-DIST_VERSION="1.51"
-DIST_A="VCS-CMSynergy-1.51.tar.gz"
+DIST_VERSION="1.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	virtual/perl-Test-Simple
 "
+

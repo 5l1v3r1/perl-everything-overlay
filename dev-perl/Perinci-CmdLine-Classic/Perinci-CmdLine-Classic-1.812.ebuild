@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="1.812"
-DIST_A="Perinci-CmdLine-Classic-1.812.tar.gz"
+DIST_VERSION="1.812" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +50,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.10"
-DIST_A="Plack-App-FCGIDispatcher-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/FCGI-0.700
 	>=dev-perl/FCGI-Client-0.060
 	dev-perl/HTTP-Message
-	>=dev-perl/Plack-0.997
+	dev-perl/Plack
 	virtual/perl-parent
 "
 DEPEND="
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	>=virtual/perl-Test-Simple-0.880
 "
+

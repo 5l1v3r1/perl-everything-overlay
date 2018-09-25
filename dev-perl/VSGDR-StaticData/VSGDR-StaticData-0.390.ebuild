@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEDMEDVED"
-DIST_VERSION="0.39"
-DIST_A="VSGDR-StaticData-0.39.tar.gz"
+DIST_VERSION="0.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

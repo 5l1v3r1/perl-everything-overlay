@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0303"
-DIST_A="Test-Mock-Class-0.0303.tar.gz"
+DIST_VERSION="0.0303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Class-Inspector
+	dev-perl/Module-Build
 	>=dev-perl/Test-Unit-Lite-0.120
 "
+

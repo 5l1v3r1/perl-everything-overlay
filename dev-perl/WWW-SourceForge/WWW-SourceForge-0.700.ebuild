@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBOW"
-DIST_VERSION="0.70"
-DIST_A="WWW-SourceForge-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	dev-perl/XML-Feed
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

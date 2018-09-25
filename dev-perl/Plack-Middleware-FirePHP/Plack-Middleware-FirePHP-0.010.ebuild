@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORIAN"
-DIST_VERSION="0.01"
-DIST_A="Plack-Middleware-FirePHP-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Null
-	>=dev-perl/Plack-0.902.200
+	>=dev-perl/Plack-0.090
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="
 	${RDEPEND}
 "
+

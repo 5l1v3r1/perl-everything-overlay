@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHNTSAI"
-DIST_VERSION="0.001001"
-DIST_A="Xcode-Project-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.020
+	dev-lang/perl
 	>=dev-perl/Data-Structure-Util-0.160
 	>=dev-perl/JSON-2.940
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

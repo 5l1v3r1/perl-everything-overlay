@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPIT"
-DIST_VERSION="1.19"
-DIST_A="Test-Valgrind-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Socket
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.20"
-DIST_A="Test-POE-Server-TCP-1.20.tar.gz"
+DIST_VERSION="1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-1.004
+	dev-perl/POE
 	>=virtual/perl-Socket-2.000
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.470
 	virtual/perl-Text-ParseWords
 "
+

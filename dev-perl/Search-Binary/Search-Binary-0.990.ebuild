@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAERXESS"
-DIST_VERSION="0.99"
-DIST_A="Search-Binary-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.012
 	>=virtual/perl-Test-Simple-0.960
 "
+

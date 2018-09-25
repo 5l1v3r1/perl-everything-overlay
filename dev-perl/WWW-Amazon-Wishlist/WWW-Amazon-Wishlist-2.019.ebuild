@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="2.019"
-DIST_A="WWW-Amazon-Wishlist-2.019.tar.gz"
+DIST_VERSION="2.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	virtual/perl-Test-Simple
 "
+

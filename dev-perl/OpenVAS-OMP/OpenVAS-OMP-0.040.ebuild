@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WNEESSEN"
-DIST_VERSION="0.04"
-DIST_A="OpenVAS-OMP_0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/W/WN/WNEESSEN/OpenVAS-OMP_0.04.tar.gz -> OpenVAS-OMP-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/OpenVAS-OMP_0.04 ${WORKDIR}/OpenVAS-OMP-0.04
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IKLUFT"
-DIST_VERSION="0.02"
-DIST_A="Slauth-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Apache-Test-1.400
-	>=dev-perl/CGI-3.000
+	>=dev-perl/CGI-1.280
 	virtual/perl-Digest-MD5
 "
 DEPEND="
 	${RDEPEND}
 "
+

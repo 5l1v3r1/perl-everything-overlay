@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EMORISSE"
-DIST_VERSION="0.1"
-DIST_A="Statistics-SPC.v0.1.tar.gz"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/E/EM/EMORISSE/Statistics-SPC.v0.1.tar.gz -> Statistics-SPC-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Statistics-SPC.v0.1 ${WORKDIR}/Statistics-SPC-0.1
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHOCOLATE"
-DIST_VERSION="0.40.0"
-DIST_A="Shell-Autobox-0.40.0.tar.gz"
+DIST_VERSION="0.40.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/autobox-2.850
 	>=virtual/perl-File-Temp-0.160
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

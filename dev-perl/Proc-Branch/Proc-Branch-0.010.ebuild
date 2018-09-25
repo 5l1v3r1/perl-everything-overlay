@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Proc-Branch-001"
-DIST_VERSION="0.01"
-DIST_A="Proc-Branch-0.01.tar.gz"
+DIST_AUTHOR="ISJOUNG"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/I/IS/ISJOUNG/Proc-Branch-001/Proc-Branch-0.01.tar.gz -> Proc-Branch-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Proc-Branch-0.01 ${WORKDIR}/Proc-Branch-0.01
+}
+

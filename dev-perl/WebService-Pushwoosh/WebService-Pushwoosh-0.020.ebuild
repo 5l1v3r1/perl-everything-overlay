@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCARTMELL"
-DIST_VERSION="0.02"
-DIST_A="WebService-Pushwoosh-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.310
 	>=virtual/perl-Test-Simple-0.980
 "
+

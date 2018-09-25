@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDHEDDEN"
-DIST_VERSION="4.02"
-DIST_A="Object-InsideOut-4.02.tar.gz"
+DIST_VERSION="4.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,12 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Exception-Class-1.220
 	virtual/perl-Data-Dumper
-	>=virtual/perl-Scalar-List-Utils-1.380
+	>=virtual/perl-Scalar-List-Utils-1.420.200
 	>=virtual/perl-Test-Simple-0.980
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

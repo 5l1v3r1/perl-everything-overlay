@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TNT"
-DIST_VERSION="1.005"
-DIST_A="Syntax-Feature-Try-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

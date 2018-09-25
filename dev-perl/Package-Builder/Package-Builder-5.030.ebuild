@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRAUONER"
-DIST_VERSION="5.03"
-DIST_A="Package-Builder-5.03.tar.gz"
+DIST_VERSION="5.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

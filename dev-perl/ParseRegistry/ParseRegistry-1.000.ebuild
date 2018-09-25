@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JMACFARLA"
-DIST_VERSION="1.0"
-DIST_A="Parse-Win32Registry-1.0.tar.gz"
+DIST_VERSION="1.0" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMACFARLA/Parse-Win32Registry-1.0.tar.gz -> ParseRegistry-1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Parse-Win32Registry-1.0 ${WORKDIR}/ParseRegistry-1.0
+}
+

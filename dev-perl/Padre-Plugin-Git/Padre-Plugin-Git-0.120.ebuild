@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOWTIE"
-DIST_VERSION="0.12"
-DIST_A="Padre-Plugin-Git-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.070
 	>=virtual/perl-Test-Simple-0.980
 "
+

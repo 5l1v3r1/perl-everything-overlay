@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KNTONAS"
-DIST_VERSION="0.7"
-DIST_A="WWW-Mechanize-Sleepy-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

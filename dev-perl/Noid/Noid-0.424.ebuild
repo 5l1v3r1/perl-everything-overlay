@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAK"
-DIST_VERSION="0.424"
-DIST_A="Noid-0.424.tar.gz"
+DIST_VERSION="0.424" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

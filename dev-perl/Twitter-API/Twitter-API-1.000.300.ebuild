@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMIMS"
-DIST_VERSION="1.0003"
-DIST_A="Twitter-API-1.0003.tar.gz"
+DIST_VERSION="1.0003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,9 +42,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Pod
 	dev-perl/Test-Spec
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

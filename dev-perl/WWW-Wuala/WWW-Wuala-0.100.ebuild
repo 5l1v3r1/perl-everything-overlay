@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="PERFORIN"
 DIST_VERSION="00.1"
-DIST_A="WWW-Wuala-00.1.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

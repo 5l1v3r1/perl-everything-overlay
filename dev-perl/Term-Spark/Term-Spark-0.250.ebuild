@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LURST"
-DIST_VERSION="0.25"
-DIST_A="Term-Spark-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

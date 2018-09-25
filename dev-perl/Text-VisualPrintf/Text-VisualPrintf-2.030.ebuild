@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UTASHIRO"
-DIST_VERSION="2.03"
-DIST_A="Text-VisualPrintf-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

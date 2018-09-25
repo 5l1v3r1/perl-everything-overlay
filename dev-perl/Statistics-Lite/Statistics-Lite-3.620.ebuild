@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIANL"
-DIST_VERSION="3.62"
-DIST_A="Statistics-Lite-3.62.tar.gz"
+DIST_VERSION="3.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

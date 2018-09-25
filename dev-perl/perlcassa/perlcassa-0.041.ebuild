@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKJELLMAN"
-DIST_VERSION="0.041"
-DIST_A="perlcassa-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

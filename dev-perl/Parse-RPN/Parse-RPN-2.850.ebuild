@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FDULAU"
-DIST_VERSION="2.85"
-DIST_A="Parse-RPN-2.85.tar.gz"
+DIST_VERSION="2.85" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

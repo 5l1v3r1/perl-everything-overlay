@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="GWELCH"
 DIST_VERSION="1.1"
-DIST_A="Object-Interface-1.1.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSB"
-DIST_VERSION="1.05"
-DIST_A="PDL-IO-NDF-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Number-Delta
 	virtual/perl-Test-Simple
 "
+

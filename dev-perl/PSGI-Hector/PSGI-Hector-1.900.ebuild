@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="PSGI-Hector"
-DIST_VERSION="1.9"
-DIST_A="PSGI-Hector-1.9.tar.gz"
+DIST_AUTHOR="DUMB"
+DIST_VERSION="1.9" 
+SRC_URI="mirror://cpan/authors/id/D/DU/DUMB/PSGI-Hector/PSGI-Hector-1.9.tar.gz -> PSGI-Hector-1.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,7 +37,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Mock-Sub
-	dev-perl/Test-MockModule
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/PSGI-Hector-1.9 ${WORKDIR}/PSGI-Hector-1.9
+}
+

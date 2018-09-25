@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NSHP"
-DIST_VERSION="1.170412"
-DIST_A="POE-Filter-MessagePack-1.170412.tar.gz"
+DIST_VERSION="1.170412" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

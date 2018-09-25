@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AURUM"
-DIST_VERSION="2.1"
-DIST_A="Text-TEI-Collate-2.1.tar.gz"
+DIST_VERSION="2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-More-UTF8
 "
+

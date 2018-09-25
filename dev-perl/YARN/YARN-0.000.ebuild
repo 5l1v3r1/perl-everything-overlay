@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AOSSAMA"
-DIST_VERSION="0.0"
-DIST_A="YARN.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/A/AO/AOSSAMA/YARN.tar.gz -> YARN-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/YARN ${WORKDIR}/YARN-
+}
+

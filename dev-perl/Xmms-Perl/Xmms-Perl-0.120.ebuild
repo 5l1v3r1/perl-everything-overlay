@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGM"
-DIST_VERSION="0.12"
-DIST_A="Xmms-Perl-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/MP3-Info
 	dev-perl/Term-ReadLine-Perl
 	virtual/perl-Term-ANSIColor
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

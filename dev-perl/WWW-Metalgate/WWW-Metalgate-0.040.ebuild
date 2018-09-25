@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOKUTIN"
-DIST_VERSION="0.04"
-DIST_A="WWW-Metalgate-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,10 @@ RDEPEND="
 	dev-perl/URI-Fetch
 	dev-perl/Web-Scraper
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

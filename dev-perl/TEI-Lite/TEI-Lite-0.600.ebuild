@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHAGEMAN"
-DIST_VERSION="0.60"
-DIST_A="TEI-Lite-0.60.tar.gz"
+DIST_VERSION="0.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

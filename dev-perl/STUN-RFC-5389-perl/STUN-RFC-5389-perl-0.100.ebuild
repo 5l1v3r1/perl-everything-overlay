@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="STUN"
-DIST_VERSION="0.1"
-DIST_A="STUN-RFC_5389-0.1.tar.gz"
+DIST_AUTHOR="DETI"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/D/DE/DETI/STUN/STUN-RFC_5389-0.1.tar.gz -> STUN-RFC_5389-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/STUN-RFC_5389-0.1 ${WORKDIR}/STUN-RFC_5389-0.1
+}
+

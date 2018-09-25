@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSEFM"
-DIST_VERSION="1.02.2"
-DIST_A="Tree-Numbered-DB-1.02.2.tar.gz"
+DIST_VERSION="1.02.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

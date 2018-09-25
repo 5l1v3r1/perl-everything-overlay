@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLIE"
-DIST_VERSION="1.12"
-DIST_A="Text-Cadenceparser-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

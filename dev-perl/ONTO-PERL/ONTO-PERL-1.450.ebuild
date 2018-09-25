@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ONTO-PERL"
-DIST_VERSION="1.45"
-DIST_A="ONTO-PERL-1.45.tar.gz"
+DIST_AUTHOR="EASR"
+DIST_VERSION="1.45" 
+SRC_URI="mirror://cpan/authors/id/E/EA/EASR/ONTO-PERL/ONTO-PERL-1.45.tar.gz -> ONTO-PERL-1.45.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.840
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ONTO-PERL-1.45 ${WORKDIR}/ONTO-PERL-1.45
+}
+

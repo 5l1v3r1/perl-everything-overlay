@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBAKKER"
-DIST_VERSION="0.051003"
-DIST_A="Term-CLI-0.051003.tar.gz"
+DIST_VERSION="0.051003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/File-Which-1.090
 	>=dev-perl/Locale-Maketext-Lexicon-1.000
 	>=dev-perl/Modern-Perl-1.201.401.070
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.001
 	>=dev-perl/Term-ReadLine-Gnu-1.240
 	>=dev-perl/Type-Tiny-1.000.005
 	>=dev-perl/namespace-clean-0.250
@@ -46,3 +45,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.230.400
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

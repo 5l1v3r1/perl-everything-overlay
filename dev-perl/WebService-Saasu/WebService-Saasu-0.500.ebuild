@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEV"
-DIST_VERSION="0.5"
-DIST_A="WebService-Saasu-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Modern-Perl
 	dev-perl/Mouse
-	dev-perl/Web-API
 	dev-perl/XML-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

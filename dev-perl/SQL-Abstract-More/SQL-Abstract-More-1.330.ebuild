@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMI"
-DIST_VERSION="1.33"
-DIST_A="SQL-Abstract-More-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/MRO-Compat
 	dev-perl/Params-Validate
-	>=dev-perl/SQL-Abstract-1.840
+	dev-perl/SQL-Abstract
 	dev-perl/Test-Exception
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

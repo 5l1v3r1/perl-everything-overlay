@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDRAKE"
-DIST_VERSION="0.0005"
-DIST_A="SNMP-OID-Translate-0.0005.tar.gz"
+DIST_VERSION="0.0005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

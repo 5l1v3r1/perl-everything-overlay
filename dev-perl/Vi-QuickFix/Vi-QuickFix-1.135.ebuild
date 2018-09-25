@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANNO"
-DIST_VERSION="1.135"
-DIST_A="Vi-QuickFix-1.135.tar.gz"
+DIST_VERSION="1.135" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

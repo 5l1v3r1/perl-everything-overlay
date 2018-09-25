@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUNYA"
-DIST_VERSION="0.05"
-DIST_A="Plack-Middleware-Image-Dummy-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

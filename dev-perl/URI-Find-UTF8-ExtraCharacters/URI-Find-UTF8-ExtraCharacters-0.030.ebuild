@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAUFMAN"
-DIST_VERSION="0.03"
-DIST_A="URI-Find-UTF8-ExtraCharacters-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Base
 	virtual/perl-Test-Simple
 "
+

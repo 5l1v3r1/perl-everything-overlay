@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="1.64"
-DIST_A="POE-Component-CPANPLUS-YACSmoke-1.64.tar.gz"
+DIST_VERSION="1.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-1.367
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
 	virtual/perl-Storable
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

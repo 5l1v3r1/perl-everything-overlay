@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPENBURG"
-DIST_VERSION="0.102"
-DIST_A="WWW-Wookie-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-0.810
 	>=virtual/perl-Test-Simple-0.810
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMCBRIDE"
-DIST_VERSION="0.04"
-DIST_A="Template-Plugin-ByDate-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/List-MoreUtils-0.190
+	dev-perl/Module-Build
 	dev-perl/Template-Toolkit
 	>=dev-perl/TimeDate-2.270
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRADFITZ"
-DIST_VERSION="2.17"
-DIST_A="mogilefs-server-2.17.tar.gz"
+DIST_VERSION="2.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/Net-Netmask
 	>=dev-perl/Perlbal-1.530
 	>=dev-perl/Sys-Syscall-0.220
+	dev-perl/base
 	virtual/perl-Getopt-Long
 	virtual/perl-Sys-Syslog
 "
@@ -31,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

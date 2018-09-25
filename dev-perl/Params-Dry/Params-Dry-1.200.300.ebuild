@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEO"
-DIST_VERSION="1.2003"
-DIST_A="Params-Dry-1.2003.tar.gz"
+DIST_VERSION="1.2003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

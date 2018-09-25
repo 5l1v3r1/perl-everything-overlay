@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBW"
-DIST_VERSION="1.7.2.3"
-DIST_A="X86-Udis86-1.7.2.3.tar.gz"
+DIST_VERSION="1.7.2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

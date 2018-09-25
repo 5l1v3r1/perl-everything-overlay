@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="3.141000"
-DIST_A="Plack-Middleware-Acme-PHPE9568F34-D428-11d2-A769-00AA001ACF42-3.141000.tar.gz"
+DIST_VERSION="3.141000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

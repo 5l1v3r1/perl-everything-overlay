@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCMERTENS"
-DIST_VERSION="0.03"
-DIST_A="PDL-Parallel-threads-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-ExtUtils-ParseXS-3.000
 "
+

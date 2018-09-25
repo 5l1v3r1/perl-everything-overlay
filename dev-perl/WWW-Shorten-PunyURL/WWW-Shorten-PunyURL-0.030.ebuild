@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFIG"
-DIST_VERSION="0.03"
-DIST_A="WWW-Shorten-PunyURL-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	dev-perl/WWW-Shorten
 	dev-perl/XML-LibXML
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

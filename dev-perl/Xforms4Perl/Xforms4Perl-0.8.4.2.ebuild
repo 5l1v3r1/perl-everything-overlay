@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="MARTINB"
-DIST_VERSION="v0.8.4.2"
-DIST_A="Xforms4Perl-0.8.4--2.tgz"
+DIST_VERSION="0.8.4.2"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MARTINB/Xforms4Perl-0.8.4--2.tgz -> Xforms4Perl-0.8.4.2.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Xforms4Perl-0.8.4--2 ${WORKDIR}/Xforms4Perl-0.8.4.2
+}
+

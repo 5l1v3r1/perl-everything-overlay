@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKAREV"
-DIST_VERSION="1.24"
-DIST_A="RPC-ExtDirect-Server-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-HTTP-Tiny-0.014
 	>=virtual/perl-Test-Simple-0.820
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VARISD"
-DIST_VERSION="2.20151210"
-DIST_A="Treex-Core-2.20151210.tar.gz"
+DIST_VERSION="2.20151210" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ RDEPEND="
 	dev-perl/File-Which
 	dev-perl/File-chdir
 	dev-perl/IO-Interactive
-	dev-perl/Lingua-Interset
+	>=dev-perl/Lingua-Interset-2.050
 	dev-perl/List-MoreUtils
 	dev-perl/Locale-Codes
 	dev-perl/Module-Reload
@@ -67,3 +66,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

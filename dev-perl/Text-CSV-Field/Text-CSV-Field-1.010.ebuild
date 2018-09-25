@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRAVEEN"
-DIST_VERSION="1.01"
-DIST_A="Text-CSV-Field-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

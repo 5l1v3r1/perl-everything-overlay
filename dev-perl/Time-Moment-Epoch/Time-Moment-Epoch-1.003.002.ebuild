@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEANEY"
-DIST_VERSION="1.003002"
-DIST_A="Time-Moment-Epoch-1.003002.tar.gz"
+DIST_VERSION="1.003002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Math-Int64
 	dev-perl/Test-Most
 "
+

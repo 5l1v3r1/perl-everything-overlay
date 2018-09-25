@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SRHOTON"
-DIST_VERSION="0.40"
-DIST_A="Workflow-XPDL-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

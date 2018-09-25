@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COWDAWG"
-DIST_VERSION="0.500"
-DIST_A="RPG-Traveller-Starmap-0.500.tar.gz"
+DIST_VERSION="0.500" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

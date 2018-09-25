@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANHOESEL"
-DIST_VERSION="2014.10.02"
-DIST_A="THEMA-MEDIA-2014.10.02.tar.gz"
+DIST_VERSION="2014.10.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

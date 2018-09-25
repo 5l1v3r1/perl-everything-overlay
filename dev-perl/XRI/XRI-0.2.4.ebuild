@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FEN"
-DIST_VERSION="0.2.4"
-DIST_A="XRI-0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

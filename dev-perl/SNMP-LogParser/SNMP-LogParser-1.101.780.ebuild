@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPORRES"
-DIST_VERSION="1.10178"
-DIST_A="SNMP-LogParser-1.10178.tar.gz"
+DIST_VERSION="1.10178" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

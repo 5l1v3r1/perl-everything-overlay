@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YAMATO"
-DIST_VERSION="1.12"
-DIST_A="QDBM_File-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

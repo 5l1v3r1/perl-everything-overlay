@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOUSTON"
-DIST_VERSION="1.151570"
-DIST_A="Parse-Dexcom-Tab-1.151570.tar.gz"
+DIST_VERSION="1.151570" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

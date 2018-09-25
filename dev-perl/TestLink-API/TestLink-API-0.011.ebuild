@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEODESIAN"
-DIST_VERSION="0.011"
-DIST_A="TestLink-API-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "
+

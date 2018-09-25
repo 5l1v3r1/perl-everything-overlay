@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.000025"
-DIST_A="WebService-PayPal-PaymentsAdvanced-0.000025.tar.gz"
+DIST_VERSION="0.000025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/LWP-Protocol-https
 	dev-perl/List-AllUtils
 	dev-perl/Mojolicious
-	dev-perl/Moo
+	>=dev-perl/Moo-1.004.005
 	dev-perl/MooX-HandlesVia
 	dev-perl/MooX-StrictConstructor
 	dev-perl/Net-Works
@@ -55,3 +54,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960
 "
+

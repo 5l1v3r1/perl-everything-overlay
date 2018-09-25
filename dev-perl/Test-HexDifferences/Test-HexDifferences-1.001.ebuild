@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="1.001"
-DIST_A="Test-HexDifferences-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,10 +20,11 @@ RDEPEND="
 	>=dev-perl/Test-Differences-0.600
 	dev-perl/Test-NoWarnings
 	dev-perl/Text-Diff
-	>=virtual/perl-Test-Simple-0.990
+	virtual/perl-Test-Simple
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

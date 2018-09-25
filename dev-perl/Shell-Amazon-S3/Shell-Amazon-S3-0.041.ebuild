@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITANO"
-DIST_VERSION="0.041"
-DIST_A="Shell-Amazon-S3-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-perl/Perl6-Say
 	dev-perl/YAML
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Term-ReadLine
@@ -37,3 +36,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

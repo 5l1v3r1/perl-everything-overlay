@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIRMESS"
-DIST_VERSION="0.004"
-DIST_A="Test-Spelling-Comment-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,8 +27,8 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
-	dev-perl/Test-MockModule
 	>=dev-perl/Test-TempDir-Tiny-0.017
 	dev-perl/lib
 	virtual/perl-File-Spec
 "
+

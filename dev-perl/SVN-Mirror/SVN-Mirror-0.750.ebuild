@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLKAO"
-DIST_VERSION="0.75"
-DIST_A="SVN-Mirror-0.75.tar.gz"
+DIST_VERSION="0.75" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,9 @@ RDEPEND="
 	dev-perl/TermReadKey
 	dev-perl/TimeDate
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

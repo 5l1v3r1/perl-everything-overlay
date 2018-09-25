@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JEAGLE"
 DIST_VERSION="0.7"
-DIST_A="Parse-EventLog-0.7.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

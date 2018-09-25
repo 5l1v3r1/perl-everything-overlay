@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.001003"
-DIST_A="Statocles-AppRole-ExtraFeeds-0.001003.tar.gz"
+DIST_VERSION="0.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-1.030
 	dev-perl/Moo
-	dev-perl/Statocles
+	>=dev-perl/Statocles-0.070
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 "
@@ -32,9 +31,11 @@ DEPEND="
 	dev-perl/Package-Stash
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "
+

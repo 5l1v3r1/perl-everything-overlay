@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BESSARABV"
-DIST_VERSION="v1.0.1"
-DIST_A="StatusBoard-Graph-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-JSON
 	virtual/perl-Test-Simple
 "
+

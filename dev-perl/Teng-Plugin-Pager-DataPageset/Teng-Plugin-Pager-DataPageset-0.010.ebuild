@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKUBASS"
-DIST_VERSION="0.01"
-DIST_A="Teng-Plugin-Pager-DataPageset-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

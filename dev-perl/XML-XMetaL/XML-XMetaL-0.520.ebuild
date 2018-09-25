@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEMA"
-DIST_VERSION="0.52"
-DIST_A="XML-XMetaL-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

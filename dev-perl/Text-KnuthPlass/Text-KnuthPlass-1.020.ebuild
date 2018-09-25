@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMON"
-DIST_VERSION="1.02"
-DIST_A="Text-KnuthPlass-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

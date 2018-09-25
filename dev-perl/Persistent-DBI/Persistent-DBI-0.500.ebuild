@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWINTERS"
-DIST_VERSION="0.50"
-DIST_A="Persistent-DBI-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

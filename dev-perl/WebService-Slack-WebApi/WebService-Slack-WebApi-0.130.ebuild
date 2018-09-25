@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIHYAERU"
-DIST_VERSION="0.13"
-DIST_A="WebService-Slack-WebApi-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Devel-Cover-Report-Coveralls
+	dev-perl/Module-Build
 	dev-perl/Test-Mock-Furl
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GDSL"
-DIST_VERSION="1.02"
-DIST_A="XML-Quote-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

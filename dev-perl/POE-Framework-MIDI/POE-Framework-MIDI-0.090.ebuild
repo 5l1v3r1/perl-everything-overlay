@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SMCNABB"
-DIST_VERSION="0.09"
-DIST_A="POE-Framework-MIDI-0.09.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SM/SMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/S/SM/SMCNABB/POE-Framework-MIDI/POE-Framework-MIDI-0.09.tar.gz -> POE-Framework-MIDI-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/POE-Framework-MIDI-0.09 ${WORKDIR}/POE-Framework-MIDI-0.09
+}
+

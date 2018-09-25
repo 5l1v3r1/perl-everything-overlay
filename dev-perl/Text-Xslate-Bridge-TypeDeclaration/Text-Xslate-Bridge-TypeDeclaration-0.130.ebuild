@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POKUTUNA"
-DIST_VERSION="0.13"
-DIST_A="Text-Xslate-Bridge-TypeDeclaration-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Data-Section-Simple
+	dev-perl/Module-Build
 	dev-perl/Mouse
 	dev-perl/MouseX-Types
 	dev-perl/Test-Fatal
@@ -35,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

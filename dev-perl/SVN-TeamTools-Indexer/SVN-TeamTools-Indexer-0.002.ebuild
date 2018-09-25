@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKLEEUW"
-DIST_VERSION="0.002"
-DIST_A="SVN-TeamTools-Indexer-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,4 +37,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/CGI
 	virtual/perl-Time-HiRes
+	virtual/perl-Test-Simple
 "
+

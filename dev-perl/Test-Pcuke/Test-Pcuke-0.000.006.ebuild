@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRUSOE"
-DIST_VERSION="0.000006"
-DIST_A="Test-Pcuke-0.000006.tar.gz"
+DIST_VERSION="0.000006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Exporter
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="0.002004"
-DIST_A="Var-Pairs-0.002004.tar.gz"
+DIST_VERSION="0.002004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Alias-1.160
-	>=dev-perl/Devel-Callsite-0.060
 	>=dev-perl/PadWalker-1.930
 	dev-perl/experimental
 	virtual/perl-Test-Simple
@@ -26,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

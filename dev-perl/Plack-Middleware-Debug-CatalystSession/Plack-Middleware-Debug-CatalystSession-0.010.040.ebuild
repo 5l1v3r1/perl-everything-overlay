@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKUYPER"
-DIST_VERSION="0.01004"
-DIST_A="Plack-Middleware-Debug-CatalystSession-0.01004.tar.gz"
+DIST_VERSION="0.01004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.940
 "
+

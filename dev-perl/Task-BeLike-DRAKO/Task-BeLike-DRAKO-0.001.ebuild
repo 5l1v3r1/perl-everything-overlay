@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRAKO"
-DIST_VERSION="0.001"
-DIST_A="Task-BeLike-DRAKO-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

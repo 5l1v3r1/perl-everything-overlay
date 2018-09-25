@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMASZ"
-DIST_VERSION="0.51"
-DIST_A="OWL-Simple-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

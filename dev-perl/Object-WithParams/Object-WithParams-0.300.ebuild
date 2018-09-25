@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JALDHAR"
-DIST_VERSION="0.3"
-DIST_A="Object-WithParams-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

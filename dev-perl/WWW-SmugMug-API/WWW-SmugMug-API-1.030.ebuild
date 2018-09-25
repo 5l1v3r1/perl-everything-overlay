@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="SmugMug"
-DIST_VERSION="1.03"
-DIST_A="WWW-SmugMug-API-1.03.tar.gz"
+DIST_AUTHOR="FLOWERYSO"
+DIST_VERSION="1.03" 
+SRC_URI="mirror://cpan/authors/id/F/FL/FLOWERYSO/SmugMug/WWW-SmugMug-API-1.03.tar.gz -> WWW-SmugMug-API-1.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-SmugMug-API-1.03 ${WORKDIR}/WWW-SmugMug-API-1.03
+}
+

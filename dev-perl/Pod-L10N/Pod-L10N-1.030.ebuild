@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARGRATH"
-DIST_VERSION="1.03"
-DIST_A="Pod-L10N-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-MakeMaker
 "
+

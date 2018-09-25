@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJACK"
-DIST_VERSION="0.13"
-DIST_A="Test-Mock-Alarm-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

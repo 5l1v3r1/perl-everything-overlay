@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIAVASH"
-DIST_VERSION="0.000035"
-DIST_A="Text-Markmoredown-0.000035.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIAVASH/text/Text-Markmoredown-0.000035.tar.gz"
+DIST_VERSION="0.000035" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIAVASH/text/Text-Markmoredown-0.000035.tar.gz -> Text-Markmoredown-0.000035.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Text-Markmoredown-0.000035 ${WORKDIR}/Text-Markmoredown-0.000035
+}
+

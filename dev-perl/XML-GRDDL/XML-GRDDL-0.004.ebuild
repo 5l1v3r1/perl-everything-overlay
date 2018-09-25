@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.004"
-DIST_A="XML-GRDDL-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Data-UUID
 	>=dev-perl/RDF-RDFa-Parser-1.097
 	>=dev-perl/RDF-Trine-0.135
-	dev-perl/URI
+	>=dev-perl/URI-1.300
 	>=dev-perl/XML-LibXML-1.600
 	dev-perl/XML-LibXSLT
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PINYAN"
-DIST_VERSION="1.10"
-DIST_A="Tie-DirHandle-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BROQ"
-DIST_VERSION="v1.0.5"
-DIST_A="Switch-Perlish-1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

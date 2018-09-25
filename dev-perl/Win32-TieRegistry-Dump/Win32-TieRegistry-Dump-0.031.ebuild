@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LGODDARD"
-DIST_VERSION="0.031"
-DIST_A="Win32-TieRegistry-Dump-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

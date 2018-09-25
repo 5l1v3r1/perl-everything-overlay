@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDICK"
-DIST_VERSION="0.20"
-DIST_A="Spreadsheet-CSV-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/CGI
 	virtual/perl-Test-Simple
 "
+

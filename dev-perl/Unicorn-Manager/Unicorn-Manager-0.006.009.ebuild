@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUGENKEN"
-DIST_VERSION="0.006009"
-DIST_A="Unicorn-Manager-0.006009.tar.gz"
+DIST_VERSION="0.006009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,10 +22,10 @@ RDEPEND="
 	dev-perl/Net-Interface
 	dev-perl/Net-Server
 	dev-perl/Proc-Daemon
+	dev-perl/YAML
 	dev-perl/bareword-filehandles
 	dev-perl/indirect
 	dev-perl/multidimensional
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMIRITE"
-DIST_VERSION="0.10"
-DIST_A="Nour-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,15 +21,22 @@ RDEPEND="
 	dev-perl/List-AllUtils
 	dev-perl/Mojolicious
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/String-CamelCase
+	dev-perl/YAML
 	dev-perl/namespace-autoclean
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "
+

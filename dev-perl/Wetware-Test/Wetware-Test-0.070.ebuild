@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRIEUX"
-DIST_VERSION="0.07"
-DIST_A="Wetware-Test-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

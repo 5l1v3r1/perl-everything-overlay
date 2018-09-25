@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDP"
-DIST_VERSION="0.04"
-DIST_A="Xymon-Monitor-SNMP-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Net-SNMP
+	>=dev-perl/Net-SNMP-6.0.0
 	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

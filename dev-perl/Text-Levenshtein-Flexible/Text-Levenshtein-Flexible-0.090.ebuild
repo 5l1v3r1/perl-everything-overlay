@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MBETHKE"
 DIST_VERSION="0.09"
-DIST_A="Text-Levenshtein-Flexible-0.09.tar.bz2"
+DIST_A_EXT="tar.bz2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-LeakTrace
 "
+

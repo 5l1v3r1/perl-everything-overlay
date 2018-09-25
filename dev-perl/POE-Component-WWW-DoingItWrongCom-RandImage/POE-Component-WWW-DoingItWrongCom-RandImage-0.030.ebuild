@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="0.03"
-DIST_A="POE-Component-WWW-DoingItWrongCom-RandImage-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-0.999.900
+	>=dev-perl/POE-1.218.700
 	>=dev-perl/WWW-DoingItWrongCom-RandImage-0.010
 	>=virtual/perl-Carp-1.040
 "
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

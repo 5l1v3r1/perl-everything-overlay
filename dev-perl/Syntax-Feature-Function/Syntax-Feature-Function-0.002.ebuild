@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PHAYLON"
-DIST_VERSION="0.002"
-DIST_A="Syntax-Feature-Function-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.940
 "
+

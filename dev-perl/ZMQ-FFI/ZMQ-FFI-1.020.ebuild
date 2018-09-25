@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CALID"
-DIST_VERSION="1.02"
-DIST_A="ZMQ-FFI-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

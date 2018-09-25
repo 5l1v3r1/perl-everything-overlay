@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.101420"
-DIST_A="Term-Shell-Enhanced-1.101420.tar.gz"
+DIST_VERSION="1.101420" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "
+

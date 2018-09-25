@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASBN"
-DIST_VERSION="1.07"
-DIST_A="Task-BeLike-JONASBN-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -79,3 +78,4 @@ DEPEND="
 	>=dev-perl/Module-Build-Bundle-0.110
 	virtual/perl-ExtUtils-MakeMaker
 "
+

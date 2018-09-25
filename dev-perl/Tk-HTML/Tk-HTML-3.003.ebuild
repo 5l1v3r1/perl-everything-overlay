@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NI-S"
-DIST_VERSION="3.003"
-DIST_A="Tk-HTML-3.003.tar.gz"
+DIST_VERSION="3.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

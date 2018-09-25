@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THB"
-DIST_VERSION="0.62"
-DIST_A="SeeAlso-Identifier-PND-0.62.tar.gz"
+DIST_VERSION="0.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/SeeAlso-Server-0.460
+	>=dev-perl/SeeAlso-Server-0.540
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

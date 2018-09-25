@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="LROCHER"
 DIST_VERSION="1.7"
-DIST_A="Win32-GUI-Scintilla-1.7.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

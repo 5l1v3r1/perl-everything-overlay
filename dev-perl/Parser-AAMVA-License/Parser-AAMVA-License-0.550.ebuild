@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CURTEVANS"
-DIST_VERSION="0.55"
-DIST_A="Parser-AAMVA-License-0.55.tar.gz"
+DIST_VERSION="0.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

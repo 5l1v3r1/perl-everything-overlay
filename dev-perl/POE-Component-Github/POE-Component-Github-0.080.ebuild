@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.08"
-DIST_A="POE-Component-Github-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Algorithm-FloodControl
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-Any-1.190
 	>=dev-perl/JSON-XS-2.232
@@ -31,4 +29,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/POE-Filter-HTTP-Parser-1.060
+	>=dev-perl/Test-POE-Server-TCP-1.040
+	>=virtual/perl-Test-Simple-0.470
 "
+

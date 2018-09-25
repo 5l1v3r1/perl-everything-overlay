@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IGIBBS"
-DIST_VERSION="2.12"
-DIST_A="WordPress-XMLRPC-2.12.tar.gz"
+DIST_VERSION="2.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

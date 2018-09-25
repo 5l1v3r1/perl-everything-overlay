@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANR"
-DIST_VERSION="0.172130"
-DIST_A="Plack-Middleware-Auth-Negotiate-0.172130.tar.gz"
+DIST_VERSION="0.172130" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,17 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
-	dev-perl/GSSAPI
-	dev-perl/Plack
-	virtual/perl-MIME-Base64
-	virtual/perl-Scalar-List-Utils
-	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-Tiny-0.034
-	virtual/perl-File-Spec
-	virtual/perl-IO
-	virtual/perl-Test-Simple
+	dev-perl/Module-Build
 "
+

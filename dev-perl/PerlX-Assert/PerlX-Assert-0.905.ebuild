@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.905"
-DIST_A="PerlX-Assert-0.905.tar.gz"
+DIST_VERSION="0.905" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	>=dev-perl/Test-Modern-0.007
 "
+

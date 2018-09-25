@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RALAMOSM"
 DIST_VERSION="0.5"
-DIST_A="Parse-Nessus-Plugin-0.5.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

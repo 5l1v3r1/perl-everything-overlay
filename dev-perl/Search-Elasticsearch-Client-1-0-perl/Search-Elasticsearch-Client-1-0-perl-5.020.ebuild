@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="5.02"
-DIST_A="Search-Elasticsearch-Client-1_0-5.02.tar.gz"
+DIST_VERSION="5.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Devel-GlobalDestruction
 	dev-perl/Moo
-	dev-perl/Search-Elasticsearch
+	>=dev-perl/Search-Elasticsearch-5.020
 	dev-perl/Try-Tiny
 	dev-perl/namespace-clean
 "
@@ -32,6 +31,8 @@ DEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.980
 "
+

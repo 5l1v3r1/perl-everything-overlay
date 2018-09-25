@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.071"
-DIST_A="YUI-Loader-0.071.tar.gz"
+DIST_VERSION="0.071" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Directory-Scratch
 	dev-perl/Test-Most
 "
+

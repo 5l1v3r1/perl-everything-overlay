@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VENKATESH"
-DIST_VERSION="0.4"
-DIST_A="Text-FixedWidth-Parser-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Class-0.500
 	>=dev-perl/Test-Most-0.340
 "
+

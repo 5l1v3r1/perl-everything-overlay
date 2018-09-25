@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COOLMEN"
-DIST_VERSION="0.061"
-DIST_A="Test-Mojo-More-0.061.tar.gz"
+DIST_VERSION="0.061" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

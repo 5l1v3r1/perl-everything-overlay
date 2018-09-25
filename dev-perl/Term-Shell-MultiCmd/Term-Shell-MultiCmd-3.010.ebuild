@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEZRA"
-DIST_VERSION="3.01"
-DIST_A="Term-Shell-MultiCmd-3.01.tar.gz"
+DIST_VERSION="3.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

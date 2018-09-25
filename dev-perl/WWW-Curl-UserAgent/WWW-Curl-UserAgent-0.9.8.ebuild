@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHK"
-DIST_VERSION="0.9.8"
-DIST_A="WWW-Curl-UserAgent-0.9.8.tar.gz"
+DIST_VERSION="0.9.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

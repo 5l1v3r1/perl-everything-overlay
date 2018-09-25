@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TPG"
-DIST_VERSION="2.1"
-DIST_A="SNMP-Multi-2.1.tar.gz"
+DIST_VERSION="2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VADIML"
-DIST_VERSION="4.004"
-DIST_A="QtCore-4.004.tar.gz"
+DIST_VERSION="4.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

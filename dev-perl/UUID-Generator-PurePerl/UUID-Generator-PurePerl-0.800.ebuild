@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BANB"
-DIST_VERSION="0.80"
-DIST_A="UUID-Generator-PurePerl-0.80.tar.gz"
+DIST_VERSION="0.80" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-Digest-1.000
 	>=virtual/perl-Exporter-5.562
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-HiRes-1.200
 "
 DEPEND="
 	${RDEPEND}
 "
+

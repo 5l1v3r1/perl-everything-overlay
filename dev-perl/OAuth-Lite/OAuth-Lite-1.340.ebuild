@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LYOKATO"
-DIST_VERSION="1.34"
-DIST_A="OAuth-Lite-1.34.tar.gz"
+DIST_VERSION="1.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

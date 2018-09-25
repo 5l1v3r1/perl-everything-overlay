@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLANE"
-DIST_VERSION="0.015"
-DIST_A="VMS-FileUtils-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

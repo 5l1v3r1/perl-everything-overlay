@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANIC"
-DIST_VERSION="v0.0.11"
-DIST_A="WebService-Shippo-0.0.11.tar.gz"
+DIST_VERSION="0.0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,6 @@ RDEPEND="
 	dev-perl/File-HomeDir
 	dev-perl/JSON-XS
 	dev-perl/LWP-Protocol-https
-	dev-perl/Locale-Codes
 	dev-perl/MRO-Compat
 	dev-perl/Params-Callbacks
 	dev-perl/Path-Class
@@ -36,3 +34,4 @@ DEPEND="
 	dev-perl/Data-Dumper-Concise
 	dev-perl/Test-Deep
 "
+

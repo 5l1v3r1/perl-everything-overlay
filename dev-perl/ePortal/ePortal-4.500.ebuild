@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSAKOV"
-DIST_VERSION="4.5"
-DIST_A="ePortal-4.5.tar.gz"
+DIST_VERSION="4.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,4 +37,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAUNAY"
-DIST_VERSION="0.8052"
-DIST_A="oEdtk-0.8052.tar.gz"
+DIST_VERSION="0.8052" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

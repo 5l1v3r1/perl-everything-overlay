@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYMON"
-DIST_VERSION="1.0.1"
-DIST_A="Strehler-Element-Extra-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	>=dev-perl/Dancer2-0.154.000
 	dev-perl/Moo
-	>=dev-perl/Strehler-1.6.3
+	dev-perl/Strehler
 "
 DEPEND="
 	${RDEPEND}
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

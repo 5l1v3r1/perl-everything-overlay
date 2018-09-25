@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KISEKI"
-DIST_VERSION="0.10"
-DIST_A="Test-EasyMock-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,6 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/Data-Util
 	dev-perl/Test-Deep
-	dev-perl/Test-MockModule
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-parent
@@ -32,3 +30,4 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	virtual/perl-ExtUtils-CBuilder
 "
+

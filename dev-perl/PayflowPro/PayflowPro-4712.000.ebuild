@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VKHERA"
-DIST_VERSION="4712.0"
-DIST_A="PayflowPro-4712.tar.gz"
+DIST_VERSION="4712" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

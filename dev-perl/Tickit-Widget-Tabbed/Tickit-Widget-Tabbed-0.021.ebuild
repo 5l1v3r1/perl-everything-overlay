@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.021"
-DIST_A="Tickit-Widget-Tabbed-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Tickit-0.280
 	>=dev-perl/Tickit-Widgets-0.360
-	>=virtual/perl-Scalar-List-Utils-1.260
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Refcount
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ECARROLL"
-DIST_VERSION="0.05"
-DIST_A="Template-Jade-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

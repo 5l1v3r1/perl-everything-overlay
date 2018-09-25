@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RKACKLEY"
-DIST_VERSION="0.40"
-DIST_A="Tk-Pgplot-0.40.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RK/RKACKLEY/Tk-Pgplot/Tk-Pgplot-0.40.tar.gz"
+DIST_VERSION="0.40" 
+SRC_URI="mirror://cpan/authors/id/R/RK/RKACKLEY/Tk-Pgplot/Tk-Pgplot-0.40.tar.gz -> Tk-Pgplot-0.40.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tk-Pgplot-0.40 ${WORKDIR}/Tk-Pgplot-0.40
+}
+

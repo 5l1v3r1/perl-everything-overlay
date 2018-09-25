@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PCIMPRICH"
-DIST_VERSION="0.43"
-DIST_A="XML-STX-0.43.tar.gz"
+DIST_VERSION="0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

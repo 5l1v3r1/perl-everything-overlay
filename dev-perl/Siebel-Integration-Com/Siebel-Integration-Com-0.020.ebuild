@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOYDLE"
-DIST_VERSION="0.02"
-DIST_A="Siebel-Integration-Com-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moose-2.000
-	>=dev-perl/Win32-OLE-0.100
+	>=dev-perl/Win32-OLE-1.000
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 "
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

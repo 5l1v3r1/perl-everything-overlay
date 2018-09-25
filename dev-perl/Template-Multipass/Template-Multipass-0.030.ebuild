@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUFFIN"
-DIST_VERSION="0.03"
-DIST_A="Template-Multipass-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/Template-Toolkit-2.190
 	dev-perl/Test-Exception
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

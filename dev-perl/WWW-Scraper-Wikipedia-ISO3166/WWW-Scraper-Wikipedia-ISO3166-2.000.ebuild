@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.00"
-DIST_A="WWW-Scraper-Wikipedia-ISO3166-2.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.120
+	>=dev-lang/perl-1.040
 	>=dev-perl/Capture-Tiny-0.360
 	>=dev-perl/Config-Tiny-2.140
 	>=dev-perl/DBD-SQLite-1.500
@@ -27,7 +27,7 @@ RDEPEND="
 	>=dev-perl/List-AllUtils-0.030
 	>=dev-perl/List-Compare-0.370
 	>=dev-perl/Log-Handler-0.840
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.620
 	>=dev-perl/Moo-2.001.001
 	>=dev-perl/PerlIO-utf8-strict-0.006
 	>=dev-perl/Pod-Usage-1.510
@@ -48,3 +48,4 @@ DEPEND="
 	>=dev-perl/Test2-Suite-0.000.030
 	>=virtual/perl-Test-Simple-1.302.022
 "
+

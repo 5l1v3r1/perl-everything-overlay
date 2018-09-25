@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INITDOTD"
-DIST_VERSION="2.15"
-DIST_A="Tie-FileSystem-2.15.tar.gz"
+DIST_VERSION="2.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

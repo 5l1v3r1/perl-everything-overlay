@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.13"
-DIST_A="TAP-Formatter-TeamCity-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/TeamCity-Message
+	dev-perl/base
 	virtual/perl-Test-Harness
 "
 DEPEND="
@@ -27,7 +27,9 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Path-Class-Rule
 	dev-perl/Test-Class-Moose
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.980
 "
+

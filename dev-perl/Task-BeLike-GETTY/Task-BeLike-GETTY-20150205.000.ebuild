@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="20150205.000"
-DIST_A="Task-BeLike-GETTY-20150205.000.tar.gz"
+DIST_VERSION="20150205.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -98,3 +97,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

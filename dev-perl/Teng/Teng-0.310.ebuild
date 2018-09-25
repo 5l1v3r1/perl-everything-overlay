@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOH"
-DIST_VERSION="0.31"
-DIST_A="Teng-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

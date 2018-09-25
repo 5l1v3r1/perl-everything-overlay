@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAGNOLIA"
-DIST_VERSION="0.000002"
-DIST_A="Test2-Plugin-TermEncoding-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.660
-	dev-perl/Test2-Suite
+	>=dev-perl/Test2-Suite-0.000.070
 "
+

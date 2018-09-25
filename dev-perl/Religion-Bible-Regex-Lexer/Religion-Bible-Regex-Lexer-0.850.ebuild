@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLMLUND"
-DIST_VERSION="0.85"
-DIST_A="Religion-Bible-Regex-Lexer-0.85.tar.gz"
+DIST_VERSION="0.85" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

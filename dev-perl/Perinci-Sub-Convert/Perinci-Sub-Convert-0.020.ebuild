@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.02"
-DIST_A="Perinci-Sub-Convert-v-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PERLANCAR/Perinci-Sub-Convert-v-0.02.tar.gz -> Perinci-Sub-Convert-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Perinci-Sub-Convert-v-0.02 ${WORKDIR}/Perinci-Sub-Convert-0.02
+}
+

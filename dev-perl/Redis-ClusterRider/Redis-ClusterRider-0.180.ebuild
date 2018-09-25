@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPH"
-DIST_VERSION="0.18"
-DIST_A="Redis-ClusterRider-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.201.505.270
 	>=virtual/perl-Test-Simple-0.980
 "
+

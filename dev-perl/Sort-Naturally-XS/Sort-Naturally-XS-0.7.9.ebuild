@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SERVAL"
-DIST_VERSION="0.7.9"
-DIST_A="Sort-Naturally-XS-0.7.9.tar.gz"
+DIST_VERSION="0.7.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

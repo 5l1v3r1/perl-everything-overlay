@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.002"
-DIST_A="Renard-Curie-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,7 +37,7 @@ RDEPEND="
 	dev-perl/Return-Type
 	dev-perl/Try-Tiny
 	dev-perl/Type-Libraries
-	>=dev-perl/Type-Tiny-0.008
+	dev-perl/Type-Tiny
 	dev-perl/Types-Path-Tiny
 	dev-perl/URI
 	dev-perl/XML-Simple
@@ -54,10 +53,10 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Data-DPath
 	dev-perl/List-AllUtils
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 	dev-perl/Test-Trap
 	virtual/perl-File-Temp
 	>=virtual/perl-version-0.770
 "
+

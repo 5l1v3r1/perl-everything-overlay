@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLANNING"
-DIST_VERSION="0.10"
-DIST_A="OIS-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-2.220.600
 "
+

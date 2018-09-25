@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="0.05"
-DIST_A="Pod-Loom-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Moose-0.650
+	dev-perl/Moose
 	dev-perl/PPI
 	dev-perl/Pod-Eventual
 	dev-perl/String-RewritePrefix
@@ -30,3 +29,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="stanzafile"
-DIST_VERSION="1.05"
-DIST_A="StanzaFile-1.05.tar.gz"
+DIST_AUTHOR="MUNROER"
+DIST_VERSION="1.05" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUNROER/stanzafile/StanzaFile-1.05.tar.gz -> StanzaFile-1.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/StanzaFile-1.05 ${WORKDIR}/StanzaFile-1.05
+}
+

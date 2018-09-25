@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.003"
-DIST_A="XML-Easy-SimpleSchemaUtil-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Params-Classify
-	>=dev-perl/XML-Easy-0.006
+	>=dev-perl/XML-Easy-0.007
 	virtual/perl-parent
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

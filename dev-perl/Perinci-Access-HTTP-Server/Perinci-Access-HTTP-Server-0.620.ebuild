@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.620"
-DIST_A="Perinci-Access-HTTP-Server-0.620.tar.gz"
+DIST_VERSION="0.620" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Clean-JSON-0.110
+	>=dev-perl/Data-Clean-JSON-0.380
 	dev-perl/JSON-MaybeXS
-	>=dev-perl/Log-ger-0.005
+	>=dev-perl/Log-ger-0.008
 	dev-perl/Log-ger-Output-Callback
 	>=dev-perl/Module-Patch-0.260
 	>=dev-perl/Perinci-Access-HTTP-Client-0.140
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

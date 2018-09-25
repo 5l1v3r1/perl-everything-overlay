@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOBES"
-DIST_VERSION="5.01"
-DIST_A="Voting-VoteFairRanking-5.01.tar.gz"
+DIST_VERSION="5.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

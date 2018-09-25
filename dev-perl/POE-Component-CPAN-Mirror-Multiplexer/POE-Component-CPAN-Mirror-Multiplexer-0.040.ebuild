@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.04"
-DIST_A="POE-Component-CPAN-Mirror-Multiplexer-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-5.817
+	dev-perl/HTTP-Message
 	dev-perl/Moose
 	>=dev-perl/MooseX-POE-0.205
 	dev-perl/Net-IP
@@ -32,3 +31,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

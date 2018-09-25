@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AZAWAWI"
-DIST_VERSION="0.88"
-DIST_A="Syntax-Highlight-Perl6-0.88.tar.gz"
+DIST_VERSION="0.88" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.270
 	>=virtual/perl-Test-Simple-0.860
 "
+

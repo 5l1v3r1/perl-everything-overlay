@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="0.630"
-DIST_A="Perl-Dist-Padre-0.630.tar.gz"
+DIST_VERSION="0.630" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Perl-Dist-0.202
 	>=virtual/perl-Test-Simple-0.860
 "
+

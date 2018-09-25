@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XLAT"
-DIST_VERSION="0.171950"
-DIST_A="Tie-FileSection-0.171950.tar.gz"
+DIST_VERSION="0.171950" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

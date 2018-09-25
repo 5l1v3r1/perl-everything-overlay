@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJERIUS"
-DIST_VERSION="0.07"
-DIST_A="overload-reify-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ DEPEND="
 	dev-perl/Class-Method-Modifiers
 	dev-perl/Test-Lib
 	dev-perl/Test2-Suite
+	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

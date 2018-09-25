@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTIJN"
-DIST_VERSION="0.40"
-DIST_A="POE-Session-GladeXML2-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/POE-Loop-Glib-0.003.400
 	>=dev-perl/gtk2-gladexml-1.006
 	>=virtual/perl-Carp-1.080
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

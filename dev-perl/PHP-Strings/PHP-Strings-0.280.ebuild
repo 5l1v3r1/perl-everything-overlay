@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUDARASP"
-DIST_VERSION="0.28"
-DIST_A="PHP-Strings-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

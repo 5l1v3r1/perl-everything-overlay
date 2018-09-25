@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGL"
-DIST_VERSION="0.13"
-DIST_A="re-engine-RE2-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-ExtUtils-MakeMaker
 "
+

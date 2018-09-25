@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUKEC"
-DIST_VERSION="0.18"
-DIST_A="Test-HTTP-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Field
-	>=dev-perl/libwww-perl-5.827
+	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Filter-Simple
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

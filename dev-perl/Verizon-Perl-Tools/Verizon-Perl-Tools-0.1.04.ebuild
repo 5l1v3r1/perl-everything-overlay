@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGOTHTX"
-DIST_VERSION="v0.1.04"
-DIST_A="Verizon-Perl-Tools-0.1.04.tar.gz"
+DIST_VERSION="0.1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

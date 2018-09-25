@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="0.15"
-DIST_A="XML-Toolkit-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,5 +41,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-XML
 	virtual/perl-File-Temp
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
+

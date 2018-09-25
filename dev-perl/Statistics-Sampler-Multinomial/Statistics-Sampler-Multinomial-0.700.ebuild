@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLAFFAN"
-DIST_VERSION="0.7"
-DIST_A="Statistics-Sampler-Multinomial-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/rlib
 	virtual/perl-Test-Simple
 "
+

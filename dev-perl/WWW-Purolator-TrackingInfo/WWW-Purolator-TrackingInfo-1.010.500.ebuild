@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.0105"
-DIST_A="WWW-Purolator-TrackingInfo-1.0105.tar.gz"
+DIST_VERSION="1.0105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-GetVolatileData
 	virtual/perl-Test-Simple
 "
+

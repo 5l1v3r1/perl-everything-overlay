@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.903"
-DIST_A="Proc-JobQueue-0.903.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.903" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Proc-JobQueue-0.903.tar.gz -> Proc-JobQueue-0.903.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Proc-JobQueue-0.903 ${WORKDIR}/Proc-JobQueue-0.903
+}
+

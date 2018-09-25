@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JRED"
-DIST_VERSION="v2.2.2"
-DIST_A="new.spirit-2.2.2.tar.gz"
+DIST_VERSION="2.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

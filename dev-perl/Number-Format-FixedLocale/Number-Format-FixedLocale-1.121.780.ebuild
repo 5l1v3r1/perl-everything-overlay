@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.121780"
-DIST_A="Number-Format-FixedLocale-1.121780.tar.gz"
+DIST_VERSION="1.121780" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,15 +15,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Number-Format
+	dev-perl/base
 	dev-perl/strictures
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
 	dev-perl/Test-InDistDir
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

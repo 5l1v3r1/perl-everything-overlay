@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSCHUPP"
-DIST_VERSION="1.047"
-DIST_A="PAR-Packer-1.047.tar.gz"
+DIST_VERSION="1.047" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

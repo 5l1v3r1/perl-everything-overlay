@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROLFSCHAU"
-DIST_VERSION="0.001"
-DIST_A="Rex-Group-Lookup-Nagios-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

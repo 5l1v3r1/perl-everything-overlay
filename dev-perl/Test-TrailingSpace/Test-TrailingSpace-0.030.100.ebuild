@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0301"
-DIST_A="Test-TrailingSpace-0.0301.tar.gz"
+DIST_VERSION="0.0301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 "
+

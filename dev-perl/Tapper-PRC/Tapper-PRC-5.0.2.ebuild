@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="5.0.2"
-DIST_A="Tapper-PRC-5.0.2.tar.gz"
+DIST_VERSION="5.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,8 +34,8 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Tapper-Config
 	dev-perl/Test-Deep
-	dev-perl/Test-MockModule
 	dev-perl/Try-Tiny
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

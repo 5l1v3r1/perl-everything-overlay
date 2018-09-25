@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROMM"
-DIST_VERSION="1.40"
-DIST_A="Sport-Analytics-NHL-1.40.tar.gz"
+DIST_VERSION="1.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

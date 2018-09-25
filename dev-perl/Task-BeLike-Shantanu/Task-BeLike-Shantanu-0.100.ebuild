@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.200
+	dev-lang/perl
 	dev-perl/Acme-CPANAuthors-India
 	dev-perl/App-cpanminus
 	dev-perl/Authen-Passphrase

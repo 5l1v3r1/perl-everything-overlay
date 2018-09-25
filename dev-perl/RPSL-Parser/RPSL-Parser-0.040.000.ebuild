@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LMC"
-DIST_VERSION="0.04000"
-DIST_A="RPSL-Parser-0.04000.tar.gz"
+DIST_VERSION="0.04000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Harness-2.620
 	virtual/perl-Test-Simple
 "
+

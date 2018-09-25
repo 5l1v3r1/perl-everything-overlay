@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANPAZ"
-DIST_VERSION="1.18"
-DIST_A="TeX-Hyphen-1.18.tar.gz"
+DIST_VERSION="1.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

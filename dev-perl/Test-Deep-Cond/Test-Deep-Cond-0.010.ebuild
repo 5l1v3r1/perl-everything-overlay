@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOH"
-DIST_VERSION="0.01"
-DIST_A="Test-Deep-Cond-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Requires-0.060
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 "
+

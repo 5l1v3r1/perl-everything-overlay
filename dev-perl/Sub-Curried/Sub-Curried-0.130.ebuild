@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OSFAMERON"
-DIST_VERSION="0.13"
-DIST_A="Sub-Curried-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
+

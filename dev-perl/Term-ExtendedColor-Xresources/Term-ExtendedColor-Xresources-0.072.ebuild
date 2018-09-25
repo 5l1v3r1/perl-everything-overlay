@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLDRICH"
-DIST_VERSION="0.072"
-DIST_A="Term-ExtendedColor-Xresources-0.072.tar.gz"
+DIST_VERSION="0.072" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

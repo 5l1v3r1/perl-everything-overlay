@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBARTLE"
-DIST_VERSION="1.00"
-DIST_A="WWW-GoDaddy-REST-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,17 +21,22 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/Term-Shell
 	dev-perl/Text-FormatTable
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Text-Tabs+Wrap
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-lang/perl
+	dev-perl/Test-Exception
+	dev-perl/Test-MockObject
+	virtual/perl-Test-Simple
 "
+

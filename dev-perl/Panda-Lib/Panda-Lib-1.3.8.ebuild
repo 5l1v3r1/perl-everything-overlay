@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="1.3.8"
-DIST_A="Panda-Lib-1.3.8.tar.gz"
+DIST_VERSION="1.3.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-ParseXS-3.240
 	virtual/perl-Test-Simple
 "
+

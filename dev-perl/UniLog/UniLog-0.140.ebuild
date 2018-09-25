@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TPABA"
-DIST_VERSION="0.14"
-DIST_A="UniLog-0.14.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TP/TPABA/UniLog/UniLog-0.14.tar.gz"
+DIST_VERSION="0.14" 
+SRC_URI="mirror://cpan/authors/id/T/TP/TPABA/UniLog/UniLog-0.14.tar.gz -> UniLog-0.14.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/UniLog-0.14 ${WORKDIR}/UniLog-0.14
+}
+

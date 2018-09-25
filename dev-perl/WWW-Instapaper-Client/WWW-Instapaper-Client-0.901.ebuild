@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DPMEYER"
-DIST_VERSION="0.901"
-DIST_A="WWW-Instapaper-Client-0.901.tar.gz"
+DIST_VERSION="0.901" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
+

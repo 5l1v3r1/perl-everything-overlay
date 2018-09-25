@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0124"
-DIST_A="Test-Run-Plugin-AlternateInterpreters-0.0124.tar.gz"
+DIST_VERSION="0.0124" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/YAML-LibYAML
 	virtual/perl-Test-Simple
 "
+

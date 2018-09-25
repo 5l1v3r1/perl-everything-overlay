@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="3.051"
-DIST_A="WWW-Search-Ebay-3.051.tar.gz"
+DIST_VERSION="3.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Date-Manip
 	dev-perl/HTML-Tree
-	>=dev-perl/WWW-Search-2.557
+	>=dev-perl/WWW-Search-2.067
 	dev-perl/libwww-perl
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/IO-Capture
 	virtual/perl-Test-Simple
 "
+

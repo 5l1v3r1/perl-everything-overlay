@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHOROBA"
-DIST_VERSION="2.24"
-DIST_A="Treex-PML-2.24.tar.gz"
+DIST_VERSION="2.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

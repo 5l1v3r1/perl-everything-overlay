@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="1.55"
-DIST_A="XML-XPathScript-1.55.tar.gz"
+DIST_VERSION="1.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,7 +31,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

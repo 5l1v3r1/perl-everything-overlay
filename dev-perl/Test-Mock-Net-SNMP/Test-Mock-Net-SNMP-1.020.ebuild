@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBH"
-DIST_VERSION="1.02"
-DIST_A="Test-Mock-Net-SNMP-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

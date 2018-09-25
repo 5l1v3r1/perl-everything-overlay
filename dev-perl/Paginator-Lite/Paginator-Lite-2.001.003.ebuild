@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLABOS"
-DIST_VERSION="2.001003"
-DIST_A="Paginator-Lite-2.001003.tar.gz"
+DIST_VERSION="2.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

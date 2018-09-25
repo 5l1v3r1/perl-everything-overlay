@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANTONC"
-DIST_VERSION="0.03"
-DIST_A="Validator-Lazy-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Email-Valid
-	>=dev-perl/Locale-Codes-3.500
 	dev-perl/Modern-Perl
 	dev-perl/Moose
 	dev-perl/Net-Domain-TLD
@@ -39,3 +37,4 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

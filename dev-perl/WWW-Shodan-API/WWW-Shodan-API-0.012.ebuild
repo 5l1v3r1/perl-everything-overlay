@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DADAMS"
-DIST_VERSION="0.012"
-DIST_A="WWW-Shodan-API-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSNOPEK"
-DIST_VERSION="0.0.13"
-DIST_A="Xmldoom-0.0.13.tar.gz"
+DIST_VERSION="0.0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

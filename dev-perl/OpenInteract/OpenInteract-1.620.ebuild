@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWINTERS"
-DIST_VERSION="1.62"
-DIST_A="OpenInteract-1.62.tar.gz"
+DIST_VERSION="1.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WEBORAMA"
-DIST_VERSION="0.12"
-DIST_A="Riak-Light-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,8 +28,8 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

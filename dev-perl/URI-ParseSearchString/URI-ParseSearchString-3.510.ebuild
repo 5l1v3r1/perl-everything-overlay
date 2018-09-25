@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDEN"
-DIST_VERSION="3.51"
-DIST_A="URI-ParseSearchString-3.51.tar.gz"
+DIST_VERSION="3.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

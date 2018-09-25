@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANEI"
-DIST_VERSION="0.1"
-DIST_A="WebService-Nonoh-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

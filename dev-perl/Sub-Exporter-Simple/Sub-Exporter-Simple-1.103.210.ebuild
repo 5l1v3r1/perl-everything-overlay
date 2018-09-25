@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.103210"
-DIST_A="Sub-Exporter-Simple-1.103210.tar.gz"
+DIST_VERSION="1.103210" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.960
 "
+

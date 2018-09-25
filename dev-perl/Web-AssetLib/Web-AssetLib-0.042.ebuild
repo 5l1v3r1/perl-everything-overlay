@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RLANG"
-DIST_VERSION="0.042"
-DIST_A="Web-AssetLib-0.042.tar.gz"
+DIST_VERSION="0.042" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,7 +34,9 @@ DEPEND="
 	dev-perl/CSS-Minifier-XS
 	dev-perl/JavaScript-Minifier-XS
 	dev-perl/LWP-Protocol-https
+	dev-perl/Module-Build
 	dev-perl/Test-Compile
 	dev-perl/Test-Most
 	>=virtual/perl-Test-Simple-0.980
 "
+

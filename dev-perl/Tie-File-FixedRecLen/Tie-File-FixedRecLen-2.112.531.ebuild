@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="2.112531"
-DIST_A="Tie-File-FixedRecLen-2.112531.tar.gz"
+DIST_VERSION="2.112531" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Tie-File
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

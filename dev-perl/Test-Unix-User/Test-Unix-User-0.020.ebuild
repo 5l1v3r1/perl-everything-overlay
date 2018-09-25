@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIKC"
-DIST_VERSION="0.02"
-DIST_A="Test-Unix-User-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.102
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

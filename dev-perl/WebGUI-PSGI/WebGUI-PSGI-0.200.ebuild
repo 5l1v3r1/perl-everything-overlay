@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRODWITH"
-DIST_VERSION="0.2"
-DIST_A="WebGUI-PSGI-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

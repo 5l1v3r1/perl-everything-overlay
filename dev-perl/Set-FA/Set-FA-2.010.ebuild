@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.01"
-DIST_A="Set-FA-2.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.510
 	>=virtual/perl-Test-Simple-1.302.056
 "
+

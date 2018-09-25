@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="1.11"
-DIST_A="Win32-IPC-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,11 +21,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-lang/perl
 	>=dev-perl/Module-Build-0.210
+	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-ExtUtils-CBuilder-0.150
 	virtual/perl-ExtUtils-ParseXS
 	>=virtual/perl-Test-Simple-0.880
 "
+

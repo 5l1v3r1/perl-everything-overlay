@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHEINRIC"
-DIST_VERSION="0.01"
-DIST_A="WebService-Buxfer-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,9 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/URI
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

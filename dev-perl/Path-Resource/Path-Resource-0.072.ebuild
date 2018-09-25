@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.072"
-DIST_A="Path-Resource-0.072.tar.gz"
+DIST_VERSION="0.072" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/Test-Lazy-0.030
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 "
+

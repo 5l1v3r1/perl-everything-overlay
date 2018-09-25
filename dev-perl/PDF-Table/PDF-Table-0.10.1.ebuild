@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OMEGA"
-DIST_VERSION="0.10.1"
-DIST_A="PDF-Table-0.10.1.tar.gz"
+DIST_VERSION="0.10.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

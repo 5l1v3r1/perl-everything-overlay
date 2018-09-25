@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="8100.021"
-DIST_A="Task-Email-PEP-All-8100.021.tar.gz"
+DIST_VERSION="8100.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,7 +40,7 @@ RDEPEND="
 	>=dev-perl/Email-Send-2.192
 	>=dev-perl/Email-Send-IO-2.200
 	>=dev-perl/Email-Sender-0.001
-	>=dev-perl/Email-Simple-1.424
+	>=dev-perl/Email-Simple-2.003
 	>=dev-perl/Email-Simple-FromHandle-0.050
 	>=dev-perl/Email-Store-0.255
 	>=dev-perl/Email-Store-HTML-0.301
@@ -61,8 +60,9 @@ RDEPEND="
 	>=dev-perl/Mail-LocalDelivery-0.304
 	>=dev-perl/Mail-SpamAssassin-SimpleClient-0.005
 	>=dev-perl/Net-Server-Mail-0.160
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBAIL"
-DIST_VERSION="1.01"
-DIST_A="Rose-DBx-MoreConfig-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,7 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/YAML
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

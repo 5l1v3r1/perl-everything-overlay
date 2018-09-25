@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EINHVERFR"
-DIST_VERSION="0.020000"
-DIST_A="PGObject-Util-Replication-Slot-0.020000.tar.gz"
+DIST_VERSION="0.020000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

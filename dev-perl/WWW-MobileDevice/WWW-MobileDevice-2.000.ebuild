@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIELSTR"
-DIST_VERSION="02.0"
-DIST_A="WWW-MobileDevice-02.tar.gz"
+DIST_VERSION="02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VSESPB"
-DIST_VERSION="0.001"
-DIST_A="YAML-SyckWrapper-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-File-Temp
 "
+

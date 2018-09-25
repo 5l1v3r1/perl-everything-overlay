@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGLADKOV"
-DIST_VERSION="1.10"
-DIST_A="Redis-CappedCollection-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-RedisServer-0.040
 	dev-perl/Test-TCP
 "
+

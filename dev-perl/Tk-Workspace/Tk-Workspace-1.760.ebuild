@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKIES"
-DIST_VERSION="1.76"
-DIST_A="Tk-Workspace-1.76.tar.gz"
+DIST_VERSION="1.76" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

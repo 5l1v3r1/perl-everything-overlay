@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.008"
-DIST_A="QBit-TimeLog-XS-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/QBit-TimeLog
+	dev-perl/base
 	virtual/perl-XSLoader
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/qbit
 	virtual/perl-Test-Simple
 "
+

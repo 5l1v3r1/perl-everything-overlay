@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ONEGRAY"
-DIST_VERSION="0.22"
-DIST_A="Tree-Range-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.010
 	>=virtual/perl-Test-Simple-0.980
 "
+

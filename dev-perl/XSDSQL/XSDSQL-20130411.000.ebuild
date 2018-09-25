@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BLX"
-DIST_VERSION="20130411.0"
-DIST_A="XSDSQL_20130411.tar.gz"
+DIST_VERSION="20130411" 
+SRC_URI="mirror://cpan/authors/id/B/BL/BLX/XSDSQL_20130411.tar.gz -> XSDSQL-20130411.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/XSDSQL_20130411 ${WORKDIR}/XSDSQL-20130411
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YSASAKI"
-DIST_VERSION="0.13"
-DIST_A="Plack-Middleware-Assets-RailsLike-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-Time-0.040
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPEIL"
-DIST_VERSION="0.05"
-DIST_A="Plack-Middleware-Signposting-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/File-Slurp
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+

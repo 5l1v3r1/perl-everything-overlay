@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPIT"
-DIST_VERSION="0.08"
-DIST_A="rgit-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

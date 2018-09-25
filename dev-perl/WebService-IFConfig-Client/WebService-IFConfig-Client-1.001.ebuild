@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICDOYE"
-DIST_VERSION="1.001"
-DIST_A="WebService-IFConfig-Client-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CARPENTER"
-DIST_VERSION="0.01"
-DIST_A="Storm-Tracker_0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/C/CA/CARPENTER/Storm-Tracker_0.01.tar.gz -> Storm-Tracker-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Storm-Tracker_0.01 ${WORKDIR}/Storm-Tracker-0.01
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBURTON"
-DIST_VERSION="0.06"
-DIST_A="Pick-TCL-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/IPC-Run
 	virtual/perl-Test-Simple
 "
+

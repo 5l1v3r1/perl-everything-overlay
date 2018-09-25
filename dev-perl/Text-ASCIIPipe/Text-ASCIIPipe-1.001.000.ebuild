@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THORGIS"
-DIST_VERSION="1.001000"
-DIST_A="Text-ASCIIPipe-1.001000.tar.gz"
+DIST_VERSION="1.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.390
 	virtual/perl-Test-Simple
 "
+

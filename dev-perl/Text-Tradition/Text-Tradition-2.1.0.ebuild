@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AURUM"
-DIST_VERSION="2.1.0"
-DIST_A="Text-Tradition-2.1.0.tar.gz"
+DIST_VERSION="2.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	dev-perl/Test-Warn
 "
+

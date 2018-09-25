@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WITTROCK"
-DIST_VERSION="0.01.5"
-DIST_A="SudokuTrainer-0.01.5.tar.gz"
+DIST_VERSION="0.01.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

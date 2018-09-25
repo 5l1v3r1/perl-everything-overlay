@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VBA"
-DIST_VERSION="0.0.1"
-DIST_A="WWW-Freebox-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

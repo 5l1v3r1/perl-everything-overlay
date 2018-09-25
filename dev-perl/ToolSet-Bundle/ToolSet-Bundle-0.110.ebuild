@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JPIERCE"
 DIST_VERSION="0.11"
-DIST_A="ToolSet-Bundle-0.11.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="4.1.1"
-DIST_A="Tapper-Fake-4.1.1.tar.gz"
+DIST_VERSION="4.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-Fixture-DBIC-Schema
 	virtual/perl-Test-Simple
 "
+

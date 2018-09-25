@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VARISD"
-DIST_VERSION="2.20151102"
-DIST_A="Treex-EN-2.20151102.tar.gz"
+DIST_VERSION="2.20151102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

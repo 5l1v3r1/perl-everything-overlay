@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LKUNDRAK"
-DIST_VERSION="v1.11.0"
-DIST_A="WWW-GoodData-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,12 +17,14 @@ IUSE="test"
 RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/JSON
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
 	>=virtual/perl-Getopt-Long-2.360
-	virtual/perl-Pod-Usage
 	virtual/perl-Text-ParseWords
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
+	dev-perl/Test-Pod
 "
+

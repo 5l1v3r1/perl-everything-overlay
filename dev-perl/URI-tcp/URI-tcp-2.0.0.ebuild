@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASEI"
-DIST_VERSION="2.0.0"
-DIST_A="URI-tcp-2.0.0.tar.gz"
+DIST_VERSION="2.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

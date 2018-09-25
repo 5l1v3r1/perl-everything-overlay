@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.2000"
-DIST_A="WebService-HipChat-0.2000.tar.gz"
+DIST_VERSION="0.2000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,11 +20,11 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/MIME-tools
 	>=dev-perl/Moo-1.005.000
+	dev-perl/Pod-Usage
 	>=dev-perl/WebService-Client-0.020.300
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

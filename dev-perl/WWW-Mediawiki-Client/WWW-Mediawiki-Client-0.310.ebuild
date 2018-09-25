@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKJ"
-DIST_VERSION="0.31"
-DIST_A="WWW-Mediawiki-Client-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Exception-Class
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Cookies
-	>=dev-perl/HTTP-Message-1.260
+	>=dev-perl/HTTP-Message-1.560
 	dev-perl/Pod-Usage
 	dev-perl/Test-Differences
 	>=dev-perl/URI-1.310
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

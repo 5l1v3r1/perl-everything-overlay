@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CVLIBRARY"
-DIST_VERSION="0.101"
-DIST_A="WebDriver-Tiny-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 "
+

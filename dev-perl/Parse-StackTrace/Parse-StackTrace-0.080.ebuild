@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKANAT"
-DIST_VERSION="0.08"
-DIST_A="Parse-StackTrace-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Exception-Class
 	dev-perl/Moose
 	dev-perl/MooseX-AttributeHelpers
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Spec
 	virtual/perl-Math-BigInt
 	virtual/perl-Scalar-List-Utils
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

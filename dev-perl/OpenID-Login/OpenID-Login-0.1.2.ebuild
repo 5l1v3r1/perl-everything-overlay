@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REALHOLGI"
-DIST_VERSION="0.1.2"
-DIST_A="OpenID-Login-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
-	dev-perl/Moose
+	>=dev-perl/Moose-0.510
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Mock-LWP-Dispatch
 	virtual/perl-Test-Simple
 "
+

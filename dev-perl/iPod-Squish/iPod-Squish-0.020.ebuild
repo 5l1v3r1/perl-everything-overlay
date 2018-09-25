@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUFFIN"
-DIST_VERSION="0.02"
-DIST_A="iPod-Squish-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/FFmpeg-Command
 	dev-perl/File-Which
-	dev-perl/MP3-Info
 	dev-perl/Moose
 	>=dev-perl/MooseX-LogDispatch-1.100.100
 	dev-perl/MooseX-Types-Path-Class
@@ -30,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

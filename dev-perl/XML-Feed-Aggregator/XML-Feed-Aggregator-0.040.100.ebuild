@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGE"
-DIST_VERSION="0.0401"
-DIST_A="XML-Feed-Aggregator-0.0401.tar.gz"
+DIST_VERSION="0.0401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-UseAllModules-0.130
 	>=virtual/perl-Test-Simple-0.940
 "
+

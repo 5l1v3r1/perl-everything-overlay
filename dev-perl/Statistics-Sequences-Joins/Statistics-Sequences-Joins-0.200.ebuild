@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGARTON"
-DIST_VERSION="0.20"
-DIST_A="Statistics-Sequences-Joins-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.421
 	>=virtual/perl-Test-Simple-0.980
 "
+

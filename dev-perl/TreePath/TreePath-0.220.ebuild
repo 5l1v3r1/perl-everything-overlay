@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAB"
-DIST_VERSION="0.22"
-DIST_A="TreePath-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=dev-perl/Test-Pod-Coverage-1.100
 "
+

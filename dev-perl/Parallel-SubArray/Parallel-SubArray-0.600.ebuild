@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIZUR"
-DIST_VERSION="0.6"
-DIST_A="Parallel-SubArray-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Test-Deep-0.103
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Storable-2.180
 	>=virtual/perl-Test-Simple-0.860
 "
 DEPEND="
 	${RDEPEND}
 "
+

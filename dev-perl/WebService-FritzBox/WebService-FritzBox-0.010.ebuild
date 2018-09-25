@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCL"
-DIST_VERSION="0.01"
-DIST_A="WebService-FritzBox-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

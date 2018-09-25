@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKIHOSHI"
-DIST_VERSION="0.011"
-DIST_A="SWF-Generator-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -6,8 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="XXGHOSTXX"
 DIST_VERSION="0.03"
-DIST_A="Tinder-API-0.03.zip"
-SRC_URI="mirror://cpan/authors/id/X/XX/XXGHOSTXX/Tinder/Tinder-API-0.03.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/X/XX/XXGHOSTXX/Tinder/Tinder-API-0.03.zip -> Tinder-API-0.03.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Tinder-API-0.03 ${WORKDIR}/Tinder-API-0.03
+}
+

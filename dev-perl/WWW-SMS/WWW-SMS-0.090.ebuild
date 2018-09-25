@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="WWW-SMS"
-DIST_VERSION="0.09"
-DIST_A="WWW-SMS-0.09.tar.gz"
+DIST_AUTHOR="EIM"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/E/EI/EIM/WWW-SMS/WWW-SMS-0.09.tar.gz -> WWW-SMS-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/WWW-SMS-0.09 ${WORKDIR}/WWW-SMS-0.09
+}
+

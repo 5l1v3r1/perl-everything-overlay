@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.10"
-DIST_A="POE-Component-IRC-Plugin-Role-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.870
 	>=dev-perl/POE-1.004
-	>=dev-perl/POE-Component-IRC-0.100
+	>=dev-perl/POE-Component-IRC-6.080
 "
 DEPEND="
 	${RDEPEND}
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

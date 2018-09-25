@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORNELIUS"
-DIST_VERSION="2010.03218"
-DIST_A="VIM-Packager-2010.03218.tar.gz"
+DIST_VERSION="2010.03218" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

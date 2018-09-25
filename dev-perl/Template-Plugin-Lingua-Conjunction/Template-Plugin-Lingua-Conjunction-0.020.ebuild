@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRENTDAX"
-DIST_VERSION="0.02"
-DIST_A="Template-Plugin-Lingua-Conjunction-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Lingua-Conjunction-1.990
 	>=dev-perl/Template-Toolkit-2.070
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

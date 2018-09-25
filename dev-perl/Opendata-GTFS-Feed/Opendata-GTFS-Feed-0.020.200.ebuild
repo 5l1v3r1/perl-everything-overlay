@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0202"
-DIST_A="Opendata-GTFS-Feed-0.0202.tar.gz"
+DIST_VERSION="0.0202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/File-BOM
 	dev-perl/Lingua-EN-Inflect
 	>=dev-perl/List-UtilsBy-0.040
-	>=dev-perl/Moose-2.140.500
+	dev-perl/Moose
 	>=dev-perl/MooseX-AttributeDocumented-0.100.300
 	>=dev-perl/MooseX-AttributeShortcuts-0.028
 	>=dev-perl/Path-Tiny-0.072
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

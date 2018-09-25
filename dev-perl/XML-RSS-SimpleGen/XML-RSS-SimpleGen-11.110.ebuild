@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBURKE"
-DIST_VERSION="11.11"
-DIST_A="XML-RSS-SimpleGen-11.11.tar.gz"
+DIST_VERSION="11.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

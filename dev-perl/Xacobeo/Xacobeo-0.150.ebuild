@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POTYL"
-DIST_VERSION="0.15"
-DIST_A="Xacobeo-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

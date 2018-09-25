@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEO"
-DIST_VERSION="0.9907"
-DIST_A="Params-Dry-Declare-0.9907.tar.gz"
+DIST_VERSION="0.9907" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+
