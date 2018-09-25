@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CARLOS"
-DIST_VERSION="v0.0.4"
-DIST_A="Dist-Zilla-PluginBundle-INGY-0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

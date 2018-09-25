@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="1.161631"
-DIST_A="Dist-Zilla-Plugin-FatPacker-1.161631.tar.gz"
+DIST_VERSION="1.161631" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

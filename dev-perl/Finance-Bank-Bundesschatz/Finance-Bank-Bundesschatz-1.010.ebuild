@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORIAN"
-DIST_VERSION="1.01"
-DIST_A="Finance-Bank-Bundesschatz-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

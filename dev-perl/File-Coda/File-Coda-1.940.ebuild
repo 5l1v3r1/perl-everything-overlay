@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEYERING"
-DIST_VERSION="1.94"
-DIST_A="File-Coda-1.94.tar.gz"
+DIST_VERSION="1.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

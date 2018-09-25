@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAUKE"
-DIST_VERSION="2.001003"
-DIST_A="Function-Parameters-2.001003.tar.gz"
+DIST_VERSION="2.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

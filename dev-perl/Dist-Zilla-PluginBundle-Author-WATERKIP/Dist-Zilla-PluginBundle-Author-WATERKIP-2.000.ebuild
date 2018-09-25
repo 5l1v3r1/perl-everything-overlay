@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WATERKIP"
-DIST_VERSION="2.0"
-DIST_A="Dist-Zilla-PluginBundle-Author-WATERKIP-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

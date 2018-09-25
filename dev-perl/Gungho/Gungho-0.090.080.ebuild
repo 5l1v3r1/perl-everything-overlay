@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.09008"
-DIST_A="Gungho-0.09008.tar.gz"
+DIST_VERSION="0.09008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -59,3 +58,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

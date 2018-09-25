@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.004001"
-DIST_A="Git-PurePerl-Walker-0.004001.tar.gz"
+DIST_VERSION="0.004001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,9 +30,11 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	dev-perl/Package-Stash
+	dev-perl/lib
 	virtual/perl-Archive-Tar
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMURRAY"
-DIST_VERSION="0.003"
-DIST_A="GStreamer1-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

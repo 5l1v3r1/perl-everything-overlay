@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="0.090"
-DIST_A="HTML-FormFu-ExtJS-0.090.tar.gz"
+DIST_VERSION="0.090" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-C3
-	>=dev-perl/HTML-FormFu-0.090
+	dev-perl/HTML-FormFu
 	dev-perl/Hash-Merge-Simple
 	dev-perl/JavaScript-Dumper
 	dev-perl/Moose
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLFSAGE"
-DIST_VERSION="0.007"
-DIST_A="Data-Validate-DNS-NAPTR-Regexp-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.880
 "
+

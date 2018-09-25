@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.111982"
-DIST_A="EWS-Calendar-Viewer-1.111982.tar.gz"
+DIST_VERSION="1.111982" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

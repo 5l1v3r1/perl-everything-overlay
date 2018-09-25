@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TABULO"
-DIST_VERSION="0.197"
-DIST_A="Dist-Zilla-PluginBundle-Author-TABULO-0.197.tar.gz"
+DIST_VERSION="0.197" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +32,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromRelease
 	dev-perl/Dist-Zilla-Plugin-EnsureLatestPerl
 	dev-perl/Dist-Zilla-Plugin-GenerateFile-FromShareDir
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-2.016
 	>=dev-perl/Dist-Zilla-Plugin-Git-Contributors-0.029
 	>=dev-perl/Dist-Zilla-Plugin-Git-Describe-0.004
 	dev-perl/Dist-Zilla-Plugin-Git-PushInitial
@@ -52,7 +51,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-Prereqs-AuthorDeps-0.006
 	>=dev-perl/Dist-Zilla-Plugin-PromptIfStale-0.004
 	>=dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod-0.142.180
-	dev-perl/Dist-Zilla-Plugin-Run
+	>=dev-perl/Dist-Zilla-Plugin-Run-0.038
 	>=dev-perl/Dist-Zilla-Plugin-StaticInstall-0.005
 	>=dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes-0.012
 	>=dev-perl/Dist-Zilla-Plugin-Test-CleanNamespaces-0.006
@@ -78,7 +77,7 @@ RDEPEND="
 	>=dev-perl/Pod-Elemental-Transformer-List-0.102.000
 	dev-perl/Pod-Elemental-Transformer-Verbatim
 	>=dev-perl/Pod-Markdown-1.500
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.000
 	dev-perl/Pod-Weaver-Section-AllowOverride
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.008
 	dev-perl/Pod-Weaver-Section-GenerateSection
@@ -98,6 +97,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	dev-perl/JSON-MaybeXS
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-File-ShareDir
@@ -112,3 +112,4 @@ DEPEND="
 	virtual/perl-if
 	virtual/perl-parent
 "
+

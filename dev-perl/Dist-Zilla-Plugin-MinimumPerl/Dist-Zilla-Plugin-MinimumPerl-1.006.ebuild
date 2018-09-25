@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="1.006"
-DIST_A="Dist-Zilla-Plugin-MinimumPerl-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-5.006
-	>=dev-perl/Moose-1.030
+	>=dev-perl/Dist-Zilla-4.200.006
+	>=dev-perl/Moose-1.010
 	>=dev-perl/MooseX-Types-Perl-0.101.340
 	>=dev-perl/Perl-MinimumVersion-1.260
 "
@@ -26,8 +25,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

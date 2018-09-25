@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STUIFZAND"
-DIST_VERSION="0.4.6"
-DIST_A="Date-Period-Human-0.4.6.tar.gz"
+DIST_VERSION="0.4.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/DateTime-Format-MySQL
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.880
 "
+

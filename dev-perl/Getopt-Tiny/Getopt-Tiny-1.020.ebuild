@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="1.02"
-DIST_A="Getopt-Tiny-1.02.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Getopt-Tiny-1.02.tar.gz -> Getopt-Tiny-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-Tiny-1.02 ${WORKDIR}/Getopt-Tiny-1.02
+}
+

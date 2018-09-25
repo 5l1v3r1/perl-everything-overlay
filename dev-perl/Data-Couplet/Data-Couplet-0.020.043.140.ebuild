@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.02004314"
-DIST_A="Data-Couplet-0.02004314.tar.gz"
+DIST_VERSION="0.02004314" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-0.900
 	>=dev-perl/MooseX-Clone-0.040
 	>=dev-perl/MooseX-Types-0.190
 	dev-perl/namespace-autoclean
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSISK"
-DIST_VERSION="1.26"
-DIST_A="HTML-CalendarMonth-1.26.tar.gz"
+DIST_VERSION="1.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	>=dev-perl/DateTime-Locale-0.450
 	dev-perl/File-Which
 	>=dev-perl/HTML-Element-Extended-1.180
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Time-Local
 "
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

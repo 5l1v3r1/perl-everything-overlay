@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZUHO"
-DIST_VERSION="0.10"
-DIST_A="Filter-SQL-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	dev-perl/DBI
 	>=dev-perl/List-MoreUtils-0.210
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Filter-Simple-0.820
 	>=virtual/perl-Text-Balanced-2.0.0
 "
 DEPEND="
 	${RDEPEND}
 "
+

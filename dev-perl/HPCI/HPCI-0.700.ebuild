@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOUTROSLB"
-DIST_VERSION="0.70"
-DIST_A="HPCI-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.100
 "
+

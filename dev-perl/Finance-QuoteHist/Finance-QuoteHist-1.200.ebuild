@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSISK"
-DIST_VERSION="1.20"
-DIST_A="Finance-QuoteHist-1.20.tar.gz"
+DIST_VERSION="1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

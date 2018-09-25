@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKKOI"
-DIST_VERSION="0.001001"
-DIST_A="Git-Hooks-PerlCritic-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

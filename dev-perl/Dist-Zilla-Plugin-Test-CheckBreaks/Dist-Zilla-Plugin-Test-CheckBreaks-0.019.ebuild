@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.019"
-DIST_A="Dist-Zilla-Plugin-Test-CheckBreaks-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,6 +32,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/CPAN-Meta-Check-0.011
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/lib
 	virtual/perl-CPAN-Meta-Requirements
@@ -41,3 +41,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-if
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.105"
-DIST_A="HTML-HTML5-Sanity-0.105.tar.gz"
+DIST_VERSION="0.105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/XML-LibXML-Debugging
 	>=virtual/perl-Test-Simple-0.610
 "
+

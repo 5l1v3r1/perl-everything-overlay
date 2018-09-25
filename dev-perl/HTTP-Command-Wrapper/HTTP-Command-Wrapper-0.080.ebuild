@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PINE"
-DIST_VERSION="0.08"
-DIST_A="HTTP-Command-Wrapper-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ DEPEND="
 	>=dev-perl/Capture-Tiny-0.300
 	>=dev-perl/Data-Section-Simple-0.070
 	>=dev-perl/File-Slurp-9999.190
+	dev-perl/Module-Build
 	>=dev-perl/Module-Find-0.130
 	>=dev-perl/Perl-Critic-1.126
 	>=dev-perl/Plack-1.003.700
@@ -36,3 +36,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.230.400
 	>=virtual/perl-Test-Simple-0.980
 "
+

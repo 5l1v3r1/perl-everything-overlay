@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OPIATE"
-DIST_VERSION="v1.5.1"
-DIST_A="HTML-ReportWriter-1.5.1.tar.gz"
+DIST_VERSION="1.5.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

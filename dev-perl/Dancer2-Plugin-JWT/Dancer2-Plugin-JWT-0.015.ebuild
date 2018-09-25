@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.015"
-DIST_A="Dancer2-Plugin-JWT-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-JWT
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.162.000
 	dev-perl/URI
 "
 DEPEND="
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

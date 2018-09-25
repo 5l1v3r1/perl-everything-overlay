@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARMAN"
-DIST_VERSION="0.001005"
-DIST_A="Dezi-UI-0.001005.tar.gz"
+DIST_VERSION="0.001005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

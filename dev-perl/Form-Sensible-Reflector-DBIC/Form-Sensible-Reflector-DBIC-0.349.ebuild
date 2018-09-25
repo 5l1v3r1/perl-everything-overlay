@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOSS"
-DIST_VERSION="0.349"
-DIST_A="Form-Sensible-Reflector-DBIC-0.349.tar.gz"
+DIST_VERSION="0.349" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

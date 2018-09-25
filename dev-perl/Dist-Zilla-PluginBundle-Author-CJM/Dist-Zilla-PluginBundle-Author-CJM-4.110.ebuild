@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="4.11"
-DIST_A="Dist-Zilla-PluginBundle-Author-CJM-4.11.tar.gz"
+DIST_VERSION="4.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="v0.2.2"
-DIST_A="Game-WordBrain-0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

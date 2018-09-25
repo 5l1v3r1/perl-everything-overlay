@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASBN"
-DIST_VERSION="0.18"
-DIST_A="Games-Bingo-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

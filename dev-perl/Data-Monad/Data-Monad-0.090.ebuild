@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIRATARA"
-DIST_VERSION="0.09"
-DIST_A="Data-Monad-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	>=virtual/perl-Test-Simple-0.940
 "
+

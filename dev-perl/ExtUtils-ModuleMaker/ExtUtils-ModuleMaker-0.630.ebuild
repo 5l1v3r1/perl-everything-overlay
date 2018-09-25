@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKEENAN"
-DIST_VERSION="0.63"
-DIST_A="ExtUtils-ModuleMaker-0.63.tar.gz"
+DIST_VERSION="0.63" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.440
 "
+

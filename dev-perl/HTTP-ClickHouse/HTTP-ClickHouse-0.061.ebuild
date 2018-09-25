@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMV"
-DIST_VERSION="0.061"
-DIST_A="HTTP-ClickHouse-0.061.tar.gz"
+DIST_VERSION="0.061" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

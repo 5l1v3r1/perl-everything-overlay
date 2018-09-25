@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="0.202"
-DIST_A="Dancer-Session-Memcached-0.202.tar.gz"
+DIST_VERSION="0.202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VTI"
-DIST_VERSION="0.009003"
-DIST_A="Fliggy-0.009003.tar.gz"
+DIST_VERSION="0.009003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

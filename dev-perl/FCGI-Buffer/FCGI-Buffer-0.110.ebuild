@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.11"
-DIST_A="FCGI-Buffer-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	>=dev-perl/Test-TempDir-Tiny-0.016
 	virtual/perl-autodie
 "
+

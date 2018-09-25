@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.055"
-DIST_A="Dist-Zilla-Plugin-PromptIfStale-0.055.tar.gz"
+DIST_VERSION="0.055" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +50,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-if
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GONZUS"
-DIST_VERSION="0.000021"
-DIST_A="HTTP-XSCookies-0.000021.tar.gz"
+DIST_VERSION="0.000021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

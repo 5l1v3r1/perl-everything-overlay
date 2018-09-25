@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSHANK"
-DIST_VERSION="0.40068"
-DIST_A="HTML-FormHandler-0.40068.tar.gz"
+DIST_VERSION="0.40068" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -54,3 +53,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.940
 "
+

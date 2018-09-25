@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIDEAKIO"
-DIST_VERSION="1.06"
-DIST_A="Digest-SpookyHash-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Module-Build-XSUtil
 	>=virtual/perl-Test-Simple-0.980
 "
+

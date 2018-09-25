@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKI"
-DIST_VERSION="0.00002"
-DIST_A="HTTP-Request-FromLog-0.00002.tar.gz"
+DIST_VERSION="0.00002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,10 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

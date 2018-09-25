@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWNCORP"
-DIST_VERSION="0.14"
-DIST_A="Data-Object-Autobox-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Object-0.530
-	>=dev-perl/autobox-2.820
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAARE"
-DIST_VERSION="0.006"
-DIST_A="Data-Importer-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,8 +32,11 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/DBD-SQLite
 	dev-perl/DBIx-Class
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

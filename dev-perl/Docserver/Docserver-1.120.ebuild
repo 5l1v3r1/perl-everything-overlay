@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANPAZ"
-DIST_VERSION="1.12"
-DIST_A="Docserver-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/PlRPC
 "
 DEPEND="
 	${RDEPEND}
-	virtual/perl-ExtUtils-MakeMaker
 "
+

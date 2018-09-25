@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EBASSI"
-DIST_VERSION="0.002"
-DIST_A="Glib-JSON-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Glib-IO
 	>=dev-perl/Glib-Object-Introspection-0.016
 	dev-perl/glib-perl
 	virtual/perl-Carp
@@ -27,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

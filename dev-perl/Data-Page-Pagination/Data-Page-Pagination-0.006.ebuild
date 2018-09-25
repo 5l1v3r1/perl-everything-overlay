@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="0.006"
-DIST_A="Data-Page-Pagination-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-ExtUtils-MakeMaker
 "
+

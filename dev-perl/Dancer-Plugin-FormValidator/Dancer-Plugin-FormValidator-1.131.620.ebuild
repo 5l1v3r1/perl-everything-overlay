@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="1.131620"
-DIST_A="Dancer-Plugin-FormValidator-1.131620.tar.gz"
+DIST_VERSION="1.131620" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

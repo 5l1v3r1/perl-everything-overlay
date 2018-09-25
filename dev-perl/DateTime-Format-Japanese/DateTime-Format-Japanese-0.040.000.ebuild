@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.04000"
-DIST_A="DateTime-Format-Japanese-0.04000.tar.gz"
+DIST_VERSION="0.04000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,9 @@ RDEPEND="
 	dev-perl/DateTime-Format-Builder
 	dev-perl/Params-Validate
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

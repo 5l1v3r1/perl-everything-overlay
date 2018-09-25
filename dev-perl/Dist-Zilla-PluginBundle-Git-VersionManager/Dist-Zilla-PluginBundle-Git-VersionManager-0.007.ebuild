@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.007"
-DIST_A="Dist-Zilla-PluginBundle-Git-VersionManager-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,6 +35,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/CPAN-Meta-Check-0.011
 	dev-perl/JSON-MaybeXS
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
@@ -48,3 +48,4 @@ DEPEND="
 	virtual/perl-if
 	virtual/perl-parent
 "
+

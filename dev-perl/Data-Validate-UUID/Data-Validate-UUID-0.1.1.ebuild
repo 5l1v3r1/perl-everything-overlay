@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="v0.1.1"
-DIST_A="Data-Validate-UUID-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

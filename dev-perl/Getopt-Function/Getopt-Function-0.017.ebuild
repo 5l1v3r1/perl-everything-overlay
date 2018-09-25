@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKEDLR"
-DIST_VERSION="0.017"
-DIST_A="Getopt-Function-0.017.tar.gz"
+DIST_VERSION="0.017" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

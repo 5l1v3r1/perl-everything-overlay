@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFORGET"
-DIST_VERSION="1.0200"
-DIST_A="DateTime-Format-Baby-1.0200.tar.gz"
+DIST_VERSION="1.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/DateTime-0.060
+	>=dev-perl/DateTime-0.160
 	dev-perl/Params-Validate
 	virtual/perl-Carp
 "
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

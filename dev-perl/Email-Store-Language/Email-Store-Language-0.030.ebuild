@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICAS"
-DIST_VERSION="0.03"
-DIST_A="Email-Store-Language-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/DBD-SQLite2
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

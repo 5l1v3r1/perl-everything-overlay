@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWNCORP"
-DIST_VERSION="0.59"
-DIST_A="Data-Object-0.59.tar.gz"
+DIST_VERSION="0.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

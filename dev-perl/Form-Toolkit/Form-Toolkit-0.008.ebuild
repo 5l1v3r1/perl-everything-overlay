@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.008"
-DIST_A="Form-Toolkit-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,6 +34,8 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/DBIx-Class-Schema-Loader
 	dev-perl/Test-Exception
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

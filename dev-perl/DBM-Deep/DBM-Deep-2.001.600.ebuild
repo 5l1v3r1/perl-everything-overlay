@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPROUT"
-DIST_VERSION="2.0016"
-DIST_A="DBM-Deep-2.0016.tar.gz"
+DIST_VERSION="2.0016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.010
 	>=virtual/perl-Test-Simple-0.880
 "
+

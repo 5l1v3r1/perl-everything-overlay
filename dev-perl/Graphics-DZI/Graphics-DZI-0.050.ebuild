@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRRHO"
-DIST_VERSION="0.05"
-DIST_A="Graphics-DZI-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="2.10"
-DIST_A="HTML-Shakan-2.10.tar.gz"
+DIST_VERSION="2.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.980
 "
+

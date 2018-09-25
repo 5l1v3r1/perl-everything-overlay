@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="0.62"
-DIST_A="Data-Verifier-0.62.tar.gz"
+DIST_VERSION="0.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Synopsis
 	virtual/perl-Test-Simple
 "
+

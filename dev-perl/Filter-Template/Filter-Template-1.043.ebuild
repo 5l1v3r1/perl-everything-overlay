@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCAPUTO"
-DIST_VERSION="1.043"
-DIST_A="Filter-Template-1.043.tar.gz"
+DIST_VERSION="1.043" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.290
 	>=virtual/perl-Test-Simple-0.980
 "
+

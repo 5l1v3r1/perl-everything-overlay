@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.17"
-DIST_A="Data-Session-1.17.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-2.770
 	>=dev-perl/CGI-3.630
 	>=dev-perl/Class-Load-0.190
 	>=dev-perl/Config-Tiny-2.140
@@ -49,3 +49,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.421.100
 	virtual/perl-ExtUtils-MakeMaker
 "
+

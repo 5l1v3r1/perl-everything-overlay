@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUIDO"
-DIST_VERSION="2.01"
-DIST_A="Data-Walk-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACQUELIN"
-DIST_VERSION="0.34"
-DIST_A="Dir-Rocknroll-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,14 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-lang/perl
+	dev-perl/Config-General
+	dev-perl/Dir-Which
+	dev-perl/File-Path-Tiny
+	dev-perl/Pod-Perldoc
+	virtual/perl-Getopt-Long
+	virtual/perl-Sys-Syslog
+	virtual/perl-Test-Simple
+	virtual/perl-libnet
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAORU"
-DIST_VERSION="0.11"
-DIST_A="File-CleanupTask-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+

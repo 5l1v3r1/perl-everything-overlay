@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="1.00"
-DIST_A="Data-PrettyPrintObjects-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=dev-perl/Test-Pod-Coverage-1.000
 "
+

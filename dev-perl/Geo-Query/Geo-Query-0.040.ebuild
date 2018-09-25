@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RETOH"
-DIST_VERSION="0.04"
-DIST_A="Geo-Query-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RE/RETOH/Geo/Geo-Query-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/R/RE/RETOH/Geo/Geo-Query-0.04.tar.gz -> Geo-Query-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Geo-Query-0.04 ${WORKDIR}/Geo-Query-0.04
+}
+

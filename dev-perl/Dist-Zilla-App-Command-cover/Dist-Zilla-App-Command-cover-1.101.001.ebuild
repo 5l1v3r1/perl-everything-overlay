@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="1.101001"
-DIST_A="Dist-Zilla-App-Command-cover-1.101001.tar.gz"
+DIST_VERSION="1.101001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

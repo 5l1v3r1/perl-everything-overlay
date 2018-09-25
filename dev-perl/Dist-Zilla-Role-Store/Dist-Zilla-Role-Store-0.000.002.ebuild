@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.000002"
-DIST_A="Dist-Zilla-Role-Store-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

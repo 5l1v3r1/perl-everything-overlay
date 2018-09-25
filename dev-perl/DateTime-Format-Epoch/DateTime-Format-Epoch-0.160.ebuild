@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHORNY"
-DIST_VERSION="0.16"
-DIST_A="DateTime-Format-Epoch-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

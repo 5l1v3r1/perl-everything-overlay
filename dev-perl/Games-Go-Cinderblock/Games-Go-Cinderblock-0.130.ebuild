@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZPMORGAN"
-DIST_VERSION="0.13"
-DIST_A="Games-Go-Cinderblock-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

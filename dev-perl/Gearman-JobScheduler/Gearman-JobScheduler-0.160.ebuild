@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LVALIUKAS"
-DIST_VERSION="0.16"
-DIST_A="Gearman-JobScheduler-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,4 +45,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.04"
-DIST_A="Data-Validate-DNS-CAA-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Data-Validate-URI
 	dev-perl/Syntax-Keyword-Junction
 	dev-perl/Taint-Util
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

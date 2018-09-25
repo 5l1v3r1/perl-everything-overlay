@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MORTY"
 DIST_VERSION="0.14"
-DIST_A="DateConvert-0.14.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

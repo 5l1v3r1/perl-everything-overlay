@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.08"
-DIST_A="HTML-Lint-Pluggable-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

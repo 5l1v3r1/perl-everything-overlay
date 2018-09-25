@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERUCI"
-DIST_VERSION="0.051"
-DIST_A="Geo-Parser-Text-0.051.tar.gz"
+DIST_VERSION="0.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

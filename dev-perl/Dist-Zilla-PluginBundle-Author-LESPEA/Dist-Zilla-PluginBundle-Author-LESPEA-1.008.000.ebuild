@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LESPEA"
-DIST_VERSION="1.008000"
-DIST_A="Dist-Zilla-PluginBundle-Author-LESPEA-1.008000.tar.gz"
+DIST_VERSION="1.008000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -76,3 +75,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

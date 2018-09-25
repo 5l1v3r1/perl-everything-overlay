@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LDIDRY"
-DIST_VERSION="v1.2.12.1"
-DIST_A="Etherpad-API-1.2.12.1.tar.gz"
+DIST_VERSION="1.2.12.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIBERRI"
-DIST_VERSION="0.68"
-DIST_A="HTML-WikiConverter-0.68.tar.gz"
+DIST_VERSION="0.68" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Class-Data-Inheritable-0.020
 	>=dev-perl/HTML-Parser-1.270
 	>=dev-perl/HTML-Tagset-3.040
-	dev-perl/HTML-Tree
+	>=dev-perl/HTML-Tree-3.180
 	>=dev-perl/Params-Validate-0.770
 	>=dev-perl/Pod-Usage-1.160
 	>=dev-perl/URI-1.350
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

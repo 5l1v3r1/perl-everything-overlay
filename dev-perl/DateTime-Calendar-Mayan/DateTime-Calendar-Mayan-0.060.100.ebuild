@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHOBLITT"
-DIST_VERSION="0.0601"
-DIST_A="DateTime-Calendar-Mayan-0.0601.tar.gz"
+DIST_VERSION="0.0601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

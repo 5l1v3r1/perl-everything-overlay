@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.001008"
-DIST_A="Dist-Zilla-PluginBundle-Author-ZOFFIX-1.001008.tar.gz"
+DIST_VERSION="1.001008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -58,3 +57,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

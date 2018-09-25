@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHELLING"
-DIST_VERSION="0.0.2"
-DIST_A="HTTP-Balancer-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/local-lib
 	virtual/perl-Test-Simple
 "
+

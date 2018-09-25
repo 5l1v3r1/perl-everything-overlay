@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RMCKAY"
-DIST_VERSION="1.03"
-DIST_A="Finance-Bank-CreateCard-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

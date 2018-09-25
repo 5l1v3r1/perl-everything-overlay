@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00015"
-DIST_A="Geo-Hash-XS-0.00015.tar.gz"
+DIST_VERSION="0.00015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-ParseXS-2.210
 	>=virtual/perl-Test-Simple-0.940
 "
+

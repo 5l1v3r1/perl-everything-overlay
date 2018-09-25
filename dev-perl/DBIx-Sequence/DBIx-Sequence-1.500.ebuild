@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBEAUSEJ"
-DIST_VERSION="1.5"
-DIST_A="DBIx-Sequence-1.5.tar.gz"
+DIST_VERSION="1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

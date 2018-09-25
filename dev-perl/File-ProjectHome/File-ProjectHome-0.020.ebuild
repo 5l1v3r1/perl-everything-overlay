@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSIDE"
-DIST_VERSION="0.02"
-DIST_A="File-ProjectHome-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.980
 "
+

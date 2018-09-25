@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.9991"
-DIST_A="DBIx-Sunny-0.9991.tar.gz"
+DIST_VERSION="0.9991" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

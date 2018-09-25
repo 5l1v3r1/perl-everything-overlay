@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RATCLIFFE"
-DIST_VERSION="6.0"
-DIST_A="Graphics-TIFF-6.tar.gz"
+DIST_VERSION="6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

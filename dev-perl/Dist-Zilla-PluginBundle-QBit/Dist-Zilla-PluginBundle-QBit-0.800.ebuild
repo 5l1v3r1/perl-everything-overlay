@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADSKILL"
-DIST_VERSION="0.8"
-DIST_A="Dist-Zilla-PluginBundle-QBit-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Git-Wrapper
 	>=virtual/perl-Test-Simple-0.880
 "
+

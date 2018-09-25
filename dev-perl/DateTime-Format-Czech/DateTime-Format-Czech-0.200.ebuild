@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOUL"
-DIST_VERSION="0.2"
-DIST_A="DateTime-Format-Czech-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/DateTime
 	dev-perl/Test-Most
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.06"
-DIST_A="File-Stat-Moose-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Exception-Died-0.040
 	>=dev-perl/Exception-Warning-0.030
+	dev-perl/Module-Build
 	>=dev-perl/Test-Unit-Lite-0.110
 	virtual/perl-parent
 "
+

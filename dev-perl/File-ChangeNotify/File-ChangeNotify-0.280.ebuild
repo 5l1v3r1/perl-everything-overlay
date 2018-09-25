@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.28"
-DIST_A="File-ChangeNotify-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Module-Pluggable
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.006
 	dev-perl/Type-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KASPER"
-DIST_VERSION="1.33"
-DIST_A="HTML-KTemplate-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

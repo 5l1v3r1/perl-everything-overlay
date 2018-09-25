@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="1.205"
-DIST_A="Devel-Todo-Find-1.205.tar.gz"
+DIST_VERSION="1.205" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

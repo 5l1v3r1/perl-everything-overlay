@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="0.093411"
-DIST_A="Data-DPath-Validator-0.093411.tar.gz"
+DIST_VERSION="0.093411" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

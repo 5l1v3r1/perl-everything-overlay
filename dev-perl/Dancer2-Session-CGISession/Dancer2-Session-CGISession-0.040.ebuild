@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PVIGIER"
-DIST_VERSION="0.04"
-DIST_A="Dancer2-Session-CGISession-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/HTTP-Cookies-6.010
 	>=dev-perl/HTTP-Message-6.040
+	dev-perl/Module-Build
 	>=dev-perl/Plack-1.000
 	>=virtual/perl-Test-Simple-0.960
 "
+

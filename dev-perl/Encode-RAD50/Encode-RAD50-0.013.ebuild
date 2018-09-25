@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WYANT"
-DIST_VERSION="0.013"
-DIST_A="Encode-RAD50-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

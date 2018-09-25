@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CINDY"
-DIST_VERSION="0.002007"
-DIST_A="DestructAssign-0.002007.tar.gz"
+DIST_VERSION="0.002007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="0.024"
-DIST_A="Dist-Zilla-PluginBundle-DBR-0.024.tar.gz"
+DIST_VERSION="0.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

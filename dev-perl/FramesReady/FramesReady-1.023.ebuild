@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DERHAAG"
-DIST_VERSION="1.023"
-DIST_A="FramesReady-1.023.tar.gz"
+DIST_VERSION="1.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

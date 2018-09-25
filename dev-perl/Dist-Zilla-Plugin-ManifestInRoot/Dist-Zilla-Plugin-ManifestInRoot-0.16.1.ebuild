@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.16.1"
-DIST_A="Dist-Zilla-Plugin-ManifestInRoot-0.16.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/dist-zilla-plugin-manifestinroot/Dist-Zilla-Plugin-ManifestInRoot-0.16.1.tar.gz"
+DIST_VERSION="0.16.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/dist-zilla-plugin-manifestinroot/Dist-Zilla-Plugin-ManifestInRoot-0.16.1.tar.gz -> Dist-Zilla-Plugin-ManifestInRoot-0.16.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-ManifestInRoot-0.16.1 ${WORKDIR}/Dist-Zilla-Plugin-ManifestInRoot-0.16.1
+}
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.4.1"
-DIST_A="Devel-Cover-Report-OwnServer-0.4.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/devel-cover-report-ownserver/Devel-Cover-Report-OwnServer-0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/devel-cover-report-ownserver/Devel-Cover-Report-OwnServer-0.4.1.tar.gz -> Devel-Cover-Report-OwnServer-0.4.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-Cover-Report-OwnServer-0.4.1 ${WORKDIR}/Devel-Cover-Report-OwnServer-0.4.1
+}
+

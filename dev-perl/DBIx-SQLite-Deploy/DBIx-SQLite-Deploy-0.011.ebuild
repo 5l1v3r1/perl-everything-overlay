@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.011"
-DIST_A="DBIx-SQLite-Deploy-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

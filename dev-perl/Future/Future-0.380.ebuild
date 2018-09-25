@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.38"
-DIST_A="Future-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Identity
 	dev-perl/Test-Refcount
 "
+

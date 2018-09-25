@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPROUT"
-DIST_VERSION="0.058"
-DIST_A="HTML-DOM-0.058.tar.gz"
+DIST_VERSION="0.058" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/CSS-DOM-0.050
+	>=dev-perl/CSS-DOM-0.070
 	dev-perl/HTML-Encoding
 	>=dev-perl/HTML-Parser-3.000
 	dev-perl/HTML-Tagset
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-1.340
 	dev-perl/TimeDate
 	dev-perl/URI
 	virtual/perl-Carp
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

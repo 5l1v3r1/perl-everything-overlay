@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.003"
-DIST_A="Dist-Zilla-Plugin-Test-PAUSE-Permissions-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Safe-Isa
 	dev-perl/Test-PAUSE-Permissions
 	virtual/perl-ExtUtils-MakeMaker
@@ -33,3 +33,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

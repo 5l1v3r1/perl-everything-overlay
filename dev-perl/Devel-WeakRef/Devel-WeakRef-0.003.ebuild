@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGLICK"
-DIST_VERSION="0.003"
-DIST_A="Devel-WeakRef-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGREELY"
-DIST_VERSION="1.0"
-DIST_A="Geo-OLC-1.tar.gz"
+DIST_VERSION="1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

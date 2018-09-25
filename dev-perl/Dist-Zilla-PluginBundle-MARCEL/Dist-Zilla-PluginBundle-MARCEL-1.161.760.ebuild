@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="1.161760"
-DIST_A="Dist-Zilla-PluginBundle-MARCEL-1.161760.tar.gz"
+DIST_VERSION="1.161760" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -57,3 +56,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

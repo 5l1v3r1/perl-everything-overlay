@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.47"
-DIST_A="Fey-ORM-0.47.tar.gz"
+DIST_VERSION="0.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/Fey
 	>=dev-perl/Fey-DBIManager-0.070
 	dev-perl/List-AllUtils
-	dev-perl/Moose
+	>=dev-perl/Moose-1.150
 	>=dev-perl/MooseX-ClassAttribute-0.240
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-SemiAffordanceAccessor
@@ -32,6 +31,7 @@ RDEPEND="
 	dev-perl/Object-ID
 	dev-perl/Sub-Exporter
 	dev-perl/Try-Tiny
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Scalar-List-Utils
 "
@@ -40,7 +40,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Fey-Test-0.050
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

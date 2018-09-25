@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.87"
-DIST_A="Data-Sah-JS-0.87.tar.gz"
+DIST_VERSION="0.87" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

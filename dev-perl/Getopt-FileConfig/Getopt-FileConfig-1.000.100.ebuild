@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Getopt-FileConfig"
-DIST_VERSION="1.0001"
-DIST_A="Getopt-FileConfig-1.0001.tar.gz"
+DIST_AUTHOR="MTADEL"
+DIST_VERSION="1.0001" 
+SRC_URI="mirror://cpan/authors/id/M/MT/MTADEL/Getopt-FileConfig/Getopt-FileConfig-1.0001.tar.gz -> Getopt-FileConfig-1.0001.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-FileConfig-1.0001 ${WORKDIR}/Getopt-FileConfig-1.0001
+}
+

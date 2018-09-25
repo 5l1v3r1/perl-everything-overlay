@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="2.058"
-DIST_A="Dist-Zilla-Plugin-Test-Compile-2.058.tar.gz"
+DIST_VERSION="2.058" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/CPAN-Meta-Check-0.011
 	>=dev-perl/File-pushd-1.004
+	dev-perl/Module-Build
 	>=dev-perl/Perl-PrereqScanner-1.016
 	dev-perl/Test-Deep
 	dev-perl/Test-MinimumVersion
@@ -43,3 +43,4 @@ DEPEND="
 	virtual/perl-if
 	virtual/perl-version
 "
+

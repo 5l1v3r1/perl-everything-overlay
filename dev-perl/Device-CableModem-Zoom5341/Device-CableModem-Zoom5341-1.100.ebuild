@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FULLERMD"
-DIST_VERSION="1.10"
-DIST_A="Device-CableModem-Zoom5341-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

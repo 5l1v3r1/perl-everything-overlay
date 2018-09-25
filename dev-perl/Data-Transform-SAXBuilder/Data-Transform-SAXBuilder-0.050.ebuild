@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTIJN"
-DIST_VERSION="0.05"
-DIST_A="Data-Transform-SAXBuilder-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/Data-Transform-0.05.01
 	>=dev-perl/XML-LibXML-1.630
 	>=dev-perl/XML-SAX-IncrementalBuilder-LibXML-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

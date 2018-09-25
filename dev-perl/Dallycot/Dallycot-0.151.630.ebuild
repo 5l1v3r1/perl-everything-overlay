@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSMITH"
-DIST_VERSION="0.151630"
-DIST_A="Dallycot-0.151630.tar.gz"
+DIST_VERSION="0.151630" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -52,7 +51,7 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-Encode
 	>=virtual/perl-Math-BigRat-0.260.600
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.410
 	virtual/perl-Term-ReadLine
 "
 DEPEND="
@@ -62,3 +61,4 @@ DEPEND="
 	>=dev-perl/EV-4.180
 	virtual/perl-ExtUtils-CBuilder
 "
+

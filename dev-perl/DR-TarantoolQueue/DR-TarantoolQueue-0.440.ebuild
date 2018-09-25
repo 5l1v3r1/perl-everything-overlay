@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNERA"
-DIST_VERSION="0.44"
-DIST_A="DR-TarantoolQueue-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

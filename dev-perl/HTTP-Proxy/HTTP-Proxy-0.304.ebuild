@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="0.304"
-DIST_A="HTTP-Proxy-0.304.tar.gz"
+DIST_VERSION="0.304" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

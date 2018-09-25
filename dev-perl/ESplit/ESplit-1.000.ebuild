@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="HCAMP"
 DIST_VERSION="1.00"
-DIST_A="ESplit1.00.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/H/HC/HCAMP/ESplit1.00.zip -> ESplit-1.00.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ESplit1.00 ${WORKDIR}/ESplit-1.00
+}
+

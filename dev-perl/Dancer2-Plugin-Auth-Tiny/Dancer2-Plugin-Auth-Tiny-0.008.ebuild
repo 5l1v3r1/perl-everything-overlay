@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="0.008"
-DIST_A="Dancer2-Plugin-Auth-Tiny-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.154.000
 	virtual/perl-Carp
 "
 DEPEND="
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.190
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJRAY"
-DIST_VERSION="0.22"
-DIST_A="Env-Export-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-File-Spec-3.000
 	>=virtual/perl-Test-Simple-0.800
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THARDISON"
-DIST_VERSION="0.80"
-DIST_A="Data-OFAC-0.80.tar.gz"
+DIST_VERSION="0.80" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

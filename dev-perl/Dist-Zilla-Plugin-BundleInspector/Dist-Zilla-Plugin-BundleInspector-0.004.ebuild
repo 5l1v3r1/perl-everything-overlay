@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.004"
-DIST_A="Dist-Zilla-Plugin-BundleInspector-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Config-MVP-BundleInspector
 	>=dev-perl/Config-MVP-Writer-INI-0.003
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-Bootstrap-lib
 	dev-perl/Moose
 	dev-perl/MooseX-AttributeShortcuts
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

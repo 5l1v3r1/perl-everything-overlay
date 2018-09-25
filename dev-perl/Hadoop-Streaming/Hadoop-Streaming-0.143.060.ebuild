@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAZM"
-DIST_VERSION="0.143060"
-DIST_A="Hadoop-Streaming-0.143060.tar.gz"
+DIST_VERSION="0.143060" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Command
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="0.07"
-DIST_A="Dancer2-Plugin-Locale-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

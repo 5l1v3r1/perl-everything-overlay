@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.42"
-DIST_A="Dist-Zilla-PluginBundle-Author-DOHERTY-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.300.032
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-App-Command-cover
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-CheckExtraTests
@@ -53,3 +52,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

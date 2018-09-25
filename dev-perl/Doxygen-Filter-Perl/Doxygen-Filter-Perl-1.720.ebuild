@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Doxygen-Filter-Perl"
-DIST_VERSION="1.72"
-DIST_A="Doxygen-Filter-Perl-1.72.tar.gz"
+DIST_AUTHOR="JORDAN"
+DIST_VERSION="1.72" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JORDAN/Doxygen-Filter-Perl/Doxygen-Filter-Perl-1.72.tar.gz -> Doxygen-Filter-Perl-1.72.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Log-Log4perl-1.460
-	>=dev-perl/Pod-POM-0.290
+	>=dev-perl/Pod-POM-1.060
 	>=dev-perl/Test-Output-1.030
 	>=virtual/perl-Test-Simple-0.980
 "
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Doxygen-Filter-Perl-1.72 ${WORKDIR}/Doxygen-Filter-Perl-1.72
+}
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="0.12"
-DIST_A="Fake-Our-0.12.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/Fake/Our/Fake-Our-0.12.tar.gz"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Fake/Our/Fake-Our-0.12.tar.gz -> Fake-Our-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Fake-Our-0.12 ${WORKDIR}/Fake-Our-0.12
+}
+

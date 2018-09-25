@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICVU"
-DIST_VERSION="0.01"
-DIST_A="HTTP-API-Client-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

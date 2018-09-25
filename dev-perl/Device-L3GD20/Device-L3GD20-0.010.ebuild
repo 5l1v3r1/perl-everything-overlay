@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHANTANU"
-DIST_VERSION="0.010"
-DIST_A="Device-L3GD20-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSHANK"
-DIST_VERSION="0.10001"
-DIST_A="Form-Processor-Model-DBIC-0.10001.tar.gz"
+DIST_VERSION="0.10001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

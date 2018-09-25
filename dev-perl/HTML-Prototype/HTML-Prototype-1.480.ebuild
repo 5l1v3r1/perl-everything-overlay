@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESSKAR"
-DIST_VERSION="1.48"
-DIST_A="HTML-Prototype-1.48.tar.gz"
+DIST_VERSION="1.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

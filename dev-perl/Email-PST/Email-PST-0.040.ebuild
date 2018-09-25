@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JWANG"
-DIST_VERSION="0.04"
-DIST_A="Email-PST-Win32-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/J/JW/JWANG/Email-PST-Win32-0.04.tar.gz -> Email-PST-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Email-PST-Win32-0.04 ${WORKDIR}/Email-PST-0.04
+}
+

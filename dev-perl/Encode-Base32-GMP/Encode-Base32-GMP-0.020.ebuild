@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWANG"
-DIST_VERSION="0.02"
-DIST_A="Encode-Base32-GMP-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-GMPz
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Base
 	virtual/perl-Test-Simple
 "
+

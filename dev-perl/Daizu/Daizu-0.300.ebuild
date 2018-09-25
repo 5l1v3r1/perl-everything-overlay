@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEOFFR"
-DIST_VERSION="0.3"
-DIST_A="Daizu-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

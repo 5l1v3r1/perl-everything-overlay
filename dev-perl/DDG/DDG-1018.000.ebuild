@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDG"
-DIST_VERSION="1018.0"
-DIST_A="DDG-1018.tar.gz"
+DIST_VERSION="1018" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,3 +47,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

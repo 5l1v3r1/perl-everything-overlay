@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ZBS"
 DIST_VERSION="0.95"
-DIST_A="DicomPack-0.95.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

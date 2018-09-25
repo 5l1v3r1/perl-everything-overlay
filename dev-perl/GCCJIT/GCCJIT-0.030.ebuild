@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VYF"
-DIST_VERSION="0.03"
-DIST_A="GCCJIT-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/FFI-Raw-0.300
 	dev-perl/Test-Fatal
 "
+

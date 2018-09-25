@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.003003"
-DIST_A="Dist-Zilla-Plugin-Prereqs-Plugins-1.003003.tar.gz"
+DIST_VERSION="1.003003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

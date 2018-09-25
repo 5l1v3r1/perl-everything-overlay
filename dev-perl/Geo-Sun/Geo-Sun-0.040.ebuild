@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRDVT"
-DIST_VERSION="0.04"
-DIST_A="Geo-Sun-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,9 +24,10 @@ RDEPEND="
 	dev-perl/Geo-Functions
 	>=dev-perl/Geo-Inverse-0.050
 	dev-perl/Test-Number-Delta
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.440
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

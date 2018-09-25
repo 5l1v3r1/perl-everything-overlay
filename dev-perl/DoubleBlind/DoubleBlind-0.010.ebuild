@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.01"
-DIST_A="DoubleBlind-0.01.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/DoubleBlind-0.01.tar.gz -> DoubleBlind-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DoubleBlind-0.01 ${WORKDIR}/DoubleBlind-0.01
+}
+

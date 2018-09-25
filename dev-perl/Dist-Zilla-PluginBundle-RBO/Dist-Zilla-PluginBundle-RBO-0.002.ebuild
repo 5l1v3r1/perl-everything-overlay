@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBO"
-DIST_VERSION="0.002"
-DIST_A="Dist-Zilla-PluginBundle-RBO-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-4.102.346
+	dev-perl/Dist-Zilla
 	>=dev-perl/Dist-Zilla-Plugin-AutoMetaResources-1.103.080
-	>=dev-perl/Dist-Zilla-Plugin-Git-1.103.520
+	dev-perl/Dist-Zilla-Plugin-Git
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

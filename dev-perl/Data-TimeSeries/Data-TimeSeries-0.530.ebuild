@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="TOMMIE"
 DIST_VERSION="0.53"
-DIST_A="Data-TimeSeries-0.53.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

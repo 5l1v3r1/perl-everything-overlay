@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.107"
-DIST_A="Exporter-Declare-Magic-0.107.tar.gz"
+DIST_VERSION="0.107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.290
 	>=virtual/perl-Test-Simple-0.880
 "
+

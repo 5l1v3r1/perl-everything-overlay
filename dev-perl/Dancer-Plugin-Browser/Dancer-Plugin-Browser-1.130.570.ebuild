@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="1.130570"
-DIST_A="Dancer-Plugin-Browser-1.130570.tar.gz"
+DIST_VERSION="1.130570" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

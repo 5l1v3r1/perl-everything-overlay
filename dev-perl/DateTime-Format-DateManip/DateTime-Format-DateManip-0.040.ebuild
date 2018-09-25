@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dt-fmt-datemanip"
-DIST_VERSION="0.04"
-DIST_A="DateTime-Format-DateManip-0.04.tar.gz"
+DIST_AUTHOR="BBENNETT"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/B/BB/BBENNETT/dt-fmt-datemanip/DateTime-Format-DateManip-0.04.tar.gz -> DateTime-Format-DateManip-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTime-Format-DateManip-0.04 ${WORKDIR}/DateTime-Format-DateManip-0.04
+}
+

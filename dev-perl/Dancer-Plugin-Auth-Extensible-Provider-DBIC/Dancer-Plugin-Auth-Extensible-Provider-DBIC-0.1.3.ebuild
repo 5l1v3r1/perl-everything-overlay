@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.1.3"
-DIST_A="Dancer-Plugin-Auth-Extensible-Provider-DBIC-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/DBIx-Class
 	>=virtual/perl-Test-Simple-0.880
 "
+

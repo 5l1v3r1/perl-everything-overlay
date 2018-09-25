@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTP"
-DIST_VERSION="0.001004"
-DIST_A="Data-Printer-Scoped-0.001004.tar.gz"
+DIST_VERSION="0.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/File-HomeDir
 	virtual/perl-Test-Simple
 "
+

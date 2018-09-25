@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.006"
-DIST_A="Dist-Zilla-Plugin-Prereqs-AuthorDeps-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.000
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	virtual/perl-Scalar-List-Utils
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

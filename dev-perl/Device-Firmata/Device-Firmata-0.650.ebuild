@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JNSBYR"
-DIST_VERSION="0.65"
-DIST_A="Device-Firmata-0.65.tar.gz"
+DIST_VERSION="0.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

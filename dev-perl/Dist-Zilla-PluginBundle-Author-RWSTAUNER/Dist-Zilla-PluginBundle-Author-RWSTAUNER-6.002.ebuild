@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="6.002"
-DIST_A="Dist-Zilla-PluginBundle-Author-RWSTAUNER-6.002.tar.gz"
+DIST_VERSION="6.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,7 +45,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Role-PluginBundle-PluginRemover
 	>=dev-perl/Dist-Zilla-Stash-PodWeaver-1.005
 	dev-perl/Git-Wrapper
-	dev-perl/Moose
+	>=dev-perl/Moose-1.010
 	dev-perl/MooseX-AttributeShortcuts
 	dev-perl/Pod-Elemental-Transformer-List
 	dev-perl/Pod-Elemental-Transformer-WikiDoc
@@ -71,3 +70,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="HTML-Form-XSS"
-DIST_VERSION="1.0"
-DIST_A="HTML-Form-XSS-1.tar.gz"
+DIST_AUTHOR="DUMB"
+DIST_VERSION="1" 
+SRC_URI="mirror://cpan/authors/id/D/DU/DUMB/HTML-Form-XSS/HTML-Form-XSS-1.tar.gz -> HTML-Form-XSS-1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	dev-perl/WWW-Mechanize
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Form-XSS-1 ${WORKDIR}/HTML-Form-XSS-1
+}
+

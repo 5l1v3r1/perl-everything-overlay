@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THARDISON"
-DIST_VERSION="0.35"
-DIST_A="Dancer-Plugin-MongoDB-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.960
 	virtual/perl-Test-Simple
 "
+

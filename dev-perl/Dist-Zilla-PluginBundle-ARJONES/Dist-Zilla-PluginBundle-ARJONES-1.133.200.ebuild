@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJONES"
-DIST_VERSION="1.133200"
-DIST_A="Dist-Zilla-PluginBundle-ARJONES-1.133200.tar.gz"
+DIST_VERSION="1.133200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-2.100.922
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-App-Command-cover
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-Clean
@@ -53,3 +52,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

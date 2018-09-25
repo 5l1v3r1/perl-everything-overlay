@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAN"
-DIST_VERSION="0.9.19"
-DIST_A="Filesys-POSIX-0.9.19.tar.gz"
+DIST_VERSION="0.9.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.260
 	>=dev-perl/Test-NoWarnings-0.081
 	dev-perl/Try-Tiny
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.440
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.003"
-DIST_A="Dist-Zilla-Plugin-AutoPrereqsFast-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
 	dev-perl/File-Slurper
+	dev-perl/Module-Build
 	virtual/perl-JSON-PP
 	virtual/perl-Test-Simple
 "
+

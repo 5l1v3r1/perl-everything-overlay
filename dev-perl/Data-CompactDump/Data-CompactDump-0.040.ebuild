@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MILSO"
-DIST_VERSION="0.04"
-DIST_A="Data-CompactDump-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -25,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

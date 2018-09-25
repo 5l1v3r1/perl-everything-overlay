@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALUKU"
-DIST_VERSION="0.2"
-DIST_A="Dotiac-addon-markup-0.2.tar.gz"
-b=M/MA/MALUKU/Dotiac-addon-markup-0.2.tar.gz
+DIST_VERSION="0.2" 
 SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/dotiac/Dotiac-addon-markup-0.2.tar.gz -> Dotiac-addon-markup-0.2.tar.gz"
 inherit perl-module
 
@@ -27,3 +25,9 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dotiac-addon-markup-0.2 ${WORKDIR}/Dotiac-addon-markup-0.2
+}
+

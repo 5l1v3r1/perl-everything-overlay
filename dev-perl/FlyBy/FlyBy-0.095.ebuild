@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.095"
-DIST_A="FlyBy-0.095.tar.gz"
+DIST_VERSION="0.095" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Devel-Cover-1.230
 	>=dev-perl/Devel-Cover-Report-Codecov-0.140
+	dev-perl/Module-Build
 	>=dev-perl/Test-FailWarnings-0.008
 	>=dev-perl/Test-Most-0.340
 "
+

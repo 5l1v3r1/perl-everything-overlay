@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIGPRESH"
-DIST_VERSION="2.17"
-DIST_A="Dancer2-Plugin-Database-2.17.tar.gz"
+DIST_VERSION="2.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Plack-1.003.200
 	virtual/perl-Test-Simple
 "
+

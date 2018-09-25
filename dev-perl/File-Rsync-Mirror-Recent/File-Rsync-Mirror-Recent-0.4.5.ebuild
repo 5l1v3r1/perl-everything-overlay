@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ANDK"
 DIST_VERSION="0.4.5"
-DIST_A="File-Rsync-Mirror-Recent-0.4.5.tar.bz2"
+DIST_A_EXT="tar.bz2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

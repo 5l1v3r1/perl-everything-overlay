@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Dancer"
-DIST_VERSION="0.03"
-DIST_A="Dancer2-Plugin-Emailesque-0.03.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Dancer/Dancer2-Plugin-Emailesque-0.03.tar.gz -> Dancer2-Plugin-Emailesque-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dancer2-Plugin-Emailesque-0.03 ${WORKDIR}/Dancer2-Plugin-Emailesque-0.03
+}
+

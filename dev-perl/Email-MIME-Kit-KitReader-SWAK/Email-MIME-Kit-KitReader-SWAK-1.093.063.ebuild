@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.093063"
-DIST_A="Email-MIME-Kit-KitReader-SWAK-1.093063.tar.gz"
+DIST_VERSION="1.093063" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.960
 "
+

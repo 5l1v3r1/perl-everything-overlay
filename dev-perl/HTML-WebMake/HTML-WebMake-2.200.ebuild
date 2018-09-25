@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASON"
-DIST_VERSION="2.2"
-DIST_A="HTML-WebMake-2.2.tar.gz"
+DIST_VERSION="2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

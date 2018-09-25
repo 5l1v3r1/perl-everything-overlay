@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OFEYAIKON"
-DIST_VERSION="0.04"
-DIST_A="Gtk2-Ex-Graph-GD-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

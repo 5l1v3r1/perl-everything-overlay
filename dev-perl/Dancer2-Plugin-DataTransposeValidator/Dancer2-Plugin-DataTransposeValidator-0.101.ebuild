@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.101"
-DIST_A="Dancer2-Plugin-DataTransposeValidator-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

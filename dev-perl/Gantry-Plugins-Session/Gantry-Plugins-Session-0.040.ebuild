@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KESTEB"
-DIST_VERSION="0.04"
-DIST_A="Gantry-Plugins-Session-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

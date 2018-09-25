@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DKOGAN"
-DIST_VERSION="0.027"
-DIST_A="Device-Dynamixel-0.027.tar.gz"
+DIST_VERSION="0.027" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

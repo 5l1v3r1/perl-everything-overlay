@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NATG"
-DIST_VERSION="1.13"
-DIST_A="Data-Babel-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.290
+	>=dev-lang/perl-1.040
 	>=dev-perl/Class-AutoClass-1.550
 	>=dev-perl/Class-AutoDB-1.280
 	>=dev-perl/Class-Singleton-1.400
@@ -48,4 +47,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.700
+	>=dev-perl/Clone-0.350
+	>=dev-perl/Math-BaseCalc-1.014
+	>=dev-perl/Test-CheckManifest-1.260
+	>=dev-perl/Test-Deep-0.110
+	>=dev-perl/Test-Pod-1.480
+	>=dev-perl/Test-Pod-Content-0.0.6
+	>=virtual/perl-Getopt-Long-2.380
+	>=virtual/perl-Test-Harness-3.280
+	>=virtual/perl-Test-Simple-0.980
+	>=virtual/perl-Text-Balanced-2.020
 "
+

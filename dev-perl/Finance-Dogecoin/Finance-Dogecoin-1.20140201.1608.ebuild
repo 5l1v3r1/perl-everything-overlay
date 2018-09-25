@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.20140201.1608"
-DIST_A="Finance-Dogecoin-1.20140201.1608.tar.gz"
+DIST_VERSION="1.20140201.1608" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Mock-LWP
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.001002"
-DIST_A="Dist-Zilla-Plugin-Bootstrap-ShareDir-Dist-1.001002.tar.gz"
+DIST_VERSION="1.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Role-Bootstrap
 	dev-perl/Moose
 	dev-perl/Test-File-ShareDir
+	dev-perl/lib
 "
 DEPEND="
 	${RDEPEND}
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

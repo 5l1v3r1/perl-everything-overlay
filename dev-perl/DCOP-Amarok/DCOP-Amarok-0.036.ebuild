@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCMULLER"
-DIST_VERSION="0.036"
-DIST_A="DCOP-Amarok-0.036.tar.gz"
+DIST_VERSION="0.036" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

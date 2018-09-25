@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJR"
-DIST_VERSION="1.009"
-DIST_A="HTML-Template-Set-1.009.tar.gz"
+DIST_VERSION="1.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

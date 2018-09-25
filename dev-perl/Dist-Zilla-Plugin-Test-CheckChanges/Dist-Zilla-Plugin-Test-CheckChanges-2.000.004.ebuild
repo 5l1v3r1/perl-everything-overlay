@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="2.000004"
-DIST_A="Dist-Zilla-Plugin-Test-CheckChanges-2.000004.tar.gz"
+DIST_VERSION="2.000004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie
 "
+

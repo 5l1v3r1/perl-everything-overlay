@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKNPP"
-DIST_VERSION="0.076"
-DIST_A="HO-class-0.076.tar.gz"
+DIST_VERSION="0.076" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

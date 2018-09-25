@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="32.0"
-DIST_A="Gtk2-Ex-ComboBoxBits-32.tar.gz"
+DIST_VERSION="32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	>=dev-perl/Glib-Ex-ConnectProperties-9.000
 	>=dev-perl/Glib-Ex-ObjectBits-1.000
 	>=dev-perl/Gtk2-1.220
-	>=dev-perl/Gtk2-Ex-WidgetBits-30.000
+	>=dev-perl/Gtk2-Ex-WidgetBits-21.000
 	dev-perl/glib-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

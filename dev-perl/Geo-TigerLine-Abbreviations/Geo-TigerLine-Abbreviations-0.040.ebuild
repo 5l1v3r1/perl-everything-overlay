@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJORE"
-DIST_VERSION="0.04"
-DIST_A="Geo-TigerLine-Abbreviations-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.17"
-DIST_A="Dist-Zilla-PluginBundle-FLORA-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,6 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
 	dev-perl/Dist-Zilla-Plugin-TaskWeaver
 	>=dev-perl/Dist-Zilla-Plugin-Test-EOL-0.140
-	dev-perl/Dist-Zilla-Plugin-Test-NewVersion
 	>=dev-perl/Dist-Zilla-Plugin-Test-NoTabs-0.080
 	>=dev-perl/Dist-Zilla-Plugin-Test-ReportPrereqs-0.019
 	>=dev-perl/Dist-Zilla-Role-PluginBundle-PluginRemover-0.103
@@ -43,3 +41,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

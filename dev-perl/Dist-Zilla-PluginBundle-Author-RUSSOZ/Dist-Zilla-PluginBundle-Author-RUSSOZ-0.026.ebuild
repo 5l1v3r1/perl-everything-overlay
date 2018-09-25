@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSSOZ"
-DIST_VERSION="0.026"
-DIST_A="Dist-Zilla-PluginBundle-Author-RUSSOZ-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -58,3 +57,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

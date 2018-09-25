@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NERDVANA"
-DIST_VERSION="0.011"
-DIST_A="ELF-Writer-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Log-Any
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAICRON"
-DIST_VERSION="0.05"
-DIST_A="Data-Encoder-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.960
 "
+

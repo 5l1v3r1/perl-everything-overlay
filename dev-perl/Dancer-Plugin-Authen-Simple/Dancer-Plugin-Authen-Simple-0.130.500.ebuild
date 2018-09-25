@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAZM"
-DIST_VERSION="0.130500"
-DIST_A="Dancer-Plugin-Authen-Simple-0.130500.tar.gz"
+DIST_VERSION="0.130500" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

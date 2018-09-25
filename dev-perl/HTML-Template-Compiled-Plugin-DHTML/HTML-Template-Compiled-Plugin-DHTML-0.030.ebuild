@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TINITA"
-DIST_VERSION="0.03"
-DIST_A="HTML-Template-Compiled-Plugin-DHTML-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.202"
-DIST_A="Dancer2-Plugin-TemplateFlute-0.202.tar.gz"
+DIST_VERSION="0.202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/aliased
 	>=virtual/perl-Test-Simple-0.940
 "
+

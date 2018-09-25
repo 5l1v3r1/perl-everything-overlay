@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHUMACK"
-DIST_VERSION="3.35"
-DIST_A="GDS2-3.35.tar.gz"
+DIST_VERSION="3.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

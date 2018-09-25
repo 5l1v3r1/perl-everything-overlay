@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EROLLINS"
-DIST_VERSION="0.33"
-DIST_A="Genezzo-Contrib-Clustered-0.33.tar.gz"
+DIST_VERSION="0.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

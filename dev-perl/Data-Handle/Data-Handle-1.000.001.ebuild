@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.000001"
-DIST_A="Data-Handle-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

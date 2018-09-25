@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HURRICUP"
-DIST_VERSION="2017.1"
-DIST_A="DTL-Fast-2017.1.tar.gz"
+DIST_VERSION="2017.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
+

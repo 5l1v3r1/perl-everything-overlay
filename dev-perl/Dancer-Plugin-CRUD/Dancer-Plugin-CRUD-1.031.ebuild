@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZURBORG"
-DIST_VERSION="1.031"
-DIST_A="Dancer-Plugin-CRUD-1.031.tar.gz"
+DIST_VERSION="1.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

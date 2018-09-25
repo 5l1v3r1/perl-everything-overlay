@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.112"
-DIST_A="File-Find-Closures-1.112.tar.gz"
+DIST_VERSION="1.112" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	>=virtual/perl-Test-Simple-0.940
 "
+

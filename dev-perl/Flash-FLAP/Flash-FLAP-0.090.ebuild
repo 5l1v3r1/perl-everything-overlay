@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONF"
-DIST_VERSION="0.09"
-DIST_A="Flash-FLAP-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

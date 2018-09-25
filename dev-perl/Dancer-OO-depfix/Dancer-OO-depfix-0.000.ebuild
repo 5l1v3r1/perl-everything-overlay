@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JAMHED"
-DIST_VERSION="0.0"
-DIST_A="Dancer-OO-depfix.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/J/JA/JAMHED/Dancer-OO-depfix.tar.gz -> Dancer-OO-depfix-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dancer-OO-depfix ${WORKDIR}/Dancer-OO-depfix-
+}
+

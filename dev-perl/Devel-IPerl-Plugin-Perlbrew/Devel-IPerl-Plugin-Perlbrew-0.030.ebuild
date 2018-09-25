@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIWIROY"
-DIST_VERSION="0.03"
-DIST_A="Devel-IPerl-Plugin-Perlbrew-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Devel-IPerl-Plugin-Perlbrew-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Devel-IPerl-Plugin-Perlbrew-0.03.tar.gz -> Devel-IPerl-Plugin-Perlbrew-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-IPerl-Plugin-Perlbrew-0.03 ${WORKDIR}/Devel-IPerl-Plugin-Perlbrew-0.03
+}
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GAGARIN"
-DIST_VERSION="0.0"
-DIST_A="Das.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/G/GA/GAGARIN/Das.tar.gz -> Das-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Das ${WORKDIR}/Das-
+}
+

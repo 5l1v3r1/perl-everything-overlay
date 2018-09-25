@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VAL"
-DIST_VERSION="20180823.0"
-DIST_A="FTN-Outbound-BSO-20180823.tar.gz"
+DIST_VERSION="20180823" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

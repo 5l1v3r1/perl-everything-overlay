@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.031"
-DIST_A="Dancer-Plugin-Interchange6-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Database
 	dev-perl/Test-Most
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARMAN"
-DIST_VERSION="0.016"
-DIST_A="Dezi-App-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -58,3 +57,4 @@ DEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-Test-Simple
 "
+

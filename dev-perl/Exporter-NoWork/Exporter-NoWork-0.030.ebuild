@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMORROW"
-DIST_VERSION="0.03"
-DIST_A="Exporter-NoWork-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Exports-1.000
 	>=virtual/perl-Test-Simple-0.610
 "
+

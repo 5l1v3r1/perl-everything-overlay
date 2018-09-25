@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GARU"
-DIST_VERSION="0.007"
-DIST_A="Devel-REPL-Plugin-DataPrinter-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

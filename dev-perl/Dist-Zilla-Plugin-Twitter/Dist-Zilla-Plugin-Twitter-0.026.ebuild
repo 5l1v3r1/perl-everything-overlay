@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.026"
-DIST_A="Dist-Zilla-Plugin-Twitter-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,11 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Config-INI
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	>=dev-perl/Moose-0.990
 	>=dev-perl/Net-Twitter-4.000.010
 	dev-perl/Try-Tiny
-	dev-perl/WWW-Shorten
+	>=dev-perl/WWW-Shorten-3.020
 	dev-perl/WWW-Shorten-Simple
 	>=dev-perl/namespace-autoclean-0.090
 	virtual/perl-File-Path
@@ -34,7 +33,10 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Params-Util
 	dev-perl/Sub-Exporter
+	dev-perl/base
+	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.08"
-DIST_A="Data-BitStream-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-XSAccessor
-	>=dev-perl/Moo-1.000.006
+	dev-perl/Moo
 	dev-perl/MooX-Types-MooseLike
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.570
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
+

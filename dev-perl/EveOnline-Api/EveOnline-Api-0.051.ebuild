@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEPREVOST"
-DIST_VERSION="0.051"
-DIST_A="EveOnline-Api-0.051.tar.gz"
+DIST_VERSION="0.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local
 "
+

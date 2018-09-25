@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMPILL"
-DIST_VERSION="2.2"
-DIST_A="Dua-2.2.tar.gz"
+DIST_VERSION="2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

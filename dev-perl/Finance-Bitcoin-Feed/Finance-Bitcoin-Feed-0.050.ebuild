@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.05"
-DIST_A="Finance-Bitcoin-Feed-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,8 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Perl-Critic
 	>=virtual/perl-Test-Simple-0.960
 "
+

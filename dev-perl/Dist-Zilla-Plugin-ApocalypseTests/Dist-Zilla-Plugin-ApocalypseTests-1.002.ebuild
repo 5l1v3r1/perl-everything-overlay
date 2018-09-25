@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="1.002"
-DIST_A="Dist-Zilla-Plugin-ApocalypseTests-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

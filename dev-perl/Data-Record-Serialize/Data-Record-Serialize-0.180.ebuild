@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJERIUS"
-DIST_VERSION="0.18"
-DIST_A="Data-Record-Serialize-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	dev-perl/Package-Variant
 	dev-perl/Ref-Util
 	dev-perl/SQL-Translator
-	>=dev-perl/Type-Tiny-1.002.001
+	dev-perl/Type-Tiny
 	dev-perl/YAML
 	dev-perl/failures
 	dev-perl/namespace-clean
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

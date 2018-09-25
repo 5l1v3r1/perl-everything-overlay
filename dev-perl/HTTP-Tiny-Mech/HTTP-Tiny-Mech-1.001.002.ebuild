@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.001002"
-DIST_A="HTTP-Tiny-Mech-1.001002.tar.gz"
+DIST_VERSION="1.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

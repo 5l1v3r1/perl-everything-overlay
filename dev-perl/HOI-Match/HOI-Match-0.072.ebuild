@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WITHERING"
-DIST_VERSION="0.072"
-DIST_A="HOI-Match-0.072.tar.gz"
-SRC_URI="mirror://cpan/authors/id/W/WI/WITHERING/HOIMatch-0072/HOI-Match-0.072.tar.gz"
+DIST_VERSION="0.072" 
+SRC_URI="mirror://cpan/authors/id/W/WI/WITHERING/HOIMatch-0072/HOI-Match-0.072.tar.gz -> HOI-Match-0.072.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HOI-Match-0.072 ${WORKDIR}/HOI-Match-0.072
+}
+

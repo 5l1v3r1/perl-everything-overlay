@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOSU"
-DIST_VERSION="0.58"
-DIST_A="HTML-Tested-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

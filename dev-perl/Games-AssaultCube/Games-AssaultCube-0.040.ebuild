@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="0.04"
-DIST_A="Games-AssaultCube-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=virtual/perl-Storable-2.180
 	virtual/perl-Test-Simple
 "
+

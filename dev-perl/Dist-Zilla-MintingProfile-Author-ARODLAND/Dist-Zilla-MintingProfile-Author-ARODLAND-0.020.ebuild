@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARODLAND"
-DIST_VERSION="0.02"
-DIST_A="Dist-Zilla-MintingProfile-Author-ARODLAND-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-1.000
 	dev-perl/Moose
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

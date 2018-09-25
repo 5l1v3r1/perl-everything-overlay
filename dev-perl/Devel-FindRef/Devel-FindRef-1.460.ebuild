@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="1.46"
-DIST_A="Devel-FindRef-1.46.tar.gz"
+DIST_VERSION="1.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	dev-perl/Task-Weaken
 "
+

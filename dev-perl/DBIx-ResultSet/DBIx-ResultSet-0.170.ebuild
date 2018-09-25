@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLUEFEET"
-DIST_VERSION="0.17"
-DIST_A="DBIx-ResultSet-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.290
 	>=virtual/perl-Test-Simple-0.940
 "
+

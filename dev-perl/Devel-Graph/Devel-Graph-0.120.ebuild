@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.12"
-DIST_A="Devel-Graph-0.12.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/devel/Devel-Graph-0.12.tar.gz"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/devel/Devel-Graph-0.12.tar.gz -> Devel-Graph-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,13 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-Differences-0.470
 	>=virtual/perl-Test-Simple-0.620
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Devel-Graph-0.12 ${WORKDIR}/Devel-Graph-0.12
+}
+

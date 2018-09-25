@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KASHIWABA"
-DIST_VERSION="0.00004"
-DIST_A="Data-Lotter-0.00004.tar.gz"
+DIST_VERSION="0.00004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Accessor
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STBEY"
-DIST_VERSION="5.5"
-DIST_A="Data-Locations-5.5.tar.gz"
+DIST_VERSION="5.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

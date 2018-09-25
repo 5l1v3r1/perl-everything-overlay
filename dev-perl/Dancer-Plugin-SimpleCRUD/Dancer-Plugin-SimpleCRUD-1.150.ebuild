@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIGPRESH"
-DIST_VERSION="1.15"
-DIST_A="Dancer-Plugin-SimpleCRUD-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

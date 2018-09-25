@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.13.72"
-DIST_A="Data-HexDump-Range-0.13.72.tar.gz"
+DIST_VERSION="0.13.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	dev-perl/Readonly
 	dev-perl/Sub-Exporter
 	dev-perl/Term-Bash-Completion-Generator
-	dev-perl/Text-Colorizer
 	dev-perl/Text-Pluralize
 	virtual/perl-Getopt-Long
 	virtual/perl-Scalar-List-Utils
@@ -35,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

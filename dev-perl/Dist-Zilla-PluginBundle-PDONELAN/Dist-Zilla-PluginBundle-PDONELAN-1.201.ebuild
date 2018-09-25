@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDONELAN"
-DIST_VERSION="1.201"
-DIST_A="Dist-Zilla-PluginBundle-PDONELAN-1.201.tar.gz"
+DIST_VERSION="1.201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

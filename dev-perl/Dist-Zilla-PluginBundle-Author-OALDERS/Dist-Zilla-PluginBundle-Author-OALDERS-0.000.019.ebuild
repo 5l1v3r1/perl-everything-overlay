@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000019"
-DIST_A="Dist-Zilla-PluginBundle-Author-OALDERS-0.000019.tar.gz"
+DIST_VERSION="0.000019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -59,3 +58,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

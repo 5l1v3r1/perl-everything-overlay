@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.00"
-DIST_A="Flux-Log-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-autodie
 	virtual/perl-parent
 "
+

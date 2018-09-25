@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.07000"
-DIST_A="File-Extract-0.07000.tar.gz"
+DIST_VERSION="0.07000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,6 @@ RDEPEND="
 	dev-perl/File-MMagic-XS
 	dev-perl/HTML-Tree
 	dev-perl/IO-stringy
-	dev-perl/MP3-Info
 	dev-perl/RTF-HTMLConverter
 	dev-perl/Spreadsheet-ParseExcel
 	dev-perl/UNIVERSAL-isa
@@ -32,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

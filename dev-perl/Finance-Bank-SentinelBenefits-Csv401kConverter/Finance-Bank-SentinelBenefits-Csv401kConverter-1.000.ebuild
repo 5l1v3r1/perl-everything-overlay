@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DSOLIMANO"
-DIST_VERSION="1.0"
-DIST_A="Finance-Bank-SentinelBenefits-Csv401kConverter-1.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/D/DS/DSOLIMANO/Csv401kConverter/Finance-Bank-SentinelBenefits-Csv401kConverter-1.0.tar.gz"
+DIST_VERSION="1.0" 
+SRC_URI="mirror://cpan/authors/id/D/DS/DSOLIMANO/Csv401kConverter/Finance-Bank-SentinelBenefits-Csv401kConverter-1.0.tar.gz -> Finance-Bank-SentinelBenefits-Csv401kConverter-1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Finance-Bank-SentinelBenefits-Csv401kConverter-1.0 ${WORKDIR}/Finance-Bank-SentinelBenefits-Csv401kConverter-1.0
+}
+

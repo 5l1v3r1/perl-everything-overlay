@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="1.01"
-DIST_A="Graphics-ColorNames-EmergyC-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

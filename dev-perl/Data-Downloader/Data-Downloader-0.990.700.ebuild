@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDUGGAN"
-DIST_VERSION="0.9907"
-DIST_A="Data-Downloader-0.9907.tar.gz"
+DIST_VERSION="0.9907" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +50,4 @@ DEPEND="
 	dev-perl/Parallel-ForkManager
 	virtual/perl-IO
 "
+

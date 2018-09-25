@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEMOWE"
-DIST_VERSION="0.51"
-DIST_A="EventStore-Tiny-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.520
 	>=dev-perl/Test-Pod-Coverage-1.100
 "
+

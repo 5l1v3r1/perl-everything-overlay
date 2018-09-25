@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMORTEGUI"
-DIST_VERSION="0.006"
-DIST_A="Dancer2-Plugin-Locale-Meta-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/Plack
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

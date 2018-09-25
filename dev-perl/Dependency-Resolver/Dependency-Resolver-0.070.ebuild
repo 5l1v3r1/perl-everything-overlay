@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAB"
-DIST_VERSION="0.07"
-DIST_A="Dependency-Resolver-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.100
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

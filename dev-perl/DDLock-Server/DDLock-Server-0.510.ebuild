@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HACHI"
-DIST_VERSION="0.51"
-DIST_A="DDLock-Server-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBI
 	dev-perl/Danga-Socket
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
@@ -28,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

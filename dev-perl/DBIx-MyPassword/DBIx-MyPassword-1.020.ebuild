@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dbix_mypassword"
-DIST_VERSION="1.02"
-DIST_A="DBIx-MyPassword-1.02.tar.gz"
+DIST_AUTHOR="JMCADA"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMCADA/dbix_mypassword/DBIx-MyPassword-1.02.tar.gz -> DBIx-MyPassword-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-MyPassword-1.02 ${WORKDIR}/DBIx-MyPassword-1.02
+}
+

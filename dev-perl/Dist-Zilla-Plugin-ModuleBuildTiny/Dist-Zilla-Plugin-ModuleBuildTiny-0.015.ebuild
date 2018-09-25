@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.015"
-DIST_A="Dist-Zilla-Plugin-ModuleBuildTiny-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	virtual/perl-CPAN-Meta
 	virtual/perl-Test-Simple
 "
+

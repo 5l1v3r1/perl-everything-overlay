@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.05"
-DIST_A="Graph-Regexp-0.05.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Regexp-0.05.tar.gz"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Regexp-0.05.tar.gz -> Graph-Regexp-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,16 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Graph-Easy-0.620
 	>=dev-perl/Test-Differences-0.470
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Scalar-List-Utils-1.130
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-Regexp-0.05 ${WORKDIR}/Graph-Regexp-0.05
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VAL"
-DIST_VERSION="20141121.0"
-DIST_A="FTN-Message-serialno-20141121.tar.gz"
+DIST_VERSION="20141121" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

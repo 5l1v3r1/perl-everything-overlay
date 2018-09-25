@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.07"
-DIST_A="Games-OpenGL-Font-2D-0.07.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/games/Games-OpenGL-Font-2D-0.07.tar.gz"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/games/Games-OpenGL-Font-2D-0.07.tar.gz -> Games-OpenGL-Font-2D-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-OpenGL-Font-2D-0.07 ${WORKDIR}/Games-OpenGL-Font-2D-0.07
+}
+

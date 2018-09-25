@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="2.6"
-DIST_A="Git-Code-Review-2.6.tar.gz"
+DIST_VERSION="2.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,6 +32,7 @@ RDEPEND="
 	dev-perl/Mail-IMAPClient
 	dev-perl/Module-Pluggable
 	dev-perl/Mojolicious
+	dev-perl/Pod-Usage
 	dev-perl/Sub-Exporter
 	dev-perl/Template-Toolkit
 	dev-perl/YAML
@@ -41,7 +41,6 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 	virtual/perl-Text-Tabs+Wrap
 	virtual/perl-Time-Local
 "
@@ -54,3 +53,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

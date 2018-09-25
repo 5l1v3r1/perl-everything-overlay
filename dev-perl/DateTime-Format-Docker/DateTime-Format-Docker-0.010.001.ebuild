@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MZIESCHA"
-DIST_VERSION="0.010001"
-DIST_A="DateTime-Format-Docker-0.010001.tar.gz"
+DIST_VERSION="0.010001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

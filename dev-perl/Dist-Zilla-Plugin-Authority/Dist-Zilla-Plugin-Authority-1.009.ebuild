@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APOCAL"
-DIST_VERSION="1.009"
-DIST_A="Dist-Zilla-Plugin-Authority-1.009.tar.gz"
+DIST_VERSION="1.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.102.345
+	dev-perl/Dist-Zilla
 	dev-perl/File-HomeDir
 	>=dev-perl/Moose-1.030
 	>=dev-perl/PPI-1.206
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

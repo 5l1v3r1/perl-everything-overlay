@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANK"
-DIST_VERSION="1.162360"
-DIST_A="Form-Processor-1.162360.tar.gz"
+DIST_VERSION="1.162360" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,7 @@ RDEPEND="
 	dev-perl/Rose-Object
 	dev-perl/Template-Toolkit
 	dev-perl/UNIVERSAL-require
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
@@ -44,3 +44,4 @@ DEPEND="
 	dev-perl/Date-Manip
 	virtual/perl-Test-Simple
 "
+

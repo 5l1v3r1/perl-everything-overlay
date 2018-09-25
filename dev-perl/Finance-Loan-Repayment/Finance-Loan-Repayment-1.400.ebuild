@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WATERKIP"
-DIST_VERSION="1.4"
-DIST_A="Finance-Loan-Repayment-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHLETE"
-DIST_VERSION="0.04"
-DIST_A="Dancer2-Template-Haml-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-CBuilder
 "
+

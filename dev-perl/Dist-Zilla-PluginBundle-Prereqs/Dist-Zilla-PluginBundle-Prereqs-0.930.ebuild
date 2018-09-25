@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBYRD"
-DIST_VERSION="0.93"
-DIST_A="Dist-Zilla-PluginBundle-Prereqs-0.93.tar.gz"
+DIST_VERSION="0.93" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/YAML-Tiny-1.230
 	>=virtual/perl-Test-Simple-0.940
 "
+

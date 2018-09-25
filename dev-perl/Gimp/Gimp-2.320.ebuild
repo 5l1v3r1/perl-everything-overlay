@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="2.32"
-DIST_A="Gimp-2.32.tar.gz"
+DIST_VERSION="2.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-7.140
 	>=virtual/perl-Test-Simple-0.880
 "
+

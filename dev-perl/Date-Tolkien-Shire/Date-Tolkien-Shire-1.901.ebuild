@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WYANT"
-DIST_VERSION="1.901"
-DIST_A="Date-Tolkien-Shire-1.901.tar.gz"
+DIST_VERSION="1.901" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

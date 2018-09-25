@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STRZELEC"
-DIST_VERSION="0.501"
-DIST_A="Gtk2-GladeXML-OO-0.501.tar.gz"
+DIST_VERSION="0.501" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

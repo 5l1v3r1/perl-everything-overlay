@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MYSOCIETY"
-DIST_VERSION="1.14"
-DIST_A="Geo-HelmertTransform-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

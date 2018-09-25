@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.003"
-DIST_A="Dancer2-Plugin-Queue-MongoDB-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dancer2-Plugin-Queue-0.003
+	dev-perl/Dancer2-Plugin-Queue
 	dev-perl/MongoDB
 	dev-perl/MongoDBx-Queue
 	dev-perl/Moose
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

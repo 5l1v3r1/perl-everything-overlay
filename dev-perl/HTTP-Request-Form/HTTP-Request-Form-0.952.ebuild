@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBAUER"
-DIST_VERSION="0.952"
-DIST_A="HTTP-Request-Form-0.952.tar.gz"
+DIST_VERSION="0.952" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KROW"
-DIST_VERSION="v0.15.0"
-DIST_A="Gearman-XS-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-CBuilder-0.270
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

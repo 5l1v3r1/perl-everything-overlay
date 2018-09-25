@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOCOW"
-DIST_VERSION="0.02.003"
-DIST_A="DiaColloDB-WWW-0.02.003.tar.gz"
+DIST_VERSION="0.02.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/File-ShareDir-Install
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

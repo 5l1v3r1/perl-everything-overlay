@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETERCJ"
-DIST_VERSION="0.018004"
-DIST_A="Data-IEEE754-Tools-0.018004.tar.gz"
+DIST_VERSION="0.018004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.860
 "
+

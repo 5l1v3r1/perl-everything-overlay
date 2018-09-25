@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCAND"
-DIST_VERSION="1.071"
-DIST_A="HTML-EasyTags-1.071.tar.gz"
+DIST_VERSION="1.071" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

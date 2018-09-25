@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEXMEC"
-DIST_VERSION="0.4"
-DIST_A="File-Find-Iterator-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

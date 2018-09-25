@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BROQ"
-DIST_VERSION="0.53"
-DIST_A="Git-PurePerl-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-utf8-0.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

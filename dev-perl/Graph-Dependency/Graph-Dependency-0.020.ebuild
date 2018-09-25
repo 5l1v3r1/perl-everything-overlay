@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.02"
-DIST_A="Graph-Dependency-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Dependency-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Dependency-0.02.tar.gz -> Graph-Dependency-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-Dependency-0.02 ${WORKDIR}/Graph-Dependency-0.02
+}
+

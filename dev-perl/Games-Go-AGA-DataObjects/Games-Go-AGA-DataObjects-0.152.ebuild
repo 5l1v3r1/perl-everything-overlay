@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="0.152"
-DIST_A="Games-Go-AGA-DataObjects-0.152.tar.gz"
+DIST_VERSION="0.152" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="0.15"
-DIST_A="Emacs-Run-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,10 +21,14 @@ DEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-Base-0.030
 	dev-perl/List-MoreUtils
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMMY"
-DIST_VERSION="1.004"
-DIST_A="Exception-Handler-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="1.00"
-DIST_A="Emacs-Rep-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Test-Differences
 	dev-perl/Test-Trap
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

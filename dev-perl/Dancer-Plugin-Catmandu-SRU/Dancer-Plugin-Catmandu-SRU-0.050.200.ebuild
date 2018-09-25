@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICS"
-DIST_VERSION="0.0502"
-DIST_A="Dancer-Plugin-Catmandu-SRU-0.0502.tar.gz"
+DIST_VERSION="0.0502" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

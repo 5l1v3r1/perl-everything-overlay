@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.006"
-DIST_A="Dist-Zilla-Role-FileWatcher-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Module-Runtime
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
@@ -36,3 +36,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

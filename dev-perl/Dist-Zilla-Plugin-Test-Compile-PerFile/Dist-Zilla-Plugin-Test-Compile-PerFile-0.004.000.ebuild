@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.004000"
-DIST_A="Dist-Zilla-Plugin-Test-Compile-PerFile-0.004000.tar.gz"
+DIST_VERSION="0.004000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

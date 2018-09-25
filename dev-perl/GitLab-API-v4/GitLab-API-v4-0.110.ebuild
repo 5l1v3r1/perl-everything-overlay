@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	>=dev-perl/Try-Tiny-0.280
 	>=dev-perl/Type-Tiny-1.002.001
-	>=dev-perl/URI-1.720
+	>=dev-perl/URI-1.620
 	>=dev-perl/namespace-clean-0.270
 	>=dev-perl/strictures-2.000.003
 	virtual/perl-Carp

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHOMASON"
-DIST_VERSION="2.17"
-DIST_A="Gearman-WorkerSpawner-2.17.tar.gz"
+DIST_VERSION="2.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

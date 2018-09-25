@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.009"
-DIST_A="Dist-Zilla-Role-RepoFileInjector-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Dist-Zilla
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	virtual/perl-File-Spec
@@ -34,3 +34,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-if
 "
+

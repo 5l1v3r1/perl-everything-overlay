@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="0.4"
-DIST_A="File-Tail-App-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

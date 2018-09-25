@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="0.042"
-DIST_A="Games-Go-AGA-Parse-0.042.tar.gz"
+DIST_VERSION="0.042" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJF"
-DIST_VERSION="1.06"
-DIST_A="Exobrain-Beeminder-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

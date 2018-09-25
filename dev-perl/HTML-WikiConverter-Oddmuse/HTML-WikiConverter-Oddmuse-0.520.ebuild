@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIBERRI"
-DIST_VERSION="0.52"
-DIST_A="HTML-WikiConverter-Oddmuse-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

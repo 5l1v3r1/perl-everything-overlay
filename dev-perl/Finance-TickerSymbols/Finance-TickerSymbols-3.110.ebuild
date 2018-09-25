@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JEZRA"
 DIST_VERSION="3.11"
-DIST_A="Finance-TickerSymbols-3.11.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

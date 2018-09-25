@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIDEAKIO"
-DIST_VERSION="0.13"
-DIST_A="FormValidator-Lite-Constraint-Moose-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/FormValidator-Lite-0.100
-	>=dev-perl/Moose-0.940
+	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

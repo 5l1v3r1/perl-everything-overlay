@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DICHI"
-DIST_VERSION="0.06000"
-DIST_A="Data-Currency-0.06000.tar.gz"
+DIST_VERSION="0.06000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	dev-perl/Test-Perl-Critic
 "
+

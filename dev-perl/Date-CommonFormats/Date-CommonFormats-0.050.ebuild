@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CKFULTON"
-DIST_VERSION="0.05"
-DIST_A="Date-CommonFormats-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

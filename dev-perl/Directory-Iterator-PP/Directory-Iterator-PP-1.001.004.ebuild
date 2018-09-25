@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANBEG"
-DIST_VERSION="1.001004"
-DIST_A="Directory-Iterator-PP-1.001004.tar.gz"
+DIST_VERSION="1.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

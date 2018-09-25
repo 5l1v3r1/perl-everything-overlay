@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDANIEL"
-DIST_VERSION="v1.0.2"
-DIST_A="DBIx-SimpleMigration-1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/DBD-SQLite
 	dev-perl/DBI
+	dev-perl/Module-Build
 "
+

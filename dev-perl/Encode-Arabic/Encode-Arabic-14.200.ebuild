@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMRZ"
-DIST_VERSION="14.2"
-DIST_A="Encode-Arabic-14.2.tar.gz"
+DIST_VERSION="14.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

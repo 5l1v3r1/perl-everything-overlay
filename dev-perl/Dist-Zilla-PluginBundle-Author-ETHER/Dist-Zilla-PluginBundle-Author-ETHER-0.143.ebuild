@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.143"
-DIST_A="Dist-Zilla-PluginBundle-Author-ETHER-0.143.tar.gz"
+DIST_VERSION="0.143" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CPAN-Changes-0.230
 	dev-perl/Devel-CheckBin
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.038
 	dev-perl/Dist-Zilla-Config-Slicer
 	>=dev-perl/Dist-Zilla-Plugin-Authority-1.009
 	dev-perl/Dist-Zilla-Plugin-AutoMetaResources
@@ -38,7 +37,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-Git-Describe-0.004
 	dev-perl/Dist-Zilla-Plugin-Git-PushInitial
 	dev-perl/Dist-Zilla-Plugin-Git-Remote-Check
-	>=dev-perl/Dist-Zilla-Plugin-GitHub-0.400
+	>=dev-perl/Dist-Zilla-Plugin-GitHub-0.350
 	>=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.540
 	>=dev-perl/Dist-Zilla-Plugin-InstallGuide-1.200.005
 	>=dev-perl/Dist-Zilla-Plugin-Keywords-0.004
@@ -52,7 +51,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-Prereqs-AuthorDeps-0.006
 	>=dev-perl/Dist-Zilla-Plugin-PromptIfStale-0.004
 	>=dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod-0.142.180
-	>=dev-perl/Dist-Zilla-Plugin-Run-0.041
+	dev-perl/Dist-Zilla-Plugin-Run
 	>=dev-perl/Dist-Zilla-Plugin-StaticInstall-0.005
 	>=dev-perl/Dist-Zilla-Plugin-Test-CPAN-Changes-0.012
 	>=dev-perl/Dist-Zilla-Plugin-Test-CleanNamespaces-0.006
@@ -66,7 +65,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-Test-Portability-2.000.007
 	>=dev-perl/Dist-Zilla-Plugin-Test-ReportPrereqs-0.022
 	dev-perl/Dist-Zilla-Plugin-UseUnsafeInc
-	>=dev-perl/Dist-Zilla-PluginBundle-Git-CheckFor-0.008
+	>=dev-perl/Dist-Zilla-PluginBundle-Git-CheckFor-0.004
 	>=dev-perl/Dist-Zilla-PluginBundle-Git-VersionManager-0.007
 	>=dev-perl/Dist-Zilla-Role-PluginBundle-PluginRemover-0.103
 	dev-perl/File-ShareDir
@@ -78,7 +77,7 @@ RDEPEND="
 	>=dev-perl/Pod-Elemental-Transformer-List-0.102.000
 	dev-perl/Pod-Elemental-Transformer-Verbatim
 	>=dev-perl/Pod-Markdown-1.500
-	>=dev-perl/Pod-Weaver-4.011
+	dev-perl/Pod-Weaver
 	dev-perl/Pod-Weaver-Section-AllowOverride
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.008
 	dev-perl/Pod-Weaver-Section-GenerateSection
@@ -99,6 +98,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	dev-perl/JSON-MaybeXS
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-File-ShareDir
@@ -113,3 +113,4 @@ DEPEND="
 	virtual/perl-if
 	virtual/perl-parent
 "
+

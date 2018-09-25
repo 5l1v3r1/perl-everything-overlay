@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEANDR"
-DIST_VERSION="v3.04.8"
-DIST_A="Email-IsEmail-3.04.8.tar.gz"
+DIST_VERSION="3.04.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.510
 	>=virtual/perl-Test-Simple-1.302.052
 "
+

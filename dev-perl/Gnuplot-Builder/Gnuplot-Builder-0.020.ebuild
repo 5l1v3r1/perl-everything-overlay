@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.02"
-DIST_A="Gnuplot-Builder-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Memory-Cycle
 	virtual/perl-Test-Simple
 "
+

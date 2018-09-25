@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WDOBLER"
-DIST_VERSION="0.5.1"
-DIST_A="Fortran-F90Namelist-0.5.1.tar.gz"
+DIST_VERSION="0.5.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

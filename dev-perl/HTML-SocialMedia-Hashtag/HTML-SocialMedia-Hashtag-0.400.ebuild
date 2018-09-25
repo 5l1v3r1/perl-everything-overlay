@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GERMANS"
-DIST_VERSION="0.4"
-DIST_A="HTML-SocialMedia-Hashtag-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

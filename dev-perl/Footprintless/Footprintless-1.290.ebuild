@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTHEISEN"
-DIST_VERSION="1.29"
-DIST_A="Footprintless-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.900
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="HTML-WikiConverter-Txt2tags-004"
-DIST_VERSION="0.04"
-DIST_A="HTML-WikiConverter-Txt2tags-0.04.tar.gz"
+DIST_AUTHOR="EFORGEOT"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/E/EF/EFORGEOT/HTML-WikiConverter-Txt2tags-004/HTML-WikiConverter-Txt2tags-0.04.tar.gz -> HTML-WikiConverter-Txt2tags-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-WikiConverter-Txt2tags-0.04 ${WORKDIR}/HTML-WikiConverter-Txt2tags-0.04
+}
+

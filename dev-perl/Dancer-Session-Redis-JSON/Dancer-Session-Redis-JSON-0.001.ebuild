@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FBELTON"
-DIST_VERSION="0.001"
-DIST_A="Dancer-Session-Redis-JSON-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Function-Parameters
 	dev-perl/JSON
 	dev-perl/Redis
+	dev-perl/base
 	virtual/perl-Digest-SHA
 	virtual/perl-Exporter
 "
@@ -28,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

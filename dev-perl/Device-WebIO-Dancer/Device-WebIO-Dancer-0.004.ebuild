@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMURRAY"
-DIST_VERSION="0.004"
-DIST_A="Device-WebIO-Dancer-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Plack
 	dev-perl/Test-Pod
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="0.02"
-DIST_A="Digest-FNV-XS-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Canary-Stability
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

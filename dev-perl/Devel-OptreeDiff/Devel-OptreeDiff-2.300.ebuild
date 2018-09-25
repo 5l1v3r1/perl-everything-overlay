@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJORE"
-DIST_VERSION="2.3"
-DIST_A="Devel-OptreeDiff-2.3.tar.gz"
+DIST_VERSION="2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

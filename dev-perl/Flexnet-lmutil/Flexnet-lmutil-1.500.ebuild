@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODENBACH"
-DIST_VERSION="1.5"
-DIST_A="Flexnet-lmutil-1.5.tar.gz"
+DIST_VERSION="1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

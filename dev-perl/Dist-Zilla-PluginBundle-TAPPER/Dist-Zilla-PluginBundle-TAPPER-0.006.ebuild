@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="0.006"
-DIST_A="Dist-Zilla-PluginBundle-TAPPER-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-Test-Pod-Coverage-Configurable
 	dev-perl/Dist-Zilla-PluginBundle-Git-CheckFor
 	dev-perl/Method-Signatures-Simple
-	dev-perl/Moose
+	>=dev-perl/Moose-1.000
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Email
 	>=dev-perl/MooseX-Types-Structured-0.200
@@ -48,3 +47,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

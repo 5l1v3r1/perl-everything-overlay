@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="1.57"
-DIST_A="HTTP-Client-1.57.tar.gz"
+DIST_VERSION="1.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/LWP-Online
 	>=virtual/perl-Test-Simple-0.880
 "
+

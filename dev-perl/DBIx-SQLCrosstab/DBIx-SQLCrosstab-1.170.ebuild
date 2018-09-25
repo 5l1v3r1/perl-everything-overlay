@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GMAX"
-DIST_VERSION="1.17"
-DIST_A="DBIx-SQLCrosstab-1.17.tar.gz"
+DIST_VERSION="1.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

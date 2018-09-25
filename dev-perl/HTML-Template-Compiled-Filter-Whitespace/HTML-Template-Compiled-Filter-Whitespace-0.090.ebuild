@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="0.09"
-DIST_A="HTML-Template-Compiled-Filter-Whitespace-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-ExtUtils-MakeMaker
 "
+

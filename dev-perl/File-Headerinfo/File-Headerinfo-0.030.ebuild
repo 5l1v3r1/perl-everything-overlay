@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WROSS"
-DIST_VERSION="0.03"
-DIST_A="File-Headerinfo-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Audio-Wav
 	dev-perl/Image-Size
-	dev-perl/MP3-Info
 	dev-perl/SWF-Header
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

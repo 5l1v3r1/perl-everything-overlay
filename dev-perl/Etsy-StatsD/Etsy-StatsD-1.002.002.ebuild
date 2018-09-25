@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANBEG"
-DIST_VERSION="1.002002"
-DIST_A="Etsy-StatsD-1.002002.tar.gz"
+DIST_VERSION="1.002002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Test-MockModule
 "
+

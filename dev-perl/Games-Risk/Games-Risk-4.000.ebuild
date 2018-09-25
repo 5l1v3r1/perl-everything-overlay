@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="4.000"
-DIST_A="Games-Risk-4.000.tar.gz"
+DIST_VERSION="4.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	dev-perl/List-AllUtils
 	dev-perl/List-MoreUtils
 	dev-perl/Module-Pluggable
-	>=dev-perl/Moose-0.920
+	dev-perl/Moose
 	dev-perl/MooseX-Aliases
 	dev-perl/MooseX-Has-Sugar
 	dev-perl/MooseX-POE
@@ -68,3 +67,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

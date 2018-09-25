@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.001005"
-DIST_A="DBIx-Introspector-0.001005.tar.gz"
+DIST_VERSION="0.001005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Roo-1.002
 	>=virtual/perl-Test-Simple-0.990
 "
+

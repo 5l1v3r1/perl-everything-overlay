@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LITTLEFOX"
-DIST_VERSION="0.05"
-DIST_A="Dancer2-Plugin-Auth-HTTP-Basic-DWIW-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNRDEEIO"
-DIST_VERSION="v0.2.0"
-DIST_A="Github-Score-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

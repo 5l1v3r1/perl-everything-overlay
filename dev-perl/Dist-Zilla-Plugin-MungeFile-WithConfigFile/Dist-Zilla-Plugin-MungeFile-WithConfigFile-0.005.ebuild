@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.005"
-DIST_A="Dist-Zilla-Plugin-MungeFile-WithConfigFile-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,9 +28,11 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Config-Tiny
 	dev-perl/Dist-Zilla
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

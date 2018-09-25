@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZABGAB"
-DIST_VERSION="0.32"
-DIST_A="Dwimmer-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,3 +52,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize
 	virtual/perl-Test-Simple
 "
+

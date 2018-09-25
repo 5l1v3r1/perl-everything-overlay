@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARASIK"
-DIST_VERSION="1.01"
-DIST_A="DBIx-Perlish-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

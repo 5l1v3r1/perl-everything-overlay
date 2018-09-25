@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="0.102"
-DIST_A="Exceptions-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

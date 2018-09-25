@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUSHE"
-DIST_VERSION="0.06"
-DIST_A="Egg-Release-Authorize-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,9 +29,10 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	>=virtual/perl-Digest-MD5-2.360
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.09.11"
-DIST_A="Eval-Context-0.09.11.tar.gz"
+DIST_VERSION="0.09.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

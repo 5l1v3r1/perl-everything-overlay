@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASAAG"
-DIST_VERSION="2.30"
-DIST_A="Devel-Animator-2.30.tar.gz"
+DIST_VERSION="2.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

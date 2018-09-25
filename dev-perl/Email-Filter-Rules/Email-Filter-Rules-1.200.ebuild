@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBISBEE"
-DIST_VERSION="1.2"
-DIST_A="Email-Filter-Rules-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

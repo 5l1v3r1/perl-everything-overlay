@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.009"
-DIST_A="Data-Rx-TypeBundle-Perl-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Rx-0.200.002
+	dev-perl/Data-Rx
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.960
 "
+

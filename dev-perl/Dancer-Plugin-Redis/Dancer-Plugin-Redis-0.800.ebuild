@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CELOGEEK"
-DIST_VERSION="0.8"
-DIST_A="Dancer-Plugin-Redis-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	dev-perl/JSON
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

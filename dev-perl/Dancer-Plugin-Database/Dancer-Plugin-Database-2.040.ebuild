@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIGPRESH"
-DIST_VERSION="2.04"
-DIST_A="Dancer-Plugin-Database-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

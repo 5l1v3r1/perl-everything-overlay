@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSSOZ"
-DIST_VERSION="1.121690"
-DIST_A="DataFlow-Proc-URLRetriever-1.121690.tar.gz"
+DIST_VERSION="1.121690" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/DataFlow-1.112.100
+	dev-perl/DataFlow
 	dev-perl/Moose
 	dev-perl/URI
 	dev-perl/libwww-perl
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NRR"
-DIST_VERSION="0.121240"
-DIST_A="Data-UUID-Concise-0.121240.tar.gz"
+DIST_VERSION="0.121240" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

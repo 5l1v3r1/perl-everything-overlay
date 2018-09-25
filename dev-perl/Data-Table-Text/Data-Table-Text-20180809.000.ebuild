@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="20180809.0"
-DIST_A="Data-Table-Text-20180809.tar.gz"
+DIST_VERSION="20180809" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.170
+	dev-lang/perl
 	dev-perl/Data-Dump
 	dev-perl/JSON
 	dev-perl/String-Numeric
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.422.400
 "
+

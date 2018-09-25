@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBARBON"
-DIST_VERSION="0.22"
-DIST_A="Google-ProtocolBuffers-Dynamic-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-ExtUtils-ParseXS-2.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNUSTAVO"
-DIST_VERSION="2.9.6"
-DIST_A="Git-Hooks-2.9.6.tar.gz"
+DIST_VERSION="2.9.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Requires-Git
 	dev-perl/lib
 "
+

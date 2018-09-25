@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSHIMI"
-DIST_VERSION="0.20"
-DIST_A="HTTP-MobileAgent-Flash-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Base
 "
+

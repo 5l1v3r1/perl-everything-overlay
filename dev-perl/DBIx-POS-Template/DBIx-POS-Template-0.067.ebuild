@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCHE"
-DIST_VERSION="0.067"
+DIST_VERSION="0.067" 
 inherit perl-module
 
 DESCRIPTION="No description available"

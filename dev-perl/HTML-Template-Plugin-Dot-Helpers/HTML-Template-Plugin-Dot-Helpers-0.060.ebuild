@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHESA"
-DIST_VERSION="0.06"
-DIST_A="HTML-Template-Plugin-Dot-Helpers-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTML-Template-Pluggable-0.120
+	>=dev-perl/HTML-Template-Pluggable-0.960
 	dev-perl/Number-Format
 	virtual/perl-Test-Simple
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRANTM"
-DIST_VERSION="0.03"
-DIST_A="File-Find-Rule-XPath-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Find-Rule
-	>=dev-perl/XML-LibXML-2.012.900
+	>=dev-perl/XML-LibXML-2.013.200
 	dev-perl/XML-XPath
 	>=virtual/perl-Test-Simple-0.410
 "
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="nameday"
-DIST_VERSION="0.02"
-DIST_A="DateTime-Event-NameDay-0.02.tar.gz"
+DIST_AUTHOR="BBENNETT"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/B/BB/BBENNETT/nameday/DateTime-Event-NameDay-0.02.tar.gz -> DateTime-Event-NameDay-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +25,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTime-Event-NameDay-0.02 ${WORKDIR}/DateTime-Event-NameDay-0.02
+}
+

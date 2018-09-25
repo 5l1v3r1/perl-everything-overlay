@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOWMANBS"
-DIST_VERSION="0.65"
-DIST_A="Data-Rmap-0.65.tar.gz"
+DIST_VERSION="0.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

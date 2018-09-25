@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.172230"
-DIST_A="Dist-Zilla-PluginBundle-MITHALDU-1.172230.tar.gz"
+DIST_VERSION="1.172230" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Section-Simple
-	>=dev-perl/Dist-Zilla-4.300
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-App-Command-cover
 	>=dev-perl/Dist-Zilla-Plugin-Bugtracker-1.102.670
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
@@ -63,3 +62,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

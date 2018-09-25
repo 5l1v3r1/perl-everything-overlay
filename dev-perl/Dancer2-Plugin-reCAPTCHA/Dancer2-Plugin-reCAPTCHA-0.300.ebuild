@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATTAWAN"
-DIST_VERSION="0.3"
-DIST_A="Dancer2-Plugin-reCAPTCHA-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

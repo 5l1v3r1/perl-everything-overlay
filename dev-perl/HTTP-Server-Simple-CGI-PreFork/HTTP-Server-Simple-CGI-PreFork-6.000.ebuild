@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAVAC"
-DIST_VERSION="6.0"
-DIST_A="HTTP-Server-Simple-CGI-PreFork-6.tar.gz"
+DIST_VERSION="6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	>=dev-perl/HTTP-Server-Simple-0.440
 	dev-perl/IO-Socket-INET6
 	dev-perl/Net-SSLeay
-	>=dev-perl/Net-Server-2.000
+	dev-perl/Net-Server
 	dev-perl/Socket6
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

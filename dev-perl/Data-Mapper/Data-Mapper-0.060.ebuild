@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTARO"
-DIST_VERSION="0.06"
-DIST_A="Data-Mapper-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

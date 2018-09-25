@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.314"
-DIST_A="Git-Repository-Plugin-Log-1.314.tar.gz"
+DIST_VERSION="1.314" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Git-Repository
+	>=dev-perl/Git-Repository-1.309
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

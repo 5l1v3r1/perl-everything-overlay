@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="1.209"
-DIST_A="Digest-Bcrypt-1.209.tar.gz"
+DIST_VERSION="1.209" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-0.880
 	>=virtual/perl-Test-Simple-0.880
 "
+

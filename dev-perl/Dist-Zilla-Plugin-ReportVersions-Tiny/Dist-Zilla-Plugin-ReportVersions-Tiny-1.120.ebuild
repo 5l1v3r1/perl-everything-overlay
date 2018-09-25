@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="1.12"
-DIST_A="Dist-Zilla-Plugin-ReportVersions-Tiny-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-MockObject
 	dev-perl/Test-Warn
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

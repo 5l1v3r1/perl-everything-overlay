@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMURRAY"
-DIST_VERSION="0.498225878299312"
-DIST_A="Device-Spektrum-0.498225878299312.tar.gz"
+DIST_VERSION="0.498225878299312" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Pod
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROBERTS"
-DIST_VERSION="2.3"
-DIST_A="File-Repl-2.3.tar.gz"
+DIST_VERSION="2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.600
+	dev-lang/perl
 	dev-perl/Win32-API
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

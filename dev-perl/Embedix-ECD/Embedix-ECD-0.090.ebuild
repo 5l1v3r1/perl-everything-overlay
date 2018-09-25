@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEPPU"
-DIST_VERSION="0.09"
-DIST_A="Embedix-ECD-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

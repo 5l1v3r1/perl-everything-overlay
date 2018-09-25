@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.09"
-DIST_A="Graph-Convert-0.09.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Convert-0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Convert-0.09.tar.gz -> Graph-Convert-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.520
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-Convert-0.09 ${WORKDIR}/Graph-Convert-0.09
+}
+

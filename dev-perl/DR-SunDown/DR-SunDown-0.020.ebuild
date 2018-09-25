@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNERA"
-DIST_VERSION="0.02"
-DIST_A="DR-SunDown-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-Devel-PPPort-3.190
 	>=virtual/perl-ExtUtils-ParseXS-2.210
 "
+

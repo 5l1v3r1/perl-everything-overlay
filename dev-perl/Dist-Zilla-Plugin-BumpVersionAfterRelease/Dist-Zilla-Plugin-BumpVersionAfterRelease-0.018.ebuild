@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.018"
-DIST_A="Dist-Zilla-Plugin-BumpVersionAfterRelease-0.018.tar.gz"
+DIST_VERSION="0.018" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-5.040
+	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	>=dev-perl/Path-Tiny-0.061
 	dev-perl/Version-Next
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

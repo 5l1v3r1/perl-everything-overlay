@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSHANK"
-DIST_VERSION="0.05"
-DIST_A="Data-MuForm-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	>=dev-perl/Test-Memory-Cycle-1.040
 	dev-perl/Test-Warn
 "
+

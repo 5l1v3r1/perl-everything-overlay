@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSCHNEID"
-DIST_VERSION="0.22"
-DIST_A="DBIx-ORM-Declarative-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJENSEN"
-DIST_VERSION="0.012"
-DIST_A="FSSM-SOAPClient-0.012.tar.gz"
-b=M/MA/MAJENSEN/FSSM-SOAPClient-0.012.tar.gz
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	dev-perl/Test-Exception
 "
+

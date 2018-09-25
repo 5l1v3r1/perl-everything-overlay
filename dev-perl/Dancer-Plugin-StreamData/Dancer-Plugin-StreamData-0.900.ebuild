@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCCLENN"
-DIST_VERSION="0.9"
-DIST_A="Dancer-Plugin-StreamData-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

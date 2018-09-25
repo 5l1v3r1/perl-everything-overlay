@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.03"
-DIST_A="HTML-Rebase-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.000
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MILLAWAY"
-DIST_VERSION="0.20"
-DIST_A="DBomb-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,11 @@ RDEPEND="
 	dev-perl/Class-MethodMaker
 	dev-perl/DBI
 	dev-perl/Tie-IxHash
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

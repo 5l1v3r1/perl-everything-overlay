@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.620"
-DIST_A="Dancer2-Plugin-Auth-Extensible-Provider-Database-0.620.tar.gz"
+DIST_VERSION="0.620" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Path-Tiny-0.016
 	virtual/perl-Test-Simple
 "
+

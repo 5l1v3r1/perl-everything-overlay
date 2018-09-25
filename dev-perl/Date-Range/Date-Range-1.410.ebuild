@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMTM"
-DIST_VERSION="1.41"
-DIST_A="Date-Range-1.41.tar.gz"
+DIST_VERSION="1.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEFFOBER"
-DIST_VERSION="0.01"
-DIST_A="Dist-Zilla-Plugin-XSVersion-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

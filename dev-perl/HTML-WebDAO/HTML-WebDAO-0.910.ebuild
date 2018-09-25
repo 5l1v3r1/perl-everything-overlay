@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAG"
-DIST_VERSION="0.91"
-DIST_A="HTML-WebDAO-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

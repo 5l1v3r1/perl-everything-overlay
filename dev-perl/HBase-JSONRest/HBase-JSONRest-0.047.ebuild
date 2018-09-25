@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHCAT"
-DIST_VERSION="0.047"
-DIST_A="HBase-JSONRest-0.047.tar.gz"
+DIST_VERSION="0.047" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

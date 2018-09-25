@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="1.200011"
-DIST_A="Dist-Zilla-Plugin-InstallGuide-1.200011.tar.gz"
+DIST_VERSION="1.200011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Fatal
 	virtual/perl-File-Spec
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+

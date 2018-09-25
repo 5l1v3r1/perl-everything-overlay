@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="0.048"
-DIST_A="Games-Go-AGA-TDListDB-0.048.tar.gz"
+DIST_VERSION="0.048" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
+

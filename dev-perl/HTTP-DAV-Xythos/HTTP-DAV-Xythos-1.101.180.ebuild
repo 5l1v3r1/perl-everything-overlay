@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESSSSST"
-DIST_VERSION="1.101180"
-DIST_A="HTTP-DAV-Xythos-1.101180.tar.gz"
+DIST_VERSION="1.101180" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

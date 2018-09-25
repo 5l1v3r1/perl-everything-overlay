@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLAWREN"
-DIST_VERSION="v0.0.48"
-DIST_A="DBIx-ThinSQL-0.0.48.tar.gz"
+DIST_VERSION="0.0.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAWAPAWA"
-DIST_VERSION="0.05"
-DIST_A="EBook-EPUB-Check-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-Which-1.090
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Probe-Perl-0.030
 	dev-perl/Test-Fatal
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.990
 "
+

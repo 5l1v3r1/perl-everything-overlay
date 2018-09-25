@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LESPEA"
-DIST_VERSION="1.001000"
-DIST_A="Dist-Zilla-Plugin-SpellingCommonMistakesTests-1.001000.tar.gz"
+DIST_VERSION="1.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

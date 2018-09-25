@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.6"
-DIST_A="HTML-TabbedExamples-Generate-0.0.6.tar.gz"
+DIST_VERSION="0.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Differences
 	virtual/perl-Test-Simple
 "
+

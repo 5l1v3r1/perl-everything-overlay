@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="2.07"
-DIST_A="Dancer2-Plugin-Paginator-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

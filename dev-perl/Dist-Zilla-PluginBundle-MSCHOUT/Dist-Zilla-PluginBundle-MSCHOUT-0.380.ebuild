@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.38"
-DIST_A="Dist-Zilla-PluginBundle-MSCHOUT-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Config-Slicer
 	dev-perl/Dist-Zilla-Plugin-AuthorSignatureTest
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
-	>=dev-perl/Dist-Zilla-Plugin-Git-1.101.230
+	dev-perl/Dist-Zilla-Plugin-Git
 	dev-perl/Dist-Zilla-Plugin-GithubMeta
 	dev-perl/Dist-Zilla-Plugin-InsertCopyright
 	dev-perl/Dist-Zilla-Plugin-MetaProvides-Package
@@ -46,3 +45,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

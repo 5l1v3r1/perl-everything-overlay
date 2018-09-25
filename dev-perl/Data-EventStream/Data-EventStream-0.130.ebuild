@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZWON"
-DIST_VERSION="0.13"
-DIST_A="Data-EventStream-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.220
 	>=virtual/perl-Test-Simple-0.940
 "
+

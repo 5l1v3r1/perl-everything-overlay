@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANELSON"
-DIST_VERSION="0.06"
-DIST_A="Data-Money-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-utf8
 "
+

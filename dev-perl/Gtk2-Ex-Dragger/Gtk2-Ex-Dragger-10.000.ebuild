@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="10.0"
-DIST_A="Gtk2-Ex-Dragger-10.tar.gz"
+DIST_VERSION="10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Glib-Ex-ObjectBits
 	>=dev-perl/Gtk2-1.220
-	>=dev-perl/Gtk2-Ex-WidgetBits-12.000
+	>=dev-perl/Gtk2-Ex-WidgetBits-21.000
 	>=dev-perl/glib-perl-1.220
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

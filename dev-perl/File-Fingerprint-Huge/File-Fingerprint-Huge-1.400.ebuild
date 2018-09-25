@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFABER"
-DIST_VERSION="1.4"
-DIST_A="File-Fingerprint-Huge-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Digest-CRC-0.160
 	>=dev-perl/Math-Random-MT-1.100
 	>=virtual/perl-Digest-MD5-2.390
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

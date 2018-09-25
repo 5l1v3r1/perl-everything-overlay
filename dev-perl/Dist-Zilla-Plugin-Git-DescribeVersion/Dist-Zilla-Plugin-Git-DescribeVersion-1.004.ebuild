@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="1.004"
-DIST_A="Dist-Zilla-Plugin-Git-DescribeVersion-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.000
 	dev-perl/Git-DescribeVersion
 	dev-perl/Moose
 "
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960
 "
+

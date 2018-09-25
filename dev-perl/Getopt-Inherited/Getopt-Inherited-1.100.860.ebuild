@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.100860"
-DIST_A="Getopt-Inherited-1.100860.tar.gz"
+DIST_VERSION="1.100860" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,16 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor-Complex
 	dev-perl/Data-Inherited
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 "
+

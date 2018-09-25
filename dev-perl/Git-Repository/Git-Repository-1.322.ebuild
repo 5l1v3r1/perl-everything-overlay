@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.322"
-DIST_A="Git-Repository-1.322.tar.gz"
+DIST_VERSION="1.322" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-File-Path
 "
+

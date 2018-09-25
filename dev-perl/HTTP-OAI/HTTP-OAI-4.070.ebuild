@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="4.07"
-DIST_A="HTTP-OAI-4.07.tar.gz"
+DIST_VERSION="4.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/URI
-	dev-perl/XML-LibXML
+	>=dev-perl/XML-LibXML-1.600
 	dev-perl/XML-NamespaceSupport
 	dev-perl/XML-SAX
 	>=dev-perl/XML-SAX-Base-1.040
@@ -28,8 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.112
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.990
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NMUELLER"
-DIST_VERSION="10.0"
-DIST_A="HTML-GoogleMaps-10.tar.gz"
+DIST_VERSION="10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

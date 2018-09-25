@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JNW"
-DIST_VERSION="0.70"
-DIST_A="File-Unpack-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/Filesys-Statvfs
 	dev-perl/IPC-Run
 	dev-perl/JSON
+	dev-perl/Pod-Usage
 	dev-perl/String-ShellQuote
 	dev-perl/Text-Sprintf-Named
 	virtual/perl-Carp
@@ -32,9 +32,14 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=dev-perl/Pod-Coverage-0.180
+	>=dev-perl/Test-CheckManifest-0.900
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Pod-Coverage-1.080
+	virtual/perl-Test-Simple
 "
+

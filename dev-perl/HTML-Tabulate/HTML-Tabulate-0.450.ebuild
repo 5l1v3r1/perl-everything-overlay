@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAVINC"
-DIST_VERSION="0.45"
-DIST_A="HTML-Tabulate-0.45.tar.gz"
+DIST_VERSION="0.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

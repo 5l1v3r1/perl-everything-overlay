@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSHIMI"
-DIST_VERSION="0.11"
-DIST_A="DBIx-Skinny-Pager-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	virtual/perl-Test-Simple
 "
+

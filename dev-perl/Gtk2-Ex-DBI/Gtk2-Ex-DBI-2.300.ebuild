@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DKASAK"
-DIST_VERSION="2.30"
-DIST_A="Gtk2-Ex-DBI-2.30.tar.gz"
+DIST_VERSION="2.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

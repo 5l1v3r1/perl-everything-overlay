@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHARD"
-DIST_VERSION="1.0"
-DIST_A="FAST-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Script-Run
 	virtual/perl-Test-Simple
 "
+

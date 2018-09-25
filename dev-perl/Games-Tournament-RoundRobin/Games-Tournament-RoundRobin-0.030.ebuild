@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRBEAN"
-DIST_VERSION="0.03"
-DIST_A="Games-Tournament-RoundRobin-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/lib
 "
+

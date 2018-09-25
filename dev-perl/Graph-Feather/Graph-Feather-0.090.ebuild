@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BJOERN"
-DIST_VERSION="0.09"
-DIST_A="Graph-Feather-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/List-UtilsBy
 	virtual/perl-Test-Simple
 "
+

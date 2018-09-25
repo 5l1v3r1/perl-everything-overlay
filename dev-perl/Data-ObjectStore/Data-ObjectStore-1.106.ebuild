@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CANID"
-DIST_VERSION="1.106"
-DIST_A="Data-ObjectStore-1.106.tar.gz"
+DIST_VERSION="1.106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

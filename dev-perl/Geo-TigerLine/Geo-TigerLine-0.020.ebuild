@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDERLE"
-DIST_VERSION="0.02"
-DIST_A="Geo-TigerLine-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Carp-Assert
 	>=dev-perl/Class-Accessor-0.150
 	>=dev-perl/Class-Data-Inheritable-0.020
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.470
@@ -28,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

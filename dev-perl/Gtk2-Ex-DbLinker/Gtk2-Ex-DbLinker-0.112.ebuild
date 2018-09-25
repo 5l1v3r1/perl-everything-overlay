@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAPPAZF"
-DIST_VERSION="0.112"
-DIST_A="Gtk2-Ex-DbLinker-0.112.tar.gz"
+DIST_VERSION="0.112" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

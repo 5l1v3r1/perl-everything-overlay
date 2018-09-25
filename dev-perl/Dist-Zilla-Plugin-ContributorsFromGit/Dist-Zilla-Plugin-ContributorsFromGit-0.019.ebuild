@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.019"
-DIST_A="Dist-Zilla-Plugin-ContributorsFromGit-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-5.013
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Role-RegisterStash
 	dev-perl/Dist-Zilla-Stash-PodWeaver
 	dev-perl/File-ShareDir
@@ -50,3 +49,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

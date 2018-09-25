@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOUDARD"
-DIST_VERSION="0.03"
-DIST_A="Dancer-Plugin-Fake-Response-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

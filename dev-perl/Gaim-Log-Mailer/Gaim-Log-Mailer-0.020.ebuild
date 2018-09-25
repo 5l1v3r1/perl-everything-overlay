@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHILLI"
-DIST_VERSION="0.02"
-DIST_A="Gaim-Log-Mailer-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-Throttler
-	>=dev-perl/Gaim-Log-Parser-0.100
+	dev-perl/Gaim-Log-Parser
 	>=dev-perl/Log-Log4perl-1.000
 	dev-perl/Mail-DWIM
 	dev-perl/Pod-Usage
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STAUGAARD"
-DIST_VERSION="1.002001"
-DIST_A="DBIx-Simplish-1.002001.tar.gz"
+DIST_VERSION="1.002001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-Requires
 "
+

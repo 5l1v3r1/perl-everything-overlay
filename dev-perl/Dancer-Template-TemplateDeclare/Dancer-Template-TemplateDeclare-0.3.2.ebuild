@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.3.2"
-DIST_A="Dancer-Template-TemplateDeclare-0.3.2.tar.gz"
+DIST_VERSION="0.3.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dancer
+	>=dev-perl/Dancer-1.309.200
 	dev-perl/Template-Declare
 	dev-perl/base
 "
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

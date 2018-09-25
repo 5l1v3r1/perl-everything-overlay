@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDB"
-DIST_VERSION="0.13"
-DIST_A="Data-FormValidator-Filters-HTMLStrip-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

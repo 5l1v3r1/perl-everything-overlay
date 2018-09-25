@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSOLOMON"
-DIST_VERSION="4.38"
-DIST_A="Geo-WeatherNOAA-4.38.tar.gz"
+DIST_VERSION="4.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

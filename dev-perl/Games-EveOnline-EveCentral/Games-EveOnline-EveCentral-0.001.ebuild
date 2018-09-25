@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFIG"
-DIST_VERSION="0.001"
-DIST_A="Games-EveOnline-EveCentral-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=dev-perl/LWP-UserAgent-Determined-1.060
 	>=dev-perl/Moo-1.003.001
 	>=dev-perl/MooX-StrictConstructor-0.006
-	>=dev-perl/MooX-Types-MooseLike-0.250
+	dev-perl/MooX-Types-MooseLike
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/Sub-Quote-1.003.001
 	>=dev-perl/Try-Tiny-0.180
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

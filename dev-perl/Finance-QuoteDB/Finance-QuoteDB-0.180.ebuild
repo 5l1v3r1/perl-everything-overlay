@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ECOCODE"
-DIST_VERSION="0.18"
-DIST_A="Finance-QuoteDB-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/HTML-TableExtract
 	dev-perl/Log-Log4perl
 	dev-perl/Pod-Usage
+	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PINE"
-DIST_VERSION="0.02"
-DIST_A="Devel-Cover-Report-Codecov-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=dev-perl/Capture-Tiny-0.300
 	>=dev-perl/Devel-Cover-1.200
+	dev-perl/Module-Build
 	>=dev-perl/Perl-Critic-1.125
 	>=dev-perl/Test-Deep-0.117
 	>=dev-perl/Test-Exception-0.400
@@ -35,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Perl-Critic-1.030
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

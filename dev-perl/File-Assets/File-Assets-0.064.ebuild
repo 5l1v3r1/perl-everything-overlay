@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.064"
-DIST_A="File-Assets-0.064.tar.gz"
+DIST_VERSION="0.064" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,10 +29,11 @@ RDEPEND="
 	virtual/perl-Digest
 	virtual/perl-Digest-MD5
 	virtual/perl-Digest-SHA
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

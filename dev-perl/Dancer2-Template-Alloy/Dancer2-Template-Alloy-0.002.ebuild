@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CVLIBRARY"
-DIST_VERSION="0.002"
-DIST_A="Dancer2-Template-Alloy-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJGARDNER"
-DIST_VERSION="0.207"
-DIST_A="Dist-Zilla-Plugin-WSDL-0.207.tar.gz"
+DIST_VERSION="0.207" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

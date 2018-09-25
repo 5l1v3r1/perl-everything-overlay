@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSSOZ"
-DIST_VERSION="1.112100"
-DIST_A="DataFlow-Proc-HTMLFilter-1.112100.tar.gz"
+DIST_VERSION="1.112100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DataFlow-1.112.100
 	dev-perl/HTML-TreeBuilder-XPath
-	>=dev-perl/Moose-1.010
+	dev-perl/Moose
 	dev-perl/MooseX-Aliases
 	dev-perl/namespace-autoclean
 "
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

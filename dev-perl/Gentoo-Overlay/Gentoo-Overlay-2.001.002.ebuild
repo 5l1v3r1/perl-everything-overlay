@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="2.001002"
-DIST_A="Gentoo-Overlay-2.001002.tar.gz"
+DIST_VERSION="2.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/Sub-Exporter-Progressive
 	dev-perl/Throwable
 	dev-perl/Try-Tiny
-	>=dev-perl/Type-Tiny-0.008
+	dev-perl/Type-Tiny
 	dev-perl/Types-Path-Tiny
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="4.252"
-DIST_A="Games-Go-Sgf2Dg-4.252.tar.gz"
+DIST_VERSION="4.252" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+

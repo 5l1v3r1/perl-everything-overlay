@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOKNAT"
-DIST_VERSION="1.008"
-DIST_A="Debug-Statements-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
 "
+

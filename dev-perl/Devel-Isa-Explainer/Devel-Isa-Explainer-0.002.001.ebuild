@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002001"
-DIST_A="Devel-Isa-Explainer-0.002001.tar.gz"
+DIST_VERSION="0.002001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.030
 	dev-perl/MRO-Compat
 	dev-perl/Package-Stash
 	dev-perl/namespace-clean
@@ -29,5 +28,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.890
+	virtual/perl-Test-Simple
 "
+

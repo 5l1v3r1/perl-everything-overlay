@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORNER"
-DIST_VERSION="0.67"
-DIST_A="File-CachingFind-0.67.tar.gz"
+DIST_VERSION="0.67" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

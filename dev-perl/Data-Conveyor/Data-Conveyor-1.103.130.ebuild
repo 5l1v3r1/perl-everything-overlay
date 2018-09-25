@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.103130"
-DIST_A="Data-Conveyor-1.103130.tar.gz"
+DIST_VERSION="1.103130" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,9 +33,9 @@ RDEPEND="
 	dev-perl/Term-Shell-Enhanced
 	dev-perl/Test-Class
 	dev-perl/Text-Table
+	dev-perl/YAML
 	dev-perl/YAML-Active
 	dev-perl/once
-	dev-perl/yaml
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
@@ -45,11 +44,14 @@ RDEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 	virtual/perl-parent
 	virtual/perl-podlators
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
 "
+

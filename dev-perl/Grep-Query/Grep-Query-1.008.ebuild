@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KNTH"
-DIST_VERSION="1.008"
-DIST_A="Grep-Query-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,11 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/IO-stringy
 	dev-perl/Parse-RecDescent
-	dev-perl/Test-Differences
-	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-7.120
-	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	>=virtual/perl-ExtUtils-MakeMaker-7.120
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "
+

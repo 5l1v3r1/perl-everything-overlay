@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VLYON"
-DIST_VERSION="0.3"
-DIST_A="Dist-Zilla-Plugin-UseBuildPL-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.410
 	>=virtual/perl-Test-Simple-0.960
 "
+

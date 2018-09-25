@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LINC"
-DIST_VERSION="1.45"
-DIST_A="HTML-TagUtil-1.45.tar.gz"
+DIST_VERSION="1.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

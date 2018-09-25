@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKUITSE"
-DIST_VERSION="0.03"
-DIST_A="File-Feed-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/String-Expando
 	dev-perl/Text-Glob
 	dev-perl/URI
+	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-libnet
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

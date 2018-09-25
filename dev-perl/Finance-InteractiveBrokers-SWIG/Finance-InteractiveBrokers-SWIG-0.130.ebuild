@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INFIDEL"
-DIST_VERSION="0.13"
-DIST_A="Finance-InteractiveBrokers-SWIG-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Alien-InteractiveBrokers
 "
+

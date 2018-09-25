@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PWES"
-DIST_VERSION="0.005"
-DIST_A="Data-Typed-Expression-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.81.01
 "
+

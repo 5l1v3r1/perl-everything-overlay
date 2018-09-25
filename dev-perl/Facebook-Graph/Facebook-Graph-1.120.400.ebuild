@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RIZEN"
-DIST_VERSION="1.1204"
-DIST_A="Facebook-Graph-1.1204.tar.gz"
+DIST_VERSION="1.1204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

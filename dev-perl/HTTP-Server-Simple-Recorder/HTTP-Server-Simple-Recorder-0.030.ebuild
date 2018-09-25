@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESSE"
-DIST_VERSION="0.03"
-DIST_A="HTTP-Server-Simple-Recorder-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	>=dev-perl/HTTP-Server-Simple-0.100
 	dev-perl/IO-Tee
 	>=dev-perl/Test-HTTP-Server-Simple-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IGUTHRIE"
-DIST_VERSION="0.85"
-DIST_A="Filesys-DfPortable-0.85.tar.gz"
+DIST_VERSION="0.85" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

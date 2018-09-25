@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.03000"
-DIST_A="DateTime-Format-RSS-0.03000.tar.gz"
+DIST_VERSION="0.03000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/DateTime-Format-DateParse
 	dev-perl/DateTime-Format-ISO8601
 	dev-perl/DateTime-Format-Mail
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

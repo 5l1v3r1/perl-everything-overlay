@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFRANKS"
-DIST_VERSION="v0.0403.0"
-DIST_A="HTML-Dojo-0.0403.0.tar.gz"
+DIST_VERSION="0.0403.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

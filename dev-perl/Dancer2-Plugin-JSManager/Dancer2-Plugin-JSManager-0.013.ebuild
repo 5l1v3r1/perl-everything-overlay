@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVIED"
-DIST_VERSION="0.013"
-DIST_A="Dancer2-Plugin-JSManager-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.200.002
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

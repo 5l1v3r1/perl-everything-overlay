@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.2.2"
-DIST_A="File-ShareDir-Tarball-0.2.2.tar.gz"
+DIST_VERSION="0.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-File-ShareDir-0.3.0
 	>=virtual/perl-Test-Simple-0.880
 "
+

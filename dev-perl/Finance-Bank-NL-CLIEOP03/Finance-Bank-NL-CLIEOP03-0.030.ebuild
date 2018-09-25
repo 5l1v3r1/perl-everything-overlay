@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEBAZ"
-DIST_VERSION="0.03"
-DIST_A="Finance-Bank-NL-CLIEOP03-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KTAT"
-DIST_VERSION="0.04"
-DIST_A="Data-RuledValidator-Plugin-Japanese-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Data-FormValidator-Constraints-Japanese-0.040
 	>=dev-perl/Data-RuledValidator-0.100
-	>=dev-perl/Number-Phone-JP-0.201.706.010
-	>=virtual/perl-Test-Simple-1.302.086
+	>=dev-perl/Number-Phone-JP-0.201.809.040
+	>=virtual/perl-Test-Simple-1.302.140
 "
 DEPEND="
 	${RDEPEND}
 "
+

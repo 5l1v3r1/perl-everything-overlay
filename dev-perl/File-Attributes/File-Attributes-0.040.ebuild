@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROCKWAY"
-DIST_VERSION="0.04"
-DIST_A="File-Attributes-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Directory-Scratch-0.050
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHANTANU"
-DIST_VERSION="0.005"
-DIST_A="Device-LSM303DLHC-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

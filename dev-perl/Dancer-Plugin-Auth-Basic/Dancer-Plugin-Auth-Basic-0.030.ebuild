@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODYNIEC"
-DIST_VERSION="0.030"
-DIST_A="Dancer-Plugin-Auth-Basic-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,9 +24,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

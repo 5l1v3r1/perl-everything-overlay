@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKELLIS"
-DIST_VERSION="1.000000"
-DIST_A="Fetch-Image-1.000000.tar.gz"
+DIST_VERSION="1.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

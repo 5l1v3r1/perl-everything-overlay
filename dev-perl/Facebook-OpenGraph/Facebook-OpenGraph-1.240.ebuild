@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OKLAHOMER"
-DIST_VERSION="1.24"
-DIST_A="Facebook-OpenGraph-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVAN"
-DIST_VERSION="0.10"
-DIST_A="Forest-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

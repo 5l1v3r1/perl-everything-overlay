@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.03"
-DIST_A="Devel-INC-Sorted-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Tie-RefHash
@@ -24,7 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+

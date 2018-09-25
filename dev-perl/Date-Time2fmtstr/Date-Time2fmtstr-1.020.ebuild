@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TURNERJW"
-DIST_VERSION="1.02"
-DIST_A="Date-Time2fmtstr-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

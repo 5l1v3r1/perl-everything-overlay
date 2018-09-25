@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="0.736"
-DIST_A="Data-Tubes-0.736.tar.gz"
+DIST_VERSION="0.736" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.084
 	>=dev-perl/Test-Exception-0.430
 	>=dev-perl/Try-Tiny-0.240
 "
+

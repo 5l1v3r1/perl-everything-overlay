@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAKAME"
-DIST_VERSION="0.06"
-DIST_A="Data-Cuid-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

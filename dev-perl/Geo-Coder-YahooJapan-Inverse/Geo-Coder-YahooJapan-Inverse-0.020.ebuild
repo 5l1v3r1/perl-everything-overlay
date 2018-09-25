@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOKOGIKO"
-DIST_VERSION="0.02"
-DIST_A="Geo-Coder-YahooJapan-Inverse-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

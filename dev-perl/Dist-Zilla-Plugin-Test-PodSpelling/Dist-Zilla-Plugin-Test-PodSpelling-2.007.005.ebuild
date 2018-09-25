@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="2.007005"
-DIST_A="Dist-Zilla-Plugin-Test-PodSpelling-2.007005.tar.gz"
+DIST_VERSION="2.007005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,11 +26,13 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Needs
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 "
+

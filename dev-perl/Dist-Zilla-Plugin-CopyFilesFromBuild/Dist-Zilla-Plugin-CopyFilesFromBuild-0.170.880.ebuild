@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTHOMPSON"
-DIST_VERSION="0.170880"
-DIST_A="Dist-Zilla-Plugin-CopyFilesFromBuild-0.170880.tar.gz"
+DIST_VERSION="0.170880" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-autodie
 "
+

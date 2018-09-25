@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LACKITA"
-DIST_VERSION="v0.8.04"
-DIST_A="Data-Transit-0.8.04.tar.gz"
+DIST_VERSION="0.8.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

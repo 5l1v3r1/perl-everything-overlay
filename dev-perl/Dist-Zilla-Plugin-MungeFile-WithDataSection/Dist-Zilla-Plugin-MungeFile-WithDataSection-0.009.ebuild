@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.009"
-DIST_A="Dist-Zilla-Plugin-MungeFile-WithDataSection-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	virtual/perl-ExtUtils-MakeMaker
@@ -32,3 +32,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

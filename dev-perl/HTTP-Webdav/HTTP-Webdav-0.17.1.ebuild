@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="GRICHTER"
-DIST_VERSION="v0.17.1"
-DIST_A="HTTP-Webdav-0.1.18-0.17.1.tar.gz"
+DIST_VERSION="0.17.1" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRICHTER/HTTP-Webdav-0.1.18-0.17.1.tar.gz -> HTTP-Webdav-0.17.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTTP-Webdav-0.1.18-0.17.1 ${WORKDIR}/HTTP-Webdav-0.17.1
+}
+

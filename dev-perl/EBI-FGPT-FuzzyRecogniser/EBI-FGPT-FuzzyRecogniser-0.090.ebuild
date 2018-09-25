@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EHASTINGS"
-DIST_VERSION="0.09"
-DIST_A="EBI-FGPT-FuzzyRecogniser_0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/E/EH/EHASTINGS/EBI-FGPT-FuzzyRecogniser_0.09.tar.gz -> EBI-FGPT-FuzzyRecogniser-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/EBI-FGPT-FuzzyRecogniser_0.09 ${WORKDIR}/EBI-FGPT-FuzzyRecogniser-0.09
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FANGLY"
-DIST_VERSION="v0.2.7"
-DIST_A="Getopt-Euclid-0.2.7.tar.gz"
+DIST_VERSION="0.2.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

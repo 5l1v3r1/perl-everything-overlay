@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRDVT"
-DIST_VERSION="0.20"
-DIST_A="GPS-Point-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

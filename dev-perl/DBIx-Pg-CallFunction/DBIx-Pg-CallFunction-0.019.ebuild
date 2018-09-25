@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOELJAC"
-DIST_VERSION="0.019"
-DIST_A="DBIx-Pg-CallFunction-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	virtual/perl-Test-Simple
 "
+

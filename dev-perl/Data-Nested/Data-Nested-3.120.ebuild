@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="3.12"
-DIST_A="Data-Nested-3.12.tar.gz"
+DIST_VERSION="3.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

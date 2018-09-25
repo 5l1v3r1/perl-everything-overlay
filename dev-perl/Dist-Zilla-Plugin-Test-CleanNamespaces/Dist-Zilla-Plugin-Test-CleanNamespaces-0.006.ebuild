@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.006"
-DIST_A="Dist-Zilla-Plugin-Test-CleanNamespaces-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,9 +27,11 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.037
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	>=dev-perl/Test-CleanNamespaces-0.150
 	dev-perl/Test-Deep
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-if
 "
+

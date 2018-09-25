@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HKOBA"
-DIST_VERSION="0.001"
-DIST_A="File-AddInc-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Kantan
 	dev-perl/rlib
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNUSTAVO"
-DIST_VERSION="0.011"
-DIST_A="Gerrit-REST-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

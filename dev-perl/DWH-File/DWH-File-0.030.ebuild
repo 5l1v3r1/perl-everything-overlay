@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SUMUS"
-DIST_VERSION="0.03"
-DIST_A="DWH_File.0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/S/SU/SUMUS/DWH_File.0.03.tar.gz -> DWH_File-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DWH_File.0.03 ${WORKDIR}/DWH_File-0.03
+}
+

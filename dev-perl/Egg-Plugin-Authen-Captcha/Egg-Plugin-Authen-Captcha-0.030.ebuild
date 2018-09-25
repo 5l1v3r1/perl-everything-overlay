@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUSHE"
-DIST_VERSION="0.03"
-DIST_A="Egg-Plugin-Authen-Captcha-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

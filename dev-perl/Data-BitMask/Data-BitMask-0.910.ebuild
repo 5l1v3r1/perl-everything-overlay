@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEVERETT"
-DIST_VERSION="0.91"
-DIST_A="Data-BitMask-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

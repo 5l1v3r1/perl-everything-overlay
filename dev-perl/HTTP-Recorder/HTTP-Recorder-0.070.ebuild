@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SEMUELF"
-DIST_VERSION="0.07"
-DIST_A="HTTP-Recorder-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,12 +18,13 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Proxy
 	dev-perl/HTTP-Request-Params
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

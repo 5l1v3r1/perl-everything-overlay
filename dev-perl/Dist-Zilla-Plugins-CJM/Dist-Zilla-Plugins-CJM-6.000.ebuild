@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="6.000"
-DIST_A="Dist-Zilla-Plugins-CJM-6.000.tar.gz"
+DIST_VERSION="6.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-6.000
+	>=dev-perl/Dist-Zilla-4.300.009
 	>=dev-perl/File-HomeDir-0.810
 	dev-perl/Moose
 	dev-perl/Path-Tiny
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVAR"
-DIST_VERSION="0.72"
-DIST_A="Hailo-0.72.tar.gz"
+DIST_VERSION="0.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -56,3 +55,4 @@ DEPEND="
 	>=dev-perl/Test-Synopsis-0.060
 	>=virtual/perl-Test-Simple-0.940
 "
+

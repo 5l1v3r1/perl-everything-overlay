@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Data-Sync"
-DIST_VERSION="0.08"
-DIST_A="Data-Sync-0.08.tar.gz"
+DIST_AUTHOR="CCOLBOURN"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/C/CC/CCOLBOURN/Data-Sync/Data-Sync-0.08.tar.gz -> Data-Sync-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Sync-0.08 ${WORKDIR}/Data-Sync-0.08
+}
+

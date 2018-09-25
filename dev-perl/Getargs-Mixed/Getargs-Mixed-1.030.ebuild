@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Getargs-Mixed"
-DIST_VERSION="1.03"
-DIST_A="Getargs-Mixed-1.03.tar.gz"
+DIST_AUTHOR="HANENKAMP"
+DIST_VERSION="1.03" 
+SRC_URI="mirror://cpan/authors/id/H/HA/HANENKAMP/Getargs-Mixed/Getargs-Mixed-1.03.tar.gz -> Getargs-Mixed-1.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getargs-Mixed-1.03 ${WORKDIR}/Getargs-Mixed-1.03
+}
+

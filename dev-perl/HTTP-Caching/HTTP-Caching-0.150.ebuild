@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANHOESEL"
-DIST_VERSION="0.15"
-DIST_A="HTTP-Caching-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 "
+

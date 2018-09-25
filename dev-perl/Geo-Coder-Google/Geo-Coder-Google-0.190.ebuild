@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCANEZ"
-DIST_VERSION="0.19"
-DIST_A="Geo-Coder-Google-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.320
 "
+

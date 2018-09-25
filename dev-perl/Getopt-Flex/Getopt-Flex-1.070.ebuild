@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPKELLY"
-DIST_VERSION="1.07"
-DIST_A="Getopt-Flex-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

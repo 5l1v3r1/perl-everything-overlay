@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAUKE"
-DIST_VERSION="0.10"
-DIST_A="Defaults-Mauke-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	virtual/perl-Test-Simple
 "
+

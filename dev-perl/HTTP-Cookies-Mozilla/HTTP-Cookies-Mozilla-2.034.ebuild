@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="2.034"
-DIST_A="HTTP-Cookies-Mozilla-2.034.tar.gz"
+DIST_VERSION="2.034" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Text-Diff
 	>=virtual/perl-Test-Simple-0.940
 "
+

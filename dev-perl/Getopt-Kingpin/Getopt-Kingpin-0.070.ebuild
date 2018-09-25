@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAKASAGO"
-DIST_VERSION="0.07"
-DIST_A="Getopt-Kingpin-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Trap
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Test-Simple-0.980
 "
+

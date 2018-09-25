@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CEESHEK"
-DIST_VERSION="0.40"
-DIST_A="Data-FormValidator-Filters-Image-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/IO-stringy
 	dev-perl/Image-Size
+	dev-perl/Module-Build
 "
+

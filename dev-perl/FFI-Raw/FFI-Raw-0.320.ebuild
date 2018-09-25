@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALEXBIO"
-DIST_VERSION="0.32"
-DIST_A="FFI-Raw-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ DEPEND="
 	dev-perl/Devel-CheckLib
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Env
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -33,3 +34,4 @@ DEPEND="
 	virtual/perl-Text-ParseWords
 	virtual/perl-bignum
 "
+

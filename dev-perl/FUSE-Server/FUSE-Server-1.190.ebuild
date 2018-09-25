@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IAMCAL"
-DIST_VERSION="1.19"
-DIST_A="FUSE-Server-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

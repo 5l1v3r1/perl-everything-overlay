@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OESI"
-DIST_VERSION="0.6"
-DIST_A="GTM-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

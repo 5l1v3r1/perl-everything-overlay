@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EMAZEP"
-DIST_VERSION="1.00009"
-DIST_A="DBIx-MultiStatementDo-1.00009.tar.gz"
+DIST_VERSION="1.00009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.700
 "
+

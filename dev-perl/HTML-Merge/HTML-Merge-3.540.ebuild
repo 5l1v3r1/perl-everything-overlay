@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAZINF"
-DIST_VERSION="3.54"
-DIST_A="HTML-Merge-3.54.tar.gz"
+DIST_VERSION="3.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

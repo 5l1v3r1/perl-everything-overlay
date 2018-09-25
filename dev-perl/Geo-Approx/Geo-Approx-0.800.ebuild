@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NWETTERS"
-DIST_VERSION="0.8"
-DIST_A="Geo-Approx-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANIRVAN"
-DIST_VERSION="0.63"
-DIST_A="HTML-ExtractMain-0.63.tar.gz"
+DIST_VERSION="0.63" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 	>=dev-perl/File-Slurp-9999.120
-	>=dev-perl/HTML-Format-2.040
+	>=dev-perl/HTML-Formatter-2.040
 	virtual/perl-Test-Simple
 "
+

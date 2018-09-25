@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.007"
-DIST_A="Dist-Zilla-Plugin-AuthorityFromModule-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
@@ -35,3 +35,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

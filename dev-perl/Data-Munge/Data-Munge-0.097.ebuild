@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAUKE"
-DIST_VERSION="0.097"
-DIST_A="Data-Munge-0.097.tar.gz"
+DIST_VERSION="0.097" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -26,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

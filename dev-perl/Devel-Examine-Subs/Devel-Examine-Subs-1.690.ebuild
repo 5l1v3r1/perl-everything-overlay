@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="1.69"
-DIST_A="Devel-Examine-Subs-1.69.tar.gz"
+DIST_VERSION="1.69" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Trap
 	virtual/perl-Test-Simple
 "
+

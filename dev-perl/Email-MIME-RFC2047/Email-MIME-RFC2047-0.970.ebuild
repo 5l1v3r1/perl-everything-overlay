@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NWELLNHOF"
-DIST_VERSION="0.97"
-DIST_A="Email-MIME-RFC2047-0.97.tar.gz"
+DIST_VERSION="0.97" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

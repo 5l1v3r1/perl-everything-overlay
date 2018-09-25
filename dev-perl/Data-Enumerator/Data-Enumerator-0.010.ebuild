@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HDAICHI"
-DIST_VERSION="0.01"
-DIST_A="Data-Enumerator-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

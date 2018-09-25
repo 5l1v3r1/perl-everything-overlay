@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IANKENT"
-DIST_VERSION="0.009"
-DIST_A="Devel-Declare-Lexer-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

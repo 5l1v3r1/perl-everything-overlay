@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.02"
-DIST_A="HTTP-Session-Store-DBI-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/DBI
 	>=dev-perl/HTTP-Session-0.260
+	dev-perl/Module-Build
 	dev-perl/Moose
 	virtual/perl-MIME-Base64
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="0.000002"
-DIST_A="Dancer2-Serializer-CBOR-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,10 +22,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
+	>=dev-lang/perl-1.010
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

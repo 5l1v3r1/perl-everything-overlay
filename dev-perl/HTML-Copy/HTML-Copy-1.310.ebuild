@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKURITA"
-DIST_VERSION="1.31"
-DIST_A="HTML-Copy-1.31.tar.gz"
+DIST_VERSION="1.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

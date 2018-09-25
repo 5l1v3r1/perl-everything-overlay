@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSTRAUSS"
-DIST_VERSION="v0.1.1"
-DIST_A="Finance-InteractiveBrokers-TWS-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,13 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-InsideOut
 	dev-perl/Inline
+	>=dev-perl/Inline-Java-0.509.200
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

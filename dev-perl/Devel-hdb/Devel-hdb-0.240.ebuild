@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRUMMETT"
-DIST_VERSION="0.24"
-DIST_A="Devel-hdb-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,9 +37,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Devel-Callsite
 	dev-perl/HTML-Tree
 	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

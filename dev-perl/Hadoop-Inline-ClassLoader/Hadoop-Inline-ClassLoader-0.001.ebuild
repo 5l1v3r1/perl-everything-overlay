@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="0.001"
-DIST_A="Hadoop-Inline-ClassLoader-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Constant-FromGlobal
 	dev-perl/Inline
+	dev-perl/Inline-Java
 	dev-perl/Ref-Util
 	virtual/perl-Carp
 "
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.000005"
-DIST_A="Gitalist-0.000005.tar.gz"
+DIST_VERSION="0.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-Static-Simple
-	>=dev-perl/Catalyst-Runtime-5.800.140.200
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-TT
 	dev-perl/Config-General
 	dev-perl/DateTime
@@ -58,3 +57,4 @@ DEPEND="
 	>=dev-perl/Test-utf8-0.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

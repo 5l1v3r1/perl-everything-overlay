@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOENIO"
-DIST_VERSION="0.008"
-DIST_A="Graph-Writer-DSM-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-parent
 "
+

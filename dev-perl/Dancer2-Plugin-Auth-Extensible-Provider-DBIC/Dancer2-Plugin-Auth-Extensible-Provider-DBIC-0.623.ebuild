@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/DBIx-Class
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.200.000
 	>=dev-perl/Dancer2-Plugin-Auth-Extensible-0.703
 	>=dev-perl/Dancer2-Plugin-DBIC-0.001.200
 	dev-perl/DateTime

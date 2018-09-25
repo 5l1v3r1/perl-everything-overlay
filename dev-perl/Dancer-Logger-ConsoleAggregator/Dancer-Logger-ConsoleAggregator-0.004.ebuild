@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHUSSEIN"
-DIST_VERSION="0.004"
-DIST_A="Dancer-Logger-ConsoleAggregator-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/JSON
 	dev-perl/Try-Tiny
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DirDB"
-DIST_VERSION="0.07"
-DIST_A="DirDB-Storable-0.07.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/DirDB/DirDB-Storable-0.07.tar.gz -> DirDB-Storable-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DirDB-Storable-0.07 ${WORKDIR}/DirDB-Storable-0.07
+}
+

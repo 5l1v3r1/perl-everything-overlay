@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="0.160190"
-DIST_A="Dancer-Plugin-Locale-Wolowitz-0.160190.tar.gz"
+DIST_VERSION="0.160190" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDP"
-DIST_VERSION="0.7"
-DIST_A="Device-DSE-Q1573-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="1.0214"
-DIST_A="Git-SVNReplay-1.0214.tar.gz"
+DIST_VERSION="1.0214" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,13 +18,14 @@ RDEPEND="
 	dev-perl/DBM-Deep
 	dev-perl/File-Slurp
 	dev-perl/IPC-System-Simple
+	dev-perl/Pod-Usage
 	dev-perl/Term-GentooFunctions
 	dev-perl/TimeDate
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

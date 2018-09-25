@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROHANPM"
-DIST_VERSION="20140611.0"
-DIST_A="Gerrit-Client-20140611.tar.gz"
+DIST_VERSION="20140611" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

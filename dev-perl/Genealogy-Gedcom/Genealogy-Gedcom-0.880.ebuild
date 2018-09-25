@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="0.88"
-DIST_A="Genealogy-Gedcom-0.88.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.510
 	>=virtual/perl-Test-Simple-1.302.052
 "
+

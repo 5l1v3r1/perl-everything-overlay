@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="1.163590"
-DIST_A="Dancer2-Plugin-BrowserDetect-1.163590.tar.gz"
+DIST_VERSION="1.163590" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

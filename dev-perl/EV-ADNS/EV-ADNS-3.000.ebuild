@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="3.0"
-DIST_A="EV-ADNS-3.0.tar.gz"
+DIST_VERSION="3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Canary-Stability
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

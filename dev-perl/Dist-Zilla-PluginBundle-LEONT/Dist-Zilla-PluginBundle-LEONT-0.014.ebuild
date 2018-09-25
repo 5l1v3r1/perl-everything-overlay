@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.014"
-DIST_A="Dist-Zilla-PluginBundle-LEONT-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.300.000
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Config-Slicer
 	dev-perl/Dist-Zilla-Plugin-Bugtracker
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
@@ -37,7 +36,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

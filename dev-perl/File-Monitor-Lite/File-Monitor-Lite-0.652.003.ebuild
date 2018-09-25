@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRYMAN"
-DIST_VERSION="0.652003"
-DIST_A="File-Monitor-Lite-0.652003.tar.gz"
+DIST_VERSION="0.652003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

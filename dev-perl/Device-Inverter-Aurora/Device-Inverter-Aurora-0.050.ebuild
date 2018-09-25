@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREMAN"
-DIST_VERSION="0.05"
-DIST_A="Device-Inverter-Aurora-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Device-SerialPort-0.050
 "
+

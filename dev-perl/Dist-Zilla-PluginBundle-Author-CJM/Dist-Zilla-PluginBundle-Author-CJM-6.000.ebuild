@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="6.000"
-DIST_A="Dist-Zilla-PluginBundle-Author-CJM-6.000.tar.gz"
+DIST_VERSION="6.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-PodLoom-5.001
 	>=dev-perl/Dist-Zilla-Plugin-Repository-0.160
 	>=dev-perl/Dist-Zilla-Plugin-TemplateCJM-4.230
-	>=dev-perl/Dist-Zilla-Plugins-CJM-6.000
+	>=dev-perl/Dist-Zilla-Plugins-CJM-4.270
 	dev-perl/Git-Wrapper
 	>=dev-perl/Moose-0.650
 "
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

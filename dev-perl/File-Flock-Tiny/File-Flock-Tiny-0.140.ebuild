@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZWON"
-DIST_VERSION="0.14"
-DIST_A="File-Flock-Tiny-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/File-Slurp-9999.140
 	dev-perl/Path-Class
 "
+

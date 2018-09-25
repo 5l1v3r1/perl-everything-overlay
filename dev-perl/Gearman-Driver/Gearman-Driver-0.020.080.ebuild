@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLU"
-DIST_VERSION="0.02008"
-DIST_A="Gearman-Driver-0.02008.tar.gz"
+DIST_VERSION="0.02008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

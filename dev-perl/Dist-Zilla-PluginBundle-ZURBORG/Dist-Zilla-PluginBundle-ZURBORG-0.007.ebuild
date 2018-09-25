@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZURBORG"
-DIST_VERSION="0.007"
-DIST_A="Dist-Zilla-PluginBundle-ZURBORG-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

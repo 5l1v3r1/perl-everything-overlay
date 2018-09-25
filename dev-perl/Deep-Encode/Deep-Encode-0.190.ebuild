@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRIAN"
-DIST_VERSION="0.19"
-DIST_A="Deep-Encode-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAME"
-DIST_VERSION="1.08"
-DIST_A="FTN-Nodelist-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

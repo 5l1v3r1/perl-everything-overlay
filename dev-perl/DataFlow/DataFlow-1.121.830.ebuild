@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSSOZ"
-DIST_VERSION="1.121830"
-DIST_A="DataFlow-1.121830.tar.gz"
+DIST_VERSION="1.121830" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="date-spoken-german"
-DIST_VERSION="0.05"
-DIST_A="Date-Spoken-German-0.05.tar.gz"
+DIST_AUTHOR="CHRWIN"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/C/CH/CHRWIN/date-spoken-german/Date-Spoken-German-0.05.tar.gz -> Date-Spoken-German-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Date-Spoken-German-0.05 ${WORKDIR}/Date-Spoken-German-0.05
+}
+

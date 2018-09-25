@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.15.1"
-DIST_A="Data-CloudWeights-0.15.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/data-cloudweights/Data-CloudWeights-0.15.1.tar.gz"
+DIST_VERSION="0.15.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/data-cloudweights/Data-CloudWeights-0.15.1.tar.gz -> Data-CloudWeights-0.15.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	>=virtual/perl-version-0.880
 	>=dev-perl/Test-Requires-0.060
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-CloudWeights-0.15.1 ${WORKDIR}/Data-CloudWeights-0.15.1
+}
+

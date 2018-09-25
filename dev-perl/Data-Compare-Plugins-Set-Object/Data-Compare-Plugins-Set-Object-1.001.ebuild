@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJGARDNER"
-DIST_VERSION="1.001"
-DIST_A="Data-Compare-Plugins-Set-Object-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

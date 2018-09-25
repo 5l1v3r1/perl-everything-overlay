@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KFLY"
-DIST_VERSION="0.02"
-DIST_A="Function-Return-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Type-Tiny
 	>=virtual/perl-Test-Simple-0.980
 "
+

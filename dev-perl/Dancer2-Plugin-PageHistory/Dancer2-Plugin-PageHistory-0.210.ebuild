@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.210"
-DIST_A="Dancer2-Plugin-PageHistory-0.210.tar.gz"
+DIST_VERSION="0.210" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Path
 	>=virtual/perl-Test-Simple-0.940
 "
+

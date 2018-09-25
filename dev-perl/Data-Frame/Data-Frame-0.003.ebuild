@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.003"
-DIST_A="Data-Frame-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-InsideOut
 	dev-perl/MooX-Traits
-	dev-perl/PDL
+	>=dev-perl/PDL-2.007
 	dev-perl/Test-Deep
 	dev-perl/Text-Table-Tiny
 	dev-perl/Tie-IxHash
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Math-BigInt
 "
+

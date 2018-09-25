@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORNER"
-DIST_VERSION="0.26"
-DIST_A="Getopt-Mixed-Help-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
 "
+

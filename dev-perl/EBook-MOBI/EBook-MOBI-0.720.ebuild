@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BORISD"
-DIST_VERSION="0.72"
-DIST_A="EBook-MOBI-0.72.tar.gz"
+DIST_VERSION="0.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

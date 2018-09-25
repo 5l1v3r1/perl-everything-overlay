@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LKUNDRAK"
-DIST_VERSION="1.1"
-DIST_A="HTTP-Lint-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Pod-1.000
 "
+

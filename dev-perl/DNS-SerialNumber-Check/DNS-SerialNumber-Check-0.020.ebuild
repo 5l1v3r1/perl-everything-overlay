@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="YHPENG"
 DIST_VERSION="0.02"
-DIST_A="DNS-SerialNumber-Check-0.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

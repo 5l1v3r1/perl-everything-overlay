@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTPALMER"
-DIST_VERSION="0.000001"
-DIST_A="Games-Snake-0.000001.tar.gz"
+DIST_VERSION="0.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

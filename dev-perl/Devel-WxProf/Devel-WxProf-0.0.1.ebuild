@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKUTTER"
-DIST_VERSION="v0.0.1"
-DIST_A="Devel-WxProf-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Class-Std-Fast-0.0.5
 	dev-perl/Imager
 	dev-perl/Wx
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-Scalar-List-Utils
@@ -28,4 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	virtual/perl-Test-Simple
 "
+

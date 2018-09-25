@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="HTML-Normalize"
-DIST_VERSION="1.0003"
-DIST_A="HTML-Normalize-1.0003.tar.gz"
+DIST_AUTHOR="GRANDPA"
+DIST_VERSION="1.0003" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRANDPA/HTML-Normalize/HTML-Normalize-1.0003.tar.gz -> HTML-Normalize-1.0003.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Normalize-1.0003 ${WORKDIR}/HTML-Normalize-1.0003
+}
+

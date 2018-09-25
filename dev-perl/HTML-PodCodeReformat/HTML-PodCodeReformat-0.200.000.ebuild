@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EMAZEP"
-DIST_VERSION="0.20000"
-DIST_A="HTML-PodCodeReformat-0.20000.tar.gz"
+DIST_VERSION="0.20000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,12 +18,17 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	>=dev-perl/HTML-Parser-3.000
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Text-Diff
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "
+

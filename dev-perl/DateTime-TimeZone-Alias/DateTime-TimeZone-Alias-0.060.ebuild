@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHOBLITT"
-DIST_VERSION="0.06"
-DIST_A="DateTime-TimeZone-Alias-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

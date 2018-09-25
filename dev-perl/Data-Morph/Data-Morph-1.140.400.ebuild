@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="1.140400"
-DIST_A="Data-Morph-1.140400.tar.gz"
+DIST_VERSION="1.140400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,5 +33,7 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/DBD-SQLite
 	dev-perl/Try-Tiny
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

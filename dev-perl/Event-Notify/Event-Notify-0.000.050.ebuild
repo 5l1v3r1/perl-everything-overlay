@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00005"
-DIST_A="Event-Notify-0.00005.tar.gz"
+DIST_VERSION="0.00005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-MakeMaker
 "
+

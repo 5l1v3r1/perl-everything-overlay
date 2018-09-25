@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="1.56"
-DIST_A="Data-Unixish-1.56.tar.gz"
+DIST_VERSION="1.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-IO
 "
+

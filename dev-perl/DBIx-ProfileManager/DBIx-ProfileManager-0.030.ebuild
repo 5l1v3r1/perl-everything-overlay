@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZIGOROU"
-DIST_VERSION="0.03"
-DIST_A="DBIx-ProfileManager-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

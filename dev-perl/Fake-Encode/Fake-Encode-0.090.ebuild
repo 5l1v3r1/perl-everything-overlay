@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="0.09"
-DIST_A="Fake-Encode-0.09.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/Fake/Encode/Fake-Encode-0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Fake/Encode/Fake-Encode-0.09.tar.gz -> Fake-Encode-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Fake-Encode-0.09 ${WORKDIR}/Fake-Encode-0.09
+}
+

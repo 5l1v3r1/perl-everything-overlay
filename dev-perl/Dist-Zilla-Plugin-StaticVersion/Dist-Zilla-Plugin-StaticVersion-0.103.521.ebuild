@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTHOMPSON"
-DIST_VERSION="0.103521"
-DIST_A="Dist-Zilla-Plugin-StaticVersion-0.103521.tar.gz"
+DIST_VERSION="0.103521" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

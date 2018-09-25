@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JANW"
 DIST_VERSION="1.08"
-DIST_A="Finance-Currency-Convert-1.08.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

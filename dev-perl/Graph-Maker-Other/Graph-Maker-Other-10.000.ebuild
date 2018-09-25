@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="10.0"
-DIST_A="Graph-Maker-Other-10.tar.gz"
+DIST_VERSION="10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Graph
 	virtual/perl-Test
 "
+

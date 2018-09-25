@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYMKAT"
-DIST_VERSION="0.001008"
-DIST_A="Daemon-Control-0.001008.tar.gz"
+DIST_VERSION="0.001008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.140
 	>=virtual/perl-Test-Simple-0.880
 "
+

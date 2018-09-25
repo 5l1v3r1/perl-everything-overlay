@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJEMMESON"
-DIST_VERSION="0.007"
-DIST_A="Geo-JSON-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/JSON
-	>=dev-perl/Moo-1.004.003
+	dev-perl/Moo
 	dev-perl/Type-Tiny
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
@@ -29,9 +29,12 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-perl/Class-Load
+	dev-perl/Module-Build
 	dev-perl/Path-Class
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

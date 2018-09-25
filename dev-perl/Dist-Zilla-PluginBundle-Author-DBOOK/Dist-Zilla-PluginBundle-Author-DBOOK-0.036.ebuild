@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="0.036"
-DIST_A="Dist-Zilla-PluginBundle-Author-DBOOK-0.036.tar.gz"
+DIST_VERSION="0.036" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,3 +49,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

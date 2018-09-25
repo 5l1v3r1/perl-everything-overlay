@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.013"
-DIST_A="Data-Hive-1.013.tar.gz"
+DIST_VERSION="1.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-File-Spec
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KYZN"
-DIST_VERSION="1.004001"
-DIST_A="Dist-Zilla-Plugin-ContributorCovenant-1.004001.tar.gz"
+DIST_VERSION="1.004001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

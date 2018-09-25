@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRBEAN"
-DIST_VERSION="0.21"
-DIST_A="Games-Tournament-Swiss-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 	dev-perl/Parse-RecDescent
 	dev-perl/Pod-Usage
 	dev-perl/YAML
+	dev-perl/base
+	dev-perl/lib
 	dev-perl/orz
 	virtual/perl-Carp
 	virtual/perl-File-Spec
@@ -31,6 +32,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Base
 	virtual/perl-Test-Simple
 "
+

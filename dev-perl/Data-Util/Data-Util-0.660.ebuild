@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYOHEX"
-DIST_VERSION="0.66"
-DIST_A="Data-Util-0.66.tar.gz"
+DIST_VERSION="0.66" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 	>=virtual/perl-Test-Simple-0.620
 "
+

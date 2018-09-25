@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="2.001001"
-DIST_A="Dist-Zilla-Plugin-MetaProvides-Class-2.001001.tar.gz"
+DIST_VERSION="2.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Discover
-	dev-perl/Dist-Zilla-Plugin-MetaProvides
+	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-1.120.448.060
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

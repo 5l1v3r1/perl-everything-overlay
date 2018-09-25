@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAXJAZMAN"
-DIST_VERSION="0.12"
-DIST_A="Google-ProtocolBuffers-0.12.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/protobuf/Google-ProtocolBuffers-0.12.tar.gz"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/protobuf/Google-ProtocolBuffers-0.12.tar.gz -> Google-ProtocolBuffers-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Google-ProtocolBuffers-0.12 ${WORKDIR}/Google-ProtocolBuffers-0.12
+}
+

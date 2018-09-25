@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FINNPERL"
-DIST_VERSION="0.013"
-DIST_A="Gnuplot-Simple-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHUMPHREY"
-DIST_VERSION="0.018"
-DIST_A="Dancer2-Plugin-ProgressStatus-0.018.tar.gz"
+DIST_VERSION="0.018" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

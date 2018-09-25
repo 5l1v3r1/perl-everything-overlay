@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLURAL"
-DIST_VERSION="0.61"
-DIST_A="Data-Form-Elements-0.61.tar.gz"
+DIST_VERSION="0.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

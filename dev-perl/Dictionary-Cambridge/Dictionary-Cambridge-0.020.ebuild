@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JINNKS"
-DIST_VERSION="0.02"
-DIST_A="Dictionary-Cambridge-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +32,9 @@ DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

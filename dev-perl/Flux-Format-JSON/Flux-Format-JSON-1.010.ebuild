@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.01"
-DIST_A="Flux-Format-JSON-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

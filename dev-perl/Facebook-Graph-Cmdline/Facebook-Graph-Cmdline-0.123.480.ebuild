@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAZM"
-DIST_VERSION="0.123480"
-DIST_A="Facebook-Graph-Cmdline-0.123480.tar.gz"
+DIST_VERSION="0.123480" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

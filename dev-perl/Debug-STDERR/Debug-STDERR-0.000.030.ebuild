@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKI"
-DIST_VERSION="0.00003"
-DIST_A="Debug-STDERR-0.00003.tar.gz"
+DIST_VERSION="0.00003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple
 "
+

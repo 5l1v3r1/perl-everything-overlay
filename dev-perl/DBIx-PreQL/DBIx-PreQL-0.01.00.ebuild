@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAOTOAD"
-DIST_VERSION="v0.01.00"
-DIST_A="DBIx-PreQL-0.01.00.tar.gz"
+DIST_VERSION="0.01.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

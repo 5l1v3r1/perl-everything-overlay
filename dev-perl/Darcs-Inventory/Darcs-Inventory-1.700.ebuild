@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVID"
-DIST_VERSION="1.7"
-DIST_A="Darcs-Inventory-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

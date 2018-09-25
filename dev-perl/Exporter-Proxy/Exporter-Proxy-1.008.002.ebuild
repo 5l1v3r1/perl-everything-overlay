@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="1.008002"
-DIST_A="Exporter-Proxy-1.008002.tar.gz"
+DIST_VERSION="1.008002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

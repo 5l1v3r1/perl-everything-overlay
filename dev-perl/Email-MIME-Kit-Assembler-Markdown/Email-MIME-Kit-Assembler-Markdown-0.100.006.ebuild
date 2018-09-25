@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Email-MIME-1.900
-	>=dev-perl/Email-MIME-Kit-3.000.001
+	dev-perl/Email-MIME-Kit
 	dev-perl/HTML-Parser
 	dev-perl/Moose
 "

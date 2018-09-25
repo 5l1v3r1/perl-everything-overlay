@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICVU"
-DIST_VERSION="2.0"
-DIST_A="Dancer-Plugin-BeforeRoute-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

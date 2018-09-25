@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRADH"
-DIST_VERSION="0.005"
-DIST_A="HTML-JQuery-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

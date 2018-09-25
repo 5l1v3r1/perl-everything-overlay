@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.007"
-DIST_A="Data-Printer-Filter-PDL-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Data-Printer
+	>=dev-perl/Data-Printer-0.360
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/PDL
 	virtual/perl-Test-Simple
 "
+

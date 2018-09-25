@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.002"
-DIST_A="Dancer-Plugin-Auth-Tiny-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.190
 	>=virtual/perl-Test-Simple-0.960
 "
+

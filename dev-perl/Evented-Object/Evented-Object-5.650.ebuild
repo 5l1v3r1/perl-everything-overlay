@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COOPER"
-DIST_VERSION="5.65"
-DIST_A="Evented-Object-5.65.tar.gz"
+DIST_VERSION="5.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ DEPEND="
 	dev-perl/Pod-Readme
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Pod-Parser
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

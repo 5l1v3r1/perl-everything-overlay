@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICHIELB"
-DIST_VERSION="0.60"
-DIST_A="Data-RandomPerson-0.60.tar.gz"
+DIST_VERSION="0.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-Time-Local-1.180
 "
+

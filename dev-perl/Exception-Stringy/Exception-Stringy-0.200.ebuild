@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMS"
-DIST_VERSION="0.20"
-DIST_A="Exception-Stringy-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.63.03
 	dev-lang/perl
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

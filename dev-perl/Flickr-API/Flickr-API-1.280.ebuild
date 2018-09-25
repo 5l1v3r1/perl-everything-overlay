@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBMOORE"
-DIST_VERSION="1.28"
-DIST_A="Flickr-API-1.28.tar.gz"
+DIST_VERSION="1.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

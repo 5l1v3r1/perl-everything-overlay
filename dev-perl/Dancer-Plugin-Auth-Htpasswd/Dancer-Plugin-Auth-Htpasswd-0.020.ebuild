@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODYNIEC"
-DIST_VERSION="0.020"
-DIST_A="Dancer-Plugin-Auth-Htpasswd-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

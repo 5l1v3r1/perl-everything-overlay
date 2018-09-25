@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="HOREA"
-DIST_VERSION="0.06"
-DIST_A="File-RoundRobin-0.06.tar.gz"
-SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/File-RoundRobin/File-RoundRobin-0.06.tar.gz"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/File-RoundRobin/File-RoundRobin-0.06.tar.gz -> File-RoundRobin-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-RoundRobin-0.06 ${WORKDIR}/File-RoundRobin-0.06
+}
+

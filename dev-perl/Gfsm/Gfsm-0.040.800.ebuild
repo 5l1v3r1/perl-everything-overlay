@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOCOW"
-DIST_VERSION="0.0408"
-DIST_A="Gfsm-0.0408.tar.gz"
+DIST_VERSION="0.0408" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

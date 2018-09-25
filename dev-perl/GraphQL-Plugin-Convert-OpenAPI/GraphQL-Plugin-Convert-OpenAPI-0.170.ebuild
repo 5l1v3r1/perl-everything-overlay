@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.17"
-DIST_A="GraphQL-Plugin-Convert-OpenAPI-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/YAML-LibYAML-0.680
 	>=virtual/perl-Test-Simple-0.980
 "
+

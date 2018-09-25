@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.006"
-DIST_A="Dist-Zilla-Plugin-Substitute-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	>=virtual/perl-Test-Simple-0.880
 "
+

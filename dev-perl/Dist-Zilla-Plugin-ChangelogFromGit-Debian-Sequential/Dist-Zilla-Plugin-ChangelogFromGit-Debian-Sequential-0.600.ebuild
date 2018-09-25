@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SVISTUNOV"
-DIST_VERSION="0.6"
-DIST_A="Dist-Zilla-Plugin-ChangelogFromGit-Debian-Sequential-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Git-Wrapper
 	>=virtual/perl-Test-Simple-0.880
 "
+

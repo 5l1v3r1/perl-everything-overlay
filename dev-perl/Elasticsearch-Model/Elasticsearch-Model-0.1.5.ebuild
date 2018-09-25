@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMIRI"
-DIST_VERSION="0.1.5"
-DIST_A="Elasticsearch-Model-0.1.5.tar.gz"
+DIST_VERSION="0.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-IO
 "
+

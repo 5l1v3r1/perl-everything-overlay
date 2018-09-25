@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.101760"
-DIST_A="Data-Semantic-Net-1.101760.tar.gz"
+DIST_VERSION="1.101760" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 "
+

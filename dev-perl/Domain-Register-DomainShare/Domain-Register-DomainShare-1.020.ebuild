@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DOTTK"
 DIST_VERSION="1.02"
-DIST_A="Domain-Register-DomainShare-1.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

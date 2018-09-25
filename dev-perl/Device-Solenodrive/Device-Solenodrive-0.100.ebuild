@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLIE"
-DIST_VERSION="0.1"
-DIST_A="Device-Solenodrive-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Device-SerialPort
-	dev-perl/Digest-CRC
 	dev-perl/Moose
 	dev-perl/Pod-Help
 	dev-perl/namespace-autoclean
@@ -30,4 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	dev-perl/Test-Requires
+	dev-perl/Test-SharedFork
+	virtual/perl-Test-Simple
 "
+

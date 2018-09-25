@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RAYNERLUC"
-DIST_VERSION="0.03"
-DIST_A="Finance-Bank-Halifax-Sharedealing-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RA/RAYNERLUC/Finance-Bank-Halifax-Sharedealing/Finance-Bank-Halifax-Sharedealing-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/R/RA/RAYNERLUC/Finance-Bank-Halifax-Sharedealing/Finance-Bank-Halifax-Sharedealing-0.03.tar.gz -> Finance-Bank-Halifax-Sharedealing-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Finance-Bank-Halifax-Sharedealing-0.03 ${WORKDIR}/Finance-Bank-Halifax-Sharedealing-0.03
+}
+

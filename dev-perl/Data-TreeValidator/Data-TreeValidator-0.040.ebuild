@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYCLES"
-DIST_VERSION="0.04"
-DIST_A="Data-TreeValidator-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-Routine-0.004
 	>=virtual/perl-Test-Simple-0.960
 "
+

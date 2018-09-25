@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRANTM"
-DIST_VERSION="1.002"
-DIST_A="Dancer-Plugin-CDN-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

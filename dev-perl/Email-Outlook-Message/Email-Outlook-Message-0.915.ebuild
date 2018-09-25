@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MVZ"
-DIST_VERSION="0.915"
-DIST_A="Email-Outlook-Message-0.915.tar.gz"
+DIST_VERSION="0.915" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,13 +22,14 @@ RDEPEND="
 	>=dev-perl/Email-Simple-2.102
 	dev-perl/IO-All
 	>=dev-perl/OLE-StorageLite-0.140
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

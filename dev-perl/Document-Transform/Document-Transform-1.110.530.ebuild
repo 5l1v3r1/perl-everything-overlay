@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="1.110530"
-DIST_A="Document-Transform-1.110530.tar.gz"
+DIST_VERSION="1.110530" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Digest-SHA1
 	virtual/perl-Test-Simple
 "
+

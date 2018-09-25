@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDUNCAN"
-DIST_VERSION="0.96"
-DIST_A="EO-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

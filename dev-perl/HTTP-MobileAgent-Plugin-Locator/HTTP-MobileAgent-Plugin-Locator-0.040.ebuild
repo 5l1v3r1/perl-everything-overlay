@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KURIHARA"
-DIST_VERSION="0.04"
-DIST_A="HTTP-MobileAgent-Plugin-Locator-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

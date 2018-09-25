@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASACCIO"
-DIST_VERSION="1.07"
-DIST_A="Finance-Bank-Cahoot-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

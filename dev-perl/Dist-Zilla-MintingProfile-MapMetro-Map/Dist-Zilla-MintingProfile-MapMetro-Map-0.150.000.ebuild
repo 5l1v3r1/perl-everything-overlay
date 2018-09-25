@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.1500"
-DIST_A="Dist-Zilla-MintingProfile-MapMetro-Map-0.1500.tar.gz"
+DIST_VERSION="0.1500" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-5.000
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-ContributorsFromGit
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

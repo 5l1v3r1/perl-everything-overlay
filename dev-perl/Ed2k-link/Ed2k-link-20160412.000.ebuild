@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VAL"
-DIST_VERSION="20160412.0"
-DIST_A="Ed2k_link-20160412.tar.gz"
+DIST_VERSION="20160412" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

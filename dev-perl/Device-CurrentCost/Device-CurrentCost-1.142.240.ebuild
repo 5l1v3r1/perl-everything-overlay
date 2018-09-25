@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.142240"
-DIST_A="Device-CurrentCost-1.142240.tar.gz"
+DIST_VERSION="1.142240" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,15 +17,21 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Device-SerialPort
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Requires
+	dev-perl/Test-SharedFork
+	dev-perl/Test-Warn
+	dev-perl/lib
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

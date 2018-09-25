@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="1.102"
-DIST_A="DBIx-SchemaChecksum-1.102.tar.gz"
+DIST_VERSION="1.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,7 +36,9 @@ DEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Test-Most
 	dev-perl/Test-Trap
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

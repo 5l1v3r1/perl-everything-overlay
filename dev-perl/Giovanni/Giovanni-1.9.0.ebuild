@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NORBU"
-DIST_VERSION="v1.9.0"
-DIST_A="Giovanni-1.9.tar.gz"
+DIST_VERSION="1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,12 +23,14 @@ RDEPEND="
 	dev-perl/Git-Repository
 	dev-perl/Mouse
 	dev-perl/Net-OpenSSH
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.026"
-DIST_A="HTTP-Throwable-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,9 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-StrictConstructor
 	>=dev-perl/Package-Variant-1.002.000
-	dev-perl/Plack
+	>=dev-perl/Plack-0.996.700
 	dev-perl/Sub-Exporter
-	dev-perl/Throwable
+	>=dev-perl/Throwable-0.102.080
 	dev-perl/Type-Tiny
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960
 "
+

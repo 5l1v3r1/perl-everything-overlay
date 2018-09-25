@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.41"
-DIST_A="Graph-Easy-Manual-0.41.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Easy-Manual-0.41.tar.gz"
+DIST_VERSION="0.41" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Easy-Manual-0.41.tar.gz -> Graph-Easy-Manual-0.41.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Graph-Easy-0.630
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-File-Spec-3.010
 	>=virtual/perl-Pod-Simple-3.040
 	>=virtual/perl-Test-Simple-0.620
@@ -26,3 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-Easy-Manual-0.41 ${WORKDIR}/Graph-Easy-Manual-0.41
+}
+

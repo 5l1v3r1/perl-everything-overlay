@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAVAC"
-DIST_VERSION="1.3"
-DIST_A="Device-PaPiRus-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

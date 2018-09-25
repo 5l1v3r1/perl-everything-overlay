@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUDLER"
-DIST_VERSION="0.02"
-DIST_A="Deeme-Backend-Mango-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Carp-Always
-	dev-perl/MongoDB
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

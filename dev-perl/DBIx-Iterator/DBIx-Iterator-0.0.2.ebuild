@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINS"
-DIST_VERSION="0.0.2"
-DIST_A="DBIx-Iterator-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/SQL-Statement-1.401
 	virtual/perl-Test-Simple
 "
+

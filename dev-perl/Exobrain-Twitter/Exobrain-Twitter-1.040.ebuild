@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJF"
-DIST_VERSION="1.04"
-DIST_A="Exobrain-Twitter-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Date-Manip
-	dev-perl/Exobrain
+	>=dev-perl/Exobrain-1.040
 	dev-perl/Method-Signatures
 	dev-perl/Moose
 	dev-perl/MooseX-Types
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

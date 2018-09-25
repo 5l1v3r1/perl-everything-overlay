@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWEST"
-DIST_VERSION="1.4"
-DIST_A="Devel-Caller-Perl-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OISHI"
-DIST_VERSION="0.3013"
-DIST_A="DBIx-ObjectMapper-0.3013.tar.gz"
+DIST_VERSION="0.3013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,10 +41,11 @@ RDEPEND="
 	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.880
+	>=virtual/perl-Test-Simple-0.330
 	virtual/perl-Text-Balanced
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

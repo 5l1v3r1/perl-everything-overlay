@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCHASSLER"
-DIST_VERSION="1.001"
-DIST_A="Devel-Debug-Server-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,8 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Class-Accessor-Chained
 	dev-perl/Proc-Background
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.005014"
-DIST_A="Dist-Zilla-Util-Test-KENTNL-1.005014.tar.gz"
+DIST_VERSION="1.005014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	virtual/perl-File-Spec
 "
+

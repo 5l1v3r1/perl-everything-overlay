@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBRIGGS"
-DIST_VERSION="0.02"
-DIST_A="Getopt-ApacheCommonsCLI-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	>=virtual/perl-Getopt-Long-2.350
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Data-Dumper
+	virtual/perl-Test-Simple
 "
+

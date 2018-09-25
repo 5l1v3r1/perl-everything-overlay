@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEKOYA"
-DIST_VERSION="0.25"
-DIST_A="DBIx-Skinny-Schema-Loader-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

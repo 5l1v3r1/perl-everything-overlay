@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTN"
-DIST_VERSION="0.09"
-DIST_A="Growl-Any-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

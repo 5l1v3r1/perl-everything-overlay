@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJUNS"
-DIST_VERSION="0.04"
-DIST_A="Dao-Map-Helper-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,15 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/DBD-mysql
+	dev-perl/DBI
+	dev-perl/Error
+	>=dev-perl/Pod-Usage-1.210
+	virtual/perl-Carp
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Getopt-Long
+	>=virtual/perl-Test-Harness-0.210
+	virtual/perl-Test-Simple
 "
+

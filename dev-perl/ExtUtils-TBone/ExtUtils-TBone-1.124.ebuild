@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERYQ"
-DIST_VERSION="1.124"
-DIST_A="ExtUtils-TBone-1.124.tar.gz"
+DIST_VERSION="1.124" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

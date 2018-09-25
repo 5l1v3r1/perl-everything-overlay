@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSHELOR"
-DIST_VERSION="6.02"
-DIST_A="Digest-SHA-PurePerl-6.02.tar.gz"
+DIST_VERSION="6.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

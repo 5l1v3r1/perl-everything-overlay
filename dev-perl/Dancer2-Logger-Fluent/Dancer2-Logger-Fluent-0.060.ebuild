@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATANCASIS"
-DIST_VERSION="0.06"
-DIST_A="Dancer2-Logger-Fluent-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/HTTP-Message-6.110
+	dev-perl/Module-Build
 	dev-perl/Plack
 	>=dev-perl/Test-Pod-1.510
 	>=dev-perl/Test-Pod-Coverage-1.100
 	>=virtual/perl-Test-Simple-0.960
 "
+

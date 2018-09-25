@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.3.1"
-DIST_A="Dist-Zilla-Plugin-AbstractFromPOD-0.3.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/dist-zilla-plugin-abstractfrompod/Dist-Zilla-Plugin-AbstractFromPOD-0.3.1.tar.gz"
+DIST_VERSION="0.3.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/dist-zilla-plugin-abstractfrompod/Dist-Zilla-Plugin-AbstractFromPOD-0.3.1.tar.gz -> Dist-Zilla-Plugin-AbstractFromPOD-0.3.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.400
 	>=dev-perl/Test-Requires-0.060
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dist-Zilla-Plugin-AbstractFromPOD-0.3.1 ${WORKDIR}/Dist-Zilla-Plugin-AbstractFromPOD-0.3.1
+}
+

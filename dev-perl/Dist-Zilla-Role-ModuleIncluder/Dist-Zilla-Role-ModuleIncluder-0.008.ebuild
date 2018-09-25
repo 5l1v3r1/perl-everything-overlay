@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.008"
-DIST_A="Dist-Zilla-Role-ModuleIncluder-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,17 +25,20 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Module-CoreList-5.201.605.200
 	virtual/perl-Module-Metadata
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.450
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.062
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-XSLoader-0.010
 	virtual/perl-if
 "
+

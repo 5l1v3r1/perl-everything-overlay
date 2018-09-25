@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="8.0"
-DIST_A="Gtk2-Ex-History-8.tar.gz"
+DIST_VERSION="8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Glib-Ex-ConnectProperties-13.000
-	>=dev-perl/Glib-Ex-ObjectBits-9.000
+	>=dev-perl/Glib-Ex-ObjectBits-12.000
 	>=dev-perl/Gtk2-1.220
 	dev-perl/Gtk2-Ex-Dashes
 	dev-perl/Gtk2-Ex-MenuView
-	>=dev-perl/Gtk2-Ex-WidgetBits-17.000
+	>=dev-perl/Gtk2-Ex-WidgetBits-21.000
 	dev-perl/glib-perl
 	>=dev-perl/libintl-perl-1.160
 "
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

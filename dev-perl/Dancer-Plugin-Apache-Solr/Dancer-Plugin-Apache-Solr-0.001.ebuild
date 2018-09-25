@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERRETTDL"
-DIST_VERSION="0.001"
-DIST_A="Dancer-Plugin-Apache-Solr-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Apache-Solr
-	>=dev-perl/Dancer-1.309.800
+	dev-perl/Dancer
 "
 DEPEND="
 	${RDEPEND}
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

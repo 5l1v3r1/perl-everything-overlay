@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHAY"
-DIST_VERSION="2.08"
-DIST_A="Filter-Crypto-2.08.tar.gz"
+DIST_VERSION="2.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+

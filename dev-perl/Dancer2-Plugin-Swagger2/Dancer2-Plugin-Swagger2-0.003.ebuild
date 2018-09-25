@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOEHMER"
-DIST_VERSION="0.003"
-DIST_A="Dancer2-Plugin-Swagger2-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dancer2
+	>=dev-perl/Dancer2-0.162000.01
 	virtual/perl-Module-Load
 "
 DEPEND="
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

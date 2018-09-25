@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOOLFISH"
-DIST_VERSION="v3.1.2"
-DIST_A="EasyDBAccess-3.1.2.tar.gz"
+DIST_VERSION="3.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

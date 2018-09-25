@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="0.04"
-DIST_A="Getopt-Helpful-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IPC-Run-0.780
-	>=dev-perl/yaml-0.390
+	>=dev-perl/YAML-0.390
 	>=virtual/perl-Getopt-Long-2.340
 	>=virtual/perl-Test-Simple-0.540
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

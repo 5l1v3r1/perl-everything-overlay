@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOPPIT"
-DIST_VERSION="1.1012"
-DIST_A="Getargs-Long-1.1012.tar.gz"
+DIST_VERSION="1.1012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "
+

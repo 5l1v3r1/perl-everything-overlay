@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANL"
-DIST_VERSION="0.016"
-DIST_A="Devel-CoverX-Covered-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Pod-Usage
 	dev-perl/SQL-Abstract
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
@@ -37,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

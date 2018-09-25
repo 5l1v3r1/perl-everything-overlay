@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dist-Zilla-5.023
+	dev-perl/Dist-Zilla
 	>=dev-perl/Dist-Zilla-Role-ErrorLogger-0.9.0
 	dev-perl/Module-Util
 	dev-perl/Moose

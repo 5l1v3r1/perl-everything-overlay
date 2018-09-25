@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LCONS"
-DIST_VERSION="2.0"
-DIST_A="Directory-Queue-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

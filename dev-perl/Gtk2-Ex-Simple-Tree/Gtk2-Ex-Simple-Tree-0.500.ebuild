@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RMCFARLA"
-DIST_VERSION="0.50"
-DIST_A="Gtk2-Ex-Simple-Tree-0.50.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/Gtk2-Ex-Simple-Tree-0.50.tar.gz"
+DIST_VERSION="0.50" 
+SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/Gtk2-Ex-Simple-Tree-0.50.tar.gz -> Gtk2-Ex-Simple-Tree-0.50.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Gtk2-Ex-Simple-Tree-0.50 ${WORKDIR}/Gtk2-Ex-Simple-Tree-0.50
+}
+

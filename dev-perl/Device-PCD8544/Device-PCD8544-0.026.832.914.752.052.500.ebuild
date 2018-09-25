@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMURRAY"
-DIST_VERSION="0.0268329147520525"
-DIST_A="Device-PCD8544-0.0268329147520525.tar.gz"
+DIST_VERSION="0.0268329147520525" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Pod
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTHOMPSON"
-DIST_VERSION="0.161990"
-DIST_A="Dist-Zilla-PluginBundle-Author-RTHOMPSON-0.161990.tar.gz"
+DIST_VERSION="0.161990" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -57,3 +56,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-autodie
 "
+

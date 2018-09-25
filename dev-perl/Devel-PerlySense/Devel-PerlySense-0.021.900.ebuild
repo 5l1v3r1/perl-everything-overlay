@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANL"
-DIST_VERSION="0.0219"
-DIST_A="Devel-PerlySense-0.0219.tar.gz"
+DIST_VERSION="0.0219" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Module-Pluggable-3.500
 	dev-perl/Module-Runtime
 	dev-perl/Moo
-	>=dev-perl/PPI-1.003
+	dev-perl/PPI
 	dev-perl/Params-Util
 	>=dev-perl/Path-Class-0.110
 	dev-perl/Path-Tiny
@@ -66,3 +65,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

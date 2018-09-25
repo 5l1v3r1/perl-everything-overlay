@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="1.00"
-DIST_A="Data-FormValidator-ErrMsgs-JavaScript-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Data-FormValidator
+	dev-perl/Module-Build
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="1.06"
-DIST_A="Devel-Assert-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

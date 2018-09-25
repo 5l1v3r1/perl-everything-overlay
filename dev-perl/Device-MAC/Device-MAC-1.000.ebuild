@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASONK"
-DIST_VERSION="1.00"
-DIST_A="Device-MAC-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Most
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="0.52"
-DIST_A="Elastic-Model-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,5 +45,7 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Strict
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "
+

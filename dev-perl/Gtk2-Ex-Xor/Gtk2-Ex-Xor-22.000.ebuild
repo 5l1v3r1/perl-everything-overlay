@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="22.0"
-DIST_A="Gtk2-Ex-Xor-22.tar.gz"
+DIST_VERSION="22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Glib-Ex-ObjectBits
 	>=dev-perl/Gtk2-1.200
-	>=dev-perl/Gtk2-Ex-WidgetBits-21.000
+	>=dev-perl/Gtk2-Ex-WidgetBits-31.000
 	>=dev-perl/Gtk2-Ex-WidgetCursor-5.000
 	>=dev-perl/Tie-RefHash-Weak-0.050
 	dev-perl/glib-perl
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

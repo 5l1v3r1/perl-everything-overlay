@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00003"
-DIST_A="Devel-InheritNamespace-0.00003.tar.gz"
+DIST_VERSION="0.00003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

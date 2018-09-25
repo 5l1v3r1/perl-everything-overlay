@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOTANGO"
-DIST_VERSION="42.005"
-DIST_A="Froody-42.005.tar.gz"
+DIST_VERSION="42.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,8 +31,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-Find-Rule
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	dev-perl/Test-XML
 	virtual/perl-Test-Simple
 "
+

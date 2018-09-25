@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDORMAN"
-DIST_VERSION="0.991"
-DIST_A="Dancer-Plugin-Facebook-0.991.tar.gz"
+DIST_VERSION="0.991" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

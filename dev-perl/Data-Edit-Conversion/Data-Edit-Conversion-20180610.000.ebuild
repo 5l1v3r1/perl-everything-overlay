@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="20180610.0"
-DIST_A="Data-Edit-Conversion-20180610.tar.gz"
+DIST_VERSION="20180610" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.422.400
 "
+

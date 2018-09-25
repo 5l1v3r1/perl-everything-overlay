@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="tmojo"
-DIST_VERSION="0.300"
-DIST_A="HTML-Tmojo-0.300.tar.gz"
+DIST_AUTHOR="LABZERONE"
+DIST_VERSION="0.300" 
+SRC_URI="mirror://cpan/authors/id/L/LA/LABZERONE/tmojo/HTML-Tmojo-0.300.tar.gz -> HTML-Tmojo-0.300.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Tmojo-0.300 ${WORKDIR}/HTML-Tmojo-0.300
+}
+

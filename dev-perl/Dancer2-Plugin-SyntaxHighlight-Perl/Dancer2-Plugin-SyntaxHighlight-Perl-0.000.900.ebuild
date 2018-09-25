@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONKIN"
-DIST_VERSION="0.0009"
-DIST_A="Dancer2-Plugin-SyntaxHighlight-Perl-0.0009.tar.gz"
+DIST_VERSION="0.0009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

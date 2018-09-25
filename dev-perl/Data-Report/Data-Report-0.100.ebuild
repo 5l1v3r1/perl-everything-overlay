@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JV"
-DIST_VERSION="0.10"
-DIST_A="Data-Report-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Text-CSV-1.000
 	virtual/perl-Test-Simple
 "
+

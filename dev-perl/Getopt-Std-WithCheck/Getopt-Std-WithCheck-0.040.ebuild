@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TPABA"
-DIST_VERSION="0.04"
-DIST_A="Getopt-Std-WithCheck-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TP/TPABA/Getopt-Std-WithCheck/Getopt-Std-WithCheck-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/T/TP/TPABA/Getopt-Std-WithCheck/Getopt-Std-WithCheck-0.04.tar.gz -> Getopt-Std-WithCheck-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-Std-WithCheck-0.04 ${WORKDIR}/Getopt-Std-WithCheck-0.04
+}
+

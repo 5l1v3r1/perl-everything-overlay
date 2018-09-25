@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMORTEGUI"
-DIST_VERSION="1.0001"
-DIST_A="Dancer2-Plugin-Cart-1.0001.tar.gz"
+DIST_VERSION="1.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,10 @@ DEPEND="
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/Plack
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

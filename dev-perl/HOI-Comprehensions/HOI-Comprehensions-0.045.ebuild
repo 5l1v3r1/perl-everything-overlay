@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="WITHERING"
-DIST_VERSION="0.045"
-DIST_A="HOI-Comprehensions-0.045.tar.gz"
-SRC_URI="mirror://cpan/authors/id/W/WI/WITHERING/HOI-Comprehensions-0045/HOI-Comprehensions-0.045.tar.gz"
+DIST_VERSION="0.045" 
+SRC_URI="mirror://cpan/authors/id/W/WI/WITHERING/HOI-Comprehensions-0045/HOI-Comprehensions-0.045.tar.gz -> HOI-Comprehensions-0.045.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HOI-Comprehensions-0.045 ${WORKDIR}/HOI-Comprehensions-0.045
+}
+

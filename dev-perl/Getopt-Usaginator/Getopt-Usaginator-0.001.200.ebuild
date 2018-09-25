@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.0012"
-DIST_A="Getopt-Usaginator-0.0012.tar.gz"
+DIST_VERSION="0.0012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-File-Spec
 "
+

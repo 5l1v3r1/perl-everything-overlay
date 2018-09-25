@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESUS"
-DIST_VERSION="1.0002"
-DIST_A="Gadabout-1.0002.tar.gz"
+DIST_VERSION="1.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

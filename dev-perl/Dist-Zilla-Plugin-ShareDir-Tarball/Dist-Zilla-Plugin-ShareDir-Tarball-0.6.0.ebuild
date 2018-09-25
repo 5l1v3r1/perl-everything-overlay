@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.6.0"
-DIST_A="Dist-Zilla-Plugin-ShareDir-Tarball-0.6.0.tar.gz"
+DIST_VERSION="0.6.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FUJIWARA"
-DIST_VERSION="0.02"
-DIST_A="Devel-KYTProf-Logger-XRay-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/IO-stringy
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="52.0"
-DIST_A="Gtk2-Ex-Splash-52.tar.gz"
+DIST_VERSION="52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Gtk2
-	>=dev-perl/glib-perl-1.220
+	dev-perl/glib-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

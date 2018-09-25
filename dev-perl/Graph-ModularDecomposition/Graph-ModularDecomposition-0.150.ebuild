@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="graph"
-DIST_VERSION="0.15"
-DIST_A="Graph-ModularDecomposition-0.15.tar.gz"
+DIST_AUTHOR="AZS"
+DIST_VERSION="0.15" 
+SRC_URI="mirror://cpan/authors/id/A/AZ/AZS/graph/Graph-ModularDecomposition-0.15.tar.gz -> Graph-ModularDecomposition-0.15.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-ModularDecomposition-0.15 ${WORKDIR}/Graph-ModularDecomposition-0.15
+}
+

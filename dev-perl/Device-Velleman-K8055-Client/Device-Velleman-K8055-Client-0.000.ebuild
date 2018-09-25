@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDP"
-DIST_VERSION="0.0"
-DIST_A="Device-Velleman-K8055-Client.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDP/Device-Velleman-K8055-Client.tar.gz -> Device-Velleman-K8055-Client-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Device-Velleman-K8055-Client ${WORKDIR}/Device-Velleman-K8055-Client-
+}
+

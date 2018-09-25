@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="0.02"
-DIST_A="Games-Terrain-DiamondSquare-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "
@@ -25,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Most
 "
+

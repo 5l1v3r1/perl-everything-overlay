@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RORYRJB"
-DIST_VERSION="0.0.3"
-DIST_A="File-DirObject-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

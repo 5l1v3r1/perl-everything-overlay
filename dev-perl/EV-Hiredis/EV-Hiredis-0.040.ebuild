@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHOGO"
-DIST_VERSION="0.04"
-DIST_A="EV-Hiredis-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-TCP-1.180
 	>=virtual/perl-Test-Simple-0.980
 "
+

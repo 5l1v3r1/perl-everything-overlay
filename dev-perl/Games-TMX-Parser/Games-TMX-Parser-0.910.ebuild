@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EILARA"
-DIST_VERSION="0.91"
-DIST_A="Games-TMX-Parser-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

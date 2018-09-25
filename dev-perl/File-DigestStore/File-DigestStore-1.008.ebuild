@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOLI"
-DIST_VERSION="1.008"
-DIST_A="File-DigestStore-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

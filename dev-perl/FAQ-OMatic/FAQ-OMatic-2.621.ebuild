@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHOWELL"
-DIST_VERSION="2.621"
-DIST_A="FAQ-OMatic-2.621.tar.gz"
+DIST_VERSION="2.621" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CASAO"
-DIST_VERSION="1.0.3"
-DIST_A="Dancer-Plugin-SecureHeaders-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.010"
-DIST_A="Dist-Zilla-Plugin-BumpVersionFromGit-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,8 @@ DEPEND="
 	dev-perl/File-Copy-Recursive
 	dev-perl/File-pushd
 	dev-perl/Path-Class
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

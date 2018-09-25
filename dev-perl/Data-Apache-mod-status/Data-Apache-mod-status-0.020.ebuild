@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.02"
-DIST_A="Data-Apache-mod_status-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,12 +19,12 @@ RDEPEND="
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/IPC-Run3
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/XML-LibXML
 	dev-perl/XML-LibXSLT
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

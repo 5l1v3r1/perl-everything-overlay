@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.48"
-DIST_A="Gazelle-0.48.tar.gz"
+DIST_VERSION="0.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-HTTP-Tiny-0.058
 	>=virtual/perl-Test-Simple-0.980
 "
+

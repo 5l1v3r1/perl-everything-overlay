@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAYAJO"
-DIST_VERSION="0.03"
-DIST_A="Data-Petitcom-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.310
 	>=virtual/perl-Test-Simple-0.980
 "
+

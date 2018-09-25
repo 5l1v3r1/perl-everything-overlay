@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMI"
-DIST_VERSION="1.06"
-DIST_A="Data-Domain-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

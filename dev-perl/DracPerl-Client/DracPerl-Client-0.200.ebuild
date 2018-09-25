@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APCROS"
-DIST_VERSION="0.20"
-DIST_A="DracPerl-Client-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/LWP-UserAgent-Mockable
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	dev-perl/Test-Most
 "
+

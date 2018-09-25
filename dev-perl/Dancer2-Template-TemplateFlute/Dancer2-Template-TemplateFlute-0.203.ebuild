@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.203"
-DIST_A="Dancer2-Template-TemplateFlute-0.203.tar.gz"
+DIST_VERSION="0.203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/XML-Twig
 	>=virtual/perl-Test-Simple-0.940
 "
+

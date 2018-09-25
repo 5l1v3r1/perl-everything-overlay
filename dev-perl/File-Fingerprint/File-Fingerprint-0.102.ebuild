@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.102"
-DIST_A="File-Fingerprint-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.950
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LKUNDRAK"
-DIST_VERSION="1.2"
-DIST_A="Database-DumpTruck-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

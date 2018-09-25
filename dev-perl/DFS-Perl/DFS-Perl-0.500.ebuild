@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PHENSON"
-DIST_VERSION="0.50"
-DIST_A="DFS-Perl-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

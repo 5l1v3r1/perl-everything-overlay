@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SRVANCE"
 DIST_VERSION="1.1"
-DIST_A="Error-Exception-1.1.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +21,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Module-Locate
 	dev-perl/Test-Unit
 	virtual/perl-Test-Simple
 "
+

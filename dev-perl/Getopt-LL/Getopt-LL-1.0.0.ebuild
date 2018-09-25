@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASKSH"
-DIST_VERSION="v1.0.0"
-DIST_A="Getopt-LL-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/IO-Capture
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.250
 	>=virtual/perl-Test-Simple-0.420
 "
+

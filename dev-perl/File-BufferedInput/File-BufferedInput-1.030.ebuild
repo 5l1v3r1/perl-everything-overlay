@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="mewsoft"
-DIST_VERSION="1.03"
-DIST_A="File-BufferedInput-1.03.tar.gz"
+DIST_AUTHOR="MEWSOFT"
+DIST_VERSION="1.03" 
+SRC_URI="mirror://cpan/authors/id/M/ME/MEWSOFT/mewsoft/File-BufferedInput-1.03.tar.gz -> File-BufferedInput-1.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-BufferedInput-1.03 ${WORKDIR}/File-BufferedInput-1.03
+}
+

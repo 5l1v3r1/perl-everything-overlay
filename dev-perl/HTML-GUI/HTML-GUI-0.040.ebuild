@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCHASSLER"
-DIST_VERSION="0.04"
-DIST_A="HTML-GUI-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ DEPEND="
 	dev-perl/HTML-Template
 	dev-perl/JSON
 	dev-perl/Log-Log4perl
+	dev-perl/Module-Build
 	dev-perl/YAML-Syck
 	dev-perl/libintl-perl
 	virtual/perl-Test-Simple
 "
+

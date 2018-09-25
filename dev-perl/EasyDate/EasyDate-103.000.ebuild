@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DSAMZA"
-DIST_VERSION="103.0"
-DIST_A="EasyDate-103.zip"
+DIST_VERSION="103"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

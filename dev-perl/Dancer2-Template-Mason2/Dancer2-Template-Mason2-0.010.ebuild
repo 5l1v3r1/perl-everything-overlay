@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BALBAN"
-DIST_VERSION="0.01"
-DIST_A="Dancer2-Template-Mason2-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Dancer2
 	dev-perl/Mason
+	dev-perl/Module-Build
 	dev-perl/Moo
 	virtual/perl-Carp
 	>=virtual/perl-Test-Simple-0.980
 "
+

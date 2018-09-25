@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EBASSI"
-DIST_VERSION="1.043"
-DIST_A="Gnome2-GConf-1.043.tar.gz"
+DIST_VERSION="1.043" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

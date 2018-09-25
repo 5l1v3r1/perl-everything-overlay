@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRYCE"
-DIST_VERSION="0.35"
-DIST_A="Document-Manager-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

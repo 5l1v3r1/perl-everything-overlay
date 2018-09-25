@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACKB"
-DIST_VERSION="0.0003"
-DIST_A="Dancer-Plugin-Tail-0.0003.tar.gz"
+DIST_VERSION="0.0003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

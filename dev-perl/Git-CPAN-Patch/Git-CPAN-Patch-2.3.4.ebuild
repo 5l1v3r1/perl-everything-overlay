@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="2.3.4"
-DIST_A="Git-CPAN-Patch-2.3.4.tar.gz"
+DIST_VERSION="2.3.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,7 +31,7 @@ RDEPEND="
 	dev-perl/MetaCPAN-API
 	dev-perl/MetaCPAN-Client
 	dev-perl/Moose
-	dev-perl/MooseX-App
+	>=dev-perl/MooseX-App-1.210
 	dev-perl/MooseX-SemiAffordanceAccessor
 	dev-perl/Path-Class
 	dev-perl/Path-Tiny
@@ -55,3 +54,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

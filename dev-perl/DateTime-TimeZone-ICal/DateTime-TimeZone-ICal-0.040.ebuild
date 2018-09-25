@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORIAN"
-DIST_VERSION="0.04"
-DIST_A="DateTime-TimeZone-ICal-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Data-ICal-0.210
 	>=dev-perl/DateTime-0.700
 	>=dev-perl/DateTime-Format-ICal-0.090
-	dev-perl/DateTime-Set
+	>=dev-perl/DateTime-Set-0.310
 	>=dev-perl/DateTime-TimeZone-1.850
 	>=dev-perl/Moo-1.006
 	>=dev-perl/URI-1.600
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

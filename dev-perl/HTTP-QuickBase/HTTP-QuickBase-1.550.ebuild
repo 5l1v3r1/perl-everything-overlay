@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CVONROES"
-DIST_VERSION="1.55"
-DIST_A="HTTP-QuickBase-1.55.tar.gz"
+DIST_VERSION="1.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

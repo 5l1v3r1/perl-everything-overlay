@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000015"
-DIST_A="Git-Helpers-0.000015.tar.gz"
+DIST_VERSION="0.000015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,6 @@ RDEPEND="
 	dev-perl/MooX-Options
 	dev-perl/String-Trim
 	dev-perl/Sub-Exporter
-	dev-perl/Term-Choose
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
 	dev-perl/URI
@@ -48,3 +46,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

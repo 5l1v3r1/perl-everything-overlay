@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPENBURG"
-DIST_VERSION="0.108"
-DIST_A="Date-Extract-P800Picture-0.108.tar.gz"
+DIST_VERSION="0.108" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-TestCoverage-0.080
 	>=virtual/perl-Test-Simple-0.810
 "
+

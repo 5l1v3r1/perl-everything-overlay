@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HASSEILY"
 DIST_VERSION="0.0.3"
-DIST_A="Fdb-0.0.3.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

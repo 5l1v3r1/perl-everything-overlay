@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDT"
-DIST_VERSION="0.01"
-DIST_A="Email-Sender-Transport-Mailgun-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/DateTime
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.980
 "
+

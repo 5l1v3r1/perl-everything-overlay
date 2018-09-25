@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAGOMORIS"
-DIST_VERSION="1.0"
-DIST_A="Fluent-AgentLite-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

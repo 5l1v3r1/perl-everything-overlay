@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYA"
-DIST_VERSION="v1.5.0"
-DIST_A="HTML-Tiny-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

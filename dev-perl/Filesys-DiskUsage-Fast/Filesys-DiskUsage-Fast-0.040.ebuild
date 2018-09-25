@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RYOCHIN"
-DIST_VERSION="0.04"
-DIST_A="Filesys-DiskUsage-Fast-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAOC"
-DIST_VERSION="0.034"
-DIST_A="Gtk3-0.034.tar.gz"
+DIST_VERSION="0.034" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DYLAN"
-DIST_VERSION="0.06"
-DIST_A="Finance-Budget-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

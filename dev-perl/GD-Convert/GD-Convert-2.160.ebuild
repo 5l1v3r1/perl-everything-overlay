@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SREZIC"
-DIST_VERSION="2.16"
-DIST_A="GD-Convert-2.16.tar.gz"
+DIST_VERSION="2.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

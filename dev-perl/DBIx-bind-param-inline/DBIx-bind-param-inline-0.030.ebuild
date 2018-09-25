@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DBI"
-DIST_VERSION="0.03"
-DIST_A="DBIx-bind_param_inline-0.03.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/DBI/DBIx-bind_param_inline-0.03.tar.gz -> DBIx-bind_param_inline-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBIx-bind_param_inline-0.03 ${WORKDIR}/DBIx-bind_param_inline-0.03
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIZUR"
-DIST_VERSION="0.02"
-DIST_A="File-Dir-Map-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-File-Path-2.080
 	virtual/perl-Test-Simple
 "
+

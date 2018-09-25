@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSCHOEN"
-DIST_VERSION="v0.7.0"
-DIST_A="Gearman-XS-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

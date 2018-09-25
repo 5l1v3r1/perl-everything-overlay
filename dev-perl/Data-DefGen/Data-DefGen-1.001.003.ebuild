@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLAI"
-DIST_VERSION="1.001003"
-DIST_A="Data-DefGen-1.001003.tar.gz"
+DIST_VERSION="1.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

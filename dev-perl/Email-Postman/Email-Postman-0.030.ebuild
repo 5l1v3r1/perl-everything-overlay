@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.03"
-DIST_A="Email-Postman-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/MIME-tools-5.502
-	>=dev-perl/Test-MockModule-0.050
 	>=dev-perl/Test-MockObject-1.200
 	virtual/perl-Test-Simple
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="OLEGS"
-DIST_VERSION="0.032"
-DIST_A="Data-Enumerable-Lazy-0.032.tar.gz"
-SRC_URI="mirror://cpan/authors/id/O/OL/OLEGS/Perl-Data-Enumerable-Lazy/Data-Enumerable-Lazy-0.032.tar.gz"
+DIST_VERSION="0.032" 
+SRC_URI="mirror://cpan/authors/id/O/OL/OLEGS/Perl-Data-Enumerable-Lazy/Data-Enumerable-Lazy-0.032.tar.gz -> Data-Enumerable-Lazy-0.032.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Enumerable-Lazy-0.032 ${WORKDIR}/Data-Enumerable-Lazy-0.032
+}
+

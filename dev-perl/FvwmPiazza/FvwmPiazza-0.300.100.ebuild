@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUBYKAT"
-DIST_VERSION="0.3001"
-DIST_A="FvwmPiazza-0.3001.tar.gz"
+DIST_VERSION="0.3001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

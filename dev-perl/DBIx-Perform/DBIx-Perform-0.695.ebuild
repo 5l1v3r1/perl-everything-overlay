@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BKCHAPIN"
-DIST_VERSION="0.695"
-DIST_A="DBIx-Perform-0.695.tar.gz"
+DIST_VERSION="0.695" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

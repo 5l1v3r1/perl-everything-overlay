@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SREZIC"
-DIST_VERSION="0.025"
-DIST_A="Doit-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

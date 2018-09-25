@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUMPFRALL"
-DIST_VERSION="0.08.2"
-DIST_A="Ezmlm-0.08.2.tar.gz"
+DIST_VERSION="0.08.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

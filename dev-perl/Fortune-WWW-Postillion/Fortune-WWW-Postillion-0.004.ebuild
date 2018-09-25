@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CALDRIN"
-DIST_VERSION="0.004"
-DIST_A="Fortune-WWW-Postillion-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,11 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/Mojolicious
 	dev-perl/WWW-Mechanize
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

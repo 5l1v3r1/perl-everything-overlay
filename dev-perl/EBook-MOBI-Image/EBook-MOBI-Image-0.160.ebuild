@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BORISD"
-DIST_VERSION="0.16"
-DIST_A="EBook-MOBI-Image-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

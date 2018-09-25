@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMACAT"
-DIST_VERSION="1.12"
-DIST_A="DbFramework-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

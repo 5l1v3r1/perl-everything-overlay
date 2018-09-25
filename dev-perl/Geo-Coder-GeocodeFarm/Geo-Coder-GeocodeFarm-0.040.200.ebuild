@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0402"
-DIST_A="Geo-Coder-GeocodeFarm-0.0402.tar.gz"
+DIST_VERSION="0.0402" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-RequiresInternet
 	>=virtual/perl-Test-Simple-0.880
 "
+

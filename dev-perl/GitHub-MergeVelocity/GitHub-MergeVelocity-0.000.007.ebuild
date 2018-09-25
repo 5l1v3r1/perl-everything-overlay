@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000007"
-DIST_A="GitHub-MergeVelocity-0.000007.tar.gz"
+DIST_VERSION="0.000007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-RequiresInternet
 "
+

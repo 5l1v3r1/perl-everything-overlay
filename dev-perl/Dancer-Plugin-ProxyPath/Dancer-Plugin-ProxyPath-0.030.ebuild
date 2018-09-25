@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dancer-1.200
+	dev-perl/Dancer
 "
 DEPEND="
 	${RDEPEND}

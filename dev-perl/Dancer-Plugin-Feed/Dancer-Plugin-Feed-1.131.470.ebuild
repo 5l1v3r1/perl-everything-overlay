@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="1.131470"
-DIST_A="Dancer-Plugin-Feed-1.131470.tar.gz"
+DIST_VERSION="1.131470" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Dancer-1.200.100
+	dev-perl/Dancer
 	dev-perl/XML-Feed
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

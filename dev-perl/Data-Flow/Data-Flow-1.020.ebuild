@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="1.02"
-DIST_A="Data-Flow-1.02.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/Data-Flow-1.02.tar.gz -> Data-Flow-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Flow-1.02 ${WORKDIR}/Data-Flow-1.02
+}
+

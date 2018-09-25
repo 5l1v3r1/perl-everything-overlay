@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTHOMPSON"
-DIST_VERSION="0.163250"
-DIST_A="Dist-Zilla-Plugin-ReadmeAnyFromPod-0.163250.tar.gz"
+DIST_VERSION="0.163250" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJD"
-DIST_VERSION="1.03"
-DIST_A="DateTime-Moonpig-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
 	dev-perl/Sub-Install
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -28,5 +28,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Fatal
 	dev-perl/Try-Tiny
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

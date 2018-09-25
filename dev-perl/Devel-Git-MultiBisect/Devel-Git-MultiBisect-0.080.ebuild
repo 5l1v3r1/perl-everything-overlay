@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKEENAN"
-DIST_VERSION="0.08"
-DIST_A="Devel-Git-MultiBisect-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/IO-CaptureOutput
 	>=virtual/perl-Test-Simple-0.440
 "
+

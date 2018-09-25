@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HERNAN"
-DIST_VERSION="0.11"
-DIST_A="HTML-Robot-Scrapper-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

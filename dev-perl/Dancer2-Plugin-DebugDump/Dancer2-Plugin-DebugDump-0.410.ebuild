@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVIED"
-DIST_VERSION="0.41"
-DIST_A="Dancer2-Plugin-DebugDump-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dancer2-0.200.002
+	dev-perl/Dancer2
 	virtual/perl-Data-Dumper
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

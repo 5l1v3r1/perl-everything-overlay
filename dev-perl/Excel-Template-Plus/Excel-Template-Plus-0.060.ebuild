@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVAN"
-DIST_VERSION="0.06"
-DIST_A="Excel-Template-Plus-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.470
 "
+

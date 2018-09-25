@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIOSHA"
-DIST_VERSION="0.02"
-DIST_A="Geo-Names-Russian-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

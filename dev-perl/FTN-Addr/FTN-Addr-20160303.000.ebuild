@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VAL"
-DIST_VERSION="20160303.0"
-DIST_A="FTN-Addr-20160303.tar.gz"
+DIST_VERSION="20160303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

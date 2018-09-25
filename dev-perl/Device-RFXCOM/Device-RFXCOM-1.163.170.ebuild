@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.163170"
-DIST_A="Device-RFXCOM-1.163170.tar.gz"
+DIST_VERSION="1.163170" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Device-SerialPort
 	dev-perl/Module-Pluggable
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-IO
@@ -29,6 +29,8 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-MockTCPServer
+	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMBABQUE"
-DIST_VERSION="0.006"
-DIST_A="Dancer2-Logger-Console-Colored-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

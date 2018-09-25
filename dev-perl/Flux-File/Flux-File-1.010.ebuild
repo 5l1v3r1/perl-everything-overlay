@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.01"
-DIST_A="Flux-File-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Time-HiRes
 	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATCH"
-DIST_VERSION="0.07"
-DIST_A="Geo-Region-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-Scalar-List-Utils-1.100
+	>=virtual/perl-Scalar-List-Utils-1.350
 	virtual/perl-parent
 "
 DEPEND="
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.220
 	>=virtual/perl-podlators-2.040
 "
+

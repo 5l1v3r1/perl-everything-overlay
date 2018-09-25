@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARYANTO"
-DIST_VERSION="0.06"
-DIST_A="HTTP-Daemon-Patch-IPv6-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

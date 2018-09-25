@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STBEY"
-DIST_VERSION="6.4"
-DIST_A="Date-Calc-XS-6.4.tar.gz"
+DIST_VERSION="6.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

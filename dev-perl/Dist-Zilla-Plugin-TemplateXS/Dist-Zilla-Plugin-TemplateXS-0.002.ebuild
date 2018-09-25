@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.002"
-DIST_A="Dist-Zilla-Plugin-TemplateXS-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,9 +26,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.030
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Path-Class
 	dev-perl/Test-File-ShareDir
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

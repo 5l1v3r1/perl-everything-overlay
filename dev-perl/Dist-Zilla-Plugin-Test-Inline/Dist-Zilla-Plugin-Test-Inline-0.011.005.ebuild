@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXHQ"
-DIST_VERSION="0.011005"
-DIST_A="Dist-Zilla-Plugin-Test-Inline-0.011005.tar.gz"
+DIST_VERSION="0.011005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

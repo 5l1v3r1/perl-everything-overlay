@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OKKO"
-DIST_VERSION="0.004"
-DIST_A="Finance-Bank-FI-ReferenceNumber-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/Test-Pod-1.140
 	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

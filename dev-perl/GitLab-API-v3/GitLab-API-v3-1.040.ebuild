@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Const-Fast
 	dev-perl/Data-Serializer
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-0.110
 	dev-perl/Log-Any-Adapter-Screen
 	>=dev-perl/Moo-1.006
 	dev-perl/Pod-Usage
@@ -35,6 +35,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Log-Any-Adapter-TAP-0.2.0
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
 

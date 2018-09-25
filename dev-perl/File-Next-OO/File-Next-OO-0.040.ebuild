@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BORISZ"
-DIST_VERSION="0.04"
-DIST_A="File-Next-OO-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

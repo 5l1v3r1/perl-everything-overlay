@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EFOLLEY"
-DIST_VERSION="0.10"
-DIST_A="HTML-FormatData-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DateTime-0.220
 	>=dev-perl/DateTime-Format-Strptime-1.060.100
-	>=dev-perl/HTML-Parser-1.270
+	>=dev-perl/HTML-Parser-3.350
 	>=dev-perl/URI-3.220
 	virtual/perl-Carp
 "
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

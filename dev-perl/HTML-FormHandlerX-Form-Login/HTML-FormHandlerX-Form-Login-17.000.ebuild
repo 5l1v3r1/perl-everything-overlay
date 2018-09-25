@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAGAO"
-DIST_VERSION="017.0"
-DIST_A="HTML-FormHandlerX-Form-Login-017.tar.gz"
+DIST_VERSION="017" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

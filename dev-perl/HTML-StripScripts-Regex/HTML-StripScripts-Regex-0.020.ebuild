@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NCLEATON"
-DIST_VERSION="0.02"
-DIST_A="HTML-StripScripts-Regex-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSPENCER"
-DIST_VERSION="0.02"
-DIST_A="Finance-IBrokers-MooseCallback-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

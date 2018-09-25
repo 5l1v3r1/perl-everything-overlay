@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-Section
-	>=dev-perl/Dist-Zilla-5.038
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
 	dev-perl/Dist-Zilla-Plugin-Hook
@@ -69,13 +69,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	dev-perl/File-Which
 	dev-perl/Module-Build
 	dev-perl/Module-Runtime
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
-	dev-perl/Test-Dist-Zilla
+	>=dev-perl/Test-Dist-Zilla-0.3.1
 	dev-perl/Test-Routine
 	dev-perl/lib
 	virtual/perl-File-Spec

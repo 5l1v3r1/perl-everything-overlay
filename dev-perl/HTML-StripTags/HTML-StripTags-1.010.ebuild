@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="StripTags"
-DIST_VERSION="1.01"
-DIST_A="HTML-StripTags-1.01.tar.gz"
+DIST_AUTHOR="HINNERK"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/H/HI/HINNERK/StripTags/HTML-StripTags-1.01.tar.gz -> HTML-StripTags-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-StripTags-1.01 ${WORKDIR}/HTML-StripTags-1.01
+}
+

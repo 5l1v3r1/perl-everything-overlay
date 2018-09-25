@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRAD"
-DIST_VERSION="1.0.1"
-DIST_A="Dist-Zilla-Plugin-NexusRelease-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-1.000
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAICRON"
-DIST_VERSION="0.22"
-DIST_A="Getopt-Compact-WithCmd-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	>=virtual/perl-Test-Simple-0.960
 "
+

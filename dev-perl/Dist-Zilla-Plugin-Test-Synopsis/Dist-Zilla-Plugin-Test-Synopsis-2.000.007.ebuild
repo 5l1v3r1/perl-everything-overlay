@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="2.000007"
-DIST_A="Dist-Zilla-Plugin-Test-Synopsis-2.000007.tar.gz"
+DIST_VERSION="2.000007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.000
 	dev-perl/Moose
 	dev-perl/Test-Synopsis
 "
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie
 "
+

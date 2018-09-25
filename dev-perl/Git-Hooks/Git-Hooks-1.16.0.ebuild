@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNUSTAVO"
-DIST_VERSION="1.16.0"
-DIST_A="Git-Hooks-1.16.0.tar.gz"
+DIST_VERSION="1.16.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Data-Dumper
 "
+

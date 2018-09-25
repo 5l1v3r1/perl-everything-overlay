@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.07"
-DIST_A="GraphQL-Plugin-Convert-DBIC-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Snapshot-0.050
 	>=virtual/perl-Test-Simple-0.980
 "
+

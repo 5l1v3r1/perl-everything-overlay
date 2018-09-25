@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KFLY"
-DIST_VERSION="0.07"
-DIST_A="DBIx-Schema-DSL-Dumper-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ DEPEND="
 	dev-perl/DBD-mysql
 	dev-perl/DBI
 	dev-perl/DBIx-Schema-DSL
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	dev-perl/Test-mysqld
 	>=virtual/perl-Test-Simple-0.980
 "
+

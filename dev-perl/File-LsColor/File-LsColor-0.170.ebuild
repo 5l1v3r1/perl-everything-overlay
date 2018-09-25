@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLDRICH"
-DIST_VERSION="0.170"
-DIST_A="File-LsColor-0.170.tar.gz"
+DIST_VERSION="0.170" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

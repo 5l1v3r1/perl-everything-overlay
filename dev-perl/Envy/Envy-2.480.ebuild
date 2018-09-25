@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JPRIT"
-DIST_VERSION="2.48"
-DIST_A="Envy-2.48.tar.gz"
+DIST_VERSION="2.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

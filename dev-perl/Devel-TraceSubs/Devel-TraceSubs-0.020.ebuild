@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="PARTICLE"
 DIST_VERSION="0.02"
-DIST_A="Devel-TraceSubs-0.02.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

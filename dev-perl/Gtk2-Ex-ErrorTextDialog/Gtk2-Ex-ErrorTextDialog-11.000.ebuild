@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="11.0"
-DIST_A="Gtk2-Ex-ErrorTextDialog-11.tar.gz"
+DIST_VERSION="11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Devel-GlobalDestruction
-	dev-perl/Glib-Ex-ObjectBits
+	>=dev-perl/Glib-Ex-ObjectBits-12.000
 	dev-perl/Gtk2
 	>=dev-perl/Gtk2-Ex-WidgetBits-14.000
 	dev-perl/glib-perl
-	>=dev-perl/libintl-perl-1.160
+	dev-perl/libintl-perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

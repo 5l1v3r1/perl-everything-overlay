@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="3.1.0"
-DIST_A="HPC-Runner-Command-3.1.0.tar.gz"
+DIST_VERSION="3.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -61,8 +60,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Slurp
 	dev-perl/Test-Class-Moose
 	dev-perl/Text-Diff
 	virtual/perl-Test-Simple
 "
+

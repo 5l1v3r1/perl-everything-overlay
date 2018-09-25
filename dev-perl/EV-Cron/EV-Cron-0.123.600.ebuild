@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOSYME"
-DIST_VERSION="0.123600"
-DIST_A="EV-Cron-0.123600.tar.gz"
+DIST_VERSION="0.123600" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

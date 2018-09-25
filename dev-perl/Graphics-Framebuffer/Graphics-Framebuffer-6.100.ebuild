@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKELSCH"
-DIST_VERSION="6.10"
-DIST_A="Graphics-Framebuffer-6.10.tar.gz"
+DIST_VERSION="6.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-4.520
 	>=dev-perl/Test-Most-0.300
 "
+

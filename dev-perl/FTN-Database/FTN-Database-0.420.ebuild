@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAME"
-DIST_VERSION="0.42"
-DIST_A="FTN-Database-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

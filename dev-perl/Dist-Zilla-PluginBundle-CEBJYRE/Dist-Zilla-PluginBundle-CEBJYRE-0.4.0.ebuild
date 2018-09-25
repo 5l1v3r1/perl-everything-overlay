@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CEBJYRE"
-DIST_VERSION="v0.4.0"
-DIST_A="Dist-Zilla-PluginBundle-CEBJYRE-0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

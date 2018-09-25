@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMOL"
-DIST_VERSION="0.12"
-DIST_A="Font-FreeType-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	dev-perl/Test-Warnings
 "
+

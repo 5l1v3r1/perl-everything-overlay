@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANELSON"
-DIST_VERSION="0.33"
-DIST_A="Data-SearchEngine-0.33.tar.gz"
+DIST_VERSION="0.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

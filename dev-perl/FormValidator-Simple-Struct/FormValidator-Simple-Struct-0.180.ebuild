@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOSIN"
-DIST_VERSION="0.18"
-DIST_A="FormValidator-Simple-Struct-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	dev-perl/Class-Load
 	dev-perl/Email-Valid
 	dev-perl/Hash-MultiValue
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-Time-Piece
 "
+

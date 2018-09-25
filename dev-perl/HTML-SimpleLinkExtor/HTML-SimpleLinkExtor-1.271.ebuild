@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.271"
-DIST_A="HTML-SimpleLinkExtor-1.271.tar.gz"
+DIST_VERSION="1.271" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.940
 "
+

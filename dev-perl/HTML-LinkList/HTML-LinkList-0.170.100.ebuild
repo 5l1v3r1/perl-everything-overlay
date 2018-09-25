@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUBYKAT"
-DIST_VERSION="0.1701"
-DIST_A="HTML-LinkList-0.1701.tar.gz"
+DIST_VERSION="0.1701" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

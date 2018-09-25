@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JRED"
-DIST_VERSION="0.44"
-DIST_A="Dimedis-Sql-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

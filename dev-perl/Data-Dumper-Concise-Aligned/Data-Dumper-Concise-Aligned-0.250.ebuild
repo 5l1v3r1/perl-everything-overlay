@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="0.25"
-DIST_A="Data-Dumper-Concise-Aligned-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,6 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=dev-perl/Test-Pod-1.220
 	>=dev-perl/Test-Pod-Coverage-1.080
+	dev-perl/lib
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMD"
-DIST_VERSION="0.011"
-DIST_A="Dist-Zilla-PluginBundle-AMD-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

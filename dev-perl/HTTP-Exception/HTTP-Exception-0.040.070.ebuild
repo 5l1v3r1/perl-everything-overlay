@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMUELLER"
-DIST_VERSION="0.04007"
-DIST_A="HTTP-Exception-0.04007.tar.gz"
+DIST_VERSION="0.04007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

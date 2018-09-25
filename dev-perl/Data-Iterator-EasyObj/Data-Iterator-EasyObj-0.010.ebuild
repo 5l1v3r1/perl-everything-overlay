@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TEEJAY"
-DIST_VERSION="0.01"
-DIST_A="Data-Iterator-EasyObj-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TEEJAY/Data/Iterator/Data-Iterator-EasyObj-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TEEJAY/Data/Iterator/Data-Iterator-EasyObj-0.01.tar.gz -> Data-Iterator-EasyObj-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-Iterator-EasyObj-0.01 ${WORKDIR}/Data-Iterator-EasyObj-0.01
+}
+

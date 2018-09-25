@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.091702"
-DIST_A="Email-Simple-Test-TraceHeaders-0.091702.tar.gz"
+DIST_VERSION="0.091702" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Capture-Tiny
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKW"
-DIST_VERSION="0.41"
-DIST_A="FAIR-Data-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	dev-perl/IO-String
 "
+

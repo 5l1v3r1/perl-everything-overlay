@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GONZUS"
-DIST_VERSION="0.900010"
-DIST_A="Devel-QuickCover-0.900010.tar.gz"
+DIST_VERSION="0.900010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.028"
-DIST_A="Google-Search-0.028.tar.gz"
+DIST_VERSION="0.028" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Most
 "
+

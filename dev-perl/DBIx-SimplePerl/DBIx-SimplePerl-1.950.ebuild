@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LANDMAN"
-DIST_VERSION="1.95"
-DIST_A="DBIx-SimplePerl-1.95.tar.gz"
+DIST_VERSION="1.95" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

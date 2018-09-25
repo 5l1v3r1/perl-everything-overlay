@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.20110709"
-DIST_A="Dist-Zilla-Plugin-ScpDeploy-1.20110709.tar.gz"
+DIST_VERSION="1.20110709" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.006
 	>=virtual/perl-Test-Simple-0.880
 "
+

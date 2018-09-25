@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.702"
-DIST_A="Dancer2-Plugin-Auth-Extensible-Provider-LDAP-0.702.tar.gz"
+DIST_VERSION="0.702" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Net-LDAP-0.070
 	virtual/perl-Test-Simple
 "
+

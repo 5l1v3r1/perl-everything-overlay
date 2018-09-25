@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETDANCE"
-DIST_VERSION="1.60"
-DIST_A="HTML-Tidy-1.60.tar.gz"
+DIST_VERSION="1.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	virtual/perl-Encode
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

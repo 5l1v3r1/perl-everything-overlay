@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EDGEWISE"
-DIST_VERSION="0.92"
-DIST_A="ExtUtils-MakeMaker-BigHelper-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.027"
-DIST_A="Dist-Zilla-Plugin-Test-ReportPrereqs-0.027.tar.gz"
+DIST_VERSION="0.027" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	>=virtual/perl-Test-Simple-0.960
 "
+

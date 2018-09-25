@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOLI"
-DIST_VERSION="1.004"
-DIST_A="Device-SCSI-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Module-Load
 "
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

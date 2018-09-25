@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.110"
-DIST_A="Future-Q-0.110.tar.gz"
+DIST_VERSION="0.110" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-Identity
 	dev-perl/Test-Memory-Cycle
-	>=dev-perl/Test-MockModule-0.050
 	virtual/perl-Test-Simple
 "
+

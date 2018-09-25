@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.09"
-DIST_A="Debian-Apt-PM-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,6 +33,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Parallel-Iterator
 	>=dev-perl/Parse-Deb-Control-0.040
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
 	virtual/perl-CPAN
 	virtual/perl-Carp
@@ -42,11 +42,14 @@ RDEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO-Compress
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.700
 	>=dev-perl/Module-Build-SysPath-0.130
+	dev-perl/Test-Differences
+	dev-perl/Test-Exception
+	virtual/perl-Test-Simple
 "
+

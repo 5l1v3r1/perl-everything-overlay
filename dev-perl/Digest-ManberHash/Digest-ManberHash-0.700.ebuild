@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PMAREK"
-DIST_VERSION="0.7"
-DIST_A="Digest-ManberHash-0.7.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PM/PMAREK/DigestManberHash/Digest-ManberHash-0.7.tar.gz"
+DIST_VERSION="0.7" 
+SRC_URI="mirror://cpan/authors/id/P/PM/PMAREK/DigestManberHash/Digest-ManberHash-0.7.tar.gz -> Digest-ManberHash-0.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Digest-ManberHash-0.7 ${WORKDIR}/Digest-ManberHash-0.7
+}
+

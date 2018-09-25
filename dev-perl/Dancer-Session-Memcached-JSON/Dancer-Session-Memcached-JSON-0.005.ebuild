@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FBELTON"
-DIST_VERSION="0.005"
-DIST_A="Dancer-Session-Memcached-JSON-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Dancer
 	dev-perl/Function-Parameters
 	dev-perl/JSON
+	dev-perl/base
 	virtual/perl-Digest-SHA
 	virtual/perl-Encode
 	virtual/perl-Exporter
@@ -29,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

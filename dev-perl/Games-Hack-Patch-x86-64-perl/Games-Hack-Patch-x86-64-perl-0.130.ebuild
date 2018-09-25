@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PMAREK"
-DIST_VERSION="0.13"
-DIST_A="Games-Hack-Patch-x86_64-0.13.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PM/PMAREK/Games/Hack/Patch/Games-Hack-Patch-x86_64-0.13.tar.gz"
+DIST_VERSION="0.13" 
+SRC_URI="mirror://cpan/authors/id/P/PM/PMAREK/Games/Hack/Patch/Games-Hack-Patch-x86_64-0.13.tar.gz -> Games-Hack-Patch-x86_64-0.13.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-Hack-Patch-x86_64-0.13 ${WORKDIR}/Games-Hack-Patch-x86_64-0.13
+}
+

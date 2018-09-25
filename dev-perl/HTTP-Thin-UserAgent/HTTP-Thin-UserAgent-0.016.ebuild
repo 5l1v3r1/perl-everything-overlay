@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="0.016"
-DIST_A="HTTP-Thin-UserAgent-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-6.070
 	dev-perl/HTTP-Thin
 	>=dev-perl/HTTP-Throwable-0.025
 	dev-perl/Import-Into
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

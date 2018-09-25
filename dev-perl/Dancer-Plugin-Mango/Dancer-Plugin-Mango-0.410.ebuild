@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSEATON"
-DIST_VERSION="0.41"
-DIST_A="Dancer-Plugin-Mango-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.960
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EVO"
-DIST_VERSION="2003.1128"
-DIST_A="Devel-PreProcessor-2003.1128.tar.gz"
+DIST_VERSION="2003.1128" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

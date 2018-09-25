@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.106"
-DIST_A="HTTP-LRDD-0.106.tar.gz"
+DIST_VERSION="0.106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

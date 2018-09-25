@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.12"
-DIST_A="Graph-Usage-0.12.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Usage-0.12.tar.gz"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/graph/Graph-Usage-0.12.tar.gz -> Graph-Usage-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Graph-Usage-0.12 ${WORKDIR}/Graph-Usage-0.12
+}
+

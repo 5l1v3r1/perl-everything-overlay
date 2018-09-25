@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.077"
-DIST_A="Dist-Zilla-PluginBundle-RSRCHBOY-0.077.tar.gz"
+DIST_VERSION="0.077" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,7 +30,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-ContributorsFromGit-0.010
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild
 	dev-perl/Dist-Zilla-Plugin-CopyrightYearFromGit
-	>=dev-perl/Dist-Zilla-Plugin-Git-2.009
+	dev-perl/Dist-Zilla-Plugin-Git
 	dev-perl/Dist-Zilla-Plugin-Git-Describe
 	dev-perl/Dist-Zilla-Plugin-Git-Remote-Check
 	dev-perl/Dist-Zilla-Plugin-GitHub
@@ -96,3 +95,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

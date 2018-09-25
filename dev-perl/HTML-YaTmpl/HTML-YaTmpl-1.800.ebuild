@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OPI"
-DIST_VERSION="1.8"
-DIST_A="HTML-YaTmpl-1.8.tar.gz"
+DIST_VERSION="1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

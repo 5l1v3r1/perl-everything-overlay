@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SHIRIRU"
-DIST_VERSION="1.03"
-DIST_A="Data-NestedSet-1.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SH/SHIRIRU/Data/Data-NestedSet-1.03.tar.gz"
+DIST_VERSION="1.03" 
+SRC_URI="mirror://cpan/authors/id/S/SH/SHIRIRU/Data/Data-NestedSet-1.03.tar.gz -> Data-NestedSet-1.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Data-NestedSet-1.03 ${WORKDIR}/Data-NestedSet-1.03
+}
+

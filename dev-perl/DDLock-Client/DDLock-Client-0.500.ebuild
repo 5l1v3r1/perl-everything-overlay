@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HACHI"
-DIST_VERSION="0.50"
-DIST_A="DDLock-Client-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
@@ -29,3 +30,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

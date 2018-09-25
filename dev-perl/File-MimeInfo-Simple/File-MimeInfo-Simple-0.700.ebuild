@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMOG"
-DIST_VERSION="0.7"
-DIST_A="File-MimeInfo-Simple-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

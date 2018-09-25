@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="1.73"
-DIST_A="GD-SecurityImage-1.73.tar.gz"
+DIST_VERSION="1.73" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=virtual/perl-Test-Simple-0.400
 "
+

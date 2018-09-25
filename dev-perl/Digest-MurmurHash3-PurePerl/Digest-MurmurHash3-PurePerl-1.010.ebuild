@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIDEAKIO"
-DIST_VERSION="1.01"
-DIST_A="Digest-MurmurHash3-PurePerl-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.980
 "
+

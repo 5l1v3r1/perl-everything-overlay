@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BABF"
-DIST_VERSION="1.007"
-DIST_A="Dancer-Session-ElasticSearch-1.007.tar.gz"
+DIST_VERSION="1.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,11 @@ RDEPEND="
 	dev-perl/Dancer
 	dev-perl/Digest-HMAC
 	dev-perl/Try-Tiny
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

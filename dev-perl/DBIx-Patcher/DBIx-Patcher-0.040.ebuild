@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTANG"
-DIST_VERSION="0.04"
-DIST_A="DBIx-Patcher-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.960
 "
+

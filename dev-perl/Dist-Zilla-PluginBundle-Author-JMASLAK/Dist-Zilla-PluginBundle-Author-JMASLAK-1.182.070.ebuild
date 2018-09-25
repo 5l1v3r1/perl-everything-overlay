@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASLAK"
-DIST_VERSION="1.182070"
-DIST_A="Dist-Zilla-PluginBundle-Author-JMASLAK-1.182070.tar.gz"
+DIST_VERSION="1.182070" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

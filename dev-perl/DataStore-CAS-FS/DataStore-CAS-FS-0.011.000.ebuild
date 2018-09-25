@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NERDVANA"
-DIST_VERSION="0.011000"
-DIST_A="DataStore-CAS-FS-0.011000.tar.gz"
+DIST_VERSION="0.011000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Moo-1.000.007
 	>=dev-perl/Try-Tiny-0.110
 	virtual/perl-Carp
-	>=virtual/perl-File-Spec-3.330
+	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Socket
 	virtual/perl-parent
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Digest
 	virtual/perl-Test-Simple
 "
+

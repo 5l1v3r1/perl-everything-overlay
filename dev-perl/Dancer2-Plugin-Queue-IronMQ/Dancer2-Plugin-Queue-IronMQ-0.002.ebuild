@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKKOI"
-DIST_VERSION="0.002"
-DIST_A="Dancer2-Plugin-Queue-IronMQ-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-HTTP-Tiny
 	virtual/perl-Test-Simple
 "
+

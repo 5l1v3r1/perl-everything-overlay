@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.167"
-DIST_A="HTTP-SimpleLinkChecker-1.167.tar.gz"
+DIST_VERSION="1.167" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/IO-Socket-SSL-1.940
-	>=dev-perl/Mojolicious-4.500
+	dev-perl/Mojolicious
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.980
 "
+

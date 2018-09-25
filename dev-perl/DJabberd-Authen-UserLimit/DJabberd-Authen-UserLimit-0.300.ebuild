@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MISC"
-DIST_VERSION="0.30"
-DIST_A="DJabberd-Authen-UserLimit-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

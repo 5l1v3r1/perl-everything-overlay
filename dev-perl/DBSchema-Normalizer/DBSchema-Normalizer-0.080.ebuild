@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="GMAX"
 DIST_VERSION="0.08"
-DIST_A="DBSchema-Normalizer-0.08.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

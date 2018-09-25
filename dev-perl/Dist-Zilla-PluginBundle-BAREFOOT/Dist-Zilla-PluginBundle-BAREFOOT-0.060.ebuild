@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAREFOOT"
-DIST_VERSION="0.06"
-DIST_A="Dist-Zilla-PluginBundle-BAREFOOT-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,7 +43,7 @@ RDEPEND="
 	>=dev-perl/PerlX-Maybe-0.003
 	>=dev-perl/Pod-Elemental-Transformer-List-0.101.620
 	dev-perl/Pod-Elemental-Transformer-WikiDoc
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-3.101.635
 	>=dev-perl/Pod-Weaver-Section-Support-1.001
 	>=dev-perl/Pod-Wordlist-hanekomu-1.113.620
 	>=virtual/perl-autodie-2.000
@@ -58,3 +57,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.250
 	virtual/perl-File-Temp
 "
+

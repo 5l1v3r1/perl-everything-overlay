@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Wrapper"
-DIST_VERSION="1.04"
-DIST_A="Database-Wrapper-1.04.tar.gz"
+DIST_AUTHOR="JOEYATES"
+DIST_VERSION="1.04" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JOEYATES/Database/Wrapper/Database-Wrapper-1.04.tar.gz -> Database-Wrapper-1.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Database-Wrapper-1.04 ${WORKDIR}/Database-Wrapper-1.04
+}
+

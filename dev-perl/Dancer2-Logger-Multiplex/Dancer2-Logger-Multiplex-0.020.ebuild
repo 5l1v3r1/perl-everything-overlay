@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATANCASIS"
-DIST_VERSION="0.02"
-DIST_A="Dancer2-Logger-Multiplex-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.510
 	>=dev-perl/Test-Pod-Coverage-1.100
 	>=virtual/perl-Test-Simple-0.960
 "
+

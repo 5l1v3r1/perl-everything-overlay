@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIBERRI"
-DIST_VERSION="0.51"
-DIST_A="HTML-WikiConverter-PmWiki-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUKRIA"
-DIST_VERSION="1.150"
-DIST_A="Dancer-1.150.tar.gz"
+DIST_VERSION="1.150" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

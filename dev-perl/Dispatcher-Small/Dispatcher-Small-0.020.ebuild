@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YTURTLE"
-DIST_VERSION="0.02"
-DIST_A="Dispatcher-Small-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

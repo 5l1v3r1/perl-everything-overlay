@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="2.019002"
-DIST_A="FindBin-libs-2.019002.tar.gz"
+DIST_VERSION="2.019002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

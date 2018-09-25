@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.09"
-DIST_A="Dist-Zilla-Plugin-Test-Version-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	dev-perl/File-chdir
 	dev-perl/Path-Tiny
 	dev-perl/Test-EOL
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKELLIS"
-DIST_VERSION="0.012002"
-DIST_A="Data-Validate-Image-0.012002.tar.gz"
+DIST_VERSION="0.012002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

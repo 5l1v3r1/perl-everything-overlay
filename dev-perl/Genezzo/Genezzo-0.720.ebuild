@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCOHEN"
-DIST_VERSION="0.72"
-DIST_A="Genezzo-0.72.tar.gz"
+DIST_VERSION="0.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

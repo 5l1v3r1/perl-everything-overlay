@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAGNOLIA"
-DIST_VERSION="0.7041"
-DIST_A="Enbld-0.7041.tar.gz"
+DIST_VERSION="0.7041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.980
 "
+

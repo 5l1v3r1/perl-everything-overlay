@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="NEERAJPM"
-DIST_VERSION="0.0"
-DIST_A="File-Find-ProjectCycleMigration.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/N/NE/NEERAJPM/File-Find-ProjectCycleMigration.tar.gz -> File-Find-ProjectCycleMigration-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-Find-ProjectCycleMigration ${WORKDIR}/File-Find-ProjectCycleMigration-
+}
+

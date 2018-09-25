@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STUIFZAND"
-DIST_VERSION="0.4.2"
-DIST_A="Data-OpeningHours-0.4.2.tar.gz"
+DIST_VERSION="0.4.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.025
+	dev-perl/Module-Build
 "
+

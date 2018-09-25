@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AZAWAWI"
-DIST_VERSION="0.47"
-DIST_A="Farabi-0.47.tar.gz"
+DIST_VERSION="0.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

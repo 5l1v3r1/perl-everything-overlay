@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WHITCODE"
-DIST_VERSION="0.993"
-DIST_A="Games-SGF-0.993.tar.gz"
+DIST_VERSION="0.993" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-1.140
 	>=virtual/perl-Test-Simple-0.700
 "
+

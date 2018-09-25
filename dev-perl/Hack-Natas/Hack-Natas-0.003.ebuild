@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.003"
-DIST_A="Hack-Natas-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-ShareDir-1.000
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003.000
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	virtual/perl-Carp
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.050
 	>=virtual/perl-Test-Simple-0.880
 "
+

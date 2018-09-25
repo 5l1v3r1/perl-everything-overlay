@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.07"
-DIST_A="HTTP-DetectUserAgent-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +26,4 @@ DEPEND="
 	>=dev-perl/YAML-0.830
 	virtual/perl-Test-Simple
 "
+

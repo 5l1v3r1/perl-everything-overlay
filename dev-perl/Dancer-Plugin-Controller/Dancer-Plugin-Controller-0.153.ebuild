@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBOGDANOV"
-DIST_VERSION="0.153"
-DIST_A="Dancer-Plugin-Controller-0.153.tar.gz"
+DIST_VERSION="0.153" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Dancer-Template-HtmlTemplate
 "
+

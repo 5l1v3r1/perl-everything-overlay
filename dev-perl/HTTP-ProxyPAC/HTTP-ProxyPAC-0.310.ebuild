@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MACKENNA"
-DIST_VERSION="0.31"
-DIST_A="HTTP-ProxyPAC-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.320
 "
+

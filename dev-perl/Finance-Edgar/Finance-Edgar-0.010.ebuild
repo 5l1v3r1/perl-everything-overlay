@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DENNISON"
 DIST_VERSION="0.01"
-DIST_A="Finance-Edgar-0.01.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

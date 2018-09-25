@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOD"
-DIST_VERSION="v0.0.7"
-DIST_A="Data-PcAxis-0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/match-simple
 	virtual/perl-Test-Simple
 "
+

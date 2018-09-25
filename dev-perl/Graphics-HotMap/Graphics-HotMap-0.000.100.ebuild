@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUMY"
-DIST_VERSION="0.0001"
-DIST_A="Graphics-HotMap-0.0001.tar.gz"
+DIST_VERSION="0.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
 "
+

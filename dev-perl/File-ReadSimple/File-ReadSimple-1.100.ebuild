@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="NHARALE"
-DIST_VERSION="1.1"
-DIST_A="File-ReadSimple.1.1.tar.gz"
+DIST_VERSION="1.1" 
+SRC_URI="mirror://cpan/authors/id/N/NH/NHARALE/File-ReadSimple.1.1.tar.gz -> File-ReadSimple-1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-ReadSimple.1.1 ${WORKDIR}/File-ReadSimple-1.1
+}
+

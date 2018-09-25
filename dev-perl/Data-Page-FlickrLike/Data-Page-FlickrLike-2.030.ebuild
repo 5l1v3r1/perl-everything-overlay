@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SEKIMURA"
-DIST_VERSION="2.03"
-DIST_A="Data-Page-FlickrLike-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

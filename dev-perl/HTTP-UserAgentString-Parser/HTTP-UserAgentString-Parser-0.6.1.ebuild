@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NMOLDAV"
-DIST_VERSION="v0.6.1"
-DIST_A="HTTP-UserAgentString-Parser-0.6.1.tar.gz"
+DIST_VERSION="0.6.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

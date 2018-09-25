@@ -55,6 +55,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.480
 	dev-perl/Test-Run
 	dev-perl/Test-Run-CmdLine

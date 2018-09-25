@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILYAM"
-DIST_VERSION="2.04"
-DIST_A="HTTP-WebTest-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="0.200"
-DIST_A="Dist-Zilla-MintingProfile-MooseXDeclare-0.200.tar.gz"
+DIST_VERSION="0.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

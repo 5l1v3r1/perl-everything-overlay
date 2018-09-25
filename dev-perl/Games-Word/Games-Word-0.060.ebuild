@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.06"
-DIST_A="Games-Word-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Math-Combinatorics
 	dev-perl/Test-Deep
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

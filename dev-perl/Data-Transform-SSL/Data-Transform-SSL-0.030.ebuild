@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTIJN"
-DIST_VERSION="0.03"
-DIST_A="Data-Transform-SSL-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/Net-SSLeay-1.300
 	dev-perl/POE
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

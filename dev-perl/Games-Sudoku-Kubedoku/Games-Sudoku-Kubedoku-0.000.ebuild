@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VELASCO"
-DIST_VERSION="0.0"
-DIST_A="Games-Sudoku-Kubedoku.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/V/VE/VELASCO/Games-Sudoku-Kubedoku.tar.gz -> Games-Sudoku-Kubedoku-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Games-Sudoku-Kubedoku ${WORKDIR}/Games-Sudoku-Kubedoku-
+}
+

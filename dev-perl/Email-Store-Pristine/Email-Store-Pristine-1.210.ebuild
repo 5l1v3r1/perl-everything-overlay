@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCLAMP"
-DIST_VERSION="1.21"
-DIST_A="Email-Store-Pristine-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

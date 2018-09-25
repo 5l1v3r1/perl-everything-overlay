@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Singlethreaded"
-DIST_VERSION="0.12"
-DIST_A="HTTP-Server-Singlethreaded-0.12.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/Singlethreaded/HTTP-Server-Singlethreaded-0.12.tar.gz -> HTTP-Server-Singlethreaded-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTTP-Server-Singlethreaded-0.12 ${WORKDIR}/HTTP-Server-Singlethreaded-0.12
+}
+

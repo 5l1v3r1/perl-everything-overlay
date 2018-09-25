@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.404"
-DIST_A="HTML-Embedded-Turtle-0.404.tar.gz"
+DIST_VERSION="0.404" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

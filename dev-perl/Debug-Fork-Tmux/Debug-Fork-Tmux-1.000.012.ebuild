@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VERESC"
-DIST_VERSION="1.000012"
-DIST_A="Debug-Fork-Tmux-1.000012.tar.gz"
+DIST_VERSION="1.000012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="2.105"
-DIST_A="Email-Stuff-2.105.tar.gz"
+DIST_VERSION="2.105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "
+

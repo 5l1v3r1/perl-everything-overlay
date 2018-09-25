@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="YHPENG"
 DIST_VERSION="0.03"
-DIST_A="Email-Send-YYClouds-0.03.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

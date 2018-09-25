@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOUL"
-DIST_VERSION="0.1"
-DIST_A="Dist-Zilla-Plugin-Rsync-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

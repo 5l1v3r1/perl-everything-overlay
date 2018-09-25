@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLAWREN"
-DIST_VERSION="v0.0.17"
-DIST_A="DBIx-ThinSQL-SQLite-0.0.17.tar.gz"
+DIST_VERSION="0.0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.980
 "
+

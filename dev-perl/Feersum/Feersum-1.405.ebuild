@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="1.405"
-DIST_A="Feersum-1.405.tar.gz"
+DIST_VERSION="1.405" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-TCP-1.120
 	>=virtual/perl-Test-Simple-0.940
 "
+

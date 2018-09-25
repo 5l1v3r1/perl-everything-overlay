@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOH"
-DIST_VERSION="0.05"
-DIST_A="HTML-Microdata-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	virtual/perl-Test-Simple
 "
+

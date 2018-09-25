@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JALDHAR"
-DIST_VERSION="v1.0.1"
-DIST_A="DateTime-Event-Klingon-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/DateTime
+	dev-perl/Module-Build
 	dev-perl/Module-Signature
 	>=dev-perl/Pod-Coverage-0.180
 	dev-perl/Pod-Usage
@@ -30,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

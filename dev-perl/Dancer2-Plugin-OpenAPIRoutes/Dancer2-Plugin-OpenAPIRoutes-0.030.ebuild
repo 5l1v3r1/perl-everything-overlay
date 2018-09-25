@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANTONPETR"
-DIST_VERSION="0.03"
-DIST_A="Dancer2-Plugin-OpenAPIRoutes-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+

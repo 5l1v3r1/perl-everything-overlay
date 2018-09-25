@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MERKYS"
-DIST_VERSION="0.51"
-DIST_A="DBIx-MyParsePP-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

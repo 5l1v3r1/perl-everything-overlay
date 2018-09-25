@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="5.010"
-DIST_A="Dist-Zilla-PluginBundle-RJBS-5.010.tar.gz"
+DIST_VERSION="5.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-1.100.130
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
 	dev-perl/Dist-Zilla-Plugin-CheckExtraTests
 	dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed
@@ -32,7 +31,7 @@ RDEPEND="
 	>=dev-perl/Pod-Elemental-0.092.970
 	>=dev-perl/Pod-Elemental-PerlMunger-0.200.000
 	dev-perl/Pod-Elemental-Transformer-List
-	>=dev-perl/Pod-Weaver-4.000
+	dev-perl/Pod-Weaver
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.008
 "
 DEPEND="
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

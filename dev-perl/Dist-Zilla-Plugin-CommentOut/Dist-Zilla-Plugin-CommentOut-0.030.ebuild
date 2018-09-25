@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.03"
-DIST_A="Dist-Zilla-Plugin-CommentOut-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-6.000
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

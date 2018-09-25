@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HDIAS"
-DIST_VERSION="1.43"
-DIST_A="File-Scan-1.43.tar.gz"
+DIST_VERSION="1.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUSHE"
-DIST_VERSION="3.02"
-DIST_A="Egg-Plugin-Net-Scan-3.02.tar.gz"
+DIST_VERSION="3.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

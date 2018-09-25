@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HCAMP"
 DIST_VERSION="0.021"
-DIST_A="Data-Iterator-0.021.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

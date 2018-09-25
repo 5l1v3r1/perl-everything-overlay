@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PORTAONE"
-DIST_VERSION="1.2.1"
-DIST_A="Data-Radius-1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Data-HexDump
 	virtual/perl-Test-Simple
 "
+

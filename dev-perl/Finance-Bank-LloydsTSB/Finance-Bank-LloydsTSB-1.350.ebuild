@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPIERS"
-DIST_VERSION="1.35"
-DIST_A="Finance-Bank-LloydsTSB-1.35.tar.gz"
+DIST_VERSION="1.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

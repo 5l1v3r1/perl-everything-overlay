@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.014"
-DIST_A="Dist-Zilla-Plugin-Test-CheckDeps-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	>=dev-perl/Test-CheckDeps-0.010
 	dev-perl/Test-Deep
@@ -33,3 +33,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-if
 "
+

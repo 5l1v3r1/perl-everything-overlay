@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NYAKNYAN"
-DIST_VERSION="0.69"
-DIST_A="HTTP-Server-EV-0.69.tar.gz"
+DIST_VERSION="0.69" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

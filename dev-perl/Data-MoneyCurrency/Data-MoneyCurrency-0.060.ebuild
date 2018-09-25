@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EDF"
-DIST_VERSION="0.06"
-DIST_A="Data-MoneyCurrency-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

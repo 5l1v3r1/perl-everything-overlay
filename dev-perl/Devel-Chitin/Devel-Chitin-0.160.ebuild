@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRUMMETT"
-DIST_VERSION="0.16"
-DIST_A="Devel-Chitin-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Devel-Callsite
 	dev-perl/PadWalker
 	dev-perl/base
 	virtual/perl-Carp
@@ -34,3 +32,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

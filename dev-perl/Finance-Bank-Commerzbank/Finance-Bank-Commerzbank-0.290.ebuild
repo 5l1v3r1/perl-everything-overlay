@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBI"
-DIST_VERSION="0.29"
-DIST_A="Finance-Bank-Commerzbank-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

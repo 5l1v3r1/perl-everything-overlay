@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELMEX"
-DIST_VERSION="0.93"
-DIST_A="Games-Construder-0.93.tar.gz"
+DIST_VERSION="0.93" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

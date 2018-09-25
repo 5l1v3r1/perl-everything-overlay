@@ -5,10 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="LOGICUS"
-DIST_VERSION="0.0"
-DIST_A="Diamond.tar.gz"
-b=L/LO/LOGICUS/Diamond-tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LO/LOGICUS/Diamond.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/L/LO/LOGICUS/Diamond.tar.gz -> Diamond-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +47,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Diamond ${WORKDIR}/Diamond-
+}
+

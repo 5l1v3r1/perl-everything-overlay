@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CANID"
-DIST_VERSION="2.03"
-DIST_A="Data-RecordStore-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/JSON
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFRAIRE"
-DIST_VERSION="0.071"
-DIST_A="DBIx-Mint-0.071.tar.gz"
+DIST_VERSION="0.071" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/DBD-SQLite-1.390
 	dev-perl/Test-Warn
 "
+

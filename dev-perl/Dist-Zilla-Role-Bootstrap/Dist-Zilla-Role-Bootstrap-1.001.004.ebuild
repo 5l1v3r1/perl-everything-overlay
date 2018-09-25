@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.001004"
-DIST_A="Dist-Zilla-Role-Bootstrap-1.001004.tar.gz"
+DIST_VERSION="1.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/List-UtilsBy
 	dev-perl/Moose
 	dev-perl/Path-Tiny
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-version
 "
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

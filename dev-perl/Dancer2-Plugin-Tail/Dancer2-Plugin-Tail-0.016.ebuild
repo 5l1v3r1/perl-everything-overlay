@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACKB"
-DIST_VERSION="0.016"
-DIST_A="Dancer2-Plugin-Tail-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Dancer2
-	dev-perl/Moo
+	>=dev-perl/Moo-2.000.000
 	dev-perl/Session-Token
 	dev-perl/Try-Tiny
 	dev-perl/YAML
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

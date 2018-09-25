@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NERDVANA"
-DIST_VERSION="0.020001"
-DIST_A="DataStore-CAS-0.020001.tar.gz"
+DIST_VERSION="0.020001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Moo-1.000.007
+	dev-perl/Moo
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
 	>=virtual/perl-Digest-1.160
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

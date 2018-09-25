@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="0.006"
-DIST_A="HTTP-Thin-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

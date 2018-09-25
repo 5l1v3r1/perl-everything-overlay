@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZIALI"
-DIST_VERSION="0.004"
-DIST_A="Google-OAuth2-Client-Simple-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Mock-Furl
 	dev-perl/Test-Most
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.29.0"
-DIST_A="Dist-Zilla-PluginBundle-YANICK-0.29.0.tar.gz"
+DIST_VERSION="0.29.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -64,3 +63,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

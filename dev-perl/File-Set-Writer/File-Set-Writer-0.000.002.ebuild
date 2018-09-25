@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYMKAT"
-DIST_VERSION="0.000002"
-DIST_A="File-Set-Writer-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.900
 "
+

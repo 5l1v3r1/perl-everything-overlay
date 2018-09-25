@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOLIBRIE"
-DIST_VERSION="0.04"
-DIST_A="Date-Reformat-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.009
 	>=virtual/perl-Test-Simple-0.880
 "
+

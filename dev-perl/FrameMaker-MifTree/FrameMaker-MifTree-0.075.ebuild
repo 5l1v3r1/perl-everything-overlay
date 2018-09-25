@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RST"
-DIST_VERSION="0.075"
-DIST_A="FrameMaker-MifTree-0.075.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RS/RST/FrameMaker-MifTree/FrameMaker-MifTree-0.075.tar.gz"
+DIST_VERSION="0.075" 
+SRC_URI="mirror://cpan/authors/id/R/RS/RST/FrameMaker-MifTree/FrameMaker-MifTree-0.075.tar.gz -> FrameMaker-MifTree-0.075.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/FrameMaker-MifTree-0.075 ${WORKDIR}/FrameMaker-MifTree-0.075
+}
+

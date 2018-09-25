@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WILLBELL"
-DIST_VERSION="1.01"
-DIST_A="EPFL-Sciper-List-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,6 @@ RDEPEND="
 	>=dev-perl/LWP-Protocol-https-6.070
 	>=dev-perl/Readonly-2.050
 	>=dev-perl/Test-JSON-0.110
-	>=dev-perl/Test-MockModule-0.130
 	>=dev-perl/libwww-perl-6.330
 	virtual/perl-Test-Simple
 "
@@ -32,3 +30,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.422.400
 	virtual/perl-ExtUtils-MakeMaker
 "
+

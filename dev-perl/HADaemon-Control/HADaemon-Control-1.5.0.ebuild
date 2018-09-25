@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IKRUGLOV"
-DIST_VERSION="1.5.0"
-DIST_A="HADaemon-Control-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

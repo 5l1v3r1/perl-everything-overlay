@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.0021"
-DIST_A="DBIx-NoSQL-0.0021.tar.gz"
+DIST_VERSION="0.0021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Clone
 	>=dev-perl/DBD-SQLite-1.440
-	dev-perl/DBIx-Class
+	>=dev-perl/DBIx-Class-0.081.240
 	dev-perl/Data-GUID
 	dev-perl/Hash-Merge-Simple
 	dev-perl/JSON
@@ -44,3 +43,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

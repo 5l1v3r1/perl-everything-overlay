@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTYLOO"
-DIST_VERSION="0.21"
-DIST_A="Forecast-IO-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/TermReadKey
 	virtual/perl-Test-Simple
 "
+

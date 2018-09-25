@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETDANCE"
-DIST_VERSION="2.32"
-DIST_A="HTML-Lint-2.32.tar.gz"
+DIST_VERSION="2.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

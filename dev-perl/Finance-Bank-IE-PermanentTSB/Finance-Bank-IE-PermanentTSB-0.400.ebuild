@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PALLOTRON"
-DIST_VERSION="0.4"
-DIST_A="Finance-Bank-IE-PermanentTSB-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

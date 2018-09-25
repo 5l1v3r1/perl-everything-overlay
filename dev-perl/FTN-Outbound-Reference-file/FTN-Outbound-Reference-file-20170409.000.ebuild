@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VAL"
-DIST_VERSION="20170409.0"
-DIST_A="FTN-Outbound-Reference_file-20170409.tar.gz"
+DIST_VERSION="20170409" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

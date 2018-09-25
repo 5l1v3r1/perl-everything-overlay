@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASBN"
-DIST_VERSION="0.07"
-DIST_A="Date-Holidays-Abstract-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJEMMESON"
-DIST_VERSION="0.007"
-DIST_A="Geo-UK-Postcode-CodePointOpen-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,8 +28,10 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Most
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

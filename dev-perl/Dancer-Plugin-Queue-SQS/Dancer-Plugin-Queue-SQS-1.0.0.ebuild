@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CASAO"
-DIST_VERSION="1.0.0"
-DIST_A="Dancer-Plugin-Queue-SQS-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

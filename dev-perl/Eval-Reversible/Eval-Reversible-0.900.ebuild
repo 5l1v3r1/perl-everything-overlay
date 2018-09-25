@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSG"
-DIST_VERSION="0.90"
-DIST_A="Eval-Reversible-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	dev-perl/Test2-Suite
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="3.000006"
-DIST_A="Email-MIME-Kit-3.000006.tar.gz"
+DIST_VERSION="3.000006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Email-MIME-1.930
+	dev-perl/Email-MIME
 	>=dev-perl/Email-MessageID-1.400
 	>=dev-perl/JSON-2.000
 	dev-perl/Module-Runtime
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "
+

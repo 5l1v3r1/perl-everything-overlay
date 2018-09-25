@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUSOL"
-DIST_VERSION="2.8"
-DIST_A="Getopt-EvaP-2.8.tar.gz"
+DIST_VERSION="2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

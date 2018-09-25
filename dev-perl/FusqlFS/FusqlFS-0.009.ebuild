@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KSTEPME"
-DIST_VERSION="0.009"
-DIST_A="FusqlFS-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/B-Lint
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Inline
 	virtual/perl-Test-Simple
 "
+

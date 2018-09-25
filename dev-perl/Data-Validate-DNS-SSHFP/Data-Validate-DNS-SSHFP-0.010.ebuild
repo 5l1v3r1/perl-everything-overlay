@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.01"
-DIST_A="Data-Validate-DNS-SSHFP-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XENO"
-DIST_VERSION="0.15"
-DIST_A="Dist-Zilla-Plugin-Catalyst-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

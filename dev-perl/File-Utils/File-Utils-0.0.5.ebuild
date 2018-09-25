@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEKINGSAM"
-DIST_VERSION="v0.0.5"
-DIST_A="File-Utils-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

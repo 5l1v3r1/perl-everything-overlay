@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BJOERN"
-DIST_VERSION="0.61"
-DIST_A="HTML-Encoding-0.61.tar.gz"
+DIST_VERSION="0.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

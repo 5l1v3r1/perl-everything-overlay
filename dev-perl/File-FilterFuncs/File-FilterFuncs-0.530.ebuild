@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUMIAW"
-DIST_VERSION="0.53"
-DIST_A="File-FilterFuncs-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEAM"
-DIST_VERSION="0.102"
-DIST_A="EntityModel-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.050
 	>=virtual/perl-Test-Simple-0.980
 "
+

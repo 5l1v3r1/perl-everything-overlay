@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JINGRAM"
-DIST_VERSION="0.29"
-DIST_A="Data-Maker-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

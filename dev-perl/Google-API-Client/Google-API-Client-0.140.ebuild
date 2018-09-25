@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHIGETA"
-DIST_VERSION="0.14"
-DIST_A="Google-API-Client-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.038
+	dev-perl/Module-Build
 	dev-perl/Test-TCP
 "
+

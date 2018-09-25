@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHOBLITT"
-DIST_VERSION="0.01"
-DIST_A="File-Mountpoint-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

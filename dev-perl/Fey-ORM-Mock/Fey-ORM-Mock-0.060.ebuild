@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.06"
-DIST_A="Fey-ORM-Mock-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/DBD-Mock
 	>=dev-perl/Fey-DBIManager-0.080
 	>=dev-perl/Fey-ORM-0.330
-	>=dev-perl/Moose-0.900
+	>=dev-perl/Moose-0.690
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-StrictConstructor
 "
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Fey-Test-0.050
 	virtual/perl-Test-Simple
 "
+

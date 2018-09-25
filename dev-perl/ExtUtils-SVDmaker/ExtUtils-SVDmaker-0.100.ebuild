@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOFTDIA"
-DIST_VERSION="0.10"
-DIST_A="ExtUtils-SVDmaker-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

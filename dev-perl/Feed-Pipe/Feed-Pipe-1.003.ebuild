@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VESELOSKY"
-DIST_VERSION="1.003"
-DIST_A="Feed-Pipe-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

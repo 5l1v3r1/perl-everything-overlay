@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="GRABZIT"
 DIST_VERSION="3.2.9.2"
-DIST_A="GrabzItClient.3.2.9.2.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRABZIT/GrabzItClient.3.2.9.2.zip -> GrabzItClient-3.2.9.2.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/GrabzItClient.3.2.9.2 ${WORKDIR}/GrabzItClient-3.2.9.2
+}
+

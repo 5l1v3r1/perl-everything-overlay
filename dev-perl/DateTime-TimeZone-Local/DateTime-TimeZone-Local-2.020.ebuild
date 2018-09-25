@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DAPINK"
-DIST_VERSION="2.02"
-DIST_A="DateTime-TimeZone-Local-Win32-2.02.tar.gz"
+DIST_VERSION="2.02" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAPINK/DateTime-TimeZone-Local-Win32-2.02.tar.gz -> DateTime-TimeZone-Local-2.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTime-TimeZone-Local-Win32-2.02 ${WORKDIR}/DateTime-TimeZone-Local-2.02
+}
+

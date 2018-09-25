@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.008"
-DIST_A="Dist-Zilla-Plugin-EnsureLatestPerl-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
-	>=virtual/perl-Module-CoreList-5.201.804.080
+	>=virtual/perl-Module-CoreList-5.201.806.200
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -36,3 +35,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

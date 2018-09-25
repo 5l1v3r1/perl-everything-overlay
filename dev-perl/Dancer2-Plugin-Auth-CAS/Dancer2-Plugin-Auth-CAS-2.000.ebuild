@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSTEBENS"
-DIST_VERSION="2.000"
-DIST_A="Dancer2-Plugin-Auth-CAS-2.000.tar.gz"
+DIST_VERSION="2.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

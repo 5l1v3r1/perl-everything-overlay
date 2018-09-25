@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHOELZ"
-DIST_VERSION="0.07"
-DIST_A="Dist-Zilla-PluginBundle-Author-RHOELZ-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

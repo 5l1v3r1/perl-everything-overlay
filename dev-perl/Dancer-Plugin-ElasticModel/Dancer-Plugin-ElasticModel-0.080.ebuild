@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="0.08"
-DIST_A="Dancer-Plugin-ElasticModel-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	dev-perl/Search-Elasticsearch-Compat
 	dev-perl/Test-Exception
 	dev-perl/YAML
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

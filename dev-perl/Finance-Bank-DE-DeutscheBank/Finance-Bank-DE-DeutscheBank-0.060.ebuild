@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WSCHL"
-DIST_VERSION="0.06"
-DIST_A="Finance-Bank-DE-DeutscheBank-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Class-Accessor-0.310
+	>=dev-perl/HTML-LinkExtractor-0.130
+	>=dev-perl/HTML-Tree-3.230
+	>=dev-perl/Text-CSV-XS-0.290
+	>=dev-perl/WWW-Mechanize-1.520
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

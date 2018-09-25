@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUPFERER"
-DIST_VERSION="0.80"
-DIST_A="DBIx-MyDatabaseMunger-0.80.tar.gz"
+DIST_VERSION="0.80" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

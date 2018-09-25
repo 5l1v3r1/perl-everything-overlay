@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="2.000005"
-DIST_A="Dist-Zilla-Plugin-Test-DistManifest-2.000005.tar.gz"
+DIST_VERSION="2.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie
 "
+

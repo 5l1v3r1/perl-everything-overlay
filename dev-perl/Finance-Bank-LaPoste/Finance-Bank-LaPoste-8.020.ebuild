@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PIXEL"
-DIST_VERSION="8.02"
-DIST_A="Finance-Bank-LaPoste-8.02.tar.gz"
+DIST_VERSION="8.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

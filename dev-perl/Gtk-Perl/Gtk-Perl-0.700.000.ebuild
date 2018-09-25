@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJALB"
-DIST_VERSION="0.7000"
-DIST_A="Gtk-Perl-0.7000.tar.gz"
+DIST_VERSION="0.7000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

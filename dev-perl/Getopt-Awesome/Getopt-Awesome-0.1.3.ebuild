@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFISCHER"
-DIST_VERSION="0.1.3"
-DIST_A="Getopt-Awesome-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

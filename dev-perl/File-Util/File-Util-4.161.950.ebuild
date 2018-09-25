@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMMY"
-DIST_VERSION="4.161950"
-DIST_A="File-Util-4.161950.tar.gz"
+DIST_VERSION="4.161950" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

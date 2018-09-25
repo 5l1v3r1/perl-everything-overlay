@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOSHEN"
-DIST_VERSION="0.01"
-DIST_A="Git-Glog-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Image-Term256Color-0.030
+	dev-perl/Pod-Usage
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
 	virtual/perl-Getopt-Long
 	virtual/perl-IO-Compress
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "
+

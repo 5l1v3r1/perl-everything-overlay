@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KESTEB"
-DIST_VERSION="0.03"
-DIST_A="Gantry-Plugins-Uaf-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Gantry
+	>=dev-perl/Gantry-3.520
 	dev-perl/Gantry-Plugins-Session
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

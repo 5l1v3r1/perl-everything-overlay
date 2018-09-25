@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.03"
-DIST_A="Gnuplot-Builder-TempFile-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
 	virtual/perl-Test-Simple
 "
+

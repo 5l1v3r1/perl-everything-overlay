@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DPARIS"
-DIST_VERSION="1.14"
-DIST_A="HTTP-CryptoCookie-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

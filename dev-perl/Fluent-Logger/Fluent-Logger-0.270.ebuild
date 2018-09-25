@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FUJIWARA"
-DIST_VERSION="0.27"
-DIST_A="Fluent-Logger-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Path-Class
 	dev-perl/Test-SharedFork
 	>=dev-perl/Test-TCP-1.300
@@ -33,3 +33,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-version-0.770
 "
+

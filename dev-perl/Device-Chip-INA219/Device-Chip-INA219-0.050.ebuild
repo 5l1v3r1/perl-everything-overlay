@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.05"
-DIST_A="Device-Chip-INA219-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Data-Bitfield
-	>=dev-perl/Device-Chip-0.100
+	>=dev-perl/Device-Chip-0.040
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

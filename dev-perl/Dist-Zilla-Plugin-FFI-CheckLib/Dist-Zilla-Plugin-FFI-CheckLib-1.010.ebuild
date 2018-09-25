@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.01"
-DIST_A="Dist-Zilla-Plugin-FFI-CheckLib-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Path-Tiny
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

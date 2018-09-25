@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.024"
-DIST_A="Dist-Zilla-Plugin-OnlyCorePrereqs-0.024.tar.gz"
+DIST_VERSION="0.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CPAN-DistnameInfo
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300.039
 	dev-perl/HTTP-Message
 	dev-perl/Moose
 	>=dev-perl/MooseX-Types-Perl-0.101.340
@@ -41,3 +40,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

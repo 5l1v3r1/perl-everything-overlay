@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.007"
-DIST_A="HTML-Widget-Plugin-JS-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-JavaScript-Anon
-	dev-perl/HTML-Widget-Factory
+	>=dev-perl/HTML-Widget-Factory-0.200
 	virtual/perl-parent
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

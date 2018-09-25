@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAVELSR"
-DIST_VERSION="0.03"
-DIST_A="Email-Extractor-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEYTITLE"
-DIST_VERSION="v0.1.9"
-DIST_A="Git-Open-0.1.9.tar.gz"
+DIST_VERSION="0.1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Mock-Cmd-0.600
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

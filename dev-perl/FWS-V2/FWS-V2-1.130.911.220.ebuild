@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NATELEWIS"
-DIST_VERSION="1.13091122"
-DIST_A="FWS-V2-1.13091122.tar.gz"
+DIST_VERSION="1.13091122" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

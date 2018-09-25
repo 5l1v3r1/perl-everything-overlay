@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUBYKAT"
-DIST_VERSION="3.20"
-DIST_A="HTML-GenToc-3.20.tar.gz"
+DIST_VERSION="3.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

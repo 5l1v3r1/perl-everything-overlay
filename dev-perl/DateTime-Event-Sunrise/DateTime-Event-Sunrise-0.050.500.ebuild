@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JFORGET"
-DIST_VERSION="0.0505"
-DIST_A="DateTime-Event-Sunrise-0.0505.tar.gz"
+DIST_VERSION="0.0505" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
-	dev-perl/DateTime-Set
+	>=dev-perl/DateTime-Set-0.160
 	dev-perl/Params-Validate
 	dev-perl/Set-Infinite
 	virtual/perl-Carp
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

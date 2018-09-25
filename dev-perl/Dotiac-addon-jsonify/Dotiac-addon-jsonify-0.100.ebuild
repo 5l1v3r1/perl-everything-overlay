@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dotiac"
-DIST_VERSION="0.1"
-DIST_A="Dotiac-addon-jsonify-0.1.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/dotiac/Dotiac-addon-jsonify-0.1.tar.gz -> Dotiac-addon-jsonify-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dotiac-addon-jsonify-0.1 ${WORKDIR}/Dotiac-addon-jsonify-0.1
+}
+

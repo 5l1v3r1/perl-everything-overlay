@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="HPUX-SDUX"
-DIST_VERSION="0.03"
-DIST_A="HPUX-SDUX-0.03.tar.gz"
+DIST_AUTHOR="ASARIH"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/A/AS/ASARIH/HPUX-SDUX/HPUX-SDUX-0.03.tar.gz -> HPUX-SDUX-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HPUX-SDUX-0.03 ${WORKDIR}/HPUX-SDUX-0.03
+}
+

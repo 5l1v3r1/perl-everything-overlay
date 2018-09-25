@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPINDLER"
-DIST_VERSION="1.44"
-DIST_A="Data-Rlist-1.44.tar.gz"
+DIST_VERSION="1.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

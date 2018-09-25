@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WYANT"
-DIST_VERSION="0.108"
-DIST_A="Geo-WebService-Elevation-USGS-0.108.tar.gz"
+DIST_VERSION="0.108" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.002004"
-DIST_A="HTML-ExtractText-1.002004.tar.gz"
+DIST_VERSION="1.002004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Devel-TakeHashArgs
-	>=dev-perl/Mojolicious-7.090
+	dev-perl/Mojolicious
 	dev-perl/Try-Tiny
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

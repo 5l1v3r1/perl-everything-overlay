@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LXP"
-DIST_VERSION="v1.2.1"
-DIST_A="Finance-Bank-Bankwest-1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

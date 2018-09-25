@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOUTROSLB"
-DIST_VERSION="0.56"
-DIST_A="HPCD-SGE-0.56.tar.gz"
+DIST_VERSION="0.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.100
 "
+

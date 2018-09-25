@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0701"
-DIST_A="Dist-Zilla-Plugin-Test-CreateFromMojoTemplates-0.0701.tar.gz"
+DIST_VERSION="0.0701" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

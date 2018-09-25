@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HARTZELL"
-DIST_VERSION="0.011"
-DIST_A="Dist-Zilla-PluginBundle-HARTZELL-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-CheckMetaResources-0.001
 	>=dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed-0.002
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild
-	>=dev-perl/Dist-Zilla-Plugin-Git-1.121.010
+	dev-perl/Dist-Zilla-Plugin-Git
 	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.140
 	dev-perl/Dist-Zilla-Plugin-MinimumPerl
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
@@ -51,3 +50,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

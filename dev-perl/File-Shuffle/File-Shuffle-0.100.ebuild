@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUBINA"
-DIST_VERSION="0.10"
-DIST_A="File-Shuffle-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Data-Dump-1.190
 	>=dev-perl/Sort-External-0.180
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-0.960
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

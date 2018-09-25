@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COSIMO"
-DIST_VERSION="1.61"
-DIST_A="Device-Gsm-1.61.tar.gz"
+DIST_VERSION="1.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

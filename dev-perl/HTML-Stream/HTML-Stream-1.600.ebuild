@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTAAL"
-DIST_VERSION="1.60"
-DIST_A="HTML-Stream-1.60.tar.gz"
+DIST_VERSION="1.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="0.03"
-DIST_A="Emacs-Run-ExtractDocs-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	dev-perl/Date-Calc
 	dev-perl/Test-Differences
+	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

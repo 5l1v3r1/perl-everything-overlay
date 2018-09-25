@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALISHEW"
-DIST_VERSION="0.03"
-DIST_A="DBIx-Result-Convert-JSONSchema-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Most
 "
+

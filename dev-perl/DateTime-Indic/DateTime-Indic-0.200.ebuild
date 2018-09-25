@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JALDHAR"
-DIST_VERSION="0.2"
-DIST_A="DateTime-Indic-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Params-Validate
 	virtual/perl-Test-Simple
 "
+

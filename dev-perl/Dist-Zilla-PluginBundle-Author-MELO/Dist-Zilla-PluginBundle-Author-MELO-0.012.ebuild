@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="0.012"
-DIST_A="Dist-Zilla-PluginBundle-Author-MELO-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent-0.003
 	>=dev-perl/Dist-Zilla-Plugin-CheckExtraTests-0.004
 	>=dev-perl/Dist-Zilla-Plugin-Clean-0.020
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-1.112.510
 	>=dev-perl/Dist-Zilla-Plugin-GitHub-0.300
 	>=dev-perl/Dist-Zilla-Plugin-InstallRelease-0.007
 	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.120.605.010
@@ -54,3 +53,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

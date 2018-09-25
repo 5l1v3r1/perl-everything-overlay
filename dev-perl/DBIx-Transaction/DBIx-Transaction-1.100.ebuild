@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRAKRJACK"
-DIST_VERSION="1.100"
-DIST_A="DBIx-Transaction-1.100.tar.gz"
+DIST_VERSION="1.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

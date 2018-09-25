@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JPIERCE"
 DIST_VERSION="0.16"
-DIST_A="EZDBI-0.16.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

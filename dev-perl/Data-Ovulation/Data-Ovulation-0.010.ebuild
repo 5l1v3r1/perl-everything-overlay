@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKREMER"
-DIST_VERSION="0.01"
-DIST_A="Data-Ovulation-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,10 @@ RDEPEND="
 	>=dev-perl/Class-Accessor-0.300
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Exporter-5.000
+	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Test-Simple-0.420
+	virtual/perl-ExtUtils-MakeMaker
 "
+

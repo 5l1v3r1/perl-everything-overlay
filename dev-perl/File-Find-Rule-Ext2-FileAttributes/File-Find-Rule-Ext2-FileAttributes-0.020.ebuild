@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWILSON"
-DIST_VERSION="0.02"
-DIST_A="File-Find-Rule-Ext2-FileAttributes-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/File-Find-Rule
 	dev-perl/Linux-Ext2-FileAttributes
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

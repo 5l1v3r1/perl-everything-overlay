@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.200001"
-DIST_A="Email-MIME-Kit-Validator-Rx-0.200001.tar.gz"
+DIST_VERSION="0.200001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.960
 "
+

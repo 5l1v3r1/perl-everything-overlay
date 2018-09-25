@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="games-freelancer-utf"
-DIST_VERSION="1.001"
-DIST_A="FLUTF-1.001.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="1.001" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/games-freelancer-utf/FLUTF-1.001.tar.gz -> FLUTF-1.001.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/FLUTF-1.001 ${WORKDIR}/FLUTF-1.001
+}
+

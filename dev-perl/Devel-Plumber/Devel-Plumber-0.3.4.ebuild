@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNB"
-DIST_VERSION="v0.3.4"
-DIST_A="Devel-Plumber-0.3.4.tar.gz"
+DIST_VERSION="0.3.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

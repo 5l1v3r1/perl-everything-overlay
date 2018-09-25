@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.143640"
-DIST_A="Device-Onkyo-1.143640.tar.gz"
+DIST_VERSION="1.143640" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,15 +16,20 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Socket
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Requires
+	dev-perl/Test-SharedFork
+	dev-perl/base
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

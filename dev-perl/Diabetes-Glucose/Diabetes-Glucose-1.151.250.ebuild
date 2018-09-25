@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOUSTON"
-DIST_VERSION="1.151250"
-DIST_A="Diabetes-Glucose-1.151250.tar.gz"
+DIST_VERSION="1.151250" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

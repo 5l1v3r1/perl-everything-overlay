@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMB"
-DIST_VERSION="1.04"
-DIST_A="Geo-StreetAddress-US-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

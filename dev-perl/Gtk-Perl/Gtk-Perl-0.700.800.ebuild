@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUPUS"
-DIST_VERSION="0.7008"
-DIST_A="Gtk-Perl-0.7008.tar.gz"
+DIST_VERSION="0.7008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

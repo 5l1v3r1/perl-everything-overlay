@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.27"
-DIST_A="Dist-Zilla-Plugin-GitHubREADME-Badge-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SANTEX"
-DIST_VERSION="0.07"
-DIST_A="Finance-NASDAQ-Markets-0.006.tar.gz"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SANTEX/Finance-NASDAQ-Markets-0.006.tar.gz -> Finance-NASDAQ-Markets-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Finance-NASDAQ-Markets-0.006 ${WORKDIR}/Finance-NASDAQ-Markets-0.07
+}
+

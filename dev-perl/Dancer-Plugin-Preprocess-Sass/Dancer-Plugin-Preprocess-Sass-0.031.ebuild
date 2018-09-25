@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODYNIEC"
-DIST_VERSION="0.031"
-DIST_A="Dancer-Plugin-Preprocess-Sass-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.00"
-DIST_A="GraphViz2-Marpa-PathUtils-2.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.840
+	dev-lang/perl
 	>=dev-perl/Capture-Tiny-0.270
 	>=dev-perl/Config-Tiny-2.200
 	>=dev-perl/Date-Simple-3.030
@@ -39,3 +39,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.980
 "
+

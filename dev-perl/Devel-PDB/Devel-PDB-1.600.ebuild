@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOCEASY"
-DIST_VERSION="1.6"
-DIST_A="Devel-PDB-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHA"
-DIST_VERSION="0.0107"
-DIST_A="HTML-Laundry-0.0107.tar.gz"
+DIST_VERSION="0.0107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

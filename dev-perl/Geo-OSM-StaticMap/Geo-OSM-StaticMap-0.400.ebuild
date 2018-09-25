@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEPL"
-DIST_VERSION="0.4"
-DIST_A="Geo-OSM-StaticMap-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.940
 "
+

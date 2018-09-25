@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KULP"
-DIST_VERSION="0.07"
-DIST_A="Finance-Bank-NetBranch-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

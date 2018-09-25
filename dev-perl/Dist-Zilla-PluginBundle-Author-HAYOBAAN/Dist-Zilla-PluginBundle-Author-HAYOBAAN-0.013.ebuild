@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAYOBAAN"
-DIST_VERSION="0.013"
-DIST_A="Dist-Zilla-PluginBundle-Author-HAYOBAAN-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -74,3 +73,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

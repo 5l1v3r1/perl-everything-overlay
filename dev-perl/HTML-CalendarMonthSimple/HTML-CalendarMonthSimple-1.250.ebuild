@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STIGMATA"
-DIST_VERSION="1.25"
-DIST_A="HTML-CalendarMonthSimple-1.25.tar.gz"
+DIST_VERSION="1.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WORR"
-DIST_VERSION="1.133000"
-DIST_A="Exherbo-Packager-1.133000.tar.gz"
+DIST_VERSION="1.133000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Perl-Critic
 	virtual/perl-Test-Simple
 "
+

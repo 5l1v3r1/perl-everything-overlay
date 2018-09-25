@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MPOURASG"
-DIST_VERSION="3.101"
-DIST_A="Dancer2-Plugin-WebService-3.101.tar.gz"
+DIST_VERSION="3.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

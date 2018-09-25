@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="14.0"
-DIST_A="Devel-Mallinfo-14.tar.gz"
+DIST_VERSION="14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Test
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

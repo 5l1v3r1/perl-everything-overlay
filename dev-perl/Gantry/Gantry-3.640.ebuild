@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKEEFER"
-DIST_VERSION="3.64"
-DIST_A="Gantry-3.64.tar.gz"
+DIST_VERSION="3.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,6 +36,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

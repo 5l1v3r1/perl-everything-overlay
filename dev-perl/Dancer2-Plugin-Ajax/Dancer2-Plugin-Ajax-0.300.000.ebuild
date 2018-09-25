@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CROMEDOME"
-DIST_VERSION="0.300000"
-DIST_A="Dancer2-Plugin-Ajax-0.300000.tar.gz"
+DIST_VERSION="0.300000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.920
 "
+

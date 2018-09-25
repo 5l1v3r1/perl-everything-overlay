@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHOCOLATE"
-DIST_VERSION="v1.1.0"
-DIST_A="Devel-Pragma-1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

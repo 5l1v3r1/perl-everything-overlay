@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="1.160550"
-DIST_A="Dancer2-Plugin-Feed-1.160550.tar.gz"
+DIST_VERSION="1.160550" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Message
 	dev-perl/Plack
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

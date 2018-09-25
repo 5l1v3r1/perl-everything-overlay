@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFAERBER"
-DIST_VERSION="1.002"
-DIST_A="Encode-Punycode-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

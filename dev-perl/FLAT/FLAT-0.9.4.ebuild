@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESTRABD"
-DIST_VERSION="0.9.4"
-DIST_A="FLAT-0.9.4.tar.gz"
+DIST_VERSION="0.9.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

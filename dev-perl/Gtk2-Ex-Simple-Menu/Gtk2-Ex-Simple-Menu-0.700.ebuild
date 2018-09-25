@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RMCFARLA"
-DIST_VERSION="0.7"
-DIST_A="Gtk2-Ex-Simple-Menu-0.7.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/Gtk2-Ex-Simple-Menu-0.7.tar.gz"
+DIST_VERSION="0.7" 
+SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/Gtk2-Ex-Simple-Menu-0.7.tar.gz -> Gtk2-Ex-Simple-Menu-0.7.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Gtk2-Ex-Simple-Menu-0.7 ${WORKDIR}/Gtk2-Ex-Simple-Menu-0.7
+}
+

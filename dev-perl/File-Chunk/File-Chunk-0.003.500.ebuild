@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHARDISON"
-DIST_VERSION="0.0035"
-DIST_A="File-Chunk-0.0035.tar.gz"
+DIST_VERSION="0.0035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	dev-perl/Text-CSV-XS
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PREACTION"
-DIST_VERSION="0.037"
-DIST_A="ETL-Yertl-0.037.tar.gz"
+DIST_VERSION="0.037" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -52,3 +51,4 @@ DEPEND="
 	virtual/perl-JSON-PP
 	>=virtual/perl-Test-Simple-1.001.005
 "
+

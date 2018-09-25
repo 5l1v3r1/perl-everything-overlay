@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUSHE"
-DIST_VERSION="3.14"
-DIST_A="Egg-Release-3.14.tar.gz"
+DIST_VERSION="3.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,7 +46,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.800
 	virtual/perl-Carp
 	>=virtual/perl-Digest-MD5-2.360
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-File-Path-2.040
 	>=virtual/perl-File-Spec-3.270
 	>=virtual/perl-File-Temp-0.200
@@ -60,3 +59,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAVATTJ"
-DIST_VERSION="0.06"
-DIST_A="File-RandomGenerator-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,10 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	virtual/perl-Test-Simple
 "
+

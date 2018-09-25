@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="1.201"
-DIST_A="Dist-Zilla-Plugin-MakeMaker-SkipInstall-1.201.tar.gz"
+DIST_VERSION="1.201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

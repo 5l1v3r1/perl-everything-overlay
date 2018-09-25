@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBO"
-DIST_VERSION="0.34"
-DIST_A="Excel-Template-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/IO-stringy
-	>=dev-perl/Spreadsheet-WriteExcel-0.420
+	dev-perl/Spreadsheet-WriteExcel
 	>=dev-perl/Test-Deep-0.095
 	>=dev-perl/Test-Exception-0.210
 	dev-perl/XML-Parser
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

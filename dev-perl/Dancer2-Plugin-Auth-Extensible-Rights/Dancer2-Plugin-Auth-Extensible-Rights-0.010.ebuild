@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSONNTAG"
-DIST_VERSION="0.01"
-DIST_A="Dancer2-Plugin-Auth-Extensible-Rights-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

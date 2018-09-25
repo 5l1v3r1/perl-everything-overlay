@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJF"
-DIST_VERSION="0.01"
-DIST_A="Exobrain-Foursquare-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Exobrain
+	>=dev-perl/Exobrain-1.080
 	dev-perl/JSON-Any
 	dev-perl/Method-Signatures
 	dev-perl/Moose
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

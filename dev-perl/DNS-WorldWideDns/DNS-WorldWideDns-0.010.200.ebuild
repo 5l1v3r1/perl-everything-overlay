@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RIZEN"
-DIST_VERSION="0.0102"
-DIST_A="DNS-WorldWideDns-0.0102.tar.gz"
+DIST_VERSION="0.0102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

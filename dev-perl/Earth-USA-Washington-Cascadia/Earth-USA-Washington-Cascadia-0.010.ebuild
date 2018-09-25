@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Earth-USA-Washington-Cascadia"
-DIST_VERSION="0.01"
-DIST_A="Earth-USA-Washington-Cascadia-0.01.tar.gz"
+DIST_AUTHOR="CJCOLLIER"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/C/CJ/CJCOLLIER/Earth-USA-Washington-Cascadia/Earth-USA-Washington-Cascadia-0.01.tar.gz -> Earth-USA-Washington-Cascadia-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Earth-USA-Washington-Cascadia-0.01 ${WORKDIR}/Earth-USA-Washington-Cascadia-0.01
+}
+

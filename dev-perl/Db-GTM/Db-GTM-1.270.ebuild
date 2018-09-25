@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SZECK"
 DIST_VERSION="1.27"
-DIST_A="Db-GTM-1.27.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

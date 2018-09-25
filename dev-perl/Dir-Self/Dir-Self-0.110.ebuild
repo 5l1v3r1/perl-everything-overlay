@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAUKE"
-DIST_VERSION="0.11"
-DIST_A="Dir-Self-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

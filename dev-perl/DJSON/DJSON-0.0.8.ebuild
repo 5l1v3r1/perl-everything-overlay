@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="v0.0.8"
-DIST_A="DJSON-0.0.8.tar.gz"
+DIST_VERSION="0.0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/JSON-2.900
 	>=dev-perl/YAML-0.900
 "
+

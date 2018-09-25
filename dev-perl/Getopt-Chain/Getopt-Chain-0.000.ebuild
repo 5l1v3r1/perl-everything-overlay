@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.0"
-DIST_A="Getopt-Chain-0.017.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/R/RO/ROKR/Getopt-Chain-0.017.tar.gz -> Getopt-Chain-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Most
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Getopt-Chain-0.017 ${WORKDIR}/Getopt-Chain-
+}
+

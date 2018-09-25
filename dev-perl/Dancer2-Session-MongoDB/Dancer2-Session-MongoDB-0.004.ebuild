@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CROMEDOME"
-DIST_VERSION="0.004"
-DIST_A="Dancer2-Session-MongoDB-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dancer2-0.100
+	dev-perl/Dancer2
 	dev-perl/MongoDB
 	dev-perl/Moo
 "
@@ -33,3 +32,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.220
 	virtual/perl-Test-Simple
 "
+

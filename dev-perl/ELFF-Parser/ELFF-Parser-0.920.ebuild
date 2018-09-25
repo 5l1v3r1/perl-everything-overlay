@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MWARREN"
-DIST_VERSION="0.92"
-DIST_A="ELFF-Parser-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

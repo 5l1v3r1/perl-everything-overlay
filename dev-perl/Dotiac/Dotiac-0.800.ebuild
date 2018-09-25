@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dotiac"
-DIST_VERSION="0.8"
-DIST_A="Dotiac-0.8.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="0.8" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/dotiac/Dotiac-0.8.tar.gz -> Dotiac-0.8.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dotiac-0.8 ${WORKDIR}/Dotiac-0.8
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBRAGG"
-DIST_VERSION="0.2"
-DIST_A="Finance-CampBX-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

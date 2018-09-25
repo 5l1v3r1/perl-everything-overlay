@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSKOLL"
-DIST_VERSION="0.103"
-DIST_A="File-VirusScan-0.103.tar.gz"
+DIST_VERSION="0.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

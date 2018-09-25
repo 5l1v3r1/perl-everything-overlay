@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHESA"
-DIST_VERSION="0.17"
-DIST_A="HTML-Template-Pluggable-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPKELLY"
-DIST_VERSION="0.62"
-DIST_A="File-Find-Declare-0.62.tar.gz"
+DIST_VERSION="0.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

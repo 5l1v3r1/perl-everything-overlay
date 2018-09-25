@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLFSAGE"
-DIST_VERSION="0.08"
-DIST_A="Devel-Quick-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.880
 "
+

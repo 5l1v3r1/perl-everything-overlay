@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0200"
-DIST_A="Dist-Zilla-Plugin-PkgVersion-Block-0.0200.tar.gz"
+DIST_VERSION="0.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	>=virtual/perl-autodie-2.000
 "
+

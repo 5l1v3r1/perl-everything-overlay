@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJEMMESON"
-DIST_VERSION="0.011"
-DIST_A="Date-Holidays-GB-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
 	virtual/perl-File-Spec
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

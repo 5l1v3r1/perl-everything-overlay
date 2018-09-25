@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="1.003"
-DIST_A="Dist-Zilla-Plugin-Subversion-NextVersion-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Alien-SVN
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	dev-perl/Moose
 	dev-perl/Try-Tiny
 	dev-perl/Version-Next
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

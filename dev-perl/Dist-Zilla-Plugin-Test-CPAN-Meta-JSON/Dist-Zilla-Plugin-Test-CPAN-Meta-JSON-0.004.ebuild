@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.004"
-DIST_A="Dist-Zilla-Plugin-Test-CPAN-Meta-JSON-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-autodie
 "
+

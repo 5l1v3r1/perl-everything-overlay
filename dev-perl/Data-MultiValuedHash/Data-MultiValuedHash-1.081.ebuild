@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCAND"
-DIST_VERSION="1.081"
-DIST_A="Data-MultiValuedHash-1.081.tar.gz"
+DIST_VERSION="1.081" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

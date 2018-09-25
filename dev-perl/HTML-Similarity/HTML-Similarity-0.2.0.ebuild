@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XERN"
-DIST_VERSION="0.2.0"
-DIST_A="HTML-Similarity-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

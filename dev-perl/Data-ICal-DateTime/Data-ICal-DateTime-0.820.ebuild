@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FGLOCK"
-DIST_VERSION="0.82"
-DIST_A="Data-ICal-DateTime-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

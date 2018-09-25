@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOFTX"
-DIST_VERSION="0.03"
-DIST_A="DateTime-Fiscal-Retail454-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/Retail454/DateTime-Fiscal-Retail454-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/Retail454/DateTime-Fiscal-Retail454-0.03.tar.gz -> DateTime-Fiscal-Retail454-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTime-Fiscal-Retail454-0.03 ${WORKDIR}/DateTime-Fiscal-Retail454-0.03
+}
+

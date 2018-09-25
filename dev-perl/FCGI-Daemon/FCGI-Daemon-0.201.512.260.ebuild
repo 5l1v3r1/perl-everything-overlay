@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ONLYJOB"
-DIST_VERSION="0.20151226"
-DIST_A="FCGI-Daemon-0.20151226.tar.gz"
+DIST_VERSION="0.20151226" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

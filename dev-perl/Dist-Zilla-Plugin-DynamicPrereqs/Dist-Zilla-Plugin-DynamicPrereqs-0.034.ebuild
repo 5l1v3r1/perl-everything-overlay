@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.034"
-DIST_A="Dist-Zilla-Plugin-DynamicPrereqs-0.034.tar.gz"
+DIST_VERSION="0.034" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMEON"
-DIST_VERSION="1.06"
-DIST_A="HTTP-OAIPMH-Validator-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Crypt-SSLeay-0.720
 	>=dev-perl/Data-UUID-1.220
 	>=dev-perl/Date-Manip-6.480
-	>=dev-perl/HTTP-Message-6.040
+	>=dev-perl/HTTP-Message-6.000
 	>=dev-perl/JSON-2.900
 	>=dev-perl/LWP-Protocol-https-6.060
 	>=dev-perl/Try-Tiny-0.190
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Pod-1.480
 "
+

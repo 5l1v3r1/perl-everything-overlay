@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERNESTO"
-DIST_VERSION="0.70"
-DIST_A="Frost-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

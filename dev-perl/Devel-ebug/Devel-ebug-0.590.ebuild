@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWWAIID"
-DIST_VERSION="0.59"
-DIST_A="Devel-ebug-0.59.tar.gz"
+DIST_VERSION="0.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 	dev-perl/Proc-Background
 	dev-perl/String-Koremutake
 	dev-perl/YAML
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -37,3 +38,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

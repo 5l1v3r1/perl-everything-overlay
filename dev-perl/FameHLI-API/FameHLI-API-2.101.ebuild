@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEO"
-DIST_VERSION="2.101"
-DIST_A="FameHLI-API-2.101.tar.gz"
+DIST_VERSION="2.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

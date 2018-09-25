@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DREBOLO"
-DIST_VERSION="0.071"
-DIST_A="Dancer2-Plugin-RoutePodCoverage-0.071.tar.gz"
+DIST_VERSION="0.071" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TANIGUCHI"
-DIST_VERSION="0.03"
-DIST_A="GD-Tab-Guitar-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/GD-2.300
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

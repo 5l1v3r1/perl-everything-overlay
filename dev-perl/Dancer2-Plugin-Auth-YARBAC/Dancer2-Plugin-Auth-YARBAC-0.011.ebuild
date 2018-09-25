@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVERNA"
-DIST_VERSION="0.011"
-DIST_A="Dancer2-Plugin-Auth-YARBAC-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,5 +35,7 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	dev-perl/Template-Toolkit
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

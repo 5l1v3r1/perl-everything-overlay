@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHIM"
-DIST_VERSION="0.052002"
-DIST_A="Dist-Zilla-PluginBundle-Author-CHIM-0.052002.tar.gz"
+DIST_VERSION="0.052002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

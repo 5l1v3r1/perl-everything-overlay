@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLEFLER"
-DIST_VERSION="0.173030"
-DIST_A="Data-SeaBASS-0.173030.tar.gz"
+DIST_VERSION="0.173030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Trap
 	virtual/perl-Test-Simple
 "
+

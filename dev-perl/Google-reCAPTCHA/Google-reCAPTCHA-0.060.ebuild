@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TCORKRAN"
-DIST_VERSION="0.06"
-DIST_A="Google-reCAPTCHA-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Install
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=dev-perl/Test-MockModule-0.110
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

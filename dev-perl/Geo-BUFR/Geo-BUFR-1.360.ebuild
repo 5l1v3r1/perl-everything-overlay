@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSANNES"
-DIST_VERSION="1.36"
-DIST_A="Geo-BUFR-1.36.tar.gz"
+DIST_VERSION="1.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBISBEE"
-DIST_VERSION="0.95"
-DIST_A="Devel-XRay-0.95.tar.gz"
+DIST_VERSION="0.95" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="1.08"
-DIST_A="Data-Checker-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Date-Manip
 	dev-perl/Net-DNS
 	dev-perl/Net-Ping-External
-	>=dev-perl/NetAddr-IP-4.073
+	dev-perl/NetAddr-IP
 	dev-perl/Parallel-ForkManager
 	virtual/perl-Module-Loaded
 	virtual/perl-Net-Ping
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Inter
 	virtual/perl-Test-Simple
 "
+

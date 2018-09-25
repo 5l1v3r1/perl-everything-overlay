@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUZ"
-DIST_VERSION="0.18"
-DIST_A="HTML-Gumbo-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-ExtUtils-CBuilder
 "
+

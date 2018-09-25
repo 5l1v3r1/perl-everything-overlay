@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SMCNABB"
-DIST_VERSION="0.06"
-DIST_A="Drupal-Module-Starter-0.06.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SM/SMCNABB/Drupal-Module-Starter/Drupal-Module-Starter-0.06.tar.gz"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/S/SM/SMCNABB/Drupal-Module-Starter/Drupal-Module-Starter-0.06.tar.gz -> Drupal-Module-Starter-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Drupal-Module-Starter-0.06 ${WORKDIR}/Drupal-Module-Starter-0.06
+}
+

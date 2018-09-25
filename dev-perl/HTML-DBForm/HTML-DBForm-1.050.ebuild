@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRAILEY"
-DIST_VERSION="1.05"
-DIST_A="HTML-DBForm-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

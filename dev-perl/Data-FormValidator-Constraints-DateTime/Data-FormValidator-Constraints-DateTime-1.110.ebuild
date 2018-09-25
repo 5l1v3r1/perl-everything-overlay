@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WONKO"
-DIST_VERSION="1.11"
-DIST_A="Data-FormValidator-Constraints-DateTime-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	dev-perl/DateTime-Format-Builder
 "
+

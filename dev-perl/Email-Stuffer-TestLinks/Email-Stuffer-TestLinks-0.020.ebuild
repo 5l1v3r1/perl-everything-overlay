@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.02"
-DIST_A="Email-Stuffer-TestLinks-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Method-Modifiers
 	dev-perl/Email-Stuffer
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.000
 	dev-perl/Test-Most
 "
 DEPEND="
@@ -29,5 +28,6 @@ DEPEND="
 	>=dev-perl/Test-CheckDeps-0.010
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.940
 "
+

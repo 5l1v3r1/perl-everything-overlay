@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.01"
-DIST_A="Dist-Zilla-Plugin-MakeMaker-IncShareDir-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.025
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

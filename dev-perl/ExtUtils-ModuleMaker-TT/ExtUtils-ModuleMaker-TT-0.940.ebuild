@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.94"
-DIST_A="ExtUtils-ModuleMaker-TT-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	>=dev-perl/File-pushd-1.000
+	>=dev-perl/IPC-Run3-0.033
+	>=dev-perl/Probe-Perl-0.010
+	virtual/perl-File-Spec
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "
+

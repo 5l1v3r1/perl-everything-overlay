@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="BOFTX"
-DIST_VERSION="2.01"
-DIST_A="DateTimeX-Fiscal-Fiscal5253-2.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/Fiscal5253/DateTimeX-Fiscal-Fiscal5253-2.01.tar.gz"
+DIST_VERSION="2.01" 
+SRC_URI="mirror://cpan/authors/id/B/BO/BOFTX/Fiscal5253/DateTimeX-Fiscal-Fiscal5253-2.01.tar.gz -> DateTimeX-Fiscal-Fiscal5253-2.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DateTimeX-Fiscal-Fiscal5253-2.01 ${WORKDIR}/DateTimeX-Fiscal-Fiscal5253-2.01
+}
+

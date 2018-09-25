@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="1.15"
-DIST_A="HTML-FillInForm-Lite-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/CGI
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	>=virtual/perl-Test-Simple-0.620
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.110"
-DIST_A="Dist-Inkt-DOAP-0.110.tar.gz"
+DIST_VERSION="0.110" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	>=virtual/perl-Test-Simple-0.960
 "
+

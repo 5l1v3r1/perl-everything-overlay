@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="v3.0.0"
-DIST_A="HPC-Runner-Command-draw_deps-3.0.0.tar.gz"
+DIST_VERSION="3.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+

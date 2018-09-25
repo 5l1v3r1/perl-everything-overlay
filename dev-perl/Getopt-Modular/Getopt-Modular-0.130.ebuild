@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMCBRIDE"
-DIST_VERSION="0.13"
-DIST_A="Getopt-Modular-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Deep
+	dev-perl/Test-Exception
+	virtual/perl-Data-Dumper
+	>=virtual/perl-Test-Simple-0.880
 "
+

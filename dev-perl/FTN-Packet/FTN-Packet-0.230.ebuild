@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAME"
-DIST_VERSION="0.23"
-DIST_A="FTN-Packet-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

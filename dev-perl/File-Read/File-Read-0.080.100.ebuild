@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAPER"
-DIST_VERSION="0.0801"
-DIST_A="File-Read-0.0801.tar.gz"
+DIST_VERSION="0.0801" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-Slurp
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOKUTIN"
-DIST_VERSION="0.04"
-DIST_A="Data-Faker-JapaneseFemaleName-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-Faker-0.070
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Pod-Parser-1.350
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

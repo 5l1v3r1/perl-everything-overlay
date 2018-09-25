@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHOELZ"
-DIST_VERSION="0.05"
-DIST_A="Dist-Zilla-Plugin-Git-ExcludeUntracked-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

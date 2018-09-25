@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJORE"
-DIST_VERSION="2.016"
-DIST_A="Enbugger-2.016.tar.gz"
+DIST_VERSION="2.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-MakeMaker
 "
+

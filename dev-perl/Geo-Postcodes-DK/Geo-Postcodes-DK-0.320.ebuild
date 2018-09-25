@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARNE"
-DIST_VERSION="0.32"
-DIST_A="Geo-Postcodes-DK-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

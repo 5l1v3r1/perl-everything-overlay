@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKI"
-DIST_VERSION="0.03"
-DIST_A="Data-OpenStruct-Deep-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Test-Deep
 	dev-perl/Want
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

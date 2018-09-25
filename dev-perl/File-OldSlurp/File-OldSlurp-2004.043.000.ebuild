@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="2004.0430"
-DIST_A="File-OldSlurp-2004.0430.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="2004.0430" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/File-OldSlurp-2004.0430.tar.gz -> File-OldSlurp-2004.0430.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/File-OldSlurp-2004.0430 ${WORKDIR}/File-OldSlurp-2004.0430
+}
+

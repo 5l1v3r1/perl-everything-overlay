@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIRMESS"
-DIST_VERSION="1.000"
-DIST_A="Dist-Zilla-Plugin-Git-RequireUnixEOL-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

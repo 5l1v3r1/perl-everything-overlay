@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIOCLES"
-DIST_VERSION="0.02"
-DIST_A="DateTime-Calendar-WarwickUniversity-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

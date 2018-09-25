@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOREAU"
-DIST_VERSION="0.14"
-DIST_A="Facebook-InstantArticle-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/DateTime-TimeZone-2.010
 	>=virtual/perl-Test-Simple-1.302.037
 "
+

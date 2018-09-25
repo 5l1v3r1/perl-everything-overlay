@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PHCOTE"
-DIST_VERSION="0.9.0.7"
-DIST_A="Devel-Monitor-0.9.0.7.tar.gz"
+DIST_VERSION="0.9.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.000
 	>=dev-perl/Error-0.150
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

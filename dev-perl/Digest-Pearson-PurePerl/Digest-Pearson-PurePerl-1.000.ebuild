@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TNGUYEN"
-DIST_VERSION="1.00"
-DIST_A="Digest-Pearson-PurePerl-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

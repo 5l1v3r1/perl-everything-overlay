@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.12"
-DIST_A="HTML-Transmorgify-0.12.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/HTML-Transmorgify-0.12.tar.gz -> HTML-Transmorgify-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	dev-perl/Parse-RecDescent
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/HTML-Transmorgify-0.12 ${WORKDIR}/HTML-Transmorgify-0.12
+}
+

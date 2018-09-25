@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKELLIS"
-DIST_VERSION="0.016000"
-DIST_A="HTML-Video-Embed-0.016000.tar.gz"
+DIST_VERSION="0.016000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

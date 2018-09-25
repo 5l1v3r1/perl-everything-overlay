@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERIKOEST"
-DIST_VERSION="0.61"
-DIST_A="DNS-LDNS-0.61.tar.gz"
+DIST_VERSION="0.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

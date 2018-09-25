@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SERGEYCHE"
-DIST_VERSION="2.4"
-DIST_A="HTML-LinkChanger-2.4.tar.gz"
+DIST_VERSION="2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

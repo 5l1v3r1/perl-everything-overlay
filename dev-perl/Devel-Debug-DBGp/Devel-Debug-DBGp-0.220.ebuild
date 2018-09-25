@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBARBON"
-DIST_VERSION="0.22"
-DIST_A="Devel-Debug-DBGp-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/DBGp-Client-0.100
 	>=dev-perl/Test-DBGp-0.070
 "
+

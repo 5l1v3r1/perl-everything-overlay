@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BESINT"
-DIST_VERSION="0.2018.0"
-DIST_A="Date-Holidays-KZ-0.2018.0.tar.gz"
+DIST_VERSION="0.2018.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

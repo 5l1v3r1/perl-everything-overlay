@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDOLAN"
-DIST_VERSION="0.09"
-DIST_A="Fuse-PDF-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	>=dev-perl/Test-Virtual-Filesystem-0.080
 	>=virtual/perl-Test-Simple-0.620
 "
+

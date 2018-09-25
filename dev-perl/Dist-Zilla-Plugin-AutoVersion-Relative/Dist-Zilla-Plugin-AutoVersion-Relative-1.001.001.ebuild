@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.001001"
-DIST_A="Dist-Zilla-Plugin-AutoVersion-Relative-1.001001.tar.gz"
+DIST_VERSION="1.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Const-Fast
 	>=dev-perl/DateTime-0.500
-	>=dev-perl/Dist-Zilla-2.101.310
+	dev-perl/Dist-Zilla
 	>=dev-perl/Moose-1.090
 	>=dev-perl/MooseX-StrictConstructor-0.100
 	dev-perl/MooseX-Types
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

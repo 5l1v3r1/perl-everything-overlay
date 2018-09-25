@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.101628"
-DIST_A="Dist-Zilla-Plugin-TaskWeaver-0.101628.tar.gz"
+DIST_VERSION="0.101628" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-PodWeaver
 	dev-perl/Moose
 	dev-perl/Pod-Elemental
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-3.000
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Test-Simple-0.960
 "
@@ -30,3 +29,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-File-Spec
 "
+

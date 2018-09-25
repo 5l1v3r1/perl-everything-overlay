@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEKOKAK"
-DIST_VERSION="0.0729"
-DIST_A="DBIx-Skinny-0.0729.tar.gz"
+DIST_VERSION="0.0729" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-SharedFork-0.150
 	>=virtual/perl-Test-Simple-0.940
 "
+

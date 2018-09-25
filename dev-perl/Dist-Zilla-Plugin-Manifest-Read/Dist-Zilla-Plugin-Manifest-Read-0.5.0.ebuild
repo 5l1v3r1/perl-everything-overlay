@@ -33,7 +33,7 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	>=dev-perl/Test-DiagINC-0.002
-	>=dev-perl/Test-Dist-Zilla-0.3.3
+	dev-perl/Test-Dist-Zilla
 	dev-perl/Test-Routine
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

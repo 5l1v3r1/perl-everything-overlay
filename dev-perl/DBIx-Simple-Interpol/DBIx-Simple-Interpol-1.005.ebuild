@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISTOTLE"
-DIST_VERSION="1.005"
-DIST_A="DBIx-Simple-Interpol-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

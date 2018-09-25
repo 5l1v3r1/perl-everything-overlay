@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IBRAUN"
-DIST_VERSION="0.05"
-DIST_A="DateTime-Format-PGN-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Chess-PGN-Parse-0.200
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

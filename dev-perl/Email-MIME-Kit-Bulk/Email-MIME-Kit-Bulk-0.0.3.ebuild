@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.0.3"
-DIST_A="Email-MIME-Kit-Bulk-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Email-MIME
-	dev-perl/Email-MIME-Kit
+	>=dev-perl/Email-MIME-Kit-3.000.005
 	dev-perl/Email-MIME-Kit-Renderer-TT
 	dev-perl/Email-Sender
 	dev-perl/JSON
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

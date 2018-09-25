@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XMIKEW"
-DIST_VERSION="0.06"
-DIST_A="DateTime-Format-MySQL-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGEOFFREY"
-DIST_VERSION="0.204"
-DIST_A="ExtUtils-ModuleMaker-0.204.tar.gz"
+DIST_VERSION="0.204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

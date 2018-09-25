@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOAOCOSTA"
-DIST_VERSION="0.014"
-DIST_A="Finance-FXCM-Simple-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-0.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

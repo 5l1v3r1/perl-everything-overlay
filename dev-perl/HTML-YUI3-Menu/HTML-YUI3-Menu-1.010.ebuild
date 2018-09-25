@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.01"
-DIST_A="HTML-YUI3-Menu-1.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.440
 	>=virtual/perl-Test-Simple-0.940
 "
+

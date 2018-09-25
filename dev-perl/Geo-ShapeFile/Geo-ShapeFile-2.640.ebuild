@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLAFFAN"
-DIST_VERSION="2.64"
-DIST_A="Geo-ShapeFile-2.64.tar.gz"
+DIST_VERSION="2.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/rlib
 "
+

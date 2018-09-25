@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBWOHLFAR"
-DIST_VERSION="1.21"
-DIST_A="Date-Manip-Range-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-Install-AutoManifest
 	virtual/perl-ExtUtils-MakeMaker
 "
+

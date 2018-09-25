@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.001006"
-DIST_A="Dist-Zilla-Plugin-RewriteVersion-Sanitized-0.001006.tar.gz"
+DIST_VERSION="0.001006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTPALMER"
-DIST_VERSION="0.001001"
-DIST_A="Finance-Quote-IEX-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Finance-Quote
 	virtual/perl-Test-Simple
 "
+

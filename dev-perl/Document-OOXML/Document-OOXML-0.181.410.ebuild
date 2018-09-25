@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTREEK"
-DIST_VERSION="0.181410"
-DIST_A="Document-OOXML-0.181410.tar.gz"
+DIST_VERSION="0.181410" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

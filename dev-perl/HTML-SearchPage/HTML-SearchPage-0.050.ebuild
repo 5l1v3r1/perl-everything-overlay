@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PCANARAN"
-DIST_VERSION="0.05"
-DIST_A="HTML-SearchPage-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

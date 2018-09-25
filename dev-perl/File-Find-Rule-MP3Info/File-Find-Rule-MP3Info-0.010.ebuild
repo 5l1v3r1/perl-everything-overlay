@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAKE"
-DIST_VERSION="0.01"
-DIST_A="File-Find-Rule-MP3Info-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/File-Find-Rule-0.070
-	dev-perl/MP3-Info
 	dev-perl/Number-Compare
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

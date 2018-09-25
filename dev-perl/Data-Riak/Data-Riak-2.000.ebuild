@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="2.0"
-DIST_A="Data-Riak-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-HTTP
 	dev-perl/Class-Load
-	dev-perl/HTTP-Headers-ActionPack
+	>=dev-perl/HTTP-Headers-ActionPack-0.050
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Throwable
 	dev-perl/JSON
@@ -48,3 +47,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-MIME-Base64
 "
+

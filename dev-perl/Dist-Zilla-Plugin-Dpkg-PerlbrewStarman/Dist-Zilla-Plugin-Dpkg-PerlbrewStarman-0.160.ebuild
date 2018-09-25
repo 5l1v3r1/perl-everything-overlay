@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIZ"
-DIST_VERSION="0.16"
-DIST_A="Dist-Zilla-Plugin-Dpkg-PerlbrewStarman-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

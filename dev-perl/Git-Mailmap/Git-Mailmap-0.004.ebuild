@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKKOI"
-DIST_VERSION="0.004"
-DIST_A="Git-Mailmap-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-0.060
 	dev-perl/Carp-Assert
 	dev-perl/Carp-Assert-More
 	dev-perl/Log-Any
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+

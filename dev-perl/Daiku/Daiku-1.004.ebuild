@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="1.004"
-DIST_A="Daiku-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/IPC-System-Simple
-	>=dev-perl/Mouse-0.920
+	dev-perl/Mouse
 	dev-perl/Parse-CommandLine
 	dev-perl/Pod-Usage
 	dev-perl/Tie-IxHash
@@ -30,7 +29,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-parent
 "
+

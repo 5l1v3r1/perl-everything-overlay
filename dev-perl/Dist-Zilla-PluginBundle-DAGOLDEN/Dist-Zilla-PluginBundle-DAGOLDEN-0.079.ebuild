@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.079"
-DIST_A="Dist-Zilla-PluginBundle-DAGOLDEN-0.079.tar.gz"
+DIST_VERSION="0.079" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-CheckMetaResources-0.001
 	>=dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed-0.002
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild-Filtered
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-1.121.010
 	>=dev-perl/Dist-Zilla-Plugin-Git-Contributors-0.007
 	>=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.360
 	>=dev-perl/Dist-Zilla-Plugin-InsertCopyright-0.001
@@ -66,3 +65,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

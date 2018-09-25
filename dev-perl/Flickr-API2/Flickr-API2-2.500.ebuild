@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJC"
-DIST_VERSION="2.50"
-DIST_A="Flickr-API2-2.50.tar.gz"
+DIST_VERSION="2.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Encode-Base58
-	>=dev-perl/HTTP-Message-1.560
+	dev-perl/HTTP-Message
 	dev-perl/JSON
 	dev-perl/LWP-Online
 	dev-perl/LWP-Protocol-https
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

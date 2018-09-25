@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIRMESS"
-DIST_VERSION="0.006"
-DIST_A="Dist-Zilla-Plugin-AutoPrereqs-Perl-Critic-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Dist-Zilla
-	dev-perl/Moose
+	>=dev-perl/Moose-2.120.300
 	dev-perl/Path-Tiny
 	dev-perl/Perl-Critic
 	dev-perl/namespace-autoclean
@@ -30,7 +29,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
-	dev-perl/Test-MockModule
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

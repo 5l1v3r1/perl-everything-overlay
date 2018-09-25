@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.000"
-DIST_A="Debug-Show-0.000.tar.gz"
+DIST_VERSION="0.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-0.640
 	dev-perl/B-CallChecker
 	>=dev-perl/B-Compiling-0.010
 	>=dev-perl/B-Generate-1.330
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

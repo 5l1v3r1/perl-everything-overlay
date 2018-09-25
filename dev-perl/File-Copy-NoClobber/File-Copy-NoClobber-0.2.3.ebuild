@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="0.2.3"
-DIST_A="File-Copy-NoClobber-0.2.3.tar.gz"
+DIST_VERSION="0.2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

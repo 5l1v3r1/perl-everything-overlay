@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PABLROD"
-DIST_VERSION="0.001"
-DIST_A="HTML-Show-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

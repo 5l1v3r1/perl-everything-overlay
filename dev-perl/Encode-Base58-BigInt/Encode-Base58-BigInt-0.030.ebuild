@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOH"
-DIST_VERSION="0.03"
-DIST_A="Encode-Base58-BigInt-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="0.76"
-DIST_A="Graphics-Potrace-0.76.tar.gz"
+DIST_VERSION="0.76" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Devel-CheckLib-1.1.0
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "
+

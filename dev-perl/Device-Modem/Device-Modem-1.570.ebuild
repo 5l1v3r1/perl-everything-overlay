@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COSIMO"
-DIST_VERSION="1.57"
-DIST_A="Device-Modem-1.57.tar.gz"
+DIST_VERSION="1.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

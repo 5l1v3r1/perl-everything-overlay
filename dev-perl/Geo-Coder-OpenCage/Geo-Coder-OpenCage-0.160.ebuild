@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EDF"
-DIST_VERSION="0.16"
-DIST_A="Geo-Coder-OpenCage-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.920
 "
+

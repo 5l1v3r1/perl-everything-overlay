@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TBONE"
-DIST_VERSION="4.0"
-DIST_A="HTTP-File-4.0.tar.gz"
+DIST_VERSION="4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

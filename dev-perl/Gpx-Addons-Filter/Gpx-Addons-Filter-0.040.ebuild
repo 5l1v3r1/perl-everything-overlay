@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LANTI"
-DIST_VERSION="0.04"
-DIST_A="Gpx-Addons-Filter-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/SUPER
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAZM"
-DIST_VERSION="0.123490"
-DIST_A="Facebook-Graph-Cmdline-0.123490.tar.gz"
+DIST_VERSION="0.123490" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Mouse
 	virtual/perl-Test-Simple
 "
+

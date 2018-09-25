@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RTHOMPSON"
-DIST_VERSION="0.121750"
-DIST_A="Dist-Zilla-Plugin-CheckVersionIncrement-0.121750.tar.gz"
+DIST_VERSION="0.121750" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-autodie
 "
+

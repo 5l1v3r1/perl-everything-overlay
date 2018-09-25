@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.09"
-DIST_A="Devel-Events-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,8 +29,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+

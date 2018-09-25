@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CROMEDOME"
-DIST_VERSION="0.206000"
-DIST_A="Dancer2-0.206000.tar.gz"
+DIST_VERSION="0.206000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,7 +54,7 @@ RDEPEND="
 	virtual/perl-HTTP-Tiny
 	>=virtual/perl-MIME-Base64-3.130
 	>=virtual/perl-Scalar-List-Utils-1.290
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.920
 	virtual/perl-parent
 "
 DEPEND="
@@ -70,3 +69,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODYNIEC"
-DIST_VERSION="0.021"
-DIST_A="Dist-Zilla-PluginBundle-ODYNIEC-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,7 +47,7 @@ RDEPEND="
 	dev-perl/Moose-Autobox
 	>=dev-perl/Pod-Elemental-Transformer-List-0.101.620
 	dev-perl/Pod-Elemental-Transformer-WikiDoc
-	>=dev-perl/Pod-Weaver-4.000
+	dev-perl/Pod-Weaver
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.001
 	>=dev-perl/Pod-Weaver-Section-Support-1.001
 	>=dev-perl/Test-Portability-Files-0.060
@@ -67,3 +66,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-version
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIGELM"
-DIST_VERSION="0.27"
-DIST_A="Dist-Zilla-PluginBundle-NIGELM-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -65,3 +64,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

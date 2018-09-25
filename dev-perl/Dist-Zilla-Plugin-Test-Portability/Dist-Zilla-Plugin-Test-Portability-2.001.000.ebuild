@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="2.001000"
-DIST_A="Dist-Zilla-Plugin-Test-Portability-2.001000.tar.gz"
+DIST_VERSION="2.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Test-Deep
 	>=dev-perl/Test-Warnings-0.009
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

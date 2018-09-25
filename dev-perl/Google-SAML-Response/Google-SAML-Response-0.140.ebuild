@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANNI"
-DIST_VERSION="0.14"
-DIST_A="Google-SAML-Response-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POTATOGIM"
-DIST_VERSION="0.4"
-DIST_A="GlusterFS-GFAPI-FFI-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PVIGIER"
-DIST_VERSION="0.10"
-DIST_A="Dancer2-Plugin-OAuth2-Server-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/CryptX
-	>=dev-perl/Dancer2-0.163.000
+	dev-perl/Dancer2
 	dev-perl/URI
 	virtual/perl-Carp
 	virtual/perl-MIME-Base64
@@ -27,7 +26,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	dev-perl/Plack
 	dev-perl/YAML-LibYAML
 	>=virtual/perl-Test-Simple-0.960
 "
+

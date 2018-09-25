@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESAYM"
-DIST_VERSION="0.02"
-DIST_A="Dancer2-Plugin-FlashNote-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Plack
 	virtual/perl-Test-Simple
 "
+

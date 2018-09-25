@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SOMIAN"
-DIST_VERSION="0.04"
-DIST_A="Filesys-CygwinPaths-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SO/SOMIAN/experimental/unregistered/Filesys-CygwinPaths-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/S/SO/SOMIAN/experimental/unregistered/Filesys-CygwinPaths-0.04.tar.gz -> Filesys-CygwinPaths-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Filesys-CygwinPaths-0.04 ${WORKDIR}/Filesys-CygwinPaths-0.04
+}
+

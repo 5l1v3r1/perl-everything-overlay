@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BATZ"
 DIST_VERSION="0.02"
-DIST_A="Graph-Maker-0.02.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

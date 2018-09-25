@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRANCKC"
-DIST_VERSION="v0.0.4"
-DIST_A="Geo-StreetAddress-FR-0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

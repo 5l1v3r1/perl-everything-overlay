@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBIWAN"
-DIST_VERSION="0.032"
-DIST_A="Fukurama-Class-0.032.tar.gz"
+DIST_VERSION="0.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

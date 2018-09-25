@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="2.101700"
-DIST_A="Getopt-Attribute-2.101700.tar.gz"
+DIST_VERSION="2.101700" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	dev-lang/perl
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "
+

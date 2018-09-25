@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="2.025021"
-DIST_A="Dist-Zilla-PluginBundle-Author-KENTNL-2.025021.tar.gz"
+DIST_VERSION="2.025021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -73,7 +72,9 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-File-ShareDir-0.3.0
 	dev-perl/Test-Output
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	virtual/perl-Test-Simple
 "
+

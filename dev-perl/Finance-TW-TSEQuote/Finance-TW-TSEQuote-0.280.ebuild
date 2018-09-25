@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLKAO"
-DIST_VERSION="0.28"
-DIST_A="Finance-TW-TSEQuote-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

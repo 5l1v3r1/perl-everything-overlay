@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EDF"
-DIST_VERSION="1.65"
-DIST_A="Geo-Address-Formatter-1.65.tar.gz"
+DIST_VERSION="1.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

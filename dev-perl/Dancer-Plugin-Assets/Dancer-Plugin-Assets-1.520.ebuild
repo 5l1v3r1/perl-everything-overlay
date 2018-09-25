@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICVU"
-DIST_VERSION="1.52"
-DIST_A="Dancer-Plugin-Assets-1.52.tar.gz"
+DIST_VERSION="1.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Cucumber-Tiny
 	virtual/perl-Test-Simple
 "
+

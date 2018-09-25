@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NGLENN"
-DIST_VERSION="0.07"
-DIST_A="Dist-Zilla-PluginBundle-NGLENN-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-5.014
+	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Config-Slicer
 	>=dev-perl/Dist-Zilla-Plugin-Authority-1.006
 	>=dev-perl/Dist-Zilla-Plugin-Bugtracker-1.110
@@ -27,7 +26,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-CheckMetaResources-0.001
 	>=dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed-0.002
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-1.121.010
 	>=dev-perl/Dist-Zilla-Plugin-Git-Contributors-0.007
 	dev-perl/Dist-Zilla-Plugin-GitHub-UploadRelease
 	>=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.360
@@ -70,3 +69,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

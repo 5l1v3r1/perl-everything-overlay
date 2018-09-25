@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="FinanceBitStampAPI"
-DIST_VERSION="0.02"
-DIST_A="Finance-BitStamp-API-0.02.tar.gz"
+DIST_AUTHOR="PEASWORTH"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PEASWORTH/FinanceBitStampAPI/Finance-BitStamp-API-0.02.tar.gz -> Finance-BitStamp-API-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Finance-BitStamp-API-0.02 ${WORKDIR}/Finance-BitStamp-API-0.02
+}
+

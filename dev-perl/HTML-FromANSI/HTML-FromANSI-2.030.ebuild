@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUFFIN"
-DIST_VERSION="2.03"
-DIST_A="HTML-FromANSI-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTML-Parser-0.010
 	>=dev-perl/Term-VT102-Boundless-0.030
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.110
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

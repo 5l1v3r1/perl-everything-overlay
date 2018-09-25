@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKUITSE"
-DIST_VERSION="0.04"
-DIST_A="File-Kit-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,9 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Kvpar
 	virtual/perl-Getopt-Long
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

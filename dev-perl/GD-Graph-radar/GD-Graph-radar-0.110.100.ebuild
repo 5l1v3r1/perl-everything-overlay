@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.1101"
-DIST_A="GD-Graph-radar-0.1101.tar.gz"
+DIST_VERSION="0.1101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,11 @@ RDEPEND="
 	dev-perl/GD
 	dev-perl/GDGraph
 	dev-perl/GDTextUtil
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

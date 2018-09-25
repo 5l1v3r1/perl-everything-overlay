@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PURDY"
-DIST_VERSION="1.61"
-DIST_A="Data-FormValidator-Tutorial-1.61.tar.gz"
+DIST_VERSION="1.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

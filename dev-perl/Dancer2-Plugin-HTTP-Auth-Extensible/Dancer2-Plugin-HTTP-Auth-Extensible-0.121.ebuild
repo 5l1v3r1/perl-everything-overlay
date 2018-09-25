@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANHOESEL"
-DIST_VERSION="0.121"
-DIST_A="Dancer2-Plugin-HTTP-Auth-Extensible-0.121.tar.gz"
+DIST_VERSION="0.121" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

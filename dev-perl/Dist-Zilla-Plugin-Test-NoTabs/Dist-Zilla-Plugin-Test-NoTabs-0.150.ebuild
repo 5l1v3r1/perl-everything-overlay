@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.15"
-DIST_A="Dist-Zilla-Plugin-Test-NoTabs-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-lang/perl
 	dev-perl/File-pushd
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-NoTabs
 	dev-perl/Test-Requires
@@ -36,3 +36,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

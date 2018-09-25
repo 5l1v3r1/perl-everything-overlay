@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASVBR"
-DIST_VERSION="0.01"
-DIST_A="DBIx-PgLink-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,8 +28,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/DBD-Pg-1.470
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.096
 	>=dev-perl/Test-Exception-0.250
 	dev-perl/YAML
 	>=virtual/perl-Test-Simple-0.700
 "
+

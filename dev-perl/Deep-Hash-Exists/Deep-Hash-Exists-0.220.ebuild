@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMUL"
-DIST_VERSION="0.22"
-DIST_A="Deep-Hash-Exists-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

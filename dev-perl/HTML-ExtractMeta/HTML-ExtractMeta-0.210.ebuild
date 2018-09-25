@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOREAU"
-DIST_VERSION="0.21"
-DIST_A="HTML-ExtractMeta-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/File-Slurper-0.009
 	>=virtual/perl-Test-Simple-0.980
 "
+

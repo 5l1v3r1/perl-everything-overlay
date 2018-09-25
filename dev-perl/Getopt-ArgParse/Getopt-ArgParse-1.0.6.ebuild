@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MYTRAM"
-DIST_VERSION="v1.0.6"
-DIST_A="Getopt-ArgParse-1.0.6.tar.gz"
+DIST_VERSION="1.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

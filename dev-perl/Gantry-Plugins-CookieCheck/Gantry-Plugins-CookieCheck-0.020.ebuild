@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TKEEFER"
-DIST_VERSION="0.02"
-DIST_A="Gantry-Plugins-CookieCheck-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

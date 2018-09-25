@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MFONTANI"
-DIST_VERSION="0.161360"
-DIST_A="Dancer-Plugin-MemcachedFast-0.161360.tar.gz"
+DIST_VERSION="0.161360" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Cache-Memcached-Fast
-	>=dev-perl/Dancer-1.200.000
+	dev-perl/Dancer
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="examples"
-DIST_VERSION="0.01"
-DIST_A="Example-XS-FasterHashes-0.01.tar.gz"
+DIST_AUTHOR="BULKDD"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/B/BU/BULKDD/examples/Example-XS-FasterHashes-0.01.tar.gz -> Example-XS-FasterHashes-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Example-XS-FasterHashes-0.01 ${WORKDIR}/Example-XS-FasterHashes-0.01
+}
+

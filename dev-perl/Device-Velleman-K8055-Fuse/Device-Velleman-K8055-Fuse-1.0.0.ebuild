@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RONAN"
-DIST_VERSION="1.0.0"
-DIST_A="Device-Velleman-K8055-Fuse-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

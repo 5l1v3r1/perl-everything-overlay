@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCLAMP"
-DIST_VERSION="1.22"
-DIST_A="File-Find-Rule-Filesys-Virtual-1.22.tar.gz"
+DIST_VERSION="1.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Filesys-Virtual-Plain
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

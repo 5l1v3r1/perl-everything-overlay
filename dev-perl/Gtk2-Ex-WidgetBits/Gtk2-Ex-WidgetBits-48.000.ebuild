@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="48.0"
-DIST_A="Gtk2-Ex-WidgetBits-48.tar.gz"
+DIST_VERSION="48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Glib-Ex-ObjectBits-1.000
-	>=dev-perl/Gtk2-1.200
+	dev-perl/Gtk2
 	dev-perl/Scope-Guard
 	dev-perl/glib-perl
 "
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

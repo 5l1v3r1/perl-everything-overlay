@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JKISTER"
 DIST_VERSION="1.20"
-DIST_A="File-TinyLock-1.20.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

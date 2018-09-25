@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="5.220000"
-DIST_A="HTML-Element-Library-5.220000.tar.gz"
+DIST_VERSION="5.220000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-XML
 	virtual/perl-Test-Simple
 "
+

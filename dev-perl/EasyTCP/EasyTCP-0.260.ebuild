@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MNAGUIB"
-DIST_VERSION="0.26"
-DIST_A="EasyTCP-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

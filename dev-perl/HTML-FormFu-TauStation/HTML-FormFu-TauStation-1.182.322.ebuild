@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFRANKS"
-DIST_VERSION="1.182322"
-DIST_A="HTML-FormFu-TauStation-1.182322.tar.gz"
+DIST_VERSION="1.182322" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

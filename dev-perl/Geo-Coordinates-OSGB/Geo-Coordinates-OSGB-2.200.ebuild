@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBY"
-DIST_VERSION="2.20"
-DIST_A="Geo-Coordinates-OSGB-2.20.tar.gz"
+DIST_VERSION="2.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

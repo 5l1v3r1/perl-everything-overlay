@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLOM"
-DIST_VERSION="0.16"
-DIST_A="Dancer2-Plugin-Auth-OAuth-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,8 +30,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 	dev-perl/Plack
 	dev-perl/Test-Mock-LWP-Dispatch
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.02"
-DIST_A="Geest-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
-	>=dev-perl/Module-Build-Pluggable-0.050
+	>=dev-perl/Module-Build-Pluggable-0.010
 	>=dev-perl/Module-Build-Pluggable-ReadmeMarkdownFromPod-0.020
 	dev-perl/Pod-Markdown
 "
+

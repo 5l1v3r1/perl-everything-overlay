@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="FinanceBitStampSocket"
-DIST_VERSION="0.02"
-DIST_A="Finance-BitStamp-Socket-0.02.tar.gz"
+DIST_AUTHOR="PEASWORTH"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PEASWORTH/FinanceBitStampSocket/Finance-BitStamp-Socket-0.02.tar.gz -> Finance-BitStamp-Socket-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Finance-BitStamp-Socket-0.02 ${WORKDIR}/Finance-BitStamp-Socket-0.02
+}
+

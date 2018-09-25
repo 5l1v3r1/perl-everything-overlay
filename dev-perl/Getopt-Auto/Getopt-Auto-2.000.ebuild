@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLEACH"
-DIST_VERSION="2.0"
-DIST_A="Getopt-Auto-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

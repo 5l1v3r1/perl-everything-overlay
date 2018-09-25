@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.001000"
-DIST_A="ELF-Extract-Sections-1.001000.tar.gz"
+DIST_VERSION="1.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,6 +35,8 @@ DEPEND="
 	dev-perl/Path-Iterator-Rule
 	dev-perl/Path-Tiny
 	dev-perl/YAML-LibYAML
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.890
 "
+

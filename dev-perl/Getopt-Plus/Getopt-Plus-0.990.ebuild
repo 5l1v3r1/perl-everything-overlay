@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLUFFY"
-DIST_VERSION="0.99"
-DIST_A="Getopt-Plus-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DELANO"
-DIST_VERSION="0.025"
-DIST_A="Data-All-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

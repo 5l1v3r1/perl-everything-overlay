@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLOM"
-DIST_VERSION="0.05"
-DIST_A="Dancer2-Plugin-Locale-Wolowitz-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-TCP
 	>=virtual/perl-Test-Simple-0.960
 "
+

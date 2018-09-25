@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNRTST"
-DIST_VERSION="1.009"
-DIST_A="DBIx-PDlib-1.009.tar.gz"
+DIST_VERSION="1.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

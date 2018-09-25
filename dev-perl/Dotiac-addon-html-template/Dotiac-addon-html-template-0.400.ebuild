@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dotiac"
-DIST_VERSION="0.4"
-DIST_A="Dotiac-addon-html_template-0.4.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="0.4" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/dotiac/Dotiac-addon-html_template-0.4.tar.gz -> Dotiac-addon-html_template-0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,9 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dotiac-addon-html_template-0.4 ${WORKDIR}/Dotiac-addon-html_template-0.4
+}
+

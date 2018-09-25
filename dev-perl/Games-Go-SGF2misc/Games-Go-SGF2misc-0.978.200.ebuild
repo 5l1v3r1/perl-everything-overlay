@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LACKITA"
-DIST_VERSION="0.9782"
-DIST_A="Games-Go-SGF2misc-0.9782.tar.gz"
+DIST_VERSION="0.9782" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

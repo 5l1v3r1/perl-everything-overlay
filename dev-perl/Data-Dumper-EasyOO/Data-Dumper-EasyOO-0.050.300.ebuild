@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCROMIE"
-DIST_VERSION="0.0503"
-DIST_A="Data-Dumper-EasyOO-0.0503.tar.gz"
+DIST_VERSION="0.0503" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

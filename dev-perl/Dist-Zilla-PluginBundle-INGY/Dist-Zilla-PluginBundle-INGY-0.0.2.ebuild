@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="v0.0.2"
-DIST_A="Dist-Zilla-PluginBundle-INGY-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,7 +30,7 @@ RDEPEND="
 	dev-perl/Moose-Autobox
 	>=dev-perl/Pod-Elemental-0.092.970
 	dev-perl/Pod-Elemental-Transformer-List
-	>=dev-perl/Pod-Weaver-3.100.310
+	dev-perl/Pod-Weaver
 "
 DEPEND="
 	${RDEPEND}
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

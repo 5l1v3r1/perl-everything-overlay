@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLUGOSZ"
-DIST_VERSION="0.011"
-DIST_A="HTML-EntityReference-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.005
 	virtual/perl-Test-Simple
 "
+

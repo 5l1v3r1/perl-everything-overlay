@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTHEISEN"
-DIST_VERSION="1.06"
-DIST_A="Footprintless-Plugin-Database-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.900
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EVO"
-DIST_VERSION="1998.1217"
-DIST_A="Data-PropertyList-1998.1217.tar.gz"
+DIST_VERSION="1998.1217" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

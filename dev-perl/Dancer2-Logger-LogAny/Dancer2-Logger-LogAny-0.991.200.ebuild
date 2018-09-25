@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONKIN"
-DIST_VERSION="0.9912"
-DIST_A="Dancer2-Logger-LogAny-0.9912.tar.gz"
+DIST_VERSION="0.9912" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

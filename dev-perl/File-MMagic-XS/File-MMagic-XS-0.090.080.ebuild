@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.09008"
-DIST_A="File-MMagic-XS-0.09008.tar.gz"
+DIST_VERSION="0.09008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 "
+

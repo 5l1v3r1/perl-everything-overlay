@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVID"
-DIST_VERSION="v2.0.1"
-DIST_A="Darcs-Notify-2.0.1.tar.gz"
+DIST_VERSION="2.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

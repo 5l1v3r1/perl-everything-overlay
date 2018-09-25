@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWIMMER"
-DIST_VERSION="0.4"
-DIST_A="Hadoop-Admin-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.029"
-DIST_A="Dist-Zilla-Plugin-MakeMaker-Fallback-0.029.tar.gz"
+DIST_VERSION="0.029" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	dev-perl/Dist-Zilla-Plugin-ModuleBuildTiny
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.062
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
@@ -41,3 +41,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-if
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJBUDDEN"
-DIST_VERSION="0.02"
-DIST_A="HTML-WikiConverter-Wikispaces-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

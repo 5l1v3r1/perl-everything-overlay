@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZABGAB"
-DIST_VERSION="0.09"
-DIST_A="File-Tools-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	>=virtual/perl-Test-Simple-0.800
 "
+

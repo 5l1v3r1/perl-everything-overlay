@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="0.163320"
-DIST_A="Git-Sub-0.163320.tar.gz"
+DIST_VERSION="0.163320" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

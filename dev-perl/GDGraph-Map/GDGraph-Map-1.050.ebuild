@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RA"
 DIST_VERSION="1.05"
-DIST_A="GDGraph-Map-1.05.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

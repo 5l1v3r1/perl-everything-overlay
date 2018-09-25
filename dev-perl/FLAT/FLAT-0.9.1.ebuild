@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESTRABD"
-DIST_VERSION="v0.9.1"
-DIST_A="FLAT-0.9.1.tar.gz"
+DIST_VERSION="0.9.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

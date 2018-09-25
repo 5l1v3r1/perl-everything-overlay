@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YAPPO"
-DIST_VERSION="0.00008"
-DIST_A="Data-Model-0.00008.tar.gz"
+DIST_VERSION="0.00008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,9 +27,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.020
+	dev-perl/Module-Build
 	dev-perl/Path-Class
 	>=dev-perl/Test-Class-0.340
 	dev-perl/Test-Exception
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

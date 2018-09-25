@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="6.000"
-DIST_A="Dist-Zilla-Plugin-MatchManifest-6.000.tar.gz"
+DIST_VERSION="6.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-6.000
 	>=dev-perl/Moose-0.650
 	>=dev-perl/Moose-Autobox-0.090
 	dev-perl/Text-Diff
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.003
 	>=virtual/perl-Test-Simple-0.880
 "
+

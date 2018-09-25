@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CASIANO"
-DIST_VERSION="0.127"
-DIST_A="GRID-Machine-0.127.tar.gz"
+DIST_VERSION="0.127" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

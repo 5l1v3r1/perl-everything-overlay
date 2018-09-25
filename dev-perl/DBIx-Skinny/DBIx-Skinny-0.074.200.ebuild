@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEKOKAK"
-DIST_VERSION="0.0742"
-DIST_A="DBIx-Skinny-0.0742.tar.gz"
+DIST_VERSION="0.0742" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-mysqld
 	>=virtual/perl-Test-Simple-0.960
 "
+

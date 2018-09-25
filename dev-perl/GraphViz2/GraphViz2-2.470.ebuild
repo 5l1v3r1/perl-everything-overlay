@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.47"
-DIST_A="GraphViz2-2.47.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.770
+	dev-lang/perl
 	>=dev-perl/Algorithm-Dependency-1.110
 	>=dev-perl/Capture-Tiny-0.360
 	>=dev-perl/Class-ISA-0.360
@@ -55,3 +55,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

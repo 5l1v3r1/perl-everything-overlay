@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJOHNSON"
-DIST_VERSION="0.26"
-DIST_A="Farly-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-Any-0.150
+	>=dev-perl/Log-Any-0.110
 	>=dev-perl/Parse-RecDescent-1.965.001
 	dev-perl/SelfLoader
 	>=dev-perl/Template-Toolkit-2.220
@@ -35,3 +34,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.620
 	virtual/perl-Test-Simple
 "
+

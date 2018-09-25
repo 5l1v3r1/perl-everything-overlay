@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.622"
-DIST_A="Git-Bunch-0.622.tar.gz"
+DIST_VERSION="0.622" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-autodie
 "
+

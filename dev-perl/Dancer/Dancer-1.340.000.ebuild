@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIGPRESH"
-DIST_VERSION="1.3400"
-DIST_A="Dancer-1.3400.tar.gz"
+DIST_VERSION="1.3400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,3 +54,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Digest-MD5
 "
+

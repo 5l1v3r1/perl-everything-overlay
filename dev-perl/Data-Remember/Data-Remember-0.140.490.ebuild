@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.140490"
-DIST_A="Data-Remember-0.140490.tar.gz"
+DIST_VERSION="0.140490" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/DBM-Deep
 	dev-perl/Sub-Exporter
 	dev-perl/YAML-Syck
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
@@ -30,3 +30,4 @@ DEPEND="
 	dev-perl/POE
 	virtual/perl-Test-Simple
 "
+

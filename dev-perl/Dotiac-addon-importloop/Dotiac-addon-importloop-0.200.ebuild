@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="dotiac"
-DIST_VERSION="0.2"
-DIST_A="Dotiac-addon-importloop-0.2.tar.gz"
+DIST_AUTHOR="MALUKU"
+DIST_VERSION="0.2" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MALUKU/dotiac/Dotiac-addon-importloop-0.2.tar.gz -> Dotiac-addon-importloop-0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Dotiac-addon-importloop-0.2 ${WORKDIR}/Dotiac-addon-importloop-0.2
+}
+

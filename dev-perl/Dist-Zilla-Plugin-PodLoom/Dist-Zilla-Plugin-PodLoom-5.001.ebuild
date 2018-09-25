@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="5.001"
-DIST_A="Dist-Zilla-Plugin-PodLoom-5.001.tar.gz"
+DIST_VERSION="5.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.200.001
 	>=dev-perl/Dist-Zilla-Plugins-CJM-0.080
 	dev-perl/Hash-Merge-Simple
 	>=dev-perl/Moose-0.650
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Encode
 	>=virtual/perl-Test-Simple-0.880
 "
+

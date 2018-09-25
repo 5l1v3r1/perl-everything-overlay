@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.10"
-DIST_A="Dist-Maker-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,4 +36,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Any-Moose
+	dev-perl/Moose
+	dev-perl/MooseX-StrictConstructor
+	dev-perl/Test-Perl-Critic
+	dev-perl/Test-Pod-Coverage
 "
+

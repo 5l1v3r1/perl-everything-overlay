@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFRANKS"
-DIST_VERSION="2.03"
-DIST_A="HTML-FormFu-Model-DBIC-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Locale-Maketext
 	>=virtual/perl-Test-Simple-0.990
 "
+

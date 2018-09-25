@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.2104"
-DIST_A="Dancer-Plugin-DBIC-0.2104.tar.gz"
+DIST_VERSION="0.2104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,9 +27,12 @@ DEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-Requires
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Module-Load-Conditional
 	virtual/perl-Test-Simple
 "
+
