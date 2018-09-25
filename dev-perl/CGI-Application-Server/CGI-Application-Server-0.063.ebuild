@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.063"
-DIST_A="CGI-Application-Server-0.063.tar.gz"
+DIST_VERSION="0.063" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/CGI
 	>=dev-perl/CGI-Application-4.210
 	dev-perl/HTTP-Message
-	>=dev-perl/HTTP-Server-Simple-0.180
+	dev-perl/HTTP-Server-Simple
 	>=dev-perl/HTTP-Server-Simple-Static-0.020
 	dev-perl/base
 	>=virtual/perl-Carp-0.010
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

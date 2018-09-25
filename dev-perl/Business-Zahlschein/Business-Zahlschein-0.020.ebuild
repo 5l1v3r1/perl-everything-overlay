@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAVI"
-DIST_VERSION="0.02"
-DIST_A="Business-Zahlschein-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+

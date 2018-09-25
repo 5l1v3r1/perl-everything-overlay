@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSQUIERS"
-DIST_VERSION="1.00"
-DIST_A="Btrees-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

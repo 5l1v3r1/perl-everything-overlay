@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJGARDNER"
-DIST_VERSION="0.020"
-DIST_A="App-DBCritic-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,7 +40,9 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-Most
 	dev-perl/Test-Script
+	dev-perl/base
 	dev-perl/local-lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.940
 "
+

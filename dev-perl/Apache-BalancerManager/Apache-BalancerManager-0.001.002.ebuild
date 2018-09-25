@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.001002"
-DIST_A="Apache-BalancerManager-0.001002.tar.gz"
+DIST_VERSION="0.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-LWP-UserAgent-0.014
 	>=virtual/perl-Test-Simple-0.980
 "
+

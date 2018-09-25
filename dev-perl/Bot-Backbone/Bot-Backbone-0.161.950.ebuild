@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.161950"
-DIST_A="Bot-Backbone-0.161950.tar.gz"
+DIST_VERSION="0.161950" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,5 +31,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

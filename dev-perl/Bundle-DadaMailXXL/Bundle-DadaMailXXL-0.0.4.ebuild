@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJSIMONI"
-DIST_VERSION="0.0.4"
-DIST_A="Bundle-DadaMailXXL-0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

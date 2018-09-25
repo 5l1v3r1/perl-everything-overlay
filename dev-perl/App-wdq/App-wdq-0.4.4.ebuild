@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.4.4"
-DIST_A="App-wdq-0.4.4.tar.gz"
+DIST_VERSION="0.4.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Output
 	dev-perl/Test-PerlTidy
 	virtual/perl-Test-Simple
 "
+

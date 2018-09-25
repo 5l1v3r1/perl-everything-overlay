@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INFIDEL"
-DIST_VERSION="9.6602"
-DIST_A="Alien-InteractiveBrokers-9.6602.tar.gz"
+DIST_VERSION="9.6602" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-HTTP-Tiny
 	virtual/perl-Test-Simple
 "
+

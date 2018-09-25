@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MKANAT"
-DIST_VERSION="0.07"
-DIST_A="Crypt-Random-Source-Strong-Win32-0.07.tar.gz"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/M/MK/MKANAT/Crypt-Random-Source-Strong-Win32-0.07.tar.gz -> Crypt-Random-Source-Strong-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Crypt-Random-Source-Strong-Win32-0.07 ${WORKDIR}/Crypt-Random-Source-Strong-0.07
+}
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.13"
-DIST_A="CGI-Session-ExpireSessions-1.13.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

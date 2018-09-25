@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="1.03"
-DIST_A="Business-CA-GST-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

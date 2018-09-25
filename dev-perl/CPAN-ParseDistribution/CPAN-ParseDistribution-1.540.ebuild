@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="1.54"
-DIST_A="CPAN-ParseDistribution-1.54.tar.gz"
+DIST_VERSION="1.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

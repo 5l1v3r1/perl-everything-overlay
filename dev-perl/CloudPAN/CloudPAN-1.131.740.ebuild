@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="1.131740"
-DIST_A="CloudPAN-1.131740.tar.gz"
+DIST_VERSION="1.131740" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

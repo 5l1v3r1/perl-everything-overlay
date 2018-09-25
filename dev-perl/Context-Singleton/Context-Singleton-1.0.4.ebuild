@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARNEY"
-DIST_VERSION="1.0.4"
-DIST_A="Context-Singleton-1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-Exporter
 	>=virtual/perl-Test-Simple-0.940
 "
+

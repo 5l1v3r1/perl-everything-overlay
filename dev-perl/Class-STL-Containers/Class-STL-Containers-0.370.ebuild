@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDO"
-DIST_VERSION="0.37"
-DIST_A="Class-STL-Containers-0.37.tar.gz"
+DIST_VERSION="0.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="0.124"
-DIST_A="Config-Model-Backend-Augeas-0.124.tar.gz"
+DIST_VERSION="0.124" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-version-0.770
 "
+

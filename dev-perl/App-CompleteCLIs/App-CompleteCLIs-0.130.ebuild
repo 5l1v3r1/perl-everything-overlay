@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.13"
-DIST_A="App-CompleteCLIs-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,7 @@ RDEPEND="
 	>=dev-perl/Complete-Man-0.090
 	dev-perl/Complete-Module
 	dev-perl/Complete-Number
+	dev-perl/Complete-PPR
 	dev-perl/Complete-Perl
 	dev-perl/Complete-Pod-Weaver
 	dev-perl/Complete-Program
@@ -48,3 +48,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

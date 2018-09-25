@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.04"
-DIST_A="CGI-Application-Demo-Ajax-1.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

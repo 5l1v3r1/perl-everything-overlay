@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMA"
-DIST_VERSION="1.42.0"
-DIST_A="Config-YAML-Tiny-1.42.0.tar.gz"
+DIST_VERSION="1.42.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

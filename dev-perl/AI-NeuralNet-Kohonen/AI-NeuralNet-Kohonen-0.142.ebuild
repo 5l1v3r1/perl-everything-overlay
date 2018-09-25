@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LGODDARD"
-DIST_VERSION="0.142"
-DIST_A="AI-NeuralNet-Kohonen-0.142.tar.gz"
+DIST_VERSION="0.142" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAPER"
-DIST_VERSION="0.05"
-DIST_A="Config-Extend-MySQL-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+

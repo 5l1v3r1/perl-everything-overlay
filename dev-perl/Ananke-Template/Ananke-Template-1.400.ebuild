@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="NATTIS"
 DIST_VERSION="1.4"
-DIST_A="Ananke-Template-1.4.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

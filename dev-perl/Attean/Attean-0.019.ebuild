@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWILLIAMS"
-DIST_VERSION="0.019"
-DIST_A="Attean-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,3 +52,4 @@ DEPEND="
 	dev-perl/XML-Simple
 	>=virtual/perl-Test-Simple-0.880
 "
+

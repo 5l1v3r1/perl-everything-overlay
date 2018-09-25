@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKOBES"
-DIST_VERSION="1.99"
-DIST_A="Apache-GeoIP-1.99.tar.gz"
+DIST_VERSION="1.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

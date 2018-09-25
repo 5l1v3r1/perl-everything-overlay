@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITANO"
-DIST_VERSION="0.041"
-DIST_A="Class-Method-Modifiers-Fast-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

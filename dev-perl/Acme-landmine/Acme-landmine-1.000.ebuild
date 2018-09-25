@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Acme"
-DIST_VERSION="1.00"
-DIST_A="Acme-landmine-1.00.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="1.00" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/Acme/Acme-landmine-1.00.tar.gz -> Acme-landmine-1.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-landmine-1.00 ${WORKDIR}/Acme-landmine-1.00
+}
+

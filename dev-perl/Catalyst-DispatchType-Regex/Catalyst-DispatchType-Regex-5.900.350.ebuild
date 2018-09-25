@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="5.90035"
-DIST_A="Catalyst-DispatchType-Regex-5.90035.tar.gz"
+DIST_VERSION="5.90035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

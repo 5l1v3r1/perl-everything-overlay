@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="2.126"
-DIST_A="Config-Model-2.126.tar.gz"
+DIST_VERSION="2.126" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,7 +44,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340
-	>=dev-perl/Config-Model-Tester-3.006
+	dev-perl/Config-Model-Tester
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	dev-perl/Test-File-Contents
@@ -57,3 +56,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

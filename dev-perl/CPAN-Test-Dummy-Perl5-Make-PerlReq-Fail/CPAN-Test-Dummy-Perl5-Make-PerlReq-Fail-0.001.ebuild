@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.001"
-DIST_A="CPAN-Test-Dummy-Perl5-Make-PerlReq-Fail-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

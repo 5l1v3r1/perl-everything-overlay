@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.02"
-DIST_A="App-Randf-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,12 +17,15 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Config-CmdRC-0.070
+	dev-perl/Pod-Usage
 	>=virtual/perl-Getopt-Long-2.420
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.040
+	dev-perl/Capture-Tiny
+	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="0.05"
-DIST_A="Catmandu-OAI-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.036
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

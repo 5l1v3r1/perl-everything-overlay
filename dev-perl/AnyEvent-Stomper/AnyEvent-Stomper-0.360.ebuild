@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPH"
-DIST_VERSION="0.36"
-DIST_A="AnyEvent-Stomper-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.201.505.270
 	>=virtual/perl-Test-Simple-0.980
 "
+

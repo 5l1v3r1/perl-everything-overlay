@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="0.70"
-DIST_A="CGI-Session-Driver-pure_sql-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKI"
-DIST_VERSION="0.09"
-DIST_A="Brownie-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

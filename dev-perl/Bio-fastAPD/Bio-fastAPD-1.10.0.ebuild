@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JDBAUGHER"
-DIST_VERSION="v1.10.0"
-DIST_A="Bio-fastAPD-1.10.0.zip"
+DIST_VERSION="1.10.0"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

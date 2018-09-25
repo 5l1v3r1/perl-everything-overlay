@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.120"
-DIST_A="App-PDRUtils-0.120.tar.gz"
+DIST_VERSION="0.120" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

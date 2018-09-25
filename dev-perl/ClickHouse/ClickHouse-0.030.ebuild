@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELCAMLOST"
-DIST_VERSION="0.03"
-DIST_A="ClickHouse-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 "
+

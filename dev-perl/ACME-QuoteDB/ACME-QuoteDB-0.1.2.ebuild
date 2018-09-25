@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DVWRIGHT"
-DIST_VERSION="0.1.2"
-DIST_A="ACME-QuoteDB-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ DEPEND="
 	>=dev-lang/perl-2.110
 	>=dev-perl/DBD-SQLite-1.140
 	>=dev-perl/HTML-Parser-2.370
-	>=dev-perl/Module-Build-0.280.801
+	dev-perl/Module-Build
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/Text-CSV-1.060
 	>=dev-perl/aliased-0.220
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.800
 	>=virtual/perl-version-0.700
 "
+

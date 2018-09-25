@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="2.003"
-DIST_A="Blio-2.003.tar.gz"
+DIST_VERSION="2.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,5 +41,7 @@ DEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Test-File
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

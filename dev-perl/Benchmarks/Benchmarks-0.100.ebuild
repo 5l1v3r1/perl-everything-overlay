@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.10"
-DIST_A="Benchmarks-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.880
 "
+

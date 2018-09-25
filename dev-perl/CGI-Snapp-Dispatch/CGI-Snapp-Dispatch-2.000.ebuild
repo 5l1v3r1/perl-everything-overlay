@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.00"
-DIST_A="CGI-Snapp-Dispatch-2.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +39,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.302.052
 "
+

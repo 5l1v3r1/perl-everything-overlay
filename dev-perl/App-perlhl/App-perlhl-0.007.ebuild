@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.007"
-DIST_A="App-perlhl-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,17 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	>=dev-perl/Syntax-Highlight-Perl-Improved-1.010
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Term-ANSIColor-3.000
 	virtual/perl-if
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Output
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

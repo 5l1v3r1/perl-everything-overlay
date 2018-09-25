@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.04"
-DIST_A="Amon2-CLI-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,13 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Amon2
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.050
+	dev-perl/Test-Output
+	>=virtual/perl-Test-Simple-0.880
 "
+

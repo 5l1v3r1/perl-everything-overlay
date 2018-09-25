@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILMARI"
-DIST_VERSION="0.001002"
-DIST_A="DBIx-Class-IntrospectableM2M-0.001002.tar.gz"
+DIST_VERSION="0.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

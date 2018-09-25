@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HJANSEN"
-DIST_VERSION="0.0001"
-DIST_A="CHI-Driver-MongoDB-0.0001.tar.gz"
+DIST_VERSION="0.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

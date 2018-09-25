@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAIN"
-DIST_VERSION="v0.9.3"
-DIST_A="AnyEvent-Yubico-0.9.3.tar.gz"
+DIST_VERSION="0.9.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.290
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICVU"
-DIST_VERSION="2.00"
-DIST_A="App-Dockerfile-Template-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Sub-Override
 	virtual/perl-Test-Simple
 "
+

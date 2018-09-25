@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RIBASUSHI"
-DIST_VERSION="0.14"
-DIST_A="DBIx-Class-TimeStamp-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

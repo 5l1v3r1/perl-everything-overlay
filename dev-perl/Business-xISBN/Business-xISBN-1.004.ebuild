@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.004"
-DIST_A="Business-xISBN-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=virtual/perl-Test-Simple-0.950
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBUHACOFF"
-DIST_VERSION="1.2"
-DIST_A="CGI-Session-BitBucket-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

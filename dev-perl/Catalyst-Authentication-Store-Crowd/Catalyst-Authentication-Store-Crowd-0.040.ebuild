@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEKUNG"
-DIST_VERSION="0.04"
-DIST_A="Catalyst-Authentication-Store-Crowd-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

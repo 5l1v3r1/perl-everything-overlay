@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.130220"
-DIST_A="AnyEvent-Onkyo-1.130220.tar.gz"
+DIST_VERSION="1.130220" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/Device-Onkyo
 	dev-perl/Pod-Usage
 	dev-perl/Sub-Name
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-Scalar-List-Utils
@@ -35,3 +35,4 @@ DEPEND="
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+

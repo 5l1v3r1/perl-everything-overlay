@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="docparser"
-DIST_VERSION="1.10"
-DIST_A="Biblio-Document-Parser-1.10.tar.gz"
+DIST_AUTHOR="MJEWELL"
+DIST_VERSION="1.10" 
+SRC_URI="mirror://cpan/authors/id/M/MJ/MJEWELL/docparser/Biblio-Document-Parser-1.10.tar.gz -> Biblio-Document-Parser-1.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +22,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Biblio-Document-Parser-1.10 ${WORKDIR}/Biblio-Document-Parser-1.10
+}
+

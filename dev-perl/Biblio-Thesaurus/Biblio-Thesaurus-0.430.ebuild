@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Biblio"
-DIST_VERSION="0.43"
-DIST_A="Biblio-Thesaurus-0.43.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.43" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Biblio/Biblio-Thesaurus-0.43.tar.gz -> Biblio-Thesaurus-0.43.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Biblio-Thesaurus-0.43 ${WORKDIR}/Biblio-Thesaurus-0.43
+}
+

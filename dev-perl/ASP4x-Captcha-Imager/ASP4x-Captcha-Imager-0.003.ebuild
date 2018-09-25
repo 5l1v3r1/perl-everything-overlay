@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="0.003"
-DIST_A="ASP4x-Captcha-Imager-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	>=dev-perl/Imager-0.710
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.770
 "
 DEPEND="
 	${RDEPEND}
 "
+

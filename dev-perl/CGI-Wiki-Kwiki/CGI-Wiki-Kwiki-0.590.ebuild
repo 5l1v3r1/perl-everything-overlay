@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAKE"
-DIST_VERSION="0.59"
-DIST_A="CGI-Wiki-Kwiki-0.59.tar.gz"
+DIST_VERSION="0.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Algorithm-Merge
 	dev-perl/CGI
-	>=dev-perl/CGI-Wiki-0.560
 	dev-perl/CGI-Wiki-Formatter-UseMod
 	>=dev-perl/CGI-Wiki-Plugin-Diff-0.070
 	dev-perl/Template-Toolkit
@@ -27,4 +25,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	virtual/perl-Digest-MD5
+	virtual/perl-Test-Simple
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TBONECA"
-DIST_VERSION="0.01"
-DIST_A="BSD-Jail-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TB/TBONECA/BSD/Jail/BSD-Jail-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/T/TB/TBONECA/BSD/Jail/BSD-Jail-0.01.tar.gz -> BSD-Jail-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/BSD-Jail-0.01 ${WORKDIR}/BSD-Jail-0.01
+}
+

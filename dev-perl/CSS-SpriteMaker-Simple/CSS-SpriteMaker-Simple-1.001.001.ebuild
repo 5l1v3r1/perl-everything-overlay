@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.001001"
-DIST_A="CSS-SpriteMaker-Simple-1.001001.tar.gz"
+DIST_VERSION="1.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.310
 	>=dev-perl/Mojolicious-Plugin-AssetPack-0.680
 	virtual/perl-Carp
 	virtual/perl-File-Spec
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

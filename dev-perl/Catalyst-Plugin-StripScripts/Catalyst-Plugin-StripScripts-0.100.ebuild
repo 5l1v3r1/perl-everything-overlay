@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XERN"
-DIST_VERSION="0.1"
-DIST_A="Catalyst-Plugin-StripScripts-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTML-StripScripts-Parser
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

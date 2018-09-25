@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.005"
-DIST_A="App-Cmd-Plugin-Prompt-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

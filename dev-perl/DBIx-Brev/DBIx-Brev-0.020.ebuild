@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OKHARCH"
-DIST_VERSION="0.02"
-DIST_A="DBIx-Brev-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/DBD-SQLite-1.270
 	>=virtual/perl-CPAN-Meta-1.440.400
 "
+

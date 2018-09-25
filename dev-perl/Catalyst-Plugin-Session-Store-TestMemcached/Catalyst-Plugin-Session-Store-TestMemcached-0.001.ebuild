@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.001"
-DIST_A="Catalyst-Plugin-Session-Store-TestMemcached-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.250
 	dev-perl/Test-WWW-Mechanize-Catalyst
 "
+

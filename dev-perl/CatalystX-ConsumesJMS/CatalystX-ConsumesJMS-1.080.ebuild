@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="1.08"
-DIST_A="CatalystX-ConsumesJMS-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-ActionRole-JMS
 	dev-perl/Catalyst-Runtime
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-2.080.100
+	dev-perl/Moose
 	dev-perl/namespace-autoclean
 "
 DEPEND="
@@ -35,5 +34,7 @@ DEPEND="
 	dev-perl/Plack-Handler-Stomp
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

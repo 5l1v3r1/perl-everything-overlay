@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NYAAPA"
-DIST_VERSION="0.08"
-DIST_A="ABNF-Grammar-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

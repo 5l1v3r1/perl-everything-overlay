@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.001"
-DIST_A="CPAN-Testers-Metabase-MongoDB-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Metabase-1.000
+	dev-perl/Metabase
 	>=dev-perl/Metabase-Backend-MongoDB-1.000
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

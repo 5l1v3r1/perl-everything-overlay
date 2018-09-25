@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OHOLLMEN"
-DIST_VERSION="0.25"
-DIST_A="Citrix-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

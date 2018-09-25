@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NWELLNHOF"
-DIST_VERSION="0.6.3"
-DIST_A="Clownfish-CFC-0.6.3.tar.gz"
+DIST_VERSION="0.6.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.180
 	>=virtual/perl-ExtUtils-ParseXS-3.000
 "
+

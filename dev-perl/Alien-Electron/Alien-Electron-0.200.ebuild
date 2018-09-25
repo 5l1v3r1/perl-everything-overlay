@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.200"
-DIST_A="Alien-Electron-0.200.tar.gz"
+DIST_VERSION="0.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-Test-Simple
 "
+

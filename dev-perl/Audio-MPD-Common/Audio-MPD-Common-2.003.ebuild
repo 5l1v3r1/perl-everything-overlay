@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="2.003"
-DIST_A="Audio-MPD-Common-2.003.tar.gz"
+DIST_VERSION="2.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/Readonly
 	dev-perl/String-Formatter
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

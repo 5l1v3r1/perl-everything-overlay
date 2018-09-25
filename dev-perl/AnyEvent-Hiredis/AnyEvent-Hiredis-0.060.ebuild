@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WHITNEY"
-DIST_VERSION="0.06"
-DIST_A="AnyEvent-Hiredis-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

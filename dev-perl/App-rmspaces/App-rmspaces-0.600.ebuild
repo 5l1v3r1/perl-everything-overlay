@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHOS"
-DIST_VERSION="0.6"
-DIST_A="App-rmspaces-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.090
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WEHR"
-DIST_VERSION="1.1"
-DIST_A="Catalyst-Plugin-Localize-Simple-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/YAML
 	dev-perl/YAML-Syck
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

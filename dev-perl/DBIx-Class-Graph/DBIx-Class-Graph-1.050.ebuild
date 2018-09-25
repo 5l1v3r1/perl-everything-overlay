@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="1.05"
-DIST_A="DBIx-Class-Graph-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

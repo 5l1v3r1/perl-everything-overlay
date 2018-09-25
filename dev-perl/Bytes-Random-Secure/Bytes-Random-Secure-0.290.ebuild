@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDO"
-DIST_VERSION="0.29"
-DIST_A="Bytes-Random-Secure-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Crypt-Random-Seed
 	dev-perl/Math-Random-ISAAC
 	virtual/perl-Carp
-	virtual/perl-MIME-Base64
+	>=virtual/perl-MIME-Base64-3.030
 	>=virtual/perl-Scalar-List-Utils-1.210
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.560
 	>=virtual/perl-Test-Simple-0.980
 "
+

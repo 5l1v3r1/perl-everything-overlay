@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JPIERCE"
 DIST_VERSION="2.01"
-DIST_A="CGI-Imagemap-2.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RRA"
-DIST_VERSION="1.02"
-DIST_A="AFS-PAG-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-CBuilder
 "
+

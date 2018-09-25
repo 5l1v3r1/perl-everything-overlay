@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.16"
-DIST_A="AnyEvent-FTP-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/EV
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

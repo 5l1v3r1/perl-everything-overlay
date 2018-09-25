@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="0.10"
-DIST_A="AnyEvent-Gearman-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-TCP-0.080
 	>=virtual/perl-Test-Simple-0.920
 "
+

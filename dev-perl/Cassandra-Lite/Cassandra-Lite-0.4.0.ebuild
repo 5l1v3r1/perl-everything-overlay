@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSLIN"
-DIST_VERSION="v0.4.0"
-DIST_A="Cassandra-Lite-0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,13 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-lang/perl
 	dev-perl/Any-Moose
 	dev-perl/Class-Accessor
-	dev-perl/Thrift
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RJH"
 DIST_VERSION="0.3"
-DIST_A="ANSI-Heatmap-0.3.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERNST"
-DIST_VERSION="5.0.0.1"
-DIST_A="Bio-Emboss-5.0.0.1.tar.gz"
+DIST_VERSION="5.0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.021"
-DIST_A="Async-Queue-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

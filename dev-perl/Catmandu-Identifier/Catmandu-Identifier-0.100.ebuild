@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPEIL"
-DIST_VERSION="0.10"
-DIST_A="Catmandu-Identifier-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,9 +30,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Log-Any-1.030
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.112
 	>=dev-perl/Test-Exception-0.320
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

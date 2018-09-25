@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREMAR"
-DIST_VERSION="0.100330"
-DIST_A="Catalyst-Plugin-Devel-ModuleVersions-0.100330.tar.gz"
+DIST_VERSION="0.100330" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	dev-perl/Test-MockObject
 	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/base
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
@@ -29,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

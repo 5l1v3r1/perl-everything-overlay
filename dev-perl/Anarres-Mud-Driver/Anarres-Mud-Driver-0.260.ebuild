@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHEVEK"
-DIST_VERSION="0.26"
-DIST_A="Anarres-Mud-Driver-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

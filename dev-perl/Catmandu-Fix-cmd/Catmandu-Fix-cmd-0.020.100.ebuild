@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICS"
-DIST_VERSION="0.0201"
-DIST_A="Catmandu-Fix-cmd-0.0201.tar.gz"
+DIST_VERSION="0.0201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.228"
-DIST_A="Brick-0.228.tar.gz"
+DIST_VERSION="0.228" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.940
 "
+

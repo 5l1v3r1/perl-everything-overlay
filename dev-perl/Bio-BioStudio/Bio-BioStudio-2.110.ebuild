@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOTDOCTOR"
-DIST_VERSION="2.11"
-DIST_A="Bio-BioStudio-2.11.tar.gz"
+DIST_VERSION="2.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Bio-GeneDesign-5.000
-	dev-perl/BioPerl
 	>=dev-perl/DBD-SQLite-1.480
 	>=dev-perl/Exception-Class-1.380
 	>=dev-perl/Readonly-2.000
@@ -29,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "
+

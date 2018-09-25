@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.172150"
-DIST_A="AnyEvent-MockTCPServer-1.172150.tar.gz"
+DIST_VERSION="1.172150" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

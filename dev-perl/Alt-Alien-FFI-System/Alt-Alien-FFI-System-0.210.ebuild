@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.21"
-DIST_A="Alt-Alien-FFI-System-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Alien-Build
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAPHAR"
-DIST_VERSION="0.9.8"
-DIST_A="Bricklayer-Templater-0.9.8.tar.gz"
+DIST_VERSION="0.9.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

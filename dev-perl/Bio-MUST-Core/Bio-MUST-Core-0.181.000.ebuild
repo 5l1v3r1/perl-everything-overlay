@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBAURAIN"
-DIST_VERSION="0.181000"
-DIST_A="Bio-MUST-Core-0.181000.tar.gz"
+DIST_VERSION="0.181000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -62,3 +61,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
 "
+

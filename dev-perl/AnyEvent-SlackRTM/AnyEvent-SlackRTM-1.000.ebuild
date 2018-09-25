@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="1.0"
-DIST_A="AnyEvent-SlackRTM-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

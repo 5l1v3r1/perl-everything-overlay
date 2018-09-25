@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEMPESAW"
-DIST_VERSION="0.17"
-DIST_A="Browsermob-Proxy-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Net-HTTP-Spore
 	dev-perl/Net-HTTP-Spore-Middleware-DefaultParams
-	dev-perl/Net-HTTP-Spore-Middleware-Format-Text
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -34,7 +32,9 @@ DEPEND="
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Spec
 	dev-perl/Try-Tiny
+	dev-perl/lib
 	virtual/perl-Net-Ping
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.12"
-DIST_A="Bencher-Scenario-SetOperationModules-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/Array-Set
 	dev-perl/Array-Utils
 	dev-perl/List-Collection
-	dev-perl/List-MoreUtils
+	>=dev-perl/List-MoreUtils-0.407
 	dev-perl/Set-Array
 	dev-perl/Set-Object
 	dev-perl/Set-Scalar
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

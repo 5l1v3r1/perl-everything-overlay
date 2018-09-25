@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWNCORP"
-DIST_VERSION="0.36"
-DIST_A="Bubblegum-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,6 @@ RDEPEND="
 	>=dev-perl/Syntax-Keyword-Junction-0.003.007
 	>=dev-perl/Throwable-0.200.011
 	>=dev-perl/Type-Tiny-0.032
-	dev-perl/autobox
 	>=dev-perl/namespace-autoclean-0.190
 	dev-perl/utf8-all
 	virtual/perl-autodie
@@ -34,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

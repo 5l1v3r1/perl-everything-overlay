@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Commercial_Software_Interfaces"
-DIST_VERSION="0.003"
-DIST_A="Conductrics-Client-0.003.tar.gz"
+DIST_AUTHOR="FERZ"
+DIST_VERSION="0.003" 
+SRC_URI="mirror://cpan/authors/id/F/FE/FERZ/Commercial_Software_Interfaces/Conductrics-Client-0.003.tar.gz -> Conductrics-Client-0.003.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +33,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Conductrics-Client-0.003 ${WORKDIR}/Conductrics-Client-0.003
+}
+

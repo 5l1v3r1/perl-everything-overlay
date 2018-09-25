@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.11"
-DIST_A="Catmandu-Plack-unAPI-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	dev-perl/Moo
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHREEF"
-DIST_VERSION="0.001"
-DIST_A="Alien-XInputSimulator-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Build-1.210
+	>=dev-perl/Alien-Build-0.320
 	>=dev-perl/Alien-cmake3-0.020
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	dev-lang/perl
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

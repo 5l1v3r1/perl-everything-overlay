@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="2.04"
-DIST_A="Alien-LibYAML-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

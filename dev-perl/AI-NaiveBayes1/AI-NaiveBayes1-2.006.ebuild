@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VLADO"
-DIST_VERSION="2.006"
-DIST_A="AI-NaiveBayes1-2.006.tar.gz"
+DIST_VERSION="2.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

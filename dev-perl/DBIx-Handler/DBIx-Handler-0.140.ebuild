@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.14"
-DIST_A="DBIx-Handler-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	>=dev-perl/Test-SharedFork-0.160
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBRADFORD"
-DIST_VERSION="0.001"
-DIST_A="Catalyst-Authentication-Store-CouchDB-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-lang/perl
+	>=dev-lang/perl-1.490
 	dev-perl/Catalyst-Plugin-Authorization-Roles
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
@@ -38,3 +37,4 @@ DEPEND="
 	>=dev-perl/libwww-perl-5.834
 	>=virtual/perl-Test-Simple-0.980
 "
+

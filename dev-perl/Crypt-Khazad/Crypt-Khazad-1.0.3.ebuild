@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCDUQUE"
-DIST_VERSION="v1.0.3"
-DIST_A="Crypt-Khazad-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

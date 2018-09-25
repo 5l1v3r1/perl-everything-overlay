@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NSNAKE"
-DIST_VERSION="0.5"
-DIST_A="Asterisk-config-syntax-highlight-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Std-Utils
+	dev-perl/Syntax-Highlight-Engine-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

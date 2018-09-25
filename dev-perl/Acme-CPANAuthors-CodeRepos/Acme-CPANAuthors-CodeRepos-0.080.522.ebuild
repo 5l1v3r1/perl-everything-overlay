@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISHIGAKI"
-DIST_VERSION="0.080522"
-DIST_A="Acme-CPANAuthors-CodeRepos-0.080522.tar.gz"
+DIST_VERSION="0.080522" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

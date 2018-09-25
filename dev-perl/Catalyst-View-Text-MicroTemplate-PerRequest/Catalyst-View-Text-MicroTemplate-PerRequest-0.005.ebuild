@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.005"
-DIST_A="Catalyst-View-Text-MicroTemplate-PerRequest-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Path-Class-0.350
 	>=dev-perl/Test-Most-0.340
 "
+

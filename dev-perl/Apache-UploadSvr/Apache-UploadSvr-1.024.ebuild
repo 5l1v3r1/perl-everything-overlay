@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDK"
-DIST_VERSION="1.024"
-DIST_A="Apache-UploadSvr-1.024.tar.gz"
+DIST_VERSION="1.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LJEPSON"
-DIST_VERSION="2.47"
-DIST_A="CGI-Ex-2.47.tar.gz"
+DIST_VERSION="2.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

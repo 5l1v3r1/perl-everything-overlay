@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.001001"
-DIST_A="Cogit-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-utf8-0.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JENDA"
-DIST_VERSION="v0.2.1"
-DIST_A="CGI-Authent-0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

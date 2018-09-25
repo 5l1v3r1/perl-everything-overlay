@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.15"
-DIST_A="AWS-S3-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-0.310
 "
+

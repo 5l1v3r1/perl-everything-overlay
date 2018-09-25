@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKINYON"
-DIST_VERSION="0.000012"
-DIST_A="DBIx-Class-Sims-REST-0.000012.tar.gz"
+DIST_VERSION="0.000012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

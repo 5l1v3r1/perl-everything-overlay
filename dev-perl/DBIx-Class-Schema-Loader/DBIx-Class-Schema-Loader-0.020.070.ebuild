@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLBLACK"
-DIST_VERSION="0.02007"
-DIST_A="DBIx-Class-Schema-Loader-0.02007.tar.gz"
+DIST_VERSION="0.02007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/DBD-SQLite-1.110
 	>=dev-perl/DBI-1.400
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.320
 "
+

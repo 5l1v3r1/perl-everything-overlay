@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.21"
-DIST_A="App-rimetadb-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,6 +34,7 @@ RDEPEND="
 	dev-perl/Sah-Schemas-Path
 	dev-perl/Sah-Schemas-Perl
 	dev-perl/experimental
+	dev-perl/lib
 	virtual/perl-Module-Load
 "
 DEPEND="
@@ -45,3 +45,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

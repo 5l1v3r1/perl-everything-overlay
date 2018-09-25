@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCMAHON"
-DIST_VERSION="1.03"
-DIST_A="App-SimpleScan-Plugin-LinkCheck-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

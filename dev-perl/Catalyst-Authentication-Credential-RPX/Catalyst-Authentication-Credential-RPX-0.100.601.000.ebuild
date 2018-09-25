@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.10060100"
-DIST_A="Catalyst-Authentication-Credential-RPX-0.10060100.tar.gz"
+DIST_VERSION="0.10060100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

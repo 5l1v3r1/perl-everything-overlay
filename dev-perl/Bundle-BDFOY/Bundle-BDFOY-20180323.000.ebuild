@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="20180323.0"
-DIST_A="Bundle-BDFOY-20180323.tar.gz"
+DIST_VERSION="20180323" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -110,3 +109,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.940
 "
+

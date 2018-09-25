@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SREZIC"
-DIST_VERSION="0.01"
-DIST_A="CPAN-Test-Dummy-Perl5-BuildRequires-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.550.300
 	dev-perl/CPAN-Test-Dummy-Perl5-Make
 "
+

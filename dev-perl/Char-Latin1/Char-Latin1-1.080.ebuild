@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Latin1"
-DIST_VERSION="1.08"
-DIST_A="Char-Latin1-1.08.tar.gz"
+DIST_AUTHOR="INA"
+DIST_VERSION="1.08" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Char/Latin1/Char-Latin1-1.08.tar.gz -> Char-Latin1-1.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Char-Latin1-1.08 ${WORKDIR}/Char-Latin1-1.08
+}
+

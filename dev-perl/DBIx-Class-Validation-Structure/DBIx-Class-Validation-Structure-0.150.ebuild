@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LJR"
-DIST_VERSION="0.15"
-DIST_A="DBIx-Class-Validation-Structure-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
 	dev-perl/Test-DBIx-Class
 	dev-perl/Test-Warnings
 	>=virtual/perl-Test-Simple-0.880
 "
+

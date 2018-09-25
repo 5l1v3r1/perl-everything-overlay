@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLAFFAN"
-DIST_VERSION="1.09"
-DIST_A="Alien-gdal-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Build-0.250
+	>=dev-perl/Alien-Build-0.038
 "
 DEPEND="
 	${RDEPEND}
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Archive-Tar
 	virtual/perl-IO-Zlib
 "
+

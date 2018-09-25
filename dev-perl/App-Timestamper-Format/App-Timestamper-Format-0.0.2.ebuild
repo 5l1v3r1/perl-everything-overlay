@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.2"
-DIST_A="App-Timestamper-Format-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-autodie
 "
+

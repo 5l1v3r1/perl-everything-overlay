@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTHEGLER"
-DIST_VERSION="0.02"
-DIST_A="Algorithm-Interval2Prefix-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

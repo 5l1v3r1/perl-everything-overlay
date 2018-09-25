@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARDIWAL"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-Plugin-EncryptID-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	virtual/perl-Test-Simple
 "
+

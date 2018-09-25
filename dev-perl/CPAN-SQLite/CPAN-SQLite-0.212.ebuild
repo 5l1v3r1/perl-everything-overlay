@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STRO"
-DIST_VERSION="0.212"
-DIST_A="CPAN-SQLite-0.212.tar.gz"
+DIST_VERSION="0.212" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/File-HomeDir
 	>=virtual/perl-Archive-Tar-1.540
-	virtual/perl-CPAN
+	>=virtual/perl-CPAN-1.930
 	virtual/perl-Exporter
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

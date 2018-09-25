@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREIN"
-DIST_VERSION="0.1"
-DIST_A="App-VirtPerl-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/App-cpanminus
 	dev-perl/JSON
+	dev-perl/lib
 	>=virtual/perl-File-Path-2.000
 "
 DEPEND="
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

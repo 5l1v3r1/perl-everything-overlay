@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.02"
-DIST_A="Bencher-Scenarios-LogDispatch-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Dispatch
-	dev-perl/Log-Dispatch-Dir
-	>=dev-perl/Log-Dispatch-FileWriteRotate-0.040
-	dev-perl/Log-Dispatch-Perl
 	dev-perl/Log-Dispatch-Screen-Color
 "
 DEPEND="
@@ -31,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FROGGS"
-DIST_VERSION="0.106"
-DIST_A="Alien-Box2D-0.106.tar.gz"
+DIST_VERSION="0.106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/ExtUtils-CppGuess
 	virtual/perl-ExtUtils-MakeMaker
 "
+

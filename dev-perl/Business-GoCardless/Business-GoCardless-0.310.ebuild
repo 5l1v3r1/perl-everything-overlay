@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.31"
-DIST_A="Business-GoCardless-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.310
 	>=dev-perl/Try-Tiny-0.220
 "
+

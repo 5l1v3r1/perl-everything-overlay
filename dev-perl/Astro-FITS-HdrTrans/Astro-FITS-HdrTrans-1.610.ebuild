@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSB"
-DIST_VERSION="1.61"
-DIST_A="Astro-FITS-HdrTrans-1.61.tar.gz"
+DIST_VERSION="1.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Number-Delta
 	virtual/perl-Test-Simple
 "
+

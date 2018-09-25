@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="0.03"
-DIST_A="Catmandu-PNX-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Pod
 	dev-perl/Test-Warnings
 	>=dev-perl/XML-XPath-1.130
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

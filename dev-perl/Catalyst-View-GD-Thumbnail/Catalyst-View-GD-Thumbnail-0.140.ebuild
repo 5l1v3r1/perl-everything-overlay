@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UGEXE"
-DIST_VERSION="0.14"
-DIST_A="Catalyst-View-GD-Thumbnail-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

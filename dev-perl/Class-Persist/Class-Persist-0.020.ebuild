@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCLAMP"
-DIST_VERSION="0.02"
-DIST_A="Class-Persist-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/DBD-SQLite
 	dev-perl/File-Find-Rule
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.000
 	virtual/perl-Test-Simple
 "
+

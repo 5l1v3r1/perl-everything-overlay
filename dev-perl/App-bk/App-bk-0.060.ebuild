@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCS"
-DIST_VERSION="0.06"
-DIST_A="App-bk-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,14 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Which
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Test-Trap
+	>=virtual/perl-CPAN-Meta-2.133.380
+	>=virtual/perl-Test-Simple-0.940
 "
+

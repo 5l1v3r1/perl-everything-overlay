@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEPHEN"
-DIST_VERSION="1.35"
-DIST_A="Attribute-Default-1.35.tar.gz"
+DIST_VERSION="1.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

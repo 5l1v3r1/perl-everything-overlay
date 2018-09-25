@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SRSHAH"
-DIST_VERSION="1.14"
-DIST_A="CGI-Widget-Tabs-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-Distribution-1.140
 	virtual/perl-Test-Simple
 "
+

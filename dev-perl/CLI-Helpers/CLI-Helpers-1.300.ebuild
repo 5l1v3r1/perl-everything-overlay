@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="1.3"
-DIST_A="CLI-Helpers-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLACO"
-DIST_VERSION="0.13000"
-DIST_A="AxKit-XSP-Currency-0.13000.tar.gz"
+DIST_VERSION="0.13000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

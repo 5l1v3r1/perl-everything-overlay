@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IBB"
-DIST_VERSION="0.12"
-DIST_A="Class-Declare-Attributes-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.150
 	virtual/perl-Test-Simple
 "
+

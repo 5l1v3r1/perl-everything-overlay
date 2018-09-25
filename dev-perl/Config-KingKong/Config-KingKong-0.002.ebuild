@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAPHINK"
-DIST_VERSION="0.002"
-DIST_A="Config-KingKong-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.201
 	virtual/perl-Test-Simple
 "
+

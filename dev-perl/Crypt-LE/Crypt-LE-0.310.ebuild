@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEADER"
-DIST_VERSION="0.31"
-DIST_A="Crypt-LE-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,10 +31,11 @@ RDEPEND="
 	>=virtual/perl-Module-Load-0.280
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
-	virtual/perl-Time-Piece
+	>=virtual/perl-Time-Piece-1.270
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 "
+

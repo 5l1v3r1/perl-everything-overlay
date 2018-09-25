@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="2.00"
-DIST_A="App-Benchmark-Accessors-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,4 +39,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/App-Benchmark
+	dev-perl/Module-Build
 "
+

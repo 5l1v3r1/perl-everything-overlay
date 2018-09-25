@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="2.0.5"
-DIST_A="Catalyst-Authentication-Credential-Twitter-2.0.5.tar.gz"
+DIST_VERSION="2.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

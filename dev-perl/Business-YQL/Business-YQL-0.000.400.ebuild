@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
-	>=dev-perl/Log-Any-0.150
+	>=dev-perl/Log-Any-0.110
 	>=dev-perl/Moo-1.004.002
 	dev-perl/Try-Tiny
 	dev-perl/URI

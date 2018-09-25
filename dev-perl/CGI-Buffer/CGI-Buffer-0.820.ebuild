@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.82"
-DIST_A="CGI-Buffer-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-TempDir-Tiny
 	dev-perl/WWW-RT-CPAN
 "
+

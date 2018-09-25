@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARODLAND"
-DIST_VERSION="0.161520"
-DIST_A="Crypt-PBKDF2-0.161520.tar.gz"
+DIST_VERSION="0.161520" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

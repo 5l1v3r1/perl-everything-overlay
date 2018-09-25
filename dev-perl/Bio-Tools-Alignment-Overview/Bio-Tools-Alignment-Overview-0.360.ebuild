@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEPREVOST"
-DIST_VERSION="0.36"
-DIST_A="Bio-Tools-Alignment-Overview-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVAZ"
-DIST_VERSION="0.01003"
-DIST_A="Class-Light-0.01003.tar.gz"
+DIST_VERSION="0.01003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

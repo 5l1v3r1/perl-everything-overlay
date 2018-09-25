@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LECSTOR"
-DIST_VERSION="0.001"
-DIST_A="Catalyst-View-PDFBoxer-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	>=dev-perl/PDF-Boxer-0.003
+	dev-perl/PDF-Boxer
 	dev-perl/namespace-clean
 "
 DEPEND="
@@ -27,5 +26,7 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-TT
 	dev-perl/Path-Class
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

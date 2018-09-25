@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.102"
-DIST_A="BeePack-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.001.009
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.11"
-DIST_A="Catalyst-Plugin-Authentication-Store-DBIC-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,9 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/DBIx-Class
 	>=dev-perl/Set-Object-1.140
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

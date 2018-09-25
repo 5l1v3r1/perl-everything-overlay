@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSHANGOV"
-DIST_VERSION="1.14"
-DIST_A="CPAN-Inject-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.020
 	>=virtual/perl-Test-Simple-0.420
 "
+

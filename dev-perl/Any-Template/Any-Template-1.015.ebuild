@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBC"
-DIST_VERSION="1.015"
-DIST_A="Any-Template-1.015.tar.gz"
+DIST_VERSION="1.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

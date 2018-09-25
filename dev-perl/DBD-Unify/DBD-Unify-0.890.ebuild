@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HMBRAND"
 DIST_VERSION="0.89"
-DIST_A="DBD-Unify-0.89.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

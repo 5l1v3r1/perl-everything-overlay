@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.004"
-DIST_A="App-lcpan-CmdBundle-gh-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/App-lcpan-1.017
+	dev-perl/App-lcpan
 	dev-perl/Browser-Open
 	>=dev-perl/IPC-System-Options-0.270
 	>=dev-perl/Log-ger-0.011
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

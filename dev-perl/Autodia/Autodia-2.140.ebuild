@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEEJAY"
-DIST_VERSION="2.14"
-DIST_A="Autodia-2.14.tar.gz"
+DIST_VERSION="2.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

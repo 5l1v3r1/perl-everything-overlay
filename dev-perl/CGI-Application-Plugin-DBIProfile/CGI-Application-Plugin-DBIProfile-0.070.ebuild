@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNRTST"
-DIST_VERSION="0.07"
-DIST_A="CGI-Application-Plugin-DBIProfile-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.04"
-DIST_A="Class-Monadic-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	dev-perl/Hash-FieldHash
 	>=dev-perl/Test-LeakTrace-0.080
 	>=virtual/perl-Exporter-5.570
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="
 	${RDEPEND}
 "
+

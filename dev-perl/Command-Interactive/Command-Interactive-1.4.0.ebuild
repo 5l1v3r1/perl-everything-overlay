@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="v1.4.0"
-DIST_A="Command-Interactive-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
 "
+

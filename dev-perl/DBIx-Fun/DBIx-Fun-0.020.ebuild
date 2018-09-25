@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="KLEINJ"
 DIST_VERSION="0.02"
-DIST_A="DBIx-Fun-0.02.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

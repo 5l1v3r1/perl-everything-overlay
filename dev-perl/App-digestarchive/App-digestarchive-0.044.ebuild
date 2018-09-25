@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLY"
-DIST_VERSION="0.044"
-DIST_A="App-digestarchive-0.044.tar.gz"
+DIST_VERSION="0.044" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

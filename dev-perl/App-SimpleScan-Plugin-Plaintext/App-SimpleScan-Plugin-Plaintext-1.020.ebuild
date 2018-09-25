@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCMAHON"
-DIST_VERSION="1.02"
-DIST_A="App-SimpleScan-Plugin-Plaintext-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

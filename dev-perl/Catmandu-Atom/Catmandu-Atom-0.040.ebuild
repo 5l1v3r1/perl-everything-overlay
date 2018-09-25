@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="0.04"
-DIST_A="Catmandu-Atom-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

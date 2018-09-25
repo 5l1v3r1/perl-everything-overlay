@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSB"
-DIST_VERSION="1.28"
-DIST_A="Argv-1.28.tar.gz"
+DIST_VERSION="1.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

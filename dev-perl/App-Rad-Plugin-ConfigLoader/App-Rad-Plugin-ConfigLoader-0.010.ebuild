@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GARU"
-DIST_VERSION="0.01"
-DIST_A="App-Rad-Plugin-ConfigLoader-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/App-Rad-1.000
 	dev-perl/Config-Any
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

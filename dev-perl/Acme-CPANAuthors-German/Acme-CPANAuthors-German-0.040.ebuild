@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBO"
-DIST_VERSION="0.04"
-DIST_A="Acme-CPANAuthors-German-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Acme-CPANAuthors-Austrian
 	virtual/perl-Test-Simple
 "
+

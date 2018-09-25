@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TINITA"
-DIST_VERSION="0.003"
-DIST_A="App-Spec-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

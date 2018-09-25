@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRANTM"
-DIST_VERSION="2.00"
-DIST_A="App-BCVI-NotifyClient-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

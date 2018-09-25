@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MNUNBERG"
-DIST_VERSION="v2.0.3"
-DIST_A="Couchbase-2.0.3.tar.gz"
+DIST_VERSION="2.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Class-0.360
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KMX"
-DIST_VERSION="0.992"
-DIST_A="App-local-lib-Win32Helper-0.992.tar.gz"
+DIST_VERSION="0.992" 
+SRC_URI="mirror://cpan/authors/id/K/KM/KMX/App-local-lib-Win32Helper-0.992.tar.gz -> App-local-libHelper-0.992.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-local-lib-Win32Helper-0.992 ${WORKDIR}/App-local-libHelper-0.992
+}
+

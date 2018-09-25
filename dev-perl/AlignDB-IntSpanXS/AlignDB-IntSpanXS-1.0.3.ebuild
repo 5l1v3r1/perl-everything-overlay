@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WANGQ"
-DIST_VERSION="1.0.3"
-DIST_A="AlignDB-IntSpanXS-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

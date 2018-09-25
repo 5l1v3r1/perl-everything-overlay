@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DYACOB"
-DIST_VERSION="v0.16.7"
-DIST_A="Aw-0.16.7.tar.gz"
+DIST_VERSION="0.16.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

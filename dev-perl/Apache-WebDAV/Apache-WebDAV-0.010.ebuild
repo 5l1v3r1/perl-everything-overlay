@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOZIER"
-DIST_VERSION="0.01"
-DIST_A="Apache-WebDAV-0.01.tar.gz"
-b=L/LO/LOZIER/Apache-WebDAV-0.01tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LO/LOZIER/Apache-WebDAV-0.01.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PREACTION"
-DIST_VERSION="0.13"
-DIST_A="CPAN-Testers-Common-DBUtils-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

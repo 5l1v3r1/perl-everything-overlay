@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOH"
-DIST_VERSION="0.01"
-DIST_A="DBIx-Class-Storage-TxnEndHook-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.980
 "
+

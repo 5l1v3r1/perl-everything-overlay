@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJERIUS"
-DIST_VERSION="0.33"
-DIST_A="App-Env-0.33.tar.gz"
+DIST_VERSION="0.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,10 +20,10 @@ RDEPEND="
 	dev-perl/IPC-System-Simple
 	dev-perl/Module-Find
 	dev-perl/Params-Validate
+	dev-perl/Pod-Usage
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	>=virtual/perl-Getopt-Long-2.240
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

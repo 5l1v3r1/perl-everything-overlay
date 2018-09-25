@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSB"
-DIST_VERSION="1.29"
-DIST_A="App-SourcePlot-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Number-Delta
 	virtual/perl-Test-Simple
 "
+

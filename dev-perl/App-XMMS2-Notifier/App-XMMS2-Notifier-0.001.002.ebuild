@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="0.001002"
-DIST_A="App-XMMS2-Notifier-0.001002.tar.gz"
+DIST_VERSION="0.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Audio-XMMSClient-0.030
-	dev-perl/Gtk2-Notify
+	>=dev-perl/Gtk2-Notify-0.050
 	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

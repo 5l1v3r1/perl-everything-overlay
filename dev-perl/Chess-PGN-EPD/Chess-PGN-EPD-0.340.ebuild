@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HSMYERS"
-DIST_VERSION="0.34"
-DIST_A="Chess-PGN-EPD-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Chess-PGN-Parse-0.200
 	virtual/perl-Test-Simple
 "
+

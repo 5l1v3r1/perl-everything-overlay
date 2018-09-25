@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWARREN"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-Controller-FormBuilder-MultiForm-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.370
 	>=virtual/perl-Test-Simple-0.440
 "
+

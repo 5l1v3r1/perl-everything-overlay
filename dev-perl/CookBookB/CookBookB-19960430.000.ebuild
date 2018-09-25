@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMR"
-DIST_VERSION="19960430.0"
-DIST_A="CookBookB-19960430.tar.gz"
+DIST_VERSION="19960430" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

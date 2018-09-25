@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SATOH"
-DIST_VERSION="0.17"
-DIST_A="Config-ENV-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Name-FromLine
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	virtual/perl-Test-Simple
 "
+

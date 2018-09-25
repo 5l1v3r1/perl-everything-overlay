@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.05"
-DIST_A="Alien-Base-ModuleBuild-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Test2-Suite-0.000.071
 "
+

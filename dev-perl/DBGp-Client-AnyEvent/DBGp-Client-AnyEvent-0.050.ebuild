@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBARBON"
-DIST_VERSION="0.05"
-DIST_A="DBGp-Client-AnyEvent-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Test-DBGp-0.050
 "
+

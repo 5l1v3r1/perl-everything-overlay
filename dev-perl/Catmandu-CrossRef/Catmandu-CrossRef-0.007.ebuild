@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPEIL"
-DIST_VERSION="0.007"
-DIST_A="Catmandu-CrossRef-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-0.880
 "
+

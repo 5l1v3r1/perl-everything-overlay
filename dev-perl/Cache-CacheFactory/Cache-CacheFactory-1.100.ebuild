@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGRAHAM"
-DIST_VERSION="1.10"
-DIST_A="Cache-CacheFactory-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Cache-Cache-1.000
+	dev-perl/Cache-Cache
 	dev-perl/Class-Factory
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

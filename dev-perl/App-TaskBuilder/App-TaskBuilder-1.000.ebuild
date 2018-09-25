@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HDP"
-DIST_VERSION="1.000"
-DIST_A="App-TaskBuilder-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

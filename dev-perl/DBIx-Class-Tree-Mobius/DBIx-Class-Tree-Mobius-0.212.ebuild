@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VDG"
-DIST_VERSION="0.212"
-DIST_A="DBIx-Class-Tree-Mobius-0.212.tar.gz"
+DIST_VERSION="0.212" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/SQL-Translator-0.110.060
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="1.000003"
-DIST_A="Catalyst-ActionRole-PseudoCache-1.000003.tar.gz"
+DIST_VERSION="1.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUERBIS"
-DIST_VERSION="2.025"
-DIST_A="App-DBBrowser-2.025.tar.gz"
+DIST_VERSION="2.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,10 +24,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Pod-Usage
 	dev-perl/Spreadsheet-Read
-	>=dev-perl/Term-Choose-1.621
-	>=dev-perl/Term-Choose-Util-0.066
 	>=dev-perl/Term-Form-0.321
-	>=dev-perl/Term-TablePrint-0.072
 	dev-perl/Text-CSV
 	virtual/perl-Encode
 	virtual/perl-File-Spec
@@ -41,3 +37,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

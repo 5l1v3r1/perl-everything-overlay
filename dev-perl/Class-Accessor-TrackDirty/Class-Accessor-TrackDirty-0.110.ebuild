@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIRATARA"
-DIST_VERSION="0.11"
-DIST_A="Class-Accessor-TrackDirty-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.980
 "
+

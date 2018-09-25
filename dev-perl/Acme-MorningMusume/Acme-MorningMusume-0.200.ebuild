@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CATATSUY"
-DIST_VERSION="0.20"
-DIST_A="Acme-MorningMusume-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

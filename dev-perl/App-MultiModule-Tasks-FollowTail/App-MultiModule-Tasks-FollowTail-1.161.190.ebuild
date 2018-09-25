@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.161190"
-DIST_A="App-MultiModule-Tasks-FollowTail-1.161190.tar.gz"
+DIST_VERSION="1.161190" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

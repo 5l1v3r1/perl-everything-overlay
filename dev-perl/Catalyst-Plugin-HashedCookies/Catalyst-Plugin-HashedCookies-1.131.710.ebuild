@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.131710"
-DIST_A="Catalyst-Plugin-HashedCookies-1.131710.tar.gz"
+DIST_VERSION="1.131710" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/Digest-HMAC
 	dev-perl/MRO-Compat
 	dev-perl/Tie-IxHash
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

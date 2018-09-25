@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILMARI"
-DIST_VERSION="1.016"
-DIST_A="Catalyst-Authentication-Store-LDAP-1.016.tar.gz"
+DIST_VERSION="1.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.880
 "
+

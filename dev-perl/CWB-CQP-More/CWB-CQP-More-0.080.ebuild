@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.08"
-DIST_A="CWB-CQP-More-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/POSIX-Open3
 	dev-perl/Try-Tiny
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

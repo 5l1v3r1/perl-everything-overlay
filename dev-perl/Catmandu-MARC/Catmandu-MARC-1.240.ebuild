@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="1.24"
-DIST_A="Catmandu-MARC-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	>=virtual/perl-Pod-Simple-3.230
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

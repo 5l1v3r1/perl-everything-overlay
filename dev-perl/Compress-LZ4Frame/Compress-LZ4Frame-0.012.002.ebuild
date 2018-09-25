@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUTINITY"
-DIST_VERSION="0.012002"
-DIST_A="Compress-LZ4Frame-0.012002.tar.gz"
+DIST_VERSION="0.012002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

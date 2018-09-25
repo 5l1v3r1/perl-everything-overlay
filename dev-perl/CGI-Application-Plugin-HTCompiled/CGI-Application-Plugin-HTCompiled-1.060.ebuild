@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASB"
-DIST_VERSION="1.06"
-DIST_A="CGI-Application-Plugin-HTCompiled-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FHEW"
-DIST_VERSION="0.7"
-DIST_A="AnyEvent-STOMP-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

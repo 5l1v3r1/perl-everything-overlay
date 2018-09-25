@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="EDLIU"
 DIST_VERSION="0.1"
-DIST_A="DBD-NET-0.1.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

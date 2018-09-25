@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZDK"
-DIST_VERSION="0.0005"
-DIST_A="CatalystX-OAuth2-Provider-0.0005.tar.gz"
+DIST_VERSION="0.0005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	>=virtual/perl-Test-Simple-0.880
 "
+

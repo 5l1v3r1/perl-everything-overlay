@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKI"
-DIST_VERSION="0.00002"
-DIST_A="AnyEvent-Pcap-0.00002.tar.gz"
+DIST_VERSION="0.00002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

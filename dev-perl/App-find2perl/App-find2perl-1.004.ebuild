@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="1.004"
-DIST_A="App-find2perl-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Perl-OSType
 	virtual/perl-Test-Simple
 "
+

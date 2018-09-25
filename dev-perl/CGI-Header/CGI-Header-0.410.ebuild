@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANAZAWA"
-DIST_VERSION="0.41"
-DIST_A="CGI-Header-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CGI-1.500
 	>=virtual/perl-Carp-1.100
-	>=virtual/perl-Scalar-List-Utils-1.190
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.240
 	>=virtual/perl-Test-Simple-0.980
 "
+

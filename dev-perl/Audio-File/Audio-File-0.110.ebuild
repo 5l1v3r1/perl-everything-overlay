@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="0.11"
-DIST_A="Audio-File-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Audio-FLAC-Header
-	dev-perl/MP3-Info
 	dev-perl/MP3-Tag
 	dev-perl/Ogg-Vorbis-Header-PurePerl
 "
@@ -25,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUSRIDEB"
-DIST_VERSION="1.2"
-DIST_A="CellBIS-SQL-Abstract-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
 "
+

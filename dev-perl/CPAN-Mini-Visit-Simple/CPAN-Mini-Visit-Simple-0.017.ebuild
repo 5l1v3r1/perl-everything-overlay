@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKEENAN"
-DIST_VERSION="0.017"
-DIST_A="CPAN-Mini-Visit-Simple-0.017.tar.gz"
+DIST_VERSION="0.017" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/IO-CaptureOutput
 	>=virtual/perl-Test-Simple-0.440
 "
+

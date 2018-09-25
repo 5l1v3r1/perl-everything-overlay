@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="1.1004"
-DIST_A="CPU-Emulator-Memory-1.1004.tar.gz"
+DIST_VERSION="1.1004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

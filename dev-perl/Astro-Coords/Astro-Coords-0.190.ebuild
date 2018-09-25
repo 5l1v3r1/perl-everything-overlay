@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSB"
-DIST_VERSION="0.19"
-DIST_A="Astro-Coords-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FANGLY"
-DIST_VERSION="0.001008"
-DIST_A="Bio-Community-0.001008.tar.gz"
+DIST_VERSION="0.001008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/BioPerl-1.006.923
 	dev-perl/DateTime
 	>=dev-perl/Getopt-Euclid-0.4.3
 	dev-perl/JSON-XS
@@ -34,4 +32,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Test-Number-Delta
 "
+

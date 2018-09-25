@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTRAMMELL"
-DIST_VERSION="0.05"
-DIST_A="Algorithm-TravelingSalesman-BitonicTour-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Pod-Coverage
 	dev-perl/Readonly
 	dev-perl/Test-Exception
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

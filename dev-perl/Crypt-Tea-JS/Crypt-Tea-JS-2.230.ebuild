@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJB"
-DIST_VERSION="2.23"
-DIST_A="Crypt-Tea_JS-2.23.tar.gz"
+DIST_VERSION="2.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGL"
-DIST_VERSION="1337.37"
-DIST_A="Acme-3mxA-1337.37.tar.gz"
+DIST_VERSION="1337.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

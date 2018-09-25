@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="0.003001"
-DIST_A="Bot-Cobalt-Plugin-YouTube-0.003001.tar.gz"
+DIST_VERSION="0.003001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

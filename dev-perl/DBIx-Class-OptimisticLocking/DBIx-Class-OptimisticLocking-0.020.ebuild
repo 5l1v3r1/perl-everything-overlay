@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPHILLIPS"
-DIST_VERSION="0.02"
-DIST_A="DBIx-Class-OptimisticLocking-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BORISZ"
-DIST_VERSION="2.15"
-DIST_A="Apache2-PageKit-2.15.tar.gz"
+DIST_VERSION="2.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANAZAWA"
-DIST_VERSION="0.00010"
-DIST_A="Blosxom-Plugin-0.00010.tar.gz"
+DIST_VERSION="0.00010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.980
 "
+

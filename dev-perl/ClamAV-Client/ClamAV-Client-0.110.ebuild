@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="clamav-client"
-DIST_VERSION="0.11"
-DIST_A="ClamAV-Client-0.11.tar.gz"
+DIST_AUTHOR="JMEHNLE"
+DIST_VERSION="0.11" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMEHNLE/clamav-client/ClamAV-Client-0.11.tar.gz -> ClamAV-Client-0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ClamAV-Client-0.11 ${WORKDIR}/ClamAV-Client-0.11
+}
+

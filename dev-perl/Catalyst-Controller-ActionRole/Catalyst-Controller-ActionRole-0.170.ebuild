@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.17"
-DIST_A="Catalyst-Controller-ActionRole-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,9 +28,12 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-lang/perl
 	>=dev-perl/Catalyst-Action-REST-0.740
+	dev-perl/Module-Build
+	dev-perl/lib
 	dev-perl/namespace-clean
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

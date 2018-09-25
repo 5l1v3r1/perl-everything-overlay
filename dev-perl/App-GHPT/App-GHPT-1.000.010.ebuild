@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="1.000010"
-DIST_A="App-GHPT-1.000010.tar.gz"
+DIST_VERSION="1.000010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +32,6 @@ RDEPEND="
 	dev-perl/MooseX-Types-Common
 	dev-perl/Path-Class
 	dev-perl/Term-CallEditor
-	dev-perl/Term-Choose
 	>=dev-perl/WebService-PivotalTracker-0.100
 	dev-perl/experimental
 	dev-perl/indirect
@@ -57,3 +55,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

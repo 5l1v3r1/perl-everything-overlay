@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="0.9997"
-DIST_A="App-Sqitch-0.9997.tar.gz"
+DIST_VERSION="0.9997" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,12 +37,12 @@ RDEPEND="
 	dev-perl/String-ShellQuote
 	dev-perl/Sub-Exporter
 	>=dev-perl/Template-Tiny-0.110
-	dev-perl/Throwable
+	>=dev-perl/Throwable-0.200.009
 	dev-perl/Try-Tiny
 	dev-perl/Type-Tiny
 	dev-perl/URI
 	>=dev-perl/URI-db-0.150
-	dev-perl/libintl-perl
+	>=dev-perl/libintl-perl-1.200
 	>=dev-perl/namespace-autoclean-0.160
 	virtual/perl-Digest-SHA
 	virtual/perl-Encode
@@ -69,10 +68,10 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-File
 	>=dev-perl/Test-File-Contents-0.200
-	>=dev-perl/Test-MockModule-0.050
 	>=dev-perl/Test-NoWarnings-0.083
 	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.940
 "
+

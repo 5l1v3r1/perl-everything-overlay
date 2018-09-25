@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Acme"
-DIST_VERSION="0.03"
-DIST_A="Acme-SvGROW-0.03.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/Acme/Acme-SvGROW-0.03.tar.gz -> Acme-SvGROW-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-SvGROW-0.03 ${WORKDIR}/Acme-SvGROW-0.03
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="v2.0.0"
-DIST_A="Brickyard-2.0.0.tar.gz"
+DIST_VERSION="2.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.025
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
@@ -31,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.940
 	virtual/perl-parent
 "
+

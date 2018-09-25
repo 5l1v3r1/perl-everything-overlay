@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="0.01"
-DIST_A="B-XPath-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Class-XPath
+	dev-perl/Module-Build
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="2.4.1"
-DIST_A="BioX-Workflow-Command-2.4.1.tar.gz"
+DIST_VERSION="2.4.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,7 +33,7 @@ RDEPEND="
 	dev-perl/MCE
 	dev-perl/MCE-Shared
 	dev-perl/Moose
-	dev-perl/MooseX-App
+	>=dev-perl/MooseX-App-1.390
 	dev-perl/MooseX-Types-Path-Tiny
 	dev-perl/Number-Bytes-Human
 	dev-perl/Path-Tiny
@@ -59,9 +58,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/IO-Interactive
+	dev-perl/Module-Build
 	dev-perl/Test-Class-Moose
 	>=dev-perl/Test-Exception-0.430
 	dev-perl/Text-Diff
 	dev-perl/YAML-LibYAML
 	virtual/perl-Test-Simple
 "
+

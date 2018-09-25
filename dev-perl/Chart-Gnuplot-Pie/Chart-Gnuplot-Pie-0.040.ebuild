@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Pie"
-DIST_VERSION="0.04"
-DIST_A="Chart-Gnuplot-Pie-0.04.tar.gz"
+DIST_AUTHOR="KWMAK"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/K/KW/KWMAK/Chart/Gnuplot/Pie/Chart-Gnuplot-Pie-0.04.tar.gz -> Chart-Gnuplot-Pie-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Chart-Gnuplot-Pie-0.04 ${WORKDIR}/Chart-Gnuplot-Pie-0.04
+}
+

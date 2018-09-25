@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.009"
-DIST_A="Catalyst-ActionRole-Public-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	dev-perl/HTTP-Date
 	>=dev-perl/Moose-2.140.300
 	>=dev-perl/MooseX-MethodAttributes-0.290
-	dev-perl/Plack
+	>=dev-perl/Plack-1.003.300
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+

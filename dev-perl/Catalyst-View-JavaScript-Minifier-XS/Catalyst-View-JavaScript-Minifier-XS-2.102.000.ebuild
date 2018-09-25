@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="2.102000"
-DIST_A="Catalyst-View-JavaScript-Minifier-XS-2.102000.tar.gz"
+DIST_VERSION="2.102000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

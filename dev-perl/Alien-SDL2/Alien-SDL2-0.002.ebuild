@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KTHAKORE"
-DIST_VERSION="0.002"
-DIST_A="Alien-SDL2-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Capture-Tiny
-	dev-perl/File-ShareDir
+	>=dev-perl/File-ShareDir-1.000
 	dev-perl/File-Which
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-File-Spec
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Archive-Zip
 	virtual/perl-Archive-Tar
 "
+

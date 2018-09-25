@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="1.07"
-DIST_A="Bundle-OS2_default-1.07.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="1.07" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/Bundle-OS2_default-1.07.tar.gz -> Bundle-OS2_default-1.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bundle-OS2_default-1.07 ${WORKDIR}/Bundle-OS2_default-1.07
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KILINRAX"
-DIST_VERSION="0.06"
-DIST_A="Ceph-Rados-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

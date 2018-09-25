@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROMANF"
-DIST_VERSION="0.002002"
-DIST_A="Catalyst-Model-DBIC-Schema-PerRequest-0.002002.tar.gz"
+DIST_VERSION="0.002002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

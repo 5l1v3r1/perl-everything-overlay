@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMCADA"
-DIST_VERSION="1.02"
-DIST_A="App-Tweet-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,15 +25,16 @@ RDEPEND="
 	dev-perl/IO-Interactive
 	dev-perl/Log-Log4perl
 	dev-perl/Net-Twitter
+	dev-perl/Pod-Usage
 	dev-perl/String-Random
 	dev-perl/Term-Prompt
 	dev-perl/Test-MockObject
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

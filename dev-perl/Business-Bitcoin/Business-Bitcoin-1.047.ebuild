@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HASH"
-DIST_VERSION="1.047"
-DIST_A="Business-Bitcoin-1.047.tar.gz"
+DIST_VERSION="1.047" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJFIELDS"
-DIST_VERSION="1.007002"
-DIST_A="BioPerl-Run-1.007002.tar.gz"
+DIST_VERSION="1.007002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

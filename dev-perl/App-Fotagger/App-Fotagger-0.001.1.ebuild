@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="v0.001.1"
-DIST_A="App-Fotagger-0.001.1.tar.gz"
+DIST_VERSION="0.001.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

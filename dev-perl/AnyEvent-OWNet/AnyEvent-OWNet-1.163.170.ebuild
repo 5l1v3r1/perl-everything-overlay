@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.163170"
-DIST_A="AnyEvent-OWNet-1.163170.tar.gz"
+DIST_VERSION="1.163170" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent-MockTCPServer
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

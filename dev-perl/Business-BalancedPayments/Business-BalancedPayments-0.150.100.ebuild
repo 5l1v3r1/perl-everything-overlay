@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.1501"
-DIST_A="Business-BalancedPayments-0.1501.tar.gz"
+DIST_VERSION="0.1501" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.06"
-DIST_A="App-plmetrics-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	>=virtual/perl-Test-Simple-0.880
 "
+

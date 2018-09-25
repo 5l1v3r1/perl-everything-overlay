@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMQS"
-DIST_VERSION="2.082"
-DIST_A="Compress-Raw-Lzma-2.082.tar.gz"
+DIST_VERSION="2.082" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

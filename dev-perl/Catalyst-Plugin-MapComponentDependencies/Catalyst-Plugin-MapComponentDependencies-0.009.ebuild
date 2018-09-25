@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.009"
-DIST_A="Catalyst-Plugin-MapComponentDependencies-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Most
 "
+

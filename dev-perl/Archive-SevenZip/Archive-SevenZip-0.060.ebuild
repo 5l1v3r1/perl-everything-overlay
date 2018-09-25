@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.06"
-DIST_A="Archive-SevenZip-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

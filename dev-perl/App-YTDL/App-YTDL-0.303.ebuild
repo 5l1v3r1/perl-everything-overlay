@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KUERBIS"
-DIST_VERSION="0.303"
-DIST_A="App-YTDL-0.303.tar.gz"
+DIST_VERSION="0.303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,6 @@ RDEPEND="
 	dev-perl/Mojolicious
 	dev-perl/Pod-Usage
 	dev-perl/Term-ANSIScreen
-	>=dev-perl/Term-Choose-1.600
-	>=dev-perl/Term-Choose-Util-0.064
 	dev-perl/Term-Form
 	dev-perl/Text-Unidecode
 	dev-perl/libwww-perl
@@ -46,3 +43,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

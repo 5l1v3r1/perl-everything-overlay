@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.112001"
-DIST_A="DB-Pluggable-1.112001.tar.gz"
+DIST_VERSION="1.112001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.580
 "
+

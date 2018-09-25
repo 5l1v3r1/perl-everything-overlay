@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASIUCHI"
-DIST_VERSION="0.03"
-DIST_A="App-Prove-Plugin-Count-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.980
 "
+

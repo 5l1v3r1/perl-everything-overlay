@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BWILLIAM"
-DIST_VERSION="3.02"
-DIST_A="AltaVista-PerlSDK-3.02.tar.gz"
+DIST_VERSION="3.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

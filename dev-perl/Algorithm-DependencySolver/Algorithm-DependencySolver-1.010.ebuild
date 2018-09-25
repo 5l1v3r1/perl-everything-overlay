@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAORU"
-DIST_VERSION="1.01"
-DIST_A="Algorithm-DependencySolver-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=virtual/perl-File-Spec-3.000
 	>=virtual/perl-Test-Simple-0.980
 "
+

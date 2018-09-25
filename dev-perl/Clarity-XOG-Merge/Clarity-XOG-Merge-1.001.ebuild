@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="1.001"
-DIST_A="Clarity-XOG-Merge-1.001.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/clarity/Clarity-XOG-Merge-1.001.tar.gz"
+DIST_VERSION="1.001" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/clarity/Clarity-XOG-Merge-1.001.tar.gz -> Clarity-XOG-Merge-1.001.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Clarity-XOG-Merge-1.001 ${WORKDIR}/Clarity-XOG-Merge-1.001
+}
+

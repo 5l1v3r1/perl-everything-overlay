@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILMARI"
-DIST_VERSION="0.07049"
-DIST_A="DBIx-Class-Schema-Loader-0.07049.tar.gz"
+DIST_VERSION="0.07049" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,7 +34,7 @@ RDEPEND="
 	>=dev-perl/namespace-clean-0.230
 	>=virtual/perl-Digest-MD5-2.360
 	>=virtual/perl-Exporter-5.630
-	>=virtual/perl-Scalar-List-Utils-1.400
+	>=virtual/perl-Scalar-List-Utils-1.330
 "
 DEPEND="
 	${RDEPEND}
@@ -49,3 +48,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.160
 	>=virtual/perl-Test-Simple-0.940
 "
+

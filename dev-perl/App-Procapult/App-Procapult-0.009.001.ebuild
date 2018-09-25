@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.009001"
-DIST_A="App-Procapult-0.009001.tar.gz"
+DIST_VERSION="0.009001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

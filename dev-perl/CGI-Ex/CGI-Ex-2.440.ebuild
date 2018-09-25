@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LJEPSON"
-DIST_VERSION="2.44"
-DIST_A="CGI-Ex-2.44.tar.gz"
+DIST_VERSION="2.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.02"
-DIST_A="Context-Set-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/DBIx-Class-Schema-Loader-0.070.100
 	virtual/perl-Test-Simple
 "
+

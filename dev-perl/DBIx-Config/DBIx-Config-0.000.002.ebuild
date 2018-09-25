@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYMKAT"
-DIST_VERSION="0.000002"
-DIST_A="DBIx-Config-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,9 +20,10 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/File-HomeDir
 	>=dev-perl/Test-MockObject-1.090
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

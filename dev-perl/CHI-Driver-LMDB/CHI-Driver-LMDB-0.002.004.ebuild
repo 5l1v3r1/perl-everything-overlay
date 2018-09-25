@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002004"
-DIST_A="CHI-Driver-LMDB-0.002004.tar.gz"
+DIST_VERSION="0.002004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/TimeDate
 	virtual/perl-Test-Simple
 "
+

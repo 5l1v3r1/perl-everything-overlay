@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRLCU"
-DIST_VERSION="0.3"
-DIST_A="CHI-Driver-MySQL-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

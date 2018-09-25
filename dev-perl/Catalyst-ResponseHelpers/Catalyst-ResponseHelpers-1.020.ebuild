@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSIBLEY"
-DIST_VERSION="1.02"
-DIST_A="Catalyst-ResponseHelpers-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+

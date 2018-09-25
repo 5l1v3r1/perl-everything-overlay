@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.142430"
-DIST_A="Consul-Simple-1.142430.tar.gz"
+DIST_VERSION="1.142430" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBAURAIN"
-DIST_VERSION="0.181180"
-DIST_A="Bio-MUST-Apps-TwoScalp-0.181180.tar.gz"
+DIST_VERSION="0.181180" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-Files
 "
+

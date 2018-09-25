@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LZH"
-DIST_VERSION="0.0.2"
-DIST_A="Crypt-HC128-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Test
 	>=virtual/perl-Test-Simple-0.940
 "
+

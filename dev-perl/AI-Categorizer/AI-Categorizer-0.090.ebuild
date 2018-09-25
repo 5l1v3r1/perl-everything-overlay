@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KWILLIAMS"
-DIST_VERSION="0.09"
-DIST_A="AI-Categorizer-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.200
+	dev-perl/Module-Build
 "
+

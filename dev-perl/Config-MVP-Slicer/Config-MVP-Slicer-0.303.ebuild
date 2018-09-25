@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.303"
-DIST_A="Config-MVP-Slicer-0.303.tar.gz"
+DIST_VERSION="0.303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

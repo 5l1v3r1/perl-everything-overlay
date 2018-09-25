@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOLIBRIE"
-DIST_VERSION="0.07"
-DIST_A="Class-Inflate-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
 	dev-perl/Test-Debugger
 "
+

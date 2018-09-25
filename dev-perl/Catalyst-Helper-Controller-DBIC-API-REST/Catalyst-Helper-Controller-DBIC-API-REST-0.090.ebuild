@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMIRI"
-DIST_VERSION="0.09"
-DIST_A="Catalyst-Helper-Controller-DBIC-API-REST-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
 	dev-perl/Path-Tiny
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
@@ -37,8 +37,10 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/URI
+	dev-perl/base
 	virtual/perl-File-Path
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

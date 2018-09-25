@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HERNAN"
-DIST_VERSION="0.05"
-DIST_A="Business-CPI-Gateway-Moip-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,6 @@ RDEPEND="
 	dev-perl/Data-Printer
 	dev-perl/Email-Valid
 	dev-perl/IO-Socket-SSL
-	>=dev-perl/Locale-Codes-3.250
 	dev-perl/Moo
 	dev-perl/bareword-filehandles
 	dev-perl/indirect
@@ -35,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

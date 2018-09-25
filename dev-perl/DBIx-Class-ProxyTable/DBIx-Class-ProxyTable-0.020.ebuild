@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEKOKAK"
-DIST_VERSION="0.02"
-DIST_A="DBIx-Class-ProxyTable-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Declare
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

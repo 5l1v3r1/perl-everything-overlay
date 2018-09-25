@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ITUB"
-DIST_VERSION="0.22"
-DIST_A="AnnoCPAN-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,7 +30,7 @@ RDEPEND="
 	virtual/perl-Archive-Tar
 	virtual/perl-Carp
 	virtual/perl-File-Path
-	virtual/perl-Pod-Parser
+	>=virtual/perl-Pod-Parser-1.310
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
@@ -39,3 +38,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

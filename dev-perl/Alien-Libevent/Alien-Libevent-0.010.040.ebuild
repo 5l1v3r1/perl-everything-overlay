@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLU"
-DIST_VERSION="0.01004"
-DIST_A="Alien-Libevent-0.01004.tar.gz"
+DIST_VERSION="0.01004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-IO-Zlib
 	virtual/perl-ExtUtils-MakeMaker
 "
+

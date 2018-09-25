@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ANALOG"
 DIST_VERSION="0.3"
-DIST_A="Apache2-reCaptcha-0.3.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="0.07"
-DIST_A="App-pathed-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.027
+	dev-perl/Module-Build
+	dev-perl/Test-Differences
+	virtual/perl-Test-Simple
 "
+

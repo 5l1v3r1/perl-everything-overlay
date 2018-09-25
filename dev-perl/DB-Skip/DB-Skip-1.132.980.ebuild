@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.132980"
-DIST_A="DB-Skip-1.132980.tar.gz"
+DIST_VERSION="1.132980" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

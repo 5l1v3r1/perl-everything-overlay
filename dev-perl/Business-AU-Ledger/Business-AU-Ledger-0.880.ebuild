@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="0.88"
-DIST_A="Business-AU-Ledger-0.88.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +40,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.410
 	>=virtual/perl-Test-Simple-0.940
 "
+

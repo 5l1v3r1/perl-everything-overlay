@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.29"
-DIST_A="CPAN-Reporter-Smoker-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,7 +34,9 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/CPAN-Checksums
 	>=dev-perl/IO-CaptureOutput-1.060
+	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.620
 "
+

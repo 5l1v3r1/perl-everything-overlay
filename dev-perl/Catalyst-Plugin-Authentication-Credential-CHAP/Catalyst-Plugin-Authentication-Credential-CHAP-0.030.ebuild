@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDROUSIES"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-Plugin-Authentication-Credential-CHAP-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ DEPEND="
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Catalyst-Plugin-Session
 	>=dev-perl/Catalyst-Runtime-5.650
+	dev-perl/Module-Build
 	virtual/perl-Digest
 	virtual/perl-Test-Simple
 "
+

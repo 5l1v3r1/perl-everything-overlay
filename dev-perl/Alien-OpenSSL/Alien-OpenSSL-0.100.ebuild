@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANNA"
-DIST_VERSION="0.10"
-DIST_A="Alien-OpenSSL-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO-Zlib
 	>=virtual/perl-Test-Simple-0.960
 "
+

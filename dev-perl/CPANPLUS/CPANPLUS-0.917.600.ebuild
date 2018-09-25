@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.9176"
-DIST_A="CPANPLUS-0.9176.tar.gz"
+DIST_VERSION="0.9176" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

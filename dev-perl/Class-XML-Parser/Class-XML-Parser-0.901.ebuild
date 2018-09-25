@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MMORGAN"
 DIST_VERSION="0.901"
-DIST_A="Class-XML-Parser-0.901.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

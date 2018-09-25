@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WREIS"
-DIST_VERSION="0.00015"
-DIST_A="DBIx-Class-EncodedColumn-0.00015.tar.gz"
+DIST_VERSION="0.00015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

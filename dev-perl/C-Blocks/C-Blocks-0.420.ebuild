@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCMERTENS"
-DIST_VERSION="0.42"
-DIST_A="C-Blocks-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Alien-TinyCCx-0.120
-	dev-perl/File-ShareDir
+	>=dev-perl/File-ShareDir-1.000
 	virtual/perl-File-Spec
 "
 DEPEND="
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

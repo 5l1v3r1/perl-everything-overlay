@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JALDHAR"
-DIST_VERSION="v1.1.1"
-DIST_A="Acme-Brainfuck-1.1.1.tar.gz"
+DIST_VERSION="1.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

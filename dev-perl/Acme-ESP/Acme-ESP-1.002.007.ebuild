@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYEMQ"
-DIST_VERSION="1.002007"
-DIST_A="Acme-ESP-1.002007.tar.gz"
+DIST_VERSION="1.002007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

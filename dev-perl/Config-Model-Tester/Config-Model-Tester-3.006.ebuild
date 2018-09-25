@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="3.006"
-DIST_A="Config-Model-Tester-3.006.tar.gz"
+DIST_VERSION="3.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340
 "
+

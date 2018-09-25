@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="1.30"
-DIST_A="AnyEvent-MP-1.30.tar.gz"
+DIST_VERSION="1.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

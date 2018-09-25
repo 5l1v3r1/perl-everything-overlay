@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="0.12"
-DIST_A="BioX-Workflow-Plugin-Drake-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BioX-Workflow
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
+	>=virtual/perl-Test-Simple-0.960
 "
+

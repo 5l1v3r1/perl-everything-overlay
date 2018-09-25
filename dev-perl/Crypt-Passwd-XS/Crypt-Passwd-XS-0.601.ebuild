@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANEL"
-DIST_VERSION="0.601"
-DIST_A="Crypt-Passwd-XS-0.601.tar.gz"
+DIST_VERSION="0.601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

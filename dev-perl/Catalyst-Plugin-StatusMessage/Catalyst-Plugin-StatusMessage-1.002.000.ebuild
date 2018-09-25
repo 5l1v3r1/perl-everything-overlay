@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HKCLARK"
-DIST_VERSION="1.002000"
-DIST_A="Catalyst-Plugin-StatusMessage-1.002000.tar.gz"
+DIST_VERSION="1.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

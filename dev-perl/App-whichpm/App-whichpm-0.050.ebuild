@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.05"
-DIST_A="App-whichpm-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Usage
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "
+

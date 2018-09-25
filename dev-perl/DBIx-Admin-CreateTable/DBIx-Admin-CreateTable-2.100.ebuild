@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.10"
-DIST_A="DBIx-Admin-CreateTable-2.10.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Version-1.002.003
 	virtual/perl-Test-Simple
 "
+

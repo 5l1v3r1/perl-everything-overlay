@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="App-Diskd"
-DIST_VERSION="0.01"
-DIST_A="App-Diskd-0.01.tar.gz"
+DIST_AUTHOR="DMALONE"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMALONE/App-Diskd/App-Diskd-0.01.tar.gz -> App-Diskd-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-Diskd-0.01 ${WORKDIR}/App-Diskd-0.01
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FALTER"
-DIST_VERSION="0.4.1"
-DIST_A="Cikl-0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -60,3 +59,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	virtual/perl-ExtUtils-CBuilder
 "
+

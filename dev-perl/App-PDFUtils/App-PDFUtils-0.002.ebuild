@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.002"
-DIST_A="App-PDFUtils-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	>=dev-perl/Perinci-CmdLine-Lite-1.720
 	>=dev-perl/Perinci-Object-0.260
 	dev-perl/Perinci-Sub-DepChecker
+	dev-perl/Perinci-Sub-XCompletion
 	dev-perl/Sah-Schemas-Path
 "
 DEPEND="
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

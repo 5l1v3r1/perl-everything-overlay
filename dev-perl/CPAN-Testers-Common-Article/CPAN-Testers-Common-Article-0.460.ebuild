@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="0.46"
-DIST_A="CPAN-Testers-Common-Article-0.46.tar.gz"
+DIST_VERSION="0.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

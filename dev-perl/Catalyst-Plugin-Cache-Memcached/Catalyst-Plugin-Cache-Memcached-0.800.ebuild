@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.8"
-DIST_A="Catalyst-Plugin-Cache-Memcached-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

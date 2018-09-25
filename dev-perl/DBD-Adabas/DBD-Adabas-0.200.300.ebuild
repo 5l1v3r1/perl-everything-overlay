@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWIED"
-DIST_VERSION="0.2003"
-DIST_A="DBD-Adabas-0.2003.tar.gz"
+DIST_VERSION="0.2003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

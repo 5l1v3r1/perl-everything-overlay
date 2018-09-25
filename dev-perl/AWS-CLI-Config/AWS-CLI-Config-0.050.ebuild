@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.05"
-DIST_A="AWS-CLI-Config-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISHIGAKI"
-DIST_VERSION="0.21"
-DIST_A="CLI-Dispatch-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

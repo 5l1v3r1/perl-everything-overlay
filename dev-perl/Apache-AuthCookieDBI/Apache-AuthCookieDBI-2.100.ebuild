@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATISSE"
-DIST_VERSION="2.1"
+DIST_VERSION="2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"

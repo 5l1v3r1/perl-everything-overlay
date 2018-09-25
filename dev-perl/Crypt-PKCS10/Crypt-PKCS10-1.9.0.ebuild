@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRSCOTTY"
-DIST_VERSION="1.9.0"
-DIST_A="Crypt-PKCS10-1.9.tar.gz"
+DIST_VERSION="1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

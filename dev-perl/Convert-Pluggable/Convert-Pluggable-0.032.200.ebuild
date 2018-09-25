@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELOHMROW"
-DIST_VERSION="0.0322"
-DIST_A="Convert-Pluggable-0.0322.tar.gz"
+DIST_VERSION="0.0322" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Data-Dump
 	virtual/perl-Test-Simple
 "
+

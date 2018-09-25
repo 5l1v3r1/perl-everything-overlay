@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROCKWAY"
-DIST_VERSION="1.102912"
-DIST_A="AnyEvent-Subprocess-1.102912.tar.gz"
+DIST_VERSION="1.102912" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Event-Join-0.050
 	dev-perl/IO-Tty
 	>=dev-perl/JSON-2.000
-	>=dev-perl/Moose-1.150
+	dev-perl/Moose
 	dev-perl/MooseX-Clone
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-StrictConstructor
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBAURAIN"
-DIST_VERSION="0.182420"
-DIST_A="Bio-MUST-Core-0.182420.tar.gz"
+DIST_VERSION="0.182420" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -62,3 +61,4 @@ DEPEND="
 	dev-perl/Config-Any
 	dev-perl/Test-Deep
 "
+

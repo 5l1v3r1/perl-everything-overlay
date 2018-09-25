@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDUGGAN"
-DIST_VERSION="0.9908"
-DIST_A="Clustericious-0.9908.tar.gz"
+DIST_VERSION="0.9908" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	dev-perl/YAML-Syck
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.110"
-DIST_A="Algorithm-Networksort-Chooser-0.110.tar.gz"
+DIST_VERSION="0.110" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

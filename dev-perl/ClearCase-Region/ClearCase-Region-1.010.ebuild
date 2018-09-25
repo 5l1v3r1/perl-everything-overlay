@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Region"
-DIST_VERSION="1.01"
-DIST_A="ClearCase-Region-1.01.tar.gz"
+DIST_AUTHOR="LESPAUL"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/L/LE/LESPAUL/ClearCase/Region/ClearCase-Region-1.01.tar.gz -> ClearCase-Region-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ClearCase-Region-1.01 ${WORKDIR}/ClearCase-Region-1.01
+}
+

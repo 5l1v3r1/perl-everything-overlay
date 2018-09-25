@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="0.991"
-DIST_A="CHI-Driver-HandlerSocket-0.991.tar.gz"
+DIST_VERSION="0.991" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

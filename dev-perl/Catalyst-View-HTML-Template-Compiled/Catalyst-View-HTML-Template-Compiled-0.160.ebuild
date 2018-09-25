@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESSKAR"
-DIST_VERSION="0.16"
-DIST_A="Catalyst-View-HTML-Template-Compiled-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

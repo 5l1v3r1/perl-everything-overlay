@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBERJON"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-Authentication-Store-KiokuDB-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,9 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Authentication
 	>=dev-perl/KiokuDB-0.070
 	dev-perl/KiokuDB-Backend-BDB
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

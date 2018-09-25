@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAKESHIGE"
-DIST_VERSION="0.022"
-DIST_A="Class-Pluggable-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

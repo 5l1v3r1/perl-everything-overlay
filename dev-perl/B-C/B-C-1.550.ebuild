@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RURBAN"
-DIST_VERSION="1.55"
-DIST_A="B-C-1.55.tar.gz"
+DIST_VERSION="1.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

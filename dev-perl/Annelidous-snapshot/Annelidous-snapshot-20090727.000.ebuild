@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWINDISCH"
-DIST_VERSION="20090727.0"
-DIST_A="Annelidous-snapshot-20090727.tar.gz"
+DIST_VERSION="20090727" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

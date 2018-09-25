@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.000"
-DIST_A="App-olson-0.000.tar.gz"
+DIST_VERSION="0.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.020
+	dev-lang/perl
 	dev-perl/Date-ISO8601
 	>=dev-perl/DateTime-TimeZone-Olson-0.003
 	>=dev-perl/DateTime-TimeZone-SystemV-0.002
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

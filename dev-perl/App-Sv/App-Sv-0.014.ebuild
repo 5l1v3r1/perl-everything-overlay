@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GVL"
-DIST_VERSION="0.014"
-DIST_A="App-Sv-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

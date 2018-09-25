@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYBER"
-DIST_VERSION="0.03"
-DIST_A="DBIx-Class-DynamicSubclass-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,8 +18,9 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.130
 	>=dev-perl/DBIx-Class-0.070.030
 	>=dev-perl/SQL-Translator-0.080
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

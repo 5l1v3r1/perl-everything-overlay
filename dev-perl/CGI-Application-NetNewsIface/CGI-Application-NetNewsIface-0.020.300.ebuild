@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0203"
-DIST_A="CGI-Application-NetNewsIface-0.0203.tar.gz"
+DIST_VERSION="0.0203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.370
 "
+

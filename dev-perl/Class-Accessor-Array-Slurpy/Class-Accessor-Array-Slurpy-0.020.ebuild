@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.020"
-DIST_A="Class-Accessor-Array-Slurpy-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

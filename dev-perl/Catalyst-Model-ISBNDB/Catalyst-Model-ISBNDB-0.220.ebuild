@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJRAY"
-DIST_VERSION="0.22"
-DIST_A="Catalyst-Model-ISBNDB-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.201
 	virtual/perl-ExtUtils-MakeMaker
 "
+

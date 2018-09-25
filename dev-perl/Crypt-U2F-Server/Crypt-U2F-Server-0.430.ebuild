@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUIMARD"
-DIST_VERSION="0.43"
-DIST_A="Crypt-U2F-Server-0.43.tar.gz"
+DIST_VERSION="0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/JSON-XS
 	virtual/perl-Test-Simple
 "
+

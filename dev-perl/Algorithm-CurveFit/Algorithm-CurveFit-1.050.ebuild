@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="1.05"
-DIST_A="Algorithm-CurveFit-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.14"
-DIST_A="App-PrereqGrapher-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,12 +21,16 @@ RDEPEND="
 	dev-perl/Module-Path
 	dev-perl/Moo
 	dev-perl/Perl-PrereqScanner
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-Module-CoreList
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Devel-FindPerl
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "
+

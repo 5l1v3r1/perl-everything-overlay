@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="0.003"
-DIST_A="DBICx-Hooks-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.920
 "
+

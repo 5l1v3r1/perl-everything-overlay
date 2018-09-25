@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMCKAY"
-DIST_VERSION="0.07"
-DIST_A="Bio-PrimerDesigner-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

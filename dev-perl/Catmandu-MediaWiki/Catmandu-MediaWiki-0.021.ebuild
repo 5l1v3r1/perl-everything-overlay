@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NJFRANCK"
-DIST_VERSION="0.021"
-DIST_A="Catmandu-MediaWiki-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

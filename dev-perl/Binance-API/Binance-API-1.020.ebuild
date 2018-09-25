@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TASKULA"
-DIST_VERSION="1.02"
-DIST_A="Binance-API-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

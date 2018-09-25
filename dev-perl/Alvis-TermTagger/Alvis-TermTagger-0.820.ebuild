@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THHAMON"
-DIST_VERSION="0.82"
-DIST_A="Alvis-TermTagger-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

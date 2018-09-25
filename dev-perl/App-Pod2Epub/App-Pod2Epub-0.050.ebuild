@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMCNAMARA"
-DIST_VERSION="0.05"
-DIST_A="App-Pod2Epub-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/EBook-EPUB-0.500
+	dev-perl/Pod-Usage
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Pod-Simple-3.150
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PORTON"
-DIST_VERSION="0.101"
-DIST_A="DBI-Transaction-0.101.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PO/PORTON/DBI/DBI-Transaction-0.101.tar.gz"
+DIST_VERSION="0.101" 
+SRC_URI="mirror://cpan/authors/id/P/PO/PORTON/DBI/DBI-Transaction-0.101.tar.gz -> DBI-Transaction-0.101.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBI-Transaction-0.101 ${WORKDIR}/DBI-Transaction-0.101
+}
+

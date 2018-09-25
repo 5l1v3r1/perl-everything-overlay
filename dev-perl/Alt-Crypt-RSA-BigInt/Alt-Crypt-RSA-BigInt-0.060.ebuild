@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.06"
-DIST_A="Alt-Crypt-RSA-BigInt-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-MIME-Base64
 	>=virtual/perl-Test-Simple-0.450
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.08"
-DIST_A="App-RunCron-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,6 @@ DEPEND="
 	dev-perl/File-pushd
 	dev-perl/Test-Exit
 	dev-perl/Test-Requires
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
+

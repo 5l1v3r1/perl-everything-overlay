@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.02.6"
-DIST_A="App-Chained-0.02.6.tar.gz"
+DIST_VERSION="0.02.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

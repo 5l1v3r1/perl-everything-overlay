@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WONKO"
-DIST_VERSION="1.14"
-DIST_A="CGI-Application-Search-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-LongString
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.161330"
-DIST_A="App-MultiModule-Tasks-NagiosCmd-1.161330.tar.gz"
+DIST_VERSION="1.161330" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IPC-Transit
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

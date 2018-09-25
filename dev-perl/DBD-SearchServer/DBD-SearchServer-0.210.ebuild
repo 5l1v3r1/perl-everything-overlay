@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARI"
-DIST_VERSION="0.21"
-DIST_A="DBD-SearchServer-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

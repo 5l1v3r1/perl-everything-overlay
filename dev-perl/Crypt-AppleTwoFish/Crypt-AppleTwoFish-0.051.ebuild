@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BILLH"
-DIST_VERSION="0.051"
-DIST_A="Crypt-AppleTwoFish-0.051.tar.gz"
+DIST_VERSION="0.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

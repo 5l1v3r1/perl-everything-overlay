@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.02"
-DIST_A="BusyBird-Input-Lingr-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Deep-0.084
 	virtual/perl-Test-Simple
 "
+

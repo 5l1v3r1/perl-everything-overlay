@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASS"
-DIST_VERSION="0.003"
-DIST_A="Code-TidyAll-Plugin-SVG-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=virtual/perl-Test-Simple-0.610
 "
+

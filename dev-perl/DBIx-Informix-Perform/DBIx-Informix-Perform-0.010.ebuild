@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WEAV"
-DIST_VERSION="0.01"
-DIST_A="DBIx-Informix-Perform-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

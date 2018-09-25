@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GTERMARS"
-DIST_VERSION="v1.6.0.2"
-DIST_A="Alien-Prototype-1.6.0.2.tar.gz"
+DIST_VERSION="1.6.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 "
+

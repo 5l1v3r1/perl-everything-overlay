@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SULLR"
-DIST_VERSION="0.957"
-DIST_A="App-HTTP_Proxy_IMP-0.957.tar.gz"
+DIST_VERSION="0.957" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

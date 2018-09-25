@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.06"
-DIST_A="Alien-Role-Dino-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Alien-cmake3-0.020
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

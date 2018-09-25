@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJMATHER"
-DIST_VERSION="0.73"
-DIST_A="DBIx-FullTextSearch-0.73.tar.gz"
+DIST_VERSION="0.73" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

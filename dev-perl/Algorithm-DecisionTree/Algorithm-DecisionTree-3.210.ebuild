@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVIKAK"
-DIST_VERSION="3.21"
-DIST_A="Algorithm-DecisionTree-3.21.tar.gz"
+DIST_VERSION="3.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

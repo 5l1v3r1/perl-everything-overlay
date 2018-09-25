@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="0.901"
-DIST_A="Bread-Runner-0.901.tar.gz"
+DIST_VERSION="0.901" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	dev-perl/Test-Most
 "
+

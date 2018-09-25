@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHS"
-DIST_VERSION="1.0"
-DIST_A="AnyEvent-Gearman-WorkerPool-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,8 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

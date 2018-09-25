@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCANEZ"
-DIST_VERSION="0.003003"
-DIST_A="Cantella-Store-UUID-0.003003.tar.gz"
+DIST_VERSION="0.003003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

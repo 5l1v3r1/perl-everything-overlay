@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.008"
-DIST_A="App-Addex-AddressBook-AppleScript-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+

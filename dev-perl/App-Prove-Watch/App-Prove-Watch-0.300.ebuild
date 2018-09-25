@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREIN"
-DIST_VERSION="0.3"
-DIST_A="App-Prove-Watch-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Spec
+	virtual/perl-Test-Simple
 "
+

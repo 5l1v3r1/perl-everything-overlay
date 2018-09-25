@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPHIL"
-DIST_VERSION="0.24"
-DIST_A="CLI-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Astro
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="1.000003"
-DIST_A="App-colourhexdump-1.000003.tar.gz"
+DIST_VERSION="1.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

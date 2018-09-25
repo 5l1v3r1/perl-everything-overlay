@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WANGQ"
-DIST_VERSION="1.1.0"
-DIST_A="AlignDB-GC-1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Number-Delta-1.060
 	>=virtual/perl-Test-Simple-0.880
 "
+

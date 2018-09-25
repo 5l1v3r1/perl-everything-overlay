@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVIKAK"
-DIST_VERSION="1.70"
-DIST_A="Algorithm-VSM-1.70.tar.gz"
+DIST_VERSION="1.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.02"
-DIST_A="App-Prove-Plugin-TermTable-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

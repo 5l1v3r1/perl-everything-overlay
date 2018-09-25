@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.091"
-DIST_A="App-LogStats-0.091.tar.gz"
+DIST_VERSION="0.091" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,11 +17,17 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor-Lite
 	dev-perl/IO-Interactive-Tiny
+	dev-perl/Pod-Usage
 	>=dev-perl/Text-ASCIITable-0.200
 	>=virtual/perl-Getopt-Long-2.380
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Test-Exception
+	dev-perl/Test-Output
+	virtual/perl-Exporter
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JUSTIN"
-DIST_VERSION="0.13"
-DIST_A="App-TeleGramma-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	>=dev-perl/Config-INI-0.025
 	dev-perl/DateTime
 	>=dev-perl/Module-Pluggable-5.200
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-7.310
 	dev-perl/Proc-Daemon
 	>=dev-perl/Telegram-Bot-0.010
 	>=dev-perl/Time-Duration-Parse-0.130
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -37,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

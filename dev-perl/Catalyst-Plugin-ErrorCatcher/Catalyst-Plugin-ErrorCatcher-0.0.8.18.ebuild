@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="0.0.8.18"
-DIST_A="Catalyst-Plugin-ErrorCatcher-0.0.8.18.tar.gz"
+DIST_VERSION="0.0.8.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,9 +43,11 @@ DEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Test-Exception
 	dev-perl/Test-UseAllModules
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.920
 	virtual/perl-version
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GYPARK"
-DIST_VERSION="0.003"
-DIST_A="App-gitfancy-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Test-Simple
 "
+

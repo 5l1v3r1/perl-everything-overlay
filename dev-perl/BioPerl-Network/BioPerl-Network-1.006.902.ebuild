@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJFIELDS"
-DIST_VERSION="1.006902"
-DIST_A="BioPerl-Network-1.006902.tar.gz"
+DIST_VERSION="1.006902" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/BioPerl-1.006.901
 	>=dev-perl/Graph-0.860
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "
+

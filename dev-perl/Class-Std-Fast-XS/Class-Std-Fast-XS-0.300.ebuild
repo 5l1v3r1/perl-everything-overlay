@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MKUTTER"
-DIST_VERSION="0.3"
-DIST_A="Class-Std-Fast_XS-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 "
+

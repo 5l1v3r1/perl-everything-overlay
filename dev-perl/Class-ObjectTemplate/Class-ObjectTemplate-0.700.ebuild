@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASONS"
-DIST_VERSION="0.7"
-DIST_A="Class-ObjectTemplate-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

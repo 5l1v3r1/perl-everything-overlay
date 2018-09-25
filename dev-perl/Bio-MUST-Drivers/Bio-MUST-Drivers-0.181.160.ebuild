@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBAURAIN"
-DIST_VERSION="0.181160"
-DIST_A="Bio-MUST-Drivers-0.181160.tar.gz"
+DIST_VERSION="0.181160" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Files
 	virtual/perl-version
 "
+

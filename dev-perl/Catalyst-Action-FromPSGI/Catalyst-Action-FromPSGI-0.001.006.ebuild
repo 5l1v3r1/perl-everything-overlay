@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.001006"
-DIST_A="Catalyst-Action-FromPSGI-0.001006.tar.gz"
+DIST_VERSION="0.001006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Web-Simple-0.016
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.001"
-DIST_A="Catalyst-Model-DataHash-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.900.600
 	>=dev-perl/Test-Most-0.340
 "
+

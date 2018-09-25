@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CINDY"
-DIST_VERSION="0.001003"
-DIST_A="AnyEvent-HTTPD-SendMultiHeaderPatch-0.001003.tar.gz"
+DIST_VERSION="0.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="0.001"
-DIST_A="Algorithm-Paxos-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

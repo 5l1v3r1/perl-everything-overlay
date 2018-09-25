@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="2.025"
-DIST_A="App-TimeTracker-2.025.tar.gz"
+DIST_VERSION="2.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -62,3 +61,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

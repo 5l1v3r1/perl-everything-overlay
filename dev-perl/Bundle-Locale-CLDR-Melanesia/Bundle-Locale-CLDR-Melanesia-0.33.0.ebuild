@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGNI"
-DIST_VERSION="0.33.0"
-DIST_A="Bundle-Locale-CLDR-Melanesia-0.33.0.tar.gz"
+DIST_VERSION="0.33.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Test-Exception
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.980
 "
+

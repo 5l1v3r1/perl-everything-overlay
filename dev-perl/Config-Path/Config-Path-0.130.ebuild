@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GPHAT"
-DIST_VERSION="0.13"
-DIST_A="Config-Path-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

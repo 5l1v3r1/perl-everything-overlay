@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.030"
-DIST_A="App-IndonesianNumberUtils-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

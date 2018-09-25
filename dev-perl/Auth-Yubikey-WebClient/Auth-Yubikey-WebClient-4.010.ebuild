@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASSYN"
-DIST_VERSION="4.01"
-DIST_A="Auth-Yubikey_WebClient-4.01.tar.gz"
+DIST_VERSION="4.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

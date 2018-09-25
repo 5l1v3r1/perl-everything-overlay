@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="TGASIBA"
 DIST_VERSION="0.02"
-DIST_A="DBD-SQLcipher-0.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +19,10 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/DBI-1.570
 	>=virtual/perl-File-Spec-0.820
-	>=virtual/perl-Test-Simple-0.860
+	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 "
+

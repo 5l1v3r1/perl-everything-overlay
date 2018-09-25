@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKITOVER"
-DIST_VERSION="0.038"
-DIST_A="Catalyst-Controller-WrapCGI-0.038.tar.gz"
+DIST_VERSION="0.038" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

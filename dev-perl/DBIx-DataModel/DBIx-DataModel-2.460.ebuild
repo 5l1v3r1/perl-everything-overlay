@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMI"
-DIST_VERSION="2.46"
-DIST_A="DBIx-DataModel-2.46.tar.gz"
+DIST_VERSION="2.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Acme-Damn
 	dev-perl/DBI
 	dev-perl/MRO-Compat
 	dev-perl/Module-Build
@@ -33,4 +31,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Task-Weaken
 "
+

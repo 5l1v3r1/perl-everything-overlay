@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAICRON"
-DIST_VERSION="0.30"
-DIST_A="App-pmuninstall-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
 "
+

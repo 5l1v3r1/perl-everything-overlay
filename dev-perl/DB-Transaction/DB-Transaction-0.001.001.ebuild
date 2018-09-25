@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SSTK"
-DIST_VERSION="0.001001"
-DIST_A="DB-Transaction-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

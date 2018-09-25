@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMITHFARM"
-DIST_VERSION="0.222"
-DIST_A="App-CELL-0.222.tar.gz"
+DIST_VERSION="0.222" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 "
+

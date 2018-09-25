@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.01"
-DIST_A="Alien-libsndfile-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Alien-Base
+	dev-perl/Alien-Build
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJENSEN"
-DIST_VERSION="0.1004"
-DIST_A="DBD-Neo4p-0.1004.tar.gz"
+DIST_VERSION="0.1004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/experimental
 	virtual/perl-Test-Simple
 "
+

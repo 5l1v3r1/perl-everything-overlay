@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TPABA"
-DIST_VERSION="0.04"
-DIST_A="Config-ReadAndCheck-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TP/TPABA/Config-ReadAndCheck/Config-ReadAndCheck-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/T/TP/TPABA/Config-ReadAndCheck/Config-ReadAndCheck-0.04.tar.gz -> Config-ReadAndCheck-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-ReadAndCheck-0.04 ${WORKDIR}/Config-ReadAndCheck-0.04
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JNBEK"
-DIST_VERSION="1.32"
-DIST_A="CPANPLUS-Dist-Arch-1.32.tar.gz"
+DIST_VERSION="1.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

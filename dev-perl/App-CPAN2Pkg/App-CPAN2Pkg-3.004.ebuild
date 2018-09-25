@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="3.004"
-DIST_A="App-CPAN2Pkg-3.004.tar.gz"
+DIST_VERSION="3.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -52,3 +51,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

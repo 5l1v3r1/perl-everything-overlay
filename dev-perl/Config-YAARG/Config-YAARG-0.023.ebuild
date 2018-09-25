@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALUCAS"
-DIST_VERSION="0.023"
-DIST_A="Config-YAARG-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

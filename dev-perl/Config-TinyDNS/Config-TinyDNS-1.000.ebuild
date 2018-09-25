@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMORROW"
-DIST_VERSION="1.0"
-DIST_A="Config-TinyDNS-1.tar.gz"
+DIST_VERSION="1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.650
 "
+

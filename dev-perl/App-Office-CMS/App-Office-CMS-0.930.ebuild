@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="0.93"
-DIST_A="App-Office-CMS-0.93.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.510
+	dev-lang/perl
 	>=dev-perl/Brannigan-1.100
 	>=dev-perl/CGI-3.490
 	>=dev-perl/CGI-Application-4.310
@@ -55,3 +55,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

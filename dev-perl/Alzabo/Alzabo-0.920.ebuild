@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.92"
-DIST_A="Alzabo-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-podlators-1.140
 "
+

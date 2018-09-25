@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NISHIKAWA"
-DIST_VERSION="0.00004"
-DIST_A="Authen-Htpasswd-Trac-0.00004.tar.gz"
+DIST_VERSION="0.00004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+

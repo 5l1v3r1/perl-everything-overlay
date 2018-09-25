@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JV"
-DIST_VERSION="1.430"
-DIST_A="App-Packager-1.430.tar.gz"
+DIST_VERSION="1.430" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

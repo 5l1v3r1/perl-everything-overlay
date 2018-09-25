@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VTI"
-DIST_VERSION="0.03"
-DIST_A="App-mimi-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-TempDir-Tiny
 	>=virtual/perl-Test-Simple-0.980
 "
+

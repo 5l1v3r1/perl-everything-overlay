@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="0.35"
-DIST_A="Class-Accessor-Inherited-XS-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

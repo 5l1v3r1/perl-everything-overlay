@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="asterisk-store"
-DIST_VERSION="0.1"
-DIST_A="Asterisk-Store-Queue-0.1.tar.gz"
+DIST_AUTHOR="GOOZBACH"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/G/GO/GOOZBACH/asterisk-store/Asterisk-Store-Queue-0.1.tar.gz -> Asterisk-Store-Queue-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Asterisk-Store-Queue-0.1 ${WORKDIR}/Asterisk-Store-Queue-0.1
+}
+

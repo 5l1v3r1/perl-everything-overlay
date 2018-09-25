@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORIAN"
-DIST_VERSION="0.17"
-DIST_A="Apache2-CondProxy-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Apache2-ModSSL-0.080
 	>=dev-perl/Path-Class-0.240
-	>=dev-perl/URI-3.310
+	>=dev-perl/URI-1.600
 "
 DEPEND="
 	${RDEPEND}
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+

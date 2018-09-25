@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CMCOSSE"
-DIST_VERSION="0.3"
-DIST_A="Crypt-SimpleGPG-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

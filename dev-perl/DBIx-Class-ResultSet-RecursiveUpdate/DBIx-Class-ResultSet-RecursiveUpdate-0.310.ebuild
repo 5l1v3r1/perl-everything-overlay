@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSHANK"
-DIST_VERSION="0.31"
-DIST_A="DBIx-Class-ResultSet-RecursiveUpdate-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.200
 	>=virtual/perl-Test-Simple-0.880
 "
+

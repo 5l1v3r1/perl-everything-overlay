@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASKSH"
-DIST_VERSION="v1.5.0"
-DIST_A="Class-Dot-1.5.0.tar.gz"
+DIST_VERSION="1.5.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

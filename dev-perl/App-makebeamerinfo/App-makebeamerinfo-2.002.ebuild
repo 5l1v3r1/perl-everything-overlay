@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="2.002"
-DIST_A="App-makebeamerinfo-2.002.tar.gz"
+DIST_VERSION="2.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

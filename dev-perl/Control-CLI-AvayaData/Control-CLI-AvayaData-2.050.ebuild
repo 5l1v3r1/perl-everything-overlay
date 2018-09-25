@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LSTEVENS"
-DIST_VERSION="2.05"
-DIST_A="Control-CLI-AvayaData-2.05.tar.gz"
-b=L/LS/LSTEVENS/Control-CLI-AvayaData-2.05.tar.gz
+DIST_VERSION="2.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +23,4 @@ DEPEND="
 	dev-perl/IO-Interactive
 	dev-perl/Net-Telnet
 "
+

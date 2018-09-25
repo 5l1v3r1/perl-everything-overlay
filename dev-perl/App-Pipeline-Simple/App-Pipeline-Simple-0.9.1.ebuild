@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEIKKI"
-DIST_VERSION="v0.9.1"
-DIST_A="App-Pipeline-Simple-0.9.1.tar.gz"
+DIST_VERSION="0.9.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,10 +22,14 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-autodie
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Data-Dumper
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPOSE"
-DIST_VERSION="0.0"
-DIST_A="AsposeImagingCloud-ImagingApi-0.tar.gz"
+DIST_VERSION="0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=virtual/perl-Test-Simple-0.100
 "
+

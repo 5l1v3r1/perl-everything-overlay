@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BORISD"
-DIST_VERSION="0.005"
-DIST_A="Convert-TAP-Archive-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/TAP-Formatter-HTML
 	virtual/perl-Test-Simple
 "
+

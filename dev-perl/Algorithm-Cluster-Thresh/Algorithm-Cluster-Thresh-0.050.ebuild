@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CADAVIS"
-DIST_VERSION="0.05"
-DIST_A="Algorithm-Cluster-Thresh-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

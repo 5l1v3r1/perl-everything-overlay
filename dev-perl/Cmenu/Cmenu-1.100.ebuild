@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DREWF"
 DIST_VERSION="1.1"
-DIST_A="Cmenu-1.1.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

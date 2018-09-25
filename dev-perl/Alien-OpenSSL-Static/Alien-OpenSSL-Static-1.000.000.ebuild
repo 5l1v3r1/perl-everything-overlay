@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.000000"
-DIST_A="Alien-OpenSSL-Static-1.000000.tar.gz"
+DIST_VERSION="1.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

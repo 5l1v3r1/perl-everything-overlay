@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPRASAD"
-DIST_VERSION="0.03"
-DIST_A="Amibroker-OLE-Interface-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

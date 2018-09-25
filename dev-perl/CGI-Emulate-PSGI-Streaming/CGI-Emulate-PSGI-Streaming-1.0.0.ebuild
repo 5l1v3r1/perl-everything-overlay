@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="v1.0.0"
-DIST_A="CGI-Emulate-PSGI-Streaming-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

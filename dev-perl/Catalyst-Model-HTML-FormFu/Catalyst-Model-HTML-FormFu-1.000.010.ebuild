@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="1.00001"
-DIST_A="Catalyst-Model-HTML-FormFu-1.00001.tar.gz"
+DIST_VERSION="1.00001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,10 @@ RDEPEND="
 	>=dev-perl/HTML-FormFu-0.020.000
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

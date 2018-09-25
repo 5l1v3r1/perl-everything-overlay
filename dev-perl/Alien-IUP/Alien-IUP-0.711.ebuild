@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KMX"
-DIST_VERSION="0.711"
-DIST_A="Alien-IUP-0.711.tar.gz"
+DIST_VERSION="0.711" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.220
 	virtual/perl-Test-Simple
 "
+

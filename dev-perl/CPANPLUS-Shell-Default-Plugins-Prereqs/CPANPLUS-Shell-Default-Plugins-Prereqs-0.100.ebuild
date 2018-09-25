@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="0.10"
-DIST_A="CPANPLUS-Shell-Default-Plugins-Prereqs-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/IO-CaptureOutput-1.110.200
 	virtual/perl-Test-Simple
 "
+

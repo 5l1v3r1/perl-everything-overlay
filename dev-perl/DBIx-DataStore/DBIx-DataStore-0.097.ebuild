@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIME"
-DIST_VERSION="0.097"
-DIST_A="DBIx-DataStore-0.097.tar.gz"
+DIST_VERSION="0.097" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBI
 	dev-perl/Data-Page
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

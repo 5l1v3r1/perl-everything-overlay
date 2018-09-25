@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.1101"
-DIST_A="Chess-Rep-Coverage-0.1101.tar.gz"
+DIST_VERSION="0.1101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

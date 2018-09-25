@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TODDR"
-DIST_VERSION="0.99"
-DIST_A="CDB_File-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NETSENSEI"
-DIST_VERSION="0.05"
-DIST_A="Catmandu-VIAF-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	>=virtual/perl-Test-Simple-0.960
 "
+

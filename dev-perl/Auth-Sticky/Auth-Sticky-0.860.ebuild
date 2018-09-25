@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPORTER"
-DIST_VERSION="0.86"
-DIST_A="Auth-Sticky-0.86.tar.gz"
+DIST_VERSION="0.86" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

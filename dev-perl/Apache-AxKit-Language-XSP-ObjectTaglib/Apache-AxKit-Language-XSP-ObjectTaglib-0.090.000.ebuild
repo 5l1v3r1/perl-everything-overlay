@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLACO"
-DIST_VERSION="0.09000"
-DIST_A="Apache-AxKit-Language-XSP-ObjectTaglib-0.09000.tar.gz"
+DIST_VERSION="0.09000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

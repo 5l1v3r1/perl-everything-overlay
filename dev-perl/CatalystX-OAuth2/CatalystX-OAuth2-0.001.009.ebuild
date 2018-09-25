@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.001009"
-DIST_A="CatalystX-OAuth2-0.001009.tar.gz"
+DIST_VERSION="0.001009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,3 +54,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

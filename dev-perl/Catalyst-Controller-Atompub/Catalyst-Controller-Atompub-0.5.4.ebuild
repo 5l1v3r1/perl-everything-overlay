@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAKERU"
-DIST_VERSION="0.5.4"
-DIST_A="Catalyst-Controller-Atompub-0.5.4.tar.gz"
+DIST_VERSION="0.5.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

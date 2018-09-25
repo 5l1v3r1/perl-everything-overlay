@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.32"
-DIST_A="Catmandu-RDF-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,8 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-LWP-UserAgent-0.025
 	dev-perl/Test-Pod
 	virtual/perl-Encode
 	>=virtual/perl-Test-Simple-0.990
 "
+

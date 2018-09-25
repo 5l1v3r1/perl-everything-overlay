@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBARBON"
-DIST_VERSION="0.74"
-DIST_A="App-Build-0.74.tar.gz"
+DIST_VERSION="0.74" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Test-Differences-0.470
 "
+

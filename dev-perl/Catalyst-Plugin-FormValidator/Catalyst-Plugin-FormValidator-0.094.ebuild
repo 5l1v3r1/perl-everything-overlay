@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOSS"
-DIST_VERSION="0.094"
-DIST_A="Catalyst-Plugin-FormValidator-0.094.tar.gz"
+DIST_VERSION="0.094" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

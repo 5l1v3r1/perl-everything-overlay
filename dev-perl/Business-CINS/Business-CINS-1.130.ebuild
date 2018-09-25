@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAYERS"
-DIST_VERSION="1.13"
-DIST_A="Business-CINS-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

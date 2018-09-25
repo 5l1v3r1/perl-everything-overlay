@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MONS"
-DIST_VERSION="0.06"
-DIST_A="Crypt-RSA-Yandex-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 "
+

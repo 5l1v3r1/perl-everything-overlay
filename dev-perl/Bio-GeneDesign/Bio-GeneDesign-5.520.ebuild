@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOTDOCTOR"
-DIST_VERSION="5.52"
-DIST_A="Bio-GeneDesign-5.52.tar.gz"
+DIST_VERSION="5.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BioPerl
 	dev-perl/Exception-Class
 	>=dev-perl/Math-Combinatorics-0.090
 	>=virtual/perl-Scalar-List-Utils-1.220
@@ -25,4 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	>=dev-perl/Test-Deep-0.100
+	>=virtual/perl-Test-Simple-0.800
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OTAYLOR"
-DIST_VERSION="v0.4.3"
-DIST_A="CORBA-ORBit-0.4.3.tar.gz"
+DIST_VERSION="0.4.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

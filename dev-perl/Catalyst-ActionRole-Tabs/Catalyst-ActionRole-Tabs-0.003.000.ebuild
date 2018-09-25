@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAF"
-DIST_VERSION="0.003000"
-DIST_A="Catalyst-ActionRole-Tabs-0.003000.tar.gz"
+DIST_VERSION="0.003000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

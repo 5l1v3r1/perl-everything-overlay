@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.07"
-DIST_A="Alien-ImageMagick-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.009
+	>=dev-perl/Alien-Build-0.009
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

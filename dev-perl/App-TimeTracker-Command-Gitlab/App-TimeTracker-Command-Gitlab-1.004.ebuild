@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="1.004"
-DIST_A="App-TimeTracker-Command-Gitlab-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

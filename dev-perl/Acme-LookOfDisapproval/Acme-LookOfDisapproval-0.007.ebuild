@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.007"
-DIST_A="Acme-LookOfDisapproval-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
+	dev-perl/Module-Build
 	>=dev-perl/Test-Warnings-0.009
 	virtual/perl-JSON-PP
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

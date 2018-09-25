@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NNMOS"
-DIST_VERSION="1.00"
-DIST_A="API-Intis-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

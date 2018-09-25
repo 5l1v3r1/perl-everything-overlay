@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMITHFARM"
-DIST_VERSION="0.182"
-DIST_A="App-MFILE-0.182.tar.gz"
+DIST_VERSION="0.182" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Software-License
 	dev-perl/Test-Fatal
 "
+

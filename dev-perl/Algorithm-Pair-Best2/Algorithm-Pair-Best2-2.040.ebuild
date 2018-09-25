@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="2.040"
-DIST_A="Algorithm-Pair-Best2-2.040.tar.gz"
+DIST_VERSION="2.040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

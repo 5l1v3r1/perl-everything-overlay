@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDK"
-DIST_VERSION="1.03"
-DIST_A="CPAN-Test-Dummy-Perl5-Build-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/CPAN-Test-Dummy-Perl5-Make
+	dev-perl/Module-Build
 "
+

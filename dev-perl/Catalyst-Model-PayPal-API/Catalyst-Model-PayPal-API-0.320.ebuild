@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJZORT"
-DIST_VERSION="0.32"
-DIST_A="Catalyst-Model-PayPal-API-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	virtual/perl-Test-Simple
 "
+

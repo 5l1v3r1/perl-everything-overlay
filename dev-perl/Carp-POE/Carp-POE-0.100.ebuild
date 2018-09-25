@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HINRIK"
-DIST_VERSION="0.10"
-DIST_A="Carp-POE-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=dev-perl/Test-Warn-0.200
 "
+

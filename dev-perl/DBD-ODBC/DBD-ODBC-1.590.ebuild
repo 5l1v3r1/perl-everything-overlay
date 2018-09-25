@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJEVANS"
-DIST_VERSION="1.59"
-DIST_A="DBD-ODBC-1.59.tar.gz"
+DIST_VERSION="1.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Data-Dumper
 "
+

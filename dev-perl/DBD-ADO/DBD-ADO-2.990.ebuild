@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGOELDNER"
-DIST_VERSION="2.99"
-DIST_A="DBD-ADO-2.99.tar.gz"
+DIST_VERSION="2.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

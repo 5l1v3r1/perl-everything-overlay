@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DONEILL"
-DIST_VERSION="0.1000"
-DIST_A="Catalyst-Authentication-Store-RDBO-0.1000.tar.gz"
+DIST_VERSION="0.1000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.060
 	dev-perl/Catalyst-Runtime
 	dev-perl/Rose-DB-Object
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

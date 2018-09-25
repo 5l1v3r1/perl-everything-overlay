@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATOOMIC"
-DIST_VERSION="0.11"
-DIST_A="Amazon-Dash-Button-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,11 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

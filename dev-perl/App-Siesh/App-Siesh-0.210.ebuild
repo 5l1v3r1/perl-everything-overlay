@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOM"
-DIST_VERSION="0.21"
-DIST_A="App-Siesh-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,11 +22,11 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/IPC-System-Simple
 	>=dev-perl/Net-ManageSieve-0.080
+	dev-perl/Pod-Usage
 	dev-perl/Term-ShellUI
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 	virtual/perl-parent
 "
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

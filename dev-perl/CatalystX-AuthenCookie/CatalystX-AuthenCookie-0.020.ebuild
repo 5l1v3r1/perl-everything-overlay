@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.02"
-DIST_A="CatalystX-AuthenCookie-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/HTTP-Date
 	>=virtual/perl-Test-Simple-0.880
 "
+

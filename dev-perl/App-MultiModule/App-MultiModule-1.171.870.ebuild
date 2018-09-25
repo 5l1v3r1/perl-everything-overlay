@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.171870"
-DIST_A="App-MultiModule-1.171870.tar.gz"
+DIST_VERSION="1.171870" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,7 @@ RDEPEND="
 	dev-perl/PadWalker
 	dev-perl/Sereal-Decoder
 	dev-perl/Sereal-Encoder
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
@@ -36,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

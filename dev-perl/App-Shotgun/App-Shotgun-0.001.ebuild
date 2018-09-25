@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.001"
-DIST_A="App-Shotgun-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.960
 "
+

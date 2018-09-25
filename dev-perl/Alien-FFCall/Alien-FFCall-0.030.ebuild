@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCMERTENS"
-DIST_VERSION="0.03"
-DIST_A="Alien-FFCall-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.021
+	>=dev-perl/Alien-Build-0.021
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HITODE"
-DIST_VERSION="0.05"
-DIST_A="App-GitGrepPerlStatement-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.980
 "
+

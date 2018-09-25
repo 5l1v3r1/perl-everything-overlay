@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAGORY"
-DIST_VERSION="0.20"
-DIST_A="App-yajg-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/JSON
+	dev-perl/Pod-Usage
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BJOERN"
-DIST_VERSION="0.08"
-DIST_A="CSS-SAC-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

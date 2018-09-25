@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANAZAWA"
-DIST_VERSION="0.63008"
-DIST_A="CGI-Application-Plugin-Header-0.63008.tar.gz"
+DIST_VERSION="0.63008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

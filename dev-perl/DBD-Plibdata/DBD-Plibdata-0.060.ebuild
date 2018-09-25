@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUYSEYAL"
-DIST_VERSION="0.06"
-DIST_A="DBD-Plibdata-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

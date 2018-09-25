@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="0.09"
-DIST_A="Alt-Math-Prime-FastSieve-Inline-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-7.040
 	>=virtual/perl-Test-Simple-1.001.009
 "
+

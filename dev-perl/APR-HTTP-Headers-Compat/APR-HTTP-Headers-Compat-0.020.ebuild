@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDYA"
-DIST_VERSION="0.02"
-DIST_A="APR-HTTP-Headers-Compat-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

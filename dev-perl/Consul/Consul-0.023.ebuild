@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBN"
-DIST_VERSION="0.023"
-DIST_A="Consul-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAKEANQ"
-DIST_VERSION="0.02"
-DIST_A="Alien-SFML-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Alien-Base
+	dev-perl/Alien-Build
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Alien-CMake
 	>=dev-perl/Module-Build-0.380
 "
+

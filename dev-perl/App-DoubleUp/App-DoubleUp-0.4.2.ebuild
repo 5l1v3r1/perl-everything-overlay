@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STUIFZAND"
-DIST_VERSION="0.4.2"
-DIST_A="App-DoubleUp-0.4.2.tar.gz"
+DIST_VERSION="0.4.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.025
 	dev-perl/IO-Capture
+	dev-perl/Module-Build
 	dev-perl/Path-Tiny
 "
+

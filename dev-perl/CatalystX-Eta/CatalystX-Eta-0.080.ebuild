@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENTOCRON"
-DIST_VERSION="0.08"
-DIST_A="CatalystX-Eta-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,9 +36,11 @@ DEPEND="
 	dev-perl/Data-Manager
 	dev-perl/Data-Verifier
 	dev-perl/JSON-MaybeXS
+	dev-perl/Module-Build
 	dev-perl/MooseX-MarkAsMethods
 	dev-perl/MooseX-NonMoose
 	dev-perl/MooseX-Types-Email
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

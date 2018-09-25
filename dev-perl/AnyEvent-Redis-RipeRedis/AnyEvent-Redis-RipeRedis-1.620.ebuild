@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPH"
-DIST_VERSION="1.62"
-DIST_A="AnyEvent-Redis-RipeRedis-1.62.tar.gz"
+DIST_VERSION="1.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Time-HiRes
 	>=virtual/perl-version-0.770
 "
+

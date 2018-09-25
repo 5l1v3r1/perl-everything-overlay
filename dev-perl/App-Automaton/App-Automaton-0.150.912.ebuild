@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAGRASTA"
-DIST_VERSION="0.150912"
-DIST_A="App-Automaton-0.150912.tar.gz"
+DIST_VERSION="0.150912" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

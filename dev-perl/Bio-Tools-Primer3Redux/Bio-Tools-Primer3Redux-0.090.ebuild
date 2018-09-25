@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJFIELDS"
-DIST_VERSION="0.09"
-DIST_A="Bio-Tools-Primer3Redux-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/BioPerl-1.6.900
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Test-Most
 "
+

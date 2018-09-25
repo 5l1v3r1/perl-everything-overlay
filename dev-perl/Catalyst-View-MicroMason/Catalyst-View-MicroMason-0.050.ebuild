@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROCKWAY"
-DIST_VERSION="0.05"
-DIST_A="Catalyst-View-MicroMason-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Catalyst-Runtime-5.700
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

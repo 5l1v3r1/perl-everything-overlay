@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="2.003000"
-DIST_A="App-NetdiscoX-Web-Plugin-Observium-2.003000.tar.gz"
+DIST_VERSION="2.003000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

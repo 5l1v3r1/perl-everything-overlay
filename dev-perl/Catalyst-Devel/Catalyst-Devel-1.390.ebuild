@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILMARI"
-DIST_VERSION="1.39"
-DIST_A="Catalyst-Devel-1.39.tar.gz"
+DIST_VERSION="1.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

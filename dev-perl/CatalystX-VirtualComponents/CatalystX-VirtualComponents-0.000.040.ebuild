@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00004"
-DIST_A="CatalystX-VirtualComponents-0.00004.tar.gz"
+DIST_VERSION="0.00004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.30"
-DIST_A="Acme-Ford-Prefect-FFI-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test2-Suite
 	virtual/perl-ExtUtils-CBuilder
 "
+

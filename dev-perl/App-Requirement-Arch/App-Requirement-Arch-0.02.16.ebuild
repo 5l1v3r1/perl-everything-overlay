@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.02.16"
-DIST_A="App-Requirement-Arch-0.02.16.tar.gz"
+DIST_VERSION="0.02.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +32,7 @@ RDEPEND="
 	dev-perl/Text-Pluralize
 	dev-perl/Tie-IxHash
 	virtual/perl-File-Spec
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.190
 "
 DEPEND="
 	${RDEPEND}
@@ -45,3 +44,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

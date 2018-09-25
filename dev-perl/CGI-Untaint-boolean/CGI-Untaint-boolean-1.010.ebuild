@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.01"
-DIST_A="CGI-Untaint-boolean-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-CGI-Untaint-1.100
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.470
 "
+

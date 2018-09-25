@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MHOWARD"
-DIST_VERSION="0.04"
-DIST_A="Compress-LZW-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Moo-1.001.000
 	dev-perl/Type-Tiny
+	dev-perl/base
 	dev-perl/namespace-clean
 	dev-perl/strictures
 	virtual/perl-Exporter
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

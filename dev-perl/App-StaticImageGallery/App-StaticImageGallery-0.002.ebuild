@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBO"
-DIST_VERSION="0.002"
-DIST_A="App-StaticImageGallery-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIROD"
-DIST_VERSION="0.14"
-DIST_A="App-xml_grep2-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Find-Rule
+	dev-perl/Pod-Usage
 	dev-perl/XML-LibXML
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.34"
-DIST_A="Catalyst-Plugin-ConfigLoader-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Path-Class
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNANDOR"
-DIST_VERSION="0.25"
-DIST_A="AudioCD-Mac-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCONOVER"
-DIST_VERSION="0.25"
-DIST_A="Amazon-DynamoDB-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

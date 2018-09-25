@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOM"
-DIST_VERSION="2.05"
-DIST_A="App-dategrep-2.05.tar.gz"
+DIST_VERSION="2.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	virtual/perl-Time-Local
 	virtual/perl-parent
+	dev-perl/Module-Build
 	dev-perl/Test-MockTime
 	dev-perl/Test-Output
 "
+

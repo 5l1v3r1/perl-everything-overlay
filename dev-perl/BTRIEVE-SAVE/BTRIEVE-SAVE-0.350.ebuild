@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLANE"
-DIST_VERSION="0.35"
-DIST_A="BTRIEVE-SAVE-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

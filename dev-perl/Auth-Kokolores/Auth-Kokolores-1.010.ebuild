@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="1.01"
-DIST_A="Auth-Kokolores-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/MooseX-Singleton
 	dev-perl/Net-Server
 	dev-perl/Tie-IxHash
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Getopt-Long
@@ -41,3 +41,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

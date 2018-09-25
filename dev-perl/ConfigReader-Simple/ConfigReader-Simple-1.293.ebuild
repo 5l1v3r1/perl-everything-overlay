@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.293"
-DIST_A="ConfigReader-Simple-1.293.tar.gz"
+DIST_VERSION="1.293" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.940
 "
+

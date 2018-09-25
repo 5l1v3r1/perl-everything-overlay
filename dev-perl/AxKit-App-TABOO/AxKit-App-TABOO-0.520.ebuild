@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.52"
-DIST_A="AxKit-App-TABOO-0.52.tar.gz"
+DIST_VERSION="0.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

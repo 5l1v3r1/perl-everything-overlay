@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="0.031002"
-DIST_A="Bot-Cobalt-Plugin-Silly-0.031002.tar.gz"
+DIST_VERSION="0.031002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

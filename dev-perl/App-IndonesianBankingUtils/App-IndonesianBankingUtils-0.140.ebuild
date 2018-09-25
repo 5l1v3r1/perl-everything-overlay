@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.140"
-DIST_A="App-IndonesianBankingUtils-0.140.tar.gz"
+DIST_VERSION="0.140" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,11 +27,11 @@ RDEPEND="
 	>=dev-perl/Finance-Bank-ID-BCA-0.450
 	dev-perl/Finance-Bank-ID-BPRKS
 	dev-perl/Finance-Bank-ID-Mandiri
-	>=dev-perl/Log-ger-0.005
+	>=dev-perl/Log-ger-0.023
 	dev-perl/Log-ger-Level-FromEnv
 	>=dev-perl/Perinci-CmdLine-Any-0.090
 	>=dev-perl/Perinci-CmdLine-Classic-1.770
-	>=dev-perl/Perinci-CmdLine-Lite-1.810
+	>=dev-perl/Perinci-CmdLine-Lite-1.811
 	dev-perl/Perinci-Sub-Property-result-table
 	dev-perl/YAML
 	dev-perl/YAML-Syck
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDRAUG"
-DIST_VERSION="1.7.3"
-DIST_A="Bio-Tools-Phylo-PAML-1.7.3.tar.gz"
+DIST_VERSION="1.7.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

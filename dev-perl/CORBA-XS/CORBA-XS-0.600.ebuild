@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERRAD"
-DIST_VERSION="0.60"
-DIST_A="CORBA-XS-0.60.tar.gz"
+DIST_VERSION="0.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.01"
-DIST_A="App-ListCountries-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Locale-Codes-3.370
 	dev-perl/Perinci-CmdLine-Any
 	dev-perl/Perinci-Sub-Gen-AccessTable
 	dev-perl/Perinci-Sub-Property-result-table
@@ -31,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

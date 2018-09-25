@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.036"
-DIST_A="Catalyst-Plugin-Assets-0.036.tar.gz"
+DIST_VERSION="0.036" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

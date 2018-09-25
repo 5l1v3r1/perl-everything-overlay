@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KURIHARA"
-DIST_VERSION="0.041"
-DIST_A="Catalyst-Plugin-MobileAgent-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.300
 	>=dev-perl/HTTP-MobileAgent-0.220
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJORE"
-DIST_VERSION="0.04"
-DIST_A="B-Lint-StrictOO-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/IPC-Run
 	virtual/perl-Test-Simple
 "
+

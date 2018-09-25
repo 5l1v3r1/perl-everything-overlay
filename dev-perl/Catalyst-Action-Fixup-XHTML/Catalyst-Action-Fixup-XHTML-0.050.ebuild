@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.05"
-DIST_A="Catalyst-Action-Fixup-XHTML-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/Catalyst-View-ContentNegotiation-XHTML-1.100
 	dev-perl/MRO-Compat
+	dev-perl/Module-Build
 	dev-perl/Moose
 	virtual/perl-Test-Simple
 "
+

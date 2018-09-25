@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HVDS"
-DIST_VERSION="0.74"
-DIST_A="C-Scan-0.74.tar.gz"
+DIST_VERSION="0.74" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

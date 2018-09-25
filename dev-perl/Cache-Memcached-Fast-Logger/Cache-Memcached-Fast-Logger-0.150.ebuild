@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLOVER"
-DIST_VERSION="0.15"
-DIST_A="Cache-Memcached-Fast-Logger-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

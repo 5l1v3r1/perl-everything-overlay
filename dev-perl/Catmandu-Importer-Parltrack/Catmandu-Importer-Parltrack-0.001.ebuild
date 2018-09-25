@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASS"
-DIST_VERSION="0.001"
-DIST_A="Catmandu-Importer-Parltrack-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=virtual/perl-Test-Simple-0.610
 "
+

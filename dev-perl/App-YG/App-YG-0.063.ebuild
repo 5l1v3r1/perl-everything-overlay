@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.063"
-DIST_A="App-YG-0.063.tar.gz"
+DIST_VERSION="0.063" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor-Lite
 	dev-perl/IO-Interactive
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	>=virtual/perl-Getopt-Long-2.380
-	virtual/perl-Pod-Usage
 	virtual/perl-Term-ANSIColor
 "
 DEPEND="
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
+

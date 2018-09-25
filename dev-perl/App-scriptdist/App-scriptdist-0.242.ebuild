@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.242"
-DIST_A="App-scriptdist-0.242.tar.gz"
+DIST_VERSION="0.242" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.950
 "
+

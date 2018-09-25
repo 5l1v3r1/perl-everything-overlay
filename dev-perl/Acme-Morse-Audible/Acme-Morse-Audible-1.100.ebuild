@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ITRIVIZKI"
-DIST_VERSION="1.10"
-DIST_A="Acme-Morse-Audible-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

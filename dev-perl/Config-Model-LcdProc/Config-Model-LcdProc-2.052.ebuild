@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="2.052"
-DIST_A="Config-Model-LcdProc-2.052.tar.gz"
+DIST_VERSION="2.052" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Getopt-Long
 	dev-perl/Config-Model-Tester
 "
+

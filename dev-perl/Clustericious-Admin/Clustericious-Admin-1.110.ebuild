@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.11"
-DIST_A="Clustericious-Admin-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test2-Plugin-FauxHomeDir
 	>=virtual/perl-Test-Simple-0.940
 "
+

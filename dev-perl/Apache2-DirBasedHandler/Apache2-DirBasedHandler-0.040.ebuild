@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="APRIME"
-DIST_VERSION="0.04"
-DIST_A="Apache2-DirBasedHandler-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Apache-Test-1.120
 "
+

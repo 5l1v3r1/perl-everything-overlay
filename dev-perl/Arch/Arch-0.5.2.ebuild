@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIGO"
-DIST_VERSION="v0.5.2"
-DIST_A="Arch-0.5.2.tar.gz"
+DIST_VERSION="0.5.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

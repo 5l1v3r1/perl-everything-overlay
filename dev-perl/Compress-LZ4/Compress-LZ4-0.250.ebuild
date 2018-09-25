@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAY"
-DIST_VERSION="0.25"
-DIST_A="Compress-LZ4-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.820
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="1.002"
-DIST_A="App-TimeTracker-Gtk2TrayIcon-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

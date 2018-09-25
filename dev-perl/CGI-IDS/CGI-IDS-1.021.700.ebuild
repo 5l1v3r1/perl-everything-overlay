@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="PerlIDS"
-DIST_VERSION="1.0217"
-DIST_A="CGI-IDS-1.0217.tar.gz"
+DIST_AUTHOR="HINNERK"
+DIST_VERSION="1.0217" 
+SRC_URI="mirror://cpan/authors/id/H/HI/HINNERK/PerlIDS/CGI-IDS-1.0217.tar.gz -> CGI-IDS-1.0217.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CGI-IDS-1.0217 ${WORKDIR}/CGI-IDS-1.0217
+}
+

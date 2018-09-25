@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISHIGAKI"
-DIST_VERSION="0.05"
-DIST_A="App-CPANTS-Lint-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,16 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Module-CPANTS-Analyse-0.960
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.060
+	>=dev-perl/Test-UseAllModules-0.100
+	virtual/perl-ExtUtils-MakeMaker
+	>=virtual/perl-Test-Simple-0.880
 "
+

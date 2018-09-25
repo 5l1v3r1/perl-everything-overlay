@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="ANDK"
 DIST_VERSION="0.4.4"
-DIST_A="CPAN-Testers-ParseReport-0.4.4.tar.bz2"
+DIST_A_EXT="tar.bz2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +43,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

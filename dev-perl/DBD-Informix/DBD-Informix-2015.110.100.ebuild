@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHNL"
-DIST_VERSION="2015.1101"
-DIST_A="DBD-Informix-2015.1101.tar.gz"
+DIST_VERSION="2015.1101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

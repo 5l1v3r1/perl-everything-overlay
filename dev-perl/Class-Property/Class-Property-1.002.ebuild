@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HURRICUP"
-DIST_VERSION="1.002"
-DIST_A="Class-Property-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
+

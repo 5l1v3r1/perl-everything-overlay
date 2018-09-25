@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.04"
-DIST_A="DBIx-Hash2Table-2.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

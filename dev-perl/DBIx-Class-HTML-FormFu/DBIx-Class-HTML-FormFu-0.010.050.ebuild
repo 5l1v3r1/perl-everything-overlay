@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFRANKS"
-DIST_VERSION="0.01005"
-DIST_A="DBIx-Class-HTML-FormFu-0.01005.tar.gz"
+DIST_VERSION="0.01005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/HTML-FormFu
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

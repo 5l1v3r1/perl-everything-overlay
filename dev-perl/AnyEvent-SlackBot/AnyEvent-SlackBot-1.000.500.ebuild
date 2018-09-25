@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.680
+	>=dev-lang/perl-1.280
 	>=dev-perl/AnyEvent-WebSocket-Client-0.390
 	>=dev-perl/Data-Result-1.000
 	>=dev-perl/HTTP-Message-6.130

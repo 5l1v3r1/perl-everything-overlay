@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEFFA"
-DIST_VERSION="1.03"
-DIST_A="DBIx-HTML-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

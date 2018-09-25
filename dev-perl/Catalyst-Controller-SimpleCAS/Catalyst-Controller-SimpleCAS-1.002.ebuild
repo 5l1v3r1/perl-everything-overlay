@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="1.002"
-DIST_A="Catalyst-Controller-SimpleCAS-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/CatalystX-InjectComponent
 	dev-perl/Digest-SHA1
 	>=dev-perl/Email-MIME-1.929
-	dev-perl/Email-MIME-CreateHTML
+	>=dev-perl/Email-MIME-CreateHTML-1.042
 	>=dev-perl/Email-Simple-2.206
 	dev-perl/File-MimeInfo
 	dev-perl/HTML-Encoding
@@ -54,3 +53,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

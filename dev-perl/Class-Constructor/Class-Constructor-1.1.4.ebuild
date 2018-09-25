@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRAHAM"
-DIST_VERSION="v1.1.4"
-DIST_A="Class-Constructor-1.1.4.tar.gz"
+DIST_VERSION="1.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

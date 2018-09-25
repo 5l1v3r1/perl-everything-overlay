@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="5.80007"
-DIST_A="Catalyst-Runtime-5.80007.tar.gz"
+DIST_VERSION="5.80007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	dev-perl/File-Modified
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.040
-	dev-perl/HTTP-Message
+	>=dev-perl/HTTP-Message-1.640
 	>=dev-perl/HTTP-Request-AsCGI-0.800
 	dev-perl/MRO-Compat
 	>=dev-perl/Module-Pluggable-3.010
@@ -53,3 +52,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Test-Simple-0.880
 "
+

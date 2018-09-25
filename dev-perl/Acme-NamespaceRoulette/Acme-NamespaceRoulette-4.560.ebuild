@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="4.56"
-DIST_A="Acme-NamespaceRoulette-4.56.tar.gz"
+DIST_VERSION="4.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

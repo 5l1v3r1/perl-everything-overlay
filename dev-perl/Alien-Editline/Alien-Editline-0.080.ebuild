@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.08"
-DIST_A="Alien-Editline-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test2-Suite-0.000.060
 	>=virtual/perl-Test-Simple-0.940
 "
+

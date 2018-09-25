@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.1.7"
-DIST_A="Acme-Gosub-0.1.7.tar.gz"
+DIST_VERSION="0.1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

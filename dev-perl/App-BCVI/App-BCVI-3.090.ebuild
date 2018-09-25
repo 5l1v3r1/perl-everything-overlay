@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRANTM"
-DIST_VERSION="3.09"
-DIST_A="App-BCVI-3.09.tar.gz"
+DIST_VERSION="3.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.880
 "
+

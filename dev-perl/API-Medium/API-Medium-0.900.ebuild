@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="0.900"
-DIST_A="API-Medium-0.900.tar.gz"
+DIST_VERSION="0.900" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 "
+

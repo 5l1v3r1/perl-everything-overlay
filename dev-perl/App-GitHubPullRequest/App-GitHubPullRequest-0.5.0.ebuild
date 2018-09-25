@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBINS"
-DIST_VERSION="0.5.0"
-DIST_A="App-GitHubPullRequest-0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

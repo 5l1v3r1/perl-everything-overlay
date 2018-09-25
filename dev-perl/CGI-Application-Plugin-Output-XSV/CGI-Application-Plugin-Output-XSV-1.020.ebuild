@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZACKSE"
-DIST_VERSION="1.02"
-DIST_A="CGI-Application-Plugin-Output-XSV-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

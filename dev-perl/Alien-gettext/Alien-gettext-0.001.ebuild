@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.001"
-DIST_A="Alien-gettext-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.002
+	>=dev-perl/Alien-Build-0.002
 	>=dev-perl/File-ShareDir-1.030
 	>=dev-perl/Path-Class-0.013
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+

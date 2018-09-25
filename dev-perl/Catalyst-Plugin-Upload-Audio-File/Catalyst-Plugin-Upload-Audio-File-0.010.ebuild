@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHEINRIC"
-DIST_VERSION="0.01"
-DIST_A="Catalyst-Plugin-Upload-Audio-File-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Audio-File
 	dev-perl/Catalyst-Runtime
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

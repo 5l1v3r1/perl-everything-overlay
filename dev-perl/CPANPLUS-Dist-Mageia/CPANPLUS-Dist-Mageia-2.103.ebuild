@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="2.103"
-DIST_A="CPANPLUS-Dist-Mageia-2.103.tar.gz"
+DIST_VERSION="2.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Pod-POM
 	dev-perl/Readonly
+	dev-perl/base
 	virtual/perl-IPC-Cmd
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Text-Tabs+Wrap
@@ -35,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJZORT"
-DIST_VERSION="0.00007"
-DIST_A="Catalyst-View-TT-Alloy-0.00007.tar.gz"
+DIST_VERSION="0.00007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

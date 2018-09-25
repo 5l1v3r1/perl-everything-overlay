@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.08"
-DIST_A="Catalyst-Plugin-DefaultEnd-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340
 "
+

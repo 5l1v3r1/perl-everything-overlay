@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEIFJ"
-DIST_VERSION="v0.0.6"
-DIST_A="Class-OWL-0.0.6.tar.gz"
+DIST_VERSION="0.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

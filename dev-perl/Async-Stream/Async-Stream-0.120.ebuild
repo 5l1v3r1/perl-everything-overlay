@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KSYSOEV"
-DIST_VERSION="0.12"
-DIST_A="Async-Stream-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

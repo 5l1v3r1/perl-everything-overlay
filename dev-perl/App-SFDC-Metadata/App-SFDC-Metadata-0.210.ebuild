@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMINNEY"
-DIST_VERSION="0.21"
-DIST_A="App-SFDC-Metadata-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

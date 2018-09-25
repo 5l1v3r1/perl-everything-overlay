@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORLISS"
-DIST_VERSION="1.997"
-DIST_A="CursesForms-1.997.tar.gz"
+DIST_VERSION="1.997" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="UHANDA"
-DIST_VERSION="0.1"
-DIST_A="CMD-Colors-0.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/U/UH/UHANDA/contribs/CMD-Colors-0.1.tar.gz"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/U/UH/UHANDA/contribs/CMD-Colors-0.1.tar.gz -> CMD-Colors-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CMD-Colors-0.1 ${WORKDIR}/CMD-Colors-0.1
+}
+

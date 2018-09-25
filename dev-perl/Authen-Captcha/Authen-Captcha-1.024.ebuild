@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LKUNDRAK"
-DIST_VERSION="1.024"
-DIST_A="Authen-Captcha-1.024.tar.gz"
+DIST_VERSION="1.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

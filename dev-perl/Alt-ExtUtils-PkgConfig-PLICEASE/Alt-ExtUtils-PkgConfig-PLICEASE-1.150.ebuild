@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.15"
-DIST_A="Alt-ExtUtils-PkgConfig-PLICEASE-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.940
 "
+

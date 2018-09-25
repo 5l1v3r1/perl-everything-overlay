@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.003"
-DIST_A="Catalyst-Plugin-Session-Store-Cookie-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.340
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.600
 "
+

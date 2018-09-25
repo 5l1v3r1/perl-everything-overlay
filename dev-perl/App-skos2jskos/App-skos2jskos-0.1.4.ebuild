@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.1.4"
-DIST_A="App-skos2jskos-0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-Output
 	dev-perl/Test-PerlTidy
 	dev-perl/Test-RequiresInternet
 	virtual/perl-Test-Simple
 "
+

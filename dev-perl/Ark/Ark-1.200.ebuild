@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="1.20"
-DIST_A="Ark-1.20.tar.gz"
+DIST_VERSION="1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +32,7 @@ RDEPEND="
 	>=dev-perl/Object-Container-0.080
 	>=dev-perl/Path-AttrRouter-0.030
 	>=dev-perl/Path-Class-0.160
-	>=dev-perl/Plack-0.991.000
+	dev-perl/Plack
 	>=dev-perl/Plack-Request-WithEncoding-0.100
 	dev-perl/Text-MicroTemplate
 	dev-perl/Text-SimpleTable
@@ -49,3 +48,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

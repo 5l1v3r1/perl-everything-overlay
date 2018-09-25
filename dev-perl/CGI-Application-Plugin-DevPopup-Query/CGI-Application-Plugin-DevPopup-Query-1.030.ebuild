@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="STRO"
 DIST_VERSION="1.03"
-DIST_A="CGI-Application-Plugin-DevPopup-Query-1.03.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANI"
-DIST_VERSION="0.88"
-DIST_A="Class-Phrasebook-0.88.tar.gz"
+DIST_VERSION="0.88" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="1.367"
-DIST_A="Config-Model-TkUI-1.367.tar.gz"
+DIST_VERSION="1.367" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.110
 	virtual/perl-Test-Simple
 "
+

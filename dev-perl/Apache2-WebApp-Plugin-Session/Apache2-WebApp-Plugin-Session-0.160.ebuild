@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBROOKS"
-DIST_VERSION="0.16"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"

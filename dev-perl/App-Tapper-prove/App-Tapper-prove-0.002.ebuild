@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAPPER"
-DIST_VERSION="0.002"
-DIST_A="App-Tapper-prove-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Deep
-	dev-perl/Test-MockModule
 	virtual/perl-Test-Simple
 "
+

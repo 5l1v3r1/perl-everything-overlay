@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEBELE"
-DIST_VERSION="0.24"
-DIST_A="Comedi-Lib-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="v0.1.5"
-DIST_A="App-git-hub-0.1.5.tar.gz"
+DIST_VERSION="0.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

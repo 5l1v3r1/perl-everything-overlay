@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.02"
-DIST_A="Call-Context-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.440
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="0.42"
-DIST_A="BankAccount-Validator-UK-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

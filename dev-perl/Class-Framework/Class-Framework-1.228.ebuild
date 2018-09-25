@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THINCH"
-DIST_VERSION="1.228"
-DIST_A="Class-Framework-1.228.tar.gz"
+DIST_VERSION="1.228" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

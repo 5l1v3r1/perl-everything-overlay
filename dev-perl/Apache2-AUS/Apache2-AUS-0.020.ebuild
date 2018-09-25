@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRAKRJACK"
-DIST_VERSION="0.02"
-DIST_A="Apache2-AUS-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Apache-Test
 	>=dev-perl/DBIx-Transaction-0.007
-	>=dev-perl/Module-Build-0.27.03
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHREEF"
-DIST_VERSION="0.001"
-DIST_A="Acme-Alien-__cpu_model-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Alien-Base-0.002
+	>=dev-perl/Alien-Build-0.002
 	>=dev-perl/File-ShareDir-1.030
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.002
-	>=dev-perl/Test-Alien-0.050
+	dev-perl/Module-Build
 	dev-perl/Test2-Suite
 "
+

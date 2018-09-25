@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJFIELDS"
-DIST_VERSION="v1.6.905"
-DIST_A="Bio-FeatureIO-1.6.905.tar.gz"
+DIST_VERSION="1.6.905" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/BioPerl
 	dev-perl/Tree-DAG-Node
 	dev-perl/URI
 	dev-perl/XML-DOM
@@ -25,9 +23,12 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="1.15"
-DIST_A="AWS-CLIWrapper-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

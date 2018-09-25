@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.003"
-DIST_A="Acme-MetaSyntactic-errno-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANAZAWA"
-DIST_VERSION="0.62001"
-DIST_A="CGI-Header-PSGI-0.62001.tar.gz"
+DIST_VERSION="0.62001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.450
 	>=virtual/perl-Test-Simple-0.980
 "
+

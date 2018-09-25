@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DERF"
-DIST_VERSION="1.01"
-DIST_A="App-Hashl-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

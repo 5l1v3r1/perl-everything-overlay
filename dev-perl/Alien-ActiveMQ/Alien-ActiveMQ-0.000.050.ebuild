@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOKI"
-DIST_VERSION="0.00005"
-DIST_A="Alien-ActiveMQ-0.00005.tar.gz"
+DIST_VERSION="0.00005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,5 +36,5 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Test-MockModule
 "
+

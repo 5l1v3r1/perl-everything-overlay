@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EBRUNI"
-DIST_VERSION="00.03"
-DIST_A="Class-DBI-Form-00.03.tar.gz"
+DIST_VERSION="00.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

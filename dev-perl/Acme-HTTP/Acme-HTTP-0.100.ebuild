@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEICHNER"
-DIST_VERSION="0.10"
-DIST_A="Acme-HTTP-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

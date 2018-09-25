@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="3.12"
-DIST_A="CGI-Application-Dispatch-3.12.tar.gz"
+DIST_VERSION="3.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-LongString
 	virtual/perl-Test-Simple
 "
+

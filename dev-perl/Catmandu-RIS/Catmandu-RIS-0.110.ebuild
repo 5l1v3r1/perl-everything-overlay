@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPEIL"
-DIST_VERSION="0.11"
-DIST_A="Catmandu-RIS-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-Test-Simple-0.960
 "
+

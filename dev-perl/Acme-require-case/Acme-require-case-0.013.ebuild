@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.013"
-DIST_A="Acme-require-case-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

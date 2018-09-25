@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMB"
-DIST_VERSION="0.04001"
-DIST_A="Cache-Memcached-libmemcached-0.04001.tar.gz"
+DIST_VERSION="0.04001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.800
 "
+

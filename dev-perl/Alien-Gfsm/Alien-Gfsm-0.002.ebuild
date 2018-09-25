@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOCOW"
-DIST_VERSION="0.002"
-DIST_A="Alien-Gfsm-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.005
+	>=dev-perl/Alien-Build-0.005
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Text-ParseWords
 "
+

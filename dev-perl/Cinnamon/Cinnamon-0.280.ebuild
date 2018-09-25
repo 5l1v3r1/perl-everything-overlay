@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHIBAZAKI"
-DIST_VERSION="0.28"
-DIST_A="Cinnamon-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

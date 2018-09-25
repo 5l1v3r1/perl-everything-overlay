@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONLANDIS"
-DIST_VERSION="v1.0.5"
-DIST_A="Akamai-Edgegrid-1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

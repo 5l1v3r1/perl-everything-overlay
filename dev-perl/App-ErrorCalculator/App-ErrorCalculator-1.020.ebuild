@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="1.02"
-DIST_A="App-ErrorCalculator-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

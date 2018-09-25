@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ACH"
-DIST_VERSION="0.01"
-DIST_A="ACH-0.01.tar.gz"
+DIST_AUTHOR="CPKOIS"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/C/CP/CPKOIS/ACH/ACH-0.01.tar.gz -> ACH-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ACH-0.01 ${WORKDIR}/ACH-0.01
+}
+

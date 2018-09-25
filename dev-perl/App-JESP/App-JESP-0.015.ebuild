@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.015"
-DIST_A="App-JESP-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	>=virtual/perl-File-Temp-0.230.400
 "
+

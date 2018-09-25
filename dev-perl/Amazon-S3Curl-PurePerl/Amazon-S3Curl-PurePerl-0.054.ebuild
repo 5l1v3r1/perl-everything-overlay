@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAUFMAN"
-DIST_VERSION="0.054"
-DIST_A="Amazon-S3Curl-PurePerl-0.054.tar.gz"
+DIST_VERSION="0.054" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

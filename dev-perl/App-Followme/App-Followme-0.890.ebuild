@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JINZANG"
-DIST_VERSION="0.89"
-DIST_A="App-Followme-0.89.tar.gz"
+DIST_VERSION="0.89" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Test-Simple-0.980
 "
+

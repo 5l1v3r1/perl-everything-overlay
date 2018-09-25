@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-Model-LDAP-FromAuthentication-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.04"
-DIST_A="App-PericmdUtils-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Data-Sah
 	dev-perl/Perinci-CmdLine-Any
+	>=dev-perl/Perinci-CmdLine-Dump-0.070
 	>=dev-perl/Perinci-CmdLine-Lite-1.660
 	>=dev-perl/Perinci-CmdLine-POD-0.003
 	>=dev-perl/Perinci-CmdLine-Util-0.130
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

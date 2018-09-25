@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJESCHMI"
-DIST_VERSION="0.049"
-DIST_A="Archive-BagIt-App-0.049.tar.gz"
+DIST_VERSION="0.049" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Archive-BagIt
 	dev-perl/Moose
 	dev-perl/MooseX-App
 	virtual/perl-Digest-MD5
@@ -29,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

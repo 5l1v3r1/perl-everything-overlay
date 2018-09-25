@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJO"
-DIST_VERSION="0.000007"
-DIST_A="Class-DBI-FormTools-0.000007.tar.gz"
+DIST_VERSION="0.000007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Data-Dump
 	virtual/perl-Test-Simple
 "
+

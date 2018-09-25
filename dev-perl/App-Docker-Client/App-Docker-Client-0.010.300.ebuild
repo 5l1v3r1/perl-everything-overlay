@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MZIESCHA"
-DIST_VERSION="0.010300"
-DIST_A="App-Docker-Client-0.010300.tar.gz"
+DIST_VERSION="0.010300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

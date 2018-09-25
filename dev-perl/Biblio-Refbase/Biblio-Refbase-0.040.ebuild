@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HMA"
-DIST_VERSION="0.04"
-DIST_A="Biblio-Refbase-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	>=virtual/perl-Test-Simple-0.620
 "
+

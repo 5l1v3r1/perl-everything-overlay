@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WKI"
-DIST_VERSION="0.15"
-DIST_A="Catalyst-Controller-Combine-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/DateTime-0.720
 	>=dev-perl/Moose-1.000
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Exporter
 "
+

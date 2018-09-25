@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZHTWN"
-DIST_VERSION="0.03"
-DIST_A="DBIx-Class-InflateColumn-DateTime-WithTimeZone-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ DEPEND="
 	>=dev-perl/DBD-SQLite-1.460
 	>=dev-perl/DateTime-1.180
 	>=dev-perl/DateTime-Format-SQLite-0.110
+	dev-perl/Module-Build
 	>=dev-perl/SQL-Translator-0.110.180
 	>=dev-perl/Test-Fatal-0.014
 	>=virtual/perl-Test-Simple-0.960
 "
+

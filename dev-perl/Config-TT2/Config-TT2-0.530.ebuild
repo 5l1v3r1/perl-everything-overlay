@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAISSMAI"
-DIST_VERSION="0.53"
-DIST_A="Config-TT2-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

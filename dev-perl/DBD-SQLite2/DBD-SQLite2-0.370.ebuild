@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RURBAN"
-DIST_VERSION="0.37"
-DIST_A="DBD-SQLite2-0.37.tar.gz"
+DIST_VERSION="0.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

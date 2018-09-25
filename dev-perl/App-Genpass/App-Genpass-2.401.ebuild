@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="2.401"
-DIST_A="App-Genpass-2.401.tar.gz"
+DIST_VERSION="2.401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

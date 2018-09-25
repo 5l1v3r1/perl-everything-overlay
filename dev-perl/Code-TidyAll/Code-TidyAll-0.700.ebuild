@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.70"
-DIST_A="Code-TidyAll-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	dev-perl/List-SomeUtils
 	dev-perl/Log-Any
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-2.000.000
 	>=dev-perl/Path-Tiny-0.098
 	dev-perl/Scope-Guard
 	dev-perl/Specio
@@ -58,3 +57,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-autodie
 "
+

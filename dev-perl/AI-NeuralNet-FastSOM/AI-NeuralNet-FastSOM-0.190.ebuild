@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JRM"
-DIST_VERSION="0.19"
-DIST_A="AI-NeuralNet-FastSOM-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

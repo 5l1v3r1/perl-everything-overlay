@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.04"
-DIST_A="Comodo-DCV-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-MIME-Base64-0.010
 	>=virtual/perl-Test-Simple-0.440
 "
+

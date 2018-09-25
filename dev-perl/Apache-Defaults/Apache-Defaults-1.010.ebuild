@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGRAY"
-DIST_VERSION="1.01"
-DIST_A="Apache-Defaults-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.230
 	virtual/perl-Test
 "
+

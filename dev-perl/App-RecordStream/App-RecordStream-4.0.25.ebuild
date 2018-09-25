@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSIBLEY"
-DIST_VERSION="4.0.25"
-DIST_A="App-RecordStream-4.0.25.tar.gz"
+DIST_VERSION="4.0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

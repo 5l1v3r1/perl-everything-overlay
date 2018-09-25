@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.010"
-DIST_A="Catalyst-Plugin-InjectionHelpers-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Test-Most
 "
+

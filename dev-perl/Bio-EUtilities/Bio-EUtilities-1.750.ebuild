@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJFIELDS"
-DIST_VERSION="1.75"
-DIST_A="Bio-EUtilities-1.75.tar.gz"
+DIST_VERSION="1.75" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

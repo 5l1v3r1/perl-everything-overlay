@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.006"
-DIST_A="Alien-UDUNITS2-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	>=dev-perl/Alien-Base-ModuleBuild-0.005
 	>=dev-perl/Inline-0.670
 	>=dev-perl/Inline-C-0.620
+	dev-perl/Module-Build
 	dev-perl/Test-Number-Delta
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple
 "
+

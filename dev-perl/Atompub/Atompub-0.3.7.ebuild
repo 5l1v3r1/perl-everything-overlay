@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAKERU"
-DIST_VERSION="0.3.7"
-DIST_A="Atompub-0.3.7.tar.gz"
+DIST_VERSION="0.3.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

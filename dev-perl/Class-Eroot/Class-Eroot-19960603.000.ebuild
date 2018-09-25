@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMR"
-DIST_VERSION="19960603.0"
-DIST_A="Class-Eroot-19960603.tar.gz"
+DIST_VERSION="19960603" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

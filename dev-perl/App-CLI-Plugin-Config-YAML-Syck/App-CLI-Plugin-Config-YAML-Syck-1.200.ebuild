@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLY"
-DIST_VERSION="1.2"
-DIST_A="App-CLI-Plugin-Config-YAML-Syck-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

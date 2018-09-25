@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSG"
-DIST_VERSION="0.90"
-DIST_A="Bread-Board-LifeCycle-Session-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

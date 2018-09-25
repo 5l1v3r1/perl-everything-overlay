@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBERJON"
-DIST_VERSION="0.03"
-DIST_A="CouchDB-Deploy-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-perl/CouchDB-Client
 	dev-perl/Data-Compare
 	dev-perl/Sub-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 "
+

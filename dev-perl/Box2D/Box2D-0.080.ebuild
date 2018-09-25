@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FROGGS"
-DIST_VERSION="0.08"
-DIST_A="Box2D-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,9 @@ DEPEND="
 	>=dev-perl/ExtUtils-CppGuess-0.120
 	>=dev-perl/Module-Build-0.380
 	>=dev-perl/Module-Build-WithXSpp-0.140
-	>=dev-perl/ExtUtils-Typemaps-Default-0.040
+	dev-perl/ExtUtils-Typemaps-Default
 	>=dev-perl/ExtUtils-XSpp-0.180
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

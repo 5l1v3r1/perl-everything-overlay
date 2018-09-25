@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="1.0.0"
-DIST_A="CatalystX-Test-Recorder-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-File-Temp
 "
+

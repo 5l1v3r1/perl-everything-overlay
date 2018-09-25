@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PHILCROW"
-DIST_VERSION="0.38"
-DIST_A="Bigtop-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,8 +30,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-Files-0.130
 	dev-perl/Test-Warn
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

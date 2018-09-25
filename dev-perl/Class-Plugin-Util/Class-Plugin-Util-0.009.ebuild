@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASKSH"
-DIST_VERSION="0.009"
-DIST_A="Class-Plugin-Util-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.420
 "
+

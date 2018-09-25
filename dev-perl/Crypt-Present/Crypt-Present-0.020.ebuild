@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Crypt"
-DIST_VERSION="0.02"
-DIST_A="Crypt-Present-0.02.tar.gz"
+DIST_AUTHOR="GODE"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/G/GO/GODE/Crypt/Crypt-Present-0.02.tar.gz -> Crypt-Present-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Crypt-Present-0.02 ${WORKDIR}/Crypt-Present-0.02
+}
+

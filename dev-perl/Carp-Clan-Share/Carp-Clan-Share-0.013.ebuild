@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.013"
-DIST_A="Carp-Clan-Share-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

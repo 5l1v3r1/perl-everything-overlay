@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBROOKS"
-DIST_VERSION="0.10"
-DIST_A="Apache2-WebApp-Plugin-DBI-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Apache-Test
 "
+

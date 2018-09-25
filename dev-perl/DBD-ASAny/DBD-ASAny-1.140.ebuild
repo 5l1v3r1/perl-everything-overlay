@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMIRNIOS"
-DIST_VERSION="1.14"
-DIST_A="DBD-ASAny-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

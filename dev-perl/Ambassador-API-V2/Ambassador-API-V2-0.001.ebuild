@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DREAMHOST"
-DIST_VERSION="0.001"
-DIST_A="Ambassador-API-V2-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,5 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test2-Suite
-	dev-perl/Test2-Workflow
 "
+

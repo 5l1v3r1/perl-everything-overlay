@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.03"
-DIST_A="Business-Eway-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.08"
-DIST_A="Carp-Always-Color-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,10 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-Pty-Easy
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0300"
-DIST_A="App-soapcli-0.0300.tar.gz"
+DIST_VERSION="0.0300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

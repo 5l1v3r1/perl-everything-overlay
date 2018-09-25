@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBR"
-DIST_VERSION="1.1.2"
-DIST_A="App-assh-1.1.2.tar.gz"
+DIST_VERSION="1.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-Options
 	dev-perl/MooX-Types-MooseLike
+	dev-perl/lib
 	dev-perl/methods
 	dev-perl/true
 "
@@ -34,3 +34,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

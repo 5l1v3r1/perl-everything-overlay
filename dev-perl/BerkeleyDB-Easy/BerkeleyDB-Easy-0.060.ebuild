@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSCHABER"
-DIST_VERSION="0.06"
-DIST_A="BerkeleyDB-Easy-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

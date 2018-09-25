@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="1.005"
-DIST_A="App-redis_traffic_stats-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WREIS"
-DIST_VERSION="0.07"
-DIST_A="DBIx-Class-Relationship-Predicate-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/SQL-Translator-0.110.060
 	virtual/perl-Test-Simple
 "
+

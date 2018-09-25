@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZAPHAR"
-DIST_VERSION="0.3.04.1"
-DIST_A="DB-CouchDB-Schema-0.3.04_remove_blib.tar.gz"
+DIST_VERSION="0.3.04.1" 
+SRC_URI="mirror://cpan/authors/id/Z/ZA/ZAPHAR/DB-CouchDB-Schema-0.3.04_remove_blib.tar.gz -> DB-CouchDB-Schema-0.3.04.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,10 +23,16 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Getopt-Long
 	virtual/perl-Term-ReadLine
 "
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DB-CouchDB-Schema-0.3.04_remove_blib ${WORKDIR}/DB-CouchDB-Schema-0.3.04.1
+}
+

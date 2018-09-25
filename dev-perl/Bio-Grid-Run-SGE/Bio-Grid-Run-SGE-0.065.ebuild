@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWB"
-DIST_VERSION="0.065"
-DIST_A="Bio-Grid-Run-SGE-0.065.tar.gz"
+DIST_VERSION="0.065" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -56,3 +55,4 @@ DEPEND="
 	dev-perl/Test2-Suite
 	virtual/perl-Test-Simple
 "
+

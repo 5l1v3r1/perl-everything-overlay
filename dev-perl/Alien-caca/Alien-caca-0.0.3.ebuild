@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.0.3"
-DIST_A="Alien-caca-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.005
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

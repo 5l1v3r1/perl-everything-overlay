@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLACO"
-DIST_VERSION="0.05000"
-DIST_A="AxKit-XSP-L10N-0.05000.tar.gz"
+DIST_VERSION="0.05000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

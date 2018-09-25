@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="PETERHI"
 DIST_VERSION="1.2"
-DIST_A="AI-ExpertSystem-Simple.1.2.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/P/PE/PETERHI/AI-ExpertSystem-Simple.1.2.tgz -> AI-ExpertSystem-Simple-1.2.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AI-ExpertSystem-Simple.1.2 ${WORKDIR}/AI-ExpertSystem-Simple-1.2
+}
+

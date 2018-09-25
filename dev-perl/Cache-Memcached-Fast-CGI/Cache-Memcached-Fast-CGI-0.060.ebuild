@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HITSU"
-DIST_VERSION="0.06"
-DIST_A="Cache-Memcached-Fast-CGI-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Cache-Memcached-Fast
 	dev-perl/IO-Capture
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

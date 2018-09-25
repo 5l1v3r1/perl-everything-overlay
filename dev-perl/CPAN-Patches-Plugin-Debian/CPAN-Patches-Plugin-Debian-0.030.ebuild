@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.03"
-DIST_A="CPAN-Patches-Plugin-Debian-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,12 +25,12 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Parse-Deb-Control-0.030
 	dev-perl/Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/Test-Deep
 	virtual/perl-Carp
 	>=virtual/perl-File-Path-2.010
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
 "
@@ -39,4 +38,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 	>=dev-perl/Module-Build-SysPath-0.160
+	virtual/perl-Test-Simple
 "
+

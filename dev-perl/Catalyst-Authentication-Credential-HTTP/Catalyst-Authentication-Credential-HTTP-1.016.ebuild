@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="1.016"
-DIST_A="Catalyst-Authentication-Credential-HTTP-1.016.tar.gz"
+DIST_VERSION="1.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

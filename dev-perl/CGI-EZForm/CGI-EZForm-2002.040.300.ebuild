@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STHOMAS"
-DIST_VERSION="2002.0403"
-DIST_A="CGI-EZForm-2002.0403.tar.gz"
+DIST_VERSION="2002.0403" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

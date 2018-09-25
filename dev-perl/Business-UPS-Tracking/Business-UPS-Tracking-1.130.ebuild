@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="1.13"
-DIST_A="Business-UPS-Tracking-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-NoWarnings
 "
+

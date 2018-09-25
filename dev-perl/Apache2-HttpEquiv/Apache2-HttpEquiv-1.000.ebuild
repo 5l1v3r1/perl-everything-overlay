@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="1.00"
-DIST_A="Apache2-HttpEquiv-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

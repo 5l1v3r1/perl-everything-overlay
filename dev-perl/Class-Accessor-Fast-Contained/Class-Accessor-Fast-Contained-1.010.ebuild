@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.01"
-DIST_A="Class-Accessor-Fast-Contained-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,13 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	dev-perl/base
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

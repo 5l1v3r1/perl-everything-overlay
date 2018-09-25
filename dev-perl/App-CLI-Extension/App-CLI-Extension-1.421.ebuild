@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLY"
-DIST_VERSION="1.421"
-DIST_A="App-CLI-Extension-1.421.tar.gz"
+DIST_VERSION="1.421" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

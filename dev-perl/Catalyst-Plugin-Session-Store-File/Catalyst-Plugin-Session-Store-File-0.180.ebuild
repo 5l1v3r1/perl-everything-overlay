@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="0.18"
-DIST_A="Catalyst-Plugin-Session-Store-File-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

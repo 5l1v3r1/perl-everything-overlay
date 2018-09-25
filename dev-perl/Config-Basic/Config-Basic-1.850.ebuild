@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FDULAU"
-DIST_VERSION="1.85"
-DIST_A="Config-Basic-1.85.tar.gz"
+DIST_VERSION="1.85" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

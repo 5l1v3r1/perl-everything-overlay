@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJERIUS"
-DIST_VERSION="0.34"
-DIST_A="App-Env-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

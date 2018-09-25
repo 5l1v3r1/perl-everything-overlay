@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RETOH"
-DIST_VERSION="0.8014"
-DIST_A="CMS-MediaWiki-0.8014.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RE/RETOH/CMS/CMS-MediaWiki-0.8014.tar.gz"
+DIST_VERSION="0.8014" 
+SRC_URI="mirror://cpan/authors/id/R/RE/RETOH/CMS/CMS-MediaWiki-0.8014.tar.gz -> CMS-MediaWiki-0.8014.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CMS-MediaWiki-0.8014 ${WORKDIR}/CMS-MediaWiki-0.8014
+}
+

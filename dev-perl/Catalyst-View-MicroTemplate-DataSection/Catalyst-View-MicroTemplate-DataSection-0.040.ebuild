@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKYST"
-DIST_VERSION="0.04"
-DIST_A="Catalyst-View-MicroTemplate-DataSection-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

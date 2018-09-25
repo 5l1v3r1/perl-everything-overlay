@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.025"
-DIST_A="App-PM-Announce-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

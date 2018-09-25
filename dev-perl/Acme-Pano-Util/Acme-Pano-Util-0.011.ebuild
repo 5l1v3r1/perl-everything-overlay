@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HEYPANO"
-DIST_VERSION="0.011"
-DIST_A="Acme-Pano-Util-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

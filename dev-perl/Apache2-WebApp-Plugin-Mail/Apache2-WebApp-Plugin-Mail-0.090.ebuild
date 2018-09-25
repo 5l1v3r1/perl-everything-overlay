@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBROOKS"
-DIST_VERSION="0.09"
-DIST_A="Apache2-WebApp-Plugin-Mail-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Apache-Test
 	virtual/perl-Test-Simple
 "
+

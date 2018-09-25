@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBARR"
-DIST_VERSION="1.170590"
-DIST_A="AnyEvent-Beanstalk-1.170590.tar.gz"
+DIST_VERSION="1.170590" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

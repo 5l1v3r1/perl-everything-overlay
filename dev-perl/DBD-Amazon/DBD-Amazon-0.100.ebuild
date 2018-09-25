@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DARNOLD"
-DIST_VERSION="0.10"
-DIST_A="DBD-Amazon-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RINTARO"
-DIST_VERSION="0.02"
-DIST_A="Attribute-Generator-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Coro-4.910
 	virtual/perl-Attribute-Handlers
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

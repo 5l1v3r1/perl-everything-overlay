@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SNOWHARE"
-DIST_VERSION="1.29"
-DIST_A="CGI-Minimal-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBROCARD"
-DIST_VERSION="0.38"
-DIST_A="Archive-Extract-Libarchive-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-CBuilder
 "
+

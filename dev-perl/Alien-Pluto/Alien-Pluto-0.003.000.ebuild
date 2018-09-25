@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WBRASWELL"
-DIST_VERSION="0.003000"
-DIST_A="Alien-Pluto-0.003000.tar.gz"
+DIST_VERSION="0.003000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/IO-Socket-SSL-2.043
 	virtual/perl-ExtUtils-CBuilder
 "
+

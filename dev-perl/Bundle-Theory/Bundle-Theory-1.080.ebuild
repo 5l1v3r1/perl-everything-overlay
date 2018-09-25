@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="1.08"
-DIST_A="Bundle-Theory-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.270.100
 	>=virtual/perl-Test-Simple-0.170
 "
+

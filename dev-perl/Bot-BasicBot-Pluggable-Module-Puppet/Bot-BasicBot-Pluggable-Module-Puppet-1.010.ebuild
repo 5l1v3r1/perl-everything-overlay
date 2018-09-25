@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIZ"
-DIST_VERSION="1.01"
-DIST_A="Bot-BasicBot-Pluggable-Module-Puppet-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	>=dev-perl/Bot-BasicBot-Pluggable-0.870
 	dev-perl/POE
 	dev-perl/YAML
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

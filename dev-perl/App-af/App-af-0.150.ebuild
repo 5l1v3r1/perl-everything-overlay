@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.15"
-DIST_A="App-af-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Build-0.038
+	>=dev-perl/Alien-Build-1.170
 	dev-perl/Capture-Tiny
 	dev-perl/File-Copy-Recursive
 	dev-perl/File-chdir
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-Exit-0.110
 	dev-perl/Test-Script
 "
+

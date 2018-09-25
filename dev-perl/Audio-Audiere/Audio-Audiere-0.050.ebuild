@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.05"
-DIST_A="Audio-Audiere-0.05.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/audio/Audio-Audiere-0.05.tar.gz"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/audio/Audio-Audiere-0.05.tar.gz -> Audio-Audiere-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Audio-Audiere-0.05 ${WORKDIR}/Audio-Audiere-0.05
+}
+

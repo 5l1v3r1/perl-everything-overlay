@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEY"
-DIST_VERSION="0.05"
-DIST_A="CatalystX-Test-Most-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Catalyst-Action-RenderView
-	>=dev-perl/Catalyst-Runtime-5.800
+	dev-perl/Catalyst-Runtime
 	dev-perl/HTTP-Message
 	dev-perl/Test-Exception
 	dev-perl/Test-WWW-Mechanize-Catalyst
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

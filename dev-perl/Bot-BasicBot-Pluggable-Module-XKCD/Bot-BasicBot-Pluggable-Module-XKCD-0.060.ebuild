@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUTCHIE"
-DIST_VERSION="0.06"
-DIST_A="Bot-BasicBot-Pluggable-Module-XKCD-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

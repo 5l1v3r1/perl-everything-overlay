@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWILLIAMS"
-DIST_VERSION="0.100"
-DIST_A="AtteanX-RDFQueryTranslator-0.100.tar.gz"
+DIST_VERSION="0.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Roo
 	>=virtual/perl-Test-Simple-0.880
 "
+

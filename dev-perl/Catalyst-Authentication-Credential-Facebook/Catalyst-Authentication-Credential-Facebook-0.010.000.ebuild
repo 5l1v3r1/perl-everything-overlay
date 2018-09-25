@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESSESTAY"
-DIST_VERSION="0.01000"
-DIST_A="Catalyst-Authentication-Credential-Facebook-0.01000.tar.gz"
+DIST_VERSION="0.01000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

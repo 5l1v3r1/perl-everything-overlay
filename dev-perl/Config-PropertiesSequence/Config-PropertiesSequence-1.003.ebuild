@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BADGERSRC"
-DIST_VERSION="1.003"
-DIST_A="Config-PropertiesSequence-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

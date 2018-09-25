@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKO"
-DIST_VERSION="0.82"
-DIST_A="Class-PublicPrivate-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

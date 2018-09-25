@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOBRO"
-DIST_VERSION="1.013"
-DIST_A="Constant-Generator-1.013.tar.gz"
+DIST_VERSION="1.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

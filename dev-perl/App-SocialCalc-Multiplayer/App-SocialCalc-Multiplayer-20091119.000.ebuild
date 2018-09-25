@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="20091119.0"
-DIST_A="App-SocialCalc-Multiplayer-20091119.tar.gz"
+DIST_VERSION="20091119" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

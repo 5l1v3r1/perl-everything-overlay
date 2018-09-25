@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.04"
-DIST_A="Acme-StringFormat-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Test-Exception-0.270
 	>=dev-perl/Test-Warn-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

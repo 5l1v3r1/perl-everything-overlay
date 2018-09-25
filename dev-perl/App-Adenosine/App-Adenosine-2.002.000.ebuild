@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="2.002000"
-DIST_A="App-Adenosine-2.002000.tar.gz"
+DIST_VERSION="2.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

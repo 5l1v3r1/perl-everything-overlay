@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBROOKS"
-DIST_VERSION="0.08"
-DIST_A="Apache2-WebApp-Plugin-Validate-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Apache-Test
 	virtual/perl-Test-Simple
 "
+

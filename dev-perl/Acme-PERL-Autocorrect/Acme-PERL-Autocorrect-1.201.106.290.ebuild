@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.20110629"
-DIST_A="Acme-PERL-Autocorrect-1.20110629.tar.gz"
+DIST_VERSION="1.20110629" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.980
 "
+

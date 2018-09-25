@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="0.002002"
-DIST_A="Apache2-Authen-Passphrase-0.002002.tar.gz"
+DIST_VERSION="0.002002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

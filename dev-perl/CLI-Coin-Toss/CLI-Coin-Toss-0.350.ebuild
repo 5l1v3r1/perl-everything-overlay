@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TULAMILI"
-DIST_VERSION="0.35"
-DIST_A="CLI-Coin-Toss-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

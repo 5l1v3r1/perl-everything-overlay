@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANAMBURG"
-DIST_VERSION="0.015"
-DIST_A="CGI-Application-Structured-Tools-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

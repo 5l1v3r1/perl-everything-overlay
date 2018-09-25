@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOTO"
-DIST_VERSION="0.03"
-DIST_A="Cache-Method-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-Time-HiRes
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.04"
-DIST_A="AtteanX-Store-LDF-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Roo
 	>=virtual/perl-Test-Simple-0.880
 "
+

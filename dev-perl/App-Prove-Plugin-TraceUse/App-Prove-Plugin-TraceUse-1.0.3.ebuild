@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TORBJORN"
-DIST_VERSION="1.0.3"
-DIST_A="App-Prove-Plugin-TraceUse-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,4 +30,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

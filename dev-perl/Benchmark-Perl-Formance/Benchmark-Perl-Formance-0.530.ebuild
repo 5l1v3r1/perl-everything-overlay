@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.53"
-DIST_A="Benchmark-Perl-Formance-0.53.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/perl-formance/Benchmark-Perl-Formance-0.53.tar.gz"
+DIST_VERSION="0.53" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHWIGON/perl-formance/Benchmark-Perl-Formance-0.53.tar.gz -> Benchmark-Perl-Formance-0.53.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,9 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Benchmark-Perl-Formance-0.53 ${WORKDIR}/Benchmark-Perl-Formance-0.53
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="0.004"
-DIST_A="Bot-ChatBots-Messenger-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Mock-Quick-1.111
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.096
 	>=virtual/perl-Test-Simple-0.880
 "
+

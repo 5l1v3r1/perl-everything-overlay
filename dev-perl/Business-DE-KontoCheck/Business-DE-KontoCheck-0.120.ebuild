@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TINITA"
-DIST_VERSION="0.12"
-DIST_A="Business-DE-KontoCheck-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="0.9000"
-DIST_A="Crypt-PBC-0.9000.tar.gz"
+DIST_VERSION="0.9000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

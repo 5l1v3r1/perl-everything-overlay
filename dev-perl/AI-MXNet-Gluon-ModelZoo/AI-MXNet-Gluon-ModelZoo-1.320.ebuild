@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKOLYCHEV"
-DIST_VERSION="1.32"
-DIST_A="AI-MXNet-Gluon-ModelZoo-1.32.tar.gz"
+DIST_VERSION="1.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

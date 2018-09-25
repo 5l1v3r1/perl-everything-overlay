@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="1.12001"
-DIST_A="Alien-Iconv-1.12001.tar.gz"
+DIST_VERSION="1.12001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

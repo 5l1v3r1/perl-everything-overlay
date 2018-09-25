@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.14"
-DIST_A="Catalyst-Engine-PSGI-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	dev-perl/Test-TCP
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+

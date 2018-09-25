@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCANEZ"
-DIST_VERSION="1.001004"
-DIST_A="DBIx-Class-Cursor-Cached-1.001004.tar.gz"
+DIST_VERSION="1.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

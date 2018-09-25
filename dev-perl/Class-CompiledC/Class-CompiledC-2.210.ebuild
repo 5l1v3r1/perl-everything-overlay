@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="BLADE"
 DIST_VERSION="2.21"
-DIST_A="Class-CompiledC2.21.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/B/BL/BLADE/Class-CompiledC2.21.tgz -> Class-CompiledC-2.21.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Class-CompiledC2.21 ${WORKDIR}/Class-CompiledC-2.21
+}
+

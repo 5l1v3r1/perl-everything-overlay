@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFH"
-DIST_VERSION="1.042"
-DIST_A="App-JobLog-1.042.tar.gz"
+DIST_VERSION="1.042" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	>=dev-perl/TermReadKey-2.300
 	dev-perl/Text-WrapI18N
 	dev-perl/autouse
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	>=virtual/perl-File-Path-2.060
@@ -49,3 +49,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

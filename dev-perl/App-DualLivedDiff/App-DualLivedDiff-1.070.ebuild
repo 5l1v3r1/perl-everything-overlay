@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="1.07"
-DIST_A="App-DualLivedDiff-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

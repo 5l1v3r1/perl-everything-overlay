@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CGRADY"
 DIST_VERSION="0.01"
-DIST_A="Business-Intelligence-MicroStrategy-CommandManager-0.01.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.01"
-DIST_A="Config-Plugin-TinyManifold-1.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.030
 	>=dev-perl/Config-Tiny-2.140
 	>=virtual/perl-Carp-1.010
 "
@@ -26,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.440
 	>=virtual/perl-Test-Simple-0.940
 "
+

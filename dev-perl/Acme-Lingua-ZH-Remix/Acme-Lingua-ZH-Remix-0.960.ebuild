@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.96"
-DIST_A="Acme-Lingua-ZH-Remix-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

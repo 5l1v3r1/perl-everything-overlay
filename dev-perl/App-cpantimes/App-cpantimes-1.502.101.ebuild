@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="1.502101"
-DIST_A="App-cpantimes-1.502101.tar.gz"
+DIST_VERSION="1.502101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

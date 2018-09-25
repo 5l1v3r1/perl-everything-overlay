@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.11"
-DIST_A="Class-Tie-InsideOut-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MDIETRICH"
-DIST_VERSION="0.01"
-DIST_A="CatalystX-UriForStatic-0.01_.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/M/MD/MDIETRICH/CatalystX-UriForStatic-0.01_.tar.gz -> CatalystX-UriForStatic-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	dev-perl/Moose
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CatalystX-UriForStatic-0.01_ ${WORKDIR}/CatalystX-UriForStatic-0.01
+}
+

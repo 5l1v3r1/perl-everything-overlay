@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.0019"
-DIST_A="Config-Identity-0.0019.tar.gz"
+DIST_VERSION="0.0019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

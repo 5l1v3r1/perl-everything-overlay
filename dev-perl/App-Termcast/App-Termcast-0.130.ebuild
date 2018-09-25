@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.13"
-DIST_A="App-Termcast-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Requires
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.880
 "
+

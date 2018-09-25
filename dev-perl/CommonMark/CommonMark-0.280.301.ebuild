@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NWELLNHOF"
-DIST_VERSION="0.280301"
-DIST_A="CommonMark-0.280301.tar.gz"
+DIST_VERSION="0.280301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

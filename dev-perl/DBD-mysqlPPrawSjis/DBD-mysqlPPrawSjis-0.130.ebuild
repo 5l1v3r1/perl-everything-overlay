@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="0.13"
-DIST_A="DBD-mysqlPPrawSjis-0.13.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/DBD/mysqlPPrawSjis/DBD-mysqlPPrawSjis-0.13.tar.gz"
+DIST_VERSION="0.13" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/DBD/mysqlPPrawSjis/DBD-mysqlPPrawSjis-0.13.tar.gz -> DBD-mysqlPPrawSjis-0.13.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBD-mysqlPPrawSjis-0.13 ${WORKDIR}/DBD-mysqlPPrawSjis-0.13
+}
+

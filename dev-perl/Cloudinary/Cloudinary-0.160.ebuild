@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHTHORSEN"
-DIST_VERSION="0.16"
-DIST_A="Cloudinary-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

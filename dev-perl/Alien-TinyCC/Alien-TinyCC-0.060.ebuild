@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCMERTENS"
-DIST_VERSION="0.06"
-DIST_A="Alien-TinyCC-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 "
+

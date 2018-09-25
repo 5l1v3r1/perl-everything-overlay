@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="0.03001"
-DIST_A="DBIx-Class-SaltedPasswords-0.03001.tar.gz"
+DIST_VERSION="0.03001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.143110"
-DIST_A="App-MultiModule-Tasks-Collector-1.143110.tar.gz"
+DIST_VERSION="1.143110" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

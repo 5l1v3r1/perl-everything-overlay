@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0310"
-DIST_A="Acme-CPANAuthors-Israeli-0.0310.tar.gz"
+DIST_VERSION="0.0310" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

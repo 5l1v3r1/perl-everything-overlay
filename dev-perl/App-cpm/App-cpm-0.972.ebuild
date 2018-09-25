@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="0.972"
-DIST_A="App-cpm-0.972.tar.gz"
+DIST_VERSION="0.972" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,4 +40,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 "
+

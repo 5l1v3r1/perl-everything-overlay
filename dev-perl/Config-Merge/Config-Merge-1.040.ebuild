@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRTECH"
-DIST_VERSION="1.04"
-DIST_A="Config-Merge-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

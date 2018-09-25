@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-Plugin-PickComponents-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Catalyst-Runtime
 	dev-perl/MRO-Compat
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

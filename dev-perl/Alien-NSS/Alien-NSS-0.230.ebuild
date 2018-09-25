@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANNA"
-DIST_VERSION="0.23"
-DIST_A="Alien-NSS-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.018
+	>=dev-perl/Alien-Build-0.018
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-HTTP-Tiny
 	virtual/perl-Test-Simple
 "
+

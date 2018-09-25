@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="0.204"
-DIST_A="Class-Fields-0.204.tar.gz"
+DIST_VERSION="0.204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Carp-Assert
+	>=dev-perl/base-2.000
 	virtual/perl-Carp
 	>=virtual/perl-Test-Simple-0.470
 "
@@ -25,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

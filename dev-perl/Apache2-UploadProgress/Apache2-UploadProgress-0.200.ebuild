@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CEESHEK"
-DIST_VERSION="0.2"
-DIST_A="Apache2-UploadProgress-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Apache-Test-1.120
 	>=dev-perl/CGI-3.080
+	dev-perl/Module-Build
 "
+

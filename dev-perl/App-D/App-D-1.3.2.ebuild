@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BESSARABV"
-DIST_VERSION="v1.3.2"
-DIST_A="App-D-1.3.2.tar.gz"
+DIST_VERSION="1.3.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

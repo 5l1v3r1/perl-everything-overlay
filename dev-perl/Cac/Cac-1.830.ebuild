@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OESI"
-DIST_VERSION="1.83"
-DIST_A="Cac-1.83.tar.gz"
+DIST_VERSION="1.83" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

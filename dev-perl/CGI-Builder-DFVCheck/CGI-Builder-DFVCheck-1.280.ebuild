@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMIZIO"
-DIST_VERSION="1.28"
-DIST_A="CGI-Builder-DFVCheck-1.28.tar.gz"
+DIST_VERSION="1.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

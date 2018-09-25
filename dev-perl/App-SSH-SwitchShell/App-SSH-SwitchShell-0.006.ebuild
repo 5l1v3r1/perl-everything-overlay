@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIRMESS"
-DIST_VERSION="0.006"
-DIST_A="App-SSH-SwitchShell-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
-	dev-perl/Test-MockModule
 	dev-perl/Test-TempDir-Tiny
 	dev-perl/lib
 	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
+

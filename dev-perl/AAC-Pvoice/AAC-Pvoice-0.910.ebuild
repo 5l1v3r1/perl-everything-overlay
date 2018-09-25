@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOUKE"
-DIST_VERSION="0.91"
-DIST_A="AAC-Pvoice-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

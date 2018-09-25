@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.05"
-DIST_A="CGI-Untaint-CountyStateProvince-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

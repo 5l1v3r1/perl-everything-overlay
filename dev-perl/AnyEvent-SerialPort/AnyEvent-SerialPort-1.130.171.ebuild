@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.130171"
-DIST_A="AnyEvent-SerialPort-1.130171.tar.gz"
+DIST_VERSION="1.130171" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/AnyEvent
 	dev-perl/Device-SerialPort
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

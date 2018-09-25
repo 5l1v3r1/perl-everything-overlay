@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WBRASWELL"
-DIST_VERSION="0.010000"
-DIST_A="Alien-astyle-0.010000.tar.gz"
+DIST_VERSION="0.010000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.020
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPH"
-DIST_VERSION="0.22"
-DIST_A="App-Environ-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	>=virtual/perl-Test-Simple-0.980
 "
+

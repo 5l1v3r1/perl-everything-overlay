@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.900201"
-DIST_A="DBIx-Class-Journal-0.900201.tar.gz"
+DIST_VERSION="0.900201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/DBD-SQLite-1.290
 	>=dev-perl/SQL-Translator-0.110.030
 	>=virtual/perl-Test-Simple-0.940
 "
+

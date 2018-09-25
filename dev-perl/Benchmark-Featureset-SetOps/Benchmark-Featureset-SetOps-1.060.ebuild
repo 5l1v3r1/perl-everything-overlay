@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.06"
-DIST_A="Benchmark-Featureset-SetOps-1.06.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.300
+	dev-lang/perl
 	>=dev-perl/Config-Tiny-2.230
 	>=dev-perl/Date-Simple-3.030
 	>=dev-perl/File-HomeDir-1.000
@@ -35,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.510
 	>=virtual/perl-Test-Simple-1.302.052
 "
+

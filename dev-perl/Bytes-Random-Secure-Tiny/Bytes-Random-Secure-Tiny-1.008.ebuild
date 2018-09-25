@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDO"
-DIST_VERSION="1.008"
-DIST_A="Bytes-Random-Secure-Tiny-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.560
 	>=virtual/perl-Test-Simple-0.980
 "
+

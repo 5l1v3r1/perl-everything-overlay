@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEWA"
-DIST_VERSION="0.01043"
-DIST_A="DBIx-Class-Schema-Loader-DBI-RelPatterns-0.01043.tar.gz"
+DIST_VERSION="0.01043" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

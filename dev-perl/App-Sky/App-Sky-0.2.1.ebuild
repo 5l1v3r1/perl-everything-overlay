@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.2.1"
-DIST_A="App-Sky-0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

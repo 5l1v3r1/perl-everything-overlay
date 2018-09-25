@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOUDARD"
-DIST_VERSION="0.16"
-DIST_A="DBIx-Class-Result-Validation-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

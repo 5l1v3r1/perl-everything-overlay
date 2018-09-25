@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TULAMILI"
-DIST_VERSION="0.24"
-DIST_A="App-saikoro-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

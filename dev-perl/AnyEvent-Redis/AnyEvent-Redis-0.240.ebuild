@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGL"
-DIST_VERSION="0.24"
-DIST_A="AnyEvent-Redis-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-TCP-1.030
 	virtual/perl-Test-Simple
 "
+

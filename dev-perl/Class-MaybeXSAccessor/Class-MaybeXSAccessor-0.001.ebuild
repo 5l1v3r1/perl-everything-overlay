@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.001"
-DIST_A="Class-MaybeXSAccessor-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	dev-perl/lib-filter
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

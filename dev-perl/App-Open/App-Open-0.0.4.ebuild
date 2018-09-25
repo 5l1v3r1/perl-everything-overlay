@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERIKH"
-DIST_VERSION="v0.0.4"
-DIST_A="App-Open-0.0.4.tar.gz"
+DIST_VERSION="0.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

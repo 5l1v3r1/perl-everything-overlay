@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="v1.1.2"
-DIST_A="Crypt-NamedKeys-1.1.2.tar.gz"
+DIST_VERSION="1.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

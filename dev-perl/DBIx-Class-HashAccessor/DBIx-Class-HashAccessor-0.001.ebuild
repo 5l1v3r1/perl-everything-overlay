@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.001"
-DIST_A="DBIx-Class-HashAccessor-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/SQL-Translator-0.110.180
 	>=virtual/perl-Test-Simple-0.960
 "
+

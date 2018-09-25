@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="REENDERSF"
-DIST_VERSION="0.0"
-DIST_A="App-NetdiscoX-Web-Plugin-GraphLink.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/R/RE/REENDERSF/App-NetdiscoX-Web-Plugin-GraphLink.tar.gz -> App-NetdiscoX-Web-Plugin-GraphLink-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-NetdiscoX-Web-Plugin-GraphLink ${WORKDIR}/App-NetdiscoX-Web-Plugin-GraphLink-
+}
+

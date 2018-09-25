@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.020"
-DIST_A="App-Unliner-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Digest-SHA1
+	dev-perl/Pod-Perldoc
 	dev-perl/Regexp-Grammars
 	dev-perl/Template-Toolkit
 	dev-perl/common-sense
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Perldoc
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PABLROD"
-DIST_VERSION="0.013"
-DIST_A="Bat-Interpreter-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

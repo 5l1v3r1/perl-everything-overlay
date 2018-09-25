@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJERIUS"
-DIST_VERSION="0.003"
-DIST_A="BeamX-Peer-Emitter-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

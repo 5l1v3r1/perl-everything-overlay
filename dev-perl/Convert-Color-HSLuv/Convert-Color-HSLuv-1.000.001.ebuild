@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="1.000001"
-DIST_A="Convert-Color-HSLuv-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

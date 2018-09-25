@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOTDOCTOR"
-DIST_VERSION="3.05"
-DIST_A="Bio-GeneDesign-3.05.tar.gz"
+DIST_VERSION="3.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BioPerl
 	>=dev-perl/Perl6-Slurp-0.030
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Text-Tabs+Wrap-2009.030.500
@@ -24,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	virtual/perl-Test-Simple
 "
+

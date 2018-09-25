@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHRISJH"
-DIST_VERSION="0.1"
-DIST_A="App-OverWatch-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
+	dev-perl/base
 	dev-perl/namespace-clean
 	virtual/perl-Getopt-Long
 	virtual/perl-Module-Load
@@ -30,7 +30,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

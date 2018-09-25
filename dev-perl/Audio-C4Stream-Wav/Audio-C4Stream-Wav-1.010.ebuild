@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFORPC"
-DIST_VERSION="1.01"
-DIST_A="Audio-C4Stream-Wav-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

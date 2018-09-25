@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LALA"
-DIST_VERSION="4.01"
-DIST_A="Audio-SID-4.01.tar.gz"
+DIST_VERSION="4.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

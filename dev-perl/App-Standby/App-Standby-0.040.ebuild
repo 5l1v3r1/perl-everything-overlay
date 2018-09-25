@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEX"
-DIST_VERSION="0.04"
-DIST_A="App-Standby-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.490
+	>=dev-lang/perl-2.760
 	>=dev-perl/File-Copy-Recursive-0.380
 	>=dev-perl/Mojolicious-7.000
 	>=dev-perl/Mojolicious-Plugin-RelativeUrlFor-0.052

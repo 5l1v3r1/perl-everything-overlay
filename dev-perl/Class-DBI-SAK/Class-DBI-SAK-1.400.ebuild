@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CWEST"
-DIST_VERSION="1.4"
-DIST_A="Class-DBI-SAK-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/mixin
 	virtual/perl-Test-Simple
 "
+

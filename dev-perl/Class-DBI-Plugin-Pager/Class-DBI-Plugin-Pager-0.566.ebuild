@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJESTIC"
-DIST_VERSION="0.566"
-DIST_A="Class-DBI-Plugin-Pager-0.566.tar.gz"
-b=M/MA/MAJESTIC/Class-DBI-Plugin-Pager-0.566.tar.gz
+DIST_VERSION="0.566" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

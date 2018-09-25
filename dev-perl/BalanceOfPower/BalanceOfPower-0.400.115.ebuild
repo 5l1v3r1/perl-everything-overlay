@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYMON"
-DIST_VERSION="0.400115"
-DIST_A="BalanceOfPower-0.400115.tar.gz"
+DIST_VERSION="0.400115" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

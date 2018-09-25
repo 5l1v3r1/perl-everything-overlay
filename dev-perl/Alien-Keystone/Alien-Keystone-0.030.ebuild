@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VIKAS"
-DIST_VERSION="0.03"
-DIST_A="Alien-Keystone-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Alien-CMake-0.070
 	virtual/perl-Test-Simple
 "
+

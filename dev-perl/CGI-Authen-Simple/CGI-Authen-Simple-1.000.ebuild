@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OPIATE"
-DIST_VERSION="1.0"
-DIST_A="CGI-Authen-Simple-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

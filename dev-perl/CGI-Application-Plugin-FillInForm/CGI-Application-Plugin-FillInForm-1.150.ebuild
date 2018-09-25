@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="1.15"
-DIST_A="CGI-Application-Plugin-FillInForm-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BYUTRG"
-DIST_VERSION="4.03"
-DIST_A="Convert-MRC-4.03.tar.gz"
+DIST_VERSION="4.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Message-Simple
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -36,3 +36,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-autodie
 "
+

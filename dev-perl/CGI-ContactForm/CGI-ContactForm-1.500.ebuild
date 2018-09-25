@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUNNAR"
-DIST_VERSION="1.50"
-DIST_A="CGI-ContactForm-1.50.tar.gz"
+DIST_VERSION="1.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

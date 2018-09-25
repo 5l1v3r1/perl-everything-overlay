@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="6.0"
-DIST_A="App-ElasticSearch-Utilities-6.0.tar.gz"
+DIST_VERSION="6.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -60,3 +59,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

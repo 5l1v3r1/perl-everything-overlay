@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GYPARK"
-DIST_VERSION="0.004"
-DIST_A="Crypt-ARIA-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Crypt-CBC-2.310
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="v0.1.0"
-DIST_A="Bot-Net-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/POE
 	dev-perl/POE-Component-IRC
 	dev-perl/POE-Component-Server-IRC
-	dev-perl/POE-Declarative
+	>=dev-perl/POE-Declarative-0.007
 	dev-perl/Readonly
 	dev-perl/Regexp-Common
 	dev-perl/UNIVERSAL-require
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

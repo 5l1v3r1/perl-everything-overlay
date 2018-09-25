@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BENLI"
 DIST_VERSION="0.03"
-DIST_A="DBD-QBase-0.03.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRYPHON"
-DIST_VERSION="1.21"
-DIST_A="Bot-IRC-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

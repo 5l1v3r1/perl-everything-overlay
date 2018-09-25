@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSIBLEY"
-DIST_VERSION="20170324.0"
-DIST_A="Bio-WebService-LANL-SequenceLocator-20170324.tar.gz"
+DIST_VERSION="20170324" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

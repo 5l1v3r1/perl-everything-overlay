@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="0.42"
-DIST_A="BackPAN-Index-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-Compile-0.110
 	>=virtual/perl-Test-Simple-0.900
 "
+

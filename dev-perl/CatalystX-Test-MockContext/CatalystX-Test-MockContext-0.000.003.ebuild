@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.000003"
-DIST_A="CatalystX-Test-MockContext-0.000003.tar.gz"
+DIST_VERSION="0.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

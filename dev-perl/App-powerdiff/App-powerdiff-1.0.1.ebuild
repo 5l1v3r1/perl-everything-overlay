@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	dev-perl/Devel-CheckOS
+	>=dev-perl/Devel-CheckOS-1.630
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960

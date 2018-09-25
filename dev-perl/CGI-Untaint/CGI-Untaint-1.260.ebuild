@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMTM"
-DIST_VERSION="1.26"
-DIST_A="CGI-Untaint-1.26.tar.gz"
+DIST_VERSION="1.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

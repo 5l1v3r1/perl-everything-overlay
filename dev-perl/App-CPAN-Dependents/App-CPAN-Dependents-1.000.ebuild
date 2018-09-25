@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="1.000"
-DIST_A="App-CPAN-Dependents-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-RequiresInternet
 	virtual/perl-File-Spec
 	>=virtual/perl-HTTP-Tiny-0.014
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

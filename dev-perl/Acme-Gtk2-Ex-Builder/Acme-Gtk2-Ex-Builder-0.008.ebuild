@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEDI"
-DIST_VERSION="0.008"
-DIST_A="Acme-Gtk2-Ex-Builder-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

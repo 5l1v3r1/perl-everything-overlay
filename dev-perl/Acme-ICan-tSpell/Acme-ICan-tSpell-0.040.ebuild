@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="0.04"
-DIST_A="Acme-ICan-tSpell-0.04.tar.gz"
-b=L/LN/LNATION/Acme-ICan-tSpell-0.04tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LN/LNATION/Acme-ICan-tSpell-0.04.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.201.505.270
 	virtual/perl-Test-Simple
 "
+

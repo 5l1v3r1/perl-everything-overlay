@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYP"
-DIST_VERSION="1.4"
-DIST_A="App-rainbarf-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-lang/perl-1.000
 	>=virtual/perl-Test-Simple-0.450
 "
+

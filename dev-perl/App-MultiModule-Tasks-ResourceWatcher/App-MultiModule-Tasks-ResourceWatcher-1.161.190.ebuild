@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.161190"
-DIST_A="App-MultiModule-Tasks-ResourceWatcher-1.161190.tar.gz"
+DIST_VERSION="1.161190" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	dev-perl/IPC-Transit
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

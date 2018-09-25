@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.005"
-DIST_A="Catalyst-ControllerRole-At-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.900.930
 	dev-perl/HTTP-Message
 	dev-perl/MooseX-MethodAttributes
 	>=dev-perl/Test-Most-0.340
 	dev-perl/Type-Tiny
 "
+

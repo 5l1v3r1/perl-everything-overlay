@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARNODF"
-DIST_VERSION="0.180750"
-DIST_A="Bio-MUST-Apps-HmmCleaner-0.180750.tar.gz"
+DIST_VERSION="0.180750" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Bio-FastParsers
 	dev-perl/Bio-MUST-Core
-	dev-perl/Bio-MUST-Drivers
+	>=dev-perl/Bio-MUST-Drivers-0.180.270
 	dev-perl/Getopt-Euclid
 	dev-perl/IPC-System-Simple
 	dev-perl/List-AllUtils
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Test-Files
 	virtual/perl-autodie
 "
+

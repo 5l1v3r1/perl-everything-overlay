@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVU"
-DIST_VERSION="0.015"
-DIST_A="BBDB-Export-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICS"
-DIST_VERSION="0.0104"
-DIST_A="Catmandu-LDAP-0.0104.tar.gz"
+DIST_VERSION="0.0104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

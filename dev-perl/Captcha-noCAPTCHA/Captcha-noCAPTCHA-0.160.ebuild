@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLARSON"
-DIST_VERSION="0.16"
-DIST_A="Captcha-noCAPTCHA-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

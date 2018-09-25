@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DETAILS"
-DIST_VERSION="0.02"
-DIST_A="Apache2_4-AuthCookieMultiDBI-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.302.136
 "
+

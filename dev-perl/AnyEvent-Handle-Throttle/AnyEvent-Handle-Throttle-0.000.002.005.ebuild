@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="0.000002005"
-DIST_A="AnyEvent-Handle-Throttle-0.000002005.tar.gz"
+DIST_VERSION="0.000002005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Class-0.350
 	>=virtual/perl-Test-Simple-0.880
 "
+

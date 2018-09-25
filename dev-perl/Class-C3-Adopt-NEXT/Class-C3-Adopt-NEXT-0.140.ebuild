@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.14"
-DIST_A="Class-C3-Adopt-NEXT-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.270
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

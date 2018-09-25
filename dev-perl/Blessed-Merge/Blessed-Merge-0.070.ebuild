@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="0.07"
-DIST_A="Blessed-Merge-0.07.tar.gz"
-b=L/LN/LNATION/Blessed-Merge-0.07tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LN/LNATION/Blessed-Merge-0.07.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

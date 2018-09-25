@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="1.305419001"
-DIST_A="Alien-WiX-Version30-1.305419001.tar.gz"
+DIST_VERSION="1.305419001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/libwww-perl-5.819
 	>=virtual/perl-Test-Simple-0.880
 "
+

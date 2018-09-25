@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WESM"
-DIST_VERSION="1.001004"
-DIST_A="Catalyst-TraitFor-Controller-DBIC-DoesPaging-1.001004.tar.gz"
+DIST_VERSION="1.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Catalyst-Model-DBIC-Schema-0.290
-	>=dev-perl/Catalyst-Runtime-5.800.000
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-JSON
 	>=dev-perl/DBIx-Class-0.081.080
 	dev-perl/JSON
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

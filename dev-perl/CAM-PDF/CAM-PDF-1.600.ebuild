@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDOLAN"
-DIST_VERSION="1.60"
-DIST_A="CAM-PDF-1.60.tar.gz"
+DIST_VERSION="1.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+

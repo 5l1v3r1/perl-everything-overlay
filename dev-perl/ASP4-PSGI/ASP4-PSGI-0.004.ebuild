@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="0.004"
-DIST_A="ASP4-PSGI-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

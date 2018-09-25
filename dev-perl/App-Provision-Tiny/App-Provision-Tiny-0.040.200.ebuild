@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.0402"
-DIST_A="App-Provision-Tiny-0.0402.tar.gz"
+DIST_VERSION="0.0402" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/File-Which
 	dev-perl/Getopt-Simple
 	dev-perl/Module-Runtime
+	dev-perl/lib
 	virtual/perl-parent
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

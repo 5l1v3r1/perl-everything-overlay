@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEVERETT"
-DIST_VERSION="1.13"
-DIST_A="Class-Prototyped-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

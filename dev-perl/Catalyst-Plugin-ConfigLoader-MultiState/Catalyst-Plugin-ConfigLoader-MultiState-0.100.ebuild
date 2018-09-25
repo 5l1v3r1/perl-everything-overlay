@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYBER"
-DIST_VERSION="0.1"
-DIST_A="Catalyst-Plugin-ConfigLoader-MultiState-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

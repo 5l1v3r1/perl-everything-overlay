@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.101"
-DIST_A="Alien-OpenVcdiff-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Alien-Base
+	dev-perl/Alien-Build
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Alien-Base-ModuleBuild-0.003
 	>=dev-perl/Module-Build-0.380
 "
+

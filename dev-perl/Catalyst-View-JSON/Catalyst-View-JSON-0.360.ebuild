@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.36"
-DIST_A="Catalyst-View-JSON-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

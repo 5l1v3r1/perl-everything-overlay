@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.07"
-DIST_A="Apache-Tika-Async-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

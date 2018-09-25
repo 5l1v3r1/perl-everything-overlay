@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NETSENSEI"
-DIST_VERSION="0.08"
-DIST_A="Catmandu-Store-Datahub-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.990
 "
+

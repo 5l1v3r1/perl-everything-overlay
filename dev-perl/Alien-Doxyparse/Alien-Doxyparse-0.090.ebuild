@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOENIO"
-DIST_VERSION="0.09"
-DIST_A="Alien-Doxyparse-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Alien-flex
 	dev-perl/Alien-m4
 "
+

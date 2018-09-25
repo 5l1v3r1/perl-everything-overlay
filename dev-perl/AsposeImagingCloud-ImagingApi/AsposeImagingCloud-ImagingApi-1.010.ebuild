@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASPOSE"
-DIST_VERSION="1.01"
-DIST_A="AsposeImagingCloud-ImagingApi-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/AsposeStorageCloud-StorageApi
 	dev-perl/DateTime
 	dev-perl/Digest-HMAC
 	dev-perl/File-Slurp
@@ -41,3 +39,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=virtual/perl-Test-Simple-0.100
 "
+

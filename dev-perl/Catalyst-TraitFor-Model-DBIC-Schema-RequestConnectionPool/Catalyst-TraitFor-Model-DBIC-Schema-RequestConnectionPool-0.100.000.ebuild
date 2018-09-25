@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBJK"
-DIST_VERSION="0.1000"
-DIST_A="Catalyst-TraitFor-Model-DBIC-Schema-RequestConnectionPool-0.1000.tar.gz"
+DIST_VERSION="0.1000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,7 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/DBIx-Class
 	dev-perl/HTTP-Message
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

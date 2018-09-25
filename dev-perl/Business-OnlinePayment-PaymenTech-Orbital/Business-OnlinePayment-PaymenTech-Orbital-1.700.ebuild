@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GPHAT"
-DIST_VERSION="1.7"
-DIST_A="Business-OnlinePayment-PaymenTech-Orbital-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

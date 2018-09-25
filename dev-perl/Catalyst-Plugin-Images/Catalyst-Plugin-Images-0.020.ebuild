@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-Plugin-Images-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,9 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Path-Class
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

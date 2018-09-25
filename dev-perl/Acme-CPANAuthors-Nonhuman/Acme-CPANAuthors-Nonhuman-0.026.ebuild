@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.026"
-DIST_A="Acme-CPANAuthors-Nonhuman-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Acme-CPANAuthors-0.160
+	dev-perl/Module-Build
 	dev-perl/Module-Pluggable
 	dev-perl/Module-Runtime
 	dev-perl/Test-Deep
@@ -31,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

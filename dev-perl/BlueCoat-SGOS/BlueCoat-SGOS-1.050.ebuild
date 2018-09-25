@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMLANGE"
-DIST_VERSION="1.05"
-DIST_A="BlueCoat-SGOS-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-1.040
 	>=virtual/perl-Test-Harness-3.180
 "
+

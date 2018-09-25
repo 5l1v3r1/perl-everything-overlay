@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="0.31"
-DIST_A="Code-CutNPaste-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	>=dev-perl/Test-Most-0.250
 "
+

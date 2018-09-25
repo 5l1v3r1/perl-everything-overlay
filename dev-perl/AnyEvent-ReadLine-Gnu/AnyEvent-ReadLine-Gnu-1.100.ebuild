@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="1.1"
-DIST_A="AnyEvent-ReadLine-Gnu-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Canary-Stability
 	>=virtual/perl-ExtUtils-MakeMaker-6.600
 "
+

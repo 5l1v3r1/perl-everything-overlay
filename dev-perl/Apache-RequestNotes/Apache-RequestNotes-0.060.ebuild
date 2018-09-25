@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEOFF"
-DIST_VERSION="0.06"
-DIST_A="Apache-RequestNotes-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/libapreq
+	>=dev-perl/libapreq-0.310.300
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBARR"
-DIST_VERSION="0.122200"
-DIST_A="DBIx-Class-ColumnDefault-0.122200.tar.gz"
+DIST_VERSION="0.122200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/DBICx-TestDatabase
 	dev-perl/DateTime-Format-SQLite
 "
+

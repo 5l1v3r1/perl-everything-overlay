@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICAS"
-DIST_VERSION="0.10"
-DIST_A="DBIx-Class-DateTime-Epoch-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/DateTime-Format-SQLite
 	virtual/perl-Test-Simple
 "
+

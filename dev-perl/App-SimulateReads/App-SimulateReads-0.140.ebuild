@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMILLER"
-DIST_VERSION="0.14"
-DIST_A="App-SimulateReads-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,3 +52,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	virtual/perl-autodie
 "
+

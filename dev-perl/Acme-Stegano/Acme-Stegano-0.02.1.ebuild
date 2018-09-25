@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANARION"
-DIST_VERSION="v0.02.1"
-DIST_A="Acme-Stegano-0.02.1.tar.gz"
+DIST_VERSION="0.02.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

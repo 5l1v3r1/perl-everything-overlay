@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.22"
-DIST_A="AxKit-XSP-BasicSession-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

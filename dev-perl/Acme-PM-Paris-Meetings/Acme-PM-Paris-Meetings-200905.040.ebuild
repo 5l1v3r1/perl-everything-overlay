@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="200905.04"
-DIST_A="Acme-PM-Paris-Meetings-200905.04.tar.gz"
+DIST_VERSION="200905.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

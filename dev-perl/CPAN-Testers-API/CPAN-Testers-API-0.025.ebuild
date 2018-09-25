@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PREACTION"
-DIST_VERSION="0.025"
-DIST_A="CPAN-Testers-API-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Log-Any-Adapter-MojoLog-0.020
 	>=dev-perl/Mercury-0.015
 	>=dev-perl/Minion-Backend-mysql-0.120
-	>=dev-perl/Mojolicious-7.400
+	dev-perl/Mojolicious
 	>=dev-perl/Mojolicious-Plugin-OpenAPI-1.210
 "
 DEPEND="
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-1.001.005
 "
+

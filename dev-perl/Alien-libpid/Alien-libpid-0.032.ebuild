@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHREEF"
-DIST_VERSION="0.032"
-DIST_A="Alien-libpid-0.032.tar.gz"
+DIST_VERSION="0.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

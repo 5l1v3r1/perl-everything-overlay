@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.002222"
-DIST_A="DBIx-Class-DeploymentHandler-0.002222.tar.gz"
+DIST_VERSION="0.002222" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.17"
-DIST_A="App-cpangitify-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test2-Plugin-FauxHomeDir
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

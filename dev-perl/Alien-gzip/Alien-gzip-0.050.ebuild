@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.05"
-DIST_A="Alien-gzip-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

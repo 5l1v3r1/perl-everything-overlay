@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOLLAZA"
-DIST_VERSION="0.154"
-DIST_A="App-DuckPAN-0.154.tar.gz"
+DIST_VERSION="0.154" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -66,3 +65,4 @@ DEPEND="
 	>=dev-perl/Test-Script-Run-0.050
 	>=virtual/perl-Test-Simple-0.980
 "
+

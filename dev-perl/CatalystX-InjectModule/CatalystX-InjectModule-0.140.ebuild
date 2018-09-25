@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAB"
-DIST_VERSION="0.14"
-DIST_A="CatalystX-InjectModule-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.100
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

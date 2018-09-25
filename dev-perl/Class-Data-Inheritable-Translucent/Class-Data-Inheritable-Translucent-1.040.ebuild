@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHAY"
-DIST_VERSION="1.04"
-DIST_A="Class-Data-Inheritable-Translucent-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

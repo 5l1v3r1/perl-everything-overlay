@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.160630"
-DIST_A="Bot-Backbone-Service-JabberChat-0.160630.tar.gz"
+DIST_VERSION="0.160630" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

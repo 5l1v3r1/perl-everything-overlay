@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.04.32"
-DIST_A="App-Term-Jump-0.04.32.tar.gz"
+DIST_VERSION="0.04.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	dev-perl/Text-Diff
 "
+

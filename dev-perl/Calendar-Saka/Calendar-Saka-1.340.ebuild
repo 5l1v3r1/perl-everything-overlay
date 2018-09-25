@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="1.34"
-DIST_A="Calendar-Saka-1.34.tar.gz"
+DIST_VERSION="1.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

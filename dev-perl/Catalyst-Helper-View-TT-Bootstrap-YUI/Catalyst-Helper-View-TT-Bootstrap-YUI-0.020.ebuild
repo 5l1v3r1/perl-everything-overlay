@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSHIRLEY"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-Helper-View-TT-Bootstrap-YUI-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

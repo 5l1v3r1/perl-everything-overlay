@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PBLAIR"
-DIST_VERSION="v0.0.7"
-DIST_A="Conan-0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

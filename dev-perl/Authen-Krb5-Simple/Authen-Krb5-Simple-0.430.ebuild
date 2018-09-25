@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTUART"
-DIST_VERSION="0.43"
-DIST_A="Authen-Krb5-Simple-0.43.tar.gz"
+DIST_VERSION="0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-Test-Simple-1.302.086
+	>=virtual/perl-Test-Simple-1.302.140
 "
 DEPEND="
 	${RDEPEND}
 "
+

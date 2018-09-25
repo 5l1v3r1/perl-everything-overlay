@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.161"
-DIST_A="CGI-Form-Table-0.161.tar.gz"
+DIST_VERSION="0.161" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

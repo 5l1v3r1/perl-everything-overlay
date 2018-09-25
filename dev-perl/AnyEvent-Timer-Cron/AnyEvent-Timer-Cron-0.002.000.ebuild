@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAARG"
-DIST_VERSION="0.002000"
-DIST_A="AnyEvent-Timer-Cron-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-Test-Simple-0.940
 "
+

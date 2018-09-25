@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAUKEX"
-DIST_VERSION="0.06"
-DIST_A="Config-Perl-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	dev-perl/Test-Fatal
+	dev-perl/base
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

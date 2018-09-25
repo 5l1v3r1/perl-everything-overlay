@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="5.9009"
-DIST_A="Catalyst-Manual-5.9009.tar.gz"
+DIST_VERSION="5.9009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

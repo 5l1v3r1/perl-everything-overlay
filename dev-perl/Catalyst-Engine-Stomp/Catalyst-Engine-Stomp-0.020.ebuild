@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHRISA"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-Engine-Stomp-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,9 @@ RDEPEND="
 	>=dev-perl/Net-Stomp-0.340
 	>=dev-perl/YAML-LibYAML-0.320
 	>=dev-perl/namespace-autoclean-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ITUB"
-DIST_VERSION="0.47"
-DIST_A="Chemistry-File-SMILES-0.47.tar.gz"
+DIST_VERSION="0.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

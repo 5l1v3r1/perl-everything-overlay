@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAORUOT"
-DIST_VERSION="v0.0.3"
-DIST_A="CSPL-Provision-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

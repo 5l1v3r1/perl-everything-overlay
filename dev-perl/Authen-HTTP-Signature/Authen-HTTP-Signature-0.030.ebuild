@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALLEN"
-DIST_VERSION="0.03"
-DIST_A="Authen-HTTP-Signature-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

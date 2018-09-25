@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.161310"
-DIST_A="Acme-MITHALDU-XSGrabBag-1.161310.tar.gz"
+DIST_VERSION="1.161310" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

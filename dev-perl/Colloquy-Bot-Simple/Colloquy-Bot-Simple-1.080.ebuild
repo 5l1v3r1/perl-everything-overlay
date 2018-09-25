@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICOLAW"
-DIST_VERSION="1.08"
-DIST_A="Colloquy-Bot-Simple-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

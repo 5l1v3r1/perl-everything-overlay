@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROCKWAY"
-DIST_VERSION="0.01"
-DIST_A="AnyEvent-ZeroMQ-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-TableDriven
 	virtual/perl-Test-Simple
 "
+

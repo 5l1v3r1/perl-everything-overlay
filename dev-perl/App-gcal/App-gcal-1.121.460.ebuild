@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJONES"
-DIST_VERSION="1.121460"
-DIST_A="App-gcal-1.121460.tar.gz"
+DIST_VERSION="1.121460" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.880
 "
+

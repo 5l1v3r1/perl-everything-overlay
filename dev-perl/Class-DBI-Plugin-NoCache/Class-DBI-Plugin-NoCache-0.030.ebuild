@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LYOKATO"
-DIST_VERSION="0.03"
-DIST_A="Class-DBI-Plugin-NoCache-0.03.tar.gz"
-b=L/LY/LYOKATO/Class-DBI-Plugin-NoCache-0.03.tar.gz
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

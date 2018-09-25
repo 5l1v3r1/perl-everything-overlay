@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHANSEN"
-DIST_VERSION="0.2"
-DIST_A="Authen-Simple-CDBI-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTPALMER"
-DIST_VERSION="0.07"
-DIST_A="Box2D-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-XSpp-0.160
 	virtual/perl-Test-Simple
 "
+

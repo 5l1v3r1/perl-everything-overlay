@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKEH"
-DIST_VERSION="0.07"
-DIST_A="Bundle-Interchange4-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

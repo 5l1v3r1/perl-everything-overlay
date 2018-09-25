@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJONES"
-DIST_VERSION="1.153400"
-DIST_A="AtomicParsley-Command-1.153400.tar.gz"
+DIST_VERSION="1.153400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

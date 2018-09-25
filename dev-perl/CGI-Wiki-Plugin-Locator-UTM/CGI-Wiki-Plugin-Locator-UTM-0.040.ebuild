@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVORW"
-DIST_VERSION="0.04"
-DIST_A="CGI-Wiki-Plugin-Locator-UTM-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/CGI-Wiki
 	dev-perl/Geo-Coordinates-UTM
 	virtual/perl-Test-Simple
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

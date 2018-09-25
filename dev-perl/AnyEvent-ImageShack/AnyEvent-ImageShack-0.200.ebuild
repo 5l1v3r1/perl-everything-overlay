@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMITRYNOD"
-DIST_VERSION="0.2"
-DIST_A="AnyEvent-ImageShack-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

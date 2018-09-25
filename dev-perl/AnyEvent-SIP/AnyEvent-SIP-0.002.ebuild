@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="0.002"
-DIST_A="AnyEvent-SIP-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="1.10"
-DIST_A="Acme-Dot-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.600
 "
+

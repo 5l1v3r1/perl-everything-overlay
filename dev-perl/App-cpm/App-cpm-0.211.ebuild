@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="0.211"
-DIST_A="App-cpm-0.211.tar.gz"
+DIST_VERSION="0.211" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

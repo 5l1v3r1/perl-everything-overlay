@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZONCOEN"
-DIST_VERSION="0.01"
-DIST_A="Amon2-Plugin-Web-Maintenance-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Amon2
+	dev-perl/Module-Build
 	dev-perl/Test-WWW-Mechanize-PSGI
 	>=virtual/perl-Test-Simple-0.980
 "
+

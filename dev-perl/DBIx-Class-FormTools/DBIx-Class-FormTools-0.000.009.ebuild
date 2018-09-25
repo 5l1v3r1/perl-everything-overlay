@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJO"
-DIST_VERSION="0.000009"
-DIST_A="DBIx-Class-FormTools-0.000009.tar.gz"
+DIST_VERSION="0.000009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Data-Dump
 "
+

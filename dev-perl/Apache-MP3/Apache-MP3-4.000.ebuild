@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LDS"
-DIST_VERSION="4.00"
-DIST_A="Apache-MP3-4.00.tar.gz"
+DIST_VERSION="4.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

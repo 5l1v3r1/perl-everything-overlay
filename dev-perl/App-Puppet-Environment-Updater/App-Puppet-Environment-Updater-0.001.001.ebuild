@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTOCK"
-DIST_VERSION="0.001001"
-DIST_A="App-Puppet-Environment-Updater-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
+

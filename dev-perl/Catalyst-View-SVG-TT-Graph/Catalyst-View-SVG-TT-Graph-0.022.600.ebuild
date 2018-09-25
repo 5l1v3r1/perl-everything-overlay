@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TERENCEMO"
-DIST_VERSION="0.0226"
-DIST_A="Catalyst-View-SVG-TT-Graph-0.0226.tar.gz"
+DIST_VERSION="0.0226" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSPIER"
-DIST_VERSION="0.030601"
-DIST_A="Bundle-RT-0.030601.tar.gz"
+DIST_VERSION="0.030601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

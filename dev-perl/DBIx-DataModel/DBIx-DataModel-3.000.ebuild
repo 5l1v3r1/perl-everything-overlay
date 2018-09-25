@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMI"
-DIST_VERSION="3.0"
-DIST_A="DBIx-DataModel-3.0.tar.gz"
+DIST_VERSION="3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=dev-perl/DBD-SQLite-1.380
 	dev-perl/Task-Weaken
 "
+

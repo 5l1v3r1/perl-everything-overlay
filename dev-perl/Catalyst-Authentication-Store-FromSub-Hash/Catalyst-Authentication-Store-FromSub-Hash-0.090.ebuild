@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.09"
-DIST_A="Catalyst-Authentication-Store-FromSub-Hash-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.040
 	dev-perl/Catalyst-Runtime
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

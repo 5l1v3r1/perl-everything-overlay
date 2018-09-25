@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKIHOSHI"
-DIST_VERSION="0.10"
-DIST_A="DBIx-Class-RandomStringColumns-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Perl-Critic-1.118
 	dev-perl/Test-Perl-Critic
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

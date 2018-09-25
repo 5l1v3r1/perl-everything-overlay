@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="1.33"
-DIST_A="Bundle-Test-SQL-Statement-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/DBD-AnyData-0.110
 	>=dev-perl/DBD-CSV-0.310
 	dev-perl/DBD-SQLite
-	>=dev-perl/DBI-0.060
+	>=dev-perl/DBI-0.400
 	>=dev-perl/SQL-Statement-1.330
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.900
 "
+

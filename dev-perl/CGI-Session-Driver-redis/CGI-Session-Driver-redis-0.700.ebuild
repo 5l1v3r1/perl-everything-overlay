@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKX"
-DIST_VERSION="0.7"
-DIST_A="CGI-Session-Driver-redis-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Strict
 	virtual/perl-Test-Simple
 "
+

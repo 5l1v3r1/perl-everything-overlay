@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.012"
-DIST_A="Bencher-Scenarios-LogGer-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Data-Dmp-0.210
-	dev-perl/Log-ger
+	>=dev-perl/Log-ger-0.008
 	dev-perl/Log-ger-Layout-JSON
 	dev-perl/Log-ger-Layout-LTSV
 	dev-perl/Log-ger-Layout-Pattern
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

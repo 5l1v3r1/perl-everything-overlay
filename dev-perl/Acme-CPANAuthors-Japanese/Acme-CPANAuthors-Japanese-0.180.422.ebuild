@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISHIGAKI"
-DIST_VERSION="0.180422"
-DIST_A="Acme-CPANAuthors-Japanese-0.180422.tar.gz"
+DIST_VERSION="0.180422" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.102280"
-DIST_A="Class-Scaffold-1.102280.tar.gz"
+DIST_VERSION="1.102280" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,8 +33,8 @@ RDEPEND="
 	dev-perl/Test-Class-GetoptControl
 	dev-perl/Test-CompanionClasses
 	dev-perl/UNIVERSAL-require
+	dev-perl/YAML
 	dev-perl/YAML-Active
-	dev-perl/yaml
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Exporter
@@ -45,10 +44,11 @@ RDEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
-	virtual/perl-constant
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-File-Temp
 "
+

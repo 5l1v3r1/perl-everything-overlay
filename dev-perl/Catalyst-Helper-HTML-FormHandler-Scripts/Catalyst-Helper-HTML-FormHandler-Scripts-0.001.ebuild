@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.001"
-DIST_A="Catalyst-Helper-HTML-FormHandler-Scripts-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

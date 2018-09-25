@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KJETILK"
-DIST_VERSION="0.96"
-DIST_A="Apache-AxKit-Provider-File-Formatter-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HDP"
-DIST_VERSION="0.005"
-DIST_A="CatalystX-RoleApplicator-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700
-	>=dev-perl/Moose-0.730
+	>=dev-perl/Moose-0.800
 	>=dev-perl/MooseX-RelatedClassRoles-0.003
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

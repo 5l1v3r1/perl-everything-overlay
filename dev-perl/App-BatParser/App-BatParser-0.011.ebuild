@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PABLROD"
-DIST_VERSION="0.011"
-DIST_A="App-BatParser-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDEHOON"
-DIST_VERSION="1.56"
-DIST_A="Algorithm-Cluster-1.56.tar.gz"
+DIST_VERSION="1.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

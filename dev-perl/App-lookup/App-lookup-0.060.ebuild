@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYALTUT"
-DIST_VERSION="0.06"
-DIST_A="App-lookup-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

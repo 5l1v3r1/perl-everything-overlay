@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOOO"
-DIST_VERSION="0.021"
-DIST_A="Applications-BackupAndRestore-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	>=dev-perl/Tie-SaveLater-0.030
 	>=dev-perl/Unicode-MapUTF8-1.110
 	>=dev-perl/Unicode-UTF8simple-1.060
+	>=dev-perl/base-2.070
 	>=dev-perl/enum-1.016
 	>=dev-perl/glib-perl-1.161
 	>=dev-perl/gnome2-perl-1.040
@@ -37,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

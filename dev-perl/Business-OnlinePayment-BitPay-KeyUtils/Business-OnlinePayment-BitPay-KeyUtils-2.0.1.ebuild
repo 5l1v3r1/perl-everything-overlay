@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BITPAY"
-DIST_VERSION="v2.0.1"
-DIST_A="Business-OnlinePayment-BitPay-KeyUtils-2.0.1.tar.gz"
+DIST_VERSION="2.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

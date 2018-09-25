@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOODFARM"
-DIST_VERSION="v0.4.0"
-DIST_A="App-Basis-ConvertText2-UtfTransform-0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

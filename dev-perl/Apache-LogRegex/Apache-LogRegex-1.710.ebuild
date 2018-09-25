@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPACEBAT"
-DIST_VERSION="1.71"
-DIST_A="Apache-LogRegex-1.71.tar.gz"
+DIST_VERSION="1.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

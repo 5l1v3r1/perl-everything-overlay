@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ai-nnflex"
-DIST_VERSION="0.16"
-DIST_A="AI-NNFlex-0.16.tar.gz"
+DIST_AUTHOR="CCOLBOURN"
+DIST_VERSION="0.16" 
+SRC_URI="mirror://cpan/authors/id/C/CC/CCOLBOURN/ai-nnflex/AI-NNFlex-0.16.tar.gz -> AI-NNFlex-0.16.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AI-NNFlex-0.16 ${WORKDIR}/AI-NNFlex-0.16
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWILLIAMS"
-DIST_VERSION="0.002"
-DIST_A="AtteanX-Endpoint-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-PSGI
 	>=virtual/perl-Test-Simple-0.880
 "
+

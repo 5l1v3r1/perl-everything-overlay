@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESTRAI"
-DIST_VERSION="1.0.1"
-DIST_A="Bot-BasicBot-Pluggable-Module-ReviewBoard-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Bot-BasicBot-Pluggable
 	dev-perl/JSON
+	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="
@@ -26,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

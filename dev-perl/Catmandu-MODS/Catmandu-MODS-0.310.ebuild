@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NJFRANCK"
-DIST_VERSION="0.31"
-DIST_A="Catmandu-MODS-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

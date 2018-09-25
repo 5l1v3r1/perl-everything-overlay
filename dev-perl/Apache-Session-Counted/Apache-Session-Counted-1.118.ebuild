@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDK"
-DIST_VERSION="1.118"
-DIST_A="Apache-Session-Counted-1.118.tar.gz"
+DIST_VERSION="1.118" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

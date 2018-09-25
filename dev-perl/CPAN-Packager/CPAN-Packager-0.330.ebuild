@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITANO"
-DIST_VERSION="0.33"
-DIST_A="CPAN-Packager-0.33.tar.gz"
+DIST_VERSION="0.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.16"
-DIST_A="App-SmokeBox-PerlVersion-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-1.293
+	dev-perl/POE
 	virtual/perl-IPC-Cmd
 "
 DEPEND="
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

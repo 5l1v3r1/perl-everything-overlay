@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DQNEO"
-DIST_VERSION="0.16"
-DIST_A="Amazon-S3-Thin-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

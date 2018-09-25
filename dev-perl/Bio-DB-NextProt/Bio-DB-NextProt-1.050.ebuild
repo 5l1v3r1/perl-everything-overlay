@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEPREVOST"
-DIST_VERSION="1.05"
-DIST_A="Bio-DB-NextProt-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Net-FTP-Tiny
 	virtual/perl-Test-Simple
 "
+

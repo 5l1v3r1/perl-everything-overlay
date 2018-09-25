@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="AppConfig-Exporter"
-DIST_VERSION="1.5"
-DIST_A="AppConfig-Exporter-1.5.tar.gz"
+DIST_AUTHOR="MODULO"
+DIST_VERSION="1.5" 
+SRC_URI="mirror://cpan/authors/id/M/MO/MODULO/AppConfig-Exporter/AppConfig-Exporter-1.5.tar.gz -> AppConfig-Exporter-1.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +20,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/AppConfig
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AppConfig-Exporter-1.5 ${WORKDIR}/AppConfig-Exporter-1.5
+}
+

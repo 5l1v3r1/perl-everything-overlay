@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.005003"
-DIST_A="DBIx-Class-Candy-0.005003.tar.gz"
+DIST_VERSION="0.005003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CROMEDOME"
-DIST_VERSION="0.04"
-DIST_A="CGI-Application-Plugin-CAPTCHA-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize
 	virtual/perl-Test-Simple
 "
+

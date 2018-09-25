@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHARDISON"
-DIST_VERSION="0.01"
-DIST_A="Alien-libcmark_gfm-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Build-0.650
+	>=dev-perl/Alien-Build-0.320
 	>=dev-perl/Alien-Build-Git-0.010
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

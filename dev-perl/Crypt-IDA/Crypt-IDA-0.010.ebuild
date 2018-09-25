@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Crypt-IDA"
-DIST_VERSION="0.01"
-DIST_A="Crypt-IDA-0.01.tar.gz"
+DIST_AUTHOR="DMALONE"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMALONE/Crypt-IDA/Crypt-IDA-0.01.tar.gz -> Crypt-IDA-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Crypt-IDA-0.01 ${WORKDIR}/Crypt-IDA-0.01
+}
+

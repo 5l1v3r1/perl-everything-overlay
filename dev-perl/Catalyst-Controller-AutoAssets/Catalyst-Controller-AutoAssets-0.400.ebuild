@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="0.40"
-DIST_A="Catalyst-Controller-AutoAssets-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/CSS-Scopifier-0.040
+	dev-perl/CSS-Scopifier
 	dev-perl/Catalyst-Runtime
 	dev-perl/CatalystX-InjectComponent
 	dev-perl/Data-Dumper-Concise
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

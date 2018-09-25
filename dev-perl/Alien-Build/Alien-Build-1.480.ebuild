@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.48"
-DIST_A="Alien-Build-1.48.tar.gz"
+DIST_VERSION="1.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Alien-xz-0.050
 	virtual/perl-ExtUtils-MakeMaker
 "
+

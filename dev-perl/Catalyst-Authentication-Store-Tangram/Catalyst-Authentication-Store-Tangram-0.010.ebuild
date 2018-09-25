@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.010"
-DIST_A="Catalyst-Authentication-Store-Tangram-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,10 +23,11 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	>=dev-perl/Tangram-2.090
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

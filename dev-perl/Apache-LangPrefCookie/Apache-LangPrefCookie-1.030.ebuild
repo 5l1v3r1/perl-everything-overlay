@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEYA"
-DIST_VERSION="1.03"
-DIST_A="Apache-LangPrefCookie-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

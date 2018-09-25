@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ALYX"
-DIST_VERSION="0.932"
-DIST_A="Audio-Audacious-0.932.tar.gz"
+DIST_VERSION="0.932" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

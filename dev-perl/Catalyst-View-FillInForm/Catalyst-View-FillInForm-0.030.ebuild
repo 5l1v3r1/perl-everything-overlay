@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSHANK"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-View-FillInForm-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.140
 	>=dev-perl/Test-Pod-Coverage-1.040
 "
+

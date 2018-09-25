@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEREMIAH"
-DIST_VERSION="v0.03.3"
-DIST_A="Apache-Yaalr-0.03.3.tar.gz"
+DIST_VERSION="0.03.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

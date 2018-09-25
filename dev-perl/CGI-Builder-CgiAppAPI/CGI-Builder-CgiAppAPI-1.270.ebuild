@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMIZIO"
-DIST_VERSION="1.27"
-DIST_A="CGI-Builder-CgiAppAPI-1.27.tar.gz"
+DIST_VERSION="1.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

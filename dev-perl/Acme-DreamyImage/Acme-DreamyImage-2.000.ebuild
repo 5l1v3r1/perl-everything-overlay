@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="2.0"
-DIST_A="Acme-DreamyImage-2.0.tar.gz"
+DIST_VERSION="2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

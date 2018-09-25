@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJENNESS"
-DIST_VERSION="1.07"
-DIST_A="Astro-PAL-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

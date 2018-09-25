@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="2.200002"
-DIST_A="Catalyst-Plugin-AutoCRUD-2.200002.tar.gz"
+DIST_VERSION="2.200002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Model-DBIC-Schema
 	dev-perl/Catalyst-Plugin-ConfigLoader
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/Catalyst-View-JSON
 	dev-perl/Catalyst-View-TT
 	dev-perl/DBD-SQLite
@@ -34,6 +33,7 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Module-Pluggable
 	dev-perl/SQL-Translator
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
@@ -49,3 +49,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

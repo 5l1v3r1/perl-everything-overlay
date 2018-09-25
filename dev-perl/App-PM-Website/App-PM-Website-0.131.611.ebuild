@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAZM"
-DIST_VERSION="0.131611"
-DIST_A="App-PM-Website-0.131611.tar.gz"
+DIST_VERSION="0.131611" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

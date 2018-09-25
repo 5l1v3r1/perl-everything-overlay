@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAARG"
-DIST_VERSION="0.001001"
-DIST_A="CPAN-Test-Dummy-ProvidesDupe-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

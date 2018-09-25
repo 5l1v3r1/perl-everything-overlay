@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IARNELL"
-DIST_VERSION="0.02"
-DIST_A="Config-MySQL-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Config-INI
+	dev-perl/base
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

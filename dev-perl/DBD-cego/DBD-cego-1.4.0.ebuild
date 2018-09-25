@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COMPLX"
-DIST_VERSION="1.4.0"
-DIST_A="DBD-cego-1.4.0.tar.gz"
+DIST_VERSION="1.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

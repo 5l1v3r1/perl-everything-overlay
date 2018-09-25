@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEETTYA"
-DIST_VERSION="0.141"
-DIST_A="Config-Merge-Dynamic-0.141.tar.gz"
+DIST_VERSION="0.141" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

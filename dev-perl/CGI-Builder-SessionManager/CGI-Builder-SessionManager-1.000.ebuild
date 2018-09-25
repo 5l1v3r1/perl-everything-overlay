@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ENRYS"
-DIST_VERSION="1.00"
-DIST_A="CGI-Builder-SessionManager-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

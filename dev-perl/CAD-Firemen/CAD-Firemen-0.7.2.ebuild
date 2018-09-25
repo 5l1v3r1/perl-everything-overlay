@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LANGENJO"
-DIST_VERSION="v0.7.2"
-DIST_A="CAD-Firemen-0.7.2.tar.gz"
+DIST_VERSION="0.7.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/HTML-Tree
 	dev-perl/IO-HTML
 	dev-perl/JSON-Parse
+	dev-perl/Pod-Usage
 	dev-perl/Term-ProgressBar
 	dev-perl/TermReadKey
 	dev-perl/Tie-File
@@ -37,12 +37,15 @@ RDEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Capture-Tiny
+	>=dev-perl/Test-Script-1.050
+	dev-perl/lib
+	>=virtual/perl-Test-Simple-0.880
 "
+

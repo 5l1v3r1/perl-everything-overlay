@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVAR"
-DIST_VERSION="0.17"
-DIST_A="Constant-Export-Lazy-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,10 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
+	dev-perl/lib
 	>=virtual/perl-Exporter-5.566
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

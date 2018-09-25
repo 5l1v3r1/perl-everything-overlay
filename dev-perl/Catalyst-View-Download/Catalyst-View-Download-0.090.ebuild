@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAUDEON"
-DIST_VERSION="0.09"
-DIST_A="Catalyst-View-Download-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	dev-perl/Test-WWW-Mechanize-Catalyst
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/XML-Simple
 	virtual/perl-Test-Simple
 "
+

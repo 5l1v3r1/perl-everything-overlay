@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZDK"
-DIST_VERSION="0.0005"
-DIST_A="Catalyst-Plugin-Session-State-Auth-0.0005.tar.gz"
+DIST_VERSION="0.0005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Catalyst-Runtime-5.800.150
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
+

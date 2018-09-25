@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIZ"
-DIST_VERSION="1.14"
-DIST_A="Catalyst-Plugin-Params-Demoronize-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.420
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOLIBRIE"
-DIST_VERSION="v1.2.0"
-DIST_A="Business-Tax-Avalara-1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAB"
-DIST_VERSION="0.11"
-DIST_A="Authorization-RBAC-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

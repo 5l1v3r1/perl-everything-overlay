@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSIMERSON"
-DIST_VERSION="5.36"
-DIST_A="Apache-Logmonster-5.36.tar.gz"
+DIST_VERSION="5.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

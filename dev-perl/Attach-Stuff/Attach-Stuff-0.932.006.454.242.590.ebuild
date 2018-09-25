@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMURRAY"
-DIST_VERSION="0.93200645424259"
-DIST_A="Attach-Stuff-0.93200645424259.tar.gz"
+DIST_VERSION="0.93200645424259" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Pod
 "
+

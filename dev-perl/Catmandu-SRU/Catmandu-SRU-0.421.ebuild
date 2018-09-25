@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="0.421"
-DIST_A="Catmandu-SRU-0.421.tar.gz"
+DIST_VERSION="0.421" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/XML-XPath-1.130
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

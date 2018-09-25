@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYOHEX"
-DIST_VERSION="0.20"
-DIST_A="AnyEvent-MessagePack-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

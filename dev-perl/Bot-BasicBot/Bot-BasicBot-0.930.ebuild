@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIGPRESH"
-DIST_VERSION="0.93"
-DIST_A="Bot-BasicBot-0.93.tar.gz"
+DIST_VERSION="0.93" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

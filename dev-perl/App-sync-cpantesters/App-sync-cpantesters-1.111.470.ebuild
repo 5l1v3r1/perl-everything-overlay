@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.111470"
-DIST_A="App-sync_cpantesters-1.111470.tar.gz"
+DIST_VERSION="1.111470" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor-Lite
 	dev-perl/Class-Trigger
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/HTML-Tree
 	dev-perl/LWP-UserAgent-ProgressBar
 	dev-perl/Web-Scraper
@@ -29,4 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002001"
-DIST_A="Comment-Spell-Check-0.002001.tar.gz"
+DIST_VERSION="0.002001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

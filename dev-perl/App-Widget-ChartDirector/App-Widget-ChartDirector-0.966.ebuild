@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPADKINS"
-DIST_VERSION="0.966"
-DIST_A="App-Widget-ChartDirector-0.966.tar.gz"
+DIST_VERSION="0.966" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

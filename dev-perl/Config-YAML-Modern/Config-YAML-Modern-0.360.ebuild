@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEETTYA"
-DIST_VERSION="0.36"
-DIST_A="Config-YAML-Modern-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.120
+	>=dev-lang/perl-2.820
 	>=dev-perl/Data-Diver-1.010.100
 	>=dev-perl/Hash-Merge-0.120
 	>=dev-perl/YAML-0.720
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

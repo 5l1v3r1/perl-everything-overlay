@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LSF"
-DIST_VERSION="0.08"
-DIST_A="App-Prove-Plugin-Distributed-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Fatal
+	dev-perl/Test-Requires
 "
+

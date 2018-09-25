@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZMIJ"
-DIST_VERSION="0.3"
-DIST_A="Cache-Memcached-Semaphore-0.3.tar.gz"
-SRC_URI="mirror://cpan/authors/id/Z/ZM/ZMIJ/Cache/Memcached/Cache-Memcached-Semaphore-0.3.tar.gz"
+DIST_VERSION="0.3" 
+SRC_URI="mirror://cpan/authors/id/Z/ZM/ZMIJ/Cache/Memcached/Cache-Memcached-Semaphore-0.3.tar.gz -> Cache-Memcached-Semaphore-0.3.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Cache-Memcached-Semaphore-0.3 ${WORKDIR}/Cache-Memcached-Semaphore-0.3
+}
+

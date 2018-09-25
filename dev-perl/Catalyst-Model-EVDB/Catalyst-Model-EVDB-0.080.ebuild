@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANIELTWC"
-DIST_VERSION="0.08"
-DIST_A="Catalyst-Model-EVDB-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.500
 	dev-perl/EVDB-API
 	dev-perl/NEXT
 	virtual/perl-Data-Dumper
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

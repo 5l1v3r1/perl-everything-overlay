@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="1.066"
-DIST_A="ASP4-1.066.tar.gz"
+DIST_VERSION="1.066" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	dev-perl/Test-Memory-Cycle
 	dev-perl/common-sense
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
@@ -38,3 +37,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

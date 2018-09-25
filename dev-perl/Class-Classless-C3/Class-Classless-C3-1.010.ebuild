@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JWILLIAMS"
 DIST_VERSION="1.01"
-DIST_A="Class-Classless-C3-1.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

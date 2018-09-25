@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BASKARN"
-DIST_VERSION="1.2"
-DIST_A="Catalyst-TraitFor-Controller-CAPTCHA-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	virtual/perl-Test-Simple
 "
+

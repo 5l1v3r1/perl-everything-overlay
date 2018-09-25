@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOTANGO"
-DIST_VERSION="1.000"
-DIST_A="Class-DBI-PagedSearch-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAMV"
-DIST_VERSION="1.57"
-DIST_A="Class-Tangram-1.57.tar.gz"
+DIST_VERSION="1.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

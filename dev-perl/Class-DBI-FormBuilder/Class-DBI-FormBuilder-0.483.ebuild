@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEBAIRD"
-DIST_VERSION="0.483"
-DIST_A="Class-DBI-FormBuilder-0.483.tar.gz"
+DIST_VERSION="0.483" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJCURTIS"
-DIST_VERSION="0.9"
-DIST_A="Catalyst-Plugin-BigSitemap-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

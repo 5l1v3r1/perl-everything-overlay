@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.06"
-DIST_A="AnyEvent-ForkManager-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-SharedFork-0.310
 	>=virtual/perl-Test-Simple-0.980
 "
+

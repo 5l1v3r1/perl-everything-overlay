@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEIKON"
-DIST_VERSION="0.01000"
-DIST_A="Alien-LibANN-0.01000.tar.gz"
+DIST_VERSION="0.01000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-IO-Zlib
 	virtual/perl-ExtUtils-MakeMaker
 "
+

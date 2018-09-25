@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZARQUON"
-DIST_VERSION="0.8"
-DIST_A="Catalyst-Controller-reCAPTCHA-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	virtual/perl-Test-Simple
 "
+

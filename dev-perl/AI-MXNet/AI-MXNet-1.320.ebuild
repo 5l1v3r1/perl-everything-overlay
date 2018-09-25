@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKOLYCHEV"
-DIST_VERSION="1.32"
-DIST_A="AI-MXNet-1.32.tar.gz"
+DIST_VERSION="1.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/AI-MXNetCAPI-1.300
 	>=dev-perl/AI-NNVMCAPI-1.300
 	>=dev-perl/Function-Parameters-1.070.500
 	>=dev-perl/GraphViz-2.140
@@ -29,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

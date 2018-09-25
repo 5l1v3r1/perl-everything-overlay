@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="1.1.17"
-DIST_A="Class-Date-1.1.17.tar.gz"
+DIST_VERSION="1.1.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

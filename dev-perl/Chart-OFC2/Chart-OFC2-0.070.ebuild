@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKUTEJ"
-DIST_VERSION="0.07"
-DIST_A="Chart-OFC2-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Carp-Clan
 	dev-perl/JSON-XS
 	dev-perl/List-MoreUtils
-	>=dev-perl/Moose-0.650
+	dev-perl/Moose
 	dev-perl/MooseX-Aliases
 	dev-perl/MooseX-StrictConstructor
 	dev-perl/MooseX-Types
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

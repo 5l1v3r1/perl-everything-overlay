@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYMKAT"
-DIST_VERSION="0.001011"
-DIST_A="DBIx-Class-Schema-Config-0.001011.tar.gz"
+DIST_VERSION="0.001011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	>=virtual/perl-Test-Simple-0.420
 "
+

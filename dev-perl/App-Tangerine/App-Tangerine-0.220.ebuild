@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CONTYK"
-DIST_VERSION="0.22"
-DIST_A="App-Tangerine-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,13 +21,15 @@ RDEPEND="
 	dev-perl/File-Find-Rule-Perl
 	dev-perl/List-Compare
 	dev-perl/MCE
+	dev-perl/Pod-Usage
 	>=dev-perl/Tangerine-0.150
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
+

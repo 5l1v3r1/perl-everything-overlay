@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITANO"
-DIST_VERSION="0.052"
-DIST_A="CPAN-Packager-0.052.tar.gz"
+DIST_VERSION="0.052" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,10 +32,11 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Module-CoreList-2.170
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

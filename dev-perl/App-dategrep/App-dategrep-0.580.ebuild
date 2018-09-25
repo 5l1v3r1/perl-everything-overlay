@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOM"
-DIST_VERSION="0.58"
-DIST_A="App-dategrep-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Date-Manip
 	dev-perl/Moo
 	dev-perl/Pod-Usage
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Getopt-Long
 	virtual/perl-IO-Compress
@@ -32,5 +32,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-MockTime
 	dev-perl/Test-Output
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

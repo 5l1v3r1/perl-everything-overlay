@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="2.07"
-DIST_A="B-Size2-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-ParseXS
 	virtual/perl-Test-Simple
 "
+

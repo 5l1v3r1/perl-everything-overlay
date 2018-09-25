@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0600"
-DIST_A="App-Notifier-Service-0.0600.tar.gz"
+DIST_VERSION="0.0600" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.390
 	virtual/perl-Test-Simple
 "
+

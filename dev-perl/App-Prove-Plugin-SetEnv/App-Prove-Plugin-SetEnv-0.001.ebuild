@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILMARI"
-DIST_VERSION="0.001"
-DIST_A="App-Prove-Plugin-SetEnv-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
+

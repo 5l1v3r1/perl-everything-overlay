@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="0.000001"
-DIST_A="AnyEvent-Eris-0.000001.tar.gz"
+DIST_VERSION="0.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.920
 "
+

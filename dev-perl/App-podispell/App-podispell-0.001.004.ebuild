@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAARG"
-DIST_VERSION="0.001004"
-DIST_A="App-podispell-0.001004.tar.gz"
+DIST_VERSION="0.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.4.1"
-DIST_A="Catalyst-Plugin-MemoryUsage-0.4.1.tar.gz"
+DIST_VERSION="0.4.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

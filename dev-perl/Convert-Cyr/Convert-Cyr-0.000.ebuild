@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KDOULEPOV"
-DIST_VERSION="0.0"
-DIST_A="Convert-Cyr.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/K/KD/KDOULEPOV/Convert-Cyr.tar.gz -> Convert-Cyr-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Convert-Cyr ${WORKDIR}/Convert-Cyr-
+}
+

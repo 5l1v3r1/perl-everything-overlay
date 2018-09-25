@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="1.02"
-DIST_A="Algorithm-SkipList-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

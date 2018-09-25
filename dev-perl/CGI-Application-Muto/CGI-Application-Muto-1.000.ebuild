@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ULIZAMA"
-DIST_VERSION="1.0"
-DIST_A="CGI-Application-Muto-withoutworldwriteables.tar.gz"
+DIST_VERSION="1" 
+SRC_URI="mirror://cpan/authors/id/U/UL/ULIZAMA/CGI-Application-Muto-withoutworldwriteables.tar.gz -> CGI-Application-Muto-1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CGI-Application-Muto-withoutworldwriteables ${WORKDIR}/CGI-Application-Muto-1
+}
+

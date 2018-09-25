@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEVINJ"
-DIST_VERSION="1.1"
-DIST_A="AnyEvent-SCGI-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

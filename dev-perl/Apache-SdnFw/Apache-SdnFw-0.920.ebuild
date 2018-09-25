@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJS"
-DIST_VERSION="0.92"
-DIST_A="Apache-SdnFw-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

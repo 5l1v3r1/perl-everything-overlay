@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.0009765625"
-DIST_A="Acme-Version-Hex-0.0009765625.tar.gz"
+DIST_VERSION="0.0009765625" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+

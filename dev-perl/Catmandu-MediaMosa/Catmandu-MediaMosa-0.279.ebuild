@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NJFRANCK"
-DIST_VERSION="0.279"
-DIST_A="Catmandu-MediaMosa-0.279.tar.gz"
+DIST_VERSION="0.279" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

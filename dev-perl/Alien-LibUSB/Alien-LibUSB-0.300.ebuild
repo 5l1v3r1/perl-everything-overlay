@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHREEF"
-DIST_VERSION="0.3"
-DIST_A="Alien-LibUSB-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

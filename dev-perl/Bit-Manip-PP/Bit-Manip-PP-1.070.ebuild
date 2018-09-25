@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="1.07"
-DIST_A="Bit-Manip-PP-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-7.100
 	virtual/perl-Test-Simple
 "
+

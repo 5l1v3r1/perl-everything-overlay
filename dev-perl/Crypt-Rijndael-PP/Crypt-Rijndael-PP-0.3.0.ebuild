@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="0.3.0"
-DIST_A="Crypt-Rijndael-PP-0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,8 +29,10 @@ DEPEND="
 	dev-perl/MooseX-Params-Validate
 	dev-perl/String-Random
 	dev-perl/Test-Exception
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

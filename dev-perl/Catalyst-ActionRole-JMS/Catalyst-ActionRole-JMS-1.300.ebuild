@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="1.3"
-DIST_A="Catalyst-ActionRole-JMS-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Net-Stomp
 	dev-perl/Test-Most
 "
+

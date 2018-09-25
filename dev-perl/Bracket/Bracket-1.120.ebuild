@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATEU"
-DIST_VERSION="1.12"
-DIST_A="Bracket-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	dev-perl/Config-General
 	dev-perl/Config-JFDI
 	dev-perl/Crypt-Eksblowfish
-	dev-perl/DBIx-Class
+	>=dev-perl/DBIx-Class-0.081.200
 	dev-perl/DBIx-Class-EncodedColumn
 	dev-perl/DateTime
 	dev-perl/Email-Sender
@@ -48,3 +47,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

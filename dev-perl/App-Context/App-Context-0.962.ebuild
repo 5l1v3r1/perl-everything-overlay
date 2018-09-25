@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPADKINS"
-DIST_VERSION="0.962"
-DIST_A="App-Context-0.962.tar.gz"
+DIST_VERSION="0.962" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

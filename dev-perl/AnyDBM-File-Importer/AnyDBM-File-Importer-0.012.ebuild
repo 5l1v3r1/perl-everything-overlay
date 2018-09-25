@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJENSEN"
-DIST_VERSION="0.012"
-DIST_A="AnyDBM_File-Importer-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

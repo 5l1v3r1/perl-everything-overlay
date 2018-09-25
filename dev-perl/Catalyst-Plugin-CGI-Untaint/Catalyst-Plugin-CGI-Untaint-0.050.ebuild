@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJC"
-DIST_VERSION="0.05"
-DIST_A="Catalyst-Plugin-CGI-Untaint-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

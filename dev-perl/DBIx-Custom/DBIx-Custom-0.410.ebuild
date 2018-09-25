@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIMOTO"
-DIST_VERSION="0.41"
-DIST_A="DBIx-Custom-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

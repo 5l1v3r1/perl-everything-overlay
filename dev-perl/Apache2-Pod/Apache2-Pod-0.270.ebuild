@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKLE"
-DIST_VERSION="0.27"
-DIST_A="Apache2-Pod-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,11 @@ RDEPEND="
 	dev-perl/URI
 	virtual/perl-File-Spec
 	>=virtual/perl-Pod-Parser-1.300
-	virtual/perl-Pod-Simple
+	>=virtual/perl-Pod-Simple-3.010
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

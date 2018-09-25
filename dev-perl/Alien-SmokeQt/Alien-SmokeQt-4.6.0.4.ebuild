@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBUREL"
-DIST_VERSION="v4.6.0.4"
-DIST_A="Alien-SmokeQt-4.6.0.4.tar.gz"
+DIST_VERSION="4.6.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

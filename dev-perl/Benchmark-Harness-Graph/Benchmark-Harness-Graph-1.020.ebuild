@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLENNWOOD"
-DIST_VERSION="1.02"
-DIST_A="Benchmark-Harness-Graph-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

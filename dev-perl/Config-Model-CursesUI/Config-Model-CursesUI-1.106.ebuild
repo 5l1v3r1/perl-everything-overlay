@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="1.106"
-DIST_A="Config-Model-CursesUI-1.106.tar.gz"
+DIST_VERSION="1.106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Log-Log4perl
 "
+

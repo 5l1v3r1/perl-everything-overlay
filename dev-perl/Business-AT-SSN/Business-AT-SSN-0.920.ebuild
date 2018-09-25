@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOFSTETTM"
-DIST_VERSION="0.92"
-DIST_A="Business-AT-SSN-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+

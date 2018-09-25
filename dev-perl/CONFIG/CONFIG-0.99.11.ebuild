@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MWS"
-DIST_VERSION="v0.99.11"
-DIST_A="CONFIG-V0.99.11.tar.gz"
+DIST_VERSION="0.99.11" 
+SRC_URI="mirror://cpan/authors/id/M/MW/MWS/CONFIG-V0.99.11.tar.gz -> CONFIG-0.99.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CONFIG-V0.99.11 ${WORKDIR}/CONFIG-0.99.11
+}
+

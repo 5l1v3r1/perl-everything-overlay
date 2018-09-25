@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.010"
-DIST_A="CPAN-Common-Index-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,6 +36,8 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-FailWarnings
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-Exporter
 	>=virtual/perl-Test-Simple-0.960
 "
+

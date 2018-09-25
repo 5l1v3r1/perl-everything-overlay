@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="1.002"
-DIST_A="App-TimeTracker-Command-Category-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 "
+

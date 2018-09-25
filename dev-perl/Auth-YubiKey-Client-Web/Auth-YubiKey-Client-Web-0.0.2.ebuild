@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="v0.0.2"
-DIST_A="Auth-YubiKey-Client-Web-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Test-UseAllModules
 "
+

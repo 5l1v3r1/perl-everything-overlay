@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDR"
-DIST_VERSION="1.01"
-DIST_A="Authen-OATH-OCRA-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

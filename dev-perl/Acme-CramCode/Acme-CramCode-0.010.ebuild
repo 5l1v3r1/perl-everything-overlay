@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XERN"
-DIST_VERSION="0.01"
-DIST_A="Acme-CramCode-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

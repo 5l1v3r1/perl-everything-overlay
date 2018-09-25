@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAISSMAI"
-DIST_VERSION="4.10"
-DIST_A="Captive-Portal-4.10.tar.gz"
+DIST_VERSION="4.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

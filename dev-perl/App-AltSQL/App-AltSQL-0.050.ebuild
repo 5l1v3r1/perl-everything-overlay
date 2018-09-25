@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWATERS"
-DIST_VERSION="0.05"
-DIST_A="App-AltSQL-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ RDEPEND="
 	dev-perl/Term-ReadLine-Zoid
 	dev-perl/Text-CharWidth
 	>=dev-perl/Text-UnicodeBox-0.030
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Getopt-Long-2.380
 	>=virtual/perl-Term-ANSIColor-0.040
@@ -36,4 +35,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
+	dev-perl/Data-Structure-Util
+	dev-perl/Test-Deep
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

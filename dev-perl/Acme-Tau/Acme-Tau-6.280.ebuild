@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="6.28"
-DIST_A="Acme-Tau-6.28.tar.gz"
+DIST_VERSION="6.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

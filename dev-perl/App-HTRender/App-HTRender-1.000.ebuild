@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAJANDY"
-DIST_VERSION="1.00"
-DIST_A="App-HTRender-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	>=dev-lang/perl-2.760
 	>=dev-perl/HTML-Template-2.900
 	>=dev-perl/JSON-Tiny-0.490
+	>=dev-perl/Pod-Usage-1.350
 	>=virtual/perl-Getopt-Long-2.370
-	>=virtual/perl-Pod-Usage-1.350
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

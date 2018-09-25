@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="1.1.3"
-DIST_A="CPP-panda-lib-1.1.3.tar.gz"
+DIST_VERSION="1.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.760
 	dev-perl/Test-Deep
 	>=virtual/perl-ExtUtils-ParseXS-3.240
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZDENEK"
-DIST_VERSION="0.11"
-DIST_A="App-Repo-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

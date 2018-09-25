@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="2016073001.0"
-DIST_A="Acme-CPANAuthors-Booking-2016073001.tar.gz"
+DIST_VERSION="2016073001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

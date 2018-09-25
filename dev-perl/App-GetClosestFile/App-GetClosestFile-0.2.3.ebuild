@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RORYRJB"
-DIST_VERSION="0.2.3"
-DIST_A="App-GetClosestFile-0.2.3.tar.gz"
+DIST_VERSION="0.2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

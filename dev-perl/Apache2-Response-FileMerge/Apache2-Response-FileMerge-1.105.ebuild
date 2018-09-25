@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WAZZUTEKE"
-DIST_VERSION="1.105"
-DIST_A="Apache2-Response-FileMerge-1.105.tar.gz"
+DIST_VERSION="1.105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

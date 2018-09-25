@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBROCARD"
-DIST_VERSION="0.35"
-DIST_A="Archive-Peek-External-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

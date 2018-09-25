@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGKONTOP"
-DIST_VERSION="0.07"
-DIST_A="Bio-Taxonomy-GlobalNames-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JZUCKER"
-DIST_VERSION="0.09"
-DIST_A="DBD-AnyData-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/AnyData-0.070
-	>=dev-perl/DBI-0.220
+	>=dev-perl/DBI-1.000
 	>=dev-perl/SQL-Statement-1.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.04"
-DIST_A="Class-Role-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

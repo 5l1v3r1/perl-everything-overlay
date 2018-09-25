@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMAN"
-DIST_VERSION="1.171"
-DIST_A="App-Cinema-1.171.tar.gz"
+DIST_VERSION="1.171" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-Static-Simple
-	>=dev-perl/Catalyst-Runtime-5.700.200
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-TT
 	dev-perl/DBD-SQLite
 	dev-perl/DBIx-Class
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 "
+

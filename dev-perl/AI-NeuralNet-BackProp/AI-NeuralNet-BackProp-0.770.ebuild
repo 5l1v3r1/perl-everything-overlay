@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JBRYAN"
 DIST_VERSION="0.77"
-DIST_A="AI-NeuralNet-BackProp-0.77.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

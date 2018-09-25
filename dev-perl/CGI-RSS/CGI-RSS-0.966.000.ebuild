@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="0.9660"
-DIST_A="CGI-RSS-0.9660.tar.gz"
+DIST_VERSION="0.9660" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/CGI-Fast
 	dev-perl/FCGI
 "
+

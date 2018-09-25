@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.142810"
-DIST_A="App-MultiModule-Tasks-MongoDB-1.142810.tar.gz"
+DIST_VERSION="1.142810" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

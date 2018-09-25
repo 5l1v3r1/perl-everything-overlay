@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORIAN"
-DIST_VERSION="0.19"
-DIST_A="Apache-LangURI-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Locale-Codes-2.020
+	>=dev-perl/Locale-Codes-2.060
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

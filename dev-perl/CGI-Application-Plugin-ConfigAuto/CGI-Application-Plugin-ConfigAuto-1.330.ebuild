@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="1.33"
-DIST_A="CGI-Application-Plugin-ConfigAuto-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

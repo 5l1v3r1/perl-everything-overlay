@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.67"
-DIST_A="CGI-Info-0.67.tar.gz"
+DIST_VERSION="0.67" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Tie-Filehandle-Preempt-Stdin
 	virtual/perl-autodie
 "
+

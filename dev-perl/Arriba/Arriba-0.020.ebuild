@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODYNIEC"
-DIST_VERSION="0.020"
-DIST_A="Arriba-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/Net-Server
 	dev-perl/Plack
+	dev-perl/base
 	virtual/perl-IO
 	virtual/perl-Socket
 "
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

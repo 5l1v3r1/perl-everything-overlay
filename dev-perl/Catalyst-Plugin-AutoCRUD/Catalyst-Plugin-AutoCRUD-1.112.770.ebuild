@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.112770"
-DIST_A="Catalyst-Plugin-AutoCRUD-1.112770.tar.gz"
+DIST_VERSION="1.112770" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

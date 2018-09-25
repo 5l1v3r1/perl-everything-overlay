@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HBIERSMA"
-DIST_VERSION="3.1"
-DIST_A="DB2-Admin-3.1.tar.gz"
+DIST_VERSION="3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRAGMATIC"
-DIST_VERSION="0.001001"
-DIST_A="Config-Any-Properties-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

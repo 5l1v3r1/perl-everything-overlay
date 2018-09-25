@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPGN"
-DIST_VERSION="1.09"
-DIST_A="Business-PhoneBill-Allopass-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

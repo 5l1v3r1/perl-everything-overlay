@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HERMES"
-DIST_VERSION="0.010"
-DIST_A="Clone-Choose-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Without-Module
 	>=virtual/perl-Test-Simple-0.900
 "
+

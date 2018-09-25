@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICAS"
-DIST_VERSION="0.77"
-DIST_A="Acme-6502-0.77.tar.gz"
+DIST_VERSION="0.77" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

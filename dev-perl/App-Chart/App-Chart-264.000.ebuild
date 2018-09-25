@@ -24,10 +24,10 @@ RDEPEND="
 	>=dev-perl/File-HomeDir-0.610
 	dev-perl/File-Slurp
 	>=dev-perl/Glib-Ex-ConnectProperties-18.000
-	>=dev-perl/Glib-Ex-ObjectBits-12.000
-	dev-perl/Gtk2
+	>=dev-perl/Glib-Ex-ObjectBits-16.000
+	>=dev-perl/Gtk2-1.220
 	dev-perl/Gtk2-Ex-Datasheet-DBI
-	dev-perl/Gtk2-Ex-DateSpinner
+	>=dev-perl/Gtk2-Ex-DateSpinner-2.000
 	>=dev-perl/Gtk2-Ex-Dragger-2.000
 	>=dev-perl/Gtk2-Ex-ErrorTextDialog-2.000
 	>=dev-perl/Gtk2-Ex-History-1.000
@@ -37,9 +37,9 @@ RDEPEND="
 	>=dev-perl/Gtk2-Ex-NumAxis-4.000
 	>=dev-perl/Gtk2-Ex-TickerView-7.000
 	dev-perl/Gtk2-Ex-TreeModelFilter-DragDest
-	>=dev-perl/Gtk2-Ex-WidgetBits-10.000
+	>=dev-perl/Gtk2-Ex-WidgetBits-47.000
 	>=dev-perl/Gtk2-Ex-WidgetCursor-8.000
-	>=dev-perl/Gtk2-Ex-Xor-1.000
+	>=dev-perl/Gtk2-Ex-Xor-17.000
 	dev-perl/HTML-Form
 	dev-perl/HTML-Parser
 	dev-perl/HTML-TableExtract
@@ -68,7 +68,7 @@ RDEPEND="
 	dev-perl/TimeDate
 	dev-perl/URI
 	dev-perl/constant-defer
-	dev-perl/glib-perl
+	>=dev-perl/glib-perl-1.220
 	>=dev-perl/libintl-perl-1.190
 	>=dev-perl/libwww-perl-5.814
 	>=dev-perl/perl-lisp-0.040

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.003"
-DIST_A="App-cpanminus-script-Patch-Blacklist-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	>=dev-perl/Config-IOD-Reader-0.310
 	dev-perl/Module-Load-In-INIT
 	>=dev-perl/Module-Patch-0.120
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

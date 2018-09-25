@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.04"
-DIST_A="Config-AWS-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/File-ShareDir
 	dev-perl/Test2-Suite
 "
+

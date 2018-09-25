@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WEEBLE"
-DIST_VERSION="0.181"
-DIST_A="CTM-0.181.tar.gz"
+DIST_VERSION="0.181" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	virtual/perl-Test-Simple
 "
+

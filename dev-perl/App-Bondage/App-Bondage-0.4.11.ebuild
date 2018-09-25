@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HINRIK"
-DIST_VERSION="v0.4.11"
-DIST_A="App-Bondage-0.4.11.tar.gz"
+DIST_VERSION="0.4.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	>=dev-perl/Test-Script-1.070
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.006"
-DIST_A="Alien-Leptonica-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple
 "
+

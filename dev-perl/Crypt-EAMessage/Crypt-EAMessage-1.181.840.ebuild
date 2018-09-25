@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASLAK"
-DIST_VERSION="1.181840"
-DIST_A="Crypt-EAMessage-1.181840.tar.gz"
+DIST_VERSION="1.181840" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

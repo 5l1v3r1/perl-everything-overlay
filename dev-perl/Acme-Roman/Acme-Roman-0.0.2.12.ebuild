@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.0.2.12"
-DIST_A="Acme-Roman-0.0.2.12.tar.gz"
+DIST_VERSION="0.0.2.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Roman
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-version
@@ -28,3 +28,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

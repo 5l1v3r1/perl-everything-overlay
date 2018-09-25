@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBURKE"
-DIST_VERSION="1.35"
-DIST_A="Class-Classless-1.35.tar.gz"
+DIST_VERSION="1.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

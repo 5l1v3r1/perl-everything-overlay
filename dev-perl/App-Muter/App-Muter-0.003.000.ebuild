@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIANC"
-DIST_VERSION="0.003000"
-DIST_A="App-Muter-0.003000.tar.gz"
+DIST_VERSION="0.003000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

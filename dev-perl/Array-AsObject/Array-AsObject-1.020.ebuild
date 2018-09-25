@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="1.02"
-DIST_A="Array-AsObject-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

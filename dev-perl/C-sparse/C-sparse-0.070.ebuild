@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="sparse-decpp"
-DIST_VERSION="0.07"
-DIST_A="C-sparse-0.07.tar.gz"
+DIST_AUTHOR="EISELEKD"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/E/EI/EISELEKD/sparse-decpp/C-sparse-0.07.tar.gz -> C-sparse-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/C-sparse-0.07 ${WORKDIR}/C-sparse-0.07
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="2.05"
-DIST_A="Bitmask-Data-2.05.tar.gz"
+DIST_VERSION="2.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

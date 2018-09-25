@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SILASMONK"
-DIST_VERSION="1.8"
-DIST_A="CGI-Application-Plugin-PageLookup-1.8.tar.gz"
+DIST_VERSION="1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/XML-LibXML
 	virtual/perl-Test-Simple
 "
+

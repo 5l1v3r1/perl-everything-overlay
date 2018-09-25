@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000003"
-DIST_A="Code-TidyAll-Plugin-SortLines-Naturally-0.000003.tar.gz"
+DIST_VERSION="0.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

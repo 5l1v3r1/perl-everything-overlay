@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KEVIN"
-DIST_VERSION="0.9"
-DIST_A="Apache2-AuthenRadius-0.9.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KE/KEVIN/AuthenRadius/Apache2-AuthenRadius-0.9.tar.gz"
+DIST_VERSION="0.9" 
+SRC_URI="mirror://cpan/authors/id/K/KE/KEVIN/AuthenRadius/Apache2-AuthenRadius-0.9.tar.gz -> Apache2-AuthenRadius-0.9.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Apache2-AuthenRadius-0.9 ${WORKDIR}/Apache2-AuthenRadius-0.9
+}
+

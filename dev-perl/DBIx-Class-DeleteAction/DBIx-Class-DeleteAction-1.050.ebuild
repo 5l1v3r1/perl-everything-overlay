@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="1.05"
-DIST_A="DBIx-Class-DeleteAction-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	dev-perl/Test-Warn
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.10"
-DIST_A="Catalyst-Model-DBIC-Schema-QueryLog-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ DEPEND="
 	dev-perl/Catalyst-Model-DBIC-Schema
 	dev-perl/Catalyst-Runtime
 	dev-perl/DBIx-Class-QueryLog
+	dev-perl/Module-Build
 	dev-perl/Moose
 	dev-perl/MooseX-Emulate-Class-Accessor-Fast
 	virtual/perl-Test-Simple
 "
+

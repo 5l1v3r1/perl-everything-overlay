@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRAMBERG"
-DIST_VERSION="2.01"
-DIST_A="Catalyst-Plugin-XMLRPC-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

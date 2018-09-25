@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.014"
-DIST_A="Catalyst-View-Template-Pure-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/DateTime
 	>=dev-perl/Test-Most-0.340
 "
+

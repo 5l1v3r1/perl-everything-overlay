@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GPHAT"
-DIST_VERSION="2.90"
-DIST_A="Chart-Clicker-2.90.tar.gz"
+DIST_VERSION="2.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

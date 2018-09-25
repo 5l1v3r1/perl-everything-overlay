@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKITOVER"
-DIST_VERSION="0.19"
-DIST_A="CatalystX-Component-Traits-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

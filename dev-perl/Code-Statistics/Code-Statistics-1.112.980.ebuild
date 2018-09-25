@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.112980"
-DIST_A="Code-Statistics-1.112980.tar.gz"
+DIST_VERSION="1.112980" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,6 +45,8 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Differences
 	dev-perl/Test-MockObject
-	virtual/perl-Test-Simple
+	dev-perl/base
+	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-parent
 "
+

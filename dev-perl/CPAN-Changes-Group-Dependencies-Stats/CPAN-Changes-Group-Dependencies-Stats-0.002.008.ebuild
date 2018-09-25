@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002008"
-DIST_A="CPAN-Changes-Group-Dependencies-Stats-0.002008.tar.gz"
+DIST_VERSION="0.002008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/CPAN-Changes
+	>=dev-perl/CPAN-Changes-0.300
 	dev-perl/CPAN-Meta-Prereqs-Diff
 	dev-perl/Moo
 	dev-perl/MooX-Lsub
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

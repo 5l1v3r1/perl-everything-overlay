@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INFOFLEX"
-DIST_VERSION="8.2"
-DIST_A="DBD_SQLFLEX_8.2.tar.gz"
+DIST_VERSION="8.2" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INFOFLEX/DBD_SQLFLEX_8.2.tar.gz -> DBD_SQLFLEX-8.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBD_SQLFLEX_8.2 ${WORKDIR}/DBD_SQLFLEX-8.2
+}
+

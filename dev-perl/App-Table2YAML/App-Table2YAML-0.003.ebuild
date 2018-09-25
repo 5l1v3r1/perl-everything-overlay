@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JIMMY"
-DIST_VERSION="0.003"
-DIST_A="App-Table2YAML-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Moo
+	dev-perl/Pod-Usage
 	dev-perl/Text-CSV-XS
 	dev-perl/Unicode-CaseFold
 	dev-perl/common-sense
@@ -25,7 +25,6 @@ RDEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
 	virtual/perl-Pod-Parser
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-autodie
 "
@@ -33,4 +32,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-ShareDir-ProjectDistDir
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUZ"
-DIST_VERSION="0.03"
-DIST_A="CPAN2RT-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,10 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/XML-SAX
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
 "
+

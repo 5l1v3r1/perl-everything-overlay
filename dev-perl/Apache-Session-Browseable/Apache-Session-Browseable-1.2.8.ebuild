@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUIMARD"
-DIST_VERSION="1.2.8"
-DIST_A="Apache-Session-Browseable-1.2.8.tar.gz"
+DIST_VERSION="1.2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/DBD-SQLite
 	dev-perl/DBI
 "
+

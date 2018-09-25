@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CMUNGALL"
-DIST_VERSION="0.02"
-DIST_A="Bio-Chaos-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/BioPerl-1.500
 	>=dev-perl/Data-Stag-0.070
 	dev-perl/Graph
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

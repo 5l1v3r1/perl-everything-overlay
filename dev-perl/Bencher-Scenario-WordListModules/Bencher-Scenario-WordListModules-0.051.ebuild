@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.051"
-DIST_A="Bencher-Scenario-WordListModules-0.051.tar.gz"
+DIST_VERSION="0.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,6 @@ RDEPEND="
 	dev-perl/WordList-ID-KBBI
 	dev-perl/WordList-Phrase-EN-Proverb-TWW
 	dev-perl/WordList-Phrase-ID-Proverb-KBBI
-	dev-perl/WordListsC-Password-10Million
 "
 DEPEND="
 	${RDEPEND}
@@ -33,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

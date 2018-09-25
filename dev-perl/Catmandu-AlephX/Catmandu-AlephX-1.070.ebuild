@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="1.07"
-DIST_A="Catmandu-AlephX-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,7 +32,9 @@ DEPEND="
 	>=dev-perl/Log-Any-1.030
 	dev-perl/Log-Any-Adapter-Log4perl
 	dev-perl/Log-Log4perl
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.112
 	dev-perl/Test-LWP-UserAgent
 	dev-perl/Test-Pod
 "
+

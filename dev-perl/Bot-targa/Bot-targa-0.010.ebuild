@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FIBO"
-DIST_VERSION="0.01"
-DIST_A="Bot-targa-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.001.009
 "
+

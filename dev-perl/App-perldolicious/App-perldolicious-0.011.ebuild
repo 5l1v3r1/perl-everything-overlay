@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYALTUT"
-DIST_VERSION="0.011"
-DIST_A="App-perldolicious-0.011.tar.gz"
+DIST_VERSION="0.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Module-Path-0.090
-	>=dev-perl/Mojolicious-4.070
+	dev-perl/Mojolicious
 	>=dev-perl/Pod-Cpandoc-0.150
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/File-Which
 	virtual/perl-Test-Simple
 "
+

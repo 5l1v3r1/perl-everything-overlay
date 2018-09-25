@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GHENRY"
-DIST_VERSION="1.03"
-DIST_A="Business-OnlinePayment-Iridium-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

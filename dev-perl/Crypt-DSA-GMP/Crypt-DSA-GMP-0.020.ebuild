@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.02"
-DIST_A="Crypt-DSA-GMP-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/Crypt-Random-Seed
 	>=dev-perl/Data-Buffer-0.040
 	dev-perl/Math-BigInt-GMP
 	>=dev-perl/Math-Prime-Util-GMP-0.150
+	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Digest-SHA-5.220
 	>=virtual/perl-Exporter-5.562
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.450
 "
+

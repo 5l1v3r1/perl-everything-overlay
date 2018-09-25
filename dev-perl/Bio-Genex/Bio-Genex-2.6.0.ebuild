@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASONS"
-DIST_VERSION="v2.6.0"
-DIST_A="Bio-Genex-2.6.0.tar.gz"
+DIST_VERSION="2.6.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

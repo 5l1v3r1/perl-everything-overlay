@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJENKINS"
-DIST_VERSION="0.3.3"
-DIST_A="AFS-Monitor-0.3.3.tar.gz"
+DIST_VERSION="0.3.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVAN"
-DIST_VERSION="0.03"
-DIST_A="Business-OnlinePayment-USAePay-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Business-CreditCard-0.270
-	>=dev-perl/Business-OnlinePayment-3.000
+	>=dev-perl/Business-OnlinePayment-0.040
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

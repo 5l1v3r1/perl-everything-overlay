@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="1.23"
-DIST_A="AnyEvent-Filesys-Notify-1.23.tar.gz"
+DIST_VERSION="1.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.870
 	virtual/perl-autodie
 "
+

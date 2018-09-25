@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RECSKY"
-DIST_VERSION="0.003"
-DIST_A="App-bovespa-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/LWP-Protocol-https-6.070
 	>=dev-perl/libwww-perl-6.260
 "
+

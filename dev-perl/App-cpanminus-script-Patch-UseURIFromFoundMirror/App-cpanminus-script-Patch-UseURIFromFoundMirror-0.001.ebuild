@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.001"
-DIST_A="App-cpanminus-script-Patch-UseURIFromFoundMirror-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Load-In-INIT
 	>=dev-perl/Module-Patch-0.120
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

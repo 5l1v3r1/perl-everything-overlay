@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGU"
-DIST_VERSION="0.29"
-DIST_A="App-Pm2Port-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/CPANPLUS
 	dev-perl/FreeBSD-Ports-INDEXhash
 	dev-perl/JSON-XS
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

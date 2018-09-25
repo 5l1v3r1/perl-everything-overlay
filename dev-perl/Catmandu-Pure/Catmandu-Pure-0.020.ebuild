@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIEM"
-DIST_VERSION="0.02"
-DIST_A="Catmandu-Pure-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
-	>=dev-perl/Module-Build-0.360.100
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-0.880
 "
+

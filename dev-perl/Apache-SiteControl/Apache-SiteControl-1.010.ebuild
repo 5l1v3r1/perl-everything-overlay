@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AWKAY"
-DIST_VERSION="1.01"
-DIST_A="Apache-SiteControl-1.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/A/AW/AWKAY/Apache/Apache-SiteControl-1.01.tar.gz"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/A/AW/AWKAY/Apache/Apache-SiteControl-1.01.tar.gz -> Apache-SiteControl-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Apache-SiteControl-1.01 ${WORKDIR}/Apache-SiteControl-1.01
+}
+

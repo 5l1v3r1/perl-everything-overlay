@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.001"
-DIST_A="Bencher-Scenarios-ProgressAny-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Progress-Any
+	>=dev-perl/Progress-Any-0.214
 	dev-perl/Progress-Any-Output-TermMessage
 	dev-perl/Progress-Any-Output-TermProgressBarColor
 "
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

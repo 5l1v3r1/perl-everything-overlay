@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUSRIDEB"
-DIST_VERSION="0.3"
-DIST_A="CellBIS-Random-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

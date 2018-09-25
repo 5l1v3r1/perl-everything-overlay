@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAPER"
-DIST_VERSION="0.16"
-DIST_A="CPAN-Dependency-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

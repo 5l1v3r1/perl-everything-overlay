@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.04"
-DIST_A="Bencher-Scenarios-RoleTinyCommonsTree-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Random-Tree
-	dev-perl/Role-TinyCommons-Tree
+	>=dev-perl/Role-TinyCommons-Tree-0.110
 	dev-perl/Tree-Object
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

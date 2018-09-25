@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CLOTHO"
 DIST_VERSION="0.11"
-DIST_A="AnnoCPAN-Perldoc-SyncDB-0.11.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

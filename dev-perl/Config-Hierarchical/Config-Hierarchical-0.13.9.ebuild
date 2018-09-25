@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.13.9"
-DIST_A="Config-Hierarchical-0.13.9.tar.gz"
+DIST_VERSION="0.13.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,4 +30,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="1.2001"
-DIST_A="Class-Mockable-1.2001.tar.gz"
+DIST_VERSION="1.2001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

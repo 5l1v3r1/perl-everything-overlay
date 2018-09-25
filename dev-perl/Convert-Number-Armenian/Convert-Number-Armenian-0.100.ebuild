@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AURUM"
-DIST_VERSION="0.1"
-DIST_A="Convert-Number-Armenian-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	dev-perl/Test-Warn
 "
+

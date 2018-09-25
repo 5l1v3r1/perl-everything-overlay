@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAKE"
-DIST_VERSION="0.02"
-DIST_A="CGI-Wiki-Plugin-Categoriser-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/CGI-Wiki-0.360
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

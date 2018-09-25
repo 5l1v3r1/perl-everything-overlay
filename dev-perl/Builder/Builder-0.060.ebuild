@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRAEGTUN"
-DIST_VERSION="0.06"
-DIST_A="Builder-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
+

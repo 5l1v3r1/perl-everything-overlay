@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.161950"
-DIST_A="App-MultiModule-Tasks-Heartbeat-1.161950.tar.gz"
+DIST_VERSION="1.161950" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	dev-perl/IPC-Transit
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

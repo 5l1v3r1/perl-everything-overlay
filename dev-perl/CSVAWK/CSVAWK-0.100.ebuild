@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRYMCK"
-DIST_VERSION="0.1"
-DIST_A="CSVAWK-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Readonly
 	dev-perl/Text-CSV-XS
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-autodie
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Test
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLY"
-DIST_VERSION="1.016"
-DIST_A="App-Fetchware-1.016.tar.gz"
+DIST_VERSION="1.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
 "
+

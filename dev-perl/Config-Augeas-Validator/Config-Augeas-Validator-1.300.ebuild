@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAPHINK"
-DIST_VERSION="1.300"
-DIST_A="Config-Augeas-Validator-1.300.tar.gz"
+DIST_VERSION="1.300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.201
 	virtual/perl-Test-Simple
 "
+

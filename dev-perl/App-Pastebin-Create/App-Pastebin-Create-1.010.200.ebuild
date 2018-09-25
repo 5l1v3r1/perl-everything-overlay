@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MFZZ"
-DIST_VERSION="1.0102"
-DIST_A="App-Pastebin-Create-1.0102.tar.gz"
+DIST_VERSION="1.0102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

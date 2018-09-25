@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="0.12.0"
-DIST_A="BuzzSaw-0.12.0.tar.gz"
+DIST_VERSION="0.12.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	>=virtual/perl-Test-Simple-0.870
 "
+

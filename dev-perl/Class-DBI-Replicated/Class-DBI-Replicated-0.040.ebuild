@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HDP"
-DIST_VERSION="0.040"
-DIST_A="Class-DBI-Replicated-0.040.tar.gz"
+DIST_VERSION="0.040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

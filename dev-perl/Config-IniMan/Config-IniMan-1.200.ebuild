@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="mewsoft"
-DIST_VERSION="1.20"
-DIST_A="Config-IniMan-1.20.tar.gz"
+DIST_AUTHOR="MEWSOFT"
+DIST_VERSION="1.20" 
+SRC_URI="mirror://cpan/authors/id/M/ME/MEWSOFT/mewsoft/Config-IniMan-1.20.tar.gz -> Config-IniMan-1.20.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-IniMan-1.20 ${WORKDIR}/Config-IniMan-1.20
+}
+

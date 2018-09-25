@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Log-Log4perl-0.470
 	>=dev-perl/Try-Tiny-0.240
 	>=dev-perl/Type-Tiny-1.000.005
-	>=dev-perl/URI-1.710
+	>=dev-perl/URI-3.310
 	>=dev-perl/namespace-autoclean-0.280
 	>=virtual/perl-Encode-2.800
 "

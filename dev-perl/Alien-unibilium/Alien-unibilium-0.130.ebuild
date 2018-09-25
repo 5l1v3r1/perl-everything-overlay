@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.13"
-DIST_A="Alien-unibilium-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-File-Path-2.070
 	virtual/perl-File-Spec
 "
+

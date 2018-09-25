@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DPRICE"
-DIST_VERSION="0.02"
-DIST_A="CGI-Wiki-Store-Mediawiki-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,12 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/CGI-Wiki
 	dev-perl/Time-Piece-Adaptive
 	virtual/perl-Carp
 	virtual/perl-Time-Piece
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

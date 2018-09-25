@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRUNOV"
-DIST_VERSION="0.112881"
-DIST_A="Bio-Tools-Run-Qcons-0.112881.tar.gz"
+DIST_VERSION="0.112881" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

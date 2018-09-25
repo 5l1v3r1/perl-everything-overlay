@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.0400"
-DIST_A="App-p-0.0400.tar.gz"
+DIST_VERSION="0.0400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,15 +18,15 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/File-Slurper
 	dev-perl/JSON
-	dev-perl/L
 	dev-perl/List-AllUtils
+	dev-perl/Pod-Usage
+	dev-perl/YAML
 	dev-perl/libwww-perl
 	dev-perl/utf8-all
-	dev-perl/yaml
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

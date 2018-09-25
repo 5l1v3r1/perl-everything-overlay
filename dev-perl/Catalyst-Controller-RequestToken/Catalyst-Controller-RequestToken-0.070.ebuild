@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIDE"
-DIST_VERSION="0.07"
-DIST_A="Catalyst-Controller-RequestToken-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800
 	virtual/perl-Test-Simple
 "
+

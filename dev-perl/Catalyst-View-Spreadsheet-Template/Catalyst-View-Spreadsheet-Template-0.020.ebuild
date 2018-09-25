@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-View-Spreadsheet-Template-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,9 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Spreadsheet-ParseXLSX
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

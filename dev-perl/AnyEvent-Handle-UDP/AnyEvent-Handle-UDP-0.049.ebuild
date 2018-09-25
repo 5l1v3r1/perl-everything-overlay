@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.049"
-DIST_A="AnyEvent-Handle-UDP-0.049.tar.gz"
+DIST_VERSION="0.049" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.890
 "
+

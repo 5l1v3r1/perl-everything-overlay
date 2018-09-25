@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.128"
-DIST_A="Acme-ProgressBar-1.128.tar.gz"
+DIST_VERSION="1.128" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

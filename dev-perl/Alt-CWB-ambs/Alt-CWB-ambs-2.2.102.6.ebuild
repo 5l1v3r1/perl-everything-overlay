@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="v2.2.102.6"
-DIST_A="Alt-CWB-ambs-2.2.102.6.tar.gz"
+DIST_VERSION="2.2.102.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

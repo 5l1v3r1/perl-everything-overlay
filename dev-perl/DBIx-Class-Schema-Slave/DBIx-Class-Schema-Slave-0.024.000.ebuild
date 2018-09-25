@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TRAVAIL"
-DIST_VERSION="0.02400"
-DIST_A="DBIx-Class-Schema-Slave-0.02400.tar.gz"
+DIST_VERSION="0.02400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Clone
 	dev-perl/DBIx-Class
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

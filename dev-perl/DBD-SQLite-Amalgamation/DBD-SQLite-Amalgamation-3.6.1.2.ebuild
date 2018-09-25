@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="v3.6.1.2"
-DIST_A="DBD-SQLite-Amalgamation-3.6.1.2.tar.gz"
+DIST_VERSION="3.6.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

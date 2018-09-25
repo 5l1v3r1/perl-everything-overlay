@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.02"
-DIST_A="Alien-Build-Plugin-Fetch-Rewrite-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Path-Tiny
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

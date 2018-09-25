@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VHAMON"
-DIST_VERSION="0.10.1"
-DIST_A="Armadito-Agent-0.10.1.tar.gz"
+DIST_VERSION="0.10.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	dev-perl/XML-TreePP
 	virtual/perl-Test-Simple
 "
+

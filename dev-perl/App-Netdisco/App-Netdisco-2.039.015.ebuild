@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="2.039015"
-DIST_A="App-Netdisco-2.039015.tar.gz"
+DIST_VERSION="2.039015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -92,3 +91,4 @@ DEPEND="
 	dev-perl/Test-File-ShareDir
 	>=virtual/perl-Test-Simple-1.302.083
 "
+

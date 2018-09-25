@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBROOKS"
-DIST_VERSION="0.05"
-DIST_A="Astro-SpaceElevator-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Astro-satpass
-	>=dev-perl/Math-MatrixReal-2.2.0
+	>=dev-perl/Math-MatrixReal-2.020
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

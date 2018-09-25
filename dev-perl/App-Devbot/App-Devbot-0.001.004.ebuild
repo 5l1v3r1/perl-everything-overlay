@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGV"
-DIST_VERSION="0.001004"
-DIST_A="App-Devbot-0.001004.tar.gz"
+DIST_VERSION="0.001004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,10 +20,11 @@ RDEPEND="
 	dev-perl/IRC-Utils
 	dev-perl/POE
 	dev-perl/POE-Component-IRC
-	dev-perl/regexp-common
+	dev-perl/Regexp-Common
 	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

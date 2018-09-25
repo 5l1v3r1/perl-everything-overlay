@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="0.04"
-DIST_A="CatalystX-Imports-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,10 +29,11 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.190
 	>=dev-perl/Sub-Name-0.040
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Scalar-List-Utils-1.190
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="
 	${RDEPEND}
 "
+

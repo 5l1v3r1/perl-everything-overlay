@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVAZ"
-DIST_VERSION="0.02004"
-DIST_A="CEDict-Pinyin-0.02004.tar.gz"
+DIST_VERSION="0.02004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCONOVER"
-DIST_VERSION="0.06"
-DIST_A="Amazon-SES-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/MIME-tools
 	dev-perl/Test-Modern
 "
+

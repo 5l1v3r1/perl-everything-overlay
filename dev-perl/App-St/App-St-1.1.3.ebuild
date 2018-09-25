@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NFERRAZ"
-DIST_VERSION="v1.1.3"
-DIST_A="App-St-1.1.3.tar.gz"
+DIST_VERSION="1.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

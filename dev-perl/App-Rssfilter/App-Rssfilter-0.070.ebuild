@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGHOLZ"
-DIST_VERSION="0.07"
-DIST_A="App-Rssfilter-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,7 +39,9 @@ DEPEND="
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 	dev-perl/Test-Routine
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

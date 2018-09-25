@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMASH"
-DIST_VERSION="0.004"
-DIST_A="App-p5stack-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

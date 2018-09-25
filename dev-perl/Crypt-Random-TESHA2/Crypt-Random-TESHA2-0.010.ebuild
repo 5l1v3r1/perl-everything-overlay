@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.01"
-DIST_A="Crypt-Random-TESHA2-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Digest-SHA-5.220
 	>=virtual/perl-Exporter-5.562
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.450
 "
+

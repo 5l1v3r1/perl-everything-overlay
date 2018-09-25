@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAOSAGNT"
-DIST_VERSION="1.1"
-DIST_A="CGI-Session-Serialize-php-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

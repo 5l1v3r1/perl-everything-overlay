@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLACO"
-DIST_VERSION="0.02005"
-DIST_A="DBIx-Class-Validation-0.02005.tar.gz"
+DIST_VERSION="0.02005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

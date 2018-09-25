@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLIE"
-DIST_VERSION="0.01"
-DIST_A="App-HPGL2Cadsoft-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,13 +19,17 @@ RDEPEND="
 	dev-perl/Grid-Coord
 	dev-perl/Modern-Perl
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	virtual/perl-Test-Simple
 "
+

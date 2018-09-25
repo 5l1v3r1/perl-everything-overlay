@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CLOTHO"
 DIST_VERSION="0.92"
-DIST_A="CAM-EmailTemplate-0.92.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

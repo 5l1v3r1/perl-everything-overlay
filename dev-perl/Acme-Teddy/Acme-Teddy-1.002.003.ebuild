@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="XIONG"
-DIST_VERSION="1.002003"
-DIST_A="Acme-Teddy-1.002003.tar.gz"
-SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Acme-Teddy-1.002003.tar.gz"
+DIST_VERSION="1.002003" 
+SRC_URI="mirror://cpan/authors/id/X/XI/XIONG/developer-tools/Acme-Teddy-1.002003.tar.gz -> Acme-Teddy-1.002003.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-Teddy-1.002003 ${WORKDIR}/Acme-Teddy-1.002003
+}
+

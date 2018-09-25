@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000002"
-DIST_A="Code-TidyAll-Plugin-YAPF-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

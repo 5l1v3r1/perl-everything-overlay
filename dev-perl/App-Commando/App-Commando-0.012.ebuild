@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ODYNIEC"
-DIST_VERSION="0.012"
-DIST_A="App-Commando-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Test-Fatal
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
+	virtual/perl-version
 "
+

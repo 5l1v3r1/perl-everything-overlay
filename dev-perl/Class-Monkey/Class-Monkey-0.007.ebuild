@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRADH"
-DIST_VERSION="0.007"
-DIST_A="Class-Monkey-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFRETT"
-DIST_VERSION="0.91"
-DIST_A="Authen-CAS-UserAgent-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

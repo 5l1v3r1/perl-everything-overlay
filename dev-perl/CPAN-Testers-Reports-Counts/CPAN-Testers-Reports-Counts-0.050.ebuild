@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.05"
-DIST_A="CPAN-Testers-Reports-Counts-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.880
 "
+

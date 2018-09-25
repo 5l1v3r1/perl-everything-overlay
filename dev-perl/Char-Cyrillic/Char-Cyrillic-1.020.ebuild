@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Cyrillic"
-DIST_VERSION="1.02"
-DIST_A="Char-Cyrillic-1.02.tar.gz"
+DIST_AUTHOR="INA"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Char/Cyrillic/Char-Cyrillic-1.02.tar.gz -> Char-Cyrillic-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Char-Cyrillic-1.02 ${WORKDIR}/Char-Cyrillic-1.02
+}
+

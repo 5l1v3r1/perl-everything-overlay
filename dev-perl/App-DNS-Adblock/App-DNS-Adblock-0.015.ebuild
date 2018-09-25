@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWATSON"
-DIST_VERSION="0.015"
-DIST_A="App-DNS-Adblock-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Capture-Tiny
 	dev-perl/Mozilla-CA
-	>=dev-perl/Net-DNS-0.740
+	dev-perl/Net-DNS
 	dev-perl/Sys-HostIP
 	dev-perl/libwww-perl
 	virtual/perl-Carp
@@ -29,5 +28,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

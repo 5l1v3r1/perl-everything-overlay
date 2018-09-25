@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="1.07"
-DIST_A="Clone-PP-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "
+

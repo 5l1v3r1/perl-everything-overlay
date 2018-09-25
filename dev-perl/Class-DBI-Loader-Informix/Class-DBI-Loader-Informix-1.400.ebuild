@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSTOWE"
-DIST_VERSION="1.4"
-DIST_A="Class-DBI-Loader-Informix-1.4.tar.gz"
+DIST_VERSION="1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

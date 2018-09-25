@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LDACHARY"
-DIST_VERSION="0.5"
-DIST_A="Catalog-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

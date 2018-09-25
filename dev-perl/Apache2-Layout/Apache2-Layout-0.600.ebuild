@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOZER"
-DIST_VERSION="0.6"
-DIST_A="Apache2-Layout-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOPPIT"
-DIST_VERSION="1.4214"
-DIST_A="CGI-Cache-1.4214.tar.gz"
+DIST_VERSION="1.4214" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "
+

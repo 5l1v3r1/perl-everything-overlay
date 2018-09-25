@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.001007"
-DIST_A="App-ZofCMS-1.001007.tar.gz"
+DIST_VERSION="1.001007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -59,3 +58,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 "
+

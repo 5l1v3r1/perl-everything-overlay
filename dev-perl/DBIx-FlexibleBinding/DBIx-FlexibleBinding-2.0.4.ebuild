@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANIC"
-DIST_VERSION="v2.0.4"
-DIST_A="DBIx-FlexibleBinding-2.0.4.tar.gz"
+DIST_VERSION="2.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Data-Dumper-Concise
 	dev-perl/JSON
 "
+

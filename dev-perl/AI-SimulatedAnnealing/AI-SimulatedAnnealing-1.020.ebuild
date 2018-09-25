@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BFITCH"
 DIST_VERSION="1.02"
-DIST_A="AI-SimulatedAnnealing-1.02.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

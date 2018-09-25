@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.014"
-DIST_A="Acme-MetaSyntactic-1.014.tar.gz"
+DIST_VERSION="1.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BUDNEY"
-DIST_VERSION="0.22"
-DIST_A="CLI-Startup-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

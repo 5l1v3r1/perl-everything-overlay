@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAYCE"
-DIST_VERSION="0.959"
-DIST_A="Business-OnlinePayment-Litle-0.959.tar.gz"
+DIST_VERSION="0.959" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

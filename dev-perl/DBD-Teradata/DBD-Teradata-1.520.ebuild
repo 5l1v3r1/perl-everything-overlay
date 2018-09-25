@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DARNOLD"
-DIST_VERSION="1.52"
-DIST_A="DBD-Teradata-1.52.tar.gz"
+DIST_VERSION="1.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHOT"
-DIST_VERSION="0.121"
-DIST_A="Catalyst-Plugin-Log-Dispatch-0.121.tar.gz"
+DIST_VERSION="0.121" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

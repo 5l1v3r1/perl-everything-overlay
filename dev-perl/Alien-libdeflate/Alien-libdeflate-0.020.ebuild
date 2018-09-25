@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIWIROY"
-DIST_VERSION="0.02"
-DIST_A="Alien-libdeflate-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Alien-libdeflate-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Alien-libdeflate-0.02.tar.gz -> Alien-libdeflate-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,9 @@ DEPEND="
 	virtual/perl-IO-Zlib
 	>=virtual/perl-Test-Simple-0.880
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-libdeflate-0.02 ${WORKDIR}/Alien-libdeflate-0.02
+}
+

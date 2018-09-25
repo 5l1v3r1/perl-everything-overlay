@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PBLAIR"
-DIST_VERSION="0.000302"
-DIST_A="Copy-From-Git-0.000302.tar.gz"
+DIST_VERSION="0.000302" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

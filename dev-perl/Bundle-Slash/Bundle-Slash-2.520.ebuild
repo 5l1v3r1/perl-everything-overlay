@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNANDOR"
-DIST_VERSION="2.52"
-DIST_A="Bundle-Slash-2.52.tar.gz"
+DIST_VERSION="2.52" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

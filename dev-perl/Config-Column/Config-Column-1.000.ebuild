@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Config-Column"
-DIST_VERSION="1.00"
-DIST_A="Config-Column-1.00.tar.gz"
+DIST_AUTHOR="NARAZAKA"
+DIST_VERSION="1.00" 
+SRC_URI="mirror://cpan/authors/id/N/NA/NARAZAKA/Config-Column/Config-Column-1.00.tar.gz -> Config-Column-1.00.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-Column-1.00 ${WORKDIR}/Config-Column-1.00
+}
+

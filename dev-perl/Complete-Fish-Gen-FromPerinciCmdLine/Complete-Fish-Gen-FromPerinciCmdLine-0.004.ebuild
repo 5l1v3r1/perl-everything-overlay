@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.004"
-DIST_A="Complete-Fish-Gen-FromPerinciCmdLine-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Complete-Fish-Gen-FromGetoptLong-0.080
 	dev-perl/Perinci-Access
+	>=dev-perl/Perinci-CmdLine-Dump-0.060
 	>=dev-perl/Perinci-Sub-GetArgs-Argv-0.750
 	>=dev-perl/Perinci-Sub-To-CLIDocData-0.280
 	dev-perl/String-ShellQuote
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEEJAY"
-DIST_VERSION="0.04"
-DIST_A="Calendar-Model-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

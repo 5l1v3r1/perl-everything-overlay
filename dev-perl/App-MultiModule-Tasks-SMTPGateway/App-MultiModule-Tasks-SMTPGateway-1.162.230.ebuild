@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.162230"
-DIST_A="App-MultiModule-Tasks-SMTPGateway-1.162230.tar.gz"
+DIST_VERSION="1.162230" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,7 @@ DEPEND="
 	dev-perl/File-Slurp
 	dev-perl/IPC-Transit
 	dev-perl/Test-Mock-Net-Server-Mail
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

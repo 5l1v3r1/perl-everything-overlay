@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEPE"
-DIST_VERSION="1.01"
-DIST_A="Audio-Ofa-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-Test-Simple
 "
+

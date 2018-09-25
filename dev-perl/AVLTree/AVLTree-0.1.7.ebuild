@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVULLO"
-DIST_VERSION="0.1.7"
-DIST_A="AVLTree-0.1.7.tar.gz"
+DIST_VERSION="0.1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-LeakTrace
 	virtual/perl-Test-Simple
 "
+

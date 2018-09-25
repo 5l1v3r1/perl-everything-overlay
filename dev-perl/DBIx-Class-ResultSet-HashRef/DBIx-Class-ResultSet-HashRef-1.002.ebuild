@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBO"
-DIST_VERSION="1.002"
-DIST_A="DBIx-Class-ResultSet-HashRef-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

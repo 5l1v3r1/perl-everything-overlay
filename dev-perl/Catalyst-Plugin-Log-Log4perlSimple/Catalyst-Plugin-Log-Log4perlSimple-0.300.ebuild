@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSMITH"
-DIST_VERSION="0.3"
-DIST_A="Catalyst-Plugin-Log-Log4perlSimple-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	>=virtual/perl-Test-Simple-0.880
 "
+

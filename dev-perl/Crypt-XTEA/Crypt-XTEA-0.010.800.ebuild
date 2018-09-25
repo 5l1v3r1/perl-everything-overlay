@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAHIY"
-DIST_VERSION="0.0108"
-DIST_A="Crypt-XTEA-0.0108.tar.gz"
+DIST_VERSION="0.0108" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

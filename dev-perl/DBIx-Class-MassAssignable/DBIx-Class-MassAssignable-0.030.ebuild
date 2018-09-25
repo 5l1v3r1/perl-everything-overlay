@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JONTAYLOR"
 DIST_VERSION="0.03"
-DIST_A="DBIx-Class-MassAssignable-0.03.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBARR"
-DIST_VERSION="1.00"
-DIST_A="Authen-SASL-XS-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Devel-CheckLib
 "
+

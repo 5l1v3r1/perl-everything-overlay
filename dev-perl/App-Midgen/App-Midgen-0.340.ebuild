@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOWTIE"
-DIST_VERSION="0.34"
-DIST_A="App-Midgen-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,3 +47,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.070
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

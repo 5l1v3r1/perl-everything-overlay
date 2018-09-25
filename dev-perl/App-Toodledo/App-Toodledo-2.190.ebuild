@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJS"
-DIST_VERSION="2.19"
-DIST_A="App-Toodledo-2.19.tar.gz"
+DIST_VERSION="2.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,6 @@ RDEPEND="
 	>=dev-perl/Package-Stash-0.310
 	>=dev-perl/Parse-Method-Signatures-1.003.016
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	>=dev-perl/Test-MockObject-1.201.106.120
 	dev-perl/Test-NoWarnings
 	dev-perl/TimeDate
@@ -41,3 +39,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

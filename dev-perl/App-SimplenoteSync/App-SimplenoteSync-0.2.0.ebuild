@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANR"
-DIST_VERSION="v0.2.0"
-DIST_A="App-SimplenoteSync-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,14 +27,20 @@ RDEPEND="
 	dev-perl/Method-Signatures
 	dev-perl/Moose
 	dev-perl/MooseX-Types-Path-Class
+	dev-perl/Pod-Usage
 	dev-perl/Proc-InvokeEditor
 	dev-perl/Try-Tiny
 	dev-perl/WebService-Simplenote
 	dev-perl/namespace-autoclean
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/JSON
+	dev-perl/Path-Class
+	dev-perl/Test-utf8
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

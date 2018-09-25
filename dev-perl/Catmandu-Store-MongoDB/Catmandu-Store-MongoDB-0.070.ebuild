@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICS"
-DIST_VERSION="0.07"
-DIST_A="Catmandu-Store-MongoDB-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

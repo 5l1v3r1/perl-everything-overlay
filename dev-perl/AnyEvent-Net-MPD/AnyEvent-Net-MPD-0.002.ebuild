@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.002"
-DIST_A="AnyEvent-Net-MPD-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/AnyEvent-7.130
+	dev-perl/AnyEvent
 	>=dev-perl/AnyEvent-Emitter-0.020
 	>=dev-perl/Log-Any-1.049
 	>=dev-perl/Moo-2.003.002
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Term-ReadLine
 	>=virtual/perl-Test-Simple-1.302.078
 "
+

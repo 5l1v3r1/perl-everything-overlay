@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GHENRY"
-DIST_VERSION="0.21"
-DIST_A="Catalyst-Model-LDAP-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	>=dev-perl/Module-Runtime-0.015
 	dev-perl/base
-	>=dev-perl/perl-ldap-0.650
+	dev-perl/perl-ldap
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

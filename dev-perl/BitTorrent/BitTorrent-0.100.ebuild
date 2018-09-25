@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="QANTINS"
 DIST_VERSION="0.1"
-DIST_A="BitTorrent-V0.1.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/Q/QA/QANTINS/BitTorrent-V0.1.zip -> BitTorrent-0.1.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/BitTorrent-V0.1 ${WORKDIR}/BitTorrent-0.1
+}
+

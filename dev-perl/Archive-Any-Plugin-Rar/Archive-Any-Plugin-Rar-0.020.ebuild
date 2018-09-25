@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRGRIPH"
-DIST_VERSION="0.02"
-DIST_A="Archive-Any-Plugin-Rar-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
+

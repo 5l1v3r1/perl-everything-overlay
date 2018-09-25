@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.142230"
-DIST_A="Bot-Backbone-Service-OFun-0.142230.tar.gz"
+DIST_VERSION="0.142230" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

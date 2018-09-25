@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="0.16"
-DIST_A="CHI-Driver-Memcached-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

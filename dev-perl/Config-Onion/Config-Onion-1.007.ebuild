@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSHEROH"
-DIST_VERSION="1.007"
-DIST_A="Config-Onion-1.007.tar.gz"
+DIST_VERSION="1.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Config-Any
 	dev-perl/Hash-Merge-Simple
 	dev-perl/Moo
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

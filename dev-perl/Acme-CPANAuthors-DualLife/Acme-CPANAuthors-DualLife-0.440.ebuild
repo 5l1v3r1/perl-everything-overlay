@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.44"
-DIST_A="Acme-CPANAuthors-DualLife-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.05"
-DIST_A="App-pretty-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Perl-osnames-0.090
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "
+

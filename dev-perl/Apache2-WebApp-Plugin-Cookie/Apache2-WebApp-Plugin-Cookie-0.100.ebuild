@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBROOKS"
-DIST_VERSION="0.10"
-DIST_A="Apache2-WebApp-Plugin-Cookie-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Apache-Test
 	>=dev-perl/Apache2-WebApp-Plugin-CGI-0.010
 "
+

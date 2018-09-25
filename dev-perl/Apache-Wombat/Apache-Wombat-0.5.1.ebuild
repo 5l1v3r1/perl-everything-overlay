@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IX"
-DIST_VERSION="0.5.1"
-DIST_A="Apache-Wombat-0.5.1.tar.gz"
+DIST_VERSION="0.5.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

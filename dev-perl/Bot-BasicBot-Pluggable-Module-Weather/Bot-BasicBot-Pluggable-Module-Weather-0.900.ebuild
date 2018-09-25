@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONW"
-DIST_VERSION="0.9"
-DIST_A="Bot-BasicBot-Pluggable-Module-Weather-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

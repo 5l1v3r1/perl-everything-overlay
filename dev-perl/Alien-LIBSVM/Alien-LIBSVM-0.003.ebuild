@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.003"
-DIST_A="Alien-LIBSVM-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.002
 	dev-perl/File-chmod
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

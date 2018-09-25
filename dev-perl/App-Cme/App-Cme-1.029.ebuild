@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="1.029"
-DIST_A="App-Cme-1.029.tar.gz"
+DIST_VERSION="1.029" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/App-Cmd
-	dev-perl/Config-Model
+	>=dev-perl/Config-Model-2.124
 	dev-perl/File-HomeDir
 	dev-perl/JSON
 	dev-perl/Log-Log4perl
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-File-Contents
 	virtual/perl-Test-Simple
 "
+

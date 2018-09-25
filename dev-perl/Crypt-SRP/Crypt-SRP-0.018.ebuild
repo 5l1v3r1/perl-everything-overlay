@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIK"
-DIST_VERSION="0.018"
-DIST_A="Crypt-SRP-0.018.tar.gz"
+DIST_VERSION="0.018" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

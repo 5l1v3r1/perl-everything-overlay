@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRAHAM"
-DIST_VERSION="0.18"
-DIST_A="CGI-Application-Plugin-Config-Context-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

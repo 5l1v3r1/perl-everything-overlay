@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KEEKUNG"
-DIST_VERSION="0.07"
-DIST_A="Catalyst-Authentication-Credential-Crowd-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,8 @@ DEPEND="
 	dev-perl/Test-Fake-HTTPD
 	dev-perl/Test-TCP
 	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

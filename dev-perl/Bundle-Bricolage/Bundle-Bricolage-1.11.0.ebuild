@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="v1.11.0"
-DIST_A="Bundle-Bricolage-1.11.0.tar.gz"
+DIST_VERSION="1.11.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.300
 "
+

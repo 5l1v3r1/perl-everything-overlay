@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTO"
-DIST_VERSION="4.61"
-DIST_A="CGI-Application-4.61.tar.gz"
+DIST_VERSION="4.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

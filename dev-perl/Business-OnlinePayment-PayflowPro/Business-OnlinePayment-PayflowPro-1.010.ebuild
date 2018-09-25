@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLOBBES"
-DIST_VERSION="1.01"
-DIST_A="Business-OnlinePayment-PayflowPro-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Business-OnlinePayment-3.000
+	>=dev-perl/Business-OnlinePayment-0.060
 	dev-perl/CGI
 	virtual/perl-Digest-MD5
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0103"
-DIST_A="AnyEvent-DNS-EtcHosts-0.0103.tar.gz"
+DIST_VERSION="0.0103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	>=virtual/perl-Test-Simple-0.980
 "
+

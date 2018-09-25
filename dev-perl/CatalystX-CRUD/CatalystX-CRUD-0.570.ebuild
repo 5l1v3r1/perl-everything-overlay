@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARMAN"
-DIST_VERSION="0.57"
-DIST_A="CatalystX-CRUD-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Catalyst-Component-ACCEPT-CONTEXT-0.060
-	>=dev-perl/Catalyst-Runtime-5.800.240
+	dev-perl/Catalyst-Runtime
 	dev-perl/Data-Dump
 	dev-perl/Data-Pageset
 	>=dev-perl/MRO-Compat-0.100
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

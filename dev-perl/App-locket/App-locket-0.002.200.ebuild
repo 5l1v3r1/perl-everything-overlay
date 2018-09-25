@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.0022"
-DIST_A="App-locket-0.0022.tar.gz"
+DIST_VERSION="0.0022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Most
 "
+

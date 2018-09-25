@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="1.12"
-DIST_A="Convert-Scalar-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.600
 	>=virtual/perl-ExtUtils-ParseXS-3.280
 "
+

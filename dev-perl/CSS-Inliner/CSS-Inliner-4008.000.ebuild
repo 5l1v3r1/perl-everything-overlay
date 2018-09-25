@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAMELKEV"
-DIST_VERSION="4008.0"
-DIST_A="CSS-Inliner-4008.tar.gz"
+DIST_VERSION="4008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

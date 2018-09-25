@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIME"
-DIST_VERSION="4.004"
-DIST_A="App-RoboBot-4.004.tar.gz"
+DIST_VERSION="4.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -72,3 +71,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

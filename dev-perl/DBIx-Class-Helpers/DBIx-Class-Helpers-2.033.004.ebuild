@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="2.033004"
-DIST_A="DBIx-Class-Helpers-2.033004.tar.gz"
+DIST_VERSION="2.033004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	>=dev-perl/aliased-0.340
 	>=virtual/perl-Test-Simple-0.940
 "
+

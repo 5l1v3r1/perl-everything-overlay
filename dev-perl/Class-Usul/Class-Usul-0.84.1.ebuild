@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.84.1"
-DIST_A="Class-Usul-0.84.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/class-usul/Class-Usul-0.84.1.tar.gz"
+DIST_VERSION="0.84.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/class-usul/Class-Usul-0.84.1.tar.gz -> Class-Usul-0.84.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -59,3 +58,9 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Class-Usul-0.84.1 ${WORKDIR}/Class-Usul-0.84.1
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SULLR"
-DIST_VERSION="0.033"
-DIST_A="App-DubiousHTTP-0.033.tar.gz"
+DIST_VERSION="0.033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

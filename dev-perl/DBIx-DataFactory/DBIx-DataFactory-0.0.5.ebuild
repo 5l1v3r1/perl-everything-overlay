@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHIBAZAKI"
-DIST_VERSION="0.0.5"
-DIST_A="DBIx-DataFactory-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-mysqld
 	virtual/perl-Test-Simple
 "
+

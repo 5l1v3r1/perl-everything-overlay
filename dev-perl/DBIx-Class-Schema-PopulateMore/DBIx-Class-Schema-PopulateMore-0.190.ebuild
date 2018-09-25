@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.19"
-DIST_A="DBIx-Class-Schema-PopulateMore-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/YAML-Tiny-1.480
 	>=virtual/perl-Test-Simple-0.980
 "
+

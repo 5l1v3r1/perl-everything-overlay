@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IKEBE"
-DIST_VERSION="0.04"
-DIST_A="Crypt-MySQL-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 "
+

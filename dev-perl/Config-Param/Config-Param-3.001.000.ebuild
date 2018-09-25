@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THORGIS"
-DIST_VERSION="3.001000"
-DIST_A="Config-Param-3.001000.tar.gz"
+DIST_VERSION="3.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

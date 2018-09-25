@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.01"
-DIST_A="Acme-Matt-Daemon-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Log-Syslog-Abstract
 	dev-perl/Proc-Daemon
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

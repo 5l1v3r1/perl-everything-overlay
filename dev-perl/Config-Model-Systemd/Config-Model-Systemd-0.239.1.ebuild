@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="0.239.1"
-DIST_A="Config-Model-Systemd-0.239.1.tar.gz"
+DIST_VERSION="0.239.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340
-	dev-perl/Config-Model-Tester
+	>=dev-perl/Config-Model-Tester-3.006
 	dev-perl/Test-File-Contents
 	virtual/perl-Test-Simple
 "
+

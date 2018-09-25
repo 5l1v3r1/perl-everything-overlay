@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUIDO"
-DIST_VERSION="0.17"
-DIST_A="Crypt-Twofish_PP-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

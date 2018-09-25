@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOLKENING"
-DIST_VERSION="0.006007"
-DIST_A="BioX-Seq-0.006007.tar.gz"
+DIST_VERSION="0.006007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

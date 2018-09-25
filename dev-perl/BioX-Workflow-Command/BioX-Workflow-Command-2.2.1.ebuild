@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="2.2.1"
-DIST_A="BioX-Workflow-Command-2.2.1.tar.gz"
+DIST_VERSION="2.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,9 +52,11 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/Capture-Tiny
 	dev-perl/JSON
+	dev-perl/Module-Build
 	dev-perl/Test-Class-Moose
 	dev-perl/Text-Diff
 	dev-perl/YAML-LibYAML
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

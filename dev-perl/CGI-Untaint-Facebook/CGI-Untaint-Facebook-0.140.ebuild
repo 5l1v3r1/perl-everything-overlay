@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.14"
-DIST_A="CGI-Untaint-Facebook-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-NoWarnings
 "
+

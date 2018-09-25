@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.10"
-DIST_A="App-Office-Contacts-Donations-1.10.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.410
 	>=virtual/perl-Test-Simple-0.940
 "
+

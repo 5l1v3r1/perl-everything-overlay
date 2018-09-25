@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOLLY"
-DIST_VERSION="1.0"
-DIST_A="App-CLI-Plugin-Daemonize-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

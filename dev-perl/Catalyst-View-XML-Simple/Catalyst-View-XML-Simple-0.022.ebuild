@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LORN"
-DIST_VERSION="0.022"
-DIST_A="Catalyst-View-XML-Simple-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

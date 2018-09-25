@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.03"
-DIST_A="Crypt-Random-Seed-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-Random-TESHA2
+	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.562
 "
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.450
 "
+

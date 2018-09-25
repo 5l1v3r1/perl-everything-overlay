@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="0.050001"
-DIST_A="Catalyst-View-Tenjin-0.050001.tar.gz"
+DIST_VERSION="0.050001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

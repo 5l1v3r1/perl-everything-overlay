@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="5.80033"
-DIST_A="Catalyst-Runtime-5.80033.tar.gz"
+DIST_VERSION="5.80033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/MRO-Compat
 	>=dev-perl/Module-Pluggable-3.900
-	>=dev-perl/Moose-1.030
+	>=dev-perl/Moose-0.950
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.009.030
 	>=dev-perl/MooseX-Getopt-0.300
 	>=dev-perl/MooseX-MethodAttributes-0.240
@@ -58,3 +57,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

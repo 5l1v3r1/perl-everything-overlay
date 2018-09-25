@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SMCMURRAY"
 DIST_VERSION="0.02"
-DIST_A="Apache-AxKit-Provider-CGI-0.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

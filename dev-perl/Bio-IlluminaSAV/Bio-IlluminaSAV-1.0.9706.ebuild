@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EARONESTY"
-DIST_VERSION="v1.0.9706"
-DIST_A="Bio-IlluminaSAV-1.0.9706.tar.gz"
+DIST_VERSION="1.0.9706" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

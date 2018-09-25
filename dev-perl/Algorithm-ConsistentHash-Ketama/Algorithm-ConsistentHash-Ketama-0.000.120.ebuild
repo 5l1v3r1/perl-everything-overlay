@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00012"
-DIST_A="Algorithm-ConsistentHash-Ketama-0.00012.tar.gz"
+DIST_VERSION="0.00012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.840
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="2006.0215"
-DIST_A="CGI-Out-2006.0215.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="2006.0215" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/CGI-Out-2006.0215.tar.gz -> CGI-Out-2006.0215.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CGI-Out-2006.0215 ${WORKDIR}/CGI-Out-2006.0215
+}
+

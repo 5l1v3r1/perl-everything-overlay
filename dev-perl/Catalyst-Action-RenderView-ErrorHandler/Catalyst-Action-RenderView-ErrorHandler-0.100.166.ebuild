@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREMAR"
-DIST_VERSION="0.100166"
-DIST_A="Catalyst-Action-RenderView-ErrorHandler-0.100166.tar.gz"
+DIST_VERSION="0.100166" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,9 @@ DEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/HTTP-Request-AsCGI
 	dev-perl/Text-Diff
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

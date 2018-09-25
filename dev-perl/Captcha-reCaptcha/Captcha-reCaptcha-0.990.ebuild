@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUNNYP"
-DIST_VERSION="0.99"
-DIST_A="Captcha-reCaptcha-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

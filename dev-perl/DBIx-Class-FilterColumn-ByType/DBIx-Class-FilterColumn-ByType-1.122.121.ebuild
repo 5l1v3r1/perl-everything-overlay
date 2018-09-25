@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTP"
-DIST_VERSION="1.122121"
-DIST_A="DBIx-Class-FilterColumn-ByType-1.122121.tar.gz"
+DIST_VERSION="1.122121" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBIx-Class
 	>=dev-perl/SQL-Translator-0.110.060
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

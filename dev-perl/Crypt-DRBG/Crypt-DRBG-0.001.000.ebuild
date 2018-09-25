@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIANC"
-DIST_VERSION="0.001000"
-DIST_A="Crypt-DRBG-0.001000.tar.gz"
+DIST_VERSION="0.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

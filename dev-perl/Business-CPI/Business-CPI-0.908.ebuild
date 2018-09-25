@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDRE"
-DIST_VERSION="0.908"
-DIST_A="Business-CPI-0.908.tar.gz"
+DIST_VERSION="0.908" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=dev-perl/Test-Exception-0.320
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="2.10"
-DIST_A="DBD-PO-2.10.tar.gz"
+DIST_VERSION="2.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

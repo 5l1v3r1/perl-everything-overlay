@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="1.53"
-DIST_A="App-dux-1.53.tar.gz"
+DIST_VERSION="1.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 	>=dev-perl/Tie-Diamond-0.050
 	dev-perl/Tie-Simple
 	dev-perl/experimental
+	dev-perl/lib
 	virtual/perl-Getopt-Long
 "
 DEPEND="
@@ -35,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

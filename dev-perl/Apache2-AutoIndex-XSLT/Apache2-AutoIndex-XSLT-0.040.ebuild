@@ -23,6 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Apache-Test
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	dev-perl/XML-Validate

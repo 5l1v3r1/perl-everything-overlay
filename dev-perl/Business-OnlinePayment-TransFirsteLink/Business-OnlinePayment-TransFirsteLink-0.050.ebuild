@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVAN"
-DIST_VERSION="0.05"
-DIST_A="Business-OnlinePayment-TransFirsteLink-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Business-OnlinePayment-0.050
+	>=dev-perl/Business-OnlinePayment-3.000
 	dev-perl/Tie-IxHash
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

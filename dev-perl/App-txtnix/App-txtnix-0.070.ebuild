@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOM"
-DIST_VERSION="0.07"
-DIST_A="App-txtnix-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

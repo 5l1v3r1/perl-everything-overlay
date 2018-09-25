@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="1.60"
-DIST_A="Business-MaxMind-1.60.tar.gz"
+DIST_VERSION="1.60" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/LWP-Protocol-https
 	dev-perl/URI
+	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
 "
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

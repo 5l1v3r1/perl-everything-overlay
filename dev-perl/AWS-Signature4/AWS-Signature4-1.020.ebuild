@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LDS"
-DIST_VERSION="1.02"
-DIST_A="AWS-Signature4-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/TimeDate
-	>=dev-perl/URI-1.590
+	dev-perl/URI
 	>=dev-perl/libwww-perl-5.835
 	>=virtual/perl-Digest-SHA-5.470
 "
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420.500
 "
+

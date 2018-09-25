@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.15"
-DIST_A="Builtin-Logged-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-Any-IfLOG-0.070
 	>=dev-perl/Proc-ChildError-0.010
 	dev-perl/String-Trim-More
 	virtual/perl-parent
@@ -34,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

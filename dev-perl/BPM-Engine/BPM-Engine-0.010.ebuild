@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SITETECH"
-DIST_VERSION="0.01"
-DIST_A="BPM-Engine-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	>=dev-perl/File-ShareDir-1.030
 	>=dev-perl/Graph-0.940
 	dev-perl/JSON
-	>=dev-perl/Moose-1.170
+	>=dev-perl/Moose-2.060.100
 	>=dev-perl/MooseX-Declare-0.350
 	>=dev-perl/MooseX-LogDispatch-1.200
 	>=dev-perl/MooseX-Method-Signatures-0.420
@@ -65,3 +64,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

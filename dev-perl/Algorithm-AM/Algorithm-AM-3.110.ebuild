@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NGLENN"
-DIST_VERSION="3.11"
-DIST_A="Algorithm-AM-3.11.tar.gz"
+DIST_VERSION="3.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

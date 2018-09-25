@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HACKER"
-DIST_VERSION="0.031"
-DIST_A="Agent-TCLI-Package-Net-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GTERMARS"
-DIST_VERSION="0.03"
-DIST_A="Class-DBI-Plugin-TO_JSON-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/DBD-SQLite
 	>=dev-perl/JSON-XS-2.000
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="1.00"
-DIST_A="App-EditorTools-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Text-Diff
 	>=virtual/perl-Test-Simple-0.870
 "
+

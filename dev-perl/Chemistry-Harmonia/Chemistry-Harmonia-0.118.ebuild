@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Chemistry"
-DIST_VERSION="0.118"
-DIST_A="Chemistry-Harmonia-0.118.tar.gz"
+DIST_AUTHOR="DONANGEL"
+DIST_VERSION="0.118" 
+SRC_URI="mirror://cpan/authors/id/D/DO/DONANGEL/Chemistry/Chemistry-Harmonia-0.118.tar.gz -> Chemistry-Harmonia-0.118.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Chemistry-Harmonia-0.118 ${WORKDIR}/Chemistry-Harmonia-0.118
+}
+

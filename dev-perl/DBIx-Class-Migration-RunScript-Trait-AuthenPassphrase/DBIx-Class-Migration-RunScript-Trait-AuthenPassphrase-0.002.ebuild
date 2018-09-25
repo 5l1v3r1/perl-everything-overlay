@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.002"
-DIST_A="DBIx-Class-Migration-RunScript-Trait-AuthenPassphrase-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 "
+

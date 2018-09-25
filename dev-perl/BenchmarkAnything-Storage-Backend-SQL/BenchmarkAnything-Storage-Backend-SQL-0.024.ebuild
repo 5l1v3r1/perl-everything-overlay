@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.024"
-DIST_A="BenchmarkAnything-Storage-Backend-SQL-0.024.tar.gz"
+DIST_VERSION="0.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

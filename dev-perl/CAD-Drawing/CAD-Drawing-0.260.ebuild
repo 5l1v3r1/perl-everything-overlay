@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="0.26"
-DIST_A="CAD-Drawing-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DSOUFLIS"
 DIST_VERSION="0.12"
-DIST_A="DBD-Ovrimos-0.12.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

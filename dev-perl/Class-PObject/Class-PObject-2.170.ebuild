@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHERZODR"
-DIST_VERSION="2.17"
-DIST_A="Class-PObject-2.17.tar.gz"
+DIST_VERSION="2.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

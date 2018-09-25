@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="0.03"
-DIST_A="AudioFile-Find-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,13 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/AudioFile-Info-1.090
 	dev-perl/File-Find-Rule
 	dev-perl/List-MoreUtils
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

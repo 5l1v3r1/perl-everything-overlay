@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.12"
-DIST_A="BusyBird-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -52,7 +51,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Scalar-List-Utils-1.240
 	>=virtual/perl-Storable-2.270
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.980
 	>=virtual/perl-Time-HiRes-1.972.000
 	virtual/perl-parent
 "
@@ -68,3 +67,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.240
 	>=virtual/perl-File-Temp-0.190
 "
+

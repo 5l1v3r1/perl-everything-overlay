@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSTYP"
-DIST_VERSION="0.801"
-DIST_A="Config-Magic-0.801.tar.gz"
+DIST_VERSION="0.801" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

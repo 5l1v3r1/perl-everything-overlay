@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KABLAMO"
-DIST_VERSION="0.15"
-DIST_A="Chef-Knife-Cmd-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Most
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.161240"
-DIST_A="App-MultiModule-Tasks-SmartMerge-1.161240.tar.gz"
+DIST_VERSION="1.161240" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/App-MultiModule
 	dev-perl/IPC-Transit
 	dev-perl/Message-SmartMerge
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
@@ -29,5 +29,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
+	dev-perl/lib
 	virtual/perl-File-Temp
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.003"
-DIST_A="DBIx-Class-ResultClass-CallbackInflator-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-DBIx-Class-0.520
 	>=dev-perl/Test-Most-0.340
 "
+

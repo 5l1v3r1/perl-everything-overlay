@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="1.0.1"
-DIST_A="CPP-catch-test-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.760
 	dev-perl/Test-Deep
 	>=virtual/perl-ExtUtils-ParseXS-3.240
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.960
 "
+

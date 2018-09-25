@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HASH"
-DIST_VERSION="1.005"
-DIST_A="Crypt-EECDH-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

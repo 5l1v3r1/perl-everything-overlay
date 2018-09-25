@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.13"
-DIST_A="Crixa-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,8 +30,10 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Net-RabbitMQ-0.130
 	dev-perl/Try-Tiny
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Math-BigInt
 	>=virtual/perl-Test-Simple-0.960
 "
+

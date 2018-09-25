@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="0.995"
-DIST_A="Catalyst-View-JavaScript-0.995.tar.gz"
+DIST_VERSION="0.995" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

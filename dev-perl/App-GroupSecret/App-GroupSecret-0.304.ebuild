@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CCM"
-DIST_VERSION="0.304"
-DIST_A="App-GroupSecret-0.304.tar.gz"
+DIST_VERSION="0.304" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

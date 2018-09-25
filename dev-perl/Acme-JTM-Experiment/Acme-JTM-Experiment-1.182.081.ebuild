@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASLAK"
-DIST_VERSION="1.182081"
-DIST_A="Acme-JTM-Experiment-1.182081.tar.gz"
+DIST_VERSION="1.182081" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

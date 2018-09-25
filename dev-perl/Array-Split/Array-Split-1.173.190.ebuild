@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.173190"
-DIST_A="Array-Split-1.173190.tar.gz"
+DIST_VERSION="1.173190" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LETO"
-DIST_VERSION="0.003"
-DIST_A="App-Beeminder-Hook-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

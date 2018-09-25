@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Catalyst-Plugin-Static-Simple
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/Class-C3-Adopt-NEXT
 	>=dev-perl/Log-Deep-0.0.6
 	virtual/perl-Scalar-List-Utils

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.002"
-DIST_A="Alien-LibMagic-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.005
+	dev-perl/Module-Build
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple
 "
+

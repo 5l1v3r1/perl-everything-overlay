@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCAST"
-DIST_VERSION="0.003"
-DIST_A="App-MediaWiki2Git-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

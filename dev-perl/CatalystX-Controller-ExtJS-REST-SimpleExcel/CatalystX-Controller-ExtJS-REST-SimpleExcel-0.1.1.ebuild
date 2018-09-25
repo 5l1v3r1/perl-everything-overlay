@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="0.1.1"
-DIST_A="CatalystX-Controller-ExtJS-REST-SimpleExcel-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JBRYAN"
 DIST_VERSION="0.44"
-DIST_A="AI-NeuralNet-Mesh-0.44.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

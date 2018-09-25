@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HITODE"
-DIST_VERSION="0.16"
-DIST_A="App-PRT-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,14 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	dev-perl/File-Copy-Recursive
+	dev-perl/Test-Class
+	dev-perl/Test-Deep
+	dev-perl/Test-Fatal
+	dev-perl/Test-Mock-Guard
+	virtual/perl-ExtUtils-CBuilder
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-parent
 "
+

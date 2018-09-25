@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDIETRICH"
-DIST_VERSION="0.003"
-DIST_A="Catalyst-Plugin-Authorization-RoleAbilities-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,7 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Test-Exception
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

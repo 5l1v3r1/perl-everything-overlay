@@ -20,6 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test

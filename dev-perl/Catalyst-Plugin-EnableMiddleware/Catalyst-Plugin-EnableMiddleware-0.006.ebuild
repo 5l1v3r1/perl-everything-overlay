@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.006"
-DIST_A="Catalyst-Plugin-EnableMiddleware-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/Test-Most-0.250
 "
+

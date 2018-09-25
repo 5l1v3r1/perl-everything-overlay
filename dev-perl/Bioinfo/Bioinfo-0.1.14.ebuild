@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEKINGSAM"
-DIST_VERSION="0.1.14"
-DIST_A="Bioinfo-0.1.14.tar.gz"
+DIST_VERSION="0.1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.000
 	>=virtual/perl-Test-Simple-0.880
 "
+

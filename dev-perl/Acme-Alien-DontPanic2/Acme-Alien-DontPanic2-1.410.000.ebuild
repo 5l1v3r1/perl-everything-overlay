@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.4100"
-DIST_A="Acme-Alien-DontPanic2-1.4100.tar.gz"
+DIST_VERSION="1.4100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

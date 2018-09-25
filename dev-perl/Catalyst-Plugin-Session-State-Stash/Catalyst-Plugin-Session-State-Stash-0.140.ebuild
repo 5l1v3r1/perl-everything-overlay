@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.14"
-DIST_A="Catalyst-Plugin-Session-State-Stash-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,13 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.007
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
+	dev-perl/Module-Build
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/URI
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

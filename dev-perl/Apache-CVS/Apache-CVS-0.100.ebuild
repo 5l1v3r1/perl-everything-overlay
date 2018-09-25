@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBEE"
-DIST_VERSION="0.10"
-DIST_A="Apache-CVS-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Graph-0.201
+	>=dev-perl/Rcs-1.030
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

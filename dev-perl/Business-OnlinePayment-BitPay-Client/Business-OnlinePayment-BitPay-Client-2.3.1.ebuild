@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BITPAY"
-DIST_VERSION="v2.3.1"
-DIST_A="Business-OnlinePayment-BitPay-Client-2.3.1.tar.gz"
+DIST_VERSION="2.3.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

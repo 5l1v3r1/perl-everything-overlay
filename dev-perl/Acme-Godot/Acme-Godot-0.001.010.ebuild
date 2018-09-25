@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJN"
-DIST_VERSION="0.001010"
-DIST_A="Acme-Godot-0.001010.tar.gz"
+DIST_VERSION="0.001010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-File-Spec
 "
+

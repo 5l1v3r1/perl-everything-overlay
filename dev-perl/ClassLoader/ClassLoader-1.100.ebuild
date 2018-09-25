@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FSEITZ"
-DIST_VERSION="1.1"
-DIST_A="ClassLoader-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

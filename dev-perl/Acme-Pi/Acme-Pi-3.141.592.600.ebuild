@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="3.1415926"
-DIST_A="Acme-Pi-3.1415926.tar.gz"
+DIST_VERSION="3.1415926" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 	virtual/perl-version
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PUNYTAN"
-DIST_VERSION="0.64"
-DIST_A="AnyEvent-Twitter-0.64.tar.gz"
+DIST_VERSION="0.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.530
 	>=dev-perl/Net-OAuth-0.270
 	>=dev-perl/Net-SSLeay-1.350
-	>=dev-perl/URI-1.580
+	>=dev-perl/URI-3.300
 	>=virtual/perl-Digest-SHA-5.620
 	>=virtual/perl-Time-Piece-1.200
 "
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMQS"
-DIST_VERSION="0.022"
-DIST_A="Archive-Zip-SimpleZip-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

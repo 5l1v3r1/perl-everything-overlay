@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="0.10"
-DIST_A="App-Relate-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

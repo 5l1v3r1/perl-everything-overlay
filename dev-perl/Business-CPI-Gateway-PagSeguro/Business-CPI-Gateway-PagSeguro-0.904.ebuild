@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDRE"
-DIST_VERSION="0.904"
-DIST_A="Business-CPI-Gateway-PagSeguro-0.904.tar.gz"
+DIST_VERSION="0.904" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

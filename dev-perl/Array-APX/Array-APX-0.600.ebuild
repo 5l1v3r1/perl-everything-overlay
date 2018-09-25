@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="VAXMAN"
 DIST_VERSION="0.6"
-DIST_A="Array-APX-0.6.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

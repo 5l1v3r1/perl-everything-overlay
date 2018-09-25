@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="0.002"
-DIST_A="App-HTTPThis-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,11 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Net-Rendezvous-Publish-0.040
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

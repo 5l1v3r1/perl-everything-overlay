@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RIZEN"
-DIST_VERSION="1.0200"
-DIST_A="Box-Calc-1.0200.tar.gz"
+DIST_VERSION="1.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

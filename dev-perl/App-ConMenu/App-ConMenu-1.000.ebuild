@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMUELLER"
-DIST_VERSION="1.00"
-DIST_A="App-ConMenu-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

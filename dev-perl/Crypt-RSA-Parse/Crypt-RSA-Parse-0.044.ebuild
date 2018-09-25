@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.044"
-DIST_A="Crypt-RSA-Parse-0.044.tar.gz"
+DIST_VERSION="0.044" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-NoWarnings-0.010
-	>=virtual/perl-Test-Simple-0.010
+	>=virtual/perl-Test-Simple-0.440
 "
+

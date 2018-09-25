@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAVINC"
-DIST_VERSION="2.1"
-DIST_A="Apache-AuthTkt-2.1.tar.gz"
+DIST_VERSION="2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

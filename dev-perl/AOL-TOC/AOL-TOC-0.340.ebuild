@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHARDING"
-DIST_VERSION="0.340"
-DIST_A="AOL-TOC-0.340.tar.gz"
+DIST_VERSION="0.340" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

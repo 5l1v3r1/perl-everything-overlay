@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="6.3"
-DIST_A="App-FQStat-6.3.tar.gz"
+DIST_VERSION="6.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

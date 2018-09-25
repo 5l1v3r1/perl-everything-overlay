@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJHD"
-DIST_VERSION="0.0501"
-DIST_A="Audio-OSS-0.0501.tar.gz"
+DIST_VERSION="0.0501" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

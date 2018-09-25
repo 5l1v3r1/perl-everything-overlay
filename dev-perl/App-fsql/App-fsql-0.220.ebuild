@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.22"
-DIST_A="App-fsql-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,4 +34,12 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Perl-osnames-0.090
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Slurper
+	dev-perl/File-chdir
+	dev-perl/String-ShellQuote
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-IPC-Cmd-0.520
+	>=virtual/perl-Test-Simple-0.980
 "
+

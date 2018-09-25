@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JONG"
-DIST_VERSION="2.0"
-DIST_A="Bioinf_V2.0.tar.gz"
+DIST_VERSION="2.0" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JONG/Bioinf_V2.0.tar.gz -> Bioinf-2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bioinf_V2.0 ${WORKDIR}/Bioinf-2.0
+}
+

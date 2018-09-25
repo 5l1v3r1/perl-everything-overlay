@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONW"
-DIST_VERSION="0.96"
-DIST_A="Bot-BasicBot-Pluggable-Module-Tools-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

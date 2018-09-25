@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="9.99"
-DIST_A="Acme-Working-Out-Dependencies-From-META-files-Will-Be-Wrong-At-Some-Point-Like-This-Module-For-Instance-9.99.tar.gz"
+DIST_VERSION="9.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,19 +15,19 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/CPAN-Testers-Report-1.999.001
-	>=dev-perl/Config-Perl-V-0.120
-	>=dev-perl/File-Find-Rule-0.320
-	>=dev-perl/List-UtilsBy-0.070
-	>=dev-perl/Module-Extract-Use-1.010
+	>=dev-perl/Algorithm-Diff-1.190.200
+	>=dev-perl/Dist-Zilla-Plugin-ReportVersions-1.110.730
+	>=dev-perl/Email-Valid-0.184
+	>=dev-perl/ExtUtils-CChecker-0.070
+	>=dev-perl/File-Rsync-0.430
 	>=dev-perl/MooseX-Method-Signatures-0.360
-	>=dev-perl/MouseX-AttributeHelpers-0.060
-	>=dev-perl/Net-HTTP-6.010
-	>=dev-perl/Net-OAuth-0.270
-	>=dev-perl/Sys-SigAction-0.110
-	>=dev-perl/Test-Pod-Coverage-1.080
+	>=dev-perl/Perl-PrereqScanner-1.002
+	>=dev-perl/Pod-Eventual-0.093.330
+	>=dev-perl/SQL-Translator-0.110.080
+	>=dev-perl/Scope-Guard-0.200
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

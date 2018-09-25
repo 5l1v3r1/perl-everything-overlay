@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="1.01"
-DIST_A="App-CopyrightImage-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

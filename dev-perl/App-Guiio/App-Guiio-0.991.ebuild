@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JSIMPSON"
 DIST_VERSION="0.991"
-DIST_A="App-Guiio-0.991.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,4 +45,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

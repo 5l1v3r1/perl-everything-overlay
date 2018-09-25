@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.111"
-DIST_A="App-PerinciUtils-0.111.tar.gz"
+DIST_VERSION="0.111" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -54,3 +53,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

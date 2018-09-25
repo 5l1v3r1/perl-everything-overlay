@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAFEGRATZ"
-DIST_VERSION="0.11"
-DIST_A="DBIx-EAV-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,6 +31,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	>=dev-perl/DBD-SQLite-1.500
+	dev-perl/Module-Build
 	dev-perl/Test2-Suite
 	>=dev-perl/YAML-1.150
 "
+

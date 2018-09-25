@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANL"
-DIST_VERSION="1.004"
-DIST_A="DBIx-Class-BatchUpdate-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Moo
 	dev-perl/autobox-Core
+	dev-perl/base
 	dev-perl/true
 	virtual/perl-Carp
 	virtual/perl-Storable
@@ -32,3 +32,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

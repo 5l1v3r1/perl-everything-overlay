@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NATG"
-DIST_VERSION="1.28"
-DIST_A="Class-AutoDB-1.28.tar.gz"
+DIST_VERSION="1.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,4 +33,18 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400.700
+	>=dev-perl/Data-Rmap-0.620
+	>=dev-perl/FreezeThaw-0.500.100
+	>=dev-perl/Graph-0.940
+	>=dev-perl/Test-CheckManifest-1.260
+	>=dev-perl/Test-Deep-0.110
+	>=dev-perl/Test-Pod-1.480
+	>=dev-perl/Test-Pod-Content-0.0.6
+	>=virtual/perl-Carp-1.200
+	virtual/perl-ExtUtils-CBuilder
+	>=virtual/perl-File-Spec-3.400
+	>=virtual/perl-Getopt-Long-2.380
+	>=virtual/perl-Test-Harness-3.280
+	>=virtual/perl-Test-Simple-0.980
 "
+

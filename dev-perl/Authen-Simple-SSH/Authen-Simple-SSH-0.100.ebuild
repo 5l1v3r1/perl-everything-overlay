@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHANSEN"
-DIST_VERSION="0.1"
-DIST_A="Authen-Simple-SSH-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Authen-Simple
-	dev-perl/Net-SSH-Perl
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

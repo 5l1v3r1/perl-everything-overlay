@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KATE"
-DIST_VERSION="v1.1.5"
-DIST_A="Carp-Parse-Redact-1.1.5.tar.gz"
+DIST_VERSION="1.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

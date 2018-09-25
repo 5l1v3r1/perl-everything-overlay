@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LINNIN"
-DIST_VERSION="0.14"
-DIST_A="Business-PayPal-SDK-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Inline
+	dev-perl/Inline-Java
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

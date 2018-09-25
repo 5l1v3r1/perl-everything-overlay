@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PARANOID"
-DIST_VERSION="1.11"
-DIST_A="DBIx-Changeset-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,7 +37,6 @@ RDEPEND="
 	dev-perl/Term-Report
 	dev-perl/Test-Exception
 	dev-perl/Test-Output
-	>=dev-perl/Test-Pod-1.140
 	dev-perl/YAML
 	virtual/perl-Digest-MD5
 	virtual/perl-Encode
@@ -49,3 +47,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

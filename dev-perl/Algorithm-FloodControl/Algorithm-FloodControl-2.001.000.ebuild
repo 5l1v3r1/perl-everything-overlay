@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/Module-Install-0.770
 	dev-perl/Params-Validate
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple

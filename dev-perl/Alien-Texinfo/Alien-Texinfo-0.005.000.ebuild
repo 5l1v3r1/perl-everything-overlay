@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WBRASWELL"
-DIST_VERSION="0.005000"
-DIST_A="Alien-Texinfo-0.005000.tar.gz"
+DIST_VERSION="0.005000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/IO-Socket-SSL-2.043
 "
+

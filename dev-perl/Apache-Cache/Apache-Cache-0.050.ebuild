@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSOLIV"
-DIST_VERSION="0.05"
-DIST_A="Apache-Cache-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Apache-SharedMem-0.080
-	dev-perl/Time-ParseDate
+	>=dev-perl/Time-ParseDate-100.010
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

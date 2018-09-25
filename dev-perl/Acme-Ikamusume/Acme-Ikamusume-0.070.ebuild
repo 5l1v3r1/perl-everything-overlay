@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMITA"
-DIST_VERSION="0.07"
-DIST_A="Acme-Ikamusume-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
+

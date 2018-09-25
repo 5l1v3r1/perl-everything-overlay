@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMOERTEL"
-DIST_VERSION="0.1003"
-DIST_A="AutoCurry-0.1003.tar.gz"
+DIST_VERSION="0.1003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

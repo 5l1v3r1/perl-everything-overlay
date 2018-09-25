@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPIT"
-DIST_VERSION="0.08"
-DIST_A="Acme-CPANAuthors-You-re_using-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

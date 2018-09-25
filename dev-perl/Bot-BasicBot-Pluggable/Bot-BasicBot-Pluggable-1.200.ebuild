@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIGPRESH"
-DIST_VERSION="1.20"
-DIST_A="Bot-BasicBot-Pluggable-1.20.tar.gz"
+DIST_VERSION="1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,6 +35,8 @@ RDEPEND="
 	dev-perl/URI-Find-Simple
 	dev-perl/URI-Title
 	dev-perl/XML-Feed
+	dev-perl/base
+	dev-perl/lib
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -53,3 +54,4 @@ DEPEND="
 	dev-perl/YAML-LibYAML
 	virtual/perl-Test-Simple
 "
+

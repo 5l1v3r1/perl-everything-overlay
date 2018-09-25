@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PREACTION"
-DIST_VERSION="1.022"
-DIST_A="Beam-Wire-1.022.tar.gz"
+DIST_VERSION="1.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-1.001.005
 "
+

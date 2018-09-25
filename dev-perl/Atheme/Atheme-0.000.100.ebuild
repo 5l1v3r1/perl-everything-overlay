@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEPHANJ"
-DIST_VERSION="0.0001"
-DIST_A="Atheme-0.0001.tar.gz"
+DIST_VERSION="0.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 "
+

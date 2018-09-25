@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HGDEV"
-DIST_VERSION="0.010008"
-DIST_A="Business-CyberSource-0.010008.tar.gz"
+DIST_VERSION="0.010008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,7 +35,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-Locale-Country
 	dev-perl/MooseX-Types-Locale-Currency
 	dev-perl/MooseX-Types-NetAddr-IP
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.040
 	dev-perl/XML-Compile-SOAP
 	dev-perl/XML-Compile-WSDL11
 	>=dev-perl/XML-Compile-WSS-1.040
@@ -52,7 +51,9 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Method
 	dev-perl/Test-Requires
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JV"
-DIST_VERSION="2.027"
-DIST_A="App-Music-PlayTab-2.027.tar.gz"
+DIST_VERSION="2.027" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

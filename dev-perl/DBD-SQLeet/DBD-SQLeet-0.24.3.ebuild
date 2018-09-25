@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDMITOV"
-DIST_VERSION="0.24.3"
-DIST_A="DBD-SQLeet-0.24.3.tar.gz"
+DIST_VERSION="0.24.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-Test-Simple-0.420
 "
+

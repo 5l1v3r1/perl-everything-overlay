@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRANTM"
-DIST_VERSION="1.16"
-DIST_A="Authen-NZRealMe-1.16.tar.gz"
+DIST_VERSION="1.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCAND"
-DIST_VERSION="0.51"
-DIST_A="CGI-Portable-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WARRINGD"
-DIST_VERSION="0.01.01"
-DIST_A="Bb-Collaborate-Ultra-0.01.01.tar.gz"
+DIST_VERSION="0.01.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

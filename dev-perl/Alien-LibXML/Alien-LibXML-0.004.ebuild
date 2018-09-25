@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.004"
-DIST_A="Alien-LibXML-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	dev-perl/File-Which
 "
+

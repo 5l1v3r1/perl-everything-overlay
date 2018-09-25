@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VESELOSKY"
-DIST_VERSION="0.06"
-DIST_A="CGI-Builder-Auth-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CGI-Builder-1.110
-	>=dev-perl/OOTools-1.700
+	>=dev-perl/OOTools-1.750
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Scalar-List-Utils
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

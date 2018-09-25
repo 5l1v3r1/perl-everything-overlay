@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLOVER"
-DIST_VERSION="v4.9.3"
-DIST_A="Curses-Devkit-4.9.3.tar.gz"
+DIST_VERSION="4.9.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

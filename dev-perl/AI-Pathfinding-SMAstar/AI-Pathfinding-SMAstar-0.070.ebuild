@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBEEBE"
-DIST_VERSION="0.07"
-DIST_A="AI-Pathfinding-SMAstar-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Tree-AVL
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

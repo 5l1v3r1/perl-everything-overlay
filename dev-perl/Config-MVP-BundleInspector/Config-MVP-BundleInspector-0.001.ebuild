@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.001"
-DIST_A="Config-MVP-BundleInspector-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960
 "
+

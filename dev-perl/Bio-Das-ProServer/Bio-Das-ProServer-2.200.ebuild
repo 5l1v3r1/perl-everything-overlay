@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="2.20"
-DIST_A="Bio-Das-ProServer-2.20.tar.gz"
+DIST_VERSION="2.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,13 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.080
+	>=dev-lang/perl-1.110
 	>=dev-perl/CGI-3.290
 	>=dev-perl/Config-IniFiles-2.320
 	>=dev-perl/HTML-Parser-1.270
 	>=dev-perl/HTTP-Date-1.470
 	>=dev-perl/HTTP-Message-1.400
-	>=dev-perl/POE-0.999.900
+	>=dev-perl/POE-1.219.400
 	>=dev-perl/Readonly-1.030
 	>=virtual/perl-File-Spec-3.250
 	>=virtual/perl-Getopt-Long-2.340
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

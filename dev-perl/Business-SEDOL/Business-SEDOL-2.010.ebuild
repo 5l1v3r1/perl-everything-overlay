@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAYERS"
-DIST_VERSION="2.01"
-DIST_A="Business-SEDOL-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

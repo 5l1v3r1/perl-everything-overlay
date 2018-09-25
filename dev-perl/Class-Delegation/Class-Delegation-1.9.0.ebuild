@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="v1.9.0"
-DIST_A="Class-Delegation-1.9.0.tar.gz"
+DIST_VERSION="1.9.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

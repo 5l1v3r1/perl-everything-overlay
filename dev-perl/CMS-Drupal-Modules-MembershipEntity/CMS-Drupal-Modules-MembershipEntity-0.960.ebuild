@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONKIN"
-DIST_VERSION="0.96"
-DIST_A="CMS-Drupal-Modules-MembershipEntity-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-if
 "
+

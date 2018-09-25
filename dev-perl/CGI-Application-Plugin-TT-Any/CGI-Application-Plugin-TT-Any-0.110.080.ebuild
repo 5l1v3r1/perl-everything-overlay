@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="0.110080"
-DIST_A="CGI-Application-Plugin-TT-Any-0.110080.tar.gz"
+DIST_VERSION="0.110080" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,6 @@ DEPEND="
 	dev-perl/CGI-Application
 	dev-perl/Test-Fatal
 	dev-perl/Test-Most
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.960
 "
+

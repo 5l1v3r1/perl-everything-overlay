@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RURBAN"
-DIST_VERSION="0.14"
-DIST_A="B-Debugger-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.090
+	>=dev-lang/perl-0.660
 	>=dev-perl/B-Flags-0.020
 	>=dev-perl/B-Utils-0.050
 	dev-perl/Devel-Hook
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

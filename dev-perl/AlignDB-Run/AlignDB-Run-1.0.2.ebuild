@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WANGQ"
-DIST_VERSION="1.0.2"
-DIST_A="AlignDB-Run-1.0.2.tar.gz"
+DIST_VERSION="1.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.880
 "
+

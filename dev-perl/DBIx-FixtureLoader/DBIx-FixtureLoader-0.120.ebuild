@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.12"
-DIST_A="DBIx-FixtureLoader-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.05"
-DIST_A="Class-Private-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

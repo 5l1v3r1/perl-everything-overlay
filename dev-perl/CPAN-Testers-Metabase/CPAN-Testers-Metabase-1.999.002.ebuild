@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="1.999002"
-DIST_A="CPAN-Testers-Metabase-1.999002.tar.gz"
+DIST_VERSION="1.999002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Metabase
+	>=dev-perl/Metabase-1.000
 	>=dev-perl/Metabase-Backend-SQL-1.000
 	dev-perl/Moose
 	dev-perl/Path-Class
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

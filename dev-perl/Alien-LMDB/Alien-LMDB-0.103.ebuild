@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.103"
-DIST_A="Alien-LMDB-0.103.tar.gz"
+DIST_VERSION="0.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Alien-Base
+	dev-perl/Alien-Build
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	dev-perl/Alien-gmake
 "
+

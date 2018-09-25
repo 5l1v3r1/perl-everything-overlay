@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTOCK"
-DIST_VERSION="0.001000"
-DIST_A="App-Scaffolder-HTML-0.001000.tar.gz"
+DIST_VERSION="0.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

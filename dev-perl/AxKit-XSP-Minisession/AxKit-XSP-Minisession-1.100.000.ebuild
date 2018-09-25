@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLACO"
-DIST_VERSION="1.10000"
-DIST_A="AxKit-XSP-Minisession-1.10000.tar.gz"
+DIST_VERSION="1.10000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

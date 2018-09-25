@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.180
+	>=dev-lang/perl-1.150
 	>=dev-perl/CTKlib-1.180
 	>=dev-perl/Class-C3-Adopt-NEXT-0.130
 	>=dev-perl/DBD-SQLite-1.400

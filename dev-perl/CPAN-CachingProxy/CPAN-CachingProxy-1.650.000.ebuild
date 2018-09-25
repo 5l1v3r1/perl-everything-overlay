@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="1.6500"
-DIST_A="CPAN-CachingProxy-1.6500.tar.gz"
+DIST_VERSION="1.6500" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

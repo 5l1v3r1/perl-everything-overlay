@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICS"
-DIST_VERSION="0.0509"
-DIST_A="Catmandu-Store-Elasticsearch-0.0509.tar.gz"
+DIST_VERSION="0.0509" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

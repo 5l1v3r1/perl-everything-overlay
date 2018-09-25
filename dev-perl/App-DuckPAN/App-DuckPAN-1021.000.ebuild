@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDG"
-DIST_VERSION="1021.0"
-DIST_A="App-DuckPAN-1021.tar.gz"
+DIST_VERSION="1021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -77,3 +76,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

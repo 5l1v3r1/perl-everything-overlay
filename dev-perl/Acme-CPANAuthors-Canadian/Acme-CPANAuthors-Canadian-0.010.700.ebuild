@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.0107"
-DIST_A="Acme-CPANAuthors-Canadian-0.0107.tar.gz"
+DIST_VERSION="0.0107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Acme-CPANAuthors
+	>=dev-perl/Acme-CPANAuthors-0.060
 "
 DEPEND="
 	${RDEPEND}
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

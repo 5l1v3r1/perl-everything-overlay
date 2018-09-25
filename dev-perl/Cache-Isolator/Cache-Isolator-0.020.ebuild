@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.02"
-DIST_A="Cache-Isolator-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

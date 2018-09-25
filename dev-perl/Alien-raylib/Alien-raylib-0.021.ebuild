@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATHREEF"
-DIST_VERSION="0.021"
-DIST_A="Alien-raylib-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Alien-Build-0.990
+	>=dev-perl/Alien-Build-0.320
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

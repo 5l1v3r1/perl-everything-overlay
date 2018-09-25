@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.28"
-DIST_A="AnyEvent-Twitter-Stream-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

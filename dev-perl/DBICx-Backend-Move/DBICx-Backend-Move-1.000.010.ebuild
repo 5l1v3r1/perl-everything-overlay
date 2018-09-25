@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CALDRIN"
-DIST_VERSION="1.000010"
-DIST_A="DBICx-Backend-Move-1.000010.tar.gz"
+DIST_VERSION="1.000010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/DBICx-Deploy
 	dev-perl/Moo
+	dev-perl/base
 	virtual/perl-Module-Load
 "
 DEPEND="
@@ -34,3 +34,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

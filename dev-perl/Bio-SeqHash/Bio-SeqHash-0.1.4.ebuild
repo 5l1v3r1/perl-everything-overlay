@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEKINGSAM"
-DIST_VERSION="0.1.4"
-DIST_A="Bio-SeqHash-0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	>=virtual/perl-Test-Simple-0.880
 "
+

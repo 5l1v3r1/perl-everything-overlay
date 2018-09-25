@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCAIN"
-DIST_VERSION="0.12"
-DIST_A="Bio-GMOD-GenericGenePage-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

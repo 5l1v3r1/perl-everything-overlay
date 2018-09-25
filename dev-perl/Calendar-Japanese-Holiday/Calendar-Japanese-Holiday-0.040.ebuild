@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KZTOMITA"
-DIST_VERSION="0.04"
-DIST_A="Calendar-Japanese-Holiday-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

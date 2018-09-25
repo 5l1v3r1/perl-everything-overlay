@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZDK"
-DIST_VERSION="0.005"
-DIST_A="Catalyst-Authentication-Credential-TypeKey-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZBY"
-DIST_VERSION="0.03"
-DIST_A="AI-Classifier-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

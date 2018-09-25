@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMAKHOLM"
-DIST_VERSION="0.15"
-DIST_A="AnyEvent-JSONRPC-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

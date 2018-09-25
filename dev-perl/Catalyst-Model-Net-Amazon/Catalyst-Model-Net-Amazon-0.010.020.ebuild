@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFRANKS"
-DIST_VERSION="0.01002"
-DIST_A="Catalyst-Model-Net-Amazon-0.01002.tar.gz"
+DIST_VERSION="0.01002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

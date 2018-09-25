@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="0.33"
-DIST_A="DBIx-Class-InflateColumn-DateTimeX-Immutable-0.33.tar.gz"
+DIST_VERSION="0.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/SQL-Translator-0.110.180
 	>=virtual/perl-Test-Simple-0.870
 "
+

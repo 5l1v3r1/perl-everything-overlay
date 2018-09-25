@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSG"
-DIST_VERSION="0.92"
-DIST_A="DBIx-BatchChunker-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/Data-Float
 	>=dev-perl/Moo-2.000.002
 	>=dev-perl/Term-ProgressBar-2.140
-	>=dev-perl/Type-Tiny-1.000
+	dev-perl/Type-Tiny
 	dev-perl/namespace-clean
 	>=virtual/perl-Scalar-List-Utils-1.330
 "
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test2-Suite
 	dev-perl/Test2-Tools-Explain
 "
+

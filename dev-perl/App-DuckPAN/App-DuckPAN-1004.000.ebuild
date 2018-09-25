@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOLLAZA"
-DIST_VERSION="1004.0"
-DIST_A="App-DuckPAN-1004.tar.gz"
+DIST_VERSION="1004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -53,6 +52,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	dev-perl/YAML-LibYAML
+	dev-perl/lib
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -76,3 +76,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

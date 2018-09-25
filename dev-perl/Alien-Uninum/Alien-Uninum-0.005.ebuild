@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZMUGHAL"
-DIST_VERSION="0.005"
-DIST_A="Alien-Uninum-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.002
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BRIANSKI"
 DIST_VERSION="0.9905"
-DIST_A="Cache-Static-0.9905.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

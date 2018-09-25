@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLACO"
-DIST_VERSION="0.02005"
-DIST_A="DBIx-Class-InflateColumn-Currency-0.02005.tar.gz"
+DIST_VERSION="0.02005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,9 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.110
 	>=dev-perl/DBIx-Class-0.070.050
 	>=dev-perl/Data-Currency-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBC"
-DIST_VERSION="1.036"
-DIST_A="Config-Wrest-1.036.tar.gz"
+DIST_VERSION="1.036" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

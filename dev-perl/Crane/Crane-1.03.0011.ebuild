@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEMOON"
-DIST_VERSION="1.03.0011"
-DIST_A="Crane-1.03.0011.tar.gz"
+DIST_VERSION="1.03.0011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.63.03
 	virtual/perl-Test-Simple
 "
+

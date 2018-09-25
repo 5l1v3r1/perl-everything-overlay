@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="2.000002"
-DIST_A="Catalyst-View-CSS-Minifier-XS-2.000002.tar.gz"
+DIST_VERSION="2.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-Minifier-XS
-	>=dev-perl/Catalyst-Runtime-5.640
+	dev-perl/Catalyst-Runtime
 	dev-perl/HTTP-Message
 	dev-perl/Moose
 	dev-perl/MooseX-Aliases
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

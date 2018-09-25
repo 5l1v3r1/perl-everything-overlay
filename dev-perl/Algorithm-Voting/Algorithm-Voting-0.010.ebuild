@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTRAMMELL"
-DIST_VERSION="0.01"
-DIST_A="Algorithm-Voting-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Module-Build
 	dev-perl/Test-Exception
+	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

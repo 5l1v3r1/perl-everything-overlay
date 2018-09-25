@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYPESTER"
-DIST_VERSION="0.04"
-DIST_A="AnyEvent-Impl-NSRunLoop-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.880
 "
+

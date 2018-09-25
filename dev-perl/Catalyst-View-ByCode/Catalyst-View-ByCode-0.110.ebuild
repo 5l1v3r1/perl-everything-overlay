@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WKI"
-DIST_VERSION="0.11"
-DIST_A="Catalyst-View-ByCode-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Devel-Declare-0.005.007
 	>=dev-perl/HTML-Parser-1.350
 	>=dev-perl/HTML-Tagset-3.100
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	>=dev-perl/MooseX-AttributeHelpers-0.230
 	dev-perl/Path-Class
 	>=dev-perl/Test-Exception-0.270
@@ -33,10 +32,11 @@ RDEPEND="
 	>=virtual/perl-MIME-Base64-3.070
 	>=virtual/perl-Scalar-List-Utils-1.210
 	>=virtual/perl-Test-Harness-3.140
-	>=virtual/perl-Test-Simple-1.180
+	>=virtual/perl-Test-Simple-0.860
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.16"
-DIST_A="Config-XPath-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

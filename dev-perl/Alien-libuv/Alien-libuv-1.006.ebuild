@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="1.006"
-DIST_A="Alien-libuv-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Test-Simple-0.880
 "
+

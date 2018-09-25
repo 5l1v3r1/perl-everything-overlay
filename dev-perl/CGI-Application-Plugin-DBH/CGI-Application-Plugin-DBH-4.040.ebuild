@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="4.04"
-DIST_A="CGI-Application-Plugin-DBH-4.04.tar.gz"
+DIST_VERSION="4.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.201.203.010
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

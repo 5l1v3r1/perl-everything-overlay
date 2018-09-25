@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOROL"
-DIST_VERSION="0.21"
-DIST_A="Catmandu-MAB2-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Software-License-0.103.010
 	>=dev-perl/Test-Exception-0.320
 	dev-perl/Test-Pod
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

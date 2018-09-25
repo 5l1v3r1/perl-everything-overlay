@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDXI"
-DIST_VERSION="1.42"
-DIST_A="Config-YAML-1.42.tar.gz"
+DIST_VERSION="1.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

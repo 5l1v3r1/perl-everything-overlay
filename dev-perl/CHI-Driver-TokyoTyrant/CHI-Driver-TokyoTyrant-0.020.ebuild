@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JIRA"
-DIST_VERSION="0.02"
-DIST_A="CHI-Driver-TokyoTyrant-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

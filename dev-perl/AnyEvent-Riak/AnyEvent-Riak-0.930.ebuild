@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMS"
-DIST_VERSION="0.93"
-DIST_A="AnyEvent-Riak-0.93.tar.gz"
+DIST_VERSION="0.93" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

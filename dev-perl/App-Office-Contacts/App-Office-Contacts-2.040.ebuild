@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.04"
-DIST_A="App-Office-Contacts-2.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.080
+	>=dev-lang/perl-2.140
 	>=dev-perl/CGI-3.630
 	>=dev-perl/CGI-Snapp-1.030
 	>=dev-perl/CGI-Snapp-Dispatch-1.020
@@ -53,3 +53,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

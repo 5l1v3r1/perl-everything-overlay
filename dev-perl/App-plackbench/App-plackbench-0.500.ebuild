@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PBOYD"
-DIST_VERSION="0.5"
-DIST_A="App-plackbench-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-lang/perl
+	dev-perl/Class-Load
+	dev-perl/Test-Deep
+	virtual/perl-Test-Simple
 "
+

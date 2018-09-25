@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GROMMEL"
-DIST_VERSION="0.30"
-DIST_A="Convert-IBM390-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

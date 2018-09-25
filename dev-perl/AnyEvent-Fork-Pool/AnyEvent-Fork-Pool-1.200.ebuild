@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLEHMANN"
-DIST_VERSION="1.2"
-DIST_A="AnyEvent-Fork-Pool-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/AnyEvent-Fork-0.600
 "
+

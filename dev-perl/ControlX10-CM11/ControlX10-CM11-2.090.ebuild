@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBIRTH"
-DIST_VERSION="2.09"
-DIST_A="ControlX10-CM11-2.09.tar.gz"
+DIST_VERSION="2.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

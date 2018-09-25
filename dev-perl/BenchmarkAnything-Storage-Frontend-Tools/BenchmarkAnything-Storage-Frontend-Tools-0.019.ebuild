@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.019"
-DIST_A="BenchmarkAnything-Storage-Frontend-Tools-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

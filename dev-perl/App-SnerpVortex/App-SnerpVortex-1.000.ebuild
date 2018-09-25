@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCAPUTO"
-DIST_VERSION="1.000"
-DIST_A="App-SnerpVortex-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

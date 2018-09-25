@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ACHParser"
-DIST_VERSION="0.01"
-DIST_A="ACH-Parser-0.01.tar.gz"
+DIST_AUTHOR="CPKOIS"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/C/CP/CPKOIS/ACHParser/ACH-Parser-0.01.tar.gz -> ACH-Parser-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ACH-Parser-0.01 ${WORKDIR}/ACH-Parser-0.01
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.002"
-DIST_A="Catalyst-TraitFor-Controller-RenderView-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

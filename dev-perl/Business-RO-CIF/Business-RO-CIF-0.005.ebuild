@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFANS"
-DIST_VERSION="0.005"
-DIST_A="Business-RO-CIF-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

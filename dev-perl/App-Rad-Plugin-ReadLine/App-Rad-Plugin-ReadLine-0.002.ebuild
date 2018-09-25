@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOOLISH"
-DIST_VERSION="0.002"
-DIST_A="App-Rad-Plugin-ReadLine-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/App-Rad
 	virtual/perl-Test-Simple
 "
+

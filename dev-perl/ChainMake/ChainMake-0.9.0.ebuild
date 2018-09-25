@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SCHROEER"
-DIST_VERSION="0.9.0"
-DIST_A="ChainMake-0.9.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SC/SCHROEER/ChainMake/ChainMake-0.9.0.tar.gz"
+DIST_VERSION="0.9.0" 
+SRC_URI="mirror://cpan/authors/id/S/SC/SCHROEER/ChainMake/ChainMake-0.9.0.tar.gz -> ChainMake-0.9.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-Touch
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/ChainMake-0.9.0 ${WORKDIR}/ChainMake-0.9.0
+}
+

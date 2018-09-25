@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PREACTION"
-DIST_VERSION="1.007"
-DIST_A="Beam-Emitter-1.007.tar.gz"
+DIST_VERSION="1.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

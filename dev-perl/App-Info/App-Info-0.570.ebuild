@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="0.57"
-DIST_A="App-Info-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.270.100
 	>=virtual/perl-Test-Simple-0.170
 "
+

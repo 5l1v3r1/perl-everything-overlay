@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.0302"
-DIST_A="Bot-BasicBot-Pluggable-Module-DateTimeCalc-0.0302.tar.gz"
+DIST_VERSION="0.0302" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

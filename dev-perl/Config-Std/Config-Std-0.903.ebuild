@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICKER"
-DIST_VERSION="0.903"
-DIST_A="Config-Std-0.903.tar.gz"
+DIST_VERSION="0.903" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Harness-3.310
 "
+

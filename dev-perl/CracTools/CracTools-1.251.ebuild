@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAUDOUX"
-DIST_VERSION="1.251"
-DIST_A="CracTools-1.251.tar.gz"
+DIST_VERSION="1.251" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.230
 	virtual/perl-Test-Simple
 "
+

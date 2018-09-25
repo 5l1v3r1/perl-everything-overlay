@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.700"
-DIST_A="App-rlibperl-0.700.tar.gz"
+DIST_VERSION="0.700" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

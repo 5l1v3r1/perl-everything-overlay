@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="1.06"
-DIST_A="Aniki-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	dev-perl/Lingua-EN-Inflect
 	dev-perl/List-MoreUtils
 	dev-perl/List-UtilsBy
-	dev-perl/Mouse
+	>=dev-perl/Mouse-2.4.5
 	>=dev-perl/SQL-Maker-1.190
 	dev-perl/SQL-NamedPlaceholder
 	dev-perl/SQL-QueryMaker
@@ -45,6 +44,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/DBD-SQLite
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
+

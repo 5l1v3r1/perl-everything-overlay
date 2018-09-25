@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOJ"
-DIST_VERSION="0.26"
-DIST_A="Catmandu-PICA-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.430
 	>=dev-perl/Test-XML-0.080
 	>=virtual/perl-File-Temp-0.230.400
 	>=virtual/perl-IO-1.140
 	>=virtual/perl-Test-Simple-1.001.003
 "
+

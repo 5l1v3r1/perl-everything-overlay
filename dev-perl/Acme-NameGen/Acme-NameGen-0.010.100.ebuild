@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MZIESCHA"
-DIST_VERSION="0.010100"
-DIST_A="Acme-NameGen-0.010100.tar.gz"
+DIST_VERSION="0.010100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

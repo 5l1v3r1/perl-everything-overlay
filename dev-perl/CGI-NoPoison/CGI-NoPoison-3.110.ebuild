@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGODIN"
-DIST_VERSION="3.11"
-DIST_A="CGI-NoPoison-3.11.tar.gz"
+DIST_VERSION="3.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

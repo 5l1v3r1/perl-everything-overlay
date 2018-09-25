@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARTHAS"
-DIST_VERSION="v4.0.1"
-DIST_A="Arthas-Defaults-4.0.1.tar.gz"
+DIST_VERSION="4.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

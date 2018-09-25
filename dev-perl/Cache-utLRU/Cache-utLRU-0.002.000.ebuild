@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GONZUS"
-DIST_VERSION="0.002000"
-DIST_A="Cache-utLRU-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPTTOFU"
-DIST_VERSION="0.304"
-DIST_A="DBD-drizzle-0.304.tar.gz"
+DIST_VERSION="0.304" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

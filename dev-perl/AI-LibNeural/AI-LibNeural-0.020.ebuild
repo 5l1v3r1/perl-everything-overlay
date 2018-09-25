@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RMCFARLA"
-DIST_VERSION="0.02"
-DIST_A="AI-LibNeural-0.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/AI-LibNeural/AI-LibNeural-0.02.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/AI-LibNeural/AI-LibNeural-0.02.tar.gz -> AI-LibNeural-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AI-LibNeural-0.02 ${WORKDIR}/AI-LibNeural-0.02
+}
+

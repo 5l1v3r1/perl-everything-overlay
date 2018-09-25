@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAKJIN"
-DIST_VERSION="0.05"
-DIST_A="Acme-Aheui-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	virtual/perl-Test-Simple
 "
+

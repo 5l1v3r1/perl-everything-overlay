@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAY"
-DIST_VERSION="0.24"
-DIST_A="Compress-Snappy-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	>=virtual/perl-Test-Simple-0.820
 "
+

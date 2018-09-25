@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MACOPY"
-DIST_VERSION="0.09"
-DIST_A="App-Prove-Plugin-MySQLPool-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/DBD-mysql
 	dev-perl/DBI
+	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 "
+

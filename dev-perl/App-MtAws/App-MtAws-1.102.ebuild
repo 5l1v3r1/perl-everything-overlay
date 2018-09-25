@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VSESPB"
-DIST_VERSION="1.102"
-DIST_A="App-MtAws-1.102.tar.gz"
+DIST_VERSION="1.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,7 +38,6 @@ DEPEND="
 	dev-perl/DateTime
 	>=dev-perl/HTTP-Daemon-1.360
 	>=dev-perl/Test-Deep-0.092
-	dev-perl/Test-MockModule
 	dev-perl/Test-Spec
 	>=dev-perl/Test-Tabs-0.003
 	>=dev-perl/URI-1.100
@@ -48,3 +46,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-Time-HiRes
 "
+

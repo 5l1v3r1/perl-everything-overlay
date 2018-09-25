@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="0.1.0"
-DIST_A="Catalyst-Controller-ElasticSearch-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	>=virtual/perl-Test-Simple-0.880
 "
+

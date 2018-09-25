@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.010"
-DIST_A="Convert-AnyBase-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

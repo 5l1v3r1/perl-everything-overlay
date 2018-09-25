@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="1.235"
-DIST_A="Acme-UseStrict-1.235.tar.gz"
+DIST_VERSION="1.235" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.960
 "
+

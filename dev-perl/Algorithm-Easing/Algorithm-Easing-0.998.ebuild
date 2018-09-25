@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZENBAE"
-DIST_VERSION="0.998"
-DIST_A="Algorithm-Easing-0.998.tar.gz"
+DIST_VERSION="0.998" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

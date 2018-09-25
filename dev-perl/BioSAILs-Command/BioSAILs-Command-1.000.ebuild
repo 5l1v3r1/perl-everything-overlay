@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="1.0"
-DIST_A="BioSAILs-Command-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Class-Moose
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRAHAM"
-DIST_VERSION="0.12"
-DIST_A="CGI-Application-Plugin-FormState-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

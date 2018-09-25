@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAZZOR"
-DIST_VERSION="1.04"
-DIST_A="Bio-DOOP-DOOP-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

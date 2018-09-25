@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASH"
-DIST_VERSION="1.000003"
-DIST_A="Class-Discover-1.000003.tar.gz"
+DIST_VERSION="1.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

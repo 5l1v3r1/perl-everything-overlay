@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DERF"
-DIST_VERSION="0.54"
-DIST_A="App-Raps2-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
+	dev-perl/Test-Compile
+	dev-perl/Test-Fatal
+	dev-perl/Test-Pod
+	virtual/perl-Test-Simple
 "
+

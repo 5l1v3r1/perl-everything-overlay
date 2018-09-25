@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAM"
-DIST_VERSION="1.31"
-DIST_A="DBD-Firebird-1.31.tar.gz"
+DIST_VERSION="1.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.400
 	virtual/perl-Time-HiRes
 "
+

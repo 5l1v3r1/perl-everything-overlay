@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEFFOBER"
-DIST_VERSION="0.30"
-DIST_A="Coro-ProcessPool-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

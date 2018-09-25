@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONW"
-DIST_VERSION="1.0"
-DIST_A="Bot-BasicBot-Pluggable-Module-Search-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

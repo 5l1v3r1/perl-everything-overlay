@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORNELIUS"
-DIST_VERSION="0.05"
-DIST_A="App-cpanbaker-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
+

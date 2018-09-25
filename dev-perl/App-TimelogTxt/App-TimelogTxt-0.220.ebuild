@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWADEJ"
-DIST_VERSION="0.22"
-DIST_A="App-TimelogTxt-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
 "
+

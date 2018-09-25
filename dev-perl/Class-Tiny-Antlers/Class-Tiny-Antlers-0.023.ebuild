@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.023"
-DIST_A="Class-Tiny-Antlers-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.960
 "
+

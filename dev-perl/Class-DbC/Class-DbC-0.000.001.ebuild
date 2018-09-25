@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARUNBEAR"
-DIST_VERSION="0.000001"
-DIST_A="Class-DbC-0.000001.tar.gz"
+DIST_VERSION="0.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Lib-0.002
 	>=dev-perl/Test-Most-0.340
 	>=virtual/perl-Test-Simple-0.980
 "
+

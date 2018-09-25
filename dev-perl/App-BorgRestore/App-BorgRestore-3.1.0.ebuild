@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLUEWIND"
-DIST_VERSION="3.1.0"
-DIST_A="App-BorgRestore-3.1.0.tar.gz"
+DIST_VERSION="3.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,6 +37,7 @@ DEPEND="
 	dev-perl/Devel-CheckBin
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Log-Any-Adapter-TAP
+	dev-perl/Module-Build
 	dev-perl/Software-License
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
@@ -46,3 +46,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	>=virtual/perl-Test-Simple-0.980
 "
+

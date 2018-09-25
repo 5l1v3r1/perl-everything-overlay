@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERZ"
-DIST_VERSION="0.0002"
-DIST_A="Catalyst-Helper-View-SemanticUI-0.0002.tar.gz"
+DIST_VERSION="0.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

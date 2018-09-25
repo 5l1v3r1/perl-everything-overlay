@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="1.21"
-DIST_A="CGI-Application-Plugin-ErrorPage-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

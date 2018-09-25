@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRIMEBASE"
-DIST_VERSION="1.4003"
-DIST_A="DBD-PrimeBase-1.4003.tar.gz"
+DIST_VERSION="1.4003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

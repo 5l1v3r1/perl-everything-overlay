@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	dev-lang/perl
 	>=dev-perl/HTTP-Message-6.060
 	>=dev-perl/URI-1.640
 	>=dev-perl/YAML-Tiny-1.000

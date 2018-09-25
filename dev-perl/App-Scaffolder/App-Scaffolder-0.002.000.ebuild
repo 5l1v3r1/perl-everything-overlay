@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTOCK"
-DIST_VERSION="0.002000"
-DIST_A="App-Scaffolder-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	>=dev-perl/File-HomeDir-0.930
 	dev-perl/File-ShareDir
 	dev-perl/MRO-Compat
-	dev-perl/Path-Class
+	>=dev-perl/Path-Class-0.170
 	dev-perl/Template-Toolkit
 	virtual/perl-Carp
 	virtual/perl-File-Spec
@@ -39,3 +38,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-parent
 "
+

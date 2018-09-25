@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDPRICE"
-DIST_VERSION="1.09"
-DIST_A="App-Framework-Lite-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	>=virtual/perl-Test-Simple-0.420
 "
+

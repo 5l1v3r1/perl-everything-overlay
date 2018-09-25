@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.044"
-DIST_A="DBIx-Class-Migration-0.044.tar.gz"
+DIST_VERSION="0.044" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-Requires
 "
+

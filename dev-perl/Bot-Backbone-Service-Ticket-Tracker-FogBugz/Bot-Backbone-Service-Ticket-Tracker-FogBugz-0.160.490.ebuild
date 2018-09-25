@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.160490"
-DIST_A="Bot-Backbone-Service-Ticket-Tracker-FogBugz-0.160490.tar.gz"
+DIST_VERSION="0.160490" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

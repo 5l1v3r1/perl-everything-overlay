@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HMBRAND"
 DIST_VERSION="0.53"
-DIST_A="DBD-CSV-0.53.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/DBI-0.420
+	>=dev-perl/DBI-1.628
 	>=dev-perl/SQL-Statement-1.405
 	>=dev-perl/Text-CSV-XS-1.010
 	virtual/perl-Encode
@@ -28,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

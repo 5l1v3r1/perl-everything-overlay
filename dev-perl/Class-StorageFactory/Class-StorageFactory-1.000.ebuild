@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.0"
-DIST_A="Class-StorageFactory-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	>=virtual/perl-Test-Simple-0.470
 "
+

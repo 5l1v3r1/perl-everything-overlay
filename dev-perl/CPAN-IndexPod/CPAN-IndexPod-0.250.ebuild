@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBROCARD"
-DIST_VERSION="0.25"
-DIST_A="CPAN-IndexPod-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,9 +24,10 @@ RDEPEND="
 	>=dev-perl/Test-Exception-0.150
 	virtual/perl-Pod-Simple
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.010
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

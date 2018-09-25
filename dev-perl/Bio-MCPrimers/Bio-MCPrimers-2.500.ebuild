@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SLENK"
-DIST_VERSION="2.5"
-DIST_A="Bio-MCPrimers-2.5.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SL/SLENK/MCPrimers/Bio-MCPrimers-2.5.tar.gz"
+DIST_VERSION="2.5" 
+SRC_URI="mirror://cpan/authors/id/S/SL/SLENK/MCPrimers/Bio-MCPrimers-2.5.tar.gz -> Bio-MCPrimers-2.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bio-MCPrimers-2.5 ${WORKDIR}/Bio-MCPrimers-2.5
+}
+

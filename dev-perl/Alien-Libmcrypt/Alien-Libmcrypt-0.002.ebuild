@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LZH"
-DIST_VERSION="0.002"
-DIST_A="Alien-Libmcrypt-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Alien-Base-0.002
+	>=dev-perl/Alien-Build-0.002
 	>=dev-perl/File-ShareDir-1.030
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Base-ModuleBuild-0.002
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

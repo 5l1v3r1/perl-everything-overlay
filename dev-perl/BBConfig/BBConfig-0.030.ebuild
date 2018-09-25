@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PTHOMSEN"
-DIST_VERSION="0.03"
-DIST_A="BBConfig-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PT/PTHOMSEN/BoxBackup/BBConfig-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/P/PT/PTHOMSEN/BoxBackup/BBConfig-0.03.tar.gz -> BBConfig-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/BBConfig-0.03 ${WORKDIR}/BBConfig-0.03
+}
+

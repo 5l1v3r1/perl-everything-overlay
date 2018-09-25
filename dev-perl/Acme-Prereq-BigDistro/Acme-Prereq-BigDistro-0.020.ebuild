@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBYRD"
-DIST_VERSION="0.02"
-DIST_A="Acme-Prereq-BigDistro-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

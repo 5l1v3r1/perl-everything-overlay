@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CMO"
-DIST_VERSION="v0.2.6"
-DIST_A="Config-Validate-0.2.6.tar.gz"
+DIST_VERSION="0.2.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

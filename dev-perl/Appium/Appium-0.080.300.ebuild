@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GEMPESAW"
-DIST_VERSION="0.0803"
-DIST_A="Appium-0.0803.tar.gz"
+DIST_VERSION="0.0803" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	virtual/perl-Test-Simple
 "
+

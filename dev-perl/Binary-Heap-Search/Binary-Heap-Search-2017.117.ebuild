@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="2017.117"
-DIST_A="Binary-Heap-Search-2017.117.tar.gz"
+DIST_VERSION="2017.117" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

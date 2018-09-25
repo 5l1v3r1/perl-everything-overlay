@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYP"
-DIST_VERSION="0.047"
-DIST_A="AnyEvent-Net-Curl-Queued-0.047.tar.gz"
+DIST_VERSION="0.047" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Warn
 "
+

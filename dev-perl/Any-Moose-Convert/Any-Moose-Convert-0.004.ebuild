@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.004"
-DIST_A="Any-Moose-Convert-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Mouse-0.400
 	>=virtual/perl-Test-Simple-0.880
 "
+

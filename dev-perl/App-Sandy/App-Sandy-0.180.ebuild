@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMILLER"
-DIST_VERSION="0.18"
-DIST_A="App-Sandy-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -55,3 +54,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="1.0.0"
-DIST_A="Catalyst-Controller-POD-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-0.050
+	dev-lang/perl
 	dev-perl/Catalyst-Plugin-Static-Simple
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/Class-Accessor-0.310
@@ -25,7 +24,7 @@ RDEPEND="
 	>=dev-perl/JSON-XS-2.210
 	>=dev-perl/List-MoreUtils-0.220
 	dev-perl/Path-Class
-	dev-perl/Pod-POM
+	>=dev-perl/Pod-POM-0.170
 	>=dev-perl/Pod-POM-View-TOC-0.020
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.410
 	>=dev-perl/XML-Simple-2.180
@@ -40,3 +39,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	virtual/perl-File-Temp
 "
+

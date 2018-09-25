@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.4100"
-DIST_A="Acme-Ford-Prefect2-1.4100.tar.gz"
+DIST_VERSION="1.4100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test2-Suite-0.000.060
 	virtual/perl-Data-Dumper
 "
+

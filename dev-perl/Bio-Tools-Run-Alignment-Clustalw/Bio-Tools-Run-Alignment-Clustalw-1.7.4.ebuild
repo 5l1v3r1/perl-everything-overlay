@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDRAUG"
-DIST_VERSION="1.7.4"
-DIST_A="Bio-Tools-Run-Alignment-Clustalw-1.7.4.tar.gz"
+DIST_VERSION="1.7.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

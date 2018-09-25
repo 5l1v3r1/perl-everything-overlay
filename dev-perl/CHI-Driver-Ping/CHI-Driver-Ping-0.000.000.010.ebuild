@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SWALTERS"
-DIST_VERSION="0.00000001"
-DIST_A="CHI-Driver-Ping-0.00000001.tar.gz"
+DIST_VERSION="0.00000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

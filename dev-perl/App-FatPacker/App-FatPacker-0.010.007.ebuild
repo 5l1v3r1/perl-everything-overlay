@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.010007"
-DIST_A="App-FatPacker-0.010007.tar.gz"
+DIST_VERSION="0.010007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.820
 "
+

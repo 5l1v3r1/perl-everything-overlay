@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.103"
-DIST_A="Business-Giropay-0.103.tar.gz"
+DIST_VERSION="0.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/aliased
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPEEVES"
-DIST_VERSION="0.72"
-DIST_A="Apache-AuthenSmb-0.72.tar.gz"
+DIST_VERSION="0.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

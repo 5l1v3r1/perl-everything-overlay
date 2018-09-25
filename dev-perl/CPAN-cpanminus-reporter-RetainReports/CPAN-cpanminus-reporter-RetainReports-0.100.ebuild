@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKEENAN"
-DIST_VERSION="0.10"
-DIST_A="CPAN-cpanminus-reporter-RetainReports-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.440
 "
+

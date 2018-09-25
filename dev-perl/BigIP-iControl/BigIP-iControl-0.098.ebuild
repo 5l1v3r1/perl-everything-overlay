@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTP"
-DIST_VERSION="0.098"
-DIST_A="BigIP-iControl-0.098.tar.gz"
-b=L/LT/LTP/BigIP-iControl-0.098.tar.gz
+DIST_VERSION="0.098" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

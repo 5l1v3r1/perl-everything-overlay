@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINKLEY"
-DIST_VERSION="1.1"
-DIST_A="Class-Struct-FIELDS-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

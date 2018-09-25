@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSHIDA"
-DIST_VERSION="0.1.0"
-DIST_A="CatalystX-Plugin-Engine-FastCGI-Lighttpd-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 "
+

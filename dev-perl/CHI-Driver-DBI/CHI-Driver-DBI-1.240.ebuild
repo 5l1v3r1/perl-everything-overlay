@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="1.24"
-DIST_A="CHI-Driver-DBI-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

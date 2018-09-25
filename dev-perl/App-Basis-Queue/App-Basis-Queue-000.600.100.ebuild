@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOODFARM"
-DIST_VERSION="000.600.100"
-DIST_A="App-Basis-Queue-000.600.100.tar.gz"
+DIST_VERSION="000.600.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

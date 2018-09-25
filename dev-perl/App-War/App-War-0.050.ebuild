@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTRAMMELL"
-DIST_VERSION="0.05"
-DIST_A="App-War-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,11 +17,15 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Graph-0.840
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	>=dev-perl/Test-Script-1.060
+	>=dev-perl/Test-Warn-0.110
+	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="0.008"
-DIST_A="Bash-Completion-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Deep
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.980
 "
+

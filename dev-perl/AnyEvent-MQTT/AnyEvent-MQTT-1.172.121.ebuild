@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.172121"
-DIST_A="AnyEvent-MQTT-1.172121.tar.gz"
+DIST_VERSION="1.172121" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent-MockTCPServer
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

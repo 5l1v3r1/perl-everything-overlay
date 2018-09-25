@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="0.06"
-DIST_A="Apache-FakeTable-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.270.100
 	>=virtual/perl-Test-Simple-0.170
 "
+

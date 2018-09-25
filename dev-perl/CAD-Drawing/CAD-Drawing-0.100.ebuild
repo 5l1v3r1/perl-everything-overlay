@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Drawing"
-DIST_VERSION="0.10"
-DIST_A="CAD-Drawing-0.10.tar.gz"
+DIST_AUTHOR="EWILHELM"
+DIST_VERSION="0.10" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Drawing/CAD-Drawing-0.10.tar.gz -> CAD-Drawing-0.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CAD-Drawing-0.10 ${WORKDIR}/CAD-Drawing-0.10
+}
+

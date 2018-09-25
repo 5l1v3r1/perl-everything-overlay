@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HISSO"
-DIST_VERSION="3.6"
-DIST_A="Alien-SeleniumRC-3.6.tar.gz"
+DIST_VERSION="3.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

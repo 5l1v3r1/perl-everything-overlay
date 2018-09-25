@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="0.004"
-DIST_A="App-BarnesNoble-WishListMinder-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,4 +34,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
+

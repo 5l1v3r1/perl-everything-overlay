@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="0.21"
-DIST_A="App-Maisha-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,12 +21,12 @@ RDEPEND="
 	dev-perl/File-HomeDir
 	>=dev-perl/Module-Pluggable-2.700
 	>=dev-perl/Net-Twitter-3.180.030
+	dev-perl/Pod-Usage
 	dev-perl/Term-Shell
 	virtual/perl-Carp
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Storable
 	>=virtual/perl-Test-Simple-0.700
 	virtual/perl-Text-Tabs+Wrap
@@ -36,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

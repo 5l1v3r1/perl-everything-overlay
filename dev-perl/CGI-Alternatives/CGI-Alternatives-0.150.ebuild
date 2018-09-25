@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.15"
-DIST_A="CGI-Alternatives-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

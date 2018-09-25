@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JONATAYAH"
 DIST_VERSION="0.00004"
-DIST_A="Captcha-AreYouAHuman-0.00004.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

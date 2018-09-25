@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="0.56"
-DIST_A="DBIx-Connector-0.56.tar.gz"
+DIST_VERSION="0.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.300
-	>=dev-perl/Test-MockModule-0.050
 	>=virtual/perl-Test-Simple-0.880
 "
+

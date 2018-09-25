@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="0.200100"
-DIST_A="DBIx-Class-AuditAny-0.200100.tar.gz"
+DIST_VERSION="0.200100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,9 +45,10 @@ DEPEND="
 	>=dev-perl/DBICx-TestDatabase-0.040
 	>=dev-perl/Module-Install-1.080
 	dev-perl/String-Random
-	>=dev-perl/Test-Routine-0.020
+	dev-perl/Test-Routine
 	dev-perl/base
 	dev-perl/lib
 	dev-perl/namespace-autoclean
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

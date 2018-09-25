@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMB"
-DIST_VERSION="1.012"
-DIST_A="Apache-Status-DBI-1.012.tar.gz"
+DIST_VERSION="1.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

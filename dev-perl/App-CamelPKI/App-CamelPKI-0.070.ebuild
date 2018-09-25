@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="CamelPKI"
-DIST_VERSION="0.07"
-DIST_A="App-CamelPKI-0.07.tar.gz"
+DIST_AUTHOR="GRM"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRM/CamelPKI/App-CamelPKI-0.07.tar.gz -> App-CamelPKI-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -61,3 +61,9 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-autodie
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/App-CamelPKI-0.07 ${WORKDIR}/App-CamelPKI-0.07
+}
+

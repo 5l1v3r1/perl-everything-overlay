@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVID"
-DIST_VERSION="0.12"
-DIST_A="DBIx-Class-EasyFixture-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,5 +34,8 @@ DEPEND="
 	dev-perl/DateTime
 	>=dev-perl/DateTime-Format-SQLite-0.110
 	dev-perl/Test-Most
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

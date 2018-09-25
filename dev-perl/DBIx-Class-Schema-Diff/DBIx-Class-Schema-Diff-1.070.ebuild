@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="1.07"
-DIST_A="DBIx-Class-Schema-Diff-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="2.46"
-DIST_A="Apache2-ASP-2.46.tar.gz"
+DIST_VERSION="2.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,7 +33,7 @@ RDEPEND="
 	>=dev-perl/XML-Simple-2.180
 	>=virtual/perl-Digest-MD5-2.360
 	>=virtual/perl-Encode-2.230
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-IO-1.140
 	>=virtual/perl-Storable-2.180
 	>=virtual/perl-Test-Simple-0.770
@@ -43,3 +42,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

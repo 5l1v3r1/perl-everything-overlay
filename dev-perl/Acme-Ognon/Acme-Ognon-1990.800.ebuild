@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="1990.8"
-DIST_A="Acme-Ognon-1990.8.tar.gz"
+DIST_VERSION="1990.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

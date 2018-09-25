@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BESSARABV"
-DIST_VERSION="v1.0.5"
-DIST_A="App-AllMyChangesUtils-1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

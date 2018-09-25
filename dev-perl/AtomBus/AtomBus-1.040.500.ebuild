@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="1.0405"
-DIST_A="AtomBus-1.0405.tar.gz"
+DIST_VERSION="1.0405" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

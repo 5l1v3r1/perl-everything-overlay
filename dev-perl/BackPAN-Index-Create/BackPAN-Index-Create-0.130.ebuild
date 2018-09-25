@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.13"
-DIST_A="BackPAN-Index-Create-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/File-Touch
+	dev-perl/lib
+	virtual/perl-Exporter
+	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="0.05"
-DIST_A="AnyEvent-ReverseHTTP-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

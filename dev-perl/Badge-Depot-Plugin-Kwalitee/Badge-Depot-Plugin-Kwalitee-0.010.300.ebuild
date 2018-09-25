@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0103"
-DIST_A="Badge-Depot-Plugin-Kwalitee-0.0103.tar.gz"
+DIST_VERSION="0.0103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

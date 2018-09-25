@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZABGAB"
-DIST_VERSION="0.04"
-DIST_A="CPAN-Test-Dummy-SCO-Special-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	dev-perl/Module-Build
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-1.000
 "
+

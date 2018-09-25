@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROMM"
-DIST_VERSION="1.22"
-DIST_A="Chess-FIDE-1.22.tar.gz"
+DIST_VERSION="1.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.401
 	virtual/perl-Test-Simple
 "
+

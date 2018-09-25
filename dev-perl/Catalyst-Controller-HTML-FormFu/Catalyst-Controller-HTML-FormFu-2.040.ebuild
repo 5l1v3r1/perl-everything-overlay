@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIGELM"
-DIST_VERSION="2.04"
-DIST_A="Catalyst-Controller-HTML-FormFu-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Component-InstancePerContext
 	dev-perl/Catalyst-Runtime
 	dev-perl/Config-Any
-	>=dev-perl/HTML-FormFu-2.060
+	dev-perl/HTML-FormFu
 	>=dev-perl/HTML-FormFu-MultiForm-1.020
 	dev-perl/Moose
 	dev-perl/MooseX-Attribute-Chained
@@ -59,3 +58,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.920
 "
+

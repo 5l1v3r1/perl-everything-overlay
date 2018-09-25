@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCANEZ"
-DIST_VERSION="0.0002"
-DIST_A="DBIx-Class-Schema-RestrictWithObject-0.0002.tar.gz"
+DIST_VERSION="0.0002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

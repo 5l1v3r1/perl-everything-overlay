@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WILLERT"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-Model-EmailStore-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Catalyst-Runtime-5.550
 	>=dev-perl/Email-Store-0.240
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

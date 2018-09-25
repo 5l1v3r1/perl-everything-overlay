@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANR"
-DIST_VERSION="0.002"
-DIST_A="App-FastishCGI-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,14 +18,20 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-FCGI
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-Sys-Syslog
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/CGI
+	dev-perl/Chart
+	dev-perl/YAML
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
+

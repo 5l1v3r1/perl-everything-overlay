@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.002"
-DIST_A="Alien-Build-Plugin-Build-Premake5-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Test2-Suite
 "
+

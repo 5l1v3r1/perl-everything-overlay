@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSHANGOV"
-DIST_VERSION="0.001"
-DIST_A="CPAN-Local-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

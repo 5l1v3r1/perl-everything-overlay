@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WESM"
-DIST_VERSION="0.23"
-DIST_A="CGI-Application-Plugin-Authentication-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Without-Module
 	>=virtual/perl-Test-Simple-1.302.015
 "
+

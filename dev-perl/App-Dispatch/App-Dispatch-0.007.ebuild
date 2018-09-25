@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.007"
-DIST_A="App-Dispatch-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=virtual/perl-Test-Simple-0.880
 "
+

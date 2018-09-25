@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CLOTHO"
 DIST_VERSION="1.17"
-DIST_A="CAM-SOAPClient-1.17.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-IO-1.000
 	>=virtual/perl-Test-Simple-0.010
 "
+

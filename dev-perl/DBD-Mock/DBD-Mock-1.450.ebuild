@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="DBD-Mock"
-DIST_VERSION="1.45"
-DIST_A="DBD-Mock-1.45.tar.gz"
+DIST_AUTHOR="DICHI"
+DIST_VERSION="1.45" 
+SRC_URI="mirror://cpan/authors/id/D/DI/DICHI/DBD-Mock/DBD-Mock-1.45.tar.gz -> DBD-Mock-1.45.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +23,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBD-Mock-1.45 ${WORKDIR}/DBD-Mock-1.45
+}
+

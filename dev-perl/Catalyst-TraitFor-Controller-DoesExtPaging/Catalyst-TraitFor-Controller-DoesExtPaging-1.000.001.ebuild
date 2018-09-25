@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="1.000001"
-DIST_A="Catalyst-TraitFor-Controller-DoesExtPaging-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	>=virtual/perl-Test-Simple-0.920
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYEMQ"
-DIST_VERSION="1.032"
-DIST_A="Algorithm-Loops-1.032.tar.gz"
+DIST_VERSION="1.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

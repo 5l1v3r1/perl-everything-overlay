@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.010"
-DIST_A="CPAN-Repository-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.220
 	>=virtual/perl-Test-Simple-0.900
 "
+

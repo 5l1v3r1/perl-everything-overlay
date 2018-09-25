@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBURKE"
-DIST_VERSION="0.05"
-DIST_A="DBIx-Class-Objects-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Class-Load
 	dev-perl/Moose
 	dev-perl/MooseX-Role-Parameterized
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -31,5 +31,7 @@ DEPEND="
 	dev-perl/DBIx-Class-EasyFixture
 	dev-perl/DateTime
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

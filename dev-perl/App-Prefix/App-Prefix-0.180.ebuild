@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOSHR"
-DIST_VERSION="0.18"
-DIST_A="App-Prefix-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/File-Slurp
+	dev-perl/IPC-Run
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
+

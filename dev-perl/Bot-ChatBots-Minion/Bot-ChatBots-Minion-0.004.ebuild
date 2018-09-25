@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="0.004"
-DIST_A="Bot-ChatBots-Minion-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Minion-Backend-SQLite-0.007
 	>=dev-perl/Mock-Quick-1.111
+	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.096
 	dev-perl/Test-Trap
 	>=virtual/perl-Test-Simple-0.880
 "
+

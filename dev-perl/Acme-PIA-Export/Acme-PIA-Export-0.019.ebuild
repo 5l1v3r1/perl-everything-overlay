@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="acme-pia-export"
-DIST_VERSION="0.019"
-DIST_A="Acme-PIA-Export-0.019.tar.gz"
+DIST_AUTHOR="CHRWIN"
+DIST_VERSION="0.019" 
+SRC_URI="mirror://cpan/authors/id/C/CH/CHRWIN/acme-pia-export/Acme-PIA-Export-0.019.tar.gz -> Acme-PIA-Export-0.019.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Acme-PIA-Export-0.019 ${WORKDIR}/Acme-PIA-Export-0.019
+}
+

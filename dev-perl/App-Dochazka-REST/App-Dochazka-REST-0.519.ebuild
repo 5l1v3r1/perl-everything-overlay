@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMITHFARM"
-DIST_VERSION="0.519"
-DIST_A="App-Dochazka-REST-0.519.tar.gz"
+DIST_VERSION="0.519" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	dev-perl/Test-JSON
 	dev-perl/Test-Warnings
 "
+

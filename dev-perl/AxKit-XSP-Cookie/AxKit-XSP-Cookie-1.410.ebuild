@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSERGEANT"
-DIST_VERSION="1.41"
-DIST_A="AxKit-XSP-Cookie-1.41.tar.gz"
+DIST_VERSION="1.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

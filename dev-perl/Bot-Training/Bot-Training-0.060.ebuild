@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FIBO"
-DIST_VERSION="0.06"
-DIST_A="Bot-Training-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,6 +34,8 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
+	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

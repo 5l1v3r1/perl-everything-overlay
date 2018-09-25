@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="0.53"
-DIST_A="CGI-Application-Dispatch-Server-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/CGI-Application
 	dev-perl/CGI-Application-Dispatch
 	dev-perl/HTTP-Message
-	dev-perl/HTTP-Server-Simple
+	>=dev-perl/HTTP-Server-Simple-0.180
 	>=dev-perl/HTTP-Server-Simple-Static-0.020
 	dev-perl/IO-Capture
 	dev-perl/Params-Validate
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=virtual/perl-Test-Simple-0.470
 "
+

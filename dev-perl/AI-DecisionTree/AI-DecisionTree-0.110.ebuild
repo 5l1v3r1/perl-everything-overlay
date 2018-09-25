@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KWILLIAMS"
-DIST_VERSION="0.11"
-DIST_A="AI-DecisionTree-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

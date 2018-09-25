@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMERELO"
-DIST_VERSION="0.80"
-DIST_A="Algorithm-Evolutionary-0.80.tar.gz"
+DIST_VERSION="0.80" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

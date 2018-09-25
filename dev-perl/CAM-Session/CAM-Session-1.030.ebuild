@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CLOTHO"
 DIST_VERSION="1.03"
-DIST_A="CAM-Session-1.03.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,12 +16,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/CGI-1.000
+	>=dev-perl/CGI-2.000
 	>=dev-perl/DBI-1.000
 	>=virtual/perl-Digest-MD5-2.000
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/DBD-mysql-0.010
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

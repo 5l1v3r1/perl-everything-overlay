@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKAJI"
-DIST_VERSION="0.006"
-DIST_A="CPAN-Perl-Releases-MetaCPAN-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 "
+

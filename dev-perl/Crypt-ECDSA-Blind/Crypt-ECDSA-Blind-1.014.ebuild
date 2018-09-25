@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HASH"
-DIST_VERSION="1.014"
-DIST_A="Crypt-ECDSA-Blind-1.014.tar.gz"
+DIST_VERSION="1.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

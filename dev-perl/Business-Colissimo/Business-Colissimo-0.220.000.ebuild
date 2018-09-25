@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.2200"
-DIST_A="Business-Colissimo-0.2200.tar.gz"
+DIST_VERSION="0.2200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

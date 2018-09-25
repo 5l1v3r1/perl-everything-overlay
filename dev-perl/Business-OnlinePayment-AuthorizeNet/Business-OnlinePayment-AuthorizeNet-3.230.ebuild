@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVAN"
-DIST_VERSION="3.23"
-DIST_A="Business-OnlinePayment-AuthorizeNet-3.23.tar.gz"
+DIST_VERSION="3.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Business-OnlinePayment-3.000
+	dev-perl/Business-OnlinePayment
 	dev-perl/Net-HTTPS-Any
 	dev-perl/Text-CSV-XS
 	dev-perl/Tie-IxHash
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

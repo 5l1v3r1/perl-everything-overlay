@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DEXTER"
-DIST_VERSION="0.0102"
-DIST_A="App-perluse-0.0102.tar.gz"
+DIST_VERSION="0.0102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

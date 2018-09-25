@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBIN"
-DIST_VERSION="0.999"
-DIST_A="Algorithm-FastPermute-0.999.tar.gz"
+DIST_VERSION="0.999" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

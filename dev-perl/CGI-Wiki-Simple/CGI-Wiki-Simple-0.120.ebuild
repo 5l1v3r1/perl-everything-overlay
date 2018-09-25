@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.12"
-DIST_A="CGI-Wiki-Simple-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/CGI-Application-3.000
-	>=dev-perl/CGI-Wiki-0.260
 	>=dev-perl/Class-Delegation-1.060
 	dev-perl/HTML-Parser
 	>=dev-perl/Test-HTML-Content-0.030
@@ -30,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

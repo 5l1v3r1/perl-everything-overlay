@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRODITI"
-DIST_VERSION="0.001000"
-DIST_A="Cantella-Worker-Role-Beanstalk-0.001000.tar.gz"
+DIST_VERSION="0.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Log-Dispatch-Array
 	dev-perl/Test-Most
 "
+

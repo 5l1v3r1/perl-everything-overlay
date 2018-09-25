@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HINRIK"
-DIST_VERSION="0.47"
-DIST_A="App-Pocoirc-0.47.tar.gz"
+DIST_VERSION="0.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.070
 	>=virtual/perl-Test-Simple-0.470
 "
+

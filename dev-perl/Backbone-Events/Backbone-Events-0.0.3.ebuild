@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAF"
-DIST_VERSION="v0.0.3"
-DIST_A="Backbone-Events-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

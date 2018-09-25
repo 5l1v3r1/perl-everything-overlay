@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORIAN"
-DIST_VERSION="0.07"
-DIST_A="Apache2-HTML-Detergent-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Apache-Test
 	virtual/perl-Test-Simple
 "
+

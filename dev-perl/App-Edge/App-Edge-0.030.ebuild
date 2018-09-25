@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.03"
-DIST_A="App-Edge-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Usage
 	>=virtual/perl-Getopt-Long-2.420
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/Test-Output
+	>=virtual/perl-Test-Simple-0.880
 "
+

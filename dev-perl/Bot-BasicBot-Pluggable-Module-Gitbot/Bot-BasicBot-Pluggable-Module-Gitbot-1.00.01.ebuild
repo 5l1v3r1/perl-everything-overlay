@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHELWIG"
-DIST_VERSION="1.00.01"
-DIST_A="Bot-BasicBot-Pluggable-Module-Gitbot-1.00.01.tar.gz"
+DIST_VERSION="1.00.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-TempDir
 	virtual/perl-Test-Simple
 "
+

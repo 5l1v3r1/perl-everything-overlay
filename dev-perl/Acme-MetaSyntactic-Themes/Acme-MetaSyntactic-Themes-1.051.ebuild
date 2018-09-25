@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="1.051"
-DIST_A="Acme-MetaSyntactic-Themes-1.051.tar.gz"
+DIST_VERSION="1.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

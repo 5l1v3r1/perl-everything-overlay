@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="1.59"
-DIST_A="Apache2-ASP-1.59.tar.gz"
+DIST_VERSION="1.59" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLOYD"
-DIST_VERSION="0.16"
-DIST_A="Algorithm-Permute-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-LeakTrace
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.009"
-DIST_A="Block-NamedVar-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=dev-perl/Fennec-2.017
 "
+

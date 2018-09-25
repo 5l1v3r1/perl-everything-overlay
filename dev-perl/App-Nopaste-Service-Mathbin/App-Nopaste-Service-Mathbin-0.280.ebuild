@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.28"
-DIST_A="App-Nopaste-Service-Mathbin-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/App-Nopaste
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -25,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

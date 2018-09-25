@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLMARTIN"
-DIST_VERSION="0.28"
-DIST_A="Catalyst-Plugin-Server-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.660
 	dev-perl/MRO-Compat
-	>=dev-perl/RPC-XML-1.120
+	>=dev-perl/RPC-XML-1.350
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

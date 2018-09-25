@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIM"
-DIST_VERSION="0.22"
-DIST_A="Acme-CPANAuthors-Czech-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

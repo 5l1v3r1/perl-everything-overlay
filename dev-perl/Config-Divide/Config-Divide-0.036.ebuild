@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIRAFOO"
-DIST_VERSION="0.036"
-DIST_A="Config-Divide-0.036.tar.gz"
+DIST_VERSION="0.036" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,5 +29,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
+

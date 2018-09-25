@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="1.21"
-DIST_A="Attribute-Params-Validate-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

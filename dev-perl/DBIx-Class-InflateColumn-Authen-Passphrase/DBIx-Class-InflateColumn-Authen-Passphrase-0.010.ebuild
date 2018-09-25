@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="0.01"
-DIST_A="DBIx-Class-InflateColumn-Authen-Passphrase-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/SQL-Translator
 	>=virtual/perl-Test-Simple-0.890
 "
+

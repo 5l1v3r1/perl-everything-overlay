@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.110250"
-DIST_A="Class-Value-Net-1.110250.tar.gz"
+DIST_VERSION="1.110250" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 "
+

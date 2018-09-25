@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KNTH"
-DIST_VERSION="0.050"
-DIST_A="App-TestOnTap-0.050.tar.gz"
+DIST_VERSION="0.050" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,20 +17,17 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Archive-Zip-1.470
-	dev-perl/Capture-Tiny
 	dev-perl/Config-Std
 	dev-perl/File-Copy-Recursive
 	dev-perl/File-Slurp
 	>=dev-perl/Grep-Query-1.006
 	dev-perl/JSON
-	>=dev-perl/Module-Build-0.420
 	dev-perl/Pod-Usage
 	dev-perl/Sort-Naturally
 	dev-perl/UUID-Tiny
 	dev-perl/libwww-perl
 	virtual/perl-Exporter
 	virtual/perl-ExtUtils-Install
-	>=virtual/perl-ExtUtils-MakeMaker-7.120
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -39,9 +35,13 @@ RDEPEND="
 	virtual/perl-Pod-Simple
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Harness
-	>=virtual/perl-Test-Simple-1.302.085
 	virtual/perl-libnet
 "
 DEPEND="
 	${RDEPEND}
+	>=dev-perl/Module-Build-0.420
+	>=virtual/perl-ExtUtils-MakeMaker-7.120
+	dev-perl/Capture-Tiny
+	>=virtual/perl-Test-Simple-1.302.085
 "
+

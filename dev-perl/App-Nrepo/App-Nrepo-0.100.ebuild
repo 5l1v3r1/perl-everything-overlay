@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEVO"
-DIST_VERSION="0.1"
-DIST_A="App-Nrepo-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Moo
 	dev-perl/Params-Validate
+	dev-perl/Pod-Usage
 	dev-perl/XML-LibXML
 	dev-perl/XML-Twig
 	dev-perl/namespace-clean
@@ -36,10 +36,10 @@ RDEPEND="
 	virtual/perl-Getopt-Long
 	virtual/perl-HTTP-Tiny
 	virtual/perl-IO-Zlib
-	virtual/perl-Pod-Usage
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

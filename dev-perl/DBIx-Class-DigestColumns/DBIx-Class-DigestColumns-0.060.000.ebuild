@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRODITI"
-DIST_VERSION="0.06000"
-DIST_A="DBIx-Class-DigestColumns-0.06000.tar.gz"
+DIST_VERSION="0.06000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/DBD-SQLite-1.110
+	dev-perl/Module-Build
 "
+

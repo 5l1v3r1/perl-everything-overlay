@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.013"
-DIST_A="Child-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Capture-Tiny-0.310
 	>=virtual/perl-Test-Simple-0.880
 "
+

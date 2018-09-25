@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LSAUNDERS"
-DIST_VERSION="1.000002"
-DIST_A="DBIx-Class-Fixtures-1.000002.tar.gz"
-b=L/LS/LSAUNDERS/DBIx-Class-Fixtures-1.000002.tar.gz
+DIST_VERSION="1.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +33,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

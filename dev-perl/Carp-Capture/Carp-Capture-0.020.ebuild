@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THAIRMAN"
-DIST_VERSION="0.02"
-DIST_A="Carp-Capture-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.180
+	>=dev-lang/perl-1.060
 	>=dev-perl/Carp-Proxy-0.120
 	>=dev-perl/Moose-2.100.500
 	>=dev-perl/Readonly-1.040
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-1.001
 "
+

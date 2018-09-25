@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="CouchDB-ExternalProcess"
-DIST_VERSION="0.02"
-DIST_A="CouchDB-ExternalProcess-0.02.tar.gz"
+DIST_AUTHOR="FANSIPANS"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/F/FA/FANSIPANS/CouchDB-ExternalProcess/CouchDB-ExternalProcess-0.02.tar.gz -> CouchDB-ExternalProcess-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/CouchDB-ExternalProcess-0.02 ${WORKDIR}/CouchDB-ExternalProcess-0.02
+}
+

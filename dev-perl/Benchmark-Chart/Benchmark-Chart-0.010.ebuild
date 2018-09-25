@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DOHNTO"
 DIST_VERSION="0.01"
-DIST_A="Benchmark-Chart-0.01.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

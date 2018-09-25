@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LSTEVENS"
-DIST_VERSION="2.07"
-DIST_A="Control-CLI-2.07.tar.gz"
-b=L/LS/LSTEVENS/Control-CLI-2.07.tar.gz
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +26,4 @@ DEPEND="
 	dev-perl/IO-Interactive
 	dev-perl/Net-Telnet
 "
+

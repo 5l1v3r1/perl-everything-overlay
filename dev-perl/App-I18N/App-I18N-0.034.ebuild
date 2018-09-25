@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORNELIUS"
-DIST_VERSION="0.034"
-DIST_A="App-I18N-0.034.tar.gz"
+DIST_VERSION="0.034" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

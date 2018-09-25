@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LSAUNDERS"
-DIST_VERSION="1.001000"
-DIST_A="DBIx-Class-ResultSet-WithMetaData-1.001000.tar.gz"
+DIST_VERSION="1.001000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

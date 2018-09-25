@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ISAAC"
-DIST_VERSION="0.9915"
-DIST_A="Apache-UploadMeter-0.9915.tar.gz"
+DIST_VERSION="0.9915" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

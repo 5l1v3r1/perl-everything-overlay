@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSHIRLEY"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-Plugin-MessageStack-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Data-Dump
 	dev-perl/Test-WWW-Mechanize-Catalyst
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESM"
-DIST_VERSION="2.09"
-DIST_A="CGI-Alert-2.09.tar.gz"
+DIST_VERSION="2.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

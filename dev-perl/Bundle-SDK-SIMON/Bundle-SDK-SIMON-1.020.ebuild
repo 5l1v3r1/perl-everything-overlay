@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Bundle"
-DIST_VERSION="1.02"
-DIST_A="Bundle-SDK-SIMON-1.02.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Bundle/Bundle-SDK-SIMON-1.02.tar.gz -> Bundle-SDK-SIMON-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Bundle-SDK-SIMON-1.02 ${WORKDIR}/Bundle-SDK-SIMON-1.02
+}
+

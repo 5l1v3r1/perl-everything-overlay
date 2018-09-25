@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRYPHON"
-DIST_VERSION="1.02"
-DIST_A="Bible-OBML-Gateway-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

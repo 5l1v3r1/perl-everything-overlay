@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSD"
-DIST_VERSION="0.1.24"
-DIST_A="Authen-SimplePam-0.1.24.tar.gz"
+DIST_VERSION="0.1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

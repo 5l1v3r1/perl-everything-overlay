@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HUANGWEI"
-DIST_VERSION="1.010"
-DIST_A="Class-Builder-1.010.tar.gz"
+DIST_VERSION="1.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

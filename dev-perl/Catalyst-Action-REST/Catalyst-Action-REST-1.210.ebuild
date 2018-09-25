@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="1.21"
-DIST_A="Catalyst-Action-REST-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/libwww-perl-5.000
 	>=virtual/perl-Test-Simple-0.880
 "
+

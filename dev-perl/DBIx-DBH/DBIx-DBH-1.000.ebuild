@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="TBONE"
 DIST_VERSION="1.0"
-DIST_A="DBIx-DBH-1.0.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

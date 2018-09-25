@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.05"
-DIST_A="Catalyst-Plugin-Session-AsObject-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Catalyst-Plugin-Session-0.270
 	dev-perl/MRO-Compat
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -28,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Spelling
 	>=virtual/perl-Test-Simple-0.880
 "
+

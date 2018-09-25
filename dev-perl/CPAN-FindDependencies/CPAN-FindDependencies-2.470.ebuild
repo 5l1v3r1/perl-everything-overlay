@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="2.47"
-DIST_A="CPAN-FindDependencies-2.47.tar.gz"
+DIST_VERSION="2.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

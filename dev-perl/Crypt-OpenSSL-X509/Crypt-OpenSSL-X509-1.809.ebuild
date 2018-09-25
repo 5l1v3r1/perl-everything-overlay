@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASBN"
-DIST_VERSION="1.809"
-DIST_A="Crypt-OpenSSL-X509-1.809.tar.gz"
+DIST_VERSION="1.809" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

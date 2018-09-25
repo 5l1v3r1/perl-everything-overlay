@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="0.001"
-DIST_A="DBD-AnyData2-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/AnyData2-0.002
-	>=dev-perl/DBI-0.440
+	>=dev-perl/DBI-1.633
 	dev-perl/Module-Runtime
 	>=dev-perl/SQL-Statement-1.405
 	virtual/perl-Carp
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.900
 "
+

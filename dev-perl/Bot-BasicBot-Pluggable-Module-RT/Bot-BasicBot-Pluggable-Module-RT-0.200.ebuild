@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMS"
-DIST_VERSION="0.20"
-DIST_A="Bot-BasicBot-Pluggable-Module-RT-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

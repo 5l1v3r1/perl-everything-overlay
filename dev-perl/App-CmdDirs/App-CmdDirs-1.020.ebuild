@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DINOMITE"
-DIST_VERSION="1.02"
-DIST_A="App-CmdDirs-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Class-0.360
 	>=dev-perl/Test-Perl-Critic-1.020
 "
+

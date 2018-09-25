@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAWNSY"
-DIST_VERSION="1.004"
-DIST_A="Alien-Libjio-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-ParseXS
 	>=virtual/perl-Test-Simple-0.620
 "
+

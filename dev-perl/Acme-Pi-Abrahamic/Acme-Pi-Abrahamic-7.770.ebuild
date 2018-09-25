@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEY"
-DIST_VERSION="7.77"
-DIST_A="Acme-Pi-Abrahamic-7.77.tar.gz"
+DIST_VERSION="7.77" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

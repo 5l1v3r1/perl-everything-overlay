@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ONEONETWO"
-DIST_VERSION="5.0"
-DIST_A="Array-KeepGrepped-5.tar.gz"
+DIST_VERSION="5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

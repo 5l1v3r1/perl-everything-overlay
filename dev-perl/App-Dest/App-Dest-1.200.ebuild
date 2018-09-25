@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRYPHON"
-DIST_VERSION="1.20"
-DIST_A="App-Dest-1.20.tar.gz"
+DIST_VERSION="1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

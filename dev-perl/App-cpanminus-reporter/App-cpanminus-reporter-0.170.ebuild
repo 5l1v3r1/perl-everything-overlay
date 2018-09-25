@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GARU"
-DIST_VERSION="0.17"
-DIST_A="App-cpanminus-reporter-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/IO-Prompt-Tiny
 	dev-perl/LWP-Protocol-https
 	dev-perl/Metabase-Fact
+	dev-perl/Pod-Usage
 	>=dev-perl/Test-Reporter-1.540
 	dev-perl/Test-Reporter-Transport-Metabase
 	dev-perl/Try-Tiny
@@ -31,11 +31,10 @@ RDEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-File-Spec-3.190
 	virtual/perl-Getopt-Long
-	virtual/perl-Parse-CPAN-Meta
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

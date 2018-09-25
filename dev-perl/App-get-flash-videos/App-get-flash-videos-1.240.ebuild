@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MONSIEUR"
-DIST_VERSION="1.24"
-DIST_A="App-get_flash_videos-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="0.20"
-DIST_A="Code-TidyAll-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Class-Most
 "
+

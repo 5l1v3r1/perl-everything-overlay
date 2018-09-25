@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSHANGOV"
-DIST_VERSION="0.002"
-DIST_A="CPAN-Faker-HTTPD-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

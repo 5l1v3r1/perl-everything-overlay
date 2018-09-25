@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NRG"
-DIST_VERSION="1.09"
-DIST_A="API-Plesk-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

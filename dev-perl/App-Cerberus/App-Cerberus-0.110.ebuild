@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BABF"
-DIST_VERSION="0.11"
-DIST_A="App-Cerberus-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,7 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	dev-perl/Time-OlsonTZ-Data
 	dev-perl/YAML
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
@@ -37,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

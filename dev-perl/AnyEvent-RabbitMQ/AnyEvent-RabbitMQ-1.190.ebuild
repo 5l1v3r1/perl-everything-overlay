@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLAMBLEY"
-DIST_VERSION="1.19"
-DIST_A="AnyEvent-RabbitMQ-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

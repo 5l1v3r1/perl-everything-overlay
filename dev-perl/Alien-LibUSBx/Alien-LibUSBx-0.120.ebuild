@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIX"
-DIST_VERSION="0.12"
-DIST_A="Alien-LibUSBx-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.003
+	>=dev-perl/Alien-Build-0.003
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Archive-Tar
 	virtual/perl-Carp
 "
+

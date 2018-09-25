@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUENALAN"
-DIST_VERSION="0.01.04"
-DIST_A="Class-Listener-0.01.04.tar.gz"
+DIST_VERSION="0.01.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

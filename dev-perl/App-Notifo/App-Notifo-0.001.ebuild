@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELO"
-DIST_VERSION="0.001"
-DIST_A="App-Notifo-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Usage
 	dev-perl/WebService-Notifo
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

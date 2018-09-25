@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.18"
-DIST_A="Archer-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/IO-stringy
 	>=virtual/perl-Test-Simple-0.980
 "
+

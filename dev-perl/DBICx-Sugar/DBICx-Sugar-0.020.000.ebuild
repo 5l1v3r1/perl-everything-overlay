@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="0.0200"
-DIST_A="DBICx-Sugar-0.0200.tar.gz"
+DIST_VERSION="0.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THILO"
-DIST_VERSION="0.18"
-DIST_A="CGI-Application-Plugin-AutoRunmode-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

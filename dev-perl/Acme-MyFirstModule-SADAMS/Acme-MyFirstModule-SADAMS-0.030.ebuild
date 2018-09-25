@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="DPAKPERL"
 DIST_VERSION="0.03"
-DIST_A="Acme-MyFirstModule-SADAMS-0.03.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

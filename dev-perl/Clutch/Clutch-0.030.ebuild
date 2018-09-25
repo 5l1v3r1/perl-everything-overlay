@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEKOKAK"
-DIST_VERSION="0.03"
-DIST_A="Clutch-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-TCP-1.140
 	>=virtual/perl-Test-Simple-0.880
 "
+

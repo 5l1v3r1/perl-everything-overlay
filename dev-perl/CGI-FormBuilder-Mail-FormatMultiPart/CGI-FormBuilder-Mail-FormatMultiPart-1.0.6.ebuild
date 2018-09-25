@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKLE"
-DIST_VERSION="v1.0.6"
-DIST_A="CGI-FormBuilder-Mail-FormatMultiPart-1.0.6.tar.gz"
+DIST_VERSION="1.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

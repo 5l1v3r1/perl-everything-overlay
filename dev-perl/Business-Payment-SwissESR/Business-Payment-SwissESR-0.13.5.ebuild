@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="v0.13.5"
-DIST_A="Business-Payment-SwissESR-0.13.5.tar.gz"
+DIST_VERSION="0.13.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/CPAN-Uploader
 "
+

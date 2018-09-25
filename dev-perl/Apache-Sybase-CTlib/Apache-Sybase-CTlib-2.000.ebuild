@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MDOWNING"
 DIST_VERSION="2.00"
-DIST_A="Apache-Sybase-CTlib-2.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

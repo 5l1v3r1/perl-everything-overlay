@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATRICKETT"
-DIST_VERSION="0.81"
-DIST_A="Config-Trivial-0.81.tar.gz"
+DIST_VERSION="0.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

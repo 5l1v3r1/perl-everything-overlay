@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLER"
-DIST_VERSION="2.1.5"
-DIST_A="CatalystX-ExtJS-Direct-2.1.5.tar.gz"
+DIST_VERSION="2.1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.100
 	>=virtual/perl-Test-Simple-0.880
 "
+

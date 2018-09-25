@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.0601"
-DIST_A="Acme-Opish-0.0601.tar.gz"
+DIST_VERSION="0.0601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

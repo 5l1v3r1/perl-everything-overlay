@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMITA"
-DIST_VERSION="0.02"
-DIST_A="Acme-Samurai-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 	virtual/perl-Test-Simple
 "
+

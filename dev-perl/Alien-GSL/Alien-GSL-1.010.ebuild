@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="1.01"
-DIST_A="Alien-GSL-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Alien-Base
+	dev-perl/Alien-Build
 	>=dev-perl/File-ShareDir-1.000
 	virtual/perl-parent
 "
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Alien-Base-ModuleBuild
 	>=dev-perl/Module-Build-0.380
 "
+

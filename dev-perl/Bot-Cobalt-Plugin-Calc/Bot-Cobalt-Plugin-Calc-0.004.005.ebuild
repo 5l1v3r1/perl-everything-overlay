@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="0.004005"
-DIST_A="Bot-Cobalt-Plugin-Calc-0.004005.tar.gz"
+DIST_VERSION="0.004005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

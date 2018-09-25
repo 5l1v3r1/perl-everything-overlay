@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUSUKEBE"
-DIST_VERSION="0.14"
-DIST_A="App-revealup-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	>=virtual/perl-Test-Simple-0.980
 "
+

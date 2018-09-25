@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHWIGON"
-DIST_VERSION="0.002"
-DIST_A="Benchmark-Perl-Formance-Plugin-PerlStone2015-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

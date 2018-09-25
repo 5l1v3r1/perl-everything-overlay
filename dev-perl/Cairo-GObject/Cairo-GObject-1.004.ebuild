@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAOC"
-DIST_VERSION="1.004"
-DIST_A="Cairo-GObject-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

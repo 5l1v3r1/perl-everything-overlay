@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSIBLEY"
-DIST_VERSION="v4.0.7"
-DIST_A="App-RecordStream-4.0.7.tar.gz"
+DIST_VERSION="4.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

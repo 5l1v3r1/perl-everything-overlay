@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRZIGMAN"
-DIST_VERSION="0.2.0"
-DIST_A="DBIx-Class-InflateColumn-Math-Currency-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/DBIx-Class
 	dev-perl/Math-Currency
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -26,9 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-lang/perl
 	dev-perl/Test-Most
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

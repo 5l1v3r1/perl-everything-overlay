@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAJAI"
-DIST_VERSION="1.10"
-DIST_A="Astro-Units-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

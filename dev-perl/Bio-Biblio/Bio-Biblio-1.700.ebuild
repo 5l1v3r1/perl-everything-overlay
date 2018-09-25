@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CDRAUG"
-DIST_VERSION="1.70"
-DIST_A="Bio-Biblio-1.70.tar.gz"
+DIST_VERSION="1.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

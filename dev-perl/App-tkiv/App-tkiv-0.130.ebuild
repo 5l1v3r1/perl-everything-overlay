@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HMBRAND"
 DIST_VERSION="0.130"
-DIST_A="App-tkiv-0.130.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Peek
 	dev-perl/Image-ExifTool
-	dev-perl/Tk
+	>=dev-perl/Tk-804.027
 	virtual/perl-File-Temp
 	>=virtual/perl-Getopt-Long-2.270
 	virtual/perl-Test-Harness
@@ -29,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

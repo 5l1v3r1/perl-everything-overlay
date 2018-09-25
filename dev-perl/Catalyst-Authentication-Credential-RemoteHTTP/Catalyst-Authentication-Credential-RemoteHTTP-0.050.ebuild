@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIGELM"
-DIST_VERSION="0.05"
-DIST_A="Catalyst-Authentication-Credential-RemoteHTTP-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Moose
 	dev-perl/MooseX-Types
+	dev-perl/base
 	dev-perl/libwww-perl
 	dev-perl/namespace-autoclean
 "
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

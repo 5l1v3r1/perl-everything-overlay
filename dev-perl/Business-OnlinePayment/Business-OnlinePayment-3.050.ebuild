@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVAN"
-DIST_VERSION="3.05"
-DIST_A="Business-OnlinePayment-3.05.tar.gz"
+DIST_VERSION="3.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

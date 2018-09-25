@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.0102"
-DIST_A="Acme-Affinity-0.0102.tar.gz"
+DIST_VERSION="0.0102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-lang/perl-1.010
+	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

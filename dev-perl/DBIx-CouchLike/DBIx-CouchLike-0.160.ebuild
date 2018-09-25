@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FUJIWARA"
-DIST_VERSION="0.16"
-DIST_A="DBIx-CouchLike-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.87.01
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZMIJ"
-DIST_VERSION="0.5"
-DIST_A="Array-Utils-0.5.tar.gz"
-SRC_URI="mirror://cpan/authors/id/Z/ZM/ZMIJ/Array/Array-Utils-0.5.tar.gz"
+DIST_VERSION="0.5" 
+SRC_URI="mirror://cpan/authors/id/Z/ZM/ZMIJ/Array/Array-Utils-0.5.tar.gz -> Array-Utils-0.5.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Array-Utils-0.5 ${WORKDIR}/Array-Utils-0.5
+}
+

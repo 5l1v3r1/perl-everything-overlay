@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZABGAB"
-DIST_VERSION="0.08"
-DIST_A="CPAN-Digger-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -68,7 +67,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Simple
+	>=virtual/perl-Pod-Simple-3.230
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 	>=virtual/perl-autodie-2.130
@@ -80,3 +79,4 @@ DEPEND="
 	>=dev-perl/Test-NoWarnings-1.040
 	>=virtual/perl-Test-Simple-0.980
 "
+

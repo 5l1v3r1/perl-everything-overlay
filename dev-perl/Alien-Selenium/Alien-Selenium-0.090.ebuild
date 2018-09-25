@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMQ"
-DIST_VERSION="0.09"
-DIST_A="Alien-Selenium-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Archive-Zip-1.000
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIDEAKIO"
-DIST_VERSION="0.08"
-DIST_A="ArangoDB-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	>=virtual/perl-Test-Simple-0.980
 "
+

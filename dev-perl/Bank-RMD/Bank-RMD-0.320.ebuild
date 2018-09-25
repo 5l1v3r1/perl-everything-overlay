@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THARDISON"
-DIST_VERSION="0.32"
-DIST_A="Bank-RMD-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

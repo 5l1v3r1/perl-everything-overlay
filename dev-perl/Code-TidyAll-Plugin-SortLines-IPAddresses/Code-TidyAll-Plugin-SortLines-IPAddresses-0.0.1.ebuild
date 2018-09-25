@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KLPTWO"
-DIST_VERSION="0.0.1"
-DIST_A="Code-TidyAll-Plugin-SortLines-IPAddresses-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.001006"
-DIST_A="App-cpanoutdated-fresh-0.001006.tar.gz"
+DIST_VERSION="0.001006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,11 +19,11 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/MooX-Lsub
 	dev-perl/Path-ScanINC
+	dev-perl/Pod-Usage
 	dev-perl/Search-Elasticsearch
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-Module-Metadata
-	virtual/perl-Pod-Usage
 	virtual/perl-version
 "
 DEPEND="
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-HTTP-Tiny
 	>=virtual/perl-Test-Simple-0.960
 "
+

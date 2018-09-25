@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="0.006"
-DIST_A="App-RewriteVersion-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,8 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

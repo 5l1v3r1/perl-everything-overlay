@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUTA"
-DIST_VERSION="0.29"
-DIST_A="Cv-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.310
 	>=dev-perl/Test-Number-Delta-1.030
 "
+

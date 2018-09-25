@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.101"
-DIST_A="Alien-Thrust-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-Test-Simple
 "
+

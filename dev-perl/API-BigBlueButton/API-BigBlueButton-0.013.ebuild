@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BCDE"
-DIST_VERSION="0.013"
-DIST_A="API-BigBlueButton-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Digest-SHA1
 	dev-perl/XML-Fast
+	dev-perl/base
 	>=dev-perl/libwww-perl-6.050
 	virtual/perl-Carp
 "
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

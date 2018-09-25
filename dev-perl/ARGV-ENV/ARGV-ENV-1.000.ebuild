@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOLMEN"
-DIST_VERSION="1.00"
-DIST_A="ARGV-ENV-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

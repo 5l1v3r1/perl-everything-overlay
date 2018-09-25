@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.204"
-DIST_A="DBIx-Class-Schema-Versioned-Inline-0.204.tar.gz"
+DIST_VERSION="0.204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-Roo-1.003
 	>=virtual/perl-File-Spec-3.470
 "
+

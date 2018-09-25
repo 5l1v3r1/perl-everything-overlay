@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TSIBLEY"
-DIST_VERSION="20170606.0"
-DIST_A="App-cpanchanges-20170606.0.tar.gz"
+DIST_VERSION="20170606.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

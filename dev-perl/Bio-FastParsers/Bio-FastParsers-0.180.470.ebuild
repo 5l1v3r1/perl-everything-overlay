@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBAURAIN"
-DIST_VERSION="0.180470"
-DIST_A="Bio-FastParsers-0.180470.tar.gz"
+DIST_VERSION="0.180470" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

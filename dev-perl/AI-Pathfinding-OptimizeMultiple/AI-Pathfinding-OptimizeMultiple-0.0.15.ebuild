@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMIF"
-DIST_VERSION="0.0.15"
-DIST_A="AI-Pathfinding-OptimizeMultiple-0.0.15.tar.gz"
+DIST_VERSION="0.0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="1.2.0"
-DIST_A="Catalyst-Plugin-VersionedURI-1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
+

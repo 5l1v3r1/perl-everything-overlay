@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHENWEI"
-DIST_VERSION="2015.0728"
-DIST_A="BioUtil-2015.0728.tar.gz"
+DIST_VERSION="2015.0728" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

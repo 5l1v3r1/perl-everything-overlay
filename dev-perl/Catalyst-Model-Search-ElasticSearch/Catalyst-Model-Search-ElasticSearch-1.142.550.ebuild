@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTOCK"
-DIST_VERSION="1.142550"
-DIST_A="Catalyst-Model-Search-ElasticSearch-1.142550.tar.gz"
+DIST_VERSION="1.142550" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.900
 "
+

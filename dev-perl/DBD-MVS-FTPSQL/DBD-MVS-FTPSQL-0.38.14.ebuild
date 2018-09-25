@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBIONDO"
-DIST_VERSION="v0.38.14"
-DIST_A="DBD-MVS_FTPSQL-0.38.14.tar.gz"
+DIST_VERSION="0.38.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

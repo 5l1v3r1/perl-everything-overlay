@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00023"
-DIST_A="Cache-Memcached-AnyEvent-0.00023.tar.gz"
+DIST_VERSION="0.00023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	>=virtual/perl-Test-Simple-0.940
 "
+

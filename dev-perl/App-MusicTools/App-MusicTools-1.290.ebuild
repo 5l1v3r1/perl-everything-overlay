@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="1.29"
-DIST_A="App-MusicTools-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,4 +39,12 @@ DEPEND="
 	${RDEPEND}
 	dev-lang/perl
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	>=dev-perl/Pod-Coverage-0.180
+	dev-perl/Test-Cmd
+	dev-perl/Test-Exception
+	dev-perl/Test-Most
+	>=dev-perl/Test-Pod-1.220
+	>=dev-perl/Test-Pod-Coverage-1.080
+	dev-perl/lib
 "
+

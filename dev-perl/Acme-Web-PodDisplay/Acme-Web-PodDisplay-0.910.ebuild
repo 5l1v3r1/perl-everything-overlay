@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBYRD"
-DIST_VERSION="0.91"
-DIST_A="Acme-Web-PodDisplay-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	>=virtual/perl-Test-Simple-0.880
 "
+

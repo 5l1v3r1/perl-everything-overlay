@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VERISSIMO"
-DIST_VERSION="0.32"
-DIST_A="Catalyst-Plugin-PageCache-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Cache-Cache-1.040
+	dev-perl/Cache-Cache
 	>=dev-perl/Catalyst-Plugin-Cache-0.100
 	dev-perl/Catalyst-Runtime
 	dev-perl/Digest-SHA1
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJONES"
-DIST_VERSION="1.153340"
-DIST_A="App-MP4Meta-1.153340.tar.gz"
+DIST_VERSION="1.153340" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,7 +33,10 @@ DEPEND="
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-IO
 	virtual/perl-Net-Ping
 	>=virtual/perl-Test-Simple-0.880
 "
+

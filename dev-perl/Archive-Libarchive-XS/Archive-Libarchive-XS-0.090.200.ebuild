@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.0902"
-DIST_A="Archive-Libarchive-XS-0.0902.tar.gz"
+DIST_VERSION="0.0902" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CLOTHO"
 DIST_VERSION="0.91"
-DIST_A="CAM-Template-Cache-0.91.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.010
 "
+

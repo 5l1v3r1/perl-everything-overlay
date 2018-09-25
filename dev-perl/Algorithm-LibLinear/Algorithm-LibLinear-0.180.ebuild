@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SEKIA"
-DIST_VERSION="0.18"
-DIST_A="Algorithm-LibLinear-0.18.tar.gz"
+DIST_VERSION="0.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

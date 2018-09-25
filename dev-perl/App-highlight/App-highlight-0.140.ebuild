@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAORU"
-DIST_VERSION="0.14"
-DIST_A="App-highlight-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Without-Module-0.170
 	>=virtual/perl-Test-Simple-0.920
 "
+

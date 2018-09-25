@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBUELS"
-DIST_VERSION="0.1"
-DIST_A="Bio-JBrowse-Store-NCList-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

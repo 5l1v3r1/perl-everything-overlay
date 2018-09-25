@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="1.03"
-DIST_A="DBIx-Class-VirtualColumns-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBJK"
-DIST_VERSION="0.65"
-DIST_A="Catalyst-Model-DBIC-Schema-0.65.tar.gz"
+DIST_VERSION="0.65" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,3 +43,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

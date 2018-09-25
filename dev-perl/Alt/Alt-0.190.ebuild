@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="0.19"
-DIST_A="Alt-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

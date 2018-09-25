@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="0.0402"
-DIST_A="Alt-Alien-cmake3-System-0.0402.tar.gz"
+DIST_VERSION="0.0402" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Alien-Build-0.920
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

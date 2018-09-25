@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASBN"
-DIST_VERSION="1.10"
-DIST_A="Business-Tax-VAT-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

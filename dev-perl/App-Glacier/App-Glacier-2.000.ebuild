@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SGRAY"
-DIST_VERSION="2.00"
-DIST_A="App-Glacier-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.300
+	>=dev-lang/perl-1.050
 	>=dev-perl/DateTime-1.420
 	>=dev-perl/DateTime-Format-ISO8601-0.080
 	>=dev-perl/JSON-2.900
@@ -38,3 +37,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

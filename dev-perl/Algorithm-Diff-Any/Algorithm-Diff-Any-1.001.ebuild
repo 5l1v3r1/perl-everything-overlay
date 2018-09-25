@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAWNSY"
-DIST_VERSION="1.001"
-DIST_A="Algorithm-Diff-Any-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	>=dev-perl/Test-NoWarnings-0.084
 "
+

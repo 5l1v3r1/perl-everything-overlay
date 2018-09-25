@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHALLEE"
-DIST_VERSION="0.90"
-DIST_A="Authen-Krb5-Easy-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

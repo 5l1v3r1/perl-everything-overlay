@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRUNOV"
-DIST_VERSION="1.112980"
-DIST_A="Bio-Protease-1.112980.tar.gz"
+DIST_VERSION="1.112980" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Time-HiRes
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VANSTYN"
-DIST_VERSION="1.0"
-DIST_A="Alien-Web-HalBrowser-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

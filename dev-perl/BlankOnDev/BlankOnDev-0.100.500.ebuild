@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YUSRIDEB"
-DIST_VERSION="0.1005"
-DIST_A="BlankOnDev-0.1005.tar.gz"
+DIST_VERSION="0.1005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.880
 "
+

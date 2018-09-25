@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="v1.21.0"
-DIST_A="Command-Interactive-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

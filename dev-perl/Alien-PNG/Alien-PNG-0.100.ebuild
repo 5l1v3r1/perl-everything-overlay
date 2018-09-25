@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FROGGS"
-DIST_VERSION="0.1"
-DIST_A="Alien-PNG-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Archive-Zip
 	virtual/perl-Archive-Tar
 "
+

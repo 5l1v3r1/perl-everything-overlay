@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLEACH"
-DIST_VERSION="1.67"
-DIST_A="Audio-TagLib-1.67.tar.gz"
+DIST_VERSION="1.67" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.770
 "
+

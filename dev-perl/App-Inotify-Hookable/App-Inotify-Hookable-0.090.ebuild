@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVAR"
-DIST_VERSION="0.09"
-DIST_A="App-Inotify-Hookable-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

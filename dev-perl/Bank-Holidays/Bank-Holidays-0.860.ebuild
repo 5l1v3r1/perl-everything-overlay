@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSEATON"
-DIST_VERSION="0.86"
-DIST_A="Bank-Holidays-0.86.tar.gz"
+DIST_VERSION="0.86" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

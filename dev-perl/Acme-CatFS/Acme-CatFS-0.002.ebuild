@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PACMAN"
-DIST_VERSION="0.002"
-DIST_A="Acme-CatFS-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-TinyMocker
 	virtual/perl-Test-Simple
 "
+

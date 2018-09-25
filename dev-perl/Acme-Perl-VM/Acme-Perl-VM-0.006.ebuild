@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.006"
-DIST_A="Acme-Perl-VM-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

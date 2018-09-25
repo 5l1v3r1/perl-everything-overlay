@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNERA"
-DIST_VERSION="0.32"
-DIST_A="DBIx-DR-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/DBD-SQLite-1.000
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00007"
-DIST_A="AnyEvent-HTTP-MXHR-0.00007.tar.gz"
+DIST_VERSION="0.00007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/JSON
 	dev-perl/Test-TCP
 "
+

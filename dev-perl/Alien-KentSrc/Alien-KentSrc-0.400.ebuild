@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIWIROY"
-DIST_VERSION="0.4"
-DIST_A="Alien-KentSrc-0.4.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Alien-KentSrc-0.4.tar.gz"
+DIST_VERSION="0.4" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIWIROY/tmp/Alien-KentSrc-0.4.tar.gz -> Alien-KentSrc-0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	dev-perl/URI
 	>=virtual/perl-HTTP-Tiny-0.044
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Alien-KentSrc-0.4 ${WORKDIR}/Alien-KentSrc-0.4
+}
+

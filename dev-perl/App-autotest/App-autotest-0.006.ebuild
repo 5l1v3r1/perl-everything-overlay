@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GGOLDBACH"
-DIST_VERSION="0.006"
-DIST_A="App-autotest-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Test-Differences-0.630
 	>=dev-perl/Test-Spec-0.460
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Harness
 "
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Mock-Guard
 "
+

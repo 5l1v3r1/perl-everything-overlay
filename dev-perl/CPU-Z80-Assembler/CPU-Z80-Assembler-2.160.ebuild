@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSCUST"
-DIST_VERSION="2.16"
-DIST_A="CPU-Z80-Assembler-2.16.tar.gz"
+DIST_VERSION="2.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

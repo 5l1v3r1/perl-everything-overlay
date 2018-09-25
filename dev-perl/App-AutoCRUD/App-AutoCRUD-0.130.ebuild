@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJDEVOPS"
-DIST_VERSION="0.13"
-DIST_A="App-AutoCRUD-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -56,3 +55,4 @@ DEPEND="
 	dev-perl/Module-Install
 	virtual/perl-ExtUtils-MakeMaker
 "
+

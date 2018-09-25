@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREIN"
-DIST_VERSION="0.8"
-DIST_A="CGI-Session-Driver-layered-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

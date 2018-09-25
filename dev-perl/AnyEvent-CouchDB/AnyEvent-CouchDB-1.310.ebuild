@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEPPU"
-DIST_VERSION="1.31"
-DIST_A="AnyEvent-CouchDB-1.31.tar.gz"
+DIST_VERSION="1.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

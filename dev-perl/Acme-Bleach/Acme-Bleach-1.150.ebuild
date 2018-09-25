@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="1.150"
-DIST_A="Acme-Bleach-1.150.tar.gz"
+DIST_VERSION="1.150" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

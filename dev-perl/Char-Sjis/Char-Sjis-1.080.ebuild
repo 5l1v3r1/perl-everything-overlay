@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Sjis"
-DIST_VERSION="1.08"
-DIST_A="Char-Sjis-1.08.tar.gz"
+DIST_AUTHOR="INA"
+DIST_VERSION="1.08" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Char/Sjis/Char-Sjis-1.08.tar.gz -> Char-Sjis-1.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Char-Sjis-1.08 ${WORKDIR}/Char-Sjis-1.08
+}
+

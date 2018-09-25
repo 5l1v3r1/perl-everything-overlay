@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDRE"
-DIST_VERSION="v0.905.0"
-DIST_A="Business-CPI-Gateway-PayPal-0.905.tar.gz"
+DIST_VERSION="0.905" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

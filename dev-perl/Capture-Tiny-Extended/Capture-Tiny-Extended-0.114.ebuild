@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="0.114"
-DIST_A="Capture-Tiny-Extended-0.114.tar.gz"
+DIST_VERSION="0.114" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.620
 "
+

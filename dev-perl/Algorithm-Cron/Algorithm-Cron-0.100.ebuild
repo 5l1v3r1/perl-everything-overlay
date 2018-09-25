@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.10"
-DIST_A="Algorithm-Cron-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.880
 "
+

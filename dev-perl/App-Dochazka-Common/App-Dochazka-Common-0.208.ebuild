@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMITHFARM"
-DIST_VERSION="0.208"
-DIST_A="App-Dochazka-Common-0.208.tar.gz"
+DIST_VERSION="0.208" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Software-License
 	dev-perl/Test-Fatal
 "
+

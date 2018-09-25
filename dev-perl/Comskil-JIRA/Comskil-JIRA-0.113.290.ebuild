@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COMSKIL"
-DIST_VERSION="00.11329"
-DIST_A="Comskil-JIRA-00.11329.tar.gz"
+DIST_VERSION="00.11329" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

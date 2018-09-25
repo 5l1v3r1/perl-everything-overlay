@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AULUSOY"
-DIST_VERSION="0.11"
-DIST_A="Banal-Config-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Banal-Utils-0.050
 	>=dev-perl/Config-General-2.560
 	>=dev-perl/Moose-2.000
-	>=virtual/perl-Carp-1.250
+	virtual/perl-Carp
 	>=virtual/perl-Data-Dumper-2.000
 	virtual/perl-File-Spec
 	>=virtual/perl-Scalar-List-Utils-1.350
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

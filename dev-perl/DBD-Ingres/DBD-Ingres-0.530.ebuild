@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SREAGLE"
-DIST_VERSION="0.53"
-DIST_A="DBD-Ingres-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

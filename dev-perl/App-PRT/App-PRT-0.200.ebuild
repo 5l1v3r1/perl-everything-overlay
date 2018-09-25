@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HITODE"
-DIST_VERSION="0.20"
-DIST_A="App-PRT-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.980
 	virtual/perl-parent
 "
+

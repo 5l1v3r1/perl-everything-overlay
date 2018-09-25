@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNIE"
-DIST_VERSION="1.25"
-DIST_A="Acme-KeyboardMarathon-1.25.tar.gz"
+DIST_VERSION="1.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

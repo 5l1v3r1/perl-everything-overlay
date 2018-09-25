@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBN"
-DIST_VERSION="0.003"
-DIST_A="Authen-U2F-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Crypt-OpenSSL-X509-1.806
-	dev-perl/CryptX
+	>=dev-perl/CryptX-0.034
 	dev-perl/Exporter-Tiny
 	dev-perl/JSON
 	dev-perl/Math-Random-Secure
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

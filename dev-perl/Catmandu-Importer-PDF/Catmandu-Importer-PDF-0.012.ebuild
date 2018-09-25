@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NJFRANCK"
-DIST_VERSION="0.012"
-DIST_A="Catmandu-Importer-PDF-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

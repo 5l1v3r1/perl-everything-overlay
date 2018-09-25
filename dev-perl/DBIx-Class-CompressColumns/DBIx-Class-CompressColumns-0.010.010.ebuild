@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESSESTAY"
-DIST_VERSION="0.01001"
-DIST_A="DBIx-Class-CompressColumns-0.01001.tar.gz"
+DIST_VERSION="0.01001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

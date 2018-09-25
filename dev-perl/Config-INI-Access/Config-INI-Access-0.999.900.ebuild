@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDY"
-DIST_VERSION="0.9999"
-DIST_A="Config-INI-Access-0.9999.tar.gz"
+DIST_VERSION="0.9999" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

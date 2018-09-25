@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.06"
-DIST_A="App-BashHistoryUtils-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,7 @@ RDEPEND="
 	dev-perl/Data-Sah-Coerce
 	dev-perl/Perinci-CmdLine-Any
 	>=dev-perl/Perinci-CmdLine-Lite-1.720
+	dev-perl/Perinci-Sub-XCompletion
 	virtual/perl-File-Temp
 "
 DEPEND="
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

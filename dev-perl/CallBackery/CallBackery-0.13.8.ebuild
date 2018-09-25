@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="0.13.8"
-DIST_A="CallBackery-0.13.8.tar.gz"
+DIST_VERSION="0.13.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/CPAN-Uploader
 "
+

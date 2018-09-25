@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.06"
-DIST_A="DBD-XMLSimple-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/DBI-0.060
+	>=dev-perl/DBI-1.637
 	>=dev-perl/SQL-Statement-1.410
 	dev-perl/XML-Twig
 	virtual/perl-Carp
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Script-1.120
 	virtual/perl-autodie
 "
+

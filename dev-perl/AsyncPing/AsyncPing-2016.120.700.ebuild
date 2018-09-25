@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XINFWANG"
-DIST_VERSION="2016.1207"
-DIST_A="AsyncPing-2016.1207.tar.gz"
+DIST_VERSION="2016.1207" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

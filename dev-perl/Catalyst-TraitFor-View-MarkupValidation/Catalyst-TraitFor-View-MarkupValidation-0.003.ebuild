@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DORWARD"
-DIST_VERSION="0.003"
-DIST_A="Catalyst-TraitFor-View-MarkupValidation-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Action-RenderView
-	>=dev-perl/Catalyst-Runtime-5.800.150
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-TT
 	dev-perl/Moose
 	dev-perl/Syntax-Highlight-Engine-Kate
@@ -35,3 +34,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

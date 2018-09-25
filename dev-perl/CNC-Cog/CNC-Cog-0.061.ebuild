@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKWIN"
-DIST_VERSION="0.061"
-DIST_A="CNC-Cog-0.061.tar.gz"
+DIST_VERSION="0.061" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

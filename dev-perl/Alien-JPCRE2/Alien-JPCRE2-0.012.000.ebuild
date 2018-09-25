@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WBRASWELL"
-DIST_VERSION="0.012000"
-DIST_A="Alien-JPCRE2-0.012000.tar.gz"
+DIST_VERSION="0.012000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=virtual/perl-HTTP-Tiny-0.044
 	virtual/perl-IO-Zlib
 "
+

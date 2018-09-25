@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KANE"
-DIST_VERSION="0.84"
-DIST_A="CPANPLUS-0.84.tar.gz"
+DIST_VERSION="0.84" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

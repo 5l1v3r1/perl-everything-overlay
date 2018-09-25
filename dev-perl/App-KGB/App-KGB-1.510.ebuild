@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAM"
-DIST_VERSION="1.51"
-DIST_A="App-KGB-1.51.tar.gz"
+DIST_VERSION="1.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,3 +49,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.920
 	virtual/perl-autodie
 "
+

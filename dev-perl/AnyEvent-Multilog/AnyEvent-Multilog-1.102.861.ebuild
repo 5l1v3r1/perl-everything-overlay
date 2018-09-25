@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROCKWAY"
-DIST_VERSION="1.102861"
-DIST_A="AnyEvent-Multilog-1.102861.tar.gz"
+DIST_VERSION="1.102861" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Sub-Exporter
 	virtual/perl-Test-Simple
 "
+

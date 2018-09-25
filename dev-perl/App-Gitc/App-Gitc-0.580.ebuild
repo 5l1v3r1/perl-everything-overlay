@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSG"
-DIST_VERSION="0.58"
-DIST_A="App-Gitc-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,6 +30,7 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/YAML
 	dev-perl/YAML-Syck
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -45,3 +45,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

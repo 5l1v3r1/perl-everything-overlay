@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GILLMAUS"
-DIST_VERSION="0.02"
-DIST_A="Catalyst-View-Image-Text2Image-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

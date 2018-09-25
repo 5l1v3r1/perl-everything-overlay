@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHTHORSEN"
-DIST_VERSION="0.0101"
-DIST_A="Class-Accessor-Fast-WithBuilder-0.0101.tar.gz"
+DIST_VERSION="0.0101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,11 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.100
 	>=dev-perl/Class-Accessor-0.320
+	>=dev-perl/base-2.100
 	>=virtual/perl-Test-Simple-0.900
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
+

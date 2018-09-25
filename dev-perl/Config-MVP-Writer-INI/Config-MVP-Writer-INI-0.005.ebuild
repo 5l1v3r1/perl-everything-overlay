@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.005"
-DIST_A="Config-MVP-Writer-INI-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

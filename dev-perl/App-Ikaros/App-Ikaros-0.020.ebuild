@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOCCY"
-DIST_VERSION="0.02"
-DIST_A="App-Ikaros-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Harness
 "
+

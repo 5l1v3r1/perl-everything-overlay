@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NHORNE"
-DIST_VERSION="0.58"
-DIST_A="CGI-Lingua-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-autodie
 "
+

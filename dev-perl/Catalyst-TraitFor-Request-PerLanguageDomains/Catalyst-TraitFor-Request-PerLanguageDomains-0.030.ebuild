@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.03"
-DIST_A="Catalyst-TraitFor-Request-PerLanguageDomains-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

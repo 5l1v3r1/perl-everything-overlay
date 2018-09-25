@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.19"
-DIST_A="Catalyst-View-HTML-Mason-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,7 +35,10 @@ DEPEND="
 	>=dev-perl/Catalyst-Devel-1.330
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.890
 "
+

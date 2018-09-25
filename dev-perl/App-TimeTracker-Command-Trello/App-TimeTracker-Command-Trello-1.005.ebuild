@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="1.005"
-DIST_A="App-TimeTracker-Command-Trello-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 "
+

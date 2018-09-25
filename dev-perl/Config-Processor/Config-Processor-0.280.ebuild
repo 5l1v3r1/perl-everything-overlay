@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IPH"
-DIST_VERSION="0.28"
-DIST_A="Config-Processor-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.013
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.34"
-DIST_A="Business-Fixflo-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.201.404.080
 	>=dev-perl/Test-Most-0.310
 "
+

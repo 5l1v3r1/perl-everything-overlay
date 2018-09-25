@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.90007.0"
-DIST_A="Babble-0.090007.tar.gz"
+DIST_VERSION="0.090007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 "
+

@@ -41,7 +41,7 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=dev-perl/Test-Script-1.090
 	dev-perl/UNIVERSAL-require
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.980
 "
 
 src_unpack(){

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEBARDY"
-DIST_VERSION="0.0.5"
-DIST_A="Cache-Elasticache-Memcache-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/test-routini
 	virtual/perl-Test-Simple
 "
+

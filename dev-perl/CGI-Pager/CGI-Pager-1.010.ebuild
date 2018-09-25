@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EGORSH"
-DIST_VERSION="1.01"
-DIST_A="CGI-Pager-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

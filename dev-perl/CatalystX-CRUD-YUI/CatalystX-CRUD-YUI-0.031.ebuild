@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARMAN"
-DIST_VERSION="0.031"
-DIST_A="CatalystX-CRUD-YUI-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

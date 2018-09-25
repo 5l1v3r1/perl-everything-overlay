@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTOCK"
-DIST_VERSION="0.003001"
-DIST_A="App-Scaffolder-Puppet-0.003001.tar.gz"
+DIST_VERSION="0.003001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/App-Scaffolder
+	>=dev-perl/App-Scaffolder-0.002.000
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/MRO-Compat
 	dev-perl/Path-Class
@@ -34,7 +33,9 @@ DEPEND="
 	dev-perl/Test-File
 	dev-perl/Test-File-ShareDir
 	dev-perl/Test-MockObject
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

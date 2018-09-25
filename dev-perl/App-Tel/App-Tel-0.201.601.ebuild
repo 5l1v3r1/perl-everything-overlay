@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDRAKE"
-DIST_VERSION="0.201601"
-DIST_A="App-Tel-0.201601.tar.gz"
+DIST_VERSION="0.201601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

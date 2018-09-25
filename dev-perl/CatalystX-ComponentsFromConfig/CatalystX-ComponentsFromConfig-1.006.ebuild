@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="1.006"
-DIST_A="CatalystX-ComponentsFromConfig-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,10 +28,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Config-General
 	dev-perl/Path-Class
 	dev-perl/Test-Deep
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

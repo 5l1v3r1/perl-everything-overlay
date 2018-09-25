@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VASILUS"
-DIST_VERSION="0.14"
-DIST_A="Catalyst-Plugin-Cache-Memcached-Fast-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

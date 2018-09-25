@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TVDW"
-DIST_VERSION="0.57"
-DIST_A="DBD-Cassandra-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Ref-Util
 	virtual/perl-Test-Simple
 "
+

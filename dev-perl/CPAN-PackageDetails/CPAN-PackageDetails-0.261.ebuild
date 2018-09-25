@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.261"
-DIST_A="CPAN-PackageDetails-0.261.tar.gz"
+DIST_VERSION="0.261" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Output-0.100
 	>=virtual/perl-Test-Simple-0.940
 "
+

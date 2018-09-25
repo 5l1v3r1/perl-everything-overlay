@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASONS"
-DIST_VERSION="20020902.6"
-DIST_A="Bio-MAGE-20020902.6.tar.gz"
+DIST_VERSION="20020902.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

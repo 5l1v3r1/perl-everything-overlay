@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIELSEN"
-DIST_VERSION="0.03"
-DIST_A="Class-Inheritance-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

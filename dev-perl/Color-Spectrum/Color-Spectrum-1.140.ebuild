@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEFFA"
-DIST_VERSION="1.14"
-DIST_A="Color-Spectrum-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

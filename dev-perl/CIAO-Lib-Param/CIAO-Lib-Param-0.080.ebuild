@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJERIUS"
-DIST_VERSION="0.08"
-DIST_A="CIAO-Lib-Param-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

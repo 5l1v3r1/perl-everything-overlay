@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROUS"
-DIST_VERSION="1.002"
-DIST_A="Convert-ASCIInames-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

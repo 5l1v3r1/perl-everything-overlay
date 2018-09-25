@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.08"
-DIST_A="Algorithm-Accounting-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,15 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Array-Compare
 	dev-perl/Array-Iterator
 	dev-perl/Clone
 	dev-perl/FreezeThaw
 	dev-perl/GDGraph
 	dev-perl/Imager-Graph
-	dev-perl/Perl6-Form
 	dev-perl/Spiffy
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
@@ -32,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

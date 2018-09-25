@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.0200"
-DIST_A="Catalyst-ActionRole-MethodSignatureDependencyInjection-0.0200.tar.gz"
+DIST_VERSION="0.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Most
 	>=dev-perl/warnings-illegalproto-0.001.003
 "
+

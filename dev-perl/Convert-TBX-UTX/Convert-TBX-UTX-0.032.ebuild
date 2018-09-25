@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BYUTRG"
-DIST_VERSION="0.032"
-DIST_A="Convert-TBX-UTX-0.032.tar.gz"
+DIST_VERSION="0.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-LongString-0.150
 	>=dev-perl/Test-XML-0.080
 "
+

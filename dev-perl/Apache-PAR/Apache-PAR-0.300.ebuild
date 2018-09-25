@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NBYRD"
-DIST_VERSION="0.30"
-DIST_A="Apache-PAR-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

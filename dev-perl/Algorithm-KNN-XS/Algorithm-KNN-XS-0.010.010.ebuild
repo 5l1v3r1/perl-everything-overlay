@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEIKON"
-DIST_VERSION="0.01001"
-DIST_A="Algorithm-KNN-XS-0.01001.tar.gz"
+DIST_VERSION="0.01001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Alien-LibANN-0.010.000
 	virtual/perl-ExtUtils-MakeMaker
 "
+

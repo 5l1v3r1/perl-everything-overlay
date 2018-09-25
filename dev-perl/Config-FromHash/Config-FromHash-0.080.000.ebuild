@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0800"
-DIST_A="Config-FromHash-0.0800.tar.gz"
+DIST_VERSION="0.0800" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.110
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

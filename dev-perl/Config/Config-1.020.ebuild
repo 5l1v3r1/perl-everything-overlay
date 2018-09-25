@@ -6,7 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="DENDORY"
 DIST_VERSION="1.02"
-DIST_A="Config-Win32-1.02.zip"
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/D/DE/DENDORY/Config-Win32-1.02.zip -> Config-1.02.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-Win32-1.02 ${WORKDIR}/Config-1.02
+}
+

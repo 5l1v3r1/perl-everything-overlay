@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOSS"
-DIST_VERSION="0.36"
-DIST_A="Catalyst-View-Email-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Authen-SASL-2.130
 	>=dev-perl/Catalyst-Runtime-5.700
-	>=dev-perl/Email-MIME-1.859
+	>=dev-perl/Email-MIME-1.455
 	>=dev-perl/Email-Sender-0.100.110
 	>=dev-perl/Module-Runtime-0.014
 	>=dev-perl/Moose-0.930
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

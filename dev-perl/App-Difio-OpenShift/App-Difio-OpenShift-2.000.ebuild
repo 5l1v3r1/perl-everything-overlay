@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATODOROV"
-DIST_VERSION="2.00"
-DIST_A="App-Difio-OpenShift-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

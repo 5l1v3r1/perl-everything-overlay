@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVIKAK"
-DIST_VERSION="1.01"
-DIST_A="Algorithm-LinearManifoldDataClusterer-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.840
+	>=dev-lang/perl-1.320
 	dev-perl/Math-GSL
 	>=dev-perl/Math-Random-0.710
 	>=virtual/perl-Scalar-List-Utils-1.390
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

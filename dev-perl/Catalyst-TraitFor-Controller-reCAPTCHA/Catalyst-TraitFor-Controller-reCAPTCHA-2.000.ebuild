@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEGOK"
-DIST_VERSION="2.00"
-DIST_A="Catalyst-TraitFor-Controller-reCAPTCHA-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

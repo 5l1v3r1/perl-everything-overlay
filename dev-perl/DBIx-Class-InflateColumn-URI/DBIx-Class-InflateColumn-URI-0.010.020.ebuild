@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOLIBRIE"
-DIST_VERSION="0.01002"
-DIST_A="DBIx-Class-InflateColumn-URI-0.01002.tar.gz"
+DIST_VERSION="0.01002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

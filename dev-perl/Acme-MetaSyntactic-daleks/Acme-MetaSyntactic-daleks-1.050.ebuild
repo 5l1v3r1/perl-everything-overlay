@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SAPER"
-DIST_VERSION="1.05"
-DIST_A="Acme-MetaSyntactic-daleks-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

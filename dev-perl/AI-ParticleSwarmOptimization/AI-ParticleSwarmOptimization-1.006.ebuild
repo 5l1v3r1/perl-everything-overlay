@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="AI-ParticleSwarmOptimization"
-DIST_VERSION="1.006"
-DIST_A="AI-ParticleSwarmOptimization-1.006.tar.gz"
+DIST_AUTHOR="GRANDPA"
+DIST_VERSION="1.006" 
+SRC_URI="mirror://cpan/authors/id/G/GR/GRANDPA/AI-ParticleSwarmOptimization/AI-ParticleSwarmOptimization-1.006.tar.gz -> AI-ParticleSwarmOptimization-1.006.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/AI-ParticleSwarmOptimization-1.006 ${WORKDIR}/AI-ParticleSwarmOptimization-1.006
+}
+

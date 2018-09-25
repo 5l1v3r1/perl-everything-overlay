@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFABER"
-DIST_VERSION="2.003"
-DIST_A="Config-Simple-Conf-2.003.tar.gz"
+DIST_VERSION="2.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

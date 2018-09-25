@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="0.0801004"
-DIST_A="DBD-PgPPSjis-0.0801004.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/DBD/PgPPSjis/DBD-PgPPSjis-0.0801004.tar.gz"
+DIST_VERSION="0.0801004" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/DBD/PgPPSjis/DBD-PgPPSjis-0.0801004.tar.gz -> DBD-PgPPSjis-0.0801004.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.010
+	>=dev-lang/perl-1.030
 	>=dev-perl/DBI-1.000
 	>=virtual/perl-Archive-Tar-0.072
 	>=virtual/perl-ExtUtils-MakeMaker-5.430.200
@@ -29,3 +28,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/DBD-PgPPSjis-0.0801004 ${WORKDIR}/DBD-PgPPSjis-0.0801004
+}
+

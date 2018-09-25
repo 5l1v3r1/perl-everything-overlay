@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="0.000005"
-DIST_A="Coerce-Types-Standard-0.000005.tar.gz"
+DIST_VERSION="0.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/MooX-LazierAttributes-1.030
 	virtual/perl-Test-Simple
 "
+

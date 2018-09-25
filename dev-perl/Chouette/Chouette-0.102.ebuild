@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRACTAL"
-DIST_VERSION="0.102"
-DIST_A="Chouette-0.102.tar.gz"
+DIST_VERSION="0.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/AnyEvent-HTTP
 	virtual/perl-File-Temp
 "
+

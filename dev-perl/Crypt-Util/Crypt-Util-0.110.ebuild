@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUFFIN"
-DIST_VERSION="0.11"
-DIST_A="Crypt-Util-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

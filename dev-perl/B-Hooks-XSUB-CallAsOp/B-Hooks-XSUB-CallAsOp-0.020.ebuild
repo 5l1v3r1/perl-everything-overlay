@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NUFFIN"
-DIST_VERSION="0.02"
-DIST_A="B-Hooks-XSUB-CallAsOp-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	virtual/perl-Test-Simple
 "
+

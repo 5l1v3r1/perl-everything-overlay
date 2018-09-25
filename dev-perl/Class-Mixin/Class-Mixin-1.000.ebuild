@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDRW"
-DIST_VERSION="1.00"
-DIST_A="Class-Mixin-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

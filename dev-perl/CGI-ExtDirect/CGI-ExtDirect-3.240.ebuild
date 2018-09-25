@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOKAREV"
-DIST_VERSION="3.24"
-DIST_A="CGI-ExtDirect-3.24.tar.gz"
+DIST_VERSION="3.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/CGI-Test-1.100
 	>=virtual/perl-Test-Simple-0.820
 "
+

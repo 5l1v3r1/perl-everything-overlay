@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="0.85"
-DIST_A="Business-Cart-Generic-0.85.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.500
+	>=dev-lang/perl-2.180
 	>=dev-perl/Brannigan-0.800
 	>=dev-perl/CGI-3.520
 	>=dev-perl/CGI-Application-4.310
@@ -47,3 +47,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.440
 	>=virtual/perl-Test-Simple-0.940
 "
+

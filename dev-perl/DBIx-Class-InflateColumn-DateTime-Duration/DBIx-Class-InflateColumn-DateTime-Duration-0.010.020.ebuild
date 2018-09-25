@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CUBABIT"
-DIST_VERSION="0.01002"
-DIST_A="DBIx-Class-InflateColumn-DateTime-Duration-0.01002.tar.gz"
+DIST_VERSION="0.01002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

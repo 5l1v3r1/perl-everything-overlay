@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="44.0"
-DIST_A="Acme-Hidek-44.0.tar.gz"
+DIST_VERSION="44.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 	>=virtual/perl-Test-Simple-0.880
 "
+

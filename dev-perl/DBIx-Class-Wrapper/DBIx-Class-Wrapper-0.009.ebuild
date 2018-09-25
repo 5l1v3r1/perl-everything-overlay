@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.009"
-DIST_A="DBIx-Class-Wrapper-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Lingua-EN-Number-IsOrdinal-0.050
 	>=dev-perl/Test-Fatal-0.014
 "
+

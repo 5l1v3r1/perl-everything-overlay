@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGW"
-DIST_VERSION="0.741"
-DIST_A="AI-Prolog-0.741.tar.gz"
+DIST_VERSION="0.741" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

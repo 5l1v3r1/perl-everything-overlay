@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGAMBLE"
-DIST_VERSION="0.19"
-DIST_A="Algorithm-QuineMcCluskey-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.422.400
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.340"
-DIST_A="Config-IOD-Reader-0.340.tar.gz"
+DIST_VERSION="0.340" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-IO
 "
+

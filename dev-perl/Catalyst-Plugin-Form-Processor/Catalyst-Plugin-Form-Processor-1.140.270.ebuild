@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANK"
-DIST_VERSION="1.140270"
-DIST_A="Catalyst-Plugin-Form-Processor-1.140270.tar.gz"
+DIST_VERSION="1.140270" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

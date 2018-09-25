@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LCONS"
-DIST_VERSION="1.3"
-DIST_A="Config-Validator-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

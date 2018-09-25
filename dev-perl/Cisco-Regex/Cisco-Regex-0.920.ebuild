@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JKISTER"
 DIST_VERSION="0.92"
-DIST_A="Cisco-Regex-0.92.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

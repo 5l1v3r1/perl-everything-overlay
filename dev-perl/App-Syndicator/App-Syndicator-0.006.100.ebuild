@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGE"
-DIST_VERSION="0.0061"
-DIST_A="App-Syndicator-0.0061.tar.gz"
+DIST_VERSION="0.0061" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	>=dev-perl/Test-UseAllModules-0.120
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MPG"
 DIST_VERSION="0.04"
-DIST_A="Config-Interactive-0.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
 	dev-perl/XML-Parser
 	dev-perl/XML-Simple
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
@@ -26,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

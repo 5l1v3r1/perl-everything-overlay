@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="2.11"
-DIST_A="Bio-Das-Lite-2.11.tar.gz"
+DIST_VERSION="2.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=virtual/perl-Test-Simple-0.800
 "
+

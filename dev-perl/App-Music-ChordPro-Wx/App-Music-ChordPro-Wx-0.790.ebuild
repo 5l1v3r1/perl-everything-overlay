@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JV"
-DIST_VERSION="0.79"
-DIST_A="App-Music-ChordPro-Wx-0.79.tar.gz"
+DIST_VERSION="0.79" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/App-Music-ChordPro-0.790
 	>=dev-perl/Wx-0.991.200
 "
 DEPEND="
@@ -24,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

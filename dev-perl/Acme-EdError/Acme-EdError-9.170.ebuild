@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="9.17"
-DIST_A="Acme-EdError-9.17.tar.gz"
+DIST_VERSION="9.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

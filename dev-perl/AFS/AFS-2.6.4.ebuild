@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NOG"
-DIST_VERSION="v2.6.4"
-DIST_A="AFS-2.6.4.tar.gz"
+DIST_VERSION="2.6.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

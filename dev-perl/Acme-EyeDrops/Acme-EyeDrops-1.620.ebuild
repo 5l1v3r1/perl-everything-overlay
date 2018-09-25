@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASAVIGE"
-DIST_VERSION="1.62"
-DIST_A="Acme-EyeDrops-1.62.tar.gz"
+DIST_VERSION="1.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.120
 	>=dev-perl/Test-Pod-Coverage-0.080
 "
+

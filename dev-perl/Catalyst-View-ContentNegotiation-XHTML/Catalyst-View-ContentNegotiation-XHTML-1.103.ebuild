@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="1.103"
-DIST_A="Catalyst-View-ContentNegotiation-XHTML-1.103.tar.gz"
+DIST_VERSION="1.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

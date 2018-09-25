@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="0.23"
-DIST_A="CPAN-Mini-Tested-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.000
 	dev-perl/DBI
 	>=dev-perl/Regexp-Assemble-0.060
+	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-File-Spec
 	virtual/perl-IO
@@ -31,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

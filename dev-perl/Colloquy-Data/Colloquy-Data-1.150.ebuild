@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICOLAW"
-DIST_VERSION="1.15"
-DIST_A="Colloquy-Data-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JTPALMER"
-DIST_VERSION="0.001002"
-DIST_A="Alien-Chipmunk-0.001002.tar.gz"
+DIST_VERSION="0.001002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Alien-Base-0.020
+	>=dev-perl/Alien-Build-0.020
 	>=dev-perl/File-ShareDir-1.000
 "
 DEPEND="
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Alien-CMake-0.030
 	virtual/perl-Test-Simple
 "
+

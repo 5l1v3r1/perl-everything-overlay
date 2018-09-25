@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="1.29"
-DIST_A="Clustericious-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,8 +44,9 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-chdir
-	>=dev-perl/Test-Clustericious-Cluster-0.370
+	dev-perl/Test-Clustericious-Cluster
 	>=dev-perl/Test-Script-1.100
 	dev-perl/Test-Warn
 	>=dev-perl/Test2-Suite-0.000.060
 "
+

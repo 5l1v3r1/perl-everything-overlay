@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BCEVC"
-DIST_VERSION="v0.1.3"
-DIST_A="App-Modular-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

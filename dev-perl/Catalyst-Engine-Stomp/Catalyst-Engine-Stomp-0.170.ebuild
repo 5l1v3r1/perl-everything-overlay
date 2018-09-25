@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMOONEY"
-DIST_VERSION="0.17"
-DIST_A="Catalyst-Engine-Stomp-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
+

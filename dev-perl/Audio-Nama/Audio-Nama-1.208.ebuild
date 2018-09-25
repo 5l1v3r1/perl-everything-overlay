@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GANGLION"
-DIST_VERSION="1.208"
-DIST_A="Audio-Nama-1.208.tar.gz"
+DIST_VERSION="1.208" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -49,3 +48,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

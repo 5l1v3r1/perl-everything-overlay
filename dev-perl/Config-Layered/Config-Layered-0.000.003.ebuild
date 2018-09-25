@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYMKAT"
-DIST_VERSION="0.000003"
-DIST_A="Config-Layered-0.000003.tar.gz"
+DIST_VERSION="0.000003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Config-Any
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

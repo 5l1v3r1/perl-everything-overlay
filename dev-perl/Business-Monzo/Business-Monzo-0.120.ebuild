@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.12"
-DIST_A="Business-Monzo-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.201.404.080
 	>=dev-perl/Test-Most-0.310
 "
+

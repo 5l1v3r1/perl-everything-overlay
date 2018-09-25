@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WYANT"
-DIST_VERSION="0.035"
-DIST_A="Astro-App-Satpass2-0.035.tar.gz"
+DIST_VERSION="0.035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	>=dev-perl/Astro-Coord-ECI-TLE-Iridium-0.077
 	>=dev-perl/Astro-satpass-0.077
 	dev-perl/Clone
 	>=dev-perl/File-HomeDir-0.930
@@ -36,5 +36,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

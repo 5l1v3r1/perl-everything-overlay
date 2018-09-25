@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="1.239"
-DIST_A="Config-Model-OpenSsh-1.239.tar.gz"
+DIST_VERSION="1.239" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Config-Model
+	>=dev-perl/Config-Model-2.123
 	dev-perl/File-HomeDir
 	>=dev-perl/Log-Log4perl-1.110
 	dev-perl/Mouse
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

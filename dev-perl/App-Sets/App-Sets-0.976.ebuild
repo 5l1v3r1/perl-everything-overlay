@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POLETTIX"
-DIST_VERSION="0.976"
-DIST_A="App-Sets-0.976.tar.gz"
+DIST_VERSION="0.976" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

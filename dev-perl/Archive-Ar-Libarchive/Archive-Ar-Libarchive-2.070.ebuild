@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLICEASE"
-DIST_VERSION="2.07"
-DIST_A="Archive-Ar-Libarchive-2.07.tar.gz"
+DIST_VERSION="2.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.940
 "
+

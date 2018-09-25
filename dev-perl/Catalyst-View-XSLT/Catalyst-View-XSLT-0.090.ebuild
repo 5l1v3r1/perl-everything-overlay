@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JANUS"
-DIST_VERSION="0.09"
-DIST_A="Catalyst-View-XSLT-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-lang/perl-1.400
 	>=virtual/perl-Test-Simple-0.600
 "
+

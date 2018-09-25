@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.000001"
-DIST_A="Alien-SNMP-MAXTC-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-CChecker
 	>=virtual/perl-Test-Simple-0.940
 "
+

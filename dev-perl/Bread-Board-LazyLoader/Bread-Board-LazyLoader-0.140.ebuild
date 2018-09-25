@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANIELR"
-DIST_VERSION="0.14"
-DIST_A="Bread-Board-LazyLoader-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZUPH"
-DIST_VERSION="0.12"
-DIST_A="Acme-Tategaki-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Text-TestBase-0.090
 	>=virtual/perl-Test-Simple-0.980
 "
+

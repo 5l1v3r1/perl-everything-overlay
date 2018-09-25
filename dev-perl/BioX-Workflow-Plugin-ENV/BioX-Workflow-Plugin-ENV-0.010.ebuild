@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JILLROWE"
-DIST_VERSION="0.01"
-DIST_A="BioX-Workflow-Plugin-ENV-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BioX-Workflow
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	>=virtual/perl-Test-Simple-0.960
 "
+

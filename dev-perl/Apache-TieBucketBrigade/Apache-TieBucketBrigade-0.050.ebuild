@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOCK"
-DIST_VERSION="0.05"
-DIST_A="Apache-TieBucketBrigade-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,9 @@ RDEPEND="
 	>=dev-perl/Class-Data-Inheritable-0.080
 	>=dev-perl/IO-stringy-2.111
 	>=dev-perl/ex-override-1.100
-	>=virtual/perl-IO-1.250
+	>=virtual/perl-IO-1.390
 "
 DEPEND="
 	${RDEPEND}
 "
+

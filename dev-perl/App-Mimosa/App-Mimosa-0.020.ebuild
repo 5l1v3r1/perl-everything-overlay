@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LETO"
-DIST_VERSION="0.02"
-DIST_A="App-Mimosa-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,6 @@ RDEPEND="
 	>=dev-perl/Bio-BLAST-0.200
 	>=dev-perl/Bio-Chado-Schema-0.081.000
 	>=dev-perl/Bio-GMOD-Blast-Graph-0.050
-	>=dev-perl/BioPerl-1.006.009
 	dev-perl/Catalyst-Action-REST
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Authentication-Store-DBIx-Class
@@ -51,9 +49,9 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/SQL-Translator-0.110.070
 	dev-perl/Set-Scalar
+	dev-perl/YAML
 	dev-perl/aliased
 	dev-perl/namespace-autoclean
-	dev-perl/yaml
 	virtual/perl-File-Temp
 	>=virtual/perl-IPC-Cmd-0.700
 	>=virtual/perl-autodie-2.000
@@ -61,4 +59,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
+	dev-perl/HTML-Lint
+	>=dev-perl/HTML-Tagset-3.200
+	dev-perl/Test-DBIx-Class
+	>=dev-perl/Test-JSON-0.110
+	dev-perl/Test-Most
+	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.560
 "
+

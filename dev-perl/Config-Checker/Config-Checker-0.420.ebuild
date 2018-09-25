@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.42"
-DIST_A="Config-Checker-0.42.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.42" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Config-Checker-0.42.tar.gz -> Config-Checker-0.42.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Config-Checker-0.42 ${WORKDIR}/Config-Checker-0.42
+}
+

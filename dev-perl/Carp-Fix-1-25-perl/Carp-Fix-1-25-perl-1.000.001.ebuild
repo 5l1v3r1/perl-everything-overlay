@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="1.000001"
-DIST_A="Carp-Fix-1_25-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

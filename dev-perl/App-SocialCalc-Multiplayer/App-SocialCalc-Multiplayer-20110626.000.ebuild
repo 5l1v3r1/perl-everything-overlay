@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="20110626.0"
-DIST_A="App-SocialCalc-Multiplayer-20110626.tar.gz"
+DIST_VERSION="20110626" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

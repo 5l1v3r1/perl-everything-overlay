@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KMX"
-DIST_VERSION="1.004"
-DIST_A="App-module-version-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,11 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	>=virtual/perl-Getopt-Long-2.130
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

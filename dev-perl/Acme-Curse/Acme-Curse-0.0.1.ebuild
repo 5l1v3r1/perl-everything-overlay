@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MORITZ"
-DIST_VERSION="v0.0.1"
-DIST_A="Acme-Curse-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

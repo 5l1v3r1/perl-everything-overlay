@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="0.05"
-DIST_A="Acme-BooK-Is-My-Bitch-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

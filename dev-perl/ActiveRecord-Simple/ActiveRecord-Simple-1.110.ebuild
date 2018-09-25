@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHOOTNIX"
-DIST_VERSION="1.11"
-DIST_A="ActiveRecord-Simple-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

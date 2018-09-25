@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="1.04"
-DIST_A="App-iTan-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Expect
 	virtual/perl-File-Temp
 "
+

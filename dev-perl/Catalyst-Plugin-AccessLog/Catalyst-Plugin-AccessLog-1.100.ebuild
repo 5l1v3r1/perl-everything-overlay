@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARODLAND"
-DIST_VERSION="1.10"
-DIST_A="Catalyst-Plugin-AccessLog-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.800.080
+	dev-perl/Catalyst-Runtime
 	dev-perl/DateTime
 	dev-perl/Moose
 	dev-perl/namespace-autoclean
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

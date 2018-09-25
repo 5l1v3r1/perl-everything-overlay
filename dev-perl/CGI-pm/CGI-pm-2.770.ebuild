@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LDS"
-DIST_VERSION="2.77"
-DIST_A="CGI.pm-2.77.tar.gz"
+DIST_VERSION="2.77" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBC"
-DIST_VERSION="1.016"
-DIST_A="Cache-AgainstFile-1.016.tar.gz"
+DIST_VERSION="1.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

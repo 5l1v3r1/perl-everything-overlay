@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOHERTY"
-DIST_VERSION="0.009"
-DIST_A="App-Sysadmin-Log-Simple-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,16 +25,23 @@ RDEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Net-Twitter-Lite
 	dev-perl/Path-Tiny
+	dev-perl/Pod-Usage
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-HTTP-Tiny
 	virtual/perl-IO
-	virtual/perl-Pod-Usage
 	virtual/perl-autodie
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
+	dev-perl/IO-stringy
+	dev-perl/Test-Output
+	dev-perl/Test-Requires
+	>=dev-perl/Test-Script-1.050
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "
+

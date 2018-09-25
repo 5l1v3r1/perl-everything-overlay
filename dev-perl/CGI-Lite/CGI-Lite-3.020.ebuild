@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOUSTON"
-DIST_VERSION="3.02"
-DIST_A="CGI-Lite-3.02.tar.gz"
+DIST_VERSION="3.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

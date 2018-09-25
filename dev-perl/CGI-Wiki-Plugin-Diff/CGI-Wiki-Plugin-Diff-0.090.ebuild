@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVORW"
-DIST_VERSION="0.09"
-DIST_A="CGI-Wiki-Plugin-Diff-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/CGI-Wiki-0.440
 	dev-perl/Module-Optional
 	>=dev-perl/VCS-Lite-0.050
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

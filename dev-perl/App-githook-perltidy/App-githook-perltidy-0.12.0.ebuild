@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MLAWREN"
-DIST_VERSION="0.12.0"
-DIST_A="App-githook-perltidy-0.12.0.tar.gz"
+DIST_VERSION="0.12.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Piece
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAN"
-DIST_VERSION="2.5002"
-DIST_A="Archive-Tar-Builder-2.5002.tar.gz"
+DIST_VERSION="2.5002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.440
 "
+

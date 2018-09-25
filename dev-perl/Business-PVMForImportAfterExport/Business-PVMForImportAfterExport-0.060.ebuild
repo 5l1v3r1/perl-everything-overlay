@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAVI"
-DIST_VERSION="0.06"
-DIST_A="Business-PVMForImportAfterExport-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/String-StringLight
 	virtual/perl-Test-Simple
 "
+

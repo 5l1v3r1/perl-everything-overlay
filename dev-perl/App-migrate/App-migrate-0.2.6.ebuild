@@ -22,7 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Devel-CheckOS-1.630
+	dev-perl/Devel-CheckOS
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/Module-Build
 	>=dev-perl/Path-Tiny-0.060

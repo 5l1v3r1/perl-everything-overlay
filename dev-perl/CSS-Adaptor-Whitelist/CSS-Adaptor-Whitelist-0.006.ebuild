@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIXTEASE"
-DIST_VERSION="0.006"
-DIST_A="CSS-Adaptor-Whitelist-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

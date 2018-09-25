@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWNCORP"
-DIST_VERSION="0.02"
-DIST_A="API-Twitter-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Data-Object-0.050
+	>=dev-perl/Data-Object-0.030
 	>=dev-perl/Import-Into-1.002.004
 	>=dev-perl/Mojolicious-6.080
 	>=dev-perl/Net-OAuth-0.280
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

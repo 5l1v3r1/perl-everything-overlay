@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PECO"
-DIST_VERSION="1.51"
-DIST_A="CPM-1.51.tar.gz"
+DIST_VERSION="1.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

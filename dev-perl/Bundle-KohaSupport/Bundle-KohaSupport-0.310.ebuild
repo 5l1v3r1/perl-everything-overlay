@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOHA"
-DIST_VERSION="0.31"
-DIST_A="Bundle-KohaSupport-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

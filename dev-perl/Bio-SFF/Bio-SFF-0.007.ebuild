@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.007"
-DIST_A="Bio-SFF-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.013
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Module-Load
 	>=virtual/perl-Test-Simple-0.880
 "
+

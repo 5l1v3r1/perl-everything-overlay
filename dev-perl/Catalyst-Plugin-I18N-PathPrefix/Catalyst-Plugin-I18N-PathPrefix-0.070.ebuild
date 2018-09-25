@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MENDEL"
-DIST_VERSION="0.07"
-DIST_A="Catalyst-Plugin-I18N-PathPrefix-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-0.350
 	>=dev-perl/Catalyst-Plugin-I18N-0.090
-	>=dev-perl/Catalyst-Runtime-5.800.130
+	dev-perl/Catalyst-Runtime
 	>=dev-perl/HTTP-Message-5.824
 	>=dev-perl/Moose-0.920
 	>=dev-perl/Path-Class-0.160
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

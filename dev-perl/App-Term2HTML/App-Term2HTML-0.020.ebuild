@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAYASHI"
-DIST_VERSION="0.02"
-DIST_A="App-Term2HTML-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,12 +18,15 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/HTML-FromANSI-Tiny
 	dev-perl/IO-Interactive-Tiny
+	dev-perl/Pod-Usage
 	>=virtual/perl-Getopt-Long-2.420
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 	dev-perl/Module-Build-Pluggable
 	>=dev-perl/Module-Build-Pluggable-CPANfile-0.050
+	dev-perl/Test-Output
+	>=virtual/perl-Test-Simple-0.880
 "
+

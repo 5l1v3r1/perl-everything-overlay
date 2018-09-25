@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NKH"
-DIST_VERSION="v0.01.12"
-DIST_A="App-Plog-0.01.12.tar.gz"
+DIST_VERSION="0.01.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,4 +31,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
+	dev-perl/Test-Block
+	dev-perl/Test-Exception
+	dev-perl/Test-NoWarnings
+	dev-perl/Test-Warn
+	dev-perl/Text-Diff
 "
+

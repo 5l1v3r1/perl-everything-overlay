@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAPPA"
-DIST_VERSION="0.38"
-DIST_A="Algorithm-TokenBucket-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

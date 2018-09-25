@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.02"
-DIST_A="App-pmdeps-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,4 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
+	>=dev-perl/Capture-Tiny-0.220
+	>=dev-perl/Test-MockObject-1.201.203.010
+	>=virtual/perl-Test-Simple-0.980
 "
+

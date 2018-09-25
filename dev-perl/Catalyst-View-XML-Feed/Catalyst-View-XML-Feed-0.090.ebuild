@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTRAT"
-DIST_VERSION="0.09"
-DIST_A="Catalyst-View-XML-Feed-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Catalyst-Runtime-5.800.150
+	dev-perl/Catalyst-Runtime
 	dev-perl/DateTime
 	dev-perl/Moose
 	>=dev-perl/XML-Feed-0.430
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

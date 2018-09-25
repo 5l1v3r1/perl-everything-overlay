@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KNOWZERO"
-DIST_VERSION="0.03"
-DIST_A="Crypt-AES-CTR-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

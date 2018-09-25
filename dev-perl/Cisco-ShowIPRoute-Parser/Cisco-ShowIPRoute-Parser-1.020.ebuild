@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="cisco"
-DIST_VERSION="1.02"
-DIST_A="Cisco-ShowIPRoute-Parser-1.02.tar.gz"
+DIST_AUTHOR="MARKPF"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MARKPF/cisco/Cisco-ShowIPRoute-Parser-1.02.tar.gz -> Cisco-ShowIPRoute-Parser-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Cisco-ShowIPRoute-Parser-1.02 ${WORKDIR}/Cisco-ShowIPRoute-Parser-1.02
+}
+

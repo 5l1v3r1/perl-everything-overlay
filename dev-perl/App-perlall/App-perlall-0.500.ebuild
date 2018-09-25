@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RURBAN"
-DIST_VERSION="0.50"
-DIST_A="App-perlall-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-2.740
 	>=dev-perl/App-Rad-1.040
 	>=dev-perl/Devel-PatchPerl-0.460
 	dev-perl/Devel-Platform-Info
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

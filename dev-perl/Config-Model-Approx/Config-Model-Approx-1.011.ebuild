@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDUMONT"
-DIST_VERSION="1.011"
-DIST_A="Config-Model-Approx-1.011.tar.gz"
+DIST_VERSION="1.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Config-Model-2.123
+	dev-perl/Config-Model
 	dev-perl/Log-Log4perl
 	dev-perl/Mouse
 	virtual/perl-Carp
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Config-Model-Tester-3.006
 	virtual/perl-Test-Simple
 "
+

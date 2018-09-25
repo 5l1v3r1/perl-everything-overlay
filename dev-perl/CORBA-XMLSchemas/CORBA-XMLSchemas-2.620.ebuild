@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERRAD"
-DIST_VERSION="2.62"
-DIST_A="CORBA-XMLSchemas-2.62.tar.gz"
+DIST_VERSION="2.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

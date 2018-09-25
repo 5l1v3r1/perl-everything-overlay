@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAMELKEV"
-DIST_VERSION="3224.0"
-DIST_A="CSS-Simple-3224.tar.gz"
+DIST_VERSION="3224" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

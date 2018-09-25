@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.07"
-DIST_A="Class-Refresh-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,9 +27,11 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

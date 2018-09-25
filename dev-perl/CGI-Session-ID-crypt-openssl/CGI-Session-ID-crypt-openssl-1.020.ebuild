@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HWEBER"
-DIST_VERSION="1.02"
-DIST_A="CGI-Session-ID-crypt_openssl-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-Test-Simple
 "
+

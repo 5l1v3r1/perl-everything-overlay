@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGROENVEL"
-DIST_VERSION="2.06"
-DIST_A="Apache-DBILogin-2.06.tar.gz"
+DIST_VERSION="2.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

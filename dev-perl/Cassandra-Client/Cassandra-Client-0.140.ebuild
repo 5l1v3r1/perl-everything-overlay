@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TVDW"
-DIST_VERSION="0.14"
-DIST_A="Cassandra-Client-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

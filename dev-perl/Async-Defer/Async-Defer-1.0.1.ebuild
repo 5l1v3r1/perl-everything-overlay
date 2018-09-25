@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}

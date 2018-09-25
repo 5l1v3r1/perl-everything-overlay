@@ -19,7 +19,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	dev-perl/DateTime
-	>=dev-perl/HTTP-Message-6.030
+	dev-perl/HTTP-Message
 	dev-perl/Moose
 	dev-perl/Perl-MinimumVersion
 	dev-perl/Pod-Readme

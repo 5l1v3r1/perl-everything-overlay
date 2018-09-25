@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBISBEE"
-DIST_VERSION="1.1"
-DIST_A="CBSSports-Getopt-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/File-HomeDir
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

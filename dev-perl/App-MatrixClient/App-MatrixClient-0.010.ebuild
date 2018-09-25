@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.01"
-DIST_A="App-MatrixClient-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	>=dev-perl/Tickit-Console-0.070
 	dev-perl/Tickit-Widget-FloatBox
 	dev-perl/Tickit-Widget-ScrollBox
-	dev-perl/Tickit-Widgets
+	>=dev-perl/Tickit-Widgets-0.310
 	dev-perl/YAML
 	dev-perl/curry
 	>=virtual/perl-Scalar-List-Utils-1.330
@@ -40,3 +39,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.400
 	>=virtual/perl-Test-Simple-0.880
 "
+

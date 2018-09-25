@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPINNE"
-DIST_VERSION="0.02"
-DIST_A="Business-TNT-ExpressConnect-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-SysPath-0.130
 	dev-perl/Test-Most
 "
+

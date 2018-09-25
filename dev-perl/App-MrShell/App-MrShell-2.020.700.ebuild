@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="2.0207"
-DIST_A="App-MrShell-2.0207.tar.gz"
+DIST_VERSION="2.0207" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

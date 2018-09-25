@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VOEGELAS"
-DIST_VERSION="1.027"
-DIST_A="CPANPLUS-Dist-Slackware-1.027.tar.gz"
+DIST_VERSION="1.027" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+

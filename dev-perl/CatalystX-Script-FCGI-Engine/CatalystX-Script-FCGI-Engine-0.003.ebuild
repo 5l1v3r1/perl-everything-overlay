@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOBTFISH"
-DIST_VERSION="0.003"
-DIST_A="CatalystX-Script-FCGI-Engine-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.150
 	>=virtual/perl-Test-Simple-0.880
 "
+

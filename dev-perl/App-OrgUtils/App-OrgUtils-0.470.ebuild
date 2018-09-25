@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.470"
-DIST_A="App-OrgUtils-0.470.tar.gz"
+DIST_VERSION="0.470" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,12 +24,13 @@ RDEPEND="
 	dev-perl/Lingua-EN-Numbers-Ordinate
 	dev-perl/List-MoreUtils
 	>=dev-perl/Log-ger-0.023
-	dev-perl/Org-Parser
+	>=dev-perl/Org-Parser-0.530
 	>=dev-perl/Org-To-HTML-0.180
 	dev-perl/Org-To-HTML-WordPress
 	dev-perl/Path-Tiny
 	>=dev-perl/Perinci-CmdLine-Any-0.090
 	>=dev-perl/Perinci-CmdLine-Classic-1.770
+	>=dev-perl/Perinci-CmdLine-Lite-1.810
 	dev-perl/Perinci-Sub-ArgEntity-filename
 	dev-perl/Perinci-Sub-ArgEntity-timezone
 	>=dev-perl/Perinci-Sub-Util-0.460
@@ -39,7 +39,7 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-File-Temp
-	>=virtual/perl-Scalar-List-Utils-1.450
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
@@ -48,3 +48,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

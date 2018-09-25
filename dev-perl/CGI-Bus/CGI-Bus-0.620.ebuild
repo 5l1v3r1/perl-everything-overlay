@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAKAROW"
-DIST_VERSION="0.62"
-DIST_A="CGI-Bus-0.62.tar.gz"
+DIST_VERSION="0.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

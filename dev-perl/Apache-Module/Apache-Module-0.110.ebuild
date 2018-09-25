@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGM"
-DIST_VERSION="0.11"
-DIST_A="Apache-Module-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

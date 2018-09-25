@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKF"
-DIST_VERSION="1.01"
-DIST_A="Attempt-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKI"
-DIST_VERSION="0.00001"
-DIST_A="Algorithm-DimReduction-0.00001.tar.gz"
+DIST_VERSION="0.00001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

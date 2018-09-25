@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OVERLAST"
-DIST_VERSION="0.000001"
-DIST_A="Apporo-0.000001.tar.gz"
+DIST_VERSION="0.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Devel-CheckLib
 	virtual/perl-Test-Simple
 "
+

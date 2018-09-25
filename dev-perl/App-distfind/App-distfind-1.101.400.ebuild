@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="1.101400"
-DIST_A="App-distfind-1.101400.tar.gz"
+DIST_VERSION="1.101400" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Carp
+	virtual/perl-File-Temp
+	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Test-Simple-0.940
 "
+
