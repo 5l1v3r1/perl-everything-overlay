@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MYKL"
 DIST_VERSION="1.00"
-DIST_A="Hardware-Vhdl-Automake-1.00.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

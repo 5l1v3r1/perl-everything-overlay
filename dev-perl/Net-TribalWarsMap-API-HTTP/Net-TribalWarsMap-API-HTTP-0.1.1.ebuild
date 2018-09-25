@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="v0.1.1"
-DIST_A="Net-TribalWarsMap-API-HTTP-0.1.1.tar.gz"
+DIST_VERSION="0.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

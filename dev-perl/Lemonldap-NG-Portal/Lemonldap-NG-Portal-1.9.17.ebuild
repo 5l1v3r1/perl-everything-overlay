@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COUDOT"
-DIST_VERSION="1.9.17"
-DIST_A="Lemonldap-NG-Portal-1.9.17.tar.gz"
+DIST_VERSION="1.9.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
 "
+

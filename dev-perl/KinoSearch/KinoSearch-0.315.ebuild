@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREAMYG"
-DIST_VERSION="0.315"
-DIST_A="KinoSearch-0.315.tar.gz"
+DIST_VERSION="0.315" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.180
 	>=virtual/perl-ExtUtils-ParseXS-2.160
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="2.03"
-DIST_A="Mail-MtPolicyd-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -64,3 +63,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

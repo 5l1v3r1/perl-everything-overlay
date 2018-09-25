@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETAMEM"
-DIST_VERSION="0.1106"
-DIST_A="Lingua-ENG-Numbers-0.1106.tar.gz"
+DIST_VERSION="0.1106" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-bignum
 "
+

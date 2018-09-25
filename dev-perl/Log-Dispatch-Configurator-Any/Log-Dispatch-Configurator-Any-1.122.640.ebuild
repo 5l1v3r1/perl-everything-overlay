@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.122640"
-DIST_A="Log-Dispatch-Configurator-Any-1.122640.tar.gz"
+DIST_VERSION="1.122640" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Config-Tiny
 	virtual/perl-Test-Simple
 "
+

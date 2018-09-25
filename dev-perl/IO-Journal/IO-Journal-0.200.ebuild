@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREQUENCY"
-DIST_VERSION="0.2"
-DIST_A="IO-Journal-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-NoWarnings-0.084
 	virtual/perl-ExtUtils-CBuilder
 "
+

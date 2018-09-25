@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.002003"
-DIST_A="Mew-1.002003.tar.gz"
+DIST_VERSION="1.002003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Moo-2.002.004
 	>=dev-perl/MooX-0.101
 	>=dev-perl/MooX-ChainedAttributes-0.040
-	>=dev-perl/Type-Tiny-1.000.005
+	dev-perl/Type-Tiny
 	>=dev-perl/namespace-clean-0.260
 	>=dev-perl/strictures-2.000.002
 	virtual/perl-Filter-Simple
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.09"
-DIST_A="MarpaX-Languages-SVG-Parser-1.09.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-2.210
 	>=dev-perl/Capture-Tiny-0.220
 	>=dev-perl/Config-Tiny-2.190
 	>=dev-perl/Data-Section-Simple-0.050
@@ -44,3 +44,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

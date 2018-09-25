@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="1.005"
-DIST_A="Mojo-DOM58-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-JSON-PP
 	>=virtual/perl-Test-Simple-0.880
 "
+

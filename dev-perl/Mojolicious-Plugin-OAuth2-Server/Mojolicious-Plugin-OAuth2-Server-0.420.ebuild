@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.42"
-DIST_A="Mojolicious-Plugin-OAuth2-Server-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	virtual/perl-Test-Simple
 "
+

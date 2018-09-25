@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="1.01"
-DIST_A="Math-Function-Interpolator-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

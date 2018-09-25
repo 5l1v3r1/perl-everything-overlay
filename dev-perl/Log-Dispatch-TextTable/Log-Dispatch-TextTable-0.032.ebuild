@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.032"
-DIST_A="Log-Dispatch-TextTable-0.032.tar.gz"
+DIST_VERSION="0.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Log-Dispatch
+	>=dev-perl/Log-Dispatch-2.000
 	dev-perl/Text-Table
 	virtual/perl-parent
 "
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	>=virtual/perl-Test-Simple-0.960
 "
+

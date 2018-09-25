@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAMOD"
-DIST_VERSION="0.11"
-DIST_A="Net-Facebook-Oauth2-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,9 +26,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Plack
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Requires
 	dev-perl/Test-TCP
 	>=virtual/perl-Test-Simple-0.880
 "
+

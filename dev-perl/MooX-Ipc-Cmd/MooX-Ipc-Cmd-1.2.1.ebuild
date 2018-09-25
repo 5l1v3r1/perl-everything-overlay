@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAZADOR"
-DIST_VERSION="1.2.1"
-DIST_A="MooX-Ipc-Cmd-1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XLAT"
-DIST_VERSION="0.163572"
-DIST_A="Mojolicious-Plugin-DevexpressHelpers-0.163572.tar.gz"
+DIST_VERSION="0.163572" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Pod-Coverage-TrustPod
 	virtual/perl-Test-Simple
 "
+

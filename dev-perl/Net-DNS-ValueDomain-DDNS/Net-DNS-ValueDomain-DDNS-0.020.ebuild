@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYPESTER"
-DIST_VERSION="0.02"
-DIST_A="Net-DNS-ValueDomain-DDNS-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

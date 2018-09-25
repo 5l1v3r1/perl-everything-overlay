@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIGORY"
-DIST_VERSION="0.04"
-DIST_A="Mail-Chimp3-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Moo
 	dev-perl/Type-Tiny
-	dev-perl/Web-API
 	>=dev-perl/namespace-autoclean-0.160
 	>=dev-perl/strictures-2.000
 "
@@ -30,3 +28,4 @@ DEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KROH"
-DIST_VERSION="0.022"
-DIST_A="Math-DWT-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

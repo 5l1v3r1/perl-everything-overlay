@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="3.09"
-DIST_A="Mail-POP3-3.09.tar.gz"
+DIST_VERSION="3.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Email-MIME
 	dev-perl/HTML-Form
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/HTTP-Cookies
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GPHAT"
-DIST_VERSION="0.35"
-DIST_A="Layout-Manager-0.35.tar.gz"
+DIST_VERSION="0.35" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

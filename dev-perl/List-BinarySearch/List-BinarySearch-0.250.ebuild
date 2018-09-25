@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDO"
-DIST_VERSION="0.25"
-DIST_A="List-BinarySearch-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.980
 "
+

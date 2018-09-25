@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.14"
-DIST_A="Net-Async-Tangence-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Future
-	>=dev-perl/IO-Async-0.360
+	dev-perl/IO-Async
 	>=dev-perl/Tangence-0.210
 	dev-perl/URI
 	virtual/perl-Encode
@@ -25,6 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Test-Fatal-0.006
 	dev-perl/Test-HexString
 	dev-perl/Test-Identity
@@ -32,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Refcount
 	>=virtual/perl-Test-Simple-0.880
 "
+

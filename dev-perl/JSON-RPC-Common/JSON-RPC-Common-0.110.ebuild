@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMCBRIDE"
-DIST_VERSION="0.11"
-DIST_A="JSON-RPC-Common-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-2.110
 	dev-perl/MRO-Compat
-	dev-perl/Moose
+	>=dev-perl/Moose-0.480
 	dev-perl/MooseX-Types
 	dev-perl/Try-Tiny
 	dev-perl/URI
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

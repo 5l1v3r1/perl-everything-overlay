@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EARL"
-DIST_VERSION="0.20"
-DIST_A="IPC-Lock-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

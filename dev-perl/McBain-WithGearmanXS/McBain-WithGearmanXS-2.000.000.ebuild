@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="2.000000"
-DIST_A="McBain-WithGearmanXS-2.000000.tar.gz"
+DIST_VERSION="2.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/McBain
 	virtual/perl-Test-Simple
 "
+

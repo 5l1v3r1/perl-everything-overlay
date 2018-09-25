@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARIOROY"
-DIST_VERSION="1.839"
-DIST_A="MCE-Shared-1.839.tar.gz"
+DIST_VERSION="1.839" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

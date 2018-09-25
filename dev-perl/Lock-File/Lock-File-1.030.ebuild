@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.03"
-DIST_A="Lock-File-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Any
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Time-HiRes
 	virtual/perl-autodie
 "
+

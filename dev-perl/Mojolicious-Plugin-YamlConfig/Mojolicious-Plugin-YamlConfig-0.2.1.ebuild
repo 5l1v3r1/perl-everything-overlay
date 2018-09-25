@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DATA"
-DIST_VERSION="v0.2.1"
-DIST_A="Mojolicious-Plugin-YamlConfig-0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 "
+

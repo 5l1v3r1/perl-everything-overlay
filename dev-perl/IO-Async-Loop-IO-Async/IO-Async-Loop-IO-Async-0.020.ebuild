@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.02"
-DIST_A="IO-Async-Loop-IO-Async-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/IO-Async-0.240
+	>=dev-perl/IO-Async-0.320
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

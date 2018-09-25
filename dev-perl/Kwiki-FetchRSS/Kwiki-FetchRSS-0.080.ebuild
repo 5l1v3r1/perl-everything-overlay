@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Kwiki"
-DIST_VERSION="0.08"
-DIST_A="Kwiki-FetchRSS-0.08.tar.gz"
+DIST_AUTHOR="CDENT"
+DIST_VERSION="0.08" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Kwiki/Kwiki-FetchRSS-0.08.tar.gz -> Kwiki-FetchRSS-0.08.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Kwiki-FetchRSS-0.08 ${WORKDIR}/Kwiki-FetchRSS-0.08
+}
+

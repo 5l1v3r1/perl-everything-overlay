@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PACMAN"
-DIST_VERSION="0.1"
-DIST_A="Method-Extension-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

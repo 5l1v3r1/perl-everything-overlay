@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAARE"
-DIST_VERSION="0.26"
-DIST_A="Job-Machine-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/Data-Serializer
 	dev-perl/Data-Serializer-Sereal
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

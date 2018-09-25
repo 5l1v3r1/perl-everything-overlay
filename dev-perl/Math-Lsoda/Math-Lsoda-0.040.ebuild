@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYNCLOVER"
-DIST_VERSION="0.04"
-DIST_A="Math-Lsoda-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-F77-1.160
 	virtual/perl-Test-Simple
 "
+

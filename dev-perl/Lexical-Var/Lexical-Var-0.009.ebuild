@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.009"
-DIST_A="Lexical-Var-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.150
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WITTEN"
-DIST_VERSION="3.4"
-DIST_A="Net_TCLink.pm-3.4.tar.gz"
+DIST_VERSION="3.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

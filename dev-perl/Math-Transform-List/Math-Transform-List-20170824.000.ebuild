@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="20170824.0"
-DIST_A="Math-Transform-List-20170824.tar.gz"
+DIST_VERSION="20170824" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.422.400
 "
+

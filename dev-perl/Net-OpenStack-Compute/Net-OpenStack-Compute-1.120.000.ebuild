@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IRONCAMEL"
-DIST_VERSION="1.1200"
-DIST_A="Net-OpenStack-Compute-1.1200.tar.gz"
+DIST_VERSION="1.1200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

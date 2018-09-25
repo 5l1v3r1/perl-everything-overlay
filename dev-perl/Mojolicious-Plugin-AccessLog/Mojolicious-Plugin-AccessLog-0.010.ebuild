@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAF"
-DIST_VERSION="0.010"
-DIST_A="Mojolicious-Plugin-AccessLog-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Time-Local
 "
+

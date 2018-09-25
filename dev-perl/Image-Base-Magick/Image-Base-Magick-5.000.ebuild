@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="5.0"
-DIST_A="Image-Base-Magick-5.tar.gz"
+DIST_VERSION="5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test
 "
+

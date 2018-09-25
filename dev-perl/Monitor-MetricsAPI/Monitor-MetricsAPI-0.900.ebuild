@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIME"
-DIST_VERSION="0.900"
-DIST_A="Monitor-MetricsAPI-0.900.tar.gz"
+DIST_VERSION="0.900" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

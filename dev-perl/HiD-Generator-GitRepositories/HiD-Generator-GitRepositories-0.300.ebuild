@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BYTERAZOR"
-DIST_VERSION="0.3"
-DIST_A="HiD-Generator-GitRepositories-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

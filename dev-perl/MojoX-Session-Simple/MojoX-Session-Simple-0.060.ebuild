@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOWCOW"
-DIST_VERSION="0.06"
-DIST_A="MojoX-Session-Simple-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ DEPEND="
 	dev-perl/Cache-Memory-Simple
 	dev-perl/HTTP-CookieJar
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	dev-perl/Test-Pretty
 	>=dev-perl/Test-TCP-2.070
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.04"
-DIST_A="MP3-Splitter-0.04.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/MP3-Splitter-0.04.tar.gz -> MP3-Splitter-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MP3-Splitter-0.04 ${WORKDIR}/MP3-Splitter-0.04
+}
+

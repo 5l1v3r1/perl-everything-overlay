@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETAMEM"
-DIST_VERSION="0.135"
-DIST_A="Lingua-POL-Numbers-0.135.tar.gz"
+DIST_VERSION="0.135" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

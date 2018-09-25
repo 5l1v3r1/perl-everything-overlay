@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZURBORG"
-DIST_VERSION="0.006"
-DIST_A="Moove-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-Test-Simple
 "
+

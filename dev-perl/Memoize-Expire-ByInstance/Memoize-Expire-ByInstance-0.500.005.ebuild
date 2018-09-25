@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBEVERLY"
-DIST_VERSION="0.500005"
-DIST_A="Memoize-Expire-ByInstance-0.500005.tar.gz"
+DIST_VERSION="0.500005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

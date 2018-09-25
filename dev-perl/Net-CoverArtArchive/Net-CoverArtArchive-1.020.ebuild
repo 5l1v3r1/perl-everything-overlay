@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYCLES"
-DIST_VERSION="1.02"
-DIST_A="Net-CoverArtArchive-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Try-Tiny-0.110
 	>=virtual/perl-Test-Simple-0.900
 "
+

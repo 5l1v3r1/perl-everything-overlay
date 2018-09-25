@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCANNELL"
-DIST_VERSION="0.70"
-DIST_A="Lingua-GA-Gramadoir-0.70.tar.gz"
+DIST_VERSION="0.70" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIM"
-DIST_VERSION="0.06"
-DIST_A="Map-Tube-SaintPetersburg-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

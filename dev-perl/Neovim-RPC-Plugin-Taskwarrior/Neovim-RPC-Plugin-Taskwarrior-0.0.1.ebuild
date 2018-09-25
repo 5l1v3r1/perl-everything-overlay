@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YANICK"
-DIST_VERSION="0.0.1"
-DIST_A="Neovim-RPC-Plugin-Taskwarrior-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

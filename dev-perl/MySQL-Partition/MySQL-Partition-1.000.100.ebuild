@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="1.0001"
-DIST_A="MySQL-Partition-1.0001.tar.gz"
+DIST_VERSION="1.0001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-mysqld
 	>=virtual/perl-Test-Simple-0.980
 "
+

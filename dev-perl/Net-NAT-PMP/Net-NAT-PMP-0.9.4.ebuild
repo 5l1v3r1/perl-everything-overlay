@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVID"
-DIST_VERSION="v0.9.4"
-DIST_A="Net-NAT-PMP-0.9.4.tar.gz"
+DIST_VERSION="0.9.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

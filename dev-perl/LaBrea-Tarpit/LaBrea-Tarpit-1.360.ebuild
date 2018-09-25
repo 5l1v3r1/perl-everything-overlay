@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKER"
-DIST_VERSION="1.36"
-DIST_A="LaBrea-Tarpit-1.36.tar.gz"
+DIST_VERSION="1.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

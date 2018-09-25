@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAMMEL"
-DIST_VERSION="0.47"
-DIST_A="MooseX-Log-Log4perl-0.47.tar.gz"
+DIST_VERSION="0.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

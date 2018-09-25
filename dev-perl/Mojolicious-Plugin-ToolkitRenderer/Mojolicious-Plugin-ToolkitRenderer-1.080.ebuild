@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRYPHON"
-DIST_VERSION="1.08"
-DIST_A="Mojolicious-Plugin-ToolkitRenderer-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

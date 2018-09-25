@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEH"
-DIST_VERSION="1.008"
-DIST_A="Net-Camera-Edimax-IC1500-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

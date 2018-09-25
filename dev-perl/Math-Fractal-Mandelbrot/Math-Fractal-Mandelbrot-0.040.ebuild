@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TELS"
-DIST_VERSION="0.04"
-DIST_A="Math-Fractal-Mandelbrot-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TE/TELS/math/Math-Fractal-Mandelbrot-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/T/TE/TELS/math/Math-Fractal-Mandelbrot-0.04.tar.gz -> Math-Fractal-Mandelbrot-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-Fractal-Mandelbrot-0.04 ${WORKDIR}/Math-Fractal-Mandelbrot-0.04
+}
+

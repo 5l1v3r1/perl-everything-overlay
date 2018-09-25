@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="2.21"
-DIST_A="Net-Dict-2.21.tar.gz"
+DIST_VERSION="2.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-RequiresInternet-0.050
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARNANEL"
-DIST_VERSION="0.64"
-DIST_A="Lingua-EN-Alphabet-Shaw-0.64.tar.gz"
+DIST_VERSION="0.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

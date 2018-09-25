@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="6.09"
-DIST_A="LWP-Protocol-connect-6.09.tar.gz"
+DIST_VERSION="6.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/LWP-Protocol-https
 	dev-perl/URI
+	dev-perl/base
 	dev-perl/libwww-perl
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

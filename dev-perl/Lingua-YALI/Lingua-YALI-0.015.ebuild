@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJLIS"
-DIST_VERSION="0.015"
-DIST_A="Lingua-YALI-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,12 +20,19 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	dev-perl/PerlIO-gzip
+	dev-perl/Pod-Usage
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Command
+	dev-perl/Test-Exception
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "
+

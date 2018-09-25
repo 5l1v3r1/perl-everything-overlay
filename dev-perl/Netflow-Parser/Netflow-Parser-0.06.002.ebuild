@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PALIK"
-DIST_VERSION="0.06.002"
-DIST_A="Netflow-Parser-0.06.002.tar.gz"
+DIST_VERSION="0.06.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	virtual/perl-Test-Simple
 "
+

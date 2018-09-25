@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="1.001001"
-DIST_A="MooX-Role-POE-Emitter-1.001001.tar.gz"
+DIST_VERSION="1.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,7 @@ RDEPEND="
 	>=dev-perl/MooX-late-0.014
 	dev-perl/POE
 	dev-perl/Try-Tiny
-	>=dev-perl/Type-Tiny-0.022
+	dev-perl/Type-Tiny
 	>=dev-perl/strictures-1.000
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
@@ -37,3 +36,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-version-0.770
 "
+

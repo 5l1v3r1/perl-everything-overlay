@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENEHACK"
-DIST_VERSION="1.992"
-DIST_A="HiD-1.992.tar.gz"
+DIST_VERSION="1.992" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -58,3 +57,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NPEREZ"
-DIST_VERSION="1.110560"
-DIST_A="MongoDBx-AutoDeref-1.110560.tar.gz"
+DIST_VERSION="1.110560" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

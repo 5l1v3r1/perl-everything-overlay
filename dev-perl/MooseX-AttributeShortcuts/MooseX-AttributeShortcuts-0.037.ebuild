@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.037"
-DIST_A="MooseX-AttributeShortcuts-0.037.tar.gz"
+DIST_VERSION="0.037" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-1.140
 	dev-perl/MooseX-Meta-TypeConstraint-Mooish
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-Types
@@ -41,3 +40,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAPOEIRAB"
-DIST_VERSION="1.100"
-DIST_A="Lingua-Sentence-1.100.tar.gz"
+DIST_VERSION="1.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

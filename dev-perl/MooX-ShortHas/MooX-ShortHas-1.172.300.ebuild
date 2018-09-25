@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="1.172300"
-DIST_A="MooX-ShortHas-1.172300.tar.gz"
+DIST_VERSION="1.172300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
+	>=dev-lang/perl-1.010
 	dev-perl/Test-Fatal
 	dev-perl/Test-InDistDir
 	virtual/perl-File-Spec
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZACS"
-DIST_VERSION="0.03"
-DIST_A="Mail-Queue-DB-0.03.tar.gz"
-SRC_URI="mirror://cpan/authors/id/Z/ZA/ZACS/Mail/Mail-Queue-DB-0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/Z/ZA/ZACS/Mail/Mail-Queue-DB-0.03.tar.gz -> Mail-Queue-DB-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mail-Queue-DB-0.03 ${WORKDIR}/Mail-Queue-DB-0.03
+}
+

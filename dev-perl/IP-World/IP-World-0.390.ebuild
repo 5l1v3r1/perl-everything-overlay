@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCANTRELL"
-DIST_VERSION="0.39"
-DIST_A="IP-World-0.39.tar.gz"
+DIST_VERSION="0.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-ExtUtils-CBuilder
 "
+

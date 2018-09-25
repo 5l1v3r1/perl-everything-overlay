@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANJOU"
-DIST_VERSION="0.09"
-DIST_A="Net-Google-DocumentsList-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/File-BOM
 	virtual/perl-Test-Simple
 "
+

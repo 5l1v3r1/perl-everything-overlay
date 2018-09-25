@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIBLIOME"
-DIST_VERSION="0.11"
-DIST_A="Lingua-BioYaTeA-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,15 +19,16 @@ RDEPEND="
 	>=dev-perl/Config-General-2.300
 	>=dev-perl/Lingua-YaTeA-0.622
 	dev-perl/Module-Build
+	dev-perl/Pod-Usage
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	>=dev-perl/XML-Twig-3.300
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-chmod
 "
+

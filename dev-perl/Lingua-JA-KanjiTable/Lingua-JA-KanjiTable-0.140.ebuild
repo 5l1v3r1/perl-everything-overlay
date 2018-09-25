@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAWAPAWA"
-DIST_VERSION="0.14"
-DIST_A="Lingua-JA-KanjiTable-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.990
 "
+

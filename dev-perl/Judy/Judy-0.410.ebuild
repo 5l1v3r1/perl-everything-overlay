@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJORE"
-DIST_VERSION="0.41"
-DIST_A="Judy-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

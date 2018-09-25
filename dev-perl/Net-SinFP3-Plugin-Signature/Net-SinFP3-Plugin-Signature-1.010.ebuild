@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOMOR"
-DIST_VERSION="1.01"
-DIST_A="Net-SinFP3-Plugin-Signature-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 "
+

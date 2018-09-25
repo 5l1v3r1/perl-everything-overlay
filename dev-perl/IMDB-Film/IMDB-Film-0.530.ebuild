@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEPANOV"
-DIST_VERSION="0.53"
-DIST_A="IMDB-Film-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-perl/Cache-Cache
 	dev-perl/Digest-SHA1
 	dev-perl/Error
-	dev-perl/HTML-Parser
+	>=dev-perl/HTML-Parser-2.280
 	dev-perl/Pod-Checker
 	dev-perl/Text-Unidecode
 	>=dev-perl/libwww-perl-1.410
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

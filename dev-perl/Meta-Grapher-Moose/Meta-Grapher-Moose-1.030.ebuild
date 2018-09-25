@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="1.03"
-DIST_A="Meta-Grapher-Moose-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,6 +35,8 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Requires
 	dev-perl/Test2-Suite
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

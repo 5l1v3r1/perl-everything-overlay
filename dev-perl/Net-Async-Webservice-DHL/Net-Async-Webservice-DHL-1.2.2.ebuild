@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="1.2.2"
-DIST_A="Net-Async-Webservice-DHL-1.2.2.tar.gz"
+DIST_VERSION="1.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,8 +44,10 @@ DEPEND="
 	dev-perl/Test-File-ShareDir
 	dev-perl/Test-Most
 	dev-perl/XML-Simple
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

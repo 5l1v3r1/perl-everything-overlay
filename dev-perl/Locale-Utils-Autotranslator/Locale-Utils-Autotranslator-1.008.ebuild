@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="1.008"
-DIST_A="Locale-Utils-Autotranslator-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

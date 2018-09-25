@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIM"
-DIST_VERSION="0.05"
-DIST_A="Map-Tube-KualaLumpur-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

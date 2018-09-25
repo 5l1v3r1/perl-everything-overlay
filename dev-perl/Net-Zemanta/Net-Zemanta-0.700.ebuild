@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVIAN"
-DIST_VERSION="0.7"
-DIST_A="Net-Zemanta-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

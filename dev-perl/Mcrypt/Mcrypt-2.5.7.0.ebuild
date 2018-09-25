@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESUS"
-DIST_VERSION="v2.5.7.0"
-DIST_A="Mcrypt-2.5.7.0.tar.gz"
+DIST_VERSION="2.5.7.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

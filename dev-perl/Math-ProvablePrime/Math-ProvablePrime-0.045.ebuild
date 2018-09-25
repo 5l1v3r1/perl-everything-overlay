@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.045"
-DIST_A="Math-ProvablePrime-0.045.tar.gz"
+DIST_VERSION="0.045" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	>=virtual/perl-Test-Simple-0.010
 "
+

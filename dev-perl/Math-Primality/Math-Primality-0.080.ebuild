@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LETO"
-DIST_VERSION="0.08"
-DIST_A="Math-Primality-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Math-GMPz-0.340
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-bignum
 "
+

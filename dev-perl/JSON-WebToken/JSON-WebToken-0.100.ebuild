@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAICRON"
-DIST_VERSION="0.10"
-DIST_A="JSON-WebToken-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.060
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJIBEL"
-DIST_VERSION="1.01"
-DIST_A="Lingua-FR-Hyphen-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

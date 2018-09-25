@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BYTEROCK"
-DIST_VERSION="0.03"
-DIST_A="Mojolicious-Plugin-Routes-Restful-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Lingua-EN-Inflect-1.000
 	virtual/perl-Test-Simple
 "
+

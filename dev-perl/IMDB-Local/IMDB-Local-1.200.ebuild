@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JERRYV"
 DIST_VERSION="1.2"
-DIST_A="IMDB-Local-1.2.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

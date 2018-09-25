@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MAXSCHUBE"
 DIST_VERSION="1.2"
-DIST_A="Nagios-Plugin-SNMP-1.2.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

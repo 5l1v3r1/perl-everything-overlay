@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="2.003"
-DIST_A="MooseX-TrackDirty-Attributes-2.003.tar.gz"
+DIST_VERSION="2.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
-	dev-perl/Moose
+	>=dev-perl/Moose-2.000
 	>=dev-perl/MooseX-AttributeShortcuts-0.008
 	dev-perl/MooseX-Types-Perl
 	dev-perl/Sub-Exporter-Progressive
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

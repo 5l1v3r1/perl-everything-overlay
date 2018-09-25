@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HJANSEN"
-DIST_VERSION="0.06"
-DIST_A="Mojolicious-Plugin-CountryDropDown-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/List-MoreUtils
-	>=dev-perl/Locale-Codes-3.200
 	>=dev-perl/Locale-Country-Multilingual-0.230
 	>=dev-perl/Mojolicious-2.000
 	virtual/perl-Unicode-Collate
@@ -26,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

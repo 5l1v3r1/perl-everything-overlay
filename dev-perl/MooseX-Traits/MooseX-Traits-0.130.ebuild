@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.13"
-DIST_A="MooseX-Traits-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,10 +25,12 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
+	dev-perl/Module-Build
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 "
+

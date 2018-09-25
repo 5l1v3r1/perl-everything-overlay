@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANFRU"
-DIST_VERSION="3.12"
-DIST_A="MonitisMonitorManager-3.12.tar.gz"
+DIST_VERSION="3.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

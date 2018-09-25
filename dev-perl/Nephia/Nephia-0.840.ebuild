@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YTURTLE"
-DIST_VERSION="0.84"
-DIST_A="Nephia-0.84.tar.gz"
+DIST_VERSION="0.84" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLYTLE"
-DIST_VERSION="1.05"
-DIST_A="Net-Google-Calendar-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

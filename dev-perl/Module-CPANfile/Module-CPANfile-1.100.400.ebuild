@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="1.1004"
-DIST_A="Module-CPANfile-1.1004.tar.gz"
+DIST_VERSION="1.1004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/File-pushd
 	>=virtual/perl-Test-Simple-0.880
 "
+

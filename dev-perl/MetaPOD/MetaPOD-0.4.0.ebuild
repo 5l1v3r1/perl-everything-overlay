@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/List-AllUtils
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.008
 	dev-perl/Pod-Eventual
 	dev-perl/Throwable
 	virtual/perl-Carp

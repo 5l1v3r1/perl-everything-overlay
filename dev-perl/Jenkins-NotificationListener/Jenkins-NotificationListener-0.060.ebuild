@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORNELIUS"
-DIST_VERSION="0.06"
-DIST_A="Jenkins-NotificationListener-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

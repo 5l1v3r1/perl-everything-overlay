@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PORRIDGE"
-DIST_VERSION="1.2"
-DIST_A="Image-EXIF-DateTime-Parser-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002000"
-DIST_A="Log-Contextual-WarnLogger-Fancy-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/Log-Contextual
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	>=dev-perl/Test-Needs-0.002.000
 	>=virtual/perl-Test-Simple-0.890
 "
+

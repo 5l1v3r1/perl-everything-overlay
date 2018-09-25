@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="2.014"
-DIST_A="Locale-TextDomain-OO-Extract-2.014.tar.gz"
+DIST_VERSION="2.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +39,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

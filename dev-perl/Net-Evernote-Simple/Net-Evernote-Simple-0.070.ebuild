@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHILLI"
-DIST_VERSION="0.07"
-DIST_A="Net-Evernote-Simple-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Log-Log4perl-1.000
-	dev-perl/Thrift
 	>=dev-perl/YAML-0.710
 	>=virtual/perl-File-Temp-0.220
 "
@@ -25,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

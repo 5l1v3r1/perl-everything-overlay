@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMAVT"
-DIST_VERSION="0.511"
-DIST_A="Mojolicious-Plugin-UserMessages-0.511.tar.gz"
+DIST_VERSION="0.511" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TLBDK"
-DIST_VERSION="2.02"
-DIST_A="IO-EventMux-2.02.tar.gz"
+DIST_VERSION="2.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

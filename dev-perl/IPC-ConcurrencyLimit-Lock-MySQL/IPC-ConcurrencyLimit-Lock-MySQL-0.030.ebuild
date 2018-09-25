@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="0.03"
-DIST_A="IPC-ConcurrencyLimit-Lock-MySQL-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Class-XSAccessor-1.110
 	dev-perl/DBD-mysql
 	dev-perl/DBI
-	dev-perl/IPC-ConcurrencyLimit
+	>=dev-perl/IPC-ConcurrencyLimit-0.010
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 "
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

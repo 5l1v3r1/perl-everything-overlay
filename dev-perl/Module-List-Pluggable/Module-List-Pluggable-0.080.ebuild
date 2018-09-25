@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="0.08"
-DIST_A="Module-List-Pluggable-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Class-Base-0.030
 	>=dev-perl/Module-List-0.001
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -28,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

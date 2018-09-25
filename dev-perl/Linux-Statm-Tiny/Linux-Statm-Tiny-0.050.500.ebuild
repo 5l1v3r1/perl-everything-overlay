@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RRWO"
-DIST_VERSION="0.0505"
-DIST_A="Linux-Statm-Tiny-0.0505.tar.gz"
+DIST_VERSION="0.0505" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

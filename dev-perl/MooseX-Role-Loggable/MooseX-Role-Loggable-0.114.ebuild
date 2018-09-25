@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XSAWYERX"
-DIST_VERSION="0.114"
-DIST_A="MooseX-Role-Loggable-0.114.tar.gz"
+DIST_VERSION="0.114" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Dispatchouli
-	>=dev-perl/Moo-1.000.001
+	dev-perl/Moo
 	dev-perl/MooX-Types-MooseLike
 	dev-perl/Safe-Isa
 	dev-perl/Sub-Quote
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

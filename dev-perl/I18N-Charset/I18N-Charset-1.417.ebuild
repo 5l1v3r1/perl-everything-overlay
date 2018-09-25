@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="1.417"
-DIST_A="I18N-Charset-1.417.tar.gz"
+DIST_VERSION="1.417" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/IO-Capture
 	virtual/perl-Test-Simple
 "
+

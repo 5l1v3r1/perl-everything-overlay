@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HADFL"
-DIST_VERSION="0.1.7"
-DIST_A="Illumos-Zones-0.1.7.tar.gz"
+DIST_VERSION="0.1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Data-Processor
 	virtual/perl-Test-Simple
 "
+

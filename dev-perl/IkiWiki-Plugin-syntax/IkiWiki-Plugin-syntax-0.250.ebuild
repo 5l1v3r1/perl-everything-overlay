@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VMORAL"
-DIST_VERSION="0.25"
-DIST_A="IkiWiki-Plugin-syntax-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,4 +28,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

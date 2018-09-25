@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NATG"
-DIST_VERSION="1.13"
-DIST_A="Hash-AutoHash-Record-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Exporter-5.580
 	>=virtual/perl-Test-Simple-0.880
 "
+

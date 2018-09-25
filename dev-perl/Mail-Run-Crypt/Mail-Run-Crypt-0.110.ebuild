@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEJR"
-DIST_VERSION="0.11"
-DIST_A="Mail-Run-Crypt-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

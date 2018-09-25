@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STELIM"
-DIST_VERSION="0.06"
-DIST_A="Map-Tube-Nuremberg-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

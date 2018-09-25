@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIZ"
-DIST_VERSION="0.900"
-DIST_A="Hopkins-Plugin-HMI-0.900.tar.gz"
+DIST_VERSION="0.900" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	>=virtual/perl-Test-Simple-0.420
 "
+

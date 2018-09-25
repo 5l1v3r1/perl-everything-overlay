@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJFLICK"
-DIST_VERSION="0.07"
-DIST_A="Nginx-Simple-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/CGI
 	dev-perl/XML-Simple
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 "
+

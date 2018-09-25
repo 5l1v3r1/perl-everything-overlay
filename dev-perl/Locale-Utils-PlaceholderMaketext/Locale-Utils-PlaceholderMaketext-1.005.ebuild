@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="1.005"
-DIST_A="Locale-Utils-PlaceholderMaketext-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

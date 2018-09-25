@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SADEGH"
-DIST_VERSION="1.1"
-DIST_A="IPGen-V4-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

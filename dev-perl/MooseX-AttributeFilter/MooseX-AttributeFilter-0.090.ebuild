@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KITTEN"
-DIST_VERSION="0.09"
-DIST_A="MooseX-AttributeFilter-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test2-Suite
 "
+

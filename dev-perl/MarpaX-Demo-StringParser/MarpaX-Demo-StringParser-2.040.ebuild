@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.04"
-DIST_A="MarpaX-Demo-StringParser-2.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.210
+	dev-lang/perl
 	>=dev-perl/Capture-Tiny-0.110
 	>=dev-perl/Config-Tiny-2.140
 	>=dev-perl/Date-Simple-3.030
@@ -45,3 +45,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTT"
-DIST_VERSION="0.004"
-DIST_A="Net-MBlox-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

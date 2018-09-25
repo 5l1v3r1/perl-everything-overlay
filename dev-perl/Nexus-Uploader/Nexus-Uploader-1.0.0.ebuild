@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRAD"
-DIST_VERSION="1.0.0"
-DIST_A="Nexus-Uploader-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	>=virtual/perl-Test-Simple-1.000
 "
+

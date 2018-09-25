@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.002001003"
-DIST_A="Icon-FamFamFam-Silk-0.002001003.tar.gz"
+DIST_VERSION="0.002001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

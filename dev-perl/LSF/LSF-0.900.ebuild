@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSOUTHERN"
-DIST_VERSION="0.9"
-DIST_A="LSF-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

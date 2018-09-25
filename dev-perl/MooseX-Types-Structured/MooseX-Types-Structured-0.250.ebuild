@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJNAPIORK"
-DIST_VERSION="0.25"
-DIST_A="MooseX-Types-Structured-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Devel-PartialDump-0.130
-	>=dev-perl/Moose-1.080
+	dev-perl/Moose
 	>=dev-perl/MooseX-Types-0.220
 	>=dev-perl/Sub-Exporter-0.982
 	virtual/perl-Scalar-List-Utils
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-0.940
 "
+

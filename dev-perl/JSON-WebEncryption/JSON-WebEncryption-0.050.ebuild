@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHGOVUK"
-DIST_VERSION="0.05"
-DIST_A="JSON-WebEncryption-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Crypt-Rijndael
 	dev-perl/Test-Requires
 "
+

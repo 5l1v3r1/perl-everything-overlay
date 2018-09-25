@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.063"
-DIST_A="Net-WebSocket-0.063.tar.gz"
+DIST_VERSION="0.063" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-Time-HiRes
 	virtual/perl-autodie
 "
+

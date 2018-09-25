@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJGARDNER"
-DIST_VERSION="0.008"
-DIST_A="LWPx-UserAgent-Cached-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,9 +33,11 @@ DEPEND="
 	dev-perl/Find-Lib
 	dev-perl/Test-Fake-HTTPD
 	dev-perl/Test-Requires
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDICK"
-DIST_VERSION="0.9993"
-DIST_A="Net-DNS-DynDNS-0.9993.tar.gz"
+DIST_VERSION="0.9993" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

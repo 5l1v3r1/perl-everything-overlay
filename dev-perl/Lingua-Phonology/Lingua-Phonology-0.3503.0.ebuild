@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASPAX"
-DIST_VERSION="0.3503.0"
-DIST_A="Lingua-Phonology-0.3503.tar.gz"
+DIST_VERSION="0.3503" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

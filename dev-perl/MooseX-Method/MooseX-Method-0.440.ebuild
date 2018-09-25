@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GPHAT"
-DIST_VERSION="0.44"
-DIST_A="MooseX-Method-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

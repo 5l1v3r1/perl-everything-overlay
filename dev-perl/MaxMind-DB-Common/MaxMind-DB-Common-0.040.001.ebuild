@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.040001"
-DIST_A="MaxMind-DB-Common-0.040001.tar.gz"
+DIST_VERSION="0.040001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

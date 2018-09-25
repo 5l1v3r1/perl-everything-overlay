@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.007"
-DIST_A="MooX-Enumeration-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moo-1.006.000
-	>=dev-perl/Type-Tiny-0.030
+	dev-perl/Type-Tiny
 	dev-perl/match-simple
 	>=virtual/perl-Scalar-List-Utils-1.400
 "
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.960
 "
+

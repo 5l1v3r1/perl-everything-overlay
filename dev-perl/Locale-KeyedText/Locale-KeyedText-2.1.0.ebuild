@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCAND"
-DIST_VERSION="v2.1.0"
-DIST_A="Locale-KeyedText-2.1.0.tar.gz"
+DIST_VERSION="2.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

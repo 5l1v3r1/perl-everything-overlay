@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPROUT"
-DIST_VERSION="0.11"
-DIST_A="MoneyWorks-pm-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.030
 	dev-perl/constant-lexical
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.570
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

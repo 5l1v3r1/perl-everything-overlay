@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CARWYNM"
-DIST_VERSION="v0.2.0"
-DIST_A="Net-NATS-Client-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

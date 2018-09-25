@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.09"
-DIST_A="Net-Redmine-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	>=dev-perl/Regexp-Common-2.122
 	>=dev-perl/Regexp-Common-Email-Address-1.010
 	>=dev-perl/Text-CSV-Slurp-0.500
-	>=dev-perl/URI-3.290
+	>=dev-perl/URI-1.380
 	>=dev-perl/WWW-Mechanize-1.520
 	>=dev-perl/pQuery-0.070
 	>=virtual/perl-Encode-2.310
@@ -41,3 +40,4 @@ DEPEND="
 	>=dev-perl/Text-Greeking-0.110
 	>=virtual/perl-Test-Simple-0.860
 "
+

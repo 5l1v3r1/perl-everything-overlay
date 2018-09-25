@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SOCK"
-DIST_VERSION="0.1"
-DIST_A="Net-Squid-Purge-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Group
 	virtual/perl-Test-Simple
 "
+

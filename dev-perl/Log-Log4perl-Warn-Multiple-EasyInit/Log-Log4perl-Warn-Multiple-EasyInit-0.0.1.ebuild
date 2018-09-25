@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHISEL"
-DIST_VERSION="v0.0.1"
-DIST_A="Log-Log4perl-Warn-Multiple-EasyInit-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	dev-perl/FindBin-libs
 "
+

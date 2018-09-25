@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.02"
-DIST_A="MooseX-MakeImmutable-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	>=dev-perl/Module-Pluggable-3.800
 	dev-perl/Moose
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 "
+

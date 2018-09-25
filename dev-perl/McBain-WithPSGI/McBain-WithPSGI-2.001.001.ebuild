@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="2.001001"
-DIST_A="McBain-WithPSGI-2.001001.tar.gz"
+DIST_VERSION="2.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/JSON
 	dev-perl/McBain
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

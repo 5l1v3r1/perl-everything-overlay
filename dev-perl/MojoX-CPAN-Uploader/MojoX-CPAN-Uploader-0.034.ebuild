@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YKO"
-DIST_VERSION="0.034"
-DIST_A="MojoX-CPAN-Uploader-0.034.tar.gz"
+DIST_VERSION="0.034" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

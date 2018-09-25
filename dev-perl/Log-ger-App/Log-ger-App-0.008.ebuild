@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.008"
-DIST_A="Log-ger-App-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-ger-0.008
+	>=dev-perl/Log-ger-0.023
 	dev-perl/Log-ger-Layout-Pattern
 	>=dev-perl/Log-ger-Output-Composite-0.005
 	>=dev-perl/Log-ger-Output-File-0.002
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

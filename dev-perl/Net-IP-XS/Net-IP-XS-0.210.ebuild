@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMHRR"
-DIST_VERSION="0.21"
-DIST_A="Net-IP-XS-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

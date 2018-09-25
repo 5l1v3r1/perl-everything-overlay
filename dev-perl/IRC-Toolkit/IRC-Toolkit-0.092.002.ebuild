@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="0.092002"
-DIST_A="IRC-Toolkit-0.092002.tar.gz"
+DIST_VERSION="0.092002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

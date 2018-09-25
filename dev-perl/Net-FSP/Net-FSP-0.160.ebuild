@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.16"
-DIST_A="Net-FSP-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

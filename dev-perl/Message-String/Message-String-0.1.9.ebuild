@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANIC"
-DIST_VERSION="v0.1.9"
-DIST_A="Message-String-0.1.9.tar.gz"
+DIST_VERSION="0.1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Data-Dumper-Concise
 	dev-perl/Test-Deep
 "
+

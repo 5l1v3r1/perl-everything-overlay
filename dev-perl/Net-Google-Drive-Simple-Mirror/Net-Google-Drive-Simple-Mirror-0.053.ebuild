@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBP"
-DIST_VERSION="0.053"
-DIST_A="Net-Google-Drive-Simple-Mirror-0.053.tar.gz"
+DIST_VERSION="0.053" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

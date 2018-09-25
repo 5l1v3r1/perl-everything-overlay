@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="0.03"
-DIST_A="Mojo-Autobox-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Mojolicious-5.000
-	dev-perl/autobox
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

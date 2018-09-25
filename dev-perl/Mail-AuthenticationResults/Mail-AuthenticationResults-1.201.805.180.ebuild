@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBRADSHAW"
-DIST_VERSION="1.20180518"
-DIST_A="Mail-AuthenticationResults-1.20180518.tar.gz"
+DIST_VERSION="1.20180518" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

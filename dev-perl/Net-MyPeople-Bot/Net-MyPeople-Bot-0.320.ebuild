@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHS"
-DIST_VERSION="0.320"
-DIST_A="Net-MyPeople-Bot-0.320.tar.gz"
+DIST_VERSION="0.320" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.21"
-DIST_A="MooseX-Daemonize-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,8 +28,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckOS-1.630
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 "
+

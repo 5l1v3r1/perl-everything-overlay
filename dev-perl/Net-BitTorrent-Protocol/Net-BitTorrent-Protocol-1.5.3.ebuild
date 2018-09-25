@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SANKO"
-DIST_VERSION="1.5.3"
-DIST_A="Net-BitTorrent-Protocol-1.5.3.tar.gz"
+DIST_VERSION="1.5.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

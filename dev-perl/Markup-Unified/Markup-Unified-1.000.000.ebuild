@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="1.000000"
-DIST_A="Markup-Unified-1.000000.tar.gz"
+DIST_VERSION="1.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

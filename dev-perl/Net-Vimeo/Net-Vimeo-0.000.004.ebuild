@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMIRELA"
-DIST_VERSION="0.000004"
-DIST_A="Net-Vimeo-0.000004.tar.gz"
+DIST_VERSION="0.000004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

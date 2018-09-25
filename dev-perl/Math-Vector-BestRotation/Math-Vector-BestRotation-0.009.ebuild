@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LGEHLEN"
-DIST_VERSION="0.009"
-DIST_A="Math-Vector-BestRotation-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Math-MatrixReal-2.5.0
+	>=dev-perl/Math-MatrixReal-2.050
 	>=virtual/perl-Carp-1.080
 	virtual/perl-Test-Simple
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

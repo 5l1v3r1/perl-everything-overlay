@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRTHOMAS"
-DIST_VERSION="0.9"
-DIST_A="Log-Dispatch-Spread-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

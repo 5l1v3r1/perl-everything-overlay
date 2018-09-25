@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRUXA"
-DIST_VERSION="1.32"
-DIST_A="Log-Unrotate-1.32.tar.gz"
+DIST_VERSION="1.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Pod-Usage
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	>=virtual/perl-File-Temp-0.150
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Path
 	virtual/perl-Test-Simple
 "
+

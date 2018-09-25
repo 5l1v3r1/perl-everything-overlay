@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEOCHARRE"
-DIST_VERSION="1.13"
-DIST_A="LEOCHARRE-Dev-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.070
+	>=dev-lang/perl-2.730
 	>=dev-perl/AppConfig-Std-1.070
 	>=dev-perl/Class-Inspector-1.230
 	dev-perl/Devel-ModInfo
@@ -48,3 +47,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

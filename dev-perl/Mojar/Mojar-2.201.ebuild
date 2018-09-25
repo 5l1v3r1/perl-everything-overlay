@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICZERO"
-DIST_VERSION="2.201"
-DIST_A="Mojar-2.201.tar.gz"
+DIST_VERSION="2.201" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

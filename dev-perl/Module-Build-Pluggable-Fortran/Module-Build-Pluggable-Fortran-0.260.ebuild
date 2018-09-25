@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="0.26"
-DIST_A="Module-Build-Pluggable-Fortran-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Test-Simple-0.870
 "
+

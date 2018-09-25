@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KURIHARA"
-DIST_VERSION="0.035"
-DIST_A="Imager-QRCode-0.035.tar.gz"
+DIST_VERSION="0.035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 	virtual/perl-Test-Simple
 "
+

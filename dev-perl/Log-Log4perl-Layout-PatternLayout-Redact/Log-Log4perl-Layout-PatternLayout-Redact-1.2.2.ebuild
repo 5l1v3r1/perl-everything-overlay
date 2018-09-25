@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KATE"
-DIST_VERSION="v1.2.2"
-DIST_A="Log-Log4perl-Layout-PatternLayout-Redact-1.2.2.tar.gz"
+DIST_VERSION="1.2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

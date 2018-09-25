@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LPRIETO"
-DIST_VERSION="0.2.0"
-DIST_A="MooseX-DIC-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Spec
 "
+

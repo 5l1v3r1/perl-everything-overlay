@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COFFEE"
-DIST_VERSION="1.006"
-DIST_A="Mojolicious-Plugin-Directory-Stylish-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

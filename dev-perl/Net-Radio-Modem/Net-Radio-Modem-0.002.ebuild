@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="0.002"
-DIST_A="Net-Radio-Modem-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	>=virtual/perl-Test-Simple-0.900
 "
+

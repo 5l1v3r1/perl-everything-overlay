@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLAMBLEY"
-DIST_VERSION="0.03"
-DIST_A="MooseX-Types-GTIN-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

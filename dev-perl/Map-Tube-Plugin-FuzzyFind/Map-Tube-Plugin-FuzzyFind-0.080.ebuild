@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWS"
-DIST_VERSION="0.08"
-DIST_A="Map-Tube-Plugin-FuzzyFind-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Map-Tube-London-0.710
 	>=virtual/perl-Test-Simple-0.820
 "
+

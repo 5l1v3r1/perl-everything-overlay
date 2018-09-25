@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROCKWAY"
-DIST_VERSION="0.01"
-DIST_A="MooseX-APIRole-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Moose-1.160
+	dev-perl/Moose
 	dev-perl/Sub-Exporter
 	dev-perl/namespace-autoclean
 	dev-perl/true
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

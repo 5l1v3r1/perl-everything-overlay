@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDRAKE"
-DIST_VERSION="0.4"
-DIST_A="NetAddr-IP-FastNew-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

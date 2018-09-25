@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIMRYAN"
-DIST_VERSION="2.04"
-DIST_A="Locale-SubCountry-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	dev-lang/perl
 	>=dev-perl/JSON-1.000
 "
 DEPEND="
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.040
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="TSIRKIN"
 DIST_VERSION="0.10"
-DIST_A="NCBI-0.10.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJCOLLINS"
-DIST_VERSION="0.11"
-DIST_A="Linux-Ethtool-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-H2PM-0.030
 	virtual/perl-ExtUtils-CBuilder
 "
+

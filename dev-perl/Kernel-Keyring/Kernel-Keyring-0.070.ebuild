@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIXMAL"
-DIST_VERSION="0.07"
-DIST_A="Kernel-Keyring-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "
+

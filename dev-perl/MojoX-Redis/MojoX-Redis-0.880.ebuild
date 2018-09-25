@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNDEF"
-DIST_VERSION="0.88"
-DIST_A="MojoX-Redis-0.88.tar.gz"
+DIST_VERSION="0.88" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

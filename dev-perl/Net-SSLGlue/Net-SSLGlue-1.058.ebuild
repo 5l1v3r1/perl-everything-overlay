@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SULLR"
-DIST_VERSION="1.058"
-DIST_A="Net-SSLGlue-1.058.tar.gz"
+DIST_VERSION="1.058" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

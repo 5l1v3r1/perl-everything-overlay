@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TRIZEN"
-DIST_VERSION="0.21"
-DIST_A="Lingua-RO-Numbers-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

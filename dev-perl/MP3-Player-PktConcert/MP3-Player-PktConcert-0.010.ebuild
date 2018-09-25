@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKEWONG"
-DIST_VERSION="0.01"
-DIST_A="MP3-Player-PktConcert-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASB"
-DIST_VERSION="0.05"
-DIST_A="MIME-Lite-HT-HTML-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/DateTime-Format-Mail-0.300.100
-	>=dev-perl/HTML-Format-2.040
 	>=dev-perl/HTML-FormatText-WithLinks-0.110
+	>=dev-perl/HTML-Formatter-2.040
 	>=dev-perl/HTML-Template-2.900
 	>=dev-perl/MIME-Lite-3.027
 	dev-perl/MIME-tools
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	>=virtual/perl-Test-Simple-0.980
 "
+

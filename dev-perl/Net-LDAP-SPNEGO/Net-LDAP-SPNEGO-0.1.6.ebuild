@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="v0.1.6"
-DIST_A="Net-LDAP-SPNEGO-0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Mojolicious-7.010
 	>=dev-perl/Pod-Markdown-Github-0.010
 "
+

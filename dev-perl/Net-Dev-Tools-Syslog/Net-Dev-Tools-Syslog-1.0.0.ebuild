@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SPARSONS"
-DIST_VERSION="1.0.0"
-DIST_A="Net-Dev-Tools-Syslog-1.0.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SP/SPARSONS/tools/Net-Dev-Tools-Syslog-1.0.0.tar.gz"
+DIST_VERSION="1.0.0" 
+SRC_URI="mirror://cpan/authors/id/S/SP/SPARSONS/tools/Net-Dev-Tools-Syslog-1.0.0.tar.gz -> Net-Dev-Tools-Syslog-1.0.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Dev-Tools-Syslog-1.0.0 ${WORKDIR}/Net-Dev-Tools-Syslog-1.0.0
+}
+

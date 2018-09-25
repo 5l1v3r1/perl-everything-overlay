@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KBA"
-DIST_VERSION="0.002"
-DIST_A="MooseX-LazyCoercion-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/MooseX-Types-DateTime
 "
+

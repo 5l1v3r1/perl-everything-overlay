@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANI"
-DIST_VERSION="0.82"
-DIST_A="Log-LogLite-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

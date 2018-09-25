@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOEFLERB"
-DIST_VERSION="0.41"
-DIST_A="JsonSQL-0.41.tar.gz"
+DIST_VERSION="0.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,7 @@ RDEPEND="
 	dev-perl/JSON-Validator
 	dev-perl/SQL-Maker
 	dev-perl/SQL-QueryMaker
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Scalar-List-Utils
 "
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

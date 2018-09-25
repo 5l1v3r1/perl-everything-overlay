@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.25"
-DIST_A="Net-Async-FastCGI-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,14 +17,16 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Message
-	>=dev-perl/IO-Async-0.330
+	>=dev-perl/IO-Async-0.350
 	>=dev-perl/Net-FastCGI-0.100
 	virtual/perl-Encode
 	>=virtual/perl-Exporter-5.570
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-HexString
 	dev-perl/Test-Refcount
 	virtual/perl-Test-Simple
 "
+

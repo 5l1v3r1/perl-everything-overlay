@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAFEGRATZ"
-DIST_VERSION="0.02"
-DIST_A="Mojolicious-Plugin-Plift-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Mojolicious
 	>=virtual/perl-Test-Simple-0.980
 "
+

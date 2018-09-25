@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="CJONES"
 DIST_VERSION="1.17"
-DIST_A="LIMS-MT_Plate-1.17.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

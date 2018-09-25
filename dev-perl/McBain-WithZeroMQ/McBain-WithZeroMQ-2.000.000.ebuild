@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="2.000000"
-DIST_A="McBain-WithZeroMQ-2.000000.tar.gz"
+DIST_VERSION="2.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/ZMQ-Constants
 	dev-perl/ZMQ-LibZMQ3
+	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="
@@ -29,3 +29,4 @@ DEPEND="
 	dev-perl/McBain
 	virtual/perl-Test-Simple
 "
+

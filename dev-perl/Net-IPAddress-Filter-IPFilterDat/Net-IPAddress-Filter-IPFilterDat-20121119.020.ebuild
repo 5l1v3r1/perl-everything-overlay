@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEWEBB"
-DIST_VERSION="20121119.02"
-DIST_A="Net-IPAddress-Filter-IPFilterDat-20121119.02.tar.gz"
+DIST_VERSION="20121119.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Net-IPAddress-Filter-20121117.000
+	dev-perl/base
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
@@ -25,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBYRD"
-DIST_VERSION="0.92"
-DIST_A="MooX-Types-CLike-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.270
 	>=dev-perl/Test-UseAllModules-0.100
 "
+

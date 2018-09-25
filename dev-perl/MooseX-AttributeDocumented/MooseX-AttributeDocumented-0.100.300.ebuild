@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.1003"
-DIST_A="MooseX-AttributeDocumented-0.1003.tar.gz"
+DIST_VERSION="0.1003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,13 +15,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Moose-2.000.000
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/namespace-clean
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-Warnings
 	>=virtual/perl-Test-Simple-0.960
 "
+

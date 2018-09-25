@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WIMV"
-DIST_VERSION="3.03"
-DIST_A="Math-LP-Solve-3.03.tar.gz"
+DIST_VERSION="3.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

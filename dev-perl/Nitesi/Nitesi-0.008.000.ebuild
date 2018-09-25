@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.0080"
-DIST_A="Nitesi-0.0080.tar.gz"
+DIST_VERSION="0.0080" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

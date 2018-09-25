@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSHEROH"
-DIST_VERSION="1.000"
-DIST_A="LocalOverride-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

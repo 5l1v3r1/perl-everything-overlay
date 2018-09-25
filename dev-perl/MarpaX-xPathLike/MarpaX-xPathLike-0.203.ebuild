@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JVVERDE"
-DIST_VERSION="0.203"
-DIST_A="MarpaX-xPathLike-0.203.tar.gz"
+DIST_VERSION="0.203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

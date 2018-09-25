@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALLEN"
-DIST_VERSION="0.006"
-DIST_A="Lingua-RU-Declension-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	virtual/perl-Test-Simple
 "
+

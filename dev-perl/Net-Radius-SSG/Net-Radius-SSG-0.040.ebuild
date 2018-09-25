@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CMYERS"
-DIST_VERSION="0.04"
-DIST_A="Net-Radius-SSG-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Net-Radius-1.440
+	>=dev-perl/Net-Radius-1.430
 	>=dev-perl/Net-ext-1.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

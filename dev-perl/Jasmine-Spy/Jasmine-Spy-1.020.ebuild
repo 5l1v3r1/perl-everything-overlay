@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLJEDI"
-DIST_VERSION="1.02"
-DIST_A="Jasmine-Spy-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Spec
 	dev-perl/lib
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGLISH"
-DIST_VERSION="0.0"
-DIST_A="Microsoft-Azure-AccessToken.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/D/DO/DOUGLISH/Microsoft-Azure-AccessToken.tar.gz -> Microsoft-Azure-AccessToken-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Microsoft-Azure-AccessToken ${WORKDIR}/Microsoft-Azure-AccessToken-
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SRCHULO"
-DIST_VERSION="0.05"
-DIST_A="Image-Imlib2-Thumbnail-Scaled-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Path-Class
 	virtual/perl-Test-Simple
 "
+

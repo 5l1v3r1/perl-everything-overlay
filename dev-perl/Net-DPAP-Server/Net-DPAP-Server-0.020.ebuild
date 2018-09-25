@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCLAMP"
-DIST_VERSION="0.02"
-DIST_A="Net-DPAP-Server-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Net-DPAP-Client
 	virtual/perl-Test-Simple
 "
+

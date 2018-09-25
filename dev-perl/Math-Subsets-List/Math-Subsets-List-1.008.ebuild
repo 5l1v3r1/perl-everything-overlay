@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="1.008"
-DIST_A="Math-Subsets-List-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

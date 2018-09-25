@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="MOBILEART"
 DIST_VERSION="0.50"
-DIST_A="Net-Clickatell-0.50.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

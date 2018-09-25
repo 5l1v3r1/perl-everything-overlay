@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="0.56"
-DIST_A="Log-Log4perl-Layout-JSON-0.56.tar.gz"
+DIST_VERSION="0.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

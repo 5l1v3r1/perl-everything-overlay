@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBROCARD"
-DIST_VERSION="0.86"
-DIST_A="Module-Packaged-0.86.tar.gz"
+DIST_VERSION="0.86" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,4 +30,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

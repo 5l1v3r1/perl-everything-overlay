@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BIRKETT"
-DIST_VERSION="0.606"
-DIST_A="ICC-Profile-0.606.tar.gz"
+DIST_VERSION="0.606" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-1.030
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "

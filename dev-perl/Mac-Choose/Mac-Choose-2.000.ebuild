@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKF"
-DIST_VERSION="2.0"
-DIST_A="Mac-Choose-2.tar.gz"
+DIST_VERSION="2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-File-ShareDir
 	virtual/perl-Test-Simple
 "
+

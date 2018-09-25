@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMHUKINS"
-DIST_VERSION="1.0.3"
-DIST_A="MooseX-Attribute-Chained-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

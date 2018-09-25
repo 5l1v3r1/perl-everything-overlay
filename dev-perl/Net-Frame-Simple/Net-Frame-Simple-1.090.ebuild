@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOMOR"
-DIST_VERSION="1.09"
-DIST_A="Net-Frame-Simple-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

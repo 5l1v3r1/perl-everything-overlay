@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBURKE"
-DIST_VERSION="1.12"
-DIST_A="Mac-FileSpec-Unixish-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

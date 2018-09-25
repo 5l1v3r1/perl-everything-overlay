@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="2.303"
-DIST_A="Netscape-Bookmarks-2.303.tar.gz"
+DIST_VERSION="2.303" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-File
 	>=virtual/perl-Test-Simple-1.000
 "
+

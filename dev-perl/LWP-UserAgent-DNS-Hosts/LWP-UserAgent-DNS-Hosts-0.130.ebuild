@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKI"
-DIST_VERSION="0.13"
-DIST_A="LWP-UserAgent-DNS-Hosts-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,8 +22,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Fake-HTTPD-0.080
 	dev-perl/Test-UseAllModules
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

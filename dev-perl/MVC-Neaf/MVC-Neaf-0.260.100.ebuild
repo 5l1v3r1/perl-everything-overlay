@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHEDIN"
-DIST_VERSION="0.2601"
-DIST_A="MVC-Neaf-0.2601.tar.gz"
+DIST_VERSION="0.2601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,13 +19,14 @@ RDEPEND="
 	dev-perl/JSON-MaybeXS
 	dev-perl/Plack
 	dev-perl/Template-Toolkit
-	dev-perl/Test-Warn
 	dev-perl/URI
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
-	virtual/perl-File-Temp
 	>=virtual/perl-MIME-Base64-3.110
-	>=virtual/perl-Test-Simple-0.870
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Test-Warn
+	virtual/perl-File-Temp
+	>=virtual/perl-Test-Simple-0.870
 "
+

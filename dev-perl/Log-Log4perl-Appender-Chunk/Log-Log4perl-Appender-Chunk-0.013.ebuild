@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETEVE"
-DIST_VERSION="0.013"
-DIST_A="Log-Log4perl-Appender-Chunk-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Net-Amazon-S3-0.590
 	virtual/perl-Test-Simple
 "
+

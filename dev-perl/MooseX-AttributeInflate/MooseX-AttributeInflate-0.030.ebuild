@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STASH"
-DIST_VERSION="0.03"
-DIST_A="MooseX-AttributeInflate-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

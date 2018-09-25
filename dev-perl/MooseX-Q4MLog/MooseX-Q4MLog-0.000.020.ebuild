@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMAKI"
-DIST_VERSION="0.00002"
-DIST_A="MooseX-Q4MLog-0.00002.tar.gz"
+DIST_VERSION="0.00002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,9 @@ RDEPEND="
 	dev-perl/MooseX-ConfigFromFile
 	dev-perl/MooseX-Daemonize
 	dev-perl/Queue-Q4M
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RAZ"
-DIST_VERSION="0.9"
-DIST_A="JavaBin-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIM"
-DIST_VERSION="0.05"
-DIST_A="Indent-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "
+

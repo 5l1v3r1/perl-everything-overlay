@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENEHACK"
-DIST_VERSION="0.05"
-DIST_A="MooseX-Role-Pluggable-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Load
-	dev-perl/Moose
+	>=dev-perl/Moose-2.000
 	dev-perl/Tie-IxHash
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
+	dev-perl/lib
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

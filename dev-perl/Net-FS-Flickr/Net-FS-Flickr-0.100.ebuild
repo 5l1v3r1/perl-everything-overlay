@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONW"
-DIST_VERSION="0.1"
-DIST_A="Net-FS-Flickr-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

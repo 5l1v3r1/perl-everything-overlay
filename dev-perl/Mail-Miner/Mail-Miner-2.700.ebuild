@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMON"
-DIST_VERSION="2.7"
-DIST_A="Mail-Miner-2.7.tar.gz"
+DIST_VERSION="2.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

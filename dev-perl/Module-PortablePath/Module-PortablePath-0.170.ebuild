@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="0.17"
-DIST_A="Module-PortablePath-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

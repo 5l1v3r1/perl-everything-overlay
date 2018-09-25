@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMACAT"
-DIST_VERSION="1.28"
-DIST_A="Locale-Maketext-Gettext-1.28.tar.gz"
+DIST_VERSION="1.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

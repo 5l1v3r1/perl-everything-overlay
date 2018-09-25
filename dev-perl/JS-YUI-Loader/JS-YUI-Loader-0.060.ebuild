@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.06"
-DIST_A="JS-YUI-Loader-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,10 +26,11 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/URI
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

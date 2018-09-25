@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSIMERSON"
-DIST_VERSION="5.13"
-DIST_A="Mail-Toaster-5.13.tar.gz"
+DIST_VERSION="5.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

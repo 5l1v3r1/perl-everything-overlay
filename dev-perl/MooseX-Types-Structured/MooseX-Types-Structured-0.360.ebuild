@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.36"
-DIST_A="MooseX-Types-Structured-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-perl/DateTime
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Needs
 	virtual/perl-Data-Dumper
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

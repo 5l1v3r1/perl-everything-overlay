@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSPADEA"
-DIST_VERSION="0.9"
-DIST_A="MultiThread-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Sys-CPU-0.400
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 	virtual/perl-threads
@@ -25,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

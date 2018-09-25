@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Term-GetKey"
-DIST_VERSION="1.02"
-DIST_A="LibTerm-GetKey-1.02.tar.gz"
+DIST_AUTHOR="BARRYP"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/B/BA/BARRYP/Term-GetKey/LibTerm-GetKey-1.02.tar.gz -> LibTerm-GetKey-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LibTerm-GetKey-1.02 ${WORKDIR}/LibTerm-GetKey-1.02
+}
+

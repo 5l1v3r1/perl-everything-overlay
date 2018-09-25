@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLDRICH"
-DIST_VERSION="0.030"
-DIST_A="Mplayer-NowPlaying-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

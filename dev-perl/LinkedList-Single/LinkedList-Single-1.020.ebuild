@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="1.02"
-DIST_A="LinkedList-Single-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

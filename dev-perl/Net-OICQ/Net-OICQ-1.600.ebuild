@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TANGENT"
-DIST_VERSION="1.6"
-DIST_A="Net-OICQ-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Crypt-OICQ-1.000
+	dev-perl/Module-Build
 	>=dev-perl/TermReadKey-2.300
 	>=virtual/perl-Digest-MD5-0.100
 	>=virtual/perl-IO-0.100
 	>=virtual/perl-Term-ANSIColor-0.100
 	virtual/perl-Test-Simple
 "
+

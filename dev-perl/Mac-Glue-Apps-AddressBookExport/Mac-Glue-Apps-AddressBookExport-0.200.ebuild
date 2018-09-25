@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LLAP"
-DIST_VERSION="0.2"
-DIST_A="Mac-Glue-Apps-AddressBookExport-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

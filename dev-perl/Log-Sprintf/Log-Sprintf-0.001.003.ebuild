@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.001003"
-DIST_A="Log-Sprintf-0.001003.tar.gz"
+DIST_VERSION="0.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.880
 "
+

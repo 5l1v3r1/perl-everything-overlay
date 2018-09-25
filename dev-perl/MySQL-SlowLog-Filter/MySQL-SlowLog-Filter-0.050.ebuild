@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.05"
-DIST_A="MySQL-SlowLog-Filter-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Slurp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	dev-perl/Pod-Usage
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local
 "
 DEPEND="
 	${RDEPEND}
 "
+

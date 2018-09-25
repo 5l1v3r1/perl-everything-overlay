@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENEEB"
-DIST_VERSION="1.12"
-DIST_A="MojoX-Encode-Gzip-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

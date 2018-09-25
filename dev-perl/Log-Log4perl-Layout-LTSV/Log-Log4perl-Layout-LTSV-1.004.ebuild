@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEDI"
-DIST_VERSION="1.004"
-DIST_A="Log-Log4perl-Layout-LTSV-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.300
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOWARS"
-DIST_VERSION="0.2.4"
-DIST_A="Model-Envoy-0.2.4.tar.gz"
+DIST_VERSION="0.2.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.430
 	>=virtual/perl-Test-Simple-1.302.085
 "
+

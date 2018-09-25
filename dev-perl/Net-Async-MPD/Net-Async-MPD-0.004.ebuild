@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.004"
-DIST_A="Net-Async-MPD-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	dev-perl/lib
 	>=virtual/perl-Test-Simple-1.302.078
 "
+

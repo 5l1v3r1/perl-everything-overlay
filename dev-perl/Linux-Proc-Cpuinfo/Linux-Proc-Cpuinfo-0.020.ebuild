@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAGGAI"
-DIST_VERSION="0.02"
-DIST_A="Linux-Proc-Cpuinfo-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Devel-CheckLib
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JELU"
-DIST_VERSION="0.15"
-DIST_A="Log-Log4perl-Appender-Lim-CLI-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Log-Log4perl
+	>=dev-perl/Log-Log4perl-1.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

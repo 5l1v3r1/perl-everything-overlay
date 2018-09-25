@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCL"
-DIST_VERSION="0.0007"
-DIST_A="Log-Dispatch-HipChat-0.0007.tar.gz"
+DIST_VERSION="0.0007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

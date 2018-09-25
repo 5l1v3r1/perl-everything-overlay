@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINIMAL"
-DIST_VERSION="0.301"
-DIST_A="Kelp-Module-Template-Toolkit-0.301.tar.gz"
+DIST_VERSION="0.301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

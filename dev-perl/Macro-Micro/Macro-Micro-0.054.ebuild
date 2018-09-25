@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.054"
-DIST_A="Macro-Micro-0.054.tar.gz"
+DIST_VERSION="0.054" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	>=virtual/perl-Test-Simple-0.960
 "
+

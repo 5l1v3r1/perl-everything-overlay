@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RICHE"
-DIST_VERSION="0.22"
-DIST_A="Net-Gnats-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-MockObject
 "
+

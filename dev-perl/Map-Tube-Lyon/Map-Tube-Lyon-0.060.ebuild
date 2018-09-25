@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWS"
-DIST_VERSION="0.06"
-DIST_A="Map-Tube-Lyon-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	>=virtual/perl-Test-Simple-0.820
 "
+

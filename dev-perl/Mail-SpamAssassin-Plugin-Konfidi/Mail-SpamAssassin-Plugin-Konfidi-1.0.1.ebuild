@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRONDSEM"
-DIST_VERSION="1.0.1"
-DIST_A="Mail-SpamAssassin-Plugin-Konfidi-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.260
+	dev-perl/Module-Build
 	>=dev-perl/Test-MockObject-1.080
 	virtual/perl-Test-Simple
 "
+

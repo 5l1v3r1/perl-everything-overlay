@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFABER"
-DIST_VERSION="v1.9.0"
-DIST_A="Net-Whois-Proxy-1.9.tar.gz"
+DIST_VERSION="1.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEAM"
-DIST_VERSION="2.000"
-DIST_A="Net-Async-AMQP-2.000.tar.gz"
+DIST_VERSION="2.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

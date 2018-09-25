@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JVBSOFT"
-DIST_VERSION="1.200"
-DIST_A="Modern-PBP-Moose-1.200.tar.gz"
+DIST_VERSION="1.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMIRITE"
-DIST_VERSION="0.09"
-DIST_A="Mojolicious-Plugin-Nour-Database-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

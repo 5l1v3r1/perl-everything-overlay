@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.025"
-DIST_A="MooseX-Constructor-AllErrors-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWSTAUNER"
-DIST_VERSION="0.04"
-DIST_A="Net-Airbrake-V2-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Test-MockModule
 	dev-perl/Test-XPath
 	dev-perl/lib
 	virtual/perl-Exporter
@@ -35,3 +33,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-parent
 "
+

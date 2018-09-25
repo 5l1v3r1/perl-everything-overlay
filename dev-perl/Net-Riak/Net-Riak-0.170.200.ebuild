@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGE"
-DIST_VERSION="0.1702"
-DIST_A="Net-Riak-0.1702.tar.gz"
+DIST_VERSION="0.1702" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

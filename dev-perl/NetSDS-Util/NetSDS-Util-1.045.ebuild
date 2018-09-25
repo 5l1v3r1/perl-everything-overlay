@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RATTLER"
-DIST_VERSION="1.045"
-DIST_A="NetSDS-Util-1.045.tar.gz"
+DIST_VERSION="1.045" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

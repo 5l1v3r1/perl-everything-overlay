@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="0.07"
-DIST_A="MooX-Role-CachedURL-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,8 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/File-Touch
 	dev-perl/Test-File
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-autodie
 "
+

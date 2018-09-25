@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HKOBA"
-DIST_VERSION="0.004"
-DIST_A="MOP4Import-Declare-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Module-CPANfile
 	dev-perl/Test-Kantan
 "
+

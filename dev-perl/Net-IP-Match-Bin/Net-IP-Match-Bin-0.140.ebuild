@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TOMO"
-DIST_VERSION="0.14"
-DIST_A="Net-IP-Match-Bin-0.14.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TO/TOMO/src/Net-IP-Match-Bin-0.14.tar.gz"
+DIST_VERSION="0.14" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TOMO/src/Net-IP-Match-Bin-0.14.tar.gz -> Net-IP-Match-Bin-0.14.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-IP-Match-Bin-0.14 ${WORKDIR}/Net-IP-Match-Bin-0.14
+}
+

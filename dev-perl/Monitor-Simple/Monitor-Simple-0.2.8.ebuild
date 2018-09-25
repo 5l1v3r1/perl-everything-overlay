@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TULSOFT"
-DIST_VERSION="0.2.8"
-DIST_A="Monitor-Simple-0.2.8.tar.gz"
+DIST_VERSION="0.2.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/File-Which
 	virtual/perl-Test-Simple
 "
+

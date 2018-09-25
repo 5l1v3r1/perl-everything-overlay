@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EALLENIII"
-DIST_VERSION="0.001"
-DIST_A="MooseX-EasyAcc-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

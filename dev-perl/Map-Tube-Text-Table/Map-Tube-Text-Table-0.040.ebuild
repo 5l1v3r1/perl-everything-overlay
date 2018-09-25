@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKIM"
-DIST_VERSION="0.04"
-DIST_A="Map-Tube-Text-Table-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

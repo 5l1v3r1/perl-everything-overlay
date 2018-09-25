@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="mailboxvalidator"
-DIST_VERSION="1.03"
-DIST_A="MailboxValidator-SingleValidation-1.03.tar.gz"
+DIST_AUTHOR="MBV"
+DIST_VERSION="1.03" 
+SRC_URI="mirror://cpan/authors/id/M/MB/MBV/mailboxvalidator/MailboxValidator-SingleValidation-1.03.tar.gz -> MailboxValidator-SingleValidation-1.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MailboxValidator-SingleValidation-1.03 ${WORKDIR}/MailboxValidator-SingleValidation-1.03
+}
+

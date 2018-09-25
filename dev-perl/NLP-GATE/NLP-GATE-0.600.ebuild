@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHANNP"
-DIST_VERSION="0.6"
-DIST_A="NLP-GATE-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

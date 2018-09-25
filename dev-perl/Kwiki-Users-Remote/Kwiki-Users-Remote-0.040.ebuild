@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IAN"
-DIST_VERSION="0.04"
-DIST_A="Kwiki-Users-Remote-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Kwiki
+	>=dev-perl/Kwiki-0.320
 	>=dev-perl/Kwiki-UserName-0.140
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

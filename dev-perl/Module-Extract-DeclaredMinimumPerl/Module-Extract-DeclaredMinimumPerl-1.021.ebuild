@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="1.021"
-DIST_A="Module-Extract-DeclaredMinimumPerl-1.021.tar.gz"
+DIST_VERSION="1.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	virtual/perl-File-Spec
 "
+

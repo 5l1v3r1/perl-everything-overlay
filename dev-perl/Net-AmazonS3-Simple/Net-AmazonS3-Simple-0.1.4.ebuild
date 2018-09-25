@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASEI"
-DIST_VERSION="0.1.4"
-DIST_A="Net-AmazonS3-Simple-0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Mock-Quick
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.980
 "
+

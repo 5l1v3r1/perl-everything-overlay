@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARMAN"
-DIST_VERSION="0.001"
-DIST_A="Net-LDAP-SID-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

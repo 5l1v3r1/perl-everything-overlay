@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEOCHARRE"
-DIST_VERSION="1.008"
-DIST_A="Image-Magick-Thumbnail-NotFound-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

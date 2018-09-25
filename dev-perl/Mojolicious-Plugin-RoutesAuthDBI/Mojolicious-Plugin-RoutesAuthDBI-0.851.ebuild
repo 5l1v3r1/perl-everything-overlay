@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCHE"
-DIST_VERSION="0.851"
-DIST_A="Mojolicious-Plugin-RoutesAuthDBI-0.851.tar.gz"
+DIST_VERSION="0.851" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

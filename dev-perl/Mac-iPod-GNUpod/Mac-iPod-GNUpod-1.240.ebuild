@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JASPAX"
-DIST_VERSION="1.24"
-DIST_A="Mac-iPod-GNUpod-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	>=dev-lang/perl-2.050
 	>=dev-perl/Audio-Wav-0.040
-	>=dev-perl/MP3-Info-1.020
 	>=dev-perl/MP4-Info-1.070
 	>=dev-perl/Unicode-String-2.070
 	>=dev-perl/XML-Parser-2.330
@@ -28,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

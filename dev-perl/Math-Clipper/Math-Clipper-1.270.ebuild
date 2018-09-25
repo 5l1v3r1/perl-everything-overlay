@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHELDRAKE"
-DIST_VERSION="1.27"
-DIST_A="Math-Clipper-1.27.tar.gz"
+DIST_VERSION="1.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-XSpp-0.180
 	dev-perl/Test-Deep
 "
+

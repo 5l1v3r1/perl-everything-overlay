@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUDLER"
-DIST_VERSION="0.9770"
-DIST_A="Mojolicious-Plugin-Materialize-0.9770.tar.gz"
+DIST_VERSION="0.9770" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,10 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Mojolicious
 	dev-perl/Mojolicious-Plugin-AssetPack
-	dev-perl/Mojolicious-Plugin-AssetPack-Backcompat
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EUGENEK"
-DIST_VERSION="0.25"
-DIST_A="LittleORM-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

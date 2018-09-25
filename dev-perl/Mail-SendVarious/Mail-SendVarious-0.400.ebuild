@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.4"
-DIST_A="Mail-SendVarious-0.4.tar.gz"
+DIST_AUTHOR="MUIR"
+DIST_VERSION="0.4" 
+SRC_URI="mirror://cpan/authors/id/M/MU/MUIR/modules/Mail-SendVarious-0.4.tar.gz -> Mail-SendVarious-0.4.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +32,9 @@ DEPEND="
 	virtual/perl-Time-HiRes
 	virtual/perl-autodie
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mail-SendVarious-0.4 ${WORKDIR}/Mail-SendVarious-0.4
+}
+

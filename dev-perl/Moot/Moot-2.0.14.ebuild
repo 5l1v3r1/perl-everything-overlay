@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOOCOW"
-DIST_VERSION="2.0.14"
-DIST_A="Moot-2.0.14.tar.gz"
+DIST_VERSION="2.0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

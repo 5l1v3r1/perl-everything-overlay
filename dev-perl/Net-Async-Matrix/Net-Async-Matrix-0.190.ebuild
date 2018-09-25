@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.19"
-DIST_A="Net-Async-Matrix-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Test-Async-HTTP-0.020
 	>=virtual/perl-Test-Simple-0.880
 "
+

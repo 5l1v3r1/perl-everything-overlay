@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="ZAPAD"
-DIST_VERSION="0.01"
-DIST_A="Log-Sentry-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/Z/ZA/ZAPAD/Log-Sentry/Log-Sentry-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/Z/ZA/ZAPAD/Log-Sentry/Log-Sentry-0.01.tar.gz -> Log-Sentry-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-Sentry-0.01 ${WORKDIR}/Log-Sentry-0.01
+}
+

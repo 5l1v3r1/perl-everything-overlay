@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCOTTW"
-DIST_VERSION="6.01"
-DIST_A="Linux-Taskstats-Read-6.01.tar.gz"
+DIST_VERSION="6.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

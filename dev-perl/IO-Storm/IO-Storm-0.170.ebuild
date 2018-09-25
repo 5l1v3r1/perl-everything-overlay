@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSBLANCH"
-DIST_VERSION="0.17"
-DIST_A="IO-Storm-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "
+

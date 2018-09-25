@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BGILLS"
-DIST_VERSION="0.007"
-DIST_A="JSON-RPC-LWP-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-Test-Simple
 "
+

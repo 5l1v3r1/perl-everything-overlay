@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="1.030002"
-DIST_A="MongoDBx-Class-1.030002.tar.gz"
+DIST_VERSION="1.030002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,7 +30,9 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-lang/perl
 	dev-perl/DateTime
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

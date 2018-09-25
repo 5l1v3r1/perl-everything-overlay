@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JELU"
-DIST_VERSION="1.02"
-DIST_A="Lim-Plugin-Zonalizer-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,6 @@ RDEPEND="
 	dev-perl/MooseX-Getopt
 	>=dev-perl/Net-LDNS-0.750
 	>=dev-perl/URI-Escape-XS-0.110
-	dev-perl/Zonemaster
 	>=dev-perl/common-sense-3.000
 	>=virtual/perl-Getopt-Long-2.380
 	>=virtual/perl-Scalar-List-Utils-1.000
@@ -35,4 +33,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
+

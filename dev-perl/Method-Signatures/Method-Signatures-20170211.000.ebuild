@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BAREFOOT"
-DIST_VERSION="20170211.0"
-DIST_A="Method-Signatures-20170211.tar.gz"
+DIST_VERSION="20170211" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.100
 	>=virtual/perl-Test-Simple-0.820
 "
+

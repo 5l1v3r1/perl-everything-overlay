@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDDPAUSE"
-DIST_VERSION="0.012"
-DIST_A="MarpaX-Database-Terminfo-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,7 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Marpa-R2
 	>=dev-perl/Sereal-Decoder-3.015
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Time-HiRes
@@ -36,3 +36,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

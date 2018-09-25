@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MHASCH"
-DIST_VERSION="1.014"
-DIST_A="Math-Polynomial-1.014.tar.gz"
+DIST_VERSION="1.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test
 "
+

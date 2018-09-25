@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICZERO"
-DIST_VERSION="2.132"
-DIST_A="Mojar-Mysql-2.132.tar.gz"
+DIST_VERSION="2.132" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

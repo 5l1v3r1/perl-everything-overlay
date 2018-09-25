@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANR"
-DIST_VERSION="v2.0.0"
-DIST_A="Linux-AtaSmart-2.0.0.tar.gz"
+DIST_VERSION="2.0.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

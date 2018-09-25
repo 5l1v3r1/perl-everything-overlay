@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="4.0"
-DIST_A="Image-Base-SVG-4.tar.gz"
+DIST_VERSION="4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

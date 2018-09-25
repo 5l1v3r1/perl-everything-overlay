@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GLAI"
-DIST_VERSION="2.002001"
-DIST_A="IPC-Exe-2.002001.tar.gz"
+DIST_VERSION="2.002001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

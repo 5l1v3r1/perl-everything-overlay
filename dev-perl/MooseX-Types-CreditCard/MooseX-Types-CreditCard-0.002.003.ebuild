@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.002003"
-DIST_A="MooseX-Types-CreditCard-0.002003.tar.gz"
+DIST_VERSION="0.002003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

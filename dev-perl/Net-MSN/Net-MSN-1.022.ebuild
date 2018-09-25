@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJR"
-DIST_VERSION="1.022"
-DIST_A="Net-MSN-1.022.tar.gz"
+DIST_VERSION="1.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/Hash-Merge-0.070
 	>=dev-perl/libwww-perl-2.013
 	>=virtual/perl-Digest-MD5-2.300
-	>=virtual/perl-IO-1.270
+	>=virtual/perl-IO-1.150
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

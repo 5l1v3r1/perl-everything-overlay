@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANJOU"
-DIST_VERSION="0.02"
-DIST_A="Net-Amazon-HadoopEC2-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,12 +18,11 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/Net-Amazon-EC2
-	dev-perl/Net-SSH-Perl
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-MIME-Base64
@@ -33,3 +31,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

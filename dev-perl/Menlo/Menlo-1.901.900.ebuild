@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIYAGAWA"
-DIST_VERSION="1.9019"
-DIST_A="Menlo-1.9019.tar.gz"
+DIST_VERSION="1.9019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +50,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+

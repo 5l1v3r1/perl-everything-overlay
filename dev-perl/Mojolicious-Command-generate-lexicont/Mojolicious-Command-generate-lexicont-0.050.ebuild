@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOKECHIN"
-DIST_VERSION="0.05"
-DIST_A="Mojolicious-Command-generate-lexicont-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

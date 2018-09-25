@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EALLENIII"
-DIST_VERSION="0.4101"
-DIST_A="Music-Tag-MusicBrainz-0.4101.tar.gz"
+DIST_VERSION="0.4101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,9 @@ RDEPEND="
 	dev-perl/Cache-Cache
 	>=dev-perl/Music-Tag-0.410.100
 	dev-perl/Text-Levenshtein
-	>=dev-perl/WebService-MusicBrainz-0.070
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

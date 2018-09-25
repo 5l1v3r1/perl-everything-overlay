@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JETTERO"
-DIST_VERSION="0.604"
-DIST_A="Net-IdentServer-0.604.tar.gz"
+DIST_VERSION="0.604" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

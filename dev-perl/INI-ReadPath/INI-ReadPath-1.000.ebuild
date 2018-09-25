@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICVU"
-DIST_VERSION="1.0"
-DIST_A="INI-ReadPath-1.tar.gz"
+DIST_VERSION="1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Try-Tiny
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FAYLAND"
-DIST_VERSION="0.03"
-DIST_A="IRC-Bot-Log-Extended-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/IRC-Bot
+	dev-perl/Module-Build
 	dev-perl/Moose
 	virtual/perl-Test-Simple
 "
+

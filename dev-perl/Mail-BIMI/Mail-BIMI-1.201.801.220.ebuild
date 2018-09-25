@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MBRADSHAW"
-DIST_VERSION="1.20180122"
-DIST_A="Mail-BIMI-1.20180122.tar.gz"
+DIST_VERSION="1.20180122" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

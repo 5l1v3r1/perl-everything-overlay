@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MELEZHIK"
-DIST_VERSION="v0.0.5"
-DIST_A="Mojolicious-Command-swat-0.0.5.tar.gz"
+DIST_VERSION="0.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Mojolicious
-	dev-perl/swat
+	>=dev-perl/swat-0.1.67
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

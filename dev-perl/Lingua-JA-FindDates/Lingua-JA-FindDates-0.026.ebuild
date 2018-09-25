@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BKB"
-DIST_VERSION="0.026"
-DIST_A="Lingua-JA-FindDates-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

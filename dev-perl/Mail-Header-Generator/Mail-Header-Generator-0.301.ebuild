@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DONEILL"
-DIST_VERSION="0.301"
-DIST_A="Mail-Header-Generator-0.301.tar.gz"
+DIST_VERSION="0.301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

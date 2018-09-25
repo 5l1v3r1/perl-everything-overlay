@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.05"
-DIST_A="Locale-Maketext-Test-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Locale-Maketext-ManyPluralForms
 	dev-perl/Moose
-	dev-perl/Test-MockModule
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-File-Spec
@@ -33,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.940
 "
+

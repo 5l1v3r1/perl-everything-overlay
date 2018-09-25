@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THHAMON"
-DIST_VERSION="0.622"
-DIST_A="Lingua-YaTeA-0.622.tar.gz"
+DIST_VERSION="0.622" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/File-chmod
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJZORT"
-DIST_VERSION="0.96"
-DIST_A="NetAddr-MAC-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

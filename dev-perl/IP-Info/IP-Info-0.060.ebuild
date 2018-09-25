@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="0.06"
-DIST_A="IP-Info-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-Digest-MD5-2.360
 	virtual/perl-Test-Simple
 "
+

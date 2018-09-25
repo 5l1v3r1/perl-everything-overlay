@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOBBESTIG"
-DIST_VERSION="v1.122180.0"
-DIST_A="Net-Gandi-1.122180.tar.gz"
+DIST_VERSION="1.122180" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

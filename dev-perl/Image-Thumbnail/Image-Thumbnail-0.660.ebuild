@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LGODDARD"
-DIST_VERSION="0.66"
-DIST_A="Image-Thumbnail-0.66.tar.gz"
+DIST_VERSION="0.66" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.66"
-DIST_A="Inline-Java-0.66.tar.gz"
+DIST_VERSION="0.66" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-7.300
 "
+

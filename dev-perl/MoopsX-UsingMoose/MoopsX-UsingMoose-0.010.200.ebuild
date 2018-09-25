@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0102"
-DIST_A="MoopsX-UsingMoose-0.0102.tar.gz"
+DIST_VERSION="0.0102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

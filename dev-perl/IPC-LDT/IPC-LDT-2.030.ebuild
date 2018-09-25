@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JSTENZEL"
 DIST_VERSION="2.03"
-DIST_A="IPC-LDT-2.03.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

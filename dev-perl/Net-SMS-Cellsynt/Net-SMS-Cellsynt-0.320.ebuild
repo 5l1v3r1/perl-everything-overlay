@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLOF"
-DIST_VERSION="0.32"
-DIST_A="Net-SMS-Cellsynt-0.32.tar.gz"
+DIST_VERSION="0.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

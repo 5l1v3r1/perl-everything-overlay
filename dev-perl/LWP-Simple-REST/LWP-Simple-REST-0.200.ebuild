@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RECSKY"
-DIST_VERSION="0.20"
-DIST_A="LWP-Simple-REST-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XERN"
-DIST_VERSION="0.1"
-DIST_A="Locale-Maketext-AutoTranslate-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,9 @@ RDEPEND="
 	dev-perl/Locale-Maketext-Lexicon
 	dev-perl/Moose
 	dev-perl/REST-Google
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

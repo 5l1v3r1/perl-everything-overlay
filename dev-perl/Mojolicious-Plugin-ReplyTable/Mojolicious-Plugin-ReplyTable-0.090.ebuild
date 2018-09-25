@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="0.09"
-DIST_A="Mojolicious-Plugin-ReplyTable-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Without-Module
 "
+

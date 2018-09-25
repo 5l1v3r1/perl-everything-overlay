@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUPCIK"
-DIST_VERSION="0.1.6"
-DIST_A="Net-SMS-ASPSMS-0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

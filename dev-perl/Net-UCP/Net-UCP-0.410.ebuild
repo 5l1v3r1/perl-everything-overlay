@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="NEMUX"
 DIST_VERSION="0.41"
-DIST_A="Net-UCP-0.41.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

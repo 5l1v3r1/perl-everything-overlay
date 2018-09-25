@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BPRUDENT"
-DIST_VERSION="1.0.1"
-DIST_A="Markup-Content-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

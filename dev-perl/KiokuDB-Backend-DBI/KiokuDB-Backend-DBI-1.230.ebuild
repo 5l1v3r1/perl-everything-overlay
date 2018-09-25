@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="1.23"
-DIST_A="KiokuDB-Backend-DBI-1.23.tar.gz"
+DIST_VERSION="1.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,8 +27,9 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/MooseX-Types-0.080
 	dev-perl/SQL-Abstract
-	>=dev-perl/Search-GIN-0.070
+	dev-perl/Search-GIN
 	dev-perl/Try-Tiny
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
 	virtual/perl-Carp
@@ -46,3 +46,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

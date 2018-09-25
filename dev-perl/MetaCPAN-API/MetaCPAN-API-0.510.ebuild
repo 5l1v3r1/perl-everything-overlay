@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAARG"
-DIST_VERSION="0.51"
-DIST_A="MetaCPAN-API-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

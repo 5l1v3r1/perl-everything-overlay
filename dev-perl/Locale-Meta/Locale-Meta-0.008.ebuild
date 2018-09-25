@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMORTEGUI"
-DIST_VERSION="0.008"
-DIST_A="Locale-Meta-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

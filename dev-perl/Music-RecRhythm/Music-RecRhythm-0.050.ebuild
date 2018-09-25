@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="0.05"
-DIST_A="Music-RecRhythm-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	dev-perl/MooX-BuildArgs
 	dev-perl/namespace-clean
 	>=virtual/perl-Math-BigInt-1.820
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.260
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/lib
 "
+

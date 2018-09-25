@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DTADY"
-DIST_VERSION="0.1001"
-DIST_A="IOC-Slinky-Container-0.1001.tar.gz"
+DIST_VERSION="0.1001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

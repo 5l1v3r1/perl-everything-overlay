@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SENGER"
-DIST_VERSION="1.1"
-DIST_A="NET-IPFilterSimple_V1.1.tar.gz"
+DIST_VERSION="1.1" 
+SRC_URI="mirror://cpan/authors/id/S/SE/SENGER/NET-IPFilterSimple_V1.1.tar.gz -> NET-IPFilterSimple-1.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/NET-IPFilterSimple_V1.1 ${WORKDIR}/NET-IPFilterSimple-1.1
+}
+

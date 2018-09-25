@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Net-OnlineCode-004"
-DIST_VERSION="0.04"
-DIST_A="Net-OnlineCode-0.04.tar.gz"
+DIST_AUTHOR="DMALONE"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMALONE/Net-OnlineCode-004/Net-OnlineCode-0.04.tar.gz -> Net-OnlineCode-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-OnlineCode-0.04 ${WORKDIR}/Net-OnlineCode-0.04
+}
+

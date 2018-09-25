@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARPI"
-DIST_VERSION="0.50"
-DIST_A="Mojo-Server-FastCGI-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/File-Slurp
 	virtual/perl-Test-Simple
 "
+

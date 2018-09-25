@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.001"
-DIST_A="IO-ExplicitHandle-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.150
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TPG"
-DIST_VERSION="1.53"
-DIST_A="Net-Radius-PacketOrdered-1.53.tar.gz"
+DIST_VERSION="1.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="JMS"
-DIST_VERSION="0.954"
-DIST_A="MQdb_0.954.tar.gz"
+DIST_VERSION="0.954" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMS/MQdb_0.954.tar.gz -> MQdb-0.954.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MQdb_0.954 ${WORKDIR}/MQdb-0.954
+}
+

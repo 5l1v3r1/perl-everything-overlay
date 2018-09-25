@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.002"
-DIST_A="MooseX-Types-HTTPMethod-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.007
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

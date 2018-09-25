@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVELOX"
-DIST_VERSION="0.0.1"
-DIST_A="Net-Wireless-802_11-Scan-FreeBSD-0.0.1.tar.gz"
+DIST_VERSION="0.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/String-ShellQuote-1.040
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHOERLING"
-DIST_VERSION="2.1.1"
-DIST_A="Mail-POPRelay-2.1.1.tar.gz"
+DIST_VERSION="2.1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

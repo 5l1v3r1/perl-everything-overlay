@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDDPAUSE"
-DIST_VERSION="0.020"
-DIST_A="MarpaX-Languages-ECMAScript-AST-0.020.tar.gz"
+DIST_VERSION="0.020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,6 +31,7 @@ RDEPEND="
 	dev-perl/SUPER
 	dev-perl/Scalar-Util-Numeric
 	dev-perl/Sereal
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
@@ -51,3 +51,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

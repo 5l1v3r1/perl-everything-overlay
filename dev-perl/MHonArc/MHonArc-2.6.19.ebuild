@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EHOOD"
-DIST_VERSION="v2.6.19"
-DIST_A="MHonArc-2.6.19.tar.gz"
+DIST_VERSION="2.6.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

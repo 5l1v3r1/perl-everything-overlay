@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="SNELIUS"
 DIST_VERSION="0.04"
-DIST_A="Mojo-Email-Checker-SMTP-0.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

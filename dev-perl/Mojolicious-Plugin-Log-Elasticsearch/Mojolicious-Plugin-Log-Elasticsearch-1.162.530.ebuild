@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JUSTIN"
-DIST_VERSION="1.162530"
-DIST_A="Mojolicious-Plugin-Log-Elasticsearch-1.162530.tar.gz"
+DIST_VERSION="1.162530" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

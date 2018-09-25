@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WORENKD"
-DIST_VERSION="1.5"
-DIST_A="Log-ErrLogger-1.5.tar.gz"
+DIST_VERSION="1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

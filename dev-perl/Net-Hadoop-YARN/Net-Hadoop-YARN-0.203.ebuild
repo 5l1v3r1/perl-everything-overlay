@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="0.203"
-DIST_A="Net-Hadoop-YARN-0.203.tar.gz"
+DIST_VERSION="0.203" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

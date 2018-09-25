@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.68"
-DIST_A="Math-Prime-Util-0.68.tar.gz"
+DIST_VERSION="0.68" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-5.570
-	>=virtual/perl-Math-BigInt-1.590
+	>=virtual/perl-Math-BigInt-1.880
 	>=virtual/perl-XSLoader-0.010
 "
 DEPEND="
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.450
 	>=virtual/perl-bignum-0.220
 "
+

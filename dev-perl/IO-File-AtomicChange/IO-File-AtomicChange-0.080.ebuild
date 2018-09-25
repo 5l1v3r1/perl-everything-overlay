@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="0.08"
-DIST_A="IO-File-AtomicChange-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.960
 "
+

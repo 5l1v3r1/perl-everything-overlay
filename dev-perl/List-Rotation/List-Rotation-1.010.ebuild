@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PELAGIC"
-DIST_VERSION="1.010"
-DIST_A="List-Rotation-1.010.tar.gz"
+DIST_VERSION="1.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

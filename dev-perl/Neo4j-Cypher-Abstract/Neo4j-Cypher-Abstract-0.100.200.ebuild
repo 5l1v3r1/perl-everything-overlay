@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJENSEN"
-DIST_VERSION="0.1002"
-DIST_A="Neo4j-Cypher-Abstract-0.1002.tar.gz"
+DIST_VERSION="0.1002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Tie-IxHash
 	dev-perl/Try-Tiny
 "
+

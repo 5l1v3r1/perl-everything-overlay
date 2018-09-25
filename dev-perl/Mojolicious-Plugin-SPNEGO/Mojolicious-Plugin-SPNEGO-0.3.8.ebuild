@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="0.3.8"
-DIST_A="Mojolicious-Plugin-SPNEGO-0.3.8.tar.gz"
+DIST_VERSION="0.3.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/CPAN-Uploader
 	>=dev-perl/Pod-Markdown-Github-0.010
 "
+

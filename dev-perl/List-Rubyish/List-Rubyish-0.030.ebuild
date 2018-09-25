@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YAPPO"
-DIST_VERSION="0.03"
-DIST_A="List-Rubyish-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,10 +18,11 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Test-Class
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

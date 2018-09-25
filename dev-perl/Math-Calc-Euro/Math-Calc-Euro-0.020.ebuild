@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JUERD"
-DIST_VERSION="0.02"
-DIST_A="Math-Calc-Euro-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

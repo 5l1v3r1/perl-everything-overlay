@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWMJ"
-DIST_VERSION="1.122"
-DIST_A="Net-FTPServer-1.122.tar.gz"
+DIST_VERSION="1.122" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

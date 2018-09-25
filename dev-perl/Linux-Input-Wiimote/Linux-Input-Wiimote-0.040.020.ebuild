@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICAS"
-DIST_VERSION="0.04002"
-DIST_A="Linux-Input-Wiimote-0.04002.tar.gz"
+DIST_VERSION="0.04002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+

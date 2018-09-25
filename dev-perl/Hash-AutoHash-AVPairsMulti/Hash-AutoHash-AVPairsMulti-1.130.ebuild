@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NATG"
-DIST_VERSION="1.13"
-DIST_A="Hash-AutoHash-AVPairsMulti-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Exporter
 	>=virtual/perl-Test-Simple-0.880
 "
+

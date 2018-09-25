@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALLEN"
-DIST_VERSION="0.36"
-DIST_A="Net-Amazon-EC2-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

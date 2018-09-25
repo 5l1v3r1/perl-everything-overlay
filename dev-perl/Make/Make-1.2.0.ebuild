@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KLPTWO"
-DIST_VERSION="1.2.0"
-DIST_A="Make-1.2.0.tar.gz"
+DIST_VERSION="1.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.000
 	>=virtual/perl-Test-Simple-1.000
 "
+

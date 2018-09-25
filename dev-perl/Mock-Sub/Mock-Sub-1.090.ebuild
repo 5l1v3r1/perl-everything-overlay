@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="1.09"
-DIST_A="Mock-Sub-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

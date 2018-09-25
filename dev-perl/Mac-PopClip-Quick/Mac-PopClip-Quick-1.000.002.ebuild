@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKF"
-DIST_VERSION="1.000002"
-DIST_A="Mac-PopClip-Quick-1.000002.tar.gz"
+DIST_VERSION="1.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Zip
 	dev-perl/Moo
+	dev-perl/base
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
+

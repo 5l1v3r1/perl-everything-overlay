@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWG"
-DIST_VERSION="0.311"
-DIST_A="Lingua-EN-Conjugate-0.311.tar.gz"
+DIST_VERSION="0.311" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-Memoize
 	virtual/perl-Test-Simple
 "
+

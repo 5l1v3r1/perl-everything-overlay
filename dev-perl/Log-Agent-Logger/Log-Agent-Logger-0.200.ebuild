@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MROGASKI"
-DIST_VERSION="0.200"
-DIST_A="Log-Agent-Logger-0.200.tar.gz"
+DIST_VERSION="0.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

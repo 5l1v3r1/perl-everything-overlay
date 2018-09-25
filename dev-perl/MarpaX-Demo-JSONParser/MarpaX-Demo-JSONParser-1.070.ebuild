@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.07"
-DIST_A="MarpaX-Demo-JSONParser-1.07.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.480
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

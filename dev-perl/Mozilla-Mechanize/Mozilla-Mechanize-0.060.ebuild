@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLANNING"
-DIST_VERSION="0.06"
-DIST_A="Mozilla-Mechanize-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	>=virtual/perl-Test-Simple-0.540
 "
+

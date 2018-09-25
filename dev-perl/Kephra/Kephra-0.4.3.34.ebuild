@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LICHTKIND"
-DIST_VERSION="v0.4.3.34"
-DIST_A="Kephra-0.4.3.34.tar.gz"
+DIST_VERSION="0.4.3.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Script-0.010
 	>=virtual/perl-Test-Simple-0.470
 "
+

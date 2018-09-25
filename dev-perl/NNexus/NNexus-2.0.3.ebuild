@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGINEV"
-DIST_VERSION="v2.0.3"
-DIST_A="NNexus-2.0.3.tar.gz"
+DIST_VERSION="2.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

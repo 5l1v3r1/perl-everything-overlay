@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLOBIN"
-DIST_VERSION="0.40"
-DIST_A="Mojolicious-Plugin-ProRenderer-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

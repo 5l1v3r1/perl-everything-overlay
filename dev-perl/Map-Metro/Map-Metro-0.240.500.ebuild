@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.2405"
-DIST_A="Map-Metro-0.2405.tar.gz"
+DIST_VERSION="0.2405" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -47,3 +46,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

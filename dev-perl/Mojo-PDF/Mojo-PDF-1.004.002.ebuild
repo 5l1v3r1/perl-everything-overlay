@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.004002"
-DIST_A="Mojo-PDF-1.004002.tar.gz"
+DIST_VERSION="1.004002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,8 +29,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-lang/perl
+	>=dev-lang/perl-1.010
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

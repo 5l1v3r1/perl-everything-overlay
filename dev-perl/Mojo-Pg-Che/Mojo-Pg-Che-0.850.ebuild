@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCHE"
-DIST_VERSION="0.850"
-DIST_A="Mojo-Pg-Che-0.850.tar.gz"
+DIST_VERSION="0.850" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

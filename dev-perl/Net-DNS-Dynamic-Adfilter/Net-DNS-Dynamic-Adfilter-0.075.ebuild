@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWATSON"
-DIST_VERSION="0.075"
-DIST_A="Net-DNS-Dynamic-Adfilter-0.075.tar.gz"
+DIST_VERSION="0.075" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

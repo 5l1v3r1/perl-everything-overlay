@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="0.8"
-DIST_A="Net-Hadoop-WebHDFS-0.8.tar.gz"
+DIST_VERSION="0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

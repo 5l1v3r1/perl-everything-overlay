@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBARR"
-DIST_VERSION="0.1901"
-DIST_A="Net-TFTP-0.1901.tar.gz"
+DIST_VERSION="0.1901" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Test-MockModule-0.110
 	dev-perl/Test-Warn
 	>=virtual/perl-Test-Simple-0.870.100
 "
@@ -24,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

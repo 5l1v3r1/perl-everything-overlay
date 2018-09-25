@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HVALVERDE"
-DIST_VERSION="1.15"
-DIST_A="Mecom-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/BioPerl
-	dev-perl/BioPerl-Run
+	dev-perl/Bio-Tools-Phylo-PAML
 	dev-perl/IPC-Run
 	dev-perl/Number-FormatEng
 	dev-perl/Statistics-Basic
@@ -28,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
+

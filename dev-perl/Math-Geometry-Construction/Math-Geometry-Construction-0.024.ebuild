@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LGEHLEN"
-DIST_VERSION="0.024"
-DIST_A="Math-Geometry-Construction-0.024.tar.gz"
+DIST_VERSION="0.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

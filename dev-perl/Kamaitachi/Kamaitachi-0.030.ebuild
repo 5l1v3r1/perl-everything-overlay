@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYPESTER"
-DIST_VERSION="0.03"
-DIST_A="Kamaitachi-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,9 +23,10 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-TCP
 	dev-perl/Text-Glob
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

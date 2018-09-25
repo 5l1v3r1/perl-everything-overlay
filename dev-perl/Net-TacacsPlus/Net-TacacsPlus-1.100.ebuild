@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGDUDE"
-DIST_VERSION="1.10"
-DIST_A="Net-TacacsPlus-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

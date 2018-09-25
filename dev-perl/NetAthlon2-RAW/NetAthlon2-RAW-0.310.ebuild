@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PIRZYK"
-DIST_VERSION="0.31"
-DIST_A="NetAthlon2-RAW-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Archive-Tar
 "
+

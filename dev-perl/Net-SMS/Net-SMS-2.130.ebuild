@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROOTLEVEL"
-DIST_VERSION="2.13"
-DIST_A="Net-SMS-2.13.tar.gz"
+DIST_VERSION="2.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

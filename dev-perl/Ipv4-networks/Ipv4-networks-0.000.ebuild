@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="CLADI"
-DIST_VERSION="0.0"
-DIST_A="Ipv4_networks.tgz"
+DIST_VERSION=""
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/C/CL/CLADI/Ipv4_networks.tgz -> Ipv4_networks-.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Ipv4_networks ${WORKDIR}/Ipv4_networks-
+}
+

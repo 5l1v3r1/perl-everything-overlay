@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AWRIGLEY"
-DIST_VERSION="1.09"
-DIST_A="Mobile-Wurfl-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

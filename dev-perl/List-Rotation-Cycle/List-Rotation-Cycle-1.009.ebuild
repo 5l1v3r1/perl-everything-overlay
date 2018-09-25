@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PELAGIC"
-DIST_VERSION="1.009"
-DIST_A="List-Rotation-Cycle-1.009.tar.gz"
+DIST_VERSION="1.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 "
+

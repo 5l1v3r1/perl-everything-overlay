@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PALLOTRON"
-DIST_VERSION="0.01"
-DIST_A="Monit-HTTP-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Error
 	dev-perl/HTTP-Message
-	dev-perl/Test-MockModule
 	>=dev-perl/Test-Pod-Coverage-1.080
 	dev-perl/XML-Bare
 	dev-perl/YAML
@@ -29,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

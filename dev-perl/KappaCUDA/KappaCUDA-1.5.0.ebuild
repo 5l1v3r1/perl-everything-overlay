@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="psilambdallc"
-DIST_VERSION="v1.5.0"
-DIST_A="KappaCUDA-1.5.0.tar.gz"
+DIST_AUTHOR="BRIAN"
+DIST_VERSION="1.5.0" 
+SRC_URI="mirror://cpan/authors/id/B/BR/BRIAN/psilambdallc/KappaCUDA-1.5.0.tar.gz -> KappaCUDA-1.5.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/KappaCUDA-1.5.0 ${WORKDIR}/KappaCUDA-1.5.0
+}
+

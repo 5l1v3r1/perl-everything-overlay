@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="1.2"
-DIST_A="Ham-DXCC-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.020
+	>=dev-lang/perl-1.050
 	>=dev-perl/XML-XPath-1.130
 	>=dev-perl/base-2.070
 	>=dev-perl/libwww-perl-6.000
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/TAP-Harness-JUnit-0.410
 	>=virtual/perl-Test-Simple-0.620
 "
+

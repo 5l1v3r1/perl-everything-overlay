@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KOKOGIKO"
-DIST_VERSION="2.0"
-DIST_A="Location-GeoTool-2.tar.gz"
+DIST_VERSION="2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

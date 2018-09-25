@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="1.001"
-DIST_A="Module-Install-PerlTar-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="1.00"
-DIST_A="Net-IP-Match-Trie-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,8 +21,10 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.030
 	dev-lang/perl
 	dev-perl/Devel-Cover
+	dev-perl/Module-Build
 	dev-perl/Path-Class
 	dev-perl/Test-Base
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.880
 "
+

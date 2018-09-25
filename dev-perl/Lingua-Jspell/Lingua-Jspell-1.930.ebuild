@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="1.93"
-DIST_A="Lingua-Jspell-1.93.tar.gz"
+DIST_VERSION="1.93" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-CBuilder-0.270
 	virtual/perl-Test-Simple
 "
+

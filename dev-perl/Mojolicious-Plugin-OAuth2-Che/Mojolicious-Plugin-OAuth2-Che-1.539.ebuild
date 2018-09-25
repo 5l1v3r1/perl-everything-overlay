@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCHE"
-DIST_VERSION="1.539"
-DIST_A="Mojolicious-Plugin-OAuth2-Che-1.539.tar.gz"
+DIST_VERSION="1.539" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

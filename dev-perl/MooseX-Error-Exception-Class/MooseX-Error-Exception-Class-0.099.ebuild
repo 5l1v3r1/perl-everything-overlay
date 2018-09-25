@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="0.099"
-DIST_A="MooseX-Error-Exception-Class-0.099.tar.gz"
+DIST_VERSION="0.099" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.330
 	>=virtual/perl-Test-Simple-0.610
 "
+

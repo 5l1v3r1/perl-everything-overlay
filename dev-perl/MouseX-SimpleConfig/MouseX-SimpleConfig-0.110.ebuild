@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJGARDNER"
-DIST_VERSION="0.11"
-DIST_A="MouseX-SimpleConfig-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Config-Any-0.130
-	>=dev-perl/Mouse-0.350
+	dev-perl/Mouse
 	>=dev-perl/MouseX-ConfigFromFile-0.020
 	virtual/perl-Carp
 "
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

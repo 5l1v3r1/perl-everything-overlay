@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEPREVOST"
-DIST_VERSION="0.062"
-DIST_A="MS2-Parser-0.062.tar.gz"
+DIST_VERSION="0.062" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

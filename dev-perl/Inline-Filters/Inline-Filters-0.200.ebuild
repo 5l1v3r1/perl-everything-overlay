@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RURBAN"
-DIST_VERSION="0.20"
-DIST_A="Inline-Filters-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

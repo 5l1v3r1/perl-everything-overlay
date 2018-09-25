@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.015"
-DIST_A="Meerkat-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DateTime
 	dev-perl/Module-Runtime
-	>=dev-perl/MongoDB-1.000
+	dev-perl/MongoDB
 	dev-perl/MooX-Role-Logger
 	>=dev-perl/Moose-2.000
 	dev-perl/MooseX-AttributeShortcuts
@@ -46,7 +45,9 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Test-Roo
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

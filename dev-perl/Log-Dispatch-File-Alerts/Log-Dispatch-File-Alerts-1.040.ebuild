@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACOB"
-DIST_VERSION="1.04"
-DIST_A="Log-Dispatch-File-Alerts-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

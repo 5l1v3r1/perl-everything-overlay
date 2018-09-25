@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CELOGEEK"
-DIST_VERSION="0.4"
-DIST_A="ModuleUnderscore-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NORBU"
-DIST_VERSION="0.5"
-DIST_A="Mail-Chimp2-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,10 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/Mouse
 	dev-perl/Text-CSV
-	dev-perl/Web-API
 	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

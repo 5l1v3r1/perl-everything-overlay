@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEBAIRD"
-DIST_VERSION="0.422"
-DIST_A="Maypole-Plugin-QuickTable-0.422.tar.gz"
+DIST_VERSION="0.422" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

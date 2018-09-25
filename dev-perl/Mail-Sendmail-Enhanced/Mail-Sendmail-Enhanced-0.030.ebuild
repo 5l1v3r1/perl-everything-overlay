@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRANCISCO"
-DIST_VERSION="0.03"
-DIST_A="Mail-Sendmail-Enhanced-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.000
 "
+

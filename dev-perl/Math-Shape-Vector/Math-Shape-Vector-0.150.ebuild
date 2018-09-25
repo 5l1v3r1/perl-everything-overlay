@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DFARRELL"
-DIST_VERSION="0.15"
-DIST_A="Math-Shape-Vector-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-Math-Complex
@@ -28,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

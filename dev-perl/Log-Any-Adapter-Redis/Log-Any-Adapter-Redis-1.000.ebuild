@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-Any-1.010
+	dev-perl/Log-Any
 	dev-perl/RedisDB
 	dev-perl/base
 "

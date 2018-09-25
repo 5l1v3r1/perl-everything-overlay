@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="v1.2.6.001"
-DIST_A="JS-jQuery-1.2.6.001.tar.gz"
+DIST_VERSION="1.2.6.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/JS-0.170
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

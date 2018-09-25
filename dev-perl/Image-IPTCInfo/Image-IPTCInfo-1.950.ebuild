@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JCARTER"
-DIST_VERSION="1.95"
-DIST_A="Image-IPTCInfo-1.95.tar.gz"
+DIST_VERSION="1.95" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

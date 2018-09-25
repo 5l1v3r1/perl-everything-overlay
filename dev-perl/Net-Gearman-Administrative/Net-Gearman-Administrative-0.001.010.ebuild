@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUTINITY"
-DIST_VERSION="0.00101"
-DIST_A="Net-Gearman-Administrative-0.00101.tar.gz"
+DIST_VERSION="0.00101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

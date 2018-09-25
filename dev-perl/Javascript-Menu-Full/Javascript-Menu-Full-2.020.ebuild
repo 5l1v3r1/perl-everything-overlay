@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YOSEFM"
-DIST_VERSION="2.02"
-DIST_A="Javascript-Menu-Full-2.02.tar.gz"
+DIST_VERSION="2.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

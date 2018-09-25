@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.56"
-DIST_A="Lingua-Identify-0.56.tar.gz"
-SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Lingua-Identify-0.56.tar.gz"
+DIST_VERSION="0.56" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Lingua-Identify-0.56.tar.gz -> Lingua-Identify-0.56.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-Identify-0.56 ${WORKDIR}/Lingua-Identify-0.56
+}
+

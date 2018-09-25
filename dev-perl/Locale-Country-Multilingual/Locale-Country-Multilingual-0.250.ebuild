@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OSCHWALD"
-DIST_VERSION="0.25"
-DIST_A="Locale-Country-Multilingual-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Data-Inheritable
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 "
@@ -26,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

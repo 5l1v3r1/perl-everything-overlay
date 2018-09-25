@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.02"
-DIST_A="Math-PSNR-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.240
 	>=virtual/perl-Test-Simple-0.980
 "
+

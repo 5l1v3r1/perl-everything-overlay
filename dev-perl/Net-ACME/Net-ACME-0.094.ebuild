@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.094"
-DIST_A="Net-ACME-0.094.tar.gz"
+DIST_VERSION="0.094" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,6 @@ RDEPEND="
 	>=dev-lang/perl-1.230
 	>=dev-perl/Call-Context-0.020
 	>=dev-perl/Crypt-Format-0.060
-	>=dev-perl/Crypt-Perl-0.010
 	>=dev-perl/Crypt-RSA-Parse-0.041
 	>=dev-perl/HTTP-Tiny-UA-0.004
 	>=dev-perl/JSON-2.900
@@ -38,3 +36,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.400
 	>=virtual/perl-Test-Simple-1.000
 "
+

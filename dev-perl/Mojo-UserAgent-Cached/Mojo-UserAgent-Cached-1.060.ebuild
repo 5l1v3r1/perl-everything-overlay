@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICOMEN"
-DIST_VERSION="1.06"
-DIST_A="Mojo-UserAgent-Cached-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	virtual/perl-IO-Compress
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOKKE"
-DIST_VERSION="0.10"
-DIST_A="Lingua-LO-Romanize-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/MooseX-Params-Validate
 	virtual/perl-Test-Simple
 "
+

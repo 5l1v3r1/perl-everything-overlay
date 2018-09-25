@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTLAW"
-DIST_VERSION="0.06"
-DIST_A="Module-Mask-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+

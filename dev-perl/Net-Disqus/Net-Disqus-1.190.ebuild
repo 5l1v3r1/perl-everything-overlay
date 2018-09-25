@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADCAT"
-DIST_VERSION="1.19"
-DIST_A="Net-Disqus-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

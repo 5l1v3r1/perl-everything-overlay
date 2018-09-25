@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCHE"
-DIST_VERSION="2.031"
-DIST_A="Mojolicious-Plugin-AssetPack-Che-2.031.tar.gz"
+DIST_VERSION="2.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

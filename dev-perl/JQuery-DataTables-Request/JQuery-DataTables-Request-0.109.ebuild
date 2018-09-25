@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XMIKEW"
-DIST_VERSION="0.109"
-DIST_A="JQuery-DataTables-Request-0.109.tar.gz"
+DIST_VERSION="0.109" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Exporter
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.000002"
-DIST_A="Module-EnforceLoad-0.000002.tar.gz"
+DIST_VERSION="0.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Test2-Suite-0.000.034
 	>=virtual/perl-Test-Simple-1.302.032
 "
+

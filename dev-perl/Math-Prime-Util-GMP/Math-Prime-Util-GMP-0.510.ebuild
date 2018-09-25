@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.51"
-DIST_A="Math-Prime-Util-GMP-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-Math-BigInt-1.880
 	>=virtual/perl-Test-Simple-0.450
 "
+

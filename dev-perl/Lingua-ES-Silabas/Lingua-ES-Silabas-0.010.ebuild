@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCOS"
-DIST_VERSION="0.01"
-DIST_A="Lingua-ES-Silabas-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HARTZELL"
-DIST_VERSION="0.010"
-DIST_A="MooX-StrictConstructor-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Method-Modifiers
-	>=dev-perl/Moo-1.001.000
+	dev-perl/Moo
 	>=dev-perl/strictures-1.000
 "
 DEPEND="
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

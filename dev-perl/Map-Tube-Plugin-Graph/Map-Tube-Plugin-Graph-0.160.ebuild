@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="0.16"
-DIST_A="Map-Tube-Plugin-Graph-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

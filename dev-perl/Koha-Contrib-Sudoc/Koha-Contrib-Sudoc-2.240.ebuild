@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREDERICD"
-DIST_VERSION="2.24"
-DIST_A="Koha-Contrib-Sudoc-2.24.tar.gz"
+DIST_VERSION="2.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,3 +47,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

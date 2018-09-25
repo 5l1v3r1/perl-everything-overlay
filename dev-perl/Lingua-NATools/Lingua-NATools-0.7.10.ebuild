@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-2.060
 	dev-perl/CGI
 	>=dev-perl/DBD-SQLite-1.300
 	dev-perl/DBI

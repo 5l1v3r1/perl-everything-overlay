@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Kwiki"
-DIST_VERSION="0.01"
-DIST_A="Kwiki-DatedAnnounce-0.01.tar.gz"
+DIST_AUTHOR="CDENT"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Kwiki/Kwiki-DatedAnnounce-0.01.tar.gz -> Kwiki-DatedAnnounce-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Kwiki-DatedAnnounce-0.01 ${WORKDIR}/Kwiki-DatedAnnounce-0.01
+}
+

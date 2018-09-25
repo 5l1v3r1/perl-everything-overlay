@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JESUS"
-DIST_VERSION="v0.2.12"
-DIST_A="Logger-Fq-0.2.12.tar.gz"
+DIST_VERSION="0.2.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Variable-Magic
 "
+

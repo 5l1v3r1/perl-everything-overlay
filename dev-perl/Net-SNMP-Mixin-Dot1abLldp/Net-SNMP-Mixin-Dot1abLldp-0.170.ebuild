@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GAISSMAI"
-DIST_VERSION="0.17"
-DIST_A="Net-SNMP-Mixin-Dot1abLldp-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

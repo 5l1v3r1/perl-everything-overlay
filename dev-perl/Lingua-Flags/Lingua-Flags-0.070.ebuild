@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Lingua"
-DIST_VERSION="0.07"
-DIST_A="Lingua-Flags-0.07.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.07" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Lingua-Flags-0.07.tar.gz -> Lingua-Flags-0.07.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-Flags-0.07 ${WORKDIR}/Lingua-Flags-0.07
+}
+

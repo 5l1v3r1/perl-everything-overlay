@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RWG"
-DIST_VERSION="0.104"
-DIST_A="Lingua-EN-Contraction-0.104.tar.gz"
+DIST_VERSION="0.104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,5 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

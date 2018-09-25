@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICEPERL"
-DIST_VERSION="0.05"
-DIST_A="Kelp-Module-FlashMessage-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Kelp-0.310.200
+	dev-perl/Kelp
 	>=dev-perl/Plack-1.000.000
 	>=dev-perl/Plack-Middleware-Session-0.150
 	virtual/perl-Test-Simple
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
 "
+

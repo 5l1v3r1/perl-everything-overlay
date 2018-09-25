@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAL"
-DIST_VERSION="0.10"
-DIST_A="Lingua-StanfordCoreNLP-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Inline-Java-0.530
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+

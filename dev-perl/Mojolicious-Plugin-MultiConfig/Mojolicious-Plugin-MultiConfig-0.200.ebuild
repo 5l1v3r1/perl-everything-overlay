@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="BVINNERD"
 DIST_VERSION="0.2"
-DIST_A="Mojolicious-Plugin-MultiConfig-0.2.tar.bz2"
+DIST_A_EXT="tar.bz2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

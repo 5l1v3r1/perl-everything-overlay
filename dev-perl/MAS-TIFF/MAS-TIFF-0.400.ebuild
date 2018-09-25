@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GREGOR"
-DIST_VERSION="0.4"
-DIST_A="MAS-TIFF-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

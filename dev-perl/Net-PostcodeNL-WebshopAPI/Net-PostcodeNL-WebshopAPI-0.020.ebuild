@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="STUIFZAND"
-DIST_VERSION="0.02"
-DIST_A="Net-PostcodeNL-WebshopAPI-0.2.tar.gz"
+DIST_VERSION="0.02" 
+SRC_URI="mirror://cpan/authors/id/S/ST/STUIFZAND/Net-PostcodeNL-WebshopAPI-0.2.tar.gz -> Net-PostcodeNL-WebshopAPI-0.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-PostcodeNL-WebshopAPI-0.2 ${WORKDIR}/Net-PostcodeNL-WebshopAPI-0.02
+}
+

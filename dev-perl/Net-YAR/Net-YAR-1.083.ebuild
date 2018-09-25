@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHANDOM"
-DIST_VERSION="1.083"
-DIST_A="Net-YAR-1.083.tar.gz"
+DIST_VERSION="1.083" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

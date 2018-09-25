@@ -16,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTTP-Message-1.260
-	>=dev-perl/libwww-perl-1.410
+	>=dev-perl/libwww-perl-2.033
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Compile
 	dev-perl/UNIVERSAL-require
 	>=virtual/perl-Test-Simple-0.420

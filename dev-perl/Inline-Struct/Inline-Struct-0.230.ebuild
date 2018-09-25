@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.23"
-DIST_A="Inline-Struct-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	>=virtual/perl-Test-Simple-0.880
 "
+

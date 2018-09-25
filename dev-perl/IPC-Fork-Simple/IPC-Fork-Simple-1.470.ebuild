@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JEAGLE"
-DIST_VERSION="1.47"
-DIST_A="IPC-Fork-Simple-1.47.tar.gz"
+DIST_VERSION="1.47" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

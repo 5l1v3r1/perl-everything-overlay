@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.22"
-DIST_A="Net-Works-0.22.tar.gz"
+DIST_VERSION="0.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Math-BigInt
 	>=virtual/perl-Test-Simple-0.960
 "
+

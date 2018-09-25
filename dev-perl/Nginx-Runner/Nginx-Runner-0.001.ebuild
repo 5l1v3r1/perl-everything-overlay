@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNDEF"
-DIST_VERSION="0.001"
-DIST_A="Nginx-Runner-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-IO
 "
+

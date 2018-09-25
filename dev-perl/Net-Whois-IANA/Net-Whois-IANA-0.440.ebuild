@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ATOOMIC"
-DIST_VERSION="0.44"
-DIST_A="Net-Whois-IANA-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="0.1.0"
-DIST_A="LCFG-Build-PkgSpec-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AYOUNG"
-DIST_VERSION="0.03"
-DIST_A="Net-Google-GData-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	dev-perl/Class-ErrorHandler
+	dev-perl/base
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "
@@ -33,3 +33,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

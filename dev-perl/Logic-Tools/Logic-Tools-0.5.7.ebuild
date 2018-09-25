@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAGUTAS"
-DIST_VERSION="v0.5.7"
-DIST_A="Logic-Tools-0.5.7.tar.gz"
+DIST_VERSION="0.5.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Config-IniFiles-2.750
-	>=dev-perl/Log-Any-1.032
-	>=dev-perl/Log-Any-Adapter-Syslog-1.500
+	>=dev-perl/Log-Any-1.500
 	>=dev-perl/Test-Fixme-0.040
 	>=dev-perl/Test-Fork-0.020
 	>=dev-perl/Test-Perl-Critic-1.020
@@ -32,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

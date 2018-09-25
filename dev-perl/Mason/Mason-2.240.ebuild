@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="2.24"
-DIST_A="Mason-2.24.tar.gz"
+DIST_VERSION="2.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Test-Class-Most
 	dev-perl/Test-LongString
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HUGUEI"
-DIST_VERSION="0.36"
-DIST_A="Net-Stomp-Receipt-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

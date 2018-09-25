@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOMOR"
-DIST_VERSION="1.27"
-DIST_A="Net-Packet-1.27.tar.gz"
+DIST_VERSION="1.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

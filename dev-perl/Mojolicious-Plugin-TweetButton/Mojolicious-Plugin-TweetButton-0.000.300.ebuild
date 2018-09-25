@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VTI"
-DIST_VERSION="0.0003"
-DIST_A="Mojolicious-Plugin-TweetButton-0.0003.tar.gz"
+DIST_VERSION="0.0003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

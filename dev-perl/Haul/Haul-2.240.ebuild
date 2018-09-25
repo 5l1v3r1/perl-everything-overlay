@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LBROCARD"
-DIST_VERSION="2.24"
-DIST_A="Haul-2.24.tar.gz"
+DIST_VERSION="2.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

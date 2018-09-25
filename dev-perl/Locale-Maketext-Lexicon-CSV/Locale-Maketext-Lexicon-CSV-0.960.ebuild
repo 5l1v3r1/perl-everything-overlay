@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DNARNOLD"
-DIST_VERSION="0.96"
-DIST_A="Locale-Maketext-Lexicon-CSV-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

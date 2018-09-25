@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GONZUS"
-DIST_VERSION="0.000005"
-DIST_A="Math-Utils-XS-0.000005.tar.gz"
+DIST_VERSION="0.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

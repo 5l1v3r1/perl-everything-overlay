@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HRUPP"
-DIST_VERSION="0.07"
-DIST_A="Mojo-Cloudstack-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-MockObject
 	virtual/perl-Test-Simple
 "
+

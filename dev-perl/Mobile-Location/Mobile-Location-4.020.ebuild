@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARRYPJ"
-DIST_VERSION="4.02"
-DIST_A="Mobile-Location-4.02.tar.gz"
+DIST_VERSION="4.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

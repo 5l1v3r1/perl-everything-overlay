@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DDICK"
-DIST_VERSION="0.07"
-DIST_A="Net-ICAP-Client-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

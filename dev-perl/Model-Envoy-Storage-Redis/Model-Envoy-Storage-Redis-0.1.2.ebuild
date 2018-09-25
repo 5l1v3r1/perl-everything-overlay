@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOWARS"
-DIST_VERSION="0.1.2"
-DIST_A="Model-Envoy-Storage-Redis-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.421.100
 	>=virtual/perl-Test-Simple-1.302.085
 "
+

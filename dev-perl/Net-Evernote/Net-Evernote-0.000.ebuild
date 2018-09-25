@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="DMC"
-DIST_VERSION="0.0"
-DIST_A="Net-Evernote-0.07.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMC/Net-Evernote-0.07.tar.gz -> Net-Evernote-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Evernote-0.07 ${WORKDIR}/Net-Evernote-
+}
+

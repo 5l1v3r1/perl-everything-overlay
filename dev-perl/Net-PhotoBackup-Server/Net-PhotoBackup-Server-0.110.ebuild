@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEWEBB"
-DIST_VERSION="0.11"
-DIST_A="Net-PhotoBackup-Server-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,15 +18,21 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-HomeDir
 	dev-perl/Plack
+	dev-perl/Pod-Usage
 	dev-perl/Starman
 	dev-perl/Try-Tiny
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-SHA
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/HTTP-Message
+	dev-perl/Module-Build
+	dev-perl/Pod-Markdown-Passthrough
+	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-autodie
 "
+

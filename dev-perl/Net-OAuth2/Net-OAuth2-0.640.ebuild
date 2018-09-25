@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKOV"
-DIST_VERSION="0.64"
-DIST_A="Net-OAuth2-0.64.tar.gz"
+DIST_VERSION="0.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

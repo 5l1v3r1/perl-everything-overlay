@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CGILMORE"
-DIST_VERSION="1.04"
-DIST_A="I18N-AcceptLanguage-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

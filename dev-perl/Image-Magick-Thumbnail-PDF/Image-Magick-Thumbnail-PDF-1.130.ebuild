@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEOCHARRE"
-DIST_VERSION="1.13"
-DIST_A="Image-Magick-Thumbnail-PDF-1.13.tar.gz"
+DIST_VERSION="1.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.000
 	dev-perl/File-Which
 	dev-perl/Smart-Comments
 	virtual/perl-Carp
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOSHA"
-DIST_VERSION="1.7"
-DIST_A="LWP-Protocol-http-SocksChain-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

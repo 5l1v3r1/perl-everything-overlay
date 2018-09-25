@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="1.6"
-DIST_A="Log-Saftpresse-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,6 +31,7 @@ RDEPEND="
 	dev-perl/Tie-IxHash
 	dev-perl/URI
 	dev-perl/UUID
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
@@ -46,3 +46,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

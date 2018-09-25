@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="0.6.6"
-DIST_A="LCFG-Build-Tools-0.6.6.tar.gz"
+DIST_VERSION="0.6.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGOULAH"
-DIST_VERSION="1.2002"
-DIST_A="MooseX-LogDispatch-1.2002.tar.gz"
+DIST_VERSION="1.2002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

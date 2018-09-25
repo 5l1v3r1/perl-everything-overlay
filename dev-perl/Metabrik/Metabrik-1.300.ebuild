@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOMOR"
-DIST_VERSION="1.30"
-DIST_A="Metabrik-1.30.tar.gz"
+DIST_VERSION="1.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

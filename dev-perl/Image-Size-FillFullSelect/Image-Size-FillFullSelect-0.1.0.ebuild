@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVELOX"
-DIST_VERSION="0.1.0"
-DIST_A="Image-Size-FillFullSelect-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

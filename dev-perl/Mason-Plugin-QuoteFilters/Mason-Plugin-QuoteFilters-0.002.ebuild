@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCLOUSE"
-DIST_VERSION="0.002"
-DIST_A="Mason-Plugin-QuoteFilters-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	dev-perl/Test-Class-Most
 "
+

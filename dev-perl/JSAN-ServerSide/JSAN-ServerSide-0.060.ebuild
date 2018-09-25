@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.06"
-DIST_A="JSAN-ServerSide-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHGOVUK"
-DIST_VERSION="0.10"
-DIST_A="Log-Declare-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

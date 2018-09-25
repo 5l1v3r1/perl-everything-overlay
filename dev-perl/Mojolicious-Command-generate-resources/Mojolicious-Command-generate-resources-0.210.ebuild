@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEROV"
-DIST_VERSION="0.21"
-DIST_A="Mojolicious-Command-generate-resources-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Mojo-SQLite-3.000
 	>=dev-perl/Mojolicious-Plugin-OpenAPI-1.250
 "
+

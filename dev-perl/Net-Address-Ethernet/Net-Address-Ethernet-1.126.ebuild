@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="1.126"
-DIST_A="Net-Address-Ethernet-1.126.tar.gz"
+DIST_VERSION="1.126" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

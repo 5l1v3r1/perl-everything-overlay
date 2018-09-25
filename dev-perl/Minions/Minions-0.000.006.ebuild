@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARUNBEAR"
-DIST_VERSION="0.000006"
-DIST_A="Minions-0.000006.tar.gz"
+DIST_VERSION="0.000006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=dev-perl/Test-Lib-0.002
 	>=dev-perl/Test-Most-0.340
 "
+

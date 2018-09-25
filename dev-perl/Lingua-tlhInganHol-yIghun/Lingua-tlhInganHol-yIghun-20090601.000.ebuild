@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="20090601.0"
-DIST_A="Lingua-tlhInganHol-yIghun-20090601.tar.gz"
+DIST_VERSION="20090601" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Harness-3.000
 	>=virtual/perl-Test-Simple-0.470
 "
+

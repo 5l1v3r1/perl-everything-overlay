@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLABOS"
-DIST_VERSION="0.000005"
-DIST_A="MAD-Scrambler-0.000005.tar.gz"
+DIST_VERSION="0.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.410
 	>=dev-perl/Test-Pod-Coverage-1.080
 "
+

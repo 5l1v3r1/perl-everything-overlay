@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVAN"
-DIST_VERSION="0.07"
-DIST_A="Moxie-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

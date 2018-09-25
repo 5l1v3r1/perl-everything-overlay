@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANAJ"
-DIST_VERSION="0.71"
-DIST_A="Math-Prime-Util-0.71.tar.gz"
+DIST_VERSION="0.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.450
 	>=virtual/perl-bignum-0.220
 "
+

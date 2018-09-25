@@ -26,7 +26,7 @@ DEPEND="
 	dev-perl/Devel-StrictMode
 	dev-perl/Test-Roo
 	dev-perl/Test-Roo-DataDriven
-	>=dev-perl/Test-TCP-2.190
+	dev-perl/Test-TCP
 	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata

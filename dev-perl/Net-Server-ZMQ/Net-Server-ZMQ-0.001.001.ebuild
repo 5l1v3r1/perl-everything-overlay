@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="0.001001"
-DIST_A="Net-Server-ZMQ-0.001001.tar.gz"
+DIST_VERSION="0.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	dev-perl/Net-Server
 	dev-perl/Pod-Usage
 	dev-perl/ZMQ-FFI
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 "
@@ -28,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

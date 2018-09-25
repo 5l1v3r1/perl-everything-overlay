@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SULLR"
-DIST_VERSION="0.620"
-DIST_A="Net-IMP-0.620.tar.gz"
+DIST_VERSION="0.620" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

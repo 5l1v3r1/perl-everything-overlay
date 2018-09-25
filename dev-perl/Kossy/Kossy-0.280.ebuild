@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.28"
-DIST_A="Kossy-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.000
 	>=dev-perl/Kossy-Validator-0.010
 	dev-perl/Number-Format
-	>=dev-perl/Plack-1.002.900
+	dev-perl/Plack
 	dev-perl/Plack-Middleware-ReverseProxy
 	>=dev-perl/Router-Boom-0.050
 	>=dev-perl/Text-Xslate-1.600.100
@@ -45,3 +44,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-MakeMaker
 "
+

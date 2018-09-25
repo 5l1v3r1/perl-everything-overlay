@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBC"
-DIST_VERSION="1.19"
-DIST_A="Hash-Flatten-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

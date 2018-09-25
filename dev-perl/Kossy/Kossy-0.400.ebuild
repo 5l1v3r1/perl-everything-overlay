@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.40"
-DIST_A="Kossy-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,4 +44,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 "
+

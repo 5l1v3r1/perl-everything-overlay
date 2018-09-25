@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEH"
-DIST_VERSION="0.1000"
-DIST_A="Ham-Locator-0.1000.tar.gz"
+DIST_VERSION="0.1000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DWHEELER"
-DIST_VERSION="1.19"
-DIST_A="MasonX-Interp-WithCallbacks-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.270.100
 "
+

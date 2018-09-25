@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="modules"
-DIST_VERSION="0.01"
-DIST_A="Net-ChooseFName-0.01.tar.gz"
+DIST_AUTHOR="ILYAZ"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/I/IL/ILYAZ/modules/Net-ChooseFName-0.01.tar.gz -> Net-ChooseFName-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-ChooseFName-0.01 ${WORKDIR}/Net-ChooseFName-0.01
+}
+

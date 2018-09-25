@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDHEDDEN"
-DIST_VERSION="6.22"
-DIST_A="Math-Random-MT-Auto-6.22.tar.gz"
+DIST_VERSION="6.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

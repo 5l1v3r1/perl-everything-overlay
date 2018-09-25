@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISAWA"
-DIST_VERSION="0.06"
-DIST_A="Log-Minimal-Instance-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Output-0.160
 	>=virtual/perl-Test-Simple-0.980
 "
+

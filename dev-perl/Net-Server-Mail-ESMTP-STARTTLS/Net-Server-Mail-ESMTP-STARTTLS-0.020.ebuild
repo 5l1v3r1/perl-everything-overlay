@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANMOORE"
-DIST_VERSION="0.02"
-DIST_A="Net-Server-Mail-ESMTP-STARTTLS-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

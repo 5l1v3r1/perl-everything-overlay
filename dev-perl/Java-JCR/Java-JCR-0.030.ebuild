@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANENKAMP"
-DIST_VERSION="0.03"
-DIST_A="Java-JCR-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Inline-Java-0.210
 	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

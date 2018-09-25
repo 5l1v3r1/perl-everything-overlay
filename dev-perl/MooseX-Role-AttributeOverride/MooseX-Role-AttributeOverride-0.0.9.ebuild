@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EALLENIII"
-DIST_VERSION="v0.0.9"
-DIST_A="MooseX-Role-AttributeOverride-0.0.9.tar.gz"
+DIST_VERSION="0.0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIRABELLA"
-DIST_VERSION="0.08"
-DIST_A="Hostfile-Manager-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,11 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/File-Slurp
 	dev-perl/Moose
+	dev-perl/Pod-Usage
 	dev-perl/Term-Clui
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Class
+	dev-perl/Test-Deep
+	dev-perl/Test-Most
+	dev-perl/Test-NoWarnings
 "
+

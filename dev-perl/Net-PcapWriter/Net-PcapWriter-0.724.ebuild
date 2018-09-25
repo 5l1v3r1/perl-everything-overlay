@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SULLR"
-DIST_VERSION="0.724"
-DIST_A="Net-PcapWriter-0.724.tar.gz"
+DIST_VERSION="0.724" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Kwalitee
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GANGLION"
-DIST_VERSION="0.9505"
-DIST_A="Net-IMAP-Client-0.9505.tar.gz"
+DIST_VERSION="0.9505" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

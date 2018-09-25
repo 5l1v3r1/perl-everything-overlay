@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RPETTETT"
-DIST_VERSION="1.04"
-DIST_A="Net-MemcacheQ-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.05.01
+	>=dev-lang/perl-1.030
 	>=dev-perl/Readonly-1.030
 	>=dev-perl/base-2.130
 	>=virtual/perl-Carp-1.080
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.800
 	>=virtual/perl-Time-HiRes-1.971.900
 "
+

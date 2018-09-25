@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CTBROWN"
-DIST_VERSION="0.28"
-DIST_A="MySQL-Slurp-0.28.tar.gz"
+DIST_VERSION="0.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.420
 	>=virtual/perl-Test-Simple-0.420
 "
+

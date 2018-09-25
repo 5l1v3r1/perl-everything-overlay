@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAF"
-DIST_VERSION="0.006"
-DIST_A="Mojolicious-Plugin-OnFork-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-3.090
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

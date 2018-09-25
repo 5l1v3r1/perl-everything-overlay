@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROOTLEVEL"
-DIST_VERSION="2.00"
-DIST_A="Net-Pager-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

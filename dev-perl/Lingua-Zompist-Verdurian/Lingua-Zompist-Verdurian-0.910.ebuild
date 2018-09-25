@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PNE"
-DIST_VERSION="0.91"
-DIST_A="Lingua-Zompist-Verdurian-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

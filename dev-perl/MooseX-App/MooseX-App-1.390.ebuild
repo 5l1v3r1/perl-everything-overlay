@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAROS"
-DIST_VERSION="1.39"
-DIST_A="MooseX-App-1.39.tar.gz"
+DIST_VERSION="1.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-NoWarnings
 "
+

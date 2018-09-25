@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="1.01"
-DIST_A="JSON-XS-Sugar-1.01.tar.gz"
+DIST_VERSION="1.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Devel-CallChecker-0.003
 	dev-perl/Types-Serialiser
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-XSLoader
 "
@@ -32,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

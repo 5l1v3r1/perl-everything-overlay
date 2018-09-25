@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZIALI"
-DIST_VERSION="2.3"
-DIST_A="JSONAPI-Document-2.3.tar.gz"
+DIST_VERSION="2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,9 +24,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DBD-SQLite
 	>=dev-perl/Test-DBIx-Class-0.520
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-Most
 	dev-perl/Test-Pod
 	virtual/perl-Carp
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEOCHARRE"
-DIST_VERSION="1.05"
-DIST_A="LEOCHARRE-HTML-Text-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

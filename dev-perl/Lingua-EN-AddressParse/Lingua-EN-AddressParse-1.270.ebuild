@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KIMRYAN"
-DIST_VERSION="1.27"
-DIST_A="Lingua-EN-AddressParse-1.27.tar.gz"
+DIST_VERSION="1.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.040
+	>=dev-lang/perl-1.120
 	>=dev-perl/Lingua-EN-NameParse-1.240
 	>=dev-perl/Locale-SubCountry-1.410
 	>=dev-perl/Parse-RecDescent-1.000
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.040
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIFEGUARD"
-DIST_VERSION="0.002"
-DIST_A="MediaWiki-Bot-Shell-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-Test-Simple
 "
+

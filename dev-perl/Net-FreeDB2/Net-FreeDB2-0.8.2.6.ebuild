@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOCCAV"
-DIST_VERSION="0.8.2.6"
-DIST_A="Net-FreeDB2-0.8.2.6.tar.gz"
+DIST_VERSION="0.8.2.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

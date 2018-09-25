@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="1.012003"
-DIST_A="MooX-ValidateSubs-1.012003.tar.gz"
+DIST_VERSION="1.012003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

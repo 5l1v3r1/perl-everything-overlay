@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINIMAL"
-DIST_VERSION="0.9015"
-DIST_A="Kelp-0.9015.tar.gz"
+DIST_VERSION="0.9015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,7 +38,9 @@ DEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/Plack-Middleware-Session
 	dev-perl/Test-Exception
+	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Harness
 "
+

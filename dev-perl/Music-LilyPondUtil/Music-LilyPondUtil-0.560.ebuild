@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMATES"
-DIST_VERSION="0.56"
-DIST_A="Music-LilyPondUtil-0.56.tar.gz"
+DIST_VERSION="0.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,6 @@ DEPEND="
 	dev-lang/perl
 	>=virtual/perl-ExtUtils-MakeMaker-6.480
 	dev-perl/Test-Most
+	dev-perl/lib
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SBECK"
-DIST_VERSION="0.95"
-DIST_A="Locale-VersionedMessages-0.95.tar.gz"
+DIST_VERSION="0.95" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

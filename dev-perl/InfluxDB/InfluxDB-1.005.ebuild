@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="1.005"
-DIST_A="InfluxDB-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Pod-Spell
 	dev-perl/Test-Fixme
 	dev-perl/Test-Kwalitee
 	>=dev-perl/Test-Spelling-0.120
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.07"
-DIST_A="JavaScript-Value-Escape-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

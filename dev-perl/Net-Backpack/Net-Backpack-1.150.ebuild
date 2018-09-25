@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="1.15"
-DIST_A="Net-Backpack-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

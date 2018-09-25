@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKER"
-DIST_VERSION="0.39"
-DIST_A="Net-DNSBL-MultiDaemon-0.39.tar.gz"
+DIST_VERSION="0.39" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

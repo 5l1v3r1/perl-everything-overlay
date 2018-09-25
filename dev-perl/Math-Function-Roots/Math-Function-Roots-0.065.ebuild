@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJO"
-DIST_VERSION="0.065"
-DIST_A="Math-Function-Roots-0.065.tar.gz"
+DIST_VERSION="0.065" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

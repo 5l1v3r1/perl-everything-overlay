@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="0.96"
-DIST_A="MojoX-Dispatcher-Qooxdoo-Jsonrpc-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.005"
-DIST_A="Hash-SharedMem-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-ParseXS-3.300
 	>=virtual/perl-File-Temp-0.220
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.400
+	>=virtual/perl-Test-Simple-0.030
 	virtual/perl-if
 "
+

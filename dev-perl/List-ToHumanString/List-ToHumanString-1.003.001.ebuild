@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZOFFIX"
-DIST_VERSION="1.003001"
-DIST_A="List-ToHumanString-1.003001.tar.gz"
+DIST_VERSION="1.003001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOPPIT"
-DIST_VERSION="0.1048"
-DIST_A="Module-Install-CustomInstallationPath-0.1048.tar.gz"
+DIST_VERSION="0.1048" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "
+

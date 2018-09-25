@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WFSO"
-DIST_VERSION="0.1.6"
-DIST_A="Mojolicious-Plugin-SessionStorage-0.1.6.tar.gz"
+DIST_VERSION="0.1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JJATRIA"
-DIST_VERSION="0.015"
-DIST_A="Mastodon-Client-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	dev-perl/Image-Info
 	>=dev-perl/JSON-MaybeXS-1.003.009
 	>=dev-perl/Log-Any-1.049
-	>=dev-perl/Moo-2.003.002
+	dev-perl/Moo
 	>=dev-perl/Net-Async-HTTP-0.410
 	dev-perl/Path-Tiny
 	>=dev-perl/Role-EventEmitter-0.002
@@ -57,3 +56,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-1.302.078
 	virtual/perl-parent
 "
+

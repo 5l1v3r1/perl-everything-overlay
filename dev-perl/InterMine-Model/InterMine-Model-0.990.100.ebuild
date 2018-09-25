@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INTERMINE"
-DIST_VERSION="0.9901"
-DIST_A="InterMine-Model-0.9901.tar.gz"
+DIST_VERSION="0.9901" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.950
 "
+

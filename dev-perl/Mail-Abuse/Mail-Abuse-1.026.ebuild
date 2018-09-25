@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUISMUNOZ"
-DIST_VERSION="1.026"
-DIST_A="Mail-Abuse-1.026.tar.gz"
+DIST_VERSION="1.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="0.705"
-DIST_A="Mojolicious-Plugin-ReverseProxy-0.705.tar.gz"
+DIST_VERSION="0.705" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/CPAN-Uploader
 	>=dev-perl/Pod-Markdown-Github-0.010
 "
+

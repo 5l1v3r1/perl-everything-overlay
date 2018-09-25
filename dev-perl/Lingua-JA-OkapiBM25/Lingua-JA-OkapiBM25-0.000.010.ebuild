@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKI"
-DIST_VERSION="0.00001"
-DIST_A="Lingua-JA-OkapiBM25-0.00001.tar.gz"
+DIST_VERSION="0.00001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

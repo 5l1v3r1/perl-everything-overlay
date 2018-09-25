@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XAICRON"
-DIST_VERSION="0.08"
-DIST_A="Iterator-GroupedRange-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

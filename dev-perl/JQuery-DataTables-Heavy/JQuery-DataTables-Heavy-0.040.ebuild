@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YWATASE"
-DIST_VERSION="0.04"
-DIST_A="JQuery-DataTables-Heavy-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-Mock-Guard-0.090
 	>=virtual/perl-Test-Simple-0.980
 "
+

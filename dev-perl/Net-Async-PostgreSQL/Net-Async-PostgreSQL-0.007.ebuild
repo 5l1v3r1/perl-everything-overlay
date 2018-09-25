@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEAM"
-DIST_VERSION="0.007"
-DIST_A="Net-Async-PostgreSQL-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

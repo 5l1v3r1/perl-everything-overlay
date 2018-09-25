@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.112"
-DIST_A="Log-Log4perl-Appender-ScreenColoredLevels-UsingMyColors-0.112.tar.gz"
+DIST_VERSION="0.112" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.950
 "
+

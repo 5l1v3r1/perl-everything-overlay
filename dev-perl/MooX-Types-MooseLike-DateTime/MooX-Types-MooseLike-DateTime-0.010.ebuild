@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTRIANT"
-DIST_VERSION="0.01"
-DIST_A="MooX-Types-MooseLike-DateTime-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/MooX-Types-MooseLike
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-Scalar-List-Utils
 "
@@ -31,3 +31,4 @@ DEPEND="
 	dev-perl/aliased
 	virtual/perl-Test-Simple
 "
+

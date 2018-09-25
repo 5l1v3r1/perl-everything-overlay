@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAJENSEN"
-DIST_VERSION="0.104"
-DIST_A="JSON-ize-0.104.tar.gz"
+DIST_VERSION="0.104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGDUDE"
-DIST_VERSION="0.107"
-DIST_A="Net-SAJAX-0.107.tar.gz"
+DIST_VERSION="0.107" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	>=dev-perl/Test-Requires-0.020
 	>=virtual/perl-Test-Simple-0.410
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARTINGO"
-DIST_VERSION="1.0.5"
-DIST_A="MikroTik-API-1.0.5.tar.gz"
+DIST_VERSION="1.0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 	virtual/perl-Test-Simple
 "
+

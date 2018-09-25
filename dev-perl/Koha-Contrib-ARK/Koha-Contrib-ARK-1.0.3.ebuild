@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREDERICD"
-DIST_VERSION="1.0.3"
-DIST_A="Koha-Contrib-ARK-1.0.3.tar.gz"
+DIST_VERSION="1.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

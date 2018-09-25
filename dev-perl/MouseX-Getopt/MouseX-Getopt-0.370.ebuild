@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.37"
-DIST_A="MouseX-Getopt-0.37.tar.gz"
+DIST_VERSION="0.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Getopt-Long-Descriptive-0.091
-	dev-perl/Mouse
+	>=dev-perl/Mouse-0.640
 	>=virtual/perl-Getopt-Long-2.370
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/MouseX-ConfigFromFile
 	dev-perl/MouseX-SimpleConfig
 	>=dev-perl/Test-Exception-0.210
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.880
 "
+

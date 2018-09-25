@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.00"
-DIST_A="MarpaX-Languages-Perl-PackUnpack-1.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.421
 	>=virtual/perl-Test-Simple-1.001.006
 "
+

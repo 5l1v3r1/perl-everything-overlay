@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STUIFZAND"
-DIST_VERSION="0.002005"
-DIST_A="Net-Docker-0.002005.tar.gz"
+DIST_VERSION="0.002005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.036
+	dev-perl/Module-Build
 "
+

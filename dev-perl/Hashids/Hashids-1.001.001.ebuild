@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZAKAME"
-DIST_VERSION="1.001001"
-DIST_A="Hashids-1.001001.tar.gz"
+DIST_VERSION="1.001001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-0.980
 "
+

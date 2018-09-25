@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JVBSOFT"
-DIST_VERSION="1.240"
-DIST_A="Modern-PBP-Perl-1.240.tar.gz"
+DIST_VERSION="1.240" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-Test-Simple
 "
+

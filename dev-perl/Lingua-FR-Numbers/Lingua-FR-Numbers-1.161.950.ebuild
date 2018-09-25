@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRIAC"
-DIST_VERSION="1.161950"
-DIST_A="Lingua-FR-Numbers-1.161950.tar.gz"
+DIST_VERSION="1.161950" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

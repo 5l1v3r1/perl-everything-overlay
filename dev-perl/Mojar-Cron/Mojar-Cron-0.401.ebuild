@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NICZERO"
-DIST_VERSION="0.401"
-DIST_A="Mojar-Cron-0.401.tar.gz"
+DIST_VERSION="0.401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZURBORG"
-DIST_VERSION="1.000"
-DIST_A="Method-Signatures-WithDocumentation-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/base
 	dev-perl/lib
 "
+

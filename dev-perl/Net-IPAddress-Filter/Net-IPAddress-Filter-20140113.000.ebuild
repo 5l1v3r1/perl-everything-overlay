@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEWEBB"
-DIST_VERSION="20140113.0"
-DIST_A="Net-IPAddress-Filter-20140113.tar.gz"
+DIST_VERSION="20140113" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

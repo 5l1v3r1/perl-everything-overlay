@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="0.001007"
-DIST_A="Lingua-EN-Inflexion-0.001007.tar.gz"
+DIST_VERSION="0.001007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

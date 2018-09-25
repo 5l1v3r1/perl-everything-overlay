@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHUBIGER"
-DIST_VERSION="0.10"
-DIST_A="LUGS-Events-Parser-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

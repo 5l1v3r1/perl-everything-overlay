@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBERGER"
-DIST_VERSION="0.06"
-DIST_A="Minion-Notifier-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.034
 	>=dev-perl/Mercury-0.003
 	dev-perl/Minion-Backend-SQLite
+	dev-perl/Module-Build
 	dev-perl/Mojo-SQLite
 "
+

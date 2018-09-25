@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DARREN"
-DIST_VERSION="2.04"
-DIST_A="Net-Nslookup-2.04.tar.gz"
+DIST_VERSION="2.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

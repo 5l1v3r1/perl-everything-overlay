@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARIFULN"
-DIST_VERSION="1.5"
-DIST_A="Mojolicious-Plugin-Mail-1.5.tar.gz"
+DIST_VERSION="1.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

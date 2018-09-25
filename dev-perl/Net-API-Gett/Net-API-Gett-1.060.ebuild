@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MALLEN"
-DIST_VERSION="1.06"
-DIST_A="Net-API-Gett-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

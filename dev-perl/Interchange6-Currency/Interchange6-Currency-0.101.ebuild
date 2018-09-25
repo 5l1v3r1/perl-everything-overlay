@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYSPETE"
-DIST_VERSION="0.101"
-DIST_A="Interchange6-Currency-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.161090"
-DIST_A="Net-DNS-Async-Simple-1.161090.tar.gz"
+DIST_VERSION="1.161090" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FIXLER"
-DIST_VERSION="0.76"
-DIST_A="Math-Financial-0.76.tar.gz"
+DIST_VERSION="0.76" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

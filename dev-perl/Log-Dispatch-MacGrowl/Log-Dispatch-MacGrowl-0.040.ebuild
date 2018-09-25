@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="RYOCHIN"
-DIST_VERSION="0.04"
-DIST_A="Log-Dispatch-MacGrowl-0.04.tar.gz"
-SRC_URI="mirror://cpan/authors/id/R/RY/RYOCHIN/Log-Dispatch-MacGrowl/Log-Dispatch-MacGrowl-0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/R/RY/RYOCHIN/Log-Dispatch-MacGrowl/Log-Dispatch-MacGrowl-0.04.tar.gz -> Log-Dispatch-MacGrowl-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-Dispatch-MacGrowl-0.04 ${WORKDIR}/Log-Dispatch-MacGrowl-0.04
+}
+

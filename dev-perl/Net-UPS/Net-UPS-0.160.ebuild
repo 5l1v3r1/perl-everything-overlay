@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="0.16"
-DIST_A="Net-UPS-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,7 +36,9 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Most
+	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

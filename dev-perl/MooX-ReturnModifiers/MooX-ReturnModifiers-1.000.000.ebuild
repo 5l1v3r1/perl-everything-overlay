@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="1.000000"
-DIST_A="MooX-ReturnModifiers-1.000000.tar.gz"
+DIST_VERSION="1.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Moo-1.001.001
 	virtual/perl-Test-Simple
 "
+

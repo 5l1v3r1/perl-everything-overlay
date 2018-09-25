@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREIN"
-DIST_VERSION="0.2"
-DIST_A="MooseX-ErrorHandling-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Runtime
 	dev-perl/Moose
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -27,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Spec
 "
+

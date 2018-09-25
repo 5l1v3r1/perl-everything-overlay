@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COFFEE"
-DIST_VERSION="0.006"
-DIST_A="Mojolicious-Plugin-Pubsub-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

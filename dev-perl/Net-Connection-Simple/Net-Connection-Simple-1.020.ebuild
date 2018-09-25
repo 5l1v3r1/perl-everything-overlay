@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAXJAZMAN"
-DIST_VERSION="1.02"
-DIST_A="Net-Connection-Simple-1.02.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/net/Net-Connection-Simple-1.02.tar.gz"
+DIST_VERSION="1.02" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/net/Net-Connection-Simple-1.02.tar.gz -> Net-Connection-Simple-1.02.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Connection-Simple-1.02 ${WORKDIR}/Net-Connection-Simple-1.02
+}
+

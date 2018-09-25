@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CURTIS"
-DIST_VERSION="0.15"
-DIST_A="Mojo-Snoo-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

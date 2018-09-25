@@ -5,9 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIJINFENG"
-DIST_VERSION="0.1.2"
-DIST_A="MYDan-0.1.2.tar.gz"
-b=L/LI/LIJINFENG/MYDan-0.1.2.tar.gz
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -51,3 +49,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

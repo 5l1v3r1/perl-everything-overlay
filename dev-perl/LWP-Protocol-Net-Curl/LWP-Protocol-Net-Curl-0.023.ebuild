@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SYP"
-DIST_VERSION="0.023"
-DIST_A="LWP-Protocol-Net-Curl-0.023.tar.gz"
+DIST_VERSION="0.023" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-HTTP-Server
 	virtual/perl-ExtUtils-MakeMaker
 "
+

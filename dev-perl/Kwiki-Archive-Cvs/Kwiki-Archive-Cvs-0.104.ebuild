@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOSEPHW"
-DIST_VERSION="0.104"
-DIST_A="Kwiki-Archive-Cvs-0.104.tar.gz"
+DIST_VERSION="0.104" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

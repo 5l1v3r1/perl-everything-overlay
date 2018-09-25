@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TLBDK"
-DIST_VERSION="0.02"
-DIST_A="IO-EventMux-Socket-MsgHdr-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "
+

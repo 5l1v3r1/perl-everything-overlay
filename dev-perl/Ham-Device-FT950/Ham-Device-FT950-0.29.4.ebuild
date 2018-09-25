@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TGIMMEL"
-DIST_VERSION="0.29.4"
-DIST_A="Ham-Device-FT950-0.29.4.tar.gz"
+DIST_VERSION="0.29.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

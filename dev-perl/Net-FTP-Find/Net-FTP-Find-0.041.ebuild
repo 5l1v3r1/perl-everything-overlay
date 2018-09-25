@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="USUALOMA"
-DIST_VERSION="0.041"
-DIST_A="Net-FTP-Find-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	>=virtual/perl-Test-Simple-0.880
 "
+

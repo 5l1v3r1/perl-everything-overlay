@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDORMAN"
-DIST_VERSION="0.91"
-DIST_A="Module-Build-Service-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 	dev-perl/Moo
 	dev-perl/Path-Class
 	dev-perl/Try-Tiny
+	dev-perl/base
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
@@ -35,3 +35,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

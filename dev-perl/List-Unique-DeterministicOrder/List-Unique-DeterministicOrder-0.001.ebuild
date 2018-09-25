@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLAFFAN"
-DIST_VERSION="0.001"
-DIST_A="List-Unique-DeterministicOrder-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/rlib
 	virtual/perl-Test-Simple
 "
+

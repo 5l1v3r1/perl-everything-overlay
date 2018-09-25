@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMAGO"
-DIST_VERSION="0.01"
-DIST_A="Markdown-TOC-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

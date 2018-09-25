@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HRUPP"
-DIST_VERSION="0.04"
-DIST_A="Mojolicious-Plugin-MostTagHelpers-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

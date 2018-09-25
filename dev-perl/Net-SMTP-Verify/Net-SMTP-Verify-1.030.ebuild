@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BENNING"
-DIST_VERSION="1.03"
-DIST_A="Net-SMTP-Verify-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Mock-Net-Server-Mail
 	virtual/perl-Test-Simple
 "
+

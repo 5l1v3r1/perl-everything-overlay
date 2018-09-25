@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDFOY"
-DIST_VERSION="0.02"
-DIST_A="Net-SSH-Perl-WithSocks-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/IO-Socket-Socks
 	dev-perl/IPC-PerlSSH
-	dev-perl/Net-SSH-Perl
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

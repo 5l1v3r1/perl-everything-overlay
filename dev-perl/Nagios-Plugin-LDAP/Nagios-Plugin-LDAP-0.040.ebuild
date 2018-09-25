@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBARR"
-DIST_VERSION="0.04"
-DIST_A="Nagios-Plugin-LDAP-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/Nagios-Plugin
 	dev-perl/perl-ldap
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
 "
+

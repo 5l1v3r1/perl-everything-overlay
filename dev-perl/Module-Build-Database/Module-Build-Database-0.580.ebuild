@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BDUGGAN"
-DIST_VERSION="0.58"
-DIST_A="Module-Build-Database-0.58.tar.gz"
+DIST_VERSION="0.58" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=dev-perl/Module-Build-Database-0.480
 	virtual/perl-ExtUtils-MakeMaker
 "
+

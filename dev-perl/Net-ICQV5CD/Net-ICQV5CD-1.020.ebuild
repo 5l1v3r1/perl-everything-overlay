@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SNEMAROV"
-DIST_VERSION="1.02"
-DIST_A="Net-ICQV5CD-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

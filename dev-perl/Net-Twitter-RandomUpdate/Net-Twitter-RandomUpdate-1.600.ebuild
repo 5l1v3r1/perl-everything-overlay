@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WAZZUTEKE"
-DIST_VERSION="1.6"
-DIST_A="Net-Twitter-RandomUpdate-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

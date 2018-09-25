@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.3"
-DIST_A="Mojo-IOLoop-LineReader-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

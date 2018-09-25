@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.040"
-DIST_A="Interchange6-Schema-0.040.tar.gz"
+DIST_VERSION="0.040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

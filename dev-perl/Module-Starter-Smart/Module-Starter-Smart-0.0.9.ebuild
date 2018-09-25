@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUEYCHENG"
-DIST_VERSION="0.0.9"
-DIST_A="Module-Starter-Smart-0.0.9.tar.gz"
+DIST_VERSION="0.0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

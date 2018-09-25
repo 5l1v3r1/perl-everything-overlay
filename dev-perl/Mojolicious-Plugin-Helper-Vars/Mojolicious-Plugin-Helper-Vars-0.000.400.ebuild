@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MCHE"
-DIST_VERSION="0.0004"
-DIST_A="Mojolicious-Plugin-Helper-Vars-0.0004.tar.gz"
+DIST_VERSION="0.0004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

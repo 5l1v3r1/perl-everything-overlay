@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FELIPE"
-DIST_VERSION="0.057"
-DIST_A="IO-Die-0.057.tar.gz"
+DIST_VERSION="0.057" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Deep-0.114
 	>=dev-perl/Test-NoWarnings-0.010
 "
+

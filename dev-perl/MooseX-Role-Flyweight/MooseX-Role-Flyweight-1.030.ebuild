@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVENL"
-DIST_VERSION="1.03"
-DIST_A="MooseX-Role-Flyweight-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

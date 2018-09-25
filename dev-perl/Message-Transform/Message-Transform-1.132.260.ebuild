@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.132260"
-DIST_A="Message-Transform-1.132260.tar.gz"
+DIST_VERSION="1.132260" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ DEPEND="
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Perl-Critic-Progressive
 	dev-perl/Test-PerlTidy
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

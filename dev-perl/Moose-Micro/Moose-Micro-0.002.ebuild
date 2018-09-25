@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HDP"
-DIST_VERSION="0.002"
-DIST_A="Moose-Micro-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MOBILEART"
-DIST_VERSION="v0.1.1"
-DIST_A="Net-SIGTRAN-0.1.1.tgz"
+DIST_VERSION="0.1.1"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

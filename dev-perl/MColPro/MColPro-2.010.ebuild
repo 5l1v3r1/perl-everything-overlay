@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WJIAN"
-DIST_VERSION="2.01"
-DIST_A="MColPro-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

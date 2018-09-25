@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMORROW"
-DIST_VERSION="1.04"
-DIST_A="IO-Unread-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-ExtUtils-CBuilder
 "
+

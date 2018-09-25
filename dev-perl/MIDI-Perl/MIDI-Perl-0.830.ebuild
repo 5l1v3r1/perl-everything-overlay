@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CONKLIN"
-DIST_VERSION="0.83"
-DIST_A="MIDI-Perl-0.83.tar.gz"
+DIST_VERSION="0.83" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

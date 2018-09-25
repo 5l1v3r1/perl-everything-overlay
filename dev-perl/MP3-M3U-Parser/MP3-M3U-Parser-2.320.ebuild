@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BURAK"
-DIST_VERSION="2.32"
-DIST_A="MP3-M3U-Parser-2.32.tar.gz"
+DIST_VERSION="2.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	>=virtual/perl-Test-Simple-0.400
 "
+

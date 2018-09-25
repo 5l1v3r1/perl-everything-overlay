@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROMERUN"
-DIST_VERSION="0.048"
-DIST_A="Net-Server-NonBlocking-0.048.tar.gz"
+DIST_VERSION="0.048" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

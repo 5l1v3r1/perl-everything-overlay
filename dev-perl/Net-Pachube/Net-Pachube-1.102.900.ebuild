@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.102900"
-DIST_A="Net-Pachube-1.102900.tar.gz"
+DIST_VERSION="1.102900" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/XML-SAX
 	virtual/perl-Test-Simple
 "
+

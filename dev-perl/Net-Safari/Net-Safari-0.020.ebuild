@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STUB"
-DIST_VERSION="0.02"
-DIST_A="Net-Safari-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
-	>=virtual/perl-Test-Simple-0.440
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

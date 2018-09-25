@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTAAL"
-DIST_VERSION="1.0200"
-DIST_A="Mail-Log-Exceptions-1.0200.tar.gz"
+DIST_VERSION="1.0200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Test-Warn
 "
+

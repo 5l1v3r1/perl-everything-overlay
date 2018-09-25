@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.27"
-DIST_A="Lingua-PT-PLNbase-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-0.080
 	virtual/perl-File-Temp
 "
+

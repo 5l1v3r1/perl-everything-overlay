@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOOM"
-DIST_VERSION="0.04"
-DIST_A="List-Filter-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 	>=dev-perl/Module-List-Pluggable-0.010
 	dev-perl/Test-Trap
 	dev-perl/YAML
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Carp
 	>=virtual/perl-Exporter-1.000
 	virtual/perl-File-Path
@@ -34,3 +35,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

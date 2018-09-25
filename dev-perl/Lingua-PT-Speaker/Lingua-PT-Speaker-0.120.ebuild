@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Lingua"
-DIST_VERSION="0.12"
-DIST_A="Lingua-PT-Speaker-0.12.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Lingua-PT-Speaker-0.12.tar.gz -> Lingua-PT-Speaker-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-PT-Speaker-0.12 ${WORKDIR}/Lingua-PT-Speaker-0.12
+}
+

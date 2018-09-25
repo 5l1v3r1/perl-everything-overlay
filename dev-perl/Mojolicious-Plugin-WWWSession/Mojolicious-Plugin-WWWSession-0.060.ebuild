@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Mojolicious"
-DIST_VERSION="0.06"
-DIST_A="Mojolicious-Plugin-WWWSession-0.06.tar.gz"
+DIST_AUTHOR="HOREA"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/Mojolicious/Mojolicious-Plugin-WWWSession-0.06.tar.gz -> Mojolicious-Plugin-WWWSession-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mojolicious-Plugin-WWWSession-0.06 ${WORKDIR}/Mojolicious-Plugin-WWWSession-0.06
+}
+

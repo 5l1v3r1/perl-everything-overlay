@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Log-Cabin"
-DIST_VERSION="0.06"
-DIST_A="Log-Cabin-0.06.tar.gz"
+DIST_AUTHOR="JORVIS"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/J/JO/JORVIS/Log-Cabin/Log-Cabin-0.06.tar.gz -> Log-Cabin-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-Cabin-0.06 ${WORKDIR}/Log-Cabin-0.06
+}
+

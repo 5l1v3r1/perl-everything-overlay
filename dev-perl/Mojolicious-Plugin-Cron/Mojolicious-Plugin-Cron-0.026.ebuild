@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMANTO"
-DIST_VERSION="0.026"
-DIST_A="Mojolicious-Plugin-Cron-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Mock-Time-0.1.7
 	>=dev-perl/Test2-Suite-0.000.114
 "
+

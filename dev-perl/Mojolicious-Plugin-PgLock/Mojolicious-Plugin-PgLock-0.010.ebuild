@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ONOKHOV"
-DIST_VERSION="0.01"
-DIST_A="Mojolicious-Plugin-PgLock-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Digest-Crc32
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

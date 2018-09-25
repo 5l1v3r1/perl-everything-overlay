@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEETTYA"
-DIST_VERSION="0.37"
-DIST_A="Kaiten-Container-0.37.tar.gz"
+DIST_VERSION="0.37" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "
+

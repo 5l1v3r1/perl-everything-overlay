@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVIDO"
-DIST_VERSION="0.74"
-DIST_A="Inline-CPP-0.74.tar.gz"
+DIST_VERSION="0.74" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-1.001.009
 "
+

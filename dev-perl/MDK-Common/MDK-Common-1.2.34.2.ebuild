@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TVIGNAUD"
-DIST_VERSION="1.2.34.2"
-DIST_A="MDK-Common-1.2.34.2.tar.gz"
+DIST_VERSION="1.2.34.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

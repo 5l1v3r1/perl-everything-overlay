@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAMOD"
-DIST_VERSION="v0.3.0"
-DIST_A="JavaScript-Duktape-0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.630
 "
+

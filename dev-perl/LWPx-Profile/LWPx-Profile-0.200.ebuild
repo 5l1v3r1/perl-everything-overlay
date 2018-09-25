@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREIN"
-DIST_VERSION="0.2"
-DIST_A="LWPx-Profile-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="validMX"
-DIST_VERSION="v2.2.0"
-DIST_A="Net-validMX-2.2.0.tar.gz"
+DIST_AUTHOR="KMCGRAIL"
+DIST_VERSION="2.2.0" 
+SRC_URI="mirror://cpan/authors/id/K/KM/KMCGRAIL/validMX/Net-validMX-2.2.0.tar.gz -> Net-validMX-2.2.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-validMX-2.2.0 ${WORKDIR}/Net-validMX-2.2.0
+}
+

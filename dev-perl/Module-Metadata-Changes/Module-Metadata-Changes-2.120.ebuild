@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.12"
-DIST_A="Module-Metadata-Changes-2.12.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,3 +40,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.510
 	>=virtual/perl-Test-Simple-1.001.002
 "
+

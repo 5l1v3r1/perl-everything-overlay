@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PNE"
-DIST_VERSION="0.92"
-DIST_A="Lingua-Zompist-Cadhinor-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=virtual/perl-Test-Simple-0.190
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

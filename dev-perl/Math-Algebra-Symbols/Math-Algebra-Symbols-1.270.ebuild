@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="1.27"
-DIST_A="Math-Algebra-Symbols-1.27.tar.gz"
+DIST_VERSION="1.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

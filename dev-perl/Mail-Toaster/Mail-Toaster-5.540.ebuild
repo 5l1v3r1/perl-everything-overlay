@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSIMERSON"
-DIST_VERSION="5.54"
-DIST_A="Mail-Toaster-5.54.tar.gz"
+DIST_VERSION="5.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,12 +24,12 @@ RDEPEND="
 	dev-perl/MailTools
 	>=dev-perl/Net-DNS-0.200
 	>=dev-perl/Params-Validate-0.700
+	dev-perl/Pod-Usage
 	>=dev-perl/TimeDate-1.000
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-version
 "
 DEPEND="
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

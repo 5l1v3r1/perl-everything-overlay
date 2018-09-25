@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LOSYME"
-DIST_VERSION="0.130020"
-DIST_A="Log-Dispatch-Socket-0.130020.tar.gz"
+DIST_VERSION="0.130020" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

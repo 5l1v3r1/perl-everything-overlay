@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="1.1.2"
-DIST_A="MooseX-Types-EmailAddress-1.1.2.tar.gz"
+DIST_VERSION="1.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+

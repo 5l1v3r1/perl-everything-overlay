@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BORISZ"
-DIST_VERSION="0.06"
-DIST_A="NanoMsg-Raw-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.890
 	virtual/perl-Time-HiRes
 "
+

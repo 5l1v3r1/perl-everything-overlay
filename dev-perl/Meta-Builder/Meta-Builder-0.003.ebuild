@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.003"
-DIST_A="Meta-Builder-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

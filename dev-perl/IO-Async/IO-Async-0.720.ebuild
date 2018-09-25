@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.72"
-DIST_A="IO-Async-0.72.tar.gz"
+DIST_VERSION="0.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Future-0.180
+	>=dev-perl/Future-0.330
 	dev-perl/Struct-Dumb
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-IO
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLUEFEET"
-DIST_VERSION="0.03"
-DIST_A="MooX-PluginKit-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
+

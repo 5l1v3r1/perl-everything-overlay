@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVANWILLS"
-DIST_VERSION="v0.0.6"
-DIST_A="MooseX-Exception-Base-0.0.6.tar.gz"
+DIST_VERSION="0.0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Warnings
 	virtual/perl-Test-Simple
 "
+

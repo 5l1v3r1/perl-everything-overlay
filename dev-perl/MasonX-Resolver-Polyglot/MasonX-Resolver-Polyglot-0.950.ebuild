@@ -4,9 +4,10 @@
 
 EAPI=6
 
-DIST_AUTHOR="Polyglot"
+DIST_AUTHOR="MODULO"
 DIST_VERSION="0.95"
-DIST_A="MasonX-Resolver-Polyglot-0.95.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/M/MO/MODULO/Polyglot/MasonX-Resolver-Polyglot-0.95.tgz -> MasonX-Resolver-Polyglot-0.95.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +18,15 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Mason-1.100
-	>=dev-perl/Locale-Codes-2.020
+	>=dev-perl/Locale-Codes-2.060
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MasonX-Resolver-Polyglot-0.95 ${WORKDIR}/MasonX-Resolver-Polyglot-0.95
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAARG"
-DIST_VERSION="1.500002"
-DIST_A="List-Util-MaybeXS-1.500002.tar.gz"
+DIST_VERSION="1.500002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

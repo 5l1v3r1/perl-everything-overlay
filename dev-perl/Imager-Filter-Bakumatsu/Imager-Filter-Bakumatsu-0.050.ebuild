@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMITA"
-DIST_VERSION="0.05"
-DIST_A="Imager-Filter-Bakumatsu-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-lang/perl
+	dev-perl/Module-Build
 	>=virtual/perl-ExtUtils-MakeMaker-6.360
 	virtual/perl-File-Temp
 "
+

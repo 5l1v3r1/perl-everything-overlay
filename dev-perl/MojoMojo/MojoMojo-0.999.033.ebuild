@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANDV"
-DIST_VERSION="0.999033"
-DIST_A="MojoMojo-0.999033.tar.gz"
+DIST_VERSION="0.999033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -88,3 +87,4 @@ DEPEND="
 	>=dev-perl/WWW-Mechanize-1.540
 	>=virtual/perl-Test-Simple-0.880
 "
+

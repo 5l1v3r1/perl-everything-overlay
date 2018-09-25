@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="0.003"
-DIST_A="Mojolicious-Plugin-TemplateToolkit-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,14 +17,16 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Method-Modifiers
 	>=dev-perl/Mojolicious-6.510
-	>=dev-perl/Template-Toolkit-2.940
+	>=dev-perl/Template-Toolkit-2.260
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

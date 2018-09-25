@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDDPAUSE"
-DIST_VERSION="0.48"
-DIST_A="MarpaX-Languages-C-AST-0.48.tar.gz"
+DIST_VERSION="0.48" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -54,3 +53,4 @@ DEPEND="
 	dev-perl/Test-Trap
 	virtual/perl-Test-Simple
 "
+

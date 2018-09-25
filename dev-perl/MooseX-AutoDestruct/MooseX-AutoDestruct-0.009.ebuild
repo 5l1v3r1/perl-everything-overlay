@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RSRCHBOY"
-DIST_VERSION="0.009"
-DIST_A="MooseX-AutoDestruct-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

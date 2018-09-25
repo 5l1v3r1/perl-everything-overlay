@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJB"
-DIST_VERSION="1.17"
-DIST_A="Math-WalshTransform-1.17.tar.gz"
+DIST_VERSION="1.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

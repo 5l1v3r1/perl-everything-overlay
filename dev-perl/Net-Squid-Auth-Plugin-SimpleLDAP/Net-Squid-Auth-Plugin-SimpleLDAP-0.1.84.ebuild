@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUSSOZ"
-DIST_VERSION="0.1.84"
-DIST_A="Net-Squid-Auth-Plugin-SimpleLDAP-0.1.84.tar.gz"
+DIST_VERSION="0.1.84" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

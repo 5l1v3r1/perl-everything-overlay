@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.42"
-DIST_A="Net-Async-HTTP-0.42.tar.gz"
+DIST_VERSION="0.42" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Future-0.280
 	dev-perl/HTTP-Message
-	>=dev-perl/IO-Async-0.590
+	dev-perl/IO-Async
 	>=dev-perl/Struct-Dumb-0.070
 	dev-perl/URI
 	>=virtual/perl-Scalar-List-Utils-1.290
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Refcount
 	>=virtual/perl-Test-Simple-0.880
 "
+

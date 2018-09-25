@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EJDRS"
-DIST_VERSION="2.03"
-DIST_A="Net-DHCP-Watch-2.03.tar.gz"
+DIST_VERSION="2.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

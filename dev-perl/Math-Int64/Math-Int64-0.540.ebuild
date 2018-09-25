@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SALVA"
-DIST_VERSION="0.54"
-DIST_A="Math-Int64-0.54.tar.gz"
+DIST_VERSION="0.54" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Storable
 	>=virtual/perl-Test-Simple-0.960
 "
+

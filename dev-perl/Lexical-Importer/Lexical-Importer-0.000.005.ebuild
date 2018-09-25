@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="0.000005"
-DIST_A="Lexical-Importer-0.000005.tar.gz"
+DIST_VERSION="0.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test2-Suite-0.000.050
 "
+

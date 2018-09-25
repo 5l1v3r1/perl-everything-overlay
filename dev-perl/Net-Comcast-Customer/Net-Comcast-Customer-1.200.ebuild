@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KTDREYER"
-DIST_VERSION="1.2"
-DIST_A="Net-Comcast-Customer-1.2.tar.gz"
+DIST_VERSION="1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OCTO"
-DIST_VERSION="1.21"
-DIST_A="Net-Oping-1.21.tar.gz"
+DIST_VERSION="1.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

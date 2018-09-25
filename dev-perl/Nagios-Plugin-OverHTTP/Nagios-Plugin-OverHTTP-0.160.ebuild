@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGDUDE"
-DIST_VERSION="0.16"
-DIST_A="Nagios-Plugin-OverHTTP-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Clone-0.050
 	>=dev-perl/MooseX-Getopt-0.430
 	>=dev-perl/MooseX-StrictConstructor-0.080
-	dev-perl/MooseX-Types
+	>=dev-perl/MooseX-Types-0.080
 	>=dev-perl/Regexp-Common-2.119
 	>=dev-perl/Try-Tiny-0.040
 	dev-perl/URI
@@ -46,3 +45,4 @@ DEPEND="
 	dev-perl/Test-Trap
 	>=virtual/perl-Test-Simple-0.940
 "
+

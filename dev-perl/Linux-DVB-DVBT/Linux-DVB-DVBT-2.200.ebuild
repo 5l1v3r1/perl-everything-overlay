@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SDPRICE"
-DIST_VERSION="2.20"
-DIST_A="Linux-DVB-DVBT-2.20.tar.gz"
+DIST_VERSION="2.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

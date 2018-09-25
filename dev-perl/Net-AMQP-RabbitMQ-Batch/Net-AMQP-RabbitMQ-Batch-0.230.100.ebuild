@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WHISK"
-DIST_VERSION="0.2301"
-DIST_A="Net-AMQP-RabbitMQ-Batch-0.2301.tar.gz"
+DIST_VERSION="0.2301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

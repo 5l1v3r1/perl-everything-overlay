@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAWAPAWA"
-DIST_VERSION="0.07"
-DIST_A="Mock-Person-JP-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.990
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="5.000"
-DIST_A="Language-Befunge-5.000.tar.gz"
+DIST_VERSION="5.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 	dev-perl/Readonly
 	dev-perl/UNIVERSAL-require
 	dev-perl/aliased
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Carp
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
@@ -41,3 +42,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
+

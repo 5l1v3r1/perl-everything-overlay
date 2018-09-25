@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MTHURN"
-DIST_VERSION="1.12"
-DIST_A="Lingua-Alphabet-Phonetic-1.12.tar.gz"
+DIST_VERSION="1.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

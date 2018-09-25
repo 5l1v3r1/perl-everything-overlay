@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBN"
-DIST_VERSION="4.04"
-DIST_A="Mail-IMAPTalk-4.04.tar.gz"
+DIST_VERSION="4.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

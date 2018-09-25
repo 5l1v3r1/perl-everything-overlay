@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMS"
-DIST_VERSION="0.11"
-DIST_A="Log-Message-Structured-Stringify-AsSereal-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	dev-perl/Test-Most
 	>=virtual/perl-Test-Simple-0.880
 "
+

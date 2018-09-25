@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LLE"
-DIST_VERSION="1.57"
-DIST_A="MBclient-1.57.tar.gz"
+DIST_VERSION="1.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

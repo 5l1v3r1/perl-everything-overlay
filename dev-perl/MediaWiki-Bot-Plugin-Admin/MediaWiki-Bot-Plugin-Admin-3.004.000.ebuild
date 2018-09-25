@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIFEGUARD"
-DIST_VERSION="3.004000"
-DIST_A="MediaWiki-Bot-Plugin-Admin-3.004000.tar.gz"
+DIST_VERSION="3.004000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "
+

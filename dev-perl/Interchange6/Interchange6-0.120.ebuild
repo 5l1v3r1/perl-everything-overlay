@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.120"
-DIST_A="Interchange6-0.120.tar.gz"
+DIST_VERSION="0.120" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/aliased
 	virtual/perl-Test-Simple
 "
+

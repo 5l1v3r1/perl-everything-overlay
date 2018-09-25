@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THHAMON"
-DIST_VERSION="0.01"
-DIST_A="Lingua-Ogmios-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ DEPEND="
 	dev-perl/Config-General
 	dev-perl/File-MMagic
 	dev-perl/File-Touch
-	dev-perl/HTML-Format
+	dev-perl/HTML-Formatter
 	dev-perl/Lingua-Identify
 	dev-perl/Lingua-YaTeA
 	dev-perl/Parse-Yapp
@@ -47,3 +46,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

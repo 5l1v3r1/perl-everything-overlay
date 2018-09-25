@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUISMUNOZ"
-DIST_VERSION="1.20"
-DIST_A="Net-Subnet-Count-1.20.tar.gz"
+DIST_VERSION="1.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

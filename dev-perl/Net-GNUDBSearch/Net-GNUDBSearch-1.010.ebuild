@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Net-GNUDBSearch"
-DIST_VERSION="1.01"
-DIST_A="Net-GNUDBSearch-1.01.tar.gz"
+DIST_AUTHOR="DUMB"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/D/DU/DUMB/Net-GNUDBSearch/Net-GNUDBSearch-1.01.tar.gz -> Net-GNUDBSearch-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +28,9 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-GNUDBSearch-1.01 ${WORKDIR}/Net-GNUDBSearch-1.01
+}
+

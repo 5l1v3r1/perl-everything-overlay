@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEADER"
-DIST_VERSION="1.23"
-DIST_A="Imager-Filter-Autocrop-1.23.tar.gz"
+DIST_VERSION="1.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 "
+

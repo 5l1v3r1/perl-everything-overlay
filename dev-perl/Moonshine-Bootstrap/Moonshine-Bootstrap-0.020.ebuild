@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="0.02"
-DIST_A="Moonshine-Bootstrap-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Moonshine-Test-0.060
 	virtual/perl-Test-Simple
 "
+

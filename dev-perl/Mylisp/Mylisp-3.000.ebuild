@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SSQQ"
-DIST_VERSION="3.00"
-DIST_A="Mylisp-3.00.tar.gz"
+DIST_VERSION="3.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

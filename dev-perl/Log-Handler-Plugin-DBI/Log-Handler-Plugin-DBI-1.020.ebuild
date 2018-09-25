@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="1.02"
-DIST_A="Log-Handler-Plugin-DBI-1.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.440
 	>=virtual/perl-Test-Simple-0.940
 "
+

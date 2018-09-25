@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEOCHARRE"
-DIST_VERSION="1.17"
-DIST_A="Metadata-ByInode-1.17.tar.gz"
+DIST_VERSION="1.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

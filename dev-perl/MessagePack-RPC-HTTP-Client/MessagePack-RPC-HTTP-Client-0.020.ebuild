@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAGOMORIS"
-DIST_VERSION="0.02"
-DIST_A="MessagePack-RPC-HTTP-Client-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

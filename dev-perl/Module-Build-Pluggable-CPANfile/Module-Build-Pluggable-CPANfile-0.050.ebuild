@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZEBURO"
-DIST_VERSION="0.05"
-DIST_A="Module-Build-Pluggable-CPANfile-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

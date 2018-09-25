@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="1.001"
-DIST_A="Metabase-Backend-SQL-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,7 +29,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/SQL-Abstract
-	dev-perl/SQL-Translator
+	>=dev-perl/SQL-Translator-0.110.060
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -46,6 +45,8 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Routine
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.920
 "
+

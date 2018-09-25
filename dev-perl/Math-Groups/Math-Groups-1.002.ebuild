@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="1.002"
-DIST_A="Math-Groups-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

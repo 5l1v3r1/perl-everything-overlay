@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATCH"
-DIST_VERSION="0.05"
-DIST_A="Lingua-Stem-Any-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.820
 	>=virtual/perl-podlators-2.040
 "
+

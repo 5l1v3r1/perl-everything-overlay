@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DONEILL"
-DIST_VERSION="1.200"
-DIST_A="Log-Syslog-Abstract-1.200.tar.gz"
+DIST_VERSION="1.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHIBAZAKI"
-DIST_VERSION="0.0.8"
-DIST_A="Mojolicious-Plugin-CSRFDefender-0.0.8.tar.gz"
+DIST_VERSION="0.0.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

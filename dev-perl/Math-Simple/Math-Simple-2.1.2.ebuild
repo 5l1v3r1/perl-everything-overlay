@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAWALSH"
-DIST_VERSION="v2.1.2"
-DIST_A="Math-Simple-2.1.2.tar.gz"
+DIST_VERSION="2.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

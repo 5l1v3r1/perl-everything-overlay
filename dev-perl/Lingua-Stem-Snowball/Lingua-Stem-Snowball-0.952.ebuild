@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREAMYG"
-DIST_VERSION="0.952"
-DIST_A="Lingua-Stem-Snowball-0.952.tar.gz"
+DIST_VERSION="0.952" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-ExtUtils-ParseXS
 "
+

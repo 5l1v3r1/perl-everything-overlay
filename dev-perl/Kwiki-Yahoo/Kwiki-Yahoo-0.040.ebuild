@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Kwiki"
-DIST_VERSION="0.04"
-DIST_A="Kwiki-Yahoo-0.04.tar.gz"
+DIST_AUTHOR="CDENT"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Kwiki/Kwiki-Yahoo-0.04.tar.gz -> Kwiki-Yahoo-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Kwiki-Yahoo-0.04 ${WORKDIR}/Kwiki-Yahoo-0.04
+}
+

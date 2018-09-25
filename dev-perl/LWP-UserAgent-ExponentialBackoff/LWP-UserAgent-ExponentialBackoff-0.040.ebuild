@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="LWP-UserAgent-ExponentialBackoff-004"
-DIST_VERSION="0.04"
-DIST_A="LWP-UserAgent-ExponentialBackoff-0.04.tar.gz"
+DIST_AUTHOR="MARROTTE"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/M/MA/MARROTTE/LWP-UserAgent-ExponentialBackoff-004/LWP-UserAgent-ExponentialBackoff-0.04.tar.gz -> LWP-UserAgent-ExponentialBackoff-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LWP-UserAgent-ExponentialBackoff-0.04 ${WORKDIR}/LWP-UserAgent-ExponentialBackoff-0.04
+}
+

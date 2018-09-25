@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOZNION"
-DIST_VERSION="0.06"
-DIST_A="Math-PhaseOnlyCorrelation-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Most-0.310
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -17,7 +17,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/MojoX-Log-Fast
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.000
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

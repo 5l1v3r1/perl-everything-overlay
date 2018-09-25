@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PWBENNETT"
-DIST_VERSION="4.004"
-DIST_A="Net-IPAddress-Util-4.004.tar.gz"
+DIST_VERSION="4.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

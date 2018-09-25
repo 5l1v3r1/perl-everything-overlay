@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRIFFIN"
-DIST_VERSION="0.6"
-DIST_A="Net-YAP-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

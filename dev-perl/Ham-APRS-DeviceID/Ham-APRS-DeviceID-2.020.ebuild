@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HESSU"
-DIST_VERSION="2.02"
-DIST_A="Ham-APRS-DeviceID-2.02.tar.gz"
+DIST_VERSION="2.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.100
 	virtual/perl-ExtUtils-MakeMaker
 "
+

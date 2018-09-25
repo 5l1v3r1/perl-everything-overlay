@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORIAN"
-DIST_VERSION="0.04"
-DIST_A="Mail-EXPN-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

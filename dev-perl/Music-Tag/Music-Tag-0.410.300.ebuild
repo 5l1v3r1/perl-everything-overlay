@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EALLENIII"
-DIST_VERSION="0.4103"
-DIST_A="Music-Tag-0.4103.tar.gz"
+DIST_VERSION="0.4103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.000
+	>=dev-lang/perl-1.000
 	>=dev-perl/Config-Options-0.070
 	>=dev-perl/DateTimeX-Easy-0.088
 	>=dev-perl/Digest-SHA1-2.110
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

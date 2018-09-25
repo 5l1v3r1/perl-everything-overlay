@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="0.113"
-DIST_A="MouseX-Role-Loggable-0.113.tar.gz"
+DIST_VERSION="0.113" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Log-Dispatchouli
 	dev-perl/Mouse
-	>=dev-perl/MouseX-Types-0.060
+	dev-perl/MouseX-Types
 	dev-perl/Safe-Isa
 	>=dev-perl/namespace-autoclean-0.160
 	virtual/perl-Carp
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

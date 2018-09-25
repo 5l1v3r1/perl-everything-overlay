@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="2.103642"
-DIST_A="Net-Appliance-Phrasebook-2.103642.tar.gz"
+DIST_VERSION="2.103642" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

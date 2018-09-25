@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNDEF"
-DIST_VERSION="0.512"
-DIST_A="MojoX-Ping-0.512.tar.gz"
+DIST_VERSION="0.512" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

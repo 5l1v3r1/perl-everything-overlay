@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EALLENIII"
-DIST_VERSION="0.4101"
-DIST_A="Music-Tag-MP3-0.4101.tar.gz"
+DIST_VERSION="0.4101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/MP3-Info-1.230
 	>=dev-perl/MP3-Tag-1.130
 	>=dev-perl/Music-Tag-0.410.100
 	>=virtual/perl-Data-Dumper-2.000
@@ -30,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

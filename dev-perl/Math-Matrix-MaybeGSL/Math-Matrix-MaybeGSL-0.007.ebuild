@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMBS"
-DIST_VERSION="0.007"
-DIST_A="Math-Matrix-MaybeGSL-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-GSL
-	>=dev-perl/Math-MatrixReal-2.12.0
+	>=dev-perl/Math-MatrixReal-2.120
 	virtual/perl-Exporter
 	virtual/perl-parent
 "
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Without-Module-0.170
 	virtual/perl-Test-Simple
 "
+

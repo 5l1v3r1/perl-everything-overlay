@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPARSEVAL"
-DIST_VERSION="0.55"
-DIST_A="Mail-MboxParser-0.55.tar.gz"
+DIST_VERSION="0.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

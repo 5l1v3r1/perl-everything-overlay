@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MEH"
-DIST_VERSION="0.0005"
-DIST_A="IPTables-Log-0.0005.tar.gz"
+DIST_VERSION="0.0005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

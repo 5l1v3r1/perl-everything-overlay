@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDDPAUSE"
-DIST_VERSION="0.007"
-DIST_A="MarpaX-Languages-IDL-AST-0.007.tar.gz"
+DIST_VERSION="0.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	dev-perl/MooseX-Params-Validate
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
+	dev-perl/Pod-Usage
 	dev-perl/Template-Plugin-PerlTidy
 	dev-perl/Template-Plugin-ScalarUtil
 	dev-perl/Template-Toolkit
@@ -41,9 +41,7 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	virtual/perl-Math-BigInt
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
-	virtual/perl-constant
 "
 DEPEND="
 	${RDEPEND}
@@ -53,3 +51,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

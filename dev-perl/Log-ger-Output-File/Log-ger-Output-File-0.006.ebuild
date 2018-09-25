@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.006"
-DIST_A="Log-ger-Output-File-0.006.tar.gz"
+DIST_VERSION="0.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,10 +21,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-perl/Log-ger-0.021
+	>=dev-perl/Log-ger-0.005
 	dev-perl/Test-Exception
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

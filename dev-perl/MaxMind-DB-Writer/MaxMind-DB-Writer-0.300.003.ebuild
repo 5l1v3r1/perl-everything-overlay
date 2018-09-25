@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="0.300003"
-DIST_A="MaxMind-DB-Writer-0.300003.tar.gz"
+DIST_VERSION="0.300003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	dev-perl/Digest-SHA1
 	>=dev-perl/Math-Int128-0.210
 	>=dev-perl/Math-Int64-0.510
-	>=dev-perl/MaxMind-DB-Common-0.031.003
+	dev-perl/MaxMind-DB-Common
 	dev-perl/MaxMind-DB-Reader
 	dev-perl/Moose
 	dev-perl/MooseX-Params-Validate
@@ -60,3 +59,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINIMAL"
-DIST_VERSION="0.502"
-DIST_A="Kelp-Module-JSON-XS-0.502.tar.gz"
+DIST_VERSION="0.502" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/HTTP-Message
 	virtual/perl-Test-Simple
 "
+

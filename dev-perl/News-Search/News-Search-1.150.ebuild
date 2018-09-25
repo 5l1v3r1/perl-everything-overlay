@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUNTONG"
-DIST_VERSION="1.15"
-DIST_A="News-Search-1.15.tar.gz"
+DIST_VERSION="1.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

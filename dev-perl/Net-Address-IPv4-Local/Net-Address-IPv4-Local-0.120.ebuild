@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="net-address-ipv4-local"
-DIST_VERSION="0.12"
-DIST_A="Net-Address-IPv4-Local-0.12.tar.gz"
+DIST_AUTHOR="JMEHNLE"
+DIST_VERSION="0.12" 
+SRC_URI="mirror://cpan/authors/id/J/JM/JMEHNLE/net-address-ipv4-local/Net-Address-IPv4-Local-0.12.tar.gz -> Net-Address-IPv4-Local-0.12.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Address-IPv4-Local-0.12 ${WORKDIR}/Net-Address-IPv4-Local-0.12
+}
+

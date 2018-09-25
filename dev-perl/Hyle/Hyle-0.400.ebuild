@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TJMC"
-DIST_VERSION="0.4"
-DIST_A="Hyle-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

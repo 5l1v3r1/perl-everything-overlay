@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TOMO"
-DIST_VERSION="0.10"
-DIST_A="Net-POP3S-0.10.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TO/TOMO/src/Net-POP3S-0.10.tar.gz"
+DIST_VERSION="0.10" 
+SRC_URI="mirror://cpan/authors/id/T/TO/TOMO/src/Net-POP3S-0.10.tar.gz -> Net-POP3S-0.10.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-POP3S-0.10 ${WORKDIR}/Net-POP3S-0.10
+}
+

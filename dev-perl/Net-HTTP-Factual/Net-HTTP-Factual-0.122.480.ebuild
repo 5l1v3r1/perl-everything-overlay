@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPAZM"
-DIST_VERSION="0.122480"
-DIST_A="Net-HTTP-Factual-0.122480.tar.gz"
+DIST_VERSION="0.122480" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="0.003"
-DIST_A="MooX-Roles-Pluggable-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.900
 "
+

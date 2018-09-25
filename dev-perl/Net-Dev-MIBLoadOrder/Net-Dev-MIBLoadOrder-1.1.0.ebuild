@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SPARSONS"
-DIST_VERSION="1.1.0"
-DIST_A="Net-Dev-MIBLoadOrder-1.1.0.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SP/SPARSONS/tools/Net-Dev-MIBLoadOrder-1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
+SRC_URI="mirror://cpan/authors/id/S/SP/SPARSONS/tools/Net-Dev-MIBLoadOrder-1.1.0.tar.gz -> Net-Dev-MIBLoadOrder-1.1.0.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Dev-MIBLoadOrder-1.1.0 ${WORKDIR}/Net-Dev-MIBLoadOrder-1.1.0
+}
+

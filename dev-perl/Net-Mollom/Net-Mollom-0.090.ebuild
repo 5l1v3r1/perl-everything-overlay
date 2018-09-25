@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WONKO"
-DIST_VERSION="0.09"
-DIST_A="Net-Mollom-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Exception-Class-TryCatch
 	virtual/perl-Test-Simple
 "
+

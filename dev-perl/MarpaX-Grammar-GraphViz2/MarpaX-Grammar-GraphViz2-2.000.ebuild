@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="RSAVAGE"
 DIST_VERSION="2.00"
-DIST_A="MarpaX-Grammar-GraphViz2-2.00.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.180
+	>=dev-lang/perl-2.820
 	>=dev-perl/Config-Tiny-2.150
 	>=dev-perl/Date-Simple-3.030
 	>=dev-perl/File-HomeDir-1.000
@@ -41,3 +41,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

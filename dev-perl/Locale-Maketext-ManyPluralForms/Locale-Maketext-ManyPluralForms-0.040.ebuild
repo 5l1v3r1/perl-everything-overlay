@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.04"
-DIST_A="Locale-Maketext-ManyPluralForms-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-File-Spec
 	virtual/perl-Locale-Maketext
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="
 	${RDEPEND}
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Test-CheckDeps-0.010
 	virtual/perl-IO
 "
+

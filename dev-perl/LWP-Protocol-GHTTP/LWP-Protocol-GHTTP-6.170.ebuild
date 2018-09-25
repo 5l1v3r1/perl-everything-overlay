@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="6.17"
-DIST_A="LWP-Protocol-GHTTP-6.17.tar.gz"
+DIST_VERSION="6.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 	>=dev-perl/HTTP-GHTTP-1.070
 	>=dev-perl/HTTP-Message-6.000
 	>=dev-perl/Try-Tiny-0.240
+	dev-perl/base
 	>=dev-perl/libwww-perl-6.150
 	virtual/perl-Carp
 "
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

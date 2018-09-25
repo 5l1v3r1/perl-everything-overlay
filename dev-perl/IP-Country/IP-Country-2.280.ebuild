@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NWETTERS"
-DIST_VERSION="2.28"
-DIST_A="IP-Country-2.28.tar.gz"
+DIST_VERSION="2.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

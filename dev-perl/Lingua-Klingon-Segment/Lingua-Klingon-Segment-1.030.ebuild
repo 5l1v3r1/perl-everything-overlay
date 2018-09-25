@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PNE"
-DIST_VERSION="1.03"
-DIST_A="Lingua-Klingon-Segment-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Differences
 	>=virtual/perl-Test-Simple-0.190
 "
+

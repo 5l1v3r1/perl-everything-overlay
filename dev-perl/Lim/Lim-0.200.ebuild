@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JELU"
-DIST_VERSION="0.20"
-DIST_A="Lim-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	dev-perl/Module-Find
 	>=dev-perl/Net-SSLeay-1.350
 	>=dev-perl/Pod-Usage-1.000
-	dev-perl/URI
+	>=dev-perl/URI-3.290
 	>=dev-perl/XMLRPC-Lite-0.710
 	>=dev-perl/XMLRPC-Transport-HTTP-Server-0.120
 	>=dev-perl/YAML-0.700
@@ -46,3 +45,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

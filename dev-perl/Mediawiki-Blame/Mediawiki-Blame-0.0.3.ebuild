@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAXIM"
-DIST_VERSION="v0.0.3"
-DIST_A="Mediawiki-Blame-0.0.3.tar.gz"
+DIST_VERSION="0.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOBYINK"
-DIST_VERSION="0.005"
-DIST_A="MooseX-Deprecated-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Devel-Callsite-0.080
 	>=dev-perl/MooseX-Role-Parameterized-1.000
 "
 DEPEND="
@@ -27,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.005
 	>=virtual/perl-Test-Simple-0.960
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WILLWOLF"
-DIST_VERSION="0.1"
-DIST_A="Net-Rackspace-Cloudfiles-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

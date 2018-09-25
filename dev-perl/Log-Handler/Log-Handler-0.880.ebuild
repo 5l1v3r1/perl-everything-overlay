@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLOONIX"
-DIST_VERSION="0.88"
-DIST_A="Log-Handler-0.88.tar.gz"
+DIST_VERSION="0.88" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

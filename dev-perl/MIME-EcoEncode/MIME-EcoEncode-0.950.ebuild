@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MURATAYA"
-DIST_VERSION="0.95"
-DIST_A="MIME-EcoEncode-0.95.tar.gz"
+DIST_VERSION="0.95" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

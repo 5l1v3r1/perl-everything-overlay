@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="VGIRISH"
-DIST_VERSION="0.01"
-DIST_A="Net-Ifstat-0.01.tar.gz"
-SRC_URI="mirror://cpan/authors/id/V/VG/VGIRISH/Net/Net-Ifstat-0.01.tar.gz"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/V/VG/VGIRISH/Net/Net-Ifstat-0.01.tar.gz -> Net-Ifstat-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Ifstat-0.01 ${WORKDIR}/Net-Ifstat-0.01
+}
+

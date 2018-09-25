@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TDWINTER"
-DIST_VERSION="0.09"
-DIST_A="Hash-KeyMorpher-0.09.tar.gz"
-SRC_URI="mirror://cpan/authors/id/T/TD/TDWINTER/Hash/KeyMorpher/Hash-KeyMorpher-0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/T/TD/TDWINTER/Hash/KeyMorpher/Hash-KeyMorpher-0.09.tar.gz -> Hash-KeyMorpher-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Hash-KeyMorpher-0.09 ${WORKDIR}/Hash-KeyMorpher-0.09
+}
+

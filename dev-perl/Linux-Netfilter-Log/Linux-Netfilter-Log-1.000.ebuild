@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJCOLLINS"
-DIST_VERSION="1.0"
-DIST_A="Linux-Netfilter-Log-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-H2PM-0.030
 	virtual/perl-ExtUtils-CBuilder
 "
+

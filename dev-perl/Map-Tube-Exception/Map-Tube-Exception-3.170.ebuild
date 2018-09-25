@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="3.17"
-DIST_A="Map-Tube-Exception-3.17.tar.gz"
+DIST_VERSION="3.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moo
+	>=dev-perl/Moo-2.000.000
 	>=dev-perl/Throwable-0.200.011
 	>=dev-perl/namespace-autoclean-0.280
 	virtual/perl-Data-Dumper
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

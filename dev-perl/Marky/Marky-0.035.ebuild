@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUBYKAT"
-DIST_VERSION="0.035"
-DIST_A="Marky-0.035.tar.gz"
+DIST_VERSION="0.035" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

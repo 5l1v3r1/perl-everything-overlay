@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEYW"
-DIST_VERSION="0.041"
-DIST_A="IO-Socket-CLI-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

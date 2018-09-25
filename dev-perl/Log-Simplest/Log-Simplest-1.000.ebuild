@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMYTRO"
-DIST_VERSION="1.0"
-DIST_A="Log-Simplest-1.0.tar.gz"
+DIST_VERSION="1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.090
+	>=dev-lang/perl-2.010
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSYDEFECT"
-DIST_VERSION="0.03"
-DIST_A="MooseX-App-Role-Log4perl-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVEB"
-DIST_VERSION="0.05"
-DIST_A="Hook-Output-Tiny-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

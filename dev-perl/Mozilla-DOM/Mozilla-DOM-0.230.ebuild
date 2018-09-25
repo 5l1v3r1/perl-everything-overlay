@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLANNING"
-DIST_VERSION="0.23"
-DIST_A="Mozilla-DOM-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

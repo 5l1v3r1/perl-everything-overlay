@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RIYWO"
-DIST_VERSION="0.02"
-DIST_A="Net-AnimeNewsNetwork-Encyclopedia-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHWERN"
-DIST_VERSION="0.008"
-DIST_A="Hash-StoredIterator-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Test2-Suite
-	dev-perl/Test2-Workflow
 	virtual/perl-ExtUtils-CBuilder
 	>=virtual/perl-ExtUtils-ParseXS-3.150
 "
+

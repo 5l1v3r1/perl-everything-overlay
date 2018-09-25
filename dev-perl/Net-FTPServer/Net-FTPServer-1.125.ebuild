@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RYOCHIN"
-DIST_VERSION="1.125"
-DIST_A="Net-FTPServer-1.125.tar.gz"
+DIST_VERSION="1.125" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.123"
-DIST_A="List-MapList-1.123.tar.gz"
+DIST_VERSION="1.123" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	>=virtual/perl-Test-Simple-0.960
 "
+

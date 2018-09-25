@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASCOPE"
-DIST_VERSION="0.72"
-DIST_A="Net-Flickr-Geo-0.72.tar.gz"
+DIST_VERSION="0.72" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,5 +34,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.470
 "
+

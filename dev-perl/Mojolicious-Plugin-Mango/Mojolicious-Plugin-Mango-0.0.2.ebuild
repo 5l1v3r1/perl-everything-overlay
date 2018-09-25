@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZITSEN"
-DIST_VERSION="0.0.2"
-DIST_A="Mojolicious-Plugin-Mango-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

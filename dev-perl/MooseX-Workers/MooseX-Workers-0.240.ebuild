@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKITOVER"
-DIST_VERSION="0.24"
-DIST_A="MooseX-Workers-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

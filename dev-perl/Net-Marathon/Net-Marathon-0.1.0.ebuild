@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYNOVSKY"
-DIST_VERSION="0.1.0"
-DIST_A="Net-Marathon-0.1.0.tar.gz"
+DIST_VERSION="0.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-CheckManifest
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNANDOR"
-DIST_VERSION="1.93"
-DIST_A="Mac-Apps-Launch-1.93.tar.gz"
+DIST_VERSION="1.93" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

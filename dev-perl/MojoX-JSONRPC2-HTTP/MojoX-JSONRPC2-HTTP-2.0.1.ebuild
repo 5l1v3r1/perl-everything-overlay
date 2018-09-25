@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-RPC2-1.0.0
 	dev-perl/JSON-XS
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-7.130
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

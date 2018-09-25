@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNDEF"
-DIST_VERSION="0.997"
-DIST_A="Mojolicious-Command-generate-lexicon-0.997.tar.gz"
+DIST_VERSION="0.997" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

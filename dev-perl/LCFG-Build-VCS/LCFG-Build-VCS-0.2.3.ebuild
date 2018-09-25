@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="0.2.3"
-DIST_A="LCFG-Build-VCS-0.2.3.tar.gz"
+DIST_VERSION="0.2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

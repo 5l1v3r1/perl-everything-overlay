@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="1.30"
-DIST_A="MooseX-SlurpyConstructor-1.30.tar.gz"
+DIST_VERSION="1.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

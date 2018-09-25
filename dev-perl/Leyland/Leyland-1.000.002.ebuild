@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="1.000002"
-DIST_A="Leyland-1.000002.tar.gz"
+DIST_VERSION="1.000002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,7 @@ RDEPEND="
 	dev-perl/Tie-IxHash
 	dev-perl/Try-Tiny
 	dev-perl/XML-TreePP
+	dev-perl/base
 	dev-perl/namespace-clean
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
@@ -42,5 +42,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/HTTP-Message
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

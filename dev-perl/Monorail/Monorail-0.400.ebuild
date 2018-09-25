@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CREIN"
-DIST_VERSION="0.4"
-DIST_A="Monorail-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	dev-perl/Text-MicroTemplate
 	dev-perl/Text-MicroTemplate-DataSection
 	dev-perl/UUID-Tiny
+	dev-perl/base
 	dev-perl/namespace-autoclean
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Path
@@ -44,4 +44,6 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/Test-Spec
+	dev-perl/lib
 "
+

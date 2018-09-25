@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBOOK"
-DIST_VERSION="1.000"
-DIST_A="Mojo-Reactor-IOAsync-1.000.tar.gz"
+DIST_VERSION="1.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

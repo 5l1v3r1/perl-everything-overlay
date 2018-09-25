@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVEBAIRD"
-DIST_VERSION="0.2"
-DIST_A="Mason-Plugin-WithEncoding-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

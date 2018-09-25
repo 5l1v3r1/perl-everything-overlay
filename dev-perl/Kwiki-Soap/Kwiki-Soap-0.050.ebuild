@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="CDENT"
-DIST_VERSION="0.05"
-DIST_A="Kwiki-Soap-0.05.tar.gz"
-SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Kwiki/Kwiki-Soap-0.05.tar.gz"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Kwiki/Kwiki-Soap-0.05.tar.gz -> Kwiki-Soap-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Kwiki-Soap-0.05 ${WORKDIR}/Kwiki-Soap-0.05
+}
+

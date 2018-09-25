@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RATTLER"
-DIST_VERSION="0.032"
-DIST_A="NetSDS-Queue-0.032.tar.gz"
+DIST_VERSION="0.032" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

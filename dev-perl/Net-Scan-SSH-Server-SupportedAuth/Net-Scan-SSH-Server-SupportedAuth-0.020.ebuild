@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIROSE"
-DIST_VERSION="0.02"
-DIST_A="Net-Scan-SSH-Server-SupportedAuth-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,9 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Net-SSH-Perl-1.300
 	dev-perl/UNIVERSAL-require
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
+	dev-perl/Test-Base
+	virtual/perl-Test-Simple
 "
+

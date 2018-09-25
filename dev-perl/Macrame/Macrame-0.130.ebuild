@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="ParsingPerl"
-DIST_VERSION="0.13"
-DIST_A="Macrame-0.13.tar.gz"
+DIST_AUTHOR="DAVIDNICO"
+DIST_VERSION="0.13" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVIDNICO/ParsingPerl/Macrame-0.13.tar.gz -> Macrame-0.13.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Macrame-0.13 ${WORKDIR}/Macrame-0.13
+}
+

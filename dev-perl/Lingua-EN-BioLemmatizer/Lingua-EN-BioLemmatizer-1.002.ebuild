@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOMC"
-DIST_VERSION="1.002"
-DIST_A="Lingua-EN-BioLemmatizer-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

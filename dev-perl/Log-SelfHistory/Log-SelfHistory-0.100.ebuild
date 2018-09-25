@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="TUSHAR"
-DIST_VERSION="0.1"
-DIST_A="Log-SelfHistory_0.1.tar.gz"
+DIST_VERSION="0.1" 
+SRC_URI="mirror://cpan/authors/id/T/TU/TUSHAR/Log-SelfHistory_0.1.tar.gz -> Log-SelfHistory-0.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-SelfHistory_0.1 ${WORKDIR}/Log-SelfHistory-0.1
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DICHI"
-DIST_VERSION="v0.20130625.1928"
-DIST_A="Math-FixedPoint-0.20130625.1928.tar.gz"
+DIST_VERSION="0.20130625.1928" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

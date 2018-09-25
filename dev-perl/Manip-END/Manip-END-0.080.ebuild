@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FDALY"
-DIST_VERSION="0.08"
-DIST_A="Manip-END-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONW"
-DIST_VERSION="1.7"
-DIST_A="Net-OAuth-Simple-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-ExtUtils-MakeMaker
 "
+

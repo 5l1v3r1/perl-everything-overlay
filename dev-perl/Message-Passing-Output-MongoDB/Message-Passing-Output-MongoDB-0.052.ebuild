@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ICIBIN"
-DIST_VERSION="0.052"
-DIST_A="Message-Passing-Output-MongoDB-0.052.tar.gz"
+DIST_VERSION="0.052" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Try-Tiny
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="COUDOT"
-DIST_VERSION="1.9.17"
-DIST_A="Lemonldap-NG-Handler-1.9.17.tar.gz"
+DIST_VERSION="1.9.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADCAT"
-DIST_VERSION="1.16"
-DIST_A="Mojolicious-Plugin-Mongodb-1.16.tar.gz"
+DIST_VERSION="1.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

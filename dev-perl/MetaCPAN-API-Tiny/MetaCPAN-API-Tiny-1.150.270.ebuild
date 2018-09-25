@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLUIS"
-DIST_VERSION="1.150270"
-DIST_A="MetaCPAN-API-Tiny-1.150270.tar.gz"
+DIST_VERSION="1.150270" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Exporter-5.570
 	virtual/perl-Test-Simple
 "
+

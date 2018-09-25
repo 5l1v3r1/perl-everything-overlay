@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GREGORY"
-DIST_VERSION="0.2"
-DIST_A="MP3-Icecast-Simple-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

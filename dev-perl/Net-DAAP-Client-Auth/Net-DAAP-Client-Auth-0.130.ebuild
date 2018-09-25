@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCLAMP"
-DIST_VERSION="0.13"
-DIST_A="Net-DAAP-Client-Auth-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

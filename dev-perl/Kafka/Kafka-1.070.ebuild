@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASOLOVEY"
-DIST_VERSION="1.07"
-DIST_A="Kafka-1.07.tar.gz"
+DIST_VERSION="1.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -50,10 +49,11 @@ DEPEND="
 	>=dev-perl/Test-Deep-0.119
 	>=dev-perl/Test-Exception-0.320
 	>=dev-perl/Test-NoWarnings-1.040
-	>=dev-perl/Test-TCP-2.080
+	dev-perl/Test-TCP
 	>=virtual/perl-Data-Dumper-2.121.14
 	>=virtual/perl-File-Path-2.040
 	>=virtual/perl-File-Spec-3.250.100
 	>=virtual/perl-IO-Socket-IP-0.370
 	>=virtual/perl-Test-Simple-0.720
 "
+

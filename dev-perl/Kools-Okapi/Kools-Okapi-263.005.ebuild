@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUGUET"
-DIST_VERSION="263.005"
-DIST_A="Kools-Okapi-263.005.tar.gz"
+DIST_VERSION="263.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

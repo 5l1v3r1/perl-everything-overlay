@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JRED"
-DIST_VERSION="1.0.12"
-DIST_A="Mail-GPG-1.0.12.tar.gz"
+DIST_VERSION="1.0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

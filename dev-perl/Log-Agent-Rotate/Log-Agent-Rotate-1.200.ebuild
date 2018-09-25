@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MROGASKI"
-DIST_VERSION="1.200"
-DIST_A="Log-Agent-Rotate-1.200.tar.gz"
+DIST_VERSION="1.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

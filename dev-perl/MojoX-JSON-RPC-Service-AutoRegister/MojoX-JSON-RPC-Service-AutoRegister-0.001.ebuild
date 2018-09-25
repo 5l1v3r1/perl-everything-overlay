@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MUDLER"
-DIST_VERSION="0.001"
-DIST_A="MojoX-JSON-RPC-Service-AutoRegister-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.7.0"
-DIST_A="Jojo-Base-0.7.0.tar.gz"
+DIST_VERSION="0.7.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-7.430
 	>=dev-perl/Sub-Inject-0.2.0
 	dev-perl/experimental
 "
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

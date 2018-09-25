@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARJONES"
-DIST_VERSION="1.121310"
-DIST_A="ICal-Format-Natural-1.121310.tar.gz"
+DIST_VERSION="1.121310" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

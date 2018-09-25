@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VPIT"
-DIST_VERSION="0.03"
-DIST_A="LaTeX-TikZ-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

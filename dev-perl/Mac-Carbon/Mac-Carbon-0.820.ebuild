@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNANDOR"
-DIST_VERSION="0.82"
-DIST_A="Mac-Carbon-0.82.tar.gz"
+DIST_VERSION="0.82" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEYW"
-DIST_VERSION="0.012"
-DIST_A="Net-HTTP-Client-0.012.tar.gz"
+DIST_VERSION="0.012" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Limper
 	virtual/perl-Test-Simple
 "
+

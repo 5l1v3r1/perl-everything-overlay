@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="0.16"
-DIST_A="JS-Test-Base-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JS-0.170
 	>=dev-perl/JS-Test-Simple-0.280
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

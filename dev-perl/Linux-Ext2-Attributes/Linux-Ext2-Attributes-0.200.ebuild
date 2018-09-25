@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJCOLLINS"
-DIST_VERSION="0.20"
-DIST_A="Linux-Ext2-Attributes-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280.600
 	>=dev-perl/ExtUtils-H2PM-0.030
 "
+

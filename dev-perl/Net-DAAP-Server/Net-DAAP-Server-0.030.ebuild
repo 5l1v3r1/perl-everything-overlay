@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCLAMP"
-DIST_VERSION="0.03"
-DIST_A="Net-DAAP-Server-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,12 +17,13 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/File-Find-Rule
-	dev-perl/MP3-Info
 	dev-perl/Net-DMAP-Server
 	dev-perl/Perl6-Slurp
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=dev-perl/Net-DAAP-Client-0.410
 	virtual/perl-Test-Simple
 "
+

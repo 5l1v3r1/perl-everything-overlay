@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DRUXA"
-DIST_VERSION="0.46"
-DIST_A="Morpheus-0.46.tar.gz"
+DIST_VERSION="0.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/Pod-Usage
 	dev-perl/Template-Toolkit
 	dev-perl/XML-Simple
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -36,3 +36,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

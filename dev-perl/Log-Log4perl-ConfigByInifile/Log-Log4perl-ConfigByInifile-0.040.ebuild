@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORSHACK"
-DIST_VERSION="0.04"
-DIST_A="Log-Log4perl-ConfigByInifile-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	dev-perl/Config-IniFiles
 	dev-perl/Log-Log4perl
 	dev-perl/Params-Validate
-	>=virtual/perl-Test-Simple-0.440
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

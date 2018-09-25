@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLAMBLEY"
-DIST_VERSION="0.002"
-DIST_A="Message-Passing-AMQP-Proxy-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Spelling
 	>=virtual/perl-Test-Simple-0.880
 "
+

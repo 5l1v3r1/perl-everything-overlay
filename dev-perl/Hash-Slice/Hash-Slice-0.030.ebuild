@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RKRIMEN"
-DIST_VERSION="0.03"
-DIST_A="Hash-Slice-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-perl/Carp-Clan
 	dev-perl/Clone
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
 "
+

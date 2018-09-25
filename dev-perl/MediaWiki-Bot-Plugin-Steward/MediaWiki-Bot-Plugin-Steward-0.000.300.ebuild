@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIFEGUARD"
-DIST_VERSION="0.0003"
-DIST_A="MediaWiki-Bot-Plugin-Steward-0.0003.tar.gz"
+DIST_VERSION="0.0003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

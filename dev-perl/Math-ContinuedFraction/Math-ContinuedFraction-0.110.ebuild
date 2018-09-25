@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGAMBLE"
-DIST_VERSION="0.11"
-DIST_A="Math-ContinuedFraction-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.340.201
 	virtual/perl-Test-Simple
 "
+

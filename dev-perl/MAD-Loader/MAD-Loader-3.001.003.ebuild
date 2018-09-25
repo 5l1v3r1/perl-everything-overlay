@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLABOS"
-DIST_VERSION="3.001003"
-DIST_A="MAD-Loader-3.001003.tar.gz"
+DIST_VERSION="3.001003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=virtual/perl-File-Spec-3.470
 	>=virtual/perl-Scalar-List-Utils-1.380
 "
+

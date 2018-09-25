@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINGOS"
-DIST_VERSION="0.30"
-DIST_A="Module-Install-GithubMeta-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Capture-Tiny-0.050
 	>=virtual/perl-Test-Simple-0.470
 "
+

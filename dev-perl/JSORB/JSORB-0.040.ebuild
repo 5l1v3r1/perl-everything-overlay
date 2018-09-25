@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVAN"
-DIST_VERSION="0.04"
-DIST_A="JSORB-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

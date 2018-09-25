@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WHITNEY"
-DIST_VERSION="0.10"
-DIST_A="K-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

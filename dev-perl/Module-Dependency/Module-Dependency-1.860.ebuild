@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMB"
-DIST_VERSION="1.86"
-DIST_A="Module-Dependency-1.86.tar.gz"
+DIST_VERSION="1.86" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

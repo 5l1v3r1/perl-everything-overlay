@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DVINCI"
-DIST_VERSION="0.021"
-DIST_A="Net-Pushover-0.021.tar.gz"
+DIST_VERSION="0.021" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,5 +24,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

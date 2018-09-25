@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANGERSTEI"
-DIST_VERSION="1.62"
-DIST_A="Net-Ping-Network-1.62.tar.gz"
+DIST_VERSION="1.62" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

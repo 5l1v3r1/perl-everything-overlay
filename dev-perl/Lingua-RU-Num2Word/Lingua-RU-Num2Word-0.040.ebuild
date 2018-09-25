@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMAGO"
-DIST_VERSION="0.04"
-DIST_A="Lingua-RU-Num2Word-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	>=virtual/perl-Test-Simple-0.980
 "
+

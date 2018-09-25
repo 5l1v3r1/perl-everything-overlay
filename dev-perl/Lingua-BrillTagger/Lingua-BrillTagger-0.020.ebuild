@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KWILLIAMS"
-DIST_VERSION="0.02"
-DIST_A="Lingua-BrillTagger-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.210
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

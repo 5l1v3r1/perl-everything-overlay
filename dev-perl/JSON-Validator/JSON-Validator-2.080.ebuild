@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHTHORSEN"
-DIST_VERSION="2.08"
-DIST_A="JSON-Validator-2.08.tar.gz"
+DIST_VERSION="2.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.300
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWS"
-DIST_VERSION="0.01"
-DIST_A="Map-Tube-Beijing-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	>=virtual/perl-Test-Simple-0.820
 "
+

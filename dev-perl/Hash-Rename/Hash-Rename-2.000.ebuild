@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARCEL"
-DIST_VERSION="2.00"
-DIST_A="Hash-Rename-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.030
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

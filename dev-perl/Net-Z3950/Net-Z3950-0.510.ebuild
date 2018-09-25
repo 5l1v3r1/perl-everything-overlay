@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIRK"
-DIST_VERSION="0.51"
-DIST_A="Net-Z3950-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

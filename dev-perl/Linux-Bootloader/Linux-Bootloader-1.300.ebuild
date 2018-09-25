@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRYCE"
-DIST_VERSION="1.3"
-DIST_A="Linux-Bootloader-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	dev-perl/Pod-Usage
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

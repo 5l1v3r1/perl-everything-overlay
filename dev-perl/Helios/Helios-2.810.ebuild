@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LHELION"
-DIST_VERSION="2.81"
-DIST_A="Helios-2.81.tar.gz"
+DIST_VERSION="2.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Data-ObjectDriver-0.040
 	>=dev-perl/Error-0.170
 	>=dev-perl/Helios-2.310
-	>=dev-perl/MP3-Info-1.240
 	>=dev-perl/Pod-Usage-0.010
 	>=dev-perl/TheSchwartz-1.040
 	>=dev-perl/XML-Simple-2.140
@@ -31,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

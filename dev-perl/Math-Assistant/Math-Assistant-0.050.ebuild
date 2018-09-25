@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Math"
-DIST_VERSION="0.05"
-DIST_A="Math-Assistant-0.05.tar.gz"
+DIST_AUTHOR="DONANGEL"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/D/DO/DONANGEL/Math/Math-Assistant-0.05.tar.gz -> Math-Assistant-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-Assistant-0.05 ${WORKDIR}/Math-Assistant-0.05
+}
+

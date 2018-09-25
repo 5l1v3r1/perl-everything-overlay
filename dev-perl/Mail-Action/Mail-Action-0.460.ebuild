@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="0.46"
-DIST_A="Mail-Action-0.46.tar.gz"
+DIST_VERSION="0.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,9 +25,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Class
 	dev-perl/Test-Exception
 	>=dev-perl/Test-MockObject-1.090
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "
+

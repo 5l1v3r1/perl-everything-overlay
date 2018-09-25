@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TYPESTER"
-DIST_VERSION="0.05"
-DIST_A="JSON-Types-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/JSON
 	>=virtual/perl-Test-Simple-0.860
 "
+

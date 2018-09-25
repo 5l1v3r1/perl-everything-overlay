@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAREKR"
-DIST_VERSION="0.49"
-DIST_A="MarekPodHtml-0.49.tar.gz"
+DIST_VERSION="0.49" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,9 +22,10 @@ RDEPEND="
 	>=dev-perl/Pod-Checker-1.200
 	virtual/perl-File-Path
 	>=virtual/perl-File-Spec-0.800
-	>=virtual/perl-Pod-Parser-1.120
+	>=virtual/perl-Pod-Parser-0.210
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

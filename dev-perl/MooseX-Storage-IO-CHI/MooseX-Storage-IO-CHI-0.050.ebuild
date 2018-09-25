@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCALDWELL"
-DIST_VERSION="0.05"
-DIST_A="MooseX-Storage-IO-CHI-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,6 +24,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-Most
 	dev-perl/Test-Pod
 "
+

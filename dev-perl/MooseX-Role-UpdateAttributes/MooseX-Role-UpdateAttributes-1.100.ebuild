@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARGHI"
-DIST_VERSION="1.1"
-DIST_A="MooseX-Role-UpdateAttributes-1.1.tar.gz"
+DIST_VERSION="1.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

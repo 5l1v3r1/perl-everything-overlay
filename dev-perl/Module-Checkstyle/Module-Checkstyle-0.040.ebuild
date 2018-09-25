@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLAESJAC"
-DIST_VERSION="0.04"
-DIST_A="Module-Checkstyle-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,14 +21,15 @@ RDEPEND="
 	dev-perl/Lingua-EN-Inflect-Number
 	dev-perl/Module-Pluggable
 	>=dev-perl/PPI-1.000
+	dev-perl/Pod-Usage
 	dev-perl/Readonly
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

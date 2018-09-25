@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKER"
-DIST_VERSION="0.44"
-DIST_A="IPTables-IPv4-DBTarpit-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

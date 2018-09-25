@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.990001"
-DIST_A="Nagios-Plugin-0.990001.tar.gz"
+DIST_VERSION="0.990001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

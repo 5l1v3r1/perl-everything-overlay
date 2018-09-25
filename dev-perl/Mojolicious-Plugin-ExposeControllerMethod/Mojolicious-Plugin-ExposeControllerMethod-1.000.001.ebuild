@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="1.000001"
-DIST_A="Mojolicious-Plugin-ExposeControllerMethod-1.000001.tar.gz"
+DIST_VERSION="1.000001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,6 +21,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

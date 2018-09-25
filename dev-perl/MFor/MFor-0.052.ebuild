@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORNELIUS"
-DIST_VERSION="0.052"
-DIST_A="MFor-0.052.tar.gz"
+DIST_VERSION="0.052" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROSSI"
-DIST_VERSION="0.81"
-DIST_A="LaTeX-Authors-0.81.tar.gz"
+DIST_VERSION="0.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

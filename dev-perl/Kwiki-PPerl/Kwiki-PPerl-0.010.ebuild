@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Kwiki"
-DIST_VERSION="0.01"
-DIST_A="Kwiki-PPerl-0.01.tar.gz"
+DIST_AUTHOR="CDENT"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/C/CD/CDENT/Kwiki/Kwiki-PPerl-0.01.tar.gz -> Kwiki-PPerl-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Kwiki-PPerl-0.01 ${WORKDIR}/Kwiki-PPerl-0.01
+}
+

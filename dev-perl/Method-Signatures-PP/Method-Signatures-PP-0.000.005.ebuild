@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSTROUT"
-DIST_VERSION="0.000005"
-DIST_A="Method-Signatures-PP-0.000005.tar.gz"
+DIST_VERSION="0.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Babble-0.090.001
+	>=dev-perl/Babble-0.90001.0
 	dev-perl/Import-Into
 	>=dev-perl/Moo-2.000
 "
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

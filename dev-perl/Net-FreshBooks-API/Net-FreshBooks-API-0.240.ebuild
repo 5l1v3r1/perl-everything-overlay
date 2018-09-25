@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.24"
-DIST_A="Net-FreshBooks-API-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	dev-perl/WWW-Mechanize
 	dev-perl/XML-LibXML
 	dev-perl/XML-Simple
+	dev-perl/base
 	dev-perl/libwww-perl
 	>=dev-perl/namespace-autoclean-0.110
 	virtual/perl-Carp
@@ -48,3 +48,4 @@ DEPEND="
 	dev-perl/Test-XML
 	virtual/perl-Test-Simple
 "
+

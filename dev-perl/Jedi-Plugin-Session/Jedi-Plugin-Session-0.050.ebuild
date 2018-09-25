@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CELOGEEK"
-DIST_VERSION="0.05"
-DIST_A="Jedi-Plugin-Session-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,6 +31,7 @@ RDEPEND="
 	dev-perl/Redis
 	dev-perl/Sereal
 	dev-perl/Time-Duration-Parse
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -46,3 +46,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEAM"
-DIST_VERSION="0.001"
-DIST_A="Net-Async-Memcached-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

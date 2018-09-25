@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDOOTSON"
-DIST_VERSION="0.71"
-DIST_A="HiPi-0.71.tar.gz"
+DIST_VERSION="0.71" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

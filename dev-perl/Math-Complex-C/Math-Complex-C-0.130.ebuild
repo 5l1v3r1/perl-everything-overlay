@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SISYPHUS"
-DIST_VERSION="0.13"
-DIST_A="Math-Complex_C-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

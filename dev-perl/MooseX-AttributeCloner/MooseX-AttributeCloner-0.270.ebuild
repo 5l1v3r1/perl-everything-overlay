@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SETITESUK"
-DIST_VERSION="0.27"
-DIST_A="MooseX-AttributeCloner-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360.300
 	dev-perl/MooseX-InsideOut
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.904"
-DIST_A="Installer-0.904.tar.gz"
+DIST_VERSION="0.904" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

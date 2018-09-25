@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JMASLAK"
-DIST_VERSION="2.182001"
-DIST_A="JTM-Boilerplate-2.182001.tar.gz"
+DIST_VERSION="2.182001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.300
+	dev-lang/perl
 	>=dev-perl/AnyEvent-Delay-0.001
 	>=dev-perl/AnyEvent-Handle-UDP-0.043
 	>=dev-perl/AnyEvent-Ping-0.011
@@ -82,7 +81,7 @@ RDEPEND="
 	>=dev-perl/perl-ldap-0.650
 	>=virtual/perl-Carp-1.380
 	>=virtual/perl-Data-Dumper-2.154
-	>=virtual/perl-IO-1.160
+	>=virtual/perl-IO-1.150
 	>=virtual/perl-MIME-Base64-3.150
 	>=virtual/perl-Scalar-List-Utils-1.420
 	>=virtual/perl-Storable-2.510
@@ -97,3 +96,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	virtual/perl-File-Spec
 "
+

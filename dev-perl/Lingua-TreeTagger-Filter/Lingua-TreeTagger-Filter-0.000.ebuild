@@ -5,8 +5,9 @@
 EAPI=6
 
 DIST_AUTHOR="BGAY"
-DIST_VERSION="0.0"
-DIST_A="Lingua-TreeTagger-Filter.zip"
+DIST_VERSION=""
+DIST_A_EXT="zip" 
+SRC_URI="mirror://cpan/authors/id/B/BG/BGAY/Lingua-TreeTagger-Filter.zip -> Lingua-TreeTagger-Filter-.zip"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +22,13 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-TreeTagger-Filter ${WORKDIR}/Lingua-TreeTagger-Filter-
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINIMAL"
-DIST_VERSION="1.02"
-DIST_A="Kelp-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -48,3 +47,4 @@ DEPEND="
 	virtual/perl-Test-Harness
 	virtual/perl-parent
 "
+

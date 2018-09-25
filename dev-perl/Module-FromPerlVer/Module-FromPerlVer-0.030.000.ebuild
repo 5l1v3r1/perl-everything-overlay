@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEMBARK"
-DIST_VERSION="0.030000"
-DIST_A="Module-FromPerlVer-0.030000.tar.gz"
+DIST_VERSION="0.030000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

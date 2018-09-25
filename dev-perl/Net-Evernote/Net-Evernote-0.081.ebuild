@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMC"
-DIST_VERSION="0.081"
-DIST_A="Net-Evernote-0.081.tar.gz"
+DIST_VERSION="0.081" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

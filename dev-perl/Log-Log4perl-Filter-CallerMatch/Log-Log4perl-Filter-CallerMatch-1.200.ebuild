@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PDONELAN"
-DIST_VERSION="1.200"
-DIST_A="Log-Log4perl-Filter-CallerMatch-1.200.tar.gz"
+DIST_VERSION="1.200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

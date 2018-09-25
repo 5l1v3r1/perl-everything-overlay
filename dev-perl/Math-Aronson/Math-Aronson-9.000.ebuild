@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="9.0"
-DIST_A="Math-Aronson-9.tar.gz"
+DIST_VERSION="9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

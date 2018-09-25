@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAF"
-DIST_VERSION="0.010003"
-DIST_A="Imager-Simple-0.010003.tar.gz"
+DIST_VERSION="0.010003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

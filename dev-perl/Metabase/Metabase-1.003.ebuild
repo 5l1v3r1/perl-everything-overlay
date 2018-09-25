@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="1.003"
-DIST_A="Metabase-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -44,8 +43,11 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STBEY"
-DIST_VERSION="5.8"
-DIST_A="Math-MatrixBool-5.8.tar.gz"
+DIST_VERSION="5.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

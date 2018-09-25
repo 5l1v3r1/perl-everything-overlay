@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CURTIS"
-DIST_VERSION="0.04"
-DIST_A="Mojolicious-Command-donuts-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/WWW-KrispyKreme-HotLight-1.000
 	>=virtual/perl-Test-Simple-0.960
 "
+

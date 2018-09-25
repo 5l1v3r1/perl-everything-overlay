@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREW"
-DIST_VERSION="0.002001"
-DIST_A="Net-Amazon-DynamoDB-0.002001.tar.gz"
+DIST_VERSION="0.002001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/Cache
 	virtual/perl-Test-Simple
 "
+

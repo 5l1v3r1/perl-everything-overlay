@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARCOLF"
-DIST_VERSION="0.21"
-DIST_A="Math-Fractal-DLA-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

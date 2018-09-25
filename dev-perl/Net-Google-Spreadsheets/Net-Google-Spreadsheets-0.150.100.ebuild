@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANJOU"
-DIST_VERSION="0.1501"
-DIST_A="Net-Google-Spreadsheets-0.1501.tar.gz"
+DIST_VERSION="0.1501" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.880
 "
+

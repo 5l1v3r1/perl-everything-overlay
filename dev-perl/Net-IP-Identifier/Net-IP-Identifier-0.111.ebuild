@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="0.111"
-DIST_A="Net-IP-Identifier-0.111.tar.gz"
+DIST_VERSION="0.111" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

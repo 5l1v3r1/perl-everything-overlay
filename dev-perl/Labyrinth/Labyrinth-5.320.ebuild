@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="5.32"
-DIST_A="Labyrinth-5.32.tar.gz"
+DIST_VERSION="5.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -62,3 +61,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

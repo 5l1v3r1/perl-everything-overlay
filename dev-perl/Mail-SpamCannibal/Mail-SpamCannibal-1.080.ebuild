@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKER"
-DIST_VERSION="1.08"
-DIST_A="Mail-SpamCannibal-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIRK"
-DIST_VERSION="1.04"
-DIST_A="Net-Z3950-Simple2ZOOM-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

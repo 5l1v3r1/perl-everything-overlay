@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSIRACUSA"
-DIST_VERSION="0.83"
-DIST_A="Net-Hotline-0.83.tar.gz"
+DIST_VERSION="0.83" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

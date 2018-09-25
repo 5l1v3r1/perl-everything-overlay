@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KHAMPTON"
-DIST_VERSION="1.163200"
-DIST_A="Magpie-1.163200.tar.gz"
+DIST_VERSION="1.163200" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.980
 "
+

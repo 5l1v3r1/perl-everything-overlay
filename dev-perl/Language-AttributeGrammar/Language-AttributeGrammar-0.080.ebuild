@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LPALMER"
-DIST_VERSION="0.08"
-DIST_A="Language-AttributeGrammar-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CELOGEEK"
-DIST_VERSION="0.01"
-DIST_A="Jedi-Plugin-Auth-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,6 +29,7 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/Moo
 	dev-perl/Path-Class
+	dev-perl/base
 	virtual/perl-Carp
 "
 DEPEND="
@@ -44,3 +44,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

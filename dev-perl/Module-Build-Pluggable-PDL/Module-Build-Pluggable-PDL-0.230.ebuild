@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MGRIMES"
-DIST_VERSION="0.23"
-DIST_A="Module-Build-Pluggable-PDL-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Test-Simple-0.870
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RATTLER"
-DIST_VERSION="1.300"
-DIST_A="NetSDS-Kannel-1.300.tar.gz"
+DIST_VERSION="1.300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.280.500
+	dev-perl/Module-Build
 	>=dev-perl/Test-Pod-1.260
 	>=dev-perl/Test-Pod-Coverage-1.080
 	>=virtual/perl-Test-Simple-0.620
 "
+

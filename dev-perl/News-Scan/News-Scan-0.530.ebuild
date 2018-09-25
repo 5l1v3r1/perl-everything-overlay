@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBACON"
-DIST_VERSION="0.53"
-DIST_A="News-Scan-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

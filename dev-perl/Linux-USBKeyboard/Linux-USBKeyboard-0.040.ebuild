@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EWILHELM"
-DIST_VERSION="0.04"
-DIST_A="Linux-USBKeyboard-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.350
 	virtual/perl-Test-Simple
 "
+

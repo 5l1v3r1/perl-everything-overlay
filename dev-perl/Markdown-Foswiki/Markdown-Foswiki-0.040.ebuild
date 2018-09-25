@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKYEND"
-DIST_VERSION="0.04"
-DIST_A="Markdown-Foswiki-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

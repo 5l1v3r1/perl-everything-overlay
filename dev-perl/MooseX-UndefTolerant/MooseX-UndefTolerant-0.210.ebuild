@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.21"
-DIST_A="MooseX-UndefTolerant-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,15 +16,18 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-0.890
 	dev-perl/namespace-autoclean
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 	virtual/perl-if
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAWKINSM"
-DIST_VERSION="1.09"
-DIST_A="IBM-LoadLeveler-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

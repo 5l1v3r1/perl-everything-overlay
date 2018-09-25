@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PFIG"
-DIST_VERSION="0.03"
-DIST_A="Net-Twitter-Cabal-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,10 +20,11 @@ RDEPEND="
 	dev-perl/Config-Any
 	dev-perl/Log-Log4perl
 	>=dev-perl/Net-Twitter-2.000
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

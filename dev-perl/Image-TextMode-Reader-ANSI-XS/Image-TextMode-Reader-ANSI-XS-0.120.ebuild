@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICAS"
-DIST_VERSION="0.12"
-DIST_A="Image-TextMode-Reader-ANSI-XS-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

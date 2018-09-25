@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CORION"
-DIST_VERSION="0.40"
-DIST_A="MozRepl-RemoteObject-0.40.tar.gz"
+DIST_VERSION="0.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Task-Weaken
 "
+

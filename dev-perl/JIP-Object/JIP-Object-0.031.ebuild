@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VLADIMIRZ"
-DIST_VERSION="0.031"
-DIST_A="JIP-Object-0.031.tar.gz"
+DIST_VERSION="0.031" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAYJP"
-DIST_VERSION="v0.1.4"
-DIST_A="Net-Payjp-0.1.4.tar.gz"
+DIST_VERSION="0.1.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

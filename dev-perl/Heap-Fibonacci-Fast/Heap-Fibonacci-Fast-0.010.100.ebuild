@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RANDIR"
-DIST_VERSION="0.0101"
-DIST_A="Heap-Fibonacci-Fast-0.0101.tar.gz"
+DIST_VERSION="0.0101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

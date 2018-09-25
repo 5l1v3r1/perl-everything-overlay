@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RGE"
-DIST_VERSION="0.0004"
-DIST_A="Keyword-API-0.0004.tar.gz"
+DIST_VERSION="0.0004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CEBJYRE"
-DIST_VERSION="0.2.0"
-DIST_A="Net-Google-Storage-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,7 +27,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

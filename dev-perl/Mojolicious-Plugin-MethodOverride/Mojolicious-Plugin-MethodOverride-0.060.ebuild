@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRAF"
-DIST_VERSION="0.060"
-DIST_A="Mojolicious-Plugin-MethodOverride-0.060.tar.gz"
+DIST_VERSION="0.060" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-2.480
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

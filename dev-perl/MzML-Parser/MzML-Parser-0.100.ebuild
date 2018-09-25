@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEPREVOST"
-DIST_VERSION="0.1"
-DIST_A="MzML-Parser-0.1.tar.gz"
+DIST_VERSION="0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

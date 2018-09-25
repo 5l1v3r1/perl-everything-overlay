@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEONT"
-DIST_VERSION="0.4210"
-DIST_A="Module-Build-Deprecated-0.4210.tar.gz"
+DIST_VERSION="0.4210" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	>=virtual/perl-CPAN-Meta-YAML-0.002
 	virtual/perl-Module-Metadata
 	virtual/perl-parent
@@ -29,3 +29,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BMAMES"
-DIST_VERSION="0.03"
-DIST_A="MIDI-XML-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Class-ISA-0.300
-	>=dev-perl/Tk-800.000
+	>=dev-perl/Tk-4.000
 	>=dev-perl/XML-DOM-1.400
 	>=dev-perl/XML-Parser-2.000
 	>=virtual/perl-Carp-1.000
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

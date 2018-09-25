@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LIOSHA"
-DIST_VERSION="0.03"
-DIST_A="Net-Surveymonkey-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

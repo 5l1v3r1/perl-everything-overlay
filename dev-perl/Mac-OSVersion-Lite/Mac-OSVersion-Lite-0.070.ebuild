@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PINE"
-DIST_VERSION="0.07"
-DIST_A="Mac-OSVersion-Lite-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Perl-Critic-1.125
 	>=dev-perl/Test-Deep-0.117
 	>=dev-perl/Test-Deep-Matcher-0.010
@@ -30,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Perl-Critic-1.030
 	>=virtual/perl-Test-Simple-1.001.014
 "
+

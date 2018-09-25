@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="v0.0.2"
-DIST_A="Leading-Zeros-0.0.2.tar.gz"
+DIST_VERSION="0.0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

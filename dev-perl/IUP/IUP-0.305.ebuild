@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KMX"
-DIST_VERSION="0.305"
-DIST_A="IUP-0.305.tar.gz"
+DIST_VERSION="0.305" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-CBuilder
 	virtual/perl-Test-Simple
 "
+

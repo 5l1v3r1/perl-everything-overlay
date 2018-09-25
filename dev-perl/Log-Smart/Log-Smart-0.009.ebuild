@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHIBUYA"
-DIST_VERSION="0.009"
-DIST_A="Log-Smart-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,8 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

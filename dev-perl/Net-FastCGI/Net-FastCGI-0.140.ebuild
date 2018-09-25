@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHANSEN"
-DIST_VERSION="0.14"
-DIST_A="Net-FastCGI-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-HexString
 	>=virtual/perl-Test-Simple-0.470
 "
+

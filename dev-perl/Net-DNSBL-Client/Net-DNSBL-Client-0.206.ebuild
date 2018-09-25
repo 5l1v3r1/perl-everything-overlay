@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSKOLL"
-DIST_VERSION="0.206"
-DIST_A="Net-DNSBL-Client-0.206.tar.gz"
+DIST_VERSION="0.206" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	>=virtual/perl-Test-Simple-0.820
 "
+

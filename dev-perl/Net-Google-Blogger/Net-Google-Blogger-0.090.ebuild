@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EGORSH"
-DIST_VERSION="0.09"
-DIST_A="Net-Google-Blogger-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+

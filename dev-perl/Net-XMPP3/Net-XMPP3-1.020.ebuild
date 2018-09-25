@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="GURUPERL"
 DIST_VERSION="1.02"
-DIST_A="Net-XMPP3-1.02.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

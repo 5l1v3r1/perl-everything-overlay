@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOUGDUDE"
-DIST_VERSION="0.009002"
-DIST_A="Net-NSCA-Client-0.009002.tar.gz"
+DIST_VERSION="0.009002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,7 +20,6 @@ RDEPEND="
 	>=dev-perl/Convert-Binary-C-0.740
 	>=dev-perl/Data-Rand-Obscure-0.020
 	>=dev-perl/Data-Validate-Domain-0.020
-	dev-perl/Digest-CRC
 	dev-perl/List-MoreUtils
 	>=dev-perl/Moose-0.890
 	dev-perl/MooseX-Clone
@@ -34,4 +32,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.310
+	dev-perl/Data-Section
+	>=dev-perl/Test-Class-0.330
+	>=dev-perl/Test-Command-0.080
+	dev-perl/Test-Fatal
+	>=dev-perl/Test-Requires-0.020
+	>=dev-perl/Test-TCP-1.030
+	>=virtual/perl-MIME-Base64-2.000
+	>=virtual/perl-Test-Simple-0.940
 "
+

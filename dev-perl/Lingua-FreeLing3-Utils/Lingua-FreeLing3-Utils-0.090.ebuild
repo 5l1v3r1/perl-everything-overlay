@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Lingua"
-DIST_VERSION="0.09"
-DIST_A="Lingua-FreeLing3-Utils-0.09.tar.gz"
+DIST_AUTHOR="AMBS"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/A/AM/AMBS/Lingua/Lingua-FreeLing3-Utils-0.09.tar.gz -> Lingua-FreeLing3-Utils-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +26,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-FreeLing3-Utils-0.09 ${WORKDIR}/Lingua-FreeLing3-Utils-0.09
+}
+

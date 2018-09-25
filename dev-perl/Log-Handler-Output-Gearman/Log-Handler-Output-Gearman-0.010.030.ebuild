@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PLU"
-DIST_VERSION="0.01003"
-DIST_A="Log-Handler-Output-Gearman-0.01003.tar.gz"
+DIST_VERSION="0.01003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

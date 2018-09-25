@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKER"
-DIST_VERSION="0.11"
-DIST_A="Mail-SMTP-Honeypot-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

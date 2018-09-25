@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KABLAMO"
-DIST_VERSION="0.002"
-DIST_A="MooseX-CachingProxy-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/MooseX-Test-Role-0.020
 	dev-perl/Spellunker
 	dev-perl/Test-CPAN-Meta
@@ -36,3 +36,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.140
 	dev-perl/libwww-perl
 "
+

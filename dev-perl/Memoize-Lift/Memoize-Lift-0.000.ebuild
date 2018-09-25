@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZEFRAM"
-DIST_VERSION="0.000"
-DIST_A="Memoize-Lift-0.000.tar.gz"
+DIST_VERSION="0.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-IO-1.030
 	virtual/perl-Test-Simple
 "
+

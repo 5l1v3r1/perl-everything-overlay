@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHTHORSEN"
-DIST_VERSION="2.06"
-DIST_A="Mojolicious-Plugin-AssetPack-2.06.tar.gz"
+DIST_VERSION="2.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

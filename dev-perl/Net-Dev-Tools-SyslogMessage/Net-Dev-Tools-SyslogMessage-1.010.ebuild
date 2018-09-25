@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Logging"
-DIST_VERSION="1.01"
-DIST_A="Net-Dev-Tools-SyslogMessage-1.01.tar.gz"
+DIST_AUTHOR="DMITRYSOL"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMITRYSOL/SystemAdministration/Logging/Net-Dev-Tools-SyslogMessage-1.01.tar.gz -> Net-Dev-Tools-SyslogMessage-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Dev-Tools-SyslogMessage-1.01 ${WORKDIR}/Net-Dev-Tools-SyslogMessage-1.01
+}
+

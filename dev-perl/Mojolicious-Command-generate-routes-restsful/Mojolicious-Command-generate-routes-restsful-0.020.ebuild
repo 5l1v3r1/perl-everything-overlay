@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BYTEROCK"
-DIST_VERSION="0.02"
-DIST_A="Mojolicious-Command-generate-routes_restsful-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	virtual/perl-Test-Simple
 "
+

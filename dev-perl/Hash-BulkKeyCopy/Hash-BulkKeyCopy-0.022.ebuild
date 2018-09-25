@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ITSUSONY"
-DIST_VERSION="0.022"
-DIST_A="Hash-BulkKeyCopy-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-LeakTrace-0.150
 	>=virtual/perl-Test-Simple-0.980
 "
+

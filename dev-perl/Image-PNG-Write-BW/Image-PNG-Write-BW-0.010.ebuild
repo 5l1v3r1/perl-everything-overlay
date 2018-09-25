@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANALL"
-DIST_VERSION="0.01"
-DIST_A="Image-PNG-Write-BW-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,6 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Digest-CRC
 	dev-perl/base
 	virtual/perl-Compress-Raw-Zlib
 	virtual/perl-Exporter
@@ -28,3 +26,4 @@ DEPEND="
 	dev-perl/Test-BinaryData
 	virtual/perl-Test-Simple
 "
+

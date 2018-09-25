@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHGOVUK"
-DIST_VERSION="0.04"
-DIST_A="MojoX-Plugin-AnyCache-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Exception
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

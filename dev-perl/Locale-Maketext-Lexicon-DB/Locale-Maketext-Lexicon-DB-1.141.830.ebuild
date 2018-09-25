@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CUBABIT"
-DIST_VERSION="1.141830"
-DIST_A="Locale-Maketext-Lexicon-DB-1.141830.tar.gz"
+DIST_VERSION="1.141830" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MPIOTR"
-DIST_VERSION="1.7"
-DIST_A="Lingua-Ident-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

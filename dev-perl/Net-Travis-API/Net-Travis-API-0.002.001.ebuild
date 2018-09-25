@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KENTNL"
-DIST_VERSION="0.002001"
-DIST_A="Net-Travis-API-0.002001.tar.gz"
+DIST_VERSION="0.002001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Tiny-UA
 	dev-perl/JSON-MaybeXS
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.008
 	dev-perl/URI
 	virtual/perl-Carp
 	virtual/perl-Encode
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

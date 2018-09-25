@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVECROSS"
-DIST_VERSION="0.0.15"
-DIST_A="MooX-Role-JSON_LD-0.0.15.tar.gz"
+DIST_VERSION="0.0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/namespace-autoclean
 	virtual/perl-Test-Simple
 "
+

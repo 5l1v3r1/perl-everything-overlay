@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOPAZ"
-DIST_VERSION="0.003004"
-DIST_A="Net-WebSocket-Server-0.003004.tar.gz"
+DIST_VERSION="0.003004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

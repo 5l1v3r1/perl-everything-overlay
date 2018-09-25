@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AXANTHOS"
-DIST_VERSION="0.10"
-DIST_A="Lingua-TreeTagger-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	virtual/perl-Test-Simple
 "
+

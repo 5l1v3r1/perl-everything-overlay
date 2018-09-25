@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JVBSOFT"
-DIST_VERSION="1.010"
-DIST_A="MooseX-Types-Tkx-1.010.tar.gz"
+DIST_VERSION="1.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.040
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIZ"
-DIST_VERSION="0.9.2"
-DIST_A="Hopkins-0.9.2.tar.gz"
+DIST_VERSION="0.9.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

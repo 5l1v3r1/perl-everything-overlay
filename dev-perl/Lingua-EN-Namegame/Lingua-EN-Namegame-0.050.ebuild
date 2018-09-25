@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="YUMPY"
-DIST_VERSION="0.05"
-DIST_A="Lingua-EN-Namegame-0.05.tar.gz"
-SRC_URI="mirror://cpan/authors/id/Y/YU/YUMPY/Namegame/Lingua-EN-Namegame-0.05.tar.gz"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/Y/YU/YUMPY/Namegame/Lingua-EN-Namegame-0.05.tar.gz -> Lingua-EN-Namegame-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lingua-EN-Namegame-0.05 ${WORKDIR}/Lingua-EN-Namegame-0.05
+}
+

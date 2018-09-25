@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBYRD"
-DIST_VERSION="0.97"
-DIST_A="NetAddr-BridgeID-0.97.tar.gz"
+DIST_VERSION="0.97" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-CheckDeps-0.002
 	>=dev-perl/Test-UseAllModules-0.100
 "
+

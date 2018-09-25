@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDDPAUSE"
-DIST_VERSION="2.0.43"
-DIST_A="MarpaX-ESLIF-2.0.43.tar.gz"
+DIST_VERSION="2.0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,7 +36,7 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Perl-OSType
-	dev-perl/Log-Any
+	>=dev-perl/Log-Any-1.030
 	dev-perl/Log-Any-Adapter-Log4perl
 	>=dev-perl/Log-Log4perl-1.320
 	dev-perl/Test-Deep
@@ -47,3 +46,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-threads
 "
+

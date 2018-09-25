@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSCHOUT"
-DIST_VERSION="1.36"
-DIST_A="Log-Dispatch-FileRotate-1.36.tar.gz"
+DIST_VERSION="1.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-Encode
 	>=virtual/perl-Test-Simple-0.880
 "
+

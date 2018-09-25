@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SPROUT"
-DIST_VERSION="0.05"
-DIST_A="KSx-Analysis-StripAccents-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/KinoSearch-0.200
+	dev-perl/KinoSearch
 	dev-perl/Text-Unaccent
 	dev-perl/base
 	virtual/perl-Encode
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

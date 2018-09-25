@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVKHOZOV"
-DIST_VERSION="1.02"
-DIST_A="Minion-Backend-Mango-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

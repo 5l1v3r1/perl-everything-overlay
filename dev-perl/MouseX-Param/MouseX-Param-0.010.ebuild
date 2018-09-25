@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKI"
-DIST_VERSION="0.01"
-DIST_A="MouseX-Param-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	dev-perl/Filter
 	>=dev-perl/Mouse-0.140
 	dev-perl/Test-Deep
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

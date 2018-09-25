@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMIRI"
-DIST_VERSION="0.019"
-DIST_A="Net-DNS-SPF-Expander-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,5 +30,7 @@ DEPEND="
 	dev-perl/Data-Printer
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

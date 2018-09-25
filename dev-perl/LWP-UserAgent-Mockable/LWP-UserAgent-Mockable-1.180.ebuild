@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MJEMMESON"
-DIST_VERSION="1.18"
-DIST_A="LWP-UserAgent-Mockable-1.18.tar.gz"
+DIST_VERSION="1.18" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	dev-perl/Test-RequiresInternet
 	virtual/perl-Test-Simple
 "
+

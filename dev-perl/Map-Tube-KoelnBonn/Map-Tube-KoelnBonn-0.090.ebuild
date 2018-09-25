@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GWS"
-DIST_VERSION="0.09"
-DIST_A="Map-Tube-KoelnBonn-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/XML-Simple
 	>=virtual/perl-Test-Simple-0.820
 "
+

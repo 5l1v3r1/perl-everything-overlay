@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PACKY"
-DIST_VERSION="0.12"
-DIST_A="JIRA-REST-Class-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,7 +36,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/File-Slurp
-	dev-perl/HTTP-Server-Simple
+	>=dev-perl/HTTP-Server-Simple-0.510
 	dev-perl/JSON
 	dev-perl/REST-Client
 	dev-perl/Test-Deep
@@ -49,3 +48,4 @@ DEPEND="
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple
 "
+

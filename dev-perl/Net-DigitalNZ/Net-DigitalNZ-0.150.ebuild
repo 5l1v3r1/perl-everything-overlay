@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHINY"
-DIST_VERSION="0.15"
-DIST_A="Net-DigitalNZ-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

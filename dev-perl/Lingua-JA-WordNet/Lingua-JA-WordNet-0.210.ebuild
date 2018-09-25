@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAWAPAWA"
-DIST_VERSION="0.21"
-DIST_A="Lingua-JA-WordNet-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,4 +24,8 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/File-ShareDir
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Exception
+	dev-perl/Test-Warn
+	>=virtual/perl-Test-Simple-0.980
 "
+

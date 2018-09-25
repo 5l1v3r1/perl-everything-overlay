@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DLAMBLEY"
-DIST_VERSION="2.1.7"
-DIST_A="Net-ThreeScale-Client-2.1.7.tar.gz"
+DIST_VERSION="2.1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

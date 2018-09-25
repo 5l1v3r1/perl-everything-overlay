@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.12"
-DIST_A="Net-Async-WebSocket-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IO-Async-0.630
-	>=dev-perl/Protocol-WebSocket-0.220
+	dev-perl/Protocol-WebSocket
 	dev-perl/URI
 	>=virtual/perl-Scalar-List-Utils-1.400
 "
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.400
 	>=virtual/perl-Test-Simple-0.880
 "
+

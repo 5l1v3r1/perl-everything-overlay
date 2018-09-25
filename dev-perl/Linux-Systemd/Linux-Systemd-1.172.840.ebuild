@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IOANR"
-DIST_VERSION="1.172840"
-DIST_A="Linux-Systemd-1.172840.tar.gz"
+DIST_VERSION="1.172840" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,4 +18,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

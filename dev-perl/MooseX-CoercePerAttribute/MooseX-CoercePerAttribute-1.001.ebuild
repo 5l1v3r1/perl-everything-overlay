@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRF"
-DIST_VERSION="1.001"
-DIST_A="MooseX-CoercePerAttribute-1.001.tar.gz"
+DIST_VERSION="1.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-CBuilder
 "
+

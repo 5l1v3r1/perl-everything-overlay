@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLHOTSKY"
-DIST_VERSION="0.31"
-DIST_A="MasonX-Request-WithApacheSession-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,4 +20,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SAXJAZMAN"
-DIST_VERSION="0.09"
-DIST_A="Net-Abuse-Utils-Spamhaus-0.09.tar.gz"
-SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/net/Net-Abuse-Utils-Spamhaus-0.09.tar.gz"
+DIST_VERSION="0.09" 
+SRC_URI="mirror://cpan/authors/id/S/SA/SAXJAZMAN/net/Net-Abuse-Utils-Spamhaus-0.09.tar.gz -> Net-Abuse-Utils-Spamhaus-0.09.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Abuse-Utils-Spamhaus-0.09 ${WORKDIR}/Net-Abuse-Utils-Spamhaus-0.09
+}
+

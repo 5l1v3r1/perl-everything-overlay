@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.31"
-DIST_A="MooseX-MethodAttributes-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,6 +27,9 @@ DEPEND="
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
+	dev-perl/base
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

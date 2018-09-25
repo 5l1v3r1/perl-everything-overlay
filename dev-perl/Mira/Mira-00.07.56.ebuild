@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KIAVASH"
-DIST_VERSION="00.07.56"
-DIST_A="Mira-00.07.56.tar.gz"
-SRC_URI="mirror://cpan/authors/id/K/KI/KIAVASH/mira/Mira-00.07.56.tar.gz"
+DIST_VERSION="00.07.56" 
+SRC_URI="mirror://cpan/authors/id/K/KI/KIAVASH/mira/Mira-00.07.56.tar.gz -> Mira-00.07.56.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -41,3 +40,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mira-00.07.56 ${WORKDIR}/Mira-00.07.56
+}
+

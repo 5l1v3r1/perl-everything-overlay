@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRICAS"
-DIST_VERSION="0.25"
-DIST_A="Image-TextMode-0.25.tar.gz"
+DIST_VERSION="0.25" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,12 +20,13 @@ RDEPEND="
 	dev-perl/Module-Pluggable
 	dev-perl/Module-Runtime
 	>=dev-perl/Moo-1.005.000
+	dev-perl/Pod-Usage
 	dev-perl/Type-Tiny
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

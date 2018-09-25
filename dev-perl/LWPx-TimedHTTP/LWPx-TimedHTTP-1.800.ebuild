@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMONW"
-DIST_VERSION="1.8"
-DIST_A="LWPx-TimedHTTP-1.8.tar.gz"
+DIST_VERSION="1.8" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/HTTP-Daemon
 	virtual/perl-Test-Simple
 "
+

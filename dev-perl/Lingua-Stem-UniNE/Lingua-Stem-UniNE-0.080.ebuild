@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATCH"
-DIST_VERSION="0.08"
-DIST_A="Lingua-Stem-UniNE-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.820
 	>=virtual/perl-podlators-2.040
 "
+

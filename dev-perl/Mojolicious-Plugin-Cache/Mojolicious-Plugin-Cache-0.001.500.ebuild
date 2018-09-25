@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIDD"
-DIST_VERSION="0.0015"
-DIST_A="Mojolicious-Plugin-Cache-0.0015.tar.gz"
+DIST_VERSION="0.0015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

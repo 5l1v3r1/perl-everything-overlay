@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OAXLIN"
-DIST_VERSION="0.02"
-DIST_A="MemcacheDBI-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

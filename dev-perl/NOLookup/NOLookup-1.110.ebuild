@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TROHAU"
-DIST_VERSION="1.11"
-DIST_A="NOLookup-1.11.tar.gz"
+DIST_VERSION="1.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.640
 	virtual/perl-Test-Simple
 "
+

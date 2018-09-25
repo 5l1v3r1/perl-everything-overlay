@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKEGL"
-DIST_VERSION="4.000000"
-DIST_A="Marpa-R2-4.000000.tar.gz"
+DIST_VERSION="4.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400.300
 	>=virtual/perl-CPAN-Meta-2.120.921
 "
+

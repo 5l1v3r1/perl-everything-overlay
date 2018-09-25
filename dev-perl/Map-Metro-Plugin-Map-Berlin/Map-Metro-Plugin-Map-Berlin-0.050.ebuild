@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SREZIC"
-DIST_VERSION="0.05"
-DIST_A="Map-Metro-Plugin-Map-Berlin-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

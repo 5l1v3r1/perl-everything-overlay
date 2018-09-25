@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMPLIFY"
-DIST_VERSION="1.0.1"
-DIST_A="Net-Simplify-1.0.1.tar.gz"
+DIST_VERSION="1.0.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Module-Signature
 	virtual/perl-Test-Simple
 "
+

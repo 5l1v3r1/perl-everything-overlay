@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HARDAKER"
-DIST_VERSION="5.0404"
-DIST_A="NetSNMP-default_store-5.0404.tar.gz"
+DIST_VERSION="5.0404" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

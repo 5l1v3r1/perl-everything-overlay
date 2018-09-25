@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TOSHIOITO"
-DIST_VERSION="0.09"
-DIST_A="Module-Starter-TOSHIOITO-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	>=dev-perl/Module-Build-Prereqs-FromCPANfile-0.020
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="0.004014"
-DIST_A="IO-Prompter-0.004014.tar.gz"
+DIST_VERSION="0.004014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

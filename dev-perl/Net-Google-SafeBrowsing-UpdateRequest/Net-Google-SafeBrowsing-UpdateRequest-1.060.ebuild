@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANBORN"
-DIST_VERSION="1.06"
-DIST_A="Net-Google-SafeBrowsing-UpdateRequest-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

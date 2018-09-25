@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HANELYP"
-DIST_VERSION="2008.0217"
-DIST_A="Language-MPI-2008.0217.tar.gz"
+DIST_VERSION="2008.0217" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

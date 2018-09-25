@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KSYSOEV"
-DIST_VERSION="2.005"
-DIST_A="Locale-Babelfish-2.005.tar.gz"
+DIST_VERSION="2.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.980
 "
+

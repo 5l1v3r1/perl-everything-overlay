@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="INGY"
-DIST_VERSION="0.23"
-DIST_A="Module-Manifest-Skip-0.23.tar.gz"
+DIST_VERSION="0.23" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 "
+

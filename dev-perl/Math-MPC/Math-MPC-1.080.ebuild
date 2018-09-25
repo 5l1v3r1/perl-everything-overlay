@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SISYPHUS"
-DIST_VERSION="1.08"
-DIST_A="Math-MPC-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

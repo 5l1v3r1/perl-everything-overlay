@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DSTAAL"
-DIST_VERSION="1.0101"
-DIST_A="Mail-Log-Trace-1.0101.tar.gz"
+DIST_VERSION="1.0101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Time-Local
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAGGAI"
-DIST_VERSION="0.102740"
-DIST_A="Net-StackExchange-0.102740.tar.gz"
+DIST_VERSION="0.102740" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Differences
 	>=virtual/perl-Test-Simple-0.940
 "
+

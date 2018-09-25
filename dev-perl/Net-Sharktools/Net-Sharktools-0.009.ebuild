@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NANIS"
-DIST_VERSION="0.009"
-DIST_A="Net-Sharktools-0.009.tar.gz"
+DIST_VERSION="0.009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/YAML
+	virtual/perl-File-Spec
+	virtual/perl-Getopt-Long
 "
+

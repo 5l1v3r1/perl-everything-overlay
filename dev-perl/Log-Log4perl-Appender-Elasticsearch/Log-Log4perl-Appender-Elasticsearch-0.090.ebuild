@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PALIK"
-DIST_VERSION="0.09"
-DIST_A="Log-Log4perl-Appender-Elasticsearch-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-6.050
+	>=dev-perl/HTTP-Message-6.000
 	>=dev-perl/JSON-2.610
 	>=dev-perl/Log-Log4perl-1.410
 	>=dev-perl/URI-1.600
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
+

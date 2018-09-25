@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FXN"
-DIST_VERSION="0.43"
-DIST_A="Net-Fluidinfo-0.43.tar.gz"
+DIST_VERSION="0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

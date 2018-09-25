@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ILLY"
-DIST_VERSION="0.36"
-DIST_A="Net-Stripe-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

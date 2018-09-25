@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IVANYCH"
-DIST_VERSION="1.03"
-DIST_A="Image-Compare-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

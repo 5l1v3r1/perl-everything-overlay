@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RBUELS"
-DIST_VERSION="0.11"
-DIST_A="MooseX-Role-DBIx-Connector-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Moose
 	>=dev-perl/Test-Exception-0.270
 "
+

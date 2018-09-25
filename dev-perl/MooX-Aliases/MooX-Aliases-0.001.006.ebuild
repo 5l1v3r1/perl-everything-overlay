@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAARG"
-DIST_VERSION="0.001006"
-DIST_A="MooX-Aliases-0.001006.tar.gz"
+DIST_VERSION="0.001006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.003
 	>=virtual/perl-Test-Simple-0.940
 "
+

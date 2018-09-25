@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.45"
-DIST_A="Module-Install-XSUtil-0.45.tar.gz"
+DIST_VERSION="0.45" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-XSLoader-0.100
 "
+

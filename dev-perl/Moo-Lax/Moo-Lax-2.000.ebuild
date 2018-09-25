@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMS"
-DIST_VERSION="2.00"
-DIST_A="Moo-Lax-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	>=virtual/perl-ExtUtils-MakeMaker-6.63.03
 	dev-lang/perl
+	dev-perl/Module-Build
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

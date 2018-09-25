@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LEEJO"
-DIST_VERSION="0.06"
-DIST_A="Net-AMQP-RabbitMQ-PP-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-File-ShareDir-1.001.001
 	>=dev-perl/Test-Most-0.310
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JDDPAUSE"
-DIST_VERSION="0.005"
-DIST_A="MarpaX-Languages-SQL2003-AST-0.005.tar.gz"
+DIST_VERSION="0.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,17 +19,23 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/IO-String
 	>=dev-perl/Marpa-R2-2.100.000
+	dev-perl/Pod-Usage
 	dev-perl/SUPER
 	dev-perl/XML-LibXML
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
 	virtual/perl-Getopt-Long
 	virtual/perl-Math-BigInt
-	virtual/perl-Pod-Usage
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Data-Section
+	virtual/perl-File-Spec
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "
+

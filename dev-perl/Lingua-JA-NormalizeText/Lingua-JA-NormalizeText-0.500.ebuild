@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAWAPAWA"
-DIST_VERSION="0.50"
-DIST_A="Lingua-JA-NormalizeText-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.200
 	>=virtual/perl-Test-Simple-0.990
 "
+

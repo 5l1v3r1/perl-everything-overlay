@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NIERLEIN"
-DIST_VERSION="0.46"
-DIST_A="Monitoring-Availability-0.46.tar.gz"
+DIST_VERSION="0.46" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
+

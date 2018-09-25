@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKINGTON"
-DIST_VERSION="0.014"
-DIST_A="LWP-JSON-Tiny-0.014.tar.gz"
+DIST_VERSION="0.014" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/HTTP-Message-6.070
+	dev-perl/HTTP-Message
 	dev-perl/JSON-MaybeXS
 	dev-perl/libwww-perl
 	virtual/perl-Encode
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+

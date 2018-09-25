@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UPWORK"
-DIST_VERSION="1.3.0"
-DIST_A="Net-Upwork-API-1.3.0.tar.gz"
+DIST_VERSION="1.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Warn-0.210
 	>=virtual/perl-Test-Simple-0.660
 "
+

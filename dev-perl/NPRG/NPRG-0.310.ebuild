@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="IFROL"
 DIST_VERSION="0.31"
-DIST_A="NPRG-0.31.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

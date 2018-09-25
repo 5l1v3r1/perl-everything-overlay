@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SJQUINNEY"
-DIST_VERSION="0.5.0"
-DIST_A="LCFG-Build-Skeleton-0.5.0.tar.gz"
+DIST_VERSION="0.5.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,5 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

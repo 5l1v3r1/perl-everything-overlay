@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERIGRIN"
-DIST_VERSION="0.07"
-DIST_A="MooseX-Async-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.560
 	>=dev-perl/MooseX-AttributeHelpers-0.130
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

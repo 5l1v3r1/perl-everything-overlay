@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BBC"
-DIST_VERSION="1.011"
-DIST_A="Lingua-MSWordSpell-1.011.tar.gz"
+DIST_VERSION="1.011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

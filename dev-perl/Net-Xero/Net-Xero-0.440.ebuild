@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTT"
-DIST_VERSION="0.44"
-DIST_A="Net-Xero-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

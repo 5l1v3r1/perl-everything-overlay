@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GSLIN"
-DIST_VERSION="v0.2.0"
-DIST_A="Mojolicious-Plugin-MarkaplRenderer-0.2.0.tar.gz"
+DIST_VERSION="0.2.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

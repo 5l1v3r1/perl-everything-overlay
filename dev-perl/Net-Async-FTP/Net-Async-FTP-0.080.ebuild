@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.08"
-DIST_A="Net-Async-FTP-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Listing
-	dev-perl/IO-Async
+	>=dev-perl/IO-Async-0.590
 	>=virtual/perl-Exporter-5.570
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

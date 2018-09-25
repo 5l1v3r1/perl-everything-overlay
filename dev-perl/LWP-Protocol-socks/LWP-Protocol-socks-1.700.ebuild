@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCR"
-DIST_VERSION="1.7"
-DIST_A="LWP-Protocol-socks-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

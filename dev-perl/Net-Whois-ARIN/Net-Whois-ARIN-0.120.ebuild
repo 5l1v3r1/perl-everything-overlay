@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TCAINE"
-DIST_VERSION="0.12"
-DIST_A="Net-Whois-ARIN-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

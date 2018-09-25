@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IANKENT"
-DIST_VERSION="5.14"
-DIST_A="MojoX-IOLoop-Server-StartTLS-5.14.tar.gz"
+DIST_VERSION="5.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

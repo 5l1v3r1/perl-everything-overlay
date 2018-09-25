@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HOCHSTEN"
-DIST_VERSION="0.12"
-DIST_A="MODS-Record-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	>=dev-perl/Test-Deep-0.110
 	>=dev-perl/Test-Exception-0.310
 	>=dev-perl/Test-Pod-0.060
 	virtual/perl-Test-Simple
 "
+

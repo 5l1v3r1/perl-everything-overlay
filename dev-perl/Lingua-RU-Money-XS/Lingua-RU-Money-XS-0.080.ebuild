@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IMUN"
-DIST_VERSION="0.08"
-DIST_A="Lingua-RU-Money-XS-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-Spec
 	>=virtual/perl-Encode-2.000
 "
+

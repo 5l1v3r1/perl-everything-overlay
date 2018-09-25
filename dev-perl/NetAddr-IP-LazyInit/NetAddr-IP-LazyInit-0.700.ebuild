@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RDRAKE"
-DIST_VERSION="0.7"
-DIST_A="NetAddr-IP-LazyInit-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "
+

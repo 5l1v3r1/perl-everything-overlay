@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TAVIN"
-DIST_VERSION="0.2007054"
-DIST_A="MySQL-Packet-0.2007054.tar.gz"
+DIST_VERSION="0.2007054" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

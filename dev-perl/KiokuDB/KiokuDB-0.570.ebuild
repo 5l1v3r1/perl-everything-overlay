@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.57"
-DIST_A="KiokuDB-0.57.tar.gz"
+DIST_VERSION="0.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Cache-Ref-0.020
 	dev-perl/Class-Load
-	>=dev-perl/Data-Stream-Bulk-0.080
+	dev-perl/Data-Stream-Bulk
 	dev-perl/Data-Swap
 	>=dev-perl/Data-UUID-1.203
 	>=dev-perl/Data-Visitor-0.240
@@ -55,7 +54,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-if
 "
+

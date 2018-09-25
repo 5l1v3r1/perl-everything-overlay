@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="INA"
-DIST_VERSION="2.13.4.19"
-DIST_A="Jacode-2.13.4.19.tar.gz"
-SRC_URI="mirror://cpan/authors/id/I/IN/INA/Jacode/Jacode-2.13.4.19.tar.gz"
+DIST_VERSION="2.13.4.19" 
+SRC_URI="mirror://cpan/authors/id/I/IN/INA/Jacode/Jacode-2.13.4.19.tar.gz -> Jacode-2.13.4.19.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Jacode-2.13.4.19 ${WORKDIR}/Jacode-2.13.4.19
+}
+

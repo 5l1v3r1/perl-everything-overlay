@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOPPIT"
-DIST_VERSION="0.0306"
-DIST_A="Module-Install-Bugtracker-0.0306.tar.gz"
+DIST_VERSION="0.0306" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

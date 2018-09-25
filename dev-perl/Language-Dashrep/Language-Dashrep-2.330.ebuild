@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FOBES"
-DIST_VERSION="2.33"
-DIST_A="Language-Dashrep-2.33.tar.gz"
+DIST_VERSION="2.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

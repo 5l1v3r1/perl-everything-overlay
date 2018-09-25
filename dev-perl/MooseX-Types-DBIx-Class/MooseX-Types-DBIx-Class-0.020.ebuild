@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CYCLES"
-DIST_VERSION="0.02"
-DIST_A="MooseX-Types-DBIx-Class-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/SQL-Translator-0.110.060
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCOPPIT"
-DIST_VERSION="0.1105"
-DIST_A="Module-Install-CheckOptional-0.1105.tar.gz"
+DIST_VERSION="0.1105" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Module-Install
+	>=dev-perl/Module-Install-0.880
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Test-Simple
 "
+

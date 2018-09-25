@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DJBURKE"
-DIST_VERSION="1.00"
-DIST_A="Inline-SLang-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

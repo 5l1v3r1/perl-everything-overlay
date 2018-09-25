@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="EIJABB"
-DIST_VERSION="1.52"
-DIST_A="MARC-Lint_1.52.tar.gz"
+DIST_VERSION="1.52" 
+SRC_URI="mirror://cpan/authors/id/E/EI/EIJABB/MARC-Lint_1.52.tar.gz -> MARC-Lint-1.52.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MARC-Lint_1.52 ${WORKDIR}/MARC-Lint-1.52
+}
+

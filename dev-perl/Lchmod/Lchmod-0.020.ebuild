@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="0.02"
-DIST_A="Lchmod-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

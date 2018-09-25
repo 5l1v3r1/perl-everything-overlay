@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSJEWELL"
-DIST_VERSION="0.101"
-DIST_A="Module-Release-CSJEWELL-0.101.tar.gz"
+DIST_VERSION="0.101" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.330
 	>=virtual/perl-Test-Simple-0.610
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JIMMY"
-DIST_VERSION="0.001"
-DIST_A="Lingua-PT-Capitalizer-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/base
 	dev-perl/common-sense
 	virtual/perl-Exporter
 "
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

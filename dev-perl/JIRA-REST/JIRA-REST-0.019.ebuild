@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GNUSTAVO"
-DIST_VERSION="0.019"
-DIST_A="JIRA-REST-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

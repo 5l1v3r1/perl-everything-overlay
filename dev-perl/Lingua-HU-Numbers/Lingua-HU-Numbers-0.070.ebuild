@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SZBALINT"
-DIST_VERSION="0.07"
-DIST_A="Lingua-HU-Numbers-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

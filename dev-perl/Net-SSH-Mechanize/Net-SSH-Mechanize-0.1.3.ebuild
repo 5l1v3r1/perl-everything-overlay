@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WULEE"
-DIST_VERSION="0.1.3"
-DIST_A="Net-SSH-Mechanize-0.1.3.tar.gz"
+DIST_VERSION="0.1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Text-ParseWords
 "
+

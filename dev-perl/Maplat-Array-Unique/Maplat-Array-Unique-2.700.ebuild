@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CAVAC"
-DIST_VERSION="2.7"
-DIST_A="Maplat-Array-Unique-2.7.tar.gz"
+DIST_VERSION="2.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

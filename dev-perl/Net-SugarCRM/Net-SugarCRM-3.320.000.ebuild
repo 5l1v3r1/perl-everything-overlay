@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NITO"
-DIST_VERSION="3.320000"
-DIST_A="Net-SugarCRM-3.320000.tar.gz"
+DIST_VERSION="3.320000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

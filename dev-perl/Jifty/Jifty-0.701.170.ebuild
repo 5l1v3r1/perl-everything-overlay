@@ -76,7 +76,7 @@ RDEPEND="
 	>=dev-perl/WWW-Mechanize-1.120
 	dev-perl/XML-Simple
 	dev-perl/XML-XPath
-	>=dev-perl/YAML-Syck-0.150
+	>=dev-perl/YAML-Syck-0.710
 	dev-perl/libwww-perl
 	>=virtual/perl-ExtUtils-MakeMaker-6.110
 	virtual/perl-IO-Compress

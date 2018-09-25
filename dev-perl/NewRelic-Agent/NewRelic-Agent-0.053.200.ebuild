@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TIMB"
-DIST_VERSION="0.0532"
-DIST_A="NewRelic-Agent-0.0532.tar.gz"
+DIST_VERSION="0.0532" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOOK"
-DIST_VERSION="0.13"
-DIST_A="Net-Proxy-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-File-Spec
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 "
+

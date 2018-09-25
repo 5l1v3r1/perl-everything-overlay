@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINIMAL"
-DIST_VERSION="0.205"
-DIST_A="Kelp-Module-RDBO-0.205.tar.gz"
+DIST_VERSION="0.205" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/DBD-SQLite
+	dev-perl/lib
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

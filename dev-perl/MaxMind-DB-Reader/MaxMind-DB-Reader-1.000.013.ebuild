@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="1.000013"
-DIST_A="MaxMind-DB-Reader-1.000013.tar.gz"
+DIST_VERSION="1.000013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,9 @@ RDEPEND="
 	>=dev-perl/Data-Validate-IP-0.250
 	dev-perl/DateTime
 	dev-perl/List-AllUtils
-	dev-perl/MaxMind-DB-Common
+	>=dev-perl/MaxMind-DB-Common-0.040.001
 	dev-perl/Module-Implementation
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003.000
 	dev-perl/MooX-StrictConstructor
 	>=dev-perl/Role-Tiny-1.003.002
 	dev-perl/namespace-autoclean
@@ -43,8 +42,10 @@ DEPEND="
 	dev-perl/Test-Fatal
 	dev-perl/Test-Number-Delta
 	dev-perl/Test-Requires
+	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	>=virtual/perl-Scalar-List-Utils-1.420
 	>=virtual/perl-Test-Simple-0.960
 "
+

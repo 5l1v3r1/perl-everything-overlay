@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHIPS"
-DIST_VERSION="0.06"
-DIST_A="Net-AMQP-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=virtual/perl-File-Temp-0.190
 	>=virtual/perl-Test-Simple-0.880
 "
+

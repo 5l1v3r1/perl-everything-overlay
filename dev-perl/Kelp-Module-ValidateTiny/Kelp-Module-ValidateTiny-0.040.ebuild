@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRBHAT"
-DIST_VERSION="0.04"
-DIST_A="Kelp-Module-ValidateTiny-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,5 +27,7 @@ DEPEND="
 	${RDEPEND}
 	dev-lang/perl
 	dev-perl/HTTP-Message
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

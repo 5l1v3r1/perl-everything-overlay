@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MFONTANI"
-DIST_VERSION="0.173450"
-DIST_A="Net-Amazon-Route53-0.173450.tar.gz"
+DIST_VERSION="0.173450" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

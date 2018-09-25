@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WKI"
-DIST_VERSION="0.02"
-DIST_A="MacPerl-AppleScript-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,9 +18,10 @@ RDEPEND="
 	>=dev-perl/Mac-Carbon-1.040
 	>=dev-perl/Parse-RecDescent-1.940
 	>=virtual/perl-Test-Harness-2.420
-	>=virtual/perl-Test-Simple-1.020
+	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

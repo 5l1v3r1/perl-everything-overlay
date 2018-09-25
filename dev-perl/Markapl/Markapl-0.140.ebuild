@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUGOD"
-DIST_VERSION="0.14"
-DIST_A="Markapl-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=dev-perl/HTML-Lint-2.060
+	dev-perl/HTML-Lint
 	>=virtual/perl-Test-Simple-0.420
 "
+

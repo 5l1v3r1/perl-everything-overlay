@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Log-Log4perl"
-DIST_VERSION="0.01"
-DIST_A="Log-Log4perl-Appender-File-FixedSize-0.01.tar.gz"
+DIST_AUTHOR="HOREA"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/H/HO/HOREA/Log-Log4perl/Log-Log4perl-Appender-File-FixedSize-0.01.tar.gz -> Log-Log4perl-Appender-File-FixedSize-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Log-Log4perl-Appender-File-FixedSize-0.01 ${WORKDIR}/Log-Log4perl-Appender-File-FixedSize-0.01
+}
+

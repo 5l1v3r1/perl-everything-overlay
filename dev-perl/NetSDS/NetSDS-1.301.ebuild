@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RATTLER"
-DIST_VERSION="1.301"
-DIST_A="NetSDS-1.301.tar.gz"
+DIST_VERSION="1.301" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/CGI-3.290
+	dev-perl/CGI
 	dev-perl/CGI-Fast
 	dev-perl/Class-Accessor
 	dev-perl/Class-Accessor-Class
@@ -44,3 +43,4 @@ DEPEND="
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Test-Simple
 "
+

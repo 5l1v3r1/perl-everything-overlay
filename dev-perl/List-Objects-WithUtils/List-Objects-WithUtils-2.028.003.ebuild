@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVENJ"
-DIST_VERSION="2.028003"
-DIST_A="List-Objects-WithUtils-2.028003.tar.gz"
+DIST_VERSION="2.028003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,6 @@ RDEPEND="
 	>=dev-perl/Module-Runtime-0.013
 	>=dev-perl/Role-Tiny-1.003
 	>=dev-perl/Type-Tie-0.004
-	dev-perl/autobox
 	>=dev-perl/strictures-2.000
 	virtual/perl-Carp
 	virtual/perl-Exporter
@@ -35,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.880
 "
+

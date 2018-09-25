@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IAMB"
-DIST_VERSION="0.100"
-DIST_A="MooseX-Role-Tempdir-0.100.tar.gz"
+DIST_VERSION="0.100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

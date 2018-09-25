@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.1001"
-DIST_A="Map-Metro-Plugin-Map-Madrid-0.1001.tar.gz"
+DIST_VERSION="0.1001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

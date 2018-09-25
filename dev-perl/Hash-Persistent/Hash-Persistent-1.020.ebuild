@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MMCLERIC"
-DIST_VERSION="1.02"
-DIST_A="Hash-Persistent-1.02.tar.gz"
+DIST_VERSION="1.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,5 +28,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IPC-System-Simple
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	>=virtual/perl-Test-Simple-0.950
 "
+

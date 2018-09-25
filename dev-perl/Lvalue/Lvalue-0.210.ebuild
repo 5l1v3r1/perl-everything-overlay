@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASG"
-DIST_VERSION="0.21"
-DIST_A="Lvalue-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOHND"
-DIST_VERSION="1.006"
-DIST_A="Ima-DBI-Contextual-1.006.tar.gz"
+DIST_VERSION="1.006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,9 +19,10 @@ RDEPEND="
 	>=dev-perl/DBI-1.614
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

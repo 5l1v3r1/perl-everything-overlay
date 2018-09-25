@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ESUMMERS"
-DIST_VERSION="1.41"
-DIST_A="MARC-Detrans-1.41.tar.gz"
+DIST_VERSION="1.41" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

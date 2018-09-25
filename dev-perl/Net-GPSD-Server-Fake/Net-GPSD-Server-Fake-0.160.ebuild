@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MRDVT"
-DIST_VERSION="0.16"
-DIST_A="Net-GPSD-Server-Fake-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	>=dev-perl/GPS-SpaceTrack-0.110
 	>=dev-perl/Geo-Forward-0.090
 	>=dev-perl/Geo-Functions-0.050
-	>=dev-perl/Net-GPSD-0.350
+	>=dev-perl/Net-GPSD-0.300
 	virtual/perl-IO
 	virtual/perl-Time-HiRes
 "
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

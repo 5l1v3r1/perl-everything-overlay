@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVAZ"
-DIST_VERSION="0.01002"
-DIST_A="Image-Fixup-0.01002.tar.gz"
+DIST_VERSION="0.01002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

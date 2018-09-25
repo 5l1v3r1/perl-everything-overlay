@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PKALUSKI"
-DIST_VERSION="0.16"
-DIST_A="LRpt_0.16.tar.gz"
+DIST_VERSION="0.16" 
+SRC_URI="mirror://cpan/authors/id/P/PK/PKALUSKI/LRpt_0.16.tar.gz -> LRpt-0.16.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LRpt_0.16 ${WORKDIR}/LRpt-0.16
+}
+

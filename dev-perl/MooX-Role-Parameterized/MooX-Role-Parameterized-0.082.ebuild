@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PACMAN"
-DIST_VERSION="0.082"
-DIST_A="MooX-Role-Parameterized-0.082.tar.gz"
+DIST_VERSION="0.082" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

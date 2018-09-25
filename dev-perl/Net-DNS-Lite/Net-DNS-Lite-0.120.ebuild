@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KAZUHO"
-DIST_VERSION="0.12"
-DIST_A="Net-DNS-Lite-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Requires
 	>=virtual/perl-Test-Simple-0.880
 "
+

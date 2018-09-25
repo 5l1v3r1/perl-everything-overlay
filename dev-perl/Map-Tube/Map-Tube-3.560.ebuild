@@ -5,7 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="3.56"
+DIST_VERSION="3.56" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-2.600
 	>=dev-perl/File-ShareDir-1.114
 	>=dev-perl/JSON-2.900
 	>=dev-perl/Map-Tube-Exception-3.160

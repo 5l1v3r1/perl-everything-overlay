@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KWILLIAMS"
-DIST_VERSION="0.05"
-DIST_A="Lingua-CollinsParser-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.210
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

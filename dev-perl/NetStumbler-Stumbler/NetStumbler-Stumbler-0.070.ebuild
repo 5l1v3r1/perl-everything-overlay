@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SSCOTTO"
-DIST_VERSION="0.07"
-DIST_A="NetStumbler-Stumbler-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

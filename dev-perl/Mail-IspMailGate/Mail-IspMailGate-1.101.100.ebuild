@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWIED"
-DIST_VERSION="1.1011"
-DIST_A="Mail-IspMailGate-1.1011.tar.gz"
+DIST_VERSION="1.1011" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

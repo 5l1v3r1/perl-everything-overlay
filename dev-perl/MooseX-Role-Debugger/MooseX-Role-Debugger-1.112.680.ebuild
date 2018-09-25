@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DHOUSTON"
-DIST_VERSION="1.112680"
-DIST_A="MooseX-Role-Debugger-1.112680.tar.gz"
+DIST_VERSION="1.112680" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Moose
 	virtual/perl-Test-Simple
 "
+

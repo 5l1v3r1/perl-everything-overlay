@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZHTWN"
-DIST_VERSION="0.02"
-DIST_A="MooX-PluginRoles-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,9 +26,11 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/Hook-LexWrap
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

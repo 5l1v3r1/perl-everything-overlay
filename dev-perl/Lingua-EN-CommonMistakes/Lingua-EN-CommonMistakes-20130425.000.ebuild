@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROHANPM"
-DIST_VERSION="20130425.0"
-DIST_A="Lingua-EN-CommonMistakes-20130425.tar.gz"
+DIST_VERSION="20130425" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Warn
 	virtual/perl-Test-Simple
 "
+

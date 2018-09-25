@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AMIRITE"
-DIST_VERSION="0.01"
-DIST_A="Mojolicious-Plugin-DumpyLog-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

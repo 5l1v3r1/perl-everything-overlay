@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IKENOX"
-DIST_VERSION="1.04"
-DIST_A="MouseX-Types-Enum-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,6 +20,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.420
 	>=virtual/perl-Test-Simple-0.980
 "
+

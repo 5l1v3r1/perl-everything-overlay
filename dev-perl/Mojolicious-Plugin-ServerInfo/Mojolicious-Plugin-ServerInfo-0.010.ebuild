@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLLMERS"
-DIST_VERSION="0.010"
-DIST_A="Mojolicious-Plugin-ServerInfo-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

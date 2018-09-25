@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAKAMAKA"
-DIST_VERSION="1.09"
-DIST_A="JSON-PP-Compat5006-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

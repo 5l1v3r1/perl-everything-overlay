@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETAMEM"
-DIST_VERSION="0.1192"
-DIST_A="Lingua-ZHO-Numbers-0.1192.tar.gz"
+DIST_VERSION="0.1192" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

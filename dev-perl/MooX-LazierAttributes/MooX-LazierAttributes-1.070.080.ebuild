@@ -5,10 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LNATION"
-DIST_VERSION="1.07008"
-DIST_A="MooX-LazierAttributes-1.07008.tar.gz"
-b=L/LN/LNATION/MooX-LazierAttributes-1.07008tar.gz
-SRC_URI="mirror://cpan/authors/id/L/LN/LNATION/MooX-LazierAttributes-1.07008.tar.gz -> ${P}.tar.gz"
+DIST_VERSION="1.07008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

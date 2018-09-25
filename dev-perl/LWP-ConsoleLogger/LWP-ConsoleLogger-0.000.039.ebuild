@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OALDERS"
-DIST_VERSION="0.000039"
-DIST_A="LWP-ConsoleLogger-0.000039.tar.gz"
+DIST_VERSION="0.000039" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -65,3 +64,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CEBJYRE"
-DIST_VERSION="v0.8.0"
-DIST_A="Net-Google-FederatedLogin-0.8.0.tar.gz"
+DIST_VERSION="0.8.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Mock-LWP
 	virtual/perl-Test-Simple
 "
+

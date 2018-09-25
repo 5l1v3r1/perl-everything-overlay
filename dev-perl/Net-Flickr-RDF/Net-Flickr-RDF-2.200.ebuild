@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASCOPE"
-DIST_VERSION="2.2"
-DIST_A="Net-Flickr-RDF-2.2.tar.gz"
+DIST_VERSION="2.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	>=virtual/perl-Test-Simple-0.470
 "
+

@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/AnyEvent-HTTP-Socks
 	dev-perl/Coro
 	dev-perl/HTTP-Message
-	dev-perl/libwww-perl
+	>=dev-perl/libwww-perl-5.827
 	virtual/perl-version
 "
 DEPEND="

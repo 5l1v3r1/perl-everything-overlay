@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SSCHECK"
-DIST_VERSION="0.16"
-DIST_A="Net-BGP-0.16.tar.gz"
+DIST_VERSION="0.16" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-Test-Harness-2.000
 	>=virtual/perl-Test-Simple-0.470
 "
+

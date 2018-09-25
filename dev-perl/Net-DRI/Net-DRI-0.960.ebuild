@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMEVZEK"
-DIST_VERSION="0.96"
-DIST_A="Net-DRI-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

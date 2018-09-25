@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MINIMAL"
-DIST_VERSION="0.14"
-DIST_A="Mojolicious-Plugin-Bcrypt-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Crypt-Eksblowfish
-	>=dev-perl/Mojolicious-4.000
+	dev-perl/Mojolicious
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
+

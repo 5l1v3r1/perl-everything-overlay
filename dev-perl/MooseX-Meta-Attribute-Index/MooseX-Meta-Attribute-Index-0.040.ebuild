@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CTBROWN"
-DIST_VERSION="0.04"
-DIST_A="MooseX-Meta-Attribute-Index-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,9 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 "
+

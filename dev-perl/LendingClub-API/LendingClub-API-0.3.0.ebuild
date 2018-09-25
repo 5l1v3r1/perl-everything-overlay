@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRYPTOGRA"
-DIST_VERSION="v0.3.0"
-DIST_A="LendingClub-API-0.3.0.tar.gz"
+DIST_VERSION="0.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NJWALKER"
-DIST_VERSION="0.008"
-DIST_A="MooseX-Role-LogHandler-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	dev-perl/Test-Spec
 	virtual/perl-autodie
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TRIZEN"
-DIST_VERSION="0.27"
-DIST_A="Math-AnyNum-0.27.tar.gz"
+DIST_VERSION="0.27" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

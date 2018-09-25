@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOLLMERS"
-DIST_VERSION="0.01"
-DIST_A="John-Doe-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.036
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

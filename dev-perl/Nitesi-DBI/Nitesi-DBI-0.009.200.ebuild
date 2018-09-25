@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HORNBURG"
-DIST_VERSION="0.0092"
-DIST_A="Nitesi-DBI-0.0092.tar.gz"
+DIST_VERSION="0.0092" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Database
 	virtual/perl-Test-Simple
 "
+

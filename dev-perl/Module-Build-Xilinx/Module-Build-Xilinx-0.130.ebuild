@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VIKAS"
-DIST_VERSION="0.13"
-DIST_A="Module-Build-Xilinx-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Software-License
 	virtual/perl-Test-Simple
 "
+

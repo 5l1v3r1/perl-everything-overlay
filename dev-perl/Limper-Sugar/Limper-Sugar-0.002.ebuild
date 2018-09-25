@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEYW"
-DIST_VERSION="0.002"
-DIST_A="Limper-Sugar-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Limper-0.012
+	dev-perl/base
 	virtual/perl-File-Spec
 "
 DEPEND="
@@ -25,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

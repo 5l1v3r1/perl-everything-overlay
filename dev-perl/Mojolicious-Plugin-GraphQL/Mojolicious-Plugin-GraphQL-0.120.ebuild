@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="0.12"
-DIST_A="Mojolicious-Plugin-GraphQL-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.63.03
 	>=virtual/perl-Test-Simple-0.920
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICKEY"
-DIST_VERSION="2.025000"
-DIST_A="MetaCPAN-Client-2.025000.tar.gz"
+DIST_VERSION="2.025000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

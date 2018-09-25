@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUNNAVY"
-DIST_VERSION="0.19"
-DIST_A="Net-Google-Code-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,6 @@ RDEPEND="
 	dev-perl/MIME-Types
 	dev-perl/Params-Validate
 	dev-perl/Test-Mock-LWP
-	dev-perl/Test-MockModule
 	dev-perl/URI
 	dev-perl/WWW-Mechanize
 	dev-perl/XML-FeedPP
@@ -35,3 +33,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="IPC-Door"
-DIST_VERSION="0.11"
-DIST_A="IPC-Door-0.11.tar.gz"
+DIST_AUTHOR="ASARIH"
+DIST_VERSION="0.11" 
+SRC_URI="mirror://cpan/authors/id/A/AS/ASARIH/IPC-Door/IPC-Door-0.11.tar.gz -> IPC-Door-0.11.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/IPC-Door-0.11 ${WORKDIR}/IPC-Door-0.11
+}
+

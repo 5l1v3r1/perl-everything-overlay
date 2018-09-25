@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HAOYAYOI"
-DIST_VERSION="0.0202"
-DIST_A="Net-APNS-0.0202.tar.gz"
+DIST_VERSION="0.0202" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "
+

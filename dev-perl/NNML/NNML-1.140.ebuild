@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ULPFR"
-DIST_VERSION="1.14"
-DIST_A="NNML-1.14.tar.gz"
+DIST_VERSION="1.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-IO-1.130
+	virtual/perl-IO
 	>=virtual/perl-libnet-2.070
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

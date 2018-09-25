@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DENIK"
-DIST_VERSION="0.03"
-DIST_A="Lingua-Identify-CLD2-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-Typemaps-Default-0.040
 	>=dev-perl/ExtUtils-XSpp-0.180
 "
+

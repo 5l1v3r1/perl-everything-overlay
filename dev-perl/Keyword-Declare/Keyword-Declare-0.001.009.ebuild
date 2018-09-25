@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DCONWAY"
-DIST_VERSION="0.001009"
-DIST_A="Keyword-Declare-0.001009.tar.gz"
+DIST_VERSION="0.001009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Keyword-Simple
+	>=dev-perl/Keyword-Simple-0.030
 	>=dev-perl/PPR-0.000.015
 	>=virtual/perl-Scalar-List-Utils-1.450
 "
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-7.000
 	virtual/perl-Test-Simple
 "
+

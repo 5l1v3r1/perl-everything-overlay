@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="1.033"
-DIST_A="Locale-TextDomain-OO-1.033.tar.gz"
+DIST_VERSION="1.033" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,11 +21,11 @@ RDEPEND="
 	>=dev-perl/JSON-2.500
 	>=dev-perl/Locale-MO-File-0.080
 	>=dev-perl/Locale-PO-0.240
-	dev-perl/Locale-TextDomain-OO-Util
+	>=dev-perl/Locale-TextDomain-OO-Util-3.006
 	>=dev-perl/Locale-Utils-PlaceholderBabelFish-0.001
 	>=dev-perl/Locale-Utils-PlaceholderMaketext-1.000
 	>=dev-perl/Locale-Utils-PlaceholderNamed-1.000
-	>=dev-perl/Moo-1.003.001
+	dev-perl/Moo
 	dev-perl/MooX-Singleton
 	dev-perl/MooX-StrictConstructor
 	dev-perl/MooX-Types-MooseLike
@@ -46,3 +45,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

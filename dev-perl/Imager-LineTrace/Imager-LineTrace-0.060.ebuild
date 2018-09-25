@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMITOH"
-DIST_VERSION="0.06"
-DIST_A="Imager-LineTrace-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

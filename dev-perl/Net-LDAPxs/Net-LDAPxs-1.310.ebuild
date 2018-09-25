@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PANYU"
-DIST_VERSION="1.31"
-DIST_A="Net-LDAPxs-1.31.tar.gz"
+DIST_VERSION="1.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

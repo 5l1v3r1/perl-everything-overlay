@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JIMBOB"
-DIST_VERSION="0.11"
-DIST_A="Memoize-Memcached-Attribute-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,7 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
+	dev-perl/base
 	virtual/perl-Test-Simple
 "
+

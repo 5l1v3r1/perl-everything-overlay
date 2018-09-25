@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FXFX"
-DIST_VERSION="1.057"
-DIST_A="Integrator-Module-Build-1.057.tar.gz"
+DIST_VERSION="1.057" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,9 +35,11 @@ DEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTML-Tagset
 	dev-perl/Method-Alias
+	dev-perl/Module-Build
 	dev-perl/Module-Starter
 	>=dev-perl/Test-TAP-Model-0.066.660
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-IO-Compress
 "
+

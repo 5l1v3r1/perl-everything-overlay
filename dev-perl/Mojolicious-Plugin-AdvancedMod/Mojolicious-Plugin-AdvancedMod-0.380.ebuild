@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRISHKOV"
-DIST_VERSION="0.38"
-DIST_A="Mojolicious-Plugin-AdvancedMod-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

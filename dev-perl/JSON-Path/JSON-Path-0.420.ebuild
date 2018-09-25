@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="POPEFELIX"
-DIST_VERSION="0.420"
-DIST_A="JSON-Path-0.420.tar.gz"
+DIST_VERSION="0.420" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	dev-perl/Tie-IxHash
 	virtual/perl-Test-Simple
 "
+

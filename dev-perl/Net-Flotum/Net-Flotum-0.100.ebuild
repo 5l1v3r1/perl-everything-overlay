@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RENTOCRON"
-DIST_VERSION="0.10"
-DIST_A="Net-Flotum-0.10.tar.gz"
+DIST_VERSION="0.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,8 +32,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Pod
 	>=dev-perl/URL-Encode-0.030
 	dev-perl/libwww-perl
 	>=virtual/perl-Test-Simple-0.960
 "
+

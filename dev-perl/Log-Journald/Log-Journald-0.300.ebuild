@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LKUNDRAK"
-DIST_VERSION="0.30"
-DIST_A="Log-Journald-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-CBuilder
 "
+

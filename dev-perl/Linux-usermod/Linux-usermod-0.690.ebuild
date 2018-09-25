@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VIDUL"
-DIST_VERSION="0.69"
-DIST_A="Linux-usermod-0.69.tar.gz"
+DIST_VERSION="0.69" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

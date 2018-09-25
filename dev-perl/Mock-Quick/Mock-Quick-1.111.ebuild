@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EXODIST"
-DIST_VERSION="1.111"
-DIST_A="Mock-Quick-1.111.tar.gz"
+DIST_VERSION="1.111" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.290
 	>=virtual/perl-Test-Simple-0.880
 "
+

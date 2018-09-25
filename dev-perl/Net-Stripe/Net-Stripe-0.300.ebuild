@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RCONOVER"
-DIST_VERSION="0.30"
-DIST_A="Net-Stripe-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

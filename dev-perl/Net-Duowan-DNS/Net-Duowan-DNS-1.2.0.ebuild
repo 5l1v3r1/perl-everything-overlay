@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="YHPENG"
 DIST_VERSION="1.2.0"
-DIST_A="Net-Duowan-DNS-1.2.0.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Test-Simple
 "
+

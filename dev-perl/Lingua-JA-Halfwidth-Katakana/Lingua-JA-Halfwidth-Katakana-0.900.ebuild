@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PAWAPAWA"
-DIST_VERSION="0.90"
-DIST_A="Lingua-JA-Halfwidth-Katakana-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Base
 	>=virtual/perl-Test-Simple-0.880
 "
+

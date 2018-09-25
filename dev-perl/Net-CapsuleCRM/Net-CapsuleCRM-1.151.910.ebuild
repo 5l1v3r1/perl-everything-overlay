@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ELLIOTT"
-DIST_VERSION="1.151910"
-DIST_A="Net-CapsuleCRM-1.151910.tar.gz"
+DIST_VERSION="1.151910" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

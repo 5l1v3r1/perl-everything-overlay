@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SMUELLER"
-DIST_VERSION="0.06"
-DIST_A="Math-ThinPlateSpline-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-Typemaps-Default-0.050
 	>=dev-perl/ExtUtils-XSpp-0.150
 "
+

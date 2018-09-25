@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MANWAR"
-DIST_VERSION="0.55"
-DIST_A="Map-Tube-CLI-0.55.tar.gz"
+DIST_VERSION="0.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	>=dev-perl/Capture-Tiny-0.280
 	virtual/perl-Test-Simple
 "
+

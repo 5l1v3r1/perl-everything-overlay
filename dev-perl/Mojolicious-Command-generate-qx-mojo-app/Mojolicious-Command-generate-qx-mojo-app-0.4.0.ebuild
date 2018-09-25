@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OETIKER"
-DIST_VERSION="v0.4.0"
-DIST_A="Mojolicious-Command-generate-qx_mojo_app-0.4.0.tar.gz"
+DIST_VERSION="0.4.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/CPAN-Uploader
 "
+

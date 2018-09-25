@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YTURTLE"
-DIST_VERSION="0.07"
-DIST_A="Net-Azure-EventHubs-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Time
 	>=virtual/perl-Test-Simple-0.980
 "
+

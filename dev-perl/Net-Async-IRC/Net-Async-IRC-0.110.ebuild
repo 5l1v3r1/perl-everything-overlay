@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.11"
-DIST_A="Net-Async-IRC-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,12 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/IO-Async-0.590
+	>=dev-perl/IO-Async-0.540
 	>=dev-perl/Protocol-IRC-0.120
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	>=virtual/perl-Test-Simple-0.880
 "
+

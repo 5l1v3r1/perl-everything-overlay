@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBRIAN"
-DIST_VERSION="0.74"
-DIST_A="Lingua-Wordnet-0.74.tar.gz"
+DIST_VERSION="0.74" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

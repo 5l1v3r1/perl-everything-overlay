@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIMCOP"
-DIST_VERSION="0.9.1"
-DIST_A="Language-Farnsworth-Functions-GoogleTranslate-0.9.1.tar.gz"
+DIST_VERSION="0.9.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

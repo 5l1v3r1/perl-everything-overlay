@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FRANCKC"
-DIST_VERSION="0.06"
-DIST_A="MooseX-Net-API-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

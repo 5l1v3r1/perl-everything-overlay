@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOROL"
-DIST_VERSION="0.07"
-DIST_A="MARC-Schema-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Script
 	dev-perl/Test2-Suite
 	>=virtual/perl-Test-Simple-0.960
 "
+

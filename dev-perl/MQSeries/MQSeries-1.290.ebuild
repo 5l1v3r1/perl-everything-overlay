@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HBIERSMA"
-DIST_VERSION="1.29"
-DIST_A="MQSeries-1.29.tar.gz"
+DIST_VERSION="1.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

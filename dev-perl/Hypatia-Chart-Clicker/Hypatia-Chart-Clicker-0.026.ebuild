@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACKMANEY"
-DIST_VERSION="0.026"
-DIST_A="Hypatia-Chart-Clicker-0.026.tar.gz"
+DIST_VERSION="0.026" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

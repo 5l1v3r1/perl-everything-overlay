@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AZJADFTRE"
-DIST_VERSION="1.6"
-DIST_A="Mojolicious-Plugin-QuickPg-1.6.tar.gz"
+DIST_VERSION="1.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,5 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

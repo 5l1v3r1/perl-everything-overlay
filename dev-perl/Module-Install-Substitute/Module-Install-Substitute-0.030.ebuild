@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RUZ"
-DIST_VERSION="0.03"
-DIST_A="Module-Install-Substitute-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Test-File-Contents
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
@@ -25,3 +24,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

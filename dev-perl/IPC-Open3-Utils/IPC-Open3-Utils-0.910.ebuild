@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMUEY"
-DIST_VERSION="0.91"
-DIST_A="IPC-Open3-Utils-0.91.tar.gz"
+DIST_VERSION="0.91" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

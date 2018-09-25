@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEANZ"
-DIST_VERSION="1.163170"
-DIST_A="Net-MQTT-1.163170.tar.gz"
+DIST_VERSION="1.163170" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Pluggable
 	dev-perl/Pod-Usage
+	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

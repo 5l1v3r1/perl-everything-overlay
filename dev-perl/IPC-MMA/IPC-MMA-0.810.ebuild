@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MACKENNA"
-DIST_VERSION="0.81"
-DIST_A="IPC-MMA-0.81.tar.gz"
+DIST_VERSION="0.81" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Devel-CheckOS
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 "
+

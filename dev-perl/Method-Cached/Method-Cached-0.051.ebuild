@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOXPHERE"
-DIST_VERSION="0.051"
-DIST_A="Method-Cached-0.051.tar.gz"
+DIST_VERSION="0.051" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Sub-Attribute-0.020
 	>=dev-perl/UNIVERSAL-require-0.110
 	>=virtual/perl-Digest-SHA-5.470
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-MIME-Base64-3.070
 	>=virtual/perl-Storable-2.180
 	virtual/perl-Test-Simple
@@ -30,3 +29,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

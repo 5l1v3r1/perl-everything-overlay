@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JWIED"
-DIST_VERSION="1.1835"
-DIST_A="Msql-Mysql-modules-1.1835.tar.gz"
+DIST_VERSION="1.1835" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +19,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

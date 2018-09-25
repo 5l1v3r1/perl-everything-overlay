@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ZURBORG"
-DIST_VERSION="0.001"
-DIST_A="Method-Signatures-WithDocumentation-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -38,3 +37,4 @@ DEPEND="
 	dev-perl/base
 	virtual/perl-Exporter
 "
+

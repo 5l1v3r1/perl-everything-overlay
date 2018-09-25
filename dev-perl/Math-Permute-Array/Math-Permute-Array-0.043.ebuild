@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JNQUINTIN"
-DIST_VERSION="0.043"
-DIST_A="Math-Permute-Array-0.043.tar.gz"
+DIST_VERSION="0.043" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Exporter
 "
+

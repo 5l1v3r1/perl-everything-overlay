@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROBLEACH"
-DIST_VERSION="2.1.0"
-DIST_A="IO-Pipe-Producer-2.01.tar.gz"
+DIST_VERSION="2.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

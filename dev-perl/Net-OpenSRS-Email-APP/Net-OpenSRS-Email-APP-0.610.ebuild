@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKG"
-DIST_VERSION="0.61"
-DIST_A="Net-OpenSRS-Email_APP-0.61.tar.gz"
+DIST_VERSION="0.61" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STRZELEC"
-DIST_VERSION="0.161"
-DIST_A="Net-uFTP-0.161.tar.gz"
+DIST_VERSION="0.161" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

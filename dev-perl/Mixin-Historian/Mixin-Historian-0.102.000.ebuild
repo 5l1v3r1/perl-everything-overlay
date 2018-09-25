@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJBS"
-DIST_VERSION="0.102000"
-DIST_A="Mixin-Historian-0.102000.tar.gz"
+DIST_VERSION="0.102000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-IO
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONYC"
-DIST_VERSION="0.013"
-DIST_A="Imager-Screenshot-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Imager-0.880
+	dev-perl/Imager
 	virtual/perl-XSLoader
 "
 DEPEND="
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

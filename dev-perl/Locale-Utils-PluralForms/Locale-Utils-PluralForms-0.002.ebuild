@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEFFENW"
-DIST_VERSION="0.002"
-DIST_A="Locale-Utils-PluralForms-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,8 +25,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Differences
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

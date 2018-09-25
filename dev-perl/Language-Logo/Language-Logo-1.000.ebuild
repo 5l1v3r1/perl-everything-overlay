@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="LanguageLogo"
-DIST_VERSION="1.000"
-DIST_A="Language-Logo-1.000.tar.gz"
+DIST_AUTHOR="JCNORTON"
+DIST_VERSION="1.000" 
+SRC_URI="mirror://cpan/authors/id/J/JC/JCNORTON/LanguageLogo/Language-Logo-1.000.tar.gz -> Language-Logo-1.000.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Language-Logo-1.000 ${WORKDIR}/Language-Logo-1.000
+}
+

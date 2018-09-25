@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LETO"
-DIST_VERSION="2.13"
-DIST_A="Math-MatrixReal-2.13.tar.gz"
+DIST_VERSION="2.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/Test-Most
 	virtual/perl-File-Spec
 "
+

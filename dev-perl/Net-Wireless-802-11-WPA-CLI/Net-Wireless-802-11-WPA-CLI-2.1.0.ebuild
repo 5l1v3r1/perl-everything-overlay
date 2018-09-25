@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVELOX"
-DIST_VERSION="2.1.0"
-DIST_A="Net-Wireless-802_11-WPA-CLI-2.1.0.tar.gz"
+DIST_VERSION="2.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

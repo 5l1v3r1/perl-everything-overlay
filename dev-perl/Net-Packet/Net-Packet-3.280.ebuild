@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOMOR"
-DIST_VERSION="3.28"
-DIST_A="Net-Packet-3.28.tar.gz"
+DIST_VERSION="3.28" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 "
+

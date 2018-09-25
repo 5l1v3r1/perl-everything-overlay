@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PENMA"
-DIST_VERSION="0.01"
-DIST_A="Hash-PriorityQueue-0.01.tar.gz"
+DIST_VERSION="0.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360
 "
+

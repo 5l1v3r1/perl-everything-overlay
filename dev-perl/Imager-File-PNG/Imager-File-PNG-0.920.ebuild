@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONYC"
-DIST_VERSION="0.92"
-DIST_A="Imager-File-PNG-0.92.tar.gz"
+DIST_VERSION="0.92" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

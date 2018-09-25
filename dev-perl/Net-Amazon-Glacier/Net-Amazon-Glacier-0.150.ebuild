@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBARCO"
-DIST_VERSION="0.15"
-DIST_A="Net-Amazon-Glacier-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300.200
 	virtual/perl-Test-Simple
 "
+

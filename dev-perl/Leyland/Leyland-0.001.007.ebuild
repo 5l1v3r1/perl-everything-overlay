@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDOPEREL"
-DIST_VERSION="0.001007"
-DIST_A="Leyland-0.001007.tar.gz"
+DIST_VERSION="0.001007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -46,3 +45,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

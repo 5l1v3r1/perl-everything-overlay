@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENE"
-DIST_VERSION="0.0401"
-DIST_A="MIDI-Tab-0.0401.tar.gz"
+DIST_VERSION="0.0401" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/MIDI-Perl
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -27,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

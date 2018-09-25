@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MASAKI"
-DIST_VERSION="0.07"
-DIST_A="MouseX-AttributeHelpers-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mouse-0.400
+	dev-perl/Mouse
 "
 DEPEND="
 	${RDEPEND}
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-UseAllModules
 	virtual/perl-Test-Simple
 "
+

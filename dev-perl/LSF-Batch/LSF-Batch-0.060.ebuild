@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="LSF_PERL_API"
-DIST_VERSION="0.06"
-DIST_A="LSF_Batch_0.06.tar.gz"
+DIST_AUTHOR="LSFISV"
+DIST_VERSION="0.06" 
+SRC_URI="mirror://cpan/authors/id/L/LS/LSFISV/LSF_PERL_API/LSF_Batch_0.06.tar.gz -> LSF_Batch-0.06.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,3 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/LSF_Batch_0.06 ${WORKDIR}/LSF_Batch-0.06
+}
+

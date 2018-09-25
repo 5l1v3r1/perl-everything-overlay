@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JKISTER"
 DIST_VERSION="1.01"
-DIST_A="Mail-VRFY-1.01.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,9 +18,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Net-DNS-0.580
 	>=dev-perl/Sys-Hostname-Long-1.400
-	>=virtual/perl-IO-1.130
+	>=virtual/perl-IO-1.000
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

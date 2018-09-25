@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FASTLY"
-DIST_VERSION="1.09"
-DIST_A="Net-Fastly-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,4 +29,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ULPFR"
-DIST_VERSION="0.220"
-DIST_A="Math-Approx-0.220.tar.gz"
+DIST_VERSION="0.220" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

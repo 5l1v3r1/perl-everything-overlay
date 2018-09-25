@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.30"
-DIST_A="MooseX-Singleton-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,13 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Moose
+	>=dev-perl/Moose-1.100
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
@@ -31,3 +31,4 @@ DEPEND="
 	virtual/perl-Module-Metadata
 	>=virtual/perl-Test-Simple-0.880
 "
+

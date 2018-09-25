@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CSSON"
-DIST_VERSION="0.0204"
-DIST_A="Mojolicious-Plugin-BootstrapHelpers-0.0204.tar.gz"
+DIST_VERSION="0.0204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,7 +19,7 @@ RDEPEND="
 	dev-perl/String-Random
 	>=dev-perl/String-Trim-0.004
 	>=dev-perl/experimental-0.008
-	>=virtual/perl-Scalar-List-Utils-1.290
+	>=virtual/perl-Scalar-List-Utils-1.440
 "
 DEPEND="
 	${RDEPEND}
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960
 "
+

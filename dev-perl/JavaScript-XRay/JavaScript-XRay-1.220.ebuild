@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JBISBEE"
-DIST_VERSION="1.22"
-DIST_A="JavaScript-XRay-1.22.tar.gz"
+DIST_VERSION="1.22" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,15 +16,16 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
+	dev-perl/Pod-Usage
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

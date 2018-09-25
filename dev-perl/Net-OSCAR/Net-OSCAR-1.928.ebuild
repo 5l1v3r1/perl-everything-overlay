@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TODDR"
-DIST_VERSION="1.928"
-DIST_A="Net-OSCAR-1.928.tar.gz"
+DIST_VERSION="1.928" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	virtual/perl-Test-Simple
 "
+

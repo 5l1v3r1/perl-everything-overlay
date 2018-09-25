@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAXMIND"
-DIST_VERSION="1.000005"
-DIST_A="MaxMind-DB-Reader-XS-1.000005.tar.gz"
+DIST_VERSION="1.000005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,8 +17,8 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-Int128
-	dev-perl/MaxMind-DB-Common
-	>=dev-perl/MaxMind-DB-Reader-1.000.012
+	>=dev-perl/MaxMind-DB-Common-0.040.001
+	dev-perl/MaxMind-DB-Reader
 	dev-perl/Moo
 	dev-perl/namespace-autoclean
 	virtual/perl-XSLoader
@@ -40,3 +39,4 @@ DEPEND="
 	virtual/perl-autodie
 	virtual/perl-version
 "
+

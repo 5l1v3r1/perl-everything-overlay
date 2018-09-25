@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KARUPA"
-DIST_VERSION="0.05"
-DIST_A="KeyedMutex-Memcached-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Cache-Memcached-Fast
 	dev-perl/File-Which
+	dev-perl/Module-Build
 	dev-perl/Proc-Guard
 	dev-perl/Test-Skip-UnlessExistsExecutable
 	dev-perl/Test-TCP
 	virtual/perl-Test-Simple
 "
+

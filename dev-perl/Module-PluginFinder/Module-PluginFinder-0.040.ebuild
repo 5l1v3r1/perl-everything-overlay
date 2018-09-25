@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEVANS"
-DIST_VERSION="0.04"
-DIST_A="Module-PluginFinder-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,8 +19,10 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Warn
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

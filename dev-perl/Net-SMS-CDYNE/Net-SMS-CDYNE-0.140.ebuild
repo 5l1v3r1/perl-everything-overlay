@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REVMISCHA"
-DIST_VERSION="0.14"
-DIST_A="Net-SMS-CDYNE-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Test-Simple
 "
+

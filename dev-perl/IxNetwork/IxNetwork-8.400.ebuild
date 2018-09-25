@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DGALAN"
-DIST_VERSION="8.40"
-DIST_A="IxNetwork-8.40.tar.gz"
+DIST_VERSION="8.40" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

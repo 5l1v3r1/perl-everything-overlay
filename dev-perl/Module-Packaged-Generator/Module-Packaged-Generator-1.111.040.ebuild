@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JQUELIN"
-DIST_VERSION="1.111040"
-DIST_A="Module-Packaged-Generator-1.111040.tar.gz"
+DIST_VERSION="1.111040" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

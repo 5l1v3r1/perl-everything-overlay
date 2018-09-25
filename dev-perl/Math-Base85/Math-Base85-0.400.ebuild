@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PTC"
-DIST_VERSION="0.4"
-DIST_A="Math-Base85-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test
 	virtual/perl-Test-Simple
 "
+

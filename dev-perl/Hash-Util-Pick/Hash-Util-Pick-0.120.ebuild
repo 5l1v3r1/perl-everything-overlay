@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PINE"
-DIST_VERSION="0.12"
-DIST_A="Hash-Util-Pick-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.430
 	>=virtual/perl-Test-Simple-0.980
 "
+

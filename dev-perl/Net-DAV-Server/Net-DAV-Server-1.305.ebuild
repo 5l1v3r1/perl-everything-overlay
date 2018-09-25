@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CPANEL"
-DIST_VERSION="1.305"
-DIST_A="Net-DAV-Server-1.305.tar.gz"
+DIST_VERSION="1.305" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,4 +34,6 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/IO-stringy
+	dev-perl/Module-Build
 "
+

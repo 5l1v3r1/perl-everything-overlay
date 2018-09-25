@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAMADAM"
-DIST_VERSION="0.19"
-DIST_A="Mojolicious-Plugin-PlackMiddleware-0.19.tar.gz"
+DIST_VERSION="0.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=dev-perl/Test-UseAllModules-0.100
 	>=virtual/perl-Test-Simple-0.470
 "
+

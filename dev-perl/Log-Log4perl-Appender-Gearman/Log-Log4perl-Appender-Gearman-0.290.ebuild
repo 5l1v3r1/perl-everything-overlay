@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLKAO"
-DIST_VERSION="0.29"
-DIST_A="Log-Log4perl-Appender-Gearman-0.29.tar.gz"
+DIST_VERSION="0.29" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

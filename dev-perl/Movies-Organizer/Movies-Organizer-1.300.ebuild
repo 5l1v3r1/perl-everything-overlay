@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CELOGEEK"
-DIST_VERSION="1.3"
-DIST_A="Movies-Organizer-1.3.tar.gz"
+DIST_VERSION="1.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -35,3 +34,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

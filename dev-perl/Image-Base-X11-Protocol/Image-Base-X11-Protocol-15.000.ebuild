@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="15.0"
-DIST_A="Image-Base-X11-Protocol-15.tar.gz"
+DIST_VERSION="15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test
 "
+

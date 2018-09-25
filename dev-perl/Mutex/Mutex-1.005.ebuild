@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARIOROY"
-DIST_VERSION="1.005"
-DIST_A="Mutex-1.005.tar.gz"
+DIST_VERSION="1.005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

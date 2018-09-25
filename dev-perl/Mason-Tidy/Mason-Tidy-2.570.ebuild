@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSWARTZ"
-DIST_VERSION="2.57"
-DIST_A="Mason-Tidy-2.57.tar.gz"
+DIST_VERSION="2.57" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,11 +21,13 @@ RDEPEND="
 	>=dev-perl/Method-Signatures-Simple-1.020
 	>=dev-perl/Moo-0.009.101.000
 	dev-perl/Perl-Tidy
+	dev-perl/Pod-Usage
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/Test-Class-Most
 "
+

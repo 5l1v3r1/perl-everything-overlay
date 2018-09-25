@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SEBAPOD"
-DIST_VERSION="0.2.1"
-DIST_A="Mojo-RabbitMQ-Client-0.2.1.tar.gz"
+DIST_VERSION="0.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.430
 	>=virtual/perl-Test-Simple-0.980
 "
+

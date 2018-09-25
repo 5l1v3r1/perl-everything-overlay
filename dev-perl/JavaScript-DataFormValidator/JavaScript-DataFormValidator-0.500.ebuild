@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKSTOS"
-DIST_VERSION="0.50"
-DIST_A="JavaScript-DataFormValidator-0.50.tar.gz"
+DIST_VERSION="0.50" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Data-JavaScript-Anon
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

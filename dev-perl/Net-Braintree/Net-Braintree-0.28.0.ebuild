@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRAINTREE"
-DIST_VERSION="0.28.0"
-DIST_A="Net-Braintree-0.28.0.tar.gz"
+DIST_VERSION="0.28.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

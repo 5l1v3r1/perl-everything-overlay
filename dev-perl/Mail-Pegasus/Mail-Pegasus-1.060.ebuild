@@ -6,8 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="SORBS"
 DIST_VERSION="1.06"
-DIST_A="Mail-Pegasus-1.06.tgz"
-SRC_URI="mirror://cpan/authors/id/S/SO/SORBS/Mail/Pegasus/Mail-Pegasus-1.06.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/S/SO/SORBS/Mail/Pegasus/Mail-Pegasus-1.06.tgz -> Mail-Pegasus-1.06.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Mail-Pegasus-1.06 ${WORKDIR}/Mail-Pegasus-1.06
+}
+

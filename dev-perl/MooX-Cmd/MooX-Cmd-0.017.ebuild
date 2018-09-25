@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="0.017"
-DIST_A="MooX-Cmd-0.017.tar.gz"
+DIST_VERSION="0.017" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	>=virtual/perl-Test-Simple-0.980
 "
+

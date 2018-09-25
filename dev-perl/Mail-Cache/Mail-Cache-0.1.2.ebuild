@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VVELOX"
-DIST_VERSION="0.1.2"
-DIST_A="Mail-Cache-0.1.2.tar.gz"
+DIST_VERSION="0.1.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

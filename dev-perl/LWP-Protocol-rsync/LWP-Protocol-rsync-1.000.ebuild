@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KRYDE"
-DIST_VERSION="1.0"
-DIST_A="LWP-Protocol-rsync-1.tar.gz"
+DIST_VERSION="1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

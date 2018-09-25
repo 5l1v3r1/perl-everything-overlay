@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KWILLIAMS"
-DIST_VERSION="1.019"
-DIST_A="Math-BaseCalc-1.019.tar.gz"
+DIST_VERSION="1.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

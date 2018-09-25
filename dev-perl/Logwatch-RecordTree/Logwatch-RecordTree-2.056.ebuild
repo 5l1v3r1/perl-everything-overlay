@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REID"
-DIST_VERSION="2.056"
-DIST_A="Logwatch-RecordTree-2.056.tar.gz"
+DIST_VERSION="2.056" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

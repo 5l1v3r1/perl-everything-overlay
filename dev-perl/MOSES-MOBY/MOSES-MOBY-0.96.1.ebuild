@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="EKAWAS"
-DIST_VERSION="0.96.1"
-DIST_A="MOSES-MOBY-0.96.1.tar.gz"
+DIST_VERSION="0.96.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

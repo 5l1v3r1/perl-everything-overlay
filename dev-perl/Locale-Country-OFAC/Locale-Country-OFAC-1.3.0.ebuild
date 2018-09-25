@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLSUFI"
-DIST_VERSION="1.3.0"
-DIST_A="Locale-Country-OFAC-1.3.0.tar.gz"
+DIST_VERSION="1.3.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MAF"
-DIST_VERSION="v1.07.1"
-DIST_A="Mesos-1.07.1.tar.gz"
+DIST_VERSION="1.07.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -45,3 +44,4 @@ DEPEND="
 	dev-perl/Try-Tiny
 	virtual/perl-Test-Simple
 "
+

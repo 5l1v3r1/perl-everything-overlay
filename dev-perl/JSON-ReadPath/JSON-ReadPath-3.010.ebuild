@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MICVU"
-DIST_VERSION="3.01"
-DIST_A="JSON-ReadPath-3.01.tar.gz"
+DIST_VERSION="3.01" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Try-Tiny
 "
+

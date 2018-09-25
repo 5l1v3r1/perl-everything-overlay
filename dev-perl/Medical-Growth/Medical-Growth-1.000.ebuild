@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CBAIL"
-DIST_VERSION="1.00"
-DIST_A="Medical-Growth-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,8 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

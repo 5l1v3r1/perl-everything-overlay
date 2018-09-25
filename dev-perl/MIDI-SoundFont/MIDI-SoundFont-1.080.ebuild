@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PJB"
-DIST_VERSION="1.08"
-DIST_A="MIDI-SoundFont-1.08.tar.gz"
+DIST_VERSION="1.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	>=virtual/perl-Data-Dumper-2.161
+	>=virtual/perl-Data-Dumper-2.172
 	virtual/perl-Test-Simple
 "
+

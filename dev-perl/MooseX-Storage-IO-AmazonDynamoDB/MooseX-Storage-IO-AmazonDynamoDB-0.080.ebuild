@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCALDWELL"
-DIST_VERSION="0.08"
-DIST_A="MooseX-Storage-IO-AmazonDynamoDB-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,6 +28,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-DescribeMe
 	virtual/perl-Test-Simple
 "
+

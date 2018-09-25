@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PRBRENAN"
-DIST_VERSION="20171009.0"
-DIST_A="Math-Vectors2-20171009.tar.gz"
+DIST_VERSION="20171009" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.422.400
 "
+

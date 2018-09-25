@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVINCHI"
-DIST_VERSION="0.09"
-DIST_A="Net-Whois-Gateway-Server-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.350
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="0.94"
-DIST_A="Mail-SimpleList-0.94.tar.gz"
+DIST_VERSION="0.94" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	>=dev-perl/Test-MockObject-1.070
 	>=virtual/perl-Test-Simple-0.470
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JAMESPO"
-DIST_VERSION="0.21"
-DIST_A="Net-IMAP-Simple-Gmail-0.21.tar.gz"
+DIST_VERSION="0.21" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Net-IMAP-Simple-SSL
+	dev-perl/base
 	virtual/perl-Text-ParseWords
 "
 DEPEND="
@@ -25,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

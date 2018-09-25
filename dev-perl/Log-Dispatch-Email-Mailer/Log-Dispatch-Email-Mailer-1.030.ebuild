@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRYPHON"
-DIST_VERSION="1.03"
-DIST_A="Log-Dispatch-Email-Mailer-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Email-Mailer-1.070
 	dev-perl/Log-Dispatch
+	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
@@ -30,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

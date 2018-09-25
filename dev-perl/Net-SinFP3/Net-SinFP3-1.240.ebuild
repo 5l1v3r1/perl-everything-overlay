@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GOMOR"
-DIST_VERSION="1.24"
-DIST_A="Net-SinFP3-1.24.tar.gz"
+DIST_VERSION="1.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -43,3 +42,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

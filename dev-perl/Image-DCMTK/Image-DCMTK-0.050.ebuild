@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RHAXTON"
-DIST_VERSION="0.05"
-DIST_A="Image-DCMTK-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.400
 "
+

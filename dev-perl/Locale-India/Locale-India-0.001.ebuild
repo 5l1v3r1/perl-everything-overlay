@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MSHEKHAWA"
-DIST_VERSION="0.001"
-DIST_A="Locale-India-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

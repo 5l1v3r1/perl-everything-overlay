@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JHTHORSEN"
-DIST_VERSION="3.11"
-DIST_A="Mojo-Redis-3.11.tar.gz"
+DIST_VERSION="3.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
+

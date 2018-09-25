@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="XENO"
-DIST_VERSION="0.004003"
-DIST_A="MooseX-AbstractFactory-0.004003.tar.gz"
+DIST_VERSION="0.004003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "
+

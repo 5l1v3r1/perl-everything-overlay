@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHARYANTO"
-DIST_VERSION="0.0204"
-DIST_A="LWP-Protocol-http-SocketUnixAlt-0.0204.tar.gz"
+DIST_VERSION="0.0204" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JALDHAR"
-DIST_VERSION="0.44"
-DIST_A="Module-Starter-Plugin-CGIApp-0.44.tar.gz"
+DIST_VERSION="0.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-Piece-1.120
 "
+

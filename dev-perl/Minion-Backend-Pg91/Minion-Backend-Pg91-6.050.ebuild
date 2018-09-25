@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VIKAS"
-DIST_VERSION="6.05"
-DIST_A="Minion-Backend-Pg91-6.05.tar.gz"
+DIST_VERSION="6.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

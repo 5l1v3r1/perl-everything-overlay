@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WOODRUFFW"
-DIST_VERSION="1.002"
-DIST_A="NIST-Beacon-1.002.tar.gz"
+DIST_VERSION="1.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-Net-Ping
 	virtual/perl-Test-Simple
 "
+

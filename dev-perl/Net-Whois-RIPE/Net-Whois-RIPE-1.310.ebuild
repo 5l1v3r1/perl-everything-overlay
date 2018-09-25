@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LMC"
-DIST_VERSION="1.31"
-DIST_A="Net-Whois-RIPE-1.31.tar.gz"
+DIST_VERSION="1.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

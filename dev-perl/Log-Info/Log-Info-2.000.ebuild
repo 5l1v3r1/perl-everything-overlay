@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLUFFY"
-DIST_VERSION="2.00"
-DIST_A="Log-Info-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.340.201
 "
+

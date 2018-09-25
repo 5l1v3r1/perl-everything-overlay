@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="pngwriter"
-DIST_VERSION="0.01"
-DIST_A="Image-PNGwriter-0.01.tar.gz"
+DIST_AUTHOR="ANK"
+DIST_VERSION="0.01" 
+SRC_URI="mirror://cpan/authors/id/A/AN/ANK/pngwriter/Image-PNGwriter-0.01.tar.gz -> Image-PNGwriter-0.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Image-PNGwriter-0.01 ${WORKDIR}/Image-PNGwriter-0.01
+}
+

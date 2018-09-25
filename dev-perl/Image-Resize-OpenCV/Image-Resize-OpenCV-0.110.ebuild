@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JUNKER"
-DIST_VERSION="0.11"
-DIST_A="Image-Resize-OpenCV-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/ExtUtils-PkgConfig-1.030
 	>=virtual/perl-Test-Simple-0.320
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Math-FastGF2"
-DIST_VERSION="0.04"
-DIST_A="Math-FastGF2-0.04.tar.gz"
+DIST_AUTHOR="DMALONE"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/D/DM/DMALONE/Math-FastGF2/Math-FastGF2-0.04.tar.gz -> Math-FastGF2-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-FastGF2-0.04 ${WORKDIR}/Math-FastGF2-0.04
+}
+

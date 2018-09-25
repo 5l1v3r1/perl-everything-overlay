@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.2"
-DIST_A="Mango-BSON-Dump-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/JSON-XS-3.000
 	>=dev-perl/Mango-1.290
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-5.400
 	>=virtual/perl-Exporter-5.570
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

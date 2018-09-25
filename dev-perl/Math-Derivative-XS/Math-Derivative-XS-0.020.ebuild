@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUFFLICK"
-DIST_VERSION="0.02"
-DIST_A="Math-Derivative_XS-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/YAML-LibYAML
 	virtual/perl-Test-Simple
 "
+

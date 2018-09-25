@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BTIETZ"
-DIST_VERSION="0.103"
-DIST_A="Net-DNS-ZoneParse-0.103.tar.gz"
+DIST_VERSION="0.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

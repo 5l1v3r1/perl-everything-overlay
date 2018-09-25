@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TEX"
-DIST_VERSION="0.14"
-DIST_A="Linux-LVM2-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	dev-perl/Test-MockObject-Universal
 	virtual/perl-Test-Simple
 "
+

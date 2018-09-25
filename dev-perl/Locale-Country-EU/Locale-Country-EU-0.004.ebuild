@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MATTSIZLE"
-DIST_VERSION="0.004"
-DIST_A="Locale-Country-EU-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMLLOYD"
-DIST_VERSION="1.007"
-DIST_A="Net-LPR-1.007.tar.gz"
+DIST_VERSION="1.007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JOKKE"
-DIST_VERSION="0.001"
-DIST_A="Lingua-MY-Zawgyi2Unicode-0.001.tar.gz"
+DIST_VERSION="0.001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/JSON
 	virtual/perl-Test-Simple
 "
+

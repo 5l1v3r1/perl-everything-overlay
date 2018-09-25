@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FERREIRA"
-DIST_VERSION="0.6.0"
-DIST_A="Importer-Zim-Unit-0.6.0.tar.gz"
+DIST_VERSION="0.6.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Devel-Hook
-	>=dev-perl/Importer-Zim-Base-0.8.0
+	>=dev-perl/Importer-Zim-Base-0.12.0
 	>=dev-perl/Sub-Replace-0.2.0
 "
 DEPEND="
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960
 "
+

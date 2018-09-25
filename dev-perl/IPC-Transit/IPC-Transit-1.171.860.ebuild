@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIEDERICH"
-DIST_VERSION="1.171860"
-DIST_A="IPC-Transit-1.171860.tar.gz"
+DIST_VERSION="1.171860" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,5 +38,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

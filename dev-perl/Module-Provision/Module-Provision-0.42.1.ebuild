@@ -5,9 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="PJFL"
-DIST_VERSION="0.42.1"
-DIST_A="Module-Provision-0.42.1.tar.gz"
-SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/module-provision/Module-Provision-0.42.1.tar.gz"
+DIST_VERSION="0.42.1" 
+SRC_URI="mirror://cpan/authors/id/P/PJ/PJFL/module-provision/Module-Provision-0.42.1.tar.gz -> Module-Provision-0.42.1.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-ReadmeAnyFromPod-0.150.250
 	>=dev-perl/Dist-Zilla-Plugin-Signature-1.100.930
 	>=dev-perl/Dist-Zilla-Plugin-Test-ReportMetadata-0.4.0
-	>=dev-perl/Dist-Zilla-Plugins-CJM-4.260
+	>=dev-perl/Dist-Zilla-Plugins-CJM-0.080
 	>=dev-perl/File-DataClass-0.68.0
 	>=dev-perl/File-ShareDir-1.102
 	>=dev-perl/HTTP-Message-6.060
@@ -57,3 +56,9 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-File-Spec
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Module-Provision-0.42.1 ${WORKDIR}/Module-Provision-0.42.1
+}
+

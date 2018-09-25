@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ERWAN"
-DIST_VERSION="0.05"
-DIST_A="Log-Localized-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Config-Tiny-2.010
 	>=dev-perl/File-HomeDir-0.060
-	>=dev-perl/Log-Dispatch-2.100
+	>=dev-perl/Log-Dispatch-1.010
 	>=dev-perl/Log-Dispatch-Config-1.010
 	>=virtual/perl-File-Spec-0.860
 "
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

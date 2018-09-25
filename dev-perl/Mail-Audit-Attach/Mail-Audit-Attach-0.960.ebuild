@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRENZ"
-DIST_VERSION="0.96"
-DIST_A="Mail-Audit-Attach-0.96.tar.gz"
+DIST_VERSION="0.96" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

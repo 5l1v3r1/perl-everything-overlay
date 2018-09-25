@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOMM"
-DIST_VERSION="1.003"
-DIST_A="Measure-Everything-Adapter-InfluxDB-TCP-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,10 +19,13 @@ RDEPEND="
 	dev-perl/InfluxDB-LineProtocol
 	dev-perl/Log-Any
 	dev-perl/Measure-Everything
+	dev-perl/base
 	virtual/perl-IO
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.280
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

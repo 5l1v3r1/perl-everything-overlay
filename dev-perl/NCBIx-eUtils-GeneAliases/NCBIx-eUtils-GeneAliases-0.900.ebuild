@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROGERHALL"
-DIST_VERSION="0.90"
-DIST_A="NCBIx-eUtils-GeneAliases-0.90.tar.gz"
+DIST_VERSION="0.90" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

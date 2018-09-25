@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PITCHLESS"
-DIST_VERSION="0.24"
-DIST_A="MooseX-Getopt-Usage-0.24.tar.gz"
+DIST_VERSION="0.24" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,3 +35,4 @@ DEPEND="
 	>=dev-perl/Test-Differences-0.500
 	virtual/perl-Test-Simple
 "
+

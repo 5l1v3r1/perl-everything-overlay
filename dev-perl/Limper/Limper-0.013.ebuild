@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ASHLEYW"
-DIST_VERSION="0.013"
-DIST_A="Limper-0.013.tar.gz"
+DIST_VERSION="0.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

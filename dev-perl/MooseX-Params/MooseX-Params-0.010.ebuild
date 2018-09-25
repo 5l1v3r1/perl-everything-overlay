@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PSHANGOV"
-DIST_VERSION="0.010"
-DIST_A="MooseX-Params-0.010.tar.gz"
+DIST_VERSION="0.010" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -42,3 +41,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

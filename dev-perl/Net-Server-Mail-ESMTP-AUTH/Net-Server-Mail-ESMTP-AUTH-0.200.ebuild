@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCRESTO"
-DIST_VERSION="0.2"
-DIST_A="Net-Server-Mail-ESMTP-AUTH-0.2.tar.gz"
+DIST_VERSION="0.2" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,10 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Net-Server-Mail-0.080
+	dev-perl/Net-Server-Mail
 	virtual/perl-MIME-Base64
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

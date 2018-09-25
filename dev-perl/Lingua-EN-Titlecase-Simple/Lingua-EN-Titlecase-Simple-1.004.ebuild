@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARISTOTLE"
-DIST_VERSION="1.004"
-DIST_A="Lingua-EN-Titlecase-Simple-1.004.tar.gz"
+DIST_VERSION="1.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-if
 "
+

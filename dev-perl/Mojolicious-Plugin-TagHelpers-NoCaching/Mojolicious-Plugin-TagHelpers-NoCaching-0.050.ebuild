@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLEG"
-DIST_VERSION="0.05"
-DIST_A="Mojolicious-Plugin-TagHelpers-NoCaching-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.520
 	>=virtual/perl-Test-Simple-0.880
 "
+

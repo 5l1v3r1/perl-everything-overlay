@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="THHAMON"
-DIST_VERSION="0.5"
-DIST_A="Lingua-YaTeA-0.5.tar.gz"
+DIST_VERSION="0.5" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,5 +25,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=dev-perl/Module-Build-0.280
+	dev-perl/Module-Build
 "
+

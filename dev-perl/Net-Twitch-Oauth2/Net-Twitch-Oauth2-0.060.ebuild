@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="RJREED"
-DIST_VERSION="0.06"
-DIST_A="Net-Twitch-Oauth2-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 	dev-perl/Test-Exception
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	>=virtual/perl-Test-Simple-0.100
 "
+

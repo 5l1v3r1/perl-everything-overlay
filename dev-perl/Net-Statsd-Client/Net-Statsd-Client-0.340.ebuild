@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ARODLAND"
-DIST_VERSION="0.34"
-DIST_A="Net-Statsd-Client-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,8 +24,10 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
 	dev-lang/perl
+	dev-perl/Module-Build
 	dev-perl/lib
 	virtual/perl-Exporter
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

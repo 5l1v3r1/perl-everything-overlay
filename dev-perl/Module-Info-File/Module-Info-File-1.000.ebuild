@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JONASBN"
-DIST_VERSION="1.00"
-DIST_A="Module-Info-File-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

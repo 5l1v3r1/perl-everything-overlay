@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WILCO"
-DIST_VERSION="0.0007"
-DIST_A="Net-FTP-Simple-0.0007.tar.gz"
+DIST_VERSION="0.0007" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

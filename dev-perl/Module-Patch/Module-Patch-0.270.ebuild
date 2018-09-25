@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLANCAR"
-DIST_VERSION="0.270"
-DIST_A="Module-Patch-0.270.tar.gz"
+DIST_VERSION="0.270" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	>=virtual/perl-Test-Simple-0.960
 	virtual/perl-parent
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JGAMBLE"
-DIST_VERSION="2.85"
-DIST_A="Math-Polynomial-Solve-2.85.tar.gz"
+DIST_VERSION="2.85" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.400
 	virtual/perl-Test-Simple
 "
+

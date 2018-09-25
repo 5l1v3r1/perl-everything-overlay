@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SUMMER"
-DIST_VERSION="1.19"
-DIST_A="Math-Logic-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

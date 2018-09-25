@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SISYPHUS"
-DIST_VERSION="0.43"
-DIST_A="Math-GMPf-0.43.tar.gz"
+DIST_VERSION="0.43" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

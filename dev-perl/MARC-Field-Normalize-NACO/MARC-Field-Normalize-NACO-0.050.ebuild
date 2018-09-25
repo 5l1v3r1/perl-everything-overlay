@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFOUTS"
-DIST_VERSION="0.05"
-DIST_A="MARC-Field-Normalize-NACO-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ DEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/MARC-Record
 	dev-perl/Method-Signatures
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.880
 "
+

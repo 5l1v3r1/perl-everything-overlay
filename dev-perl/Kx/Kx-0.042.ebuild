@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SLOYD"
-DIST_VERSION="0.042"
-DIST_A="Kx-0.042.tar.gz"
+DIST_VERSION="0.042" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "
+

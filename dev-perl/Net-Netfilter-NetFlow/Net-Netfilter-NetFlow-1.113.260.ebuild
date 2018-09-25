@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="OLIVER"
-DIST_VERSION="1.113260"
-DIST_A="Net-Netfilter-NetFlow-1.113260.tar.gz"
+DIST_VERSION="1.113260" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,6 +23,7 @@ RDEPEND="
 	dev-perl/IPC-Run
 	dev-perl/Log-Dispatch-Config
 	dev-perl/Log-Dispatch-Configurator-Any
+	dev-perl/base
 	virtual/perl-Exporter
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
@@ -34,3 +34,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-Test-Simple
 "
+

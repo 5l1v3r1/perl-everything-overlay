@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PREACTION"
-DIST_VERSION="0.14"
-DIST_A="Minion-Backend-mysql-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

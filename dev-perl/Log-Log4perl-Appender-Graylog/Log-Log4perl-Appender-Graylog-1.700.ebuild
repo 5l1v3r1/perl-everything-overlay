@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DIMENTOX"
-DIST_VERSION="1.7"
-DIST_A="Log-Log4perl-Appender-Graylog-1.7.tar.gz"
+DIST_VERSION="1.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,8 +36,8 @@ DEPEND="
 	dev-perl/Data-Printer
 	dev-perl/Data-Random-String
 	dev-perl/JSON
-	dev-perl/Test-MockModule
 	dev-perl/Test-Moose-More
 	dev-perl/Test-Most
 	>=virtual/perl-Test-Simple-0.980
 "
+

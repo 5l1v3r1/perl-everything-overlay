@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARGHI"
-DIST_VERSION="2.3"
-DIST_A="Mongol-2.3.tar.gz"
+DIST_VERSION="2.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -32,3 +31,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
 "
+

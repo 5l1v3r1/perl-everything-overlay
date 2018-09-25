@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GRODITI"
-DIST_VERSION="0.002000"
-DIST_A="MooseX-Types-Log-Dispatch-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple
 "
+

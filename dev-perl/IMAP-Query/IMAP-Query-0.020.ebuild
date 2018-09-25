@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHOBES"
-DIST_VERSION="0.02"
-DIST_A="IMAP-Query-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAMI"
-DIST_VERSION="2.00"
-DIST_A="Hash-Type-2.00.tar.gz"
+DIST_VERSION="2.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="NG"
-DIST_VERSION="0.001"
-DIST_A="NG-0.001.tar.gz"
+DIST_AUTHOR="CHENRYN"
+DIST_VERSION="0.001" 
+SRC_URI="mirror://cpan/authors/id/C/CH/CHENRYN/NG/NG-0.001.tar.gz -> NG-0.001.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -34,3 +34,9 @@ DEPEND="
 	dev-perl/Test-Deep
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/NG-0.001 ${WORKDIR}/NG-0.001
+}
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONYC"
-DIST_VERSION="1.024"
-DIST_A="Imager-Font-T1-1.024.tar.gz"
+DIST_VERSION="1.024" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

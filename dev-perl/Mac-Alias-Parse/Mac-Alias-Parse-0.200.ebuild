@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WIML"
-DIST_VERSION="0.20"
-DIST_A="Mac-Alias-Parse-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-MIME-Base64
 "
+

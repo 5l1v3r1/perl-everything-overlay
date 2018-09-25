@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="1.05"
-DIST_A="MSDOS-Descript-1.05.tar.gz"
+DIST_VERSION="1.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.280.800
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STEVAN"
-DIST_VERSION="0.14"
-DIST_A="MOP-0.14.tar.gz"
+DIST_VERSION="0.14" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	dev-perl/Test-Fatal
 	virtual/perl-Test-Simple
 "
+

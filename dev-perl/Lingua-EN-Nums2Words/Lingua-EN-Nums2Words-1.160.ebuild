@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="HIGHTOWE"
 DIST_VERSION="1.16"
-DIST_A="Lingua-EN-Nums2Words-1.16.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

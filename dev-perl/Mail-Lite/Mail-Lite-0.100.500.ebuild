@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAVINCHI"
-DIST_VERSION="0.1005"
-DIST_A="Mail-Lite-0.1005.tar.gz"
+DIST_VERSION="0.1005" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/YAML-Syck
 	virtual/perl-Test-Simple
 "
+

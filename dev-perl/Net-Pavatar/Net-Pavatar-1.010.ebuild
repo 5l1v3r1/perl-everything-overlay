@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Pavatar"
-DIST_VERSION="1.01"
-DIST_A="Net-Pavatar-1.01.tar.gz"
+DIST_AUTHOR="KARJALA"
+DIST_VERSION="1.01" 
+SRC_URI="mirror://cpan/authors/id/K/KA/KARJALA/Pavatar/Net-Pavatar-1.01.tar.gz -> Net-Pavatar-1.01.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +25,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Pavatar-1.01 ${WORKDIR}/Net-Pavatar-1.01
+}
+

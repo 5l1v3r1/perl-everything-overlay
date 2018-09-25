@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSTEBENS"
-DIST_VERSION="1.04"
-DIST_A="Log-Log4perl-Appender-Socket-UNIX-1.04.tar.gz"
+DIST_VERSION="1.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,4 +19,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 "
+

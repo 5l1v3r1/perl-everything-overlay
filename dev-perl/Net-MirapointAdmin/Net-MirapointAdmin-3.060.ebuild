@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GPALMER"
-DIST_VERSION="3.06"
-DIST_A="Net-MirapointAdmin-3.06.tar.gz"
+DIST_VERSION="3.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

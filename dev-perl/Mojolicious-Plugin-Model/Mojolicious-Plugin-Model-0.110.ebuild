@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AVKHOZOV"
-DIST_VERSION="0.11"
-DIST_A="Mojolicious-Plugin-Model-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +21,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 "
+

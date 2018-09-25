@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LDS"
-DIST_VERSION="1.33"
-DIST_A="Mythfs-perl-1.33.tar.gz"
+DIST_VERSION="1.33" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build
 "
+

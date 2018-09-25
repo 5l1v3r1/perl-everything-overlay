@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="IDERRICK"
-DIST_VERSION="0.02"
-DIST_A="Mail-SNCF-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,9 +21,10 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/Email-Folder
 	dev-perl/Test-Dependencies
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="
 	${RDEPEND}
 "
+

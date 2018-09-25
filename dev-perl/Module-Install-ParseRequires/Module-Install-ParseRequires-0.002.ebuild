@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ROKR"
-DIST_VERSION="0.002"
-DIST_A="Module-Install-ParseRequires-0.002.tar.gz"
+DIST_VERSION="0.002" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/YAML-Tiny
 	virtual/perl-File-Spec
 "
+

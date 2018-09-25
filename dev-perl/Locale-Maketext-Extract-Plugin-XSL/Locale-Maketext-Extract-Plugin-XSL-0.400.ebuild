@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PEPL"
-DIST_VERSION="0.4"
-DIST_A="Locale-Maketext-Extract-Plugin-XSL-0.4.tar.gz"
+DIST_VERSION="0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.360
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MADCAT"
-DIST_VERSION="1.10"
-DIST_A="Mojolicious-Plugin-Database-1.10.tar.gz"
+DIST_VERSION="1.10" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

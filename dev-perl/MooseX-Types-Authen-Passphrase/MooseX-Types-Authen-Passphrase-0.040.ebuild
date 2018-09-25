@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.04"
-DIST_A="MooseX-Types-Authen-Passphrase-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.037
 	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Module-Build
 	dev-perl/Moose
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

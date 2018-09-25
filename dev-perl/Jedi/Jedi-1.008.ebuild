@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CELOGEEK"
-DIST_VERSION="1.008"
-DIST_A="Jedi-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,13 +24,13 @@ RDEPEND="
 	dev-perl/HTTP-Body
 	dev-perl/Import-Into
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.003.001
 	>=dev-perl/MooX-Options-4.012
 	dev-perl/Net-IP-XS
 	dev-perl/Plack
 	dev-perl/Sys-HostIP
 	dev-perl/YAML-LibYAML
-	dev-perl/autobox
+	dev-perl/lib
 	virtual/perl-Carp
 "
 DEPEND="
@@ -47,3 +46,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.940
 "
+

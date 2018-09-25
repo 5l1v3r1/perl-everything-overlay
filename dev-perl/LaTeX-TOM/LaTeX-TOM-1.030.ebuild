@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SCHUBIGER"
-DIST_VERSION="1.03"
-DIST_A="LaTeX-TOM-1.03.tar.gz"
+DIST_VERSION="1.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

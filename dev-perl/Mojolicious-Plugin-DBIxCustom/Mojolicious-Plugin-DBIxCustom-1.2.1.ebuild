@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WFSO"
-DIST_VERSION="1.2.1"
-DIST_A="Mojolicious-Plugin-DBIxCustom-1.2.1.tar.gz"
+DIST_VERSION="1.2.1" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

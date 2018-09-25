@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="JONADAB"
 DIST_VERSION="0.0009"
-DIST_A="Net-Server-POP3-0.0009.zip"
+DIST_A_EXT="zip" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

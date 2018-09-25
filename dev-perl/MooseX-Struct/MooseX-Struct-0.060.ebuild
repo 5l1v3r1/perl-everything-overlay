@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JSOVERSON"
-DIST_VERSION="0.06"
-DIST_A="MooseX-Struct-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,5 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

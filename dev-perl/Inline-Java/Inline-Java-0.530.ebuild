@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PATL"
-DIST_VERSION="0.53"
-DIST_A="Inline-Java-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

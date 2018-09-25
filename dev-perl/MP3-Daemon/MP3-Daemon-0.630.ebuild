@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BEPPU"
-DIST_VERSION="0.63"
-DIST_A="MP3-Daemon-0.63.tar.gz"
+DIST_VERSION="0.63" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,7 +17,6 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Audio-Play-MPG123
-	dev-perl/MP3-Info
 	dev-perl/Pod-Usage
 	virtual/perl-IO
 "
@@ -26,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

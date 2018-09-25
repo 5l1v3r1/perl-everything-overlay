@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="HIXI"
-DIST_VERSION="0.06"
-DIST_A="Log-LTSV-Instance-0.06.tar.gz"
+DIST_VERSION="0.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Deep-Matcher
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

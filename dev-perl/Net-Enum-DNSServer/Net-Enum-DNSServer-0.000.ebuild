@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="SMS"
-DIST_VERSION="0.0"
-DIST_A="Net-Enum-DNSServer.tar.gz"
+DIST_VERSION="" 
+SRC_URI="mirror://cpan/authors/id/S/SM/SMS/Net-Enum-DNSServer.tar.gz -> Net-Enum-DNSServer-.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +22,9 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-Enum-DNSServer ${WORKDIR}/Net-Enum-DNSServer-
+}
+

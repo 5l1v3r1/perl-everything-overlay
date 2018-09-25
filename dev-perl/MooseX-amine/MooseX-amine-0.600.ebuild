@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GENEHACK"
-DIST_VERSION="0.6"
-DIST_A="MooseX-amine-0.6.tar.gz"
+DIST_VERSION="0.6" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,5 +39,7 @@ DEPEND="
 	>=dev-perl/Test-Pod-1.410
 	>=dev-perl/Test-Pod-Coverage-1.080
 	dev-perl/Test-Trap
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

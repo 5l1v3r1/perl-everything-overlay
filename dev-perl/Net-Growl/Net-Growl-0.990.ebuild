@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NMCFARL"
-DIST_VERSION="0.99"
-DIST_A="Net-Growl-0.99.tar.gz"
+DIST_VERSION="0.99" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,4 +23,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

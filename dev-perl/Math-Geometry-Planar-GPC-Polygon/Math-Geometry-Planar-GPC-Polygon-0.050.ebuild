@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Math"
-DIST_VERSION="0.05"
-DIST_A="Math-Geometry-Planar-GPC-Polygon-0.05.tar.gz"
+DIST_AUTHOR="EWILHELM"
+DIST_VERSION="0.05" 
+SRC_URI="mirror://cpan/authors/id/E/EW/EWILHELM/Math/Math-Geometry-Planar-GPC-Polygon-0.05.tar.gz -> Math-Geometry-Planar-GPC-Polygon-0.05.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Math-Geometry-Planar-GPC-Polygon-0.05 ${WORKDIR}/Math-Geometry-Planar-GPC-Polygon-0.05
+}
+

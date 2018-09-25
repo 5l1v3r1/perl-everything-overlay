@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BARBIE"
-DIST_VERSION="0.08"
-DIST_A="Labyrinth-Plugin-Survey-0.08.tar.gz"
+DIST_VERSION="0.08" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,7 @@ RDEPEND="
 	dev-perl/Session-Token
 	dev-perl/Template-Toolkit
 	dev-perl/WWW-Mechanize
-	dev-perl/yaml
+	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	virtual/perl-File-Path
@@ -44,3 +43,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

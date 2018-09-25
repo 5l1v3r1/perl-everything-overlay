@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CNANDOR"
-DIST_VERSION="1.09"
-DIST_A="Mac-OSA-Simple-1.09.tar.gz"
+DIST_VERSION="1.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,10 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Mac-AppleEvents-Simple-1.080
-	>=dev-perl/Mac-Carbon-1.020
+	>=dev-perl/Mac-Carbon-1.030
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

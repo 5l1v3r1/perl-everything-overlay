@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SISYPHUS"
-DIST_VERSION="4.04"
-DIST_A="Math-MPFR-4.04.tar.gz"
+DIST_VERSION="4.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

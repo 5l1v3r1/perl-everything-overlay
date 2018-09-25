@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.34"
-DIST_A="MouseX-Getopt-0.34.tar.gz"
+DIST_VERSION="0.34" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,4 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	>=dev-perl/Test-Exception-0.210
+	>=dev-perl/Test-Warn-0.210
+	>=virtual/perl-Test-Simple-0.880
 "
+

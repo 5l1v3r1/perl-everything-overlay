@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="KTORP"
-DIST_VERSION="0.03"
-DIST_A="Interval.0.03.tar.gz"
+DIST_VERSION="0.03" 
+SRC_URI="mirror://cpan/authors/id/K/KT/KTORP/KTORP/Interval.0.03.tar.gz -> Interval-0.03.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Interval.0.03 ${WORKDIR}/Interval-0.03
+}
+

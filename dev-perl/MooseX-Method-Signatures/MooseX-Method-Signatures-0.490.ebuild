@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.49"
-DIST_A="MooseX-Method-Signatures-0.49.tar.gz"
+DIST_VERSION="0.49" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -40,10 +39,13 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	>=dev-perl/namespace-clean-0.190
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.890
 "
+

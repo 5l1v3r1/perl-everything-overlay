@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ANDREFS"
-DIST_VERSION="0.03"
-DIST_A="Lingua-EN-Tokenizer-Offsets-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Dump
+	dev-perl/base
 	dev-perl/utf8-all
 	virtual/perl-Exporter
 "
@@ -27,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Differences
 	virtual/perl-Test-Simple
 "
+

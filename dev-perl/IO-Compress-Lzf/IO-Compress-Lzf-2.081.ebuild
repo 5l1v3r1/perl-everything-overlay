@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PMQS"
-DIST_VERSION="2.081"
-DIST_A="IO-Compress-Lzf-2.081.tar.gz"
+DIST_VERSION="2.081" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

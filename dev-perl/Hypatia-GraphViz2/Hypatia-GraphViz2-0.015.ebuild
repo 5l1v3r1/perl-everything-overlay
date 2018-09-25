@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JACKMANEY"
-DIST_VERSION="0.015"
-DIST_A="Hypatia-GraphViz2-0.015.tar.gz"
+DIST_VERSION="0.015" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

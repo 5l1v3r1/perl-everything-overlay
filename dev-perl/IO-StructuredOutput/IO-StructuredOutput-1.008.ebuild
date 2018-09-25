@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="UNRTST"
-DIST_VERSION="1.008"
-DIST_A="IO-StructuredOutput-1.008.tar.gz"
+DIST_VERSION="1.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

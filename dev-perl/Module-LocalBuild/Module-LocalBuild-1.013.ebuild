@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="WSNYDER"
-DIST_VERSION="1.013"
-DIST_A="Module-LocalBuild-1.013.tar.gz"
+DIST_VERSION="1.013" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

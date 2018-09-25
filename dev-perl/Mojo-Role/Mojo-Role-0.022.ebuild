@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DVINCI"
-DIST_VERSION="0.022"
-DIST_A="Mojo-Role-0.022.tar.gz"
+DIST_VERSION="0.022" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,7 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

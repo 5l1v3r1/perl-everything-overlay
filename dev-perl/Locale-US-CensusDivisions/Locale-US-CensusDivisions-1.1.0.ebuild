@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLSUFI"
-DIST_VERSION="1.1.0"
-DIST_A="Locale-US-CensusDivisions-1.1.0.tar.gz"
+DIST_VERSION="1.1.0" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "
+

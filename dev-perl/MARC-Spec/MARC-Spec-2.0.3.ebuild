@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KLEE"
-DIST_VERSION="2.0.3"
-DIST_A="MARC-Spec-2.0.3.tar.gz"
+DIST_VERSION="2.0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,7 +23,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Exception
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

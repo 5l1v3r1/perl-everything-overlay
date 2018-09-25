@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SREZIC"
-DIST_VERSION="0.17"
-DIST_A="Map-Tube-Berlin-0.17.tar.gz"
+DIST_VERSION="0.17" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	>=dev-perl/Test-Map-Tube-0.350
 	virtual/perl-Test-Simple
 "
+

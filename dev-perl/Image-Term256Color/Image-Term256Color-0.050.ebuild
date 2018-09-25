@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MOSHEN"
-DIST_VERSION="0.05"
-DIST_A="Image-Term256Color-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,12 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/GD
+	dev-perl/Pod-Usage
 	dev-perl/Term-ExtendedColor
 	virtual/perl-Getopt-Long
-	virtual/perl-Pod-Usage
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-Test-Simple
 "
+

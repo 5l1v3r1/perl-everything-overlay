@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NEILB"
-DIST_VERSION="1.32"
-DIST_A="Lingua-EN-FindNumber-1.32.tar.gz"
+DIST_VERSION="1.32" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -18,6 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Lingua-EN-Words2Nums
+	dev-perl/base
 	virtual/perl-Exporter
 "
 DEPEND="
@@ -25,3 +25,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

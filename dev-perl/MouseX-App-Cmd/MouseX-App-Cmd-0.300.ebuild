@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETHER"
-DIST_VERSION="0.30"
-DIST_A="MouseX-App-Cmd-0.30.tar.gz"
+DIST_VERSION="0.30" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/App-Cmd
+	>=dev-perl/App-Cmd-0.321
 	>=dev-perl/Getopt-Long-Descriptive-0.091
 	dev-perl/Mouse
 	dev-perl/MouseX-Getopt
@@ -34,3 +33,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "
+

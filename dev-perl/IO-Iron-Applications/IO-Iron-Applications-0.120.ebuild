@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MIKKOI"
-DIST_VERSION="0.12"
-DIST_A="IO-Iron-Applications-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-0.060
+	dev-lang/perl
 	dev-perl/App-Cmd
 	dev-perl/Carp-Assert
 	dev-perl/Carp-Assert-More
@@ -42,3 +41,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

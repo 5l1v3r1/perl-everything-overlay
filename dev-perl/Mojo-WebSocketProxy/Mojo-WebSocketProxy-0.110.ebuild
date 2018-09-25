@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BINARY"
-DIST_VERSION="0.11"
-DIST_A="Mojo-WebSocketProxy-0.11.tar.gz"
+DIST_VERSION="0.11" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,10 +35,10 @@ DEPEND="
 	dev-perl/Path-Tiny
 	>=dev-perl/Test-CheckDeps-0.010
 	dev-perl/Test-Fatal
-	dev-perl/Test-MockModule
 	dev-perl/Test-MockObject
 	dev-perl/Test-TCP
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.440
+	>=virtual/perl-Test-Simple-0.980
 "
+

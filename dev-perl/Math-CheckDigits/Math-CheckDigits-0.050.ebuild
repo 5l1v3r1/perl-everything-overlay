@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SONGMU"
-DIST_VERSION="0.05"
-DIST_A="Math-CheckDigits-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-ExtUtils-MakeMaker-6.590
 "
+

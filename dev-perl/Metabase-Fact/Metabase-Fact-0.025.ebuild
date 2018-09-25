@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.025"
-DIST_A="Metabase-Fact-0.025.tar.gz"
+DIST_VERSION="0.025" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,7 +28,9 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.170
 	dev-perl/Test-Fatal
+	dev-perl/lib
 	virtual/perl-File-Spec
 	>=virtual/perl-File-Temp-0.200
 	>=virtual/perl-Test-Simple-0.880
 "
+

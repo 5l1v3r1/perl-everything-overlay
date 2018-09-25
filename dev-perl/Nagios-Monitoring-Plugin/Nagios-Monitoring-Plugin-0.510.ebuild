@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NAGIOS"
-DIST_VERSION="0.51"
-DIST_A="Nagios-Monitoring-Plugin-0.51.tar.gz"
+DIST_VERSION="0.51" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -30,3 +29,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

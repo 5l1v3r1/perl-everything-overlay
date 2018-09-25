@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MDIMEO"
-DIST_VERSION="0.36"
-DIST_A="MPEG-ID3v2Tag-0.36.tar.gz"
+DIST_VERSION="0.36" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

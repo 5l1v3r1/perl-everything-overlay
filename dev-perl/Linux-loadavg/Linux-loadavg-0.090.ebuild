@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PERLBOY"
-DIST_VERSION="0.09"
-DIST_A="Linux-loadavg-0.09.tar.gz"
+DIST_VERSION="0.09" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

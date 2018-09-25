@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TONYC"
-DIST_VERSION="0.89"
-DIST_A="Imager-File-TIFF-0.89.tar.gz"
+DIST_VERSION="0.89" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
+

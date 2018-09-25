@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMTM"
-DIST_VERSION="2.55"
-DIST_A="Mail-Thread-2.55.tar.gz"
+DIST_VERSION="2.55" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

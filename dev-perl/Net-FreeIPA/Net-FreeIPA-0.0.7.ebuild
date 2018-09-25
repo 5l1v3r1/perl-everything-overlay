@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="STDWEIRD"
-DIST_VERSION="0.0.7"
-DIST_A="Net-FreeIPA-0.0.7.tar.gz"
+DIST_VERSION="0.0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,7 +30,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	dev-perl/Test-MockModule
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

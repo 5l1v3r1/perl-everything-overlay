@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GBJK"
-DIST_VERSION="0.12"
-DIST_A="Net-Async-CassandraCQL-0.12.tar.gz"
+DIST_VERSION="0.12" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,9 +24,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-HexString
 	dev-perl/Test-Identity
 	dev-perl/Test-Refcount
 	>=virtual/perl-Test-Simple-0.880
 "
+

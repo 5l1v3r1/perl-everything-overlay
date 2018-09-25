@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GARU"
-DIST_VERSION="0.02"
-DIST_A="Log-Dispatch-SNMP-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-Carp
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MITHALDU"
-DIST_VERSION="0.103300"
-DIST_A="Net-FTP-Mock-0.103300.tar.gz"
+DIST_VERSION="0.103300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,5 +22,6 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.310
 	dev-perl/Test-Most
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
+

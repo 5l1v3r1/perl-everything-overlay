@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SIDD"
-DIST_VERSION="0.004"
-DIST_A="Mojolicious-Plugin-Bundle-0.004.tar.gz"
+DIST_VERSION="0.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
 "
+

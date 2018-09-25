@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GETTY"
-DIST_VERSION="0.019"
-DIST_A="Locale-Simple-0.019.tar.gz"
+DIST_VERSION="0.019" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,8 +23,9 @@ RDEPEND="
 	dev-perl/Parser-MGC
 	dev-perl/Try-Tiny
 	dev-perl/YAML
+	dev-perl/base
 	dev-perl/curry
-	dev-perl/libintl-perl
+	>=dev-perl/libintl-perl-1.230
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
 	virtual/perl-Exporter
@@ -41,3 +41,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "
+

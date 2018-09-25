@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHOHAG"
-DIST_VERSION="0.000"
-DIST_A="MooX-EventHandler-0.000.tar.gz"
+DIST_VERSION="0.000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

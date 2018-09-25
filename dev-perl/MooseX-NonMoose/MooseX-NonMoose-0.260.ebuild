@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.26"
-DIST_A="MooseX-NonMoose-0.26.tar.gz"
+DIST_VERSION="0.26" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,14 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/List-MoreUtils
 	dev-perl/Module-Runtime
-	>=dev-perl/Moose-2.000.000
+	dev-perl/Moose
 	dev-perl/Try-Tiny
 "
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	dev-perl/Test-Fatal
+	dev-perl/base
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880
 "
+

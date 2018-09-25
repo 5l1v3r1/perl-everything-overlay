@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SHLOMOY"
-DIST_VERSION="0.13"
-DIST_A="Lingua-HE-Sentence-0.13.tar.gz"
+DIST_VERSION="0.13" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="
 	${RDEPEND}
+	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="0.04"
-DIST_A="Image-JpegTran-AutoRotate-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,5 +19,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
+

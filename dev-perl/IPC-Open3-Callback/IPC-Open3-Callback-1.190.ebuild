@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTHEISEN"
-DIST_VERSION="1.19"
-DIST_A="IPC-Open3-Callback-1.19.tar.gz"
+DIST_VERSION="1.19" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

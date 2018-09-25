@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DANBOO"
-DIST_VERSION="0.15"
-DIST_A="Math-CPWLF-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

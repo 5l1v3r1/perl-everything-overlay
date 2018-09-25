@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DOY"
-DIST_VERSION="0.03"
-DIST_A="LastFM-Export-0.03.tar.gz"
+DIST_VERSION="0.03" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,4 +26,10 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	dev-perl/base
+	dev-perl/libwww-perl
+	virtual/perl-File-Spec
+	virtual/perl-IO
+	>=virtual/perl-Test-Simple-0.880
 "
+

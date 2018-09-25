@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JKEENAN"
-DIST_VERSION="0.53"
-DIST_A="List-Compare-0.53.tar.gz"
+DIST_VERSION="0.53" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	dev-perl/IO-CaptureOutput
 	>=virtual/perl-Test-Simple-0.100
 "
+

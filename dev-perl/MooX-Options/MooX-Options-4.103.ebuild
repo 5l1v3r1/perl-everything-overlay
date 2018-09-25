@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REHSACK"
-DIST_VERSION="4.103"
-DIST_A="MooX-Options-4.103.tar.gz"
+DIST_VERSION="4.103" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -33,3 +32,4 @@ DEPEND="
 	dev-perl/Test-Trap
 	>=virtual/perl-Test-Simple-0.900
 "
+

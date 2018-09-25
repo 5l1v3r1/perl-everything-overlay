@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NERDVANA"
-DIST_VERSION="0.002000"
-DIST_A="Math-InterpolationCompiler-0.002000.tar.gz"
+DIST_VERSION="0.002000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-Data-Dumper
 	>=virtual/perl-Test-Simple-1.000
 "
+

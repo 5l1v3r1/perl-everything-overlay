@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CLICKTX"
-DIST_VERSION="0.05"
-DIST_A="Mojolicious-Plugin-LocaleTextDomainOO-0.05.tar.gz"
+DIST_VERSION="0.05" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,6 +22,8 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

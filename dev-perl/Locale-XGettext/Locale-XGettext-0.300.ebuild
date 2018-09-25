@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GUIDO"
-DIST_VERSION="0.3"
-DIST_A="Locale-XGettext-0.3.tar.gz"
+DIST_VERSION="0.3" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Locale-PO-0.270
 	dev-perl/base
-	>=dev-perl/libintl-perl-1.200
+	dev-perl/libintl-perl
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	>=virtual/perl-Getopt-Long-2.360
@@ -31,3 +30,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YSASAKI"
-DIST_VERSION="0.04"
-DIST_A="Iterator-ToArray-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	>=dev-perl/Test-Exception-0.320
 	>=virtual/perl-Test-Simple-0.980
 "
+

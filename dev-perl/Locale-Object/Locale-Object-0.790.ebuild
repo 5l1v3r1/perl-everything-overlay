@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JROBINSON"
-DIST_VERSION="0.79"
-DIST_A="Locale-Object-0.79.tar.gz"
+DIST_VERSION="0.79" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	dev-perl/Test-Pod
 	virtual/perl-Test-Simple
 "
+

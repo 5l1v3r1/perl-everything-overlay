@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="Image"
-DIST_VERSION="1.19"
-DIST_A="Image-BMP-1.19.tar.gz"
+DIST_AUTHOR="DAVEOLA"
+DIST_VERSION="1.19" 
+SRC_URI="mirror://cpan/authors/id/D/DA/DAVEOLA/Image/Image-BMP-1.19.tar.gz -> Image-BMP-1.19.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Image-BMP-1.19 ${WORKDIR}/Image-BMP-1.19
+}
+

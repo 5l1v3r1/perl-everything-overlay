@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SKINGTON"
-DIST_VERSION="0.003"
-DIST_A="Lingua-EN-Segment-0.003.tar.gz"
+DIST_VERSION="0.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -31,3 +30,4 @@ DEPEND="
 	>=dev-perl/Test-Pod-Coverage-1.080
 	virtual/perl-Test-Simple
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="PETAMEM"
-DIST_VERSION="0.136"
-DIST_A="Lingua-RUS-Number-0.136.tar.gz"
+DIST_VERSION="0.136" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/Test-More-UTF8
 	virtual/perl-Test-Simple
 "
+

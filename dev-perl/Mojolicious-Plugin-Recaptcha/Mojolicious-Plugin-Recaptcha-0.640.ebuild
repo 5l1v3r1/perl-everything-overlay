@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMITRYNOD"
-DIST_VERSION="0.64"
-DIST_A="Mojolicious-Plugin-Recaptcha-0.64.tar.gz"
+DIST_VERSION="0.64" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	>=dev-perl/Module-Build-0.420
 	virtual/perl-Test-Simple
 "
+

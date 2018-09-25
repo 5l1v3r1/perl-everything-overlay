@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LUISMUNOZ"
-DIST_VERSION="1.116"
-DIST_A="Net-Radius-Server-1.116.tar.gz"
+DIST_VERSION="1.116" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -37,3 +36,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -4,9 +4,9 @@
 
 EAPI=6
 
-DIST_AUTHOR="net-smtp-retryable"
-DIST_VERSION="v0.0.2"
-DIST_A="Net-SMTP-Retryable-0.0.2.tar.gz"
+DIST_AUTHOR="MPREWITT"
+DIST_VERSION="0.0.2" 
+SRC_URI="mirror://cpan/authors/id/M/MP/MPREWITT/net-smtp-retryable/Net-SMTP-Retryable-0.0.2.tar.gz -> Net-SMTP-Retryable-0.0.2.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,4 +22,11 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Net-SMTP-Retryable-0.0.2 ${WORKDIR}/Net-SMTP-Retryable-0.0.2
+}
+

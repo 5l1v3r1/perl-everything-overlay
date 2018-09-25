@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHEN"
-DIST_VERSION="1.003"
-DIST_A="Math-Tau-1.003.tar.gz"
+DIST_VERSION="1.003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	virtual/perl-Math-Complex
 	virtual/perl-Test-Simple
 "
+

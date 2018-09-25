@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAKKAR"
-DIST_VERSION="2.004"
-DIST_A="Net-Stomp-Producer-2.004.tar.gz"
+DIST_VERSION="2.004" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -36,5 +35,7 @@ DEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal
 	dev-perl/Test-Warn
+	dev-perl/lib
 	virtual/perl-Test-Simple
 "
+

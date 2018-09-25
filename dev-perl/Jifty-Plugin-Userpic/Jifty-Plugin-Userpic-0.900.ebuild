@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YVESAGO"
-DIST_VERSION="0.9"
-DIST_A="Jifty-Plugin-Userpic-0.9.tar.gz"
+DIST_VERSION="0.9" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -17,8 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Jifty
-	>=virtual/perl-ExtUtils-MakeMaker-7.100.200
+	>=virtual/perl-ExtUtils-MakeMaker-7.340
 "
 DEPEND="
 	${RDEPEND}
 "
+

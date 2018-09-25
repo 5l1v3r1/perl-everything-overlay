@@ -6,7 +6,7 @@ EAPI=6
 
 DIST_AUTHOR="PYH"
 DIST_VERSION="0.04"
-DIST_A="Net-Domain-Registration-Check-0.04.tgz"
+DIST_A_EXT="tgz" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

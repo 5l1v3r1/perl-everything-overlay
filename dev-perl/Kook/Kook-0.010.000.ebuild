@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="KWATCH"
-DIST_VERSION="0.0100"
-DIST_A="Kook-0.0100.tar.gz"
+DIST_VERSION="0.0100" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

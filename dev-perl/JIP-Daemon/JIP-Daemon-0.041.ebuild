@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="VLADIMIRZ"
-DIST_VERSION="0.041"
-DIST_A="JIP-Daemon-0.041.tar.gz"
+DIST_VERSION="0.041" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

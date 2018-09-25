@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CRENZ"
-DIST_VERSION="0.7"
-DIST_A="MIDI-Pitch-0.7.tar.gz"
+DIST_VERSION="0.7" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

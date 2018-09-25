@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BLUEFEET"
-DIST_VERSION="0.04"
-DIST_A="Math-FitRect-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	>=virtual/perl-Test-Simple-0.940
 "
+

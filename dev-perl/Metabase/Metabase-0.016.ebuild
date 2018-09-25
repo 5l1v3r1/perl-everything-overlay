@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.016"
-DIST_A="Metabase-0.016.tar.gz"
+DIST_VERSION="0.016" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,7 +26,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	>=dev-perl/JSON-2.000
 	dev-perl/Metabase-Fact
-	dev-perl/Moose
+	>=dev-perl/Moose-1.000
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Net-Amazon-S3
 	dev-perl/Path-Class
@@ -49,3 +48,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "
+

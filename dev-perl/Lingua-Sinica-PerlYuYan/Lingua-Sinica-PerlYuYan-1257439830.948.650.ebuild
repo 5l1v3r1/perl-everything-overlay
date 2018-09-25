@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="AUDREYT"
-DIST_VERSION="1257439830.94865"
-DIST_A="Lingua-Sinica-PerlYuYan-1257439830.94865.tar.gz"
+DIST_VERSION="1257439830.94865" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -22,3 +21,4 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 "
+

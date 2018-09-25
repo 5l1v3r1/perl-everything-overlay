@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="JLMARTIN"
-DIST_VERSION="1.00"
-DIST_A="MooseX-DataModel-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	dev-perl/Type-Tiny
 	virtual/perl-Test-Simple
 "
+

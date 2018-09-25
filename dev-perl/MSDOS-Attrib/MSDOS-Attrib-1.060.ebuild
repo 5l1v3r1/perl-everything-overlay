@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CJM"
-DIST_VERSION="1.06"
-DIST_A="MSDOS-Attrib-1.06.tar.gz"
+DIST_VERSION="1.06" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-ExtUtils-ParseXS
 	virtual/perl-Test-Simple
 "
+

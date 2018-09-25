@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="REIVEUNE"
-DIST_VERSION="0.003006"
-DIST_A="MARC-Transform-0.003006.tar.gz"
+DIST_VERSION="0.003006" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,3 +24,4 @@ DEPEND="
 	dev-perl/YAML
 	virtual/perl-Test-Simple
 "
+

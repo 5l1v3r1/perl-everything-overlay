@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LAJANDY"
-DIST_VERSION="1.44"
-DIST_A="Helios-Panoptes-1.44.tar.gz"
+DIST_VERSION="1.44" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

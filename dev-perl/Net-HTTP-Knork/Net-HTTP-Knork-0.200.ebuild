@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BHSERROR"
-DIST_VERSION="0.20"
-DIST_A="Net-HTTP-Knork-0.20.tar.gz"
+DIST_VERSION="0.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -39,3 +38,4 @@ DEPEND="
 	>=dev-perl/File-ShareDir-Install-0.060
 	virtual/perl-ExtUtils-MakeMaker
 "
+

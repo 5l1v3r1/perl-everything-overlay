@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ULPFR"
-DIST_VERSION="0.300"
-DIST_A="Logfile-0.300.tar.gz"
+DIST_VERSION="0.300" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LTP"
-DIST_VERSION="0.045"
-DIST_A="IBM-StorageSystem-0.045.tar.gz"
+DIST_VERSION="0.045" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,3 +22,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

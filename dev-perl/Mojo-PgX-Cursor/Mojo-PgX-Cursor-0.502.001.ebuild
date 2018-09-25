@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="NNUTTER"
-DIST_VERSION="0.502001"
-DIST_A="Mojo-PgX-Cursor-0.502001.tar.gz"
+DIST_VERSION="0.502001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
+	dev-perl/Module-Build
 	>=virtual/perl-Test-Simple-0.980
 "
+

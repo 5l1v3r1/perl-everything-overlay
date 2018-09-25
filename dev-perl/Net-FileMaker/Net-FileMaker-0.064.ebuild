@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="SQUEEK"
-DIST_VERSION="0.064"
-DIST_A="Net-FileMaker-0.064.tar.gz"
+DIST_VERSION="0.064" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+

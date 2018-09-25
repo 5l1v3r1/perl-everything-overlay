@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DNICHTER"
-DIST_VERSION="1.00"
-DIST_A="MySQL-Log-ParseFilter-1.00.tar.gz"
+DIST_VERSION="1.00" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +20,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

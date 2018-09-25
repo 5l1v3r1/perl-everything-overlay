@@ -6,8 +6,8 @@ EAPI=6
 
 DIST_AUTHOR="LINKDD"
 DIST_VERSION="0.2"
-DIST_A="Lemonldap-NG-Cli-0.2.tgz"
-SRC_URI="mirror://cpan/authors/id/L/LI/LINKDD/Lemonldap/NG/Lemonldap-NG-Cli-0.2.tgz"
+DIST_A_EXT="tgz" 
+SRC_URI="mirror://cpan/authors/id/L/LI/LINKDD/Lemonldap/NG/Lemonldap-NG-Cli-0.2.tgz -> Lemonldap-NG-Cli-0.2.tgz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +24,9 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/Lemonldap-NG-Cli-0.2 ${WORKDIR}/Lemonldap-NG-Cli-0.2
+}
+

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/JSON-2.020
 	dev-perl/LWP-Protocol-https
-	>=dev-perl/URI-1.400
+	dev-perl/URI
 	>=dev-perl/libwww-perl-2.032
 	virtual/perl-Carp
 	virtual/perl-Encode
@@ -29,10 +29,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.034
+	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DROLSKY"
-DIST_VERSION="0.31"
-DIST_A="Markdent-0.31.tar.gz"
+DIST_VERSION="0.31" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -23,7 +22,7 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/List-AllUtils
 	dev-perl/Module-Runtime
-	dev-perl/Moose
+	>=dev-perl/Moose-2.180.200
 	dev-perl/MooseX-Getopt
 	dev-perl/MooseX-Role-Parameterized
 	>=dev-perl/MooseX-SemiAffordanceAccessor-0.050
@@ -52,3 +51,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-1.302.015
 "
+

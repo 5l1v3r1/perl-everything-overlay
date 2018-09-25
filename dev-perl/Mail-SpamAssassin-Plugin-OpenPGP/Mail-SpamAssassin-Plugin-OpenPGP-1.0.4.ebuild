@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BRONDSEM"
-DIST_VERSION="1.0.4"
-DIST_A="Mail-SpamAssassin-Plugin-OpenPGP-1.0.4.tar.gz"
+DIST_VERSION="1.0.4" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -20,6 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Mail-GPG-1.0.6
-	>=dev-perl/Module-Build-0.260
+	dev-perl/Module-Build
 	virtual/perl-Test-Simple
 "
+

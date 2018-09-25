@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CHROMATIC"
-DIST_VERSION="1.20170726"
-DIST_A="Mojolicious-Plugin-UnicodeNormalize-1.20170726.tar.gz"
+DIST_VERSION="1.20170726" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Mojolicious-7.000
+	dev-perl/Mojolicious
 	virtual/perl-Carp
 	virtual/perl-Unicode-Normalize
 "
@@ -26,3 +25,4 @@ DEPEND="
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "
+

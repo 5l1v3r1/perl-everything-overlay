@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="MARKELLIS"
-DIST_VERSION="2.30000"
-DIST_A="Net-AMQP-RabbitMQ-2.30000.tar.gz"
+DIST_VERSION="2.30000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "
+

@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FREDERICD"
-DIST_VERSION="0.057"
-DIST_A="Koha-Contrib-Tamil-0.057.tar.gz"
+DIST_VERSION="0.057" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -56,3 +55,4 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
+

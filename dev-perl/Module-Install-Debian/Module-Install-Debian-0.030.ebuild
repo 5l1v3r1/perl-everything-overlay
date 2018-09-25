@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BOLAV"
-DIST_VERSION="0.030"
-DIST_A="Module-Install-Debian-0.030.tar.gz"
+DIST_VERSION="0.030" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -29,3 +28,4 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 "
+

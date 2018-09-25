@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TBR"
-DIST_VERSION="1.000000"
-DIST_A="MooseX-Types-CIDR-1.000000.tar.gz"
+DIST_VERSION="1.000000" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
+

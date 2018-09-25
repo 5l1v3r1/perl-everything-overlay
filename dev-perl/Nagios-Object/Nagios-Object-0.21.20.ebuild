@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DUNCS"
-DIST_VERSION="v0.21.20"
-DIST_A="Nagios-Object-0.21.20.tar.gz"
+DIST_VERSION="0.21.20" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,3 +26,4 @@ DEPEND="
 	>=virtual/perl-Scalar-List-Utils-0.010
 	>=virtual/perl-Test-Simple-0.010
 "
+

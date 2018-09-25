@@ -5,8 +5,8 @@
 EAPI=6
 
 DIST_AUTHOR="MBSTE"
-DIST_VERSION="0.04"
-DIST_A="MultiCat_0.04.tar.gz"
+DIST_VERSION="0.04" 
+SRC_URI="mirror://cpan/authors/id/M/MB/MBSTE/MultiCat_0.04.tar.gz -> MultiCat-0.04.tar.gz"
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,3 +21,9 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+
+src_unpack(){
+        unpack ${A}
+        mv ${WORKDIR}/MultiCat_0.04 ${WORKDIR}/MultiCat-0.04
+}
+

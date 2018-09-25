@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DBROBINS"
-DIST_VERSION="0.02"
-DIST_A="Net-RVP-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -28,4 +27,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
+	dev-perl/Module-Build
 "
+

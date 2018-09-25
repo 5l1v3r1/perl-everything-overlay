@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="CFAERBER"
-DIST_VERSION="1.102"
-DIST_A="Net-IDN-Nameprep-1.102.tar.gz"
+DIST_VERSION="1.102" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,3 +23,4 @@ DEPEND="
 	dev-perl/Test-NoWarnings
 	virtual/perl-Test-Simple
 "
+

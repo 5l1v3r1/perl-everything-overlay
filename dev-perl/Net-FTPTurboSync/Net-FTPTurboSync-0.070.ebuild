@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="YAITSKOV"
-DIST_VERSION="0.07"
-DIST_A="Net-FTPTurboSync-0.07.tar.gz"
+DIST_VERSION="0.07" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -16,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.060
+	>=dev-lang/perl-1.040
 	>=dev-perl/DBI-1.611
 	>=dev-perl/Exception-Class-1.320
 	>=dev-perl/Exception-Class-TryCatch-1.120
@@ -28,3 +27,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

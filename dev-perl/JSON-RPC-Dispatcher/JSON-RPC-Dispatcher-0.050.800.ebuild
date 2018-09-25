@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DMCBRIDE"
-DIST_VERSION="0.0508"
-DIST_A="JSON-RPC-Dispatcher-0.0508.tar.gz"
+DIST_VERSION="0.0508" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,3 +25,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

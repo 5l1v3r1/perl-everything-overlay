@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="LETO"
-DIST_VERSION="0.02"
-DIST_A="Math-Factoring-0.02.tar.gz"
+DIST_VERSION="0.02" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -19,6 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Math-GMPz
 	dev-perl/Math-Primality
+	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 "
@@ -27,3 +27,4 @@ DEPEND="
 	>=virtual/perl-ExtUtils-MakeMaker-6.300
 	virtual/perl-Test-Simple
 "
+
