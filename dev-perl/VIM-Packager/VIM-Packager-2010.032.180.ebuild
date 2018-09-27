@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.140
 	dev-perl/Algorithm-Diff
 	>=dev-perl/App-CLI-0.080
 	>=dev-perl/DateTime-Format-DateParse-0.040
@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/VIM-Uploader
 	>=dev-perl/YAML-0.700
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.070
 	>=virtual/perl-File-Spec-3.300
 	virtual/perl-File-Temp

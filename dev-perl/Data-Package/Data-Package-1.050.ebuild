@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/File-ShareDir-0.050
 	>=dev-perl/Params-Coerce-0.060
 	>=dev-perl/Params-Util-0.210
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Carp-Clan
-	>=dev-perl/Log-Any-1.000
+	dev-perl/Log-Any
 	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent

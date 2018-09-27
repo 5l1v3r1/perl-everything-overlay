@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/B-OPCheck
 	dev-perl/Devel-Declare
 	dev-perl/Scope-Guard
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Module-Runtime
-	dev-perl/Moose
+	>=dev-perl/Moose-0.900
 	>=dev-perl/MooseX-AttributeTree-0.020
 	dev-perl/MooseX-Types
 	>=dev-perl/PostScript-File-2.200
@@ -28,7 +28,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.770
 	virtual/perl-Encode
 	>=virtual/perl-Test-Simple-0.880

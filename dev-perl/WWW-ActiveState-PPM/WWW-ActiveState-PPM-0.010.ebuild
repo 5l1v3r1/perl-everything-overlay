@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/LWP-Online-1.070
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

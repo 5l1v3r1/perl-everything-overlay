@@ -25,7 +25,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Directory-Scratch
 	dev-perl/File-Slurp
 	dev-perl/Test-Most

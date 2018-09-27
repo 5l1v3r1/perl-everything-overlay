@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Filter
 	dev-perl/WebService-Simple
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

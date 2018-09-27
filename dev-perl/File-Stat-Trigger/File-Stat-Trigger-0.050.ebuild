@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/File-Stat-OO
 	dev-perl/Module-Install-AuthorTests
 	dev-perl/Moose
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

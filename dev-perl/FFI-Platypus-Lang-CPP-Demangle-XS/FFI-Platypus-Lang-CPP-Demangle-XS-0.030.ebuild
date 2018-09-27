@@ -19,7 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-CppGuess
-	>=virtual/perl-ExtUtils-MakeMaker-7.120
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test2-Suite-0.000.060
 "
 

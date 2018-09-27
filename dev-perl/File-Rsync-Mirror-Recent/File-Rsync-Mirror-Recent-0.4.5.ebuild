@@ -27,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Pod-Usage-1.610
 	dev-perl/YAML-Syck
 	dev-perl/accessors
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	>=virtual/perl-File-Temp-0.210

@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.000
 	>=dev-perl/Metabase-0.001
 	dev-perl/Metabase-Client-Simple
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

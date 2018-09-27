@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/XML-Twig
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.420
 "

@@ -18,7 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Data-UUID
 	dev-perl/File-ShareDir
 	>=dev-perl/Inline-Java-0.530

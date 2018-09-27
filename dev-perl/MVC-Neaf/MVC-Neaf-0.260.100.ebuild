@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Plack
 	dev-perl/Template-Toolkit
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-MIME-Base64-3.110
 "
 DEPEND="

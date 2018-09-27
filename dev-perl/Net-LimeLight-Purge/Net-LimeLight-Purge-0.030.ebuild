@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/DateTime-Format-ISO8601-0.060
 	>=dev-perl/Moose-0.720
 	>=dev-perl/MooseX-AttributeHelpers-0.140
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

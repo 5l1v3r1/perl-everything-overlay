@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

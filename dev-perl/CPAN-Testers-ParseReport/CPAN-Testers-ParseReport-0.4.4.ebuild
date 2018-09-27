@@ -27,9 +27,9 @@ RDEPEND="
 	dev-perl/Statistics-Regression
 	dev-perl/Test-Pod
 	dev-perl/libwww-perl
-	>=virtual/perl-CPAN-Meta-2.110.440
+	>=virtual/perl-CPAN-Meta-1.4417.001
 	>=virtual/perl-CPAN-Meta-YAML-0.018
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-1.080
 	>=virtual/perl-File-Spec-3.630.100
 	virtual/perl-Getopt-Long

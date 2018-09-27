@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Types-0.200
 	dev-perl/Template-Plugin-FillInForm
 	>=dev-perl/Template-Toolkit-2.200
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

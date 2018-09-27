@@ -23,7 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckLib-0.9.0
 	>=dev-perl/Module-Build-0.280
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Pod-Coverage-TrustPod
 	dev-perl/Test-CPAN-Meta
 	>=dev-perl/Test-CheckDeps-0.010

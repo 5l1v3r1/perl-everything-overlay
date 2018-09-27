@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Sub-Override-0.080
 	>=dev-perl/Test-Differences-0.480.100
 	>=virtual/perl-Exporter-5.630
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Term-ANSIColor-2.010
 	virtual/perl-Test-Simple
 "

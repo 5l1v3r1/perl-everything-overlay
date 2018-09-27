@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Error
 	dev-perl/Filter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

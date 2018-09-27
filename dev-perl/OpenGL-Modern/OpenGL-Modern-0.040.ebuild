@@ -26,7 +26,7 @@ DEPEND="
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.070
 	virtual/perl-Data-Dumper
 	virtual/perl-ExtUtils-Constant
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/IO-All-0.860
 	dev-perl/Test-InDistDir
 	>=virtual/perl-Test-Simple-0.880

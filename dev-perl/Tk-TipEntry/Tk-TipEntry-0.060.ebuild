@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Test-Pod-1.450
 	>=dev-perl/Tk-804.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
 DEPEND="

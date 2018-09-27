@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Facebook
 	dev-perl/Moose
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

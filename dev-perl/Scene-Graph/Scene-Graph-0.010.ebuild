@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Clone
 	dev-perl/MooseX-Storage
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

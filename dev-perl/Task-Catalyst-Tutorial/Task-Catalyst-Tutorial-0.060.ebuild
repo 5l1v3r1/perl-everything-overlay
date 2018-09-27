@@ -30,7 +30,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.701.500
 	>=dev-perl/Catalyst-View-TT-0.270
 	>=dev-perl/DBIx-Class-0.080.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

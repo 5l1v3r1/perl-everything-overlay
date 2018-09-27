@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/List-SomeUtils
 	dev-perl/Module-Runtime
 	dev-perl/Module-Util
-	>=dev-perl/Moose-2.000.000
+	dev-perl/Moose
 	dev-perl/MooseX-Getopt
 	>=dev-perl/Package-DeprecationManager-0.160
 	dev-perl/Parallel-ForkManager

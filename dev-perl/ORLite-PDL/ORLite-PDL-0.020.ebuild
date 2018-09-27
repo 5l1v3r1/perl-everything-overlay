@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/PDL-2.004.005
 	>=dev-perl/PDL-Stats-0.003.002
 	>=dev-perl/Params-Util-1.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

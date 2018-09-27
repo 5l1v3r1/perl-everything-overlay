@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

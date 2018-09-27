@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Load
-	>=dev-perl/Moose-2.000
+	dev-perl/Moose
 	dev-perl/Tie-IxHash
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/lib
 	dev-perl/namespace-autoclean

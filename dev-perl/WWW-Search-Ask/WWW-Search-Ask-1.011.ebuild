@@ -17,9 +17,9 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	dev-perl/WWW-Search
+	>=dev-perl/WWW-Search-2.287
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

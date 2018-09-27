@@ -37,7 +37,7 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Module-CoreList-2.170
 	virtual/perl-Test-Simple
 "

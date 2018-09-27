@@ -38,7 +38,7 @@ RDEPEND="
 	>=dev-perl/XML-Simple-2.180
 	>=dev-perl/YAML-LibYAML-0.320
 	>=dev-perl/libwww-perl-5.833
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.770
 "
 DEPEND="

@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	>=dev-perl/Tangram-2.090
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/File-ShareDir-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/SQL-Abstract
 	dev-perl/SQL-Abstract-Limit
 	dev-perl/Test-Memory-Cycle
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.770
 "
 DEPEND="

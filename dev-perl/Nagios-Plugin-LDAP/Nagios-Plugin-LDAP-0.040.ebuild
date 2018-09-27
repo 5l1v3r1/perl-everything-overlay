@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Nagios-Plugin
 	dev-perl/perl-ldap
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Time-HiRes
 "
 DEPEND="

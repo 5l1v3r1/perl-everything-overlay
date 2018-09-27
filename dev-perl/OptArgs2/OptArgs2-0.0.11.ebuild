@@ -25,7 +25,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.080
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	dev-perl/IO-Capture
 	dev-perl/Test2-Suite

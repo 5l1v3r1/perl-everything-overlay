@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Scalar-Defer
 	dev-perl/YAML
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

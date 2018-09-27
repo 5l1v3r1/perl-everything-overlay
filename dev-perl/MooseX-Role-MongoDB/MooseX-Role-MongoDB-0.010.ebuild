@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Log-Any
 	>=dev-perl/MooX-Role-Logger-0.002
 	dev-perl/Parallel-Iterator

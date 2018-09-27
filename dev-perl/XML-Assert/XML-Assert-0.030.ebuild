@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Any-Moose
 	dev-perl/Test-Exception
 	>=dev-perl/XML-LibXML-1.580
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

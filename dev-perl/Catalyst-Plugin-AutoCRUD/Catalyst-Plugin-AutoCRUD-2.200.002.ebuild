@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Action-RenderView
 	dev-perl/Catalyst-Model-DBIC-Schema
 	dev-perl/Catalyst-Plugin-ConfigLoader
-	>=dev-perl/Catalyst-Runtime-5.700
+	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-JSON
 	dev-perl/Catalyst-View-TT
 	dev-perl/DBD-SQLite
@@ -40,7 +40,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Class-Data-Inheritable
 	dev-perl/DBI
 	dev-perl/JSON-XS

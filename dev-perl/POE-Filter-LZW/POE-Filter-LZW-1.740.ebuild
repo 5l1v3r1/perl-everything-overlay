@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Compress-LZW
-	dev-perl/POE
+	>=dev-perl/POE-0.380
 "
 DEPEND="
 	${RDEPEND}

@@ -19,7 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.000
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=dev-perl/Sereal-Decoder-4.004
 	>=dev-perl/Sereal-Encoder-4.004

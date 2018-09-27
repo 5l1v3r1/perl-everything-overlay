@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/URI
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

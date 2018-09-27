@@ -21,7 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/FFI-CheckLib
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	>=dev-perl/Test2-Suite-0.000.060
 "

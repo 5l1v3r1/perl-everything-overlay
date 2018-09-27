@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Algorithm-Scale2x
 	dev-perl/GD
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

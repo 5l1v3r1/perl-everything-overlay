@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/PPI-1.201
 	>=dev-perl/Test-Script-1.020
 	>=dev-perl/Wx-0.540
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "

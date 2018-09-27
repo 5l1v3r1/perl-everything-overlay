@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-W3CDTF
 	dev-perl/HTTP-Message
 	dev-perl/XML-Atom
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

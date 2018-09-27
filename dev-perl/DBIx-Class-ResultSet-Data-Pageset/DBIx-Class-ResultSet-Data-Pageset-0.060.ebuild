@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBIx-Class
 	>=dev-perl/Data-Pageset-1.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/RDF-Generator-Void
 	>=dev-perl/RDF-LinkedData-0.740
 	dev-perl/Test-Exception

@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/WebService-Livedoor-Weather
 	dev-perl/libwww-perl
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

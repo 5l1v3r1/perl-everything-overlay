@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/JSON-2.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.048.000
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

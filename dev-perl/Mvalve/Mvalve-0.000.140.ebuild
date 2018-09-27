@@ -33,7 +33,7 @@ RDEPEND="
 	dev-perl/Test-UseAllModules
 	dev-perl/UNIVERSAL-require
 	>=virtual/perl-Exporter-5.610
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "

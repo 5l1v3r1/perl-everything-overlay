@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/UNIVERSAL-isa-1.010
 	>=dev-perl/YAML-0.680
 	>=virtual/perl-Data-Dumper-2.121
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Term-Prompt
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 "

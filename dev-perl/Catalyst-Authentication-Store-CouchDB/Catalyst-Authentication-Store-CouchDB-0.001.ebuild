@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-lang/perl-1.490
 	dev-perl/Catalyst-Plugin-Authorization-Roles
 	dev-perl/Catalyst-Plugin-Session

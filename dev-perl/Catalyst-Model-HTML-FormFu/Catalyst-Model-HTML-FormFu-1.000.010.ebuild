@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/HTML-FormFu-0.020.000
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

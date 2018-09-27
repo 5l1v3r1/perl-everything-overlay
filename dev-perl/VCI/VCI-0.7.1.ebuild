@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Text-Diff-Parser-0.070
 	dev-perl/XML-Simple
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-IPC-Cmd-0.420
 	>=virtual/perl-Module-Load-Conditional-0.240
 	virtual/perl-Test-Simple

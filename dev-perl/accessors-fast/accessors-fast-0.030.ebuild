@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-NoWarnings
 	>=dev-perl/constant-def-0.010
 	>=dev-perl/lib-abs-0.900
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

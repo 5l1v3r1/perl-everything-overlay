@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Params-Util-0.100
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 	>=virtual/perl-version-0.740
 "

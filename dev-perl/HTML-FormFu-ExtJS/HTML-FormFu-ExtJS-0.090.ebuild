@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-C3
-	dev-perl/HTML-FormFu
+	>=dev-perl/HTML-FormFu-0.090
 	dev-perl/Hash-Merge-Simple
 	dev-perl/JavaScript-Dumper
 	dev-perl/Moose

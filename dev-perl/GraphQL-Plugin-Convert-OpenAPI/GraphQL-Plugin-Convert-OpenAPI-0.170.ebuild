@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.100
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Mojolicious-Plugin-GraphQL-0.110
 	>=dev-perl/Mojolicious-Plugin-OpenAPI-1.250
 	>=dev-perl/Test-Snapshot-0.020

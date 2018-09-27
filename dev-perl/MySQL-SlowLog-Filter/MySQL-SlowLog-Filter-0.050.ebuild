@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/Pod-Usage
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Local

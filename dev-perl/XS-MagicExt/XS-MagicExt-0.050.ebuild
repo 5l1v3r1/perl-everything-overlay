@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/XS-MagicExt
 	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-2.200
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-XSLoader-0.080

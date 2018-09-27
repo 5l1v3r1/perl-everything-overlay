@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Params-Validate
 	dev-perl/WWW-Mechanize
 	dev-perl/Web-Scraper
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

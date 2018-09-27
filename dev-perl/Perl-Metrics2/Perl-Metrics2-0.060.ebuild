@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-perl/Params-Util-1.000
 	>=dev-perl/Process-0.270
 	>=dev-perl/Time-Elapsed-0.240
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
 	>=virtual/perl-Time-HiRes-1.971.800

@@ -23,7 +23,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.039
 	dev-perl/Module-Build
 	dev-perl/Test-Requires
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

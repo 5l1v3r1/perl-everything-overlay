@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/LWP-MediaTypes-6.000
 	>=dev-perl/URI-1.600
 	>=dev-perl/libwww-perl-5.800
-	>=virtual/perl-ExtUtils-MakeMaker-6.600
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-Test-Simple-0.940
 "

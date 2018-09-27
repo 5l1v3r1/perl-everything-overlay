@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/KiokuDB-0.320
 	>=dev-perl/Redis-0.080.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

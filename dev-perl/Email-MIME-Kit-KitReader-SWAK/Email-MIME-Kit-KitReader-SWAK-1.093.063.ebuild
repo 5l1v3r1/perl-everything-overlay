@@ -17,11 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Email-MIME-Kit
 	dev-perl/Moose
-	dev-perl/Path-Resolver
+	>=dev-perl/Path-Resolver-3.092.200
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=virtual/perl-Test-Simple-0.960
 "

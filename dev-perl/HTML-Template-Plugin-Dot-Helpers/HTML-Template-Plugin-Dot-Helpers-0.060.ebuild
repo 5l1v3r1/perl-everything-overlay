@@ -15,12 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTML-Template-Pluggable-0.960
+	>=dev-perl/HTML-Template-Pluggable-0.120
 	dev-perl/Number-Format
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

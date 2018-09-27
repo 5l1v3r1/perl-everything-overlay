@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/WWW-Facebook-API
 	dev-perl/namespace-autoclean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

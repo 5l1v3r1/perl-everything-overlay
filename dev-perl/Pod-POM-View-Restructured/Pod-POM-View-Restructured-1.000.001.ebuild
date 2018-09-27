@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/base
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 "
 DEPEND="

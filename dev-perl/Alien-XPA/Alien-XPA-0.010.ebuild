@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Action-Retry
 	dev-perl/Alien-patch
 	dev-perl/Test2-Suite

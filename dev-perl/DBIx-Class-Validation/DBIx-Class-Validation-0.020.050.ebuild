@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Data-FormValidator
 	dev-perl/DateTime-Format-SQLite
 	>=dev-perl/FormValidator-Simple-0.170
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

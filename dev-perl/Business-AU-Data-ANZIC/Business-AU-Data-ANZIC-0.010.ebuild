@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Params-Util-0.220
 	>=dev-perl/Parse-CSV-1.000
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-IO-1.140
 	>=virtual/perl-Test-Simple-0.420
 "

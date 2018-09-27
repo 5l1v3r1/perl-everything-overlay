@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Server-Starter
 	dev-perl/Test-TCP
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

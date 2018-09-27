@@ -55,7 +55,7 @@ RDEPEND="
 	>=dev-perl/aliased-0.220
 	>=dev-perl/namespace-clean-0.110
 	>=dev-perl/signatures-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.290
 	>=virtual/perl-Scalar-List-Utils-1.190
 "

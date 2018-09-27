@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-7.120
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

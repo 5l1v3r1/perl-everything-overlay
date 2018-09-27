@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/ORLite-1.250
 	>=dev-perl/Statistics-Basic-1.660.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

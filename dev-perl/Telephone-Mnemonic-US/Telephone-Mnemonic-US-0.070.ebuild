@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Expect-1.210
 	>=dev-perl/Test-CPAN-Meta-0.180
 	>=dev-perl/Test-Dependencies-0.120

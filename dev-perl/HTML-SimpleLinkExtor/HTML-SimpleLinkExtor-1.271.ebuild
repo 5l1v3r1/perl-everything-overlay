@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Parser-1.280
-	dev-perl/URI
+	>=dev-perl/URI-1.090
 	dev-perl/libwww-perl
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	dev-perl/Test-Output
 	>=virtual/perl-Test-Simple-0.940

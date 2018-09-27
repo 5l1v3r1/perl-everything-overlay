@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Imager-0.710
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.770
 "
 DEPEND="

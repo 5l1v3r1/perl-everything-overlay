@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/DBIx-MyParse
 	>=dev-perl/List-MoreUtils-0.220
 	>=dev-perl/self-0.150
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Log-Dispatch-Array
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

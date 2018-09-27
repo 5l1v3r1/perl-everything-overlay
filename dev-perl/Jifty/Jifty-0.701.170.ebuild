@@ -53,7 +53,7 @@ RDEPEND="
 	>=dev-perl/IPC-PubSub-0.220
 	>=dev-perl/Jifty-0.609.120
 	>=dev-perl/Jifty-DBI-0.300
-	>=dev-perl/Locale-Maketext-Lexicon-0.600
+	>=dev-perl/Locale-Maketext-Lexicon-0.200
 	dev-perl/Log-Log4perl
 	dev-perl/MIME-Types
 	>=dev-perl/Module-Install-0.500
@@ -76,9 +76,9 @@ RDEPEND="
 	>=dev-perl/WWW-Mechanize-1.120
 	dev-perl/XML-Simple
 	dev-perl/XML-XPath
-	>=dev-perl/YAML-Syck-0.710
+	>=dev-perl/YAML-Syck-0.150
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO-Compress
 	virtual/perl-Module-CoreList
 	virtual/perl-Pod-Simple

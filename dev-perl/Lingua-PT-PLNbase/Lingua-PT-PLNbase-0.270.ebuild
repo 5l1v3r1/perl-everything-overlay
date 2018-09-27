@@ -19,7 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.550
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	>=dev-perl/Test-Pod-1.000
 	>=dev-perl/Test-Pod-Coverage-0.080

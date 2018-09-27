@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session
 	>=dev-perl/KiokuDB-0.070
 	dev-perl/KiokuDB-Backend-BDB
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

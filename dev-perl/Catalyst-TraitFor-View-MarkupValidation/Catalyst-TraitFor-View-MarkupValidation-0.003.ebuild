@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/WebService-Validator-HTML-W3C
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Memoize
 	virtual/perl-Test-Simple
 "

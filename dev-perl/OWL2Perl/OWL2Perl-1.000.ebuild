@@ -32,7 +32,7 @@ RDEPEND="
 	>=dev-perl/Want-0.180
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.080
 	>=virtual/perl-File-Spec-3.330
 	>=virtual/perl-Scalar-List-Utils-1.200

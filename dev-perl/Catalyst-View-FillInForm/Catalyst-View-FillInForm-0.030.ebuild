@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Catalyst-View-TT
 	dev-perl/HTML-FillInForm
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

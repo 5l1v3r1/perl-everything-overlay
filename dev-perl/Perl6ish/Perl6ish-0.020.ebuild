@@ -27,7 +27,7 @@ RDEPEND="
 	>=dev-perl/Perl6-Slurp-0.030
 	>=dev-perl/Perl6-Take-0.040
 	>=dev-perl/Readonly-1.030
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.190
 	virtual/perl-Test-Simple
 "

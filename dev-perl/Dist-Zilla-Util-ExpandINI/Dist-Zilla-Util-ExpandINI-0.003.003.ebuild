@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Config-INI-0.024
+	dev-perl/Config-INI
 	>=dev-perl/Dist-Zilla-Util-BundleInfo-1.001.000
 	dev-perl/Module-Runtime
 	>=dev-perl/Moo-1.000.008
@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.110.100
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Dist-Zilla
 	dev-perl/Test-Differences
 	virtual/perl-File-Spec

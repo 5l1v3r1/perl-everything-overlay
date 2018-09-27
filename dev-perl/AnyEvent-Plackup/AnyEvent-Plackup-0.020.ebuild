@@ -31,7 +31,7 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	dev-perl/libwww-perl
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

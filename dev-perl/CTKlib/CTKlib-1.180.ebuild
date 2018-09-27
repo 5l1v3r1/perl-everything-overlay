@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.000
+	>=dev-lang/perl-2.000
 	>=dev-perl/Archive-Extract-0.580
 	>=dev-perl/Archive-Zip-1.300
 	>=dev-perl/Class-C3-Adopt-NEXT-0.130
@@ -34,7 +34,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.800
 	>=dev-perl/namespace-autoclean-0.130
 	>=virtual/perl-Archive-Tar-1.800
-	>=virtual/perl-ExtUtils-MakeMaker-6.600
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.000
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-IO-1.200

@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.620
 	dev-perl/Class-Accessor
 	dev-perl/Data-Page
 	dev-perl/MRO-Compat

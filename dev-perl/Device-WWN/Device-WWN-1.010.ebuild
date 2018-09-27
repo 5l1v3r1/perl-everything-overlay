@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

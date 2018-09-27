@@ -16,8 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Null
-	>=dev-perl/Plack-0.090
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	>=dev-perl/Plack-0.902.200
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="

@@ -39,7 +39,7 @@ RDEPEND="
 	>=virtual/perl-Carp-1.000
 	>=virtual/perl-Data-Dumper-2.121.02
 	>=virtual/perl-Exporter-5.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.000
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.070
 	virtual/perl-Test-Simple
 	>=virtual/perl-libnet-2.750

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/DBM-Deep-1.000
 	dev-perl/Data-UUID
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Storable
 	virtual/perl-Time-HiRes
 "

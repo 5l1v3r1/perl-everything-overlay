@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/WWW-Mechanize-1.060
 	>=dev-perl/libwww-perl-5.690
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

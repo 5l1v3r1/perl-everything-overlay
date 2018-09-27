@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="DAGOLDEN"
-DIST_VERSION="0.008"
-DIST_A="HTTP-CookieJar-0.008.tar.gz"
+DIST_VERSION="0.008" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -24,5 +23,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
+	dev-perl/Test-Deep
+	dev-perl/Test-Requires
+	dev-perl/URI
+	dev-perl/lib
+	virtual/perl-File-Spec
+	>=virtual/perl-Test-Simple-0.960
 "
+

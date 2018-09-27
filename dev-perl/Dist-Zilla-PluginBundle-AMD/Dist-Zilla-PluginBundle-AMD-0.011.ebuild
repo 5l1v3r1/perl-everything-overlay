@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/Dist-Zilla-Plugin-Test-NoTabs
 	dev-perl/Dist-Zilla-PluginBundle-Git-CheckFor
 	dev-perl/Method-Signatures-Simple
-	>=dev-perl/Moose-1.000
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Email
 	>=dev-perl/MooseX-Types-Structured-0.200
@@ -37,6 +37,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

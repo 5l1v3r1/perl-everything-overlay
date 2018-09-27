@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Module-Compile-0.230
 	virtual/perl-Carp
 	>=virtual/perl-Data-Dumper-2.121
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-ExtUtils-Manifest
 	virtual/perl-File-Path
 	>=virtual/perl-File-Spec-0.600

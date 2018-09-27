@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Any-Moose
 	dev-perl/Filter
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

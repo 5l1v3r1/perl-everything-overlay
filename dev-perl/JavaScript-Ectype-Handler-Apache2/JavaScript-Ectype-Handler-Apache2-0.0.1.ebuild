@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/HTTP-Date
 	dev-perl/JavaScript-Ectype
 	dev-perl/Test-MockObject
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

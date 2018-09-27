@@ -21,7 +21,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-PkgConfig
 	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Class
 	dev-perl/Test-Compile
 	dev-perl/Test-Most

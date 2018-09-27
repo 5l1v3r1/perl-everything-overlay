@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Lingua-Num2Word-0.070
 	>=dev-perl/Template-Plugin-VMethods-0.003
 	>=dev-perl/Template-Toolkit-2.200
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

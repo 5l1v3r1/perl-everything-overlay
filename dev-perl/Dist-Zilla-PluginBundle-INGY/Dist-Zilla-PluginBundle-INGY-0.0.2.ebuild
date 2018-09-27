@@ -30,11 +30,11 @@ RDEPEND="
 	dev-perl/Moose-Autobox
 	>=dev-perl/Pod-Elemental-0.092.970
 	dev-perl/Pod-Elemental-Transformer-List
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-3.100.310
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.960
 "

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/XML-LibXML
 	>=dev-perl/XML-Simple-2.180
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/ASP4-1.080
 	>=dev-perl/Router-Generic-0.016
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

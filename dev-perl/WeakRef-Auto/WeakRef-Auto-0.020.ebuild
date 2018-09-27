@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=virtual/perl-Exporter-5.570
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.620
 	>=virtual/perl-XSLoader-0.060
 "

@@ -29,7 +29,7 @@ RDEPEND="
 	virtual/perl-Digest
 	virtual/perl-Digest-MD5
 	virtual/perl-Digest-SHA
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

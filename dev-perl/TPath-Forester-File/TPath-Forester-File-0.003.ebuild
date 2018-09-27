@@ -15,11 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.020
+	dev-lang/perl
 	dev-perl/Encode-Detect
 	dev-perl/Moose
 	dev-perl/MooseX-MethodAttributes
-	dev-perl/TPath
+	>=dev-perl/TPath-1.000
 	dev-perl/namespace-autoclean
 	virtual/perl-Encode
 	virtual/perl-File-Spec
@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/base
 	dev-perl/lib
 	virtual/perl-Exporter

@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700.000
 	>=dev-perl/Class-Data-Inheritable-0.040
 	>=dev-perl/MRO-Compat-0.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

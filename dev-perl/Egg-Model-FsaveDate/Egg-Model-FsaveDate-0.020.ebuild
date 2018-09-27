@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.040
 	virtual/perl-Test-Simple
 "

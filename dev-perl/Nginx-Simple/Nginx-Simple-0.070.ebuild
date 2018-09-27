@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/CGI
 	dev-perl/XML-Simple
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Time-HiRes
 "
 DEPEND="

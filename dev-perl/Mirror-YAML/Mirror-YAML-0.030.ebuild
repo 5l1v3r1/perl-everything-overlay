@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/URI-1.280
 	>=dev-perl/YAML-Tiny-1.030
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 	virtual/perl-Time-HiRes
 	>=virtual/perl-Time-Local-1.130

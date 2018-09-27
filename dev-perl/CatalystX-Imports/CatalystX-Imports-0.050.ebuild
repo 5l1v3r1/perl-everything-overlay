@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session-Store-FastMmap
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.800.020
 	>=dev-perl/Class-C3-0.200
 	>=dev-perl/Data-Alias-0.080
 	>=dev-perl/Filter-EOF-0.020
@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/Sub-Name-0.040
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.190
 	>=virtual/perl-Test-Simple-0.620
 "

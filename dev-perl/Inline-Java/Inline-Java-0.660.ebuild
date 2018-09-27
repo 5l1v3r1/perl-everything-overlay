@@ -21,6 +21,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

@@ -22,6 +22,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	dev-perl/HTTP-Message
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

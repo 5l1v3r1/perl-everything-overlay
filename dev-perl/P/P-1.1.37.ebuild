@@ -23,7 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=virtual/perl-version-0.770
 	>=dev-lang/perl-1.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.820
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.440
 "
 

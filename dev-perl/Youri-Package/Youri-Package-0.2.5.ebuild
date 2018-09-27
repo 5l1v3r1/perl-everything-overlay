@@ -18,7 +18,6 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Expect
 	dev-perl/Perl-RPM
-	dev-perl/RPM4
 	dev-perl/UNIVERSAL-require
 	dev-perl/base
 	virtual/perl-Carp

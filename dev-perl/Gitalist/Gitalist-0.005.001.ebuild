@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="BROQ"
-DIST_VERSION="0.005001"
-DIST_A="Gitalist-0.005001.tar.gz"
+DIST_VERSION="0.005001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-Static-Simple
 	>=dev-perl/Catalyst-Plugin-SubRequest-0.150
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.900.130
 	>=dev-perl/Catalyst-View-Component-SubInclude-0.070
 	>=dev-perl/Catalyst-View-TT-0.340
 	>=dev-perl/Class-Load-0.200
@@ -63,3 +62,4 @@ DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
+

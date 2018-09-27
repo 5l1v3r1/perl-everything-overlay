@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Params-Validate
 	dev-perl/Scalar-Defer
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 	virtual/perl-libnet
 "

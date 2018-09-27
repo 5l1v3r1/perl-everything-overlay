@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.630.200
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Module-Install-AutoManifest-0.003
 	>=dev-perl/Module-Install-ReadmeFromPod-0.200
 	>=virtual/perl-Test-Simple-0.470

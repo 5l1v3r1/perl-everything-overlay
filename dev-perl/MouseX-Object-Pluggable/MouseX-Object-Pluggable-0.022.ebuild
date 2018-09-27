@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Module-Install-AuthorTests
 	>=dev-perl/Module-Pluggable-3.600
 	>=dev-perl/Mouse-0.170
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

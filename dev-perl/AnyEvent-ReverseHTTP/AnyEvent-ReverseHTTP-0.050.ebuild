@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/URI
 	virtual/perl-Digest-SHA
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "

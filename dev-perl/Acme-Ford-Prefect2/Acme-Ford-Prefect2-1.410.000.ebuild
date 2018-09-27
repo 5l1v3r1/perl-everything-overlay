@@ -21,7 +21,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Acme-Alien-DontPanic2-1.410.000
 	>=dev-perl/Alien-Build-1.410
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test2-Suite-0.000.060
 	virtual/perl-Data-Dumper
 "

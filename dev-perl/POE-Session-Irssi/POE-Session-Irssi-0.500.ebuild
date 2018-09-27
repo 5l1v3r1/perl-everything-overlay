@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/POE-1.003
 	>=dev-perl/POE-Loop-Glib-0.003.600
 	>=virtual/perl-Carp-1.080
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

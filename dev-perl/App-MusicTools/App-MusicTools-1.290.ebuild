@@ -38,7 +38,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-lang/perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Pod-Coverage-0.180
 	dev-perl/Test-Cmd
 	dev-perl/Test-Exception

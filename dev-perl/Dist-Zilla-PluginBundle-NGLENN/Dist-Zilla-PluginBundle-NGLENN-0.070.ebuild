@@ -55,7 +55,7 @@ RDEPEND="
 	dev-perl/Pod-Elemental-Transformer-WikiDoc
 	dev-perl/Pod-Markdown
 	>=dev-perl/Pod-Spell-1.100
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.000
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.008
 	>=dev-perl/Pod-Weaver-Section-Support-1.001
 	>=dev-perl/Test-Portability-Files-0.060
@@ -63,7 +63,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	dev-perl/Path-Tiny
 	virtual/perl-File-Spec

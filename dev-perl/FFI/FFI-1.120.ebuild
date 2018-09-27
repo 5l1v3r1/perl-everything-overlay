@@ -20,6 +20,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Alien-Build
 	>=dev-perl/Alien-FFCall-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 "
 

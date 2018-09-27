@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Log-Syslog-Abstract
 	dev-perl/Proc-Daemon
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

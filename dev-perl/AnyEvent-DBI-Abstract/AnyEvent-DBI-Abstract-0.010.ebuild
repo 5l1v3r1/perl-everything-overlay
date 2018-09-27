@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/AnyEvent-DBI
 	dev-perl/SQL-Abstract
 	dev-perl/Test-Requires
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Alien-DDC-Concordance-0.001
 	>=dev-perl/ExtUtils-XSpp-0.180
 	dev-perl/JSON
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

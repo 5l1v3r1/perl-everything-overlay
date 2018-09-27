@@ -45,7 +45,7 @@ RDEPEND="
 	dev-perl/YAML
 	virtual/perl-Data-Dumper
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long

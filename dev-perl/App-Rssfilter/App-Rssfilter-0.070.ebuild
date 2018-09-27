@@ -23,9 +23,9 @@ RDEPEND="
 	dev-perl/Log-Any
 	dev-perl/Method-Signatures
 	dev-perl/Module-Runtime
-	>=dev-perl/Mojolicious-3.280
+	dev-perl/Mojolicious
 	dev-perl/Moo
-	dev-perl/Path-Class
+	>=dev-perl/Path-Class-0.260
 	dev-perl/Try-Tiny
 	dev-perl/YAML-LibYAML
 	>=dev-perl/experimental-0.005
@@ -33,7 +33,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Moose
 	dev-perl/Test-Exception
 	dev-perl/Test-MockObject

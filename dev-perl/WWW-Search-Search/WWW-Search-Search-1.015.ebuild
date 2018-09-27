@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/URI
 	>=dev-perl/WWW-Search-2.078
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

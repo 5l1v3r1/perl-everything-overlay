@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.081
 	dev-perl/DBIx-Class-VirtualColumns
 	dev-perl/Sub-Name
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Module-Load
 	virtual/perl-Test-Simple
 	virtual/perl-parent

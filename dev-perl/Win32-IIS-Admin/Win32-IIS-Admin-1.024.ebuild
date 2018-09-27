@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/IO-Capture
 	dev-perl/IO-String
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.440
 "

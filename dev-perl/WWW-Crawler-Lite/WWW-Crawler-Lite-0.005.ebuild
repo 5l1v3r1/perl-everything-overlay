@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/URI
 	>=dev-perl/libwww-perl-5.834
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "

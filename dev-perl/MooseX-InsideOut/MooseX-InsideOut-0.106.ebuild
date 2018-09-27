@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Hash-Util-FieldHash-Compat
-	>=dev-perl/Moose-0.940
+	>=dev-perl/Moose-0.800
 	>=dev-perl/namespace-clean-0.110
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

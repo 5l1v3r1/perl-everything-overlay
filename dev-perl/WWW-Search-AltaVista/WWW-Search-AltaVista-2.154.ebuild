@@ -19,8 +19,8 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=dev-perl/WWW-Search-2.561
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	>=dev-perl/WWW-Search-2.284
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

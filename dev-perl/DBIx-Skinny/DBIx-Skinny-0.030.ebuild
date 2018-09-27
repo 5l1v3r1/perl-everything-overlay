@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-Declare
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

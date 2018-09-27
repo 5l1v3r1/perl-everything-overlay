@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Filter-1.060
 	>=dev-perl/PPI-1.205
 	>=dev-perl/Test-Warn-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Mouse-0.420
 	>=dev-perl/MouseX-Types-0.010
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="

@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-0.380
+	dev-perl/POE
 	>=dev-perl/Text-CSV-1.000
 "
 DEPEND="

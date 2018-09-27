@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Class-Default-1.510
 	>=dev-perl/Params-Util-0.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-Test-Simple-0.470
 "

@@ -20,7 +20,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-PkgConfig
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Deep-0.100
 	>=dev-perl/Test-Exception-0.250
 	>=dev-perl/Test-Warn-0.100

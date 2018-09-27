@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Server-Simple-0.100
 	dev-perl/IO-Tee
 	>=dev-perl/Test-HTTP-Server-Simple-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

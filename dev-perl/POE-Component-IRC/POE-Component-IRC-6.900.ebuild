@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/IRC-Utils-0.120
-	dev-perl/POE
+	>=dev-perl/POE-1.311
 	dev-perl/POE-Component-Syndicator
 	>=dev-perl/POE-Filter-IRCD-2.420
 	>=virtual/perl-Scalar-List-Utils-1.330

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/MRO-Compat
 	>=dev-perl/Test-LeakTrace-0.080
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.620
 	virtual/perl-parent
 "

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Test-Declare
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

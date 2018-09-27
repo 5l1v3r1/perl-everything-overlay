@@ -30,7 +30,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.110.100
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/LWP-Protocol-https
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Needs-0.002.005

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/XML-Hash-LX-0.060
 	>=dev-perl/lib-abs-0.900
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

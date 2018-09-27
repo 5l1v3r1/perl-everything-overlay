@@ -20,7 +20,7 @@ RDEPEND="
 	>=virtual/perl-Digest-1.060
 	>=virtual/perl-Digest-MD5-2.330
 	>=virtual/perl-Digest-SHA-5.340
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470

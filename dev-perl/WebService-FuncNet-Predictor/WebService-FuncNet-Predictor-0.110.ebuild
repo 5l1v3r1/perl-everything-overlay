@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.640
 	>=dev-perl/MooseX-Types-0.080
 	>=dev-perl/Readonly-1.030
-	>=dev-perl/URI-4.180
+	>=dev-perl/URI-4.200
 	>=dev-perl/XML-Compile-1.050
 	>=dev-perl/XML-Compile-SOAP-2.040
 	>=dev-perl/XML-Compile-WSDL11-2.040
@@ -30,7 +30,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Module-Build
 "
 

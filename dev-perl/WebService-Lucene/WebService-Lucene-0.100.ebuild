@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/XML-Atom-0.250
 	dev-perl/XML-LibXML
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

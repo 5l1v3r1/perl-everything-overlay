@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Traits-0.060
 	>=dev-perl/MooseX-Types-0.160
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="

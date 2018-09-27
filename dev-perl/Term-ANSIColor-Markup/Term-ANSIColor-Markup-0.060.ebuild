@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/HTML-Parser
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

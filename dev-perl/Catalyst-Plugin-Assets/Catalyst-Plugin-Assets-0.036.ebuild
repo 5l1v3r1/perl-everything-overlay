@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/File-Assets-0.061
 	dev-perl/HTML-Declare
 	dev-perl/JavaScript-Minifier
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-HTTP
 	dev-perl/Class-Load
-	>=dev-perl/HTTP-Headers-ActionPack-0.050
+	dev-perl/HTTP-Headers-ActionPack
 	dev-perl/HTTP-Message
 	dev-perl/HTTP-Throwable
 	dev-perl/JSON
@@ -41,7 +41,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Memory-Cycle
 	dev-perl/Test-Warn

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Data-GUID
 	dev-perl/Moose
 	dev-perl/MooseX-Types
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

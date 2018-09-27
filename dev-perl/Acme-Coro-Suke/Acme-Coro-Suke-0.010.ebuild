@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/IO-stringy
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/HTML-Parser
 	>=dev-perl/YAML-LibYAML-0.160
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

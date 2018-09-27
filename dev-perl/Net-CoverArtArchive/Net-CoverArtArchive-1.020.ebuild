@@ -22,7 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/File-Find-Rule-0.330
 	>=dev-perl/Try-Tiny-0.110
 	>=virtual/perl-Test-Simple-0.900

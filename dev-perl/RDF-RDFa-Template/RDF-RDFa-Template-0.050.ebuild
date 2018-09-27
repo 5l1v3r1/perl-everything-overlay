@@ -22,12 +22,12 @@ RDEPEND="
 	>=dev-perl/RDF-RDFa-Parser-1.000
 	>=dev-perl/RDF-Trine-0.114
 	dev-perl/RDF-Trine-Node-Literal-XML
-	dev-perl/XML-LibXML
+	>=dev-perl/XML-LibXML-1.590
 	dev-perl/XML-SAX-Base
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 	dev-perl/Test-XML
 	>=virtual/perl-Test-Simple-0.880

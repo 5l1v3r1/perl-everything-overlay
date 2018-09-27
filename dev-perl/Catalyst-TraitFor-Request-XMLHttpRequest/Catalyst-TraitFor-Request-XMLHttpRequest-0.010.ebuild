@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/namespace-autoclean
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.890
 "
 DEPEND="

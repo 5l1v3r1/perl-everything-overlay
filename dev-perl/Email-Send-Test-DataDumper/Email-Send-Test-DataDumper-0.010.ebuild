@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Email-Simple
 	dev-perl/Filter
 	dev-perl/Tie-SaveLater
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

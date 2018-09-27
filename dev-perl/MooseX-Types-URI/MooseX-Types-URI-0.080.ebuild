@@ -31,6 +31,6 @@ DEPEND="
 	dev-perl/Moose
 	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-0.880
 "
 

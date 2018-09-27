@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/SQL-Abstract
 	dev-perl/Scope-Guard
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

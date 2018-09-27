@@ -29,7 +29,7 @@ DEPEND="
 	>=dev-perl/Devel-CheckLib-0.4.0
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 	dev-perl/AnyEvent-Future
 	>=dev-perl/Test-Class-Moose-0.550

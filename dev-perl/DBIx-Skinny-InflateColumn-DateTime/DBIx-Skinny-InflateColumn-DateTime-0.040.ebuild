@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-Strptime
 	dev-perl/DateTime-TimeZone
 	dev-perl/Filter
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

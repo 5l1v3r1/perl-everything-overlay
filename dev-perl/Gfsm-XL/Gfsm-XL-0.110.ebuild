@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Alien-Gfsm-0.001
 	>=dev-perl/Alien-GfsmXL-0.001
 	>=dev-perl/Gfsm-0.040.400
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

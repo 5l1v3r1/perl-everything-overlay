@@ -22,7 +22,7 @@ DEPEND="
 	dev-perl/Alien-Build-Plugin-Probe-GnuWin32
 	dev-perl/Capture-Tiny
 	dev-perl/File-chdir
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IPC-Cmd
 	>=virtual/perl-Test-Simple-0.940
 "

@@ -40,7 +40,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.420
-	>=virtual/perl-ExtUtils-MakeMaker-7.120
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	>=virtual/perl-Test-Simple-1.302.085
 "

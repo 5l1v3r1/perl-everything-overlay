@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Probe-Perl
 	virtual/perl-CPAN
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	>=virtual/perl-File-Spec-3.190
 	virtual/perl-IO

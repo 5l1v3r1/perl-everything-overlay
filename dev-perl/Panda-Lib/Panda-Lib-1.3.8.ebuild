@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.760
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/JSON-XS
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal

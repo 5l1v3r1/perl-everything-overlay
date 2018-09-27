@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Path-Abstract
 	dev-perl/Path-Class
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

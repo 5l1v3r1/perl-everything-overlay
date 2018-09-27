@@ -68,7 +68,7 @@ RDEPEND="
 	dev-perl/CGI-Simple
 	dev-perl/FCGI
 	dev-perl/Titanium
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

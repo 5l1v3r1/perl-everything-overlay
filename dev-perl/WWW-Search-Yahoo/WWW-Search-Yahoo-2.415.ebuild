@@ -19,10 +19,10 @@ RDEPEND="
 	dev-perl/HTML-Tree
 	dev-perl/I18N-Charset
 	dev-perl/URI
-	>=dev-perl/WWW-Search-2.265
+	>=dev-perl/WWW-Search-2.557
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/File-Util
 	dev-perl/Locale-SubCountry
-	dev-perl/Moose
+	>=dev-perl/Moose-2.000.000
 	>=dev-perl/MooseX-Aliases-0.100
 	dev-perl/MooseX-Types-DateTime-ButMaintained
 	>=dev-perl/Net-HTTP-6.010
@@ -37,7 +37,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

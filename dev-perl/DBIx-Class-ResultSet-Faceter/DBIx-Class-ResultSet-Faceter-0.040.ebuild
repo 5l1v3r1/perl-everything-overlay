@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/MooseX-Iterator
 	dev-perl/MooseX-Types
 	dev-perl/Try-Tiny
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

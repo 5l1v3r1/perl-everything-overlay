@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Body-1.010
 	>=dev-perl/HTTP-HeaderParser-XS-0.200
 	>=dev-perl/Net-Server-0.970
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

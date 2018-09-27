@@ -21,7 +21,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.039
-	>=virtual/perl-ExtUtils-MakeMaker-6.63.03
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Module-Build
 	virtual/perl-File-Spec

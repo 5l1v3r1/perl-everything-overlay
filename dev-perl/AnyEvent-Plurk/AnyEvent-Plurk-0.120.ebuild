@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.150
 	>=dev-perl/Object-Event-1.210
 	>=dev-perl/common-sense-2.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-parent-0.223
 "

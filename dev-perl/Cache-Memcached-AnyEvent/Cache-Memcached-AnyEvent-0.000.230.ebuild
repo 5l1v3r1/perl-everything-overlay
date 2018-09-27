@@ -28,7 +28,7 @@ DEPEND="
 	dev-perl/Test-Fatal
 	>=dev-perl/Test-Memcached-0.000.030
 	dev-perl/Test-Requires
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
 

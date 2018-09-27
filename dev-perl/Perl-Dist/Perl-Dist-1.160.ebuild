@@ -42,7 +42,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.823
 	>=virtual/perl-Archive-Tar-1.420
 	>=virtual/perl-CPAN-1.930.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.070
 	>=virtual/perl-File-Spec-3.290
 	>=virtual/perl-File-Temp-0.210

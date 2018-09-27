@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Carp-Always-0.010
 	>=dev-perl/Test-Deep-0.106
 	>=virtual/perl-Carp-1.010
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.130
 	>=virtual/perl-Test-Simple-0.470
 "

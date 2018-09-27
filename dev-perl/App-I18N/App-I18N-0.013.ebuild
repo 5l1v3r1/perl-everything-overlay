@@ -32,7 +32,7 @@ RDEPEND="
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple

@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/MIME-Lite-3.027
 	dev-perl/MIME-tools
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

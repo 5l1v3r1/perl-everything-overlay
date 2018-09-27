@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/DateTime-0.500
 	>=dev-perl/Digest-SHA1-2.120
 	>=dev-perl/XML-Atom-0.350
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

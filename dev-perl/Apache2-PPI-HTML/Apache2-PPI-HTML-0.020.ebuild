@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/CGI-3.100
 	>=dev-perl/PPI-1.000
 	>=dev-perl/PPI-HTML-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

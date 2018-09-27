@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.220
 	>=dev-perl/Moose-0.870
 	>=dev-perl/YAML-Syck-1.070
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

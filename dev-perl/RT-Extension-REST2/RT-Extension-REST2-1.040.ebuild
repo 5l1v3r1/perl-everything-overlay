@@ -32,7 +32,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
 	dev-perl/Test-WWW-Mechanize-PSGI
 	dev-perl/Try-Tiny

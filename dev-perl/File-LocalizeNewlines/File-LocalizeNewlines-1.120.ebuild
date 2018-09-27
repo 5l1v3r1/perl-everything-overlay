@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/File-Slurp-9999.040
 	>=dev-perl/Params-Util-0.100
 	>=dev-perl/Test-Script-1.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Test-Simple-0.420

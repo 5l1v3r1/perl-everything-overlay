@@ -29,7 +29,7 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/Test-SharedFork
 	>=dev-perl/Test-TCP-1.300
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-version-0.770
 "

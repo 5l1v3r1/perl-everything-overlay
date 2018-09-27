@@ -16,14 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	>=dev-perl/Moose-0.990
 	>=dev-perl/namespace-autoclean-0.090
 	>=virtual/perl-autodie-2.000
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	>=dev-perl/Path-Class-0.260
 	dev-perl/Try-Tiny

@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Email-MIME-1.900
+	dev-perl/Email-MIME
 	>=dev-perl/Email-MIME-ContentType-1.016
 	dev-perl/Params-Util
 	virtual/perl-Carp
@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	dev-perl/Email-Simple
 	>=virtual/perl-Test-Simple-0.960

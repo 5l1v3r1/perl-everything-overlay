@@ -20,7 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Apache-Test-1.040
 	>=dev-perl/ExtUtils-XSBuilder-0.230
-	>=virtual/perl-ExtUtils-MakeMaker-6.150
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 

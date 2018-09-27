@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.000
 	>=dev-perl/Apache-Admin-Config-0.950
 	>=dev-perl/Config-Tiny-2.000
 	>=dev-perl/MailTools-1.000

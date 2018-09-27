@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.020
 	dev-perl/MRO-Compat
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

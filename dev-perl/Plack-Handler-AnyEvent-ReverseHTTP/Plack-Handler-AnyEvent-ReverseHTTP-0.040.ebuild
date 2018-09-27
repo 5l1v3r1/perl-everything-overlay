@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/AnyEvent-ReverseHTTP
 	dev-perl/Filter
-	>=dev-perl/Plack-0.990
+	dev-perl/Plack
 "
 DEPEND="
 	${RDEPEND}

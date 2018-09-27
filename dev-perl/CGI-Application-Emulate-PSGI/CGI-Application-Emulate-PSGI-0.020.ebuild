@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/CGI-Application
 	>=dev-perl/CGI-Emulate-PSGI-0.050
 	dev-perl/Plack
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="

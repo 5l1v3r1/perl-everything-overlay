@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-perl/UNIVERSAL-require-0.660
 	>=dev-perl/YAML-0.660
 	>=dev-perl/YAML-Syck-1.050
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

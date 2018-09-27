@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Test-TAP-Model-0.080
 	dev-perl/Time-Out
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

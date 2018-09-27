@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Data-Dump
 	dev-perl/Moose
 	dev-perl/Path-Class
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/WWW-Shorten
 	dev-perl/XML-LibXML
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

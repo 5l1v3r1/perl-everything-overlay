@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Tatsumaki
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

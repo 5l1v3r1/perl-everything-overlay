@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Kelp
+	>=dev-perl/Kelp-0.310.200
 	>=dev-perl/Plack-1.000.000
 	>=dev-perl/Plack-Middleware-Session-0.150
 	virtual/perl-Test-Simple

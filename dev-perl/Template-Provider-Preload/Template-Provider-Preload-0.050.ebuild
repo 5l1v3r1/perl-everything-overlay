@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Params-Util-0.300
 	>=dev-perl/Template-Toolkit-2.200
 	>=dev-perl/Test-SubCalls-1.070
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "

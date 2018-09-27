@@ -23,11 +23,11 @@ RDEPEND="
 	dev-perl/Data-OptList
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.220
-	>=dev-perl/HTTP-Message-5.814
+	>=dev-perl/HTTP-Message-1.640
 	dev-perl/Hash-MultiValue
 	>=dev-perl/JSON-MaybeXS-1.000.000
 	dev-perl/MRO-Compat
-	>=dev-perl/Module-Pluggable-4.700
+	dev-perl/Module-Pluggable
 	>=dev-perl/Moose-1.030
 	>=dev-perl/MooseX-Emulate-Class-Accessor-Fast-0.009.030
 	>=dev-perl/MooseX-Getopt-0.480
@@ -55,7 +55,7 @@ RDEPEND="
 	>=dev-perl/namespace-clean-0.230
 	>=virtual/perl-Carp-1.250
 	>=virtual/perl-Encode-2.490
-	virtual/perl-Scalar-List-Utils
+	>=virtual/perl-Scalar-List-Utils-1.450
 	virtual/perl-Text-Balanced
 	virtual/perl-Time-HiRes
 "

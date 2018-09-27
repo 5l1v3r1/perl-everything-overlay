@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Capture-Tiny-0.120
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp

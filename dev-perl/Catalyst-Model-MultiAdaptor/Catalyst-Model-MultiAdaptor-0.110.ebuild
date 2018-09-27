@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Sub-Install
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

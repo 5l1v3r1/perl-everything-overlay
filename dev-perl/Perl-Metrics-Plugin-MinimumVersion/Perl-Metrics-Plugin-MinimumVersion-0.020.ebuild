@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Perl-Metrics-0.030
 	>=dev-perl/Perl-MinimumVersion-0.150
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 	>=virtual/perl-version-0.740
 "

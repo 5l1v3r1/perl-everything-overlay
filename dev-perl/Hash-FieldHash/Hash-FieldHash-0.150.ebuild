@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="GFUJI"
-DIST_VERSION="0.15"
-DIST_A="Hash-FieldHash-0.15.tar.gz"
+DIST_VERSION="0.15" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -25,7 +24,8 @@ DEPEND="
 	>=dev-perl/Test-LeakTrace-0.070
 	>=virtual/perl-Devel-PPPort-3.190
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-2.210
 	>=virtual/perl-Test-Simple-0.620
 "
+

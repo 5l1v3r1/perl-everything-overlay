@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/CGI
 	>=dev-perl/CGI-Application-4.210
 	dev-perl/HTTP-Message
-	dev-perl/HTTP-Server-Simple
+	>=dev-perl/HTTP-Server-Simple-0.180
 	>=dev-perl/HTTP-Server-Simple-Static-0.020
 	dev-perl/base
 	>=virtual/perl-Carp-0.010
@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/CGI-Application-Dispatch
 	dev-perl/CGI-Application-Plugin-Redirect
 	dev-perl/Test-Exception

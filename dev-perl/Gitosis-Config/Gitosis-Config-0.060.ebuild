@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/MooseX-AttributeHelpers-0.130
 	>=dev-perl/MooseX-Types-Path-Class-0.040
 	>=dev-perl/Test-Exception-0.270
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.920
 "
 DEPEND="

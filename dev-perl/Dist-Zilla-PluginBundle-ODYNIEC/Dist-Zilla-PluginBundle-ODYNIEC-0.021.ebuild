@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.000
 	dev-perl/Dist-Zilla-Config-Slicer
 	>=dev-perl/Dist-Zilla-Plugin-Bugtracker-1.110
 	dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent
@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-CheckPrereqsIndexed-0.002
 	>=dev-perl/Dist-Zilla-Plugin-ContributorsFromGit-0.004
 	dev-perl/Dist-Zilla-Plugin-CopyFilesFromBuild
-	>=dev-perl/Dist-Zilla-Plugin-Git-1.121.010
+	dev-perl/Dist-Zilla-Plugin-Git
 	>=dev-perl/Dist-Zilla-Plugin-GithubMeta-0.360
 	>=dev-perl/Dist-Zilla-Plugin-InsertCopyright-0.001
 	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.140
@@ -47,7 +47,7 @@ RDEPEND="
 	dev-perl/Moose-Autobox
 	>=dev-perl/Pod-Elemental-Transformer-List-0.101.620
 	dev-perl/Pod-Elemental-Transformer-WikiDoc
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.000
 	>=dev-perl/Pod-Weaver-Section-Contributors-0.001
 	>=dev-perl/Pod-Weaver-Section-Support-1.001
 	>=dev-perl/Test-Portability-Files-0.060
@@ -56,7 +56,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	dev-perl/Path-Tiny
 	virtual/perl-File-Spec

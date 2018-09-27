@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/Filter
 	dev-perl/SQL-Abstract
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

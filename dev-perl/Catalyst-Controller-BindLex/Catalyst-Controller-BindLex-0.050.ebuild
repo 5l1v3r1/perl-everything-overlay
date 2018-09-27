@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Devel-Caller
 	dev-perl/Devel-LexAlias
 	dev-perl/PadWalker
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

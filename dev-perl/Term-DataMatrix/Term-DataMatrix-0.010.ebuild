@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Barcode-DataMatrix
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "

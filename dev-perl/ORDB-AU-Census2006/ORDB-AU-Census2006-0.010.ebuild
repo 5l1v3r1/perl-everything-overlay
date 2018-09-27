@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/LWP-Online-1.070
 	>=dev-perl/ORLite-Mirror-1.120
 	>=dev-perl/Params-Util-0.380
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

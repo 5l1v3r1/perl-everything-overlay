@@ -32,7 +32,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/File-Type
 	dev-perl/Module-Pluggable
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.820
 	>=virtual/perl-Test-Simple-0.470
 	virtual/perl-libnet

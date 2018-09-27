@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Carp
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

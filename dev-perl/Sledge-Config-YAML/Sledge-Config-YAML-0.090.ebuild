@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/Filter
 	>=dev-perl/YAML-Syck-1.070
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.320
 "
 DEPEND="

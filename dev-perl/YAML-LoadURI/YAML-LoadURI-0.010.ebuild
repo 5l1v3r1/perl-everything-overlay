@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/YAML
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-IO-Compress-1.100
 	>=virtual/perl-MIME-Base64-2.100
 	virtual/perl-Test-Simple

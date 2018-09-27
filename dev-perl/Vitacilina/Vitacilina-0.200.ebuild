@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/YAML-Syck
 	dev-perl/libwww-perl
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

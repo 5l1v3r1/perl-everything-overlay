@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/MouseX-Types-0.010
 	dev-perl/Time-Duration-Parse
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

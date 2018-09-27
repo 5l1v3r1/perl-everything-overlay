@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Bot-BasicBot-Pluggable
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

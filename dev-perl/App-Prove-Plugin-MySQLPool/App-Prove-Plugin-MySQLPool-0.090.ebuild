@@ -30,6 +30,6 @@ DEPEND="
 	dev-perl/DBI
 	dev-perl/Module-Build
 	dev-perl/Test-Requires
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

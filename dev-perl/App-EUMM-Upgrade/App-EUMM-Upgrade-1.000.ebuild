@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Github-Fork-Parent-0.240
 	>=dev-perl/Perl-Meta-0.030
 	>=dev-perl/Text-FindIndent-0.080
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

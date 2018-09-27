@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

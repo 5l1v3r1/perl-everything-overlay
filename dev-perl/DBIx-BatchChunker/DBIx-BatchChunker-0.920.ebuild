@@ -20,13 +20,13 @@ RDEPEND="
 	dev-perl/Data-Float
 	>=dev-perl/Moo-2.000.002
 	>=dev-perl/Term-ProgressBar-2.140
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-1.000
 	dev-perl/namespace-clean
-	>=virtual/perl-Scalar-List-Utils-1.330
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Class-Load
 	dev-perl/DBIx-Class
 	dev-perl/DBIx-Connector-Retry

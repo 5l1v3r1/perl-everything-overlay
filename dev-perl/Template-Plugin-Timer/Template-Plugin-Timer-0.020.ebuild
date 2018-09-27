@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Benchmark-Timer
 	dev-perl/Template-Toolkit
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

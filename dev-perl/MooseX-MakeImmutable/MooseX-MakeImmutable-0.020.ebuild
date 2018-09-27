@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Module-Pluggable-3.800
 	dev-perl/Moose
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

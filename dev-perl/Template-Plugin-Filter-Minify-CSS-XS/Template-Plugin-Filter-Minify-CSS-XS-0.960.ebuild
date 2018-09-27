@@ -17,12 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/CSS-Minifier-XS
-	>=dev-perl/Template-Toolkit-2.000
+	dev-perl/Template-Toolkit
 	dev-perl/base
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Socket
 	virtual/perl-Test-Simple
 "

@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/POE
 	dev-perl/POE-Component-IRC
 	>=dev-perl/Params-Util-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.820
 	virtual/perl-Getopt-Long
 	>=virtual/perl-Test-Simple-0.470

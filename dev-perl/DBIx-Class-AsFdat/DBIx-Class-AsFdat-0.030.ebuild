@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/DateTime
 	dev-perl/Test-Declare
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

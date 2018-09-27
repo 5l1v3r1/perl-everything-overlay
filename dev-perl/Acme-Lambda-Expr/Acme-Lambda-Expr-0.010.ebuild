@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Data-Util-0.100
 	>=dev-perl/Moose-0.570
 	>=virtual/perl-Exporter-5.570
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Data-Package-1.020
 	>=dev-perl/File-ShareDir-0.050
 	>=dev-perl/Parse-CSV-1.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
 "

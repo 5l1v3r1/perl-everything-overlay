@@ -37,7 +37,7 @@ RDEPEND="
 	dev-perl/YAML-LibYAML
 	dev-perl/YAML-Syck
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/DBD-mysql
 	dev-perl/DBI
-	>=dev-perl/Database-Migrator-0.070
+	dev-perl/Database-Migrator
 	dev-perl/File-Slurp
 	dev-perl/IPC-Run3
 	dev-perl/Moose
@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "

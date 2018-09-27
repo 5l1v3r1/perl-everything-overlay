@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-5.000
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Path-Tiny
 	virtual/perl-CPAN-Meta
 	virtual/perl-File-Spec

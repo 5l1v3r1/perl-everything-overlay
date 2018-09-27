@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Params-Util-0.100
 	>=dev-perl/Test-Script-1.030
 	>=dev-perl/Win32-TieRegistry-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "

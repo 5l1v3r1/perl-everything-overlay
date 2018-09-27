@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.040
 	dev-perl/Pod-Usage
 	dev-perl/base
 	virtual/perl-Carp
@@ -29,7 +29,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	virtual/perl-Test-Simple
 "

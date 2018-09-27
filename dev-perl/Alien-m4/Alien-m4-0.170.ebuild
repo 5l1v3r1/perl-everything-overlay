@@ -21,7 +21,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Capture-Tiny
 	dev-perl/Path-Tiny
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test2-Suite-0.000.060
 	>=virtual/perl-Test-Simple-0.940
 "

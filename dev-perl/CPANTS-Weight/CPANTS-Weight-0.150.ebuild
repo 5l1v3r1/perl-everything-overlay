@@ -29,7 +29,7 @@ RDEPEND="
 	>=dev-perl/Params-Util-0.380
 	>=dev-perl/Test-Script-1.030
 	>=virtual/perl-CPAN-5.500
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.270.100
 	>=virtual/perl-Test-Simple-0.420
 "

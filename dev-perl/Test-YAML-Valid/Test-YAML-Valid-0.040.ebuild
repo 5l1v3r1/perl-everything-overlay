@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/YAML-Syck-0.600
 	dev-perl/YAML-Tiny
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/Filter
 	dev-perl/Moose
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

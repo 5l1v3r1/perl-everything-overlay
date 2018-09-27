@@ -32,7 +32,7 @@ DEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-UseAllModules
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
 

@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/MooseX-MakeImmutable-0.020
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -23,7 +23,7 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
 

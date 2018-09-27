@@ -16,8 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Acme-LOLCAT-0.0.5
-	dev-perl/POE
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	>=dev-perl/POE-1.004
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

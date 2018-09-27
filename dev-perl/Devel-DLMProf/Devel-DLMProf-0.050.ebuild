@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Linux-Smaps
 	dev-perl/Path-Class
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/DBIx-Class
 	dev-perl/Form-Processor
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.890
 "
 DEPEND="

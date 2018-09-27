@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/POE-1.004
-	>=dev-perl/POE-Component-IRC-5.070
+	dev-perl/POE-Component-IRC
 	>=dev-perl/URI-Find-0.160
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

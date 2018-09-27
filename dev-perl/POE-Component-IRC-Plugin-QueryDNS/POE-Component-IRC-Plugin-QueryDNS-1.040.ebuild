@@ -18,11 +18,11 @@ RDEPEND="
 	dev-perl/Net-IP-Minimal
 	>=dev-perl/POE-1.004
 	>=dev-perl/POE-Component-Client-DNS-1.000
-	>=dev-perl/POE-Component-IRC-5.700
+	>=dev-perl/POE-Component-IRC-0.100
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 

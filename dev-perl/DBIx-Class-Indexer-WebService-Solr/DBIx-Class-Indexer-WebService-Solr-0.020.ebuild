@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DBIx-Class-Indexed
 	dev-perl/WebService-Solr
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

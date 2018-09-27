@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/Net-Amazon-S3
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Math-BigInt

@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/lib-abs-0.900
 	dev-perl/libwww-perl
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

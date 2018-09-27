@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/DBIx-Class-0.081.030
 	dev-perl/SQL-Translator
 	dev-perl/Text-Phonetic
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

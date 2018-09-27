@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="FLORA"
-DIST_VERSION="0.04"
-DIST_A="XS-Object-Magic-0.04.tar.gz"
+DIST_VERSION="0.04" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -21,8 +20,9 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-Depends-0.302
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "
+

@@ -26,7 +26,7 @@ RDEPEND="
 	dev-perl/Test-Most
 	dev-perl/Text-FixEOL
 	dev-perl/Tree-DAG-Node
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

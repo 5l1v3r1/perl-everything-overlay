@@ -19,7 +19,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Canary-Stability
-	>=virtual/perl-ExtUtils-MakeMaker-6.600
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-3.280
 "
 

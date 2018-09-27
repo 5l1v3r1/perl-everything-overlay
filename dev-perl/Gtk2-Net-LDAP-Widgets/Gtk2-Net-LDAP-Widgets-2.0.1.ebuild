@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/ExtUtils-AutoInstall
 	>=dev-perl/Gtk2-1.000
 	>=dev-perl/perl-ldap-0.200
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

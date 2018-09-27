@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Parse-CPAN-MirroredBy-0.010
 	>=dev-perl/URI-1.340
 	>=dev-perl/YAML-Tiny-1.320
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
 "

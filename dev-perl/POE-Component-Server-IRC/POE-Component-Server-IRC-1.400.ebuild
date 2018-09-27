@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-perl/POE-Filter-IRCD-2.200
 	dev-perl/TimeDate
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Socket
 	>=virtual/perl-Test-Simple-0.470
 "

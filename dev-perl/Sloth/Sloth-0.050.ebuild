@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Data-TreeValidator-0.030
-	>=dev-perl/HTTP-Message-5.817
+	>=dev-perl/HTTP-Message-5.824
 	>=dev-perl/HTTP-Throwable-0.010
 	>=dev-perl/Module-Pluggable-3.900
 	>=dev-perl/Moose-1.210
@@ -35,6 +35,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

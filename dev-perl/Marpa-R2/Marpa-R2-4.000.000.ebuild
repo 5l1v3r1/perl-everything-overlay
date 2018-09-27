@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-2.110
-	>=dev-perl/HTML-Parser-3.690
+	>=dev-lang/perl-1.040
+	>=dev-perl/HTML-Parser-3.680
 	>=dev-perl/PPI-1.206
 	>=virtual/perl-Carp-1.080
 	>=virtual/perl-Data-Dumper-2.125

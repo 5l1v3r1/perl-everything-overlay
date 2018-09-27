@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/IO-stringy
 	>=dev-perl/MRO-Compat-0.100
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

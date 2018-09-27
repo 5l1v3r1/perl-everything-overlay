@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Module-CPANfile
 	>=virtual/perl-CPAN-Meta-2.141.170
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	>=virtual/perl-Test-Simple-0.880
 	>=virtual/perl-version-0.760

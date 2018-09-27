@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Mojolicious-2.310
+	dev-perl/Mojolicious
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/lib
 	virtual/perl-Test-Simple
 "

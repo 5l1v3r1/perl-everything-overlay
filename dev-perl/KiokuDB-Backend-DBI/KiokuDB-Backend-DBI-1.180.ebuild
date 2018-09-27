@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/SQL-Abstract
-	dev-perl/Search-GIN
+	>=dev-perl/Search-GIN-0.070
 	dev-perl/Test-TempDir
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
@@ -35,7 +35,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/DBD-SQLite
 	dev-perl/Test-Exception

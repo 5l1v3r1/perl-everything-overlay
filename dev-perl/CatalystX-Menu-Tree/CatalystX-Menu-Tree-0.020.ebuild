@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/MRO-Compat
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

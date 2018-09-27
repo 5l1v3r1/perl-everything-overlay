@@ -28,6 +28,6 @@ DEPEND="
 	dev-perl/Test-Module-Used
 	dev-perl/Test-Perl-Critic
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

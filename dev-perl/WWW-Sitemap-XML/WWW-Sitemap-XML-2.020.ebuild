@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Moose-2.110.100
+	dev-perl/Moose
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-DateTime-W3C
 	dev-perl/MooseX-Types-URI
@@ -26,7 +26,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 	dev-perl/Test-NoWarnings
 	dev-perl/URI

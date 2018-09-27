@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Import-Into
 	dev-perl/JSON-MaybeXS
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-2.000.000
 	>=dev-perl/Plack-1.004.000
 	dev-perl/Plack-Middleware-FixMissingBodyInRedirect
 	dev-perl/Plack-Middleware-RemoveRedundantBody
@@ -60,7 +60,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
-	>=virtual/perl-ExtUtils-MakeMaker-7.110.100
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Capture-Tiny-0.120
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message

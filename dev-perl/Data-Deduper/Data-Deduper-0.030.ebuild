@@ -21,6 +21,6 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/Module-Build-Tiny
 	dev-perl/Module-Build
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

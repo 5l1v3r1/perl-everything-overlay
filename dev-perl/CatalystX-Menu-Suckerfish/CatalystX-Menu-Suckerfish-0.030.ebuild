@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTML-Tree
 	dev-perl/MRO-Compat
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

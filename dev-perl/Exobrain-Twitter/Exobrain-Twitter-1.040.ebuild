@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Date-Manip
-	>=dev-perl/Exobrain-1.040
+	dev-perl/Exobrain
 	dev-perl/Method-Signatures
 	dev-perl/Moose
 	dev-perl/MooseX-Types
@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	virtual/perl-Test-Simple

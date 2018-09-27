@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Carp-Clan
 	>=dev-perl/Gearman-XS-0.6.0
 	>=dev-perl/Log-Handler-0.620
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

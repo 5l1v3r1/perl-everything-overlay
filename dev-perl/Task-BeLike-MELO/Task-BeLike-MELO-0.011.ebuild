@@ -182,7 +182,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Types-DateTime-0.080
 	>=dev-perl/Mozilla-CA-20130114.000
 	>=dev-perl/NTS-Template-2.100
-	>=dev-perl/Net-Bonjour-0.960
+	>=dev-perl/Net-Bonjour-0.920
 	>=dev-perl/Net-DNS-0.720
 	>=dev-perl/Net-Rendezvous-Publish-Backend-Apple-0.020
 	>=dev-perl/Net-SMTP-TLS-ButMaintained-0.240
@@ -285,7 +285,7 @@ RDEPEND="
 	>=virtual/perl-Digest-MD5-2.530
 	>=virtual/perl-Digest-SHA-5.850
 	>=virtual/perl-ExtUtils-CBuilder-0.280.205
-	>=virtual/perl-ExtUtils-MakeMaker-6.680
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.400
 	>=virtual/perl-File-Temp-0.230.100
 	>=virtual/perl-Getopt-Long-2.410
@@ -301,7 +301,7 @@ RDEPEND="
 	>=virtual/perl-Text-Tabs+Wrap-2013.052.300
 	>=virtual/perl-Time-HiRes-1.972.500
 	>=virtual/perl-autodie-2.200
-	>=virtual/perl-libnet-2.290
+	>=virtual/perl-libnet-2.770
 "
 DEPEND="
 	${RDEPEND}

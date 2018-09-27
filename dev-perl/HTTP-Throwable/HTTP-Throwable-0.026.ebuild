@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/List-AllUtils
 	dev-perl/Module-Runtime
-	dev-perl/Moo
+	>=dev-perl/Moo-1.004.003
 	dev-perl/MooX-StrictConstructor
 	>=dev-perl/Package-Variant-1.002.000
 	>=dev-perl/Plack-0.996.700

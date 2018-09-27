@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Geo-Address-Mail
 	>=dev-perl/Moose-0.900
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

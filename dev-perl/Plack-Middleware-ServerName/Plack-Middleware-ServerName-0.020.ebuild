@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Plack
 	dev-perl/Test-TCP
 	>=dev-perl/Try-Tiny-0.060
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

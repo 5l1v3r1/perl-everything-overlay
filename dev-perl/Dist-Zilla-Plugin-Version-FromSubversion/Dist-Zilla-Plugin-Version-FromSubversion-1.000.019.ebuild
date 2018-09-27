@@ -17,12 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Alien-SVN
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

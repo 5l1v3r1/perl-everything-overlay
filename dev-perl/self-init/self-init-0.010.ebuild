@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Test-NoWarnings
 	dev-perl/ex-lib
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

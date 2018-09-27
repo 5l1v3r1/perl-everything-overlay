@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Carp-Clan
 	dev-perl/Clone
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Storable
 "
 DEPEND="

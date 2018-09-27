@@ -15,12 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
+	>=dev-perl/Algorithm-FloodControl-1.910
 	dev-perl/Catalyst-Plugin-Cache-FastMmap
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/Catalyst-Runtime
 	dev-perl/Params-Validate
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

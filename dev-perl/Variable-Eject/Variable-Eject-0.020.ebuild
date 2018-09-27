@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-If
 	>=dev-perl/lib-abs-0.900
 	>=dev-perl/uni-perl-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

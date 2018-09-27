@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-CheckChangesHasContent-0.003
 	>=dev-perl/Dist-Zilla-Plugin-CheckExtraTests-0.004
 	>=dev-perl/Dist-Zilla-Plugin-Clean-0.020
-	>=dev-perl/Dist-Zilla-Plugin-Git-1.112.510
+	dev-perl/Dist-Zilla-Plugin-Git
 	>=dev-perl/Dist-Zilla-Plugin-GitHub-0.300
 	>=dev-perl/Dist-Zilla-Plugin-InstallRelease-0.007
 	>=dev-perl/Dist-Zilla-Plugin-MetaProvides-Package-1.120.605.010
@@ -49,7 +49,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.980
 "

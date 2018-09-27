@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Test-Most
 	dev-perl/URI
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

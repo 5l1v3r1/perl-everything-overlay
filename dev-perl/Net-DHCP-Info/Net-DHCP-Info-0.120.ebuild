@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/NetAddr-IP
 	dev-perl/Test-Perl-Critic
 	dev-perl/Test-Pod
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

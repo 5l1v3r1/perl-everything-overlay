@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/JSON
 	dev-perl/JavaScript-Minifier
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

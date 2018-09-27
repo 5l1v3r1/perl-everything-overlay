@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/HTML-Tabulate-0.390
 	dev-perl/Test-Differences
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

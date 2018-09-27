@@ -16,13 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Tickit-0.280
-	>=dev-perl/Tickit-Widgets-0.360
+	>=dev-perl/Tickit-Widgets-0.440
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Identity
 	dev-perl/Test-Refcount
 	>=virtual/perl-Test-Simple-0.880

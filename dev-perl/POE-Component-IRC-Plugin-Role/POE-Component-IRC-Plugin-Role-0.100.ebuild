@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.870
 	>=dev-perl/POE-1.004
-	>=dev-perl/POE-Component-IRC-6.080
+	>=dev-perl/POE-Component-IRC-0.100
 "
 DEPEND="
 	${RDEPEND}

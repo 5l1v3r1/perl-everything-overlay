@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Structured
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Mac-PropertyList
 	>=dev-perl/Mac-Spotlight-0.020
 	dev-perl/Mac-Tie-PList
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

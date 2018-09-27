@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Getopt-Long-Descriptive-0.091
-	>=dev-perl/Mouse-0.640
+	dev-perl/Mouse
 	>=virtual/perl-Getopt-Long-2.370
 "
 DEPEND="

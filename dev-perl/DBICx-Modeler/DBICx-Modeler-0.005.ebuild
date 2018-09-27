@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Test-Memory-Cycle
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

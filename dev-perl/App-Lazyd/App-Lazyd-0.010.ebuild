@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Net-Delicious-1.130
 	>=dev-perl/URI-Title-1.820
 	>=dev-perl/YAML-Tiny-1.360
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

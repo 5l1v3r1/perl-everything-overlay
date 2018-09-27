@@ -36,7 +36,7 @@ RDEPEND="
 	>=dev-perl/XML-XPath-1.120
 	>=dev-perl/lsid-perl-1.1.7
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
 "

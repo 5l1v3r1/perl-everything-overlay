@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/HTML-TokeParser-Simple
 	dev-perl/Moose
 	dev-perl/WWW-Mechanize
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

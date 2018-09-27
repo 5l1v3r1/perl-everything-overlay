@@ -35,7 +35,7 @@ RDEPEND="
 	dev-perl/Task-Email-PEP-All
 	dev-perl/Test-Apocalypse
 	dev-perl/Titanium
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

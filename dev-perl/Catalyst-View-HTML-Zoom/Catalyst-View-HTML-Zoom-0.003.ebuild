@@ -16,13 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Zoom-0.009
-	>=dev-perl/Moose-1.210
+	>=dev-perl/Moose-1.120
 	>=dev-perl/Path-Class-0.230
 	>=dev-perl/namespace-autoclean-0.090
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Catalyst-Action-RenderView-0.140
 	>=dev-perl/Catalyst-Runtime-5.800
 	>=virtual/perl-Test-Simple-0.960

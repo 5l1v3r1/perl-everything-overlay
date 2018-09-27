@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/AnyEvent-7.070
 	>=dev-perl/AnyEvent-ConnPool-0.070
 	dev-perl/AnyEvent-MySQL
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

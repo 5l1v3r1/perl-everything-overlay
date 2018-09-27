@@ -32,7 +32,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.050
 	dev-perl/File-ShareDir-Install
-	>=virtual/perl-ExtUtils-MakeMaker-6.740
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Devel-Cover
 	dev-perl/Test-Base
 	dev-perl/Test-LongString

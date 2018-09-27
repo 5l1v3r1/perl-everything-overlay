@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/HTML-TokeParser-Simple
 	>=dev-perl/XML-LibXML-1.600
 	>=virtual/perl-Encode-2.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.000
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.500

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Hash-Util-FieldHash-Compat
 	>=dev-perl/Moose-0.350
 	dev-perl/Task-Weaken
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

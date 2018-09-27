@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Class-C3-Adopt-NEXT
 	dev-perl/Data-Localize
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

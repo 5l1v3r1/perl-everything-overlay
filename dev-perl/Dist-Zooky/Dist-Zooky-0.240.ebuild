@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Types-Perl-0.101.340
 	>=dev-perl/Software-License-0.101.620
 	>=virtual/perl-CPAN-Meta-2.101.610
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Temp-0.220
 	>=virtual/perl-IPC-Cmd-0.580
 	>=virtual/perl-Module-Load-Conditional-0.380

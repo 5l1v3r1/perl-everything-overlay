@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-lang/perl-1.010
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.130
 	>=virtual/perl-Test-Simple-0.920
 "

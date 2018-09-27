@@ -40,7 +40,7 @@ RDEPEND="
 	dev-perl/Test-Most
 	dev-perl/Text-Table
 	dev-perl/WWW-Mechanize
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

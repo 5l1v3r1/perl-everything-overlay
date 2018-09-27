@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/HTML-TreeBuilder-XPath-0.080
 	>=dev-perl/WWW-Mechanize-1.220
 	>=virtual/perl-Encode-2.200
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

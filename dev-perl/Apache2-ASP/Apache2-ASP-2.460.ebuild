@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-perl/XML-Simple-2.180
 	>=virtual/perl-Digest-MD5-2.360
 	>=virtual/perl-Encode-2.230
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-IO-1.140
 	>=virtual/perl-Storable-2.180
 	>=virtual/perl-Test-Simple-0.770

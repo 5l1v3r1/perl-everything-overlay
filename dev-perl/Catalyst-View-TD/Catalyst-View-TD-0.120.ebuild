@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/MRO-Compat
 	>=dev-perl/Template-Declare-0.420
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

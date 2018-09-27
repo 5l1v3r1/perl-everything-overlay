@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.300
 	dev-perl/File-pushd
 	>=dev-perl/Moose-2.000
 	dev-perl/Path-Iterator-Rule
@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	dev-perl/Params-Util
 	dev-perl/Sub-Exporter

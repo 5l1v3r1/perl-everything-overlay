@@ -18,7 +18,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/SQL-Interp
 	>=dev-perl/SQL-Object-0.010
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="

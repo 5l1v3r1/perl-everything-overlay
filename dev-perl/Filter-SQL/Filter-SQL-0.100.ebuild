@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/DBI
 	>=dev-perl/List-MoreUtils-0.210
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Filter-Simple-0.820
 	>=virtual/perl-Text-Balanced-2.0.0
 "

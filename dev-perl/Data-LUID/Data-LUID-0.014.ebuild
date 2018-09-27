@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Path-Class
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

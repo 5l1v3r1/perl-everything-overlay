@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Config-Any
 	dev-perl/Log-Log4perl
 	>=dev-perl/Net-Twitter-2.000
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "

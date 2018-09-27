@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Plugin-Authentication-0.100.060
 	dev-perl/Catalyst-Runtime
 	dev-perl/Rose-DB-Object
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

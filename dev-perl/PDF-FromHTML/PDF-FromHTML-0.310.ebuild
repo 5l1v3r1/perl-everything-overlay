@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/PDF-Writer-0.050
 	dev-perl/XML-Twig
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

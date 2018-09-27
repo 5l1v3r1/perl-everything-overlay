@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Module-Find-0.100
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
-	>=virtual/perl-ExtUtils-MakeMaker-6.000
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.000
 "
 DEPEND="

@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/HTTP-Message-6.050
+	>=dev-perl/HTTP-Message-6.000
 	>=dev-perl/JSON-2.900
 	>=dev-perl/LWP-UserAgent-Determined-1.060
 	>=dev-perl/Moo-1.003.001
@@ -29,7 +29,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Error
 	dev-perl/Test-Exception

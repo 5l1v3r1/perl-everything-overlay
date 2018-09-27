@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-Section
 	>=dev-perl/File-ShareDir-1.000
-	dev-perl/Moose
+	>=dev-perl/Moose-0.900
 	dev-perl/MooseX-Types
 	dev-perl/Path-Class
 	dev-perl/namespace-autoclean
@@ -29,7 +29,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/lib
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.960

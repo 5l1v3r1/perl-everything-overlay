@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/Test-NeedsDisplay-1.050
 	>=dev-perl/Test-NoWarnings-0.084
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

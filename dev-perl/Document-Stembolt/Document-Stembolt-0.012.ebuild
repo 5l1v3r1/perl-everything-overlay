@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Test-Most
 	dev-perl/YAML-Tiny
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

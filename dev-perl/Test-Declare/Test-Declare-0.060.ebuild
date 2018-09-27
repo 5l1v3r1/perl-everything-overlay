@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Test-Warn
 	dev-perl/YAML
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

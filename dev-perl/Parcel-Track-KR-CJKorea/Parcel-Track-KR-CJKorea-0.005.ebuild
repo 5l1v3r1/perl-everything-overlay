@@ -22,13 +22,13 @@ RDEPEND="
 	dev-perl/IO-Socket-SSL
 	dev-perl/Moo
 	dev-perl/Mozilla-CA
-	dev-perl/Parcel-Track
+	>=dev-perl/Parcel-Track-0.001
 	virtual/perl-Encode
 	virtual/perl-HTTP-Tiny
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/MRO-Compat
 	dev-perl/Path-Class
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

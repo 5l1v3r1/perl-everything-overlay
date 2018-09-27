@@ -33,7 +33,7 @@ DEPEND="
 	dev-perl/ExtUtils-Typemaps-Default
 	virtual/perl-CPAN-Meta
 	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 	virtual/perl-File-Temp
 	dev-perl/AnyEvent-Future

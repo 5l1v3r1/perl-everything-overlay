@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Log-Log4perl
 	dev-perl/Net-Stomp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

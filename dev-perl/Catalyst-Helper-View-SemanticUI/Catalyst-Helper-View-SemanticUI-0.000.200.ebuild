@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Template-Toolkit
 	dev-perl/Test-Pod
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

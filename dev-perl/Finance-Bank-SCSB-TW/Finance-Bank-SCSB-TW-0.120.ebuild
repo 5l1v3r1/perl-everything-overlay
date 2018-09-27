@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	>=dev-perl/WWW-Mechanize-1.500
 	dev-perl/WWW-Mechanize-Sleepy
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

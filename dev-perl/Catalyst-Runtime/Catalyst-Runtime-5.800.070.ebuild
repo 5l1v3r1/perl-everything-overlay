@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/File-Modified
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.040
-	>=dev-perl/HTTP-Message-1.640
+	dev-perl/HTTP-Message
 	>=dev-perl/HTTP-Request-AsCGI-0.800
 	dev-perl/MRO-Compat
 	>=dev-perl/Module-Pluggable-3.010
@@ -43,7 +43,7 @@ RDEPEND="
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Text-Balanced
 	virtual/perl-Time-HiRes

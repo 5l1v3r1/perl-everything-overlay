@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JS-0.170
 	>=dev-perl/JS-Test-Simple-0.280
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/HTML-Parser-2.000
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	>=virtual/perl-parent-0.200

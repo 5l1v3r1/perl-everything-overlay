@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Exception-Base
 	dev-perl/WWW-Mechanize
 	dev-perl/Web-Scraper
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/DBIx-Class
 	>=dev-perl/Set-Object-1.140
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

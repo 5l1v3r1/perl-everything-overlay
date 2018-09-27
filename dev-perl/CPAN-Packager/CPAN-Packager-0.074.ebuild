@@ -38,7 +38,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/YAML
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Module-CoreList-2.170
 	>=virtual/perl-Test-Simple-0.920
 "

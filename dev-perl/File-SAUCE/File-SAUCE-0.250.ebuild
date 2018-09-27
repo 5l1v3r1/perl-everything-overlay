@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Accessor
 	>=dev-perl/IO-String-1.060
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-Time-Piece
 "

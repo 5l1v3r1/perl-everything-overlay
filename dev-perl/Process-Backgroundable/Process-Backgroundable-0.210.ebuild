@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/File-Remove-1.420
 	>=dev-perl/IPC-Run3-0.034
 	>=dev-perl/Process-0.200
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	virtual/perl-File-Temp
 	>=virtual/perl-Storable-2.140

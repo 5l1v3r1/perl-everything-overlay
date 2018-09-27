@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Data-Transform-0.05.01
 	>=dev-perl/XML-LibXML-1.630
 	>=dev-perl/XML-SAX-IncrementalBuilder-LibXML-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

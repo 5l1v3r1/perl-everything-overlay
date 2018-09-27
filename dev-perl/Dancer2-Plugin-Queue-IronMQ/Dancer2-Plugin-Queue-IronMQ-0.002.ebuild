@@ -17,13 +17,13 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Const-Fast
-	dev-perl/Dancer2-Plugin-Queue
+	>=dev-perl/Dancer2-Plugin-Queue-0.006
 	>=dev-perl/IO-Iron-0.120
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Roo
 	dev-perl/Test-TCP
 	virtual/perl-File-Spec

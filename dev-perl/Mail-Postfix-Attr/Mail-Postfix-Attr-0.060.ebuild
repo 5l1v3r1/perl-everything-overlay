@@ -23,7 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/Devel-CheckOS
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	>=virtual/perl-Test-Simple-0.960

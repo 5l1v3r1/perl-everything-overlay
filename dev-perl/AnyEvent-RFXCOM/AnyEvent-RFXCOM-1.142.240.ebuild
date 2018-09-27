@@ -16,8 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/AnyEvent-5.271
-	>=dev-perl/Device-RFXCOM-1.142.010
+	dev-perl/AnyEvent
+	dev-perl/Device-RFXCOM
 	dev-perl/Sub-Name
 	dev-perl/base
 	virtual/perl-Carp
@@ -25,7 +25,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/AnyEvent-MockTCPServer
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple

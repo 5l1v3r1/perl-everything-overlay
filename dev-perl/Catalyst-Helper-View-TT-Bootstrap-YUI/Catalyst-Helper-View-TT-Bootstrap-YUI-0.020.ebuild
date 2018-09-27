@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-Devel
 	dev-perl/Catalyst-View-TT
 	dev-perl/DateTime
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

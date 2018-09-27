@@ -15,11 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-1.350
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Capture-Tiny-0.070
 	dev-perl/Test-Deep
 	>=virtual/perl-Test-Simple-0.470

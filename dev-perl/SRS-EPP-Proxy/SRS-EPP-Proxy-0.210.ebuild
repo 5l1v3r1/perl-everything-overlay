@@ -29,7 +29,7 @@ RDEPEND="
 	>=dev-perl/PRANG-0.110
 	>=dev-perl/XML-Assert-0.020
 	>=dev-perl/XML-SRS-0.060
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

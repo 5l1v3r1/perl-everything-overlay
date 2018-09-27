@@ -66,7 +66,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.815
 	>=virtual/perl-Data-Dumper-2.101
 	>=virtual/perl-Encode-2.260
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-Manifest-1.560
 	>=virtual/perl-File-Path-2.080
 	>=virtual/perl-File-Spec-3.270.100

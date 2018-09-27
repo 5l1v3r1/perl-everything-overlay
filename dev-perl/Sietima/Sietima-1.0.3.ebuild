@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.420
+	>=dev-lang/perl-1.360
 	>=dev-perl/Email-Address-1.908
 	>=dev-perl/Email-MIME-1.940
 	>=dev-perl/Email-Sender-1.300.031
@@ -33,7 +33,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Data-Printer-0.390
 	>=dev-perl/Import-Into-1.002.005
 	>=dev-perl/Path-Tiny-0.104

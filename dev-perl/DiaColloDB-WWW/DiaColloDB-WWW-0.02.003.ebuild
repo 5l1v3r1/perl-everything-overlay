@@ -34,6 +34,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-ShareDir-Install
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 "
 

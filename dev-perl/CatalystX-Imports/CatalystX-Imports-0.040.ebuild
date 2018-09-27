@@ -29,7 +29,7 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.190
 	>=dev-perl/Sub-Name-0.040
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.190
 	>=virtual/perl-Test-Simple-0.620
 "

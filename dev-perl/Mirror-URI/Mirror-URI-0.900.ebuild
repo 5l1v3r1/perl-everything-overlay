@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/URI-1.280
 	>=dev-perl/libwww-perl-1.410
 	>=virtual/perl-CPAN-Meta-1.390
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Temp-0.190
 	>=virtual/perl-Test-Simple-0.420
 	>=virtual/perl-Time-HiRes-1.971.400

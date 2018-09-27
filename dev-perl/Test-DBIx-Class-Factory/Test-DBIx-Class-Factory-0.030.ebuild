@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-DBIx-Class-0.400
 	>=dev-perl/Test-Most-0.330
 	>=dev-perl/Test-Pod-Coverage-1.080

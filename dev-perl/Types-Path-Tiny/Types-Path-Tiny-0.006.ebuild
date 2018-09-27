@@ -17,11 +17,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Path-Tiny
-	>=dev-perl/Type-Tiny-0.008
+	dev-perl/Type-Tiny
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-pushd
 	virtual/perl-File-Spec
 	>=virtual/perl-File-Temp-0.180

@@ -39,18 +39,18 @@ RDEPEND="
 	dev-perl/Email-Abstract
 	dev-perl/Email-Folder
 	>=dev-perl/Email-LocalDelivery-0.217
-	>=dev-perl/Email-MIME-1.442
+	>=dev-perl/Email-MIME-1.861
 	>=dev-perl/Email-MIME-ContentType-1.012
 	dev-perl/Email-MIME-CreateHTML
 	>=dev-perl/Email-Send-2.100
-	>=dev-perl/Email-Simple-2.003
+	>=dev-perl/Email-Simple-1.400
 	dev-perl/Exception-Class
 	dev-perl/Exporter-Lite
 	dev-perl/File-Find-Rule
 	dev-perl/File-MMagic
 	>=dev-perl/File-ShareDir-1.000
 	dev-perl/HTML-Lint
-	>=dev-perl/HTML-Mason-1.310.100
+	dev-perl/HTML-Mason
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Date
@@ -93,9 +93,9 @@ RDEPEND="
 	dev-perl/XML-Simple
 	dev-perl/XML-XPath
 	>=dev-perl/YAML-0.350
-	>=dev-perl/YAML-Syck-0.290
+	>=dev-perl/YAML-Syck-0.710
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.140
 	>=virtual/perl-File-Temp-0.150
 	virtual/perl-IO-Compress

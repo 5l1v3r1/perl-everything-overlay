@@ -41,7 +41,7 @@ RDEPEND="
 	dev-perl/XML-Stream
 	dev-perl/libwww-perl
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 	virtual/perl-Storable
 "

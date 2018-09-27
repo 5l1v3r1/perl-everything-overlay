@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Data-Util-0.550
 	dev-perl/Filter
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

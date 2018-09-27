@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/List-MoreUtils-0.220
 	>=dev-perl/Moose-0.930
 	>=dev-perl/Test-Able-0.090
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

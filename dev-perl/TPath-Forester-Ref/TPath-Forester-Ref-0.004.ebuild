@@ -18,13 +18,13 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/MooseX-MethodAttributes
-	>=dev-perl/TPath-1.000
+	dev-perl/TPath
 	dev-perl/namespace-autoclean
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/List-MoreUtils
 	virtual/perl-File-Spec
 	virtual/perl-IO

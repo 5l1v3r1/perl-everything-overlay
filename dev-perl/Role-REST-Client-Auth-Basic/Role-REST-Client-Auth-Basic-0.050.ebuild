@@ -15,14 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Moo
-	dev-perl/Type-Tiny
+	>=dev-perl/Moo-1.003.000
+	>=dev-perl/Type-Tiny-0.024
 	virtual/perl-MIME-Base64
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=dev-perl/Role-REST-Client-0.030
 	virtual/perl-File-Temp

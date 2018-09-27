@@ -25,7 +25,7 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	dev-perl/Test-Fatal
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.980
 "
 

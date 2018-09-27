@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Moose-2.060.400
 	>=dev-perl/Win32-TieRegistry-0.260
 	>=dev-perl/Win32API-Registry-0.300
-	>=virtual/perl-ExtUtils-MakeMaker-6.760
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

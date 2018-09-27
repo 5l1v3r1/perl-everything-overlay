@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Date-Manip
 	dev-perl/HTML-Tree
-	>=dev-perl/WWW-Search-2.067
+	>=dev-perl/WWW-Search-2.557
 	>=dev-perl/WWW-Search-Ebay-2.273
 	dev-perl/libwww-perl
 "

@@ -31,12 +31,12 @@ DEPEND="
 	virtual/perl-Archive-Tar
 	>=virtual/perl-ExtUtils-CBuilder-0.280.224
 	virtual/perl-ExtUtils-Constant
-	>=virtual/perl-ExtUtils-MakeMaker-7.200
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Perl-OSType
-	>=dev-perl/Log-Any-1.030
+	dev-perl/Log-Any
 	dev-perl/Log-Any-Adapter-Log4perl
 	>=dev-perl/Log-Log4perl-1.320
 	dev-perl/Test-Deep

@@ -22,7 +22,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Exception-0.270
 	>=virtual/perl-Test-Simple-0.860
 "

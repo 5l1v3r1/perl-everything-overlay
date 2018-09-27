@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/V-0.130
 	>=dev-perl/ack-2.140
 	>=virtual/perl-CPAN-2.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Module-CoreList-5.000
 	>=virtual/perl-Test-Simple-1.001.009
 "

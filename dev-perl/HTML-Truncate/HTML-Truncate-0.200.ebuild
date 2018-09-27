@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/HTML-Parser-2.000
 	>=dev-perl/HTML-Tagset-3.000
 	>=virtual/perl-Encode-2.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.000
 	>=virtual/perl-Scalar-List-Utils-1.000
 	>=virtual/perl-Test-Simple-0.500

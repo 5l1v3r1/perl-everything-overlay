@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Getopt-Long-Descriptive
 	dev-perl/Moose
 	>=dev-perl/Path-Class-0.060
-	>=virtual/perl-CPAN-Meta-2.130.880
+	>=virtual/perl-CPAN-Meta-1.440.100
 	virtual/perl-CPAN-Meta-Requirements
 	virtual/perl-Carp
 	virtual/perl-Encode

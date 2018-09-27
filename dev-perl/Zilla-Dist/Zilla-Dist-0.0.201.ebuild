@@ -34,7 +34,7 @@ RDEPEND="
 	>=dev-perl/Template-Toolkit-Simple-0.310
 	>=dev-perl/Test-Pod-1.480
 	>=dev-perl/YAML-LibYAML-0.550
-	>=virtual/perl-ExtUtils-MakeMaker-6.980
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-version-0.990.800
 "
 DEPEND="

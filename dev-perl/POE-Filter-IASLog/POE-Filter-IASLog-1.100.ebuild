@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/POE-1.004
+	dev-perl/POE
 	>=dev-perl/Parse-IASLog-1.000
 "
 DEPEND="

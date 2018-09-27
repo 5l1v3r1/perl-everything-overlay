@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/XML-Hash-LX-0.060.200
 	dev-perl/XML-SAX-Writer
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

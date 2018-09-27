@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-UseAllModules
 	dev-perl/URI
 	dev-perl/URI-FromHash
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.140
 	>=virtual/perl-Test-Simple-0.940
 "

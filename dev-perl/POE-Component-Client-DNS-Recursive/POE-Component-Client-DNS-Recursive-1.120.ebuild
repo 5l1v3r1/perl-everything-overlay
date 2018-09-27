@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Net-DNS
+	>=dev-perl/Net-DNS-0.690
 	dev-perl/Net-IP-Minimal
 	>=dev-perl/POE-1.004
 	>=virtual/perl-IO-Socket-IP-0.290

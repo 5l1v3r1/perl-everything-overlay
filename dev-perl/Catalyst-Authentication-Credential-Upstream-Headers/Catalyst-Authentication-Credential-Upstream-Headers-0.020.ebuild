@@ -20,7 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Catalyst-Plugin-Authorization-Roles-0.080
 	>=dev-perl/Test-WWW-Mechanize-Catalyst-0.520
 "

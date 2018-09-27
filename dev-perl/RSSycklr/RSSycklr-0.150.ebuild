@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/XML-LibXML
 	dev-perl/YAML
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 "
 DEPEND="

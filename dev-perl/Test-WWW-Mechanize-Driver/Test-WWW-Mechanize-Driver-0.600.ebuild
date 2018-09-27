@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-WWW-Mechanize
 	dev-perl/URI
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
 	virtual/perl-Test-Simple

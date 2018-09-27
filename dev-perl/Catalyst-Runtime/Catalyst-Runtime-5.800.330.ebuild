@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Data-OptList
 	dev-perl/HTML-Parser
 	>=dev-perl/HTTP-Body-1.060
-	>=dev-perl/HTTP-Message-5.814
+	>=dev-perl/HTTP-Message-1.640
 	>=dev-perl/HTTP-Request-AsCGI-1.000
 	dev-perl/List-MoreUtils
 	dev-perl/MRO-Compat

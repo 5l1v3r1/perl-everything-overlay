@@ -24,7 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
 	>=dev-perl/Module-Build-Tiny-0.034
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Clone
 	dev-perl/Module-Build
 	dev-perl/Test-Exception

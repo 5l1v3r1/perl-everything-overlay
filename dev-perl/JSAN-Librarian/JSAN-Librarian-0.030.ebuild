@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/JavaScript-Librarian-0.030
 	>=dev-perl/Params-Util-0.210
 	>=dev-perl/URI-1.330
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-1.060
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470

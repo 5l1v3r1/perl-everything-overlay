@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/HTML-Entities-Numbered-0.040
 	>=dev-perl/Module-Pluggable-Fast-0.160
 	>=dev-perl/XML-LibXML-1.69.02
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

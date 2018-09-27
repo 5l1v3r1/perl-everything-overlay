@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Task-Weaken
 	dev-perl/namespace-autoclean
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.890
 "
 DEPEND="

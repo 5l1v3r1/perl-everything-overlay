@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Test-Exception
 	>=dev-perl/Test-MockObject-1.010
 	virtual/perl-Digest
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

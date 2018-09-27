@@ -46,7 +46,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.800
 	virtual/perl-Carp
 	>=virtual/perl-Digest-MD5-2.360
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.040
 	>=virtual/perl-File-Spec-3.270
 	>=virtual/perl-File-Temp-0.200

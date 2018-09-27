@@ -29,7 +29,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/SQL-Abstract
-	>=dev-perl/SQL-Translator-0.110.060
+	dev-perl/SQL-Translator
 	dev-perl/Try-Tiny
 	dev-perl/namespace-autoclean
 	virtual/perl-Carp
@@ -40,7 +40,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Path-Class
 	dev-perl/Test-Deep
 	dev-perl/Test-Fatal

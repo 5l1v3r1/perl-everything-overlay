@@ -24,7 +24,7 @@ RDEPEND="
 	virtual/perl-CPAN
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.460
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.270
 	>=virtual/perl-File-Temp-0.200
 	>=virtual/perl-IO-Compress-1.200

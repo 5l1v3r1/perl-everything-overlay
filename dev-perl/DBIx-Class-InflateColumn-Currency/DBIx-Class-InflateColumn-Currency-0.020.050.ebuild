@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/DBD-SQLite-1.110
 	>=dev-perl/DBIx-Class-0.070.050
 	>=dev-perl/Data-Currency-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

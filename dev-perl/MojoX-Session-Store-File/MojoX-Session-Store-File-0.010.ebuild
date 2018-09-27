@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/FreezeThaw
 	>=dev-perl/MojoX-Session-0.150
 	>=dev-perl/Mojolicious-0.999.914
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Storable
 	virtual/perl-Test-Simple

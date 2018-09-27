@@ -29,9 +29,9 @@ RDEPEND="
 	>=dev-perl/Unicode-String-2.090
 	>=dev-perl/WSRF-Lite-0.8.2.5
 	>=dev-perl/Want-0.180
-	>=dev-perl/XML-LibXML-0.130
+	>=dev-perl/XML-LibXML-1.620
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.420
 "

@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Params-Util-0.170
 	>=dev-perl/YAML-Tiny-1.000
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 	>=virtual/perl-version-0.740

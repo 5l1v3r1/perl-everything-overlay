@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/AnyEvent
 	dev-perl/Filter
 	dev-perl/XML-Atom-Stream
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

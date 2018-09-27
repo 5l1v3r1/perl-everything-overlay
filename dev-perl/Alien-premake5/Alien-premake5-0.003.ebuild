@@ -23,7 +23,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	dev-perl/File-chdir
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	dev-perl/Test2-Suite
 "

@@ -34,7 +34,7 @@ RDEPEND="
 	dev-perl/XML-Writer-String
 	virtual/perl-Carp
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Canary-Stability
 	>=dev-perl/Guard-1.000
 	dev-perl/Net-SNMP
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

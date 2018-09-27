@@ -19,6 +19,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Canary-Stability-2001.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 "
 

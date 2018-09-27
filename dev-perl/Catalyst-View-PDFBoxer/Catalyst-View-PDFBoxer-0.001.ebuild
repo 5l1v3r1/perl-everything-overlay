@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Moose
-	dev-perl/PDF-Boxer
+	>=dev-perl/PDF-Boxer-0.003
 	dev-perl/namespace-clean
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	dev-perl/Catalyst-View-TT

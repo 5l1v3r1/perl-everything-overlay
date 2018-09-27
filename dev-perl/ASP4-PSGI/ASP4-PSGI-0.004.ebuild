@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/ASP4-1.077
 	>=dev-perl/Plack-0.994.900
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

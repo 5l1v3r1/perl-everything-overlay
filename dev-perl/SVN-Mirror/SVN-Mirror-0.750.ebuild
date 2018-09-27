@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/TermReadKey
 	dev-perl/TimeDate
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

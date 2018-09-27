@@ -20,7 +20,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Alien-Build-0.320
 	>=dev-perl/Alien-cmake3-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=dev-perl/Test-Alien-CPP-0.990
 	virtual/perl-File-Spec

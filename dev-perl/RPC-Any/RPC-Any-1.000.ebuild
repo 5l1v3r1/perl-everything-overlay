@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Taint-Util
 	dev-perl/Test-Exception
 	>=dev-perl/libwww-perl-5.827
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.820

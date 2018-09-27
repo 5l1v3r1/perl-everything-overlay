@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

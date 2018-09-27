@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Audio-File
 	dev-perl/Catalyst-Runtime
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

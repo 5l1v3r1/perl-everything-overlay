@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moose-2.060.400
-	>=virtual/perl-ExtUtils-MakeMaker-6.630.200
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.270
 	>=virtual/perl-Test-Simple-0.980
 "

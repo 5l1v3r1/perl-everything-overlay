@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-MySQL
 	dev-perl/DateTime-Format-Pg
 	dev-perl/Module-Pluggable
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

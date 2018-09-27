@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/HTTP-Headers-Fast
 	dev-perl/HTTP-Message
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.700
 "
 DEPEND="

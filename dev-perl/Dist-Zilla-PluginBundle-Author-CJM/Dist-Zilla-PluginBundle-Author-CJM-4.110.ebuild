@@ -22,13 +22,13 @@ RDEPEND="
 	>=dev-perl/Dist-Zilla-Plugin-PodLoom-4.010
 	>=dev-perl/Dist-Zilla-Plugin-Repository-0.160
 	>=dev-perl/Dist-Zilla-Plugin-TemplateCJM-4.000
-	>=dev-perl/Dist-Zilla-Plugins-CJM-0.080
+	>=dev-perl/Dist-Zilla-Plugins-CJM-4.000
 	dev-perl/Git-Wrapper
 	>=dev-perl/Moose-0.650
 	>=dev-perl/Moose-Autobox-0.090
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

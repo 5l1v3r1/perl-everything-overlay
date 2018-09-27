@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Harness-3.040
 	virtual/perl-Test-Simple
 "

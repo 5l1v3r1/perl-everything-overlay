@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/URI-1.350
 	>=dev-perl/libwww-perl-2.033
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.470
 "

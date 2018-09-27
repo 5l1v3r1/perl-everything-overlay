@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Data-Section-0.200.002
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-6.000
 	dev-perl/Moose
 	dev-perl/Sub-Exporter-ForMethods
 	>=dev-perl/namespace-autoclean-0.280
@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Capture-Tiny
 	dev-perl/Path-Tiny
 	dev-perl/Test-Fatal

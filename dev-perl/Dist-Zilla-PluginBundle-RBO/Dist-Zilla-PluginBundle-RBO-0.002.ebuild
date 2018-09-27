@@ -15,12 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-4.102.346
 	>=dev-perl/Dist-Zilla-Plugin-AutoMetaResources-1.103.080
-	dev-perl/Dist-Zilla-Plugin-Git
+	>=dev-perl/Dist-Zilla-Plugin-Git-1.103.520
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

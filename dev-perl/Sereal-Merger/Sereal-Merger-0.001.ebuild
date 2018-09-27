@@ -19,7 +19,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.000
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=virtual/perl-ExtUtils-ParseXS-2.210
 	virtual/perl-File-Path

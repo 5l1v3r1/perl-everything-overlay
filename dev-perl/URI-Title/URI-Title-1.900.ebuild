@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/File-Type-0.220
-	dev-perl/HTML-Parser
+	>=dev-perl/HTML-Parser-3.450
 	dev-perl/HTTP-Message
 	dev-perl/Image-Size
 	>=dev-perl/Module-Pluggable-1.200
@@ -30,7 +30,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/lib
 	virtual/perl-IO
 	>=virtual/perl-Test-Simple-0.880

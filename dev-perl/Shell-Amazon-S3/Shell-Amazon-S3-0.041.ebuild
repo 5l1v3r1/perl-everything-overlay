@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/Perl6-Say
 	dev-perl/YAML
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Term-ReadLine

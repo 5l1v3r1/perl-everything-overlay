@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Log-Dispatch-Config
 	dev-perl/Moose
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

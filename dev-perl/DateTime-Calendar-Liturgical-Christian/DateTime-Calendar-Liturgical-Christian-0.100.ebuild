@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Date-Calc
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Storable
 "
 DEPEND="

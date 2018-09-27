@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Filter
 	>=dev-perl/Mouse-0.140
 	dev-perl/Test-Deep
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

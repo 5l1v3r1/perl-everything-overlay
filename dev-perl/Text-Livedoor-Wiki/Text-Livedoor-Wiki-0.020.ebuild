@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Test-Memory-Cycle
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

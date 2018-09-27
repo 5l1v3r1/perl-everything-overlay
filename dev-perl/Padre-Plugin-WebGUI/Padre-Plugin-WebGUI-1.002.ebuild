@@ -19,14 +19,14 @@ RDEPEND="
 	dev-perl/Class-Unload
 	dev-perl/Class-XSAccessor
 	dev-perl/JSON
-	dev-perl/Padre
+	>=dev-perl/Padre-0.690
 	dev-perl/libwww-perl
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/File-Slurp
 	dev-perl/Pod-Elemental
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

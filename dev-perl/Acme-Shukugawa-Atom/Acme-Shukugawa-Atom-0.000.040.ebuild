@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Text-MeCab-0.200.070
 	dev-perl/YAML
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

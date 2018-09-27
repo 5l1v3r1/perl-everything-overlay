@@ -22,7 +22,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckLib-0.4.0
 	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-ParseXS-3.180
 	dev-perl/Test-Fatal
 	virtual/perl-JSON-PP

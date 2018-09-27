@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Mouse-0.390
 	>=dev-perl/MouseX-Types-Path-Class-0.060
 	dev-perl/Test-UseAllModules
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.940
 "
 DEPEND="

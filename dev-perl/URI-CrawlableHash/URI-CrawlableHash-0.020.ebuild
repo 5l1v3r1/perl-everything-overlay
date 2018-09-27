@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Guard
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

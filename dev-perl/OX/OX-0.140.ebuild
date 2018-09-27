@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Moose
 	>=dev-perl/Path-Router-0.110
-	dev-perl/Plack
+	>=dev-perl/Plack-1.001.200
 	>=dev-perl/Plack-App-Path-Router-0.050
 	dev-perl/Try-Tiny
 	dev-perl/Web-Request
@@ -32,7 +32,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires

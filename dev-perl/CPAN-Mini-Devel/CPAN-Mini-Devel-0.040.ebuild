@@ -17,14 +17,14 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/CPAN-Mini-0.567
-	virtual/perl-CPAN
+	>=virtual/perl-CPAN-1.920
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	>=virtual/perl-File-Temp-0.200
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 	virtual/perl-version

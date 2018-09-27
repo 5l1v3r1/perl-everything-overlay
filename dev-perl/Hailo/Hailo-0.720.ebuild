@@ -41,7 +41,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Bot-Training
 	dev-perl/Bot-Training-MegaHAL
 	dev-perl/Bot-Training-StarCraft

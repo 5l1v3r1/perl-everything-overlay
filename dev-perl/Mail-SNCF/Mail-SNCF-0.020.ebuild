@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/Email-Folder
 	dev-perl/Test-Dependencies
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

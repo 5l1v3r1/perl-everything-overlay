@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/MRO-Compat
 	dev-perl/Test-WWW-Mechanize-Catalyst
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

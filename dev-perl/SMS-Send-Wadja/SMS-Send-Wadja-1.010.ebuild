@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/SMS-Send
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

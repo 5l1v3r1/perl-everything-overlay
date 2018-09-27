@@ -42,7 +42,7 @@ RDEPEND="
 	>=dev-perl/Padre-Plugin-ViewInBrowser-0.070
 	>=dev-perl/Padre-Plugin-XML-0.060
 	>=dev-perl/Padre-Plugin-XS-0.010
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

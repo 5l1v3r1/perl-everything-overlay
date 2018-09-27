@@ -24,7 +24,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Cairo-1.061
 	>=dev-perl/Pango-1.220
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/SVG-2.370
 	>=dev-perl/Test-Exception-0.270
 	>=dev-perl/Test-Warn-0.080

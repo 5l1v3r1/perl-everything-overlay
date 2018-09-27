@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-ConfigLoader
 	dev-perl/File-Fetch
 	dev-perl/MRO-Compat
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

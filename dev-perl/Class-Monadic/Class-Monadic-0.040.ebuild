@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Hash-FieldHash
 	>=dev-perl/Test-LeakTrace-0.080
 	>=virtual/perl-Exporter-5.570
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="

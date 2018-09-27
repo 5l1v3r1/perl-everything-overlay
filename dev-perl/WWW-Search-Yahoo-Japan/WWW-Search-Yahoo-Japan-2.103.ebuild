@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/WWW-Search-2.265
 	>=dev-perl/WWW-Search-Yahoo-2.377
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

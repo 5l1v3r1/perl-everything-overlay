@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	dev-perl/base
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

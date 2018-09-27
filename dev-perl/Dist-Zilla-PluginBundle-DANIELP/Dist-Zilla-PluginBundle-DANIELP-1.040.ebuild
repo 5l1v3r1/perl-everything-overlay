@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/Dist-Zilla
+	>=dev-perl/Dist-Zilla-2.101.040
 	dev-perl/Dist-Zilla-Plugin-ChangelogFromGit
 	>=dev-perl/Dist-Zilla-Plugin-Git-1.102.810
 	dev-perl/Dist-Zilla-Plugin-HasVersionTests
@@ -31,7 +31,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	>=virtual/perl-Test-Simple-0.880
 "

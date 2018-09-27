@@ -30,7 +30,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/XML-RSS
 	dev-perl/YAML-Syck
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Types-URI
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

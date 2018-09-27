@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/File-Type-0.220
 	>=dev-perl/File-Which-1.090
 	>=dev-perl/Test-Deep-0.110

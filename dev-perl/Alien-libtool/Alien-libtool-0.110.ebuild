@@ -22,7 +22,7 @@ DEPEND="
 	dev-perl/Capture-Tiny
 	dev-perl/File-Which
 	dev-perl/Sort-Versions
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Env
 	dev-perl/File-chdir
 	>=dev-perl/Test2-Suite-0.000.060

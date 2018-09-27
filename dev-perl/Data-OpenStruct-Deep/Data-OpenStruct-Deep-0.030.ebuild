@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Test-Deep
 	dev-perl/Want
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 "

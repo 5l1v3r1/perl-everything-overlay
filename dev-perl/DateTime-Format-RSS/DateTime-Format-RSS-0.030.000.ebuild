@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DateTime-Format-DateParse
 	dev-perl/DateTime-Format-ISO8601
 	dev-perl/DateTime-Format-Mail
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Devel-Declare-0.002
 	dev-perl/Scope-Guard
 	dev-perl/Sub-Name
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

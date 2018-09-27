@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Object-Signature
 	dev-perl/namespace-autoclean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

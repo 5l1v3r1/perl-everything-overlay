@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/HTML-Parser
 	dev-perl/HTTP-Message
 	>=dev-perl/WWW-Mechanize-1.200
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

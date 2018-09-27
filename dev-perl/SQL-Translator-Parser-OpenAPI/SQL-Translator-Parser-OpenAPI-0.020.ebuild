@@ -17,12 +17,12 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/JSON-Validator-2.010
 	dev-perl/Lingua-EN-Inflect-Number
-	>=dev-perl/SQL-Translator-0.110.240
+	dev-perl/SQL-Translator
 	dev-perl/String-CamelCase
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.100
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Snapshot-0.020
 	>=virtual/perl-Test-Simple-0.980
 "

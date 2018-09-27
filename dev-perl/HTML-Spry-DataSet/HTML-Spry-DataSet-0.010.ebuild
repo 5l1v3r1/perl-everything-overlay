@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/File-Remove-1.420
 	>=dev-perl/Params-Util-0.320
 	>=dev-perl/Test-LongString-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-IO-1.230
 	>=virtual/perl-Test-Simple-0.420
 "

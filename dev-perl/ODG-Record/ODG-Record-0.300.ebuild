@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/MooseX-LvalueAttribute
 	dev-perl/MooseX-Meta-Attribute-Index
 	dev-perl/Test-Benchmark
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

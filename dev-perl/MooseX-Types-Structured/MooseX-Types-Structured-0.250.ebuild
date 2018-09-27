@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DateTime
 	dev-perl/MooseX-Types-DateTime
 	>=dev-perl/Test-Fatal-0.003

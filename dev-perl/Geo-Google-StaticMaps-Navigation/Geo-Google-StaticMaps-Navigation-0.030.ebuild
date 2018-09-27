@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Geo-Mercator
 	dev-perl/URI
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="

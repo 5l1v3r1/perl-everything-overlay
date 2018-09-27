@@ -25,6 +25,6 @@ DEPEND="
 	dev-perl/Module-Build
 	>=dev-perl/Perl-Critic-1.118
 	dev-perl/Test-Perl-Critic
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

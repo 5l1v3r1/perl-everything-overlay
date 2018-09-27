@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Data-GUID
-	dev-perl/Data-Stream-Bulk
+	>=dev-perl/Data-Stream-Bulk-0.080
 	>=dev-perl/JSON-2.000
 	dev-perl/List-AllUtils
 	>=dev-perl/Metabase-1.000
@@ -35,7 +35,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Net-Amazon-Config
 	dev-perl/Test-Deep
 	dev-perl/Test-Routine

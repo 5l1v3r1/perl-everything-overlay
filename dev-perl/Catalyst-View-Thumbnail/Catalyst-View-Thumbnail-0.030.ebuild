@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Catalyst-Runtime
 	dev-perl/Image-Info
 	dev-perl/Imager
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

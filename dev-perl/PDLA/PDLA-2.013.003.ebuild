@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="ETJ"
-DIST_VERSION="2.013003"
-DIST_A="PDLA-2.013003.tar.gz"
+DIST_VERSION="2.013003" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Module-Compile-0.230
 	virtual/perl-Carp
 	>=virtual/perl-Data-Dumper-2.121
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-ExtUtils-Manifest
 	virtual/perl-File-Path
 	>=virtual/perl-File-Spec-0.600
@@ -48,3 +47,4 @@ DEPEND="
 	>=virtual/perl-CPAN-Meta-2.120.900
 	>=virtual/perl-ExtUtils-ParseXS-3.010
 "
+

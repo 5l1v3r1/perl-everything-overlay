@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Text-Metaphone
 	>=dev-perl/Text-Soundex-3.000
 	dev-perl/Text-Unidecode
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

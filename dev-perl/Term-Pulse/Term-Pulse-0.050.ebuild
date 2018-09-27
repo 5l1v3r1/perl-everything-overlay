@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes
 "

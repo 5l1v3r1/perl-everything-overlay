@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.930
 	>=dev-perl/Net-Telnet-3.030
 	>=dev-perl/namespace-autoclean-0.090
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

@@ -33,10 +33,10 @@ RDEPEND="
 	>=dev-perl/Probe-Perl-0.010
 	>=dev-perl/Process-0.260
 	>=dev-perl/Time-Elapsed-0.260
-	>=dev-perl/URI-4.200
+	>=dev-perl/URI-1.370
 	>=dev-perl/Xtract-0.100
 	>=dev-perl/libwww-perl-5.819
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.070
 	>=virtual/perl-File-Spec-3.300
 	>=virtual/perl-File-Temp-0.210

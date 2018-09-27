@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Cache-Memcached-Fast
 	dev-perl/Test-Class
 	dev-perl/Test-Deep
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

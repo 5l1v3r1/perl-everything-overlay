@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/App-CLI-Extension-1.200
 	dev-perl/Filter
 	dev-perl/YAML-Syck
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

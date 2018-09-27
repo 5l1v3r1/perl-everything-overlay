@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/CouchDB-Client
 	dev-perl/Data-Compare
 	dev-perl/Sub-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 "
 DEPEND="

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Cache-Cache
 	>=dev-perl/Catalyst-Authentication-Store-FromSub-0.010
 	>=dev-perl/Catalyst-Model-DBIC-Schema-0.240
-	>=dev-perl/Catalyst-Plugin-Authentication-0.100.110
+	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Catalyst-Plugin-Cache
 	dev-perl/Catalyst-Plugin-Captcha
 	>=dev-perl/Catalyst-Plugin-ConfigLoader-0.230
@@ -52,7 +52,7 @@ RDEPEND="
 	dev-perl/Schedule-Cron
 	dev-perl/Set-Object
 	dev-perl/Template-Plugin-FillInForm
-	>=dev-perl/Template-Toolkit-2.200
+	dev-perl/Template-Toolkit
 	>=dev-perl/Text-GooglewikiFormat-0.050
 	dev-perl/Text-Textile
 	>=dev-perl/TheSchwartz-Moosified-0.030
@@ -61,7 +61,7 @@ RDEPEND="
 	dev-perl/YAML-LibYAML
 	virtual/perl-Digest
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Devel-BeginLift
 	dev-perl/Devel-Declare
 	dev-perl/Sub-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

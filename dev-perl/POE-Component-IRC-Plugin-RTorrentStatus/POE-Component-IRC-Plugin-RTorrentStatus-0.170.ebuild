@@ -19,12 +19,12 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/Format-Human-Bytes
 	dev-perl/POE
-	>=dev-perl/POE-Component-IRC-6.220
+	dev-perl/POE-Component-IRC
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-1.070
 "
 

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/XML-Generator-PerlData
 	dev-perl/XML-SAX-Writer
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

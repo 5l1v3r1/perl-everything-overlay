@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Encode-Base58
 	dev-perl/WWW-Shorten
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

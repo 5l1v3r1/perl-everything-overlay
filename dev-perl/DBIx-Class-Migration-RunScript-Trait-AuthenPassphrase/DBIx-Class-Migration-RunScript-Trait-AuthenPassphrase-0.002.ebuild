@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DBIx-Class
 	>=dev-perl/DBIx-Class-Migration-0.033
 	dev-perl/DBIx-Class-PassphraseColumn

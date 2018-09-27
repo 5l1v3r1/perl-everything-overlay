@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTTP-Message
-	dev-perl/Moose
+	>=dev-perl/Moose-0.810
 	>=dev-perl/MooseX-POE-0.205
 	dev-perl/Net-IP
 	>=dev-perl/POE-1.006
@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-perl/Test-POE-Client-TCP-1.040
 	>=dev-perl/Test-POE-Server-TCP-1.060
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.470
 "
 DEPEND="

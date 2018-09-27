@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Archive-Tar
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="

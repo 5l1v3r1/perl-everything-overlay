@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/File-ShareDir-0.050
-	>=dev-perl/HTTP-Message-1.530
+	>=dev-perl/HTTP-Message-1.400
 	>=dev-perl/HTTP-Negotiate-6.000
 	>=dev-perl/POE-1.007
 	>=dev-perl/POE-Component-IRC-5.030
@@ -26,6 +26,6 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

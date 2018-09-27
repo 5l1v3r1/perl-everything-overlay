@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/CHI-0.330
 	dev-perl/Test-Class
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

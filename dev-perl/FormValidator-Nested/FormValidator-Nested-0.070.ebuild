@@ -36,7 +36,7 @@ RDEPEND="
 	dev-perl/UNIVERSAL-require
 	dev-perl/YAML-Syck
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

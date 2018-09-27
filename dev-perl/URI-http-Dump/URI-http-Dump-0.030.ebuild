@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/MooseX-InsideOut
 	dev-perl/URI
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

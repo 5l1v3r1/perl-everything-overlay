@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/CGI
 	dev-perl/Email-Send
 	dev-perl/Email-Simple
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

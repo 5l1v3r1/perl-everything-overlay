@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/File-ShareDir
 	dev-perl/HTML-Parser
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

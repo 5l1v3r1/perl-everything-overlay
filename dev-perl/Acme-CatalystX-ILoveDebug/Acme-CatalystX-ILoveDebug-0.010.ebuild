@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/Test-WWW-Mechanize-Catalyst
 	dev-perl/namespace-autoclean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
 DEPEND="

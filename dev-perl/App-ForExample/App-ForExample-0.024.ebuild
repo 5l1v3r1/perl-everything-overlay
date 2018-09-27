@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Test-Most
 	dev-perl/Test-Output
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

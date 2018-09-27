@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Sub-Attribute-0.020
 	>=dev-perl/UNIVERSAL-require-0.110
 	>=virtual/perl-Digest-SHA-5.470
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-MIME-Base64-3.070
 	>=virtual/perl-Storable-2.180
 	virtual/perl-Test-Simple

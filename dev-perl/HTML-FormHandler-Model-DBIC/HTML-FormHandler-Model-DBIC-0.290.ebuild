@@ -23,7 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/DateTime-Format-MySQL
 	dev-perl/DateTime-Format-SQLite
 	dev-perl/DateTime-Format-W3CDTF

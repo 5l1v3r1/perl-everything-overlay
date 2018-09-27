@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Path-Dispatcher
 	dev-perl/Test-Most
 	dev-perl/Test-Trap
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Getopt-Long-2.370
 "
 DEPEND="

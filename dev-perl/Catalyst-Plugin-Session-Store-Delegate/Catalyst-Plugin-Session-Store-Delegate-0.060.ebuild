@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/MooseX-Emulate-Class-Accessor-Fast
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

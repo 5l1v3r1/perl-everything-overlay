@@ -36,7 +36,7 @@ RDEPEND="
 	>=dev-perl/File-Which-1.080
 	>=dev-perl/File-pushd-1.000
 	>=dev-perl/Format-Human-Bytes-0.060
-	>=dev-perl/HTML-Parser-3.580
+	>=dev-perl/HTML-Parser-3.570
 	>=dev-perl/IO-String-1.080
 	>=dev-perl/IO-stringy-2.110
 	>=dev-perl/IPC-Run-0.830
@@ -70,7 +70,7 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.815
 	>=virtual/perl-Data-Dumper-2.101
 	>=virtual/perl-Encode-2.260
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-ExtUtils-Manifest-1.560
 	>=virtual/perl-File-Path-2.080
 	>=virtual/perl-File-Spec-3.270.100
@@ -78,7 +78,7 @@ RDEPEND="
 	virtual/perl-Getopt-Long
 	>=virtual/perl-IO-1.300
 	>=virtual/perl-Module-CoreList-2.220
-	>=virtual/perl-Pod-Simple-3.040
+	>=virtual/perl-Pod-Simple-3.070
 	>=virtual/perl-Scalar-List-Utils-1.180
 	>=virtual/perl-Storable-2.160
 	virtual/perl-Term-ReadLine

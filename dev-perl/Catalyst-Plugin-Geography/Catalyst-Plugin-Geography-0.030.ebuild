@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Geography-Countries
 	dev-perl/IP-Country
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

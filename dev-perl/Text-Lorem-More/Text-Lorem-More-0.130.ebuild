@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Parse-RecDescent
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

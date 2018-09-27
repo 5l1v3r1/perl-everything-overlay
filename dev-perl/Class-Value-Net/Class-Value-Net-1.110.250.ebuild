@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Value-SemanticAdapter
-	dev-perl/Data-Semantic-Net
+	>=dev-perl/Data-Semantic-Net-1.101.750
 	dev-perl/Error-Hierarchy
 	dev-perl/Test-CompanionClasses
 	virtual/perl-Test-Simple
@@ -25,7 +25,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Error
 	virtual/perl-Carp
 	virtual/perl-File-Temp

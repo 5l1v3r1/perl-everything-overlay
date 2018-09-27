@@ -15,12 +15,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/POE
+	>=dev-perl/POE-0.999.900
 	dev-perl/POE-Component-Pluggable
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-POE-Server-TCP
 	>=virtual/perl-Test-Simple-0.470
 "

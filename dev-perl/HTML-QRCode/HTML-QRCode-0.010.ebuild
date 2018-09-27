@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Text-QRCode
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

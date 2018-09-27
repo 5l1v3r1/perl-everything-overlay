@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Path-Tiny
 	dev-perl/Test-Database
 	dev-perl/Test-Fatal
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

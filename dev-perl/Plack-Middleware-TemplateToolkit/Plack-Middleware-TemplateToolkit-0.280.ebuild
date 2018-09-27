@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/HTTP-Message
-	dev-perl/Plack
+	>=dev-perl/Plack-0.994
 	dev-perl/Plack-Middleware-Debug
 	>=dev-perl/Template-Toolkit-2.000
 	virtual/perl-Carp
@@ -29,7 +29,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Warn
 	dev-perl/lib
 	virtual/perl-File-Spec

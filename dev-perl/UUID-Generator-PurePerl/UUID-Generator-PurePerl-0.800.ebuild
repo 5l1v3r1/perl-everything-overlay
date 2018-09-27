@@ -19,7 +19,7 @@ RDEPEND="
 	virtual/perl-Carp
 	>=virtual/perl-Digest-1.000
 	>=virtual/perl-Exporter-5.562
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	>=virtual/perl-Time-HiRes-1.200
 "

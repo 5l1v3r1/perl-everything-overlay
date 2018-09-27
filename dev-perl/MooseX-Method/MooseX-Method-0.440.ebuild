@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTML-Template-Pro-0.650
-	>=dev-perl/Moose-0.220
+	>=dev-perl/Moose-0.370
 	>=dev-perl/Sub-Name-0.020
 	>=dev-perl/Test-Exception-0.210
 	>=dev-perl/Test-Pod-1.260
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Scalar-List-Utils-1.140
 	>=virtual/perl-Test-Simple-0.470
 "

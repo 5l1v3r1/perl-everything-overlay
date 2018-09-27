@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-perl/Net-Stomp-0.340
 	>=dev-perl/YAML-LibYAML-0.320
 	>=dev-perl/namespace-autoclean-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

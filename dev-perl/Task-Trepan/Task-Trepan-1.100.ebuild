@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Enbugger-2.012
 	>=dev-perl/Eval-WithLexicals-1.002
 	>=dev-perl/Term-ReadLine-Perl-1.030.300
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

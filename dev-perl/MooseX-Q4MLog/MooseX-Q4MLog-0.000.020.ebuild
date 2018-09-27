@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/MooseX-ConfigFromFile
 	dev-perl/MooseX-Daemonize
 	dev-perl/Queue-Q4M
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

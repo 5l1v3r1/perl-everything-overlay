@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.000
 	dev-perl/List-AllUtils
 	dev-perl/Metabase-Fact
-	dev-perl/Moose
+	>=dev-perl/Moose-1.000
 	dev-perl/MooseX-Types
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/MooseX-Types-Structured
@@ -40,7 +40,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
 	dev-perl/base

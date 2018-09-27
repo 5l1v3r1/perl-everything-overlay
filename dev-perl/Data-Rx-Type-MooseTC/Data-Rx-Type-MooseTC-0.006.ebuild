@@ -16,14 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Data-Rx-0.004
-	dev-perl/Moose
+	dev-perl/Data-Rx
+	>=dev-perl/Moose-0.580
 	virtual/perl-Carp
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.960
 "
 

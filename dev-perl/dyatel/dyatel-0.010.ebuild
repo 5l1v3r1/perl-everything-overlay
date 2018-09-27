@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/WWW-Mechanize
 	dev-perl/YAML
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Sys-Syslog
 	virtual/perl-Test-Simple
 "

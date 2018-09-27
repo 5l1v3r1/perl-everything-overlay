@@ -24,12 +24,12 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/IO-CaptureOutput-1.060
 	dev-perl/Mail-Box
 	>=dev-perl/Probe-Perl-0.010
 	>=dev-perl/Proc-Background-1.080
-	>=virtual/perl-File-Spec-0.860
+	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	>=virtual/perl-Test-Simple-0.740
 "

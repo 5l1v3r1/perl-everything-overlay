@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/XML-LibXML
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

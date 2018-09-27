@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-InsideOut
 	>=dev-perl/XML-LibXML-1.660
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

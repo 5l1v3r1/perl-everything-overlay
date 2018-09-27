@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-View-TT-0.290
 	>=dev-perl/JavaScript-Framework-jQuery-0.010
 	>=dev-perl/Moose-0.790
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

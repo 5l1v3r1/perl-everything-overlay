@@ -29,6 +29,6 @@ DEPEND="
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

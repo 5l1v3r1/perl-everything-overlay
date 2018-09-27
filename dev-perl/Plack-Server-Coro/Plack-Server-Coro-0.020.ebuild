@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Filter
 	>=dev-perl/Net-Server-Coro-0.500
 	dev-perl/Plack
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

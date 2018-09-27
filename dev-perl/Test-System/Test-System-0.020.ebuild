@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Moose-0.870
 	>=dev-perl/Test-Class-0.300
 	>=dev-perl/YAML-Syck-1.070
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Harness-3.170
 	>=virtual/perl-Test-Simple-0.940
 "

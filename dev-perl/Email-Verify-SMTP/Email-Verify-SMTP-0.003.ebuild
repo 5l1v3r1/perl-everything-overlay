@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/IO-Socket-Telnet
 	dev-perl/Net-Nslookup
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

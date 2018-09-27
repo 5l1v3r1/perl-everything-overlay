@@ -39,7 +39,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Daemon
 	dev-perl/HTTP-Message
 	dev-perl/IO-CaptureOutput

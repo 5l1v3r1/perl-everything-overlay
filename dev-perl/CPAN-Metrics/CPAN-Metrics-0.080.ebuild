@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/CPAN-Mini-Extract-1.190
 	>=dev-perl/File-HomeDir-0.690
 	>=dev-perl/Perl-Metrics-0.080
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-perl/Module-Install-0.880
+	dev-perl/Module-Install
 "
 DEPEND="
 	${RDEPEND}

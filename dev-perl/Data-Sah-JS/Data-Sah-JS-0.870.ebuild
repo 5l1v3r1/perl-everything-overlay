@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Capture-Tiny
 	>=dev-perl/Data-Clean-JSON-0.110
-	dev-perl/Data-Sah
+	>=dev-perl/Data-Sah-0.870
 	>=dev-perl/Data-Sah-Coerce-0.014
 	>=dev-perl/IPC-System-Options-0.270
 	dev-perl/JSON-MaybeXS

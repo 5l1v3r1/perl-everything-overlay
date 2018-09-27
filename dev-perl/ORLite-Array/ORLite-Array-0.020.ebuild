@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/File-Remove-1.400
 	>=dev-perl/Params-Util-0.330
 	>=dev-perl/Test-Script-1.060
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.040
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-File-Temp-0.200

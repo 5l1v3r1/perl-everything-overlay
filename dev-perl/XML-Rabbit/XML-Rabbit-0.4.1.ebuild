@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Class-Load
-	>=dev-perl/Moose-0.890
+	dev-perl/Moose
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/Perl6-Junction
 	>=dev-perl/XML-LibXML-1.700
@@ -28,7 +28,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 	dev-perl/lib
 	virtual/perl-Test-Simple

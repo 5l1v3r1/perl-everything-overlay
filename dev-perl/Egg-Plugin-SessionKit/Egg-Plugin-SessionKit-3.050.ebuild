@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Test-Pod
 	dev-perl/Test-Pod-Coverage
 	>=dev-perl/Time-Piece-MySQL-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Storable-2.180
 	virtual/perl-Test-Simple
 "

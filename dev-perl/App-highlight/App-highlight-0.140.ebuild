@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/App-Cmd-0.309
 	>=dev-perl/Getopt-Long-Descriptive-0.085
 	>=dev-perl/Try-Tiny-0.090
-	>=virtual/perl-ExtUtils-MakeMaker-6.55.02
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Getopt-Long-2.390
 	>=virtual/perl-Module-Load-0.180
 "

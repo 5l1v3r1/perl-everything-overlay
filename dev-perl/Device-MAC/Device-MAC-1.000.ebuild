@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Most
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

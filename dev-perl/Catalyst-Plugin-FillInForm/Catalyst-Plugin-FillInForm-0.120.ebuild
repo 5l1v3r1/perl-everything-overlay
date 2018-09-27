@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.701.200
 	dev-perl/HTML-FillInForm
 	dev-perl/MRO-Compat
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

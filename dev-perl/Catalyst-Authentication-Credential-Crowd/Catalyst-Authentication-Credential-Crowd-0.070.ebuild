@@ -23,7 +23,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Catalyst-Plugin-Authentication
 	dev-perl/Catalyst-Runtime
 	dev-perl/Test-Fake-HTTPD

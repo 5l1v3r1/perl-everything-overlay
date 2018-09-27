@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/FFI-CheckLib
-	>=dev-perl/FFI-Platypus-0.560
+	dev-perl/FFI-Platypus
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test2-Suite-0.000.060
 "
 

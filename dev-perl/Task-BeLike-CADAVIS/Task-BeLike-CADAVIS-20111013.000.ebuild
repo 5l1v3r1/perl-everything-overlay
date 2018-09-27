@@ -34,7 +34,7 @@ RDEPEND="
 	dev-perl/Task-Kensho-Toolchain
 	dev-perl/Test-Approx
 	dev-perl/Test-Class
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

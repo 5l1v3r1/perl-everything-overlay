@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=dev-lang/perl-1.420
+	>=dev-lang/perl-2.600
 	>=virtual/perl-Archive-Tar-0.072
-	>=virtual/perl-ExtUtils-MakeMaker-5.430.200
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-1.040.100
 	>=virtual/perl-IO-Compress-1.030
 	>=virtual/perl-Test-1.122

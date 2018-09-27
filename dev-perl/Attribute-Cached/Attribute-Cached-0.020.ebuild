@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Attribute-Handlers
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.420
 "
 DEPEND="

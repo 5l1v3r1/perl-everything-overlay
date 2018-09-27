@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Params-Validate-0.890
 	dev-perl/Test-Requires
 	>=dev-perl/YAML-Syck-1.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

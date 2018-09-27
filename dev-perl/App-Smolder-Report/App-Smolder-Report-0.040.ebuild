@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Test-Deep
 	dev-perl/Test-Exception
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long
 	virtual/perl-Test-Simple

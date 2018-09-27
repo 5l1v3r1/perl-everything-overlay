@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/Test-Memory-Cycle
 	dev-perl/common-sense
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Storable
 	virtual/perl-Test-Simple
 	virtual/perl-Time-HiRes

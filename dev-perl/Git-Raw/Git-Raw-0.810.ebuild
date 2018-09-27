@@ -23,7 +23,7 @@ DEPEND="
 	${RDEPEND}
 	>=dev-perl/Devel-CheckLib-0.6.0
 	>=virtual/perl-ExtUtils-Constant-0.230
-	>=virtual/perl-ExtUtils-MakeMaker-6.63.03
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Getopt-Long-2.350
 	dev-perl/Capture-Tiny
 	>=dev-perl/File-Slurp-Tiny-0.001

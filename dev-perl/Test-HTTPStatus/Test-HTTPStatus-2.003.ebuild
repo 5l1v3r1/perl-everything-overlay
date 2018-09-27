@@ -16,13 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/HTTP-SimpleLinkChecker-1.165
-	dev-perl/Mojolicious
+	>=dev-perl/Mojolicious-6.000
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	virtual/perl-Test-Simple
+	>=virtual/perl-Test-Simple-1.000
 "
 

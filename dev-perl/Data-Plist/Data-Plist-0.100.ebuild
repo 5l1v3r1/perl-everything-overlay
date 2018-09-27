@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/UNIVERSAL-isa
 	dev-perl/UNIVERSAL-require
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 "

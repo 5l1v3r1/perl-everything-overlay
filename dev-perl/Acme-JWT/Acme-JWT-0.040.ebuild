@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/JSON-2.530
 	>=dev-perl/Try-Tiny-0.090
 	>=virtual/perl-Digest-SHA-5.630
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-MIME-Base64-3.130
 	>=virtual/perl-Test-Simple-0.87.01
 "

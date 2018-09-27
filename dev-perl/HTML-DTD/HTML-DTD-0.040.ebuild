@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/File-ShareDir-1.020
 	dev-perl/Path-Class
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Env
 	dev-perl/Moose
 	dev-perl/Net-DBus
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

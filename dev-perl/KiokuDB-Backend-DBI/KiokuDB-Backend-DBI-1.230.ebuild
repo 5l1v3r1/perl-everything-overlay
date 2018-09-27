@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Class-Accessor-Grouped
 	dev-perl/Class-Load
 	>=dev-perl/DBI-1.607
-	dev-perl/DBIx-Class
+	>=dev-perl/DBIx-Class-0.081.270
 	>=dev-perl/Data-Stream-Bulk-0.070
 	dev-perl/JSON
 	dev-perl/KiokuDB
@@ -37,7 +37,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Exception
 	dev-perl/Test-Requires
 	dev-perl/Test-TempDir

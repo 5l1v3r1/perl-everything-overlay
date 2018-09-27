@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/App-BundleDeps
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

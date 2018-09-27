@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/Test-Exception
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-MIME-Base64

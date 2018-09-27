@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/SQL-Script
 	dev-perl/Template-Toolkit
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

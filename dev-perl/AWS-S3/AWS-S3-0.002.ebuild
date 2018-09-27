@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/XML-LibXML
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "

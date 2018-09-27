@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Net-Twitter
 	dev-perl/ShipIt
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.700
 "
 DEPEND="

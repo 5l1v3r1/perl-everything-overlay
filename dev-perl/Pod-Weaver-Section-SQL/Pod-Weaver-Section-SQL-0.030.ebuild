@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Moose
 	dev-perl/Pod-Elemental
-	dev-perl/Pod-Weaver
+	>=dev-perl/Pod-Weaver-4.002
 	dev-perl/SQL-Abstract
 	dev-perl/SQL-Statement
 	virtual/perl-Carp
@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/PPI
 	dev-perl/Software-License
 	dev-perl/Test-Differences

@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Config-Tiny-2.000
 	>=dev-perl/PPI-1.109
 	>=virtual/perl-Digest-MD5-2.300
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Storable-2.110
 	>=virtual/perl-Test-Simple-0.470

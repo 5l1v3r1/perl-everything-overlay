@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Mouse-0.210
 	>=virtual/perl-Exporter-5.570
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.620
 "
 DEPEND="

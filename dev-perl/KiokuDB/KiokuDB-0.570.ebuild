@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Cache-Ref-0.020
 	dev-perl/Class-Load
-	dev-perl/Data-Stream-Bulk
+	>=dev-perl/Data-Stream-Bulk-0.080
 	dev-perl/Data-Swap
 	>=dev-perl/Data-UUID-1.203
 	>=dev-perl/Data-Visitor-0.240
@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-perl/PadWalker-1.900
 	dev-perl/Path-Class
 	dev-perl/Scope-Guard
-	dev-perl/Search-GIN
+	>=dev-perl/Search-GIN-0.030
 	>=dev-perl/Set-Object-1.260
 	dev-perl/Sub-Exporter
 	dev-perl/Test-Exception
@@ -53,7 +53,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/base
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec

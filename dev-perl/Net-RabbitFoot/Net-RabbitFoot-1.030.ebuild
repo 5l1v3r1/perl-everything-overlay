@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/MooseX-AttributeHelpers
 	dev-perl/MooseX-ConfigFromFile
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 	virtual/perl-version
 "

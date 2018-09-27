@@ -32,7 +32,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-lang/perl-2.180
 	>=dev-perl/Expect-1.210
 	>=dev-perl/Test-CPAN-Meta-0.180

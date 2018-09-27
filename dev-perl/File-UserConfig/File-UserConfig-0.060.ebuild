@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/File-Remove-1.420
 	>=dev-perl/File-ShareDir-1.000
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Test-Simple-0.470
 "

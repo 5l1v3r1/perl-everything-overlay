@@ -17,12 +17,12 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Apache2-ModSSL-0.080
 	>=dev-perl/Path-Class-0.240
-	>=dev-perl/URI-1.600
+	>=dev-perl/URI-3.310
 "
 DEPEND="
 	${RDEPEND}
 	dev-perl/Apache-Test
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

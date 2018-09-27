@@ -24,12 +24,12 @@ RDEPEND="
 	>=dev-perl/strictures-1.000
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-Scalar-List-Utils-1.180
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-Test-Simple-0.880
 "
 

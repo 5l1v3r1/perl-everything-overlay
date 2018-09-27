@@ -24,7 +24,7 @@ DEPEND="
 	dev-perl/Test-Requires
 	virtual/perl-Digest-MD5
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

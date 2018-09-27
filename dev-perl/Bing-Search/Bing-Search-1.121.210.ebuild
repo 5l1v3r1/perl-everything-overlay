@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/DateTime
 	dev-perl/DateTime-Format-DateParse
 	>=dev-perl/JSON-2.210
-	dev-perl/Moose
+	>=dev-perl/Moose-1.000
 	>=dev-perl/URI-1.540
 	>=dev-perl/libwww-perl-5.835
 	virtual/perl-Carp
@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

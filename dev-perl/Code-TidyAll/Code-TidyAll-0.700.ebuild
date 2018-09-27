@@ -31,7 +31,7 @@ RDEPEND="
 	dev-perl/Scope-Guard
 	dev-perl/Specio
 	>=dev-perl/Specio-Library-Path-Tiny-0.040
-	dev-perl/Text-Diff
+	>=dev-perl/Text-Diff-1.440
 	dev-perl/Time-Duration-Parse
 	dev-perl/TimeDate
 	dev-perl/Try-Tiny

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/File-ShareDir
 	>=dev-perl/OpenGL-0.540
 	dev-perl/OpenGL-Image
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Math-Complex
 	>=virtual/perl-Test-Simple-0.470
 "

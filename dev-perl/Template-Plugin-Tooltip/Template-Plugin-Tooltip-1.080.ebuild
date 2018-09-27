@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/HTML-Tooltip-Javascript-0.030
 	>=dev-perl/Template-Toolkit-2.100
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-0.800
 	>=virtual/perl-Scalar-List-Utils-1.150
 	>=virtual/perl-Test-Simple-0.470

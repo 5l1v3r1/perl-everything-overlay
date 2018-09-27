@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Readonly-2.050
 	>=dev-perl/Test-XT-0.040
 	>=virtual/perl-Carp-1.360
-	>=virtual/perl-ExtUtils-MakeMaker-7.040.100
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Path-2.090
 	>=virtual/perl-IO-1.160
 	>=virtual/perl-Scalar-List-Utils-1.460

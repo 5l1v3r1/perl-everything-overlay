@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Net-SSLeay
 	dev-perl/Path-Class
 	dev-perl/Test-MockObject
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 "
 DEPEND="

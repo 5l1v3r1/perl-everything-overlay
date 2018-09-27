@@ -78,7 +78,7 @@ RDEPEND="
 	>=virtual/perl-Digest-SHA-6.020
 	>=virtual/perl-Encode-2.980
 	>=virtual/perl-ExtUtils-CBuilder-0.280.230
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	>=virtual/perl-File-Spec-3.740
 	>=virtual/perl-File-Temp-0.230.600
 	>=virtual/perl-Getopt-Long-2.500

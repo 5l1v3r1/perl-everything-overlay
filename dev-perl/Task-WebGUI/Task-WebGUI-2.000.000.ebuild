@@ -147,10 +147,10 @@ RDEPEND="
 	virtual/perl-Test-Simple
 	>=virtual/perl-Text-Balanced-2.000
 	>=virtual/perl-Time-HiRes-1.971.900
-	>=virtual/perl-libnet-2.310
+	>=virtual/perl-libnet-2.290
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

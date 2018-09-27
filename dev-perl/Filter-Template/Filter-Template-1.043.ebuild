@@ -15,13 +15,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.060
 	>=dev-perl/Filter-1.490
 	>=virtual/perl-Carp-1.260
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/lib
 	>=virtual/perl-Scalar-List-Utils-1.290
 	>=virtual/perl-Test-Simple-0.980

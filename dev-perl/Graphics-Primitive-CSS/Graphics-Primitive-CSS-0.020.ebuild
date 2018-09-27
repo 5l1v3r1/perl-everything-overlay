@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/Graphics-Color-0.230
 	>=dev-perl/Graphics-Primitive-0.440
 	>=dev-perl/Moose-0.870
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

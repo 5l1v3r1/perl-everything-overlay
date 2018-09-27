@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Exception-Class
 	dev-perl/Moose
 	dev-perl/MooseX-AttributeHelpers
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Math-BigInt
 	virtual/perl-Scalar-List-Utils

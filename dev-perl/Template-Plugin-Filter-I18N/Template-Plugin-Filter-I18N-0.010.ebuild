@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Locale-gettext-1.050
 	>=dev-perl/Template-Toolkit-2.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

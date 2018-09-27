@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Canary-Stability
 	dev-perl/common-sense
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

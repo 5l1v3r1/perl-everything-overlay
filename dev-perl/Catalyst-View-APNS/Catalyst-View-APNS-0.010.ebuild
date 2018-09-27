@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/Net-APNS-0.020
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="
