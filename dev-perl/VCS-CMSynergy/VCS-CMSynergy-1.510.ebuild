@@ -24,12 +24,12 @@ RDEPEND="
 	virtual/perl-Digest-MD5
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	>=virtual/perl-Scalar-List-Utils-1.090
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 
