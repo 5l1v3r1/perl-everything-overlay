@@ -36,7 +36,7 @@ DEPEND="
 	dev-perl/Test-LoadAllModules
 	dev-perl/Test-Requires
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

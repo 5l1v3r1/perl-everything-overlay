@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Language-Farnsworth
 	dev-perl/REST-Google
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

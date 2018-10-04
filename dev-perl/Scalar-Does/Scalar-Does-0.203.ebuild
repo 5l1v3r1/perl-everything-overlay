@@ -20,13 +20,13 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/lexical-underscore
 	>=dev-perl/namespace-clean-0.190
-	>=virtual/perl-Scalar-List-Utils-1.240
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-NoWarnings
 	>=dev-perl/Test-Requires-0.060
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

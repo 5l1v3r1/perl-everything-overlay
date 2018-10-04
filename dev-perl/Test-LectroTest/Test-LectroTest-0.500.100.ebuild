@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TMOERTEL"
-DIST_VERSION="0.5001"
-DIST_A="Test-LectroTest-0.5001.tar.gz"
+DIST_VERSION="0.5001" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -26,6 +25,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 "
+

@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Net-Jifty-0.060
 	dev-perl/Number-RecordLocator
 	dev-perl/Term-Encoding
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

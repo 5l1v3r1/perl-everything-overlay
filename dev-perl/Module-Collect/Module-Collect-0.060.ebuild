@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Text-Glob-0.070
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

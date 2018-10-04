@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-XSLoader-0.020
+	virtual/perl-XSLoader
 "
 DEPEND="
 	${RDEPEND}
@@ -24,9 +24,9 @@ DEPEND="
 	dev-perl/Hash-Util-FieldHash-Compat
 	dev-perl/Scope-Guard
 	>=dev-perl/Test-Exception-0.270
-	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-ExtUtils-ParseXS-3.180
-	>=virtual/perl-Test-Simple-0.620
+	virtual/perl-Devel-PPPort
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-ExtUtils-ParseXS
+	virtual/perl-Test-Simple
 "
 

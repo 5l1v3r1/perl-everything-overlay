@@ -35,7 +35,7 @@ RDEPEND="
 	dev-perl/Test-WWW-Mechanize
 	dev-perl/Text-SimpleTable
 	dev-perl/Try-Tiny
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

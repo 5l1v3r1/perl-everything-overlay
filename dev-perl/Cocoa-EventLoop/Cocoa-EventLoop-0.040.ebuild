@@ -15,14 +15,14 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-XSLoader-0.100
+	virtual/perl-XSLoader
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-Devel-PPPort
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-TCP-1.110
-	>=virtual/perl-ExtUtils-ParseXS-2.210
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-ExtUtils-ParseXS
+	virtual/perl-Test-Simple
 "
 

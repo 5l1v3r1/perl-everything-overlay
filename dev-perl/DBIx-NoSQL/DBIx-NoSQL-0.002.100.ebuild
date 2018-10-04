@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Clone
 	>=dev-perl/DBD-SQLite-1.440
-	>=dev-perl/DBIx-Class-0.081.240
+	dev-perl/DBIx-Class
 	dev-perl/Data-GUID
 	dev-perl/Hash-Merge-Simple
 	dev-perl/JSON

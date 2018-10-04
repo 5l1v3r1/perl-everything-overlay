@@ -19,10 +19,10 @@ RDEPEND="
 	>=dev-lang/perl-1.000
 	>=dev-perl/Array-RefElem-1.000
 	>=dev-perl/Devel-Size-0.690
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-Scalar-List-Utils-1.130
-	>=virtual/perl-Test-Simple-0.470
-	>=virtual/perl-Time-HiRes-1.860
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
+	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}

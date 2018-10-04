@@ -18,9 +18,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Path-Tiny
 	dev-perl/Test-Most
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
 

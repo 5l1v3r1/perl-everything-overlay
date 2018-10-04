@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/AnyEvent-HTTP
 	dev-perl/Net-SSLeay
 	dev-perl/XML-Atom
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
 	virtual/perl-Test-Simple
 "

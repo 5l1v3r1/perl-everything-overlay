@@ -27,7 +27,7 @@ DEPEND="
 	>=dev-perl/Alien-libtool-0.040
 	>=dev-perl/Alien-m4-0.110
 	>=dev-perl/Capture-Tiny-0.460
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

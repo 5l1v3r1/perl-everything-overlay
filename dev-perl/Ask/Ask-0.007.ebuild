@@ -20,8 +20,8 @@ RDEPEND="
 	>=dev-perl/Moo-1.000.006
 	dev-perl/Sub-Exporter-Progressive
 	>=dev-perl/namespace-sweep-0.006
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

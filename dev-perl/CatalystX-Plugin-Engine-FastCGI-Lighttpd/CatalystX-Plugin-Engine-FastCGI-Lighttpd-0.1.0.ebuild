@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-version
 "
 DEPEND="

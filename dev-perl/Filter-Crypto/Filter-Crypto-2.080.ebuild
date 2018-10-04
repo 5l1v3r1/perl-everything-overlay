@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Pod-Usage-1.150
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.660
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Getopt-Long

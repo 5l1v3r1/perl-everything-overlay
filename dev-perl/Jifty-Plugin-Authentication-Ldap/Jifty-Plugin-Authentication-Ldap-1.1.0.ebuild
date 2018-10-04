@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Jifty
 	dev-perl/perl-ldap
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

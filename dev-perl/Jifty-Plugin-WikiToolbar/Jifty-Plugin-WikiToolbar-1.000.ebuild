@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Jifty-0.911.170
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

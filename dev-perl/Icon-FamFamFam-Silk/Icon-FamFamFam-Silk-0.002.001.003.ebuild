@@ -16,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

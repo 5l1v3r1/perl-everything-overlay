@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/DateTime-Format-ISO8601
 	dev-perl/DateTime-Format-Natural
 	>=dev-perl/RDF-Query-2.903
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

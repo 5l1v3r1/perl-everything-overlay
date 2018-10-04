@@ -24,7 +24,7 @@ RDEPEND="
 	dev-perl/Moose
 	dev-perl/POE
 	dev-perl/POE-Component-Client-HTTPDeferred
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

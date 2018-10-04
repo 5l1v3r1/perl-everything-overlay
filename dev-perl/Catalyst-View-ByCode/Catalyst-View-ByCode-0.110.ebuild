@@ -29,14 +29,14 @@ RDEPEND="
 	>=dev-perl/YAML-0.680
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
-	>=virtual/perl-MIME-Base64-3.070
-	>=virtual/perl-Scalar-List-Utils-1.210
-	>=virtual/perl-Test-Harness-3.140
-	>=virtual/perl-Test-Simple-0.860
+	virtual/perl-MIME-Base64
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Harness
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-parent
 "
 

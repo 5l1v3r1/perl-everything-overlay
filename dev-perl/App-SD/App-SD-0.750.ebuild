@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Time-Progress
 	>=dev-perl/Try-Tiny-0.020
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/RTF-Tokenizer-1.160
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

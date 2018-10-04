@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/P5U
 	dev-perl/Text-sprintfn
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

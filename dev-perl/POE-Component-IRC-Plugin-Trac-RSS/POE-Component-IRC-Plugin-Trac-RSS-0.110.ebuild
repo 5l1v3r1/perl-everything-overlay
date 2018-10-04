@@ -20,8 +20,8 @@ RDEPEND="
 	>=dev-perl/POE-Component-Client-HTTP-0.730
 	>=dev-perl/POE-Component-IRC-5.070
 	>=dev-perl/XML-RSS-1.100
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

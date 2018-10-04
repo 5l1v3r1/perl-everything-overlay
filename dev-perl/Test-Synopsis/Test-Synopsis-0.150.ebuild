@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	virtual/perl-ExtUtils-Manifest
-	>=virtual/perl-Pod-Simple-3.090
+	virtual/perl-Pod-Simple
 	virtual/perl-Test-Simple
 	virtual/perl-parent
 "

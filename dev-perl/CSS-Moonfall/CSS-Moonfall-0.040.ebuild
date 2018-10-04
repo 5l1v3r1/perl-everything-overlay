@@ -15,8 +15,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	>=virtual/perl-Text-Balanced-2.0.0
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Text-Balanced
 "
 DEPEND="
 	${RDEPEND}

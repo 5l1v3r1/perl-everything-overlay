@@ -19,15 +19,15 @@ RDEPEND="
 	dev-perl/Module-Runtime
 	dev-perl/MooX-Traits
 	dev-perl/Role-Tiny
-	>=virtual/perl-Scalar-List-Utils-1.290
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
 	dev-perl/Test-Warnings
 	dev-perl/Test-Without-Module
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

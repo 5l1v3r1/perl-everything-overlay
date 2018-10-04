@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/RPC-XML
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

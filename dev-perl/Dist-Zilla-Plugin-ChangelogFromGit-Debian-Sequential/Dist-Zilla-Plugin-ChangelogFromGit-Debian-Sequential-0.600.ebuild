@@ -19,16 +19,17 @@ RDEPEND="
 	dev-perl/DhMakePerl
 	dev-perl/Dist-Zilla
 	dev-perl/Dist-Zilla-Plugin-ChangelogFromGit
+	dev-perl/Dpkg
 	dev-perl/Moose
 	virtual/perl-Text-Tabs+Wrap
 	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/File-pushd
 	dev-perl/Git-Wrapper
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 

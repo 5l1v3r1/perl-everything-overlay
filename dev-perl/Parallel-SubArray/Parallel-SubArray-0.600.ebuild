@@ -16,9 +16,9 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Test-Deep-0.103
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-Storable-2.180
-	>=virtual/perl-Test-Simple-0.860
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

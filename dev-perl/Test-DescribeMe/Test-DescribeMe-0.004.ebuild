@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Test-Settings-0.001
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 "
 

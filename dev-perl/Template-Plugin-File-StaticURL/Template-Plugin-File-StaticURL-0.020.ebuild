@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Template-Toolkit
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

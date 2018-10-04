@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Data-UUID
 	dev-perl/IO-stringy
 	>=dev-perl/Moose-0.900
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

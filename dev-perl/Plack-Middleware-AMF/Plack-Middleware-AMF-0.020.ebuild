@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Data-AMF-0.030
 	dev-perl/Plack
 	dev-perl/UNIVERSAL-require
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

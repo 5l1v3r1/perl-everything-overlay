@@ -41,7 +41,7 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Encode
 	virtual/perl-Exporter
-	>=virtual/perl-File-Path-2.080
+	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
@@ -52,7 +52,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "

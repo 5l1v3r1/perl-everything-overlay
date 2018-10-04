@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	dev-perl/POE
 	dev-perl/POE-Component-Client-HTTP
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

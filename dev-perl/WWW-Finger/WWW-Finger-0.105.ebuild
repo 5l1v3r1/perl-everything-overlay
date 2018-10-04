@@ -31,8 +31,8 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Digest-MD5
 	virtual/perl-Digest-SHA
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="

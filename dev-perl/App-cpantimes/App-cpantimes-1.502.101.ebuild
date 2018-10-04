@@ -16,8 +16,8 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Module-Build-0.360
-	>=virtual/perl-ExtUtils-Install-1.460
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-Install
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

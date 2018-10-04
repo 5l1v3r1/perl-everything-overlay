@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/MooseX-Types-Path-Class-0.040
 	dev-perl/Path-Class
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Test-Memory-Cycle
 	dev-perl/XML-Twig
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Time-HiRes
 "
 DEPEND="

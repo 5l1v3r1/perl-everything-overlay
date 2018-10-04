@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/HTML-Selector-XPath
 	>=dev-perl/XML-LibXML-1.610
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Test-Simple
 "

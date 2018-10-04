@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/YAML-Tiny
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

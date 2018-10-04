@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Jifty
 	>=dev-perl/WWW-Facebook-API-0.3.6
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

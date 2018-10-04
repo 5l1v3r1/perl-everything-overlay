@@ -15,7 +15,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-lang/perl
+	>=dev-lang/perl-1.000
 	dev-perl/Catalyst-Runtime
 	>=dev-perl/DateTime-0.720
 	>=dev-perl/Moose-1.000
@@ -23,13 +23,13 @@ RDEPEND="
 	>=dev-perl/Test-Exception-0.270
 	>=dev-perl/Text-Glob-0.080
 	>=dev-perl/namespace-autoclean-0.090
-	>=virtual/perl-Scalar-List-Utils-1.210
-	>=virtual/perl-Test-Harness-3.140
-	>=virtual/perl-Test-Simple-0.860
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Harness
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/base
 	virtual/perl-Exporter
 "

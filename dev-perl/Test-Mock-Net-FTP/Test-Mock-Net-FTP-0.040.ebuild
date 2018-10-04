@@ -16,15 +16,15 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/File-Slurp
-	>=virtual/perl-File-Path-2.070
+	virtual/perl-File-Path
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Capture-Tiny
 	dev-perl/Module-Build
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 

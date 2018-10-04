@@ -26,12 +26,12 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
-	>=virtual/perl-Getopt-Long-2.380
+	virtual/perl-Getopt-Long
 	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	dev-perl/File-Which
 	virtual/perl-Test-Simple

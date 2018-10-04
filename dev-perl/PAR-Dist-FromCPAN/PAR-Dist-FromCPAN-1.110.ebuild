@@ -18,8 +18,8 @@ RDEPEND="
 	dev-lang/perl
 	dev-perl/Archive-Zip
 	>=dev-perl/PAR-Dist-0.310
-	>=virtual/perl-CPAN-1.840
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-CPAN
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Module-CoreList

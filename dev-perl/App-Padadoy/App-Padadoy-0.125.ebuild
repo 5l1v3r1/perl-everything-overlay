@@ -27,7 +27,7 @@ RDEPEND="
 	dev-perl/Starman
 	dev-perl/Try-Tiny
 	dev-perl/YAML
-	>=virtual/perl-File-Path-2.070
+	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	virtual/perl-Scalar-List-Utils
@@ -36,7 +36,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "

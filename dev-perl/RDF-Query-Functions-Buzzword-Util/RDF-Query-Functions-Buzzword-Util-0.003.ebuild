@@ -18,8 +18,8 @@ RDEPEND="
 	dev-perl/Data-UUID
 	>=dev-perl/RDF-Query-2.903
 	>=dev-perl/XML-LibXML-1.600
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

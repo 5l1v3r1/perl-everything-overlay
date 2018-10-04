@@ -22,9 +22,9 @@ RDEPEND="
 	>=dev-perl/Moose-2.000
 	>=dev-perl/RDF-Trine-0.130
 	dev-perl/namespace-autoclean
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
 DEPEND="

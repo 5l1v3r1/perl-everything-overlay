@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Const-Fast
-	>=dev-perl/Moo-1.002.000
+	dev-perl/Moo
 	dev-perl/MooX-Traits
 	dev-perl/Text-Unidecode
 	dev-perl/Type-Tiny
@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-Modern-0.007
 "
 

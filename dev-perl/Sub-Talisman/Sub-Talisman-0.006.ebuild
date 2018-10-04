@@ -16,12 +16,12 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/namespace-clean
-	>=virtual/perl-Attribute-Handlers-0.790
+	virtual/perl-Attribute-Handlers
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

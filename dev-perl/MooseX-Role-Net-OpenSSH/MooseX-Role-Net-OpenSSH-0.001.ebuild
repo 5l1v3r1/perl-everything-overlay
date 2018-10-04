@@ -22,7 +22,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Devel-Cover-Report-Clover
 	dev-perl/Dist-Zilla-App-Command-cover

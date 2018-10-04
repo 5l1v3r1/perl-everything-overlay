@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/Class-ISA
 	>=dev-perl/String-BufferStack-1.100
 	>=dev-perl/Test-Warn-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

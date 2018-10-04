@@ -17,8 +17,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Test-Base
 	dev-perl/Tie-IxHash
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

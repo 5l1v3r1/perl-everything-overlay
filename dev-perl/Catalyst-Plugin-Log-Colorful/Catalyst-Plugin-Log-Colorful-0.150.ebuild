@@ -15,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.700
 	dev-perl/MRO-Compat
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Term-ANSIColor
 	virtual/perl-Test-Simple
 "

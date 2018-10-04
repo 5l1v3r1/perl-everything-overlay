@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Locale-Maketext-Lexicon
 	dev-perl/Moose
 	dev-perl/REST-Google
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

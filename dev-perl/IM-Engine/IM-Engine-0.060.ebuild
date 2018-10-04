@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/MooseX-Role-Parameterized
 	dev-perl/MooseX-StrictConstructor
 	dev-perl/MooseX-Traits
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="

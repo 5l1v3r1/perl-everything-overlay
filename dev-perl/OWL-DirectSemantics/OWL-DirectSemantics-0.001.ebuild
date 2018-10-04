@@ -20,8 +20,8 @@ RDEPEND="
 	>=dev-perl/RDF-Trine-0.135
 	>=dev-perl/URI-1.300
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

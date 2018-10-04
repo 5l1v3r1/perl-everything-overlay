@@ -18,8 +18,8 @@ RDEPEND="
 	>=dev-perl/ExtUtils-PkgConfig-1.120
 	>=dev-perl/Test-Exception-0.310
 	>=dev-perl/Test-Number-Delta-1.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.620
-	>=virtual/perl-ExtUtils-ParseXS-2.220
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-ExtUtils-ParseXS
 "
 DEPEND="
 	${RDEPEND}

@@ -21,9 +21,9 @@ RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

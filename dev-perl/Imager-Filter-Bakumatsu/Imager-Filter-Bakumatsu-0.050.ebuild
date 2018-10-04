@@ -23,7 +23,7 @@ DEPEND="
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-lang/perl
 	dev-perl/Module-Build
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Temp
 "
 

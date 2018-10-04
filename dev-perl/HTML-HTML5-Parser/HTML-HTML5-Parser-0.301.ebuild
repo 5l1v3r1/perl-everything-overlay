@@ -20,10 +20,10 @@ RDEPEND="
 	dev-perl/Try-Tiny
 	dev-perl/URI
 	>=dev-perl/XML-LibXML-1.940
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-HTTP-Tiny
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

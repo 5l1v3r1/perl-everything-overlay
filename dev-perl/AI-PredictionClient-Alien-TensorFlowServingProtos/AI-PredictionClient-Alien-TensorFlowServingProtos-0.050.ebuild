@@ -25,7 +25,7 @@ DEPEND="
 	dev-perl/Archive-Extract
 	dev-perl/Env
 	dev-perl/File-Copy-Recursive
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

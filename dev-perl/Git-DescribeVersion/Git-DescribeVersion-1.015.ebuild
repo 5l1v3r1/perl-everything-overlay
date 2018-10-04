@@ -18,16 +18,16 @@ RDEPEND="
 	dev-lang/perl
 	virtual/perl-Carp
 	virtual/perl-Getopt-Long
-	>=virtual/perl-version-0.820
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-MockObject-1.090
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

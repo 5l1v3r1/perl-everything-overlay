@@ -16,14 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Class-Load-0.060
-	>=virtual/perl-Exporter-5.630
+	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	virtual/perl-CPAN-Meta
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

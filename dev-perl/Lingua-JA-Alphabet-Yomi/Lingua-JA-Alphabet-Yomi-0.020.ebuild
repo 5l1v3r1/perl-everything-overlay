@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Test-Exception
 	dev-perl/Unicode-Japanese
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

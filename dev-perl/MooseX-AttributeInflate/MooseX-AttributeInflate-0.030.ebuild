@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Moose-0.720
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

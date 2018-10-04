@@ -21,8 +21,8 @@ RDEPEND="
 	>=dev-perl/Throwable-0.200.000
 	dev-perl/Try-Tiny
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

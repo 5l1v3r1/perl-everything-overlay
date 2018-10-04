@@ -17,10 +17,10 @@ IUSE="test"
 RDEPEND="
 	dev-perl/CPAN-DistnameInfo
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-Install-1.430
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
-	>=virtual/perl-HTTP-Tiny-0.012
-	>=virtual/perl-JSON-PP-2.010
+	virtual/perl-ExtUtils-Install
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-HTTP-Tiny
+	virtual/perl-JSON-PP
 	virtual/perl-Module-CoreList
 	virtual/perl-version
 "

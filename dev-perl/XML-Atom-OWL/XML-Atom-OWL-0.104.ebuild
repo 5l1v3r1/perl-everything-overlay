@@ -22,14 +22,14 @@ RDEPEND="
 	>=dev-perl/XML-LibXML-1.700
 	dev-perl/common-sense
 	dev-perl/libwww-perl
-	>=virtual/perl-Carp-1.000
+	virtual/perl-Carp
 	virtual/perl-Encode
 	virtual/perl-MIME-Base64
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

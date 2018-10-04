@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Any-Moose-0.040
 	dev-perl/Class-Trigger
-	dev-perl/Encode-JP-Mobile
+	>=dev-perl/Encode-JP-Mobile-0.250
 	dev-perl/HTML-DoCoMoCSS
 	dev-perl/HTML-Entities-ConvertPictogramMobileJp
 	dev-perl/HTML-StickyQuery-DoCoMoGUID
@@ -27,8 +27,8 @@ RDEPEND="
 	dev-perl/Test-Base
 	dev-perl/XML-LibXML
 	dev-perl/YAML
-	>=virtual/perl-Encode-2.250
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-Encode
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

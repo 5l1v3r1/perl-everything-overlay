@@ -18,8 +18,8 @@ RDEPEND="
 	>=dev-perl/Module-Install-1.000
 	>=dev-perl/Module-Install-RDF-0.004
 	>=dev-perl/RDF-Trine-0.133
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

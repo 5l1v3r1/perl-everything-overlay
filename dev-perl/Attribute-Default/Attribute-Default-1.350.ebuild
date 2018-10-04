@@ -17,13 +17,13 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/base
-	>=virtual/perl-Attribute-Handlers-0.790
+	virtual/perl-Attribute-Handlers
 	virtual/perl-Carp
 	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Data-Dumper
 	virtual/perl-Test-Simple
 "

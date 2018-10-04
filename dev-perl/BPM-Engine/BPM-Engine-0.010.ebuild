@@ -57,8 +57,8 @@ RDEPEND="
 	dev-perl/aliased
 	>=dev-perl/namespace-autoclean-0.110
 	>=dev-perl/namespace-clean-0.180
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
-	>=virtual/perl-Test-Simple-0.920
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	virtual/perl-Data-Dumper
-	>=virtual/perl-ExtUtils-ParseXS-2.220
+	virtual/perl-ExtUtils-ParseXS
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Time-HiRes
 "

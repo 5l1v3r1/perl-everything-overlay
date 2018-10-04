@@ -20,12 +20,12 @@ RDEPEND="
 	dev-perl/PPI
 	virtual/perl-CPAN-Meta
 	virtual/perl-Module-CoreList
-	>=virtual/perl-version-0.770
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

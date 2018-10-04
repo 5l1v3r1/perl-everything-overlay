@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Spreadsheet-ParseExcel-0.490
 	>=dev-perl/Spreadsheet-Read-0.340
 	>=dev-perl/Text-CSV-1.100
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

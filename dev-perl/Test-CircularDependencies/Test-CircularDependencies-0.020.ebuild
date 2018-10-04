@@ -21,11 +21,11 @@ RDEPEND="
 	virtual/perl-Data-Dumper
 	virtual/perl-Exporter
 	virtual/perl-Module-CoreList
-	>=virtual/perl-Test-Simple-0.010
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
-	>=virtual/perl-File-Temp-0.010
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Temp
 "
 

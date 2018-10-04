@@ -19,12 +19,12 @@ RDEPEND="
 	>=dev-perl/String-Approx-3.190
 	virtual/perl-Carp
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.030
-	>=virtual/perl-File-Spec-0.830
-	>=virtual/perl-Getopt-Long-2.320
-	>=virtual/perl-Memoize-0.520
-	>=virtual/perl-Storable-2.040
-	>=virtual/perl-Term-ANSIColor-1.050
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Getopt-Long
+	virtual/perl-Memoize
+	virtual/perl-Storable
+	virtual/perl-Term-ANSIColor
 "
 DEPEND="
 	${RDEPEND}

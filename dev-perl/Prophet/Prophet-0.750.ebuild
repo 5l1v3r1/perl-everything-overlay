@@ -49,7 +49,7 @@ RDEPEND="
 	dev-perl/YAML-Syck
 	dev-perl/libwww-perl
 	virtual/perl-Digest-SHA
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

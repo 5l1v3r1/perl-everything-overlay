@@ -29,13 +29,13 @@ RDEPEND="
 	>=dev-perl/Parallel-Pipes-0.004
 	>=dev-perl/local-lib-2.000.018
 	virtual/perl-CPAN-Meta
-	>=virtual/perl-CPAN-Meta-Requirements-2.130
+	virtual/perl-CPAN-Meta-Requirements
 	virtual/perl-CPAN-Meta-YAML
-	>=virtual/perl-HTTP-Tiny-0.055
-	>=virtual/perl-JSON-PP-2.273.000
+	virtual/perl-HTTP-Tiny
+	virtual/perl-JSON-PP
 	virtual/perl-Module-Metadata
 	virtual/perl-parent
-	>=virtual/perl-version-0.770
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}

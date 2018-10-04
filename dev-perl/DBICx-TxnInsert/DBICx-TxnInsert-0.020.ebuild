@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/DBD-Mock
 	>=dev-perl/DBIx-Class-0.080.100
 	dev-perl/Test-Compile
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/IM-Engine-0.030
 	dev-perl/Moose
 	>=dev-perl/Path-Dispatcher-0.130
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

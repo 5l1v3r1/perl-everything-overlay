@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/URI-1.000
 	virtual/perl-Getopt-Long
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Time-Piece-1.080
+	virtual/perl-Time-Piece
 "
 DEPEND="
 	${RDEPEND}

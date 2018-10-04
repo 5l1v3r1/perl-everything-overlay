@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Class-Accessor
 	dev-perl/Filter
 	dev-perl/HTML-Parser
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

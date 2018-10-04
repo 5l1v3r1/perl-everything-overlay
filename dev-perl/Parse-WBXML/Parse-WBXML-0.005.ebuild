@@ -22,9 +22,9 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Dir-Self
 	dev-perl/File-Slurp
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
 

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/base
-	>=virtual/perl-Exporter-5.570
+	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}
@@ -26,7 +26,7 @@ DEPEND="
 	dev-perl/Path-Class
 	dev-perl/lib
 	virtual/perl-CPAN-Meta
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-ExtUtils-Manifest
 	virtual/perl-Getopt-Long
 	virtual/perl-autodie

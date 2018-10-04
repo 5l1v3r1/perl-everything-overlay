@@ -20,11 +20,11 @@ RDEPEND="
 	>=dev-perl/MooseX-Has-Sugar-0.040.500
 	>=dev-perl/MooseX-Types-0.120
 	virtual/perl-Carp
-	>=virtual/perl-Scalar-List-Utils-1.230
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	virtual/perl-Test-Simple
 "

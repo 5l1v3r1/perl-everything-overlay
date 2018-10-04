@@ -17,10 +17,10 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/DateTime-1.000
 	>=dev-perl/DateTime-Format-DateParse-0.050
-	>=virtual/perl-Test-Simple-0.110
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

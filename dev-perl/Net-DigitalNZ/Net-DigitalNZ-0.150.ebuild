@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

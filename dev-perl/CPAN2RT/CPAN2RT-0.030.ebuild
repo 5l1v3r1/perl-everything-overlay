@@ -22,7 +22,7 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/XML-SAX
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 "
 DEPEND="

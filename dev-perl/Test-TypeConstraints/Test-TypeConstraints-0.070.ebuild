@@ -27,6 +27,6 @@ DEPEND="
 	dev-perl/IO-stringy
 	dev-perl/Test-LoadAllModules
 	dev-perl/Test-Requires
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
 

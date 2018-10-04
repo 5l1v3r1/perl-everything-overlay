@@ -16,6 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Dist-Zilla
+	dev-perl/Dpkg
 	dev-perl/File-pushd
 	dev-perl/Moose
 	dev-perl/Path-Class
@@ -23,8 +24,8 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 

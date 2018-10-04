@@ -15,15 +15,15 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-Encode-2.000
+	virtual/perl-Encode
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

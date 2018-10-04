@@ -5,8 +5,7 @@
 EAPI=6
 
 DIST_AUTHOR="TVIGNAUD"
-DIST_VERSION="0.38"
-DIST_A="RPM4-0.38.tar.gz"
+DIST_VERSION="0.38" 
 inherit perl-module
 
 DESCRIPTION="No description available"
@@ -27,6 +26,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/ExtUtils-Depends
 	dev-perl/ExtUtils-PkgConfig
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 "
+

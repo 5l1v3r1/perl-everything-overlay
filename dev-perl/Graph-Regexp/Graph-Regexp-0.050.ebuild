@@ -18,9 +18,9 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Graph-Easy-0.620
 	>=dev-perl/Test-Differences-0.470
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-Scalar-List-Utils-1.130
-	>=virtual/perl-Test-Simple-0.620
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

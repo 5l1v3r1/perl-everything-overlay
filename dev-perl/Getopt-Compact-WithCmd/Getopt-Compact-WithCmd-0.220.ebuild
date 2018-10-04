@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Text-Table
-	>=virtual/perl-Getopt-Long-2.380
+	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
@@ -25,7 +25,7 @@ DEPEND="
 	dev-perl/Test-Output
 	dev-perl/Test-Requires
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

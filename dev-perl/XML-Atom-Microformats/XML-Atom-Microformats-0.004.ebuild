@@ -21,8 +21,8 @@ RDEPEND="
 	>=dev-perl/RDF-Trine-0.135
 	>=dev-perl/XML-Atom-OWL-0.100
 	>=dev-perl/XML-LibXML-1.620
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
 DEPEND="

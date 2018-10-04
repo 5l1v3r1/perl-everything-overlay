@@ -22,8 +22,8 @@ RDEPEND="
 	>=dev-perl/RDF-Trine-0.112
 	>=dev-perl/URI-4.000
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 	virtual/perl-Text-Tabs+Wrap
 	virtual/perl-parent
 "

@@ -26,9 +26,9 @@ RDEPEND="
 	dev-perl/URI
 	>=dev-perl/XML-Atom-OWL-0.100
 	>=dev-perl/XRD-Parser-0.101
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

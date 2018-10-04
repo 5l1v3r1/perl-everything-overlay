@@ -21,13 +21,13 @@ RDEPEND="
 	dev-perl/HTTP-Date
 	dev-perl/Plack
 	virtual/perl-File-Spec
-	>=virtual/perl-IO-Compress-2.055
+	virtual/perl-IO-Compress
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.380
 	dev-perl/File-Copy-Recursive
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 "
 

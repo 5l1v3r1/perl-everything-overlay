@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/JSON-XS-2.320
 	dev-perl/SQL-Abstract-Limit
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

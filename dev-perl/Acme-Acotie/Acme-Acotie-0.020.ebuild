@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Class-Inspector
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

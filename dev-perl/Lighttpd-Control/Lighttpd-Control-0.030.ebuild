@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/MooseX-Types-Path-Class
 	dev-perl/Test-Exception
 	dev-perl/Test-WWW-Mechanize
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -24,7 +24,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.520
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Alien-FontForge
 	dev-perl/Alien-OpenJPEG
 	dev-perl/Alien-Poppler

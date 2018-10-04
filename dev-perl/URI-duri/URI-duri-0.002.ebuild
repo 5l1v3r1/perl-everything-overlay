@@ -17,8 +17,8 @@ IUSE="test"
 RDEPEND="
 	dev-perl/DateTime-Incomplete
 	dev-perl/URI
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

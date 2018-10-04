@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/Module-Pluggable-3.600
 	>=dev-perl/Text-Table-1.114
 	>=dev-perl/XML-IODEF-0.110
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Imager-0.570
 	>=dev-perl/Template-Toolkit-2.140
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

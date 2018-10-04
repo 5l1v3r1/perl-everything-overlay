@@ -31,13 +31,13 @@ RDEPEND="
 	dev-perl/YAML
 	dev-perl/base
 	virtual/perl-Data-Dumper
-	>=virtual/perl-File-Path-2.070
+	virtual/perl-File-Path
 	virtual/perl-File-Spec
 	virtual/perl-libnet
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Class
 	virtual/perl-Test-Simple
 "

@@ -19,11 +19,11 @@ RDEPEND="
 	>=dev-perl/Exception-Tiny-0.2.1
 	>=dev-perl/Moo-1.006.001
 	>=dev-perl/namespace-clean-0.250
-	>=virtual/perl-Time-HiRes-1.972.600
+	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Pod
 "
 

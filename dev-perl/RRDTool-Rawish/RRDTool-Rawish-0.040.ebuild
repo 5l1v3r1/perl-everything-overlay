@@ -24,7 +24,7 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Mock-ExternalCommand
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

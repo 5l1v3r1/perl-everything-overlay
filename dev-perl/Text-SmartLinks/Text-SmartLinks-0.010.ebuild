@@ -22,11 +22,11 @@ RDEPEND="
 	dev-perl/File-Slurp
 	>=dev-perl/Test-NoWarnings-0.084
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-Getopt-Long
 	virtual/perl-Pod-Simple
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

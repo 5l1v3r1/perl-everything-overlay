@@ -23,7 +23,7 @@ DEPEND="
 	dev-perl/Module-Build
 	dev-perl/Test-Fatal
 	dev-perl/Test-Name-FromLine
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-perl/HTTP-Message-5.818
 	>=dev-perl/Module-Runtime-0.011
 	>=dev-perl/URI-1.380
-	>=virtual/perl-Exporter-5.630
+	virtual/perl-Exporter
 "
 DEPEND="
 	${RDEPEND}

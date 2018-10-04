@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Digest-HMAC
 	>=dev-perl/Jifty-0.804.080
 	>=dev-perl/Net-OAuth-0.050
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

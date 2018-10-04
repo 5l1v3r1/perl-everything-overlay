@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/IO-Tty
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Time-HiRes
 "
 DEPEND="

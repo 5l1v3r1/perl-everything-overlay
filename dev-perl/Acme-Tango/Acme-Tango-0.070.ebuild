@@ -16,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Convert-Color-0.020
-	>=virtual/perl-Test-Simple-0.010
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

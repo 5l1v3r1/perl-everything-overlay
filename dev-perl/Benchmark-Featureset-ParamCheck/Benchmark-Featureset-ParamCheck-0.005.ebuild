@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/IO-String
 	>=dev-perl/Moose-2.200.200
 	>=dev-perl/MooseX-Params-Validate-0.210
-	dev-perl/Mouse
+	>=dev-perl/Mouse-2.4.7
 	>=dev-perl/Params-Validate-1.260
 	>=dev-perl/Params-ValidationCompiler-0.240
 	>=dev-perl/Ref-Util-0.203
@@ -28,11 +28,11 @@ RDEPEND="
 	>=dev-perl/Type-Tiny-1.001.009
 	>=dev-perl/Type-Tiny-XS-0.012
 	dev-perl/namespace-autoclean
-	>=virtual/perl-Params-Check-0.380
+	virtual/perl-Params-Check
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Module-Runtime
 	>=dev-perl/Test-Modern-0.013
 "

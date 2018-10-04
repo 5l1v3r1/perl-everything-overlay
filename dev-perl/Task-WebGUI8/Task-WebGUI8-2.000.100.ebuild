@@ -137,23 +137,23 @@ RDEPEND="
 	>=dev-perl/libwww-perl-5.834
 	>=dev-perl/namespace-autoclean-0.090
 	>=dev-perl/perl-ldap-0.390
-	>=virtual/perl-Archive-Tar-1.440
-	>=virtual/perl-Digest-MD5-2.380
-	>=virtual/perl-Digest-SHA-5.470
-	>=virtual/perl-File-Path-2.070
-	>=virtual/perl-IO-Compress-2.015
-	>=virtual/perl-IO-Zlib-1.090
+	virtual/perl-Archive-Tar
+	virtual/perl-Digest-MD5
+	virtual/perl-Digest-SHA
+	virtual/perl-File-Path
+	virtual/perl-IO-Compress
+	virtual/perl-IO-Zlib
 	virtual/perl-JSON-PP
-	>=virtual/perl-Module-Load-0.160
-	>=virtual/perl-Scalar-List-Utils-1.190
-	>=virtual/perl-Test-Harness-3.170
-	>=virtual/perl-Test-Simple-0.960
-	>=virtual/perl-Text-Balanced-2.000
-	>=virtual/perl-Time-HiRes-1.971.900
-	>=virtual/perl-libnet-2.290
+	virtual/perl-Module-Load
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Harness
+	virtual/perl-Test-Simple
+	virtual/perl-Text-Balanced
+	virtual/perl-Time-HiRes
+	virtual/perl-libnet
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

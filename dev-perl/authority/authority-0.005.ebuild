@@ -17,12 +17,12 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Role-Commons
 	dev-perl/UNIVERSAL-AUTHORITY-Lexical
-	>=virtual/perl-Carp-1.000
-	>=virtual/perl-File-Spec-0.600
+	virtual/perl-Carp
+	virtual/perl-File-Spec
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

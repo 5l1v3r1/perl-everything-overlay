@@ -23,10 +23,10 @@ RDEPEND="
 	>=dev-perl/Test-Fatal-0.007
 	>=dev-perl/Test-Warnings-0.009
 	>=dev-perl/Try-Tiny-0.150
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 "
 

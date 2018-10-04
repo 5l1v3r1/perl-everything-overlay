@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/Text-CSV
 	>=dev-perl/TimeDate-2.270
 	>=dev-perl/URI-1.350
-	>=virtual/perl-Carp-1.010
+	virtual/perl-Carp
 	virtual/perl-Getopt-Long
 "
 DEPEND="

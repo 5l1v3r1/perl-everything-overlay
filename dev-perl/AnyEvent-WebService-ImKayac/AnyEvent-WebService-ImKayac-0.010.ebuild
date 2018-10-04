@@ -27,7 +27,7 @@ DEPEND="
 	virtual/perl-CPAN-Meta
 	dev-perl/Test-Requires
 	dev-perl/Test-TCP
-	>=virtual/perl-ExtUtils-MakeMaker-6.360
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

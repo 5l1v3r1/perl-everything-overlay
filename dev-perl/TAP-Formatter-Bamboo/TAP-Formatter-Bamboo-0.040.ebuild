@@ -18,12 +18,12 @@ RDEPEND="
 	>=dev-perl/Moose-2.000
 	>=dev-perl/MooseX-NonMoose-0.200
 	>=dev-perl/XML-LibXML-2.000
-	>=virtual/perl-Encode-2.420
-	>=virtual/perl-Test-Harness-3.200
+	virtual/perl-Encode
+	virtual/perl-Test-Harness
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	dev-perl/Test-XML
 	virtual/perl-File-Temp

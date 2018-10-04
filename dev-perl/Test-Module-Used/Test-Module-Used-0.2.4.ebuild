@@ -20,7 +20,7 @@ RDEPEND="
 	dev-perl/PPI
 	virtual/perl-CPAN-Meta
 	virtual/perl-Module-CoreList
-	>=virtual/perl-version-0.770
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}

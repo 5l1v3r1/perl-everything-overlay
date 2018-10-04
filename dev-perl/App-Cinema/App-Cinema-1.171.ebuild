@@ -28,7 +28,7 @@ RDEPEND="
 	dev-perl/Catalyst-Plugin-Session-Store-FastMmap
 	dev-perl/Catalyst-Plugin-StackTrace
 	dev-perl/Catalyst-Plugin-Static-Simple
-	dev-perl/Catalyst-Runtime
+	>=dev-perl/Catalyst-Runtime-5.700.200
 	dev-perl/Catalyst-View-TT
 	dev-perl/DBD-SQLite
 	dev-perl/DBIx-Class
@@ -39,6 +39,6 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 

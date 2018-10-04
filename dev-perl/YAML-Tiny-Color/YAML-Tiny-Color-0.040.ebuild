@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Scalar-Util-LooksLikeNumber
-	>=virtual/perl-Term-ANSIColor-3.000
+	virtual/perl-Term-ANSIColor
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	virtual/perl-File-Spec
 	virtual/perl-IO

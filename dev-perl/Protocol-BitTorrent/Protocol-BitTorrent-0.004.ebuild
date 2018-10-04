@@ -19,14 +19,14 @@ RDEPEND="
 	dev-perl/HTTP-Message
 	>=dev-perl/Try-Tiny-0.110
 	dev-perl/URI
-	>=virtual/perl-Digest-SHA-5.630
+	virtual/perl-Digest-SHA
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/File-Slurp
 	dev-perl/Test-Fatal
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

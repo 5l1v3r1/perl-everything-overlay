@@ -24,11 +24,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
 

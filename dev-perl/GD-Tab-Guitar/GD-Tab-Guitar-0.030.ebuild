@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Class-Accessor
 	>=dev-perl/GD-2.300
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Test-Simple
 "

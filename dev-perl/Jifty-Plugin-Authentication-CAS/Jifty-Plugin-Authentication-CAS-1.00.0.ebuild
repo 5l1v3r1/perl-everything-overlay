@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Authen-CAS-Client
 	dev-perl/Jifty
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

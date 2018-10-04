@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/MIME-Base64-URLSafe
 	dev-perl/Regexp-Common
 	dev-perl/Regexp-Common-Email-Address
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

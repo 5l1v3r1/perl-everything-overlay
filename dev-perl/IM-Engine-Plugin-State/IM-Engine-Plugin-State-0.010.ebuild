@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Moose
 	>=dev-perl/MooseX-ABC-0.020
 	dev-perl/Test-Exception
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

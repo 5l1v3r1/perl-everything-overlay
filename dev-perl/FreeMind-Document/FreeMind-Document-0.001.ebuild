@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Test-LongString-0.150
 	>=dev-perl/Type-Tiny-0.000.08
 	>=dev-perl/XML-LibXML-Augment-0.001
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

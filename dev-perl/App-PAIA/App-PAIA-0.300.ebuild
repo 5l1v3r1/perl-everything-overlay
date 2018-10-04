@@ -19,8 +19,8 @@ RDEPEND="
 	>=dev-perl/IO-Socket-SSL-1.560
 	>=dev-perl/Net-SSLeay-1.490
 	>=dev-perl/URI-1.590
-	>=virtual/perl-HTTP-Tiny-0.024
-	>=virtual/perl-JSON-PP-2.271.030
+	virtual/perl-HTTP-Tiny
+	virtual/perl-JSON-PP
 "
 DEPEND="
 	${RDEPEND}

@@ -37,8 +37,8 @@ RDEPEND="
 	dev-perl/WWW-Mechanize-Cached
 	dev-perl/XML-RSS
 	dev-perl/XML-XPath
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	>=virtual/perl-Scalar-List-Utils-1.210
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}

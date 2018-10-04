@@ -22,9 +22,9 @@ RDEPEND="
 	dev-perl/XML-LibXML-PrettyPrint
 	dev-perl/common-sense
 	dev-perl/namespace-autoclean
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 	virtual/perl-Text-Tabs+Wrap
 "
 DEPEND="

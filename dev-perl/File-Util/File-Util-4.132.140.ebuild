@@ -22,11 +22,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-NoWarnings
 	virtual/perl-AutoLoader
 	virtual/perl-File-Temp
 	virtual/perl-Test
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 

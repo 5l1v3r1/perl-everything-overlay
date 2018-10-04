@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Cache-Cache
 	>=dev-perl/Jifty-0.704.160
 	dev-perl/perl-ldap
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

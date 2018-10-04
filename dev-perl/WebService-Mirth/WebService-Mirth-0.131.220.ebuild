@@ -26,7 +26,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Class-Monkey
 	dev-perl/HTTP-Daemon-SSL
 	dev-perl/HTTP-Request-Params

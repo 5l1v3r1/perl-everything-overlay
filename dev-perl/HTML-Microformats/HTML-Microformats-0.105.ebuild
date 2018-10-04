@@ -29,10 +29,10 @@ RDEPEND="
 	dev-perl/Module-Pluggable
 	>=dev-perl/RDF-Trine-0.130
 	dev-perl/Role-Commons
-	dev-perl/URI
+	>=dev-perl/URI-1.300
 	>=dev-perl/XML-LibXML-1.600
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

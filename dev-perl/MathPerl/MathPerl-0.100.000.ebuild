@@ -20,9 +20,9 @@ RDEPEND="
 	>=dev-perl/SDL-2.546
 	>=dev-perl/Test-Exception-0.320
 	>=dev-perl/Test-Number-Delta-1.060
-	>=virtual/perl-CPAN-Meta-2.150.005
-	>=virtual/perl-ExtUtils-MakeMaker-7.040
-	>=virtual/perl-Time-HiRes-1.972.600
+	virtual/perl-CPAN-Meta
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Time-HiRes
 "
 DEPEND="
 	${RDEPEND}

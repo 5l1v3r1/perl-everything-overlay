@@ -27,7 +27,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Dir-Self
 	dev-perl/Path-Tiny
@@ -35,6 +35,6 @@ DEPEND="
 	>=dev-perl/Test-Fatal-0.010
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

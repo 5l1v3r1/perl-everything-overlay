@@ -18,11 +18,11 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/AnyEvent-Redis-0.230
 	>=dev-perl/Redis-1.904
-	>=virtual/perl-Carp-1.200
+	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Requires
 	virtual/perl-File-Temp
 	virtual/perl-Test-Simple

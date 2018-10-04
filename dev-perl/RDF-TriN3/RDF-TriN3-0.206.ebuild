@@ -24,9 +24,9 @@ RDEPEND="
 	dev-perl/libwww-perl
 	dev-perl/namespace-clean
 	virtual/perl-Encode
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="

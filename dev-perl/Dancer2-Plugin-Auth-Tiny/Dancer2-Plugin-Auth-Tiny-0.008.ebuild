@@ -16,17 +16,17 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dancer2-0.154.000
+	dev-perl/Dancer2
 	virtual/perl-Carp
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Cookies
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	virtual/perl-File-Spec
-	>=virtual/perl-File-Temp-0.190
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-File-Temp
+	virtual/perl-Test-Simple
 "
 

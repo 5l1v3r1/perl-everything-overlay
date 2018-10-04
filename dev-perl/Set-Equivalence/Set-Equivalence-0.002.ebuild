@@ -19,8 +19,8 @@ RDEPEND="
 	>=dev-perl/Test-Fatal-0.010
 	>=dev-perl/Test-Requires-0.060
 	>=dev-perl/Type-Tiny-0.016
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

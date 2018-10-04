@@ -24,8 +24,8 @@ RDEPEND="
 	>=dev-perl/RDF-RDFa-Parser-1.097
 	>=dev-perl/RDF-TrineX-Functions-0.001
 	>=dev-perl/Web-ID-1.900
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

@@ -29,8 +29,8 @@ RDEPEND="
 	dev-perl/URI
 	>=dev-perl/XML-LibXML-1.940
 	dev-perl/namespace-clean
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

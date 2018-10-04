@@ -33,6 +33,6 @@ DEPEND="
 	dev-perl/lib
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.890
+	virtual/perl-Test-Simple
 "
 

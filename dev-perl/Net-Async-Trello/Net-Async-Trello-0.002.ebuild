@@ -41,11 +41,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.060
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=dev-perl/Test-CheckDeps-0.010
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
 

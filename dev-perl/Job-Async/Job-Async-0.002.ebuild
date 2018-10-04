@@ -23,12 +23,12 @@ RDEPEND="
 	>=dev-perl/Ryu-Async-0.006
 	dev-perl/curry
 	dev-perl/namespace-clean
-	>=virtual/perl-Scalar-List-Utils-1.290
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=dev-perl/Test-CheckDeps-0.010
 	dev-perl/Test-Deep
@@ -36,6 +36,6 @@ DEPEND="
 	dev-perl/Test-HexString
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

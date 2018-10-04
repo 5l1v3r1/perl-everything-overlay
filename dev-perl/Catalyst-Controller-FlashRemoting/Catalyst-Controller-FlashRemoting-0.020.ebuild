@@ -18,7 +18,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.700
 	>=dev-perl/Data-AMF-0.010.010
 	dev-perl/HTTP-Message
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

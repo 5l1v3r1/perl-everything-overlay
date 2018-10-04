@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Module-Install
 	dev-perl/Text-MicroTemplate
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

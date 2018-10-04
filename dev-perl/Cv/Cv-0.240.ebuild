@@ -15,9 +15,9 @@ KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 RDEPEND="
-	>=virtual/perl-ExtUtils-MakeMaker-6.620
-	>=virtual/perl-ExtUtils-ParseXS-2.220
-	>=virtual/perl-Getopt-Long-2.380
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-ExtUtils-ParseXS
+	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}

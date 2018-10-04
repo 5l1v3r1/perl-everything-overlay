@@ -24,13 +24,13 @@ RDEPEND="
 	>=dev-perl/curry-1.001
 	dev-perl/indirect
 	>=dev-perl/namespace-clean-0.270
-	>=virtual/perl-Encode-1.980
-	>=virtual/perl-Scalar-List-Utils-1.470
+	virtual/perl-Encode
+	virtual/perl-Scalar-List-Utils
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	>=dev-perl/Log-Any-Adapter-TAP-0.003.002
 	>=dev-perl/Test-CheckDeps-0.010
@@ -41,6 +41,6 @@ DEPEND="
 	>=dev-perl/Test-Warnings-0.024
 	virtual/perl-File-Spec
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

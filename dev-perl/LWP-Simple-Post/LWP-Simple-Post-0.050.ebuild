@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/libwww-perl-0.010
-	>=virtual/perl-Test-Simple-0.010
-	>=virtual/perl-parent-0.010
+	virtual/perl-Test-Simple
+	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

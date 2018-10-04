@@ -22,14 +22,14 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Algorithm-Numerical-Shuffle
 	dev-perl/List-AllUtils
 	dev-perl/String-Random
 	virtual/perl-Carp
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Term-ANSIColor-2.010
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Term-ANSIColor
+	virtual/perl-Test-Simple
 "
 

@@ -16,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	virtual/perl-Test-Harness
-	>=virtual/perl-Test-Simple-0.860
+	virtual/perl-Test-Simple
 	virtual/perl-version
 "
 DEPEND="

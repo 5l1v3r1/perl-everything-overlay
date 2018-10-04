@@ -16,14 +16,14 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Moo-1.006.000
-	dev-perl/Type-Tiny
+	>=dev-perl/Type-Tiny-0.030
 	dev-perl/match-simple
-	>=virtual/perl-Scalar-List-Utils-1.400
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

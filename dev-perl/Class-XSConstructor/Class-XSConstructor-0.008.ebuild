@@ -17,14 +17,14 @@ IUSE="test"
 RDEPEND="
 	>=dev-perl/Exporter-Tiny-1.000.000
 	>=dev-perl/Ref-Util-0.100
-	>=virtual/perl-Scalar-List-Utils-1.450
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 

@@ -21,14 +21,14 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Dist-Zilla
 	dev-perl/Test-Most
 	virtual/perl-Carp
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 	virtual/perl-autodie
 "
 

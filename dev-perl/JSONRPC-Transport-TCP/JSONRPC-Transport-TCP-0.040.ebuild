@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/JSON
 	>=dev-perl/Test-TCP-0.080
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

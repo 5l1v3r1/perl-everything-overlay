@@ -18,7 +18,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.550.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/CPAN-Test-Dummy-Perl5-Make
 "
 

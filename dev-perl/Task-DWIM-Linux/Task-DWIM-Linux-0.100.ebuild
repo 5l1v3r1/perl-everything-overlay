@@ -40,13 +40,13 @@ RDEPEND="
 	>=dev-perl/Web-Feed-0.020
 	>=dev-perl/YAML-0.900
 	>=dev-perl/libwww-perl-6.000
-	>=virtual/perl-Encode-2.590
-	>=virtual/perl-Storable-2.450
-	>=virtual/perl-Test-Simple-1.001.003
+	virtual/perl-Encode
+	virtual/perl-Storable
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Perl-Version-1.011
 "
 

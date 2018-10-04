@@ -18,10 +18,10 @@ RDEPEND="
 	>=dev-perl/URI-1.540
 	>=dev-perl/libwww-perl-5.835
 	virtual/perl-Encode
-	>=virtual/perl-Test-Simple-0.860
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

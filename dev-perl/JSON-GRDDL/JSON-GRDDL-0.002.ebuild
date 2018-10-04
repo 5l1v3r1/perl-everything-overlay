@@ -20,12 +20,12 @@ RDEPEND="
 	>=dev-perl/RDF-Trine-0.112
 	dev-perl/Role-Commons
 	dev-perl/libwww-perl
-	>=virtual/perl-Carp-1.000
+	virtual/perl-Carp
 	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

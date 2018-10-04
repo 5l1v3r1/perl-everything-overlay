@@ -20,16 +20,16 @@ RDEPEND="
 	>=dev-perl/DBI-1.600
 	>=dev-perl/DBIx-TableLoader-CSV-1.102
 	>=dev-perl/Moo-1.000
-	>=virtual/perl-Getopt-Long-2.340
+	virtual/perl-Getopt-Long
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Try-Tiny-0.090
 	virtual/perl-Exporter
 	virtual/perl-File-Spec
-	>=virtual/perl-File-Temp-0.190
+	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

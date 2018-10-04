@@ -26,12 +26,12 @@ RDEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 	virtual/perl-autodie
 	virtual/perl-parent
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

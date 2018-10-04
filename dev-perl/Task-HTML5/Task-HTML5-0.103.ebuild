@@ -23,8 +23,8 @@ RDEPEND="
 	>=dev-perl/HTML-HTML5-Writer-0.104
 	>=dev-perl/XML-LibXML-1.700
 	>=dev-perl/XML-LibXML-PrettyPrint-0.001
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

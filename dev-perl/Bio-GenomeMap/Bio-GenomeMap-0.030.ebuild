@@ -19,11 +19,11 @@ RDEPEND="
 	>=dev-perl/DBI-1.622
 	>=dev-perl/Dist-Zilla-Plugin-PodWeaver-3.101.641
 	>=dev-perl/Moose-2.060.400
-	>=virtual/perl-Carp-1.260
+	virtual/perl-Carp
 	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

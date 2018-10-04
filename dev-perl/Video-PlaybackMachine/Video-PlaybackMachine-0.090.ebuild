@@ -43,7 +43,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-MockObject
 	dev-perl/lib
 	virtual/perl-Data-Dumper

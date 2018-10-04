@@ -21,7 +21,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-7.110.100
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/HTTP-Message
 	dev-perl/Plack
 	dev-perl/Test-Memory-Cycle

@@ -16,11 +16,11 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Filter
-	>=virtual/perl-Devel-PPPort-3.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
-	>=virtual/perl-ExtUtils-ParseXS-2.200
+	virtual/perl-Devel-PPPort
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-ExtUtils-ParseXS
 	virtual/perl-Test-Simple
-	>=virtual/perl-XSLoader-0.080
+	virtual/perl-XSLoader
 "
 DEPEND="
 	${RDEPEND}

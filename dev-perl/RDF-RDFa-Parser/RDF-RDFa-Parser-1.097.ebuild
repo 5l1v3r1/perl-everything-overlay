@@ -27,11 +27,11 @@ RDEPEND="
 	dev-perl/common-sense
 	dev-perl/libwww-perl
 	virtual/perl-Carp
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-File-Temp-0.170
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
 	virtual/perl-Storable
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 	virtual/perl-parent
 "
 DEPEND="

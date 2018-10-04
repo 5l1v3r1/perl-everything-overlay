@@ -23,7 +23,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	>=dev-perl/XML-Atom-0.370
 	>=dev-perl/XML-Feed-0.430
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

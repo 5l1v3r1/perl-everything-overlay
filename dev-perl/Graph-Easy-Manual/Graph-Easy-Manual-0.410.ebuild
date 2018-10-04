@@ -17,10 +17,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Graph-Easy-0.630
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-File-Spec-3.010
-	>=virtual/perl-Pod-Simple-3.040
-	>=virtual/perl-Test-Simple-0.620
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
+	virtual/perl-Pod-Simple
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

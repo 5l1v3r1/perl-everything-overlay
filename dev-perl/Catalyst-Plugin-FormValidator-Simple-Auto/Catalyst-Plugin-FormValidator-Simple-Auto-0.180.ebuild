@@ -20,7 +20,7 @@ RDEPEND="
 	>=dev-perl/FormValidator-Simple-0.200
 	dev-perl/UNIVERSAL-isa
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

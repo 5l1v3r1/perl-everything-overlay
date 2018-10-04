@@ -16,17 +16,17 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Dist-Zilla-4.000
+	dev-perl/Dist-Zilla
 	dev-perl/Git-DescribeVersion
 	dev-perl/Moose
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Test-MockObject-1.090
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

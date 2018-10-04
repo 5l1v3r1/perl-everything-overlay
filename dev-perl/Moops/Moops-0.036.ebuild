@@ -33,13 +33,13 @@ RDEPEND="
 	>=dev-perl/namespace-autoclean-0.200
 	dev-perl/strictures
 	>=dev-perl/true-0.180
-	>=virtual/perl-Scalar-List-Utils-1.400
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Fatal
 	dev-perl/Test-Requires
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-Test-Simple
 "
 

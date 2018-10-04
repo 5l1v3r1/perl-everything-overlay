@@ -21,9 +21,9 @@ RDEPEND="
 	>=dev-perl/RDF-Trine-1.000
 	dev-perl/Role-Commons
 	>=dev-perl/XML-LibXML-1.600
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

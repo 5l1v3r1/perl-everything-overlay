@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/HTML-Scrubber
 	>=dev-perl/Jifty-0.904.220
 	dev-perl/Text-WikiFormat
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

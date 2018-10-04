@@ -19,11 +19,11 @@ RDEPEND="
 	>=dev-perl/Mojolicious-4.500
 	>=dev-perl/Mojolicious-Command-deploy-0.010
 	>=dev-perl/Net-Heroku-0.080
-	>=virtual/perl-File-Path-2.080
-	>=virtual/perl-IPC-Cmd-0.780
+	virtual/perl-File-Path
+	virtual/perl-IPC-Cmd
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

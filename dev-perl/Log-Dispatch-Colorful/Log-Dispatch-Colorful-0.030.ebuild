@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/IO-stringy
 	dev-perl/Log-Dispatch
 	dev-perl/Params-Validate
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

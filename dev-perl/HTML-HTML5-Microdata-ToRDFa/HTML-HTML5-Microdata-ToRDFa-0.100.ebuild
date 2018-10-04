@@ -19,9 +19,9 @@ RDEPEND="
 	dev-perl/HTML-HTML5-Writer
 	>=dev-perl/RDF-Prefixes-0.002
 	>=dev-perl/XML-LibXML-1.700
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

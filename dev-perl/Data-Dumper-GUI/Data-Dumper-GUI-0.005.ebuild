@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Moo-1.002.000
 	>=dev-perl/Prima-1.360
 	>=dev-perl/Type-Tiny-0.012
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

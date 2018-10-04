@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.560
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Getopt-Long
 	virtual/perl-parent
 "

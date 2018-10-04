@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Net-Social
 	>=dev-perl/WWW-Facebook-API-0.4.4
-	>=virtual/perl-Test-Simple-0.620
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

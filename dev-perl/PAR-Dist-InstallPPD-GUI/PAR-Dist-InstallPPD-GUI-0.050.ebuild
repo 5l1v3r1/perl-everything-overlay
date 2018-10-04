@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/PAR-Dist-InstallPPD-0.010
 	dev-perl/Tk
 	virtual/perl-ExtUtils-Install
-	>=virtual/perl-ExtUtils-MakeMaker-6.110
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-IO
 "
 DEPEND="

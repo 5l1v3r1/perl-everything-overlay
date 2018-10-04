@@ -27,17 +27,17 @@ RDEPEND="
 	>=dev-perl/Pod-Usage-1.330
 	>=dev-perl/local-lib-2.000.018
 	virtual/perl-CPAN-Meta
-	>=virtual/perl-CPAN-Meta-Requirements-2.130
+	virtual/perl-CPAN-Meta-Requirements
 	virtual/perl-CPAN-Meta-YAML
-	>=virtual/perl-ExtUtils-Install-1.460
-	>=virtual/perl-ExtUtils-MakeMaker-6.580
+	virtual/perl-ExtUtils-Install
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-HTTP-Tiny
 	virtual/perl-IO-Compress
-	>=virtual/perl-JSON-PP-2.273.000
+	virtual/perl-JSON-PP
 	virtual/perl-Module-CoreList
 	virtual/perl-Module-Metadata
 	virtual/perl-parent
-	>=virtual/perl-version-0.770
+	virtual/perl-version
 "
 DEPEND="
 	${RDEPEND}

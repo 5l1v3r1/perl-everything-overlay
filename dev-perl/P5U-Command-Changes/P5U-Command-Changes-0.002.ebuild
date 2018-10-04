@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/Module-Info
 	dev-perl/P5U
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

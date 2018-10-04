@@ -19,10 +19,10 @@ RDEPEND="
 	>=dev-perl/Template-Toolkit-2.000
 	dev-perl/Test-Differences
 	dev-perl/Test-Most
-	>=virtual/perl-Test-Simple-0.820
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 "
 

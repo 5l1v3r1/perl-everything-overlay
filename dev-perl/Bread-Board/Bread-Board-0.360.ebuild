@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	dev-perl/Module-Runtime
-	dev-perl/Moose
+	>=dev-perl/Moose-2.120.000
 	>=dev-perl/MooseX-Clone-0.050
 	>=dev-perl/MooseX-Params-Validate-0.140
 	dev-perl/Try-Tiny

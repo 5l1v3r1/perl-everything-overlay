@@ -22,12 +22,12 @@ RDEPEND="
 	dev-perl/WWW-Mechanize
 	dev-perl/WWW-Mechanize-Cached
 	virtual/perl-Carp
-	>=virtual/perl-Storable-2.210
+	virtual/perl-Storable
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-0.360.100
-	>=virtual/perl-ExtUtils-MakeMaker-6.310
+	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	dev-perl/Devel-SimpleTrace
 	dev-perl/Find-Lib

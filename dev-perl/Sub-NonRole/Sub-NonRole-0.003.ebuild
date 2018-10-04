@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Sub-Identify
 	dev-perl/Sub-Talisman
 	dev-perl/Test-Requires
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-MockObject
 	dev-perl/libwww-perl
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

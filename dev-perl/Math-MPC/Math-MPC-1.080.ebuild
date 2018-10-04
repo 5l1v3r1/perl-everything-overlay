@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Math-MPFR-3.230
-	>=virtual/perl-ExtUtils-MakeMaker-6.580
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

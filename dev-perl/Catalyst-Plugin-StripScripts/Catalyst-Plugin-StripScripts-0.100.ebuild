@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/HTML-StripScripts-Parser
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

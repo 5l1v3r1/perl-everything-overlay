@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/POE-Component-IKC
 	dev-perl/POE-Sugar-Args
 	dev-perl/POEIKC
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

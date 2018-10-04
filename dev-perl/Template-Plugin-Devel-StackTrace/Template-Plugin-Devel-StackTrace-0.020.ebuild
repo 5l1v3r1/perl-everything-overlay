@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Devel-StackTrace
 	>=dev-perl/Template-Toolkit-2.220
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

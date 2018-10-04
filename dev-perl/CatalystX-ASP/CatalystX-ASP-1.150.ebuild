@@ -36,7 +36,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.640
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Catalyst-Plugin-Session
 	dev-perl/Catalyst-Plugin-Session-State-Cookie
 	dev-perl/Catalyst-Plugin-Session-Store-File

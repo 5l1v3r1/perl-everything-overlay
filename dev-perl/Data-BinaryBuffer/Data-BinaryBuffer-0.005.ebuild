@@ -21,11 +21,11 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	virtual/perl-ExtUtils-CBuilder
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	dev-perl/Capture-Tiny
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 

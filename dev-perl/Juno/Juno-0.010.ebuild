@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/AnyEvent-Ping
 	dev-perl/Class-Load
 	dev-perl/JSON
-	dev-perl/Moo
+	>=dev-perl/Moo-1.000.001
 	dev-perl/MooX-Types-MooseLike
 	>=dev-perl/MooseX-Role-Loggable-0.008
 	dev-perl/PerlX-Maybe
@@ -43,6 +43,6 @@ DEPEND="
 	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.940
+	virtual/perl-Test-Simple
 "
 

@@ -17,7 +17,7 @@ IUSE="test"
 RDEPEND="
 	dev-perl/Nagios-Plugin
 	dev-perl/WWW-Mechanize
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Time-HiRes
 "
 DEPEND="

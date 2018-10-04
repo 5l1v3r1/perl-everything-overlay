@@ -18,11 +18,11 @@ IUSE="test"
 RDEPEND="
 	dev-lang/perl
 	>=dev-perl/DBI-1.570
-	>=virtual/perl-File-Spec-0.820
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-File-Spec
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.480
+	virtual/perl-ExtUtils-MakeMaker
 "
 

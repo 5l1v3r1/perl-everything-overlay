@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/XML-SAX
 	dev-perl/XML-SAX-Base
 	dev-perl/YAML
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

@@ -18,7 +18,7 @@ RDEPEND="
 	dev-lang/perl
 	>=dev-perl/Jifty-0.911.170
 	dev-perl/Text-Unaccent
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Path
 "
 DEPEND="

@@ -20,7 +20,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.720
+	virtual/perl-ExtUtils-MakeMaker
 	>=dev-perl/Mock-Sub-1.070
 	virtual/perl-Test-Simple
 "

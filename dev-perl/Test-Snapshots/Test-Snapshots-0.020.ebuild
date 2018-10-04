@@ -20,11 +20,11 @@ RDEPEND="
 	dev-perl/Text-Diff
 	virtual/perl-Carp
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-File-Spec-3.270.100
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-File-Spec
 	virtual/perl-File-Temp
 	virtual/perl-Scalar-List-Utils
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

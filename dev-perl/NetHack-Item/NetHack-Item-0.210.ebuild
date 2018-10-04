@@ -21,10 +21,10 @@ RDEPEND="
 	>=dev-perl/NetHack-Monster-Spoiler-0.020
 	>=dev-perl/Set-Object-1.000
 	>=dev-perl/Test-Fatal-0.007
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

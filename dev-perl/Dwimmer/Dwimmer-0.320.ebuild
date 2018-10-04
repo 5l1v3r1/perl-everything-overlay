@@ -45,7 +45,7 @@ DEPEND="
 	${RDEPEND}
 	dev-perl/File-Copy-Recursive
 	dev-perl/File-Find-Rule
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	dev-perl/Test-Deep
 	dev-perl/Test-Differences

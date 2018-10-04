@@ -25,13 +25,13 @@ RDEPEND="
 	>=dev-perl/Test-Exception-0.270
 	>=dev-perl/UUID-Random-0.040
 	>=dev-perl/YAML-0.680
-	>=virtual/perl-MIME-Base64-3.070
-	>=virtual/perl-Scalar-List-Utils-1.210
-	>=virtual/perl-Test-Harness-3.140
+	virtual/perl-MIME-Base64
+	virtual/perl-Scalar-List-Utils
+	virtual/perl-Test-Harness
 	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 "
 

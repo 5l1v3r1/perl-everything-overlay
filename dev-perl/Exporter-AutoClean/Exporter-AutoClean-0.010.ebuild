@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/B-Hooks-EndOfScope
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

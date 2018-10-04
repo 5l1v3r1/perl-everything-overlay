@@ -22,12 +22,12 @@ RDEPEND="
 	>=dev-perl/Moose-2.120
 	>=dev-perl/REST-Client-273.000
 	>=dev-perl/namespace-autoclean-0.200
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/ExtUtils-MakeMaker-CPANfile-0.080
 	>=dev-perl/Test-Exception-0.350
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 

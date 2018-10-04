@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	dev-lang/perl
-	>=dev-perl/Log-Any-0.110
+	>=dev-perl/Log-Any-0.150
 	>=dev-perl/Parse-RecDescent-1.965.001
 	dev-perl/SelfLoader
 	>=dev-perl/Template-Toolkit-2.220
@@ -31,7 +31,7 @@ RDEPEND="
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.620
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 

@@ -22,9 +22,9 @@ RDEPEND="
 	>=dev-perl/RDF-Trine-0.135
 	dev-perl/URI
 	>=dev-perl/namespace-clean-0.190
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-MIME-Base64
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

@@ -25,7 +25,7 @@ RDEPEND="
 	dev-perl/URI
 	dev-perl/YAML
 	dev-perl/libwww-perl
-	>=virtual/perl-Encode-2.410
+	virtual/perl-Encode
 	virtual/perl-Test-Simple
 "
 DEPEND="

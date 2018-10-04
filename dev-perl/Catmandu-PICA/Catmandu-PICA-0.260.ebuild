@@ -26,8 +26,8 @@ DEPEND="
 	dev-perl/Module-Build
 	>=dev-perl/Test-Exception-0.430
 	>=dev-perl/Test-XML-0.080
-	>=virtual/perl-File-Temp-0.230.400
-	>=virtual/perl-IO-1.140
-	>=virtual/perl-Test-Simple-1.001.003
+	virtual/perl-File-Temp
+	virtual/perl-IO
+	virtual/perl-Test-Simple
 "
 

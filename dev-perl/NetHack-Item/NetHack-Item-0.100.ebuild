@@ -22,7 +22,7 @@ RDEPEND="
 	>=dev-perl/NetHack-Monster-Spoiler-0.020
 	>=dev-perl/Set-Object-1.000
 	>=dev-perl/Test-Exception-0.270
-	>=virtual/perl-Test-Simple-0.860
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

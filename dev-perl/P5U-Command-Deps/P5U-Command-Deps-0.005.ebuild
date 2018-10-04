@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Path-Class
 	dev-perl/Path-Class-Rule
 	dev-perl/Perl-PrereqScanner
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

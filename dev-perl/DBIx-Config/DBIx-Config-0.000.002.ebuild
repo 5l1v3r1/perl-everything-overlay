@@ -20,8 +20,8 @@ RDEPEND="
 	dev-perl/DBI
 	dev-perl/File-HomeDir
 	>=dev-perl/Test-MockObject-1.090
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-Test-Simple-0.420
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

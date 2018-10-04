@@ -17,8 +17,8 @@ IUSE="test"
 
 RDEPEND="
 	dev-perl/Array-RefElem
-	>=virtual/perl-ExtUtils-MakeMaker-7.340
-	>=virtual/perl-Test-Simple-0.470
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

@@ -21,7 +21,7 @@ RDEPEND="
 	dev-perl/Test-UseAllModules
 	dev-perl/URI
 	dev-perl/libwww-perl
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

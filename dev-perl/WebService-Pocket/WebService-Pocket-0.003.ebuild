@@ -24,11 +24,11 @@ RDEPEND="
 	>=dev-perl/Net-SSLeay-1.490
 	dev-perl/Try-Tiny
 	virtual/perl-Data-Dumper
-	>=virtual/perl-HTTP-Tiny-0.014
+	virtual/perl-HTTP-Tiny
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
 	virtual/perl-IO
 	virtual/perl-Test-Simple

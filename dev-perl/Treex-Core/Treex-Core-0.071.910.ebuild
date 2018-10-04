@@ -50,7 +50,7 @@ RDEPEND="
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/File-ShareDir-Install-0.030
-	>=virtual/perl-ExtUtils-MakeMaker-6.300
+	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Test-Output
 	virtual/perl-Test-Simple
 "

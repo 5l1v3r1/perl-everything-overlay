@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/Catalyst-Runtime-5.800.160
 	>=dev-perl/DBIx-Class-0.081.150
 	dev-perl/Test-Warn
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

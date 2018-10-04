@@ -18,8 +18,8 @@ RDEPEND="
 	>=dev-perl/HTML-HTML5-Entities-0.001
 	>=dev-perl/XML-LibXML-1.600
 	virtual/perl-Exporter
-	>=virtual/perl-ExtUtils-MakeMaker-6.590
-	>=virtual/perl-Test-Simple-0.610
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 DEPEND="
 	${RDEPEND}

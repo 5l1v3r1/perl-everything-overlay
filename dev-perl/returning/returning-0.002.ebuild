@@ -18,11 +18,11 @@ RDEPEND="
 	>=dev-perl/Scope-Upper-0.160
 	>=dev-perl/Sub-Install-0.900
 	>=dev-perl/Sub-Name-0.030
-	>=virtual/perl-Scalar-List-Utils-1.110
+	virtual/perl-Scalar-List-Utils
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-ExtUtils-MakeMaker-6.170
-	>=virtual/perl-Test-Simple-0.960
+	virtual/perl-ExtUtils-MakeMaker
+	virtual/perl-Test-Simple
 "
 

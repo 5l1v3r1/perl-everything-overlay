@@ -19,7 +19,7 @@ RDEPEND="
 	>=dev-perl/DBI-1.260
 	dev-perl/Test-Class
 	dev-perl/Test-Most
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}

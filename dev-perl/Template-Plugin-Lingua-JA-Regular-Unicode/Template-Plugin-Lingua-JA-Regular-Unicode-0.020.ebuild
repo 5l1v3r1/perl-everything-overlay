@@ -18,7 +18,7 @@ RDEPEND="
 	dev-perl/Filter
 	dev-perl/Lingua-JA-Regular-Unicode
 	dev-perl/Template-Toolkit
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="

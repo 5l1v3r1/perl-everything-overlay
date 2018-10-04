@@ -20,9 +20,9 @@ RDEPEND="
 	dev-perl/List-MoreUtils
 	dev-perl/Path-Class
 	>=dev-perl/YAML-Syck-1.000
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-File-Spec
-	>=virtual/perl-File-Temp-0.200
+	virtual/perl-File-Temp
 	virtual/perl-Test-Simple
 "
 DEPEND="

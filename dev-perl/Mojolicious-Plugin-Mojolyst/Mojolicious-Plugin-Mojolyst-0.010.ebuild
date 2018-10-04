@@ -16,10 +16,10 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Mojolicious-7.110
-	>=virtual/perl-ExtUtils-MakeMaker-6.000
+	virtual/perl-ExtUtils-MakeMaker
 "
 DEPEND="
 	${RDEPEND}
-	>=virtual/perl-Test-Simple-0.900
+	virtual/perl-Test-Simple
 "
 

@@ -19,7 +19,7 @@ RDEPEND="
 	dev-perl/Jcode
 	dev-perl/MIME-Lite
 	dev-perl/Template-Toolkit
-	>=virtual/perl-ExtUtils-MakeMaker-6.420
+	virtual/perl-ExtUtils-MakeMaker
 	virtual/perl-Test-Simple
 "
 DEPEND="
