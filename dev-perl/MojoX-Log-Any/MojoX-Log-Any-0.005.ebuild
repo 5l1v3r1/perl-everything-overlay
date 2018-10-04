@@ -29,6 +29,6 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-perl/Mojolicious
 	>=dev-perl/Test-Pod-1.510
-	>=virtual/perl-Test-Simple-1.302.067
+	virtual/perl-Test-Simple
 "
 

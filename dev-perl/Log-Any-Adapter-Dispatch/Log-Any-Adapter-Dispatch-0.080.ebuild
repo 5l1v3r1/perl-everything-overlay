@@ -23,7 +23,7 @@ DEPEND="
 	virtual/perl-ExtUtils-MakeMaker
 	dev-lang/perl
 	virtual/perl-File-Spec
-	>=virtual/perl-File-Temp-0.200
+	virtual/perl-File-Temp
 	virtual/perl-IO
 	virtual/perl-Test-Simple
 "

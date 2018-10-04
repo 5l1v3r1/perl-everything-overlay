@@ -29,6 +29,6 @@ DEPEND="
 	dev-perl/Test-Needs
 	virtual/perl-File-Spec
 	virtual/perl-Module-Metadata
-	>=virtual/perl-Test-Simple-0.880
+	virtual/perl-Test-Simple
 "
 

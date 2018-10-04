@@ -16,7 +16,7 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Log-Any-0.020
-	>=virtual/perl-IO-1.220
+	virtual/perl-IO
 "
 DEPEND="
 	${RDEPEND}

@@ -27,8 +27,8 @@ DEPEND="
 	dev-lang/perl
 	>=dev-perl/Test-Exception-0.310
 	virtual/perl-File-Spec
-	>=virtual/perl-File-Temp-0.220
+	virtual/perl-File-Temp
 	virtual/perl-IO
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

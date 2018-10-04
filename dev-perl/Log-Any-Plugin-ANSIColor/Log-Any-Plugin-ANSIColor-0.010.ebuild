@@ -16,13 +16,13 @@ IUSE="test"
 
 RDEPEND="
 	>=dev-perl/Log-Any-Plugin-0.004
-	>=virtual/perl-Term-ANSIColor-2.020
+	virtual/perl-Term-ANSIColor
 "
 DEPEND="
 	${RDEPEND}
 	>=dev-perl/Module-Build-Tiny-0.035
 	dev-perl/Log-Any
 	dev-perl/Module-Build
-	>=virtual/perl-Test-Simple-0.980
+	virtual/perl-Test-Simple
 "
 

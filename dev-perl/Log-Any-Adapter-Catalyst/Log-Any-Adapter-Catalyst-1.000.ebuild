@@ -24,6 +24,6 @@ DEPEND="
 	dev-lang/perl
 	dev-perl/Catalyst-Runtime
 	virtual/perl-File-Spec
-	>=virtual/perl-Test-Simple-0.870
+	virtual/perl-Test-Simple
 "
 
